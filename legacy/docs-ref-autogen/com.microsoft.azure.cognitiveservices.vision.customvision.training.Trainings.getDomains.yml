@@ -1,0 +1,25 @@
+### YamlMime:JavaMember
+nameWithType: Trainings.getDomains
+type: method
+members:
+- fullName: com.microsoft.azure.cognitiveservices.vision.customvision.training.Trainings.getDomains()
+  name: getDomains()
+  nameWithType: Trainings.getDomains()
+  exceptions:
+  - name: 3c87bd19
+  - name: d8f234c9
+  - name: 9b2a4515
+  returns:
+    description: <p>the List&lt;Domain&gt; object if successful. </p>
+    type: List&lt;<xref href="com.microsoft.azure.cognitiveservices.vision.customvision.training.models.Domain?alt=com.microsoft.azure.cognitiveservices.vision.customvision.training.models.Domain&text=Domain" data-throw-if-not-resolved="False"/>&gt;
+  summary: >-
+    <p>Get a list of the available domains.</p>
+
+    <p></p>
+  syntax: public List<Domain> getDomains()
+  uid: com.microsoft.azure.cognitiveservices.vision.customvision.training.Trainings.getDomains()
+uid: com.microsoft.azure.cognitiveservices.vision.customvision.training.Trainings.getDomains*
+fullName: com.microsoft.azure.cognitiveservices.vision.customvision.training.Trainings.getDomains()
+name: getDomains()
+package: com.microsoft.azure.cognitiveservices.vision.customvision.training
+metadata: {}

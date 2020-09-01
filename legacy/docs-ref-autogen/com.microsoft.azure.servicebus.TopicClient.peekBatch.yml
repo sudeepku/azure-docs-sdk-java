@@ -1,0 +1,52 @@
+### YamlMime:JavaMember
+nameWithType: TopicClient.peekBatch
+type: method
+members:
+- fullName: com.microsoft.azure.servicebus.TopicClient.peekBatch(int messageCount)
+  name: peekBatch(int messageCount)
+  nameWithType: TopicClient.peekBatch(int messageCount)
+  overridden: com.microsoft.azure.servicebus.IMessageBrowser.peekBatch(int)
+  parameters:
+  - description: <p>The number of messages. </p>
+    name: messageCount
+    type: <xref href="int?alt=int&text=int" data-throw-if-not-resolved="False"/>
+  exceptions:
+  - name: 8256ba40
+  - name: 73fec9fb
+  returns:
+    description: <p>Batch of <xref uid="com.microsoft.azure.servicebus.Message" data-throw-if-not-resolved="false">Message</xref> peeked </p>
+    type: Collection&lt;<xref href="com.microsoft.azure.servicebus.IMessage?alt=com.microsoft.azure.servicebus.IMessage&text=IMessage" data-throw-if-not-resolved="False"/>&gt;
+  summary: >-
+    <p>Reads next batch of the active messages without changing the state of the receiver or the message source.</p>
+
+    <p></p>
+  syntax: public Collection<IMessage> peekBatch(int messageCount)
+  uid: com.microsoft.azure.servicebus.TopicClient.peekBatch(int)
+- fullName: com.microsoft.azure.servicebus.TopicClient.peekBatch(long fromSequenceNumber, int messageCount)
+  name: peekBatch(long fromSequenceNumber, int messageCount)
+  nameWithType: TopicClient.peekBatch(long fromSequenceNumber, int messageCount)
+  overridden: com.microsoft.azure.servicebus.IMessageBrowser.peekBatch(long,int)
+  parameters:
+  - description: <p>The sequence number from where to read the message. </p>
+    name: fromSequenceNumber
+    type: <xref href="long?alt=long&text=long" data-throw-if-not-resolved="False"/>
+  - description: <p>The number of messages. </p>
+    name: messageCount
+    type: <xref href="int?alt=int&text=int" data-throw-if-not-resolved="False"/>
+  exceptions:
+  - name: 8256ba40
+  - name: 73fec9fb
+  returns:
+    description: <p>Batch of <xref uid="com.microsoft.azure.servicebus.Message" data-throw-if-not-resolved="false">Message</xref> peeked </p>
+    type: Collection&lt;<xref href="com.microsoft.azure.servicebus.IMessage?alt=com.microsoft.azure.servicebus.IMessage&text=IMessage" data-throw-if-not-resolved="False"/>&gt;
+  summary: >-
+    <p>Reads next batch of the active messages without changing the state of the receiver or the message source.</p>
+
+    <p></p>
+  syntax: public Collection<IMessage> peekBatch(long fromSequenceNumber, int messageCount)
+  uid: com.microsoft.azure.servicebus.TopicClient.peekBatch(long,int)
+uid: com.microsoft.azure.servicebus.TopicClient.peekBatch*
+fullName: com.microsoft.azure.servicebus.TopicClient.peekBatch(int messageCount)
+name: peekBatch(int messageCount)
+package: com.microsoft.azure.servicebus
+metadata: {}

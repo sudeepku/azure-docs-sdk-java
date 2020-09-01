@@ -1,0 +1,32 @@
+### YamlMime:JavaMember
+nameWithType: DiagnosticSettingsInner.get
+type: method
+members:
+- fullName: com.microsoft.azure.management.monitor.implementation.DiagnosticSettingsInner.get(String resourceUri, String name)
+  name: get(String resourceUri, String name)
+  nameWithType: DiagnosticSettingsInner.get(String resourceUri, String name)
+  parameters:
+  - description: <p>The identifier of the resource. </p>
+    name: resourceUri
+    type: <xref href="String?alt=String&text=String" data-throw-if-not-resolved="False"/>
+  - description: <p>The name of the diagnostic setting. </p>
+    name: name
+    type: <xref href="String?alt=String&text=String" data-throw-if-not-resolved="False"/>
+  exceptions:
+  - name: 3c87bd19
+  - name: 00ad4777
+  - name: 9b2a4515
+  returns:
+    description: <p>the DiagnosticSettingsResourceInner object if successful. </p>
+    type: <xref href="com.microsoft.azure.management.monitor.implementation.DiagnosticSettingsResourceInner?alt=com.microsoft.azure.management.monitor.implementation.DiagnosticSettingsResourceInner&text=DiagnosticSettingsResourceInner" data-throw-if-not-resolved="False"/>
+  summary: >-
+    <p>Gets the active diagnostic settings for the specified resource.</p>
+
+    <p></p>
+  syntax: public DiagnosticSettingsResourceInner get(String resourceUri, String name)
+  uid: com.microsoft.azure.management.monitor.implementation.DiagnosticSettingsInner.get(String,String)
+uid: com.microsoft.azure.management.monitor.implementation.DiagnosticSettingsInner.get*
+fullName: com.microsoft.azure.management.monitor.implementation.DiagnosticSettingsInner.get(String resourceUri, String name)
+name: get(String resourceUri, String name)
+package: com.microsoft.azure.management.monitor.implementation
+metadata: {}

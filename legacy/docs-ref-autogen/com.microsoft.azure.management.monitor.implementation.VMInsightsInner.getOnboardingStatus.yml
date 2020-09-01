@@ -1,0 +1,29 @@
+### YamlMime:JavaMember
+nameWithType: VMInsightsInner.getOnboardingStatus
+type: method
+members:
+- fullName: com.microsoft.azure.management.monitor.implementation.VMInsightsInner.getOnboardingStatus(String resourceUri)
+  name: getOnboardingStatus(String resourceUri)
+  nameWithType: VMInsightsInner.getOnboardingStatus(String resourceUri)
+  parameters:
+  - description: <p>The fully qualified Azure Resource manager identifier of the resource, or scope, whose status to retrieve. </p>
+    name: resourceUri
+    type: <xref href="String?alt=String&text=String" data-throw-if-not-resolved="False"/>
+  exceptions:
+  - name: 3c87bd19
+  - name: eab850ab
+  - name: 9b2a4515
+  returns:
+    description: <p>the VMInsightsOnboardingStatusInner object if successful. </p>
+    type: <xref href="com.microsoft.azure.management.monitor.implementation.VMInsightsOnboardingStatusInner?alt=com.microsoft.azure.management.monitor.implementation.VMInsightsOnboardingStatusInner&text=VMInsightsOnboardingStatusInner" data-throw-if-not-resolved="False"/>
+  summary: >-
+    <p>Retrieves the VM Insights onboarding status for the specified resource or resource scope.</p>
+
+    <p></p>
+  syntax: public VMInsightsOnboardingStatusInner getOnboardingStatus(String resourceUri)
+  uid: com.microsoft.azure.management.monitor.implementation.VMInsightsInner.getOnboardingStatus(String)
+uid: com.microsoft.azure.management.monitor.implementation.VMInsightsInner.getOnboardingStatus*
+fullName: com.microsoft.azure.management.monitor.implementation.VMInsightsInner.getOnboardingStatus(String resourceUri)
+name: getOnboardingStatus(String resourceUri)
+package: com.microsoft.azure.management.monitor.implementation
+metadata: {}

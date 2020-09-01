@@ -1,0 +1,38 @@
+### YamlMime:JavaMember
+nameWithType: WebhooksInner.update
+type: method
+members:
+- fullName: com.microsoft.azure.management.containerregistry.implementation.WebhooksInner.update(String resourceGroupName, String registryName, String webhookName, WebhookUpdateParameters webhookUpdateParameters)
+  name: update(String resourceGroupName, String registryName, String webhookName, WebhookUpdateParameters webhookUpdateParameters)
+  nameWithType: WebhooksInner.update(String resourceGroupName, String registryName, String webhookName, WebhookUpdateParameters webhookUpdateParameters)
+  parameters:
+  - description: <p>The name of the resource group to which the container registry belongs. </p>
+    name: resourceGroupName
+    type: <xref href="String?alt=String&text=String" data-throw-if-not-resolved="False"/>
+  - description: <p>The name of the container registry. </p>
+    name: registryName
+    type: <xref href="String?alt=String&text=String" data-throw-if-not-resolved="False"/>
+  - description: <p>The name of the webhook. </p>
+    name: webhookName
+    type: <xref href="String?alt=String&text=String" data-throw-if-not-resolved="False"/>
+  - description: <p>The parameters for updating a webhook. </p>
+    name: webhookUpdateParameters
+    type: <xref href="com.microsoft.azure.management.containerregistry.WebhookUpdateParameters?alt=com.microsoft.azure.management.containerregistry.WebhookUpdateParameters&text=WebhookUpdateParameters" data-throw-if-not-resolved="False"/>
+  exceptions:
+  - name: 3c87bd19
+  - name: dc385fd4
+  - name: 9b2a4515
+  returns:
+    description: <p>the WebhookInner object if successful. </p>
+    type: <xref href="com.microsoft.azure.management.containerregistry.implementation.WebhookInner?alt=com.microsoft.azure.management.containerregistry.implementation.WebhookInner&text=WebhookInner" data-throw-if-not-resolved="False"/>
+  summary: >-
+    <p>Updates a webhook with the specified parameters.</p>
+
+    <p></p>
+  syntax: public WebhookInner update(String resourceGroupName, String registryName, String webhookName, WebhookUpdateParameters webhookUpdateParameters)
+  uid: com.microsoft.azure.management.containerregistry.implementation.WebhooksInner.update(String,String,String,WebhookUpdateParameters)
+uid: com.microsoft.azure.management.containerregistry.implementation.WebhooksInner.update*
+fullName: com.microsoft.azure.management.containerregistry.implementation.WebhooksInner.update(String resourceGroupName, String registryName, String webhookName, WebhookUpdateParameters webhookUpdateParameters)
+name: update(String resourceGroupName, String registryName, String webhookName, WebhookUpdateParameters webhookUpdateParameters)
+package: com.microsoft.azure.management.containerregistry.implementation
+metadata: {}

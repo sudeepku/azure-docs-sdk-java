@@ -1,0 +1,34 @@
+### YamlMime:JavaMember
+nameWithType: ManagementClient.updateSubscription
+type: method
+members:
+- fullName: com.microsoft.azure.servicebus.management.ManagementClient.updateSubscription(SubscriptionDescription subscriptionDescription)
+  name: updateSubscription(SubscriptionDescription subscriptionDescription)
+  nameWithType: ManagementClient.updateSubscription(SubscriptionDescription subscriptionDescription)
+  parameters:
+  - description: <p>- A <xref uid="com.microsoft.azure.servicebus.management.SubscriptionDescription" data-throw-if-not-resolved="false">SubscriptionDescription</xref> object describing the attributes with which the subscription will be updated. </p>
+    name: subscriptionDescription
+    type: <xref href="com.microsoft.azure.servicebus.management.SubscriptionDescription?alt=com.microsoft.azure.servicebus.management.SubscriptionDescription&text=SubscriptionDescription" data-throw-if-not-resolved="False"/>
+  exceptions:
+  - name: 6d99fa63
+  - name: 3c87bd19
+  - name: a19dd706
+  - name: 312761a3
+  - name: 9d4598ba
+  - name: 73fec9fb
+  - name: 1b9054fd
+  - name: 8256ba40
+  returns:
+    description: >-
+      <p>
+
+        <xref uid="com.microsoft.azure.servicebus.management.SubscriptionDescription" data-throw-if-not-resolved="false">SubscriptionDescription</xref> of the updated subscription. </p>
+    type: <xref href="com.microsoft.azure.servicebus.management.SubscriptionDescription?alt=com.microsoft.azure.servicebus.management.SubscriptionDescription&text=SubscriptionDescription" data-throw-if-not-resolved="False"/>
+  summary: <p>Updates an existing subscription. </p>
+  syntax: public SubscriptionDescription updateSubscription(SubscriptionDescription subscriptionDescription)
+  uid: com.microsoft.azure.servicebus.management.ManagementClient.updateSubscription(SubscriptionDescription)
+uid: com.microsoft.azure.servicebus.management.ManagementClient.updateSubscription*
+fullName: com.microsoft.azure.servicebus.management.ManagementClient.updateSubscription(SubscriptionDescription subscriptionDescription)
+name: updateSubscription(SubscriptionDescription subscriptionDescription)
+package: com.microsoft.azure.servicebus.management
+metadata: {}

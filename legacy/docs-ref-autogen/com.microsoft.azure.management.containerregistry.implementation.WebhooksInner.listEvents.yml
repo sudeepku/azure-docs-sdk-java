@@ -1,0 +1,35 @@
+### YamlMime:JavaMember
+nameWithType: WebhooksInner.listEvents
+type: method
+members:
+- fullName: com.microsoft.azure.management.containerregistry.implementation.WebhooksInner.listEvents(final String resourceGroupName, final String registryName, final String webhookName)
+  name: listEvents(final String resourceGroupName, final String registryName, final String webhookName)
+  nameWithType: WebhooksInner.listEvents(final String resourceGroupName, final String registryName, final String webhookName)
+  parameters:
+  - description: <p>The name of the resource group to which the container registry belongs. </p>
+    name: resourceGroupName
+    type: <xref href="final+String?alt=final String&text=final+String" data-throw-if-not-resolved="False"/>
+  - description: <p>The name of the container registry. </p>
+    name: registryName
+    type: <xref href="final+String?alt=final String&text=final+String" data-throw-if-not-resolved="False"/>
+  - description: <p>The name of the webhook. </p>
+    name: webhookName
+    type: <xref href="final+String?alt=final String&text=final+String" data-throw-if-not-resolved="False"/>
+  exceptions:
+  - name: 3c87bd19
+  - name: dc385fd4
+  - name: 9b2a4515
+  returns:
+    description: <p>the PagedList&lt;EventInner&gt; object if successful. </p>
+    type: PagedList&lt;<xref href="com.microsoft.azure.management.containerregistry.implementation.EventInner?alt=com.microsoft.azure.management.containerregistry.implementation.EventInner&text=EventInner" data-throw-if-not-resolved="False"/>&gt;
+  summary: >-
+    <p>Lists recent events for the specified webhook.</p>
+
+    <p></p>
+  syntax: public PagedList<EventInner> listEvents(final String resourceGroupName, final String registryName, final String webhookName)
+  uid: com.microsoft.azure.management.containerregistry.implementation.WebhooksInner.listEvents(final String,final String,final String)
+uid: com.microsoft.azure.management.containerregistry.implementation.WebhooksInner.listEvents*
+fullName: com.microsoft.azure.management.containerregistry.implementation.WebhooksInner.listEvents(final String resourceGroupName, final String registryName, final String webhookName)
+name: listEvents(final String resourceGroupName, final String registryName, final String webhookName)
+package: com.microsoft.azure.management.containerregistry.implementation
+metadata: {}

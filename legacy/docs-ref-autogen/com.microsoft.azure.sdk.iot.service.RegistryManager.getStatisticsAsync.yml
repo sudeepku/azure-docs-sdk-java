@@ -1,0 +1,24 @@
+### YamlMime:JavaMember
+nameWithType: RegistryManager.getStatisticsAsync
+type: method
+members:
+- fullName: com.microsoft.azure.sdk.iot.service.RegistryManager.getStatisticsAsync()
+  name: getStatisticsAsync()
+  nameWithType: RegistryManager.getStatisticsAsync()
+  exceptions:
+  - name: cbf33bbe
+  - name: 0d494ee6
+  returns:
+    description: <p>The future object for the requested operation </p>
+    type: CompletableFuture&lt;<xref href="com.microsoft.azure.sdk.iot.service.RegistryStatistics?alt=com.microsoft.azure.sdk.iot.service.RegistryStatistics&text=RegistryStatistics" data-throw-if-not-resolved="False"/>&gt;
+  summary: >-
+    <p>Async wrapper for getStatistics() operation</p>
+
+    <p></p>
+  syntax: public CompletableFuture<RegistryStatistics> getStatisticsAsync()
+  uid: com.microsoft.azure.sdk.iot.service.RegistryManager.getStatisticsAsync()
+uid: com.microsoft.azure.sdk.iot.service.RegistryManager.getStatisticsAsync*
+fullName: com.microsoft.azure.sdk.iot.service.RegistryManager.getStatisticsAsync()
+name: getStatisticsAsync()
+package: com.microsoft.azure.sdk.iot.service
+metadata: {}

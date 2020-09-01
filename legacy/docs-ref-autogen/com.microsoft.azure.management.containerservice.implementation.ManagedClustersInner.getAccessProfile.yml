@@ -1,0 +1,35 @@
+### YamlMime:JavaMember
+nameWithType: ManagedClustersInner.getAccessProfile
+type: method
+members:
+- fullName: com.microsoft.azure.management.containerservice.implementation.ManagedClustersInner.getAccessProfile(String resourceGroupName, String resourceName, String roleName)
+  name: getAccessProfile(String resourceGroupName, String resourceName, String roleName)
+  nameWithType: ManagedClustersInner.getAccessProfile(String resourceGroupName, String resourceName, String roleName)
+  parameters:
+  - description: <p>The name of the resource group. </p>
+    name: resourceGroupName
+    type: <xref href="String?alt=String&text=String" data-throw-if-not-resolved="False"/>
+  - description: <p>The name of the managed cluster resource. </p>
+    name: resourceName
+    type: <xref href="String?alt=String&text=String" data-throw-if-not-resolved="False"/>
+  - description: <p>The name of the role for managed cluster accessProfile resource. </p>
+    name: roleName
+    type: <xref href="String?alt=String&text=String" data-throw-if-not-resolved="False"/>
+  exceptions:
+  - name: 3c87bd19
+  - name: dc385fd4
+  - name: 9b2a4515
+  returns:
+    description: <p>the ManagedClusterAccessProfileInner object if successful. </p>
+    type: <xref href="com.microsoft.azure.management.containerservice.implementation.ManagedClusterAccessProfileInner?alt=com.microsoft.azure.management.containerservice.implementation.ManagedClusterAccessProfileInner&text=ManagedClusterAccessProfileInner" data-throw-if-not-resolved="False"/>
+  summary: >-
+    <p>Gets an access profile of a managed cluster. Gets the accessProfile for the specified role name of the managed cluster with a specified resource group and name.</p>
+
+    <p></p>
+  syntax: public ManagedClusterAccessProfileInner getAccessProfile(String resourceGroupName, String resourceName, String roleName)
+  uid: com.microsoft.azure.management.containerservice.implementation.ManagedClustersInner.getAccessProfile(String,String,String)
+uid: com.microsoft.azure.management.containerservice.implementation.ManagedClustersInner.getAccessProfile*
+fullName: com.microsoft.azure.management.containerservice.implementation.ManagedClustersInner.getAccessProfile(String resourceGroupName, String resourceName, String roleName)
+name: getAccessProfile(String resourceGroupName, String resourceName, String roleName)
+package: com.microsoft.azure.management.containerservice.implementation
+metadata: {}

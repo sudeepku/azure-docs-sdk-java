@@ -1,0 +1,24 @@
+### YamlMime:JavaMember
+nameWithType: Job.get
+type: method
+members:
+- fullName: com.microsoft.azure.sdk.iot.service.devicetwin.Job.get()
+  name: get()
+  nameWithType: Job.get()
+  exceptions:
+  - name: cbf33bbe
+  - name: 0d494ee6
+  returns:
+    description: <p>a jobResult object with the current job status. </p>
+    type: <xref href="com.microsoft.azure.sdk.iot.service.jobs.JobResult?alt=com.microsoft.azure.sdk.iot.service.jobs.JobResult&text=JobResult" data-throw-if-not-resolved="False"/>
+  summary: >-
+    <p>Get the current job status on the iotHub.</p>
+
+    <p></p>
+  syntax: public JobResult get()
+  uid: com.microsoft.azure.sdk.iot.service.devicetwin.Job.get()
+uid: com.microsoft.azure.sdk.iot.service.devicetwin.Job.get*
+fullName: com.microsoft.azure.sdk.iot.service.devicetwin.Job.get()
+name: get()
+package: com.microsoft.azure.sdk.iot.service.devicetwin
+metadata: {}

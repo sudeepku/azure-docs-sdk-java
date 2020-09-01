@@ -1,0 +1,29 @@
+### YamlMime:JavaMember
+nameWithType: Apps.getSettings
+type: method
+members:
+- fullName: com.microsoft.azure.cognitiveservices.language.luis.authoring.Apps.getSettings(UUID appId)
+  name: getSettings(UUID appId)
+  nameWithType: Apps.getSettings(UUID appId)
+  parameters:
+  - description: <p>The application ID. </p>
+    name: appId
+    type: <xref href="UUID?alt=UUID&text=UUID" data-throw-if-not-resolved="False"/>
+  exceptions:
+  - name: 3c87bd19
+  - name: 00ad4777
+  - name: 9b2a4515
+  returns:
+    description: <p>the ApplicationSettings object if successful. </p>
+    type: <xref href="com.microsoft.azure.cognitiveservices.language.luis.authoring.models.ApplicationSettings?alt=com.microsoft.azure.cognitiveservices.language.luis.authoring.models.ApplicationSettings&text=ApplicationSettings" data-throw-if-not-resolved="False"/>
+  summary: >-
+    <p>Get the application settings.</p>
+
+    <p></p>
+  syntax: public ApplicationSettings getSettings(UUID appId)
+  uid: com.microsoft.azure.cognitiveservices.language.luis.authoring.Apps.getSettings(UUID)
+uid: com.microsoft.azure.cognitiveservices.language.luis.authoring.Apps.getSettings*
+fullName: com.microsoft.azure.cognitiveservices.language.luis.authoring.Apps.getSettings(UUID appId)
+name: getSettings(UUID appId)
+package: com.microsoft.azure.cognitiveservices.language.luis.authoring
+metadata: {}

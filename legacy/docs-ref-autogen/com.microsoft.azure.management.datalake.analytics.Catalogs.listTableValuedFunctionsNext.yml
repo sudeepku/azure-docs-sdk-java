@@ -1,0 +1,29 @@
+### YamlMime:JavaMember
+nameWithType: Catalogs.listTableValuedFunctionsNext
+type: method
+members:
+- fullName: com.microsoft.azure.management.datalake.analytics.Catalogs.listTableValuedFunctionsNext(final String nextPageLink)
+  name: listTableValuedFunctionsNext(final String nextPageLink)
+  nameWithType: Catalogs.listTableValuedFunctionsNext(final String nextPageLink)
+  parameters:
+  - description: <p>The NextLink from the previous successful call to List operation. </p>
+    name: nextPageLink
+    type: <xref href="final+String?alt=final String&text=final+String" data-throw-if-not-resolved="False"/>
+  exceptions:
+  - name: 3c87bd19
+  - name: dc385fd4
+  - name: 9b2a4515
+  returns:
+    description: <p>the PagedList&lt;USqlTableValuedFunction&gt; object if successful. </p>
+    type: PagedList&lt;<xref href="com.microsoft.azure.management.datalake.analytics.models.USqlTableValuedFunction?alt=com.microsoft.azure.management.datalake.analytics.models.USqlTableValuedFunction&text=USqlTableValuedFunction" data-throw-if-not-resolved="False"/>&gt;
+  summary: >-
+    <p>Retrieves the list of table valued functions from the Data Lake Analytics catalog.</p>
+
+    <p></p>
+  syntax: public PagedList<USqlTableValuedFunction> listTableValuedFunctionsNext(final String nextPageLink)
+  uid: com.microsoft.azure.management.datalake.analytics.Catalogs.listTableValuedFunctionsNext(final String)
+uid: com.microsoft.azure.management.datalake.analytics.Catalogs.listTableValuedFunctionsNext*
+fullName: com.microsoft.azure.management.datalake.analytics.Catalogs.listTableValuedFunctionsNext(final String nextPageLink)
+name: listTableValuedFunctionsNext(final String nextPageLink)
+package: com.microsoft.azure.management.datalake.analytics
+metadata: {}

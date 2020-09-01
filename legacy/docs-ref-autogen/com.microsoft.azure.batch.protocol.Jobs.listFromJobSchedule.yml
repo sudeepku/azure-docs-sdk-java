@@ -1,0 +1,52 @@
+### YamlMime:JavaMember
+nameWithType: Jobs.listFromJobSchedule
+type: method
+members:
+- fullName: com.microsoft.azure.batch.protocol.Jobs.listFromJobSchedule(final String jobScheduleId)
+  name: listFromJobSchedule(final String jobScheduleId)
+  nameWithType: Jobs.listFromJobSchedule(final String jobScheduleId)
+  parameters:
+  - description: <p>The ID of the job schedule from which you want to get a list of jobs. </p>
+    name: jobScheduleId
+    type: <xref href="final+String?alt=final String&text=final+String" data-throw-if-not-resolved="False"/>
+  exceptions:
+  - name: 3c87bd19
+  - name: c8683d81
+  - name: 9b2a4515
+  returns:
+    description: <p>the PagedList&lt;CloudJob&gt; object if successful. </p>
+    type: PagedList&lt;<xref href="com.microsoft.azure.batch.protocol.models.CloudJob?alt=com.microsoft.azure.batch.protocol.models.CloudJob&text=CloudJob" data-throw-if-not-resolved="False"/>&gt;
+  summary: >-
+    <p>Lists the jobs that have been created under the specified job schedule.</p>
+
+    <p></p>
+  syntax: public PagedList<CloudJob> listFromJobSchedule(final String jobScheduleId)
+  uid: com.microsoft.azure.batch.protocol.Jobs.listFromJobSchedule(final String)
+- fullName: com.microsoft.azure.batch.protocol.Jobs.listFromJobSchedule(final String jobScheduleId, final JobListFromJobScheduleOptions jobListFromJobScheduleOptions)
+  name: listFromJobSchedule(final String jobScheduleId, final JobListFromJobScheduleOptions jobListFromJobScheduleOptions)
+  nameWithType: Jobs.listFromJobSchedule(final String jobScheduleId, final JobListFromJobScheduleOptions jobListFromJobScheduleOptions)
+  parameters:
+  - description: <p>The ID of the job schedule from which you want to get a list of jobs. </p>
+    name: jobScheduleId
+    type: <xref href="final+String?alt=final String&text=final+String" data-throw-if-not-resolved="False"/>
+  - description: <p>Additional parameters for the operation </p>
+    name: jobListFromJobScheduleOptions
+    type: final <xref href="com.microsoft.azure.batch.protocol.models.JobListFromJobScheduleOptions?alt=com.microsoft.azure.batch.protocol.models.JobListFromJobScheduleOptions&text=JobListFromJobScheduleOptions" data-throw-if-not-resolved="False"/>
+  exceptions:
+  - name: 3c87bd19
+  - name: c8683d81
+  - name: 9b2a4515
+  returns:
+    description: <p>the PagedList&lt;CloudJob&gt; object if successful. </p>
+    type: PagedList&lt;<xref href="com.microsoft.azure.batch.protocol.models.CloudJob?alt=com.microsoft.azure.batch.protocol.models.CloudJob&text=CloudJob" data-throw-if-not-resolved="False"/>&gt;
+  summary: >-
+    <p>Lists the jobs that have been created under the specified job schedule.</p>
+
+    <p></p>
+  syntax: public PagedList<CloudJob> listFromJobSchedule(final String jobScheduleId, final JobListFromJobScheduleOptions jobListFromJobScheduleOptions)
+  uid: com.microsoft.azure.batch.protocol.Jobs.listFromJobSchedule(final String,final JobListFromJobScheduleOptions)
+uid: com.microsoft.azure.batch.protocol.Jobs.listFromJobSchedule*
+fullName: com.microsoft.azure.batch.protocol.Jobs.listFromJobSchedule(final String jobScheduleId)
+name: listFromJobSchedule(final String jobScheduleId)
+package: com.microsoft.azure.batch.protocol
+metadata: {}

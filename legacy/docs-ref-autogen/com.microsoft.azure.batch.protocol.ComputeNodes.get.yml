@@ -1,0 +1,58 @@
+### YamlMime:JavaMember
+nameWithType: ComputeNodes.get
+type: method
+members:
+- fullName: com.microsoft.azure.batch.protocol.ComputeNodes.get(String poolId, String nodeId)
+  name: get(String poolId, String nodeId)
+  nameWithType: ComputeNodes.get(String poolId, String nodeId)
+  parameters:
+  - description: <p>The ID of the pool that contains the compute node. </p>
+    name: poolId
+    type: <xref href="String?alt=String&text=String" data-throw-if-not-resolved="False"/>
+  - description: <p>The ID of the compute node that you want to get information about. </p>
+    name: nodeId
+    type: <xref href="String?alt=String&text=String" data-throw-if-not-resolved="False"/>
+  exceptions:
+  - name: 3c87bd19
+  - name: c8683d81
+  - name: 9b2a4515
+  returns:
+    description: <p>the ComputeNode object if successful. </p>
+    type: <xref href="com.microsoft.azure.batch.protocol.models.ComputeNode?alt=com.microsoft.azure.batch.protocol.models.ComputeNode&text=ComputeNode" data-throw-if-not-resolved="False"/>
+  summary: >-
+    <p>Gets information about the specified compute node.</p>
+
+    <p></p>
+  syntax: public ComputeNode get(String poolId, String nodeId)
+  uid: com.microsoft.azure.batch.protocol.ComputeNodes.get(String,String)
+- fullName: com.microsoft.azure.batch.protocol.ComputeNodes.get(String poolId, String nodeId, ComputeNodeGetOptions computeNodeGetOptions)
+  name: get(String poolId, String nodeId, ComputeNodeGetOptions computeNodeGetOptions)
+  nameWithType: ComputeNodes.get(String poolId, String nodeId, ComputeNodeGetOptions computeNodeGetOptions)
+  parameters:
+  - description: <p>The ID of the pool that contains the compute node. </p>
+    name: poolId
+    type: <xref href="String?alt=String&text=String" data-throw-if-not-resolved="False"/>
+  - description: <p>The ID of the compute node that you want to get information about. </p>
+    name: nodeId
+    type: <xref href="String?alt=String&text=String" data-throw-if-not-resolved="False"/>
+  - description: <p>Additional parameters for the operation </p>
+    name: computeNodeGetOptions
+    type: <xref href="com.microsoft.azure.batch.protocol.models.ComputeNodeGetOptions?alt=com.microsoft.azure.batch.protocol.models.ComputeNodeGetOptions&text=ComputeNodeGetOptions" data-throw-if-not-resolved="False"/>
+  exceptions:
+  - name: 3c87bd19
+  - name: c8683d81
+  - name: 9b2a4515
+  returns:
+    description: <p>the ComputeNode object if successful. </p>
+    type: <xref href="com.microsoft.azure.batch.protocol.models.ComputeNode?alt=com.microsoft.azure.batch.protocol.models.ComputeNode&text=ComputeNode" data-throw-if-not-resolved="False"/>
+  summary: >-
+    <p>Gets information about the specified compute node.</p>
+
+    <p></p>
+  syntax: public ComputeNode get(String poolId, String nodeId, ComputeNodeGetOptions computeNodeGetOptions)
+  uid: com.microsoft.azure.batch.protocol.ComputeNodes.get(String,String,ComputeNodeGetOptions)
+uid: com.microsoft.azure.batch.protocol.ComputeNodes.get*
+fullName: com.microsoft.azure.batch.protocol.ComputeNodes.get(String poolId, String nodeId)
+name: get(String poolId, String nodeId)
+package: com.microsoft.azure.batch.protocol
+metadata: {}

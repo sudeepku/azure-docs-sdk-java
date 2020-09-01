@@ -1,0 +1,58 @@
+### YamlMime:JavaMember
+nameWithType: FileServersInner.listByWorkspace
+type: method
+members:
+- fullName: com.microsoft.azure.management.batchai.implementation.FileServersInner.listByWorkspace(final String resourceGroupName, final String workspaceName)
+  name: listByWorkspace(final String resourceGroupName, final String workspaceName)
+  nameWithType: FileServersInner.listByWorkspace(final String resourceGroupName, final String workspaceName)
+  parameters:
+  - description: <p>Name of the resource group to which the resource belongs. </p>
+    name: resourceGroupName
+    type: <xref href="final+String?alt=final String&text=final+String" data-throw-if-not-resolved="False"/>
+  - description: <p>The name of the workspace. Workspace names can only contain a combination of alphanumeric characters along with dash (-) and underscore (_). The name must be from 1 through 64 characters long. </p>
+    name: workspaceName
+    type: <xref href="final+String?alt=final String&text=final+String" data-throw-if-not-resolved="False"/>
+  exceptions:
+  - name: 3c87bd19
+  - name: dc385fd4
+  - name: 9b2a4515
+  returns:
+    description: <p>the PagedList&lt;FileServerInner&gt; object if successful. </p>
+    type: PagedList&lt;<xref href="com.microsoft.azure.management.batchai.implementation.FileServerInner?alt=com.microsoft.azure.management.batchai.implementation.FileServerInner&text=FileServerInner" data-throw-if-not-resolved="False"/>&gt;
+  summary: >-
+    <p>Gets a list of File Servers associated with the specified workspace.</p>
+
+    <p></p>
+  syntax: public PagedList<FileServerInner> listByWorkspace(final String resourceGroupName, final String workspaceName)
+  uid: com.microsoft.azure.management.batchai.implementation.FileServersInner.listByWorkspace(final String,final String)
+- fullName: com.microsoft.azure.management.batchai.implementation.FileServersInner.listByWorkspace(final String resourceGroupName, final String workspaceName, final FileServersListByWorkspaceOptions fileServersListByWorkspaceOptions)
+  name: listByWorkspace(final String resourceGroupName, final String workspaceName, final FileServersListByWorkspaceOptions fileServersListByWorkspaceOptions)
+  nameWithType: FileServersInner.listByWorkspace(final String resourceGroupName, final String workspaceName, final FileServersListByWorkspaceOptions fileServersListByWorkspaceOptions)
+  parameters:
+  - description: <p>Name of the resource group to which the resource belongs. </p>
+    name: resourceGroupName
+    type: <xref href="final+String?alt=final String&text=final+String" data-throw-if-not-resolved="False"/>
+  - description: <p>The name of the workspace. Workspace names can only contain a combination of alphanumeric characters along with dash (-) and underscore (_). The name must be from 1 through 64 characters long. </p>
+    name: workspaceName
+    type: <xref href="final+String?alt=final String&text=final+String" data-throw-if-not-resolved="False"/>
+  - description: <p>Additional parameters for the operation </p>
+    name: fileServersListByWorkspaceOptions
+    type: final <xref href="com.microsoft.azure.management.batchai.FileServersListByWorkspaceOptions?alt=com.microsoft.azure.management.batchai.FileServersListByWorkspaceOptions&text=FileServersListByWorkspaceOptions" data-throw-if-not-resolved="False"/>
+  exceptions:
+  - name: 3c87bd19
+  - name: dc385fd4
+  - name: 9b2a4515
+  returns:
+    description: <p>the PagedList&lt;FileServerInner&gt; object if successful. </p>
+    type: PagedList&lt;<xref href="com.microsoft.azure.management.batchai.implementation.FileServerInner?alt=com.microsoft.azure.management.batchai.implementation.FileServerInner&text=FileServerInner" data-throw-if-not-resolved="False"/>&gt;
+  summary: >-
+    <p>Gets a list of File Servers associated with the specified workspace.</p>
+
+    <p></p>
+  syntax: public PagedList<FileServerInner> listByWorkspace(final String resourceGroupName, final String workspaceName, final FileServersListByWorkspaceOptions fileServersListByWorkspaceOptions)
+  uid: com.microsoft.azure.management.batchai.implementation.FileServersInner.listByWorkspace(final String,final String,final FileServersListByWorkspaceOptions)
+uid: com.microsoft.azure.management.batchai.implementation.FileServersInner.listByWorkspace*
+fullName: com.microsoft.azure.management.batchai.implementation.FileServersInner.listByWorkspace(final String resourceGroupName, final String workspaceName)
+name: listByWorkspace(final String resourceGroupName, final String workspaceName)
+package: com.microsoft.azure.management.batchai.implementation
+metadata: {}

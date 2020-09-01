@@ -1,0 +1,34 @@
+### YamlMime:JavaMember
+nameWithType: IotHubExceptionManager.httpResponseVerification
+type: method
+members:
+- fullName: com.microsoft.azure.sdk.iot.service.exceptions.IotHubExceptionManager.httpResponseVerification(HttpResponse httpResponse)
+  name: httpResponseVerification(HttpResponse httpResponse)
+  nameWithType: IotHubExceptionManager.httpResponseVerification(HttpResponse httpResponse)
+  parameters:
+  - description: <p>Http response object to verify </p>
+    name: httpResponse
+    type: <xref href="com.microsoft.azure.sdk.iot.service.transport.http.HttpResponse?alt=com.microsoft.azure.sdk.iot.service.transport.http.HttpResponse&text=HttpResponse" data-throw-if-not-resolved="False"/>
+  exceptions:
+  - name: d33e85c1
+  - name: 1dad5d75
+  - name: f527326d
+  - name: 6276acc2
+  - name: e3bdf385
+  - name: 86cbb1e3
+  - name: a980c091
+  - name: e1a96ad9
+  - name: e77b5b71
+  - name: 540277be
+  - name: 0d494ee6
+  summary: >-
+    <p>Verify Http response using response status</p>
+
+    <p></p>
+  syntax: public static void httpResponseVerification(HttpResponse httpResponse)
+  uid: com.microsoft.azure.sdk.iot.service.exceptions.IotHubExceptionManager.httpResponseVerification(HttpResponse)
+uid: com.microsoft.azure.sdk.iot.service.exceptions.IotHubExceptionManager.httpResponseVerification*
+fullName: com.microsoft.azure.sdk.iot.service.exceptions.IotHubExceptionManager.httpResponseVerification(HttpResponse httpResponse)
+name: httpResponseVerification(HttpResponse httpResponse)
+package: com.microsoft.azure.sdk.iot.service.exceptions
+metadata: {}

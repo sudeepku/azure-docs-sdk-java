@@ -1,0 +1,18 @@
+### YamlMime:JavaMember
+nameWithType: TransactionContext.rollback
+type: method
+members:
+- fullName: com.microsoft.azure.servicebus.TransactionContext.rollback()
+  name: rollback()
+  nameWithType: TransactionContext.rollback()
+  exceptions:
+  - name: 73fec9fb
+  - name: 8256ba40
+  summary: <p>Rollback the transaction </p>
+  syntax: public void rollback()
+  uid: com.microsoft.azure.servicebus.TransactionContext.rollback()
+uid: com.microsoft.azure.servicebus.TransactionContext.rollback*
+fullName: com.microsoft.azure.servicebus.TransactionContext.rollback()
+name: rollback()
+package: com.microsoft.azure.servicebus
+metadata: {}

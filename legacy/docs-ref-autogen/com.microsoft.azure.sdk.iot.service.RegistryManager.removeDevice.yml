@@ -1,0 +1,42 @@
+### YamlMime:JavaMember
+nameWithType: RegistryManager.removeDevice
+type: method
+members:
+- fullName: com.microsoft.azure.sdk.iot.service.RegistryManager.removeDevice(Device device)
+  name: removeDevice(Device device)
+  nameWithType: RegistryManager.removeDevice(Device device)
+  parameters:
+  - description: <p>The device name to remove </p>
+    name: device
+    type: <xref href="com.microsoft.azure.sdk.iot.service.Device?alt=com.microsoft.azure.sdk.iot.service.Device&text=Device" data-throw-if-not-resolved="False"/>
+  exceptions:
+  - name: cbf33bbe
+  - name: 0d494ee6
+  - name: 3c87bd19
+  summary: >-
+    <p>Remove device</p>
+
+    <p></p>
+  syntax: public void removeDevice(Device device)
+  uid: com.microsoft.azure.sdk.iot.service.RegistryManager.removeDevice(Device)
+- fullName: com.microsoft.azure.sdk.iot.service.RegistryManager.removeDevice(String deviceId)
+  name: removeDevice(String deviceId)
+  nameWithType: RegistryManager.removeDevice(String deviceId)
+  parameters:
+  - description: <p>The device name to remove </p>
+    name: deviceId
+    type: <xref href="String?alt=String&text=String" data-throw-if-not-resolved="False"/>
+  exceptions:
+  - name: cbf33bbe
+  - name: 0d494ee6
+  summary: >-
+    <p>Remove device</p>
+
+    <p></p>
+  syntax: public void removeDevice(String deviceId)
+  uid: com.microsoft.azure.sdk.iot.service.RegistryManager.removeDevice(String)
+uid: com.microsoft.azure.sdk.iot.service.RegistryManager.removeDevice*
+fullName: com.microsoft.azure.sdk.iot.service.RegistryManager.removeDevice(Device device)
+name: removeDevice(Device device)
+package: com.microsoft.azure.sdk.iot.service
+metadata: {}

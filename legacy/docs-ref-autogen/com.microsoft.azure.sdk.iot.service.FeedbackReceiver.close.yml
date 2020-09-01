@@ -1,0 +1,20 @@
+### YamlMime:JavaMember
+nameWithType: FeedbackReceiver.close
+type: method
+members:
+- fullName: com.microsoft.azure.sdk.iot.service.FeedbackReceiver.close()
+  name: close()
+  nameWithType: FeedbackReceiver.close()
+  exceptions:
+  - name: cbf33bbe
+  summary: >-
+    <p>Close AmqpReceive object</p>
+
+    <p></p>
+  syntax: public void close()
+  uid: com.microsoft.azure.sdk.iot.service.FeedbackReceiver.close()
+uid: com.microsoft.azure.sdk.iot.service.FeedbackReceiver.close*
+fullName: com.microsoft.azure.sdk.iot.service.FeedbackReceiver.close()
+name: close()
+package: com.microsoft.azure.sdk.iot.service
+metadata: {}

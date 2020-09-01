@@ -1,0 +1,29 @@
+### YamlMime:JavaMember
+nameWithType: Permissions.list
+type: method
+members:
+- fullName: com.microsoft.azure.cognitiveservices.language.luis.authoring.Permissions.list(UUID appId)
+  name: list(UUID appId)
+  nameWithType: Permissions.list(UUID appId)
+  parameters:
+  - description: <p>The application ID. </p>
+    name: appId
+    type: <xref href="UUID?alt=UUID&text=UUID" data-throw-if-not-resolved="False"/>
+  exceptions:
+  - name: 3c87bd19
+  - name: 00ad4777
+  - name: 9b2a4515
+  returns:
+    description: <p>the UserAccessList object if successful. </p>
+    type: <xref href="com.microsoft.azure.cognitiveservices.language.luis.authoring.models.UserAccessList?alt=com.microsoft.azure.cognitiveservices.language.luis.authoring.models.UserAccessList&text=UserAccessList" data-throw-if-not-resolved="False"/>
+  summary: >-
+    <p>Gets the list of user emails that have permissions to access your application.</p>
+
+    <p></p>
+  syntax: public UserAccessList list(UUID appId)
+  uid: com.microsoft.azure.cognitiveservices.language.luis.authoring.Permissions.list(UUID)
+uid: com.microsoft.azure.cognitiveservices.language.luis.authoring.Permissions.list*
+fullName: com.microsoft.azure.cognitiveservices.language.luis.authoring.Permissions.list(UUID appId)
+name: list(UUID appId)
+package: com.microsoft.azure.cognitiveservices.language.luis.authoring
+metadata: {}

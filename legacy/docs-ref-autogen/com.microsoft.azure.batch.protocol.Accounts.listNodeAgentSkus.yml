@@ -1,0 +1,45 @@
+### YamlMime:JavaMember
+nameWithType: Accounts.listNodeAgentSkus
+type: method
+members:
+- fullName: com.microsoft.azure.batch.protocol.Accounts.listNodeAgentSkus()
+  name: listNodeAgentSkus()
+  nameWithType: Accounts.listNodeAgentSkus()
+  exceptions:
+  - name: 3c87bd19
+  - name: c8683d81
+  - name: 9b2a4515
+  returns:
+    description: <p>the PagedList&lt;NodeAgentSku&gt; object if successful. </p>
+    type: PagedList&lt;<xref href="com.microsoft.azure.batch.protocol.models.NodeAgentSku?alt=com.microsoft.azure.batch.protocol.models.NodeAgentSku&text=NodeAgentSku" data-throw-if-not-resolved="False"/>&gt;
+  summary: >-
+    <p>Lists all node agent SKUs supported by the Azure Batch service.</p>
+
+    <p></p>
+  syntax: public PagedList<NodeAgentSku> listNodeAgentSkus()
+  uid: com.microsoft.azure.batch.protocol.Accounts.listNodeAgentSkus()
+- fullName: com.microsoft.azure.batch.protocol.Accounts.listNodeAgentSkus(final AccountListNodeAgentSkusOptions accountListNodeAgentSkusOptions)
+  name: listNodeAgentSkus(final AccountListNodeAgentSkusOptions accountListNodeAgentSkusOptions)
+  nameWithType: Accounts.listNodeAgentSkus(final AccountListNodeAgentSkusOptions accountListNodeAgentSkusOptions)
+  parameters:
+  - description: <p>Additional parameters for the operation </p>
+    name: accountListNodeAgentSkusOptions
+    type: final <xref href="com.microsoft.azure.batch.protocol.models.AccountListNodeAgentSkusOptions?alt=com.microsoft.azure.batch.protocol.models.AccountListNodeAgentSkusOptions&text=AccountListNodeAgentSkusOptions" data-throw-if-not-resolved="False"/>
+  exceptions:
+  - name: 3c87bd19
+  - name: c8683d81
+  - name: 9b2a4515
+  returns:
+    description: <p>the PagedList&lt;NodeAgentSku&gt; object if successful. </p>
+    type: PagedList&lt;<xref href="com.microsoft.azure.batch.protocol.models.NodeAgentSku?alt=com.microsoft.azure.batch.protocol.models.NodeAgentSku&text=NodeAgentSku" data-throw-if-not-resolved="False"/>&gt;
+  summary: >-
+    <p>Lists all node agent SKUs supported by the Azure Batch service.</p>
+
+    <p></p>
+  syntax: public PagedList<NodeAgentSku> listNodeAgentSkus(final AccountListNodeAgentSkusOptions accountListNodeAgentSkusOptions)
+  uid: com.microsoft.azure.batch.protocol.Accounts.listNodeAgentSkus(final AccountListNodeAgentSkusOptions)
+uid: com.microsoft.azure.batch.protocol.Accounts.listNodeAgentSkus*
+fullName: com.microsoft.azure.batch.protocol.Accounts.listNodeAgentSkus()
+name: listNodeAgentSkus()
+package: com.microsoft.azure.batch.protocol
+metadata: {}

@@ -1,0 +1,26 @@
+### YamlMime:JavaMember
+nameWithType: RegistryManager.getJobAsync
+type: method
+members:
+- fullName: com.microsoft.azure.sdk.iot.service.RegistryManager.getJobAsync(String jobId)
+  name: getJobAsync(String jobId)
+  nameWithType: RegistryManager.getJobAsync(String jobId)
+  parameters:
+  - description: <p>jobID as String </p>
+    name: jobId
+    type: <xref href="String?alt=String&text=String" data-throw-if-not-resolved="False"/>
+  exceptions:
+  - name: 3c87bd19
+  - name: cbf33bbe
+  - name: 0d494ee6
+  returns:
+    description: <p>The future object for the requested operation</p>
+    type: CompletableFuture&lt;<xref href="com.microsoft.azure.sdk.iot.service.JobProperties?alt=com.microsoft.azure.sdk.iot.service.JobProperties&text=JobProperties" data-throw-if-not-resolved="False"/>&gt;
+  summary: <p>Async wrapper for getJob() operation </p>
+  syntax: public CompletableFuture<JobProperties> getJobAsync(String jobId)
+  uid: com.microsoft.azure.sdk.iot.service.RegistryManager.getJobAsync(String)
+uid: com.microsoft.azure.sdk.iot.service.RegistryManager.getJobAsync*
+fullName: com.microsoft.azure.sdk.iot.service.RegistryManager.getJobAsync(String jobId)
+name: getJobAsync(String jobId)
+package: com.microsoft.azure.sdk.iot.service
+metadata: {}

@@ -1,0 +1,17 @@
+### YamlMime:JavaMember
+nameWithType: ProvisioningAmqpOperations.close
+type: method
+members:
+- fullName: com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.amqp.ProvisioningAmqpOperations.close()
+  name: close()
+  nameWithType: ProvisioningAmqpOperations.close()
+  exceptions:
+  - name: cbf33bbe
+  summary: <p>Closes the AMQP connection </p>
+  syntax: public void close()
+  uid: com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.amqp.ProvisioningAmqpOperations.close()
+uid: com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.amqp.ProvisioningAmqpOperations.close*
+fullName: com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.amqp.ProvisioningAmqpOperations.close()
+name: close()
+package: com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.amqp
+metadata: {}

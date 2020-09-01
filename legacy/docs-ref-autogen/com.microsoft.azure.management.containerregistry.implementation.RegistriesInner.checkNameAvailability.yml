@@ -1,0 +1,29 @@
+### YamlMime:JavaMember
+nameWithType: RegistriesInner.checkNameAvailability
+type: method
+members:
+- fullName: com.microsoft.azure.management.containerregistry.implementation.RegistriesInner.checkNameAvailability(String name)
+  name: checkNameAvailability(String name)
+  nameWithType: RegistriesInner.checkNameAvailability(String name)
+  parameters:
+  - description: <p>The name of the container registry. </p>
+    name: name
+    type: <xref href="String?alt=String&text=String" data-throw-if-not-resolved="False"/>
+  exceptions:
+  - name: 3c87bd19
+  - name: dc385fd4
+  - name: 9b2a4515
+  returns:
+    description: <p>the RegistryNameStatusInner object if successful. </p>
+    type: <xref href="com.microsoft.azure.management.containerregistry.implementation.RegistryNameStatusInner?alt=com.microsoft.azure.management.containerregistry.implementation.RegistryNameStatusInner&text=RegistryNameStatusInner" data-throw-if-not-resolved="False"/>
+  summary: >-
+    <p>Checks whether the container registry name is available for use. The name must contain only alphanumeric characters, be globally unique, and between 5 and 50 characters in length.</p>
+
+    <p></p>
+  syntax: public RegistryNameStatusInner checkNameAvailability(String name)
+  uid: com.microsoft.azure.management.containerregistry.implementation.RegistriesInner.checkNameAvailability(String)
+uid: com.microsoft.azure.management.containerregistry.implementation.RegistriesInner.checkNameAvailability*
+fullName: com.microsoft.azure.management.containerregistry.implementation.RegistriesInner.checkNameAvailability(String name)
+name: checkNameAvailability(String name)
+package: com.microsoft.azure.management.containerregistry.implementation
+metadata: {}

@@ -1,0 +1,33 @@
+### YamlMime:JavaMember
+nameWithType: ManagementClient.getSubscription
+type: method
+members:
+- fullName: com.microsoft.azure.servicebus.management.ManagementClient.getSubscription(String topicPath, String subscriptionName)
+  name: getSubscription(String topicPath, String subscriptionName)
+  nameWithType: ManagementClient.getSubscription(String topicPath, String subscriptionName)
+  parameters:
+  - description: <p>- The path of the topic relative to service bus namespace. </p>
+    name: topicPath
+    type: <xref href="String?alt=String&text=String" data-throw-if-not-resolved="False"/>
+  - description: <p>- The name of the subscription </p>
+    name: subscriptionName
+    type: <xref href="String?alt=String&text=String" data-throw-if-not-resolved="False"/>
+  exceptions:
+  - name: 3c87bd19
+  - name: a19dd706
+  - name: 6d99fa63
+  - name: 312761a3
+  - name: 9d4598ba
+  - name: 73fec9fb
+  - name: 8256ba40
+  returns:
+    description: <p>- SubscriptionDescription containing information about the subscription. </p>
+    type: <xref href="com.microsoft.azure.servicebus.management.SubscriptionDescription?alt=com.microsoft.azure.servicebus.management.SubscriptionDescription&text=SubscriptionDescription" data-throw-if-not-resolved="False"/>
+  summary: <p>Retrieves a subscription for a given topic from the service namespace </p>
+  syntax: public SubscriptionDescription getSubscription(String topicPath, String subscriptionName)
+  uid: com.microsoft.azure.servicebus.management.ManagementClient.getSubscription(String,String)
+uid: com.microsoft.azure.servicebus.management.ManagementClient.getSubscription*
+fullName: com.microsoft.azure.servicebus.management.ManagementClient.getSubscription(String topicPath, String subscriptionName)
+name: getSubscription(String topicPath, String subscriptionName)
+package: com.microsoft.azure.servicebus.management
+metadata: {}

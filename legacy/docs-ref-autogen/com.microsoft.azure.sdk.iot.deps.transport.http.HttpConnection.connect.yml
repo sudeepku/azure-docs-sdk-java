@@ -1,0 +1,20 @@
+### YamlMime:JavaMember
+nameWithType: HttpConnection.connect
+type: method
+members:
+- fullName: com.microsoft.azure.sdk.iot.deps.transport.http.HttpConnection.connect()
+  name: connect()
+  nameWithType: HttpConnection.connect()
+  exceptions:
+  - name: cbf33bbe
+  summary: >-
+    <p>Sends the request to the URL given in the constructor.</p>
+
+    <p></p>
+  syntax: public void connect()
+  uid: com.microsoft.azure.sdk.iot.deps.transport.http.HttpConnection.connect()
+uid: com.microsoft.azure.sdk.iot.deps.transport.http.HttpConnection.connect*
+fullName: com.microsoft.azure.sdk.iot.deps.transport.http.HttpConnection.connect()
+name: connect()
+package: com.microsoft.azure.sdk.iot.deps.transport.http
+metadata: {}

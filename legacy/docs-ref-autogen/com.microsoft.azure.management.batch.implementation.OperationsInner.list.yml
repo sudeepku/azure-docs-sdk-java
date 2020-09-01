@@ -1,0 +1,25 @@
+### YamlMime:JavaMember
+nameWithType: OperationsInner.list
+type: method
+members:
+- fullName: com.microsoft.azure.management.batch.implementation.OperationsInner.list()
+  name: list()
+  nameWithType: OperationsInner.list()
+  exceptions:
+  - name: 3c87bd19
+  - name: dc385fd4
+  - name: 9b2a4515
+  returns:
+    description: <p>the PagedList&lt;OperationInner&gt; object if successful. </p>
+    type: PagedList&lt;<xref href="com.microsoft.azure.management.batch.implementation.OperationInner?alt=com.microsoft.azure.management.batch.implementation.OperationInner&text=OperationInner" data-throw-if-not-resolved="False"/>&gt;
+  summary: >-
+    <p>Lists available operations for the Microsoft.Batch provider.</p>
+
+    <p></p>
+  syntax: public PagedList<OperationInner> list()
+  uid: com.microsoft.azure.management.batch.implementation.OperationsInner.list()
+uid: com.microsoft.azure.management.batch.implementation.OperationsInner.list*
+fullName: com.microsoft.azure.management.batch.implementation.OperationsInner.list()
+name: list()
+package: com.microsoft.azure.management.batch.implementation
+metadata: {}

@@ -1,0 +1,32 @@
+### YamlMime:JavaMember
+nameWithType: AgentPoolsInner.delete
+type: method
+members:
+- fullName: com.microsoft.azure.management.containerservice.implementation.AgentPoolsInner.delete(String resourceGroupName, String resourceName, String agentPoolName)
+  name: delete(String resourceGroupName, String resourceName, String agentPoolName)
+  nameWithType: AgentPoolsInner.delete(String resourceGroupName, String resourceName, String agentPoolName)
+  parameters:
+  - description: <p>The name of the resource group. </p>
+    name: resourceGroupName
+    type: <xref href="String?alt=String&text=String" data-throw-if-not-resolved="False"/>
+  - description: <p>The name of the managed cluster resource. </p>
+    name: resourceName
+    type: <xref href="String?alt=String&text=String" data-throw-if-not-resolved="False"/>
+  - description: <p>The name of the agent pool. </p>
+    name: agentPoolName
+    type: <xref href="String?alt=String&text=String" data-throw-if-not-resolved="False"/>
+  exceptions:
+  - name: 3c87bd19
+  - name: dc385fd4
+  - name: 9b2a4515
+  summary: >-
+    <p>Deletes an agent pool. Deletes the agent pool in the specified managed cluster.</p>
+
+    <p></p>
+  syntax: public void delete(String resourceGroupName, String resourceName, String agentPoolName)
+  uid: com.microsoft.azure.management.containerservice.implementation.AgentPoolsInner.delete(String,String,String)
+uid: com.microsoft.azure.management.containerservice.implementation.AgentPoolsInner.delete*
+fullName: com.microsoft.azure.management.containerservice.implementation.AgentPoolsInner.delete(String resourceGroupName, String resourceName, String agentPoolName)
+name: delete(String resourceGroupName, String resourceName, String agentPoolName)
+package: com.microsoft.azure.management.containerservice.implementation
+metadata: {}

@@ -1,0 +1,26 @@
+### YamlMime:JavaMember
+nameWithType: HttpsHsmClient.getTrustBundle
+type: method
+members:
+- fullName: com.microsoft.azure.sdk.iot.device.hsm.HttpsHsmClient.getTrustBundle(String apiVersion)
+  name: getTrustBundle(String apiVersion)
+  nameWithType: HttpsHsmClient.getTrustBundle(String apiVersion)
+  parameters:
+  - description: <p>the api version to use </p>
+    name: apiVersion
+    type: <xref href="String?alt=String&text=String" data-throw-if-not-resolved="False"/>
+  exceptions:
+  - name: 848a9648
+  - name: 7f45ead7
+  - name: ddabb7a1
+  returns:
+    description: <p>the trust bundle response from the hsm, contains the certificates to be trusted </p>
+    type: <xref href="com.microsoft.azure.sdk.iot.device.hsm.parser.TrustBundleResponse?alt=com.microsoft.azure.sdk.iot.device.hsm.parser.TrustBundleResponse&text=TrustBundleResponse" data-throw-if-not-resolved="False"/>
+  summary: <p>Retrieve a trust bundle from an hsm </p>
+  syntax: public TrustBundleResponse getTrustBundle(String apiVersion)
+  uid: com.microsoft.azure.sdk.iot.device.hsm.HttpsHsmClient.getTrustBundle(String)
+uid: com.microsoft.azure.sdk.iot.device.hsm.HttpsHsmClient.getTrustBundle*
+fullName: com.microsoft.azure.sdk.iot.device.hsm.HttpsHsmClient.getTrustBundle(String apiVersion)
+name: getTrustBundle(String apiVersion)
+package: com.microsoft.azure.sdk.iot.device.hsm
+metadata: {}

@@ -1,0 +1,67 @@
+### YamlMime:JavaMember
+nameWithType: IotHubConnectionString.IotHubConnectionString
+type: constructor
+members:
+- fullName: com.microsoft.azure.sdk.iot.device.IotHubConnectionString.IotHubConnectionString(String connectionString)
+  name: IotHubConnectionString(String connectionString)
+  nameWithType: IotHubConnectionString.IotHubConnectionString(String connectionString)
+  parameters:
+  - description: <p>is the iothub connection string to parse. </p>
+    name: connectionString
+    type: <xref href="String?alt=String&text=String" data-throw-if-not-resolved="False"/>
+  exceptions:
+  - name: 3c87bd19
+  - name: 836e31af
+  - name: "44102508"
+  summary: >-
+    <p>CONSTRUCTOR.</p>
+
+    <p></p>
+  syntax: public IotHubConnectionString(String connectionString)
+  uid: com.microsoft.azure.sdk.iot.device.IotHubConnectionString.IotHubConnectionString(String)
+- fullName: com.microsoft.azure.sdk.iot.device.IotHubConnectionString.IotHubConnectionString(String hostName, String deviceId, String sharedAccessKey, String sharedAccessToken)
+  name: IotHubConnectionString(String hostName, String deviceId, String sharedAccessKey, String sharedAccessToken)
+  nameWithType: IotHubConnectionString.IotHubConnectionString(String hostName, String deviceId, String sharedAccessKey, String sharedAccessToken)
+  parameters:
+  - description: <p>the IoT Hub hostname. </p>
+    name: hostName
+    type: <xref href="String?alt=String&text=String" data-throw-if-not-resolved="False"/>
+  - description: <p>the device ID. </p>
+    name: deviceId
+    type: <xref href="String?alt=String&text=String" data-throw-if-not-resolved="False"/>
+  - description: <p>the device key. </p>
+    name: sharedAccessKey
+    type: <xref href="String?alt=String&text=String" data-throw-if-not-resolved="False"/>
+  - description: <p>the shared access token. </p>
+    name: sharedAccessToken
+    type: <xref href="String?alt=String&text=String" data-throw-if-not-resolved="False"/>
+  exceptions:
+  - name: 3c87bd19
+  - name: "44102508"
+  summary: >-
+    <p>Constructor.</p>
+
+    <p></p>
+  syntax: public IotHubConnectionString(String hostName, String deviceId, String sharedAccessKey, String sharedAccessToken)
+  uid: com.microsoft.azure.sdk.iot.device.IotHubConnectionString.IotHubConnectionString(String,String,String,String)
+- fullName: com.microsoft.azure.sdk.iot.device.IotHubConnectionString.IotHubConnectionString(String hostName, String deviceId, String sharedAccessKey, String sharedAccessToken, String gatewayHostName)
+  name: IotHubConnectionString(String hostName, String deviceId, String sharedAccessKey, String sharedAccessToken, String gatewayHostName)
+  nameWithType: IotHubConnectionString.IotHubConnectionString(String hostName, String deviceId, String sharedAccessKey, String sharedAccessToken, String gatewayHostName)
+  parameters:
+  - name: hostName
+    type: <xref href="String?alt=String&text=String" data-throw-if-not-resolved="False"/>
+  - name: deviceId
+    type: <xref href="String?alt=String&text=String" data-throw-if-not-resolved="False"/>
+  - name: sharedAccessKey
+    type: <xref href="String?alt=String&text=String" data-throw-if-not-resolved="False"/>
+  - name: sharedAccessToken
+    type: <xref href="String?alt=String&text=String" data-throw-if-not-resolved="False"/>
+  - name: gatewayHostName
+    type: <xref href="String?alt=String&text=String" data-throw-if-not-resolved="False"/>
+  syntax: public IotHubConnectionString(String hostName, String deviceId, String sharedAccessKey, String sharedAccessToken, String gatewayHostName)
+  uid: com.microsoft.azure.sdk.iot.device.IotHubConnectionString.IotHubConnectionString(String,String,String,String,String)
+uid: com.microsoft.azure.sdk.iot.device.IotHubConnectionString.IotHubConnectionString*
+fullName: com.microsoft.azure.sdk.iot.device.IotHubConnectionString.IotHubConnectionString
+name: IotHubConnectionString
+package: com.microsoft.azure.sdk.iot.device
+metadata: {}

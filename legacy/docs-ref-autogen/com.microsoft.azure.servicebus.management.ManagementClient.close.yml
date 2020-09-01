@@ -1,0 +1,17 @@
+### YamlMime:JavaMember
+nameWithType: ManagementClient.close
+type: method
+members:
+- fullName: com.microsoft.azure.servicebus.management.ManagementClient.close()
+  name: close()
+  nameWithType: ManagementClient.close()
+  exceptions:
+  - name: cbf33bbe
+  summary: <p>Disposes and closes the managementClient. </p>
+  syntax: public void close()
+  uid: com.microsoft.azure.servicebus.management.ManagementClient.close()
+uid: com.microsoft.azure.servicebus.management.ManagementClient.close*
+fullName: com.microsoft.azure.servicebus.management.ManagementClient.close()
+name: close()
+package: com.microsoft.azure.servicebus.management
+metadata: {}

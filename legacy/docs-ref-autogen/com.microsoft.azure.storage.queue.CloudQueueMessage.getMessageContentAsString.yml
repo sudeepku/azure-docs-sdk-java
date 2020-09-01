@@ -1,0 +1,23 @@
+### YamlMime:JavaMember
+nameWithType: CloudQueueMessage.getMessageContentAsString
+type: method
+members:
+- fullName: com.microsoft.azure.storage.queue.CloudQueueMessage.getMessageContentAsString()
+  name: getMessageContentAsString()
+  nameWithType: CloudQueueMessage.getMessageContentAsString()
+  exceptions:
+  - name: ca4f407a
+  returns:
+    description: <p>A <code>String</code> which contains the content of the message.</p>
+    type: <xref href="final+String?alt=final String&text=final+String" data-throw-if-not-resolved="False"/>
+  summary: >-
+    <p>Gets the content of the message as a string.</p>
+
+    <p></p>
+  syntax: public final String getMessageContentAsString()
+  uid: com.microsoft.azure.storage.queue.CloudQueueMessage.getMessageContentAsString()
+uid: com.microsoft.azure.storage.queue.CloudQueueMessage.getMessageContentAsString*
+fullName: com.microsoft.azure.storage.queue.CloudQueueMessage.getMessageContentAsString()
+name: getMessageContentAsString()
+package: com.microsoft.azure.storage.queue
+metadata: {}

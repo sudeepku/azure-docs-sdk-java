@@ -1,0 +1,20 @@
+### YamlMime:JavaMember
+nameWithType: StatusTask.call
+type: method
+members:
+- fullName: com.microsoft.azure.sdk.iot.provisioning.device.internal.task.StatusTask.call()
+  name: call()
+  nameWithType: StatusTask.call()
+  exceptions:
+  - name: 8a99d4b0
+  returns:
+    description: <p>RegistrationOperationStatusParser object holding the information received from service </p>
+    type: <xref href="com.microsoft.azure.sdk.iot.provisioning.device.internal.parser.RegistrationOperationStatusParser?alt=com.microsoft.azure.sdk.iot.provisioning.device.internal.parser.RegistrationOperationStatusParser&text=RegistrationOperationStatusParser" data-throw-if-not-resolved="False"/>
+  summary: <p>Implementation of callable for this task. This task queries for status with the service </p>
+  syntax: public RegistrationOperationStatusParser call()
+  uid: com.microsoft.azure.sdk.iot.provisioning.device.internal.task.StatusTask.call()
+uid: com.microsoft.azure.sdk.iot.provisioning.device.internal.task.StatusTask.call*
+fullName: com.microsoft.azure.sdk.iot.provisioning.device.internal.task.StatusTask.call()
+name: call()
+package: com.microsoft.azure.sdk.iot.provisioning.device.internal.task
+metadata: {}

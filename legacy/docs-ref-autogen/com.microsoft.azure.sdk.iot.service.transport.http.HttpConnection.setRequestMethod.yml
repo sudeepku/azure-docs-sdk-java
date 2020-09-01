@@ -1,0 +1,24 @@
+### YamlMime:JavaMember
+nameWithType: HttpConnection.setRequestMethod
+type: method
+members:
+- fullName: com.microsoft.azure.sdk.iot.service.transport.http.HttpConnection.setRequestMethod(HttpMethod method)
+  name: setRequestMethod(HttpMethod method)
+  nameWithType: HttpConnection.setRequestMethod(HttpMethod method)
+  parameters:
+  - description: <p>The request method.</p>
+    name: method
+    type: <xref href="com.microsoft.azure.sdk.iot.service.transport.http.HttpMethod?alt=com.microsoft.azure.sdk.iot.service.transport.http.HttpMethod&text=HttpMethod" data-throw-if-not-resolved="False"/>
+  exceptions:
+  - name: 3c87bd19
+  summary: >-
+    <p>Sets the request method (i.e. POST).</p>
+
+    <p></p>
+  syntax: public void setRequestMethod(HttpMethod method)
+  uid: com.microsoft.azure.sdk.iot.service.transport.http.HttpConnection.setRequestMethod(HttpMethod)
+uid: com.microsoft.azure.sdk.iot.service.transport.http.HttpConnection.setRequestMethod*
+fullName: com.microsoft.azure.sdk.iot.service.transport.http.HttpConnection.setRequestMethod(HttpMethod method)
+name: setRequestMethod(HttpMethod method)
+package: com.microsoft.azure.sdk.iot.service.transport.http
+metadata: {}

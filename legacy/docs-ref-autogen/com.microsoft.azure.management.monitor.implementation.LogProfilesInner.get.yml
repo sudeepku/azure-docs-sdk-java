@@ -1,0 +1,29 @@
+### YamlMime:JavaMember
+nameWithType: LogProfilesInner.get
+type: method
+members:
+- fullName: com.microsoft.azure.management.monitor.implementation.LogProfilesInner.get(String logProfileName)
+  name: get(String logProfileName)
+  nameWithType: LogProfilesInner.get(String logProfileName)
+  parameters:
+  - description: <p>The name of the log profile. </p>
+    name: logProfileName
+    type: <xref href="String?alt=String&text=String" data-throw-if-not-resolved="False"/>
+  exceptions:
+  - name: 3c87bd19
+  - name: 00ad4777
+  - name: 9b2a4515
+  returns:
+    description: <p>the LogProfileResourceInner object if successful. </p>
+    type: <xref href="com.microsoft.azure.management.monitor.implementation.LogProfileResourceInner?alt=com.microsoft.azure.management.monitor.implementation.LogProfileResourceInner&text=LogProfileResourceInner" data-throw-if-not-resolved="False"/>
+  summary: >-
+    <p>Gets the log profile.</p>
+
+    <p></p>
+  syntax: public LogProfileResourceInner get(String logProfileName)
+  uid: com.microsoft.azure.management.monitor.implementation.LogProfilesInner.get(String)
+uid: com.microsoft.azure.management.monitor.implementation.LogProfilesInner.get*
+fullName: com.microsoft.azure.management.monitor.implementation.LogProfilesInner.get(String logProfileName)
+name: get(String logProfileName)
+package: com.microsoft.azure.management.monitor.implementation
+metadata: {}

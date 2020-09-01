@@ -1,0 +1,35 @@
+### YamlMime:JavaMember
+nameWithType: ContainerServicesInner.beginCreateOrUpdate
+type: method
+members:
+- fullName: com.microsoft.azure.management.containerservice.implementation.ContainerServicesInner.beginCreateOrUpdate(String resourceGroupName, String containerServiceName, ContainerServiceInner parameters)
+  name: beginCreateOrUpdate(String resourceGroupName, String containerServiceName, ContainerServiceInner parameters)
+  nameWithType: ContainerServicesInner.beginCreateOrUpdate(String resourceGroupName, String containerServiceName, ContainerServiceInner parameters)
+  parameters:
+  - description: <p>The name of the resource group. </p>
+    name: resourceGroupName
+    type: <xref href="String?alt=String&text=String" data-throw-if-not-resolved="False"/>
+  - description: <p>The name of the container service in the specified subscription and resource group. </p>
+    name: containerServiceName
+    type: <xref href="String?alt=String&text=String" data-throw-if-not-resolved="False"/>
+  - description: <p>Parameters supplied to the Create or Update a Container Service operation. </p>
+    name: parameters
+    type: <xref href="com.microsoft.azure.management.containerservice.implementation.ContainerServiceInner?alt=com.microsoft.azure.management.containerservice.implementation.ContainerServiceInner&text=ContainerServiceInner" data-throw-if-not-resolved="False"/>
+  exceptions:
+  - name: 3c87bd19
+  - name: dc385fd4
+  - name: 9b2a4515
+  returns:
+    description: <p>the ContainerServiceInner object if successful. </p>
+    type: <xref href="com.microsoft.azure.management.containerservice.implementation.ContainerServiceInner?alt=com.microsoft.azure.management.containerservice.implementation.ContainerServiceInner&text=ContainerServiceInner" data-throw-if-not-resolved="False"/>
+  summary: >-
+    <p>Creates or updates a container service. Creates or updates a container service with the specified configuration of orchestrator, masters, and agents.</p>
+
+    <p></p>
+  syntax: public ContainerServiceInner beginCreateOrUpdate(String resourceGroupName, String containerServiceName, ContainerServiceInner parameters)
+  uid: com.microsoft.azure.management.containerservice.implementation.ContainerServicesInner.beginCreateOrUpdate(String,String,ContainerServiceInner)
+uid: com.microsoft.azure.management.containerservice.implementation.ContainerServicesInner.beginCreateOrUpdate*
+fullName: com.microsoft.azure.management.containerservice.implementation.ContainerServicesInner.beginCreateOrUpdate(String resourceGroupName, String containerServiceName, ContainerServiceInner parameters)
+name: beginCreateOrUpdate(String resourceGroupName, String containerServiceName, ContainerServiceInner parameters)
+package: com.microsoft.azure.management.containerservice.implementation
+metadata: {}

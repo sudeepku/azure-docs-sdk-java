@@ -1,0 +1,41 @@
+### YamlMime:JavaMember
+nameWithType: ApplicationPackagesInner.activate
+type: method
+members:
+- fullName: com.microsoft.azure.management.batch.implementation.ApplicationPackagesInner.activate(String resourceGroupName, String accountName, String applicationName, String versionName, String format)
+  name: activate(String resourceGroupName, String accountName, String applicationName, String versionName, String format)
+  nameWithType: ApplicationPackagesInner.activate(String resourceGroupName, String accountName, String applicationName, String versionName, String format)
+  parameters:
+  - description: <p>The name of the resource group that contains the Batch account. </p>
+    name: resourceGroupName
+    type: <xref href="String?alt=String&text=String" data-throw-if-not-resolved="False"/>
+  - description: <p>The name of the Batch account. </p>
+    name: accountName
+    type: <xref href="String?alt=String&text=String" data-throw-if-not-resolved="False"/>
+  - description: <p>The name of the application. This must be unique within the account. </p>
+    name: applicationName
+    type: <xref href="String?alt=String&text=String" data-throw-if-not-resolved="False"/>
+  - description: <p>The version of the application. </p>
+    name: versionName
+    type: <xref href="String?alt=String&text=String" data-throw-if-not-resolved="False"/>
+  - description: <p>The format of the application package binary file. </p>
+    name: format
+    type: <xref href="String?alt=String&text=String" data-throw-if-not-resolved="False"/>
+  exceptions:
+  - name: 3c87bd19
+  - name: dc385fd4
+  - name: 9b2a4515
+  returns:
+    description: <p>the ApplicationPackageInner object if successful. </p>
+    type: <xref href="com.microsoft.azure.management.batch.implementation.ApplicationPackageInner?alt=com.microsoft.azure.management.batch.implementation.ApplicationPackageInner&text=ApplicationPackageInner" data-throw-if-not-resolved="False"/>
+  summary: >-
+    <p>Activates the specified application package.</p>
+
+    <p></p>
+  syntax: public ApplicationPackageInner activate(String resourceGroupName, String accountName, String applicationName, String versionName, String format)
+  uid: com.microsoft.azure.management.batch.implementation.ApplicationPackagesInner.activate(String,String,String,String,String)
+uid: com.microsoft.azure.management.batch.implementation.ApplicationPackagesInner.activate*
+fullName: com.microsoft.azure.management.batch.implementation.ApplicationPackagesInner.activate(String resourceGroupName, String accountName, String applicationName, String versionName, String format)
+name: activate(String resourceGroupName, String accountName, String applicationName, String versionName, String format)
+package: com.microsoft.azure.management.batch.implementation
+metadata: {}

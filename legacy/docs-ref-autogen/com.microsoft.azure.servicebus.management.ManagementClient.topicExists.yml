@@ -1,0 +1,29 @@
+### YamlMime:JavaMember
+nameWithType: ManagementClient.topicExists
+type: method
+members:
+- fullName: com.microsoft.azure.servicebus.management.ManagementClient.topicExists(String path)
+  name: topicExists(String path)
+  nameWithType: ManagementClient.topicExists(String path)
+  parameters:
+  - description: <p>- Path of the entity to check </p>
+    name: path
+    type: <xref href="String?alt=String&text=String" data-throw-if-not-resolved="False"/>
+  exceptions:
+  - name: 3c87bd19
+  - name: a19dd706
+  - name: 312761a3
+  - name: 9d4598ba
+  - name: 73fec9fb
+  - name: 8256ba40
+  returns:
+    description: <p>- True if the entity exists. False otherwise. </p>
+    type: <xref href="Boolean?alt=Boolean&text=Boolean" data-throw-if-not-resolved="False"/>
+  summary: <p>Checks whether a given topic exists or not. </p>
+  syntax: public Boolean topicExists(String path)
+  uid: com.microsoft.azure.servicebus.management.ManagementClient.topicExists(String)
+uid: com.microsoft.azure.servicebus.management.ManagementClient.topicExists*
+fullName: com.microsoft.azure.servicebus.management.ManagementClient.topicExists(String path)
+name: topicExists(String path)
+package: com.microsoft.azure.servicebus.management
+metadata: {}

@@ -1,0 +1,29 @@
+### YamlMime:JavaMember
+nameWithType: Catalogs.listExternalDataSourcesNext
+type: method
+members:
+- fullName: com.microsoft.azure.management.datalake.analytics.Catalogs.listExternalDataSourcesNext(final String nextPageLink)
+  name: listExternalDataSourcesNext(final String nextPageLink)
+  nameWithType: Catalogs.listExternalDataSourcesNext(final String nextPageLink)
+  parameters:
+  - description: <p>The NextLink from the previous successful call to List operation. </p>
+    name: nextPageLink
+    type: <xref href="final+String?alt=final String&text=final+String" data-throw-if-not-resolved="False"/>
+  exceptions:
+  - name: 3c87bd19
+  - name: dc385fd4
+  - name: 9b2a4515
+  returns:
+    description: <p>the PagedList&lt;USqlExternalDataSource&gt; object if successful. </p>
+    type: PagedList&lt;<xref href="com.microsoft.azure.management.datalake.analytics.models.USqlExternalDataSource?alt=com.microsoft.azure.management.datalake.analytics.models.USqlExternalDataSource&text=USqlExternalDataSource" data-throw-if-not-resolved="False"/>&gt;
+  summary: >-
+    <p>Retrieves the list of external data sources from the Data Lake Analytics catalog.</p>
+
+    <p></p>
+  syntax: public PagedList<USqlExternalDataSource> listExternalDataSourcesNext(final String nextPageLink)
+  uid: com.microsoft.azure.management.datalake.analytics.Catalogs.listExternalDataSourcesNext(final String)
+uid: com.microsoft.azure.management.datalake.analytics.Catalogs.listExternalDataSourcesNext*
+fullName: com.microsoft.azure.management.datalake.analytics.Catalogs.listExternalDataSourcesNext(final String nextPageLink)
+name: listExternalDataSourcesNext(final String nextPageLink)
+package: com.microsoft.azure.management.datalake.analytics
+metadata: {}

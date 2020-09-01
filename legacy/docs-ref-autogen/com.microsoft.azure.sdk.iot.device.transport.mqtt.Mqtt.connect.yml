@@ -1,0 +1,20 @@
+### YamlMime:JavaMember
+nameWithType: Mqtt.connect
+type: method
+members:
+- fullName: com.microsoft.azure.sdk.iot.device.transport.mqtt.Mqtt.connect()
+  name: connect()
+  nameWithType: Mqtt.connect()
+  exceptions:
+  - name: 848a9648
+  summary: >-
+    <p>Method to connect to mqtt broker connection.</p>
+
+    <p></p>
+  syntax: protected void connect()
+  uid: com.microsoft.azure.sdk.iot.device.transport.mqtt.Mqtt.connect()
+uid: com.microsoft.azure.sdk.iot.device.transport.mqtt.Mqtt.connect*
+fullName: com.microsoft.azure.sdk.iot.device.transport.mqtt.Mqtt.connect()
+name: connect()
+package: com.microsoft.azure.sdk.iot.device.transport.mqtt
+metadata: {}

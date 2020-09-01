@@ -1,0 +1,30 @@
+### YamlMime:JavaMember
+nameWithType: ManagementClient.getTopic
+type: method
+members:
+- fullName: com.microsoft.azure.servicebus.management.ManagementClient.getTopic(String path)
+  name: getTopic(String path)
+  nameWithType: ManagementClient.getTopic(String path)
+  parameters:
+  - description: <p>- The path of the queue relative to service bus namespace. </p>
+    name: path
+    type: <xref href="String?alt=String&text=String" data-throw-if-not-resolved="False"/>
+  exceptions:
+  - name: 3c87bd19
+  - name: a19dd706
+  - name: 6d99fa63
+  - name: 312761a3
+  - name: 9d4598ba
+  - name: 73fec9fb
+  - name: 8256ba40
+  returns:
+    description: <p>- Description containing information about the topic. </p>
+    type: <xref href="com.microsoft.azure.servicebus.management.TopicDescription?alt=com.microsoft.azure.servicebus.management.TopicDescription&text=TopicDescription" data-throw-if-not-resolved="False"/>
+  summary: <p>Retrieves a topic from the service namespace </p>
+  syntax: public TopicDescription getTopic(String path)
+  uid: com.microsoft.azure.servicebus.management.ManagementClient.getTopic(String)
+uid: com.microsoft.azure.servicebus.management.ManagementClient.getTopic*
+fullName: com.microsoft.azure.servicebus.management.ManagementClient.getTopic(String path)
+name: getTopic(String path)
+package: com.microsoft.azure.servicebus.management
+metadata: {}

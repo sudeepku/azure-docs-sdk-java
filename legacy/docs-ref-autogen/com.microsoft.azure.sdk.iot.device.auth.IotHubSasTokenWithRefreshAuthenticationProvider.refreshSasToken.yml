@@ -1,0 +1,20 @@
+### YamlMime:JavaMember
+nameWithType: IotHubSasTokenWithRefreshAuthenticationProvider.refreshSasToken
+type: method
+members:
+- fullName: com.microsoft.azure.sdk.iot.device.auth.IotHubSasTokenWithRefreshAuthenticationProvider.refreshSasToken()
+  name: refreshSasToken()
+  nameWithType: IotHubSasTokenWithRefreshAuthenticationProvider.refreshSasToken()
+  exceptions:
+  - name: cbf33bbe
+  - name: 848a9648
+  returns:
+    type: <xref href="abstract+void?alt=abstract void&text=abstract+void" data-throw-if-not-resolved="False"/>
+  summary: <p>Renew the saved sas token </p>
+  syntax: public abstract void refreshSasToken()
+  uid: com.microsoft.azure.sdk.iot.device.auth.IotHubSasTokenWithRefreshAuthenticationProvider.refreshSasToken()
+uid: com.microsoft.azure.sdk.iot.device.auth.IotHubSasTokenWithRefreshAuthenticationProvider.refreshSasToken*
+fullName: com.microsoft.azure.sdk.iot.device.auth.IotHubSasTokenWithRefreshAuthenticationProvider.refreshSasToken()
+name: refreshSasToken()
+package: com.microsoft.azure.sdk.iot.device.auth
+metadata: {}

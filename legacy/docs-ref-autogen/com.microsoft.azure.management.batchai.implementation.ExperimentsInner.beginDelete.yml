@@ -1,0 +1,32 @@
+### YamlMime:JavaMember
+nameWithType: ExperimentsInner.beginDelete
+type: method
+members:
+- fullName: com.microsoft.azure.management.batchai.implementation.ExperimentsInner.beginDelete(String resourceGroupName, String workspaceName, String experimentName)
+  name: beginDelete(String resourceGroupName, String workspaceName, String experimentName)
+  nameWithType: ExperimentsInner.beginDelete(String resourceGroupName, String workspaceName, String experimentName)
+  parameters:
+  - description: <p>Name of the resource group to which the resource belongs. </p>
+    name: resourceGroupName
+    type: <xref href="String?alt=String&text=String" data-throw-if-not-resolved="False"/>
+  - description: <p>The name of the workspace. Workspace names can only contain a combination of alphanumeric characters along with dash (-) and underscore (_). The name must be from 1 through 64 characters long. </p>
+    name: workspaceName
+    type: <xref href="String?alt=String&text=String" data-throw-if-not-resolved="False"/>
+  - description: <p>The name of the experiment. Experiment names can only contain a combination of alphanumeric characters along with dash (-) and underscore (_). The name must be from 1 through 64 characters long. </p>
+    name: experimentName
+    type: <xref href="String?alt=String&text=String" data-throw-if-not-resolved="False"/>
+  exceptions:
+  - name: 3c87bd19
+  - name: dc385fd4
+  - name: 9b2a4515
+  summary: >-
+    <p>Deletes an Experiment.</p>
+
+    <p></p>
+  syntax: public void beginDelete(String resourceGroupName, String workspaceName, String experimentName)
+  uid: com.microsoft.azure.management.batchai.implementation.ExperimentsInner.beginDelete(String,String,String)
+uid: com.microsoft.azure.management.batchai.implementation.ExperimentsInner.beginDelete*
+fullName: com.microsoft.azure.management.batchai.implementation.ExperimentsInner.beginDelete(String resourceGroupName, String workspaceName, String experimentName)
+name: beginDelete(String resourceGroupName, String workspaceName, String experimentName)
+package: com.microsoft.azure.management.batchai.implementation
+metadata: {}

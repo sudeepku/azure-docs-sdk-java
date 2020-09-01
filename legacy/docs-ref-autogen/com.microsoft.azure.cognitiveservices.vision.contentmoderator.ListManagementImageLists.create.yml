@@ -1,0 +1,32 @@
+### YamlMime:JavaMember
+nameWithType: ListManagementImageLists.create
+type: method
+members:
+- fullName: com.microsoft.azure.cognitiveservices.vision.contentmoderator.ListManagementImageLists.create(String contentType, BodyModel bodyParameter)
+  name: create(String contentType, BodyModel bodyParameter)
+  nameWithType: ListManagementImageLists.create(String contentType, BodyModel bodyParameter)
+  parameters:
+  - description: <p>The content type. </p>
+    name: contentType
+    type: <xref href="String?alt=String&text=String" data-throw-if-not-resolved="False"/>
+  - description: <p>Schema of the body. </p>
+    name: bodyParameter
+    type: <xref href="com.microsoft.azure.cognitiveservices.vision.contentmoderator.models.BodyModel?alt=com.microsoft.azure.cognitiveservices.vision.contentmoderator.models.BodyModel&text=BodyModel" data-throw-if-not-resolved="False"/>
+  exceptions:
+  - name: 3c87bd19
+  - name: 3690e14b
+  - name: 9b2a4515
+  returns:
+    description: <p>the ImageList object if successful. </p>
+    type: <xref href="com.microsoft.azure.cognitiveservices.vision.contentmoderator.models.ImageList?alt=com.microsoft.azure.cognitiveservices.vision.contentmoderator.models.ImageList&text=ImageList" data-throw-if-not-resolved="False"/>
+  summary: >-
+    <p>Creates an image list.</p>
+
+    <p></p>
+  syntax: public ImageList create(String contentType, BodyModel bodyParameter)
+  uid: com.microsoft.azure.cognitiveservices.vision.contentmoderator.ListManagementImageLists.create(String,BodyModel)
+uid: com.microsoft.azure.cognitiveservices.vision.contentmoderator.ListManagementImageLists.create*
+fullName: com.microsoft.azure.cognitiveservices.vision.contentmoderator.ListManagementImageLists.create(String contentType, BodyModel bodyParameter)
+name: create(String contentType, BodyModel bodyParameter)
+package: com.microsoft.azure.cognitiveservices.vision.contentmoderator
+metadata: {}

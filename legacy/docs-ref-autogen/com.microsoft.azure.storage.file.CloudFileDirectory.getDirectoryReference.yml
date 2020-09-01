@@ -1,0 +1,28 @@
+### YamlMime:JavaMember
+nameWithType: CloudFileDirectory.getDirectoryReference
+type: method
+members:
+- fullName: com.microsoft.azure.storage.file.CloudFileDirectory.getDirectoryReference(final String itemName)
+  name: getDirectoryReference(final String itemName)
+  nameWithType: CloudFileDirectory.getDirectoryReference(final String itemName)
+  parameters:
+  - description: <p>A <code>String</code> that represents the name of the directory.</p>
+    name: itemName
+    type: <xref href="final+String?alt=final String&text=final+String" data-throw-if-not-resolved="False"/>
+  exceptions:
+  - name: "44102508"
+  - name: ca4f407a
+  returns:
+    description: <p>A <xref uid="com.microsoft.azure.storage.file.CloudFileDirectory" data-throw-if-not-resolved="false">CloudFileDirectory</xref> object that represents a reference to the specified directory.</p>
+    type: <xref href="com.microsoft.azure.storage.file.CloudFileDirectory?alt=com.microsoft.azure.storage.file.CloudFileDirectory&text=CloudFileDirectory" data-throw-if-not-resolved="False"/>
+  summary: >-
+    <p>Returns a reference to a <xref uid="com.microsoft.azure.storage.file.CloudFileDirectory" data-throw-if-not-resolved="false">CloudFileDirectory</xref> object that represents a directory in this directory.</p>
+
+    <p></p>
+  syntax: public CloudFileDirectory getDirectoryReference(final String itemName)
+  uid: com.microsoft.azure.storage.file.CloudFileDirectory.getDirectoryReference(final String)
+uid: com.microsoft.azure.storage.file.CloudFileDirectory.getDirectoryReference*
+fullName: com.microsoft.azure.storage.file.CloudFileDirectory.getDirectoryReference(final String itemName)
+name: getDirectoryReference(final String itemName)
+package: com.microsoft.azure.storage.file
+metadata: {}

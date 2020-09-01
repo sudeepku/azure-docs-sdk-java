@@ -1,0 +1,35 @@
+### YamlMime:JavaMember
+nameWithType: ManagedClustersInner.beginCreateOrUpdate
+type: method
+members:
+- fullName: com.microsoft.azure.management.containerservice.implementation.ManagedClustersInner.beginCreateOrUpdate(String resourceGroupName, String resourceName, ManagedClusterInner parameters)
+  name: beginCreateOrUpdate(String resourceGroupName, String resourceName, ManagedClusterInner parameters)
+  nameWithType: ManagedClustersInner.beginCreateOrUpdate(String resourceGroupName, String resourceName, ManagedClusterInner parameters)
+  parameters:
+  - description: <p>The name of the resource group. </p>
+    name: resourceGroupName
+    type: <xref href="String?alt=String&text=String" data-throw-if-not-resolved="False"/>
+  - description: <p>The name of the managed cluster resource. </p>
+    name: resourceName
+    type: <xref href="String?alt=String&text=String" data-throw-if-not-resolved="False"/>
+  - description: <p>Parameters supplied to the Create or Update a Managed Cluster operation. </p>
+    name: parameters
+    type: <xref href="com.microsoft.azure.management.containerservice.implementation.ManagedClusterInner?alt=com.microsoft.azure.management.containerservice.implementation.ManagedClusterInner&text=ManagedClusterInner" data-throw-if-not-resolved="False"/>
+  exceptions:
+  - name: 3c87bd19
+  - name: dc385fd4
+  - name: 9b2a4515
+  returns:
+    description: <p>the ManagedClusterInner object if successful. </p>
+    type: <xref href="com.microsoft.azure.management.containerservice.implementation.ManagedClusterInner?alt=com.microsoft.azure.management.containerservice.implementation.ManagedClusterInner&text=ManagedClusterInner" data-throw-if-not-resolved="False"/>
+  summary: >-
+    <p>Creates or updates a managed cluster. Creates or updates a managed cluster with the specified configuration for agents and Kubernetes version.</p>
+
+    <p></p>
+  syntax: public ManagedClusterInner beginCreateOrUpdate(String resourceGroupName, String resourceName, ManagedClusterInner parameters)
+  uid: com.microsoft.azure.management.containerservice.implementation.ManagedClustersInner.beginCreateOrUpdate(String,String,ManagedClusterInner)
+uid: com.microsoft.azure.management.containerservice.implementation.ManagedClustersInner.beginCreateOrUpdate*
+fullName: com.microsoft.azure.management.containerservice.implementation.ManagedClustersInner.beginCreateOrUpdate(String resourceGroupName, String resourceName, ManagedClusterInner parameters)
+name: beginCreateOrUpdate(String resourceGroupName, String resourceName, ManagedClusterInner parameters)
+package: com.microsoft.azure.management.containerservice.implementation
+metadata: {}

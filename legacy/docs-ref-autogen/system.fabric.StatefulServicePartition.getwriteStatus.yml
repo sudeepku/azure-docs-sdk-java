@@ -1,0 +1,28 @@
+### YamlMime:JavaMember
+nameWithType: StatefulServicePartition.getwriteStatus
+type: method
+members:
+- fullName: system.fabric.StatefulServicePartition.getwriteStatus()
+  name: getwriteStatus()
+  nameWithType: StatefulServicePartition.getwriteStatus()
+  exceptions:
+  - name: 4b752876
+  returns:
+    description: >-
+      <p>
+
+        <xref uid="system.fabric.PartitionAccessStatus" data-throw-if-not-resolved="false">system.fabric.PartitionAccessStatus</xref>. </p>
+    type: <xref href="system.fabric.PartitionAccessStatus?alt=system.fabric.PartitionAccessStatus&text=PartitionAccessStatus" data-throw-if-not-resolved="False"/>
+  summary: >-
+    <p>Used to check the readiness of the partition in regard to write operations.</p>
+
+    <p>
+
+      <b>Remarks:</b>The WriteStatus should be checked before the replica services a customer request that is a write operation. </p>
+  syntax: public PartitionAccessStatus getwriteStatus()
+  uid: system.fabric.StatefulServicePartition.getwriteStatus()
+uid: system.fabric.StatefulServicePartition.getwriteStatus*
+fullName: system.fabric.StatefulServicePartition.getwriteStatus()
+name: getwriteStatus()
+package: system.fabric
+metadata: {}

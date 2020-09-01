@@ -1,0 +1,25 @@
+### YamlMime:JavaMember
+nameWithType: OperationsInner.list
+type: method
+members:
+- fullName: com.microsoft.azure.management.containerservice.implementation.OperationsInner.list()
+  name: list()
+  nameWithType: OperationsInner.list()
+  exceptions:
+  - name: 3c87bd19
+  - name: dc385fd4
+  - name: 9b2a4515
+  returns:
+    description: <p>the List&lt;OperationValueInner&gt; object if successful. </p>
+    type: List&lt;<xref href="com.microsoft.azure.management.containerservice.implementation.OperationValueInner?alt=com.microsoft.azure.management.containerservice.implementation.OperationValueInner&text=OperationValueInner" data-throw-if-not-resolved="False"/>&gt;
+  summary: >-
+    <p>Gets a list of compute operations.</p>
+
+    <p></p>
+  syntax: public List<OperationValueInner> list()
+  uid: com.microsoft.azure.management.containerservice.implementation.OperationsInner.list()
+uid: com.microsoft.azure.management.containerservice.implementation.OperationsInner.list*
+fullName: com.microsoft.azure.management.containerservice.implementation.OperationsInner.list()
+name: list()
+package: com.microsoft.azure.management.containerservice.implementation
+metadata: {}

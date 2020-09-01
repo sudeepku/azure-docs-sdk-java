@@ -1,0 +1,47 @@
+### YamlMime:JavaMember
+nameWithType: Models.listPrebuilts
+type: method
+members:
+- fullName: com.microsoft.azure.cognitiveservices.language.luis.authoring.Models.listPrebuilts()
+  name: listPrebuilts()
+  nameWithType: Models.listPrebuilts()
+  returns:
+    description: <p>the first stage of the listPrebuilts call </p>
+    type: <xref href="ModelsListPrebuiltsDefinitionStages.WithAppId?alt=ModelsListPrebuiltsDefinitionStages.WithAppId&text=ModelsListPrebuiltsDefinitionStages.WithAppId" data-throw-if-not-resolved="False"/>
+  summary: >-
+    <p>Gets information about the prebuilt entity models.</p>
+
+    <p></p>
+  syntax: public ModelsListPrebuiltsDefinitionStages.WithAppId listPrebuilts()
+  uid: com.microsoft.azure.cognitiveservices.language.luis.authoring.Models.listPrebuilts()
+- fullName: com.microsoft.azure.cognitiveservices.language.luis.authoring.Models.listPrebuilts(UUID appId, String versionId, ListPrebuiltsOptionalParameter listPrebuiltsOptionalParameter)
+  name: listPrebuilts(UUID appId, String versionId, ListPrebuiltsOptionalParameter listPrebuiltsOptionalParameter)
+  nameWithType: Models.listPrebuilts(UUID appId, String versionId, ListPrebuiltsOptionalParameter listPrebuiltsOptionalParameter)
+  parameters:
+  - description: <p>The application ID. </p>
+    name: appId
+    type: <xref href="UUID?alt=UUID&text=UUID" data-throw-if-not-resolved="False"/>
+  - description: <p>The version ID. </p>
+    name: versionId
+    type: <xref href="String?alt=String&text=String" data-throw-if-not-resolved="False"/>
+  - description: <p>the object representing the optional parameters to be set before calling this API </p>
+    name: listPrebuiltsOptionalParameter
+    type: <xref href="com.microsoft.azure.cognitiveservices.language.luis.authoring.models.ListPrebuiltsOptionalParameter?alt=com.microsoft.azure.cognitiveservices.language.luis.authoring.models.ListPrebuiltsOptionalParameter&text=ListPrebuiltsOptionalParameter" data-throw-if-not-resolved="False"/>
+  exceptions:
+  - name: 3c87bd19
+  - name: 00ad4777
+  - name: 9b2a4515
+  returns:
+    description: <p>the List&lt;PrebuiltEntityExtractor&gt; object if successful. </p>
+    type: List&lt;<xref href="com.microsoft.azure.cognitiveservices.language.luis.authoring.models.PrebuiltEntityExtractor?alt=com.microsoft.azure.cognitiveservices.language.luis.authoring.models.PrebuiltEntityExtractor&text=PrebuiltEntityExtractor" data-throw-if-not-resolved="False"/>&gt;
+  summary: >-
+    <p>Gets information about the prebuilt entity models.</p>
+
+    <p></p>
+  syntax: public List<PrebuiltEntityExtractor> listPrebuilts(UUID appId, String versionId, ListPrebuiltsOptionalParameter listPrebuiltsOptionalParameter)
+  uid: com.microsoft.azure.cognitiveservices.language.luis.authoring.Models.listPrebuilts(UUID,String,ListPrebuiltsOptionalParameter)
+uid: com.microsoft.azure.cognitiveservices.language.luis.authoring.Models.listPrebuilts*
+fullName: com.microsoft.azure.cognitiveservices.language.luis.authoring.Models.listPrebuilts()
+name: listPrebuilts()
+package: com.microsoft.azure.cognitiveservices.language.luis.authoring
+metadata: {}

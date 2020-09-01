@@ -1,0 +1,34 @@
+### YamlMime:JavaMember
+nameWithType: Query.sendQueryRequest
+type: method
+members:
+- fullName: com.microsoft.azure.sdk.iot.service.devicetwin.Query.sendQueryRequest(IotHubConnectionString iotHubConnectionString, URL url, HttpMethod method, Long timeoutInMs)
+  name: sendQueryRequest(IotHubConnectionString iotHubConnectionString, URL url, HttpMethod method, Long timeoutInMs)
+  nameWithType: Query.sendQueryRequest(IotHubConnectionString iotHubConnectionString, URL url, HttpMethod method, Long timeoutInMs)
+  parameters:
+  - description: <p>Hub Connection String </p>
+    name: iotHubConnectionString
+    type: <xref href="com.microsoft.azure.sdk.iot.service.IotHubConnectionString?alt=com.microsoft.azure.sdk.iot.service.IotHubConnectionString&text=IotHubConnectionString" data-throw-if-not-resolved="False"/>
+  - description: <p>URL to Query on </p>
+    name: url
+    type: <xref href="URL?alt=URL&text=URL" data-throw-if-not-resolved="False"/>
+  - description: <p>HTTP Method for the requesting a query </p>
+    name: method
+    type: <xref href="com.microsoft.azure.sdk.iot.service.transport.http.HttpMethod?alt=com.microsoft.azure.sdk.iot.service.transport.http.HttpMethod&text=HttpMethod" data-throw-if-not-resolved="False"/>
+  - description: <p>Maximum time to wait for the hub to respond </p>
+    name: timeoutInMs
+    type: <xref href="Long?alt=Long&text=Long" data-throw-if-not-resolved="False"/>
+  exceptions:
+  - name: cbf33bbe
+  - name: 0d494ee6
+  returns:
+    description: <p>QueryResponse object which holds the response Iterator </p>
+    type: <xref href="com.microsoft.azure.sdk.iot.service.devicetwin.QueryResponse?alt=com.microsoft.azure.sdk.iot.service.devicetwin.QueryResponse&text=QueryResponse" data-throw-if-not-resolved="False"/>
+  summary: <p>Sends request for the query to the IotHub </p>
+  syntax: public QueryResponse sendQueryRequest(IotHubConnectionString iotHubConnectionString, URL url, HttpMethod method, Long timeoutInMs)
+  uid: com.microsoft.azure.sdk.iot.service.devicetwin.Query.sendQueryRequest(IotHubConnectionString,URL,HttpMethod,Long)
+uid: com.microsoft.azure.sdk.iot.service.devicetwin.Query.sendQueryRequest*
+fullName: com.microsoft.azure.sdk.iot.service.devicetwin.Query.sendQueryRequest(IotHubConnectionString iotHubConnectionString, URL url, HttpMethod method, Long timeoutInMs)
+name: sendQueryRequest(IotHubConnectionString iotHubConnectionString, URL url, HttpMethod method, Long timeoutInMs)
+package: com.microsoft.azure.sdk.iot.service.devicetwin
+metadata: {}

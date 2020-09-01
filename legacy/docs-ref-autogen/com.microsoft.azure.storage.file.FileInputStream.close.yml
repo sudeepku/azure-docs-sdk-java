@@ -1,0 +1,22 @@
+### YamlMime:JavaMember
+nameWithType: FileInputStream.close
+type: method
+members:
+- fullName: com.microsoft.azure.storage.file.FileInputStream.close()
+  name: close()
+  nameWithType: FileInputStream.close()
+  exceptions:
+  - name: cbf33bbe
+  returns:
+    type: <xref href="synchronized+void?alt=synchronized void&text=synchronized+void" data-throw-if-not-resolved="False"/>
+  summary: >-
+    <p>Closes this input stream and releases any system resources associated with the stream.</p>
+
+    <p></p>
+  syntax: public synchronized void close()
+  uid: com.microsoft.azure.storage.file.FileInputStream.close()
+uid: com.microsoft.azure.storage.file.FileInputStream.close*
+fullName: com.microsoft.azure.storage.file.FileInputStream.close()
+name: close()
+package: com.microsoft.azure.storage.file
+metadata: {}

@@ -1,0 +1,26 @@
+### YamlMime:JavaMember
+nameWithType: DeviceTwinDevice.getDesiredPropertiesVersion
+type: method
+members:
+- fullName: com.microsoft.azure.sdk.iot.service.devicetwin.DeviceTwinDevice.getDesiredPropertiesVersion()
+  name: getDesiredPropertiesVersion()
+  nameWithType: DeviceTwinDevice.getDesiredPropertiesVersion()
+  exceptions:
+  - name: 3c87bd19
+  returns:
+    description: >-
+      <p>The<code>Integer 
+
+          </code> with the Desired properties Collection version. </p>
+    type: <xref href="Integer?alt=Integer&text=Integer" data-throw-if-not-resolved="False"/>
+  summary: >-
+    <p>Getter for the desired properties version.</p>
+
+    <p></p>
+  syntax: public Integer getDesiredPropertiesVersion()
+  uid: com.microsoft.azure.sdk.iot.service.devicetwin.DeviceTwinDevice.getDesiredPropertiesVersion()
+uid: com.microsoft.azure.sdk.iot.service.devicetwin.DeviceTwinDevice.getDesiredPropertiesVersion*
+fullName: com.microsoft.azure.sdk.iot.service.devicetwin.DeviceTwinDevice.getDesiredPropertiesVersion()
+name: getDesiredPropertiesVersion()
+package: com.microsoft.azure.sdk.iot.service.devicetwin
+metadata: {}

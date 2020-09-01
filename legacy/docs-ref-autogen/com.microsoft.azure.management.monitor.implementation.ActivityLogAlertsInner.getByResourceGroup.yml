@@ -1,0 +1,33 @@
+### YamlMime:JavaMember
+nameWithType: ActivityLogAlertsInner.getByResourceGroup
+type: method
+members:
+- fullName: com.microsoft.azure.management.monitor.implementation.ActivityLogAlertsInner.getByResourceGroup(String resourceGroupName, String activityLogAlertName)
+  name: getByResourceGroup(String resourceGroupName, String activityLogAlertName)
+  nameWithType: ActivityLogAlertsInner.getByResourceGroup(String resourceGroupName, String activityLogAlertName)
+  overridden: com.microsoft.azure.management.resources.fluentcore.collection.InnerSupportsGet.getByResourceGroup(String,String)
+  parameters:
+  - description: <p>The name of the resource group. </p>
+    name: resourceGroupName
+    type: <xref href="String?alt=String&text=String" data-throw-if-not-resolved="False"/>
+  - description: <p>The name of the activity log alert. </p>
+    name: activityLogAlertName
+    type: <xref href="String?alt=String&text=String" data-throw-if-not-resolved="False"/>
+  exceptions:
+  - name: 3c87bd19
+  - name: 00ad4777
+  - name: 9b2a4515
+  returns:
+    description: <p>the ActivityLogAlertResourceInner object if successful. </p>
+    type: <xref href="com.microsoft.azure.management.monitor.implementation.ActivityLogAlertResourceInner?alt=com.microsoft.azure.management.monitor.implementation.ActivityLogAlertResourceInner&text=ActivityLogAlertResourceInner" data-throw-if-not-resolved="False"/>
+  summary: >-
+    <p>Get an activity log alert.</p>
+
+    <p></p>
+  syntax: public ActivityLogAlertResourceInner getByResourceGroup(String resourceGroupName, String activityLogAlertName)
+  uid: com.microsoft.azure.management.monitor.implementation.ActivityLogAlertsInner.getByResourceGroup(String,String)
+uid: com.microsoft.azure.management.monitor.implementation.ActivityLogAlertsInner.getByResourceGroup*
+fullName: com.microsoft.azure.management.monitor.implementation.ActivityLogAlertsInner.getByResourceGroup(String resourceGroupName, String activityLogAlertName)
+name: getByResourceGroup(String resourceGroupName, String activityLogAlertName)
+package: com.microsoft.azure.management.monitor.implementation
+metadata: {}

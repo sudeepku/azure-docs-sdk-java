@@ -1,0 +1,23 @@
+### YamlMime:JavaMember
+nameWithType: ManagementAssociations.listAsync
+type: method
+members:
+- fullName: com.microsoft.azure.management.operationsmanagement.v2015_11_01_preview.ManagementAssociations.listAsync()
+  name: listAsync()
+  nameWithType: ManagementAssociations.listAsync()
+  exceptions:
+  - name: 3c87bd19
+  returns:
+    description: <p>the observable for the request </p>
+    type: Observable&lt;<xref href="com.microsoft.azure.management.operationsmanagement.v2015_11_01_preview.ManagementAssociation?alt=com.microsoft.azure.management.operationsmanagement.v2015_11_01_preview.ManagementAssociation&text=ManagementAssociation" data-throw-if-not-resolved="False"/>&gt;
+  summary: >-
+    <p>Retrieves the ManagementAssociations list for the subscription. Retrieves the ManagementAssociations list.</p>
+
+    <p></p>
+  syntax: public Observable<ManagementAssociation> listAsync()
+  uid: com.microsoft.azure.management.operationsmanagement.v2015_11_01_preview.ManagementAssociations.listAsync()
+uid: com.microsoft.azure.management.operationsmanagement.v2015_11_01_preview.ManagementAssociations.listAsync*
+fullName: com.microsoft.azure.management.operationsmanagement.v2015_11_01_preview.ManagementAssociations.listAsync()
+name: listAsync()
+package: com.microsoft.azure.management.operationsmanagement.v2015_11_01_preview
+metadata: {}

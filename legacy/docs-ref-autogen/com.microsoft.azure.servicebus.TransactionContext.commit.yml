@@ -1,0 +1,18 @@
+### YamlMime:JavaMember
+nameWithType: TransactionContext.commit
+type: method
+members:
+- fullName: com.microsoft.azure.servicebus.TransactionContext.commit()
+  name: commit()
+  nameWithType: TransactionContext.commit()
+  exceptions:
+  - name: 73fec9fb
+  - name: 8256ba40
+  summary: <p>Commits the transaction </p>
+  syntax: public void commit()
+  uid: com.microsoft.azure.servicebus.TransactionContext.commit()
+uid: com.microsoft.azure.servicebus.TransactionContext.commit*
+fullName: com.microsoft.azure.servicebus.TransactionContext.commit()
+name: commit()
+package: com.microsoft.azure.servicebus
+metadata: {}

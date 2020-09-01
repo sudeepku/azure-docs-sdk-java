@@ -1,0 +1,35 @@
+### YamlMime:JavaMember
+nameWithType: AgentPoolsInner.getUpgradeProfile
+type: method
+members:
+- fullName: com.microsoft.azure.management.containerservice.implementation.AgentPoolsInner.getUpgradeProfile(String resourceGroupName, String resourceName, String agentPoolName)
+  name: getUpgradeProfile(String resourceGroupName, String resourceName, String agentPoolName)
+  nameWithType: AgentPoolsInner.getUpgradeProfile(String resourceGroupName, String resourceName, String agentPoolName)
+  parameters:
+  - description: <p>The name of the resource group. </p>
+    name: resourceGroupName
+    type: <xref href="String?alt=String&text=String" data-throw-if-not-resolved="False"/>
+  - description: <p>The name of the managed cluster resource. </p>
+    name: resourceName
+    type: <xref href="String?alt=String&text=String" data-throw-if-not-resolved="False"/>
+  - description: <p>The name of the agent pool. </p>
+    name: agentPoolName
+    type: <xref href="String?alt=String&text=String" data-throw-if-not-resolved="False"/>
+  exceptions:
+  - name: 3c87bd19
+  - name: dc385fd4
+  - name: 9b2a4515
+  returns:
+    description: <p>the AgentPoolUpgradeProfileInner object if successful. </p>
+    type: <xref href="com.microsoft.azure.management.containerservice.implementation.AgentPoolUpgradeProfileInner?alt=com.microsoft.azure.management.containerservice.implementation.AgentPoolUpgradeProfileInner&text=AgentPoolUpgradeProfileInner" data-throw-if-not-resolved="False"/>
+  summary: >-
+    <p>Gets upgrade profile for an agent pool. Gets the details of the upgrade profile for an agent pool with a specified resource group and managed cluster name.</p>
+
+    <p></p>
+  syntax: public AgentPoolUpgradeProfileInner getUpgradeProfile(String resourceGroupName, String resourceName, String agentPoolName)
+  uid: com.microsoft.azure.management.containerservice.implementation.AgentPoolsInner.getUpgradeProfile(String,String,String)
+uid: com.microsoft.azure.management.containerservice.implementation.AgentPoolsInner.getUpgradeProfile*
+fullName: com.microsoft.azure.management.containerservice.implementation.AgentPoolsInner.getUpgradeProfile(String resourceGroupName, String resourceName, String agentPoolName)
+name: getUpgradeProfile(String resourceGroupName, String resourceName, String agentPoolName)
+package: com.microsoft.azure.management.containerservice.implementation
+metadata: {}

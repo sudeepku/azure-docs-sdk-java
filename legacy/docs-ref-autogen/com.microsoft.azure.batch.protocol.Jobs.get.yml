@@ -1,0 +1,52 @@
+### YamlMime:JavaMember
+nameWithType: Jobs.get
+type: method
+members:
+- fullName: com.microsoft.azure.batch.protocol.Jobs.get(String jobId)
+  name: get(String jobId)
+  nameWithType: Jobs.get(String jobId)
+  parameters:
+  - description: <p>The ID of the job. </p>
+    name: jobId
+    type: <xref href="String?alt=String&text=String" data-throw-if-not-resolved="False"/>
+  exceptions:
+  - name: 3c87bd19
+  - name: c8683d81
+  - name: 9b2a4515
+  returns:
+    description: <p>the CloudJob object if successful. </p>
+    type: <xref href="com.microsoft.azure.batch.protocol.models.CloudJob?alt=com.microsoft.azure.batch.protocol.models.CloudJob&text=CloudJob" data-throw-if-not-resolved="False"/>
+  summary: >-
+    <p>Gets information about the specified job.</p>
+
+    <p></p>
+  syntax: public CloudJob get(String jobId)
+  uid: com.microsoft.azure.batch.protocol.Jobs.get(String)
+- fullName: com.microsoft.azure.batch.protocol.Jobs.get(String jobId, JobGetOptions jobGetOptions)
+  name: get(String jobId, JobGetOptions jobGetOptions)
+  nameWithType: Jobs.get(String jobId, JobGetOptions jobGetOptions)
+  parameters:
+  - description: <p>The ID of the job. </p>
+    name: jobId
+    type: <xref href="String?alt=String&text=String" data-throw-if-not-resolved="False"/>
+  - description: <p>Additional parameters for the operation </p>
+    name: jobGetOptions
+    type: <xref href="com.microsoft.azure.batch.protocol.models.JobGetOptions?alt=com.microsoft.azure.batch.protocol.models.JobGetOptions&text=JobGetOptions" data-throw-if-not-resolved="False"/>
+  exceptions:
+  - name: 3c87bd19
+  - name: c8683d81
+  - name: 9b2a4515
+  returns:
+    description: <p>the CloudJob object if successful. </p>
+    type: <xref href="com.microsoft.azure.batch.protocol.models.CloudJob?alt=com.microsoft.azure.batch.protocol.models.CloudJob&text=CloudJob" data-throw-if-not-resolved="False"/>
+  summary: >-
+    <p>Gets information about the specified job.</p>
+
+    <p></p>
+  syntax: public CloudJob get(String jobId, JobGetOptions jobGetOptions)
+  uid: com.microsoft.azure.batch.protocol.Jobs.get(String,JobGetOptions)
+uid: com.microsoft.azure.batch.protocol.Jobs.get*
+fullName: com.microsoft.azure.batch.protocol.Jobs.get(String jobId)
+name: get(String jobId)
+package: com.microsoft.azure.batch.protocol
+metadata: {}

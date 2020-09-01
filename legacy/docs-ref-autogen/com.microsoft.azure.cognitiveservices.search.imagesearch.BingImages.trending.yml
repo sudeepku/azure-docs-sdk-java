@@ -1,0 +1,41 @@
+### YamlMime:JavaMember
+nameWithType: BingImages.trending
+type: method
+members:
+- fullName: com.microsoft.azure.cognitiveservices.search.imagesearch.BingImages.trending()
+  name: trending()
+  nameWithType: BingImages.trending()
+  returns:
+    description: <p>the first stage of the trending call </p>
+    type: <xref href="BingImagesTrendingDefinitionStages.WithExecute?alt=BingImagesTrendingDefinitionStages.WithExecute&text=BingImagesTrendingDefinitionStages.WithExecute" data-throw-if-not-resolved="False"/>
+  summary: >-
+    <p>The Image Trending Search API lets you search on Bing and get back a list of images that are trending based on search requests made by others. The images are broken out into different categories. For example, Popular People Searches. For a list of markets that support trending images, see [Trending Images](<a href="https://docs.microsoft.com/en-us/azure/cognitive-services/bing-image-search/trending-images">https://docs.microsoft.com/en-us/azure/cognitive-services/bing-image-search/trending-images</a>).</p>
+
+    <p></p>
+  syntax: public BingImagesTrendingDefinitionStages.WithExecute trending()
+  uid: com.microsoft.azure.cognitiveservices.search.imagesearch.BingImages.trending()
+- fullName: com.microsoft.azure.cognitiveservices.search.imagesearch.BingImages.trending(TrendingOptionalParameter trendingOptionalParameter)
+  name: trending(TrendingOptionalParameter trendingOptionalParameter)
+  nameWithType: BingImages.trending(TrendingOptionalParameter trendingOptionalParameter)
+  parameters:
+  - description: <p>the object representing the optional parameters to be set before calling this API </p>
+    name: trendingOptionalParameter
+    type: <xref href="com.microsoft.azure.cognitiveservices.search.imagesearch.models.TrendingOptionalParameter?alt=com.microsoft.azure.cognitiveservices.search.imagesearch.models.TrendingOptionalParameter&text=TrendingOptionalParameter" data-throw-if-not-resolved="False"/>
+  exceptions:
+  - name: 3c87bd19
+  - name: 00ad4777
+  - name: 9b2a4515
+  returns:
+    description: <p>the TrendingImages object if successful. </p>
+    type: <xref href="com.microsoft.azure.cognitiveservices.search.imagesearch.models.TrendingImages?alt=com.microsoft.azure.cognitiveservices.search.imagesearch.models.TrendingImages&text=TrendingImages" data-throw-if-not-resolved="False"/>
+  summary: >-
+    <p>The Image Trending Search API lets you search on Bing and get back a list of images that are trending based on search requests made by others. The images are broken out into different categories. For example, Popular People Searches. For a list of markets that support trending images, see [Trending Images](<a href="https://docs.microsoft.com/en-us/azure/cognitive-services/bing-image-search/trending-images">https://docs.microsoft.com/en-us/azure/cognitive-services/bing-image-search/trending-images</a>).</p>
+
+    <p></p>
+  syntax: public TrendingImages trending(TrendingOptionalParameter trendingOptionalParameter)
+  uid: com.microsoft.azure.cognitiveservices.search.imagesearch.BingImages.trending(TrendingOptionalParameter)
+uid: com.microsoft.azure.cognitiveservices.search.imagesearch.BingImages.trending*
+fullName: com.microsoft.azure.cognitiveservices.search.imagesearch.BingImages.trending()
+name: trending()
+package: com.microsoft.azure.cognitiveservices.search.imagesearch
+metadata: {}

@@ -1,0 +1,25 @@
+### YamlMime:JavaMember
+nameWithType: AmqpReceive.receive
+type: method
+members:
+- fullName: com.microsoft.azure.sdk.iot.service.transport.amqps.AmqpReceive.receive(long timeoutMs)
+  name: receive(long timeoutMs)
+  nameWithType: AmqpReceive.receive(long timeoutMs)
+  parameters:
+  - description: <p>The timeout in milliseconds to wait for the feedback </p>
+    name: timeoutMs
+    type: <xref href="long?alt=long&text=long" data-throw-if-not-resolved="False"/>
+  exceptions:
+  - name: cbf33bbe
+  - name: 8256ba40
+  returns:
+    description: <p>The received feedback batch </p>
+    type: synchronized <xref href="com.microsoft.azure.sdk.iot.service.FeedbackBatch?alt=com.microsoft.azure.sdk.iot.service.FeedbackBatch&text=FeedbackBatch" data-throw-if-not-resolved="False"/>
+  summary: <p>Synchronized call to receive feedback batch Hide the event based receiving mechanism from the user API </p>
+  syntax: public synchronized FeedbackBatch receive(long timeoutMs)
+  uid: com.microsoft.azure.sdk.iot.service.transport.amqps.AmqpReceive.receive(long)
+uid: com.microsoft.azure.sdk.iot.service.transport.amqps.AmqpReceive.receive*
+fullName: com.microsoft.azure.sdk.iot.service.transport.amqps.AmqpReceive.receive(long timeoutMs)
+name: receive(long timeoutMs)
+package: com.microsoft.azure.sdk.iot.service.transport.amqps
+metadata: {}

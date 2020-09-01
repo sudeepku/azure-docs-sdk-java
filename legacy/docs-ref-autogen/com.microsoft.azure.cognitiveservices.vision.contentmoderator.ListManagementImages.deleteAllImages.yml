@@ -1,0 +1,29 @@
+### YamlMime:JavaMember
+nameWithType: ListManagementImages.deleteAllImages
+type: method
+members:
+- fullName: com.microsoft.azure.cognitiveservices.vision.contentmoderator.ListManagementImages.deleteAllImages(String listId)
+  name: deleteAllImages(String listId)
+  nameWithType: ListManagementImages.deleteAllImages(String listId)
+  parameters:
+  - description: <p>List Id of the image list. </p>
+    name: listId
+    type: <xref href="String?alt=String&text=String" data-throw-if-not-resolved="False"/>
+  exceptions:
+  - name: 3c87bd19
+  - name: 3690e14b
+  - name: 9b2a4515
+  returns:
+    description: <p>the String object if successful. </p>
+    type: <xref href="String?alt=String&text=String" data-throw-if-not-resolved="False"/>
+  summary: >-
+    <p>Deletes all images from the list with list Id equal to list Id passed.</p>
+
+    <p></p>
+  syntax: public String deleteAllImages(String listId)
+  uid: com.microsoft.azure.cognitiveservices.vision.contentmoderator.ListManagementImages.deleteAllImages(String)
+uid: com.microsoft.azure.cognitiveservices.vision.contentmoderator.ListManagementImages.deleteAllImages*
+fullName: com.microsoft.azure.cognitiveservices.vision.contentmoderator.ListManagementImages.deleteAllImages(String listId)
+name: deleteAllImages(String listId)
+package: com.microsoft.azure.cognitiveservices.vision.contentmoderator
+metadata: {}

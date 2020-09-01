@@ -1,0 +1,32 @@
+### YamlMime:JavaMember
+nameWithType: WebhooksInner.list
+type: method
+members:
+- fullName: com.microsoft.azure.management.containerregistry.implementation.WebhooksInner.list(final String resourceGroupName, final String registryName)
+  name: list(final String resourceGroupName, final String registryName)
+  nameWithType: WebhooksInner.list(final String resourceGroupName, final String registryName)
+  parameters:
+  - description: <p>The name of the resource group to which the container registry belongs. </p>
+    name: resourceGroupName
+    type: <xref href="final+String?alt=final String&text=final+String" data-throw-if-not-resolved="False"/>
+  - description: <p>The name of the container registry. </p>
+    name: registryName
+    type: <xref href="final+String?alt=final String&text=final+String" data-throw-if-not-resolved="False"/>
+  exceptions:
+  - name: 3c87bd19
+  - name: dc385fd4
+  - name: 9b2a4515
+  returns:
+    description: <p>the PagedList&lt;WebhookInner&gt; object if successful. </p>
+    type: PagedList&lt;<xref href="com.microsoft.azure.management.containerregistry.implementation.WebhookInner?alt=com.microsoft.azure.management.containerregistry.implementation.WebhookInner&text=WebhookInner" data-throw-if-not-resolved="False"/>&gt;
+  summary: >-
+    <p>Lists all the webhooks for the specified container registry.</p>
+
+    <p></p>
+  syntax: public PagedList<WebhookInner> list(final String resourceGroupName, final String registryName)
+  uid: com.microsoft.azure.management.containerregistry.implementation.WebhooksInner.list(final String,final String)
+uid: com.microsoft.azure.management.containerregistry.implementation.WebhooksInner.list*
+fullName: com.microsoft.azure.management.containerregistry.implementation.WebhooksInner.list(final String resourceGroupName, final String registryName)
+name: list(final String resourceGroupName, final String registryName)
+package: com.microsoft.azure.management.containerregistry.implementation
+metadata: {}

@@ -1,0 +1,35 @@
+### YamlMime:JavaMember
+nameWithType: Versions.deleteUnlabelledUtterance
+type: method
+members:
+- fullName: com.microsoft.azure.cognitiveservices.language.luis.authoring.Versions.deleteUnlabelledUtterance(UUID appId, String versionId, String utterance)
+  name: deleteUnlabelledUtterance(UUID appId, String versionId, String utterance)
+  nameWithType: Versions.deleteUnlabelledUtterance(UUID appId, String versionId, String utterance)
+  parameters:
+  - description: <p>The application ID. </p>
+    name: appId
+    type: <xref href="UUID?alt=UUID&text=UUID" data-throw-if-not-resolved="False"/>
+  - description: <p>The version ID. </p>
+    name: versionId
+    type: <xref href="String?alt=String&text=String" data-throw-if-not-resolved="False"/>
+  - description: <p>The utterance text to delete. </p>
+    name: utterance
+    type: <xref href="String?alt=String&text=String" data-throw-if-not-resolved="False"/>
+  exceptions:
+  - name: 3c87bd19
+  - name: 00ad4777
+  - name: 9b2a4515
+  returns:
+    description: <p>the OperationStatus object if successful. </p>
+    type: <xref href="com.microsoft.azure.cognitiveservices.language.luis.authoring.models.OperationStatus?alt=com.microsoft.azure.cognitiveservices.language.luis.authoring.models.OperationStatus&text=OperationStatus" data-throw-if-not-resolved="False"/>
+  summary: >-
+    <p>Deleted an unlabelled utterance.</p>
+
+    <p></p>
+  syntax: public OperationStatus deleteUnlabelledUtterance(UUID appId, String versionId, String utterance)
+  uid: com.microsoft.azure.cognitiveservices.language.luis.authoring.Versions.deleteUnlabelledUtterance(UUID,String,String)
+uid: com.microsoft.azure.cognitiveservices.language.luis.authoring.Versions.deleteUnlabelledUtterance*
+fullName: com.microsoft.azure.cognitiveservices.language.luis.authoring.Versions.deleteUnlabelledUtterance(UUID appId, String versionId, String utterance)
+name: deleteUnlabelledUtterance(UUID appId, String versionId, String utterance)
+package: com.microsoft.azure.cognitiveservices.language.luis.authoring
+metadata: {}

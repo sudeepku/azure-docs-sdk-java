@@ -1,0 +1,23 @@
+### YamlMime:JavaMember
+nameWithType: MethodParser.toJsonElement
+type: method
+members:
+- fullName: com.microsoft.azure.sdk.iot.deps.serializer.MethodParser.toJsonElement()
+  name: toJsonElement()
+  nameWithType: MethodParser.toJsonElement()
+  exceptions:
+  - name: 3c87bd19
+  returns:
+    description: <p>JsonElement with the content. </p>
+    type: <xref href="JsonElement?alt=JsonElement&text=JsonElement" data-throw-if-not-resolved="False"/>
+  summary: >-
+    <p>Create a JsonElement with a content that represents all the information in the method collection.</p>
+
+    <p></p>
+  syntax: public JsonElement toJsonElement()
+  uid: com.microsoft.azure.sdk.iot.deps.serializer.MethodParser.toJsonElement()
+uid: com.microsoft.azure.sdk.iot.deps.serializer.MethodParser.toJsonElement*
+fullName: com.microsoft.azure.sdk.iot.deps.serializer.MethodParser.toJsonElement()
+name: toJsonElement()
+package: com.microsoft.azure.sdk.iot.deps.serializer
+metadata: {}

@@ -1,0 +1,32 @@
+### YamlMime:JavaMember
+nameWithType: WebhooksInner.delete
+type: method
+members:
+- fullName: com.microsoft.azure.management.containerregistry.implementation.WebhooksInner.delete(String resourceGroupName, String registryName, String webhookName)
+  name: delete(String resourceGroupName, String registryName, String webhookName)
+  nameWithType: WebhooksInner.delete(String resourceGroupName, String registryName, String webhookName)
+  parameters:
+  - description: <p>The name of the resource group to which the container registry belongs. </p>
+    name: resourceGroupName
+    type: <xref href="String?alt=String&text=String" data-throw-if-not-resolved="False"/>
+  - description: <p>The name of the container registry. </p>
+    name: registryName
+    type: <xref href="String?alt=String&text=String" data-throw-if-not-resolved="False"/>
+  - description: <p>The name of the webhook. </p>
+    name: webhookName
+    type: <xref href="String?alt=String&text=String" data-throw-if-not-resolved="False"/>
+  exceptions:
+  - name: 3c87bd19
+  - name: dc385fd4
+  - name: 9b2a4515
+  summary: >-
+    <p>Deletes a webhook from a container registry.</p>
+
+    <p></p>
+  syntax: public void delete(String resourceGroupName, String registryName, String webhookName)
+  uid: com.microsoft.azure.management.containerregistry.implementation.WebhooksInner.delete(String,String,String)
+uid: com.microsoft.azure.management.containerregistry.implementation.WebhooksInner.delete*
+fullName: com.microsoft.azure.management.containerregistry.implementation.WebhooksInner.delete(String resourceGroupName, String registryName, String webhookName)
+name: delete(String resourceGroupName, String registryName, String webhookName)
+package: com.microsoft.azure.management.containerregistry.implementation
+metadata: {}

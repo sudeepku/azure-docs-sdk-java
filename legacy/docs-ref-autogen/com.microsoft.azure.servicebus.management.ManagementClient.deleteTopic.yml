@@ -1,0 +1,27 @@
+### YamlMime:JavaMember
+nameWithType: ManagementClient.deleteTopic
+type: method
+members:
+- fullName: com.microsoft.azure.servicebus.management.ManagementClient.deleteTopic(String path)
+  name: deleteTopic(String path)
+  nameWithType: ManagementClient.deleteTopic(String path)
+  parameters:
+  - description: <p>- The name of the entity relative to the service namespace base address. </p>
+    name: path
+    type: <xref href="String?alt=String&text=String" data-throw-if-not-resolved="False"/>
+  exceptions:
+  - name: 3c87bd19
+  - name: a19dd706
+  - name: 312761a3
+  - name: 9d4598ba
+  - name: 73fec9fb
+  - name: 6d99fa63
+  - name: 8256ba40
+  summary: <p>Deletes the topic described by the path relative to the service namespace base address. </p>
+  syntax: public Void deleteTopic(String path)
+  uid: com.microsoft.azure.servicebus.management.ManagementClient.deleteTopic(String)
+uid: com.microsoft.azure.servicebus.management.ManagementClient.deleteTopic*
+fullName: com.microsoft.azure.servicebus.management.ManagementClient.deleteTopic(String path)
+name: deleteTopic(String path)
+package: com.microsoft.azure.servicebus.management
+metadata: {}

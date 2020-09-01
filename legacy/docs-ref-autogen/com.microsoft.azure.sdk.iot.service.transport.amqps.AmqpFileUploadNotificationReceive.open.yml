@@ -1,0 +1,19 @@
+### YamlMime:JavaMember
+nameWithType: AmqpFileUploadNotificationReceive.open
+type: method
+members:
+- fullName: com.microsoft.azure.sdk.iot.service.transport.amqps.AmqpFileUploadNotificationReceive.open()
+  name: open()
+  nameWithType: AmqpFileUploadNotificationReceive.open()
+  exceptions:
+  - name: cbf33bbe
+  returns:
+    type: <xref href="synchronized+void?alt=synchronized void&text=synchronized+void" data-throw-if-not-resolved="False"/>
+  summary: <p>Create AmqpsReceiveHandler and store it in a member variable </p>
+  syntax: public synchronized void open()
+  uid: com.microsoft.azure.sdk.iot.service.transport.amqps.AmqpFileUploadNotificationReceive.open()
+uid: com.microsoft.azure.sdk.iot.service.transport.amqps.AmqpFileUploadNotificationReceive.open*
+fullName: com.microsoft.azure.sdk.iot.service.transport.amqps.AmqpFileUploadNotificationReceive.open()
+name: open()
+package: com.microsoft.azure.sdk.iot.service.transport.amqps
+metadata: {}

@@ -1,0 +1,26 @@
+### YamlMime:JavaMember
+nameWithType: IotHubSasTokenWithRefreshAuthenticationProvider.getRenewedSasToken
+type: method
+members:
+- fullName: com.microsoft.azure.sdk.iot.device.auth.IotHubSasTokenWithRefreshAuthenticationProvider.getRenewedSasToken(boolean proactivelyRenew, boolean forceRenewal)
+  name: getRenewedSasToken(boolean proactivelyRenew, boolean forceRenewal)
+  nameWithType: IotHubSasTokenWithRefreshAuthenticationProvider.getRenewedSasToken(boolean proactivelyRenew, boolean forceRenewal)
+  parameters:
+  - name: proactivelyRenew
+    type: <xref href="boolean?alt=boolean&text=boolean" data-throw-if-not-resolved="False"/>
+  - name: forceRenewal
+    type: <xref href="boolean?alt=boolean&text=boolean" data-throw-if-not-resolved="False"/>
+  exceptions:
+  - name: cbf33bbe
+  - name: 848a9648
+  returns:
+    description: <p>the renewed token, or the old token if it did not need to be renewed </p>
+    type: <xref href="String?alt=String&text=String" data-throw-if-not-resolved="False"/>
+  summary: <p>Check if sas token should be renewed at all, and then renew it if necessary </p>
+  syntax: public String getRenewedSasToken(boolean proactivelyRenew, boolean forceRenewal)
+  uid: com.microsoft.azure.sdk.iot.device.auth.IotHubSasTokenWithRefreshAuthenticationProvider.getRenewedSasToken(boolean,boolean)
+uid: com.microsoft.azure.sdk.iot.device.auth.IotHubSasTokenWithRefreshAuthenticationProvider.getRenewedSasToken*
+fullName: com.microsoft.azure.sdk.iot.device.auth.IotHubSasTokenWithRefreshAuthenticationProvider.getRenewedSasToken(boolean proactivelyRenew, boolean forceRenewal)
+name: getRenewedSasToken(boolean proactivelyRenew, boolean forceRenewal)
+package: com.microsoft.azure.sdk.iot.device.auth
+metadata: {}

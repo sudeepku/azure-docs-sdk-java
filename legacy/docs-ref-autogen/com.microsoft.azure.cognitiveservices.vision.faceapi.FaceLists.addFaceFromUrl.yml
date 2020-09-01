@@ -1,0 +1,47 @@
+### YamlMime:JavaMember
+nameWithType: FaceLists.addFaceFromUrl
+type: method
+members:
+- fullName: com.microsoft.azure.cognitiveservices.vision.faceapi.FaceLists.addFaceFromUrl()
+  name: addFaceFromUrl()
+  nameWithType: FaceLists.addFaceFromUrl()
+  returns:
+    description: <p>the first stage of the addFaceFromUrl call </p>
+    type: <xref href="FaceListsAddFaceFromUrlDefinitionStages.WithFaceListId?alt=FaceListsAddFaceFromUrlDefinitionStages.WithFaceListId&text=FaceListsAddFaceFromUrlDefinitionStages.WithFaceListId" data-throw-if-not-resolved="False"/>
+  summary: >-
+    <p>Add a face to a face list. The input face is specified as an image with a targetFace rectangle. It returns a persistedFaceId representing the added face, and persistedFaceId will not expire.</p>
+
+    <p></p>
+  syntax: public FaceListsAddFaceFromUrlDefinitionStages.WithFaceListId addFaceFromUrl()
+  uid: com.microsoft.azure.cognitiveservices.vision.faceapi.FaceLists.addFaceFromUrl()
+- fullName: com.microsoft.azure.cognitiveservices.vision.faceapi.FaceLists.addFaceFromUrl(String faceListId, String url, AddFaceFromUrlOptionalParameter addFaceFromUrlOptionalParameter)
+  name: addFaceFromUrl(String faceListId, String url, AddFaceFromUrlOptionalParameter addFaceFromUrlOptionalParameter)
+  nameWithType: FaceLists.addFaceFromUrl(String faceListId, String url, AddFaceFromUrlOptionalParameter addFaceFromUrlOptionalParameter)
+  parameters:
+  - description: <p>Id referencing a particular face list. </p>
+    name: faceListId
+    type: <xref href="String?alt=String&text=String" data-throw-if-not-resolved="False"/>
+  - description: <p>Publicly reachable URL of an image. </p>
+    name: url
+    type: <xref href="String?alt=String&text=String" data-throw-if-not-resolved="False"/>
+  - description: <p>the object representing the optional parameters to be set before calling this API </p>
+    name: addFaceFromUrlOptionalParameter
+    type: <xref href="com.microsoft.azure.cognitiveservices.vision.faceapi.models.AddFaceFromUrlOptionalParameter?alt=com.microsoft.azure.cognitiveservices.vision.faceapi.models.AddFaceFromUrlOptionalParameter&text=AddFaceFromUrlOptionalParameter" data-throw-if-not-resolved="False"/>
+  exceptions:
+  - name: 3c87bd19
+  - name: 3690e14b
+  - name: 9b2a4515
+  returns:
+    description: <p>the PersistedFace object if successful. </p>
+    type: <xref href="com.microsoft.azure.cognitiveservices.vision.faceapi.models.PersistedFace?alt=com.microsoft.azure.cognitiveservices.vision.faceapi.models.PersistedFace&text=PersistedFace" data-throw-if-not-resolved="False"/>
+  summary: >-
+    <p>Add a face to a face list. The input face is specified as an image with a targetFace rectangle. It returns a persistedFaceId representing the added face, and persistedFaceId will not expire.</p>
+
+    <p></p>
+  syntax: public PersistedFace addFaceFromUrl(String faceListId, String url, AddFaceFromUrlOptionalParameter addFaceFromUrlOptionalParameter)
+  uid: com.microsoft.azure.cognitiveservices.vision.faceapi.FaceLists.addFaceFromUrl(String,String,AddFaceFromUrlOptionalParameter)
+uid: com.microsoft.azure.cognitiveservices.vision.faceapi.FaceLists.addFaceFromUrl*
+fullName: com.microsoft.azure.cognitiveservices.vision.faceapi.FaceLists.addFaceFromUrl()
+name: addFaceFromUrl()
+package: com.microsoft.azure.cognitiveservices.vision.faceapi
+metadata: {}

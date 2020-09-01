@@ -1,0 +1,32 @@
+### YamlMime:JavaMember
+nameWithType: DiagnosticSettingsCategorysInner.get
+type: method
+members:
+- fullName: com.microsoft.azure.management.monitor.implementation.DiagnosticSettingsCategorysInner.get(String resourceUri, String name)
+  name: get(String resourceUri, String name)
+  nameWithType: DiagnosticSettingsCategorysInner.get(String resourceUri, String name)
+  parameters:
+  - description: <p>The identifier of the resource. </p>
+    name: resourceUri
+    type: <xref href="String?alt=String&text=String" data-throw-if-not-resolved="False"/>
+  - description: <p>The name of the diagnostic setting. </p>
+    name: name
+    type: <xref href="String?alt=String&text=String" data-throw-if-not-resolved="False"/>
+  exceptions:
+  - name: 3c87bd19
+  - name: 00ad4777
+  - name: 9b2a4515
+  returns:
+    description: <p>the DiagnosticSettingsCategoryResourceInner object if successful. </p>
+    type: <xref href="com.microsoft.azure.management.monitor.implementation.DiagnosticSettingsCategoryResourceInner?alt=com.microsoft.azure.management.monitor.implementation.DiagnosticSettingsCategoryResourceInner&text=DiagnosticSettingsCategoryResourceInner" data-throw-if-not-resolved="False"/>
+  summary: >-
+    <p>Gets the diagnostic settings category for the specified resource.</p>
+
+    <p></p>
+  syntax: public DiagnosticSettingsCategoryResourceInner get(String resourceUri, String name)
+  uid: com.microsoft.azure.management.monitor.implementation.DiagnosticSettingsCategorysInner.get(String,String)
+uid: com.microsoft.azure.management.monitor.implementation.DiagnosticSettingsCategorysInner.get*
+fullName: com.microsoft.azure.management.monitor.implementation.DiagnosticSettingsCategorysInner.get(String resourceUri, String name)
+name: get(String resourceUri, String name)
+package: com.microsoft.azure.management.monitor.implementation
+metadata: {}

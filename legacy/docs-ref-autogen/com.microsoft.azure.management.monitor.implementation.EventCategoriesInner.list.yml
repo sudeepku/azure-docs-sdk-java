@@ -1,0 +1,25 @@
+### YamlMime:JavaMember
+nameWithType: EventCategoriesInner.list
+type: method
+members:
+- fullName: com.microsoft.azure.management.monitor.implementation.EventCategoriesInner.list()
+  name: list()
+  nameWithType: EventCategoriesInner.list()
+  exceptions:
+  - name: 3c87bd19
+  - name: 00ad4777
+  - name: 9b2a4515
+  returns:
+    description: <p>the List&lt;LocalizableStringInner&gt; object if successful. </p>
+    type: List&lt;<xref href="com.microsoft.azure.management.monitor.implementation.LocalizableStringInner?alt=com.microsoft.azure.management.monitor.implementation.LocalizableStringInner&text=LocalizableStringInner" data-throw-if-not-resolved="False"/>&gt;
+  summary: >-
+    <p>Get the list of available event categories supported in the Activity Logs Service.&lt;br&gt;The current list includes the following: Administrative, Security, ServiceHealth, Alert, Recommendation, Policy.</p>
+
+    <p></p>
+  syntax: public List<LocalizableStringInner> list()
+  uid: com.microsoft.azure.management.monitor.implementation.EventCategoriesInner.list()
+uid: com.microsoft.azure.management.monitor.implementation.EventCategoriesInner.list*
+fullName: com.microsoft.azure.management.monitor.implementation.EventCategoriesInner.list()
+name: list()
+package: com.microsoft.azure.management.monitor.implementation
+metadata: {}

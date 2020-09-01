@@ -1,0 +1,25 @@
+### YamlMime:JavaMember
+nameWithType: HttpHsmSignatureProvider.HttpHsmSignatureProvider
+type: constructor
+members:
+- fullName: com.microsoft.azure.sdk.iot.device.hsm.HttpHsmSignatureProvider.HttpHsmSignatureProvider(String providerUri, String apiVersion)
+  name: HttpHsmSignatureProvider(String providerUri, String apiVersion)
+  nameWithType: HttpHsmSignatureProvider.HttpHsmSignatureProvider(String providerUri, String apiVersion)
+  parameters:
+  - description: <p>the uri for the signing provider </p>
+    name: providerUri
+    type: <xref href="String?alt=String&text=String" data-throw-if-not-resolved="False"/>
+  - description: <p>the api version to call </p>
+    name: apiVersion
+    type: <xref href="String?alt=String&text=String" data-throw-if-not-resolved="False"/>
+  exceptions:
+  - name: "44102508"
+  - name: 456eb9d1
+  summary: <p>Constructor for an HttpHsmSignatureProvider but using the non-default api version </p>
+  syntax: public HttpHsmSignatureProvider(String providerUri, String apiVersion)
+  uid: com.microsoft.azure.sdk.iot.device.hsm.HttpHsmSignatureProvider.HttpHsmSignatureProvider(String,String)
+uid: com.microsoft.azure.sdk.iot.device.hsm.HttpHsmSignatureProvider.HttpHsmSignatureProvider*
+fullName: com.microsoft.azure.sdk.iot.device.hsm.HttpHsmSignatureProvider.HttpHsmSignatureProvider
+name: HttpHsmSignatureProvider
+package: com.microsoft.azure.sdk.iot.device.hsm
+metadata: {}

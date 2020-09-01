@@ -1,0 +1,27 @@
+### YamlMime:JavaMember
+nameWithType: MsalUtils.urlFormDecode
+type: method
+members:
+- fullName: com.microsoft.identity.client.internal.MsalUtils.urlFormDecode(final String source)
+  name: urlFormDecode(final String source)
+  nameWithType: MsalUtils.urlFormDecode(final String source)
+  parameters:
+  - description: <p>The String to decode for. </p>
+    name: source
+    type: <xref href="final+String?alt=final String&text=final+String" data-throw-if-not-resolved="False"/>
+  exceptions:
+  - name: d5427e37
+  returns:
+    description: <p>The decoded string. </p>
+    type: <xref href="String?alt=String&text=String" data-throw-if-not-resolved="False"/>
+  summary: >-
+    <p>Perform URL decode on the given source.</p>
+
+    <p></p>
+  syntax: public static String urlFormDecode(final String source)
+  uid: com.microsoft.identity.client.internal.MsalUtils.urlFormDecode(final String)
+uid: com.microsoft.identity.client.internal.MsalUtils.urlFormDecode*
+fullName: com.microsoft.identity.client.internal.MsalUtils.urlFormDecode(final String source)
+name: urlFormDecode(final String source)
+package: com.microsoft.identity.client.internal
+metadata: {}

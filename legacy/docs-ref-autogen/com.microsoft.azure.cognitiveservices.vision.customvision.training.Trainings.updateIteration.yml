@@ -1,0 +1,35 @@
+### YamlMime:JavaMember
+nameWithType: Trainings.updateIteration
+type: method
+members:
+- fullName: com.microsoft.azure.cognitiveservices.vision.customvision.training.Trainings.updateIteration(UUID projectId, UUID iterationId, String name)
+  name: updateIteration(UUID projectId, UUID iterationId, String name)
+  nameWithType: Trainings.updateIteration(UUID projectId, UUID iterationId, String name)
+  parameters:
+  - description: <p>Project id. </p>
+    name: projectId
+    type: <xref href="UUID?alt=UUID&text=UUID" data-throw-if-not-resolved="False"/>
+  - description: <p>Iteration id. </p>
+    name: iterationId
+    type: <xref href="UUID?alt=UUID&text=UUID" data-throw-if-not-resolved="False"/>
+  - description: <p>Gets or sets the name of the iteration. </p>
+    name: name
+    type: <xref href="String?alt=String&text=String" data-throw-if-not-resolved="False"/>
+  exceptions:
+  - name: 3c87bd19
+  - name: d8f234c9
+  - name: 9b2a4515
+  returns:
+    description: <p>the Iteration object if successful. </p>
+    type: <xref href="com.microsoft.azure.cognitiveservices.vision.customvision.training.models.Iteration?alt=com.microsoft.azure.cognitiveservices.vision.customvision.training.models.Iteration&text=Iteration" data-throw-if-not-resolved="False"/>
+  summary: >-
+    <p>Update a specific iteration.</p>
+
+    <p></p>
+  syntax: public Iteration updateIteration(UUID projectId, UUID iterationId, String name)
+  uid: com.microsoft.azure.cognitiveservices.vision.customvision.training.Trainings.updateIteration(UUID,UUID,String)
+uid: com.microsoft.azure.cognitiveservices.vision.customvision.training.Trainings.updateIteration*
+fullName: com.microsoft.azure.cognitiveservices.vision.customvision.training.Trainings.updateIteration(UUID projectId, UUID iterationId, String name)
+name: updateIteration(UUID projectId, UUID iterationId, String name)
+package: com.microsoft.azure.cognitiveservices.vision.customvision.training
+metadata: {}

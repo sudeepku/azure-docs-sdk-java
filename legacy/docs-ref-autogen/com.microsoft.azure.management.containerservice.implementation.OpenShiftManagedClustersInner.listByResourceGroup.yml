@@ -1,0 +1,30 @@
+### YamlMime:JavaMember
+nameWithType: OpenShiftManagedClustersInner.listByResourceGroup
+type: method
+members:
+- fullName: com.microsoft.azure.management.containerservice.implementation.OpenShiftManagedClustersInner.listByResourceGroup(final String resourceGroupName)
+  name: listByResourceGroup(final String resourceGroupName)
+  nameWithType: OpenShiftManagedClustersInner.listByResourceGroup(final String resourceGroupName)
+  overridden: com.microsoft.azure.management.resources.fluentcore.collection.InnerSupportsListing.listByResourceGroup(String)
+  parameters:
+  - description: <p>The name of the resource group. </p>
+    name: resourceGroupName
+    type: <xref href="final+String?alt=final String&text=final+String" data-throw-if-not-resolved="False"/>
+  exceptions:
+  - name: 3c87bd19
+  - name: dc385fd4
+  - name: 9b2a4515
+  returns:
+    description: <p>the PagedList&lt;OpenShiftManagedClusterInner&gt; object if successful. </p>
+    type: PagedList&lt;<xref href="com.microsoft.azure.management.containerservice.implementation.OpenShiftManagedClusterInner?alt=com.microsoft.azure.management.containerservice.implementation.OpenShiftManagedClusterInner&text=OpenShiftManagedClusterInner" data-throw-if-not-resolved="False"/>&gt;
+  summary: >-
+    <p>Lists OpenShift managed clusters in the specified subscription and resource group. Lists OpenShift managed clusters in the specified subscription and resource group. The operation returns properties of each OpenShift managed cluster.</p>
+
+    <p></p>
+  syntax: public PagedList<OpenShiftManagedClusterInner> listByResourceGroup(final String resourceGroupName)
+  uid: com.microsoft.azure.management.containerservice.implementation.OpenShiftManagedClustersInner.listByResourceGroup(final String)
+uid: com.microsoft.azure.management.containerservice.implementation.OpenShiftManagedClustersInner.listByResourceGroup*
+fullName: com.microsoft.azure.management.containerservice.implementation.OpenShiftManagedClustersInner.listByResourceGroup(final String resourceGroupName)
+name: listByResourceGroup(final String resourceGroupName)
+package: com.microsoft.azure.management.containerservice.implementation
+metadata: {}

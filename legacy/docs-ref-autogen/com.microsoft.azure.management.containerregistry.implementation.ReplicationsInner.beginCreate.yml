@@ -1,0 +1,38 @@
+### YamlMime:JavaMember
+nameWithType: ReplicationsInner.beginCreate
+type: method
+members:
+- fullName: com.microsoft.azure.management.containerregistry.implementation.ReplicationsInner.beginCreate(String resourceGroupName, String registryName, String replicationName, ReplicationInner replication)
+  name: beginCreate(String resourceGroupName, String registryName, String replicationName, ReplicationInner replication)
+  nameWithType: ReplicationsInner.beginCreate(String resourceGroupName, String registryName, String replicationName, ReplicationInner replication)
+  parameters:
+  - description: <p>The name of the resource group to which the container registry belongs. </p>
+    name: resourceGroupName
+    type: <xref href="String?alt=String&text=String" data-throw-if-not-resolved="False"/>
+  - description: <p>The name of the container registry. </p>
+    name: registryName
+    type: <xref href="String?alt=String&text=String" data-throw-if-not-resolved="False"/>
+  - description: <p>The name of the replication. </p>
+    name: replicationName
+    type: <xref href="String?alt=String&text=String" data-throw-if-not-resolved="False"/>
+  - description: <p>The parameters for creating a replication. </p>
+    name: replication
+    type: <xref href="com.microsoft.azure.management.containerregistry.implementation.ReplicationInner?alt=com.microsoft.azure.management.containerregistry.implementation.ReplicationInner&text=ReplicationInner" data-throw-if-not-resolved="False"/>
+  exceptions:
+  - name: 3c87bd19
+  - name: dc385fd4
+  - name: 9b2a4515
+  returns:
+    description: <p>the ReplicationInner object if successful. </p>
+    type: <xref href="com.microsoft.azure.management.containerregistry.implementation.ReplicationInner?alt=com.microsoft.azure.management.containerregistry.implementation.ReplicationInner&text=ReplicationInner" data-throw-if-not-resolved="False"/>
+  summary: >-
+    <p>Creates a replication for a container registry with the specified parameters.</p>
+
+    <p></p>
+  syntax: public ReplicationInner beginCreate(String resourceGroupName, String registryName, String replicationName, ReplicationInner replication)
+  uid: com.microsoft.azure.management.containerregistry.implementation.ReplicationsInner.beginCreate(String,String,String,ReplicationInner)
+uid: com.microsoft.azure.management.containerregistry.implementation.ReplicationsInner.beginCreate*
+fullName: com.microsoft.azure.management.containerregistry.implementation.ReplicationsInner.beginCreate(String resourceGroupName, String registryName, String replicationName, ReplicationInner replication)
+name: beginCreate(String resourceGroupName, String registryName, String replicationName, ReplicationInner replication)
+package: com.microsoft.azure.management.containerregistry.implementation
+metadata: {}

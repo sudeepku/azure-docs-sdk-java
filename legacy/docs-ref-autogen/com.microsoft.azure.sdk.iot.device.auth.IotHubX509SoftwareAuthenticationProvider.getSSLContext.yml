@@ -1,0 +1,20 @@
+### YamlMime:JavaMember
+nameWithType: IotHubX509SoftwareAuthenticationProvider.getSSLContext
+type: method
+members:
+- fullName: com.microsoft.azure.sdk.iot.device.auth.IotHubX509SoftwareAuthenticationProvider.getSSLContext()
+  name: getSSLContext()
+  nameWithType: IotHubX509SoftwareAuthenticationProvider.getSSLContext()
+  exceptions:
+  - name: cbf33bbe
+  returns:
+    description: <p>The value of IotHubSSLContext </p>
+    type: <xref href="SSLContext?alt=SSLContext&text=SSLContext" data-throw-if-not-resolved="False"/>
+  summary: <p>Getter for IotHubSSLContext </p>
+  syntax: public SSLContext getSSLContext()
+  uid: com.microsoft.azure.sdk.iot.device.auth.IotHubX509SoftwareAuthenticationProvider.getSSLContext()
+uid: com.microsoft.azure.sdk.iot.device.auth.IotHubX509SoftwareAuthenticationProvider.getSSLContext*
+fullName: com.microsoft.azure.sdk.iot.device.auth.IotHubX509SoftwareAuthenticationProvider.getSSLContext()
+name: getSSLContext()
+package: com.microsoft.azure.sdk.iot.device.auth
+metadata: {}

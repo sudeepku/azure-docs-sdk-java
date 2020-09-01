@@ -1,0 +1,21 @@
+### YamlMime:JavaMember
+nameWithType: Query.hasNext
+type: method
+members:
+- fullName: com.microsoft.azure.sdk.iot.service.devicetwin.Query.hasNext()
+  name: hasNext()
+  nameWithType: Query.hasNext()
+  exceptions:
+  - name: cbf33bbe
+  - name: 0d494ee6
+  returns:
+    description: <p>the availability of next element in the query response </p>
+    type: <xref href="boolean?alt=boolean&text=boolean" data-throw-if-not-resolved="False"/>
+  summary: <p>Returns the availability of next element in the query response </p>
+  syntax: public boolean hasNext()
+  uid: com.microsoft.azure.sdk.iot.service.devicetwin.Query.hasNext()
+uid: com.microsoft.azure.sdk.iot.service.devicetwin.Query.hasNext*
+fullName: com.microsoft.azure.sdk.iot.service.devicetwin.Query.hasNext()
+name: hasNext()
+package: com.microsoft.azure.sdk.iot.service.devicetwin
+metadata: {}

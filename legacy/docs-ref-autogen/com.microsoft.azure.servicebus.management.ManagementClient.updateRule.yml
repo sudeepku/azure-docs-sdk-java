@@ -1,0 +1,40 @@
+### YamlMime:JavaMember
+nameWithType: ManagementClient.updateRule
+type: method
+members:
+- fullName: com.microsoft.azure.servicebus.management.ManagementClient.updateRule(String topicName, String subscriptionName, RuleDescription ruleDescription)
+  name: updateRule(String topicName, String subscriptionName, RuleDescription ruleDescription)
+  nameWithType: ManagementClient.updateRule(String topicName, String subscriptionName, RuleDescription ruleDescription)
+  parameters:
+  - description: <p>- Name of the topic. </p>
+    name: topicName
+    type: <xref href="String?alt=String&text=String" data-throw-if-not-resolved="False"/>
+  - description: <p>- Name of the subscription. </p>
+    name: subscriptionName
+    type: <xref href="String?alt=String&text=String" data-throw-if-not-resolved="False"/>
+  - description: <p>- A <xref uid="" data-throw-if-not-resolved="false">RuleDescription</xref> object describing the attributes with which the rule will be updated. </p>
+    name: ruleDescription
+    type: <xref href="com.microsoft.azure.servicebus.rules.RuleDescription?alt=com.microsoft.azure.servicebus.rules.RuleDescription&text=RuleDescription" data-throw-if-not-resolved="False"/>
+  exceptions:
+  - name: 6d99fa63
+  - name: 3c87bd19
+  - name: a19dd706
+  - name: 312761a3
+  - name: 9d4598ba
+  - name: 73fec9fb
+  - name: 1b9054fd
+  - name: 8256ba40
+  returns:
+    description: >-
+      <p>
+
+        <xref uid="" data-throw-if-not-resolved="false">RuleDescription</xref> of the updated rule. </p>
+    type: <xref href="com.microsoft.azure.servicebus.rules.RuleDescription?alt=com.microsoft.azure.servicebus.rules.RuleDescription&text=RuleDescription" data-throw-if-not-resolved="False"/>
+  summary: <p>Updates an existing rule. </p>
+  syntax: public RuleDescription updateRule(String topicName, String subscriptionName, RuleDescription ruleDescription)
+  uid: com.microsoft.azure.servicebus.management.ManagementClient.updateRule(String,String,RuleDescription)
+uid: com.microsoft.azure.servicebus.management.ManagementClient.updateRule*
+fullName: com.microsoft.azure.servicebus.management.ManagementClient.updateRule(String topicName, String subscriptionName, RuleDescription ruleDescription)
+name: updateRule(String topicName, String subscriptionName, RuleDescription ruleDescription)
+package: com.microsoft.azure.servicebus.management
+metadata: {}

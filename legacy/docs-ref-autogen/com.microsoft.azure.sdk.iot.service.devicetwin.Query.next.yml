@@ -1,0 +1,22 @@
+### YamlMime:JavaMember
+nameWithType: Query.next
+type: method
+members:
+- fullName: com.microsoft.azure.sdk.iot.service.devicetwin.Query.next()
+  name: next()
+  nameWithType: Query.next()
+  exceptions:
+  - name: cbf33bbe
+  - name: 0d494ee6
+  - name: 05807805
+  returns:
+    description: <p>the next element in query response </p>
+    type: <xref href="Object?alt=Object&text=Object" data-throw-if-not-resolved="False"/>
+  summary: <p>provides the next element in query response </p>
+  syntax: public Object next()
+  uid: com.microsoft.azure.sdk.iot.service.devicetwin.Query.next()
+uid: com.microsoft.azure.sdk.iot.service.devicetwin.Query.next*
+fullName: com.microsoft.azure.sdk.iot.service.devicetwin.Query.next()
+name: next()
+package: com.microsoft.azure.sdk.iot.service.devicetwin
+metadata: {}

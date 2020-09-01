@@ -1,0 +1,32 @@
+### YamlMime:JavaMember
+nameWithType: ManagementClient.subscriptionExists
+type: method
+members:
+- fullName: com.microsoft.azure.servicebus.management.ManagementClient.subscriptionExists(String topicPath, String subscriptionName)
+  name: subscriptionExists(String topicPath, String subscriptionName)
+  nameWithType: ManagementClient.subscriptionExists(String topicPath, String subscriptionName)
+  parameters:
+  - description: <p>- Path of the topic </p>
+    name: topicPath
+    type: <xref href="String?alt=String&text=String" data-throw-if-not-resolved="False"/>
+  - description: <p>- Name of the subscription. </p>
+    name: subscriptionName
+    type: <xref href="String?alt=String&text=String" data-throw-if-not-resolved="False"/>
+  exceptions:
+  - name: 3c87bd19
+  - name: a19dd706
+  - name: 312761a3
+  - name: 9d4598ba
+  - name: 73fec9fb
+  - name: 8256ba40
+  returns:
+    description: <p>- True if the entity exists. False otherwise. </p>
+    type: <xref href="Boolean?alt=Boolean&text=Boolean" data-throw-if-not-resolved="False"/>
+  summary: <p>Checks whether a given subscription exists or not. </p>
+  syntax: public Boolean subscriptionExists(String topicPath, String subscriptionName)
+  uid: com.microsoft.azure.servicebus.management.ManagementClient.subscriptionExists(String,String)
+uid: com.microsoft.azure.servicebus.management.ManagementClient.subscriptionExists*
+fullName: com.microsoft.azure.servicebus.management.ManagementClient.subscriptionExists(String topicPath, String subscriptionName)
+name: subscriptionExists(String topicPath, String subscriptionName)
+package: com.microsoft.azure.servicebus.management
+metadata: {}

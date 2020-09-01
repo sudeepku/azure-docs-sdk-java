@@ -1,0 +1,34 @@
+### YamlMime:JavaMember
+nameWithType: ManagementClient.updateQueue
+type: method
+members:
+- fullName: com.microsoft.azure.servicebus.management.ManagementClient.updateQueue(QueueDescription queueDescription)
+  name: updateQueue(QueueDescription queueDescription)
+  nameWithType: ManagementClient.updateQueue(QueueDescription queueDescription)
+  parameters:
+  - description: <p>- A <xref uid="com.microsoft.azure.servicebus.management.QueueDescription" data-throw-if-not-resolved="false">QueueDescription</xref> object describing the attributes with which the queue will be updated. </p>
+    name: queueDescription
+    type: <xref href="com.microsoft.azure.servicebus.management.QueueDescription?alt=com.microsoft.azure.servicebus.management.QueueDescription&text=QueueDescription" data-throw-if-not-resolved="False"/>
+  exceptions:
+  - name: 6d99fa63
+  - name: 3c87bd19
+  - name: a19dd706
+  - name: 312761a3
+  - name: 9d4598ba
+  - name: 73fec9fb
+  - name: 1b9054fd
+  - name: 8256ba40
+  returns:
+    description: >-
+      <p>
+
+        <xref uid="com.microsoft.azure.servicebus.management.QueueDescription" data-throw-if-not-resolved="false">QueueDescription</xref> of the updated queue. </p>
+    type: <xref href="com.microsoft.azure.servicebus.management.QueueDescription?alt=com.microsoft.azure.servicebus.management.QueueDescription&text=QueueDescription" data-throw-if-not-resolved="False"/>
+  summary: <p>Updates an existing queue. </p>
+  syntax: public QueueDescription updateQueue(QueueDescription queueDescription)
+  uid: com.microsoft.azure.servicebus.management.ManagementClient.updateQueue(QueueDescription)
+uid: com.microsoft.azure.servicebus.management.ManagementClient.updateQueue*
+fullName: com.microsoft.azure.servicebus.management.ManagementClient.updateQueue(QueueDescription queueDescription)
+name: updateQueue(QueueDescription queueDescription)
+package: com.microsoft.azure.servicebus.management
+metadata: {}

@@ -1,0 +1,52 @@
+### YamlMime:JavaMember
+nameWithType: Tasks.list
+type: method
+members:
+- fullName: com.microsoft.azure.batch.protocol.Tasks.list(final String jobId)
+  name: list(final String jobId)
+  nameWithType: Tasks.list(final String jobId)
+  parameters:
+  - description: <p>The ID of the job. </p>
+    name: jobId
+    type: <xref href="final+String?alt=final String&text=final+String" data-throw-if-not-resolved="False"/>
+  exceptions:
+  - name: 3c87bd19
+  - name: c8683d81
+  - name: 9b2a4515
+  returns:
+    description: <p>the PagedList&lt;CloudTask&gt; object if successful. </p>
+    type: PagedList&lt;<xref href="com.microsoft.azure.batch.protocol.models.CloudTask?alt=com.microsoft.azure.batch.protocol.models.CloudTask&text=CloudTask" data-throw-if-not-resolved="False"/>&gt;
+  summary: >-
+    <p>Lists all of the tasks that are associated with the specified job. For multi-instance tasks, information such as affinityId, executionInfo and nodeInfo refer to the primary task. Use the list subtasks API to retrieve information about subtasks.</p>
+
+    <p></p>
+  syntax: public PagedList<CloudTask> list(final String jobId)
+  uid: com.microsoft.azure.batch.protocol.Tasks.list(final String)
+- fullName: com.microsoft.azure.batch.protocol.Tasks.list(final String jobId, final TaskListOptions taskListOptions)
+  name: list(final String jobId, final TaskListOptions taskListOptions)
+  nameWithType: Tasks.list(final String jobId, final TaskListOptions taskListOptions)
+  parameters:
+  - description: <p>The ID of the job. </p>
+    name: jobId
+    type: <xref href="final+String?alt=final String&text=final+String" data-throw-if-not-resolved="False"/>
+  - description: <p>Additional parameters for the operation </p>
+    name: taskListOptions
+    type: final <xref href="com.microsoft.azure.batch.protocol.models.TaskListOptions?alt=com.microsoft.azure.batch.protocol.models.TaskListOptions&text=TaskListOptions" data-throw-if-not-resolved="False"/>
+  exceptions:
+  - name: 3c87bd19
+  - name: c8683d81
+  - name: 9b2a4515
+  returns:
+    description: <p>the PagedList&lt;CloudTask&gt; object if successful. </p>
+    type: PagedList&lt;<xref href="com.microsoft.azure.batch.protocol.models.CloudTask?alt=com.microsoft.azure.batch.protocol.models.CloudTask&text=CloudTask" data-throw-if-not-resolved="False"/>&gt;
+  summary: >-
+    <p>Lists all of the tasks that are associated with the specified job. For multi-instance tasks, information such as affinityId, executionInfo and nodeInfo refer to the primary task. Use the list subtasks API to retrieve information about subtasks.</p>
+
+    <p></p>
+  syntax: public PagedList<CloudTask> list(final String jobId, final TaskListOptions taskListOptions)
+  uid: com.microsoft.azure.batch.protocol.Tasks.list(final String,final TaskListOptions)
+uid: com.microsoft.azure.batch.protocol.Tasks.list*
+fullName: com.microsoft.azure.batch.protocol.Tasks.list(final String jobId)
+name: list(final String jobId)
+package: com.microsoft.azure.batch.protocol
+metadata: {}

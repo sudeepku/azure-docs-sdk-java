@@ -1,0 +1,25 @@
+### YamlMime:JavaMember
+nameWithType: SubscriptionClient.getRules
+type: method
+members:
+- fullName: com.microsoft.azure.servicebus.SubscriptionClient.getRules()
+  name: getRules()
+  nameWithType: SubscriptionClient.getRules()
+  overridden: com.microsoft.azure.servicebus.ISubscriptionClient.getRules()
+  exceptions:
+  - name: 8256ba40
+  - name: 73fec9fb
+  returns:
+    description: <p>The collection fo the rules. </p>
+    type: Collection&lt;<xref href="com.microsoft.azure.servicebus.rules.RuleDescription?alt=com.microsoft.azure.servicebus.rules.RuleDescription&text=RuleDescription" data-throw-if-not-resolved="False"/>&gt;
+  summary: >-
+    <p>Get all rules associated with the subscription.</p>
+
+    <p></p>
+  syntax: public Collection<RuleDescription> getRules()
+  uid: com.microsoft.azure.servicebus.SubscriptionClient.getRules()
+uid: com.microsoft.azure.servicebus.SubscriptionClient.getRules*
+fullName: com.microsoft.azure.servicebus.SubscriptionClient.getRules()
+name: getRules()
+package: com.microsoft.azure.servicebus
+metadata: {}

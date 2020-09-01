@@ -1,0 +1,24 @@
+### YamlMime:JavaMember
+nameWithType: MqttDeviceTwin.send
+type: method
+members:
+- fullName: com.microsoft.azure.sdk.iot.device.transport.mqtt.MqttDeviceTwin.send(final IotHubTransportMessage message)
+  name: send(final IotHubTransportMessage message)
+  nameWithType: MqttDeviceTwin.send(final IotHubTransportMessage message)
+  parameters:
+  - description: <p>the message to send </p>
+    name: message
+    type: final <xref href="com.microsoft.azure.sdk.iot.device.transport.IotHubTransportMessage?alt=com.microsoft.azure.sdk.iot.device.transport.IotHubTransportMessage&text=IotHubTransportMessage" data-throw-if-not-resolved="False"/>
+  exceptions:
+  - name: 848a9648
+  summary: >-
+    <p>Sends the provided device twin message over the mqtt connection</p>
+
+    <p></p>
+  syntax: public void send(final IotHubTransportMessage message)
+  uid: com.microsoft.azure.sdk.iot.device.transport.mqtt.MqttDeviceTwin.send(final IotHubTransportMessage)
+uid: com.microsoft.azure.sdk.iot.device.transport.mqtt.MqttDeviceTwin.send*
+fullName: com.microsoft.azure.sdk.iot.device.transport.mqtt.MqttDeviceTwin.send(final IotHubTransportMessage message)
+name: send(final IotHubTransportMessage message)
+package: com.microsoft.azure.sdk.iot.device.transport.mqtt
+metadata: {}

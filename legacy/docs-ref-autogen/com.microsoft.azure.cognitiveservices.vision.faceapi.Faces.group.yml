@@ -1,0 +1,29 @@
+### YamlMime:JavaMember
+nameWithType: Faces.group
+type: method
+members:
+- fullName: com.microsoft.azure.cognitiveservices.vision.faceapi.Faces.group(List<UUID> faceIds)
+  name: group(List<UUID> faceIds)
+  nameWithType: Faces.group(List<UUID> faceIds)
+  parameters:
+  - description: <p>Array of candidate faceId created by Face - Detect. The maximum is 1000 faces. </p>
+    name: faceIds
+    type: <xref href="List%3CUUID%3E?alt=List<UUID>&text=List%3CUUID%3E" data-throw-if-not-resolved="False"/>
+  exceptions:
+  - name: 3c87bd19
+  - name: 3690e14b
+  - name: 9b2a4515
+  returns:
+    description: <p>the GroupResult object if successful. </p>
+    type: <xref href="com.microsoft.azure.cognitiveservices.vision.faceapi.models.GroupResult?alt=com.microsoft.azure.cognitiveservices.vision.faceapi.models.GroupResult&text=GroupResult" data-throw-if-not-resolved="False"/>
+  summary: >-
+    <p>Divide candidate faces into groups based on face similarity.</p>
+
+    <p></p>
+  syntax: public GroupResult group(List<UUID> faceIds)
+  uid: com.microsoft.azure.cognitiveservices.vision.faceapi.Faces.group(List<UUID>)
+uid: com.microsoft.azure.cognitiveservices.vision.faceapi.Faces.group*
+fullName: com.microsoft.azure.cognitiveservices.vision.faceapi.Faces.group(List<UUID> faceIds)
+name: group(List<UUID> faceIds)
+package: com.microsoft.azure.cognitiveservices.vision.faceapi
+metadata: {}

@@ -1,0 +1,35 @@
+### YamlMime:JavaMember
+nameWithType: ListManagementTerms.deleteTerm
+type: method
+members:
+- fullName: com.microsoft.azure.cognitiveservices.vision.contentmoderator.ListManagementTerms.deleteTerm(String listId, String term, String language)
+  name: deleteTerm(String listId, String term, String language)
+  nameWithType: ListManagementTerms.deleteTerm(String listId, String term, String language)
+  parameters:
+  - description: <p>List Id of the image list. </p>
+    name: listId
+    type: <xref href="String?alt=String&text=String" data-throw-if-not-resolved="False"/>
+  - description: <p>Term to be deleted. </p>
+    name: term
+    type: <xref href="String?alt=String&text=String" data-throw-if-not-resolved="False"/>
+  - description: <p>Language of the terms. </p>
+    name: language
+    type: <xref href="String?alt=String&text=String" data-throw-if-not-resolved="False"/>
+  exceptions:
+  - name: 3c87bd19
+  - name: 3690e14b
+  - name: 9b2a4515
+  returns:
+    description: <p>the String object if successful. </p>
+    type: <xref href="String?alt=String&text=String" data-throw-if-not-resolved="False"/>
+  summary: >-
+    <p>Deletes a term from the list with list Id equal to the list Id passed.</p>
+
+    <p></p>
+  syntax: public String deleteTerm(String listId, String term, String language)
+  uid: com.microsoft.azure.cognitiveservices.vision.contentmoderator.ListManagementTerms.deleteTerm(String,String,String)
+uid: com.microsoft.azure.cognitiveservices.vision.contentmoderator.ListManagementTerms.deleteTerm*
+fullName: com.microsoft.azure.cognitiveservices.vision.contentmoderator.ListManagementTerms.deleteTerm(String listId, String term, String language)
+name: deleteTerm(String listId, String term, String language)
+package: com.microsoft.azure.cognitiveservices.vision.contentmoderator
+metadata: {}

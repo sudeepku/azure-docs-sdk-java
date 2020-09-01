@@ -1,0 +1,24 @@
+### YamlMime:JavaMember
+nameWithType: Job.cancel
+type: method
+members:
+- fullName: com.microsoft.azure.sdk.iot.service.devicetwin.Job.cancel()
+  name: cancel()
+  nameWithType: Job.cancel()
+  exceptions:
+  - name: cbf33bbe
+  - name: 0d494ee6
+  returns:
+    description: <p>a jobResult object with the current job status. </p>
+    type: <xref href="com.microsoft.azure.sdk.iot.service.jobs.JobResult?alt=com.microsoft.azure.sdk.iot.service.jobs.JobResult&text=JobResult" data-throw-if-not-resolved="False"/>
+  summary: >-
+    <p>Cancel a current jod on the IoTHub</p>
+
+    <p></p>
+  syntax: public JobResult cancel()
+  uid: com.microsoft.azure.sdk.iot.service.devicetwin.Job.cancel()
+uid: com.microsoft.azure.sdk.iot.service.devicetwin.Job.cancel*
+fullName: com.microsoft.azure.sdk.iot.service.devicetwin.Job.cancel()
+name: cancel()
+package: com.microsoft.azure.sdk.iot.service.devicetwin
+metadata: {}

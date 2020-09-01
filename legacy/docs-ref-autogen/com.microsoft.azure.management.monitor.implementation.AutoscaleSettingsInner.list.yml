@@ -1,0 +1,26 @@
+### YamlMime:JavaMember
+nameWithType: AutoscaleSettingsInner.list
+type: method
+members:
+- fullName: com.microsoft.azure.management.monitor.implementation.AutoscaleSettingsInner.list()
+  name: list()
+  nameWithType: AutoscaleSettingsInner.list()
+  overridden: com.microsoft.azure.management.resources.fluentcore.collection.InnerSupportsListing.list()
+  exceptions:
+  - name: 3c87bd19
+  - name: 00ad4777
+  - name: 9b2a4515
+  returns:
+    description: <p>the PagedList&lt;AutoscaleSettingResourceInner&gt; object if successful. </p>
+    type: PagedList&lt;<xref href="com.microsoft.azure.management.monitor.implementation.AutoscaleSettingResourceInner?alt=com.microsoft.azure.management.monitor.implementation.AutoscaleSettingResourceInner&text=AutoscaleSettingResourceInner" data-throw-if-not-resolved="False"/>&gt;
+  summary: >-
+    <p>Lists the autoscale settings for a subscription.</p>
+
+    <p></p>
+  syntax: public PagedList<AutoscaleSettingResourceInner> list()
+  uid: com.microsoft.azure.management.monitor.implementation.AutoscaleSettingsInner.list()
+uid: com.microsoft.azure.management.monitor.implementation.AutoscaleSettingsInner.list*
+fullName: com.microsoft.azure.management.monitor.implementation.AutoscaleSettingsInner.list()
+name: list()
+package: com.microsoft.azure.management.monitor.implementation
+metadata: {}

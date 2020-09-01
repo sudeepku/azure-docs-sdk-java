@@ -1,0 +1,29 @@
+### YamlMime:JavaMember
+nameWithType: PersonGroups.getTrainingStatus
+type: method
+members:
+- fullName: com.microsoft.azure.cognitiveservices.vision.faceapi.PersonGroups.getTrainingStatus(String personGroupId)
+  name: getTrainingStatus(String personGroupId)
+  nameWithType: PersonGroups.getTrainingStatus(String personGroupId)
+  parameters:
+  - description: <p>Id referencing a particular person group. </p>
+    name: personGroupId
+    type: <xref href="String?alt=String&text=String" data-throw-if-not-resolved="False"/>
+  exceptions:
+  - name: 3c87bd19
+  - name: 3690e14b
+  - name: 9b2a4515
+  returns:
+    description: <p>the TrainingStatus object if successful. </p>
+    type: <xref href="com.microsoft.azure.cognitiveservices.vision.faceapi.models.TrainingStatus?alt=com.microsoft.azure.cognitiveservices.vision.faceapi.models.TrainingStatus&text=TrainingStatus" data-throw-if-not-resolved="False"/>
+  summary: >-
+    <p>Retrieve the training status of a person group (completed or ongoing).</p>
+
+    <p></p>
+  syntax: public TrainingStatus getTrainingStatus(String personGroupId)
+  uid: com.microsoft.azure.cognitiveservices.vision.faceapi.PersonGroups.getTrainingStatus(String)
+uid: com.microsoft.azure.cognitiveservices.vision.faceapi.PersonGroups.getTrainingStatus*
+fullName: com.microsoft.azure.cognitiveservices.vision.faceapi.PersonGroups.getTrainingStatus(String personGroupId)
+name: getTrainingStatus(String personGroupId)
+package: com.microsoft.azure.cognitiveservices.vision.faceapi
+metadata: {}

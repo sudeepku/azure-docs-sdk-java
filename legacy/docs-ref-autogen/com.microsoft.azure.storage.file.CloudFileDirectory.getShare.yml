@@ -1,0 +1,25 @@
+### YamlMime:JavaMember
+nameWithType: CloudFileDirectory.getShare
+type: method
+members:
+- fullName: com.microsoft.azure.storage.file.CloudFileDirectory.getShare()
+  name: getShare()
+  nameWithType: CloudFileDirectory.getShare()
+  overridden: com.microsoft.azure.storage.file.ListFileItem.getShare()
+  exceptions:
+  - name: ca4f407a
+  - name: "44102508"
+  returns:
+    description: <p>A <xref uid="com.microsoft.azure.storage.file.CloudFileShare" data-throw-if-not-resolved="false">CloudFileShare</xref> that represents the share for this directory.</p>
+    type: <xref href="com.microsoft.azure.storage.file.CloudFileShare?alt=com.microsoft.azure.storage.file.CloudFileShare&text=CloudFileShare" data-throw-if-not-resolved="False"/>
+  summary: >-
+    <p>Returns the share for this directory.</p>
+
+    <p></p>
+  syntax: public CloudFileShare getShare()
+  uid: com.microsoft.azure.storage.file.CloudFileDirectory.getShare()
+uid: com.microsoft.azure.storage.file.CloudFileDirectory.getShare*
+fullName: com.microsoft.azure.storage.file.CloudFileDirectory.getShare()
+name: getShare()
+package: com.microsoft.azure.storage.file
+metadata: {}

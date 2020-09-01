@@ -1,0 +1,31 @@
+### YamlMime:JavaMember
+nameWithType: SearchService.regenerateAdminKeys
+type: method
+members:
+- fullName: com.microsoft.azure.management.search.SearchService.regenerateAdminKeys(AdminKeyKind keyKind)
+  name: regenerateAdminKeys(AdminKeyKind keyKind)
+  nameWithType: SearchService.regenerateAdminKeys(AdminKeyKind keyKind)
+  parameters:
+  - description: <p>specifies which key to regenerate </p>
+    name: keyKind
+    type: <xref href="com.microsoft.azure.management.search.AdminKeyKind?alt=com.microsoft.azure.management.search.AdminKeyKind&text=AdminKeyKind" data-throw-if-not-resolved="False"/>
+  exceptions:
+  - name: 3c87bd19
+  - name: dc385fd4
+  - name: 9b2a4515
+  returns:
+    description: <p>the AdminKeys object if successful </p>
+    type: <xref href="com.microsoft.azure.management.search.AdminKeys?alt=com.microsoft.azure.management.search.AdminKeys&text=AdminKeys" data-throw-if-not-resolved="False"/>
+  summary: >-
+    <p>Regenerates either the primary or secondary admin API key. </p>
+
+    <p>You can only regenerate one key at a time.</p>
+
+    <p></p>
+  syntax: public AdminKeys regenerateAdminKeys(AdminKeyKind keyKind)
+  uid: com.microsoft.azure.management.search.SearchService.regenerateAdminKeys(AdminKeyKind)
+uid: com.microsoft.azure.management.search.SearchService.regenerateAdminKeys*
+fullName: com.microsoft.azure.management.search.SearchService.regenerateAdminKeys(AdminKeyKind keyKind)
+name: regenerateAdminKeys(AdminKeyKind keyKind)
+package: com.microsoft.azure.management.search
+metadata: {}

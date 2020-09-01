@@ -1,0 +1,25 @@
+### YamlMime:JavaMember
+nameWithType: Apps.listCortanaEndpoints
+type: method
+members:
+- fullName: com.microsoft.azure.cognitiveservices.language.luis.authoring.Apps.listCortanaEndpoints()
+  name: listCortanaEndpoints()
+  nameWithType: Apps.listCortanaEndpoints()
+  exceptions:
+  - name: 3c87bd19
+  - name: 00ad4777
+  - name: 9b2a4515
+  returns:
+    description: <p>the PersonalAssistantsResponse object if successful. </p>
+    type: <xref href="com.microsoft.azure.cognitiveservices.language.luis.authoring.models.PersonalAssistantsResponse?alt=com.microsoft.azure.cognitiveservices.language.luis.authoring.models.PersonalAssistantsResponse&text=PersonalAssistantsResponse" data-throw-if-not-resolved="False"/>
+  summary: >-
+    <p>Gets the endpoint URLs for the prebuilt Cortana applications.</p>
+
+    <p></p>
+  syntax: public PersonalAssistantsResponse listCortanaEndpoints()
+  uid: com.microsoft.azure.cognitiveservices.language.luis.authoring.Apps.listCortanaEndpoints()
+uid: com.microsoft.azure.cognitiveservices.language.luis.authoring.Apps.listCortanaEndpoints*
+fullName: com.microsoft.azure.cognitiveservices.language.luis.authoring.Apps.listCortanaEndpoints()
+name: listCortanaEndpoints()
+package: com.microsoft.azure.cognitiveservices.language.luis.authoring
+metadata: {}

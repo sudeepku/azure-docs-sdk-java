@@ -1,0 +1,18 @@
+### YamlMime:JavaMember
+nameWithType: IotHubSasTokenHsmAuthenticationProvider.refreshSasToken
+type: method
+members:
+- fullName: com.microsoft.azure.sdk.iot.device.hsm.IotHubSasTokenHsmAuthenticationProvider.refreshSasToken()
+  name: refreshSasToken()
+  nameWithType: IotHubSasTokenHsmAuthenticationProvider.refreshSasToken()
+  exceptions:
+  - name: cbf33bbe
+  - name: 848a9648
+  summary: <p>Renew the saved sas token using the HSM unit </p>
+  syntax: public void refreshSasToken()
+  uid: com.microsoft.azure.sdk.iot.device.hsm.IotHubSasTokenHsmAuthenticationProvider.refreshSasToken()
+uid: com.microsoft.azure.sdk.iot.device.hsm.IotHubSasTokenHsmAuthenticationProvider.refreshSasToken*
+fullName: com.microsoft.azure.sdk.iot.device.hsm.IotHubSasTokenHsmAuthenticationProvider.refreshSasToken()
+name: refreshSasToken()
+package: com.microsoft.azure.sdk.iot.device.hsm
+metadata: {}

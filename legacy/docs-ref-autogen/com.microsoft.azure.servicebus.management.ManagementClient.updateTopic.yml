@@ -1,0 +1,34 @@
+### YamlMime:JavaMember
+nameWithType: ManagementClient.updateTopic
+type: method
+members:
+- fullName: com.microsoft.azure.servicebus.management.ManagementClient.updateTopic(TopicDescription topicDescription)
+  name: updateTopic(TopicDescription topicDescription)
+  nameWithType: ManagementClient.updateTopic(TopicDescription topicDescription)
+  parameters:
+  - description: <p>- A <xref uid="com.microsoft.azure.servicebus.management.TopicDescription" data-throw-if-not-resolved="false">TopicDescription</xref> object describing the attributes with which the topic will be updated. </p>
+    name: topicDescription
+    type: <xref href="com.microsoft.azure.servicebus.management.TopicDescription?alt=com.microsoft.azure.servicebus.management.TopicDescription&text=TopicDescription" data-throw-if-not-resolved="False"/>
+  exceptions:
+  - name: 6d99fa63
+  - name: 3c87bd19
+  - name: a19dd706
+  - name: 312761a3
+  - name: 9d4598ba
+  - name: 73fec9fb
+  - name: 1b9054fd
+  - name: 8256ba40
+  returns:
+    description: >-
+      <p>
+
+        <xref uid="com.microsoft.azure.servicebus.management.TopicDescription" data-throw-if-not-resolved="false">TopicDescription</xref> of the updated topic. </p>
+    type: <xref href="com.microsoft.azure.servicebus.management.TopicDescription?alt=com.microsoft.azure.servicebus.management.TopicDescription&text=TopicDescription" data-throw-if-not-resolved="False"/>
+  summary: <p>Updates an existing topic. </p>
+  syntax: public TopicDescription updateTopic(TopicDescription topicDescription)
+  uid: com.microsoft.azure.servicebus.management.ManagementClient.updateTopic(TopicDescription)
+uid: com.microsoft.azure.servicebus.management.ManagementClient.updateTopic*
+fullName: com.microsoft.azure.servicebus.management.ManagementClient.updateTopic(TopicDescription topicDescription)
+name: updateTopic(TopicDescription topicDescription)
+package: com.microsoft.azure.servicebus.management
+metadata: {}

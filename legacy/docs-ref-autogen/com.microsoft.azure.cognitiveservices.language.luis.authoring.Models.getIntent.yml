@@ -1,0 +1,35 @@
+### YamlMime:JavaMember
+nameWithType: Models.getIntent
+type: method
+members:
+- fullName: com.microsoft.azure.cognitiveservices.language.luis.authoring.Models.getIntent(UUID appId, String versionId, UUID intentId)
+  name: getIntent(UUID appId, String versionId, UUID intentId)
+  nameWithType: Models.getIntent(UUID appId, String versionId, UUID intentId)
+  parameters:
+  - description: <p>The application ID. </p>
+    name: appId
+    type: <xref href="UUID?alt=UUID&text=UUID" data-throw-if-not-resolved="False"/>
+  - description: <p>The version ID. </p>
+    name: versionId
+    type: <xref href="String?alt=String&text=String" data-throw-if-not-resolved="False"/>
+  - description: <p>The intent classifier ID. </p>
+    name: intentId
+    type: <xref href="UUID?alt=UUID&text=UUID" data-throw-if-not-resolved="False"/>
+  exceptions:
+  - name: 3c87bd19
+  - name: 00ad4777
+  - name: 9b2a4515
+  returns:
+    description: <p>the IntentClassifier object if successful. </p>
+    type: <xref href="com.microsoft.azure.cognitiveservices.language.luis.authoring.models.IntentClassifier?alt=com.microsoft.azure.cognitiveservices.language.luis.authoring.models.IntentClassifier&text=IntentClassifier" data-throw-if-not-resolved="False"/>
+  summary: >-
+    <p>Gets information about the intent model.</p>
+
+    <p></p>
+  syntax: public IntentClassifier getIntent(UUID appId, String versionId, UUID intentId)
+  uid: com.microsoft.azure.cognitiveservices.language.luis.authoring.Models.getIntent(UUID,String,UUID)
+uid: com.microsoft.azure.cognitiveservices.language.luis.authoring.Models.getIntent*
+fullName: com.microsoft.azure.cognitiveservices.language.luis.authoring.Models.getIntent(UUID appId, String versionId, UUID intentId)
+name: getIntent(UUID appId, String versionId, UUID intentId)
+package: com.microsoft.azure.cognitiveservices.language.luis.authoring
+metadata: {}

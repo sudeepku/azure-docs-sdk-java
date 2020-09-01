@@ -1,0 +1,17 @@
+### YamlMime:JavaMember
+nameWithType: AmqpConnectionHandler.verifyConnectionWasOpened
+type: method
+members:
+- fullName: com.microsoft.azure.sdk.iot.service.transport.amqps.AmqpConnectionHandler.verifyConnectionWasOpened()
+  name: verifyConnectionWasOpened()
+  nameWithType: AmqpConnectionHandler.verifyConnectionWasOpened()
+  exceptions:
+  - name: cbf33bbe
+  summary: <p>If an exception was encountered while opening the AMQP connection, this function shall throw that saved exception </p>
+  syntax: protected void verifyConnectionWasOpened()
+  uid: com.microsoft.azure.sdk.iot.service.transport.amqps.AmqpConnectionHandler.verifyConnectionWasOpened()
+uid: com.microsoft.azure.sdk.iot.service.transport.amqps.AmqpConnectionHandler.verifyConnectionWasOpened*
+fullName: com.microsoft.azure.sdk.iot.service.transport.amqps.AmqpConnectionHandler.verifyConnectionWasOpened()
+name: verifyConnectionWasOpened()
+package: com.microsoft.azure.sdk.iot.service.transport.amqps
+metadata: {}

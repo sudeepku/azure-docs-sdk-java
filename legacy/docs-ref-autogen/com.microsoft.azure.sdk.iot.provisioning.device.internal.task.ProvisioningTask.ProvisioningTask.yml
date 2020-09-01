@@ -1,0 +1,24 @@
+### YamlMime:JavaMember
+nameWithType: ProvisioningTask.ProvisioningTask
+type: constructor
+members:
+- fullName: com.microsoft.azure.sdk.iot.provisioning.device.internal.task.ProvisioningTask.ProvisioningTask(ProvisioningDeviceClientConfig provisioningDeviceClientConfig, ProvisioningDeviceClientContract provisioningDeviceClientContract)
+  name: ProvisioningTask(ProvisioningDeviceClientConfig provisioningDeviceClientConfig, ProvisioningDeviceClientContract provisioningDeviceClientContract)
+  nameWithType: ProvisioningTask.ProvisioningTask(ProvisioningDeviceClientConfig provisioningDeviceClientConfig, ProvisioningDeviceClientContract provisioningDeviceClientContract)
+  parameters:
+  - description: <p>Config that contains details pertaining to Service </p>
+    name: provisioningDeviceClientConfig
+    type: <xref href="com.microsoft.azure.sdk.iot.provisioning.device.internal.ProvisioningDeviceClientConfig?alt=com.microsoft.azure.sdk.iot.provisioning.device.internal.ProvisioningDeviceClientConfig&text=ProvisioningDeviceClientConfig" data-throw-if-not-resolved="False"/>
+  - description: <p>Contract with the service over the specified protocol </p>
+    name: provisioningDeviceClientContract
+    type: <xref href="com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.ProvisioningDeviceClientContract?alt=com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.ProvisioningDeviceClientContract&text=ProvisioningDeviceClientContract" data-throw-if-not-resolved="False"/>
+  exceptions:
+  - name: 352f005b
+  summary: <p>Constructor for creating a provisioning task </p>
+  syntax: public ProvisioningTask(ProvisioningDeviceClientConfig provisioningDeviceClientConfig, ProvisioningDeviceClientContract provisioningDeviceClientContract)
+  uid: com.microsoft.azure.sdk.iot.provisioning.device.internal.task.ProvisioningTask.ProvisioningTask(ProvisioningDeviceClientConfig,ProvisioningDeviceClientContract)
+uid: com.microsoft.azure.sdk.iot.provisioning.device.internal.task.ProvisioningTask.ProvisioningTask*
+fullName: com.microsoft.azure.sdk.iot.provisioning.device.internal.task.ProvisioningTask.ProvisioningTask
+name: ProvisioningTask
+package: com.microsoft.azure.sdk.iot.provisioning.device.internal.task
+metadata: {}

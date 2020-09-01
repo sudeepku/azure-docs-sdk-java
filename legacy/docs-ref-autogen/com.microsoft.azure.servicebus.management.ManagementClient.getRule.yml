@@ -1,0 +1,36 @@
+### YamlMime:JavaMember
+nameWithType: ManagementClient.getRule
+type: method
+members:
+- fullName: com.microsoft.azure.servicebus.management.ManagementClient.getRule(String topicPath, String subscriptionName, String ruleName)
+  name: getRule(String topicPath, String subscriptionName, String ruleName)
+  nameWithType: ManagementClient.getRule(String topicPath, String subscriptionName, String ruleName)
+  parameters:
+  - description: <p>- The path of the topic relative to service bus namespace. </p>
+    name: topicPath
+    type: <xref href="String?alt=String&text=String" data-throw-if-not-resolved="False"/>
+  - description: <p>- The name of the subscription. </p>
+    name: subscriptionName
+    type: <xref href="String?alt=String&text=String" data-throw-if-not-resolved="False"/>
+  - description: <p>- The name of the rule. </p>
+    name: ruleName
+    type: <xref href="String?alt=String&text=String" data-throw-if-not-resolved="False"/>
+  exceptions:
+  - name: 3c87bd19
+  - name: a19dd706
+  - name: 6d99fa63
+  - name: 312761a3
+  - name: 9d4598ba
+  - name: 73fec9fb
+  - name: 8256ba40
+  returns:
+    description: <p>- RuleDescription containing information about the subscription. </p>
+    type: <xref href="com.microsoft.azure.servicebus.rules.RuleDescription?alt=com.microsoft.azure.servicebus.rules.RuleDescription&text=RuleDescription" data-throw-if-not-resolved="False"/>
+  summary: <p>Retrieves a rule for a given topic and subscription from the service namespace </p>
+  syntax: public RuleDescription getRule(String topicPath, String subscriptionName, String ruleName)
+  uid: com.microsoft.azure.servicebus.management.ManagementClient.getRule(String,String,String)
+uid: com.microsoft.azure.servicebus.management.ManagementClient.getRule*
+fullName: com.microsoft.azure.servicebus.management.ManagementClient.getRule(String topicPath, String subscriptionName, String ruleName)
+name: getRule(String topicPath, String subscriptionName, String ruleName)
+package: com.microsoft.azure.servicebus.management
+metadata: {}

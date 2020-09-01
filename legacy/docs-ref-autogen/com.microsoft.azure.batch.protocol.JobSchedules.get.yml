@@ -1,0 +1,52 @@
+### YamlMime:JavaMember
+nameWithType: JobSchedules.get
+type: method
+members:
+- fullName: com.microsoft.azure.batch.protocol.JobSchedules.get(String jobScheduleId)
+  name: get(String jobScheduleId)
+  nameWithType: JobSchedules.get(String jobScheduleId)
+  parameters:
+  - description: <p>The ID of the job schedule to get. </p>
+    name: jobScheduleId
+    type: <xref href="String?alt=String&text=String" data-throw-if-not-resolved="False"/>
+  exceptions:
+  - name: 3c87bd19
+  - name: c8683d81
+  - name: 9b2a4515
+  returns:
+    description: <p>the CloudJobSchedule object if successful. </p>
+    type: <xref href="com.microsoft.azure.batch.protocol.models.CloudJobSchedule?alt=com.microsoft.azure.batch.protocol.models.CloudJobSchedule&text=CloudJobSchedule" data-throw-if-not-resolved="False"/>
+  summary: >-
+    <p>Gets information about the specified job schedule.</p>
+
+    <p></p>
+  syntax: public CloudJobSchedule get(String jobScheduleId)
+  uid: com.microsoft.azure.batch.protocol.JobSchedules.get(String)
+- fullName: com.microsoft.azure.batch.protocol.JobSchedules.get(String jobScheduleId, JobScheduleGetOptions jobScheduleGetOptions)
+  name: get(String jobScheduleId, JobScheduleGetOptions jobScheduleGetOptions)
+  nameWithType: JobSchedules.get(String jobScheduleId, JobScheduleGetOptions jobScheduleGetOptions)
+  parameters:
+  - description: <p>The ID of the job schedule to get. </p>
+    name: jobScheduleId
+    type: <xref href="String?alt=String&text=String" data-throw-if-not-resolved="False"/>
+  - description: <p>Additional parameters for the operation </p>
+    name: jobScheduleGetOptions
+    type: <xref href="com.microsoft.azure.batch.protocol.models.JobScheduleGetOptions?alt=com.microsoft.azure.batch.protocol.models.JobScheduleGetOptions&text=JobScheduleGetOptions" data-throw-if-not-resolved="False"/>
+  exceptions:
+  - name: 3c87bd19
+  - name: c8683d81
+  - name: 9b2a4515
+  returns:
+    description: <p>the CloudJobSchedule object if successful. </p>
+    type: <xref href="com.microsoft.azure.batch.protocol.models.CloudJobSchedule?alt=com.microsoft.azure.batch.protocol.models.CloudJobSchedule&text=CloudJobSchedule" data-throw-if-not-resolved="False"/>
+  summary: >-
+    <p>Gets information about the specified job schedule.</p>
+
+    <p></p>
+  syntax: public CloudJobSchedule get(String jobScheduleId, JobScheduleGetOptions jobScheduleGetOptions)
+  uid: com.microsoft.azure.batch.protocol.JobSchedules.get(String,JobScheduleGetOptions)
+uid: com.microsoft.azure.batch.protocol.JobSchedules.get*
+fullName: com.microsoft.azure.batch.protocol.JobSchedules.get(String jobScheduleId)
+name: get(String jobScheduleId)
+package: com.microsoft.azure.batch.protocol
+metadata: {}

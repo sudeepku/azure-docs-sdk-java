@@ -1,0 +1,45 @@
+### YamlMime:JavaMember
+nameWithType: Pools.list
+type: method
+members:
+- fullName: com.microsoft.azure.batch.protocol.Pools.list()
+  name: list()
+  nameWithType: Pools.list()
+  exceptions:
+  - name: 3c87bd19
+  - name: c8683d81
+  - name: 9b2a4515
+  returns:
+    description: <p>the PagedList&lt;CloudPool&gt; object if successful. </p>
+    type: PagedList&lt;<xref href="com.microsoft.azure.batch.protocol.models.CloudPool?alt=com.microsoft.azure.batch.protocol.models.CloudPool&text=CloudPool" data-throw-if-not-resolved="False"/>&gt;
+  summary: >-
+    <p>Lists all of the pools in the specified account.</p>
+
+    <p></p>
+  syntax: public PagedList<CloudPool> list()
+  uid: com.microsoft.azure.batch.protocol.Pools.list()
+- fullName: com.microsoft.azure.batch.protocol.Pools.list(final PoolListOptions poolListOptions)
+  name: list(final PoolListOptions poolListOptions)
+  nameWithType: Pools.list(final PoolListOptions poolListOptions)
+  parameters:
+  - description: <p>Additional parameters for the operation </p>
+    name: poolListOptions
+    type: final <xref href="com.microsoft.azure.batch.protocol.models.PoolListOptions?alt=com.microsoft.azure.batch.protocol.models.PoolListOptions&text=PoolListOptions" data-throw-if-not-resolved="False"/>
+  exceptions:
+  - name: 3c87bd19
+  - name: c8683d81
+  - name: 9b2a4515
+  returns:
+    description: <p>the PagedList&lt;CloudPool&gt; object if successful. </p>
+    type: PagedList&lt;<xref href="com.microsoft.azure.batch.protocol.models.CloudPool?alt=com.microsoft.azure.batch.protocol.models.CloudPool&text=CloudPool" data-throw-if-not-resolved="False"/>&gt;
+  summary: >-
+    <p>Lists all of the pools in the specified account.</p>
+
+    <p></p>
+  syntax: public PagedList<CloudPool> list(final PoolListOptions poolListOptions)
+  uid: com.microsoft.azure.batch.protocol.Pools.list(final PoolListOptions)
+uid: com.microsoft.azure.batch.protocol.Pools.list*
+fullName: com.microsoft.azure.batch.protocol.Pools.list()
+name: list()
+package: com.microsoft.azure.batch.protocol
+metadata: {}

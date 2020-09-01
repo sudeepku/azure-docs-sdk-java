@@ -1,0 +1,29 @@
+### YamlMime:JavaMember
+nameWithType: Trainings.getIterations
+type: method
+members:
+- fullName: com.microsoft.azure.cognitiveservices.vision.customvision.training.Trainings.getIterations(UUID projectId)
+  name: getIterations(UUID projectId)
+  nameWithType: Trainings.getIterations(UUID projectId)
+  parameters:
+  - description: <p>The project id. </p>
+    name: projectId
+    type: <xref href="UUID?alt=UUID&text=UUID" data-throw-if-not-resolved="False"/>
+  exceptions:
+  - name: 3c87bd19
+  - name: d8f234c9
+  - name: 9b2a4515
+  returns:
+    description: <p>the List&lt;Iteration&gt; object if successful. </p>
+    type: List&lt;<xref href="com.microsoft.azure.cognitiveservices.vision.customvision.training.models.Iteration?alt=com.microsoft.azure.cognitiveservices.vision.customvision.training.models.Iteration&text=Iteration" data-throw-if-not-resolved="False"/>&gt;
+  summary: >-
+    <p>Get iterations for the project.</p>
+
+    <p></p>
+  syntax: public List<Iteration> getIterations(UUID projectId)
+  uid: com.microsoft.azure.cognitiveservices.vision.customvision.training.Trainings.getIterations(UUID)
+uid: com.microsoft.azure.cognitiveservices.vision.customvision.training.Trainings.getIterations*
+fullName: com.microsoft.azure.cognitiveservices.vision.customvision.training.Trainings.getIterations(UUID projectId)
+name: getIterations(UUID projectId)
+package: com.microsoft.azure.cognitiveservices.vision.customvision.training
+metadata: {}

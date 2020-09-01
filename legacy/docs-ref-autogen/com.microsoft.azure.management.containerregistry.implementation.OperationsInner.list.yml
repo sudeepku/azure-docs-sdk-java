@@ -1,0 +1,25 @@
+### YamlMime:JavaMember
+nameWithType: OperationsInner.list
+type: method
+members:
+- fullName: com.microsoft.azure.management.containerregistry.implementation.OperationsInner.list()
+  name: list()
+  nameWithType: OperationsInner.list()
+  exceptions:
+  - name: 3c87bd19
+  - name: dc385fd4
+  - name: 9b2a4515
+  returns:
+    description: <p>the PagedList&lt;OperationDefinitionInner&gt; object if successful. </p>
+    type: PagedList&lt;<xref href="com.microsoft.azure.management.containerregistry.implementation.OperationDefinitionInner?alt=com.microsoft.azure.management.containerregistry.implementation.OperationDefinitionInner&text=OperationDefinitionInner" data-throw-if-not-resolved="False"/>&gt;
+  summary: >-
+    <p>Lists all of the available Azure Container Registry REST API operations.</p>
+
+    <p></p>
+  syntax: public PagedList<OperationDefinitionInner> list()
+  uid: com.microsoft.azure.management.containerregistry.implementation.OperationsInner.list()
+uid: com.microsoft.azure.management.containerregistry.implementation.OperationsInner.list*
+fullName: com.microsoft.azure.management.containerregistry.implementation.OperationsInner.list()
+name: list()
+package: com.microsoft.azure.management.containerregistry.implementation
+metadata: {}

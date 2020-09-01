@@ -1,0 +1,24 @@
+### YamlMime:JavaMember
+nameWithType: IMessageSession.getState
+type: method
+members:
+- fullName: com.microsoft.azure.servicebus.IMessageSession.getState()
+  name: getState()
+  nameWithType: IMessageSession.getState()
+  exceptions:
+  - name: 8256ba40
+  - name: 73fec9fb
+  returns:
+    description: <p>The session state </p>
+    type: <xref href="byte+%5B%5D?alt=byte []&text=byte+%5B%5D" data-throw-if-not-resolved="False"/>
+  summary: >-
+    <p>Gets the session state.</p>
+
+    <p></p>
+  syntax: public byte [] getState()
+  uid: com.microsoft.azure.servicebus.IMessageSession.getState()
+uid: com.microsoft.azure.servicebus.IMessageSession.getState*
+fullName: com.microsoft.azure.servicebus.IMessageSession.getState()
+name: getState()
+package: com.microsoft.azure.servicebus
+metadata: {}

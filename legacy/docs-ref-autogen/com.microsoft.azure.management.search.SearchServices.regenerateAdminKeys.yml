@@ -1,0 +1,35 @@
+### YamlMime:JavaMember
+nameWithType: SearchServices.regenerateAdminKeys
+type: method
+members:
+- fullName: com.microsoft.azure.management.search.SearchServices.regenerateAdminKeys(String resourceGroupName, String searchServiceName, AdminKeyKind keyKind)
+  name: regenerateAdminKeys(String resourceGroupName, String searchServiceName, AdminKeyKind keyKind)
+  nameWithType: SearchServices.regenerateAdminKeys(String resourceGroupName, String searchServiceName, AdminKeyKind keyKind)
+  parameters:
+  - description: <p>The name of the resource group within the current subscription. You can obtain this value from the Azure Resource Manager API or the portal. </p>
+    name: resourceGroupName
+    type: <xref href="String?alt=String&text=String" data-throw-if-not-resolved="False"/>
+  - description: <p>The name of the Azure Search service associated with the specified resource group. </p>
+    name: searchServiceName
+    type: <xref href="String?alt=String&text=String" data-throw-if-not-resolved="False"/>
+  - description: "<p>Specifies which key to regenerate. Valid values include 'primary' and 'secondary'. Possible values include: 'primary', 'secondary' </p>"
+    name: keyKind
+    type: <xref href="com.microsoft.azure.management.search.AdminKeyKind?alt=com.microsoft.azure.management.search.AdminKeyKind&text=AdminKeyKind" data-throw-if-not-resolved="False"/>
+  exceptions:
+  - name: 3c87bd19
+  - name: dc385fd4
+  - name: 9b2a4515
+  returns:
+    description: <p>the AdminKeys object if successful. </p>
+    type: <xref href="com.microsoft.azure.management.search.AdminKeys?alt=com.microsoft.azure.management.search.AdminKeys&text=AdminKeys" data-throw-if-not-resolved="False"/>
+  summary: >-
+    <p>Regenerates either the primary or secondary admin API key. You can only regenerate one key at a time.</p>
+
+    <p></p>
+  syntax: public AdminKeys regenerateAdminKeys(String resourceGroupName, String searchServiceName, AdminKeyKind keyKind)
+  uid: com.microsoft.azure.management.search.SearchServices.regenerateAdminKeys(String,String,AdminKeyKind)
+uid: com.microsoft.azure.management.search.SearchServices.regenerateAdminKeys*
+fullName: com.microsoft.azure.management.search.SearchServices.regenerateAdminKeys(String resourceGroupName, String searchServiceName, AdminKeyKind keyKind)
+name: regenerateAdminKeys(String resourceGroupName, String searchServiceName, AdminKeyKind keyKind)
+package: com.microsoft.azure.management.search
+metadata: {}

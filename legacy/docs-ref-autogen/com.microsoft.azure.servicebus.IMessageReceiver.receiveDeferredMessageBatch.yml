@@ -1,0 +1,28 @@
+### YamlMime:JavaMember
+nameWithType: IMessageReceiver.receiveDeferredMessageBatch
+type: method
+members:
+- fullName: com.microsoft.azure.servicebus.IMessageReceiver.receiveDeferredMessageBatch(Collection<Long> sequenceNumbers)
+  name: receiveDeferredMessageBatch(Collection<Long> sequenceNumbers)
+  nameWithType: IMessageReceiver.receiveDeferredMessageBatch(Collection<Long> sequenceNumbers)
+  parameters:
+  - description: <p>The sequence numbers of desired deferred messages. </p>
+    name: sequenceNumbers
+    type: <xref href="Collection%3CLong%3E?alt=Collection<Long>&text=Collection%3CLong%3E" data-throw-if-not-resolved="False"/>
+  exceptions:
+  - name: 8256ba40
+  - name: 73fec9fb
+  returns:
+    description: <p>List of messages received. Returns null if no message is found. </p>
+    type: Collection&lt;<xref href="com.microsoft.azure.servicebus.IMessage?alt=com.microsoft.azure.servicebus.IMessage&text=IMessage" data-throw-if-not-resolved="False"/>&gt;
+  summary: >-
+    <p>Receives a batch of deferred <xref uid="com.microsoft.azure.servicebus.Message" data-throw-if-not-resolved="false">Message</xref>.</p>
+
+    <p></p>
+  syntax: public Collection<IMessage> receiveDeferredMessageBatch(Collection<Long> sequenceNumbers)
+  uid: com.microsoft.azure.servicebus.IMessageReceiver.receiveDeferredMessageBatch(Collection<Long>)
+uid: com.microsoft.azure.servicebus.IMessageReceiver.receiveDeferredMessageBatch*
+fullName: com.microsoft.azure.servicebus.IMessageReceiver.receiveDeferredMessageBatch(Collection<Long> sequenceNumbers)
+name: receiveDeferredMessageBatch(Collection<Long> sequenceNumbers)
+package: com.microsoft.azure.servicebus
+metadata: {}

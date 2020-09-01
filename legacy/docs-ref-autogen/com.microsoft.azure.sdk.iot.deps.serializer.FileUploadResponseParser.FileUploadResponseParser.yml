@@ -1,0 +1,24 @@
+### YamlMime:JavaMember
+nameWithType: FileUploadResponseParser.FileUploadResponseParser
+type: constructor
+members:
+- fullName: com.microsoft.azure.sdk.iot.deps.serializer.FileUploadResponseParser.FileUploadResponseParser(String json)
+  name: FileUploadResponseParser(String json)
+  nameWithType: FileUploadResponseParser.FileUploadResponseParser(String json)
+  parameters:
+  - description: <p>is the string that contains a valid json with the FileUpload response. </p>
+    name: json
+    type: <xref href="String?alt=String&text=String" data-throw-if-not-resolved="False"/>
+  exceptions:
+  - name: 3c87bd19
+  summary: >-
+    <p>CONSTRUCTOR Create an instance of the FileUploadResponseParser using the information in the provided json.</p>
+
+    <p></p>
+  syntax: public FileUploadResponseParser(String json)
+  uid: com.microsoft.azure.sdk.iot.deps.serializer.FileUploadResponseParser.FileUploadResponseParser(String)
+uid: com.microsoft.azure.sdk.iot.deps.serializer.FileUploadResponseParser.FileUploadResponseParser*
+fullName: com.microsoft.azure.sdk.iot.deps.serializer.FileUploadResponseParser.FileUploadResponseParser
+name: FileUploadResponseParser
+package: com.microsoft.azure.sdk.iot.deps.serializer
+metadata: {}

@@ -1,0 +1,35 @@
+### YamlMime:JavaMember
+nameWithType: RegistriesInner.beginCreate
+type: method
+members:
+- fullName: com.microsoft.azure.management.containerregistry.implementation.RegistriesInner.beginCreate(String resourceGroupName, String registryName, RegistryInner registry)
+  name: beginCreate(String resourceGroupName, String registryName, RegistryInner registry)
+  nameWithType: RegistriesInner.beginCreate(String resourceGroupName, String registryName, RegistryInner registry)
+  parameters:
+  - description: <p>The name of the resource group to which the container registry belongs. </p>
+    name: resourceGroupName
+    type: <xref href="String?alt=String&text=String" data-throw-if-not-resolved="False"/>
+  - description: <p>The name of the container registry. </p>
+    name: registryName
+    type: <xref href="String?alt=String&text=String" data-throw-if-not-resolved="False"/>
+  - description: <p>The parameters for creating a container registry. </p>
+    name: registry
+    type: <xref href="com.microsoft.azure.management.containerregistry.implementation.RegistryInner?alt=com.microsoft.azure.management.containerregistry.implementation.RegistryInner&text=RegistryInner" data-throw-if-not-resolved="False"/>
+  exceptions:
+  - name: 3c87bd19
+  - name: dc385fd4
+  - name: 9b2a4515
+  returns:
+    description: <p>the RegistryInner object if successful. </p>
+    type: <xref href="com.microsoft.azure.management.containerregistry.implementation.RegistryInner?alt=com.microsoft.azure.management.containerregistry.implementation.RegistryInner&text=RegistryInner" data-throw-if-not-resolved="False"/>
+  summary: >-
+    <p>Creates a container registry with the specified parameters.</p>
+
+    <p></p>
+  syntax: public RegistryInner beginCreate(String resourceGroupName, String registryName, RegistryInner registry)
+  uid: com.microsoft.azure.management.containerregistry.implementation.RegistriesInner.beginCreate(String,String,RegistryInner)
+uid: com.microsoft.azure.management.containerregistry.implementation.RegistriesInner.beginCreate*
+fullName: com.microsoft.azure.management.containerregistry.implementation.RegistriesInner.beginCreate(String resourceGroupName, String registryName, RegistryInner registry)
+name: beginCreate(String resourceGroupName, String registryName, RegistryInner registry)
+package: com.microsoft.azure.management.containerregistry.implementation
+metadata: {}

@@ -1,0 +1,24 @@
+### YamlMime:JavaMember
+nameWithType: HttpsBatchMessage.addMessage
+type: method
+members:
+- fullName: com.microsoft.azure.sdk.iot.device.transport.https.HttpsBatchMessage.addMessage(HttpsSingleMessage msg)
+  name: addMessage(HttpsSingleMessage msg)
+  nameWithType: HttpsBatchMessage.addMessage(HttpsSingleMessage msg)
+  parameters:
+  - description: <p>the message to be added.</p>
+    name: msg
+    type: <xref href="com.microsoft.azure.sdk.iot.device.transport.https.HttpsSingleMessage?alt=com.microsoft.azure.sdk.iot.device.transport.https.HttpsSingleMessage&text=HttpsSingleMessage" data-throw-if-not-resolved="False"/>
+  exceptions:
+  - name: 0dcd34b0
+  summary: >-
+    <p>Adds a message to the batch.</p>
+
+    <p></p>
+  syntax: public void addMessage(HttpsSingleMessage msg)
+  uid: com.microsoft.azure.sdk.iot.device.transport.https.HttpsBatchMessage.addMessage(HttpsSingleMessage)
+uid: com.microsoft.azure.sdk.iot.device.transport.https.HttpsBatchMessage.addMessage*
+fullName: com.microsoft.azure.sdk.iot.device.transport.https.HttpsBatchMessage.addMessage(HttpsSingleMessage msg)
+name: addMessage(HttpsSingleMessage msg)
+package: com.microsoft.azure.sdk.iot.device.transport.https
+metadata: {}

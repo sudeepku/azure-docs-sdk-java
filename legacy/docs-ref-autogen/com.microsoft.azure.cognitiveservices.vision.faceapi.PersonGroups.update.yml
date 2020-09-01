@@ -1,0 +1,41 @@
+### YamlMime:JavaMember
+nameWithType: PersonGroups.update
+type: method
+members:
+- fullName: com.microsoft.azure.cognitiveservices.vision.faceapi.PersonGroups.update()
+  name: update()
+  nameWithType: PersonGroups.update()
+  returns:
+    description: <p>the first stage of the update call </p>
+    type: <xref href="PersonGroupsUpdateDefinitionStages.WithPersonGroupId?alt=PersonGroupsUpdateDefinitionStages.WithPersonGroupId&text=PersonGroupsUpdateDefinitionStages.WithPersonGroupId" data-throw-if-not-resolved="False"/>
+  summary: >-
+    <p>Update an existing person group's display name and userData. The properties which does not appear in request body will not be updated.</p>
+
+    <p></p>
+  syntax: public PersonGroupsUpdateDefinitionStages.WithPersonGroupId update()
+  uid: com.microsoft.azure.cognitiveservices.vision.faceapi.PersonGroups.update()
+- fullName: com.microsoft.azure.cognitiveservices.vision.faceapi.PersonGroups.update(String personGroupId, UpdatePersonGroupsOptionalParameter updateOptionalParameter)
+  name: update(String personGroupId, UpdatePersonGroupsOptionalParameter updateOptionalParameter)
+  nameWithType: PersonGroups.update(String personGroupId, UpdatePersonGroupsOptionalParameter updateOptionalParameter)
+  parameters:
+  - description: <p>Id referencing a particular person group. </p>
+    name: personGroupId
+    type: <xref href="String?alt=String&text=String" data-throw-if-not-resolved="False"/>
+  - description: <p>the object representing the optional parameters to be set before calling this API </p>
+    name: updateOptionalParameter
+    type: <xref href="com.microsoft.azure.cognitiveservices.vision.faceapi.models.UpdatePersonGroupsOptionalParameter?alt=com.microsoft.azure.cognitiveservices.vision.faceapi.models.UpdatePersonGroupsOptionalParameter&text=UpdatePersonGroupsOptionalParameter" data-throw-if-not-resolved="False"/>
+  exceptions:
+  - name: 3c87bd19
+  - name: 3690e14b
+  - name: 9b2a4515
+  summary: >-
+    <p>Update an existing person group's display name and userData. The properties which does not appear in request body will not be updated.</p>
+
+    <p></p>
+  syntax: public void update(String personGroupId, UpdatePersonGroupsOptionalParameter updateOptionalParameter)
+  uid: com.microsoft.azure.cognitiveservices.vision.faceapi.PersonGroups.update(String,UpdatePersonGroupsOptionalParameter)
+uid: com.microsoft.azure.cognitiveservices.vision.faceapi.PersonGroups.update*
+fullName: com.microsoft.azure.cognitiveservices.vision.faceapi.PersonGroups.update()
+name: update()
+package: com.microsoft.azure.cognitiveservices.vision.faceapi
+metadata: {}

@@ -1,0 +1,35 @@
+### YamlMime:JavaMember
+nameWithType: ListManagementTerms.addTerm
+type: method
+members:
+- fullName: com.microsoft.azure.cognitiveservices.vision.contentmoderator.ListManagementTerms.addTerm(String listId, String term, String language)
+  name: addTerm(String listId, String term, String language)
+  nameWithType: ListManagementTerms.addTerm(String listId, String term, String language)
+  parameters:
+  - description: <p>List Id of the image list. </p>
+    name: listId
+    type: <xref href="String?alt=String&text=String" data-throw-if-not-resolved="False"/>
+  - description: <p>Term to be deleted. </p>
+    name: term
+    type: <xref href="String?alt=String&text=String" data-throw-if-not-resolved="False"/>
+  - description: <p>Language of the terms. </p>
+    name: language
+    type: <xref href="String?alt=String&text=String" data-throw-if-not-resolved="False"/>
+  exceptions:
+  - name: 3c87bd19
+  - name: 3690e14b
+  - name: 9b2a4515
+  returns:
+    description: <p>the Object object if successful. </p>
+    type: <xref href="Object?alt=Object&text=Object" data-throw-if-not-resolved="False"/>
+  summary: >-
+    <p>Add a term to the term list with list Id equal to list Id passed.</p>
+
+    <p></p>
+  syntax: public Object addTerm(String listId, String term, String language)
+  uid: com.microsoft.azure.cognitiveservices.vision.contentmoderator.ListManagementTerms.addTerm(String,String,String)
+uid: com.microsoft.azure.cognitiveservices.vision.contentmoderator.ListManagementTerms.addTerm*
+fullName: com.microsoft.azure.cognitiveservices.vision.contentmoderator.ListManagementTerms.addTerm(String listId, String term, String language)
+name: addTerm(String listId, String term, String language)
+package: com.microsoft.azure.cognitiveservices.vision.contentmoderator
+metadata: {}

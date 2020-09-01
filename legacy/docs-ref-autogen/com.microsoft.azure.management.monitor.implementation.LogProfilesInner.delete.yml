@@ -1,0 +1,26 @@
+### YamlMime:JavaMember
+nameWithType: LogProfilesInner.delete
+type: method
+members:
+- fullName: com.microsoft.azure.management.monitor.implementation.LogProfilesInner.delete(String logProfileName)
+  name: delete(String logProfileName)
+  nameWithType: LogProfilesInner.delete(String logProfileName)
+  parameters:
+  - description: <p>The name of the log profile. </p>
+    name: logProfileName
+    type: <xref href="String?alt=String&text=String" data-throw-if-not-resolved="False"/>
+  exceptions:
+  - name: 3c87bd19
+  - name: dc385fd4
+  - name: 9b2a4515
+  summary: >-
+    <p>Deletes the log profile.</p>
+
+    <p></p>
+  syntax: public void delete(String logProfileName)
+  uid: com.microsoft.azure.management.monitor.implementation.LogProfilesInner.delete(String)
+uid: com.microsoft.azure.management.monitor.implementation.LogProfilesInner.delete*
+fullName: com.microsoft.azure.management.monitor.implementation.LogProfilesInner.delete(String logProfileName)
+name: delete(String logProfileName)
+package: com.microsoft.azure.management.monitor.implementation
+metadata: {}

@@ -1,0 +1,52 @@
+### YamlMime:JavaMember
+nameWithType: Applications.get
+type: method
+members:
+- fullName: com.microsoft.azure.batch.protocol.Applications.get(String applicationId)
+  name: get(String applicationId)
+  nameWithType: Applications.get(String applicationId)
+  parameters:
+  - description: <p>The ID of the application. </p>
+    name: applicationId
+    type: <xref href="String?alt=String&text=String" data-throw-if-not-resolved="False"/>
+  exceptions:
+  - name: 3c87bd19
+  - name: c8683d81
+  - name: 9b2a4515
+  returns:
+    description: <p>the ApplicationSummary object if successful. </p>
+    type: <xref href="com.microsoft.azure.batch.protocol.models.ApplicationSummary?alt=com.microsoft.azure.batch.protocol.models.ApplicationSummary&text=ApplicationSummary" data-throw-if-not-resolved="False"/>
+  summary: >-
+    <p>Gets information about the specified application. This operation returns only applications and versions that are available for use on compute nodes; that is, that can be used in an application package reference. For administrator information about applications and versions that are not yet available to compute nodes, use the Azure portal or the Azure Resource Manager API.</p>
+
+    <p></p>
+  syntax: public ApplicationSummary get(String applicationId)
+  uid: com.microsoft.azure.batch.protocol.Applications.get(String)
+- fullName: com.microsoft.azure.batch.protocol.Applications.get(String applicationId, ApplicationGetOptions applicationGetOptions)
+  name: get(String applicationId, ApplicationGetOptions applicationGetOptions)
+  nameWithType: Applications.get(String applicationId, ApplicationGetOptions applicationGetOptions)
+  parameters:
+  - description: <p>The ID of the application. </p>
+    name: applicationId
+    type: <xref href="String?alt=String&text=String" data-throw-if-not-resolved="False"/>
+  - description: <p>Additional parameters for the operation </p>
+    name: applicationGetOptions
+    type: <xref href="com.microsoft.azure.batch.protocol.models.ApplicationGetOptions?alt=com.microsoft.azure.batch.protocol.models.ApplicationGetOptions&text=ApplicationGetOptions" data-throw-if-not-resolved="False"/>
+  exceptions:
+  - name: 3c87bd19
+  - name: c8683d81
+  - name: 9b2a4515
+  returns:
+    description: <p>the ApplicationSummary object if successful. </p>
+    type: <xref href="com.microsoft.azure.batch.protocol.models.ApplicationSummary?alt=com.microsoft.azure.batch.protocol.models.ApplicationSummary&text=ApplicationSummary" data-throw-if-not-resolved="False"/>
+  summary: >-
+    <p>Gets information about the specified application. This operation returns only applications and versions that are available for use on compute nodes; that is, that can be used in an application package reference. For administrator information about applications and versions that are not yet available to compute nodes, use the Azure portal or the Azure Resource Manager API.</p>
+
+    <p></p>
+  syntax: public ApplicationSummary get(String applicationId, ApplicationGetOptions applicationGetOptions)
+  uid: com.microsoft.azure.batch.protocol.Applications.get(String,ApplicationGetOptions)
+uid: com.microsoft.azure.batch.protocol.Applications.get*
+fullName: com.microsoft.azure.batch.protocol.Applications.get(String applicationId)
+name: get(String applicationId)
+package: com.microsoft.azure.batch.protocol
+metadata: {}

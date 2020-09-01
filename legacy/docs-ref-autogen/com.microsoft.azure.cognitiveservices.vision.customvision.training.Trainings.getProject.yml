@@ -1,0 +1,29 @@
+### YamlMime:JavaMember
+nameWithType: Trainings.getProject
+type: method
+members:
+- fullName: com.microsoft.azure.cognitiveservices.vision.customvision.training.Trainings.getProject(UUID projectId)
+  name: getProject(UUID projectId)
+  nameWithType: Trainings.getProject(UUID projectId)
+  parameters:
+  - description: <p>The id of the project to get. </p>
+    name: projectId
+    type: <xref href="UUID?alt=UUID&text=UUID" data-throw-if-not-resolved="False"/>
+  exceptions:
+  - name: 3c87bd19
+  - name: d8f234c9
+  - name: 9b2a4515
+  returns:
+    description: <p>the Project object if successful. </p>
+    type: <xref href="com.microsoft.azure.cognitiveservices.vision.customvision.training.models.Project?alt=com.microsoft.azure.cognitiveservices.vision.customvision.training.models.Project&text=Project" data-throw-if-not-resolved="False"/>
+  summary: >-
+    <p>Get a specific project.</p>
+
+    <p></p>
+  syntax: public Project getProject(UUID projectId)
+  uid: com.microsoft.azure.cognitiveservices.vision.customvision.training.Trainings.getProject(UUID)
+uid: com.microsoft.azure.cognitiveservices.vision.customvision.training.Trainings.getProject*
+fullName: com.microsoft.azure.cognitiveservices.vision.customvision.training.Trainings.getProject(UUID projectId)
+name: getProject(UUID projectId)
+package: com.microsoft.azure.cognitiveservices.vision.customvision.training
+metadata: {}

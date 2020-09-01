@@ -1,0 +1,17 @@
+### YamlMime:JavaMember
+nameWithType: AmqpsConnection.open
+type: method
+members:
+- fullName: com.microsoft.azure.sdk.iot.deps.transport.amqp.AmqpsConnection.open()
+  name: open()
+  nameWithType: AmqpsConnection.open()
+  exceptions:
+  - name: cbf33bbe
+  summary: <p>Opens the connection. </p>
+  syntax: public void open()
+  uid: com.microsoft.azure.sdk.iot.deps.transport.amqp.AmqpsConnection.open()
+uid: com.microsoft.azure.sdk.iot.deps.transport.amqp.AmqpsConnection.open*
+fullName: com.microsoft.azure.sdk.iot.deps.transport.amqp.AmqpsConnection.open()
+name: open()
+package: com.microsoft.azure.sdk.iot.deps.transport.amqp
+metadata: {}

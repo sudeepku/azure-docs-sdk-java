@@ -1,0 +1,25 @@
+### YamlMime:JavaMember
+nameWithType: ISubscriptionClient.removeRule
+type: method
+members:
+- fullName: com.microsoft.azure.servicebus.ISubscriptionClient.removeRule(String ruleName)
+  name: removeRule(String ruleName)
+  nameWithType: ISubscriptionClient.removeRule(String ruleName)
+  parameters:
+  - description: <p>The name of rule. </p>
+    name: ruleName
+    type: <xref href="String?alt=String&text=String" data-throw-if-not-resolved="False"/>
+  exceptions:
+  - name: 8256ba40
+  - name: 73fec9fb
+  summary: >-
+    <p>Removes the rule on the subscription identified by ruleName</p>
+
+    <p></p>
+  syntax: public void removeRule(String ruleName)
+  uid: com.microsoft.azure.servicebus.ISubscriptionClient.removeRule(String)
+uid: com.microsoft.azure.servicebus.ISubscriptionClient.removeRule*
+fullName: com.microsoft.azure.servicebus.ISubscriptionClient.removeRule(String ruleName)
+name: removeRule(String ruleName)
+package: com.microsoft.azure.servicebus
+metadata: {}

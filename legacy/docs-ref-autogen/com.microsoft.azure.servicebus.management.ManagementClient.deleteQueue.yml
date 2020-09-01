@@ -1,0 +1,27 @@
+### YamlMime:JavaMember
+nameWithType: ManagementClient.deleteQueue
+type: method
+members:
+- fullName: com.microsoft.azure.servicebus.management.ManagementClient.deleteQueue(String path)
+  name: deleteQueue(String path)
+  nameWithType: ManagementClient.deleteQueue(String path)
+  parameters:
+  - description: <p>- The name of the entity relative to the service namespace base address. </p>
+    name: path
+    type: <xref href="String?alt=String&text=String" data-throw-if-not-resolved="False"/>
+  exceptions:
+  - name: 3c87bd19
+  - name: a19dd706
+  - name: 312761a3
+  - name: 9d4598ba
+  - name: 73fec9fb
+  - name: 6d99fa63
+  - name: 8256ba40
+  summary: <p>Deletes the queue described by the path relative to the service namespace base address. </p>
+  syntax: public Void deleteQueue(String path)
+  uid: com.microsoft.azure.servicebus.management.ManagementClient.deleteQueue(String)
+uid: com.microsoft.azure.servicebus.management.ManagementClient.deleteQueue*
+fullName: com.microsoft.azure.servicebus.management.ManagementClient.deleteQueue(String path)
+name: deleteQueue(String path)
+package: com.microsoft.azure.servicebus.management
+metadata: {}

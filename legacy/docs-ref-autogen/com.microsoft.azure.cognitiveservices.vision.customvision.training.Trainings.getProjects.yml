@@ -1,0 +1,25 @@
+### YamlMime:JavaMember
+nameWithType: Trainings.getProjects
+type: method
+members:
+- fullName: com.microsoft.azure.cognitiveservices.vision.customvision.training.Trainings.getProjects()
+  name: getProjects()
+  nameWithType: Trainings.getProjects()
+  exceptions:
+  - name: 3c87bd19
+  - name: d8f234c9
+  - name: 9b2a4515
+  returns:
+    description: <p>the List&lt;Project&gt; object if successful. </p>
+    type: List&lt;<xref href="com.microsoft.azure.cognitiveservices.vision.customvision.training.models.Project?alt=com.microsoft.azure.cognitiveservices.vision.customvision.training.models.Project&text=Project" data-throw-if-not-resolved="False"/>&gt;
+  summary: >-
+    <p>Get your projects.</p>
+
+    <p></p>
+  syntax: public List<Project> getProjects()
+  uid: com.microsoft.azure.cognitiveservices.vision.customvision.training.Trainings.getProjects()
+uid: com.microsoft.azure.cognitiveservices.vision.customvision.training.Trainings.getProjects*
+fullName: com.microsoft.azure.cognitiveservices.vision.customvision.training.Trainings.getProjects()
+name: getProjects()
+package: com.microsoft.azure.cognitiveservices.vision.customvision.training
+metadata: {}

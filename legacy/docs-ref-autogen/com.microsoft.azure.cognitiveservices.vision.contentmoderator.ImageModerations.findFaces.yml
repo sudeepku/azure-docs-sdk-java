@@ -1,0 +1,41 @@
+### YamlMime:JavaMember
+nameWithType: ImageModerations.findFaces
+type: method
+members:
+- fullName: com.microsoft.azure.cognitiveservices.vision.contentmoderator.ImageModerations.findFaces()
+  name: findFaces()
+  nameWithType: ImageModerations.findFaces()
+  returns:
+    description: <p>the first stage of the findFaces call </p>
+    type: <xref href="ImageModerationsFindFacesDefinitionStages.WithExecute?alt=ImageModerationsFindFacesDefinitionStages.WithExecute&text=ImageModerationsFindFacesDefinitionStages.WithExecute" data-throw-if-not-resolved="False"/>
+  summary: >-
+    <p>Returns the list of faces found.</p>
+
+    <p></p>
+  syntax: public ImageModerationsFindFacesDefinitionStages.WithExecute findFaces()
+  uid: com.microsoft.azure.cognitiveservices.vision.contentmoderator.ImageModerations.findFaces()
+- fullName: com.microsoft.azure.cognitiveservices.vision.contentmoderator.ImageModerations.findFaces(FindFacesOptionalParameter findFacesOptionalParameter)
+  name: findFaces(FindFacesOptionalParameter findFacesOptionalParameter)
+  nameWithType: ImageModerations.findFaces(FindFacesOptionalParameter findFacesOptionalParameter)
+  parameters:
+  - description: <p>the object representing the optional parameters to be set before calling this API </p>
+    name: findFacesOptionalParameter
+    type: <xref href="com.microsoft.azure.cognitiveservices.vision.contentmoderator.models.FindFacesOptionalParameter?alt=com.microsoft.azure.cognitiveservices.vision.contentmoderator.models.FindFacesOptionalParameter&text=FindFacesOptionalParameter" data-throw-if-not-resolved="False"/>
+  exceptions:
+  - name: 3c87bd19
+  - name: 3690e14b
+  - name: 9b2a4515
+  returns:
+    description: <p>the FoundFaces object if successful. </p>
+    type: <xref href="com.microsoft.azure.cognitiveservices.vision.contentmoderator.models.FoundFaces?alt=com.microsoft.azure.cognitiveservices.vision.contentmoderator.models.FoundFaces&text=FoundFaces" data-throw-if-not-resolved="False"/>
+  summary: >-
+    <p>Returns the list of faces found.</p>
+
+    <p></p>
+  syntax: public FoundFaces findFaces(FindFacesOptionalParameter findFacesOptionalParameter)
+  uid: com.microsoft.azure.cognitiveservices.vision.contentmoderator.ImageModerations.findFaces(FindFacesOptionalParameter)
+uid: com.microsoft.azure.cognitiveservices.vision.contentmoderator.ImageModerations.findFaces*
+fullName: com.microsoft.azure.cognitiveservices.vision.contentmoderator.ImageModerations.findFaces()
+name: findFaces()
+package: com.microsoft.azure.cognitiveservices.vision.contentmoderator
+metadata: {}

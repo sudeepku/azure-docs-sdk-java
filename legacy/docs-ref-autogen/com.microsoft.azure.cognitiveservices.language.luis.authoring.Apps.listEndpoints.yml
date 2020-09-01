@@ -1,0 +1,29 @@
+### YamlMime:JavaMember
+nameWithType: Apps.listEndpoints
+type: method
+members:
+- fullName: com.microsoft.azure.cognitiveservices.language.luis.authoring.Apps.listEndpoints(UUID appId)
+  name: listEndpoints(UUID appId)
+  nameWithType: Apps.listEndpoints(UUID appId)
+  parameters:
+  - description: <p>The application ID. </p>
+    name: appId
+    type: <xref href="UUID?alt=UUID&text=UUID" data-throw-if-not-resolved="False"/>
+  exceptions:
+  - name: 3c87bd19
+  - name: 00ad4777
+  - name: 9b2a4515
+  returns:
+    description: <p>the Map&lt;String, String&gt; object if successful. </p>
+    type: <xref href="Map%3CString%2C+String%3E?alt=Map<String, String>&text=Map%3CString%2C+String%3E" data-throw-if-not-resolved="False"/>
+  summary: >-
+    <p>Returns the available endpoint deployment regions and URLs.</p>
+
+    <p></p>
+  syntax: public Map<String, String> listEndpoints(UUID appId)
+  uid: com.microsoft.azure.cognitiveservices.language.luis.authoring.Apps.listEndpoints(UUID)
+uid: com.microsoft.azure.cognitiveservices.language.luis.authoring.Apps.listEndpoints*
+fullName: com.microsoft.azure.cognitiveservices.language.luis.authoring.Apps.listEndpoints(UUID appId)
+name: listEndpoints(UUID appId)
+package: com.microsoft.azure.cognitiveservices.language.luis.authoring
+metadata: {}

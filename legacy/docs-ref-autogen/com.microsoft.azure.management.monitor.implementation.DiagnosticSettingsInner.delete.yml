@@ -1,0 +1,29 @@
+### YamlMime:JavaMember
+nameWithType: DiagnosticSettingsInner.delete
+type: method
+members:
+- fullName: com.microsoft.azure.management.monitor.implementation.DiagnosticSettingsInner.delete(String resourceUri, String name)
+  name: delete(String resourceUri, String name)
+  nameWithType: DiagnosticSettingsInner.delete(String resourceUri, String name)
+  parameters:
+  - description: <p>The identifier of the resource. </p>
+    name: resourceUri
+    type: <xref href="String?alt=String&text=String" data-throw-if-not-resolved="False"/>
+  - description: <p>The name of the diagnostic setting. </p>
+    name: name
+    type: <xref href="String?alt=String&text=String" data-throw-if-not-resolved="False"/>
+  exceptions:
+  - name: 3c87bd19
+  - name: 00ad4777
+  - name: 9b2a4515
+  summary: >-
+    <p>Deletes existing diagnostic settings for the specified resource.</p>
+
+    <p></p>
+  syntax: public void delete(String resourceUri, String name)
+  uid: com.microsoft.azure.management.monitor.implementation.DiagnosticSettingsInner.delete(String,String)
+uid: com.microsoft.azure.management.monitor.implementation.DiagnosticSettingsInner.delete*
+fullName: com.microsoft.azure.management.monitor.implementation.DiagnosticSettingsInner.delete(String resourceUri, String name)
+name: delete(String resourceUri, String name)
+package: com.microsoft.azure.management.monitor.implementation
+metadata: {}

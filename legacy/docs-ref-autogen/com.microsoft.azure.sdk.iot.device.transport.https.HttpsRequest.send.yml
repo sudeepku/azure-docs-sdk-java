@@ -1,0 +1,23 @@
+### YamlMime:JavaMember
+nameWithType: HttpsRequest.send
+type: method
+members:
+- fullName: com.microsoft.azure.sdk.iot.device.transport.https.HttpsRequest.send()
+  name: send()
+  nameWithType: HttpsRequest.send()
+  exceptions:
+  - name: 848a9648
+  returns:
+    description: <p>an HTTPS response.</p>
+    type: <xref href="com.microsoft.azure.sdk.iot.device.transport.https.HttpsResponse?alt=com.microsoft.azure.sdk.iot.device.transport.https.HttpsResponse&text=HttpsResponse" data-throw-if-not-resolved="False"/>
+  summary: >-
+    <p>Executes the HTTPS request.</p>
+
+    <p></p>
+  syntax: public HttpsResponse send()
+  uid: com.microsoft.azure.sdk.iot.device.transport.https.HttpsRequest.send()
+uid: com.microsoft.azure.sdk.iot.device.transport.https.HttpsRequest.send*
+fullName: com.microsoft.azure.sdk.iot.device.transport.https.HttpsRequest.send()
+name: send()
+package: com.microsoft.azure.sdk.iot.device.transport.https
+metadata: {}

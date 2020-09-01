@@ -1,0 +1,29 @@
+### YamlMime:JavaMember
+nameWithType: DiagnosticSettingsInner.list
+type: method
+members:
+- fullName: com.microsoft.azure.management.monitor.implementation.DiagnosticSettingsInner.list(String resourceUri)
+  name: list(String resourceUri)
+  nameWithType: DiagnosticSettingsInner.list(String resourceUri)
+  parameters:
+  - description: <p>The identifier of the resource. </p>
+    name: resourceUri
+    type: <xref href="String?alt=String&text=String" data-throw-if-not-resolved="False"/>
+  exceptions:
+  - name: 3c87bd19
+  - name: 00ad4777
+  - name: 9b2a4515
+  returns:
+    description: <p>the DiagnosticSettingsResourceCollectionInner object if successful. </p>
+    type: <xref href="com.microsoft.azure.management.monitor.implementation.DiagnosticSettingsResourceCollectionInner?alt=com.microsoft.azure.management.monitor.implementation.DiagnosticSettingsResourceCollectionInner&text=DiagnosticSettingsResourceCollectionInner" data-throw-if-not-resolved="False"/>
+  summary: >-
+    <p>Gets the active diagnostic settings list for the specified resource.</p>
+
+    <p></p>
+  syntax: public DiagnosticSettingsResourceCollectionInner list(String resourceUri)
+  uid: com.microsoft.azure.management.monitor.implementation.DiagnosticSettingsInner.list(String)
+uid: com.microsoft.azure.management.monitor.implementation.DiagnosticSettingsInner.list*
+fullName: com.microsoft.azure.management.monitor.implementation.DiagnosticSettingsInner.list(String resourceUri)
+name: list(String resourceUri)
+package: com.microsoft.azure.management.monitor.implementation
+metadata: {}

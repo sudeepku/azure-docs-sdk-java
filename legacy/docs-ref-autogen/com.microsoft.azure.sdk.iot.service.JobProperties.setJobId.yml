@@ -1,0 +1,20 @@
+### YamlMime:JavaMember
+nameWithType: JobProperties.setJobId
+type: method
+members:
+- fullName: com.microsoft.azure.sdk.iot.service.JobProperties.setJobId(String jobId)
+  name: setJobId(String jobId)
+  nameWithType: JobProperties.setJobId(String jobId)
+  parameters:
+  - description: <p>the job id </p>
+    name: jobId
+    type: <xref href="String?alt=String&text=String" data-throw-if-not-resolved="False"/>
+  exceptions:
+  - name: 3c87bd19
+  syntax: public void setJobId(String jobId)
+  uid: com.microsoft.azure.sdk.iot.service.JobProperties.setJobId(String)
+uid: com.microsoft.azure.sdk.iot.service.JobProperties.setJobId*
+fullName: com.microsoft.azure.sdk.iot.service.JobProperties.setJobId(String jobId)
+name: setJobId(String jobId)
+package: com.microsoft.azure.sdk.iot.service
+metadata: {}

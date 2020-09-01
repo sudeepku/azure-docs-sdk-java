@@ -1,0 +1,25 @@
+### YamlMime:JavaMember
+nameWithType: ListManagementImageLists.getAllImageLists
+type: method
+members:
+- fullName: com.microsoft.azure.cognitiveservices.vision.contentmoderator.ListManagementImageLists.getAllImageLists()
+  name: getAllImageLists()
+  nameWithType: ListManagementImageLists.getAllImageLists()
+  exceptions:
+  - name: 3c87bd19
+  - name: 3690e14b
+  - name: 9b2a4515
+  returns:
+    description: <p>the List&lt;ImageList&gt; object if successful. </p>
+    type: List&lt;<xref href="com.microsoft.azure.cognitiveservices.vision.contentmoderator.models.ImageList?alt=com.microsoft.azure.cognitiveservices.vision.contentmoderator.models.ImageList&text=ImageList" data-throw-if-not-resolved="False"/>&gt;
+  summary: >-
+    <p>Gets all the Image Lists.</p>
+
+    <p></p>
+  syntax: public List<ImageList> getAllImageLists()
+  uid: com.microsoft.azure.cognitiveservices.vision.contentmoderator.ListManagementImageLists.getAllImageLists()
+uid: com.microsoft.azure.cognitiveservices.vision.contentmoderator.ListManagementImageLists.getAllImageLists*
+fullName: com.microsoft.azure.cognitiveservices.vision.contentmoderator.ListManagementImageLists.getAllImageLists()
+name: getAllImageLists()
+package: com.microsoft.azure.cognitiveservices.vision.contentmoderator
+metadata: {}

@@ -1,0 +1,17 @@
+### YamlMime:JavaMember
+nameWithType: ModuleClient.getTwin
+type: method
+members:
+- fullName: com.microsoft.azure.sdk.iot.device.ModuleClient.getTwin()
+  name: getTwin()
+  nameWithType: ModuleClient.getTwin()
+  exceptions:
+  - name: cbf33bbe
+  summary: <p>Retrieves the twin's latest desired properties </p>
+  syntax: public void getTwin()
+  uid: com.microsoft.azure.sdk.iot.device.ModuleClient.getTwin()
+uid: com.microsoft.azure.sdk.iot.device.ModuleClient.getTwin*
+fullName: com.microsoft.azure.sdk.iot.device.ModuleClient.getTwin()
+name: getTwin()
+package: com.microsoft.azure.sdk.iot.device
+metadata: {}

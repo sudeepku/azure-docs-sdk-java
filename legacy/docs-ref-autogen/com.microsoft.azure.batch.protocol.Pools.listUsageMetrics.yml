@@ -1,0 +1,45 @@
+### YamlMime:JavaMember
+nameWithType: Pools.listUsageMetrics
+type: method
+members:
+- fullName: com.microsoft.azure.batch.protocol.Pools.listUsageMetrics()
+  name: listUsageMetrics()
+  nameWithType: Pools.listUsageMetrics()
+  exceptions:
+  - name: 3c87bd19
+  - name: c8683d81
+  - name: 9b2a4515
+  returns:
+    description: <p>the PagedList&lt;PoolUsageMetrics&gt; object if successful. </p>
+    type: PagedList&lt;<xref href="com.microsoft.azure.batch.protocol.models.PoolUsageMetrics?alt=com.microsoft.azure.batch.protocol.models.PoolUsageMetrics&text=PoolUsageMetrics" data-throw-if-not-resolved="False"/>&gt;
+  summary: >-
+    <p>Lists the usage metrics, aggregated by pool across individual time intervals, for the specified account. If you do not specify a $filter clause including a poolId, the response includes all pools that existed in the account in the time range of the returned aggregation intervals. If you do not specify a $filter clause including a startTime or endTime these filters default to the start and end times of the last aggregation interval currently available; that is, only the last aggregation interval is returned.</p>
+
+    <p></p>
+  syntax: public PagedList<PoolUsageMetrics> listUsageMetrics()
+  uid: com.microsoft.azure.batch.protocol.Pools.listUsageMetrics()
+- fullName: com.microsoft.azure.batch.protocol.Pools.listUsageMetrics(final PoolListUsageMetricsOptions poolListUsageMetricsOptions)
+  name: listUsageMetrics(final PoolListUsageMetricsOptions poolListUsageMetricsOptions)
+  nameWithType: Pools.listUsageMetrics(final PoolListUsageMetricsOptions poolListUsageMetricsOptions)
+  parameters:
+  - description: <p>Additional parameters for the operation </p>
+    name: poolListUsageMetricsOptions
+    type: final <xref href="com.microsoft.azure.batch.protocol.models.PoolListUsageMetricsOptions?alt=com.microsoft.azure.batch.protocol.models.PoolListUsageMetricsOptions&text=PoolListUsageMetricsOptions" data-throw-if-not-resolved="False"/>
+  exceptions:
+  - name: 3c87bd19
+  - name: c8683d81
+  - name: 9b2a4515
+  returns:
+    description: <p>the PagedList&lt;PoolUsageMetrics&gt; object if successful. </p>
+    type: PagedList&lt;<xref href="com.microsoft.azure.batch.protocol.models.PoolUsageMetrics?alt=com.microsoft.azure.batch.protocol.models.PoolUsageMetrics&text=PoolUsageMetrics" data-throw-if-not-resolved="False"/>&gt;
+  summary: >-
+    <p>Lists the usage metrics, aggregated by pool across individual time intervals, for the specified account. If you do not specify a $filter clause including a poolId, the response includes all pools that existed in the account in the time range of the returned aggregation intervals. If you do not specify a $filter clause including a startTime or endTime these filters default to the start and end times of the last aggregation interval currently available; that is, only the last aggregation interval is returned.</p>
+
+    <p></p>
+  syntax: public PagedList<PoolUsageMetrics> listUsageMetrics(final PoolListUsageMetricsOptions poolListUsageMetricsOptions)
+  uid: com.microsoft.azure.batch.protocol.Pools.listUsageMetrics(final PoolListUsageMetricsOptions)
+uid: com.microsoft.azure.batch.protocol.Pools.listUsageMetrics*
+fullName: com.microsoft.azure.batch.protocol.Pools.listUsageMetrics()
+name: listUsageMetrics()
+package: com.microsoft.azure.batch.protocol
+metadata: {}

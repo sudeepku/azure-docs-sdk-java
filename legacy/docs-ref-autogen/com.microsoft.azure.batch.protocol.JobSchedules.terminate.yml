@@ -1,0 +1,46 @@
+### YamlMime:JavaMember
+nameWithType: JobSchedules.terminate
+type: method
+members:
+- fullName: com.microsoft.azure.batch.protocol.JobSchedules.terminate(String jobScheduleId)
+  name: terminate(String jobScheduleId)
+  nameWithType: JobSchedules.terminate(String jobScheduleId)
+  parameters:
+  - description: <p>The ID of the job schedule to terminates. </p>
+    name: jobScheduleId
+    type: <xref href="String?alt=String&text=String" data-throw-if-not-resolved="False"/>
+  exceptions:
+  - name: 3c87bd19
+  - name: c8683d81
+  - name: 9b2a4515
+  summary: >-
+    <p>Terminates a job schedule.</p>
+
+    <p></p>
+  syntax: public void terminate(String jobScheduleId)
+  uid: com.microsoft.azure.batch.protocol.JobSchedules.terminate(String)
+- fullName: com.microsoft.azure.batch.protocol.JobSchedules.terminate(String jobScheduleId, JobScheduleTerminateOptions jobScheduleTerminateOptions)
+  name: terminate(String jobScheduleId, JobScheduleTerminateOptions jobScheduleTerminateOptions)
+  nameWithType: JobSchedules.terminate(String jobScheduleId, JobScheduleTerminateOptions jobScheduleTerminateOptions)
+  parameters:
+  - description: <p>The ID of the job schedule to terminates. </p>
+    name: jobScheduleId
+    type: <xref href="String?alt=String&text=String" data-throw-if-not-resolved="False"/>
+  - description: <p>Additional parameters for the operation </p>
+    name: jobScheduleTerminateOptions
+    type: <xref href="com.microsoft.azure.batch.protocol.models.JobScheduleTerminateOptions?alt=com.microsoft.azure.batch.protocol.models.JobScheduleTerminateOptions&text=JobScheduleTerminateOptions" data-throw-if-not-resolved="False"/>
+  exceptions:
+  - name: 3c87bd19
+  - name: c8683d81
+  - name: 9b2a4515
+  summary: >-
+    <p>Terminates a job schedule.</p>
+
+    <p></p>
+  syntax: public void terminate(String jobScheduleId, JobScheduleTerminateOptions jobScheduleTerminateOptions)
+  uid: com.microsoft.azure.batch.protocol.JobSchedules.terminate(String,JobScheduleTerminateOptions)
+uid: com.microsoft.azure.batch.protocol.JobSchedules.terminate*
+fullName: com.microsoft.azure.batch.protocol.JobSchedules.terminate(String jobScheduleId)
+name: terminate(String jobScheduleId)
+package: com.microsoft.azure.batch.protocol
+metadata: {}

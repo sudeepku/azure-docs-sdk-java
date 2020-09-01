@@ -1,0 +1,35 @@
+### YamlMime:JavaMember
+nameWithType: WebhooksInner.getCallbackConfig
+type: method
+members:
+- fullName: com.microsoft.azure.management.containerregistry.implementation.WebhooksInner.getCallbackConfig(String resourceGroupName, String registryName, String webhookName)
+  name: getCallbackConfig(String resourceGroupName, String registryName, String webhookName)
+  nameWithType: WebhooksInner.getCallbackConfig(String resourceGroupName, String registryName, String webhookName)
+  parameters:
+  - description: <p>The name of the resource group to which the container registry belongs. </p>
+    name: resourceGroupName
+    type: <xref href="String?alt=String&text=String" data-throw-if-not-resolved="False"/>
+  - description: <p>The name of the container registry. </p>
+    name: registryName
+    type: <xref href="String?alt=String&text=String" data-throw-if-not-resolved="False"/>
+  - description: <p>The name of the webhook. </p>
+    name: webhookName
+    type: <xref href="String?alt=String&text=String" data-throw-if-not-resolved="False"/>
+  exceptions:
+  - name: 3c87bd19
+  - name: dc385fd4
+  - name: 9b2a4515
+  returns:
+    description: <p>the CallbackConfigInner object if successful. </p>
+    type: <xref href="com.microsoft.azure.management.containerregistry.implementation.CallbackConfigInner?alt=com.microsoft.azure.management.containerregistry.implementation.CallbackConfigInner&text=CallbackConfigInner" data-throw-if-not-resolved="False"/>
+  summary: >-
+    <p>Gets the configuration of service URI and custom headers for the webhook.</p>
+
+    <p></p>
+  syntax: public CallbackConfigInner getCallbackConfig(String resourceGroupName, String registryName, String webhookName)
+  uid: com.microsoft.azure.management.containerregistry.implementation.WebhooksInner.getCallbackConfig(String,String,String)
+uid: com.microsoft.azure.management.containerregistry.implementation.WebhooksInner.getCallbackConfig*
+fullName: com.microsoft.azure.management.containerregistry.implementation.WebhooksInner.getCallbackConfig(String resourceGroupName, String registryName, String webhookName)
+name: getCallbackConfig(String resourceGroupName, String registryName, String webhookName)
+package: com.microsoft.azure.management.containerregistry.implementation
+metadata: {}

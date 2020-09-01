@@ -1,0 +1,41 @@
+### YamlMime:JavaMember
+nameWithType: BingNews.category
+type: method
+members:
+- fullName: com.microsoft.azure.cognitiveservices.search.newssearch.BingNews.category()
+  name: category()
+  nameWithType: BingNews.category()
+  returns:
+    description: <p>the first stage of the category call </p>
+    type: <xref href="BingNewsCategoryDefinitionStages.WithExecute?alt=BingNewsCategoryDefinitionStages.WithExecute&text=BingNewsCategoryDefinitionStages.WithExecute" data-throw-if-not-resolved="False"/>
+  summary: >-
+    <p>The News Category API lets lets you search on Bing and get back a list of top news articles by category. This section provides technical details about the query parameters and headers that you use to request news and the JSON response objects that contain them. For examples that show how to make requests, see [Searching the web for news](<a href="https://docs.microsoft.com/en-us/azure/cognitive-services/bing-news-search/search-the-web">https://docs.microsoft.com/en-us/azure/cognitive-services/bing-news-search/search-the-web</a>).</p>
+
+    <p></p>
+  syntax: public BingNewsCategoryDefinitionStages.WithExecute category()
+  uid: com.microsoft.azure.cognitiveservices.search.newssearch.BingNews.category()
+- fullName: com.microsoft.azure.cognitiveservices.search.newssearch.BingNews.category(CategoryOptionalParameter categoryOptionalParameter)
+  name: category(CategoryOptionalParameter categoryOptionalParameter)
+  nameWithType: BingNews.category(CategoryOptionalParameter categoryOptionalParameter)
+  parameters:
+  - description: <p>the object representing the optional parameters to be set before calling this API </p>
+    name: categoryOptionalParameter
+    type: <xref href="com.microsoft.azure.cognitiveservices.search.newssearch.models.CategoryOptionalParameter?alt=com.microsoft.azure.cognitiveservices.search.newssearch.models.CategoryOptionalParameter&text=CategoryOptionalParameter" data-throw-if-not-resolved="False"/>
+  exceptions:
+  - name: 3c87bd19
+  - name: 00ad4777
+  - name: 9b2a4515
+  returns:
+    description: <p>the NewsModel object if successful. </p>
+    type: <xref href="com.microsoft.azure.cognitiveservices.search.newssearch.models.NewsModel?alt=com.microsoft.azure.cognitiveservices.search.newssearch.models.NewsModel&text=NewsModel" data-throw-if-not-resolved="False"/>
+  summary: >-
+    <p>The News Category API lets lets you search on Bing and get back a list of top news articles by category. This section provides technical details about the query parameters and headers that you use to request news and the JSON response objects that contain them. For examples that show how to make requests, see [Searching the web for news](<a href="https://docs.microsoft.com/en-us/azure/cognitive-services/bing-news-search/search-the-web">https://docs.microsoft.com/en-us/azure/cognitive-services/bing-news-search/search-the-web</a>).</p>
+
+    <p></p>
+  syntax: public NewsModel category(CategoryOptionalParameter categoryOptionalParameter)
+  uid: com.microsoft.azure.cognitiveservices.search.newssearch.BingNews.category(CategoryOptionalParameter)
+uid: com.microsoft.azure.cognitiveservices.search.newssearch.BingNews.category*
+fullName: com.microsoft.azure.cognitiveservices.search.newssearch.BingNews.category()
+name: category()
+package: com.microsoft.azure.cognitiveservices.search.newssearch
+metadata: {}

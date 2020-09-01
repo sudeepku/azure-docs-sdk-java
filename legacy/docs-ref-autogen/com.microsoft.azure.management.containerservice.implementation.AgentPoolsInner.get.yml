@@ -1,0 +1,35 @@
+### YamlMime:JavaMember
+nameWithType: AgentPoolsInner.get
+type: method
+members:
+- fullName: com.microsoft.azure.management.containerservice.implementation.AgentPoolsInner.get(String resourceGroupName, String resourceName, String agentPoolName)
+  name: get(String resourceGroupName, String resourceName, String agentPoolName)
+  nameWithType: AgentPoolsInner.get(String resourceGroupName, String resourceName, String agentPoolName)
+  parameters:
+  - description: <p>The name of the resource group. </p>
+    name: resourceGroupName
+    type: <xref href="String?alt=String&text=String" data-throw-if-not-resolved="False"/>
+  - description: <p>The name of the managed cluster resource. </p>
+    name: resourceName
+    type: <xref href="String?alt=String&text=String" data-throw-if-not-resolved="False"/>
+  - description: <p>The name of the agent pool. </p>
+    name: agentPoolName
+    type: <xref href="String?alt=String&text=String" data-throw-if-not-resolved="False"/>
+  exceptions:
+  - name: 3c87bd19
+  - name: dc385fd4
+  - name: 9b2a4515
+  returns:
+    description: <p>the AgentPoolInner object if successful. </p>
+    type: <xref href="com.microsoft.azure.management.containerservice.implementation.AgentPoolInner?alt=com.microsoft.azure.management.containerservice.implementation.AgentPoolInner&text=AgentPoolInner" data-throw-if-not-resolved="False"/>
+  summary: >-
+    <p>Gets the agent pool. Gets the details of the agent pool by managed cluster and resource group.</p>
+
+    <p></p>
+  syntax: public AgentPoolInner get(String resourceGroupName, String resourceName, String agentPoolName)
+  uid: com.microsoft.azure.management.containerservice.implementation.AgentPoolsInner.get(String,String,String)
+uid: com.microsoft.azure.management.containerservice.implementation.AgentPoolsInner.get*
+fullName: com.microsoft.azure.management.containerservice.implementation.AgentPoolsInner.get(String resourceGroupName, String resourceName, String agentPoolName)
+name: get(String resourceGroupName, String resourceName, String agentPoolName)
+package: com.microsoft.azure.management.containerservice.implementation
+metadata: {}

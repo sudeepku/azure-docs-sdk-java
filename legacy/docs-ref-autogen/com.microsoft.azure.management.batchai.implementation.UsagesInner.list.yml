@@ -1,0 +1,29 @@
+### YamlMime:JavaMember
+nameWithType: UsagesInner.list
+type: method
+members:
+- fullName: com.microsoft.azure.management.batchai.implementation.UsagesInner.list(final String location)
+  name: list(final String location)
+  nameWithType: UsagesInner.list(final String location)
+  parameters:
+  - description: <p>The location for which resource usage is queried. </p>
+    name: location
+    type: <xref href="final+String?alt=final String&text=final+String" data-throw-if-not-resolved="False"/>
+  exceptions:
+  - name: 3c87bd19
+  - name: dc385fd4
+  - name: 9b2a4515
+  returns:
+    description: <p>the PagedList&lt;UsageInner&gt; object if successful. </p>
+    type: PagedList&lt;<xref href="com.microsoft.azure.management.batchai.implementation.UsageInner?alt=com.microsoft.azure.management.batchai.implementation.UsageInner&text=UsageInner" data-throw-if-not-resolved="False"/>&gt;
+  summary: >-
+    <p>Gets the current usage information as well as limits for Batch AI resources for given subscription.</p>
+
+    <p></p>
+  syntax: public PagedList<UsageInner> list(final String location)
+  uid: com.microsoft.azure.management.batchai.implementation.UsagesInner.list(final String)
+uid: com.microsoft.azure.management.batchai.implementation.UsagesInner.list*
+fullName: com.microsoft.azure.management.batchai.implementation.UsagesInner.list(final String location)
+name: list(final String location)
+package: com.microsoft.azure.management.batchai.implementation
+metadata: {}

@@ -1,0 +1,38 @@
+### YamlMime:JavaMember
+nameWithType: Models.updateHierarchicalEntity
+type: method
+members:
+- fullName: com.microsoft.azure.cognitiveservices.language.luis.authoring.Models.updateHierarchicalEntity(UUID appId, String versionId, UUID hEntityId, HierarchicalEntityModel hierarchicalModelUpdateObject)
+  name: updateHierarchicalEntity(UUID appId, String versionId, UUID hEntityId, HierarchicalEntityModel hierarchicalModelUpdateObject)
+  nameWithType: Models.updateHierarchicalEntity(UUID appId, String versionId, UUID hEntityId, HierarchicalEntityModel hierarchicalModelUpdateObject)
+  parameters:
+  - description: <p>The application ID. </p>
+    name: appId
+    type: <xref href="UUID?alt=UUID&text=UUID" data-throw-if-not-resolved="False"/>
+  - description: <p>The version ID. </p>
+    name: versionId
+    type: <xref href="String?alt=String&text=String" data-throw-if-not-resolved="False"/>
+  - description: <p>The hierarchical entity extractor ID. </p>
+    name: hEntityId
+    type: <xref href="UUID?alt=UUID&text=UUID" data-throw-if-not-resolved="False"/>
+  - description: <p>Model containing names of the children of the hierarchical entity. </p>
+    name: hierarchicalModelUpdateObject
+    type: <xref href="com.microsoft.azure.cognitiveservices.language.luis.authoring.models.HierarchicalEntityModel?alt=com.microsoft.azure.cognitiveservices.language.luis.authoring.models.HierarchicalEntityModel&text=HierarchicalEntityModel" data-throw-if-not-resolved="False"/>
+  exceptions:
+  - name: 3c87bd19
+  - name: 00ad4777
+  - name: 9b2a4515
+  returns:
+    description: <p>the OperationStatus object if successful. </p>
+    type: <xref href="com.microsoft.azure.cognitiveservices.language.luis.authoring.models.OperationStatus?alt=com.microsoft.azure.cognitiveservices.language.luis.authoring.models.OperationStatus&text=OperationStatus" data-throw-if-not-resolved="False"/>
+  summary: >-
+    <p>Updates the name and children of a hierarchical entity model.</p>
+
+    <p></p>
+  syntax: public OperationStatus updateHierarchicalEntity(UUID appId, String versionId, UUID hEntityId, HierarchicalEntityModel hierarchicalModelUpdateObject)
+  uid: com.microsoft.azure.cognitiveservices.language.luis.authoring.Models.updateHierarchicalEntity(UUID,String,UUID,HierarchicalEntityModel)
+uid: com.microsoft.azure.cognitiveservices.language.luis.authoring.Models.updateHierarchicalEntity*
+fullName: com.microsoft.azure.cognitiveservices.language.luis.authoring.Models.updateHierarchicalEntity(UUID appId, String versionId, UUID hEntityId, HierarchicalEntityModel hierarchicalModelUpdateObject)
+name: updateHierarchicalEntity(UUID appId, String versionId, UUID hEntityId, HierarchicalEntityModel hierarchicalModelUpdateObject)
+package: com.microsoft.azure.cognitiveservices.language.luis.authoring
+metadata: {}

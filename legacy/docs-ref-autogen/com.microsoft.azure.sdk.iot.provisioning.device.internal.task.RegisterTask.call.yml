@@ -1,0 +1,20 @@
+### YamlMime:JavaMember
+nameWithType: RegisterTask.call
+type: method
+members:
+- fullName: com.microsoft.azure.sdk.iot.provisioning.device.internal.task.RegisterTask.call()
+  name: call()
+  nameWithType: RegisterTask.call()
+  exceptions:
+  - name: 8a99d4b0
+  returns:
+    description: <p>RegistrationOperationStatusParser holding the state of the service post registration </p>
+    type: <xref href="com.microsoft.azure.sdk.iot.provisioning.device.internal.parser.RegistrationOperationStatusParser?alt=com.microsoft.azure.sdk.iot.provisioning.device.internal.parser.RegistrationOperationStatusParser&text=RegistrationOperationStatusParser" data-throw-if-not-resolved="False"/>
+  summary: <p>Callable call by the thread which handles Authentication and registration of a given device with the service </p>
+  syntax: public RegistrationOperationStatusParser call()
+  uid: com.microsoft.azure.sdk.iot.provisioning.device.internal.task.RegisterTask.call()
+uid: com.microsoft.azure.sdk.iot.provisioning.device.internal.task.RegisterTask.call*
+fullName: com.microsoft.azure.sdk.iot.provisioning.device.internal.task.RegisterTask.call()
+name: call()
+package: com.microsoft.azure.sdk.iot.provisioning.device.internal.task
+metadata: {}

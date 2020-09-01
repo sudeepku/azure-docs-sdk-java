@@ -1,0 +1,29 @@
+### YamlMime:JavaMember
+nameWithType: ClustersInner.listRemoteLoginInformationNext
+type: method
+members:
+- fullName: com.microsoft.azure.management.batchai.implementation.ClustersInner.listRemoteLoginInformationNext(final String nextPageLink)
+  name: listRemoteLoginInformationNext(final String nextPageLink)
+  nameWithType: ClustersInner.listRemoteLoginInformationNext(final String nextPageLink)
+  parameters:
+  - description: <p>The NextLink from the previous successful call to List operation. </p>
+    name: nextPageLink
+    type: <xref href="final+String?alt=final String&text=final+String" data-throw-if-not-resolved="False"/>
+  exceptions:
+  - name: 3c87bd19
+  - name: dc385fd4
+  - name: 9b2a4515
+  returns:
+    description: <p>the PagedList&lt;RemoteLoginInformationInner&gt; object if successful. </p>
+    type: PagedList&lt;<xref href="com.microsoft.azure.management.batchai.implementation.RemoteLoginInformationInner?alt=com.microsoft.azure.management.batchai.implementation.RemoteLoginInformationInner&text=RemoteLoginInformationInner" data-throw-if-not-resolved="False"/>&gt;
+  summary: >-
+    <p>Get the IP address, port of all the compute nodes in the Cluster.</p>
+
+    <p></p>
+  syntax: public PagedList<RemoteLoginInformationInner> listRemoteLoginInformationNext(final String nextPageLink)
+  uid: com.microsoft.azure.management.batchai.implementation.ClustersInner.listRemoteLoginInformationNext(final String)
+uid: com.microsoft.azure.management.batchai.implementation.ClustersInner.listRemoteLoginInformationNext*
+fullName: com.microsoft.azure.management.batchai.implementation.ClustersInner.listRemoteLoginInformationNext(final String nextPageLink)
+name: listRemoteLoginInformationNext(final String nextPageLink)
+package: com.microsoft.azure.management.batchai.implementation
+metadata: {}

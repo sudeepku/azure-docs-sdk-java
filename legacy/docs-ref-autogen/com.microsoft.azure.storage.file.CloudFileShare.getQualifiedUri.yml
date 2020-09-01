@@ -1,0 +1,24 @@
+### YamlMime:JavaMember
+nameWithType: CloudFileShare.getQualifiedUri
+type: method
+members:
+- fullName: com.microsoft.azure.storage.file.CloudFileShare.getQualifiedUri()
+  name: getQualifiedUri()
+  nameWithType: CloudFileShare.getQualifiedUri()
+  exceptions:
+  - name: ca4f407a
+  - name: "44102508"
+  returns:
+    description: <p>A <code>java.net.URI</code> object that represents the snapshot or shared access signature.</p>
+    type: <xref href="final+URI?alt=final URI&text=final+URI" data-throw-if-not-resolved="False"/>
+  summary: >-
+    <p>Returns the snapshot or shared access signature qualified URI for this share.</p>
+
+    <p></p>
+  syntax: public final URI getQualifiedUri()
+  uid: com.microsoft.azure.storage.file.CloudFileShare.getQualifiedUri()
+uid: com.microsoft.azure.storage.file.CloudFileShare.getQualifiedUri*
+fullName: com.microsoft.azure.storage.file.CloudFileShare.getQualifiedUri()
+name: getQualifiedUri()
+package: com.microsoft.azure.storage.file
+metadata: {}

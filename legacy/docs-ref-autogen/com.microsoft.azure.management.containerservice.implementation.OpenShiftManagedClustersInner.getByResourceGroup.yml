@@ -1,0 +1,33 @@
+### YamlMime:JavaMember
+nameWithType: OpenShiftManagedClustersInner.getByResourceGroup
+type: method
+members:
+- fullName: com.microsoft.azure.management.containerservice.implementation.OpenShiftManagedClustersInner.getByResourceGroup(String resourceGroupName, String resourceName)
+  name: getByResourceGroup(String resourceGroupName, String resourceName)
+  nameWithType: OpenShiftManagedClustersInner.getByResourceGroup(String resourceGroupName, String resourceName)
+  overridden: com.microsoft.azure.management.resources.fluentcore.collection.InnerSupportsGet.getByResourceGroup(String,String)
+  parameters:
+  - description: <p>The name of the resource group. </p>
+    name: resourceGroupName
+    type: <xref href="String?alt=String&text=String" data-throw-if-not-resolved="False"/>
+  - description: <p>The name of the OpenShift managed cluster resource. </p>
+    name: resourceName
+    type: <xref href="String?alt=String&text=String" data-throw-if-not-resolved="False"/>
+  exceptions:
+  - name: 3c87bd19
+  - name: dc385fd4
+  - name: 9b2a4515
+  returns:
+    description: <p>the OpenShiftManagedClusterInner object if successful. </p>
+    type: <xref href="com.microsoft.azure.management.containerservice.implementation.OpenShiftManagedClusterInner?alt=com.microsoft.azure.management.containerservice.implementation.OpenShiftManagedClusterInner&text=OpenShiftManagedClusterInner" data-throw-if-not-resolved="False"/>
+  summary: >-
+    <p>Gets a OpenShift managed cluster. Gets the details of the managed OpenShift cluster with a specified resource group and name.</p>
+
+    <p></p>
+  syntax: public OpenShiftManagedClusterInner getByResourceGroup(String resourceGroupName, String resourceName)
+  uid: com.microsoft.azure.management.containerservice.implementation.OpenShiftManagedClustersInner.getByResourceGroup(String,String)
+uid: com.microsoft.azure.management.containerservice.implementation.OpenShiftManagedClustersInner.getByResourceGroup*
+fullName: com.microsoft.azure.management.containerservice.implementation.OpenShiftManagedClustersInner.getByResourceGroup(String resourceGroupName, String resourceName)
+name: getByResourceGroup(String resourceGroupName, String resourceName)
+package: com.microsoft.azure.management.containerservice.implementation
+metadata: {}

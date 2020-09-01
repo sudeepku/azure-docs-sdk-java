@@ -1,0 +1,35 @@
+### YamlMime:JavaMember
+nameWithType: AutoscaleSettingsInner.update
+type: method
+members:
+- fullName: com.microsoft.azure.management.monitor.implementation.AutoscaleSettingsInner.update(String resourceGroupName, String autoscaleSettingName, AutoscaleSettingResourcePatch autoscaleSettingResource)
+  name: update(String resourceGroupName, String autoscaleSettingName, AutoscaleSettingResourcePatch autoscaleSettingResource)
+  nameWithType: AutoscaleSettingsInner.update(String resourceGroupName, String autoscaleSettingName, AutoscaleSettingResourcePatch autoscaleSettingResource)
+  parameters:
+  - description: <p>The name of the resource group. </p>
+    name: resourceGroupName
+    type: <xref href="String?alt=String&text=String" data-throw-if-not-resolved="False"/>
+  - description: <p>The autoscale setting name. </p>
+    name: autoscaleSettingName
+    type: <xref href="String?alt=String&text=String" data-throw-if-not-resolved="False"/>
+  - description: <p>Parameters supplied to the operation. </p>
+    name: autoscaleSettingResource
+    type: <xref href="com.microsoft.azure.management.monitor.AutoscaleSettingResourcePatch?alt=com.microsoft.azure.management.monitor.AutoscaleSettingResourcePatch&text=AutoscaleSettingResourcePatch" data-throw-if-not-resolved="False"/>
+  exceptions:
+  - name: 3c87bd19
+  - name: 00ad4777
+  - name: 9b2a4515
+  returns:
+    description: <p>the AutoscaleSettingResourceInner object if successful. </p>
+    type: <xref href="com.microsoft.azure.management.monitor.implementation.AutoscaleSettingResourceInner?alt=com.microsoft.azure.management.monitor.implementation.AutoscaleSettingResourceInner&text=AutoscaleSettingResourceInner" data-throw-if-not-resolved="False"/>
+  summary: >-
+    <p>Updates an existing AutoscaleSettingsResource. To update other fields use the CreateOrUpdate method.</p>
+
+    <p></p>
+  syntax: public AutoscaleSettingResourceInner update(String resourceGroupName, String autoscaleSettingName, AutoscaleSettingResourcePatch autoscaleSettingResource)
+  uid: com.microsoft.azure.management.monitor.implementation.AutoscaleSettingsInner.update(String,String,AutoscaleSettingResourcePatch)
+uid: com.microsoft.azure.management.monitor.implementation.AutoscaleSettingsInner.update*
+fullName: com.microsoft.azure.management.monitor.implementation.AutoscaleSettingsInner.update(String resourceGroupName, String autoscaleSettingName, AutoscaleSettingResourcePatch autoscaleSettingResource)
+name: update(String resourceGroupName, String autoscaleSettingName, AutoscaleSettingResourcePatch autoscaleSettingResource)
+package: com.microsoft.azure.management.monitor.implementation
+metadata: {}

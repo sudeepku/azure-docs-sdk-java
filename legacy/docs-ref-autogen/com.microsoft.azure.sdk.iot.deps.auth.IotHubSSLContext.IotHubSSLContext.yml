@@ -1,0 +1,104 @@
+### YamlMime:JavaMember
+nameWithType: IotHubSSLContext.IotHubSSLContext
+type: constructor
+members:
+- fullName: com.microsoft.azure.sdk.iot.deps.auth.IotHubSSLContext.IotHubSSLContext()
+  name: IotHubSSLContext()
+  nameWithType: IotHubSSLContext.IotHubSSLContext()
+  exceptions:
+  - name: 5f3a346c
+  - name: 20753d0b
+  - name: cbf33bbe
+  - name: "20029899"
+  - name: 456eb9d1
+  summary: >-
+    <p>Creates a SSLContext for the IotHub.</p>
+
+    <p></p>
+  syntax: public IotHubSSLContext()
+  uid: com.microsoft.azure.sdk.iot.deps.auth.IotHubSSLContext.IotHubSSLContext()
+- fullName: com.microsoft.azure.sdk.iot.deps.auth.IotHubSSLContext.IotHubSSLContext(SSLContext sslContext)
+  name: IotHubSSLContext(SSLContext sslContext)
+  nameWithType: IotHubSSLContext.IotHubSSLContext(SSLContext sslContext)
+  parameters:
+  - description: <p>the ssl context to save </p>
+    name: sslContext
+    type: <xref href="SSLContext?alt=SSLContext&text=SSLContext" data-throw-if-not-resolved="False"/>
+  summary: <p>Constructor that takes and saves an SSLContext object </p>
+  syntax: public IotHubSSLContext(SSLContext sslContext)
+  uid: com.microsoft.azure.sdk.iot.deps.auth.IotHubSSLContext.IotHubSSLContext(SSLContext)
+- fullName: com.microsoft.azure.sdk.iot.deps.auth.IotHubSSLContext.IotHubSSLContext(String publicKeyCertificateString, String privateKeyString)
+  name: IotHubSSLContext(String publicKeyCertificateString, String privateKeyString)
+  nameWithType: IotHubSSLContext.IotHubSSLContext(String publicKeyCertificateString, String privateKeyString)
+  parameters:
+  - description: <p>The PEM formatted public key certificate string </p>
+    name: publicKeyCertificateString
+    type: <xref href="String?alt=String&text=String" data-throw-if-not-resolved="False"/>
+  - description: <p>The PEM formatted private key string </p>
+    name: privateKeyString
+    type: <xref href="String?alt=String&text=String" data-throw-if-not-resolved="False"/>
+  exceptions:
+  - name: 20753d0b
+  - name: cbf33bbe
+  - name: "20029899"
+  - name: 5f3a346c
+  - name: 1fdbaa59
+  - name: 456eb9d1
+  summary: >-
+    <p>Constructor that takes a public key certificate and private key pair.</p>
+
+    <p></p>
+  syntax: public IotHubSSLContext(String publicKeyCertificateString, String privateKeyString)
+  uid: com.microsoft.azure.sdk.iot.deps.auth.IotHubSSLContext.IotHubSSLContext(String,String)
+- fullName: com.microsoft.azure.sdk.iot.deps.auth.IotHubSSLContext.IotHubSSLContext(String publicKeyCertificateString, String privateKeyString, String cert, boolean isPath)
+  name: IotHubSSLContext(String publicKeyCertificateString, String privateKeyString, String cert, boolean isPath)
+  nameWithType: IotHubSSLContext.IotHubSSLContext(String publicKeyCertificateString, String privateKeyString, String cert, boolean isPath)
+  parameters:
+  - description: <p>the public key for x509 authentication </p>
+    name: publicKeyCertificateString
+    type: <xref href="String?alt=String&text=String" data-throw-if-not-resolved="False"/>
+  - description: <p>the private key for x509 authentication </p>
+    name: privateKeyString
+    type: <xref href="String?alt=String&text=String" data-throw-if-not-resolved="False"/>
+  - description: <p>the trusted certificate </p>
+    name: cert
+    type: <xref href="String?alt=String&text=String" data-throw-if-not-resolved="False"/>
+  - description: <p>If the provided cert is a path, or the actual certificate itself</p>
+    name: isPath
+    type: <xref href="boolean?alt=boolean&text=boolean" data-throw-if-not-resolved="False"/>
+  exceptions:
+  - name: 5f3a346c
+  - name: 20753d0b
+  - name: cbf33bbe
+  - name: "20029899"
+  - name: 456eb9d1
+  summary: <p>Creates a default SSLContext for the IotHub with the specified certificate. </p>
+  syntax: public IotHubSSLContext(String publicKeyCertificateString, String privateKeyString, String cert, boolean isPath)
+  uid: com.microsoft.azure.sdk.iot.deps.auth.IotHubSSLContext.IotHubSSLContext(String,String,String,boolean)
+- fullName: com.microsoft.azure.sdk.iot.deps.auth.IotHubSSLContext.IotHubSSLContext(String trustedCert, boolean isPath)
+  name: IotHubSSLContext(String trustedCert, boolean isPath)
+  nameWithType: IotHubSSLContext.IotHubSSLContext(String trustedCert, boolean isPath)
+  parameters:
+  - description: <p>the certificate to be trusted </p>
+    name: trustedCert
+    type: <xref href="String?alt=String&text=String" data-throw-if-not-resolved="False"/>
+  - description: <p>if the trustedCert is a path to the trusted cert, or if it is the certificate itself</p>
+    name: isPath
+    type: <xref href="boolean?alt=boolean&text=boolean" data-throw-if-not-resolved="False"/>
+  exceptions:
+  - name: 5f3a346c
+  - name: 20753d0b
+  - name: cbf33bbe
+  - name: "20029899"
+  - name: 456eb9d1
+  summary: >-
+    <p>Creates a default SSLContext for the IotHub with the specified certificate.</p>
+
+    <p></p>
+  syntax: public IotHubSSLContext(String trustedCert, boolean isPath)
+  uid: com.microsoft.azure.sdk.iot.deps.auth.IotHubSSLContext.IotHubSSLContext(String,boolean)
+uid: com.microsoft.azure.sdk.iot.deps.auth.IotHubSSLContext.IotHubSSLContext*
+fullName: com.microsoft.azure.sdk.iot.deps.auth.IotHubSSLContext.IotHubSSLContext
+name: IotHubSSLContext
+package: com.microsoft.azure.sdk.iot.deps.auth
+metadata: {}

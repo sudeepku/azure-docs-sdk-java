@@ -1,0 +1,38 @@
+### YamlMime:JavaMember
+nameWithType: ClustersInner.beginCreate
+type: method
+members:
+- fullName: com.microsoft.azure.management.batchai.implementation.ClustersInner.beginCreate(String resourceGroupName, String workspaceName, String clusterName, ClusterCreateParameters parameters)
+  name: beginCreate(String resourceGroupName, String workspaceName, String clusterName, ClusterCreateParameters parameters)
+  nameWithType: ClustersInner.beginCreate(String resourceGroupName, String workspaceName, String clusterName, ClusterCreateParameters parameters)
+  parameters:
+  - description: <p>Name of the resource group to which the resource belongs. </p>
+    name: resourceGroupName
+    type: <xref href="String?alt=String&text=String" data-throw-if-not-resolved="False"/>
+  - description: <p>The name of the workspace. Workspace names can only contain a combination of alphanumeric characters along with dash (-) and underscore (_). The name must be from 1 through 64 characters long. </p>
+    name: workspaceName
+    type: <xref href="String?alt=String&text=String" data-throw-if-not-resolved="False"/>
+  - description: <p>The name of the cluster within the specified resource group. Cluster names can only contain a combination of alphanumeric characters along with dash (-) and underscore (_). The name must be from 1 through 64 characters long. </p>
+    name: clusterName
+    type: <xref href="String?alt=String&text=String" data-throw-if-not-resolved="False"/>
+  - description: <p>The parameters to provide for the Cluster creation. </p>
+    name: parameters
+    type: <xref href="com.microsoft.azure.management.batchai.ClusterCreateParameters?alt=com.microsoft.azure.management.batchai.ClusterCreateParameters&text=ClusterCreateParameters" data-throw-if-not-resolved="False"/>
+  exceptions:
+  - name: 3c87bd19
+  - name: dc385fd4
+  - name: 9b2a4515
+  returns:
+    description: <p>the ClusterInner object if successful. </p>
+    type: <xref href="com.microsoft.azure.management.batchai.implementation.ClusterInner?alt=com.microsoft.azure.management.batchai.implementation.ClusterInner&text=ClusterInner" data-throw-if-not-resolved="False"/>
+  summary: >-
+    <p>Creates a Cluster in the given Workspace.</p>
+
+    <p></p>
+  syntax: public ClusterInner beginCreate(String resourceGroupName, String workspaceName, String clusterName, ClusterCreateParameters parameters)
+  uid: com.microsoft.azure.management.batchai.implementation.ClustersInner.beginCreate(String,String,String,ClusterCreateParameters)
+uid: com.microsoft.azure.management.batchai.implementation.ClustersInner.beginCreate*
+fullName: com.microsoft.azure.management.batchai.implementation.ClustersInner.beginCreate(String resourceGroupName, String workspaceName, String clusterName, ClusterCreateParameters parameters)
+name: beginCreate(String resourceGroupName, String workspaceName, String clusterName, ClusterCreateParameters parameters)
+package: com.microsoft.azure.management.batchai.implementation
+metadata: {}

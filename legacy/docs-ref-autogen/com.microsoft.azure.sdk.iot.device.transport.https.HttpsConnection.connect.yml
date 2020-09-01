@@ -1,0 +1,20 @@
+### YamlMime:JavaMember
+nameWithType: HttpsConnection.connect
+type: method
+members:
+- fullName: com.microsoft.azure.sdk.iot.device.transport.https.HttpsConnection.connect()
+  name: connect()
+  nameWithType: HttpsConnection.connect()
+  exceptions:
+  - name: 848a9648
+  summary: >-
+    <p>Sends the request to the URL given in the constructor.</p>
+
+    <p></p>
+  syntax: public void connect()
+  uid: com.microsoft.azure.sdk.iot.device.transport.https.HttpsConnection.connect()
+uid: com.microsoft.azure.sdk.iot.device.transport.https.HttpsConnection.connect*
+fullName: com.microsoft.azure.sdk.iot.device.transport.https.HttpsConnection.connect()
+name: connect()
+package: com.microsoft.azure.sdk.iot.device.transport.https
+metadata: {}

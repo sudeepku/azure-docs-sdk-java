@@ -1,0 +1,20 @@
+### YamlMime:JavaMember
+nameWithType: Mqtt.disconnect
+type: method
+members:
+- fullName: com.microsoft.azure.sdk.iot.device.transport.mqtt.Mqtt.disconnect()
+  name: disconnect()
+  nameWithType: Mqtt.disconnect()
+  exceptions:
+  - name: 848a9648
+  summary: >-
+    <p>Method to disconnect to mqtt broker connection.</p>
+
+    <p></p>
+  syntax: protected void disconnect()
+  uid: com.microsoft.azure.sdk.iot.device.transport.mqtt.Mqtt.disconnect()
+uid: com.microsoft.azure.sdk.iot.device.transport.mqtt.Mqtt.disconnect*
+fullName: com.microsoft.azure.sdk.iot.device.transport.mqtt.Mqtt.disconnect()
+name: disconnect()
+package: com.microsoft.azure.sdk.iot.device.transport.mqtt
+metadata: {}

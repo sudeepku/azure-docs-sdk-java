@@ -1,0 +1,83 @@
+### YamlMime:JavaMember
+nameWithType: CertificateOperations.createCertificate
+type: method
+members:
+- fullName: com.microsoft.azure.batch.CertificateOperations.createCertificate(CertificateAddParameter certificate)
+  name: createCertificate(CertificateAddParameter certificate)
+  nameWithType: CertificateOperations.createCertificate(CertificateAddParameter certificate)
+  parameters:
+  - description: <p>The certificate to be added. </p>
+    name: certificate
+    type: <xref href="com.microsoft.azure.batch.protocol.models.CertificateAddParameter?alt=com.microsoft.azure.batch.protocol.models.CertificateAddParameter&text=CertificateAddParameter" data-throw-if-not-resolved="False"/>
+  exceptions:
+  - name: c8683d81
+  - name: cbf33bbe
+  summary: >-
+    <p>Adds a certificate to the Batch account.</p>
+
+    <p></p>
+  syntax: public void createCertificate(CertificateAddParameter certificate)
+  uid: com.microsoft.azure.batch.CertificateOperations.createCertificate(CertificateAddParameter)
+- fullName: com.microsoft.azure.batch.CertificateOperations.createCertificate(CertificateAddParameter certificate, Iterable<BatchClientBehavior> additionalBehaviors)
+  name: createCertificate(CertificateAddParameter certificate, Iterable<BatchClientBehavior> additionalBehaviors)
+  nameWithType: CertificateOperations.createCertificate(CertificateAddParameter certificate, Iterable<BatchClientBehavior> additionalBehaviors)
+  parameters:
+  - description: <p>The certificate to be added. </p>
+    name: certificate
+    type: <xref href="com.microsoft.azure.batch.protocol.models.CertificateAddParameter?alt=com.microsoft.azure.batch.protocol.models.CertificateAddParameter&text=CertificateAddParameter" data-throw-if-not-resolved="False"/>
+  - description: <p>A collection of <xref uid="com.microsoft.azure.batch.BatchClientBehavior" data-throw-if-not-resolved="false">BatchClientBehavior</xref> instances that are applied to the Batch service request. </p>
+    name: additionalBehaviors
+    type: Iterable&lt;<xref href="com.microsoft.azure.batch.BatchClientBehavior?alt=com.microsoft.azure.batch.BatchClientBehavior&text=BatchClientBehavior" data-throw-if-not-resolved="False"/>&gt;
+  exceptions:
+  - name: c8683d81
+  - name: cbf33bbe
+  summary: >-
+    <p>Adds a certificate to the Batch account.</p>
+
+    <p></p>
+  syntax: public void createCertificate(CertificateAddParameter certificate, Iterable<BatchClientBehavior> additionalBehaviors)
+  uid: com.microsoft.azure.batch.CertificateOperations.createCertificate(CertificateAddParameter,Iterable<BatchClientBehavior>)
+- fullName: com.microsoft.azure.batch.CertificateOperations.createCertificate(InputStream certStream)
+  name: createCertificate(InputStream certStream)
+  nameWithType: CertificateOperations.createCertificate(InputStream certStream)
+  parameters:
+  - description: <p>The certificate data in .cer format. </p>
+    name: certStream
+    type: <xref href="InputStream?alt=InputStream&text=InputStream" data-throw-if-not-resolved="False"/>
+  exceptions:
+  - name: c8683d81
+  - name: cbf33bbe
+  - name: "20029899"
+  - name: 456eb9d1
+  summary: >-
+    <p>Adds a certificate to the Batch account.</p>
+
+    <p></p>
+  syntax: public void createCertificate(InputStream certStream)
+  uid: com.microsoft.azure.batch.CertificateOperations.createCertificate(InputStream)
+- fullName: com.microsoft.azure.batch.CertificateOperations.createCertificate(InputStream certStream, Iterable<BatchClientBehavior> additionalBehaviors)
+  name: createCertificate(InputStream certStream, Iterable<BatchClientBehavior> additionalBehaviors)
+  nameWithType: CertificateOperations.createCertificate(InputStream certStream, Iterable<BatchClientBehavior> additionalBehaviors)
+  parameters:
+  - description: <p>The certificate data in .cer format. </p>
+    name: certStream
+    type: <xref href="InputStream?alt=InputStream&text=InputStream" data-throw-if-not-resolved="False"/>
+  - description: <p>A collection of <xref uid="com.microsoft.azure.batch.BatchClientBehavior" data-throw-if-not-resolved="false">BatchClientBehavior</xref> instances that are applied to the Batch service request. </p>
+    name: additionalBehaviors
+    type: Iterable&lt;<xref href="com.microsoft.azure.batch.BatchClientBehavior?alt=com.microsoft.azure.batch.BatchClientBehavior&text=BatchClientBehavior" data-throw-if-not-resolved="False"/>&gt;
+  exceptions:
+  - name: c8683d81
+  - name: cbf33bbe
+  - name: "20029899"
+  - name: 456eb9d1
+  summary: >-
+    <p>Adds a certificate to the Batch account.</p>
+
+    <p></p>
+  syntax: public void createCertificate(InputStream certStream, Iterable<BatchClientBehavior> additionalBehaviors)
+  uid: com.microsoft.azure.batch.CertificateOperations.createCertificate(InputStream,Iterable<BatchClientBehavior>)
+uid: com.microsoft.azure.batch.CertificateOperations.createCertificate*
+fullName: com.microsoft.azure.batch.CertificateOperations.createCertificate(CertificateAddParameter certificate)
+name: createCertificate(CertificateAddParameter certificate)
+package: com.microsoft.azure.batch
+metadata: {}

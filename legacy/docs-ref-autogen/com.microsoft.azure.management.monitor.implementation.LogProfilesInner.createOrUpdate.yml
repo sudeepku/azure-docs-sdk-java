@@ -1,0 +1,32 @@
+### YamlMime:JavaMember
+nameWithType: LogProfilesInner.createOrUpdate
+type: method
+members:
+- fullName: com.microsoft.azure.management.monitor.implementation.LogProfilesInner.createOrUpdate(String logProfileName, LogProfileResourceInner parameters)
+  name: createOrUpdate(String logProfileName, LogProfileResourceInner parameters)
+  nameWithType: LogProfilesInner.createOrUpdate(String logProfileName, LogProfileResourceInner parameters)
+  parameters:
+  - description: <p>The name of the log profile. </p>
+    name: logProfileName
+    type: <xref href="String?alt=String&text=String" data-throw-if-not-resolved="False"/>
+  - description: <p>Parameters supplied to the operation. </p>
+    name: parameters
+    type: <xref href="com.microsoft.azure.management.monitor.implementation.LogProfileResourceInner?alt=com.microsoft.azure.management.monitor.implementation.LogProfileResourceInner&text=LogProfileResourceInner" data-throw-if-not-resolved="False"/>
+  exceptions:
+  - name: 3c87bd19
+  - name: dc385fd4
+  - name: 9b2a4515
+  returns:
+    description: <p>the LogProfileResourceInner object if successful. </p>
+    type: <xref href="com.microsoft.azure.management.monitor.implementation.LogProfileResourceInner?alt=com.microsoft.azure.management.monitor.implementation.LogProfileResourceInner&text=LogProfileResourceInner" data-throw-if-not-resolved="False"/>
+  summary: >-
+    <p>Create or update a log profile in Azure Monitoring REST API.</p>
+
+    <p></p>
+  syntax: public LogProfileResourceInner createOrUpdate(String logProfileName, LogProfileResourceInner parameters)
+  uid: com.microsoft.azure.management.monitor.implementation.LogProfilesInner.createOrUpdate(String,LogProfileResourceInner)
+uid: com.microsoft.azure.management.monitor.implementation.LogProfilesInner.createOrUpdate*
+fullName: com.microsoft.azure.management.monitor.implementation.LogProfilesInner.createOrUpdate(String logProfileName, LogProfileResourceInner parameters)
+name: createOrUpdate(String logProfileName, LogProfileResourceInner parameters)
+package: com.microsoft.azure.management.monitor.implementation
+metadata: {}

@@ -1,0 +1,25 @@
+### YamlMime:JavaMember
+nameWithType: SearchService.listQueryKeys
+type: method
+members:
+- fullName: com.microsoft.azure.management.search.SearchService.listQueryKeys()
+  name: listQueryKeys()
+  nameWithType: SearchService.listQueryKeys()
+  exceptions:
+  - name: 3c87bd19
+  - name: dc385fd4
+  - name: 9b2a4515
+  returns:
+    description: <p>the List&lt;QueryKey&gt; object if successful </p>
+    type: List&lt;<xref href="com.microsoft.azure.management.search.QueryKey?alt=com.microsoft.azure.management.search.QueryKey&text=QueryKey" data-throw-if-not-resolved="False"/>&gt;
+  summary: >-
+    <p>Returns the list of query API keys for the given Azure Search service.</p>
+
+    <p></p>
+  syntax: public List<QueryKey> listQueryKeys()
+  uid: com.microsoft.azure.management.search.SearchService.listQueryKeys()
+uid: com.microsoft.azure.management.search.SearchService.listQueryKeys*
+fullName: com.microsoft.azure.management.search.SearchService.listQueryKeys()
+name: listQueryKeys()
+package: com.microsoft.azure.management.search
+metadata: {}

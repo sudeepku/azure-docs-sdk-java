@@ -1,0 +1,32 @@
+### YamlMime:JavaMember
+nameWithType: SecurityProviderTPMHsm.SecurityProviderTPMHsm
+type: constructor
+members:
+- fullName: com.microsoft.azure.sdk.iot.provisioning.security.hsm.SecurityProviderTPMHsm.SecurityProviderTPMHsm()
+  name: SecurityProviderTPMHsm()
+  nameWithType: SecurityProviderTPMHsm.SecurityProviderTPMHsm()
+  exceptions:
+  - name: f44c259f
+  summary: <p>Constructor for creating a Security Provider on TPM hardware </p>
+  syntax: public SecurityProviderTPMHsm()
+  uid: com.microsoft.azure.sdk.iot.provisioning.security.hsm.SecurityProviderTPMHsm.SecurityProviderTPMHsm()
+- fullName: com.microsoft.azure.sdk.iot.provisioning.security.hsm.SecurityProviderTPMHsm.SecurityProviderTPMHsm(String registrationId)
+  name: SecurityProviderTPMHsm(String registrationId)
+  nameWithType: SecurityProviderTPMHsm.SecurityProviderTPMHsm(String registrationId)
+  parameters:
+  - description: >-
+      <p>A non<code>null 
+
+          </code> or empty value tied to this registration </p>
+    name: registrationId
+    type: <xref href="String?alt=String&text=String" data-throw-if-not-resolved="False"/>
+  exceptions:
+  - name: f44c259f
+  summary: <p>Constructor for creating a Security Provider on TPM hardware with the supplied Registration ID </p>
+  syntax: public SecurityProviderTPMHsm(String registrationId)
+  uid: com.microsoft.azure.sdk.iot.provisioning.security.hsm.SecurityProviderTPMHsm.SecurityProviderTPMHsm(String)
+uid: com.microsoft.azure.sdk.iot.provisioning.security.hsm.SecurityProviderTPMHsm.SecurityProviderTPMHsm*
+fullName: com.microsoft.azure.sdk.iot.provisioning.security.hsm.SecurityProviderTPMHsm.SecurityProviderTPMHsm
+name: SecurityProviderTPMHsm
+package: com.microsoft.azure.sdk.iot.provisioning.security.hsm
+metadata: {}

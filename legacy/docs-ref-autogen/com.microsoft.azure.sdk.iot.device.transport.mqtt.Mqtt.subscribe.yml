@@ -1,0 +1,25 @@
+### YamlMime:JavaMember
+nameWithType: Mqtt.subscribe
+type: method
+members:
+- fullName: com.microsoft.azure.sdk.iot.device.transport.mqtt.Mqtt.subscribe(String topic)
+  name: subscribe(String topic)
+  nameWithType: Mqtt.subscribe(String topic)
+  parameters:
+  - description: <p>the topic to subscribe on mqtt broker connection. </p>
+    name: topic
+    type: <xref href="String?alt=String&text=String" data-throw-if-not-resolved="False"/>
+  exceptions:
+  - name: 848a9648
+  - name: 3c87bd19
+  summary: >-
+    <p>Method to subscribe to mqtt broker connection.</p>
+
+    <p></p>
+  syntax: protected void subscribe(String topic)
+  uid: com.microsoft.azure.sdk.iot.device.transport.mqtt.Mqtt.subscribe(String)
+uid: com.microsoft.azure.sdk.iot.device.transport.mqtt.Mqtt.subscribe*
+fullName: com.microsoft.azure.sdk.iot.device.transport.mqtt.Mqtt.subscribe(String topic)
+name: subscribe(String topic)
+package: com.microsoft.azure.sdk.iot.device.transport.mqtt
+metadata: {}
