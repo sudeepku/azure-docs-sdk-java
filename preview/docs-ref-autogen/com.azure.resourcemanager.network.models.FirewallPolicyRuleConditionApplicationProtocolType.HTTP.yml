@@ -1,0 +1,16 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.network.models.FirewallPolicyRuleConditionApplicationProtocolType.HTTP
+fullName: com.azure.resourcemanager.network.models.FirewallPolicyRuleConditionApplicationProtocolType.HTTP
+name: HTTP
+nameWithType: FirewallPolicyRuleConditionApplicationProtocolType.HTTP
+members:
+- uid: com.azure.resourcemanager.network.models.FirewallPolicyRuleConditionApplicationProtocolType.HTTP
+  fullName: com.azure.resourcemanager.network.models.FirewallPolicyRuleConditionApplicationProtocolType.HTTP
+  name: HTTP
+  nameWithType: FirewallPolicyRuleConditionApplicationProtocolType.HTTP
+  summary: Static value Http for FirewallPolicyRuleConditionApplicationProtocolType.
+  syntax: public static final FirewallPolicyRuleConditionApplicationProtocolType HTTP
+type: field
+metadata: {}
+package: com.azure.resourcemanager.network.models
+artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.0.0-beta.2

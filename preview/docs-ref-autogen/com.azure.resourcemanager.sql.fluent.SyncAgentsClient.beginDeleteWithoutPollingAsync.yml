@@ -1,0 +1,55 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.sql.fluent.SyncAgentsClient.beginDeleteWithoutPollingAsync*
+fullName: com.azure.resourcemanager.sql.fluent.SyncAgentsClient.beginDeleteWithoutPollingAsync
+name: beginDeleteWithoutPollingAsync
+nameWithType: SyncAgentsClient.beginDeleteWithoutPollingAsync
+members:
+- uid: com.azure.resourcemanager.sql.fluent.SyncAgentsClient.beginDeleteWithoutPollingAsync(java.lang.String,java.lang.String,java.lang.String)
+  fullName: com.azure.resourcemanager.sql.fluent.SyncAgentsClient.beginDeleteWithoutPollingAsync(String resourceGroupName, String serverName, String syncAgentName)
+  name: beginDeleteWithoutPollingAsync(String resourceGroupName, String serverName, String syncAgentName)
+  nameWithType: SyncAgentsClient.beginDeleteWithoutPollingAsync(String resourceGroupName, String serverName, String syncAgentName)
+  summary: Deletes a sync agent.
+  parameters:
+  - description: |-
+      The name of the resource group that contains the resource. You can obtain this value
+           from the Azure Resource Manager API or the portal.
+    name: resourceGroupName
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  - description: The name of the server on which the sync agent is hosted.
+    name: serverName
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  - description: The name of the sync agent.
+    name: syncAgentName
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  syntax: public Mono<Void> beginDeleteWithoutPollingAsync(String resourceGroupName, String serverName, String syncAgentName)
+  returns:
+    description: the completion.
+    type: <xref href="reactor.core.publisher.Mono?alt=reactor.core.publisher.Mono&text=Mono" data-throw-if-not-resolved="False" />&lt;<xref href="java.lang.Void?alt=java.lang.Void&text=Void" data-throw-if-not-resolved="False" />&gt;
+- uid: com.azure.resourcemanager.sql.fluent.SyncAgentsClient.beginDeleteWithoutPollingAsync(java.lang.String,java.lang.String,java.lang.String,com.azure.core.util.Context)
+  fullName: com.azure.resourcemanager.sql.fluent.SyncAgentsClient.beginDeleteWithoutPollingAsync(String resourceGroupName, String serverName, String syncAgentName, Context context)
+  name: beginDeleteWithoutPollingAsync(String resourceGroupName, String serverName, String syncAgentName, Context context)
+  nameWithType: SyncAgentsClient.beginDeleteWithoutPollingAsync(String resourceGroupName, String serverName, String syncAgentName, Context context)
+  summary: Deletes a sync agent.
+  parameters:
+  - description: |-
+      The name of the resource group that contains the resource. You can obtain this value
+           from the Azure Resource Manager API or the portal.
+    name: resourceGroupName
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  - description: The name of the server on which the sync agent is hosted.
+    name: serverName
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  - description: The name of the sync agent.
+    name: syncAgentName
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  - description: The context to associate with this operation.
+    name: context
+    type: <xref href="com.azure.core.util.Context?alt=com.azure.core.util.Context&text=Context" data-throw-if-not-resolved="False" />
+  syntax: public Mono<Void> beginDeleteWithoutPollingAsync(String resourceGroupName, String serverName, String syncAgentName, Context context)
+  returns:
+    description: the completion.
+    type: <xref href="reactor.core.publisher.Mono?alt=reactor.core.publisher.Mono&text=Mono" data-throw-if-not-resolved="False" />&lt;<xref href="java.lang.Void?alt=java.lang.Void&text=Void" data-throw-if-not-resolved="False" />&gt;
+type: method
+metadata: {}
+package: com.azure.resourcemanager.sql.fluent
+artifact: com.azure.resourcemanager:azure-resourcemanager-sql:2.0.0-beta.2

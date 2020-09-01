@@ -1,0 +1,23 @@
+### YamlMime:JavaMember
+uid: com.azure.data.schemaregistry.client.implementation.models.CreateSchemaHeaders.setXSchemaId*
+fullName: com.azure.data.schemaregistry.client.implementation.models.CreateSchemaHeaders.setXSchemaId
+name: setXSchemaId
+nameWithType: CreateSchemaHeaders.setXSchemaId
+members:
+- uid: com.azure.data.schemaregistry.client.implementation.models.CreateSchemaHeaders.setXSchemaId(java.lang.String)
+  fullName: com.azure.data.schemaregistry.client.implementation.models.CreateSchemaHeaders.setXSchemaId(String xSchemaId)
+  name: setXSchemaId(String xSchemaId)
+  nameWithType: CreateSchemaHeaders.setXSchemaId(String xSchemaId)
+  summary: 'Set the xSchemaId property: The X-Schema-Id property.'
+  parameters:
+  - description: the xSchemaId value to set.
+    name: xSchemaId
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  syntax: public CreateSchemaHeaders setXSchemaId(String xSchemaId)
+  returns:
+    description: the CreateSchemaHeaders object itself.
+    type: <xref href="com.azure.data.schemaregistry.client.implementation.models.CreateSchemaHeaders?alt=com.azure.data.schemaregistry.client.implementation.models.CreateSchemaHeaders&text=CreateSchemaHeaders" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.data.schemaregistry.client.implementation.models
+artifact: com.azure:azure-data-schemaregistry:1.0.0-beta.1

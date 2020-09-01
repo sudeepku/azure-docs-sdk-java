@@ -1,0 +1,25 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.containerregistry.fluent.inner.WebhookListResultInner.withValue*
+fullName: com.azure.resourcemanager.containerregistry.fluent.inner.WebhookListResultInner.withValue
+name: withValue
+nameWithType: WebhookListResultInner.withValue
+members:
+- uid: com.azure.resourcemanager.containerregistry.fluent.inner.WebhookListResultInner.withValue(java.util.List<com.azure.resourcemanager.containerregistry.fluent.inner.WebhookInner>)
+  fullName: com.azure.resourcemanager.containerregistry.fluent.inner.WebhookListResultInner.withValue(List<WebhookInner> value)
+  name: withValue(List<WebhookInner> value)
+  nameWithType: WebhookListResultInner.withValue(List<WebhookInner> value)
+  summary: |-
+    Set the value property: The list of webhooks. Since this list may be incomplete, the nextLink field should be
+     used to request the next list of webhooks.
+  parameters:
+  - description: the value value to set.
+    name: value
+    type: <xref href="java.util.List?alt=java.util.List&text=List" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.resourcemanager.containerregistry.fluent.inner.WebhookInner?alt=com.azure.resourcemanager.containerregistry.fluent.inner.WebhookInner&text=WebhookInner" data-throw-if-not-resolved="False" />&gt;
+  syntax: public WebhookListResultInner withValue(List<WebhookInner> value)
+  returns:
+    description: the WebhookListResultInner object itself.
+    type: <xref href="com.azure.resourcemanager.containerregistry.fluent.inner.WebhookListResultInner?alt=com.azure.resourcemanager.containerregistry.fluent.inner.WebhookListResultInner&text=WebhookListResultInner" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.resourcemanager.containerregistry.fluent.inner
+artifact: com.azure.resourcemanager:azure-resourcemanager-containerregistry:2.0.0-beta.2

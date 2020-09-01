@@ -1,0 +1,39 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.sql.fluent.RecoverableManagedDatabasesClient.listByInstanceNextSinglePageAsync*
+fullName: com.azure.resourcemanager.sql.fluent.RecoverableManagedDatabasesClient.listByInstanceNextSinglePageAsync
+name: listByInstanceNextSinglePageAsync
+nameWithType: RecoverableManagedDatabasesClient.listByInstanceNextSinglePageAsync
+members:
+- uid: com.azure.resourcemanager.sql.fluent.RecoverableManagedDatabasesClient.listByInstanceNextSinglePageAsync(java.lang.String)
+  fullName: com.azure.resourcemanager.sql.fluent.RecoverableManagedDatabasesClient.listByInstanceNextSinglePageAsync(String nextLink)
+  name: listByInstanceNextSinglePageAsync(String nextLink)
+  nameWithType: RecoverableManagedDatabasesClient.listByInstanceNextSinglePageAsync(String nextLink)
+  summary: Get the next page of items.
+  parameters:
+  - description: The nextLink parameter.
+    name: nextLink
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  syntax: public Mono<PagedResponse<RecoverableManagedDatabaseInner>> listByInstanceNextSinglePageAsync(String nextLink)
+  returns:
+    description: a list of recoverable managed databases.
+    type: <xref href="reactor.core.publisher.Mono?alt=reactor.core.publisher.Mono&text=Mono" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.core.http.rest.PagedResponse?alt=com.azure.core.http.rest.PagedResponse&text=PagedResponse" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.resourcemanager.sql.fluent.inner.RecoverableManagedDatabaseInner?alt=com.azure.resourcemanager.sql.fluent.inner.RecoverableManagedDatabaseInner&text=RecoverableManagedDatabaseInner" data-throw-if-not-resolved="False" />&gt;&gt;
+- uid: com.azure.resourcemanager.sql.fluent.RecoverableManagedDatabasesClient.listByInstanceNextSinglePageAsync(java.lang.String,com.azure.core.util.Context)
+  fullName: com.azure.resourcemanager.sql.fluent.RecoverableManagedDatabasesClient.listByInstanceNextSinglePageAsync(String nextLink, Context context)
+  name: listByInstanceNextSinglePageAsync(String nextLink, Context context)
+  nameWithType: RecoverableManagedDatabasesClient.listByInstanceNextSinglePageAsync(String nextLink, Context context)
+  summary: Get the next page of items.
+  parameters:
+  - description: The nextLink parameter.
+    name: nextLink
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  - description: The context to associate with this operation.
+    name: context
+    type: <xref href="com.azure.core.util.Context?alt=com.azure.core.util.Context&text=Context" data-throw-if-not-resolved="False" />
+  syntax: public Mono<PagedResponse<RecoverableManagedDatabaseInner>> listByInstanceNextSinglePageAsync(String nextLink, Context context)
+  returns:
+    description: a list of recoverable managed databases.
+    type: <xref href="reactor.core.publisher.Mono?alt=reactor.core.publisher.Mono&text=Mono" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.core.http.rest.PagedResponse?alt=com.azure.core.http.rest.PagedResponse&text=PagedResponse" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.resourcemanager.sql.fluent.inner.RecoverableManagedDatabaseInner?alt=com.azure.resourcemanager.sql.fluent.inner.RecoverableManagedDatabaseInner&text=RecoverableManagedDatabaseInner" data-throw-if-not-resolved="False" />&gt;&gt;
+type: method
+metadata: {}
+package: com.azure.resourcemanager.sql.fluent
+artifact: com.azure.resourcemanager:azure-resourcemanager-sql:2.0.0-beta.2

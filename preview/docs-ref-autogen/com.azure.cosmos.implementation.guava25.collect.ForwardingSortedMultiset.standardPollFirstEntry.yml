@@ -1,0 +1,22 @@
+### YamlMime:JavaMember
+uid: com.azure.cosmos.implementation.guava25.collect.ForwardingSortedMultiset.standardPollFirstEntry*
+fullName: com.azure.cosmos.implementation.guava25.collect.ForwardingSortedMultiset<E>.standardPollFirstEntry
+name: standardPollFirstEntry
+nameWithType: ForwardingSortedMultiset<E>.standardPollFirstEntry
+members:
+- uid: com.azure.cosmos.implementation.guava25.collect.ForwardingSortedMultiset.standardPollFirstEntry()
+  fullName: com.azure.cosmos.implementation.guava25.collect.ForwardingSortedMultiset<E>.standardPollFirstEntry()
+  name: standardPollFirstEntry()
+  nameWithType: ForwardingSortedMultiset<E>.standardPollFirstEntry()
+  summary: |-
+    A sensible definition of <xref uid="#pollFirstEntry()" data-throw-if-not-resolved="false">#pollFirstEntry()</xref> in terms of <code>entrySet().iterator()</code>.
+
+     <p>If you override <xref uid="#entrySet()" data-throw-if-not-resolved="false">#entrySet()</xref>, you may wish to override <xref uid="#pollFirstEntry()" data-throw-if-not-resolved="false">#pollFirstEntry()</xref> to
+     forward to this implementation.
+  syntax: protected Multiset.Entry<E> standardPollFirstEntry()
+  returns:
+    type: <xref href="com.azure.cosmos.implementation.guava25.collect.Multiset.Entry?alt=com.azure.cosmos.implementation.guava25.collect.Multiset.Entry&text=Entry" data-throw-if-not-resolved="False" />&lt;<xref href="E?alt=E&text=E" data-throw-if-not-resolved="False" />&gt;
+type: method
+metadata: {}
+package: com.azure.cosmos.implementation.guava25.collect
+artifact: com.azure:azure-cosmos:4.3.2-beta.2

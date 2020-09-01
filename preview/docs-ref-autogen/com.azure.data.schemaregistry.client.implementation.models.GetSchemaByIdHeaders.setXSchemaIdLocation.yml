@@ -1,0 +1,23 @@
+### YamlMime:JavaMember
+uid: com.azure.data.schemaregistry.client.implementation.models.GetSchemaByIdHeaders.setXSchemaIdLocation*
+fullName: com.azure.data.schemaregistry.client.implementation.models.GetSchemaByIdHeaders.setXSchemaIdLocation
+name: setXSchemaIdLocation
+nameWithType: GetSchemaByIdHeaders.setXSchemaIdLocation
+members:
+- uid: com.azure.data.schemaregistry.client.implementation.models.GetSchemaByIdHeaders.setXSchemaIdLocation(java.net.URL)
+  fullName: com.azure.data.schemaregistry.client.implementation.models.GetSchemaByIdHeaders.setXSchemaIdLocation(URL xSchemaIdLocation)
+  name: setXSchemaIdLocation(URL xSchemaIdLocation)
+  nameWithType: GetSchemaByIdHeaders.setXSchemaIdLocation(URL xSchemaIdLocation)
+  summary: 'Set the xSchemaIdLocation property: The X-Schema-Id-Location property.'
+  parameters:
+  - description: the xSchemaIdLocation value to set.
+    name: xSchemaIdLocation
+    type: <xref href="java.net.URL?alt=java.net.URL&text=URL" data-throw-if-not-resolved="False" />
+  syntax: public GetSchemaByIdHeaders setXSchemaIdLocation(URL xSchemaIdLocation)
+  returns:
+    description: the GetSchemaByIdHeaders object itself.
+    type: <xref href="com.azure.data.schemaregistry.client.implementation.models.GetSchemaByIdHeaders?alt=com.azure.data.schemaregistry.client.implementation.models.GetSchemaByIdHeaders&text=GetSchemaByIdHeaders" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.data.schemaregistry.client.implementation.models
+artifact: com.azure:azure-data-schemaregistry:1.0.0-beta.1

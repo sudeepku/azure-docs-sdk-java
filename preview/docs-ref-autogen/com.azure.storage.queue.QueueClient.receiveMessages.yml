@@ -1,0 +1,96 @@
+### YamlMime:JavaMember
+uid: com.azure.storage.queue.QueueClient.receiveMessages*
+fullName: com.azure.storage.queue.QueueClient.receiveMessages
+name: receiveMessages
+nameWithType: QueueClient.receiveMessages
+members:
+- uid: com.azure.storage.queue.QueueClient.receiveMessages(java.lang.Integer)
+  fullName: com.azure.storage.queue.QueueClient.receiveMessages(Integer maxMessages)
+  name: receiveMessages(Integer maxMessages)
+  nameWithType: QueueClient.receiveMessages(Integer maxMessages)
+  summary: |-
+    Retrieves up to the maximum number of messages from the queue and hides them from other operations for 30
+     seconds.
+
+     <p><strong>Code Samples</strong></p>
+
+     <p>Receive up to 5 messages</p>
+
+     <pre>
+     for &#40;QueueMessageItem message : client.receiveMessages&#40;5&#41;&#41; &#123;
+         System.out.printf&#40;&quot;Received %s and it becomes visible at %s&quot;,
+             message.getMessageId&#40;&#41;, message.getTimeNextVisible&#40;&#41;&#41;;
+     &#125;
+     </pre>
+
+     <p>For more information, see the
+     <a href="https://docs.microsoft.com/en-us/rest/api/storageservices/get-messages">Azure Docs</a>.</p>
+  parameters:
+  - description: |-
+      Optional. Maximum number of messages to get, if there are less messages exist in the queue
+       than requested all the messages will be returned. If left empty only 1 message will be retrieved, the allowed
+       range is 1 to 32 messages.
+    name: maxMessages
+    type: <xref href="java.lang.Integer?alt=java.lang.Integer&text=Integer" data-throw-if-not-resolved="False" />
+  syntax: public PagedIterable<QueueMessageItem> receiveMessages(Integer maxMessages)
+  returns:
+    description: |-
+      Up to <code>maxMessages</code> <xref uid="com.azure.storage.queue.models.QueueMessageItem" data-throw-if-not-resolved="false">ReceiveMessageItem</xref> from the queue.
+       Each ReceiveMessageItem contains <xref uid="com.azure.storage.queue.models.QueueMessageItem.getMessageId()" data-throw-if-not-resolved="false">messageId</xref> and
+       <xref uid="com.azure.storage.queue.models.QueueMessageItem.getPopReceipt()" data-throw-if-not-resolved="false">popReceipt</xref>
+       used to interact with the message and other metadata about the message.
+    type: <xref href="com.azure.core.http.rest.PagedIterable?alt=com.azure.core.http.rest.PagedIterable&text=PagedIterable" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.storage.queue.models.QueueMessageItem?alt=com.azure.storage.queue.models.QueueMessageItem&text=QueueMessageItem" data-throw-if-not-resolved="False" />&gt;
+- uid: com.azure.storage.queue.QueueClient.receiveMessages(java.lang.Integer,java.time.Duration,java.time.Duration,com.azure.core.util.Context)
+  fullName: com.azure.storage.queue.QueueClient.receiveMessages(Integer maxMessages, Duration visibilityTimeout, Duration timeout, Context context)
+  name: receiveMessages(Integer maxMessages, Duration visibilityTimeout, Duration timeout, Context context)
+  nameWithType: QueueClient.receiveMessages(Integer maxMessages, Duration visibilityTimeout, Duration timeout, Context context)
+  summary: |-
+    Retrieves up to the maximum number of messages from the queue and hides them from other operations for the
+     timeout period.
+
+     <p><strong>Code Samples</strong></p>
+
+     <p>Receive up to 5 messages and give them a 60 second timeout period</p>
+
+     <pre>
+     for &#40;QueueMessageItem message : client.receiveMessages&#40;5, Duration.ofSeconds&#40;60&#41;,
+         Duration.ofSeconds&#40;1&#41;, new Context&#40;key1, value1&#41;&#41;&#41; &#123;
+         System.out.printf&#40;&quot;Received %s and it becomes visible at %s&quot;,
+             message.getMessageId&#40;&#41;, message.getTimeNextVisible&#40;&#41;&#41;;
+     &#125;
+     </pre>
+
+     <p>For more information, see the
+     <a href="https://docs.microsoft.com/en-us/rest/api/storageservices/get-messages">Azure Docs</a>.</p>
+  parameters:
+  - description: |-
+      Optional. Maximum number of messages to get, if there are less messages exist in the queue
+       than requested all the messages will be returned. If left empty only 1 message will be retrieved, the allowed
+       range is 1 to 32 messages.
+    name: maxMessages
+    type: <xref href="java.lang.Integer?alt=java.lang.Integer&text=Integer" data-throw-if-not-resolved="False" />
+  - description: |-
+      Optional. The timeout period for how long the message is invisible in the queue. If left
+       empty the received messages will be invisible for 30 seconds. The timeout must be between 1 second and 7 days.
+    name: visibilityTimeout
+    type: <xref href="java.time.Duration?alt=java.time.Duration&text=Duration" data-throw-if-not-resolved="False" />
+  - description: |-
+      An optional timeout applied to the operation. If a response is not returned before the timeout
+       concludes a <xref uid="" data-throw-if-not-resolved="false">RuntimeException</xref> will be thrown.
+    name: timeout
+    type: <xref href="java.time.Duration?alt=java.time.Duration&text=Duration" data-throw-if-not-resolved="False" />
+  - description: Additional context that is passed through the Http pipeline during the service call.
+    name: context
+    type: <xref href="com.azure.core.util.Context?alt=com.azure.core.util.Context&text=Context" data-throw-if-not-resolved="False" />
+  syntax: public PagedIterable<QueueMessageItem> receiveMessages(Integer maxMessages, Duration visibilityTimeout, Duration timeout, Context context)
+  returns:
+    description: |-
+      Up to <code>maxMessages</code> <xref uid="com.azure.storage.queue.models.QueueMessageItem" data-throw-if-not-resolved="false">DequeuedMessages</xref> from the queue. Each DeqeuedMessage
+       contains <xref uid="com.azure.storage.queue.models.QueueMessageItem.getMessageId()" data-throw-if-not-resolved="false">messageId</xref> and
+       <xref uid="com.azure.storage.queue.models.QueueMessageItem.getPopReceipt()" data-throw-if-not-resolved="false">popReceipt</xref>
+       used to interact with the message and other metadata about the message.
+    type: <xref href="com.azure.core.http.rest.PagedIterable?alt=com.azure.core.http.rest.PagedIterable&text=PagedIterable" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.storage.queue.models.QueueMessageItem?alt=com.azure.storage.queue.models.QueueMessageItem&text=QueueMessageItem" data-throw-if-not-resolved="False" />&gt;
+type: method
+metadata: {}
+package: com.azure.storage.queue
+artifact: com.azure:azure-storage-queue:12.6.0-beta.1

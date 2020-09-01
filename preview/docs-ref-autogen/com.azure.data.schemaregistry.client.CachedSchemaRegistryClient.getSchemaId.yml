@@ -1,0 +1,27 @@
+### YamlMime:JavaMember
+uid: com.azure.data.schemaregistry.client.CachedSchemaRegistryClient.getSchemaId*
+fullName: com.azure.data.schemaregistry.client.CachedSchemaRegistryClient.getSchemaId
+name: getSchemaId
+nameWithType: CachedSchemaRegistryClient.getSchemaId
+members:
+- uid: com.azure.data.schemaregistry.client.CachedSchemaRegistryClient.getSchemaId(java.lang.String,java.lang.String,java.lang.String,java.lang.String)
+  fullName: com.azure.data.schemaregistry.client.CachedSchemaRegistryClient.getSchemaId(String schemaGroup, String schemaName, String schemaString, String schemaType)
+  name: getSchemaId(String schemaGroup, String schemaName, String schemaString, String schemaType)
+  nameWithType: CachedSchemaRegistryClient.getSchemaId(String schemaGroup, String schemaName, String schemaString, String schemaType)
+  summary: Fetches schema GUID given schema group, name, string representation, and serialization type
+  parameters:
+  - name: schemaGroup
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  - name: schemaName
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  - name: schemaString
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  - name: schemaType
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  syntax: public String getSchemaId(String schemaGroup, String schemaName, String schemaString, String schemaType)
+  returns:
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.data.schemaregistry.client
+artifact: com.azure:azure-data-schemaregistry:1.0.0-beta.1

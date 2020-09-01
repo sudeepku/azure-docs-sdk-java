@@ -1,0 +1,19 @@
+### YamlMime:JavaMember
+uid: com.azure.storage.file.datalake.DataLakeFileSystemAsyncClient.getAccessPolicy*
+fullName: com.azure.storage.file.datalake.DataLakeFileSystemAsyncClient.getAccessPolicy
+name: getAccessPolicy
+nameWithType: DataLakeFileSystemAsyncClient.getAccessPolicy
+members:
+- uid: com.azure.storage.file.datalake.DataLakeFileSystemAsyncClient.getAccessPolicy()
+  fullName: com.azure.storage.file.datalake.DataLakeFileSystemAsyncClient.getAccessPolicy()
+  name: getAccessPolicy()
+  nameWithType: DataLakeFileSystemAsyncClient.getAccessPolicy()
+  summary: "Returns the file system's permissions. The permissions indicate whether file system's paths may be accessed\n publicly. For more information, see the\n <a href=\"https://docs.microsoft.com/rest/api/storageservices/get-container-acl\">Azure Docs</a>.\n\n <p><strong>Code Samples</strong></p>\n\n <pre>\n client.getAccessPolicy&#40;&#41;.subscribe&#40;response -&gt; &#123;\n     System.out.printf&#40;&quot;Data Lake Access Type: %s%n&quot;, response.getDataLakeAccessType&#40;&#41;&#41;;\n \n     for &#40;DataLakeSignedIdentifier identifier : response.getIdentifiers&#40;&#41;&#41; &#123;\n         System.out.printf&#40;&quot;Identifier Name: %s, Permissions %s%n&quot;,\n             identifier.getId&#40;&#41;,\n             identifier.getAccessPolicy&#40;&#41;.getPermissions&#40;&#41;&#41;;\n     &#125;\n &#125;&#41;;\n </pre>"
+  syntax: public Mono<FileSystemAccessPolicies> getAccessPolicy()
+  returns:
+    description: A reactive response containing the file system access policy.
+    type: <xref href="reactor.core.publisher.Mono?alt=reactor.core.publisher.Mono&text=Mono" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.storage.file.datalake.models.FileSystemAccessPolicies?alt=com.azure.storage.file.datalake.models.FileSystemAccessPolicies&text=FileSystemAccessPolicies" data-throw-if-not-resolved="False" />&gt;
+type: method
+metadata: {}
+package: com.azure.storage.file.datalake
+artifact: com.azure:azure-storage-file-datalake:12.2.0

@@ -1,0 +1,69 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.appservice.fluent.AppServicePlansClient.listWebAppsSinglePageAsync*
+fullName: com.azure.resourcemanager.appservice.fluent.AppServicePlansClient.listWebAppsSinglePageAsync
+name: listWebAppsSinglePageAsync
+nameWithType: AppServicePlansClient.listWebAppsSinglePageAsync
+members:
+- uid: com.azure.resourcemanager.appservice.fluent.AppServicePlansClient.listWebAppsSinglePageAsync(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)
+  fullName: com.azure.resourcemanager.appservice.fluent.AppServicePlansClient.listWebAppsSinglePageAsync(String resourceGroupName, String name, String skipToken, String filter, String top)
+  name: listWebAppsSinglePageAsync(String resourceGroupName, String name, String skipToken, String filter, String top)
+  nameWithType: AppServicePlansClient.listWebAppsSinglePageAsync(String resourceGroupName, String name, String skipToken, String filter, String top)
+  summary: Description for Get all apps associated with an App Service plan.
+  parameters:
+  - description: Name of the resource group to which the resource belongs.
+    name: resourceGroupName
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  - description: Name of the App Service plan.
+    name: name
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  - description: |-
+      Skip to a web app in the list of webapps associated with app service plan. If specified, the
+           resulting list will contain web apps starting from (including) the skipToken. Otherwise, the resulting list
+           contains web apps from the start of the list.
+    name: skipToken
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  - description: 'Supported filter: $filter=state eq running. Returns only web apps that are currently running.'
+    name: filter
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  - description: List page size. If specified, results are paged.
+    name: top
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  syntax: public Mono<PagedResponse<SiteInner>> listWebAppsSinglePageAsync(String resourceGroupName, String name, String skipToken, String filter, String top)
+  returns:
+    description: collection of App Service apps.
+    type: <xref href="reactor.core.publisher.Mono?alt=reactor.core.publisher.Mono&text=Mono" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.core.http.rest.PagedResponse?alt=com.azure.core.http.rest.PagedResponse&text=PagedResponse" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.resourcemanager.appservice.fluent.inner.SiteInner?alt=com.azure.resourcemanager.appservice.fluent.inner.SiteInner&text=SiteInner" data-throw-if-not-resolved="False" />&gt;&gt;
+- uid: com.azure.resourcemanager.appservice.fluent.AppServicePlansClient.listWebAppsSinglePageAsync(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,com.azure.core.util.Context)
+  fullName: com.azure.resourcemanager.appservice.fluent.AppServicePlansClient.listWebAppsSinglePageAsync(String resourceGroupName, String name, String skipToken, String filter, String top, Context context)
+  name: listWebAppsSinglePageAsync(String resourceGroupName, String name, String skipToken, String filter, String top, Context context)
+  nameWithType: AppServicePlansClient.listWebAppsSinglePageAsync(String resourceGroupName, String name, String skipToken, String filter, String top, Context context)
+  summary: Description for Get all apps associated with an App Service plan.
+  parameters:
+  - description: Name of the resource group to which the resource belongs.
+    name: resourceGroupName
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  - description: Name of the App Service plan.
+    name: name
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  - description: |-
+      Skip to a web app in the list of webapps associated with app service plan. If specified, the
+           resulting list will contain web apps starting from (including) the skipToken. Otherwise, the resulting list
+           contains web apps from the start of the list.
+    name: skipToken
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  - description: 'Supported filter: $filter=state eq running. Returns only web apps that are currently running.'
+    name: filter
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  - description: List page size. If specified, results are paged.
+    name: top
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  - description: The context to associate with this operation.
+    name: context
+    type: <xref href="com.azure.core.util.Context?alt=com.azure.core.util.Context&text=Context" data-throw-if-not-resolved="False" />
+  syntax: public Mono<PagedResponse<SiteInner>> listWebAppsSinglePageAsync(String resourceGroupName, String name, String skipToken, String filter, String top, Context context)
+  returns:
+    description: collection of App Service apps.
+    type: <xref href="reactor.core.publisher.Mono?alt=reactor.core.publisher.Mono&text=Mono" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.core.http.rest.PagedResponse?alt=com.azure.core.http.rest.PagedResponse&text=PagedResponse" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.resourcemanager.appservice.fluent.inner.SiteInner?alt=com.azure.resourcemanager.appservice.fluent.inner.SiteInner&text=SiteInner" data-throw-if-not-resolved="False" />&gt;&gt;
+type: method
+metadata: {}
+package: com.azure.resourcemanager.appservice.fluent
+artifact: com.azure.resourcemanager:azure-resourcemanager-appservice:2.0.0-beta.2

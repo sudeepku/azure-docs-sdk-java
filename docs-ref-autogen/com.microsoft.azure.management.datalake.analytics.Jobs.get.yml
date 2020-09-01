@@ -1,0 +1,32 @@
+### YamlMime:JavaMember
+nameWithType: Jobs.get
+type: method
+members:
+- fullName: com.microsoft.azure.management.datalake.analytics.Jobs.get(String accountName, UUID jobIdentity)
+  name: get(String accountName, UUID jobIdentity)
+  nameWithType: Jobs.get(String accountName, UUID jobIdentity)
+  parameters:
+  - description: <p>The Azure Data Lake Analytics account to execute job operations on. </p>
+    name: accountName
+    type: <xref href="String?alt=String&text=String" data-throw-if-not-resolved="False"/>
+  - description: <p>JobInfo ID. </p>
+    name: jobIdentity
+    type: <xref href="UUID?alt=UUID&text=UUID" data-throw-if-not-resolved="False"/>
+  exceptions:
+  - name: 3c87bd19
+  - name: dc385fd4
+  - name: 9b2a4515
+  returns:
+    description: <p>the JobInformation object if successful. </p>
+    type: <xref href="com.microsoft.azure.management.datalake.analytics.models.JobInformation?alt=com.microsoft.azure.management.datalake.analytics.models.JobInformation&text=JobInformation" data-throw-if-not-resolved="False"/>
+  summary: >-
+    <p>Gets the job information for the specified job ID.</p>
+
+    <p></p>
+  syntax: public JobInformation get(String accountName, UUID jobIdentity)
+  uid: com.microsoft.azure.management.datalake.analytics.Jobs.get(String,UUID)
+uid: com.microsoft.azure.management.datalake.analytics.Jobs.get*
+fullName: com.microsoft.azure.management.datalake.analytics.Jobs.get(String accountName, UUID jobIdentity)
+name: get(String accountName, UUID jobIdentity)
+package: com.microsoft.azure.management.datalake.analytics
+metadata: {}

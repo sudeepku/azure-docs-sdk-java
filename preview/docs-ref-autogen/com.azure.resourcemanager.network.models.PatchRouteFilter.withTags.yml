@@ -1,0 +1,23 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.network.models.PatchRouteFilter.withTags*
+fullName: com.azure.resourcemanager.network.models.PatchRouteFilter.withTags
+name: withTags
+nameWithType: PatchRouteFilter.withTags
+members:
+- uid: com.azure.resourcemanager.network.models.PatchRouteFilter.withTags(java.util.Map<java.lang.String,java.lang.String>)
+  fullName: com.azure.resourcemanager.network.models.PatchRouteFilter.withTags(Map<String,String> tags)
+  name: withTags(Map<String,String> tags)
+  nameWithType: PatchRouteFilter.withTags(Map<String,String> tags)
+  summary: 'Set the tags property: Resource tags.'
+  parameters:
+  - description: the tags value to set.
+    name: tags
+    type: <xref href="java.util.Map?alt=java.util.Map&text=Map" data-throw-if-not-resolved="False" />&lt;<xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />,<xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />&gt;
+  syntax: public PatchRouteFilter withTags(Map<String,String> tags)
+  returns:
+    description: the PatchRouteFilter object itself.
+    type: <xref href="com.azure.resourcemanager.network.models.PatchRouteFilter?alt=com.azure.resourcemanager.network.models.PatchRouteFilter&text=PatchRouteFilter" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.resourcemanager.network.models
+artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.0.0-beta.2

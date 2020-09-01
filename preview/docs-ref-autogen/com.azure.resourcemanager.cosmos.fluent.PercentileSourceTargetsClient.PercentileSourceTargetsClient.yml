@@ -1,0 +1,20 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.cosmos.fluent.PercentileSourceTargetsClient.PercentileSourceTargetsClient*
+fullName: com.azure.resourcemanager.cosmos.fluent.PercentileSourceTargetsClient.PercentileSourceTargetsClient
+name: PercentileSourceTargetsClient
+nameWithType: PercentileSourceTargetsClient.PercentileSourceTargetsClient
+members:
+- uid: com.azure.resourcemanager.cosmos.fluent.PercentileSourceTargetsClient.PercentileSourceTargetsClient(com.azure.resourcemanager.cosmos.CosmosDBManagementClient)
+  fullName: com.azure.resourcemanager.cosmos.fluent.PercentileSourceTargetsClient.PercentileSourceTargetsClient(CosmosDBManagementClient client)
+  name: PercentileSourceTargetsClient(CosmosDBManagementClient client)
+  nameWithType: PercentileSourceTargetsClient.PercentileSourceTargetsClient(CosmosDBManagementClient client)
+  summary: Initializes an instance of PercentileSourceTargetsClient.
+  parameters:
+  - description: the instance of the service client containing this operation class.
+    name: client
+    type: <xref href="com.azure.resourcemanager.cosmos.CosmosDBManagementClient?alt=com.azure.resourcemanager.cosmos.CosmosDBManagementClient&text=CosmosDBManagementClient" data-throw-if-not-resolved="False" />
+  syntax: public PercentileSourceTargetsClient(CosmosDBManagementClient client)
+type: constructor
+metadata: {}
+package: com.azure.resourcemanager.cosmos.fluent
+artifact: com.azure.resourcemanager:azure-resourcemanager-cosmos:2.0.0-beta.2

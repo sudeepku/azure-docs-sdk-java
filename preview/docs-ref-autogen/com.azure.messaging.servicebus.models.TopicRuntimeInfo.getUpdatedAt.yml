@@ -1,0 +1,19 @@
+### YamlMime:JavaMember
+uid: com.azure.messaging.servicebus.models.TopicRuntimeInfo.getUpdatedAt*
+fullName: com.azure.messaging.servicebus.models.TopicRuntimeInfo.getUpdatedAt
+name: getUpdatedAt
+nameWithType: TopicRuntimeInfo.getUpdatedAt
+members:
+- uid: com.azure.messaging.servicebus.models.TopicRuntimeInfo.getUpdatedAt()
+  fullName: com.azure.messaging.servicebus.models.TopicRuntimeInfo.getUpdatedAt()
+  name: getUpdatedAt()
+  nameWithType: TopicRuntimeInfo.getUpdatedAt()
+  summary: Gets the exact time the topic description was updated.
+  syntax: public OffsetDateTime getUpdatedAt()
+  returns:
+    description: The exact time the topic description was updated.
+    type: <xref href="java.time.OffsetDateTime?alt=java.time.OffsetDateTime&text=OffsetDateTime" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.messaging.servicebus.models
+artifact: com.azure:azure-messaging-servicebus:7.0.0-beta.5

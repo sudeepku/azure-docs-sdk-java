@@ -1,0 +1,21 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.appservice.fluent.inner.CustomHostnameAnalysisResultInner.hasConflictAcrossSubscription*
+fullName: com.azure.resourcemanager.appservice.fluent.inner.CustomHostnameAnalysisResultInner.hasConflictAcrossSubscription
+name: hasConflictAcrossSubscription
+nameWithType: CustomHostnameAnalysisResultInner.hasConflictAcrossSubscription
+members:
+- uid: com.azure.resourcemanager.appservice.fluent.inner.CustomHostnameAnalysisResultInner.hasConflictAcrossSubscription()
+  fullName: com.azure.resourcemanager.appservice.fluent.inner.CustomHostnameAnalysisResultInner.hasConflictAcrossSubscription()
+  name: hasConflictAcrossSubscription()
+  nameWithType: CustomHostnameAnalysisResultInner.hasConflictAcrossSubscription()
+  summary: |-
+    Get the hasConflictAcrossSubscription property: &lt;code&gt;true&lt;/code&gt; if there is a conflict across
+     subscriptions; otherwise, &lt;code&gt;false&lt;/code&gt;.
+  syntax: public Boolean hasConflictAcrossSubscription()
+  returns:
+    description: the hasConflictAcrossSubscription value.
+    type: <xref href="java.lang.Boolean?alt=java.lang.Boolean&text=Boolean" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.resourcemanager.appservice.fluent.inner
+artifact: com.azure.resourcemanager:azure-resourcemanager-appservice:2.0.0-beta.2

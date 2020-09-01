@@ -1,0 +1,23 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.appservice.fluent.inner.SiteInner.withReserved*
+fullName: com.azure.resourcemanager.appservice.fluent.inner.SiteInner.withReserved
+name: withReserved
+nameWithType: SiteInner.withReserved
+members:
+- uid: com.azure.resourcemanager.appservice.fluent.inner.SiteInner.withReserved(java.lang.Boolean)
+  fullName: com.azure.resourcemanager.appservice.fluent.inner.SiteInner.withReserved(Boolean reserved)
+  name: withReserved(Boolean reserved)
+  nameWithType: SiteInner.withReserved(Boolean reserved)
+  summary: 'Set the reserved property: &lt;code&gt;true&lt;/code&gt; if reserved; otherwise, &lt;code&gt;false&lt;/code&gt;.'
+  parameters:
+  - description: the reserved value to set.
+    name: reserved
+    type: <xref href="java.lang.Boolean?alt=java.lang.Boolean&text=Boolean" data-throw-if-not-resolved="False" />
+  syntax: public SiteInner withReserved(Boolean reserved)
+  returns:
+    description: the SiteInner object itself.
+    type: <xref href="com.azure.resourcemanager.appservice.fluent.inner.SiteInner?alt=com.azure.resourcemanager.appservice.fluent.inner.SiteInner&text=SiteInner" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.resourcemanager.appservice.fluent.inner
+artifact: com.azure.resourcemanager:azure-resourcemanager-appservice:2.0.0-beta.2

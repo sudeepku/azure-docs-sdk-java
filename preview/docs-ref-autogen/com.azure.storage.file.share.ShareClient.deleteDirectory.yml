@@ -1,0 +1,33 @@
+### YamlMime:JavaMember
+uid: com.azure.storage.file.share.ShareClient.deleteDirectory*
+fullName: com.azure.storage.file.share.ShareClient.deleteDirectory
+name: deleteDirectory
+nameWithType: ShareClient.deleteDirectory
+members:
+- uid: com.azure.storage.file.share.ShareClient.deleteDirectory(java.lang.String)
+  fullName: com.azure.storage.file.share.ShareClient.deleteDirectory(String directoryName)
+  name: deleteDirectory(String directoryName)
+  nameWithType: ShareClient.deleteDirectory(String directoryName)
+  summary: |-
+    Deletes the specified directory in the share.
+
+     <p><strong>Code Samples</strong></p>
+
+     <p>Delete the directory "mydirectory"</p>
+
+     <pre>
+     shareClient.deleteDirectory&#40;&quot;mydirectory&quot;&#41;;
+     System.out.println&#40;&quot;Completed deleting the directory.&quot;&#41;;
+     </pre>
+
+     <p>For more information, see the
+     <a href="https://docs.microsoft.com/en-us/rest/api/storageservices/delete-directory">Azure Docs</a>.</p>
+  parameters:
+  - description: Name of the directory
+    name: directoryName
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  syntax: public void deleteDirectory(String directoryName)
+type: method
+metadata: {}
+package: com.azure.storage.file.share
+artifact: com.azure:azure-storage-file-share:12.6.0-beta.1

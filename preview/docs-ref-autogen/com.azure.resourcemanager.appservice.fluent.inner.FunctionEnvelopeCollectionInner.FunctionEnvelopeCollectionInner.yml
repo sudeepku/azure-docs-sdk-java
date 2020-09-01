@@ -1,0 +1,15 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.appservice.fluent.inner.FunctionEnvelopeCollectionInner.FunctionEnvelopeCollectionInner*
+fullName: com.azure.resourcemanager.appservice.fluent.inner.FunctionEnvelopeCollectionInner.FunctionEnvelopeCollectionInner
+name: FunctionEnvelopeCollectionInner
+nameWithType: FunctionEnvelopeCollectionInner.FunctionEnvelopeCollectionInner
+members:
+- uid: com.azure.resourcemanager.appservice.fluent.inner.FunctionEnvelopeCollectionInner.FunctionEnvelopeCollectionInner()
+  fullName: com.azure.resourcemanager.appservice.fluent.inner.FunctionEnvelopeCollectionInner.FunctionEnvelopeCollectionInner()
+  name: FunctionEnvelopeCollectionInner()
+  nameWithType: FunctionEnvelopeCollectionInner.FunctionEnvelopeCollectionInner()
+  syntax: public FunctionEnvelopeCollectionInner()
+type: constructor
+metadata: {}
+package: com.azure.resourcemanager.appservice.fluent.inner
+artifact: com.azure.resourcemanager:azure-resourcemanager-appservice:2.0.0-beta.2

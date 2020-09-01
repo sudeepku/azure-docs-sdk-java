@@ -1,0 +1,26 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.resources.fluentcore.utils.Utils.downloadFileAsync*
+fullName: com.azure.resourcemanager.resources.fluentcore.utils.Utils.downloadFileAsync
+name: downloadFileAsync
+nameWithType: Utils.downloadFileAsync
+members:
+- uid: com.azure.resourcemanager.resources.fluentcore.utils.Utils.downloadFileAsync(java.lang.String,com.azure.core.http.HttpPipeline)
+  fullName: com.azure.resourcemanager.resources.fluentcore.utils.Utils.downloadFileAsync(String url, HttpPipeline retrofit)
+  name: downloadFileAsync(String url, HttpPipeline retrofit)
+  nameWithType: Utils.downloadFileAsync(String url, HttpPipeline retrofit)
+  summary: Download a file asynchronously.
+  parameters:
+  - description: the URL pointing to the file
+    name: url
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  - description: the retrofit client
+    name: retrofit
+    type: <xref href="com.azure.core.http.HttpPipeline?alt=com.azure.core.http.HttpPipeline&text=HttpPipeline" data-throw-if-not-resolved="False" />
+  syntax: public static Mono<byte[]> downloadFileAsync(String url, HttpPipeline retrofit)
+  returns:
+    description: an Observable pointing to the content of the file
+    type: <xref href="reactor.core.publisher.Mono?alt=reactor.core.publisher.Mono&text=Mono" data-throw-if-not-resolved="False" />&lt;<xref href="byte?alt=byte&text=byte" data-throw-if-not-resolved="False" />[]&gt;
+type: method
+metadata: {}
+package: com.azure.resourcemanager.resources.fluentcore.utils
+artifact: com.azure.resourcemanager:azure-resourcemanager-resources:2.0.0-beta.2

@@ -1,0 +1,23 @@
+### YamlMime:JavaMember
+uid: com.azure.cosmos.implementation.apachecommons.lang.Range.getComparator*
+fullName: com.azure.cosmos.implementation.apachecommons.lang.Range<T>.getComparator
+name: getComparator
+nameWithType: Range<T>.getComparator
+members:
+- uid: com.azure.cosmos.implementation.apachecommons.lang.Range.getComparator()
+  fullName: com.azure.cosmos.implementation.apachecommons.lang.Range<T>.getComparator()
+  name: getComparator()
+  nameWithType: Range<T>.getComparator()
+  summary: |-
+    <p>Gets the comparator being used to determine if objects are within the range.</p>
+
+     <p>Natural ordering uses an internal comparator implementation, thus this
+     method never returns null.</p>
+  syntax: public Comparator<T> getComparator()
+  returns:
+    description: the comparator being used, not null
+    type: <xref href="java.util.Comparator?alt=java.util.Comparator&text=Comparator" data-throw-if-not-resolved="False" />&lt;<xref href="T?alt=T&text=T" data-throw-if-not-resolved="False" />&gt;
+type: method
+metadata: {}
+package: com.azure.cosmos.implementation.apachecommons.lang
+artifact: com.azure:azure-cosmos:4.3.2-beta.2

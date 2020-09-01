@@ -1,0 +1,25 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.compute.fluent.inner.GalleryListInner.withNextLink*
+fullName: com.azure.resourcemanager.compute.fluent.inner.GalleryListInner.withNextLink
+name: withNextLink
+nameWithType: GalleryListInner.withNextLink
+members:
+- uid: com.azure.resourcemanager.compute.fluent.inner.GalleryListInner.withNextLink(java.lang.String)
+  fullName: com.azure.resourcemanager.compute.fluent.inner.GalleryListInner.withNextLink(String nextLink)
+  name: withNextLink(String nextLink)
+  nameWithType: GalleryListInner.withNextLink(String nextLink)
+  summary: |-
+    Set the nextLink property: The uri to fetch the next page of galleries. Call ListNext() with this to fetch the
+     next page of galleries.
+  parameters:
+  - description: the nextLink value to set.
+    name: nextLink
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  syntax: public GalleryListInner withNextLink(String nextLink)
+  returns:
+    description: the GalleryListInner object itself.
+    type: <xref href="com.azure.resourcemanager.compute.fluent.inner.GalleryListInner?alt=com.azure.resourcemanager.compute.fluent.inner.GalleryListInner&text=GalleryListInner" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.resourcemanager.compute.fluent.inner
+artifact: com.azure.resourcemanager:azure-resourcemanager-compute:2.0.0-beta.2

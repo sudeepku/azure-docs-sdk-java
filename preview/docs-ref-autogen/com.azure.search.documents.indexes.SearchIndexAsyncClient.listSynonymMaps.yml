@@ -1,0 +1,30 @@
+### YamlMime:JavaMember
+uid: com.azure.search.documents.indexes.SearchIndexAsyncClient.listSynonymMaps*
+fullName: com.azure.search.documents.indexes.SearchIndexAsyncClient.listSynonymMaps
+name: listSynonymMaps
+nameWithType: SearchIndexAsyncClient.listSynonymMaps
+members:
+- uid: com.azure.search.documents.indexes.SearchIndexAsyncClient.listSynonymMaps()
+  fullName: com.azure.search.documents.indexes.SearchIndexAsyncClient.listSynonymMaps()
+  name: listSynonymMaps()
+  nameWithType: SearchIndexAsyncClient.listSynonymMaps()
+  summary: |-
+    Lists all synonym maps available for an Azure Cognitive Search service.
+
+     <p><strong>Code Sample</strong></p>
+
+     <p> List all synonym maps. </p>
+
+     <pre>
+     searchIndexAsyncClient.listSynonymMaps&#40;&#41;
+         .subscribe&#40;synonymMap -&gt; System.out.printf&#40;&quot;The synonymMap name is %s. The etag of synonymMap is %s.%n&quot;,
+             synonymMap.getName&#40;&#41;, synonymMap.getETag&#40;&#41;&#41;&#41;;
+     </pre>
+  syntax: public PagedFlux<SynonymMap> listSynonymMaps()
+  returns:
+    description: a reactive response emitting the list of synonym maps.
+    type: <xref href="com.azure.core.http.rest.PagedFlux?alt=com.azure.core.http.rest.PagedFlux&text=PagedFlux" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.search.documents.indexes.models.SynonymMap?alt=com.azure.search.documents.indexes.models.SynonymMap&text=SynonymMap" data-throw-if-not-resolved="False" />&gt;
+type: method
+metadata: {}
+package: com.azure.search.documents.indexes
+artifact: com.azure:azure-search-documents:11.1.0-beta.1

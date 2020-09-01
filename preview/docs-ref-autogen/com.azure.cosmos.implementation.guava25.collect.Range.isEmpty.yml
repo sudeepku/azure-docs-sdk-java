@@ -1,0 +1,25 @@
+### YamlMime:JavaMember
+uid: com.azure.cosmos.implementation.guava25.collect.Range.isEmpty*
+fullName: com.azure.cosmos.implementation.guava25.collect.Range<C>.isEmpty
+name: isEmpty
+nameWithType: Range<C>.isEmpty
+members:
+- uid: com.azure.cosmos.implementation.guava25.collect.Range.isEmpty()
+  fullName: com.azure.cosmos.implementation.guava25.collect.Range<C>.isEmpty()
+  name: isEmpty()
+  nameWithType: Range<C>.isEmpty()
+  summary: |-
+    Returns <code>true</code> if this range is of the form <code>[v..v)</code> or <code>(v..v]</code>. (This does
+     not encompass ranges of the form <code>(v..v)</code>, because such ranges are <i>invalid</i> and
+     can't be constructed at all.)
+
+     <p>Note that certain discrete ranges such as the integer range <code>(3..4)</code> are <b>not</b>
+     considered empty, even though they contain no actual values. In these cases, it may be helpful
+     to preprocess ranges with <xref uid="#canonical(DiscreteDomain)" data-throw-if-not-resolved="false">#canonical(DiscreteDomain)</xref>.
+  syntax: public boolean isEmpty()
+  returns:
+    type: <xref href="boolean?alt=boolean&text=boolean" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.cosmos.implementation.guava25.collect
+artifact: com.azure:azure-cosmos:4.3.2-beta.2

@@ -1,0 +1,23 @@
+### YamlMime:JavaMember
+uid: com.azure.messaging.servicebus.models.AuthorizationRule.setType*
+fullName: com.azure.messaging.servicebus.models.AuthorizationRule.setType
+name: setType
+nameWithType: AuthorizationRule.setType
+members:
+- uid: com.azure.messaging.servicebus.models.AuthorizationRule.setType(java.lang.String)
+  fullName: com.azure.messaging.servicebus.models.AuthorizationRule.setType(String type)
+  name: setType(String type)
+  nameWithType: AuthorizationRule.setType(String type)
+  summary: 'Set the type property: The type property.'
+  parameters:
+  - description: the type value to set.
+    name: type
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  syntax: public AuthorizationRule setType(String type)
+  returns:
+    description: the AuthorizationRule object itself.
+    type: <xref href="com.azure.messaging.servicebus.models.AuthorizationRule?alt=com.azure.messaging.servicebus.models.AuthorizationRule&text=AuthorizationRule" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.messaging.servicebus.models
+artifact: com.azure:azure-messaging-servicebus:7.0.0-beta.5

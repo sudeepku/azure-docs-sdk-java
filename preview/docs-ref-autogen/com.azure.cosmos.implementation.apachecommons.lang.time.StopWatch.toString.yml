@@ -1,0 +1,27 @@
+### YamlMime:JavaMember
+uid: com.azure.cosmos.implementation.apachecommons.lang.time.StopWatch.toString*
+fullName: com.azure.cosmos.implementation.apachecommons.lang.time.StopWatch.toString
+name: toString
+nameWithType: StopWatch.toString
+members:
+- uid: com.azure.cosmos.implementation.apachecommons.lang.time.StopWatch.toString()
+  fullName: com.azure.cosmos.implementation.apachecommons.lang.time.StopWatch.toString()
+  name: toString()
+  nameWithType: StopWatch.toString()
+  summary: |-
+    <p>
+     Gets a summary of the time that the stopwatch recorded as a string.
+     </p>
+
+     <p>
+     The format used is ISO 8601-like, <i>hours</i>:<i>minutes</i>:<i>seconds</i>.<i>milliseconds</i>.
+     </p>
+  overridden: java.lang.Object.toString()
+  syntax: public String toString()
+  returns:
+    description: the time as a String
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.cosmos.implementation.apachecommons.lang.time
+artifact: com.azure:azure-cosmos:4.3.2-beta.2

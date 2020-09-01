@@ -1,0 +1,106 @@
+### YamlMime:JavaMember
+uid: com.azure.storage.file.share.ShareFileClient.setMetadataWithResponse*
+fullName: com.azure.storage.file.share.ShareFileClient.setMetadataWithResponse
+name: setMetadataWithResponse
+nameWithType: ShareFileClient.setMetadataWithResponse
+members:
+- uid: com.azure.storage.file.share.ShareFileClient.setMetadataWithResponse(java.util.Map<java.lang.String,java.lang.String>,com.azure.storage.file.share.models.ShareRequestConditions,java.time.Duration,com.azure.core.util.Context)
+  fullName: com.azure.storage.file.share.ShareFileClient.setMetadataWithResponse(Map<String,String> metadata, ShareRequestConditions requestConditions, Duration timeout, Context context)
+  name: setMetadataWithResponse(Map<String,String> metadata, ShareRequestConditions requestConditions, Duration timeout, Context context)
+  nameWithType: ShareFileClient.setMetadataWithResponse(Map<String,String> metadata, ShareRequestConditions requestConditions, Duration timeout, Context context)
+  summary: |-
+    Sets the user-defined metadata to associate to the file.
+
+     <p>If <code>null</code> is passed for the metadata it will clear the metadata associated to the file.</p>
+
+     <p><strong>Code Samples</strong></p>
+
+     <p>Set the metadata to "file:updatedMetadata"</p>
+
+     <pre>
+     ShareRequestConditions requestConditions = new ShareRequestConditions&#40;&#41;.setLeaseId&#40;leaseId&#41;;
+     Response&lt;ShareFileMetadataInfo&gt; response = fileClient.setMetadataWithResponse&#40;
+         Collections.singletonMap&#40;&quot;file&quot;, &quot;updatedMetadata&quot;&#41;, requestConditions, Duration.ofSeconds&#40;1&#41;,
+         new Context&#40;key1, value1&#41;&#41;;
+     System.out.printf&#40;&quot;Setting the file metadata completed with status code %d&quot;, response.getStatusCode&#40;&#41;&#41;;
+     </pre>
+
+     <p>Clear the metadata of the file</p>
+
+     <pre>
+     ShareRequestConditions requestConditions = new ShareRequestConditions&#40;&#41;.setLeaseId&#40;leaseId&#41;;
+     Response&lt;ShareFileMetadataInfo&gt; response = fileClient.setMetadataWithResponse&#40;null, requestConditions,
+         Duration.ofSeconds&#40;1&#41;, new Context&#40;key1, value1&#41;&#41;;
+     System.out.printf&#40;&quot;Setting the file metadata completed with status code %d&quot;, response.getStatusCode&#40;&#41;&#41;;
+     </pre>
+
+     <p>For more information, see the
+     <a href="https://docs.microsoft.com/en-us/rest/api/storageservices/set-file-metadata">Azure Docs</a>.</p>
+  parameters:
+  - description: Options.Metadata to set on the file, if null is passed the metadata for the file is cleared
+    name: metadata
+    type: <xref href="java.util.Map?alt=java.util.Map&text=Map" data-throw-if-not-resolved="False" />&lt;<xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />,<xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />&gt;
+  - description: <xref uid="com.azure.storage.file.share.models.ShareRequestConditions" data-throw-if-not-resolved="false">ShareRequestConditions</xref>
+    name: requestConditions
+    type: <xref href="com.azure.storage.file.share.models.ShareRequestConditions?alt=com.azure.storage.file.share.models.ShareRequestConditions&text=ShareRequestConditions" data-throw-if-not-resolved="False" />
+  - description: |-
+      An optional timeout applied to the operation. If a response is not returned before the timeout
+       concludes a <xref uid="" data-throw-if-not-resolved="false">RuntimeException</xref> will be thrown.
+    name: timeout
+    type: <xref href="java.time.Duration?alt=java.time.Duration&text=Duration" data-throw-if-not-resolved="False" />
+  - description: Additional context that is passed through the Http pipeline during the service call.
+    name: context
+    type: <xref href="com.azure.core.util.Context?alt=com.azure.core.util.Context&text=Context" data-throw-if-not-resolved="False" />
+  syntax: public Response<ShareFileMetadataInfo> setMetadataWithResponse(Map<String,String> metadata, ShareRequestConditions requestConditions, Duration timeout, Context context)
+  returns:
+    description: Response containing the <xref uid="com.azure.storage.file.share.models.ShareFileMetadataInfo" data-throw-if-not-resolved="false">file meta info</xref> with headers and status code
+    type: <xref href="com.azure.core.http.rest.Response?alt=com.azure.core.http.rest.Response&text=Response" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.storage.file.share.models.ShareFileMetadataInfo?alt=com.azure.storage.file.share.models.ShareFileMetadataInfo&text=ShareFileMetadataInfo" data-throw-if-not-resolved="False" />&gt;
+- uid: com.azure.storage.file.share.ShareFileClient.setMetadataWithResponse(java.util.Map<java.lang.String,java.lang.String>,java.time.Duration,com.azure.core.util.Context)
+  fullName: com.azure.storage.file.share.ShareFileClient.setMetadataWithResponse(Map<String,String> metadata, Duration timeout, Context context)
+  name: setMetadataWithResponse(Map<String,String> metadata, Duration timeout, Context context)
+  nameWithType: ShareFileClient.setMetadataWithResponse(Map<String,String> metadata, Duration timeout, Context context)
+  summary: |-
+    Sets the user-defined metadata to associate to the file.
+
+     <p>If <code>null</code> is passed for the metadata it will clear the metadata associated to the file.</p>
+
+     <p><strong>Code Samples</strong></p>
+
+     <p>Set the metadata to "file:updatedMetadata"</p>
+
+     <pre>
+     Response&lt;ShareFileMetadataInfo&gt; response = fileClient.setMetadataWithResponse&#40;
+         Collections.singletonMap&#40;&quot;file&quot;, &quot;updatedMetadata&quot;&#41;, Duration.ofSeconds&#40;1&#41;, new Context&#40;key1, value1&#41;&#41;;
+     System.out.printf&#40;&quot;Setting the file metadata completed with status code %d&quot;, response.getStatusCode&#40;&#41;&#41;;
+     </pre>
+
+     <p>Clear the metadata of the file</p>
+
+     <pre>
+     Response&lt;ShareFileMetadataInfo&gt; response = fileClient.setMetadataWithResponse&#40;null,
+         Duration.ofSeconds&#40;1&#41;, new Context&#40;key1, value1&#41;&#41;;
+     System.out.printf&#40;&quot;Setting the file metadata completed with status code %d&quot;, response.getStatusCode&#40;&#41;&#41;;
+     </pre>
+
+     <p>For more information, see the
+     <a href="https://docs.microsoft.com/en-us/rest/api/storageservices/set-file-metadata">Azure Docs</a>.</p>
+  parameters:
+  - description: Options.Metadata to set on the file, if null is passed the metadata for the file is cleared
+    name: metadata
+    type: <xref href="java.util.Map?alt=java.util.Map&text=Map" data-throw-if-not-resolved="False" />&lt;<xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />,<xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />&gt;
+  - description: |-
+      An optional timeout applied to the operation. If a response is not returned before the timeout
+       concludes a <xref uid="" data-throw-if-not-resolved="false">RuntimeException</xref> will be thrown.
+    name: timeout
+    type: <xref href="java.time.Duration?alt=java.time.Duration&text=Duration" data-throw-if-not-resolved="False" />
+  - description: Additional context that is passed through the Http pipeline during the service call.
+    name: context
+    type: <xref href="com.azure.core.util.Context?alt=com.azure.core.util.Context&text=Context" data-throw-if-not-resolved="False" />
+  syntax: public Response<ShareFileMetadataInfo> setMetadataWithResponse(Map<String,String> metadata, Duration timeout, Context context)
+  returns:
+    description: Response containing the <xref uid="com.azure.storage.file.share.models.ShareFileMetadataInfo" data-throw-if-not-resolved="false">file meta info</xref> with headers and status code
+    type: <xref href="com.azure.core.http.rest.Response?alt=com.azure.core.http.rest.Response&text=Response" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.storage.file.share.models.ShareFileMetadataInfo?alt=com.azure.storage.file.share.models.ShareFileMetadataInfo&text=ShareFileMetadataInfo" data-throw-if-not-resolved="False" />&gt;
+type: method
+metadata: {}
+package: com.azure.storage.file.share
+artifact: com.azure:azure-storage-file-share:12.6.0

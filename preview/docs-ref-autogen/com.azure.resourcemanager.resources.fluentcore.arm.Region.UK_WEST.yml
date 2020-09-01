@@ -1,0 +1,15 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.resources.fluentcore.arm.Region.UK_WEST
+fullName: com.azure.resourcemanager.resources.fluentcore.arm.Region.UK_WEST
+name: UK_WEST
+nameWithType: Region.UK_WEST
+members:
+- uid: com.azure.resourcemanager.resources.fluentcore.arm.Region.UK_WEST
+  fullName: com.azure.resourcemanager.resources.fluentcore.arm.Region.UK_WEST
+  name: UK_WEST
+  nameWithType: Region.UK_WEST
+  syntax: public static final Region UK_WEST
+type: field
+metadata: {}
+package: com.azure.resourcemanager.resources.fluentcore.arm
+artifact: com.azure.resourcemanager:azure-resourcemanager-resources:2.0.0-beta.2

@@ -1,0 +1,20 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.keyvault.fluent.OperationsClient.OperationsClient*
+fullName: com.azure.resourcemanager.keyvault.fluent.OperationsClient.OperationsClient
+name: OperationsClient
+nameWithType: OperationsClient.OperationsClient
+members:
+- uid: com.azure.resourcemanager.keyvault.fluent.OperationsClient.OperationsClient(com.azure.resourcemanager.keyvault.KeyVaultManagementClient)
+  fullName: com.azure.resourcemanager.keyvault.fluent.OperationsClient.OperationsClient(KeyVaultManagementClient client)
+  name: OperationsClient(KeyVaultManagementClient client)
+  nameWithType: OperationsClient.OperationsClient(KeyVaultManagementClient client)
+  summary: Initializes an instance of OperationsClient.
+  parameters:
+  - description: the instance of the service client containing this operation class.
+    name: client
+    type: <xref href="com.azure.resourcemanager.keyvault.KeyVaultManagementClient?alt=com.azure.resourcemanager.keyvault.KeyVaultManagementClient&text=KeyVaultManagementClient" data-throw-if-not-resolved="False" />
+  syntax: public OperationsClient(KeyVaultManagementClient client)
+type: constructor
+metadata: {}
+package: com.azure.resourcemanager.keyvault.fluent
+artifact: com.azure.resourcemanager:azure-resourcemanager-keyvault:2.0.0-beta.2

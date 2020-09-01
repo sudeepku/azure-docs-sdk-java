@@ -1,0 +1,23 @@
+### YamlMime:JavaMember
+uid: com.azure.storage.blob.BlobContainerAsyncClient.deleteWithResponse*
+fullName: com.azure.storage.blob.BlobContainerAsyncClient.deleteWithResponse
+name: deleteWithResponse
+nameWithType: BlobContainerAsyncClient.deleteWithResponse
+members:
+- uid: com.azure.storage.blob.BlobContainerAsyncClient.deleteWithResponse(com.azure.storage.blob.models.BlobRequestConditions)
+  fullName: com.azure.storage.blob.BlobContainerAsyncClient.deleteWithResponse(BlobRequestConditions requestConditions)
+  name: deleteWithResponse(BlobRequestConditions requestConditions)
+  nameWithType: BlobContainerAsyncClient.deleteWithResponse(BlobRequestConditions requestConditions)
+  summary: "Marks the specified container for deletion. The container and any blobs contained within it are later deleted\n during garbage collection. For more information, see the\n <a href=\"https://docs.microsoft.com/rest/api/storageservices/delete-container\">Azure Docs</a>.\n\n <p><strong>Code Samples</strong></p>\n\n <pre>\n BlobRequestConditions requestConditions = new BlobRequestConditions&#40;&#41;\n     .setLeaseId&#40;leaseId&#41;\n     .setIfUnmodifiedSince&#40;OffsetDateTime.now&#40;&#41;.minusDays&#40;3&#41;&#41;;\n \n client.deleteWithResponse&#40;requestConditions&#41;.subscribe&#40;response -&gt;\n     System.out.printf&#40;&quot;Delete completed with status %d%n&quot;, response.getStatusCode&#40;&#41;&#41;&#41;;\n </pre>"
+  parameters:
+  - description: <xref uid="com.azure.storage.blob.models.BlobRequestConditions" data-throw-if-not-resolved="false">BlobRequestConditions</xref>
+    name: requestConditions
+    type: <xref href="com.azure.storage.blob.models.BlobRequestConditions?alt=com.azure.storage.blob.models.BlobRequestConditions&text=BlobRequestConditions" data-throw-if-not-resolved="False" />
+  syntax: public Mono<Response<Void>> deleteWithResponse(BlobRequestConditions requestConditions)
+  returns:
+    description: A reactive response signalling completion.
+    type: <xref href="reactor.core.publisher.Mono?alt=reactor.core.publisher.Mono&text=Mono" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.core.http.rest.Response?alt=com.azure.core.http.rest.Response&text=Response" data-throw-if-not-resolved="False" />&lt;<xref href="java.lang.Void?alt=java.lang.Void&text=Void" data-throw-if-not-resolved="False" />&gt;&gt;
+type: method
+metadata: {}
+package: com.azure.storage.blob
+artifact: com.azure:azure-storage-blob:12.8.0

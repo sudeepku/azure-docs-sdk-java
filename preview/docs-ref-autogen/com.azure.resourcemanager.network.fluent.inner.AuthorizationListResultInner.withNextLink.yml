@@ -1,0 +1,23 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.network.fluent.inner.AuthorizationListResultInner.withNextLink*
+fullName: com.azure.resourcemanager.network.fluent.inner.AuthorizationListResultInner.withNextLink
+name: withNextLink
+nameWithType: AuthorizationListResultInner.withNextLink
+members:
+- uid: com.azure.resourcemanager.network.fluent.inner.AuthorizationListResultInner.withNextLink(java.lang.String)
+  fullName: com.azure.resourcemanager.network.fluent.inner.AuthorizationListResultInner.withNextLink(String nextLink)
+  name: withNextLink(String nextLink)
+  nameWithType: AuthorizationListResultInner.withNextLink(String nextLink)
+  summary: 'Set the nextLink property: The URL to get the next set of results.'
+  parameters:
+  - description: the nextLink value to set.
+    name: nextLink
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  syntax: public AuthorizationListResultInner withNextLink(String nextLink)
+  returns:
+    description: the AuthorizationListResultInner object itself.
+    type: <xref href="com.azure.resourcemanager.network.fluent.inner.AuthorizationListResultInner?alt=com.azure.resourcemanager.network.fluent.inner.AuthorizationListResultInner&text=AuthorizationListResultInner" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.resourcemanager.network.fluent.inner
+artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.0.0-beta.2

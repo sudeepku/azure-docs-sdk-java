@@ -1,0 +1,23 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.network.models.ExpressRouteCircuitPeeringConfig.withAdvertisedPublicPrefixesState*
+fullName: com.azure.resourcemanager.network.models.ExpressRouteCircuitPeeringConfig.withAdvertisedPublicPrefixesState
+name: withAdvertisedPublicPrefixesState
+nameWithType: ExpressRouteCircuitPeeringConfig.withAdvertisedPublicPrefixesState
+members:
+- uid: com.azure.resourcemanager.network.models.ExpressRouteCircuitPeeringConfig.withAdvertisedPublicPrefixesState(com.azure.resourcemanager.network.models.ExpressRouteCircuitPeeringAdvertisedPublicPrefixState)
+  fullName: com.azure.resourcemanager.network.models.ExpressRouteCircuitPeeringConfig.withAdvertisedPublicPrefixesState(ExpressRouteCircuitPeeringAdvertisedPublicPrefixState advertisedPublicPrefixesState)
+  name: withAdvertisedPublicPrefixesState(ExpressRouteCircuitPeeringAdvertisedPublicPrefixState advertisedPublicPrefixesState)
+  nameWithType: ExpressRouteCircuitPeeringConfig.withAdvertisedPublicPrefixesState(ExpressRouteCircuitPeeringAdvertisedPublicPrefixState advertisedPublicPrefixesState)
+  summary: 'Set the advertisedPublicPrefixesState property: The advertised public prefix state of the Peering resource.'
+  parameters:
+  - description: the advertisedPublicPrefixesState value to set.
+    name: advertisedPublicPrefixesState
+    type: <xref href="com.azure.resourcemanager.network.models.ExpressRouteCircuitPeeringAdvertisedPublicPrefixState?alt=com.azure.resourcemanager.network.models.ExpressRouteCircuitPeeringAdvertisedPublicPrefixState&text=ExpressRouteCircuitPeeringAdvertisedPublicPrefixState" data-throw-if-not-resolved="False" />
+  syntax: public ExpressRouteCircuitPeeringConfig withAdvertisedPublicPrefixesState(ExpressRouteCircuitPeeringAdvertisedPublicPrefixState advertisedPublicPrefixesState)
+  returns:
+    description: the ExpressRouteCircuitPeeringConfig object itself.
+    type: <xref href="com.azure.resourcemanager.network.models.ExpressRouteCircuitPeeringConfig?alt=com.azure.resourcemanager.network.models.ExpressRouteCircuitPeeringConfig&text=ExpressRouteCircuitPeeringConfig" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.resourcemanager.network.models
+artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.0.0-beta.2

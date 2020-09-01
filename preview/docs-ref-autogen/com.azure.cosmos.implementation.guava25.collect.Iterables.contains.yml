@@ -1,0 +1,26 @@
+### YamlMime:JavaMember
+uid: com.azure.cosmos.implementation.guava25.collect.Iterables.contains*
+fullName: com.azure.cosmos.implementation.guava25.collect.Iterables.contains
+name: contains
+nameWithType: Iterables.contains
+members:
+- uid: com.azure.cosmos.implementation.guava25.collect.Iterables.contains(java.lang.Iterable<?>,java.lang.Object)
+  fullName: com.azure.cosmos.implementation.guava25.collect.Iterables.contains(Iterable<?> iterable, Object element)
+  name: contains(Iterable<?> iterable, Object element)
+  nameWithType: Iterables.contains(Iterable<?> iterable, Object element)
+  summary: |-
+    Returns <code>true</code> if <code>iterable</code> contains any element <code>o</code> for which <code>
+     Objects.equals(o, element)</code> would return <code>true</code>. Otherwise returns <code>false</code>, even in
+     cases where <xref uid="Collection#contains" data-throw-if-not-resolved="false">Collection#contains</xref> might throw <xref uid="NullPointerException" data-throw-if-not-resolved="false">NullPointerException</xref> or <xref uid="ClassCastException" data-throw-if-not-resolved="false">ClassCastException</xref>.
+  parameters:
+  - name: iterable
+    type: <xref href="java.lang.Iterable?alt=java.lang.Iterable&text=Iterable" data-throw-if-not-resolved="False" />&lt;?&gt;
+  - name: element
+    type: <xref href="java.lang.Object?alt=java.lang.Object&text=Object" data-throw-if-not-resolved="False" />
+  syntax: public static boolean contains(Iterable<?> iterable, Object element)
+  returns:
+    type: <xref href="boolean?alt=boolean&text=boolean" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.cosmos.implementation.guava25.collect
+artifact: com.azure:azure-cosmos:4.3.2-beta.2

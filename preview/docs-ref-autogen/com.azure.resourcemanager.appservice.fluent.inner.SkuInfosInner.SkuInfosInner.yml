@@ -1,0 +1,15 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.appservice.fluent.inner.SkuInfosInner.SkuInfosInner*
+fullName: com.azure.resourcemanager.appservice.fluent.inner.SkuInfosInner.SkuInfosInner
+name: SkuInfosInner
+nameWithType: SkuInfosInner.SkuInfosInner
+members:
+- uid: com.azure.resourcemanager.appservice.fluent.inner.SkuInfosInner.SkuInfosInner()
+  fullName: com.azure.resourcemanager.appservice.fluent.inner.SkuInfosInner.SkuInfosInner()
+  name: SkuInfosInner()
+  nameWithType: SkuInfosInner.SkuInfosInner()
+  syntax: public SkuInfosInner()
+type: constructor
+metadata: {}
+package: com.azure.resourcemanager.appservice.fluent.inner
+artifact: com.azure.resourcemanager:azure-resourcemanager-appservice:2.0.0-beta.2

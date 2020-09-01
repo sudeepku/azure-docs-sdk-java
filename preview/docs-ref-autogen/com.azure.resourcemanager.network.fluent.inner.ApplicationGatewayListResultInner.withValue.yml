@@ -1,0 +1,23 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.network.fluent.inner.ApplicationGatewayListResultInner.withValue*
+fullName: com.azure.resourcemanager.network.fluent.inner.ApplicationGatewayListResultInner.withValue
+name: withValue
+nameWithType: ApplicationGatewayListResultInner.withValue
+members:
+- uid: com.azure.resourcemanager.network.fluent.inner.ApplicationGatewayListResultInner.withValue(java.util.List<com.azure.resourcemanager.network.fluent.inner.ApplicationGatewayInner>)
+  fullName: com.azure.resourcemanager.network.fluent.inner.ApplicationGatewayListResultInner.withValue(List<ApplicationGatewayInner> value)
+  name: withValue(List<ApplicationGatewayInner> value)
+  nameWithType: ApplicationGatewayListResultInner.withValue(List<ApplicationGatewayInner> value)
+  summary: 'Set the value property: List of an application gateways in a resource group.'
+  parameters:
+  - description: the value value to set.
+    name: value
+    type: <xref href="java.util.List?alt=java.util.List&text=List" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.resourcemanager.network.fluent.inner.ApplicationGatewayInner?alt=com.azure.resourcemanager.network.fluent.inner.ApplicationGatewayInner&text=ApplicationGatewayInner" data-throw-if-not-resolved="False" />&gt;
+  syntax: public ApplicationGatewayListResultInner withValue(List<ApplicationGatewayInner> value)
+  returns:
+    description: the ApplicationGatewayListResultInner object itself.
+    type: <xref href="com.azure.resourcemanager.network.fluent.inner.ApplicationGatewayListResultInner?alt=com.azure.resourcemanager.network.fluent.inner.ApplicationGatewayListResultInner&text=ApplicationGatewayListResultInner" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.resourcemanager.network.fluent.inner
+artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.0.0-beta.2

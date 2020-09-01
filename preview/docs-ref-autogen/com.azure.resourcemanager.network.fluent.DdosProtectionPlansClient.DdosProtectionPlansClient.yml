@@ -1,0 +1,20 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.network.fluent.DdosProtectionPlansClient.DdosProtectionPlansClient*
+fullName: com.azure.resourcemanager.network.fluent.DdosProtectionPlansClient.DdosProtectionPlansClient
+name: DdosProtectionPlansClient
+nameWithType: DdosProtectionPlansClient.DdosProtectionPlansClient
+members:
+- uid: com.azure.resourcemanager.network.fluent.DdosProtectionPlansClient.DdosProtectionPlansClient(com.azure.resourcemanager.network.NetworkManagementClient)
+  fullName: com.azure.resourcemanager.network.fluent.DdosProtectionPlansClient.DdosProtectionPlansClient(NetworkManagementClient client)
+  name: DdosProtectionPlansClient(NetworkManagementClient client)
+  nameWithType: DdosProtectionPlansClient.DdosProtectionPlansClient(NetworkManagementClient client)
+  summary: Initializes an instance of DdosProtectionPlansClient.
+  parameters:
+  - description: the instance of the service client containing this operation class.
+    name: client
+    type: <xref href="com.azure.resourcemanager.network.NetworkManagementClient?alt=com.azure.resourcemanager.network.NetworkManagementClient&text=NetworkManagementClient" data-throw-if-not-resolved="False" />
+  syntax: public DdosProtectionPlansClient(NetworkManagementClient client)
+type: constructor
+metadata: {}
+package: com.azure.resourcemanager.network.fluent
+artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.0.0-beta.2

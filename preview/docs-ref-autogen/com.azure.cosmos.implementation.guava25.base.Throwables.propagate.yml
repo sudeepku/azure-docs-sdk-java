@@ -1,0 +1,42 @@
+### YamlMime:JavaMember
+uid: com.azure.cosmos.implementation.guava25.base.Throwables.propagate*
+fullName: com.azure.cosmos.implementation.guava25.base.Throwables.propagate
+name: propagate
+nameWithType: Throwables.propagate
+members:
+- uid: com.azure.cosmos.implementation.guava25.base.Throwables.propagate(java.lang.Throwable)
+  fullName: com.azure.cosmos.implementation.guava25.base.Throwables.propagate(Throwable throwable)
+  name: propagate(Throwable throwable)
+  nameWithType: Throwables.propagate(Throwable throwable)
+  summary: |-
+    Propagates <code>throwable</code> as-is if it is an instance of <xref uid="RuntimeException" data-throw-if-not-resolved="false">RuntimeException</xref> or <xref uid="Error" data-throw-if-not-resolved="false">Error</xref>, or else as a last resort, wraps it in a <code>RuntimeException</code> and then propagates.
+
+     <p>This method always throws an exception. The <code>RuntimeException</code> return type allows
+     client code to signal to the compiler that statements after the call are unreachable. Example
+     usage:
+
+     <pre>
+     T doSomething() {
+       try {
+         return someMethodThatCouldThrowAnything();
+       } catch (IKnowWhatToDoWithThisException e) {
+         return handle(e);
+       } catch (Throwable t) {
+         throw Throwables.propagate(t);
+       }
+     }
+     </pre>
+  parameters:
+  - description: the Throwable to propagate
+    name: throwable
+    type: <xref href="java.lang.Throwable?alt=java.lang.Throwable&text=Throwable" data-throw-if-not-resolved="False" />
+  syntax: public static RuntimeException propagate(Throwable throwable)
+  returns:
+    description: |-
+      nothing will ever be returned; this return type is only for your convenience, as
+           illustrated in the example above
+    type: <xref href="java.lang.RuntimeException?alt=java.lang.RuntimeException&text=RuntimeException" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.cosmos.implementation.guava25.base
+artifact: com.azure:azure-cosmos:4.3.2-beta.2

@@ -1,0 +1,35 @@
+### YamlMime:JavaMember
+nameWithType: Patterns.updatePatterns
+type: method
+members:
+- fullName: com.microsoft.azure.cognitiveservices.language.luis.authoring.Patterns.updatePatterns(UUID appId, String versionId, List<PatternRuleUpdateObject> patterns)
+  name: updatePatterns(UUID appId, String versionId, List<PatternRuleUpdateObject> patterns)
+  nameWithType: Patterns.updatePatterns(UUID appId, String versionId, List<PatternRuleUpdateObject> patterns)
+  parameters:
+  - description: <p>The application ID. </p>
+    name: appId
+    type: <xref href="UUID?alt=UUID&text=UUID" data-throw-if-not-resolved="False"/>
+  - description: <p>The version ID. </p>
+    name: versionId
+    type: <xref href="String?alt=String&text=String" data-throw-if-not-resolved="False"/>
+  - description: <p>An array represents the patterns. </p>
+    name: patterns
+    type: List&lt;<xref href="com.microsoft.azure.cognitiveservices.language.luis.authoring.models.PatternRuleUpdateObject?alt=com.microsoft.azure.cognitiveservices.language.luis.authoring.models.PatternRuleUpdateObject&text=PatternRuleUpdateObject" data-throw-if-not-resolved="False"/>&gt;
+  exceptions:
+  - name: 3c87bd19
+  - name: 00ad4777
+  - name: 9b2a4515
+  returns:
+    description: <p>the List&lt;PatternRuleInfo&gt; object if successful. </p>
+    type: List&lt;<xref href="com.microsoft.azure.cognitiveservices.language.luis.authoring.models.PatternRuleInfo?alt=com.microsoft.azure.cognitiveservices.language.luis.authoring.models.PatternRuleInfo&text=PatternRuleInfo" data-throw-if-not-resolved="False"/>&gt;
+  summary: >-
+    <p>Updates patterns.</p>
+
+    <p></p>
+  syntax: public List<PatternRuleInfo> updatePatterns(UUID appId, String versionId, List<PatternRuleUpdateObject> patterns)
+  uid: com.microsoft.azure.cognitiveservices.language.luis.authoring.Patterns.updatePatterns(UUID,String,List<PatternRuleUpdateObject>)
+uid: com.microsoft.azure.cognitiveservices.language.luis.authoring.Patterns.updatePatterns*
+fullName: com.microsoft.azure.cognitiveservices.language.luis.authoring.Patterns.updatePatterns(UUID appId, String versionId, List<PatternRuleUpdateObject> patterns)
+name: updatePatterns(UUID appId, String versionId, List<PatternRuleUpdateObject> patterns)
+package: com.microsoft.azure.cognitiveservices.language.luis.authoring
+metadata: {}

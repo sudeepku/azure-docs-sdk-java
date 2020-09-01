@@ -1,0 +1,23 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.monitor.fluent.inner.DiagnosticSettingsCategoryResourceCollectionInner.withValue*
+fullName: com.azure.resourcemanager.monitor.fluent.inner.DiagnosticSettingsCategoryResourceCollectionInner.withValue
+name: withValue
+nameWithType: DiagnosticSettingsCategoryResourceCollectionInner.withValue
+members:
+- uid: com.azure.resourcemanager.monitor.fluent.inner.DiagnosticSettingsCategoryResourceCollectionInner.withValue(java.util.List<com.azure.resourcemanager.monitor.fluent.inner.DiagnosticSettingsCategoryResourceInner>)
+  fullName: com.azure.resourcemanager.monitor.fluent.inner.DiagnosticSettingsCategoryResourceCollectionInner.withValue(List<DiagnosticSettingsCategoryResourceInner> value)
+  name: withValue(List<DiagnosticSettingsCategoryResourceInner> value)
+  nameWithType: DiagnosticSettingsCategoryResourceCollectionInner.withValue(List<DiagnosticSettingsCategoryResourceInner> value)
+  summary: 'Set the value property: The collection of diagnostic settings category resources.'
+  parameters:
+  - description: the value value to set.
+    name: value
+    type: <xref href="java.util.List?alt=java.util.List&text=List" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.resourcemanager.monitor.fluent.inner.DiagnosticSettingsCategoryResourceInner?alt=com.azure.resourcemanager.monitor.fluent.inner.DiagnosticSettingsCategoryResourceInner&text=DiagnosticSettingsCategoryResourceInner" data-throw-if-not-resolved="False" />&gt;
+  syntax: public DiagnosticSettingsCategoryResourceCollectionInner withValue(List<DiagnosticSettingsCategoryResourceInner> value)
+  returns:
+    description: the DiagnosticSettingsCategoryResourceCollectionInner object itself.
+    type: <xref href="com.azure.resourcemanager.monitor.fluent.inner.DiagnosticSettingsCategoryResourceCollectionInner?alt=com.azure.resourcemanager.monitor.fluent.inner.DiagnosticSettingsCategoryResourceCollectionInner&text=DiagnosticSettingsCategoryResourceCollectionInner" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.resourcemanager.monitor.fluent.inner
+artifact: com.azure.resourcemanager:azure-resourcemanager-monitor:2.0.0-beta.2

@@ -1,0 +1,20 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.network.fluent.LoadBalancerLoadBalancingRulesClient.LoadBalancerLoadBalancingRulesClient*
+fullName: com.azure.resourcemanager.network.fluent.LoadBalancerLoadBalancingRulesClient.LoadBalancerLoadBalancingRulesClient
+name: LoadBalancerLoadBalancingRulesClient
+nameWithType: LoadBalancerLoadBalancingRulesClient.LoadBalancerLoadBalancingRulesClient
+members:
+- uid: com.azure.resourcemanager.network.fluent.LoadBalancerLoadBalancingRulesClient.LoadBalancerLoadBalancingRulesClient(com.azure.resourcemanager.network.NetworkManagementClient)
+  fullName: com.azure.resourcemanager.network.fluent.LoadBalancerLoadBalancingRulesClient.LoadBalancerLoadBalancingRulesClient(NetworkManagementClient client)
+  name: LoadBalancerLoadBalancingRulesClient(NetworkManagementClient client)
+  nameWithType: LoadBalancerLoadBalancingRulesClient.LoadBalancerLoadBalancingRulesClient(NetworkManagementClient client)
+  summary: Initializes an instance of LoadBalancerLoadBalancingRulesClient.
+  parameters:
+  - description: the instance of the service client containing this operation class.
+    name: client
+    type: <xref href="com.azure.resourcemanager.network.NetworkManagementClient?alt=com.azure.resourcemanager.network.NetworkManagementClient&text=NetworkManagementClient" data-throw-if-not-resolved="False" />
+  syntax: public LoadBalancerLoadBalancingRulesClient(NetworkManagementClient client)
+type: constructor
+metadata: {}
+package: com.azure.resourcemanager.network.fluent
+artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.0.0-beta.2

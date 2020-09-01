@@ -1,0 +1,23 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.sql.models.SqlDatabaseOperations.DefinitionStages.WithServiceObjective.withServiceObjective*
+fullName: com.azure.resourcemanager.sql.models.SqlDatabaseOperations.DefinitionStages.WithServiceObjective.withServiceObjective
+name: withServiceObjective
+nameWithType: SqlDatabaseOperations.DefinitionStages.WithServiceObjective.withServiceObjective
+members:
+- uid: com.azure.resourcemanager.sql.models.SqlDatabaseOperations.DefinitionStages.WithServiceObjective.withServiceObjective(com.azure.resourcemanager.sql.models.ServiceObjectiveName)
+  fullName: com.azure.resourcemanager.sql.models.SqlDatabaseOperations.DefinitionStages.WithServiceObjective.withServiceObjective(ServiceObjectiveName serviceLevelObjective)
+  name: withServiceObjective(ServiceObjectiveName serviceLevelObjective)
+  nameWithType: SqlDatabaseOperations.DefinitionStages.WithServiceObjective.withServiceObjective(ServiceObjectiveName serviceLevelObjective)
+  summary: Sets the service level objective for the SQL Database.
+  parameters:
+  - description: service level objected for the SQL Database
+    name: serviceLevelObjective
+    type: <xref href="com.azure.resourcemanager.sql.models.ServiceObjectiveName?alt=com.azure.resourcemanager.sql.models.ServiceObjectiveName&text=ServiceObjectiveName" data-throw-if-not-resolved="False" />
+  syntax: public abstract SqlDatabaseOperations.DefinitionStages.WithCreateAllOptions withServiceObjective(ServiceObjectiveName serviceLevelObjective)
+  returns:
+    description: The next stage of the definition.
+    type: <xref href="com.azure.resourcemanager.sql.models.SqlDatabaseOperations.DefinitionStages.WithCreateAllOptions?alt=com.azure.resourcemanager.sql.models.SqlDatabaseOperations.DefinitionStages.WithCreateAllOptions&text=WithCreateAllOptions" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.resourcemanager.sql.models
+artifact: com.azure.resourcemanager:azure-resourcemanager-sql:2.0.0-beta.2

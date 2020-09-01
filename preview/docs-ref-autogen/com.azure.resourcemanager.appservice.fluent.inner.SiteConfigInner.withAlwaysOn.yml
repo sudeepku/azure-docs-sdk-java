@@ -1,0 +1,25 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.appservice.fluent.inner.SiteConfigInner.withAlwaysOn*
+fullName: com.azure.resourcemanager.appservice.fluent.inner.SiteConfigInner.withAlwaysOn
+name: withAlwaysOn
+nameWithType: SiteConfigInner.withAlwaysOn
+members:
+- uid: com.azure.resourcemanager.appservice.fluent.inner.SiteConfigInner.withAlwaysOn(java.lang.Boolean)
+  fullName: com.azure.resourcemanager.appservice.fluent.inner.SiteConfigInner.withAlwaysOn(Boolean alwaysOn)
+  name: withAlwaysOn(Boolean alwaysOn)
+  nameWithType: SiteConfigInner.withAlwaysOn(Boolean alwaysOn)
+  summary: |-
+    Set the alwaysOn property: &lt;code&gt;true&lt;/code&gt; if Always On is enabled; otherwise,
+     &lt;code&gt;false&lt;/code&gt;.
+  parameters:
+  - description: the alwaysOn value to set.
+    name: alwaysOn
+    type: <xref href="java.lang.Boolean?alt=java.lang.Boolean&text=Boolean" data-throw-if-not-resolved="False" />
+  syntax: public SiteConfigInner withAlwaysOn(Boolean alwaysOn)
+  returns:
+    description: the SiteConfigInner object itself.
+    type: <xref href="com.azure.resourcemanager.appservice.fluent.inner.SiteConfigInner?alt=com.azure.resourcemanager.appservice.fluent.inner.SiteConfigInner&text=SiteConfigInner" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.resourcemanager.appservice.fluent.inner
+artifact: com.azure.resourcemanager:azure-resourcemanager-appservice:2.0.0-beta.2

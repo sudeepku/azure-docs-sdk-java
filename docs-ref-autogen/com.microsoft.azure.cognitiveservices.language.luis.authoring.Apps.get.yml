@@ -1,0 +1,29 @@
+### YamlMime:JavaMember
+nameWithType: Apps.get
+type: method
+members:
+- fullName: com.microsoft.azure.cognitiveservices.language.luis.authoring.Apps.get(UUID appId)
+  name: get(UUID appId)
+  nameWithType: Apps.get(UUID appId)
+  parameters:
+  - description: <p>The application ID. </p>
+    name: appId
+    type: <xref href="UUID?alt=UUID&text=UUID" data-throw-if-not-resolved="False"/>
+  exceptions:
+  - name: 3c87bd19
+  - name: 00ad4777
+  - name: 9b2a4515
+  returns:
+    description: <p>the ApplicationInfoResponse object if successful. </p>
+    type: <xref href="com.microsoft.azure.cognitiveservices.language.luis.authoring.models.ApplicationInfoResponse?alt=com.microsoft.azure.cognitiveservices.language.luis.authoring.models.ApplicationInfoResponse&text=ApplicationInfoResponse" data-throw-if-not-resolved="False"/>
+  summary: >-
+    <p>Gets the application info.</p>
+
+    <p></p>
+  syntax: public ApplicationInfoResponse get(UUID appId)
+  uid: com.microsoft.azure.cognitiveservices.language.luis.authoring.Apps.get(UUID)
+uid: com.microsoft.azure.cognitiveservices.language.luis.authoring.Apps.get*
+fullName: com.microsoft.azure.cognitiveservices.language.luis.authoring.Apps.get(UUID appId)
+name: get(UUID appId)
+package: com.microsoft.azure.cognitiveservices.language.luis.authoring
+metadata: {}

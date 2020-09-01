@@ -1,0 +1,16 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.resources.fluentcore.arm.Region.GOV_US_VIRGINIA
+fullName: com.azure.resourcemanager.resources.fluentcore.arm.Region.GOV_US_VIRGINIA
+name: GOV_US_VIRGINIA
+nameWithType: Region.GOV_US_VIRGINIA
+members:
+- uid: com.azure.resourcemanager.resources.fluentcore.arm.Region.GOV_US_VIRGINIA
+  fullName: com.azure.resourcemanager.resources.fluentcore.arm.Region.GOV_US_VIRGINIA
+  name: GOV_US_VIRGINIA
+  nameWithType: Region.GOV_US_VIRGINIA
+  summary: U.S. government cloud in Virginia.
+  syntax: public static final Region GOV_US_VIRGINIA
+type: field
+metadata: {}
+package: com.azure.resourcemanager.resources.fluentcore.arm
+artifact: com.azure.resourcemanager:azure-resourcemanager-resources:2.0.0-beta.2

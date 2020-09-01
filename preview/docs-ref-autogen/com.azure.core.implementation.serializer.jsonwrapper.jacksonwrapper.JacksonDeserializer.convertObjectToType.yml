@@ -1,0 +1,23 @@
+### YamlMime:JavaMember
+uid: com.azure.core.implementation.serializer.jsonwrapper.jacksonwrapper.JacksonDeserializer.convertObjectToType*
+fullName: com.azure.core.implementation.serializer.jsonwrapper.jacksonwrapper.JacksonDeserializer.<T>convertObjectToType
+name: <T>convertObjectToType
+nameWithType: JacksonDeserializer.<T>convertObjectToType
+members:
+- uid: com.azure.core.implementation.serializer.jsonwrapper.jacksonwrapper.JacksonDeserializer.<T>convertObjectToType(java.lang.Object,java.lang.Class<T>)
+  fullName: com.azure.core.implementation.serializer.jsonwrapper.jacksonwrapper.JacksonDeserializer.<T>convertObjectToType(Object source, Class<T> cls)
+  name: <T>convertObjectToType(Object source, Class<T> cls)
+  nameWithType: JacksonDeserializer.<T>convertObjectToType(Object source, Class<T> cls)
+  summary: Convert an Object to instance of class T
+  parameters:
+  - name: source
+    type: <xref href="java.lang.Object?alt=java.lang.Object&text=Object" data-throw-if-not-resolved="False" />
+  - name: cls
+    type: <xref href="java.lang.Class?alt=java.lang.Class&text=Class" data-throw-if-not-resolved="False" />&lt;<xref href="T?alt=T&text=T" data-throw-if-not-resolved="False" />&gt;
+  syntax: public T <T>convertObjectToType(Object source, Class<T> cls)
+  returns:
+    type: <xref href="T?alt=T&text=T" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.core.implementation.serializer.jsonwrapper.jacksonwrapper
+artifact: com.azure:azure-core:1.3.0-beta.1

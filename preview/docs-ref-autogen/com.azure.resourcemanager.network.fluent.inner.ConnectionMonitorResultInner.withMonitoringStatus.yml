@@ -1,0 +1,23 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.network.fluent.inner.ConnectionMonitorResultInner.withMonitoringStatus*
+fullName: com.azure.resourcemanager.network.fluent.inner.ConnectionMonitorResultInner.withMonitoringStatus
+name: withMonitoringStatus
+nameWithType: ConnectionMonitorResultInner.withMonitoringStatus
+members:
+- uid: com.azure.resourcemanager.network.fluent.inner.ConnectionMonitorResultInner.withMonitoringStatus(java.lang.String)
+  fullName: com.azure.resourcemanager.network.fluent.inner.ConnectionMonitorResultInner.withMonitoringStatus(String monitoringStatus)
+  name: withMonitoringStatus(String monitoringStatus)
+  nameWithType: ConnectionMonitorResultInner.withMonitoringStatus(String monitoringStatus)
+  summary: 'Set the monitoringStatus property: The monitoring status of the connection monitor.'
+  parameters:
+  - description: the monitoringStatus value to set.
+    name: monitoringStatus
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  syntax: public ConnectionMonitorResultInner withMonitoringStatus(String monitoringStatus)
+  returns:
+    description: the ConnectionMonitorResultInner object itself.
+    type: <xref href="com.azure.resourcemanager.network.fluent.inner.ConnectionMonitorResultInner?alt=com.azure.resourcemanager.network.fluent.inner.ConnectionMonitorResultInner&text=ConnectionMonitorResultInner" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.resourcemanager.network.fluent.inner
+artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.0.0-beta.2

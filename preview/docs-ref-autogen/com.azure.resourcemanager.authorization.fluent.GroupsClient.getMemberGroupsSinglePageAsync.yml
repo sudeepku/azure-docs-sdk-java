@@ -1,0 +1,49 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.authorization.fluent.GroupsClient.getMemberGroupsSinglePageAsync*
+fullName: com.azure.resourcemanager.authorization.fluent.GroupsClient.getMemberGroupsSinglePageAsync
+name: getMemberGroupsSinglePageAsync
+nameWithType: GroupsClient.getMemberGroupsSinglePageAsync
+members:
+- uid: com.azure.resourcemanager.authorization.fluent.GroupsClient.getMemberGroupsSinglePageAsync(java.lang.String,boolean)
+  fullName: com.azure.resourcemanager.authorization.fluent.GroupsClient.getMemberGroupsSinglePageAsync(String objectId, boolean securityEnabledOnly)
+  name: getMemberGroupsSinglePageAsync(String objectId, boolean securityEnabledOnly)
+  nameWithType: GroupsClient.getMemberGroupsSinglePageAsync(String objectId, boolean securityEnabledOnly)
+  summary: Gets a collection of object IDs of groups of which the specified group is a member.
+  parameters:
+  - description: The object ID of the group for which to get group membership.
+    name: objectId
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  - description: |-
+      If true, only membership in security-enabled groups should be checked. Otherwise,
+           membership in all groups should be checked.
+    name: securityEnabledOnly
+    type: <xref href="boolean?alt=boolean&text=boolean" data-throw-if-not-resolved="False" />
+  syntax: public Mono<PagedResponse<String>> getMemberGroupsSinglePageAsync(String objectId, boolean securityEnabledOnly)
+  returns:
+    description: a collection of object IDs of groups of which the specified group is a member.
+    type: <xref href="reactor.core.publisher.Mono?alt=reactor.core.publisher.Mono&text=Mono" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.core.http.rest.PagedResponse?alt=com.azure.core.http.rest.PagedResponse&text=PagedResponse" data-throw-if-not-resolved="False" />&lt;<xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />&gt;&gt;
+- uid: com.azure.resourcemanager.authorization.fluent.GroupsClient.getMemberGroupsSinglePageAsync(java.lang.String,boolean,com.azure.core.util.Context)
+  fullName: com.azure.resourcemanager.authorization.fluent.GroupsClient.getMemberGroupsSinglePageAsync(String objectId, boolean securityEnabledOnly, Context context)
+  name: getMemberGroupsSinglePageAsync(String objectId, boolean securityEnabledOnly, Context context)
+  nameWithType: GroupsClient.getMemberGroupsSinglePageAsync(String objectId, boolean securityEnabledOnly, Context context)
+  summary: Gets a collection of object IDs of groups of which the specified group is a member.
+  parameters:
+  - description: The object ID of the group for which to get group membership.
+    name: objectId
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  - description: |-
+      If true, only membership in security-enabled groups should be checked. Otherwise,
+           membership in all groups should be checked.
+    name: securityEnabledOnly
+    type: <xref href="boolean?alt=boolean&text=boolean" data-throw-if-not-resolved="False" />
+  - description: The context to associate with this operation.
+    name: context
+    type: <xref href="com.azure.core.util.Context?alt=com.azure.core.util.Context&text=Context" data-throw-if-not-resolved="False" />
+  syntax: public Mono<PagedResponse<String>> getMemberGroupsSinglePageAsync(String objectId, boolean securityEnabledOnly, Context context)
+  returns:
+    description: a collection of object IDs of groups of which the specified group is a member.
+    type: <xref href="reactor.core.publisher.Mono?alt=reactor.core.publisher.Mono&text=Mono" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.core.http.rest.PagedResponse?alt=com.azure.core.http.rest.PagedResponse&text=PagedResponse" data-throw-if-not-resolved="False" />&lt;<xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />&gt;&gt;
+type: method
+metadata: {}
+package: com.azure.resourcemanager.authorization.fluent
+artifact: com.azure.resourcemanager:azure-resourcemanager-authorization:2.0.0-beta.2

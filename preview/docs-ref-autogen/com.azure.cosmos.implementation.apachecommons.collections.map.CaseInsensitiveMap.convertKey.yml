@@ -1,0 +1,28 @@
+### YamlMime:JavaMember
+uid: com.azure.cosmos.implementation.apachecommons.collections.map.CaseInsensitiveMap.convertKey*
+fullName: com.azure.cosmos.implementation.apachecommons.collections.map.CaseInsensitiveMap<K,V>.convertKey
+name: convertKey
+nameWithType: CaseInsensitiveMap<K,V>.convertKey
+members:
+- uid: com.azure.cosmos.implementation.apachecommons.collections.map.CaseInsensitiveMap.convertKey(java.lang.Object)
+  fullName: com.azure.cosmos.implementation.apachecommons.collections.map.CaseInsensitiveMap<K,V>.convertKey(Object key)
+  name: convertKey(Object key)
+  nameWithType: CaseInsensitiveMap<K,V>.convertKey(Object key)
+  summary: |-
+    Overrides convertKey() from <xref uid="AbstractHashedMap" data-throw-if-not-resolved="false">AbstractHashedMap</xref> to convert keys to
+     lower case.
+     <p>
+     Returns <xref uid="AbstractHashedMap#NULL" data-throw-if-not-resolved="false">AbstractHashedMap#NULL</xref> if key is null.
+  overridden: com.azure.cosmos.implementation.apachecommons.collections.map.AbstractHashedMap.convertKey(java.lang.Object)
+  parameters:
+  - description: the key convert
+    name: key
+    type: <xref href="java.lang.Object?alt=java.lang.Object&text=Object" data-throw-if-not-resolved="False" />
+  syntax: protected Object convertKey(Object key)
+  returns:
+    description: the converted key
+    type: <xref href="java.lang.Object?alt=java.lang.Object&text=Object" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.cosmos.implementation.apachecommons.collections.map
+artifact: com.azure:azure-cosmos:4.3.2-beta.2

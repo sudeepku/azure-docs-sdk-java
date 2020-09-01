@@ -1,0 +1,23 @@
+### YamlMime:JavaMember
+uid: com.azure.messaging.servicebus.ServiceBusManagementAsyncClient.createQueueWithResponse*
+fullName: com.azure.messaging.servicebus.ServiceBusManagementAsyncClient.createQueueWithResponse
+name: createQueueWithResponse
+nameWithType: ServiceBusManagementAsyncClient.createQueueWithResponse
+members:
+- uid: com.azure.messaging.servicebus.ServiceBusManagementAsyncClient.createQueueWithResponse(com.azure.messaging.servicebus.models.CreateQueueOptions)
+  fullName: com.azure.messaging.servicebus.ServiceBusManagementAsyncClient.createQueueWithResponse(CreateQueueOptions queue)
+  name: createQueueWithResponse(CreateQueueOptions queue)
+  nameWithType: ServiceBusManagementAsyncClient.createQueueWithResponse(CreateQueueOptions queue)
+  summary: Creates a queue and returns the created queue in addition to the HTTP response.
+  parameters:
+  - description: The queue to create.
+    name: queue
+    type: <xref href="com.azure.messaging.servicebus.models.CreateQueueOptions?alt=com.azure.messaging.servicebus.models.CreateQueueOptions&text=CreateQueueOptions" data-throw-if-not-resolved="False" />
+  syntax: public Mono<Response<QueueProperties>> createQueueWithResponse(CreateQueueOptions queue)
+  returns:
+    description: A Mono that returns the created queue in addition to the HTTP response.
+    type: <xref href="reactor.core.publisher.Mono?alt=reactor.core.publisher.Mono&text=Mono" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.core.http.rest.Response?alt=com.azure.core.http.rest.Response&text=Response" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.messaging.servicebus.models.QueueProperties?alt=com.azure.messaging.servicebus.models.QueueProperties&text=QueueProperties" data-throw-if-not-resolved="False" />&gt;&gt;
+type: method
+metadata: {}
+package: com.azure.messaging.servicebus
+artifact: com.azure:azure-messaging-servicebus:7.0.0-beta.5

@@ -1,0 +1,42 @@
+### YamlMime:JavaMember
+uid: com.azure.storage.queue.QueueClient.setMetadata*
+fullName: com.azure.storage.queue.QueueClient.setMetadata
+name: setMetadata
+nameWithType: QueueClient.setMetadata
+members:
+- uid: com.azure.storage.queue.QueueClient.setMetadata(java.util.Map<java.lang.String,java.lang.String>)
+  fullName: com.azure.storage.queue.QueueClient.setMetadata(Map<String,String> metadata)
+  name: setMetadata(Map<String,String> metadata)
+  nameWithType: QueueClient.setMetadata(Map<String,String> metadata)
+  summary: |-
+    Sets the metadata of the queue.
+
+     Passing in a <code>null</code> value for metadata will clear the metadata associated with the queue.
+
+     <p><strong>Code Samples</strong></p>
+
+     <p>Set the queue's metadata to "queue:metadataMap"</p>
+
+     <pre>
+     client.setMetadata&#40;Collections.singletonMap&#40;&quot;queue&quot;, &quot;metadataMap&quot;&#41;&#41;;
+     System.out.println&#40;&quot;Setting metadata completed.&quot;&#41;;
+     </pre>
+
+     <p>Clear the queue's metadata</p>
+
+     <pre>
+     client.setMetadata&#40;null&#41;;
+     System.out.println&#40;&quot;Clearing metadata completed.&quot;&#41;;
+     </pre>
+
+     <p>For more information, see the
+     <a href="https://docs.microsoft.com/en-us/rest/api/storageservices/set-queue-metadata">Azure Docs</a>.</p>
+  parameters:
+  - description: Metadata to set on the queue
+    name: metadata
+    type: <xref href="java.util.Map?alt=java.util.Map&text=Map" data-throw-if-not-resolved="False" />&lt;<xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />,<xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />&gt;
+  syntax: public void setMetadata(Map<String,String> metadata)
+type: method
+metadata: {}
+package: com.azure.storage.queue
+artifact: com.azure:azure-storage-queue:12.6.0-beta.1

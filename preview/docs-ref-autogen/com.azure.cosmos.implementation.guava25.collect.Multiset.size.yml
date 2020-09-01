@@ -1,0 +1,22 @@
+### YamlMime:JavaMember
+uid: com.azure.cosmos.implementation.guava25.collect.Multiset.size*
+fullName: com.azure.cosmos.implementation.guava25.collect.Multiset<E>.size
+name: size
+nameWithType: Multiset<E>.size
+members:
+- uid: com.azure.cosmos.implementation.guava25.collect.Multiset.size()
+  fullName: com.azure.cosmos.implementation.guava25.collect.Multiset<E>.size()
+  name: size()
+  nameWithType: Multiset<E>.size()
+  summary: |-
+    Returns the total number of all occurrences of all elements in this multiset.
+
+     <p><b>Note:</b> this method does not return the number of <i>distinct elements</i> in the
+     multiset, which is given by <code>entrySet().size()</code>.
+  syntax: public abstract int size()
+  returns:
+    type: <xref href="int?alt=int&text=int" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.cosmos.implementation.guava25.collect
+artifact: com.azure:azure-cosmos:4.3.2-beta.2

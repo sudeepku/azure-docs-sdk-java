@@ -1,0 +1,15 @@
+### YamlMime:JavaMember
+uid: com.azure.messaging.servicebus.implementation.models.RuleFilter.RuleFilter*
+fullName: com.azure.messaging.servicebus.implementation.models.RuleFilter.RuleFilter
+name: RuleFilter
+nameWithType: RuleFilter.RuleFilter
+members:
+- uid: com.azure.messaging.servicebus.implementation.models.RuleFilter.RuleFilter()
+  fullName: com.azure.messaging.servicebus.implementation.models.RuleFilter.RuleFilter()
+  name: RuleFilter()
+  nameWithType: RuleFilter.RuleFilter()
+  syntax: public RuleFilter()
+type: constructor
+metadata: {}
+package: com.azure.messaging.servicebus.implementation.models
+artifact: com.azure:azure-messaging-servicebus:7.0.0-beta.5

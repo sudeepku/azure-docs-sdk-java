@@ -1,0 +1,20 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.sql.fluent.FirewallRulesClient.FirewallRulesClient*
+fullName: com.azure.resourcemanager.sql.fluent.FirewallRulesClient.FirewallRulesClient
+name: FirewallRulesClient
+nameWithType: FirewallRulesClient.FirewallRulesClient
+members:
+- uid: com.azure.resourcemanager.sql.fluent.FirewallRulesClient.FirewallRulesClient(com.azure.resourcemanager.sql.SqlManagementClient)
+  fullName: com.azure.resourcemanager.sql.fluent.FirewallRulesClient.FirewallRulesClient(SqlManagementClient client)
+  name: FirewallRulesClient(SqlManagementClient client)
+  nameWithType: FirewallRulesClient.FirewallRulesClient(SqlManagementClient client)
+  summary: Initializes an instance of FirewallRulesClient.
+  parameters:
+  - description: the instance of the service client containing this operation class.
+    name: client
+    type: <xref href="com.azure.resourcemanager.sql.SqlManagementClient?alt=com.azure.resourcemanager.sql.SqlManagementClient&text=SqlManagementClient" data-throw-if-not-resolved="False" />
+  syntax: public FirewallRulesClient(SqlManagementClient client)
+type: constructor
+metadata: {}
+package: com.azure.resourcemanager.sql.fluent
+artifact: com.azure.resourcemanager:azure-resourcemanager-sql:2.0.0-beta.2

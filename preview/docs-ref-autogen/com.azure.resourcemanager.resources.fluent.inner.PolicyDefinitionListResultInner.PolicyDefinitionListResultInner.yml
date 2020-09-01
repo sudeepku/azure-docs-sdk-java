@@ -1,0 +1,15 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.resources.fluent.inner.PolicyDefinitionListResultInner.PolicyDefinitionListResultInner*
+fullName: com.azure.resourcemanager.resources.fluent.inner.PolicyDefinitionListResultInner.PolicyDefinitionListResultInner
+name: PolicyDefinitionListResultInner
+nameWithType: PolicyDefinitionListResultInner.PolicyDefinitionListResultInner
+members:
+- uid: com.azure.resourcemanager.resources.fluent.inner.PolicyDefinitionListResultInner.PolicyDefinitionListResultInner()
+  fullName: com.azure.resourcemanager.resources.fluent.inner.PolicyDefinitionListResultInner.PolicyDefinitionListResultInner()
+  name: PolicyDefinitionListResultInner()
+  nameWithType: PolicyDefinitionListResultInner.PolicyDefinitionListResultInner()
+  syntax: public PolicyDefinitionListResultInner()
+type: constructor
+metadata: {}
+package: com.azure.resourcemanager.resources.fluent.inner
+artifact: com.azure.resourcemanager:azure-resourcemanager-resources:2.0.0-beta.2

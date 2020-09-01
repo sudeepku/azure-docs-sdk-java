@@ -1,0 +1,19 @@
+### YamlMime:JavaMember
+uid: com.azure.data.schemaregistry.client.implementation.models.GetIdBySchemaContentHeaders.getXSchemaIdLocation*
+fullName: com.azure.data.schemaregistry.client.implementation.models.GetIdBySchemaContentHeaders.getXSchemaIdLocation
+name: getXSchemaIdLocation
+nameWithType: GetIdBySchemaContentHeaders.getXSchemaIdLocation
+members:
+- uid: com.azure.data.schemaregistry.client.implementation.models.GetIdBySchemaContentHeaders.getXSchemaIdLocation()
+  fullName: com.azure.data.schemaregistry.client.implementation.models.GetIdBySchemaContentHeaders.getXSchemaIdLocation()
+  name: getXSchemaIdLocation()
+  nameWithType: GetIdBySchemaContentHeaders.getXSchemaIdLocation()
+  summary: 'Get the xSchemaIdLocation property: The X-Schema-Id-Location property.'
+  syntax: public URL getXSchemaIdLocation()
+  returns:
+    description: the xSchemaIdLocation value.
+    type: <xref href="java.net.URL?alt=java.net.URL&text=URL" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.data.schemaregistry.client.implementation.models
+artifact: com.azure:azure-data-schemaregistry:1.0.0-beta.1

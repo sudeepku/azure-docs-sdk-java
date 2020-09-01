@@ -1,0 +1,32 @@
+### YamlMime:JavaMember
+uid: com.azure.data.schemaregistry.client.SchemaRegistryClient.getSchemaId*
+fullName: com.azure.data.schemaregistry.client.SchemaRegistryClient.getSchemaId
+name: getSchemaId
+nameWithType: SchemaRegistryClient.getSchemaId
+members:
+- uid: com.azure.data.schemaregistry.client.SchemaRegistryClient.getSchemaId(java.lang.String,java.lang.String,java.lang.String,java.lang.String)
+  fullName: com.azure.data.schemaregistry.client.SchemaRegistryClient.getSchemaId(String schemaGroup, String schemaName, String schemaString, String schemaType)
+  name: getSchemaId(String schemaGroup, String schemaName, String schemaString, String schemaType)
+  nameWithType: SchemaRegistryClient.getSchemaId(String schemaGroup, String schemaName, String schemaString, String schemaType)
+  summary: Fetches schema GUID given schema group, name, string representation, and serialization type
+  parameters:
+  - description: schema group name
+    name: schemaGroup
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  - description: schema name
+    name: schemaName
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  - description: String representation of schema
+    name: schemaString
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  - description: String representation of schema type
+    name: schemaType
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  syntax: public abstract String getSchemaId(String schemaGroup, String schemaName, String schemaString, String schemaType)
+  returns:
+    description: SchemaRegistryObject containing information regarding requested schema.
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.data.schemaregistry.client
+artifact: com.azure:azure-data-schemaregistry:1.0.0-beta.1

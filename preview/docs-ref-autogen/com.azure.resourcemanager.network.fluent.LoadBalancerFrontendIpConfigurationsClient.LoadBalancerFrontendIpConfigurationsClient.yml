@@ -1,0 +1,20 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.network.fluent.LoadBalancerFrontendIpConfigurationsClient.LoadBalancerFrontendIpConfigurationsClient*
+fullName: com.azure.resourcemanager.network.fluent.LoadBalancerFrontendIpConfigurationsClient.LoadBalancerFrontendIpConfigurationsClient
+name: LoadBalancerFrontendIpConfigurationsClient
+nameWithType: LoadBalancerFrontendIpConfigurationsClient.LoadBalancerFrontendIpConfigurationsClient
+members:
+- uid: com.azure.resourcemanager.network.fluent.LoadBalancerFrontendIpConfigurationsClient.LoadBalancerFrontendIpConfigurationsClient(com.azure.resourcemanager.network.NetworkManagementClient)
+  fullName: com.azure.resourcemanager.network.fluent.LoadBalancerFrontendIpConfigurationsClient.LoadBalancerFrontendIpConfigurationsClient(NetworkManagementClient client)
+  name: LoadBalancerFrontendIpConfigurationsClient(NetworkManagementClient client)
+  nameWithType: LoadBalancerFrontendIpConfigurationsClient.LoadBalancerFrontendIpConfigurationsClient(NetworkManagementClient client)
+  summary: Initializes an instance of LoadBalancerFrontendIpConfigurationsClient.
+  parameters:
+  - description: the instance of the service client containing this operation class.
+    name: client
+    type: <xref href="com.azure.resourcemanager.network.NetworkManagementClient?alt=com.azure.resourcemanager.network.NetworkManagementClient&text=NetworkManagementClient" data-throw-if-not-resolved="False" />
+  syntax: public LoadBalancerFrontendIpConfigurationsClient(NetworkManagementClient client)
+type: constructor
+metadata: {}
+package: com.azure.resourcemanager.network.fluent
+artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.0.0-beta.2

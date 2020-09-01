@@ -1,0 +1,23 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.compute.fluent.inner.VirtualMachineExtensionInner.withVirtualMachineExtensionType*
+fullName: com.azure.resourcemanager.compute.fluent.inner.VirtualMachineExtensionInner.withVirtualMachineExtensionType
+name: withVirtualMachineExtensionType
+nameWithType: VirtualMachineExtensionInner.withVirtualMachineExtensionType
+members:
+- uid: com.azure.resourcemanager.compute.fluent.inner.VirtualMachineExtensionInner.withVirtualMachineExtensionType(java.lang.String)
+  fullName: com.azure.resourcemanager.compute.fluent.inner.VirtualMachineExtensionInner.withVirtualMachineExtensionType(String typePropertiesType)
+  name: withVirtualMachineExtensionType(String typePropertiesType)
+  nameWithType: VirtualMachineExtensionInner.withVirtualMachineExtensionType(String typePropertiesType)
+  summary: 'Set the typePropertiesType property: Specifies the type of the extension; an example is "CustomScriptExtension".'
+  parameters:
+  - description: the typePropertiesType value to set.
+    name: typePropertiesType
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  syntax: public VirtualMachineExtensionInner withVirtualMachineExtensionType(String typePropertiesType)
+  returns:
+    description: the VirtualMachineExtensionInner object itself.
+    type: <xref href="com.azure.resourcemanager.compute.fluent.inner.VirtualMachineExtensionInner?alt=com.azure.resourcemanager.compute.fluent.inner.VirtualMachineExtensionInner&text=VirtualMachineExtensionInner" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.resourcemanager.compute.fluent.inner
+artifact: com.azure.resourcemanager:azure-resourcemanager-compute:2.0.0-beta.2

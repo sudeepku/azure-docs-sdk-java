@@ -1,0 +1,32 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.monitor.fluent.AutoscaleSettingsClient.listSinglePageAsync*
+fullName: com.azure.resourcemanager.monitor.fluent.AutoscaleSettingsClient.listSinglePageAsync
+name: listSinglePageAsync
+nameWithType: AutoscaleSettingsClient.listSinglePageAsync
+members:
+- uid: com.azure.resourcemanager.monitor.fluent.AutoscaleSettingsClient.listSinglePageAsync()
+  fullName: com.azure.resourcemanager.monitor.fluent.AutoscaleSettingsClient.listSinglePageAsync()
+  name: listSinglePageAsync()
+  nameWithType: AutoscaleSettingsClient.listSinglePageAsync()
+  summary: Lists the autoscale settings for a subscription.
+  syntax: public Mono<PagedResponse<AutoscaleSettingResourceInner>> listSinglePageAsync()
+  returns:
+    description: represents a collection of autoscale setting resources.
+    type: <xref href="reactor.core.publisher.Mono?alt=reactor.core.publisher.Mono&text=Mono" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.core.http.rest.PagedResponse?alt=com.azure.core.http.rest.PagedResponse&text=PagedResponse" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.resourcemanager.monitor.fluent.inner.AutoscaleSettingResourceInner?alt=com.azure.resourcemanager.monitor.fluent.inner.AutoscaleSettingResourceInner&text=AutoscaleSettingResourceInner" data-throw-if-not-resolved="False" />&gt;&gt;
+- uid: com.azure.resourcemanager.monitor.fluent.AutoscaleSettingsClient.listSinglePageAsync(com.azure.core.util.Context)
+  fullName: com.azure.resourcemanager.monitor.fluent.AutoscaleSettingsClient.listSinglePageAsync(Context context)
+  name: listSinglePageAsync(Context context)
+  nameWithType: AutoscaleSettingsClient.listSinglePageAsync(Context context)
+  summary: Lists the autoscale settings for a subscription.
+  parameters:
+  - description: The context to associate with this operation.
+    name: context
+    type: <xref href="com.azure.core.util.Context?alt=com.azure.core.util.Context&text=Context" data-throw-if-not-resolved="False" />
+  syntax: public Mono<PagedResponse<AutoscaleSettingResourceInner>> listSinglePageAsync(Context context)
+  returns:
+    description: represents a collection of autoscale setting resources.
+    type: <xref href="reactor.core.publisher.Mono?alt=reactor.core.publisher.Mono&text=Mono" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.core.http.rest.PagedResponse?alt=com.azure.core.http.rest.PagedResponse&text=PagedResponse" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.resourcemanager.monitor.fluent.inner.AutoscaleSettingResourceInner?alt=com.azure.resourcemanager.monitor.fluent.inner.AutoscaleSettingResourceInner&text=AutoscaleSettingResourceInner" data-throw-if-not-resolved="False" />&gt;&gt;
+type: method
+metadata: {}
+package: com.azure.resourcemanager.monitor.fluent
+artifact: com.azure.resourcemanager:azure-resourcemanager-monitor:2.0.0-beta.2

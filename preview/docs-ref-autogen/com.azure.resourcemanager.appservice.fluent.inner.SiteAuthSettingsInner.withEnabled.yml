@@ -1,0 +1,25 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.appservice.fluent.inner.SiteAuthSettingsInner.withEnabled*
+fullName: com.azure.resourcemanager.appservice.fluent.inner.SiteAuthSettingsInner.withEnabled
+name: withEnabled
+nameWithType: SiteAuthSettingsInner.withEnabled
+members:
+- uid: com.azure.resourcemanager.appservice.fluent.inner.SiteAuthSettingsInner.withEnabled(java.lang.Boolean)
+  fullName: com.azure.resourcemanager.appservice.fluent.inner.SiteAuthSettingsInner.withEnabled(Boolean enabled)
+  name: withEnabled(Boolean enabled)
+  nameWithType: SiteAuthSettingsInner.withEnabled(Boolean enabled)
+  summary: |-
+    Set the enabled property: &lt;code&gt;true&lt;/code&gt; if the Authentication / Authorization feature is enabled
+     for the current app; otherwise, &lt;code&gt;false&lt;/code&gt;.
+  parameters:
+  - description: the enabled value to set.
+    name: enabled
+    type: <xref href="java.lang.Boolean?alt=java.lang.Boolean&text=Boolean" data-throw-if-not-resolved="False" />
+  syntax: public SiteAuthSettingsInner withEnabled(Boolean enabled)
+  returns:
+    description: the SiteAuthSettingsInner object itself.
+    type: <xref href="com.azure.resourcemanager.appservice.fluent.inner.SiteAuthSettingsInner?alt=com.azure.resourcemanager.appservice.fluent.inner.SiteAuthSettingsInner&text=SiteAuthSettingsInner" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.resourcemanager.appservice.fluent.inner
+artifact: com.azure.resourcemanager:azure-resourcemanager-appservice:2.0.0-beta.2

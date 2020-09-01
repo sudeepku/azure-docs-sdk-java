@@ -1,0 +1,15 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.compute.fluent.inner.GalleryApplicationVersionListInner.GalleryApplicationVersionListInner*
+fullName: com.azure.resourcemanager.compute.fluent.inner.GalleryApplicationVersionListInner.GalleryApplicationVersionListInner
+name: GalleryApplicationVersionListInner
+nameWithType: GalleryApplicationVersionListInner.GalleryApplicationVersionListInner
+members:
+- uid: com.azure.resourcemanager.compute.fluent.inner.GalleryApplicationVersionListInner.GalleryApplicationVersionListInner()
+  fullName: com.azure.resourcemanager.compute.fluent.inner.GalleryApplicationVersionListInner.GalleryApplicationVersionListInner()
+  name: GalleryApplicationVersionListInner()
+  nameWithType: GalleryApplicationVersionListInner.GalleryApplicationVersionListInner()
+  syntax: public GalleryApplicationVersionListInner()
+type: constructor
+metadata: {}
+package: com.azure.resourcemanager.compute.fluent.inner
+artifact: com.azure.resourcemanager:azure-resourcemanager-compute:2.0.0-beta.2

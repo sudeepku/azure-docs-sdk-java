@@ -1,0 +1,39 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.resources.fluent.DeploymentsClient.getAtTenantScope*
+fullName: com.azure.resourcemanager.resources.fluent.DeploymentsClient.getAtTenantScope
+name: getAtTenantScope
+nameWithType: DeploymentsClient.getAtTenantScope
+members:
+- uid: com.azure.resourcemanager.resources.fluent.DeploymentsClient.getAtTenantScope(java.lang.String)
+  fullName: com.azure.resourcemanager.resources.fluent.DeploymentsClient.getAtTenantScope(String deploymentName)
+  name: getAtTenantScope(String deploymentName)
+  nameWithType: DeploymentsClient.getAtTenantScope(String deploymentName)
+  summary: Gets a deployment.
+  parameters:
+  - description: The name of the deployment.
+    name: deploymentName
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  syntax: public DeploymentExtendedInner getAtTenantScope(String deploymentName)
+  returns:
+    description: a deployment.
+    type: <xref href="com.azure.resourcemanager.resources.fluent.inner.DeploymentExtendedInner?alt=com.azure.resourcemanager.resources.fluent.inner.DeploymentExtendedInner&text=DeploymentExtendedInner" data-throw-if-not-resolved="False" />
+- uid: com.azure.resourcemanager.resources.fluent.DeploymentsClient.getAtTenantScope(java.lang.String,com.azure.core.util.Context)
+  fullName: com.azure.resourcemanager.resources.fluent.DeploymentsClient.getAtTenantScope(String deploymentName, Context context)
+  name: getAtTenantScope(String deploymentName, Context context)
+  nameWithType: DeploymentsClient.getAtTenantScope(String deploymentName, Context context)
+  summary: Gets a deployment.
+  parameters:
+  - description: The name of the deployment.
+    name: deploymentName
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  - description: The context to associate with this operation.
+    name: context
+    type: <xref href="com.azure.core.util.Context?alt=com.azure.core.util.Context&text=Context" data-throw-if-not-resolved="False" />
+  syntax: public DeploymentExtendedInner getAtTenantScope(String deploymentName, Context context)
+  returns:
+    description: a deployment.
+    type: <xref href="com.azure.resourcemanager.resources.fluent.inner.DeploymentExtendedInner?alt=com.azure.resourcemanager.resources.fluent.inner.DeploymentExtendedInner&text=DeploymentExtendedInner" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.resourcemanager.resources.fluent
+artifact: com.azure.resourcemanager:azure-resourcemanager-resources:2.0.0-beta.2

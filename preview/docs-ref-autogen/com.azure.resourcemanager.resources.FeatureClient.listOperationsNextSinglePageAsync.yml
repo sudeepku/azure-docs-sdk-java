@@ -1,0 +1,39 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.resources.FeatureClient.listOperationsNextSinglePageAsync*
+fullName: com.azure.resourcemanager.resources.FeatureClient.listOperationsNextSinglePageAsync
+name: listOperationsNextSinglePageAsync
+nameWithType: FeatureClient.listOperationsNextSinglePageAsync
+members:
+- uid: com.azure.resourcemanager.resources.FeatureClient.listOperationsNextSinglePageAsync(java.lang.String)
+  fullName: com.azure.resourcemanager.resources.FeatureClient.listOperationsNextSinglePageAsync(String nextLink)
+  name: listOperationsNextSinglePageAsync(String nextLink)
+  nameWithType: FeatureClient.listOperationsNextSinglePageAsync(String nextLink)
+  summary: Get the next page of items.
+  parameters:
+  - description: The nextLink parameter.
+    name: nextLink
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  syntax: public Mono<PagedResponse<OperationInner>> listOperationsNextSinglePageAsync(String nextLink)
+  returns:
+    description: result of the request to list Microsoft.
+    type: <xref href="reactor.core.publisher.Mono?alt=reactor.core.publisher.Mono&text=Mono" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.core.http.rest.PagedResponse?alt=com.azure.core.http.rest.PagedResponse&text=PagedResponse" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.resourcemanager.resources.fluent.inner.OperationInner?alt=com.azure.resourcemanager.resources.fluent.inner.OperationInner&text=OperationInner" data-throw-if-not-resolved="False" />&gt;&gt;
+- uid: com.azure.resourcemanager.resources.FeatureClient.listOperationsNextSinglePageAsync(java.lang.String,com.azure.core.util.Context)
+  fullName: com.azure.resourcemanager.resources.FeatureClient.listOperationsNextSinglePageAsync(String nextLink, Context context)
+  name: listOperationsNextSinglePageAsync(String nextLink, Context context)
+  nameWithType: FeatureClient.listOperationsNextSinglePageAsync(String nextLink, Context context)
+  summary: Get the next page of items.
+  parameters:
+  - description: The nextLink parameter.
+    name: nextLink
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  - description: The context to associate with this operation.
+    name: context
+    type: <xref href="com.azure.core.util.Context?alt=com.azure.core.util.Context&text=Context" data-throw-if-not-resolved="False" />
+  syntax: public Mono<PagedResponse<OperationInner>> listOperationsNextSinglePageAsync(String nextLink, Context context)
+  returns:
+    description: result of the request to list Microsoft.
+    type: <xref href="reactor.core.publisher.Mono?alt=reactor.core.publisher.Mono&text=Mono" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.core.http.rest.PagedResponse?alt=com.azure.core.http.rest.PagedResponse&text=PagedResponse" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.resourcemanager.resources.fluent.inner.OperationInner?alt=com.azure.resourcemanager.resources.fluent.inner.OperationInner&text=OperationInner" data-throw-if-not-resolved="False" />&gt;&gt;
+type: method
+metadata: {}
+package: com.azure.resourcemanager.resources
+artifact: com.azure.resourcemanager:azure-resourcemanager-resources:2.0.0-beta.2

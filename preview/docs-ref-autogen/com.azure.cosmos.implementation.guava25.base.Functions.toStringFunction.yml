@@ -1,0 +1,33 @@
+### YamlMime:JavaMember
+uid: com.azure.cosmos.implementation.guava25.base.Functions.toStringFunction*
+fullName: com.azure.cosmos.implementation.guava25.base.Functions.toStringFunction
+name: toStringFunction
+nameWithType: Functions.toStringFunction
+members:
+- uid: com.azure.cosmos.implementation.guava25.base.Functions.toStringFunction()
+  fullName: com.azure.cosmos.implementation.guava25.base.Functions.toStringFunction()
+  name: toStringFunction()
+  nameWithType: Functions.toStringFunction()
+  summary: |-
+    A function equivalent to the method reference <code>Object::toString</code>, for users not yet using
+     Java 8. The function simply invokes <code>toString</code> on its argument and returns the result. It
+     throws a <xref uid="NullPointerException" data-throw-if-not-resolved="false">NullPointerException</xref> on null input.
+
+     <p><b>Warning:</b> The returned function may not be <i>consistent with equals</i> (as
+     documented at <xref uid="Function#apply" data-throw-if-not-resolved="false">Function#apply</xref>). For example, this function yields different results for
+     the two equal instances <code>ImmutableSet.of(1, 2)</code> and <code>ImmutableSet.of(2, 1)</code>.
+
+     <p><b>Warning:</b> as with all function types in this package, avoid depending on the specific
+     <code>equals</code>, <code>hashCode</code> or <code>toString</code> behavior of the returned function. A
+     future migration to <code>java.util.function</code> will not preserve this behavior.
+
+     <p><b>For Java 8 users:</b> use the method reference <code>Object::toString</code> instead. In the
+     future, when this class requires Java 8, this method will be deprecated. See <xref uid="Function" data-throw-if-not-resolved="false">Function</xref>
+     for more important information about the Java 8 transition.
+  syntax: public static Function<Object,String> toStringFunction()
+  returns:
+    type: <xref href="com.azure.cosmos.implementation.guava25.base.Function?alt=com.azure.cosmos.implementation.guava25.base.Function&text=Function" data-throw-if-not-resolved="False" />&lt;<xref href="java.lang.Object?alt=java.lang.Object&text=Object" data-throw-if-not-resolved="False" />,<xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />&gt;
+type: method
+metadata: {}
+package: com.azure.cosmos.implementation.guava25.base
+artifact: com.azure:azure-cosmos:4.3.2-beta.2

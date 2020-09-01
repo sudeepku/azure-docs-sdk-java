@@ -1,0 +1,21 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.appservice.fluent.inner.SiteInner.isDefaultContainer*
+fullName: com.azure.resourcemanager.appservice.fluent.inner.SiteInner.isDefaultContainer
+name: isDefaultContainer
+nameWithType: SiteInner.isDefaultContainer
+members:
+- uid: com.azure.resourcemanager.appservice.fluent.inner.SiteInner.isDefaultContainer()
+  fullName: com.azure.resourcemanager.appservice.fluent.inner.SiteInner.isDefaultContainer()
+  name: isDefaultContainer()
+  nameWithType: SiteInner.isDefaultContainer()
+  summary: |-
+    Get the isDefaultContainer property: &lt;code&gt;true&lt;/code&gt; if the app is a default container; otherwise,
+     &lt;code&gt;false&lt;/code&gt;.
+  syntax: public Boolean isDefaultContainer()
+  returns:
+    description: the isDefaultContainer value.
+    type: <xref href="java.lang.Boolean?alt=java.lang.Boolean&text=Boolean" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.resourcemanager.appservice.fluent.inner
+artifact: com.azure.resourcemanager:azure-resourcemanager-appservice:2.0.0-beta.2

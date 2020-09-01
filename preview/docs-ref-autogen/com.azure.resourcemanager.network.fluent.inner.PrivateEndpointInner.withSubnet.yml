@@ -1,0 +1,23 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.network.fluent.inner.PrivateEndpointInner.withSubnet*
+fullName: com.azure.resourcemanager.network.fluent.inner.PrivateEndpointInner.withSubnet
+name: withSubnet
+nameWithType: PrivateEndpointInner.withSubnet
+members:
+- uid: com.azure.resourcemanager.network.fluent.inner.PrivateEndpointInner.withSubnet(com.azure.resourcemanager.network.fluent.inner.SubnetInner)
+  fullName: com.azure.resourcemanager.network.fluent.inner.PrivateEndpointInner.withSubnet(SubnetInner subnet)
+  name: withSubnet(SubnetInner subnet)
+  nameWithType: PrivateEndpointInner.withSubnet(SubnetInner subnet)
+  summary: 'Set the subnet property: The ID of the subnet from which the private IP will be allocated.'
+  parameters:
+  - description: the subnet value to set.
+    name: subnet
+    type: <xref href="com.azure.resourcemanager.network.fluent.inner.SubnetInner?alt=com.azure.resourcemanager.network.fluent.inner.SubnetInner&text=SubnetInner" data-throw-if-not-resolved="False" />
+  syntax: public PrivateEndpointInner withSubnet(SubnetInner subnet)
+  returns:
+    description: the PrivateEndpointInner object itself.
+    type: <xref href="com.azure.resourcemanager.network.fluent.inner.PrivateEndpointInner?alt=com.azure.resourcemanager.network.fluent.inner.PrivateEndpointInner&text=PrivateEndpointInner" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.resourcemanager.network.fluent.inner
+artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.0.0-beta.2

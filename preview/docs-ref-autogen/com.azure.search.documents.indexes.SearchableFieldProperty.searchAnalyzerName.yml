@@ -1,0 +1,19 @@
+### YamlMime:JavaMember
+uid: com.azure.search.documents.indexes.SearchableFieldProperty.searchAnalyzerName*
+fullName: com.azure.search.documents.indexes.SearchableFieldProperty.searchAnalyzerName
+name: searchAnalyzerName
+nameWithType: SearchableFieldProperty.searchAnalyzerName
+members:
+- uid: com.azure.search.documents.indexes.SearchableFieldProperty.searchAnalyzerName()
+  fullName: com.azure.search.documents.indexes.SearchableFieldProperty.searchAnalyzerName()
+  name: searchAnalyzerName()
+  nameWithType: SearchableFieldProperty.searchAnalyzerName()
+  summary: Optional arguments defines the name of the search analyzer used for the field.
+  syntax: public abstract String searchAnalyzerName()
+  returns:
+    description: <xref uid="com.azure.search.documents.indexes.models.LexicalAnalyzerName" data-throw-if-not-resolved="false">LexicalAnalyzerName</xref> String value. Or default to an empty String.
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.search.documents.indexes
+artifact: com.azure:azure-search-documents:11.1.0-beta.1

@@ -1,0 +1,15 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.compute.ComputeManagementClientBuilder.ComputeManagementClientBuilder*
+fullName: com.azure.resourcemanager.compute.ComputeManagementClientBuilder.ComputeManagementClientBuilder
+name: ComputeManagementClientBuilder
+nameWithType: ComputeManagementClientBuilder.ComputeManagementClientBuilder
+members:
+- uid: com.azure.resourcemanager.compute.ComputeManagementClientBuilder.ComputeManagementClientBuilder()
+  fullName: com.azure.resourcemanager.compute.ComputeManagementClientBuilder.ComputeManagementClientBuilder()
+  name: ComputeManagementClientBuilder()
+  nameWithType: ComputeManagementClientBuilder.ComputeManagementClientBuilder()
+  syntax: public ComputeManagementClientBuilder()
+type: constructor
+metadata: {}
+package: com.azure.resourcemanager.compute
+artifact: com.azure.resourcemanager:azure-resourcemanager-compute:2.0.0-beta.2

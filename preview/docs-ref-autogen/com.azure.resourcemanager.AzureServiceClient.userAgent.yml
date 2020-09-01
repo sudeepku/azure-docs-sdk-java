@@ -1,0 +1,19 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.AzureServiceClient.userAgent*
+fullName: com.azure.resourcemanager.AzureServiceClient.userAgent
+name: userAgent
+nameWithType: AzureServiceClient.userAgent
+members:
+- uid: com.azure.resourcemanager.AzureServiceClient.userAgent()
+  fullName: com.azure.resourcemanager.AzureServiceClient.userAgent()
+  name: userAgent()
+  nameWithType: AzureServiceClient.userAgent()
+  summary: The default User-Agent header. Override this method to override the user agent.
+  syntax: public String userAgent()
+  returns:
+    description: the user agent string.
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.resourcemanager
+artifact: com.azure.resourcemanager:azure-resourcemanager-resources:2.0.0-beta.2

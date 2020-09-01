@@ -1,0 +1,31 @@
+### YamlMime:JavaMember
+uid: com.azure.storage.blob.specialized.BlobClientBase.createSnapshot*
+fullName: com.azure.storage.blob.specialized.BlobClientBase.createSnapshot
+name: createSnapshot
+nameWithType: BlobClientBase.createSnapshot
+members:
+- uid: com.azure.storage.blob.specialized.BlobClientBase.createSnapshot()
+  fullName: com.azure.storage.blob.specialized.BlobClientBase.createSnapshot()
+  name: createSnapshot()
+  nameWithType: BlobClientBase.createSnapshot()
+  summary: |-
+    Creates a read-only snapshot of the blob.
+
+     <p><strong>Code Samples</strong></p>
+
+     <pre>
+     System.out.printf&#40;&quot;Identifier for the snapshot is %s%n&quot;, client.createSnapshot&#40;&#41;.getSnapshotId&#40;&#41;&#41;;
+     </pre>
+
+     <p>For more information, see the
+     <a href="https://docs.microsoft.com/en-us/rest/api/storageservices/snapshot-blob">Azure Docs</a></p>
+  syntax: public BlobClientBase createSnapshot()
+  returns:
+    description: |-
+      A response containing a <xref uid="com.azure.storage.blob.specialized.BlobClientBase" data-throw-if-not-resolved="false">BlobClientBase</xref> which is used to interact with the created snapshot, use
+       <xref uid="com.azure.storage.blob.specialized.BlobClientBase.getSnapshotId()" data-throw-if-not-resolved="false">BlobClientBase#getSnapshotId()</xref> to get the identifier for the snapshot.
+    type: <xref href="com.azure.storage.blob.specialized.BlobClientBase?alt=com.azure.storage.blob.specialized.BlobClientBase&text=BlobClientBase" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.storage.blob.specialized
+artifact: com.azure:azure-storage-blob:12.8.0-beta.1

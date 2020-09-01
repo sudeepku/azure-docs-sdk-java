@@ -1,0 +1,25 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.network.fluent.inner.P2SVpnServerConfigurationInner.withP2SVpnServerConfigVpnClientRootCertificates*
+fullName: com.azure.resourcemanager.network.fluent.inner.P2SVpnServerConfigurationInner.withP2SVpnServerConfigVpnClientRootCertificates
+name: withP2SVpnServerConfigVpnClientRootCertificates
+nameWithType: P2SVpnServerConfigurationInner.withP2SVpnServerConfigVpnClientRootCertificates
+members:
+- uid: com.azure.resourcemanager.network.fluent.inner.P2SVpnServerConfigurationInner.withP2SVpnServerConfigVpnClientRootCertificates(java.util.List<com.azure.resourcemanager.network.models.P2SVpnServerConfigVpnClientRootCertificate>)
+  fullName: com.azure.resourcemanager.network.fluent.inner.P2SVpnServerConfigurationInner.withP2SVpnServerConfigVpnClientRootCertificates(List<P2SVpnServerConfigVpnClientRootCertificate> p2SVpnServerConfigVpnClientRootCertificates)
+  name: withP2SVpnServerConfigVpnClientRootCertificates(List<P2SVpnServerConfigVpnClientRootCertificate> p2SVpnServerConfigVpnClientRootCertificates)
+  nameWithType: P2SVpnServerConfigurationInner.withP2SVpnServerConfigVpnClientRootCertificates(List<P2SVpnServerConfigVpnClientRootCertificate> p2SVpnServerConfigVpnClientRootCertificates)
+  summary: |-
+    Set the p2SVpnServerConfigVpnClientRootCertificates property: VPN client root certificate of
+     P2SVpnServerConfiguration.
+  parameters:
+  - description: the p2SVpnServerConfigVpnClientRootCertificates value to set.
+    name: p2SVpnServerConfigVpnClientRootCertificates
+    type: <xref href="java.util.List?alt=java.util.List&text=List" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.resourcemanager.network.models.P2SVpnServerConfigVpnClientRootCertificate?alt=com.azure.resourcemanager.network.models.P2SVpnServerConfigVpnClientRootCertificate&text=P2SVpnServerConfigVpnClientRootCertificate" data-throw-if-not-resolved="False" />&gt;
+  syntax: public P2SVpnServerConfigurationInner withP2SVpnServerConfigVpnClientRootCertificates(List<P2SVpnServerConfigVpnClientRootCertificate> p2SVpnServerConfigVpnClientRootCertificates)
+  returns:
+    description: the P2SVpnServerConfigurationInner object itself.
+    type: <xref href="com.azure.resourcemanager.network.fluent.inner.P2SVpnServerConfigurationInner?alt=com.azure.resourcemanager.network.fluent.inner.P2SVpnServerConfigurationInner&text=P2SVpnServerConfigurationInner" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.resourcemanager.network.fluent.inner
+artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.0.0-beta.2

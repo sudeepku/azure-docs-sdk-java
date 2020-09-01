@@ -1,0 +1,20 @@
+### YamlMime:JavaMember
+uid: com.azure.messaging.servicebus.models.SubscriptionRuntimeInfo.SubscriptionRuntimeInfo*
+fullName: com.azure.messaging.servicebus.models.SubscriptionRuntimeInfo.SubscriptionRuntimeInfo
+name: SubscriptionRuntimeInfo
+nameWithType: SubscriptionRuntimeInfo.SubscriptionRuntimeInfo
+members:
+- uid: com.azure.messaging.servicebus.models.SubscriptionRuntimeInfo.SubscriptionRuntimeInfo(com.azure.messaging.servicebus.models.SubscriptionProperties)
+  fullName: com.azure.messaging.servicebus.models.SubscriptionRuntimeInfo.SubscriptionRuntimeInfo(SubscriptionProperties subscriptionProperties)
+  name: SubscriptionRuntimeInfo(SubscriptionProperties subscriptionProperties)
+  nameWithType: SubscriptionRuntimeInfo.SubscriptionRuntimeInfo(SubscriptionProperties subscriptionProperties)
+  summary: Creates a new instance with runtime properties extracted from the given SubscriptionDescription.
+  parameters:
+  - description: Subscription description to extract runtime information from.
+    name: subscriptionProperties
+    type: <xref href="com.azure.messaging.servicebus.models.SubscriptionProperties?alt=com.azure.messaging.servicebus.models.SubscriptionProperties&text=SubscriptionProperties" data-throw-if-not-resolved="False" />
+  syntax: public SubscriptionRuntimeInfo(SubscriptionProperties subscriptionProperties)
+type: constructor
+metadata: {}
+package: com.azure.messaging.servicebus.models
+artifact: com.azure:azure-messaging-servicebus:7.0.0-beta.5

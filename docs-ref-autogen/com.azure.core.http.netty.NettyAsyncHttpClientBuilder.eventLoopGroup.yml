@@ -1,0 +1,33 @@
+### YamlMime:JavaMember
+uid: com.azure.core.http.netty.NettyAsyncHttpClientBuilder.eventLoopGroup*
+fullName: com.azure.core.http.netty.NettyAsyncHttpClientBuilder.eventLoopGroup
+name: eventLoopGroup
+nameWithType: NettyAsyncHttpClientBuilder.eventLoopGroup
+members:
+- uid: com.azure.core.http.netty.NettyAsyncHttpClientBuilder.eventLoopGroup(io.netty.channel.EventLoopGroup)
+  fullName: com.azure.core.http.netty.NettyAsyncHttpClientBuilder.eventLoopGroup(EventLoopGroup eventLoopGroup)
+  name: eventLoopGroup(EventLoopGroup eventLoopGroup)
+  nameWithType: NettyAsyncHttpClientBuilder.eventLoopGroup(EventLoopGroup eventLoopGroup)
+  summary: |-
+    Sets the IO event loop group that will be used to run IO loops.
+
+     <p><strong>Code Samples</strong></p>
+
+     <pre>
+     int threadCount = 5;
+     HttpClient client = new NettyAsyncHttpClientBuilder&#40;&#41;
+         .eventLoopGroup&#40;new NioEventLoopGroup&#40;threadCount&#41;&#41;
+         .build&#40;&#41;;
+     </pre>
+  parameters:
+  - description: The <xref uid="io.netty.channel.EventLoopGroup" data-throw-if-not-resolved="false">EventLoopGroup</xref> that will run IO loops.
+    name: eventLoopGroup
+    type: <xref href="io.netty.channel.EventLoopGroup?alt=io.netty.channel.EventLoopGroup&text=EventLoopGroup" data-throw-if-not-resolved="False" />
+  syntax: public NettyAsyncHttpClientBuilder eventLoopGroup(EventLoopGroup eventLoopGroup)
+  returns:
+    description: the updated NettyAsyncHttpClientBuilder object.
+    type: <xref href="com.azure.core.http.netty.NettyAsyncHttpClientBuilder?alt=com.azure.core.http.netty.NettyAsyncHttpClientBuilder&text=NettyAsyncHttpClientBuilder" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.core.http.netty
+artifact: com.azure:azure-core-http-netty:1.5.4

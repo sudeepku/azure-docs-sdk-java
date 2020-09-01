@@ -1,0 +1,29 @@
+### YamlMime:JavaMember
+uid: com.azure.search.documents.SearchAsyncClient.getDocumentCount*
+fullName: com.azure.search.documents.SearchAsyncClient.getDocumentCount
+name: getDocumentCount
+nameWithType: SearchAsyncClient.getDocumentCount
+members:
+- uid: com.azure.search.documents.SearchAsyncClient.getDocumentCount()
+  fullName: com.azure.search.documents.SearchAsyncClient.getDocumentCount()
+  name: getDocumentCount()
+  nameWithType: SearchAsyncClient.getDocumentCount()
+  summary: |-
+    Queries the number of documents in the search index.
+
+     <p><strong>Code Sample</strong></p>
+
+     <p> Get document count. </p>
+
+     <pre>
+     searchAsyncClient.getDocumentCount&#40;&#41;
+         .subscribe&#40;count -&gt; System.out.printf&#40;&quot;There are %d documents in service.&quot;, count&#41;&#41;;
+     </pre>
+  syntax: public Mono<Long> getDocumentCount()
+  returns:
+    description: the number of documents.
+    type: <xref href="reactor.core.publisher.Mono?alt=reactor.core.publisher.Mono&text=Mono" data-throw-if-not-resolved="False" />&lt;<xref href="java.lang.Long?alt=java.lang.Long&text=Long" data-throw-if-not-resolved="False" />&gt;
+type: method
+metadata: {}
+package: com.azure.search.documents
+artifact: com.azure:azure-search-documents:11.0.0

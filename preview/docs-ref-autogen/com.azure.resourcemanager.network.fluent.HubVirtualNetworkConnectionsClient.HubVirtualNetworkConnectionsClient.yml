@@ -1,0 +1,20 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.network.fluent.HubVirtualNetworkConnectionsClient.HubVirtualNetworkConnectionsClient*
+fullName: com.azure.resourcemanager.network.fluent.HubVirtualNetworkConnectionsClient.HubVirtualNetworkConnectionsClient
+name: HubVirtualNetworkConnectionsClient
+nameWithType: HubVirtualNetworkConnectionsClient.HubVirtualNetworkConnectionsClient
+members:
+- uid: com.azure.resourcemanager.network.fluent.HubVirtualNetworkConnectionsClient.HubVirtualNetworkConnectionsClient(com.azure.resourcemanager.network.NetworkManagementClient)
+  fullName: com.azure.resourcemanager.network.fluent.HubVirtualNetworkConnectionsClient.HubVirtualNetworkConnectionsClient(NetworkManagementClient client)
+  name: HubVirtualNetworkConnectionsClient(NetworkManagementClient client)
+  nameWithType: HubVirtualNetworkConnectionsClient.HubVirtualNetworkConnectionsClient(NetworkManagementClient client)
+  summary: Initializes an instance of HubVirtualNetworkConnectionsClient.
+  parameters:
+  - description: the instance of the service client containing this operation class.
+    name: client
+    type: <xref href="com.azure.resourcemanager.network.NetworkManagementClient?alt=com.azure.resourcemanager.network.NetworkManagementClient&text=NetworkManagementClient" data-throw-if-not-resolved="False" />
+  syntax: public HubVirtualNetworkConnectionsClient(NetworkManagementClient client)
+type: constructor
+metadata: {}
+package: com.azure.resourcemanager.network.fluent
+artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.0.0-beta.2

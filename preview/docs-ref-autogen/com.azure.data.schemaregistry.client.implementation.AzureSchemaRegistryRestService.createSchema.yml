@@ -1,0 +1,63 @@
+### YamlMime:JavaMember
+uid: com.azure.data.schemaregistry.client.implementation.AzureSchemaRegistryRestService.createSchema*
+fullName: com.azure.data.schemaregistry.client.implementation.AzureSchemaRegistryRestService.createSchema
+name: createSchema
+nameWithType: AzureSchemaRegistryRestService.createSchema
+members:
+- uid: com.azure.data.schemaregistry.client.implementation.AzureSchemaRegistryRestService.createSchema(java.lang.String,java.lang.String,java.lang.String,java.lang.String)
+  fullName: com.azure.data.schemaregistry.client.implementation.AzureSchemaRegistryRestService.createSchema(String groupName, String schemaName, String xSchemaType, String body)
+  name: createSchema(String groupName, String schemaName, String xSchemaType, String body)
+  nameWithType: AzureSchemaRegistryRestService.createSchema(String groupName, String schemaName, String xSchemaType, String body)
+  summary: |-
+    Register schema. If schema of specified name does not exist in specified group, schema is created at version 1.
+     If schema of specified name exists already in specified group, schema is created at latest version + 1. If schema
+     with identical content already exists, existing schema's ID is returned.
+  parameters:
+  - description: schema group.
+    name: groupName
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  - description: schema name.
+    name: schemaName
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  - description: The xSchemaType parameter.
+    name: xSchemaType
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  - description: schema content.
+    name: body
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  syntax: public SchemaId createSchema(String groupName, String schemaName, String xSchemaType, String body)
+  returns:
+    description: the response.
+    type: <xref href="com.azure.data.schemaregistry.client.implementation.models.SchemaId?alt=com.azure.data.schemaregistry.client.implementation.models.SchemaId&text=SchemaId" data-throw-if-not-resolved="False" />
+- uid: com.azure.data.schemaregistry.client.implementation.AzureSchemaRegistryRestService.createSchema(java.lang.String,java.lang.String,java.lang.String,java.lang.String,com.azure.core.util.Context)
+  fullName: com.azure.data.schemaregistry.client.implementation.AzureSchemaRegistryRestService.createSchema(String groupName, String schemaName, String xSchemaType, String body, Context context)
+  name: createSchema(String groupName, String schemaName, String xSchemaType, String body, Context context)
+  nameWithType: AzureSchemaRegistryRestService.createSchema(String groupName, String schemaName, String xSchemaType, String body, Context context)
+  summary: |-
+    Register schema. If schema of specified name does not exist in specified group, schema is created at version 1.
+     If schema of specified name exists already in specified group, schema is created at latest version + 1. If schema
+     with identical content already exists, existing schema's ID is returned.
+  parameters:
+  - description: schema group.
+    name: groupName
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  - description: schema name.
+    name: schemaName
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  - description: The xSchemaType parameter.
+    name: xSchemaType
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  - description: schema content.
+    name: body
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  - description: The context to associate with this operation.
+    name: context
+    type: <xref href="com.azure.core.util.Context?alt=com.azure.core.util.Context&text=Context" data-throw-if-not-resolved="False" />
+  syntax: public SchemaId createSchema(String groupName, String schemaName, String xSchemaType, String body, Context context)
+  returns:
+    description: the response.
+    type: <xref href="com.azure.data.schemaregistry.client.implementation.models.SchemaId?alt=com.azure.data.schemaregistry.client.implementation.models.SchemaId&text=SchemaId" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.data.schemaregistry.client.implementation
+artifact: com.azure:azure-data-schemaregistry:1.0.0-beta.1

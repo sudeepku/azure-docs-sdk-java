@@ -1,0 +1,20 @@
+### YamlMime:JavaMember
+uid: com.azure.storage.blob.BlobServiceClient.setProperties*
+fullName: com.azure.storage.blob.BlobServiceClient.setProperties
+name: setProperties
+nameWithType: BlobServiceClient.setProperties
+members:
+- uid: com.azure.storage.blob.BlobServiceClient.setProperties(com.azure.storage.blob.models.BlobServiceProperties)
+  fullName: com.azure.storage.blob.BlobServiceClient.setProperties(BlobServiceProperties properties)
+  name: setProperties(BlobServiceProperties properties)
+  nameWithType: BlobServiceClient.setProperties(BlobServiceProperties properties)
+  summary: "Sets properties for a storage account's Blob service endpoint. For more information, see the\n <a href=\"https://docs.microsoft.com/en-us/rest/api/storageservices/set-blob-service-properties\">Azure Docs</a>.\n Note that setting the default service version has no effect when using this client because this client explicitly\n sets the version header on each request, overriding the default.\n <p>This method checks to ensure the properties being sent follow the specifications indicated in the Azure Docs.\n If CORS policies are set, CORS parameters that are not set default to the empty string.</p>\n\n <p><strong>Code Samples</strong></p>\n\n <pre>\n BlobRetentionPolicy loggingRetentionPolicy = new BlobRetentionPolicy&#40;&#41;.setEnabled&#40;true&#41;.setDays&#40;3&#41;;\n BlobRetentionPolicy metricsRetentionPolicy = new BlobRetentionPolicy&#40;&#41;.setEnabled&#40;true&#41;.setDays&#40;1&#41;;\n \n BlobServiceProperties properties = new BlobServiceProperties&#40;&#41;\n     .setLogging&#40;new BlobAnalyticsLogging&#40;&#41;\n         .setWrite&#40;true&#41;\n         .setDelete&#40;true&#41;\n         .setRetentionPolicy&#40;loggingRetentionPolicy&#41;&#41;\n     .setHourMetrics&#40;new BlobMetrics&#40;&#41;\n         .setEnabled&#40;true&#41;\n         .setRetentionPolicy&#40;metricsRetentionPolicy&#41;&#41;\n     .setMinuteMetrics&#40;new BlobMetrics&#40;&#41;\n         .setEnabled&#40;true&#41;\n         .setRetentionPolicy&#40;metricsRetentionPolicy&#41;&#41;;\n \n try &#123;\n     client.setProperties&#40;properties&#41;;\n     System.out.printf&#40;&quot;Setting properties completed%n&quot;&#41;;\n &#125; catch &#40;UnsupportedOperationException error&#41; &#123;\n     System.out.printf&#40;&quot;Setting properties failed: %s%n&quot;, error&#41;;\n &#125;\n </pre>"
+  parameters:
+  - description: Configures the service.
+    name: properties
+    type: <xref href="com.azure.storage.blob.models.BlobServiceProperties?alt=com.azure.storage.blob.models.BlobServiceProperties&text=BlobServiceProperties" data-throw-if-not-resolved="False" />
+  syntax: public void setProperties(BlobServiceProperties properties)
+type: method
+metadata: {}
+package: com.azure.storage.blob
+artifact: com.azure:azure-storage-blob:12.8.0-beta.1

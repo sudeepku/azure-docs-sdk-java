@@ -1,0 +1,29 @@
+### YamlMime:JavaMember
+nameWithType: Accounts.beginDelete
+type: method
+members:
+- fullName: com.microsoft.azure.management.datalake.analytics.Accounts.beginDelete(String resourceGroupName, String accountName)
+  name: beginDelete(String resourceGroupName, String accountName)
+  nameWithType: Accounts.beginDelete(String resourceGroupName, String accountName)
+  parameters:
+  - description: <p>The name of the Azure resource group that contains the Data Lake Analytics account. </p>
+    name: resourceGroupName
+    type: <xref href="String?alt=String&text=String" data-throw-if-not-resolved="False"/>
+  - description: <p>The name of the Data Lake Analytics account to delete </p>
+    name: accountName
+    type: <xref href="String?alt=String&text=String" data-throw-if-not-resolved="False"/>
+  exceptions:
+  - name: 3c87bd19
+  - name: dc385fd4
+  - name: 9b2a4515
+  summary: >-
+    <p>Begins the delete process for the Data Lake Analytics account object specified by the account name.</p>
+
+    <p></p>
+  syntax: public void beginDelete(String resourceGroupName, String accountName)
+  uid: com.microsoft.azure.management.datalake.analytics.Accounts.beginDelete(String,String)
+uid: com.microsoft.azure.management.datalake.analytics.Accounts.beginDelete*
+fullName: com.microsoft.azure.management.datalake.analytics.Accounts.beginDelete(String resourceGroupName, String accountName)
+name: beginDelete(String resourceGroupName, String accountName)
+package: com.microsoft.azure.management.datalake.analytics
+metadata: {}

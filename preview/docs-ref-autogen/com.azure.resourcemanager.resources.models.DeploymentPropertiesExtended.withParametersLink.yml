@@ -1,0 +1,25 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.resources.models.DeploymentPropertiesExtended.withParametersLink*
+fullName: com.azure.resourcemanager.resources.models.DeploymentPropertiesExtended.withParametersLink
+name: withParametersLink
+nameWithType: DeploymentPropertiesExtended.withParametersLink
+members:
+- uid: com.azure.resourcemanager.resources.models.DeploymentPropertiesExtended.withParametersLink(com.azure.resourcemanager.resources.models.ParametersLink)
+  fullName: com.azure.resourcemanager.resources.models.DeploymentPropertiesExtended.withParametersLink(ParametersLink parametersLink)
+  name: withParametersLink(ParametersLink parametersLink)
+  nameWithType: DeploymentPropertiesExtended.withParametersLink(ParametersLink parametersLink)
+  summary: |-
+    Set the parametersLink property: The URI referencing the parameters. Use only one of Parameters or
+     ParametersLink.
+  parameters:
+  - description: the parametersLink value to set.
+    name: parametersLink
+    type: <xref href="com.azure.resourcemanager.resources.models.ParametersLink?alt=com.azure.resourcemanager.resources.models.ParametersLink&text=ParametersLink" data-throw-if-not-resolved="False" />
+  syntax: public DeploymentPropertiesExtended withParametersLink(ParametersLink parametersLink)
+  returns:
+    description: the DeploymentPropertiesExtended object itself.
+    type: <xref href="com.azure.resourcemanager.resources.models.DeploymentPropertiesExtended?alt=com.azure.resourcemanager.resources.models.DeploymentPropertiesExtended&text=DeploymentPropertiesExtended" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.resourcemanager.resources.models
+artifact: com.azure.resourcemanager:azure-resourcemanager-resources:2.0.0-beta.2

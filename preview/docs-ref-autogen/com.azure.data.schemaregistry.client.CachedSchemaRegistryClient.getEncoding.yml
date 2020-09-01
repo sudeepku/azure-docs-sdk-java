@@ -1,0 +1,19 @@
+### YamlMime:JavaMember
+uid: com.azure.data.schemaregistry.client.CachedSchemaRegistryClient.getEncoding*
+fullName: com.azure.data.schemaregistry.client.CachedSchemaRegistryClient.getEncoding
+name: getEncoding
+nameWithType: CachedSchemaRegistryClient.getEncoding
+members:
+- uid: com.azure.data.schemaregistry.client.CachedSchemaRegistryClient.getEncoding()
+  fullName: com.azure.data.schemaregistry.client.CachedSchemaRegistryClient.getEncoding()
+  name: getEncoding()
+  nameWithType: CachedSchemaRegistryClient.getEncoding()
+  summary: Encoding used by registry client implementation.
+  syntax: public Charset getEncoding()
+  returns:
+    description: Azure Schema Registry service string encoding
+    type: <xref href="java.nio.charset.Charset?alt=java.nio.charset.Charset&text=Charset" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.data.schemaregistry.client
+artifact: com.azure:azure-data-schemaregistry:1.0.0-beta.1

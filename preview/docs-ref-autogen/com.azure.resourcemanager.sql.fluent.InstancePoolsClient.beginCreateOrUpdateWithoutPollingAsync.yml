@@ -1,0 +1,55 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.sql.fluent.InstancePoolsClient.beginCreateOrUpdateWithoutPollingAsync*
+fullName: com.azure.resourcemanager.sql.fluent.InstancePoolsClient.beginCreateOrUpdateWithoutPollingAsync
+name: beginCreateOrUpdateWithoutPollingAsync
+nameWithType: InstancePoolsClient.beginCreateOrUpdateWithoutPollingAsync
+members:
+- uid: com.azure.resourcemanager.sql.fluent.InstancePoolsClient.beginCreateOrUpdateWithoutPollingAsync(java.lang.String,java.lang.String,com.azure.resourcemanager.sql.fluent.inner.InstancePoolInner)
+  fullName: com.azure.resourcemanager.sql.fluent.InstancePoolsClient.beginCreateOrUpdateWithoutPollingAsync(String resourceGroupName, String instancePoolName, InstancePoolInner parameters)
+  name: beginCreateOrUpdateWithoutPollingAsync(String resourceGroupName, String instancePoolName, InstancePoolInner parameters)
+  nameWithType: InstancePoolsClient.beginCreateOrUpdateWithoutPollingAsync(String resourceGroupName, String instancePoolName, InstancePoolInner parameters)
+  summary: Creates or updates an instance pool.
+  parameters:
+  - description: |-
+      The name of the resource group that contains the resource. You can obtain this value
+           from the Azure Resource Manager API or the portal.
+    name: resourceGroupName
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  - description: The name of the instance pool to be created or updated.
+    name: instancePoolName
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  - description: An Azure SQL instance pool.
+    name: parameters
+    type: <xref href="com.azure.resourcemanager.sql.fluent.inner.InstancePoolInner?alt=com.azure.resourcemanager.sql.fluent.inner.InstancePoolInner&text=InstancePoolInner" data-throw-if-not-resolved="False" />
+  syntax: public Mono<InstancePoolInner> beginCreateOrUpdateWithoutPollingAsync(String resourceGroupName, String instancePoolName, InstancePoolInner parameters)
+  returns:
+    description: an Azure SQL instance pool.
+    type: <xref href="reactor.core.publisher.Mono?alt=reactor.core.publisher.Mono&text=Mono" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.resourcemanager.sql.fluent.inner.InstancePoolInner?alt=com.azure.resourcemanager.sql.fluent.inner.InstancePoolInner&text=InstancePoolInner" data-throw-if-not-resolved="False" />&gt;
+- uid: com.azure.resourcemanager.sql.fluent.InstancePoolsClient.beginCreateOrUpdateWithoutPollingAsync(java.lang.String,java.lang.String,com.azure.resourcemanager.sql.fluent.inner.InstancePoolInner,com.azure.core.util.Context)
+  fullName: com.azure.resourcemanager.sql.fluent.InstancePoolsClient.beginCreateOrUpdateWithoutPollingAsync(String resourceGroupName, String instancePoolName, InstancePoolInner parameters, Context context)
+  name: beginCreateOrUpdateWithoutPollingAsync(String resourceGroupName, String instancePoolName, InstancePoolInner parameters, Context context)
+  nameWithType: InstancePoolsClient.beginCreateOrUpdateWithoutPollingAsync(String resourceGroupName, String instancePoolName, InstancePoolInner parameters, Context context)
+  summary: Creates or updates an instance pool.
+  parameters:
+  - description: |-
+      The name of the resource group that contains the resource. You can obtain this value
+           from the Azure Resource Manager API or the portal.
+    name: resourceGroupName
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  - description: The name of the instance pool to be created or updated.
+    name: instancePoolName
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  - description: An Azure SQL instance pool.
+    name: parameters
+    type: <xref href="com.azure.resourcemanager.sql.fluent.inner.InstancePoolInner?alt=com.azure.resourcemanager.sql.fluent.inner.InstancePoolInner&text=InstancePoolInner" data-throw-if-not-resolved="False" />
+  - description: The context to associate with this operation.
+    name: context
+    type: <xref href="com.azure.core.util.Context?alt=com.azure.core.util.Context&text=Context" data-throw-if-not-resolved="False" />
+  syntax: public Mono<InstancePoolInner> beginCreateOrUpdateWithoutPollingAsync(String resourceGroupName, String instancePoolName, InstancePoolInner parameters, Context context)
+  returns:
+    description: an Azure SQL instance pool.
+    type: <xref href="reactor.core.publisher.Mono?alt=reactor.core.publisher.Mono&text=Mono" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.resourcemanager.sql.fluent.inner.InstancePoolInner?alt=com.azure.resourcemanager.sql.fluent.inner.InstancePoolInner&text=InstancePoolInner" data-throw-if-not-resolved="False" />&gt;
+type: method
+metadata: {}
+package: com.azure.resourcemanager.sql.fluent
+artifact: com.azure.resourcemanager:azure-resourcemanager-sql:2.0.0-beta.2

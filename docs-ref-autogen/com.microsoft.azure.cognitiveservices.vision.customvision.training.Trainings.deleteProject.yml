@@ -1,0 +1,26 @@
+### YamlMime:JavaMember
+nameWithType: Trainings.deleteProject
+type: method
+members:
+- fullName: com.microsoft.azure.cognitiveservices.vision.customvision.training.Trainings.deleteProject(UUID projectId)
+  name: deleteProject(UUID projectId)
+  nameWithType: Trainings.deleteProject(UUID projectId)
+  parameters:
+  - description: <p>The project id. </p>
+    name: projectId
+    type: <xref href="UUID?alt=UUID&text=UUID" data-throw-if-not-resolved="False"/>
+  exceptions:
+  - name: 3c87bd19
+  - name: d8f234c9
+  - name: 9b2a4515
+  summary: >-
+    <p>Delete a specific project.</p>
+
+    <p></p>
+  syntax: public void deleteProject(UUID projectId)
+  uid: com.microsoft.azure.cognitiveservices.vision.customvision.training.Trainings.deleteProject(UUID)
+uid: com.microsoft.azure.cognitiveservices.vision.customvision.training.Trainings.deleteProject*
+fullName: com.microsoft.azure.cognitiveservices.vision.customvision.training.Trainings.deleteProject(UUID projectId)
+name: deleteProject(UUID projectId)
+package: com.microsoft.azure.cognitiveservices.vision.customvision.training
+metadata: {}

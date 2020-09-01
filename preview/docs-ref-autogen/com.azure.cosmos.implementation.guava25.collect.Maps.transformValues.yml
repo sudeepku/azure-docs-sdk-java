@@ -1,0 +1,146 @@
+### YamlMime:JavaMember
+uid: com.azure.cosmos.implementation.guava25.collect.Maps.transformValues*
+fullName: com.azure.cosmos.implementation.guava25.collect.Maps.<K,V1,V2>transformValues
+name: <K,V1,V2>transformValues
+nameWithType: Maps.<K,V1,V2>transformValues
+members:
+- uid: com.azure.cosmos.implementation.guava25.collect.Maps.<K,V1,V2>transformValues(java.util.Map<K,V1>,com.azure.cosmos.implementation.guava25.base.Function<? super V1,V2>)
+  fullName: com.azure.cosmos.implementation.guava25.collect.Maps.<K,V1,V2>transformValues(Map<K,V1> fromMap, Function<? super V1,V2> function)
+  name: <K,V1,V2>transformValues(Map<K,V1> fromMap, Function<? super V1,V2> function)
+  nameWithType: Maps.<K,V1,V2>transformValues(Map<K,V1> fromMap, Function<? super V1,V2> function)
+  summary: |-
+    Returns a view of a map where each value is transformed by a function. All other properties of
+     the map, such as iteration order, are left intact. For example, the code:
+
+     <pre><code>
+     Map<String, Integer> map = ImmutableMap.of("a", 4, "b", 9);
+     Function<Integer, Double> sqrt =
+         new Function<Integer, Double>() {
+           public Double apply(Integer in) {
+             return Math.sqrt((int) in);
+           }
+         };
+     Map<String, Double> transformed = Maps.transformValues(map, sqrt);
+     System.out.println(transformed);
+     </code></pre>
+
+     ... prints <code>{a=2.0, b=3.0}</code>.
+
+     <p>Changes in the underlying map are reflected in this view. Conversely, this view supports
+     removal operations, and these are reflected in the underlying map.
+
+     <p>It's acceptable for the underlying map to contain null keys, and even null values provided
+     that the function is capable of accepting null input. The transformed map might contain null
+     values, if the function sometimes gives a null result.
+
+     <p>The returned map is not thread-safe or serializable, even if the underlying map is.
+
+     <p>The function is applied lazily, invoked when needed. This is necessary for the returned map
+     to be a view, but it means that the function will be applied many times for bulk operations
+     like <xref uid="Map#containsValue" data-throw-if-not-resolved="false">Map#containsValue</xref> and <code>Map.toString()</code>. For this to perform well, <code>
+     function</code> should be fast. To avoid lazy evaluation when the returned map doesn't need to be a
+     view, copy the returned map into a new map of your choosing.
+  parameters:
+  - name: fromMap
+    type: <xref href="java.util.Map?alt=java.util.Map&text=Map" data-throw-if-not-resolved="False" />&lt;<xref href="K?alt=K&text=K" data-throw-if-not-resolved="False" />,<xref href="V1?alt=V1&text=V1" data-throw-if-not-resolved="False" />&gt;
+  - name: function
+    type: <xref href="com.azure.cosmos.implementation.guava25.base.Function?alt=com.azure.cosmos.implementation.guava25.base.Function&text=Function" data-throw-if-not-resolved="False" />&lt;<xref href="? super V1?alt=? super V1&text=? super V1" data-throw-if-not-resolved="False" />,<xref href="V2?alt=V2&text=V2" data-throw-if-not-resolved="False" />&gt;
+  syntax: public static Map<K,V2> <K,V1,V2>transformValues(Map<K,V1> fromMap, Function<? super V1,V2> function)
+  returns:
+    type: <xref href="java.util.Map?alt=java.util.Map&text=Map" data-throw-if-not-resolved="False" />&lt;<xref href="K?alt=K&text=K" data-throw-if-not-resolved="False" />,<xref href="V2?alt=V2&text=V2" data-throw-if-not-resolved="False" />&gt;
+- uid: com.azure.cosmos.implementation.guava25.collect.Maps.<K,V1,V2>transformValues(java.util.NavigableMap<K,V1>,com.azure.cosmos.implementation.guava25.base.Function<? super V1,V2>)
+  fullName: com.azure.cosmos.implementation.guava25.collect.Maps.<K,V1,V2>transformValues(NavigableMap<K,V1> fromMap, Function<? super V1,V2> function)
+  name: <K,V1,V2>transformValues(NavigableMap<K,V1> fromMap, Function<? super V1,V2> function)
+  nameWithType: Maps.<K,V1,V2>transformValues(NavigableMap<K,V1> fromMap, Function<? super V1,V2> function)
+  summary: |-
+    Returns a view of a navigable map where each value is transformed by a function. All other
+     properties of the map, such as iteration order, are left intact. For example, the code:
+
+     <pre><code>
+     NavigableMap<String, Integer> map = Maps.newTreeMap();
+     map.put("a", 4);
+     map.put("b", 9);
+     Function<Integer, Double> sqrt =
+         new Function<Integer, Double>() {
+           public Double apply(Integer in) {
+             return Math.sqrt((int) in);
+           }
+         };
+     NavigableMap<String, Double> transformed =
+          Maps.transformNavigableValues(map, sqrt);
+     System.out.println(transformed);
+     </code></pre>
+
+     ... prints <code>{a=2.0, b=3.0}</code>.
+
+     <p>Changes in the underlying map are reflected in this view. Conversely, this view supports
+     removal operations, and these are reflected in the underlying map.
+
+     <p>It's acceptable for the underlying map to contain null keys, and even null values provided
+     that the function is capable of accepting null input. The transformed map might contain null
+     values, if the function sometimes gives a null result.
+
+     <p>The returned map is not thread-safe or serializable, even if the underlying map is.
+
+     <p>The function is applied lazily, invoked when needed. This is necessary for the returned map
+     to be a view, but it means that the function will be applied many times for bulk operations
+     like <xref uid="Map#containsValue" data-throw-if-not-resolved="false">Map#containsValue</xref> and <code>Map.toString()</code>. For this to perform well, <code>
+     function</code> should be fast. To avoid lazy evaluation when the returned map doesn't need to be a
+     view, copy the returned map into a new map of your choosing.
+  parameters:
+  - name: fromMap
+    type: <xref href="java.util.NavigableMap?alt=java.util.NavigableMap&text=NavigableMap" data-throw-if-not-resolved="False" />&lt;<xref href="K?alt=K&text=K" data-throw-if-not-resolved="False" />,<xref href="V1?alt=V1&text=V1" data-throw-if-not-resolved="False" />&gt;
+  - name: function
+    type: <xref href="com.azure.cosmos.implementation.guava25.base.Function?alt=com.azure.cosmos.implementation.guava25.base.Function&text=Function" data-throw-if-not-resolved="False" />&lt;<xref href="? super V1?alt=? super V1&text=? super V1" data-throw-if-not-resolved="False" />,<xref href="V2?alt=V2&text=V2" data-throw-if-not-resolved="False" />&gt;
+  syntax: public static NavigableMap<K,V2> <K,V1,V2>transformValues(NavigableMap<K,V1> fromMap, Function<? super V1,V2> function)
+  returns:
+    type: <xref href="java.util.NavigableMap?alt=java.util.NavigableMap&text=NavigableMap" data-throw-if-not-resolved="False" />&lt;<xref href="K?alt=K&text=K" data-throw-if-not-resolved="False" />,<xref href="V2?alt=V2&text=V2" data-throw-if-not-resolved="False" />&gt;
+- uid: com.azure.cosmos.implementation.guava25.collect.Maps.<K,V1,V2>transformValues(java.util.SortedMap<K,V1>,com.azure.cosmos.implementation.guava25.base.Function<? super V1,V2>)
+  fullName: com.azure.cosmos.implementation.guava25.collect.Maps.<K,V1,V2>transformValues(SortedMap<K,V1> fromMap, Function<? super V1,V2> function)
+  name: <K,V1,V2>transformValues(SortedMap<K,V1> fromMap, Function<? super V1,V2> function)
+  nameWithType: Maps.<K,V1,V2>transformValues(SortedMap<K,V1> fromMap, Function<? super V1,V2> function)
+  summary: |-
+    Returns a view of a sorted map where each value is transformed by a function. All other
+     properties of the map, such as iteration order, are left intact. For example, the code:
+
+     <pre><code>
+     SortedMap<String, Integer> map = ImmutableSortedMap.of("a", 4, "b", 9);
+     Function<Integer, Double> sqrt =
+         new Function<Integer, Double>() {
+           public Double apply(Integer in) {
+             return Math.sqrt((int) in);
+           }
+         };
+     SortedMap<String, Double> transformed =
+          Maps.transformValues(map, sqrt);
+     System.out.println(transformed);
+     </code></pre>
+
+     ... prints <code>{a=2.0, b=3.0}</code>.
+
+     <p>Changes in the underlying map are reflected in this view. Conversely, this view supports
+     removal operations, and these are reflected in the underlying map.
+
+     <p>It's acceptable for the underlying map to contain null keys, and even null values provided
+     that the function is capable of accepting null input. The transformed map might contain null
+     values, if the function sometimes gives a null result.
+
+     <p>The returned map is not thread-safe or serializable, even if the underlying map is.
+
+     <p>The function is applied lazily, invoked when needed. This is necessary for the returned map
+     to be a view, but it means that the function will be applied many times for bulk operations
+     like <xref uid="Map#containsValue" data-throw-if-not-resolved="false">Map#containsValue</xref> and <code>Map.toString()</code>. For this to perform well, <code>
+     function</code> should be fast. To avoid lazy evaluation when the returned map doesn't need to be a
+     view, copy the returned map into a new map of your choosing.
+  parameters:
+  - name: fromMap
+    type: <xref href="java.util.SortedMap?alt=java.util.SortedMap&text=SortedMap" data-throw-if-not-resolved="False" />&lt;<xref href="K?alt=K&text=K" data-throw-if-not-resolved="False" />,<xref href="V1?alt=V1&text=V1" data-throw-if-not-resolved="False" />&gt;
+  - name: function
+    type: <xref href="com.azure.cosmos.implementation.guava25.base.Function?alt=com.azure.cosmos.implementation.guava25.base.Function&text=Function" data-throw-if-not-resolved="False" />&lt;<xref href="? super V1?alt=? super V1&text=? super V1" data-throw-if-not-resolved="False" />,<xref href="V2?alt=V2&text=V2" data-throw-if-not-resolved="False" />&gt;
+  syntax: public static SortedMap<K,V2> <K,V1,V2>transformValues(SortedMap<K,V1> fromMap, Function<? super V1,V2> function)
+  returns:
+    type: <xref href="java.util.SortedMap?alt=java.util.SortedMap&text=SortedMap" data-throw-if-not-resolved="False" />&lt;<xref href="K?alt=K&text=K" data-throw-if-not-resolved="False" />,<xref href="V2?alt=V2&text=V2" data-throw-if-not-resolved="False" />&gt;
+type: method
+metadata: {}
+package: com.azure.cosmos.implementation.guava25.collect
+artifact: com.azure:azure-cosmos:4.3.2-beta.2

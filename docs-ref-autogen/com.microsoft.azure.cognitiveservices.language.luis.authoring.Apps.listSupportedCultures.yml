@@ -1,0 +1,25 @@
+### YamlMime:JavaMember
+nameWithType: Apps.listSupportedCultures
+type: method
+members:
+- fullName: com.microsoft.azure.cognitiveservices.language.luis.authoring.Apps.listSupportedCultures()
+  name: listSupportedCultures()
+  nameWithType: Apps.listSupportedCultures()
+  exceptions:
+  - name: 3c87bd19
+  - name: 00ad4777
+  - name: 9b2a4515
+  returns:
+    description: <p>the List&lt;AvailableCulture&gt; object if successful. </p>
+    type: List&lt;<xref href="com.microsoft.azure.cognitiveservices.language.luis.authoring.models.AvailableCulture?alt=com.microsoft.azure.cognitiveservices.language.luis.authoring.models.AvailableCulture&text=AvailableCulture" data-throw-if-not-resolved="False"/>&gt;
+  summary: >-
+    <p>Gets the supported application cultures.</p>
+
+    <p></p>
+  syntax: public List<AvailableCulture> listSupportedCultures()
+  uid: com.microsoft.azure.cognitiveservices.language.luis.authoring.Apps.listSupportedCultures()
+uid: com.microsoft.azure.cognitiveservices.language.luis.authoring.Apps.listSupportedCultures*
+fullName: com.microsoft.azure.cognitiveservices.language.luis.authoring.Apps.listSupportedCultures()
+name: listSupportedCultures()
+package: com.microsoft.azure.cognitiveservices.language.luis.authoring
+metadata: {}

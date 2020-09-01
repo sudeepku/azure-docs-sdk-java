@@ -1,0 +1,45 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.network.fluent.P2SVpnGatewaysClient.beginGetP2SVpnConnectionHealthWithoutPolling*
+fullName: com.azure.resourcemanager.network.fluent.P2SVpnGatewaysClient.beginGetP2SVpnConnectionHealthWithoutPolling
+name: beginGetP2SVpnConnectionHealthWithoutPolling
+nameWithType: P2SVpnGatewaysClient.beginGetP2SVpnConnectionHealthWithoutPolling
+members:
+- uid: com.azure.resourcemanager.network.fluent.P2SVpnGatewaysClient.beginGetP2SVpnConnectionHealthWithoutPolling(java.lang.String,java.lang.String)
+  fullName: com.azure.resourcemanager.network.fluent.P2SVpnGatewaysClient.beginGetP2SVpnConnectionHealthWithoutPolling(String resourceGroupName, String gatewayName)
+  name: beginGetP2SVpnConnectionHealthWithoutPolling(String resourceGroupName, String gatewayName)
+  nameWithType: P2SVpnGatewaysClient.beginGetP2SVpnConnectionHealthWithoutPolling(String resourceGroupName, String gatewayName)
+  summary: Gets the connection health of P2S clients of the virtual wan P2SVpnGateway in the specified resource group.
+  parameters:
+  - description: The name of the resource group.
+    name: resourceGroupName
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  - description: The name of the P2SVpnGateway.
+    name: gatewayName
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  syntax: public P2SVpnGatewayInner beginGetP2SVpnConnectionHealthWithoutPolling(String resourceGroupName, String gatewayName)
+  returns:
+    description: the connection health of P2S clients of the virtual wan P2SVpnGateway in the specified resource group.
+    type: <xref href="com.azure.resourcemanager.network.fluent.inner.P2SVpnGatewayInner?alt=com.azure.resourcemanager.network.fluent.inner.P2SVpnGatewayInner&text=P2SVpnGatewayInner" data-throw-if-not-resolved="False" />
+- uid: com.azure.resourcemanager.network.fluent.P2SVpnGatewaysClient.beginGetP2SVpnConnectionHealthWithoutPolling(java.lang.String,java.lang.String,com.azure.core.util.Context)
+  fullName: com.azure.resourcemanager.network.fluent.P2SVpnGatewaysClient.beginGetP2SVpnConnectionHealthWithoutPolling(String resourceGroupName, String gatewayName, Context context)
+  name: beginGetP2SVpnConnectionHealthWithoutPolling(String resourceGroupName, String gatewayName, Context context)
+  nameWithType: P2SVpnGatewaysClient.beginGetP2SVpnConnectionHealthWithoutPolling(String resourceGroupName, String gatewayName, Context context)
+  summary: Gets the connection health of P2S clients of the virtual wan P2SVpnGateway in the specified resource group.
+  parameters:
+  - description: The name of the resource group.
+    name: resourceGroupName
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  - description: The name of the P2SVpnGateway.
+    name: gatewayName
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  - description: The context to associate with this operation.
+    name: context
+    type: <xref href="com.azure.core.util.Context?alt=com.azure.core.util.Context&text=Context" data-throw-if-not-resolved="False" />
+  syntax: public P2SVpnGatewayInner beginGetP2SVpnConnectionHealthWithoutPolling(String resourceGroupName, String gatewayName, Context context)
+  returns:
+    description: the connection health of P2S clients of the virtual wan P2SVpnGateway in the specified resource group.
+    type: <xref href="com.azure.resourcemanager.network.fluent.inner.P2SVpnGatewayInner?alt=com.azure.resourcemanager.network.fluent.inner.P2SVpnGatewayInner&text=P2SVpnGatewayInner" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.resourcemanager.network.fluent
+artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.0.0-beta.2

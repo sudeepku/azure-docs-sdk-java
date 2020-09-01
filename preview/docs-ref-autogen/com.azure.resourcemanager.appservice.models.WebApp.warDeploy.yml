@@ -1,0 +1,56 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.appservice.models.WebApp.warDeploy*
+fullName: com.azure.resourcemanager.appservice.models.WebApp.warDeploy
+name: warDeploy
+nameWithType: WebApp.warDeploy
+members:
+- uid: com.azure.resourcemanager.appservice.models.WebApp.warDeploy(java.io.File)
+  fullName: com.azure.resourcemanager.appservice.models.WebApp.warDeploy(File warFile)
+  name: warDeploy(File warFile)
+  nameWithType: WebApp.warDeploy(File warFile)
+  summary: Deploys a WAR file onto the Azure specialized Tomcat on this web app.
+  parameters:
+  - description: the WAR file to upload
+    name: warFile
+    type: <xref href="java.io.File?alt=java.io.File&text=File" data-throw-if-not-resolved="False" />
+  syntax: public abstract void warDeploy(File warFile)
+- uid: com.azure.resourcemanager.appservice.models.WebApp.warDeploy(java.io.File,java.lang.String)
+  fullName: com.azure.resourcemanager.appservice.models.WebApp.warDeploy(File warFile, String appName)
+  name: warDeploy(File warFile, String appName)
+  nameWithType: WebApp.warDeploy(File warFile, String appName)
+  summary: Deploys a WAR file onto the Azure specialized Tomcat on this web app.
+  parameters:
+  - description: the WAR file to upload
+    name: warFile
+    type: <xref href="java.io.File?alt=java.io.File&text=File" data-throw-if-not-resolved="False" />
+  - description: the name of the app, default to "ROOT" when not provided
+    name: appName
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  syntax: public abstract void warDeploy(File warFile, String appName)
+- uid: com.azure.resourcemanager.appservice.models.WebApp.warDeploy(java.io.InputStream)
+  fullName: com.azure.resourcemanager.appservice.models.WebApp.warDeploy(InputStream warFile)
+  name: warDeploy(InputStream warFile)
+  nameWithType: WebApp.warDeploy(InputStream warFile)
+  summary: Deploys a WAR file onto the Azure specialized Tomcat on this web app.
+  parameters:
+  - description: the WAR file to upload
+    name: warFile
+    type: <xref href="java.io.InputStream?alt=java.io.InputStream&text=InputStream" data-throw-if-not-resolved="False" />
+  syntax: public abstract void warDeploy(InputStream warFile)
+- uid: com.azure.resourcemanager.appservice.models.WebApp.warDeploy(java.io.InputStream,java.lang.String)
+  fullName: com.azure.resourcemanager.appservice.models.WebApp.warDeploy(InputStream warFile, String appName)
+  name: warDeploy(InputStream warFile, String appName)
+  nameWithType: WebApp.warDeploy(InputStream warFile, String appName)
+  summary: Deploys a WAR file onto the Azure specialized Tomcat on this web app.
+  parameters:
+  - description: the WAR file to upload
+    name: warFile
+    type: <xref href="java.io.InputStream?alt=java.io.InputStream&text=InputStream" data-throw-if-not-resolved="False" />
+  - description: the name of the app, default to "ROOT" when not provided
+    name: appName
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  syntax: public abstract void warDeploy(InputStream warFile, String appName)
+type: method
+metadata: {}
+package: com.azure.resourcemanager.appservice.models
+artifact: com.azure.resourcemanager:azure-resourcemanager-appservice:2.0.0-beta.2

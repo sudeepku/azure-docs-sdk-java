@@ -1,0 +1,32 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.appservice.fluent.ResourceProvidersClient.getPublishingUserWithResponseAsync*
+fullName: com.azure.resourcemanager.appservice.fluent.ResourceProvidersClient.getPublishingUserWithResponseAsync
+name: getPublishingUserWithResponseAsync
+nameWithType: ResourceProvidersClient.getPublishingUserWithResponseAsync
+members:
+- uid: com.azure.resourcemanager.appservice.fluent.ResourceProvidersClient.getPublishingUserWithResponseAsync()
+  fullName: com.azure.resourcemanager.appservice.fluent.ResourceProvidersClient.getPublishingUserWithResponseAsync()
+  name: getPublishingUserWithResponseAsync()
+  nameWithType: ResourceProvidersClient.getPublishingUserWithResponseAsync()
+  summary: Description for Gets publishing user.
+  syntax: public Mono<Response<UserInner>> getPublishingUserWithResponseAsync()
+  returns:
+    description: user credentials used for publishing activity.
+    type: <xref href="reactor.core.publisher.Mono?alt=reactor.core.publisher.Mono&text=Mono" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.core.http.rest.Response?alt=com.azure.core.http.rest.Response&text=Response" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.resourcemanager.appservice.fluent.inner.UserInner?alt=com.azure.resourcemanager.appservice.fluent.inner.UserInner&text=UserInner" data-throw-if-not-resolved="False" />&gt;&gt;
+- uid: com.azure.resourcemanager.appservice.fluent.ResourceProvidersClient.getPublishingUserWithResponseAsync(com.azure.core.util.Context)
+  fullName: com.azure.resourcemanager.appservice.fluent.ResourceProvidersClient.getPublishingUserWithResponseAsync(Context context)
+  name: getPublishingUserWithResponseAsync(Context context)
+  nameWithType: ResourceProvidersClient.getPublishingUserWithResponseAsync(Context context)
+  summary: Description for Gets publishing user.
+  parameters:
+  - description: The context to associate with this operation.
+    name: context
+    type: <xref href="com.azure.core.util.Context?alt=com.azure.core.util.Context&text=Context" data-throw-if-not-resolved="False" />
+  syntax: public Mono<Response<UserInner>> getPublishingUserWithResponseAsync(Context context)
+  returns:
+    description: user credentials used for publishing activity.
+    type: <xref href="reactor.core.publisher.Mono?alt=reactor.core.publisher.Mono&text=Mono" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.core.http.rest.Response?alt=com.azure.core.http.rest.Response&text=Response" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.resourcemanager.appservice.fluent.inner.UserInner?alt=com.azure.resourcemanager.appservice.fluent.inner.UserInner&text=UserInner" data-throw-if-not-resolved="False" />&gt;&gt;
+type: method
+metadata: {}
+package: com.azure.resourcemanager.appservice.fluent
+artifact: com.azure.resourcemanager:azure-resourcemanager-appservice:2.0.0-beta.2

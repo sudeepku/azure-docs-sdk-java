@@ -1,0 +1,16 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.cosmos.fluent.inner.MongoDBDatabaseListResultInner.validate*
+fullName: com.azure.resourcemanager.cosmos.fluent.inner.MongoDBDatabaseListResultInner.validate
+name: validate
+nameWithType: MongoDBDatabaseListResultInner.validate
+members:
+- uid: com.azure.resourcemanager.cosmos.fluent.inner.MongoDBDatabaseListResultInner.validate()
+  fullName: com.azure.resourcemanager.cosmos.fluent.inner.MongoDBDatabaseListResultInner.validate()
+  name: validate()
+  nameWithType: MongoDBDatabaseListResultInner.validate()
+  summary: Validates the instance.
+  syntax: public void validate()
+type: method
+metadata: {}
+package: com.azure.resourcemanager.cosmos.fluent.inner
+artifact: com.azure.resourcemanager:azure-resourcemanager-cosmos:2.0.0-beta.2

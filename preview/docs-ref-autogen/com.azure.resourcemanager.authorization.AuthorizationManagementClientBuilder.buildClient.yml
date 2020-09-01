@@ -1,0 +1,19 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.authorization.AuthorizationManagementClientBuilder.buildClient*
+fullName: com.azure.resourcemanager.authorization.AuthorizationManagementClientBuilder.buildClient
+name: buildClient
+nameWithType: AuthorizationManagementClientBuilder.buildClient
+members:
+- uid: com.azure.resourcemanager.authorization.AuthorizationManagementClientBuilder.buildClient()
+  fullName: com.azure.resourcemanager.authorization.AuthorizationManagementClientBuilder.buildClient()
+  name: buildClient()
+  nameWithType: AuthorizationManagementClientBuilder.buildClient()
+  summary: Builds an instance of AuthorizationManagementClient with the provided parameters.
+  syntax: public AuthorizationManagementClient buildClient()
+  returns:
+    description: an instance of AuthorizationManagementClient.
+    type: <xref href="com.azure.resourcemanager.authorization.AuthorizationManagementClient?alt=com.azure.resourcemanager.authorization.AuthorizationManagementClient&text=AuthorizationManagementClient" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.resourcemanager.authorization
+artifact: com.azure.resourcemanager:azure-resourcemanager-authorization:2.0.0-beta.2

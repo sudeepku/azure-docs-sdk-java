@@ -1,0 +1,23 @@
+### YamlMime:JavaMember
+uid: com.azure.data.schemaregistry.Codec.parseSchemaString*
+fullName: com.azure.data.schemaregistry.Codec.parseSchemaString
+name: parseSchemaString
+nameWithType: Codec.parseSchemaString
+members:
+- uid: com.azure.data.schemaregistry.Codec.parseSchemaString(java.lang.String)
+  fullName: com.azure.data.schemaregistry.Codec.parseSchemaString(String schemaString)
+  name: parseSchemaString(String schemaString)
+  nameWithType: Codec.parseSchemaString(String schemaString)
+  summary: Parses string representation of schema into schema Object
+  parameters:
+  - description: string representation of schema
+    name: schemaString
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  syntax: public abstract Object parseSchemaString(String schemaString)
+  returns:
+    description: schema object to be used for decoding payloads
+    type: <xref href="java.lang.Object?alt=java.lang.Object&text=Object" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.data.schemaregistry
+artifact: com.azure:azure-data-schemaregistry:1.0.0-beta.1

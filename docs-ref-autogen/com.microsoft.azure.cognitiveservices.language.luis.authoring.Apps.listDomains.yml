@@ -1,0 +1,25 @@
+### YamlMime:JavaMember
+nameWithType: Apps.listDomains
+type: method
+members:
+- fullName: com.microsoft.azure.cognitiveservices.language.luis.authoring.Apps.listDomains()
+  name: listDomains()
+  nameWithType: Apps.listDomains()
+  exceptions:
+  - name: 3c87bd19
+  - name: 00ad4777
+  - name: 9b2a4515
+  returns:
+    description: <p>the List&lt;String&gt; object if successful. </p>
+    type: <xref href="List%3CString%3E?alt=List<String>&text=List%3CString%3E" data-throw-if-not-resolved="False"/>
+  summary: >-
+    <p>Gets the available application domains.</p>
+
+    <p></p>
+  syntax: public List<String> listDomains()
+  uid: com.microsoft.azure.cognitiveservices.language.luis.authoring.Apps.listDomains()
+uid: com.microsoft.azure.cognitiveservices.language.luis.authoring.Apps.listDomains*
+fullName: com.microsoft.azure.cognitiveservices.language.luis.authoring.Apps.listDomains()
+name: listDomains()
+package: com.microsoft.azure.cognitiveservices.language.luis.authoring
+metadata: {}

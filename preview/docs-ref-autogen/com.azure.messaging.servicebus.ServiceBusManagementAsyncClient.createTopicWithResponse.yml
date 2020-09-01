@@ -1,0 +1,23 @@
+### YamlMime:JavaMember
+uid: com.azure.messaging.servicebus.ServiceBusManagementAsyncClient.createTopicWithResponse*
+fullName: com.azure.messaging.servicebus.ServiceBusManagementAsyncClient.createTopicWithResponse
+name: createTopicWithResponse
+nameWithType: ServiceBusManagementAsyncClient.createTopicWithResponse
+members:
+- uid: com.azure.messaging.servicebus.ServiceBusManagementAsyncClient.createTopicWithResponse(com.azure.messaging.servicebus.models.CreateTopicOptions)
+  fullName: com.azure.messaging.servicebus.ServiceBusManagementAsyncClient.createTopicWithResponse(CreateTopicOptions topic)
+  name: createTopicWithResponse(CreateTopicOptions topic)
+  nameWithType: ServiceBusManagementAsyncClient.createTopicWithResponse(CreateTopicOptions topic)
+  summary: Creates a topic and returns the created topic in addition to the HTTP response.
+  parameters:
+  - description: The topic to create.
+    name: topic
+    type: <xref href="com.azure.messaging.servicebus.models.CreateTopicOptions?alt=com.azure.messaging.servicebus.models.CreateTopicOptions&text=CreateTopicOptions" data-throw-if-not-resolved="False" />
+  syntax: public Mono<Response<TopicProperties>> createTopicWithResponse(CreateTopicOptions topic)
+  returns:
+    description: A Mono that returns the created topic in addition to the HTTP response.
+    type: <xref href="reactor.core.publisher.Mono?alt=reactor.core.publisher.Mono&text=Mono" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.core.http.rest.Response?alt=com.azure.core.http.rest.Response&text=Response" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.messaging.servicebus.models.TopicProperties?alt=com.azure.messaging.servicebus.models.TopicProperties&text=TopicProperties" data-throw-if-not-resolved="False" />&gt;&gt;
+type: method
+metadata: {}
+package: com.azure.messaging.servicebus
+artifact: com.azure:azure-messaging-servicebus:7.0.0-beta.5

@@ -1,0 +1,23 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.appservice.fluent.inner.DeletedWebAppCollectionInner.withValue*
+fullName: com.azure.resourcemanager.appservice.fluent.inner.DeletedWebAppCollectionInner.withValue
+name: withValue
+nameWithType: DeletedWebAppCollectionInner.withValue
+members:
+- uid: com.azure.resourcemanager.appservice.fluent.inner.DeletedWebAppCollectionInner.withValue(java.util.List<com.azure.resourcemanager.appservice.fluent.inner.DeletedSiteInner>)
+  fullName: com.azure.resourcemanager.appservice.fluent.inner.DeletedWebAppCollectionInner.withValue(List<DeletedSiteInner> value)
+  name: withValue(List<DeletedSiteInner> value)
+  nameWithType: DeletedWebAppCollectionInner.withValue(List<DeletedSiteInner> value)
+  summary: 'Set the value property: Collection of resources.'
+  parameters:
+  - description: the value value to set.
+    name: value
+    type: <xref href="java.util.List?alt=java.util.List&text=List" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.resourcemanager.appservice.fluent.inner.DeletedSiteInner?alt=com.azure.resourcemanager.appservice.fluent.inner.DeletedSiteInner&text=DeletedSiteInner" data-throw-if-not-resolved="False" />&gt;
+  syntax: public DeletedWebAppCollectionInner withValue(List<DeletedSiteInner> value)
+  returns:
+    description: the DeletedWebAppCollectionInner object itself.
+    type: <xref href="com.azure.resourcemanager.appservice.fluent.inner.DeletedWebAppCollectionInner?alt=com.azure.resourcemanager.appservice.fluent.inner.DeletedWebAppCollectionInner&text=DeletedWebAppCollectionInner" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.resourcemanager.appservice.fluent.inner
+artifact: com.azure.resourcemanager:azure-resourcemanager-appservice:2.0.0-beta.2

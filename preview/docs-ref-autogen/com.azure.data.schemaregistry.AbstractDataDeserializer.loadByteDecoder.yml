@@ -1,0 +1,20 @@
+### YamlMime:JavaMember
+uid: com.azure.data.schemaregistry.AbstractDataDeserializer.loadByteDecoder*
+fullName: com.azure.data.schemaregistry.AbstractDataDeserializer.loadByteDecoder
+name: loadByteDecoder
+nameWithType: AbstractDataDeserializer.loadByteDecoder
+members:
+- uid: com.azure.data.schemaregistry.AbstractDataDeserializer.loadByteDecoder(com.azure.data.schemaregistry.ByteDecoder)
+  fullName: com.azure.data.schemaregistry.AbstractDataDeserializer.loadByteDecoder(ByteDecoder decoder)
+  name: loadByteDecoder(ByteDecoder decoder)
+  nameWithType: AbstractDataDeserializer.loadByteDecoder(ByteDecoder decoder)
+  summary: Loads a ByteDecoder to be used for decoding message payloads of specified schema type.
+  parameters:
+  - description: ByteDecoder class instance to be loaded
+    name: decoder
+    type: <xref href="com.azure.data.schemaregistry.ByteDecoder?alt=com.azure.data.schemaregistry.ByteDecoder&text=ByteDecoder" data-throw-if-not-resolved="False" />
+  syntax: protected void loadByteDecoder(ByteDecoder decoder)
+type: method
+metadata: {}
+package: com.azure.data.schemaregistry
+artifact: com.azure:azure-data-schemaregistry:1.0.0-beta.1

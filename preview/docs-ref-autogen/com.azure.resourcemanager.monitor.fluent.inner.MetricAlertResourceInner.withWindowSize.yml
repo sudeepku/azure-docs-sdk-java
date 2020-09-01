@@ -1,0 +1,25 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.monitor.fluent.inner.MetricAlertResourceInner.withWindowSize*
+fullName: com.azure.resourcemanager.monitor.fluent.inner.MetricAlertResourceInner.withWindowSize
+name: withWindowSize
+nameWithType: MetricAlertResourceInner.withWindowSize
+members:
+- uid: com.azure.resourcemanager.monitor.fluent.inner.MetricAlertResourceInner.withWindowSize(java.time.Duration)
+  fullName: com.azure.resourcemanager.monitor.fluent.inner.MetricAlertResourceInner.withWindowSize(Duration windowSize)
+  name: withWindowSize(Duration windowSize)
+  nameWithType: MetricAlertResourceInner.withWindowSize(Duration windowSize)
+  summary: |-
+    Set the windowSize property: the period of time (in ISO 8601 duration format) that is used to monitor alert
+     activity based on the threshold.
+  parameters:
+  - description: the windowSize value to set.
+    name: windowSize
+    type: <xref href="java.time.Duration?alt=java.time.Duration&text=Duration" data-throw-if-not-resolved="False" />
+  syntax: public MetricAlertResourceInner withWindowSize(Duration windowSize)
+  returns:
+    description: the MetricAlertResourceInner object itself.
+    type: <xref href="com.azure.resourcemanager.monitor.fluent.inner.MetricAlertResourceInner?alt=com.azure.resourcemanager.monitor.fluent.inner.MetricAlertResourceInner&text=MetricAlertResourceInner" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.resourcemanager.monitor.fluent.inner
+artifact: com.azure.resourcemanager:azure-resourcemanager-monitor:2.0.0-beta.2

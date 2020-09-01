@@ -1,0 +1,93 @@
+### YamlMime:JavaMember
+uid: com.azure.cosmos.implementation.apachecommons.lang.StringUtils.compare*
+fullName: com.azure.cosmos.implementation.apachecommons.lang.StringUtils.compare
+name: compare
+nameWithType: StringUtils.compare
+members:
+- uid: com.azure.cosmos.implementation.apachecommons.lang.StringUtils.compare(java.lang.String,java.lang.String)
+  fullName: com.azure.cosmos.implementation.apachecommons.lang.StringUtils.compare(String str1, String str2)
+  name: compare(String str1, String str2)
+  nameWithType: StringUtils.compare(String str1, String str2)
+  summary: |-
+    <p>Compare two Strings lexicographically, as per <xref uid="String#compareTo(String)" data-throw-if-not-resolved="false">String#compareTo(String)</xref>, returning :</p>
+     <ul>
+      <li><code>int = 0</code>, if <code>str1</code> is equal to <code>str2</code> (or both <code>null</code>)</li>
+      <li><code>int < 0</code>, if <code>str1</code> is less than <code>str2</code></li>
+      <li><code>int > 0</code>, if <code>str1</code> is greater than <code>str2</code></li>
+     </ul>
+
+     <p>This is a <code>null</code> safe version of :</p>
+     <blockquote><pre>str1.compareTo(str2)</pre></blockquote>
+
+     <p><code>null</code> value is considered less than non-<code>null</code> value.
+     Two <code>null</code> references are considered equal.</p>
+
+     <pre>
+     StringUtils.compare(null, null)   = 0
+     StringUtils.compare(null , "a")   &lt; 0
+     StringUtils.compare("a", null)    &gt; 0
+     StringUtils.compare("abc", "abc") = 0
+     StringUtils.compare("a", "b")     &lt; 0
+     StringUtils.compare("b", "a")     &gt; 0
+     StringUtils.compare("a", "B")     &gt; 0
+     StringUtils.compare("ab", "abc")  &lt; 0
+     </pre>
+  parameters:
+  - description: the String to compare from
+    name: str1
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  - description: the String to compare to
+    name: str2
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  syntax: public static int compare(String str1, String str2)
+  returns:
+    description: '&lt; 0, 0, &gt; 0, if <code>str1</code> is respectively less, equal or greater than <code>str2</code>'
+    type: <xref href="int?alt=int&text=int" data-throw-if-not-resolved="False" />
+- uid: com.azure.cosmos.implementation.apachecommons.lang.StringUtils.compare(java.lang.String,java.lang.String,boolean)
+  fullName: com.azure.cosmos.implementation.apachecommons.lang.StringUtils.compare(String str1, String str2, boolean nullIsLess)
+  name: compare(String str1, String str2, boolean nullIsLess)
+  nameWithType: StringUtils.compare(String str1, String str2, boolean nullIsLess)
+  summary: |-
+    <p>Compare two Strings lexicographically, as per <xref uid="String#compareTo(String)" data-throw-if-not-resolved="false">String#compareTo(String)</xref>, returning :</p>
+     <ul>
+      <li><code>int = 0</code>, if <code>str1</code> is equal to <code>str2</code> (or both <code>null</code>)</li>
+      <li><code>int < 0</code>, if <code>str1</code> is less than <code>str2</code></li>
+      <li><code>int > 0</code>, if <code>str1</code> is greater than <code>str2</code></li>
+     </ul>
+
+     <p>This is a <code>null</code> safe version of :</p>
+     <blockquote><pre>str1.compareTo(str2)</pre></blockquote>
+
+     <p><code>null</code> inputs are handled according to the <code>nullIsLess</code> parameter.
+     Two <code>null</code> references are considered equal.</p>
+
+     <pre>
+     StringUtils.compare(null, null, *)     = 0
+     StringUtils.compare(null , "a", true)  &lt; 0
+     StringUtils.compare(null , "a", false) &gt; 0
+     StringUtils.compare("a", null, true)   &gt; 0
+     StringUtils.compare("a", null, false)  &lt; 0
+     StringUtils.compare("abc", "abc", *)   = 0
+     StringUtils.compare("a", "b", *)       &lt; 0
+     StringUtils.compare("b", "a", *)       &gt; 0
+     StringUtils.compare("a", "B", *)       &gt; 0
+     StringUtils.compare("ab", "abc", *)    &lt; 0
+     </pre>
+  parameters:
+  - description: the String to compare from
+    name: str1
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  - description: the String to compare to
+    name: str2
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  - description: whether consider <code>null</code> value less than non-<code>null</code> value
+    name: nullIsLess
+    type: <xref href="boolean?alt=boolean&text=boolean" data-throw-if-not-resolved="False" />
+  syntax: public static int compare(String str1, String str2, boolean nullIsLess)
+  returns:
+    description: '&lt; 0, 0, &gt; 0, if <code>str1</code> is respectively less, equal ou greater than <code>str2</code>'
+    type: <xref href="int?alt=int&text=int" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.cosmos.implementation.apachecommons.lang
+artifact: com.azure:azure-cosmos:4.3.2-beta.2

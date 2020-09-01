@@ -1,0 +1,19 @@
+### YamlMime:JavaMember
+uid: com.azure.messaging.servicebus.models.AuthorizationRule.getType*
+fullName: com.azure.messaging.servicebus.models.AuthorizationRule.getType
+name: getType
+nameWithType: AuthorizationRule.getType
+members:
+- uid: com.azure.messaging.servicebus.models.AuthorizationRule.getType()
+  fullName: com.azure.messaging.servicebus.models.AuthorizationRule.getType()
+  name: getType()
+  nameWithType: AuthorizationRule.getType()
+  summary: 'Get the type property: The type property.'
+  syntax: public String getType()
+  returns:
+    description: the type value.
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.messaging.servicebus.models
+artifact: com.azure:azure-messaging-servicebus:7.0.0-beta.5

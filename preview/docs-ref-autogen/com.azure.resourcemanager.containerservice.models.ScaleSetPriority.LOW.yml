@@ -1,0 +1,16 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.containerservice.models.ScaleSetPriority.LOW
+fullName: com.azure.resourcemanager.containerservice.models.ScaleSetPriority.LOW
+name: LOW
+nameWithType: ScaleSetPriority.LOW
+members:
+- uid: com.azure.resourcemanager.containerservice.models.ScaleSetPriority.LOW
+  fullName: com.azure.resourcemanager.containerservice.models.ScaleSetPriority.LOW
+  name: LOW
+  nameWithType: ScaleSetPriority.LOW
+  summary: Static value Low for ScaleSetPriority.
+  syntax: public static final ScaleSetPriority LOW
+type: field
+metadata: {}
+package: com.azure.resourcemanager.containerservice.models
+artifact: com.azure.resourcemanager:azure-resourcemanager-containerservice:2.0.0-beta.2

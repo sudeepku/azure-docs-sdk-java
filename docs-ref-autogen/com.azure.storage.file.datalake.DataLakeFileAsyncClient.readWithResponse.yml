@@ -1,0 +1,32 @@
+### YamlMime:JavaMember
+uid: com.azure.storage.file.datalake.DataLakeFileAsyncClient.readWithResponse*
+fullName: com.azure.storage.file.datalake.DataLakeFileAsyncClient.readWithResponse
+name: readWithResponse
+nameWithType: DataLakeFileAsyncClient.readWithResponse
+members:
+- uid: com.azure.storage.file.datalake.DataLakeFileAsyncClient.readWithResponse(com.azure.storage.file.datalake.models.FileRange,com.azure.storage.file.datalake.models.DownloadRetryOptions,com.azure.storage.file.datalake.models.DataLakeRequestConditions,boolean)
+  fullName: com.azure.storage.file.datalake.DataLakeFileAsyncClient.readWithResponse(FileRange range, DownloadRetryOptions options, DataLakeRequestConditions requestConditions, boolean getRangeContentMd5)
+  name: readWithResponse(FileRange range, DownloadRetryOptions options, DataLakeRequestConditions requestConditions, boolean getRangeContentMd5)
+  nameWithType: DataLakeFileAsyncClient.readWithResponse(FileRange range, DownloadRetryOptions options, DataLakeRequestConditions requestConditions, boolean getRangeContentMd5)
+  summary: "Reads a range of bytes from a file.\n\n <p><strong>Code Samples</strong></p>\n\n <pre>\n FileRange range = new FileRange&#40;1024, 2048L&#41;;\n DownloadRetryOptions options = new DownloadRetryOptions&#40;&#41;.setMaxRetryRequests&#40;5&#41;;\n \n client.readWithResponse&#40;range, options, null, false&#41;.subscribe&#40;response -&gt; &#123;\n     ByteArrayOutputStream readData = new ByteArrayOutputStream&#40;&#41;;\n     response.getValue&#40;&#41;.subscribe&#40;piece -&gt; &#123;\n         try &#123;\n             readData.write&#40;piece.array&#40;&#41;&#41;;\n         &#125; catch &#40;IOException ex&#41; &#123;\n             throw new UncheckedIOException&#40;ex&#41;;\n         &#125;\n     &#125;&#41;;\n &#125;&#41;;\n </pre>\n\n <p>For more information, see the\n <a href=\"https://docs.microsoft.com/en-us/rest/api/storageservices/get-blob\">Azure Docs</a></p>"
+  parameters:
+  - description: <xref uid="com.azure.storage.file.datalake.models.FileRange" data-throw-if-not-resolved="false">FileRange</xref>
+    name: range
+    type: <xref href="com.azure.storage.file.datalake.models.FileRange?alt=com.azure.storage.file.datalake.models.FileRange&text=FileRange" data-throw-if-not-resolved="False" />
+  - description: <xref uid="com.azure.storage.file.datalake.models.DownloadRetryOptions" data-throw-if-not-resolved="false">DownloadRetryOptions</xref>
+    name: options
+    type: <xref href="com.azure.storage.file.datalake.models.DownloadRetryOptions?alt=com.azure.storage.file.datalake.models.DownloadRetryOptions&text=DownloadRetryOptions" data-throw-if-not-resolved="False" />
+  - description: <xref uid="com.azure.storage.file.datalake.models.DataLakeRequestConditions" data-throw-if-not-resolved="false">DataLakeRequestConditions</xref>
+    name: requestConditions
+    type: <xref href="com.azure.storage.file.datalake.models.DataLakeRequestConditions?alt=com.azure.storage.file.datalake.models.DataLakeRequestConditions&text=DataLakeRequestConditions" data-throw-if-not-resolved="False" />
+  - description: Whether the contentMD5 for the specified file range should be returned.
+    name: getRangeContentMd5
+    type: <xref href="boolean?alt=boolean&text=boolean" data-throw-if-not-resolved="False" />
+  syntax: public Mono<FileReadAsyncResponse> readWithResponse(FileRange range, DownloadRetryOptions options, DataLakeRequestConditions requestConditions, boolean getRangeContentMd5)
+  returns:
+    description: A reactive response containing the file data.
+    type: <xref href="reactor.core.publisher.Mono?alt=reactor.core.publisher.Mono&text=Mono" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.storage.file.datalake.models.FileReadAsyncResponse?alt=com.azure.storage.file.datalake.models.FileReadAsyncResponse&text=FileReadAsyncResponse" data-throw-if-not-resolved="False" />&gt;
+type: method
+metadata: {}
+package: com.azure.storage.file.datalake
+artifact: com.azure:azure-storage-file-datalake:12.2.0

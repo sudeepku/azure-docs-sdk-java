@@ -1,0 +1,19 @@
+### YamlMime:JavaMember
+uid: com.azure.messaging.servicebus.ServiceBusManagementAsyncClient.getNamespaceProperties*
+fullName: com.azure.messaging.servicebus.ServiceBusManagementAsyncClient.getNamespaceProperties
+name: getNamespaceProperties
+nameWithType: ServiceBusManagementAsyncClient.getNamespaceProperties
+members:
+- uid: com.azure.messaging.servicebus.ServiceBusManagementAsyncClient.getNamespaceProperties()
+  fullName: com.azure.messaging.servicebus.ServiceBusManagementAsyncClient.getNamespaceProperties()
+  name: getNamespaceProperties()
+  nameWithType: ServiceBusManagementAsyncClient.getNamespaceProperties()
+  summary: Gets information about the Service Bus namespace.
+  syntax: public Mono<NamespaceProperties> getNamespaceProperties()
+  returns:
+    description: A Mono that completes with information about the Service Bus namespace.
+    type: <xref href="reactor.core.publisher.Mono?alt=reactor.core.publisher.Mono&text=Mono" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.messaging.servicebus.models.NamespaceProperties?alt=com.azure.messaging.servicebus.models.NamespaceProperties&text=NamespaceProperties" data-throw-if-not-resolved="False" />&gt;
+type: method
+metadata: {}
+package: com.azure.messaging.servicebus
+artifact: com.azure:azure-messaging-servicebus:7.0.0-beta.5

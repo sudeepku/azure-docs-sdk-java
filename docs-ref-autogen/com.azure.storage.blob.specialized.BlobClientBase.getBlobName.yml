@@ -1,0 +1,27 @@
+### YamlMime:JavaMember
+uid: com.azure.storage.blob.specialized.BlobClientBase.getBlobName*
+fullName: com.azure.storage.blob.specialized.BlobClientBase.getBlobName
+name: getBlobName
+nameWithType: BlobClientBase.getBlobName
+members:
+- uid: com.azure.storage.blob.specialized.BlobClientBase.getBlobName()
+  fullName: com.azure.storage.blob.specialized.BlobClientBase.getBlobName()
+  name: getBlobName()
+  nameWithType: BlobClientBase.getBlobName()
+  summary: |-
+    Decodes and gets the blob name.
+
+     <p><strong>Code Samples</strong></p>
+
+     <pre>
+     String blobName = client.getBlobName&#40;&#41;;
+     System.out.println&#40;&quot;The name of the blob is &quot; + blobName&#41;;
+     </pre>
+  syntax: public final String getBlobName()
+  returns:
+    description: The decoded name of the blob.
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.storage.blob.specialized
+artifact: com.azure:azure-storage-blob:12.8.0

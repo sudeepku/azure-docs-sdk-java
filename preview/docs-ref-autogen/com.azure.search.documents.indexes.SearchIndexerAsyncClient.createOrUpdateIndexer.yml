@@ -1,0 +1,40 @@
+### YamlMime:JavaMember
+uid: com.azure.search.documents.indexes.SearchIndexerAsyncClient.createOrUpdateIndexer*
+fullName: com.azure.search.documents.indexes.SearchIndexerAsyncClient.createOrUpdateIndexer
+name: createOrUpdateIndexer
+nameWithType: SearchIndexerAsyncClient.createOrUpdateIndexer
+members:
+- uid: com.azure.search.documents.indexes.SearchIndexerAsyncClient.createOrUpdateIndexer(com.azure.search.documents.indexes.models.SearchIndexer)
+  fullName: com.azure.search.documents.indexes.SearchIndexerAsyncClient.createOrUpdateIndexer(SearchIndexer indexer)
+  name: createOrUpdateIndexer(SearchIndexer indexer)
+  nameWithType: SearchIndexerAsyncClient.createOrUpdateIndexer(SearchIndexer indexer)
+  summary: |-
+    Creates a new Azure Cognitive Search indexer or updates an indexer if it already exists.
+
+     <p><strong>Code Sample</strong></p>
+
+     <p> Create or update search indexer named "searchIndexer". </p>
+
+     <pre>
+     searchIndexerAsyncClient.getIndexer&#40;&quot;searchIndexer&quot;&#41;
+         .flatMap&#40;searchIndexerFromService -&gt; &#123;
+             searchIndexerFromService.setFieldMappings&#40;Collections.singletonList&#40;
+                 new FieldMapping&#40;&quot;hotelName&quot;&#41;.setTargetFieldName&#40;&quot;HotelName&quot;&#41;&#41;&#41;;
+             return searchIndexerAsyncClient.createOrUpdateIndexer&#40;searchIndexerFromService&#41;;
+         &#125;&#41;
+         .subscribe&#40;updatedIndexer -&gt;
+             System.out.printf&#40;&quot;The indexer name is %s. The target field name of indexer is %s.%n&quot;,
+             updatedIndexer.getName&#40;&#41;, updatedIndexer.getFieldMappings&#40;&#41;.get&#40;0&#41;.getTargetFieldName&#40;&#41;&#41;&#41;;
+     </pre>
+  parameters:
+  - description: The definition of the indexer to create or update.
+    name: indexer
+    type: <xref href="com.azure.search.documents.indexes.models.SearchIndexer?alt=com.azure.search.documents.indexes.models.SearchIndexer&text=SearchIndexer" data-throw-if-not-resolved="False" />
+  syntax: public Mono<SearchIndexer> createOrUpdateIndexer(SearchIndexer indexer)
+  returns:
+    description: a response containing the created Indexer.
+    type: <xref href="reactor.core.publisher.Mono?alt=reactor.core.publisher.Mono&text=Mono" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.search.documents.indexes.models.SearchIndexer?alt=com.azure.search.documents.indexes.models.SearchIndexer&text=SearchIndexer" data-throw-if-not-resolved="False" />&gt;
+type: method
+metadata: {}
+package: com.azure.search.documents.indexes
+artifact: com.azure:azure-search-documents:11.1.0-beta.1

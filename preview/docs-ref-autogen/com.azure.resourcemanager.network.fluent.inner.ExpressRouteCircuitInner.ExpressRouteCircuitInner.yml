@@ -1,0 +1,15 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.network.fluent.inner.ExpressRouteCircuitInner.ExpressRouteCircuitInner*
+fullName: com.azure.resourcemanager.network.fluent.inner.ExpressRouteCircuitInner.ExpressRouteCircuitInner
+name: ExpressRouteCircuitInner
+nameWithType: ExpressRouteCircuitInner.ExpressRouteCircuitInner
+members:
+- uid: com.azure.resourcemanager.network.fluent.inner.ExpressRouteCircuitInner.ExpressRouteCircuitInner()
+  fullName: com.azure.resourcemanager.network.fluent.inner.ExpressRouteCircuitInner.ExpressRouteCircuitInner()
+  name: ExpressRouteCircuitInner()
+  nameWithType: ExpressRouteCircuitInner.ExpressRouteCircuitInner()
+  syntax: public ExpressRouteCircuitInner()
+type: constructor
+metadata: {}
+package: com.azure.resourcemanager.network.fluent.inner
+artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.0.0-beta.2

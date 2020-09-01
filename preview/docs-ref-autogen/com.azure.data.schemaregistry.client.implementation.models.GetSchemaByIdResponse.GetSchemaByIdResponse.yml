@@ -1,0 +1,32 @@
+### YamlMime:JavaMember
+uid: com.azure.data.schemaregistry.client.implementation.models.GetSchemaByIdResponse.GetSchemaByIdResponse*
+fullName: com.azure.data.schemaregistry.client.implementation.models.GetSchemaByIdResponse.GetSchemaByIdResponse
+name: GetSchemaByIdResponse
+nameWithType: GetSchemaByIdResponse.GetSchemaByIdResponse
+members:
+- uid: com.azure.data.schemaregistry.client.implementation.models.GetSchemaByIdResponse.GetSchemaByIdResponse(com.azure.core.http.HttpRequest,int,com.azure.core.http.HttpHeaders,java.lang.String,com.azure.data.schemaregistry.client.implementation.models.GetSchemaByIdHeaders)
+  fullName: com.azure.data.schemaregistry.client.implementation.models.GetSchemaByIdResponse.GetSchemaByIdResponse(HttpRequest request, int statusCode, HttpHeaders rawHeaders, String value, GetSchemaByIdHeaders headers)
+  name: GetSchemaByIdResponse(HttpRequest request, int statusCode, HttpHeaders rawHeaders, String value, GetSchemaByIdHeaders headers)
+  nameWithType: GetSchemaByIdResponse.GetSchemaByIdResponse(HttpRequest request, int statusCode, HttpHeaders rawHeaders, String value, GetSchemaByIdHeaders headers)
+  summary: Creates an instance of GetSchemaByIdResponse.
+  parameters:
+  - description: the request which resulted in this GetSchemaByIdResponse.
+    name: request
+    type: <xref href="com.azure.core.http.HttpRequest?alt=com.azure.core.http.HttpRequest&text=HttpRequest" data-throw-if-not-resolved="False" />
+  - description: the status code of the HTTP response.
+    name: statusCode
+    type: <xref href="int?alt=int&text=int" data-throw-if-not-resolved="False" />
+  - description: the raw headers of the HTTP response.
+    name: rawHeaders
+    type: <xref href="com.azure.core.http.HttpHeaders?alt=com.azure.core.http.HttpHeaders&text=HttpHeaders" data-throw-if-not-resolved="False" />
+  - description: the deserialized value of the HTTP response.
+    name: value
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  - description: the deserialized headers of the HTTP response.
+    name: headers
+    type: <xref href="com.azure.data.schemaregistry.client.implementation.models.GetSchemaByIdHeaders?alt=com.azure.data.schemaregistry.client.implementation.models.GetSchemaByIdHeaders&text=GetSchemaByIdHeaders" data-throw-if-not-resolved="False" />
+  syntax: public GetSchemaByIdResponse(HttpRequest request, int statusCode, HttpHeaders rawHeaders, String value, GetSchemaByIdHeaders headers)
+type: constructor
+metadata: {}
+package: com.azure.data.schemaregistry.client.implementation.models
+artifact: com.azure:azure-data-schemaregistry:1.0.0-beta.1

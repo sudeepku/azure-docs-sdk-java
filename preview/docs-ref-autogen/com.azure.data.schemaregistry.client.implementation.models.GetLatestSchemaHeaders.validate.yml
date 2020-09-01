@@ -1,0 +1,16 @@
+### YamlMime:JavaMember
+uid: com.azure.data.schemaregistry.client.implementation.models.GetLatestSchemaHeaders.validate*
+fullName: com.azure.data.schemaregistry.client.implementation.models.GetLatestSchemaHeaders.validate
+name: validate
+nameWithType: GetLatestSchemaHeaders.validate
+members:
+- uid: com.azure.data.schemaregistry.client.implementation.models.GetLatestSchemaHeaders.validate()
+  fullName: com.azure.data.schemaregistry.client.implementation.models.GetLatestSchemaHeaders.validate()
+  name: validate()
+  nameWithType: GetLatestSchemaHeaders.validate()
+  summary: Validates the instance.
+  syntax: public void validate()
+type: method
+metadata: {}
+package: com.azure.data.schemaregistry.client.implementation.models
+artifact: com.azure:azure-data-schemaregistry:1.0.0-beta.1

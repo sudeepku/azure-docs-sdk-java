@@ -1,0 +1,32 @@
+### YamlMime:JavaMember
+nameWithType: Reviews.getJobDetails
+type: method
+members:
+- fullName: com.microsoft.azure.cognitiveservices.vision.contentmoderator.Reviews.getJobDetails(String teamName, String jobId)
+  name: getJobDetails(String teamName, String jobId)
+  nameWithType: Reviews.getJobDetails(String teamName, String jobId)
+  parameters:
+  - description: <p>Your Team Name. </p>
+    name: teamName
+    type: <xref href="String?alt=String&text=String" data-throw-if-not-resolved="False"/>
+  - description: <p>Id of the job. </p>
+    name: jobId
+    type: <xref href="String?alt=String&text=String" data-throw-if-not-resolved="False"/>
+  exceptions:
+  - name: 3c87bd19
+  - name: 3690e14b
+  - name: 9b2a4515
+  returns:
+    description: <p>the Job object if successful. </p>
+    type: <xref href="com.microsoft.azure.cognitiveservices.vision.contentmoderator.models.Job?alt=com.microsoft.azure.cognitiveservices.vision.contentmoderator.models.Job&text=Job" data-throw-if-not-resolved="False"/>
+  summary: >-
+    <p>Get the Job Details for a Job Id.</p>
+
+    <p></p>
+  syntax: public Job getJobDetails(String teamName, String jobId)
+  uid: com.microsoft.azure.cognitiveservices.vision.contentmoderator.Reviews.getJobDetails(String,String)
+uid: com.microsoft.azure.cognitiveservices.vision.contentmoderator.Reviews.getJobDetails*
+fullName: com.microsoft.azure.cognitiveservices.vision.contentmoderator.Reviews.getJobDetails(String teamName, String jobId)
+name: getJobDetails(String teamName, String jobId)
+package: com.microsoft.azure.cognitiveservices.vision.contentmoderator
+metadata: {}

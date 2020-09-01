@@ -1,0 +1,21 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.compute.fluent.inner.DiskInner.diskMBpsReadWrite*
+fullName: com.azure.resourcemanager.compute.fluent.inner.DiskInner.diskMBpsReadWrite
+name: diskMBpsReadWrite
+nameWithType: DiskInner.diskMBpsReadWrite
+members:
+- uid: com.azure.resourcemanager.compute.fluent.inner.DiskInner.diskMBpsReadWrite()
+  fullName: com.azure.resourcemanager.compute.fluent.inner.DiskInner.diskMBpsReadWrite()
+  name: diskMBpsReadWrite()
+  nameWithType: DiskInner.diskMBpsReadWrite()
+  summary: |-
+    Get the diskMBpsReadWrite property: The bandwidth allowed for this disk; only settable for UltraSSD disks. MBps
+     means millions of bytes per second - MB here uses the ISO notation, of powers of 10.
+  syntax: public Integer diskMBpsReadWrite()
+  returns:
+    description: the diskMBpsReadWrite value.
+    type: <xref href="java.lang.Integer?alt=java.lang.Integer&text=Integer" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.resourcemanager.compute.fluent.inner
+artifact: com.azure.resourcemanager:azure-resourcemanager-compute:2.0.0-beta.2

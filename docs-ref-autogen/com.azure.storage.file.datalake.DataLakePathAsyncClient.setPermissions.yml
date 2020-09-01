@@ -1,0 +1,29 @@
+### YamlMime:JavaMember
+uid: com.azure.storage.file.datalake.DataLakePathAsyncClient.setPermissions*
+fullName: com.azure.storage.file.datalake.DataLakePathAsyncClient.setPermissions
+name: setPermissions
+nameWithType: DataLakePathAsyncClient.setPermissions
+members:
+- uid: com.azure.storage.file.datalake.DataLakePathAsyncClient.setPermissions(com.azure.storage.file.datalake.models.PathPermissions,java.lang.String,java.lang.String)
+  fullName: com.azure.storage.file.datalake.DataLakePathAsyncClient.setPermissions(PathPermissions permissions, String group, String owner)
+  name: setPermissions(PathPermissions permissions, String group, String owner)
+  nameWithType: DataLakePathAsyncClient.setPermissions(PathPermissions permissions, String group, String owner)
+  summary: "Changes the permissions, group and/or owner for a resource.\n\n <p><strong>Code Samples</strong></p>\n\n <pre>\n PathPermissions permissions = new PathPermissions&#40;&#41;\n     .setGroup&#40;new RolePermissions&#40;&#41;.setExecutePermission&#40;true&#41;.setReadPermission&#40;true&#41;&#41;\n     .setOwner&#40;new RolePermissions&#40;&#41;.setExecutePermission&#40;true&#41;.setReadPermission&#40;true&#41;.setWritePermission&#40;true&#41;&#41;\n     .setOther&#40;new RolePermissions&#40;&#41;.setReadPermission&#40;true&#41;&#41;;\n String group = &quot;group&quot;;\n String owner = &quot;owner&quot;;\n \n client.setPermissions&#40;permissions, group, owner&#41;.subscribe&#40;\n     response -&gt; System.out.printf&#40;&quot;Last Modified Time: %s&quot;, response.getLastModified&#40;&#41;&#41;&#41;;\n </pre>\n\n <p>For more information, see the\n <a href=\"https://docs.microsoft.com/en-us/rest/api/storageservices/datalakestoragegen2/path/update\">Azure Docs</a></p>"
+  parameters:
+  - description: <xref uid="com.azure.storage.file.datalake.models.PathPermissions" data-throw-if-not-resolved="false">PathPermissions</xref>
+    name: permissions
+    type: <xref href="com.azure.storage.file.datalake.models.PathPermissions?alt=com.azure.storage.file.datalake.models.PathPermissions&text=PathPermissions" data-throw-if-not-resolved="False" />
+  - description: The group of the resource.
+    name: group
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  - description: The owner of the resource.
+    name: owner
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  syntax: public Mono<PathInfo> setPermissions(PathPermissions permissions, String group, String owner)
+  returns:
+    description: A reactive response containing the resource info.
+    type: <xref href="reactor.core.publisher.Mono?alt=reactor.core.publisher.Mono&text=Mono" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.storage.file.datalake.models.PathInfo?alt=com.azure.storage.file.datalake.models.PathInfo&text=PathInfo" data-throw-if-not-resolved="False" />&gt;
+type: method
+metadata: {}
+package: com.azure.storage.file.datalake
+artifact: com.azure:azure-storage-file-datalake:12.2.0

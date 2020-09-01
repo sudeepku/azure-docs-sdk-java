@@ -1,0 +1,43 @@
+### YamlMime:JavaMember
+uid: com.azure.cosmos.implementation.guava25.base.Optional.toJavaUtil*
+fullName: com.azure.cosmos.implementation.guava25.base.Optional<T>.<T>toJavaUtil
+name: <T>toJavaUtil
+nameWithType: Optional<T>.<T>toJavaUtil
+members:
+- uid: com.azure.cosmos.implementation.guava25.base.Optional.<T>toJavaUtil(com.azure.cosmos.implementation.guava25.base.Optional<T>)
+  fullName: com.azure.cosmos.implementation.guava25.base.Optional<T>.<T>toJavaUtil(Optional<T> googleOptional)
+  name: <T>toJavaUtil(Optional<T> googleOptional)
+  nameWithType: Optional<T>.<T>toJavaUtil(Optional<T> googleOptional)
+  summary: |-
+    Returns the equivalent <code>java.util.Optional</code> value to the given <code>
+     com.google.common.base.Optional</code>, or <code>null</code> if the argument is null.
+
+     <p>If <code>googleOptional</code> is known to be non-null, use <code>googleOptional.toJavaUtil()</code>
+     instead.
+
+     <p>Unfortunately, the method reference <code>Optional::toJavaUtil</code> will not work, because it
+     could refer to either the static or instance version of this method. Write out the lambda
+     expression <code>o -> Optional.toJavaUtil(o)</code> instead.
+  parameters:
+  - name: googleOptional
+    type: <xref href="com.azure.cosmos.implementation.guava25.base.Optional?alt=com.azure.cosmos.implementation.guava25.base.Optional&text=Optional" data-throw-if-not-resolved="False" />&lt;<xref href="T?alt=T&text=T" data-throw-if-not-resolved="False" />&gt;
+  syntax: public static Optional<T> <T>toJavaUtil(Optional<T> googleOptional)
+  returns:
+    type: <xref href="java.util.Optional?alt=java.util.Optional&text=Optional" data-throw-if-not-resolved="False" />&lt;<xref href="T?alt=T&text=T" data-throw-if-not-resolved="False" />&gt;
+- uid: com.azure.cosmos.implementation.guava25.base.Optional.toJavaUtil()
+  fullName: com.azure.cosmos.implementation.guava25.base.Optional<T>.toJavaUtil()
+  name: toJavaUtil()
+  nameWithType: Optional<T>.toJavaUtil()
+  summary: |-
+    Returns the equivalent <code>java.util.Optional</code> value to this optional.
+
+     <p>Unfortunately, the method reference <code>Optional::toJavaUtil</code> will not work, because it
+     could refer to either the static or instance version of this method. Write out the lambda
+     expression <code>o -> o.toJavaUtil()</code> instead.
+  syntax: public Optional<T> toJavaUtil()
+  returns:
+    type: <xref href="java.util.Optional?alt=java.util.Optional&text=Optional" data-throw-if-not-resolved="False" />&lt;<xref href="T?alt=T&text=T" data-throw-if-not-resolved="False" />&gt;
+type: method
+metadata: {}
+package: com.azure.cosmos.implementation.guava25.base
+artifact: com.azure:azure-cosmos:4.3.2-beta.2

@@ -1,0 +1,23 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.network.models.AzureAsyncOperationResult.withError*
+fullName: com.azure.resourcemanager.network.models.AzureAsyncOperationResult.withError
+name: withError
+nameWithType: AzureAsyncOperationResult.withError
+members:
+- uid: com.azure.resourcemanager.network.models.AzureAsyncOperationResult.withError(com.azure.resourcemanager.network.models.Error)
+  fullName: com.azure.resourcemanager.network.models.AzureAsyncOperationResult.withError(Error error)
+  name: withError(Error error)
+  nameWithType: AzureAsyncOperationResult.withError(Error error)
+  summary: 'Set the error property: Details of the error occurred during specified asynchronous operation.'
+  parameters:
+  - description: the error value to set.
+    name: error
+    type: <xref href="com.azure.resourcemanager.network.models.Error?alt=com.azure.resourcemanager.network.models.Error&text=Error" data-throw-if-not-resolved="False" />
+  syntax: public AzureAsyncOperationResult withError(Error error)
+  returns:
+    description: the AzureAsyncOperationResult object itself.
+    type: <xref href="com.azure.resourcemanager.network.models.AzureAsyncOperationResult?alt=com.azure.resourcemanager.network.models.AzureAsyncOperationResult&text=AzureAsyncOperationResult" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.resourcemanager.network.models
+artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.0.0-beta.2

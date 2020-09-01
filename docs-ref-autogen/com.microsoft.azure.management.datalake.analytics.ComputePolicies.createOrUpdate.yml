@@ -1,0 +1,38 @@
+### YamlMime:JavaMember
+nameWithType: ComputePolicies.createOrUpdate
+type: method
+members:
+- fullName: com.microsoft.azure.management.datalake.analytics.ComputePolicies.createOrUpdate(String resourceGroupName, String accountName, String computePolicyName, ComputePolicyCreateOrUpdateParameters parameters)
+  name: createOrUpdate(String resourceGroupName, String accountName, String computePolicyName, ComputePolicyCreateOrUpdateParameters parameters)
+  nameWithType: ComputePolicies.createOrUpdate(String resourceGroupName, String accountName, String computePolicyName, ComputePolicyCreateOrUpdateParameters parameters)
+  parameters:
+  - description: <p>The name of the Azure resource group that contains the Data Lake Analytics account. </p>
+    name: resourceGroupName
+    type: <xref href="String?alt=String&text=String" data-throw-if-not-resolved="False"/>
+  - description: <p>The name of the Data Lake Analytics account to add or replace the compute policy. </p>
+    name: accountName
+    type: <xref href="String?alt=String&text=String" data-throw-if-not-resolved="False"/>
+  - description: <p>The name of the compute policy to create or update. </p>
+    name: computePolicyName
+    type: <xref href="String?alt=String&text=String" data-throw-if-not-resolved="False"/>
+  - description: <p>Parameters supplied to create or update the compute policy. The max degree of parallelism per job property, min priority per job property, or both must be present. </p>
+    name: parameters
+    type: <xref href="com.microsoft.azure.management.datalake.analytics.models.ComputePolicyCreateOrUpdateParameters?alt=com.microsoft.azure.management.datalake.analytics.models.ComputePolicyCreateOrUpdateParameters&text=ComputePolicyCreateOrUpdateParameters" data-throw-if-not-resolved="False"/>
+  exceptions:
+  - name: 3c87bd19
+  - name: dc385fd4
+  - name: 9b2a4515
+  returns:
+    description: <p>the ComputePolicy object if successful. </p>
+    type: <xref href="com.microsoft.azure.management.datalake.analytics.models.ComputePolicy?alt=com.microsoft.azure.management.datalake.analytics.models.ComputePolicy&text=ComputePolicy" data-throw-if-not-resolved="False"/>
+  summary: >-
+    <p>Creates or updates the specified compute policy. During update, the compute policy with the specified name will be replaced with this new compute policy. An account supports, at most, 50 policies.</p>
+
+    <p></p>
+  syntax: public ComputePolicy createOrUpdate(String resourceGroupName, String accountName, String computePolicyName, ComputePolicyCreateOrUpdateParameters parameters)
+  uid: com.microsoft.azure.management.datalake.analytics.ComputePolicies.createOrUpdate(String,String,String,ComputePolicyCreateOrUpdateParameters)
+uid: com.microsoft.azure.management.datalake.analytics.ComputePolicies.createOrUpdate*
+fullName: com.microsoft.azure.management.datalake.analytics.ComputePolicies.createOrUpdate(String resourceGroupName, String accountName, String computePolicyName, ComputePolicyCreateOrUpdateParameters parameters)
+name: createOrUpdate(String resourceGroupName, String accountName, String computePolicyName, ComputePolicyCreateOrUpdateParameters parameters)
+package: com.microsoft.azure.management.datalake.analytics
+metadata: {}

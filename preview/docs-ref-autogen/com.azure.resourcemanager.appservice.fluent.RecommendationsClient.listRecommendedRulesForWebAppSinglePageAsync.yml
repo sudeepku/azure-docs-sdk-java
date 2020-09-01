@@ -1,0 +1,65 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.appservice.fluent.RecommendationsClient.listRecommendedRulesForWebAppSinglePageAsync*
+fullName: com.azure.resourcemanager.appservice.fluent.RecommendationsClient.listRecommendedRulesForWebAppSinglePageAsync
+name: listRecommendedRulesForWebAppSinglePageAsync
+nameWithType: RecommendationsClient.listRecommendedRulesForWebAppSinglePageAsync
+members:
+- uid: com.azure.resourcemanager.appservice.fluent.RecommendationsClient.listRecommendedRulesForWebAppSinglePageAsync(java.lang.String,java.lang.String,java.lang.Boolean,java.lang.String)
+  fullName: com.azure.resourcemanager.appservice.fluent.RecommendationsClient.listRecommendedRulesForWebAppSinglePageAsync(String resourceGroupName, String siteName, Boolean featured, String filter)
+  name: listRecommendedRulesForWebAppSinglePageAsync(String resourceGroupName, String siteName, Boolean featured, String filter)
+  nameWithType: RecommendationsClient.listRecommendedRulesForWebAppSinglePageAsync(String resourceGroupName, String siteName, Boolean featured, String filter)
+  summary: Description for Get all recommendations for an app.
+  parameters:
+  - description: Name of the resource group to which the resource belongs.
+    name: resourceGroupName
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  - description: Name of the app.
+    name: siteName
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  - description: |-
+      Specify &lt;code&gt;true&lt;/code&gt; to return only the most critical recommendations. The
+           default is &lt;code&gt;false&lt;/code&gt;, which returns all recommendations.
+    name: featured
+    type: <xref href="java.lang.Boolean?alt=java.lang.Boolean&text=Boolean" data-throw-if-not-resolved="False" />
+  - description: |-
+      Return only channels specified in the filter. Filter is specified by using OData syntax. Example:
+           $filter=channel eq 'Api' or channel eq 'Notification'.
+    name: filter
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  syntax: public Mono<PagedResponse<RecommendationInner>> listRecommendedRulesForWebAppSinglePageAsync(String resourceGroupName, String siteName, Boolean featured, String filter)
+  returns:
+    description: collection of recommendations.
+    type: <xref href="reactor.core.publisher.Mono?alt=reactor.core.publisher.Mono&text=Mono" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.core.http.rest.PagedResponse?alt=com.azure.core.http.rest.PagedResponse&text=PagedResponse" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.resourcemanager.appservice.fluent.inner.RecommendationInner?alt=com.azure.resourcemanager.appservice.fluent.inner.RecommendationInner&text=RecommendationInner" data-throw-if-not-resolved="False" />&gt;&gt;
+- uid: com.azure.resourcemanager.appservice.fluent.RecommendationsClient.listRecommendedRulesForWebAppSinglePageAsync(java.lang.String,java.lang.String,java.lang.Boolean,java.lang.String,com.azure.core.util.Context)
+  fullName: com.azure.resourcemanager.appservice.fluent.RecommendationsClient.listRecommendedRulesForWebAppSinglePageAsync(String resourceGroupName, String siteName, Boolean featured, String filter, Context context)
+  name: listRecommendedRulesForWebAppSinglePageAsync(String resourceGroupName, String siteName, Boolean featured, String filter, Context context)
+  nameWithType: RecommendationsClient.listRecommendedRulesForWebAppSinglePageAsync(String resourceGroupName, String siteName, Boolean featured, String filter, Context context)
+  summary: Description for Get all recommendations for an app.
+  parameters:
+  - description: Name of the resource group to which the resource belongs.
+    name: resourceGroupName
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  - description: Name of the app.
+    name: siteName
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  - description: |-
+      Specify &lt;code&gt;true&lt;/code&gt; to return only the most critical recommendations. The
+           default is &lt;code&gt;false&lt;/code&gt;, which returns all recommendations.
+    name: featured
+    type: <xref href="java.lang.Boolean?alt=java.lang.Boolean&text=Boolean" data-throw-if-not-resolved="False" />
+  - description: |-
+      Return only channels specified in the filter. Filter is specified by using OData syntax. Example:
+           $filter=channel eq 'Api' or channel eq 'Notification'.
+    name: filter
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  - description: The context to associate with this operation.
+    name: context
+    type: <xref href="com.azure.core.util.Context?alt=com.azure.core.util.Context&text=Context" data-throw-if-not-resolved="False" />
+  syntax: public Mono<PagedResponse<RecommendationInner>> listRecommendedRulesForWebAppSinglePageAsync(String resourceGroupName, String siteName, Boolean featured, String filter, Context context)
+  returns:
+    description: collection of recommendations.
+    type: <xref href="reactor.core.publisher.Mono?alt=reactor.core.publisher.Mono&text=Mono" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.core.http.rest.PagedResponse?alt=com.azure.core.http.rest.PagedResponse&text=PagedResponse" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.resourcemanager.appservice.fluent.inner.RecommendationInner?alt=com.azure.resourcemanager.appservice.fluent.inner.RecommendationInner&text=RecommendationInner" data-throw-if-not-resolved="False" />&gt;&gt;
+type: method
+metadata: {}
+package: com.azure.resourcemanager.appservice.fluent
+artifact: com.azure.resourcemanager:azure-resourcemanager-appservice:2.0.0-beta.2

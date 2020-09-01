@@ -1,0 +1,57 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.containerregistry.fluent.ReplicationsClient.beginCreateWithoutPollingWithResponseAsync*
+fullName: com.azure.resourcemanager.containerregistry.fluent.ReplicationsClient.beginCreateWithoutPollingWithResponseAsync
+name: beginCreateWithoutPollingWithResponseAsync
+nameWithType: ReplicationsClient.beginCreateWithoutPollingWithResponseAsync
+members:
+- uid: com.azure.resourcemanager.containerregistry.fluent.ReplicationsClient.beginCreateWithoutPollingWithResponseAsync(java.lang.String,java.lang.String,java.lang.String,com.azure.resourcemanager.containerregistry.fluent.inner.ReplicationInner)
+  fullName: com.azure.resourcemanager.containerregistry.fluent.ReplicationsClient.beginCreateWithoutPollingWithResponseAsync(String resourceGroupName, String registryName, String replicationName, ReplicationInner replication)
+  name: beginCreateWithoutPollingWithResponseAsync(String resourceGroupName, String registryName, String replicationName, ReplicationInner replication)
+  nameWithType: ReplicationsClient.beginCreateWithoutPollingWithResponseAsync(String resourceGroupName, String registryName, String replicationName, ReplicationInner replication)
+  summary: Creates a replication for a container registry with the specified parameters.
+  parameters:
+  - description: The name of the resource group to which the container registry belongs.
+    name: resourceGroupName
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  - description: The name of the container registry.
+    name: registryName
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  - description: The name of the replication.
+    name: replicationName
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  - description: An object that represents a replication for a container registry.
+    name: replication
+    type: <xref href="com.azure.resourcemanager.containerregistry.fluent.inner.ReplicationInner?alt=com.azure.resourcemanager.containerregistry.fluent.inner.ReplicationInner&text=ReplicationInner" data-throw-if-not-resolved="False" />
+  syntax: public Mono<Response<ReplicationInner>> beginCreateWithoutPollingWithResponseAsync(String resourceGroupName, String registryName, String replicationName, ReplicationInner replication)
+  returns:
+    description: an object that represents a replication for a container registry.
+    type: <xref href="reactor.core.publisher.Mono?alt=reactor.core.publisher.Mono&text=Mono" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.core.http.rest.Response?alt=com.azure.core.http.rest.Response&text=Response" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.resourcemanager.containerregistry.fluent.inner.ReplicationInner?alt=com.azure.resourcemanager.containerregistry.fluent.inner.ReplicationInner&text=ReplicationInner" data-throw-if-not-resolved="False" />&gt;&gt;
+- uid: com.azure.resourcemanager.containerregistry.fluent.ReplicationsClient.beginCreateWithoutPollingWithResponseAsync(java.lang.String,java.lang.String,java.lang.String,com.azure.resourcemanager.containerregistry.fluent.inner.ReplicationInner,com.azure.core.util.Context)
+  fullName: com.azure.resourcemanager.containerregistry.fluent.ReplicationsClient.beginCreateWithoutPollingWithResponseAsync(String resourceGroupName, String registryName, String replicationName, ReplicationInner replication, Context context)
+  name: beginCreateWithoutPollingWithResponseAsync(String resourceGroupName, String registryName, String replicationName, ReplicationInner replication, Context context)
+  nameWithType: ReplicationsClient.beginCreateWithoutPollingWithResponseAsync(String resourceGroupName, String registryName, String replicationName, ReplicationInner replication, Context context)
+  summary: Creates a replication for a container registry with the specified parameters.
+  parameters:
+  - description: The name of the resource group to which the container registry belongs.
+    name: resourceGroupName
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  - description: The name of the container registry.
+    name: registryName
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  - description: The name of the replication.
+    name: replicationName
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  - description: An object that represents a replication for a container registry.
+    name: replication
+    type: <xref href="com.azure.resourcemanager.containerregistry.fluent.inner.ReplicationInner?alt=com.azure.resourcemanager.containerregistry.fluent.inner.ReplicationInner&text=ReplicationInner" data-throw-if-not-resolved="False" />
+  - description: The context to associate with this operation.
+    name: context
+    type: <xref href="com.azure.core.util.Context?alt=com.azure.core.util.Context&text=Context" data-throw-if-not-resolved="False" />
+  syntax: public Mono<Response<ReplicationInner>> beginCreateWithoutPollingWithResponseAsync(String resourceGroupName, String registryName, String replicationName, ReplicationInner replication, Context context)
+  returns:
+    description: an object that represents a replication for a container registry.
+    type: <xref href="reactor.core.publisher.Mono?alt=reactor.core.publisher.Mono&text=Mono" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.core.http.rest.Response?alt=com.azure.core.http.rest.Response&text=Response" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.resourcemanager.containerregistry.fluent.inner.ReplicationInner?alt=com.azure.resourcemanager.containerregistry.fluent.inner.ReplicationInner&text=ReplicationInner" data-throw-if-not-resolved="False" />&gt;&gt;
+type: method
+metadata: {}
+package: com.azure.resourcemanager.containerregistry.fluent
+artifact: com.azure.resourcemanager:azure-resourcemanager-containerregistry:2.0.0-beta.2

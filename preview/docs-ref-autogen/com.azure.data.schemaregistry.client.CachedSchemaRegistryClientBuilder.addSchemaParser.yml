@@ -1,0 +1,31 @@
+### YamlMime:JavaMember
+uid: com.azure.data.schemaregistry.client.CachedSchemaRegistryClientBuilder.addSchemaParser*
+fullName: com.azure.data.schemaregistry.client.CachedSchemaRegistryClientBuilder.addSchemaParser
+name: addSchemaParser
+nameWithType: CachedSchemaRegistryClientBuilder.addSchemaParser
+members:
+- uid: com.azure.data.schemaregistry.client.CachedSchemaRegistryClientBuilder.addSchemaParser(com.azure.data.schemaregistry.Codec)
+  fullName: com.azure.data.schemaregistry.client.CachedSchemaRegistryClientBuilder.addSchemaParser(Codec codec)
+  name: addSchemaParser(Codec codec)
+  nameWithType: CachedSchemaRegistryClientBuilder.addSchemaParser(Codec codec)
+  summary: |-
+    Loads a parser method Function object used to convert schema strings returned from the Schema Registry
+     service into useable schema objects.
+
+     Any com.azure.data.schemaregistry.ByteEncoder or com.azure.data.schemaregistry.ByteDecoder class will implement
+     - schemaType(), which specifies schema type, and
+     - parseSchemaString(), which parses schemas of the specified schema type from String to Object.
+
+     The parseMethod argument should be a stateless, idempotent function.
+  parameters:
+  - description: Codec class implementation
+    name: codec
+    type: <xref href="com.azure.data.schemaregistry.Codec?alt=com.azure.data.schemaregistry.Codec&text=Codec" data-throw-if-not-resolved="False" />
+  syntax: public CachedSchemaRegistryClientBuilder addSchemaParser(Codec codec)
+  returns:
+    description: The updated <xref uid="com.azure.data.schemaregistry.client.CachedSchemaRegistryClientBuilder" data-throw-if-not-resolved="false">CachedSchemaRegistryClientBuilder</xref> object.
+    type: <xref href="com.azure.data.schemaregistry.client.CachedSchemaRegistryClientBuilder?alt=com.azure.data.schemaregistry.client.CachedSchemaRegistryClientBuilder&text=CachedSchemaRegistryClientBuilder" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.data.schemaregistry.client
+artifact: com.azure:azure-data-schemaregistry:1.0.0-beta.1

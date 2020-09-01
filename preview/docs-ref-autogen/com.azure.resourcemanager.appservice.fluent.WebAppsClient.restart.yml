@@ -1,0 +1,72 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.appservice.fluent.WebAppsClient.restart*
+fullName: com.azure.resourcemanager.appservice.fluent.WebAppsClient.restart
+name: restart
+nameWithType: WebAppsClient.restart
+members:
+- uid: com.azure.resourcemanager.appservice.fluent.WebAppsClient.restart(java.lang.String,java.lang.String)
+  fullName: com.azure.resourcemanager.appservice.fluent.WebAppsClient.restart(String resourceGroupName, String name)
+  name: restart(String resourceGroupName, String name)
+  nameWithType: WebAppsClient.restart(String resourceGroupName, String name)
+  summary: Description for Restarts an app (or deployment slot, if specified).
+  parameters:
+  - description: Name of the resource group to which the resource belongs.
+    name: resourceGroupName
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  - description: Name of the app.
+    name: name
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  syntax: public void restart(String resourceGroupName, String name)
+- uid: com.azure.resourcemanager.appservice.fluent.WebAppsClient.restart(java.lang.String,java.lang.String,java.lang.Boolean,java.lang.Boolean)
+  fullName: com.azure.resourcemanager.appservice.fluent.WebAppsClient.restart(String resourceGroupName, String name, Boolean softRestart, Boolean synchronous)
+  name: restart(String resourceGroupName, String name, Boolean softRestart, Boolean synchronous)
+  nameWithType: WebAppsClient.restart(String resourceGroupName, String name, Boolean softRestart, Boolean synchronous)
+  summary: Description for Restarts an app (or deployment slot, if specified).
+  parameters:
+  - description: Name of the resource group to which the resource belongs.
+    name: resourceGroupName
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  - description: Name of the app.
+    name: name
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  - description: |-
+      Specify true to apply the configuration settings and restarts the app only if necessary. By
+           default, the API always restarts and reprovisions the app.
+    name: softRestart
+    type: <xref href="java.lang.Boolean?alt=java.lang.Boolean&text=Boolean" data-throw-if-not-resolved="False" />
+  - description: |-
+      Specify true to block until the app is restarted. By default, it is set to false, and the API
+           responds immediately (asynchronous).
+    name: synchronous
+    type: <xref href="java.lang.Boolean?alt=java.lang.Boolean&text=Boolean" data-throw-if-not-resolved="False" />
+  syntax: public void restart(String resourceGroupName, String name, Boolean softRestart, Boolean synchronous)
+- uid: com.azure.resourcemanager.appservice.fluent.WebAppsClient.restart(java.lang.String,java.lang.String,java.lang.Boolean,java.lang.Boolean,com.azure.core.util.Context)
+  fullName: com.azure.resourcemanager.appservice.fluent.WebAppsClient.restart(String resourceGroupName, String name, Boolean softRestart, Boolean synchronous, Context context)
+  name: restart(String resourceGroupName, String name, Boolean softRestart, Boolean synchronous, Context context)
+  nameWithType: WebAppsClient.restart(String resourceGroupName, String name, Boolean softRestart, Boolean synchronous, Context context)
+  summary: Description for Restarts an app (or deployment slot, if specified).
+  parameters:
+  - description: Name of the resource group to which the resource belongs.
+    name: resourceGroupName
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  - description: Name of the app.
+    name: name
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  - description: |-
+      Specify true to apply the configuration settings and restarts the app only if necessary. By
+           default, the API always restarts and reprovisions the app.
+    name: softRestart
+    type: <xref href="java.lang.Boolean?alt=java.lang.Boolean&text=Boolean" data-throw-if-not-resolved="False" />
+  - description: |-
+      Specify true to block until the app is restarted. By default, it is set to false, and the API
+           responds immediately (asynchronous).
+    name: synchronous
+    type: <xref href="java.lang.Boolean?alt=java.lang.Boolean&text=Boolean" data-throw-if-not-resolved="False" />
+  - description: The context to associate with this operation.
+    name: context
+    type: <xref href="com.azure.core.util.Context?alt=com.azure.core.util.Context&text=Context" data-throw-if-not-resolved="False" />
+  syntax: public void restart(String resourceGroupName, String name, Boolean softRestart, Boolean synchronous, Context context)
+type: method
+metadata: {}
+package: com.azure.resourcemanager.appservice.fluent
+artifact: com.azure.resourcemanager:azure-resourcemanager-appservice:2.0.0-beta.2

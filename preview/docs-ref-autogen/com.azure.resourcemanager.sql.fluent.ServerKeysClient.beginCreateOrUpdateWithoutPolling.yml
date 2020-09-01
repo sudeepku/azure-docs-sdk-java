@@ -1,0 +1,69 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.sql.fluent.ServerKeysClient.beginCreateOrUpdateWithoutPolling*
+fullName: com.azure.resourcemanager.sql.fluent.ServerKeysClient.beginCreateOrUpdateWithoutPolling
+name: beginCreateOrUpdateWithoutPolling
+nameWithType: ServerKeysClient.beginCreateOrUpdateWithoutPolling
+members:
+- uid: com.azure.resourcemanager.sql.fluent.ServerKeysClient.beginCreateOrUpdateWithoutPolling(java.lang.String,java.lang.String,java.lang.String,com.azure.resourcemanager.sql.fluent.inner.ServerKeyInner)
+  fullName: com.azure.resourcemanager.sql.fluent.ServerKeysClient.beginCreateOrUpdateWithoutPolling(String resourceGroupName, String serverName, String keyName, ServerKeyInner parameters)
+  name: beginCreateOrUpdateWithoutPolling(String resourceGroupName, String serverName, String keyName, ServerKeyInner parameters)
+  nameWithType: ServerKeysClient.beginCreateOrUpdateWithoutPolling(String resourceGroupName, String serverName, String keyName, ServerKeyInner parameters)
+  summary: Creates or updates a server key.
+  parameters:
+  - description: |-
+      The name of the resource group that contains the resource. You can obtain this value
+           from the Azure Resource Manager API or the portal.
+    name: resourceGroupName
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  - description: The name of the server.
+    name: serverName
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  - description: |-
+      The name of the server key to be operated on (updated or created). The key name is required to be
+           in the format of 'vault_key_version'. For example, if the keyId is
+           https://YourVaultName.vault.azure.net/keys/YourKeyName/01234567890123456789012345678901, then the server key
+           name should be formatted as: YourVaultName_YourKeyName_01234567890123456789012345678901.
+    name: keyName
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  - description: A server key.
+    name: parameters
+    type: <xref href="com.azure.resourcemanager.sql.fluent.inner.ServerKeyInner?alt=com.azure.resourcemanager.sql.fluent.inner.ServerKeyInner&text=ServerKeyInner" data-throw-if-not-resolved="False" />
+  syntax: public ServerKeyInner beginCreateOrUpdateWithoutPolling(String resourceGroupName, String serverName, String keyName, ServerKeyInner parameters)
+  returns:
+    description: a server key.
+    type: <xref href="com.azure.resourcemanager.sql.fluent.inner.ServerKeyInner?alt=com.azure.resourcemanager.sql.fluent.inner.ServerKeyInner&text=ServerKeyInner" data-throw-if-not-resolved="False" />
+- uid: com.azure.resourcemanager.sql.fluent.ServerKeysClient.beginCreateOrUpdateWithoutPolling(java.lang.String,java.lang.String,java.lang.String,com.azure.resourcemanager.sql.fluent.inner.ServerKeyInner,com.azure.core.util.Context)
+  fullName: com.azure.resourcemanager.sql.fluent.ServerKeysClient.beginCreateOrUpdateWithoutPolling(String resourceGroupName, String serverName, String keyName, ServerKeyInner parameters, Context context)
+  name: beginCreateOrUpdateWithoutPolling(String resourceGroupName, String serverName, String keyName, ServerKeyInner parameters, Context context)
+  nameWithType: ServerKeysClient.beginCreateOrUpdateWithoutPolling(String resourceGroupName, String serverName, String keyName, ServerKeyInner parameters, Context context)
+  summary: Creates or updates a server key.
+  parameters:
+  - description: |-
+      The name of the resource group that contains the resource. You can obtain this value
+           from the Azure Resource Manager API or the portal.
+    name: resourceGroupName
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  - description: The name of the server.
+    name: serverName
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  - description: |-
+      The name of the server key to be operated on (updated or created). The key name is required to be
+           in the format of 'vault_key_version'. For example, if the keyId is
+           https://YourVaultName.vault.azure.net/keys/YourKeyName/01234567890123456789012345678901, then the server key
+           name should be formatted as: YourVaultName_YourKeyName_01234567890123456789012345678901.
+    name: keyName
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  - description: A server key.
+    name: parameters
+    type: <xref href="com.azure.resourcemanager.sql.fluent.inner.ServerKeyInner?alt=com.azure.resourcemanager.sql.fluent.inner.ServerKeyInner&text=ServerKeyInner" data-throw-if-not-resolved="False" />
+  - description: The context to associate with this operation.
+    name: context
+    type: <xref href="com.azure.core.util.Context?alt=com.azure.core.util.Context&text=Context" data-throw-if-not-resolved="False" />
+  syntax: public ServerKeyInner beginCreateOrUpdateWithoutPolling(String resourceGroupName, String serverName, String keyName, ServerKeyInner parameters, Context context)
+  returns:
+    description: a server key.
+    type: <xref href="com.azure.resourcemanager.sql.fluent.inner.ServerKeyInner?alt=com.azure.resourcemanager.sql.fluent.inner.ServerKeyInner&text=ServerKeyInner" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.resourcemanager.sql.fluent
+artifact: com.azure.resourcemanager:azure-resourcemanager-sql:2.0.0-beta.2

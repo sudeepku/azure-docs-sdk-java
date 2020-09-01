@@ -1,0 +1,23 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.appservice.fluent.inner.NameIdentifierCollectionInner.withValue*
+fullName: com.azure.resourcemanager.appservice.fluent.inner.NameIdentifierCollectionInner.withValue
+name: withValue
+nameWithType: NameIdentifierCollectionInner.withValue
+members:
+- uid: com.azure.resourcemanager.appservice.fluent.inner.NameIdentifierCollectionInner.withValue(java.util.List<com.azure.resourcemanager.appservice.fluent.inner.NameIdentifierInner>)
+  fullName: com.azure.resourcemanager.appservice.fluent.inner.NameIdentifierCollectionInner.withValue(List<NameIdentifierInner> value)
+  name: withValue(List<NameIdentifierInner> value)
+  nameWithType: NameIdentifierCollectionInner.withValue(List<NameIdentifierInner> value)
+  summary: 'Set the value property: Collection of resources.'
+  parameters:
+  - description: the value value to set.
+    name: value
+    type: <xref href="java.util.List?alt=java.util.List&text=List" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.resourcemanager.appservice.fluent.inner.NameIdentifierInner?alt=com.azure.resourcemanager.appservice.fluent.inner.NameIdentifierInner&text=NameIdentifierInner" data-throw-if-not-resolved="False" />&gt;
+  syntax: public NameIdentifierCollectionInner withValue(List<NameIdentifierInner> value)
+  returns:
+    description: the NameIdentifierCollectionInner object itself.
+    type: <xref href="com.azure.resourcemanager.appservice.fluent.inner.NameIdentifierCollectionInner?alt=com.azure.resourcemanager.appservice.fluent.inner.NameIdentifierCollectionInner&text=NameIdentifierCollectionInner" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.resourcemanager.appservice.fluent.inner
+artifact: com.azure.resourcemanager:azure-resourcemanager-appservice:2.0.0-beta.2

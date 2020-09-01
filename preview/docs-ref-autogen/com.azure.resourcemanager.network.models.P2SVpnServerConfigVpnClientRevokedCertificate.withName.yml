@@ -1,0 +1,25 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.network.models.P2SVpnServerConfigVpnClientRevokedCertificate.withName*
+fullName: com.azure.resourcemanager.network.models.P2SVpnServerConfigVpnClientRevokedCertificate.withName
+name: withName
+nameWithType: P2SVpnServerConfigVpnClientRevokedCertificate.withName
+members:
+- uid: com.azure.resourcemanager.network.models.P2SVpnServerConfigVpnClientRevokedCertificate.withName(java.lang.String)
+  fullName: com.azure.resourcemanager.network.models.P2SVpnServerConfigVpnClientRevokedCertificate.withName(String name)
+  name: withName(String name)
+  nameWithType: P2SVpnServerConfigVpnClientRevokedCertificate.withName(String name)
+  summary: |-
+    Set the name property: The name of the resource that is unique within a resource group. This name can be used to
+     access the resource.
+  parameters:
+  - description: the name value to set.
+    name: name
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  syntax: public P2SVpnServerConfigVpnClientRevokedCertificate withName(String name)
+  returns:
+    description: the P2SVpnServerConfigVpnClientRevokedCertificate object itself.
+    type: <xref href="com.azure.resourcemanager.network.models.P2SVpnServerConfigVpnClientRevokedCertificate?alt=com.azure.resourcemanager.network.models.P2SVpnServerConfigVpnClientRevokedCertificate&text=P2SVpnServerConfigVpnClientRevokedCertificate" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.resourcemanager.network.models
+artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.0.0-beta.2

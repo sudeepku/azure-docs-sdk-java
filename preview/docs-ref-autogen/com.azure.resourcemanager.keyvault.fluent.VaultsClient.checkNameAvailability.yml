@@ -1,0 +1,39 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.keyvault.fluent.VaultsClient.checkNameAvailability*
+fullName: com.azure.resourcemanager.keyvault.fluent.VaultsClient.checkNameAvailability
+name: checkNameAvailability
+nameWithType: VaultsClient.checkNameAvailability
+members:
+- uid: com.azure.resourcemanager.keyvault.fluent.VaultsClient.checkNameAvailability(java.lang.String)
+  fullName: com.azure.resourcemanager.keyvault.fluent.VaultsClient.checkNameAvailability(String name)
+  name: checkNameAvailability(String name)
+  nameWithType: VaultsClient.checkNameAvailability(String name)
+  summary: Checks that the vault name is valid and is not already in use.
+  parameters:
+  - description: The vault name.
+    name: name
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  syntax: public CheckNameAvailabilityResultInner checkNameAvailability(String name)
+  returns:
+    description: the CheckNameAvailability operation response.
+    type: <xref href="com.azure.resourcemanager.keyvault.fluent.inner.CheckNameAvailabilityResultInner?alt=com.azure.resourcemanager.keyvault.fluent.inner.CheckNameAvailabilityResultInner&text=CheckNameAvailabilityResultInner" data-throw-if-not-resolved="False" />
+- uid: com.azure.resourcemanager.keyvault.fluent.VaultsClient.checkNameAvailability(java.lang.String,com.azure.core.util.Context)
+  fullName: com.azure.resourcemanager.keyvault.fluent.VaultsClient.checkNameAvailability(String name, Context context)
+  name: checkNameAvailability(String name, Context context)
+  nameWithType: VaultsClient.checkNameAvailability(String name, Context context)
+  summary: Checks that the vault name is valid and is not already in use.
+  parameters:
+  - description: The vault name.
+    name: name
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  - description: The context to associate with this operation.
+    name: context
+    type: <xref href="com.azure.core.util.Context?alt=com.azure.core.util.Context&text=Context" data-throw-if-not-resolved="False" />
+  syntax: public CheckNameAvailabilityResultInner checkNameAvailability(String name, Context context)
+  returns:
+    description: the CheckNameAvailability operation response.
+    type: <xref href="com.azure.resourcemanager.keyvault.fluent.inner.CheckNameAvailabilityResultInner?alt=com.azure.resourcemanager.keyvault.fluent.inner.CheckNameAvailabilityResultInner&text=CheckNameAvailabilityResultInner" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.resourcemanager.keyvault.fluent
+artifact: com.azure.resourcemanager:azure-resourcemanager-keyvault:2.0.0-beta.2

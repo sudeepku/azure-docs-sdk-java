@@ -1,0 +1,22 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.resources.fluentcore.utils.PagedList.subList*
+fullName: com.azure.resourcemanager.resources.fluentcore.utils.PagedList<E>.subList
+name: subList
+nameWithType: PagedList<E>.subList
+members:
+- uid: com.azure.resourcemanager.resources.fluentcore.utils.PagedList.subList(int,int)
+  fullName: com.azure.resourcemanager.resources.fluentcore.utils.PagedList<E>.subList(int fromIndex, int toIndex)
+  name: subList(int fromIndex, int toIndex)
+  nameWithType: PagedList<E>.subList(int fromIndex, int toIndex)
+  parameters:
+  - name: fromIndex
+    type: <xref href="int?alt=int&text=int" data-throw-if-not-resolved="False" />
+  - name: toIndex
+    type: <xref href="int?alt=int&text=int" data-throw-if-not-resolved="False" />
+  syntax: public List<E> subList(int fromIndex, int toIndex)
+  returns:
+    type: <xref href="java.util.List?alt=java.util.List&text=List" data-throw-if-not-resolved="False" />&lt;<xref href="E?alt=E&text=E" data-throw-if-not-resolved="False" />&gt;
+type: method
+metadata: {}
+package: com.azure.resourcemanager.resources.fluentcore.utils
+artifact: com.azure.resourcemanager:azure-resourcemanager-resources:2.0.0-beta.2

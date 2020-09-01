@@ -1,0 +1,20 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.network.fluent.BastionHostsClient.BastionHostsClient*
+fullName: com.azure.resourcemanager.network.fluent.BastionHostsClient.BastionHostsClient
+name: BastionHostsClient
+nameWithType: BastionHostsClient.BastionHostsClient
+members:
+- uid: com.azure.resourcemanager.network.fluent.BastionHostsClient.BastionHostsClient(com.azure.resourcemanager.network.NetworkManagementClient)
+  fullName: com.azure.resourcemanager.network.fluent.BastionHostsClient.BastionHostsClient(NetworkManagementClient client)
+  name: BastionHostsClient(NetworkManagementClient client)
+  nameWithType: BastionHostsClient.BastionHostsClient(NetworkManagementClient client)
+  summary: Initializes an instance of BastionHostsClient.
+  parameters:
+  - description: the instance of the service client containing this operation class.
+    name: client
+    type: <xref href="com.azure.resourcemanager.network.NetworkManagementClient?alt=com.azure.resourcemanager.network.NetworkManagementClient&text=NetworkManagementClient" data-throw-if-not-resolved="False" />
+  syntax: public BastionHostsClient(NetworkManagementClient client)
+type: constructor
+metadata: {}
+package: com.azure.resourcemanager.network.fluent
+artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.0.0-beta.2

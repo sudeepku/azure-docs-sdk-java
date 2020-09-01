@@ -1,0 +1,19 @@
+### YamlMime:JavaMember
+uid: com.azure.search.documents.indexes.implementation.models.ServiceStatistics.getCounters*
+fullName: com.azure.search.documents.indexes.implementation.models.ServiceStatistics.getCounters
+name: getCounters
+nameWithType: ServiceStatistics.getCounters
+members:
+- uid: com.azure.search.documents.indexes.implementation.models.ServiceStatistics.getCounters()
+  fullName: com.azure.search.documents.indexes.implementation.models.ServiceStatistics.getCounters()
+  name: getCounters()
+  nameWithType: ServiceStatistics.getCounters()
+  summary: 'Get the counters property: Service level resource counters.'
+  syntax: public ServiceCounters getCounters()
+  returns:
+    description: the counters value.
+    type: <xref href="com.azure.search.documents.indexes.implementation.models.ServiceCounters?alt=com.azure.search.documents.indexes.implementation.models.ServiceCounters&text=ServiceCounters" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.search.documents.indexes.implementation.models
+artifact: com.azure:azure-search-documents:11.1.0-beta.1

@@ -1,0 +1,23 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.resources.models.DeploymentPropertiesExtended.withOnErrorDeployment*
+fullName: com.azure.resourcemanager.resources.models.DeploymentPropertiesExtended.withOnErrorDeployment
+name: withOnErrorDeployment
+nameWithType: DeploymentPropertiesExtended.withOnErrorDeployment
+members:
+- uid: com.azure.resourcemanager.resources.models.DeploymentPropertiesExtended.withOnErrorDeployment(com.azure.resourcemanager.resources.models.OnErrorDeploymentExtended)
+  fullName: com.azure.resourcemanager.resources.models.DeploymentPropertiesExtended.withOnErrorDeployment(OnErrorDeploymentExtended onErrorDeployment)
+  name: withOnErrorDeployment(OnErrorDeploymentExtended onErrorDeployment)
+  nameWithType: DeploymentPropertiesExtended.withOnErrorDeployment(OnErrorDeploymentExtended onErrorDeployment)
+  summary: 'Set the onErrorDeployment property: The deployment on error behavior.'
+  parameters:
+  - description: the onErrorDeployment value to set.
+    name: onErrorDeployment
+    type: <xref href="com.azure.resourcemanager.resources.models.OnErrorDeploymentExtended?alt=com.azure.resourcemanager.resources.models.OnErrorDeploymentExtended&text=OnErrorDeploymentExtended" data-throw-if-not-resolved="False" />
+  syntax: public DeploymentPropertiesExtended withOnErrorDeployment(OnErrorDeploymentExtended onErrorDeployment)
+  returns:
+    description: the DeploymentPropertiesExtended object itself.
+    type: <xref href="com.azure.resourcemanager.resources.models.DeploymentPropertiesExtended?alt=com.azure.resourcemanager.resources.models.DeploymentPropertiesExtended&text=DeploymentPropertiesExtended" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.resourcemanager.resources.models
+artifact: com.azure.resourcemanager:azure-resourcemanager-resources:2.0.0-beta.2

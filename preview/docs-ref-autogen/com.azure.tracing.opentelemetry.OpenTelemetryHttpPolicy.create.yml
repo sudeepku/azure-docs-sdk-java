@@ -1,0 +1,18 @@
+### YamlMime:JavaMember
+uid: com.azure.tracing.opentelemetry.OpenTelemetryHttpPolicy.create*
+fullName: com.azure.tracing.opentelemetry.OpenTelemetryHttpPolicy.create
+name: create
+nameWithType: OpenTelemetryHttpPolicy.create
+members:
+- uid: com.azure.tracing.opentelemetry.OpenTelemetryHttpPolicy.create()
+  fullName: com.azure.tracing.opentelemetry.OpenTelemetryHttpPolicy.create()
+  name: create()
+  nameWithType: OpenTelemetryHttpPolicy.create()
+  syntax: public HttpPipelinePolicy create()
+  returns:
+    description: a OpenTelemetry HTTP policy.
+    type: <xref href="com.azure.core.http.policy.HttpPipelinePolicy?alt=com.azure.core.http.policy.HttpPipelinePolicy&text=HttpPipelinePolicy" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.tracing.opentelemetry
+artifact: com.azure:tracing-opentelemetry:1.0.0-preview.2

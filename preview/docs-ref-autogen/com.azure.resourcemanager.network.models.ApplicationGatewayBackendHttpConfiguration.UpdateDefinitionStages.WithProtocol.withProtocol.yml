@@ -1,0 +1,23 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.network.models.ApplicationGatewayBackendHttpConfiguration.UpdateDefinitionStages.WithProtocol.withProtocol*
+fullName: com.azure.resourcemanager.network.models.ApplicationGatewayBackendHttpConfiguration.UpdateDefinitionStages.WithProtocol<ReturnT>.withProtocol
+name: withProtocol
+nameWithType: ApplicationGatewayBackendHttpConfiguration.UpdateDefinitionStages.WithProtocol<ReturnT>.withProtocol
+members:
+- uid: com.azure.resourcemanager.network.models.ApplicationGatewayBackendHttpConfiguration.UpdateDefinitionStages.WithProtocol.withProtocol(com.azure.resourcemanager.network.models.ApplicationGatewayProtocol)
+  fullName: com.azure.resourcemanager.network.models.ApplicationGatewayBackendHttpConfiguration.UpdateDefinitionStages.WithProtocol<ReturnT>.withProtocol(ApplicationGatewayProtocol protocol)
+  name: withProtocol(ApplicationGatewayProtocol protocol)
+  nameWithType: ApplicationGatewayBackendHttpConfiguration.UpdateDefinitionStages.WithProtocol<ReturnT>.withProtocol(ApplicationGatewayProtocol protocol)
+  summary: Specifies the transport protocol.
+  parameters:
+  - description: a transport protocol
+    name: protocol
+    type: <xref href="com.azure.resourcemanager.network.models.ApplicationGatewayProtocol?alt=com.azure.resourcemanager.network.models.ApplicationGatewayProtocol&text=ApplicationGatewayProtocol" data-throw-if-not-resolved="False" />
+  syntax: public abstract ApplicationGatewayBackendHttpConfiguration.UpdateDefinitionStages.WithAttach<ReturnT> withProtocol(ApplicationGatewayProtocol protocol)
+  returns:
+    description: the next stage of the definition
+    type: <xref href="com.azure.resourcemanager.network.models.ApplicationGatewayBackendHttpConfiguration.UpdateDefinitionStages.WithAttach?alt=com.azure.resourcemanager.network.models.ApplicationGatewayBackendHttpConfiguration.UpdateDefinitionStages.WithAttach&text=WithAttach" data-throw-if-not-resolved="False" />&lt;<xref href="ReturnT?alt=ReturnT&text=ReturnT" data-throw-if-not-resolved="False" />&gt;
+type: method
+metadata: {}
+package: com.azure.resourcemanager.network.models
+artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.0.0-beta.2

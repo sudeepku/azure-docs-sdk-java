@@ -1,0 +1,27 @@
+### YamlMime:JavaMember
+uid: com.azure.storage.blob.specialized.BlobClientBase.undelete*
+fullName: com.azure.storage.blob.specialized.BlobClientBase.undelete
+name: undelete
+nameWithType: BlobClientBase.undelete
+members:
+- uid: com.azure.storage.blob.specialized.BlobClientBase.undelete()
+  fullName: com.azure.storage.blob.specialized.BlobClientBase.undelete()
+  name: undelete()
+  nameWithType: BlobClientBase.undelete()
+  summary: |-
+    Undelete restores the content and metadata of a soft-deleted blob and/or any associated soft-deleted snapshots.
+
+     <p><strong>Code Samples</strong></p>
+
+     <pre>
+     client.undelete&#40;&#41;;
+     System.out.println&#40;&quot;Undelete completed&quot;&#41;;
+     </pre>
+
+     <p>For more information, see the
+     <a href="https://docs.microsoft.com/en-us/rest/api/storageservices/undelete-blob">Azure Docs</a></p>
+  syntax: public void undelete()
+type: method
+metadata: {}
+package: com.azure.storage.blob.specialized
+artifact: com.azure:azure-storage-blob:12.8.0-beta.1

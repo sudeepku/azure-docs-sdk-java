@@ -1,0 +1,25 @@
+### YamlMime:JavaMember
+nameWithType: Apps.listAvailableCustomPrebuiltDomains
+type: method
+members:
+- fullName: com.microsoft.azure.cognitiveservices.language.luis.authoring.Apps.listAvailableCustomPrebuiltDomains()
+  name: listAvailableCustomPrebuiltDomains()
+  nameWithType: Apps.listAvailableCustomPrebuiltDomains()
+  exceptions:
+  - name: 3c87bd19
+  - name: 00ad4777
+  - name: 9b2a4515
+  returns:
+    description: <p>the List&lt;PrebuiltDomain&gt; object if successful. </p>
+    type: List&lt;<xref href="com.microsoft.azure.cognitiveservices.language.luis.authoring.models.PrebuiltDomain?alt=com.microsoft.azure.cognitiveservices.language.luis.authoring.models.PrebuiltDomain&text=PrebuiltDomain" data-throw-if-not-resolved="False"/>&gt;
+  summary: >-
+    <p>Gets all the available custom prebuilt domains for all cultures.</p>
+
+    <p></p>
+  syntax: public List<PrebuiltDomain> listAvailableCustomPrebuiltDomains()
+  uid: com.microsoft.azure.cognitiveservices.language.luis.authoring.Apps.listAvailableCustomPrebuiltDomains()
+uid: com.microsoft.azure.cognitiveservices.language.luis.authoring.Apps.listAvailableCustomPrebuiltDomains*
+fullName: com.microsoft.azure.cognitiveservices.language.luis.authoring.Apps.listAvailableCustomPrebuiltDomains()
+name: listAvailableCustomPrebuiltDomains()
+package: com.microsoft.azure.cognitiveservices.language.luis.authoring
+metadata: {}

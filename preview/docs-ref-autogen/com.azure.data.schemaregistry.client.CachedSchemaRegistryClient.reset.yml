@@ -1,0 +1,16 @@
+### YamlMime:JavaMember
+uid: com.azure.data.schemaregistry.client.CachedSchemaRegistryClient.reset*
+fullName: com.azure.data.schemaregistry.client.CachedSchemaRegistryClient.reset
+name: reset
+nameWithType: CachedSchemaRegistryClient.reset
+members:
+- uid: com.azure.data.schemaregistry.client.CachedSchemaRegistryClient.reset()
+  fullName: com.azure.data.schemaregistry.client.CachedSchemaRegistryClient.reset()
+  name: reset()
+  nameWithType: CachedSchemaRegistryClient.reset()
+  summary: Explicit call to clear all caches.
+  syntax: public void reset()
+type: method
+metadata: {}
+package: com.azure.data.schemaregistry.client
+artifact: com.azure:azure-data-schemaregistry:1.0.0-beta.1

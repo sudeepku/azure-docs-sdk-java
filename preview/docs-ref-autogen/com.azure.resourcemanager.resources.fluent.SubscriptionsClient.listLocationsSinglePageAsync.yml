@@ -1,0 +1,43 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.resources.fluent.SubscriptionsClient.listLocationsSinglePageAsync*
+fullName: com.azure.resourcemanager.resources.fluent.SubscriptionsClient.listLocationsSinglePageAsync
+name: listLocationsSinglePageAsync
+nameWithType: SubscriptionsClient.listLocationsSinglePageAsync
+members:
+- uid: com.azure.resourcemanager.resources.fluent.SubscriptionsClient.listLocationsSinglePageAsync(java.lang.String)
+  fullName: com.azure.resourcemanager.resources.fluent.SubscriptionsClient.listLocationsSinglePageAsync(String subscriptionId)
+  name: listLocationsSinglePageAsync(String subscriptionId)
+  nameWithType: SubscriptionsClient.listLocationsSinglePageAsync(String subscriptionId)
+  summary: |-
+    This operation provides all the locations that are available for resource providers; however, each resource
+     provider may support a subset of this list.
+  parameters:
+  - description: The ID of the target subscription.
+    name: subscriptionId
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  syntax: public Mono<PagedResponse<LocationInner>> listLocationsSinglePageAsync(String subscriptionId)
+  returns:
+    description: location list operation response.
+    type: <xref href="reactor.core.publisher.Mono?alt=reactor.core.publisher.Mono&text=Mono" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.core.http.rest.PagedResponse?alt=com.azure.core.http.rest.PagedResponse&text=PagedResponse" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.resourcemanager.resources.fluent.inner.LocationInner?alt=com.azure.resourcemanager.resources.fluent.inner.LocationInner&text=LocationInner" data-throw-if-not-resolved="False" />&gt;&gt;
+- uid: com.azure.resourcemanager.resources.fluent.SubscriptionsClient.listLocationsSinglePageAsync(java.lang.String,com.azure.core.util.Context)
+  fullName: com.azure.resourcemanager.resources.fluent.SubscriptionsClient.listLocationsSinglePageAsync(String subscriptionId, Context context)
+  name: listLocationsSinglePageAsync(String subscriptionId, Context context)
+  nameWithType: SubscriptionsClient.listLocationsSinglePageAsync(String subscriptionId, Context context)
+  summary: |-
+    This operation provides all the locations that are available for resource providers; however, each resource
+     provider may support a subset of this list.
+  parameters:
+  - description: The ID of the target subscription.
+    name: subscriptionId
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  - description: The context to associate with this operation.
+    name: context
+    type: <xref href="com.azure.core.util.Context?alt=com.azure.core.util.Context&text=Context" data-throw-if-not-resolved="False" />
+  syntax: public Mono<PagedResponse<LocationInner>> listLocationsSinglePageAsync(String subscriptionId, Context context)
+  returns:
+    description: location list operation response.
+    type: <xref href="reactor.core.publisher.Mono?alt=reactor.core.publisher.Mono&text=Mono" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.core.http.rest.PagedResponse?alt=com.azure.core.http.rest.PagedResponse&text=PagedResponse" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.resourcemanager.resources.fluent.inner.LocationInner?alt=com.azure.resourcemanager.resources.fluent.inner.LocationInner&text=LocationInner" data-throw-if-not-resolved="False" />&gt;&gt;
+type: method
+metadata: {}
+package: com.azure.resourcemanager.resources.fluent
+artifact: com.azure.resourcemanager:azure-resourcemanager-resources:2.0.0-beta.2

@@ -1,0 +1,23 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.containerregistry.models.RunFilter.withFinishTime*
+fullName: com.azure.resourcemanager.containerregistry.models.RunFilter.withFinishTime
+name: withFinishTime
+nameWithType: RunFilter.withFinishTime
+members:
+- uid: com.azure.resourcemanager.containerregistry.models.RunFilter.withFinishTime(java.time.OffsetDateTime)
+  fullName: com.azure.resourcemanager.containerregistry.models.RunFilter.withFinishTime(OffsetDateTime finishTime)
+  name: withFinishTime(OffsetDateTime finishTime)
+  nameWithType: RunFilter.withFinishTime(OffsetDateTime finishTime)
+  summary: 'Set the finishTime property: The time the run finished.'
+  parameters:
+  - description: the finishTime value to set.
+    name: finishTime
+    type: <xref href="java.time.OffsetDateTime?alt=java.time.OffsetDateTime&text=OffsetDateTime" data-throw-if-not-resolved="False" />
+  syntax: public RunFilter withFinishTime(OffsetDateTime finishTime)
+  returns:
+    description: the RunFilter object itself.
+    type: <xref href="com.azure.resourcemanager.containerregistry.models.RunFilter?alt=com.azure.resourcemanager.containerregistry.models.RunFilter&text=RunFilter" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.resourcemanager.containerregistry.models
+artifact: com.azure.resourcemanager:azure-resourcemanager-containerregistry:2.0.0-beta.2

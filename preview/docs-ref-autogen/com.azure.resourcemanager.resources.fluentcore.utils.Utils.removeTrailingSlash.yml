@@ -1,0 +1,23 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.resources.fluentcore.utils.Utils.removeTrailingSlash*
+fullName: com.azure.resourcemanager.resources.fluentcore.utils.Utils.removeTrailingSlash
+name: removeTrailingSlash
+nameWithType: Utils.removeTrailingSlash
+members:
+- uid: com.azure.resourcemanager.resources.fluentcore.utils.Utils.removeTrailingSlash(java.lang.String)
+  fullName: com.azure.resourcemanager.resources.fluentcore.utils.Utils.removeTrailingSlash(String s)
+  name: removeTrailingSlash(String s)
+  nameWithType: Utils.removeTrailingSlash(String s)
+  summary: Removes the trailing slash of the string.
+  parameters:
+  - description: the string
+    name: s
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  syntax: public static String removeTrailingSlash(String s)
+  returns:
+    description: the string without trailing slash
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.resourcemanager.resources.fluentcore.utils
+artifact: com.azure.resourcemanager:azure-resourcemanager-resources:2.0.0-beta.2

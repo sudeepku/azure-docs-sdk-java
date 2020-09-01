@@ -1,0 +1,61 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.appservice.fluent.WebAppsClient.listInstanceProcessModulesSinglePageAsync*
+fullName: com.azure.resourcemanager.appservice.fluent.WebAppsClient.listInstanceProcessModulesSinglePageAsync
+name: listInstanceProcessModulesSinglePageAsync
+nameWithType: WebAppsClient.listInstanceProcessModulesSinglePageAsync
+members:
+- uid: com.azure.resourcemanager.appservice.fluent.WebAppsClient.listInstanceProcessModulesSinglePageAsync(java.lang.String,java.lang.String,java.lang.String,java.lang.String)
+  fullName: com.azure.resourcemanager.appservice.fluent.WebAppsClient.listInstanceProcessModulesSinglePageAsync(String resourceGroupName, String name, String processId, String instanceId)
+  name: listInstanceProcessModulesSinglePageAsync(String resourceGroupName, String name, String processId, String instanceId)
+  nameWithType: WebAppsClient.listInstanceProcessModulesSinglePageAsync(String resourceGroupName, String name, String processId, String instanceId)
+  summary: Description for List module information for a process by its ID for a specific scaled-out instance in a web site.
+  parameters:
+  - description: Name of the resource group to which the resource belongs.
+    name: resourceGroupName
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  - description: Site name.
+    name: name
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  - description: PID.
+    name: processId
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  - description: |-
+      ID of a specific scaled-out instance. This is the value of the name property in the JSON
+           response from "GET api/sites/{siteName}/instances".
+    name: instanceId
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  syntax: public Mono<PagedResponse<ProcessModuleInfoInner>> listInstanceProcessModulesSinglePageAsync(String resourceGroupName, String name, String processId, String instanceId)
+  returns:
+    description: collection of Kudu thread information elements.
+    type: <xref href="reactor.core.publisher.Mono?alt=reactor.core.publisher.Mono&text=Mono" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.core.http.rest.PagedResponse?alt=com.azure.core.http.rest.PagedResponse&text=PagedResponse" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.resourcemanager.appservice.fluent.inner.ProcessModuleInfoInner?alt=com.azure.resourcemanager.appservice.fluent.inner.ProcessModuleInfoInner&text=ProcessModuleInfoInner" data-throw-if-not-resolved="False" />&gt;&gt;
+- uid: com.azure.resourcemanager.appservice.fluent.WebAppsClient.listInstanceProcessModulesSinglePageAsync(java.lang.String,java.lang.String,java.lang.String,java.lang.String,com.azure.core.util.Context)
+  fullName: com.azure.resourcemanager.appservice.fluent.WebAppsClient.listInstanceProcessModulesSinglePageAsync(String resourceGroupName, String name, String processId, String instanceId, Context context)
+  name: listInstanceProcessModulesSinglePageAsync(String resourceGroupName, String name, String processId, String instanceId, Context context)
+  nameWithType: WebAppsClient.listInstanceProcessModulesSinglePageAsync(String resourceGroupName, String name, String processId, String instanceId, Context context)
+  summary: Description for List module information for a process by its ID for a specific scaled-out instance in a web site.
+  parameters:
+  - description: Name of the resource group to which the resource belongs.
+    name: resourceGroupName
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  - description: Site name.
+    name: name
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  - description: PID.
+    name: processId
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  - description: |-
+      ID of a specific scaled-out instance. This is the value of the name property in the JSON
+           response from "GET api/sites/{siteName}/instances".
+    name: instanceId
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  - description: The context to associate with this operation.
+    name: context
+    type: <xref href="com.azure.core.util.Context?alt=com.azure.core.util.Context&text=Context" data-throw-if-not-resolved="False" />
+  syntax: public Mono<PagedResponse<ProcessModuleInfoInner>> listInstanceProcessModulesSinglePageAsync(String resourceGroupName, String name, String processId, String instanceId, Context context)
+  returns:
+    description: collection of Kudu thread information elements.
+    type: <xref href="reactor.core.publisher.Mono?alt=reactor.core.publisher.Mono&text=Mono" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.core.http.rest.PagedResponse?alt=com.azure.core.http.rest.PagedResponse&text=PagedResponse" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.resourcemanager.appservice.fluent.inner.ProcessModuleInfoInner?alt=com.azure.resourcemanager.appservice.fluent.inner.ProcessModuleInfoInner&text=ProcessModuleInfoInner" data-throw-if-not-resolved="False" />&gt;&gt;
+type: method
+metadata: {}
+package: com.azure.resourcemanager.appservice.fluent
+artifact: com.azure.resourcemanager:azure-resourcemanager-appservice:2.0.0-beta.2

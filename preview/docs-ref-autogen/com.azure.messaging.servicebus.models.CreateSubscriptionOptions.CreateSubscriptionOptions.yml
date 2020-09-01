@@ -1,0 +1,49 @@
+### YamlMime:JavaMember
+uid: com.azure.messaging.servicebus.models.CreateSubscriptionOptions.CreateSubscriptionOptions*
+fullName: com.azure.messaging.servicebus.models.CreateSubscriptionOptions.CreateSubscriptionOptions
+name: CreateSubscriptionOptions
+nameWithType: CreateSubscriptionOptions.CreateSubscriptionOptions
+members:
+- uid: com.azure.messaging.servicebus.models.CreateSubscriptionOptions.CreateSubscriptionOptions(com.azure.messaging.servicebus.models.SubscriptionProperties)
+  fullName: com.azure.messaging.servicebus.models.CreateSubscriptionOptions.CreateSubscriptionOptions(SubscriptionProperties subscription)
+  name: CreateSubscriptionOptions(SubscriptionProperties subscription)
+  nameWithType: CreateSubscriptionOptions.CreateSubscriptionOptions(SubscriptionProperties subscription)
+  summary: |-
+    Initializes a new instance based on the specified <xref uid="SubscriptionProperties" data-throw-if-not-resolved="false">SubscriptionProperties</xref> instance. This is useful for
+     creating a new subscription based on the properties of an existing subscription.
+  parameters:
+  - description: Existing subscription to create options with.
+    name: subscription
+    type: <xref href="com.azure.messaging.servicebus.models.SubscriptionProperties?alt=com.azure.messaging.servicebus.models.SubscriptionProperties&text=SubscriptionProperties" data-throw-if-not-resolved="False" />
+  syntax: public CreateSubscriptionOptions(SubscriptionProperties subscription)
+- uid: com.azure.messaging.servicebus.models.CreateSubscriptionOptions.CreateSubscriptionOptions(java.lang.String,java.lang.String)
+  fullName: com.azure.messaging.servicebus.models.CreateSubscriptionOptions.CreateSubscriptionOptions(String topicName, String subscriptionName)
+  name: CreateSubscriptionOptions(String topicName, String subscriptionName)
+  nameWithType: CreateSubscriptionOptions.CreateSubscriptionOptions(String topicName, String subscriptionName)
+  summary: |-
+    Creates an instance with the name of the subscription and its associated topic. Default values for the
+     subscription are populated. The properties populated with defaults are:
+
+     <ul>
+         <li><xref uid="#setAutoDeleteOnIdle(Duration)" data-throw-if-not-resolved="false">#setAutoDeleteOnIdle(Duration)</xref> is max duration value.</li>
+         <li><xref uid="#setDeadLetteringOnMessageExpiration(boolean)" data-throw-if-not-resolved="false">#setDeadLetteringOnMessageExpiration(boolean)</xref> is false.</li>
+         <li><xref uid="#setDefaultMessageTimeToLive(Duration)" data-throw-if-not-resolved="false">#setDefaultMessageTimeToLive(Duration)</xref> is max duration value.</li>
+         <li><xref uid="#setEnableBatchedOperations(boolean)" data-throw-if-not-resolved="false">#setEnableBatchedOperations(boolean)</xref> is true.</li>
+         <li><xref uid="#setEnableDeadLetteringOnFilterEvaluationExceptions(boolean)" data-throw-if-not-resolved="false">#setEnableDeadLetteringOnFilterEvaluationExceptions(boolean)</xref> is true.</li>
+         <li><xref uid="#setLockDuration(Duration)" data-throw-if-not-resolved="false">#setLockDuration(Duration)</xref> is 1 minute.</li>
+         <li><xref uid="#setMaxDeliveryCount(int)" data-throw-if-not-resolved="false">#setMaxDeliveryCount(int)</xref> is 10.</li>
+         <li><xref uid="#setRequiresSession(boolean)" data-throw-if-not-resolved="false">#setRequiresSession(boolean)</xref> is false.</li>
+         <li><xref uid="#setStatus(EntityStatus)" data-throw-if-not-resolved="false">#setStatus(EntityStatus)</xref> is <xref uid="EntityStatus#ACTIVE" data-throw-if-not-resolved="false">EntityStatus#ACTIVE</xref>.</li>
+     </ul>
+  parameters:
+  - description: Name of the topic associated with this subscription.
+    name: topicName
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  - description: Name of the subscription.
+    name: subscriptionName
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  syntax: public CreateSubscriptionOptions(String topicName, String subscriptionName)
+type: constructor
+metadata: {}
+package: com.azure.messaging.servicebus.models
+artifact: com.azure:azure-messaging-servicebus:7.0.0-beta.5

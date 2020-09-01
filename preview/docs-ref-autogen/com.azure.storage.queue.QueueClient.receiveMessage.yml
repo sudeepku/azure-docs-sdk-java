@@ -1,0 +1,36 @@
+### YamlMime:JavaMember
+uid: com.azure.storage.queue.QueueClient.receiveMessage*
+fullName: com.azure.storage.queue.QueueClient.receiveMessage
+name: receiveMessage
+nameWithType: QueueClient.receiveMessage
+members:
+- uid: com.azure.storage.queue.QueueClient.receiveMessage()
+  fullName: com.azure.storage.queue.QueueClient.receiveMessage()
+  name: receiveMessage()
+  nameWithType: QueueClient.receiveMessage()
+  summary: |-
+    Retrieves the first message in the queue and hides it from other operations for 30 seconds.
+
+     <p><strong>Code Samples</strong></p>
+
+     <p>Receive a message</p>
+
+     <pre>
+     QueueMessageItem queueMessageItem = client.receiveMessage&#40;&#41;;
+     System.out.println&#40;&quot;Complete receiving the message: &quot; + queueMessageItem.getMessageId&#40;&#41;&#41;;
+     </pre>
+
+     <p>For more information, see the
+     <a href="https://docs.microsoft.com/en-us/rest/api/storageservices/get-messages">Azure Docs</a>.</p>
+  syntax: public QueueMessageItem receiveMessage()
+  returns:
+    description: |-
+      The first <xref uid="com.azure.storage.queue.models.QueueMessageItem" data-throw-if-not-resolved="false">MessageItem</xref> in the queue, it contains
+       <xref uid="com.azure.storage.queue.models.QueueMessageItem.getMessageId()" data-throw-if-not-resolved="false">messageId</xref> and
+       <xref uid="com.azure.storage.queue.models.QueueMessageItem.getPopReceipt()" data-throw-if-not-resolved="false">popReceipt</xref> used to interact with the message,
+       additionally it contains other metadata about the message.
+    type: <xref href="com.azure.storage.queue.models.QueueMessageItem?alt=com.azure.storage.queue.models.QueueMessageItem&text=QueueMessageItem" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.storage.queue
+artifact: com.azure:azure-storage-queue:12.6.0-beta.1

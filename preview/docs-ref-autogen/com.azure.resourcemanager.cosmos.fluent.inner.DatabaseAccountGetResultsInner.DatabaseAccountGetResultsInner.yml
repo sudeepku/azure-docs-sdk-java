@@ -1,0 +1,15 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.cosmos.fluent.inner.DatabaseAccountGetResultsInner.DatabaseAccountGetResultsInner*
+fullName: com.azure.resourcemanager.cosmos.fluent.inner.DatabaseAccountGetResultsInner.DatabaseAccountGetResultsInner
+name: DatabaseAccountGetResultsInner
+nameWithType: DatabaseAccountGetResultsInner.DatabaseAccountGetResultsInner
+members:
+- uid: com.azure.resourcemanager.cosmos.fluent.inner.DatabaseAccountGetResultsInner.DatabaseAccountGetResultsInner()
+  fullName: com.azure.resourcemanager.cosmos.fluent.inner.DatabaseAccountGetResultsInner.DatabaseAccountGetResultsInner()
+  name: DatabaseAccountGetResultsInner()
+  nameWithType: DatabaseAccountGetResultsInner.DatabaseAccountGetResultsInner()
+  syntax: public DatabaseAccountGetResultsInner()
+type: constructor
+metadata: {}
+package: com.azure.resourcemanager.cosmos.fluent.inner
+artifact: com.azure.resourcemanager:azure-resourcemanager-cosmos:2.0.0-beta.2

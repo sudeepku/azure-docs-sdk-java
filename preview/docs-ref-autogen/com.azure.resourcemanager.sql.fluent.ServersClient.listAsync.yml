@@ -1,0 +1,32 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.sql.fluent.ServersClient.listAsync*
+fullName: com.azure.resourcemanager.sql.fluent.ServersClient.listAsync
+name: listAsync
+nameWithType: ServersClient.listAsync
+members:
+- uid: com.azure.resourcemanager.sql.fluent.ServersClient.listAsync()
+  fullName: com.azure.resourcemanager.sql.fluent.ServersClient.listAsync()
+  name: listAsync()
+  nameWithType: ServersClient.listAsync()
+  summary: Gets a list of all servers in the subscription.
+  syntax: public PagedFlux<ServerInner> listAsync()
+  returns:
+    description: a list of all servers in the subscription.
+    type: <xref href="com.azure.core.http.rest.PagedFlux?alt=com.azure.core.http.rest.PagedFlux&text=PagedFlux" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.resourcemanager.sql.fluent.inner.ServerInner?alt=com.azure.resourcemanager.sql.fluent.inner.ServerInner&text=ServerInner" data-throw-if-not-resolved="False" />&gt;
+- uid: com.azure.resourcemanager.sql.fluent.ServersClient.listAsync(com.azure.core.util.Context)
+  fullName: com.azure.resourcemanager.sql.fluent.ServersClient.listAsync(Context context)
+  name: listAsync(Context context)
+  nameWithType: ServersClient.listAsync(Context context)
+  summary: Gets a list of all servers in the subscription.
+  parameters:
+  - description: The context to associate with this operation.
+    name: context
+    type: <xref href="com.azure.core.util.Context?alt=com.azure.core.util.Context&text=Context" data-throw-if-not-resolved="False" />
+  syntax: public PagedFlux<ServerInner> listAsync(Context context)
+  returns:
+    description: a list of all servers in the subscription.
+    type: <xref href="com.azure.core.http.rest.PagedFlux?alt=com.azure.core.http.rest.PagedFlux&text=PagedFlux" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.resourcemanager.sql.fluent.inner.ServerInner?alt=com.azure.resourcemanager.sql.fluent.inner.ServerInner&text=ServerInner" data-throw-if-not-resolved="False" />&gt;
+type: method
+metadata: {}
+package: com.azure.resourcemanager.sql.fluent
+artifact: com.azure.resourcemanager:azure-resourcemanager-sql:2.0.0-beta.2

@@ -1,0 +1,15 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.network.models.P2SVpnServerConfigVpnClientRevokedCertificate.P2SVpnServerConfigVpnClientRevokedCertificate*
+fullName: com.azure.resourcemanager.network.models.P2SVpnServerConfigVpnClientRevokedCertificate.P2SVpnServerConfigVpnClientRevokedCertificate
+name: P2SVpnServerConfigVpnClientRevokedCertificate
+nameWithType: P2SVpnServerConfigVpnClientRevokedCertificate.P2SVpnServerConfigVpnClientRevokedCertificate
+members:
+- uid: com.azure.resourcemanager.network.models.P2SVpnServerConfigVpnClientRevokedCertificate.P2SVpnServerConfigVpnClientRevokedCertificate()
+  fullName: com.azure.resourcemanager.network.models.P2SVpnServerConfigVpnClientRevokedCertificate.P2SVpnServerConfigVpnClientRevokedCertificate()
+  name: P2SVpnServerConfigVpnClientRevokedCertificate()
+  nameWithType: P2SVpnServerConfigVpnClientRevokedCertificate.P2SVpnServerConfigVpnClientRevokedCertificate()
+  syntax: public P2SVpnServerConfigVpnClientRevokedCertificate()
+type: constructor
+metadata: {}
+package: com.azure.resourcemanager.network.models
+artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.0.0-beta.2

@@ -1,0 +1,31 @@
+### YamlMime:JavaMember
+uid: com.azure.cosmos.implementation.guava25.collect.Ordering.immutableSortedCopy*
+fullName: com.azure.cosmos.implementation.guava25.collect.Ordering<T>.<E>immutableSortedCopy
+name: <E>immutableSortedCopy
+nameWithType: Ordering<T>.<E>immutableSortedCopy
+members:
+- uid: com.azure.cosmos.implementation.guava25.collect.Ordering.<E>immutableSortedCopy(java.lang.Iterable<E>)
+  fullName: com.azure.cosmos.implementation.guava25.collect.Ordering<T>.<E>immutableSortedCopy(Iterable<E> elements)
+  name: <E>immutableSortedCopy(Iterable<E> elements)
+  nameWithType: Ordering<T>.<E>immutableSortedCopy(Iterable<E> elements)
+  summary: |-
+    Returns an <b>immutable</b> list containing <code>elements</code> sorted by this ordering. The input
+     is not modified.
+
+     <p>Unlike <xref uid="Sets#newTreeSet(Iterable)" data-throw-if-not-resolved="false">Sets#newTreeSet(Iterable)</xref>, this method does not discard elements that are
+     duplicates according to the comparator. The sort performed is <i>stable</i>, meaning that such
+     elements will appear in the returned list in the same order they appeared in <code>elements</code>.
+
+     <p><b>Performance note:</b> According to our
+     benchmarking
+     on Open JDK 7, this method is the most efficient way to make a sorted copy of a collection.
+  parameters:
+  - name: elements
+    type: <xref href="java.lang.Iterable?alt=java.lang.Iterable&text=Iterable" data-throw-if-not-resolved="False" />&lt;<xref href="E?alt=E&text=E" data-throw-if-not-resolved="False" />&gt;
+  syntax: public ImmutableList<E> <E>immutableSortedCopy(Iterable<E> elements)
+  returns:
+    type: <xref href="com.azure.cosmos.implementation.guava25.collect.ImmutableList?alt=com.azure.cosmos.implementation.guava25.collect.ImmutableList&text=ImmutableList" data-throw-if-not-resolved="False" />&lt;<xref href="E?alt=E&text=E" data-throw-if-not-resolved="False" />&gt;
+type: method
+metadata: {}
+package: com.azure.cosmos.implementation.guava25.collect
+artifact: com.azure:azure-cosmos:4.3.2-beta.2

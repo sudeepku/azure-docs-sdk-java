@@ -1,0 +1,16 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.resources.fluentcore.arm.Region.GOV_US_TEXAS
+fullName: com.azure.resourcemanager.resources.fluentcore.arm.Region.GOV_US_TEXAS
+name: GOV_US_TEXAS
+nameWithType: Region.GOV_US_TEXAS
+members:
+- uid: com.azure.resourcemanager.resources.fluentcore.arm.Region.GOV_US_TEXAS
+  fullName: com.azure.resourcemanager.resources.fluentcore.arm.Region.GOV_US_TEXAS
+  name: GOV_US_TEXAS
+  nameWithType: Region.GOV_US_TEXAS
+  summary: U.S. government cloud in Texas.
+  syntax: public static final Region GOV_US_TEXAS
+type: field
+metadata: {}
+package: com.azure.resourcemanager.resources.fluentcore.arm
+artifact: com.azure.resourcemanager:azure-resourcemanager-resources:2.0.0-beta.2

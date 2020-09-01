@@ -1,0 +1,16 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.storage.fluent.inner.BlobServiceItemsInner.validate*
+fullName: com.azure.resourcemanager.storage.fluent.inner.BlobServiceItemsInner.validate
+name: validate
+nameWithType: BlobServiceItemsInner.validate
+members:
+- uid: com.azure.resourcemanager.storage.fluent.inner.BlobServiceItemsInner.validate()
+  fullName: com.azure.resourcemanager.storage.fluent.inner.BlobServiceItemsInner.validate()
+  name: validate()
+  nameWithType: BlobServiceItemsInner.validate()
+  summary: Validates the instance.
+  syntax: public void validate()
+type: method
+metadata: {}
+package: com.azure.resourcemanager.storage.fluent.inner
+artifact: com.azure.resourcemanager:azure-resourcemanager-storage:2.0.0-beta.2

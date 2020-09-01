@@ -1,0 +1,16 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.appservice.models.RemoteVisualStudioVersion.VS2015
+fullName: com.azure.resourcemanager.appservice.models.RemoteVisualStudioVersion.VS2015
+name: VS2015
+nameWithType: RemoteVisualStudioVersion.VS2015
+members:
+- uid: com.azure.resourcemanager.appservice.models.RemoteVisualStudioVersion.VS2015
+  fullName: com.azure.resourcemanager.appservice.models.RemoteVisualStudioVersion.VS2015
+  name: VS2015
+  nameWithType: RemoteVisualStudioVersion.VS2015
+  summary: Static value VS2015 for RemoteVisualStudioVersion.
+  syntax: public static final RemoteVisualStudioVersion VS2015
+type: field
+metadata: {}
+package: com.azure.resourcemanager.appservice.models
+artifact: com.azure.resourcemanager:azure-resourcemanager-appservice:2.0.0-beta.2

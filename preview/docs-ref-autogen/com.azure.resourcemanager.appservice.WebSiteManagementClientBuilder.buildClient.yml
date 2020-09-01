@@ -1,0 +1,19 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.appservice.WebSiteManagementClientBuilder.buildClient*
+fullName: com.azure.resourcemanager.appservice.WebSiteManagementClientBuilder.buildClient
+name: buildClient
+nameWithType: WebSiteManagementClientBuilder.buildClient
+members:
+- uid: com.azure.resourcemanager.appservice.WebSiteManagementClientBuilder.buildClient()
+  fullName: com.azure.resourcemanager.appservice.WebSiteManagementClientBuilder.buildClient()
+  name: buildClient()
+  nameWithType: WebSiteManagementClientBuilder.buildClient()
+  summary: Builds an instance of WebSiteManagementClient with the provided parameters.
+  syntax: public WebSiteManagementClient buildClient()
+  returns:
+    description: an instance of WebSiteManagementClient.
+    type: <xref href="com.azure.resourcemanager.appservice.WebSiteManagementClient?alt=com.azure.resourcemanager.appservice.WebSiteManagementClient&text=WebSiteManagementClient" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.resourcemanager.appservice
+artifact: com.azure.resourcemanager:azure-resourcemanager-appservice:2.0.0-beta.2

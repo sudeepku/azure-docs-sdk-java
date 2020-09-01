@@ -1,0 +1,35 @@
+### YamlMime:JavaMember
+nameWithType: Catalogs.getExternalDataSource
+type: method
+members:
+- fullName: com.microsoft.azure.management.datalake.analytics.Catalogs.getExternalDataSource(String accountName, String databaseName, String externalDataSourceName)
+  name: getExternalDataSource(String accountName, String databaseName, String externalDataSourceName)
+  nameWithType: Catalogs.getExternalDataSource(String accountName, String databaseName, String externalDataSourceName)
+  parameters:
+  - description: <p>The Azure Data Lake Analytics account upon which to execute catalog operations. </p>
+    name: accountName
+    type: <xref href="String?alt=String&text=String" data-throw-if-not-resolved="False"/>
+  - description: <p>The name of the database containing the external data source. </p>
+    name: databaseName
+    type: <xref href="String?alt=String&text=String" data-throw-if-not-resolved="False"/>
+  - description: <p>The name of the external data source. </p>
+    name: externalDataSourceName
+    type: <xref href="String?alt=String&text=String" data-throw-if-not-resolved="False"/>
+  exceptions:
+  - name: 3c87bd19
+  - name: dc385fd4
+  - name: 9b2a4515
+  returns:
+    description: <p>the USqlExternalDataSource object if successful. </p>
+    type: <xref href="com.microsoft.azure.management.datalake.analytics.models.USqlExternalDataSource?alt=com.microsoft.azure.management.datalake.analytics.models.USqlExternalDataSource&text=USqlExternalDataSource" data-throw-if-not-resolved="False"/>
+  summary: >-
+    <p>Retrieves the specified external data source from the Data Lake Analytics catalog.</p>
+
+    <p></p>
+  syntax: public USqlExternalDataSource getExternalDataSource(String accountName, String databaseName, String externalDataSourceName)
+  uid: com.microsoft.azure.management.datalake.analytics.Catalogs.getExternalDataSource(String,String,String)
+uid: com.microsoft.azure.management.datalake.analytics.Catalogs.getExternalDataSource*
+fullName: com.microsoft.azure.management.datalake.analytics.Catalogs.getExternalDataSource(String accountName, String databaseName, String externalDataSourceName)
+name: getExternalDataSource(String accountName, String databaseName, String externalDataSourceName)
+package: com.microsoft.azure.management.datalake.analytics
+metadata: {}

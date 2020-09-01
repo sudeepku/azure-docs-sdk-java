@@ -1,0 +1,16 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.network.models.FirewallPolicyFilterRuleActionType.ALLOW
+fullName: com.azure.resourcemanager.network.models.FirewallPolicyFilterRuleActionType.ALLOW
+name: ALLOW
+nameWithType: FirewallPolicyFilterRuleActionType.ALLOW
+members:
+- uid: com.azure.resourcemanager.network.models.FirewallPolicyFilterRuleActionType.ALLOW
+  fullName: com.azure.resourcemanager.network.models.FirewallPolicyFilterRuleActionType.ALLOW
+  name: ALLOW
+  nameWithType: FirewallPolicyFilterRuleActionType.ALLOW
+  summary: Static value Allow for FirewallPolicyFilterRuleActionType.
+  syntax: public static final FirewallPolicyFilterRuleActionType ALLOW
+type: field
+metadata: {}
+package: com.azure.resourcemanager.network.models
+artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.0.0-beta.2

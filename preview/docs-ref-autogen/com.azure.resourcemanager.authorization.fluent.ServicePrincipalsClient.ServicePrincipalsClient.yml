@@ -1,0 +1,20 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.authorization.fluent.ServicePrincipalsClient.ServicePrincipalsClient*
+fullName: com.azure.resourcemanager.authorization.fluent.ServicePrincipalsClient.ServicePrincipalsClient
+name: ServicePrincipalsClient
+nameWithType: ServicePrincipalsClient.ServicePrincipalsClient
+members:
+- uid: com.azure.resourcemanager.authorization.fluent.ServicePrincipalsClient.ServicePrincipalsClient(com.azure.resourcemanager.authorization.GraphRbacManagementClient)
+  fullName: com.azure.resourcemanager.authorization.fluent.ServicePrincipalsClient.ServicePrincipalsClient(GraphRbacManagementClient client)
+  name: ServicePrincipalsClient(GraphRbacManagementClient client)
+  nameWithType: ServicePrincipalsClient.ServicePrincipalsClient(GraphRbacManagementClient client)
+  summary: Initializes an instance of ServicePrincipalsClient.
+  parameters:
+  - description: the instance of the service client containing this operation class.
+    name: client
+    type: <xref href="com.azure.resourcemanager.authorization.GraphRbacManagementClient?alt=com.azure.resourcemanager.authorization.GraphRbacManagementClient&text=GraphRbacManagementClient" data-throw-if-not-resolved="False" />
+  syntax: public ServicePrincipalsClient(GraphRbacManagementClient client)
+type: constructor
+metadata: {}
+package: com.azure.resourcemanager.authorization.fluent
+artifact: com.azure.resourcemanager:azure-resourcemanager-authorization:2.0.0-beta.2

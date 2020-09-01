@@ -1,0 +1,20 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.monitor.fluent.LogProfilesClient.LogProfilesClient*
+fullName: com.azure.resourcemanager.monitor.fluent.LogProfilesClient.LogProfilesClient
+name: LogProfilesClient
+nameWithType: LogProfilesClient.LogProfilesClient
+members:
+- uid: com.azure.resourcemanager.monitor.fluent.LogProfilesClient.LogProfilesClient(com.azure.resourcemanager.monitor.MonitorClient)
+  fullName: com.azure.resourcemanager.monitor.fluent.LogProfilesClient.LogProfilesClient(MonitorClient client)
+  name: LogProfilesClient(MonitorClient client)
+  nameWithType: LogProfilesClient.LogProfilesClient(MonitorClient client)
+  summary: Initializes an instance of LogProfilesClient.
+  parameters:
+  - description: the instance of the service client containing this operation class.
+    name: client
+    type: <xref href="com.azure.resourcemanager.monitor.MonitorClient?alt=com.azure.resourcemanager.monitor.MonitorClient&text=MonitorClient" data-throw-if-not-resolved="False" />
+  syntax: public LogProfilesClient(MonitorClient client)
+type: constructor
+metadata: {}
+package: com.azure.resourcemanager.monitor.fluent
+artifact: com.azure.resourcemanager:azure-resourcemanager-monitor:2.0.0-beta.2

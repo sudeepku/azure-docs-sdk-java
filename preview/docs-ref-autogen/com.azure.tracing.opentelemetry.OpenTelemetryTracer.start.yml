@@ -1,0 +1,36 @@
+### YamlMime:JavaMember
+uid: com.azure.tracing.opentelemetry.OpenTelemetryTracer.start*
+fullName: com.azure.tracing.opentelemetry.OpenTelemetryTracer.start
+name: start
+nameWithType: OpenTelemetryTracer.start
+members:
+- uid: com.azure.tracing.opentelemetry.OpenTelemetryTracer.start(java.lang.String,com.azure.core.util.Context)
+  fullName: com.azure.tracing.opentelemetry.OpenTelemetryTracer.start(String methodName, Context context)
+  name: start(String methodName, Context context)
+  nameWithType: OpenTelemetryTracer.start(String methodName, Context context)
+  parameters:
+  - name: methodName
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  - name: context
+    type: <xref href="com.azure.core.util.Context?alt=com.azure.core.util.Context&text=Context" data-throw-if-not-resolved="False" />
+  syntax: public Context start(String methodName, Context context)
+  returns:
+    type: <xref href="com.azure.core.util.Context?alt=com.azure.core.util.Context&text=Context" data-throw-if-not-resolved="False" />
+- uid: com.azure.tracing.opentelemetry.OpenTelemetryTracer.start(java.lang.String,com.azure.core.util.Context,com.azure.core.implementation.tracing.ProcessKind)
+  fullName: com.azure.tracing.opentelemetry.OpenTelemetryTracer.start(String spanName, Context context, ProcessKind processKind)
+  name: start(String spanName, Context context, ProcessKind processKind)
+  nameWithType: OpenTelemetryTracer.start(String spanName, Context context, ProcessKind processKind)
+  parameters:
+  - name: spanName
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  - name: context
+    type: <xref href="com.azure.core.util.Context?alt=com.azure.core.util.Context&text=Context" data-throw-if-not-resolved="False" />
+  - name: processKind
+    type: <xref href="com.azure.core.implementation.tracing.ProcessKind?alt=com.azure.core.implementation.tracing.ProcessKind&text=ProcessKind" data-throw-if-not-resolved="False" />
+  syntax: public Context start(String spanName, Context context, ProcessKind processKind)
+  returns:
+    type: <xref href="com.azure.core.util.Context?alt=com.azure.core.util.Context&text=Context" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.tracing.opentelemetry
+artifact: com.azure:tracing-opentelemetry:1.0.0-preview.2

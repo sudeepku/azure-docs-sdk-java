@@ -1,0 +1,16 @@
+### YamlMime:JavaMember
+uid: com.azure.search.documents.indexes.implementation.models.SearchFieldDataType.EDM_GEOGRAPHY_POINT
+fullName: com.azure.search.documents.indexes.implementation.models.SearchFieldDataType.EDM_GEOGRAPHY_POINT
+name: EDM_GEOGRAPHY_POINT
+nameWithType: SearchFieldDataType.EDM_GEOGRAPHY_POINT
+members:
+- uid: com.azure.search.documents.indexes.implementation.models.SearchFieldDataType.EDM_GEOGRAPHY_POINT
+  fullName: com.azure.search.documents.indexes.implementation.models.SearchFieldDataType.EDM_GEOGRAPHY_POINT
+  name: EDM_GEOGRAPHY_POINT
+  nameWithType: SearchFieldDataType.EDM_GEOGRAPHY_POINT
+  summary: Static value Edm.GeographyPoint for SearchFieldDataType.
+  syntax: public static final SearchFieldDataType EDM_GEOGRAPHY_POINT
+type: field
+metadata: {}
+package: com.azure.search.documents.indexes.implementation.models
+artifact: com.azure:azure-search-documents:11.1.0-beta.1

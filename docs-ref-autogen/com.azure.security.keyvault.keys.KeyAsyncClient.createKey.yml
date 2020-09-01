@@ -1,0 +1,82 @@
+### YamlMime:JavaMember
+uid: com.azure.security.keyvault.keys.KeyAsyncClient.createKey*
+fullName: com.azure.security.keyvault.keys.KeyAsyncClient.createKey
+name: createKey
+nameWithType: KeyAsyncClient.createKey
+members:
+- uid: com.azure.security.keyvault.keys.KeyAsyncClient.createKey(com.azure.security.keyvault.keys.models.CreateKeyOptions)
+  fullName: com.azure.security.keyvault.keys.KeyAsyncClient.createKey(CreateKeyOptions createKeyOptions)
+  name: createKey(CreateKeyOptions createKeyOptions)
+  nameWithType: KeyAsyncClient.createKey(CreateKeyOptions createKeyOptions)
+  summary: |-
+    Creates a new key and stores it in the key vault. The create key operation can be used to create any key type in
+     key vault. If the named key already exists, Azure Key Vault creates a new version of the key. It requires the
+     <code>keys/create</code> permission.
+
+     <p>The <xref uid="CreateKeyOptions" data-throw-if-not-resolved="false">CreateKeyOptions</xref> is required. The <xref uid="CreateKeyOptions#getExpiresOn()" data-throw-if-not-resolved="false">expires</xref> and <xref uid="CreateKeyOptions#getNotBefore()" data-throw-if-not-resolved="false">notBefore</xref> values are optional. The <xref uid="CreateKeyOptions#isEnabled()" data-throw-if-not-resolved="false">enabled</xref>
+     field is set to true by Azure Key Vault, if not specified.</p>
+
+     <p>The <xref uid="CreateKeyOptions#getKeyType()" data-throw-if-not-resolved="false">keyType</xref> indicates the type of key to create. Possible values include:
+     <xref uid="KeyType#EC" data-throw-if-not-resolved="false">EC</xref>, <xref uid="KeyType#EC_HSM" data-throw-if-not-resolved="false">EC-HSM</xref>, <xref uid="KeyType#RSA" data-throw-if-not-resolved="false">RSA</xref>, <xref uid="KeyType#RSA_HSM" data-throw-if-not-resolved="false">RSA-HSM</xref>
+     and <xref uid="KeyType#OCT" data-throw-if-not-resolved="false">OCT</xref>.</p>
+
+     <p><strong>Code Samples</strong></p>
+     <p>Creates a new Rsa key which activates in one day and expires in one year. Subscribes to the call
+     asynchronously and prints out the newly created key details when a response has been received.</p>
+
+     <pre>
+     CreateKeyOptions createKeyOptions = new CreateKeyOptions&#40;&quot;keyName&quot;, KeyType.RSA&#41;
+         .setNotBefore&#40;OffsetDateTime.now&#40;&#41;.plusDays&#40;1&#41;&#41;
+         .setExpiresOn&#40;OffsetDateTime.now&#40;&#41;.plusYears&#40;1&#41;&#41;;
+     keyAsyncClient.createKey&#40;createKeyOptions&#41;
+         .subscriberContext&#40;Context.of&#40;key1, value1, key2, value2&#41;&#41;
+         .subscribe&#40;keyResponse -&gt;
+             System.out.printf&#40;&quot;Key is created with name %s and id %s %n&quot;, keyResponse.getName&#40;&#41;,
+                 keyResponse.getId&#40;&#41;&#41;&#41;;
+     </pre>
+  parameters:
+  - description: The key configuration object containing information about the key being created.
+    name: createKeyOptions
+    type: <xref href="com.azure.security.keyvault.keys.models.CreateKeyOptions?alt=com.azure.security.keyvault.keys.models.CreateKeyOptions&text=CreateKeyOptions" data-throw-if-not-resolved="False" />
+  syntax: public Mono<KeyVaultKey> createKey(CreateKeyOptions createKeyOptions)
+  returns:
+    description: A <xref uid="reactor.core.publisher.Mono" data-throw-if-not-resolved="false">Mono</xref> containing the <xref uid="com.azure.security.keyvault.keys.models.KeyVaultKey" data-throw-if-not-resolved="false">created key</xref>.
+    type: <xref href="reactor.core.publisher.Mono?alt=reactor.core.publisher.Mono&text=Mono" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.security.keyvault.keys.models.KeyVaultKey?alt=com.azure.security.keyvault.keys.models.KeyVaultKey&text=KeyVaultKey" data-throw-if-not-resolved="False" />&gt;
+- uid: com.azure.security.keyvault.keys.KeyAsyncClient.createKey(java.lang.String,com.azure.security.keyvault.keys.models.KeyType)
+  fullName: com.azure.security.keyvault.keys.KeyAsyncClient.createKey(String name, KeyType keyType)
+  name: createKey(String name, KeyType keyType)
+  nameWithType: KeyAsyncClient.createKey(String name, KeyType keyType)
+  summary: |-
+    Creates a new key and stores it in the key vault. The create key operation can be used to create any key type in
+     key vault. If the named key already exists, Azure Key Vault creates a new version of the key. It requires the
+     <code>keys/create</code> permission.
+
+     <p>The <xref uid="KeyType" data-throw-if-not-resolved="false">keyType</xref> indicates the type of key to create. Possible values include: <xref uid="KeyType#EC" data-throw-if-not-resolved="false">EC</xref>, <xref uid="KeyType#EC_HSM" data-throw-if-not-resolved="false">EC-HSM</xref>, <xref uid="KeyType#RSA" data-throw-if-not-resolved="false">RSA</xref>, <xref uid="KeyType#RSA_HSM" data-throw-if-not-resolved="false">RSA-HSM</xref> and
+     <xref uid="KeyType#OCT" data-throw-if-not-resolved="false">OCT</xref>.</p>
+
+     <p><strong>Code Samples</strong></p>
+     <p>Creates a new EC key. Subscribes to the call asynchronously and prints out the newly created key details when
+     a response has been received.</p>
+
+     <pre>
+     keyAsyncClient.createKey&#40;&quot;keyName&quot;, KeyType.EC&#41;
+         .subscriberContext&#40;Context.of&#40;key1, value1, key2, value2&#41;&#41;
+         .subscribe&#40;keyResponse -&gt;
+             System.out.printf&#40;&quot;Key is created with name %s and id %s %n&quot;, keyResponse.getName&#40;&#41;,
+                 keyResponse.getId&#40;&#41;&#41;&#41;;
+     </pre>
+  parameters:
+  - description: The name of the key being created.
+    name: name
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  - description: The type of key to create. For valid values, see <xref uid="com.azure.security.keyvault.keys.models.KeyType" data-throw-if-not-resolved="false">KeyType</xref>.
+    name: keyType
+    type: <xref href="com.azure.security.keyvault.keys.models.KeyType?alt=com.azure.security.keyvault.keys.models.KeyType&text=KeyType" data-throw-if-not-resolved="False" />
+  syntax: public Mono<KeyVaultKey> createKey(String name, KeyType keyType)
+  returns:
+    description: A <xref uid="reactor.core.publisher.Mono" data-throw-if-not-resolved="false">Mono</xref> containing the <xref uid="com.azure.security.keyvault.keys.models.KeyVaultKey" data-throw-if-not-resolved="false">created key</xref>.
+    type: <xref href="reactor.core.publisher.Mono?alt=reactor.core.publisher.Mono&text=Mono" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.security.keyvault.keys.models.KeyVaultKey?alt=com.azure.security.keyvault.keys.models.KeyVaultKey&text=KeyVaultKey" data-throw-if-not-resolved="False" />&gt;
+type: method
+metadata: {}
+package: com.azure.security.keyvault.keys
+artifact: com.azure:azure-security-keyvault-keys:4.2.0

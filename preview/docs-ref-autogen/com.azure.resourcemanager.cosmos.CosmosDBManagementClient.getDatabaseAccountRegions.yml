@@ -1,0 +1,19 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.cosmos.CosmosDBManagementClient.getDatabaseAccountRegions*
+fullName: com.azure.resourcemanager.cosmos.CosmosDBManagementClient.getDatabaseAccountRegions
+name: getDatabaseAccountRegions
+nameWithType: CosmosDBManagementClient.getDatabaseAccountRegions
+members:
+- uid: com.azure.resourcemanager.cosmos.CosmosDBManagementClient.getDatabaseAccountRegions()
+  fullName: com.azure.resourcemanager.cosmos.CosmosDBManagementClient.getDatabaseAccountRegions()
+  name: getDatabaseAccountRegions()
+  nameWithType: CosmosDBManagementClient.getDatabaseAccountRegions()
+  summary: Gets the DatabaseAccountRegionsClient object to access its operations.
+  syntax: public DatabaseAccountRegionsClient getDatabaseAccountRegions()
+  returns:
+    description: the DatabaseAccountRegionsClient object.
+    type: <xref href="com.azure.resourcemanager.cosmos.fluent.DatabaseAccountRegionsClient?alt=com.azure.resourcemanager.cosmos.fluent.DatabaseAccountRegionsClient&text=DatabaseAccountRegionsClient" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.resourcemanager.cosmos
+artifact: com.azure.resourcemanager:azure-resourcemanager-cosmos:2.0.0-beta.2

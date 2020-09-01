@@ -1,0 +1,15 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.network.fluent.inner.WebApplicationFirewallPolicyListResultInner.WebApplicationFirewallPolicyListResultInner*
+fullName: com.azure.resourcemanager.network.fluent.inner.WebApplicationFirewallPolicyListResultInner.WebApplicationFirewallPolicyListResultInner
+name: WebApplicationFirewallPolicyListResultInner
+nameWithType: WebApplicationFirewallPolicyListResultInner.WebApplicationFirewallPolicyListResultInner
+members:
+- uid: com.azure.resourcemanager.network.fluent.inner.WebApplicationFirewallPolicyListResultInner.WebApplicationFirewallPolicyListResultInner()
+  fullName: com.azure.resourcemanager.network.fluent.inner.WebApplicationFirewallPolicyListResultInner.WebApplicationFirewallPolicyListResultInner()
+  name: WebApplicationFirewallPolicyListResultInner()
+  nameWithType: WebApplicationFirewallPolicyListResultInner.WebApplicationFirewallPolicyListResultInner()
+  syntax: public WebApplicationFirewallPolicyListResultInner()
+type: constructor
+metadata: {}
+package: com.azure.resourcemanager.network.fluent.inner
+artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.0.0-beta.2

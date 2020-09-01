@@ -1,0 +1,50 @@
+### YamlMime:JavaMember
+uid: com.azure.cosmos.implementation.guava25.collect.ContiguousSet.subSet*
+fullName: com.azure.cosmos.implementation.guava25.collect.ContiguousSet<C>.subSet
+name: subSet
+nameWithType: ContiguousSet<C>.subSet
+members:
+- uid: com.azure.cosmos.implementation.guava25.collect.ContiguousSet.subSet(C,C)
+  fullName: com.azure.cosmos.implementation.guava25.collect.ContiguousSet<C>.subSet(C fromElement, C toElement)
+  name: subSet(C fromElement, C toElement)
+  nameWithType: ContiguousSet<C>.subSet(C fromElement, C toElement)
+  summary: |2-
+
+
+     <p>This method returns a serializable <code>ImmutableSortedSet</code>.
+
+     <p>The <xref uid="SortedSet#subSet" data-throw-if-not-resolved="false">SortedSet#subSet</xref> documentation states that a subset of a subset throws an <xref uid="IllegalArgumentException" data-throw-if-not-resolved="false">IllegalArgumentException</xref> if passed a <code>fromElement</code> smaller than an earlier <code>
+     fromElement</code>. However, this method doesn't throw an exception in that situation, but instead
+     keeps the original <code>fromElement</code>. Similarly, this method keeps the original <code>
+     toElement</code>, instead of throwing an exception, if passed a <code>toElement</code> greater than an
+     earlier <code>toElement</code>.
+  overridden: com.azure.cosmos.implementation.guava25.collect.ImmutableSortedSet.subSet(E,E)
+  parameters:
+  - name: fromElement
+    type: <xref href="C?alt=C&text=C" data-throw-if-not-resolved="False" />
+  - name: toElement
+    type: <xref href="C?alt=C&text=C" data-throw-if-not-resolved="False" />
+  syntax: public ContiguousSet<C> subSet(C fromElement, C toElement)
+  returns:
+    type: <xref href="com.azure.cosmos.implementation.guava25.collect.ContiguousSet?alt=com.azure.cosmos.implementation.guava25.collect.ContiguousSet&text=ContiguousSet" data-throw-if-not-resolved="False" />&lt;<xref href="C?alt=C&text=C" data-throw-if-not-resolved="False" />&gt;
+- uid: com.azure.cosmos.implementation.guava25.collect.ContiguousSet.subSet(C,boolean,C,boolean)
+  fullName: com.azure.cosmos.implementation.guava25.collect.ContiguousSet<C>.subSet(C fromElement, boolean fromInclusive, C toElement, boolean toInclusive)
+  name: subSet(C fromElement, boolean fromInclusive, C toElement, boolean toInclusive)
+  nameWithType: ContiguousSet<C>.subSet(C fromElement, boolean fromInclusive, C toElement, boolean toInclusive)
+  overridden: com.azure.cosmos.implementation.guava25.collect.ImmutableSortedSet.subSet(E,boolean,E,boolean)
+  parameters:
+  - name: fromElement
+    type: <xref href="C?alt=C&text=C" data-throw-if-not-resolved="False" />
+  - name: fromInclusive
+    type: <xref href="boolean?alt=boolean&text=boolean" data-throw-if-not-resolved="False" />
+  - name: toElement
+    type: <xref href="C?alt=C&text=C" data-throw-if-not-resolved="False" />
+  - name: toInclusive
+    type: <xref href="boolean?alt=boolean&text=boolean" data-throw-if-not-resolved="False" />
+  syntax: public ContiguousSet<C> subSet(C fromElement, boolean fromInclusive, C toElement, boolean toInclusive)
+  returns:
+    type: <xref href="com.azure.cosmos.implementation.guava25.collect.ContiguousSet?alt=com.azure.cosmos.implementation.guava25.collect.ContiguousSet&text=ContiguousSet" data-throw-if-not-resolved="False" />&lt;<xref href="C?alt=C&text=C" data-throw-if-not-resolved="False" />&gt;
+type: method
+metadata: {}
+package: com.azure.cosmos.implementation.guava25.collect
+artifact: com.azure:azure-cosmos:4.3.2-beta.2

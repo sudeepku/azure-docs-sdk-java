@@ -1,0 +1,15 @@
+### YamlMime:JavaMember
+uid: com.azure.data.schemaregistry.client.CachedSchemaRegistryClient.SCHEMA_REGISTRY_SERVICE_ENCODING
+fullName: com.azure.data.schemaregistry.client.CachedSchemaRegistryClient.SCHEMA_REGISTRY_SERVICE_ENCODING
+name: SCHEMA_REGISTRY_SERVICE_ENCODING
+nameWithType: CachedSchemaRegistryClient.SCHEMA_REGISTRY_SERVICE_ENCODING
+members:
+- uid: com.azure.data.schemaregistry.client.CachedSchemaRegistryClient.SCHEMA_REGISTRY_SERVICE_ENCODING
+  fullName: com.azure.data.schemaregistry.client.CachedSchemaRegistryClient.SCHEMA_REGISTRY_SERVICE_ENCODING
+  name: SCHEMA_REGISTRY_SERVICE_ENCODING
+  nameWithType: CachedSchemaRegistryClient.SCHEMA_REGISTRY_SERVICE_ENCODING
+  syntax: public static final Charset SCHEMA_REGISTRY_SERVICE_ENCODING
+type: field
+metadata: {}
+package: com.azure.data.schemaregistry.client
+artifact: com.azure:azure-data-schemaregistry:1.0.0-beta.1

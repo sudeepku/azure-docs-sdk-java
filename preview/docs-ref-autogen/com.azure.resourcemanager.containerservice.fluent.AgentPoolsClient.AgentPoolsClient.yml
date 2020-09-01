@@ -1,0 +1,20 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.containerservice.fluent.AgentPoolsClient.AgentPoolsClient*
+fullName: com.azure.resourcemanager.containerservice.fluent.AgentPoolsClient.AgentPoolsClient
+name: AgentPoolsClient
+nameWithType: AgentPoolsClient.AgentPoolsClient
+members:
+- uid: com.azure.resourcemanager.containerservice.fluent.AgentPoolsClient.AgentPoolsClient(com.azure.resourcemanager.containerservice.ContainerServiceManagementClient)
+  fullName: com.azure.resourcemanager.containerservice.fluent.AgentPoolsClient.AgentPoolsClient(ContainerServiceManagementClient client)
+  name: AgentPoolsClient(ContainerServiceManagementClient client)
+  nameWithType: AgentPoolsClient.AgentPoolsClient(ContainerServiceManagementClient client)
+  summary: Initializes an instance of AgentPoolsClient.
+  parameters:
+  - description: the instance of the service client containing this operation class.
+    name: client
+    type: <xref href="com.azure.resourcemanager.containerservice.ContainerServiceManagementClient?alt=com.azure.resourcemanager.containerservice.ContainerServiceManagementClient&text=ContainerServiceManagementClient" data-throw-if-not-resolved="False" />
+  syntax: public AgentPoolsClient(ContainerServiceManagementClient client)
+type: constructor
+metadata: {}
+package: com.azure.resourcemanager.containerservice.fluent
+artifact: com.azure.resourcemanager:azure-resourcemanager-containerservice:2.0.0-beta.2

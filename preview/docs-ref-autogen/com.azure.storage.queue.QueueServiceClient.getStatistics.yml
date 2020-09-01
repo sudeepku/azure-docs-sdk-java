@@ -1,0 +1,33 @@
+### YamlMime:JavaMember
+uid: com.azure.storage.queue.QueueServiceClient.getStatistics*
+fullName: com.azure.storage.queue.QueueServiceClient.getStatistics
+name: getStatistics
+nameWithType: QueueServiceClient.getStatistics
+members:
+- uid: com.azure.storage.queue.QueueServiceClient.getStatistics()
+  fullName: com.azure.storage.queue.QueueServiceClient.getStatistics()
+  name: getStatistics()
+  nameWithType: QueueServiceClient.getStatistics()
+  summary: |-
+    Retrieves the geo replication information about the Queue service.
+
+     <p><strong>Code Samples</strong></p>
+
+     <p>Retrieve the geo replication information</p>
+
+     <pre>
+     QueueServiceStatistics stats = client.getStatistics&#40;&#41;;
+     System.out.printf&#40;&quot;Geo replication status: %s, Last synced: %s&quot;,
+         stats.getGeoReplication&#40;&#41;.getStatus&#40;&#41;, stats.getGeoReplication&#40;&#41;.getLastSyncTime&#40;&#41;&#41;;
+     </pre>
+
+     <p>For more information, see the
+     <a href="https://docs.microsoft.com/en-us/rest/api/storageservices/get-queue-service-stats">Azure Docs</a>.</p>
+  syntax: public QueueServiceStatistics getStatistics()
+  returns:
+    description: The geo replication information about the Queue service
+    type: <xref href="com.azure.storage.queue.models.QueueServiceStatistics?alt=com.azure.storage.queue.models.QueueServiceStatistics&text=QueueServiceStatistics" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.storage.queue
+artifact: com.azure:azure-storage-queue:12.6.0-beta.1

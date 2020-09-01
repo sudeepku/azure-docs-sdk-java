@@ -1,0 +1,39 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.sql.fluent.LongTermRetentionBackupsClient.listByLocationNextSinglePageAsync*
+fullName: com.azure.resourcemanager.sql.fluent.LongTermRetentionBackupsClient.listByLocationNextSinglePageAsync
+name: listByLocationNextSinglePageAsync
+nameWithType: LongTermRetentionBackupsClient.listByLocationNextSinglePageAsync
+members:
+- uid: com.azure.resourcemanager.sql.fluent.LongTermRetentionBackupsClient.listByLocationNextSinglePageAsync(java.lang.String)
+  fullName: com.azure.resourcemanager.sql.fluent.LongTermRetentionBackupsClient.listByLocationNextSinglePageAsync(String nextLink)
+  name: listByLocationNextSinglePageAsync(String nextLink)
+  nameWithType: LongTermRetentionBackupsClient.listByLocationNextSinglePageAsync(String nextLink)
+  summary: Get the next page of items.
+  parameters:
+  - description: The nextLink parameter.
+    name: nextLink
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  syntax: public Mono<PagedResponse<LongTermRetentionBackupInner>> listByLocationNextSinglePageAsync(String nextLink)
+  returns:
+    description: a list of long term retention backups.
+    type: <xref href="reactor.core.publisher.Mono?alt=reactor.core.publisher.Mono&text=Mono" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.core.http.rest.PagedResponse?alt=com.azure.core.http.rest.PagedResponse&text=PagedResponse" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.resourcemanager.sql.fluent.inner.LongTermRetentionBackupInner?alt=com.azure.resourcemanager.sql.fluent.inner.LongTermRetentionBackupInner&text=LongTermRetentionBackupInner" data-throw-if-not-resolved="False" />&gt;&gt;
+- uid: com.azure.resourcemanager.sql.fluent.LongTermRetentionBackupsClient.listByLocationNextSinglePageAsync(java.lang.String,com.azure.core.util.Context)
+  fullName: com.azure.resourcemanager.sql.fluent.LongTermRetentionBackupsClient.listByLocationNextSinglePageAsync(String nextLink, Context context)
+  name: listByLocationNextSinglePageAsync(String nextLink, Context context)
+  nameWithType: LongTermRetentionBackupsClient.listByLocationNextSinglePageAsync(String nextLink, Context context)
+  summary: Get the next page of items.
+  parameters:
+  - description: The nextLink parameter.
+    name: nextLink
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  - description: The context to associate with this operation.
+    name: context
+    type: <xref href="com.azure.core.util.Context?alt=com.azure.core.util.Context&text=Context" data-throw-if-not-resolved="False" />
+  syntax: public Mono<PagedResponse<LongTermRetentionBackupInner>> listByLocationNextSinglePageAsync(String nextLink, Context context)
+  returns:
+    description: a list of long term retention backups.
+    type: <xref href="reactor.core.publisher.Mono?alt=reactor.core.publisher.Mono&text=Mono" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.core.http.rest.PagedResponse?alt=com.azure.core.http.rest.PagedResponse&text=PagedResponse" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.resourcemanager.sql.fluent.inner.LongTermRetentionBackupInner?alt=com.azure.resourcemanager.sql.fluent.inner.LongTermRetentionBackupInner&text=LongTermRetentionBackupInner" data-throw-if-not-resolved="False" />&gt;&gt;
+type: method
+metadata: {}
+package: com.azure.resourcemanager.sql.fluent
+artifact: com.azure.resourcemanager:azure-resourcemanager-sql:2.0.0-beta.2

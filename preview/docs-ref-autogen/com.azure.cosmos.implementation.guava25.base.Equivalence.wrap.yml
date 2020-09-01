@@ -1,0 +1,23 @@
+### YamlMime:JavaMember
+uid: com.azure.cosmos.implementation.guava25.base.Equivalence.wrap*
+fullName: com.azure.cosmos.implementation.guava25.base.Equivalence<T>.<S>wrap
+name: <S>wrap
+nameWithType: Equivalence<T>.<S>wrap
+members:
+- uid: com.azure.cosmos.implementation.guava25.base.Equivalence.<S>wrap(S)
+  fullName: com.azure.cosmos.implementation.guava25.base.Equivalence<T>.<S>wrap(S reference)
+  name: <S>wrap(S reference)
+  nameWithType: Equivalence<T>.<S>wrap(S reference)
+  summary: |-
+    Returns a wrapper of <code>reference</code> that implements <xref uid="Wrapper#equals(Object)" data-throw-if-not-resolved="false">Object.equals()</xref> such that <code>wrap(a).equals(wrap(b))</code> if and only if <code>equivalent(a,
+     b)</code>.
+  parameters:
+  - name: reference
+    type: <xref href="S?alt=S&text=S" data-throw-if-not-resolved="False" />
+  syntax: public final Equivalence.Wrapper<S> <S>wrap(S reference)
+  returns:
+    type: <xref href="com.azure.cosmos.implementation.guava25.base.Equivalence.Wrapper?alt=com.azure.cosmos.implementation.guava25.base.Equivalence.Wrapper&text=Wrapper" data-throw-if-not-resolved="False" />&lt;<xref href="S?alt=S&text=S" data-throw-if-not-resolved="False" />&gt;
+type: method
+metadata: {}
+package: com.azure.cosmos.implementation.guava25.base
+artifact: com.azure:azure-cosmos:4.3.2-beta.2

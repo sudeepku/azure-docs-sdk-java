@@ -1,0 +1,23 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.compute.fluent.inner.GalleryListInner.withValue*
+fullName: com.azure.resourcemanager.compute.fluent.inner.GalleryListInner.withValue
+name: withValue
+nameWithType: GalleryListInner.withValue
+members:
+- uid: com.azure.resourcemanager.compute.fluent.inner.GalleryListInner.withValue(java.util.List<com.azure.resourcemanager.compute.fluent.inner.GalleryInner>)
+  fullName: com.azure.resourcemanager.compute.fluent.inner.GalleryListInner.withValue(List<GalleryInner> value)
+  name: withValue(List<GalleryInner> value)
+  nameWithType: GalleryListInner.withValue(List<GalleryInner> value)
+  summary: 'Set the value property: A list of galleries.'
+  parameters:
+  - description: the value value to set.
+    name: value
+    type: <xref href="java.util.List?alt=java.util.List&text=List" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.resourcemanager.compute.fluent.inner.GalleryInner?alt=com.azure.resourcemanager.compute.fluent.inner.GalleryInner&text=GalleryInner" data-throw-if-not-resolved="False" />&gt;
+  syntax: public GalleryListInner withValue(List<GalleryInner> value)
+  returns:
+    description: the GalleryListInner object itself.
+    type: <xref href="com.azure.resourcemanager.compute.fluent.inner.GalleryListInner?alt=com.azure.resourcemanager.compute.fluent.inner.GalleryListInner&text=GalleryListInner" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.resourcemanager.compute.fluent.inner
+artifact: com.azure.resourcemanager:azure-resourcemanager-compute:2.0.0-beta.2

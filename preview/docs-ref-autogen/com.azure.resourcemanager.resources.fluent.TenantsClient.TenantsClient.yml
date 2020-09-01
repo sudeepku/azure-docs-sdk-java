@@ -1,0 +1,20 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.resources.fluent.TenantsClient.TenantsClient*
+fullName: com.azure.resourcemanager.resources.fluent.TenantsClient.TenantsClient
+name: TenantsClient
+nameWithType: TenantsClient.TenantsClient
+members:
+- uid: com.azure.resourcemanager.resources.fluent.TenantsClient.TenantsClient(com.azure.resourcemanager.resources.SubscriptionClient)
+  fullName: com.azure.resourcemanager.resources.fluent.TenantsClient.TenantsClient(SubscriptionClient client)
+  name: TenantsClient(SubscriptionClient client)
+  nameWithType: TenantsClient.TenantsClient(SubscriptionClient client)
+  summary: Initializes an instance of TenantsClient.
+  parameters:
+  - description: the instance of the service client containing this operation class.
+    name: client
+    type: <xref href="com.azure.resourcemanager.resources.SubscriptionClient?alt=com.azure.resourcemanager.resources.SubscriptionClient&text=SubscriptionClient" data-throw-if-not-resolved="False" />
+  syntax: public TenantsClient(SubscriptionClient client)
+type: constructor
+metadata: {}
+package: com.azure.resourcemanager.resources.fluent
+artifact: com.azure.resourcemanager:azure-resourcemanager-resources:2.0.0-beta.2

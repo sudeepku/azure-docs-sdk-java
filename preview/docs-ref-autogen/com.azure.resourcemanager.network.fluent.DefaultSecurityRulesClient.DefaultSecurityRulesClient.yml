@@ -1,0 +1,20 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.network.fluent.DefaultSecurityRulesClient.DefaultSecurityRulesClient*
+fullName: com.azure.resourcemanager.network.fluent.DefaultSecurityRulesClient.DefaultSecurityRulesClient
+name: DefaultSecurityRulesClient
+nameWithType: DefaultSecurityRulesClient.DefaultSecurityRulesClient
+members:
+- uid: com.azure.resourcemanager.network.fluent.DefaultSecurityRulesClient.DefaultSecurityRulesClient(com.azure.resourcemanager.network.NetworkManagementClient)
+  fullName: com.azure.resourcemanager.network.fluent.DefaultSecurityRulesClient.DefaultSecurityRulesClient(NetworkManagementClient client)
+  name: DefaultSecurityRulesClient(NetworkManagementClient client)
+  nameWithType: DefaultSecurityRulesClient.DefaultSecurityRulesClient(NetworkManagementClient client)
+  summary: Initializes an instance of DefaultSecurityRulesClient.
+  parameters:
+  - description: the instance of the service client containing this operation class.
+    name: client
+    type: <xref href="com.azure.resourcemanager.network.NetworkManagementClient?alt=com.azure.resourcemanager.network.NetworkManagementClient&text=NetworkManagementClient" data-throw-if-not-resolved="False" />
+  syntax: public DefaultSecurityRulesClient(NetworkManagementClient client)
+type: constructor
+metadata: {}
+package: com.azure.resourcemanager.network.fluent
+artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.0.0-beta.2

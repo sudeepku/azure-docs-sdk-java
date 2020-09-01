@@ -1,0 +1,19 @@
+### YamlMime:JavaMember
+uid: com.azure.storage.blob.BlobServiceClient.getProperties*
+fullName: com.azure.storage.blob.BlobServiceClient.getProperties
+name: getProperties
+nameWithType: BlobServiceClient.getProperties
+members:
+- uid: com.azure.storage.blob.BlobServiceClient.getProperties()
+  fullName: com.azure.storage.blob.BlobServiceClient.getProperties()
+  name: getProperties()
+  nameWithType: BlobServiceClient.getProperties()
+  summary: "Gets the properties of a storage account\\u2019s Blob service. For more information, see the\n <a href=\"https://docs.microsoft.com/en-us/rest/api/storageservices/get-blob-service-properties\">Azure Docs</a>.\n\n <p><strong>Code Samples</strong></p>\n\n <pre>\n BlobServiceProperties properties = client.getProperties&#40;&#41;;\n \n System.out.printf&#40;&quot;Hour metrics enabled: %b, Minute metrics enabled: %b%n&quot;,\n     properties.getHourMetrics&#40;&#41;.isEnabled&#40;&#41;,\n     properties.getMinuteMetrics&#40;&#41;.isEnabled&#40;&#41;&#41;;\n </pre>"
+  syntax: public BlobServiceProperties getProperties()
+  returns:
+    description: The storage account properties.
+    type: <xref href="com.azure.storage.blob.models.BlobServiceProperties?alt=com.azure.storage.blob.models.BlobServiceProperties&text=BlobServiceProperties" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.storage.blob
+artifact: com.azure:azure-storage-blob:12.8.0-beta.1

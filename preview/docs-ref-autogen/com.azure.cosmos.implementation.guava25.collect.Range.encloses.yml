@@ -1,0 +1,42 @@
+### YamlMime:JavaMember
+uid: com.azure.cosmos.implementation.guava25.collect.Range.encloses*
+fullName: com.azure.cosmos.implementation.guava25.collect.Range<C>.encloses
+name: encloses
+nameWithType: Range<C>.encloses
+members:
+- uid: com.azure.cosmos.implementation.guava25.collect.Range.encloses(com.azure.cosmos.implementation.guava25.collect.Range<C>)
+  fullName: com.azure.cosmos.implementation.guava25.collect.Range<C>.encloses(Range<C> other)
+  name: encloses(Range<C> other)
+  nameWithType: Range<C>.encloses(Range<C> other)
+  summary: |-
+    Returns <code>true</code> if the bounds of <code>other</code> do not extend outside the bounds of this
+     range. Examples:
+
+     <ul>
+       <li><code>[3..6]</code> encloses <code>[4..5]</code>
+       <li><code>(3..6)</code> encloses <code>(3..6)</code>
+       <li><code>[3..6]</code> encloses <code>[4..4)</code> (even though the latter is empty)
+       <li><code>(3..6]</code> does not enclose <code>[3..6]</code>
+       <li><code>[4..5]</code> does not enclose <code>(3..6)</code> (even though it contains every value
+           contained by the latter range)
+       <li><code>[3..6]</code> does not enclose <code>(1..1]</code> (even though it contains every value
+           contained by the latter range)
+     </ul>
+
+     <p>Note that if <code>a.encloses(b)</code>, then <code>b.contains(v)</code> implies <code>
+     a.contains(v)</code>, but as the last two examples illustrate, the converse is not always true.
+
+     <p>Being reflexive, antisymmetric and transitive, the <code>encloses</code> relation defines a
+     <i>partial order</i> over ranges. There exists a unique <xref uid="Range#all" data-throw-if-not-resolved="false">maximal</xref> range
+     according to this relation, and also numerous <xref uid="#isEmpty" data-throw-if-not-resolved="false">minimal</xref> ranges. Enclosure
+     also implies <xref uid="#isConnected" data-throw-if-not-resolved="false">connectedness</xref>.
+  parameters:
+  - name: other
+    type: <xref href="com.azure.cosmos.implementation.guava25.collect.Range?alt=com.azure.cosmos.implementation.guava25.collect.Range&text=Range" data-throw-if-not-resolved="False" />&lt;<xref href="C?alt=C&text=C" data-throw-if-not-resolved="False" />&gt;
+  syntax: public boolean encloses(Range<C> other)
+  returns:
+    type: <xref href="boolean?alt=boolean&text=boolean" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.cosmos.implementation.guava25.collect
+artifact: com.azure:azure-cosmos:4.3.2-beta.2

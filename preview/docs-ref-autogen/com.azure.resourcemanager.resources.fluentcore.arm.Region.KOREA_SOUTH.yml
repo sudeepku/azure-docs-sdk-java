@@ -1,0 +1,15 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.resources.fluentcore.arm.Region.KOREA_SOUTH
+fullName: com.azure.resourcemanager.resources.fluentcore.arm.Region.KOREA_SOUTH
+name: KOREA_SOUTH
+nameWithType: Region.KOREA_SOUTH
+members:
+- uid: com.azure.resourcemanager.resources.fluentcore.arm.Region.KOREA_SOUTH
+  fullName: com.azure.resourcemanager.resources.fluentcore.arm.Region.KOREA_SOUTH
+  name: KOREA_SOUTH
+  nameWithType: Region.KOREA_SOUTH
+  syntax: public static final Region KOREA_SOUTH
+type: field
+metadata: {}
+package: com.azure.resourcemanager.resources.fluentcore.arm
+artifact: com.azure.resourcemanager:azure-resourcemanager-resources:2.0.0-beta.2

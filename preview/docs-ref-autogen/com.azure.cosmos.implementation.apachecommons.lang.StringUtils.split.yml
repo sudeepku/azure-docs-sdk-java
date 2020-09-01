@@ -1,0 +1,153 @@
+### YamlMime:JavaMember
+uid: com.azure.cosmos.implementation.apachecommons.lang.StringUtils.split*
+fullName: com.azure.cosmos.implementation.apachecommons.lang.StringUtils.split
+name: split
+nameWithType: StringUtils.split
+members:
+- uid: com.azure.cosmos.implementation.apachecommons.lang.StringUtils.split(java.lang.String)
+  fullName: com.azure.cosmos.implementation.apachecommons.lang.StringUtils.split(String str)
+  name: split(String str)
+  nameWithType: StringUtils.split(String str)
+  summary: |-
+    <p>Splits the provided text into an array, using whitespace as the
+     separator.
+     Whitespace is defined by <xref uid="Character#isWhitespace(char)" data-throw-if-not-resolved="false">Character#isWhitespace(char)</xref>.</p>
+
+     <p>The separator is not included in the returned String array.
+     Adjacent separators are treated as one separator.
+     For more control over the split use the StrTokenizer class.</p>
+
+     <p>A <code>null</code> input String returns <code>null</code>.</p>
+
+     <pre>
+     StringUtils.split(null)       = null
+     StringUtils.split("")         = []
+     StringUtils.split("abc def")  = ["abc", "def"]
+     StringUtils.split("abc  def") = ["abc", "def"]
+     StringUtils.split(" abc ")    = ["abc"]
+     </pre>
+  parameters:
+  - description: the String to parse, may be null
+    name: str
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  syntax: public static String[] split(String str)
+  returns:
+    description: an array of parsed Strings, <code>null</code> if null String input
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />[]
+- uid: com.azure.cosmos.implementation.apachecommons.lang.StringUtils.split(java.lang.String,char)
+  fullName: com.azure.cosmos.implementation.apachecommons.lang.StringUtils.split(String str, char separatorChar)
+  name: split(String str, char separatorChar)
+  nameWithType: StringUtils.split(String str, char separatorChar)
+  summary: |-
+    <p>Splits the provided text into an array, separator specified.
+     This is an alternative to using StringTokenizer.</p>
+
+     <p>The separator is not included in the returned String array.
+     Adjacent separators are treated as one separator.
+     For more control over the split use the StrTokenizer class.</p>
+
+     <p>A <code>null</code> input String returns <code>null</code>.</p>
+
+     <pre>
+     StringUtils.split(null, *)         = null
+     StringUtils.split("", *)           = []
+     StringUtils.split("a.b.c", '.')    = ["a", "b", "c"]
+     StringUtils.split("a..b.c", '.')   = ["a", "b", "c"]
+     StringUtils.split("a:b:c", '.')    = ["a:b:c"]
+     StringUtils.split("a b c", ' ')    = ["a", "b", "c"]
+     </pre>
+  parameters:
+  - description: the String to parse, may be null
+    name: str
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  - description: the character used as the delimiter
+    name: separatorChar
+    type: <xref href="char?alt=char&text=char" data-throw-if-not-resolved="False" />
+  syntax: public static String[] split(String str, char separatorChar)
+  returns:
+    description: an array of parsed Strings, <code>null</code> if null String input
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />[]
+- uid: com.azure.cosmos.implementation.apachecommons.lang.StringUtils.split(java.lang.String,java.lang.String)
+  fullName: com.azure.cosmos.implementation.apachecommons.lang.StringUtils.split(String str, String separatorChars)
+  name: split(String str, String separatorChars)
+  nameWithType: StringUtils.split(String str, String separatorChars)
+  summary: |-
+    <p>Splits the provided text into an array, separators specified.
+     This is an alternative to using StringTokenizer.</p>
+
+     <p>The separator is not included in the returned String array.
+     Adjacent separators are treated as one separator.
+     For more control over the split use the StrTokenizer class.</p>
+
+     <p>A <code>null</code> input String returns <code>null</code>.
+     A <code>null</code> separatorChars splits on whitespace.</p>
+
+     <pre>
+     StringUtils.split(null, *)         = null
+     StringUtils.split("", *)           = []
+     StringUtils.split("abc def", null) = ["abc", "def"]
+     StringUtils.split("abc def", " ")  = ["abc", "def"]
+     StringUtils.split("abc  def", " ") = ["abc", "def"]
+     StringUtils.split("ab:cd:ef", ":") = ["ab", "cd", "ef"]
+     </pre>
+  parameters:
+  - description: the String to parse, may be null
+    name: str
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  - description: |-
+      the characters used as the delimiters,
+        <code>null</code> splits on whitespace
+    name: separatorChars
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  syntax: public static String[] split(String str, String separatorChars)
+  returns:
+    description: an array of parsed Strings, <code>null</code> if null String input
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />[]
+- uid: com.azure.cosmos.implementation.apachecommons.lang.StringUtils.split(java.lang.String,java.lang.String,int)
+  fullName: com.azure.cosmos.implementation.apachecommons.lang.StringUtils.split(String str, String separatorChars, int max)
+  name: split(String str, String separatorChars, int max)
+  nameWithType: StringUtils.split(String str, String separatorChars, int max)
+  summary: |-
+    <p>Splits the provided text into an array with a maximum length,
+     separators specified.</p>
+
+     <p>The separator is not included in the returned String array.
+     Adjacent separators are treated as one separator.</p>
+
+     <p>A <code>null</code> input String returns <code>null</code>.
+     A <code>null</code> separatorChars splits on whitespace.</p>
+
+     <p>If more than <code>max</code> delimited substrings are found, the last
+     returned string includes all characters after the first <code>max - 1</code>
+     returned strings (including separator characters).</p>
+
+     <pre>
+     StringUtils.split(null, *, *)            = null
+     StringUtils.split("", *, *)              = []
+     StringUtils.split("ab cd ef", null, 0)   = ["ab", "cd", "ef"]
+     StringUtils.split("ab   cd ef", null, 0) = ["ab", "cd", "ef"]
+     StringUtils.split("ab:cd:ef", ":", 0)    = ["ab", "cd", "ef"]
+     StringUtils.split("ab:cd:ef", ":", 2)    = ["ab", "cd:ef"]
+     </pre>
+  parameters:
+  - description: the String to parse, may be null
+    name: str
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  - description: |-
+      the characters used as the delimiters,
+        <code>null</code> splits on whitespace
+    name: separatorChars
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  - description: |-
+      the maximum number of elements to include in the
+        array. A zero or negative value implies no limit
+    name: max
+    type: <xref href="int?alt=int&text=int" data-throw-if-not-resolved="False" />
+  syntax: public static String[] split(String str, String separatorChars, int max)
+  returns:
+    description: an array of parsed Strings, <code>null</code> if null String input
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />[]
+type: method
+metadata: {}
+package: com.azure.cosmos.implementation.apachecommons.lang
+artifact: com.azure:azure-cosmos:4.3.2-beta.2

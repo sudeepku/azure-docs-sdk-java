@@ -1,0 +1,19 @@
+### YamlMime:JavaMember
+uid: com.azure.data.schemaregistry.client.implementation.models.GetSchemasByGroupResponse.getValue*
+fullName: com.azure.data.schemaregistry.client.implementation.models.GetSchemasByGroupResponse.getValue
+name: getValue
+nameWithType: GetSchemasByGroupResponse.getValue
+members:
+- uid: com.azure.data.schemaregistry.client.implementation.models.GetSchemasByGroupResponse.getValue()
+  fullName: com.azure.data.schemaregistry.client.implementation.models.GetSchemasByGroupResponse.getValue()
+  name: getValue()
+  nameWithType: GetSchemasByGroupResponse.getValue()
+  overridden: com.azure.core.http.rest.ResponseBase.getValue()
+  syntax: public List<String> getValue()
+  returns:
+    description: the deserialized response body.
+    type: <xref href="java.util.List?alt=java.util.List&text=List" data-throw-if-not-resolved="False" />&lt;<xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />&gt;
+type: method
+metadata: {}
+package: com.azure.data.schemaregistry.client.implementation.models
+artifact: com.azure:azure-data-schemaregistry:1.0.0-beta.1

@@ -1,0 +1,20 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.resources.fluentcore.utils.PagedList.retainAll*
+fullName: com.azure.resourcemanager.resources.fluentcore.utils.PagedList<E>.retainAll
+name: retainAll
+nameWithType: PagedList<E>.retainAll
+members:
+- uid: com.azure.resourcemanager.resources.fluentcore.utils.PagedList.retainAll(java.util.Collection<?>)
+  fullName: com.azure.resourcemanager.resources.fluentcore.utils.PagedList<E>.retainAll(Collection<?> c)
+  name: retainAll(Collection<?> c)
+  nameWithType: PagedList<E>.retainAll(Collection<?> c)
+  parameters:
+  - name: c
+    type: <xref href="java.util.Collection?alt=java.util.Collection&text=Collection" data-throw-if-not-resolved="False" />&lt;?&gt;
+  syntax: public boolean retainAll(Collection<?> c)
+  returns:
+    type: <xref href="boolean?alt=boolean&text=boolean" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.resourcemanager.resources.fluentcore.utils
+artifact: com.azure.resourcemanager:azure-resourcemanager-resources:2.0.0-beta.2

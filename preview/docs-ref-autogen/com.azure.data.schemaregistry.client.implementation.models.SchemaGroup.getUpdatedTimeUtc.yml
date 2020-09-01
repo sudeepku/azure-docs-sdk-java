@@ -1,0 +1,19 @@
+### YamlMime:JavaMember
+uid: com.azure.data.schemaregistry.client.implementation.models.SchemaGroup.getUpdatedTimeUtc*
+fullName: com.azure.data.schemaregistry.client.implementation.models.SchemaGroup.getUpdatedTimeUtc
+name: getUpdatedTimeUtc
+nameWithType: SchemaGroup.getUpdatedTimeUtc
+members:
+- uid: com.azure.data.schemaregistry.client.implementation.models.SchemaGroup.getUpdatedTimeUtc()
+  fullName: com.azure.data.schemaregistry.client.implementation.models.SchemaGroup.getUpdatedTimeUtc()
+  name: getUpdatedTimeUtc()
+  nameWithType: SchemaGroup.getUpdatedTimeUtc()
+  summary: 'Get the updatedTimeUtc property: The updatedTimeUtc property.'
+  syntax: public OffsetDateTime getUpdatedTimeUtc()
+  returns:
+    description: the updatedTimeUtc value.
+    type: <xref href="java.time.OffsetDateTime?alt=java.time.OffsetDateTime&text=OffsetDateTime" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.data.schemaregistry.client.implementation.models
+artifact: com.azure:azure-data-schemaregistry:1.0.0-beta.1

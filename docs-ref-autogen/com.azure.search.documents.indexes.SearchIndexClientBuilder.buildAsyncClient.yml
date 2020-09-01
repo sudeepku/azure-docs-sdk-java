@@ -1,0 +1,23 @@
+### YamlMime:JavaMember
+uid: com.azure.search.documents.indexes.SearchIndexClientBuilder.buildAsyncClient*
+fullName: com.azure.search.documents.indexes.SearchIndexClientBuilder.buildAsyncClient
+name: buildAsyncClient
+nameWithType: SearchIndexClientBuilder.buildAsyncClient
+members:
+- uid: com.azure.search.documents.indexes.SearchIndexClientBuilder.buildAsyncClient()
+  fullName: com.azure.search.documents.indexes.SearchIndexClientBuilder.buildAsyncClient()
+  name: buildAsyncClient()
+  nameWithType: SearchIndexClientBuilder.buildAsyncClient()
+  summary: |-
+    Creates a <xref uid="SearchIndexAsyncClient" data-throw-if-not-resolved="false">SearchIndexAsyncClient</xref> based on options set in the Builder. Every time <code>
+     buildAsyncClient()</code> is called a new instance of <xref uid="SearchIndexAsyncClient" data-throw-if-not-resolved="false">SearchIndexAsyncClient</xref> is created.
+     <p>
+     If <xref uid="#pipeline(HttpPipeline)" data-throw-if-not-resolved="false">pipeline</xref> is set, then only the <code>pipeline</code> and <xref uid="#endpoint(String)" data-throw-if-not-resolved="false">endpoint</xref> are used to create the <xref uid="SearchIndexAsyncClient" data-throw-if-not-resolved="false">client</xref>. All other builder settings are ignored.
+  syntax: public SearchIndexAsyncClient buildAsyncClient()
+  returns:
+    description: A SearchIndexAsyncClient with the options set from the builder.
+    type: <xref href="com.azure.search.documents.indexes.SearchIndexAsyncClient?alt=com.azure.search.documents.indexes.SearchIndexAsyncClient&text=SearchIndexAsyncClient" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.search.documents.indexes
+artifact: com.azure:azure-search-documents:11.0.0

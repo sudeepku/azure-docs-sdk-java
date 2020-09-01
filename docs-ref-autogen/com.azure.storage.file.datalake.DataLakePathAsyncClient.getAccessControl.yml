@@ -1,0 +1,32 @@
+### YamlMime:JavaMember
+uid: com.azure.storage.file.datalake.DataLakePathAsyncClient.getAccessControl*
+fullName: com.azure.storage.file.datalake.DataLakePathAsyncClient.getAccessControl
+name: getAccessControl
+nameWithType: DataLakePathAsyncClient.getAccessControl
+members:
+- uid: com.azure.storage.file.datalake.DataLakePathAsyncClient.getAccessControl()
+  fullName: com.azure.storage.file.datalake.DataLakePathAsyncClient.getAccessControl()
+  name: getAccessControl()
+  nameWithType: DataLakePathAsyncClient.getAccessControl()
+  summary: |-
+    Returns the access control for a resource.
+
+     <p><strong>Code Samples</strong></p>
+
+     <pre>
+     client.getAccessControl&#40;&#41;.subscribe&#40;
+         response -&gt; System.out.printf&#40;&quot;Access Control List: %s, Group: %s, Owner: %s, Permissions: %s&quot;,
+             PathAccessControlEntry.serializeList&#40;response.getAccessControlList&#40;&#41;&#41;, response.getGroup&#40;&#41;,
+             response.getOwner&#40;&#41;, response.getPermissions&#40;&#41;&#41;&#41;;
+     </pre>
+
+     <p>For more information, see the
+     <a href="https://docs.microsoft.com/en-us/rest/api/storageservices/datalakestoragegen2/path/getproperties">Azure Docs</a></p>
+  syntax: public Mono<PathAccessControl> getAccessControl()
+  returns:
+    description: A reactive response containing the resource access control.
+    type: <xref href="reactor.core.publisher.Mono?alt=reactor.core.publisher.Mono&text=Mono" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.storage.file.datalake.models.PathAccessControl?alt=com.azure.storage.file.datalake.models.PathAccessControl&text=PathAccessControl" data-throw-if-not-resolved="False" />&gt;
+type: method
+metadata: {}
+package: com.azure.storage.file.datalake
+artifact: com.azure:azure-storage-file-datalake:12.2.0

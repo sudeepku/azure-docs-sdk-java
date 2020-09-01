@@ -1,0 +1,15 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.resources.fluentcore.utils.DelayProvider.DelayProvider*
+fullName: com.azure.resourcemanager.resources.fluentcore.utils.DelayProvider.DelayProvider
+name: DelayProvider
+nameWithType: DelayProvider.DelayProvider
+members:
+- uid: com.azure.resourcemanager.resources.fluentcore.utils.DelayProvider.DelayProvider()
+  fullName: com.azure.resourcemanager.resources.fluentcore.utils.DelayProvider.DelayProvider()
+  name: DelayProvider()
+  nameWithType: DelayProvider.DelayProvider()
+  syntax: public DelayProvider()
+type: constructor
+metadata: {}
+package: com.azure.resourcemanager.resources.fluentcore.utils
+artifact: com.azure.resourcemanager:azure-resourcemanager-resources:2.0.0-beta.2

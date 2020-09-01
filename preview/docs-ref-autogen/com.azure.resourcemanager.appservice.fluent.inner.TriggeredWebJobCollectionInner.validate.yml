@@ -1,0 +1,16 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.appservice.fluent.inner.TriggeredWebJobCollectionInner.validate*
+fullName: com.azure.resourcemanager.appservice.fluent.inner.TriggeredWebJobCollectionInner.validate
+name: validate
+nameWithType: TriggeredWebJobCollectionInner.validate
+members:
+- uid: com.azure.resourcemanager.appservice.fluent.inner.TriggeredWebJobCollectionInner.validate()
+  fullName: com.azure.resourcemanager.appservice.fluent.inner.TriggeredWebJobCollectionInner.validate()
+  name: validate()
+  nameWithType: TriggeredWebJobCollectionInner.validate()
+  summary: Validates the instance.
+  syntax: public void validate()
+type: method
+metadata: {}
+package: com.azure.resourcemanager.appservice.fluent.inner
+artifact: com.azure.resourcemanager:azure-resourcemanager-appservice:2.0.0-beta.2

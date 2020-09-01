@@ -1,0 +1,65 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.resources.fluent.PolicyAssignmentsClient.createById*
+fullName: com.azure.resourcemanager.resources.fluent.PolicyAssignmentsClient.createById
+name: createById
+nameWithType: PolicyAssignmentsClient.createById
+members:
+- uid: com.azure.resourcemanager.resources.fluent.PolicyAssignmentsClient.createById(java.lang.String,com.azure.resourcemanager.resources.fluent.inner.PolicyAssignmentInner)
+  fullName: com.azure.resourcemanager.resources.fluent.PolicyAssignmentsClient.createById(String policyAssignmentId, PolicyAssignmentInner parameters)
+  name: createById(String policyAssignmentId, PolicyAssignmentInner parameters)
+  nameWithType: PolicyAssignmentsClient.createById(String policyAssignmentId, PolicyAssignmentInner parameters)
+  summary: |-
+    This operation creates or updates the policy assignment with the given ID. Policy assignments made on a scope
+     apply to all resources contained in that scope. For example, when you assign a policy to a resource group that
+     policy applies to all resources in the group. Policy assignment IDs have this format:
+     '{scope}/providers/Microsoft.Authorization/policyAssignments/{policyAssignmentName}'. Valid scopes are:
+     management group (format: '/providers/Microsoft.Management/managementGroups/{managementGroup}'), subscription
+     (format: '/subscriptions/{subscriptionId}'), resource group (format:
+     '/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}', or resource (format:
+     '/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/{resourceProviderNamespace}/[{parentResourcePath}/]{resourceType}/{resourceName}'.
+  parameters:
+  - description: |-
+      The ID of the policy assignment to create. Use the format
+           '{scope}/providers/Microsoft.Authorization/policyAssignments/{policyAssignmentName}'.
+    name: policyAssignmentId
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  - description: The policy assignment.
+    name: parameters
+    type: <xref href="com.azure.resourcemanager.resources.fluent.inner.PolicyAssignmentInner?alt=com.azure.resourcemanager.resources.fluent.inner.PolicyAssignmentInner&text=PolicyAssignmentInner" data-throw-if-not-resolved="False" />
+  syntax: public PolicyAssignmentInner createById(String policyAssignmentId, PolicyAssignmentInner parameters)
+  returns:
+    description: the policy assignment.
+    type: <xref href="com.azure.resourcemanager.resources.fluent.inner.PolicyAssignmentInner?alt=com.azure.resourcemanager.resources.fluent.inner.PolicyAssignmentInner&text=PolicyAssignmentInner" data-throw-if-not-resolved="False" />
+- uid: com.azure.resourcemanager.resources.fluent.PolicyAssignmentsClient.createById(java.lang.String,com.azure.resourcemanager.resources.fluent.inner.PolicyAssignmentInner,com.azure.core.util.Context)
+  fullName: com.azure.resourcemanager.resources.fluent.PolicyAssignmentsClient.createById(String policyAssignmentId, PolicyAssignmentInner parameters, Context context)
+  name: createById(String policyAssignmentId, PolicyAssignmentInner parameters, Context context)
+  nameWithType: PolicyAssignmentsClient.createById(String policyAssignmentId, PolicyAssignmentInner parameters, Context context)
+  summary: |-
+    This operation creates or updates the policy assignment with the given ID. Policy assignments made on a scope
+     apply to all resources contained in that scope. For example, when you assign a policy to a resource group that
+     policy applies to all resources in the group. Policy assignment IDs have this format:
+     '{scope}/providers/Microsoft.Authorization/policyAssignments/{policyAssignmentName}'. Valid scopes are:
+     management group (format: '/providers/Microsoft.Management/managementGroups/{managementGroup}'), subscription
+     (format: '/subscriptions/{subscriptionId}'), resource group (format:
+     '/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}', or resource (format:
+     '/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/{resourceProviderNamespace}/[{parentResourcePath}/]{resourceType}/{resourceName}'.
+  parameters:
+  - description: |-
+      The ID of the policy assignment to create. Use the format
+           '{scope}/providers/Microsoft.Authorization/policyAssignments/{policyAssignmentName}'.
+    name: policyAssignmentId
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  - description: The policy assignment.
+    name: parameters
+    type: <xref href="com.azure.resourcemanager.resources.fluent.inner.PolicyAssignmentInner?alt=com.azure.resourcemanager.resources.fluent.inner.PolicyAssignmentInner&text=PolicyAssignmentInner" data-throw-if-not-resolved="False" />
+  - description: The context to associate with this operation.
+    name: context
+    type: <xref href="com.azure.core.util.Context?alt=com.azure.core.util.Context&text=Context" data-throw-if-not-resolved="False" />
+  syntax: public PolicyAssignmentInner createById(String policyAssignmentId, PolicyAssignmentInner parameters, Context context)
+  returns:
+    description: the policy assignment.
+    type: <xref href="com.azure.resourcemanager.resources.fluent.inner.PolicyAssignmentInner?alt=com.azure.resourcemanager.resources.fluent.inner.PolicyAssignmentInner&text=PolicyAssignmentInner" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.resourcemanager.resources.fluent
+artifact: com.azure.resourcemanager:azure-resourcemanager-resources:2.0.0-beta.2

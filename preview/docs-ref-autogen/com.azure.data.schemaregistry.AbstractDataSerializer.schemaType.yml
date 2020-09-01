@@ -1,0 +1,15 @@
+### YamlMime:JavaMember
+uid: com.azure.data.schemaregistry.AbstractDataSerializer.schemaType
+fullName: com.azure.data.schemaregistry.AbstractDataSerializer.schemaType
+name: schemaType
+nameWithType: AbstractDataSerializer.schemaType
+members:
+- uid: com.azure.data.schemaregistry.AbstractDataSerializer.schemaType
+  fullName: com.azure.data.schemaregistry.AbstractDataSerializer.schemaType
+  name: schemaType
+  nameWithType: AbstractDataSerializer.schemaType
+  syntax: protected String schemaType
+type: field
+metadata: {}
+package: com.azure.data.schemaregistry
+artifact: com.azure:azure-data-schemaregistry:1.0.0-beta.1

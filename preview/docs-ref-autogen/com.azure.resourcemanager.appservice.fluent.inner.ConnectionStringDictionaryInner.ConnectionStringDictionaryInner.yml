@@ -1,0 +1,15 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.appservice.fluent.inner.ConnectionStringDictionaryInner.ConnectionStringDictionaryInner*
+fullName: com.azure.resourcemanager.appservice.fluent.inner.ConnectionStringDictionaryInner.ConnectionStringDictionaryInner
+name: ConnectionStringDictionaryInner
+nameWithType: ConnectionStringDictionaryInner.ConnectionStringDictionaryInner
+members:
+- uid: com.azure.resourcemanager.appservice.fluent.inner.ConnectionStringDictionaryInner.ConnectionStringDictionaryInner()
+  fullName: com.azure.resourcemanager.appservice.fluent.inner.ConnectionStringDictionaryInner.ConnectionStringDictionaryInner()
+  name: ConnectionStringDictionaryInner()
+  nameWithType: ConnectionStringDictionaryInner.ConnectionStringDictionaryInner()
+  syntax: public ConnectionStringDictionaryInner()
+type: constructor
+metadata: {}
+package: com.azure.resourcemanager.appservice.fluent.inner
+artifact: com.azure.resourcemanager:azure-resourcemanager-appservice:2.0.0-beta.2

@@ -1,0 +1,15 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.resources.fluentcore.arm.Region.SOUTHAFRICA_WEST
+fullName: com.azure.resourcemanager.resources.fluentcore.arm.Region.SOUTHAFRICA_WEST
+name: SOUTHAFRICA_WEST
+nameWithType: Region.SOUTHAFRICA_WEST
+members:
+- uid: com.azure.resourcemanager.resources.fluentcore.arm.Region.SOUTHAFRICA_WEST
+  fullName: com.azure.resourcemanager.resources.fluentcore.arm.Region.SOUTHAFRICA_WEST
+  name: SOUTHAFRICA_WEST
+  nameWithType: Region.SOUTHAFRICA_WEST
+  syntax: public static final Region SOUTHAFRICA_WEST
+type: field
+metadata: {}
+package: com.azure.resourcemanager.resources.fluentcore.arm
+artifact: com.azure.resourcemanager:azure-resourcemanager-resources:2.0.0-beta.2

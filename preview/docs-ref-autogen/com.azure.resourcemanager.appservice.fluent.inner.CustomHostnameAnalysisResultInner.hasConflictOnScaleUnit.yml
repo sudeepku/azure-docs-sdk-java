@@ -1,0 +1,21 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.appservice.fluent.inner.CustomHostnameAnalysisResultInner.hasConflictOnScaleUnit*
+fullName: com.azure.resourcemanager.appservice.fluent.inner.CustomHostnameAnalysisResultInner.hasConflictOnScaleUnit
+name: hasConflictOnScaleUnit
+nameWithType: CustomHostnameAnalysisResultInner.hasConflictOnScaleUnit
+members:
+- uid: com.azure.resourcemanager.appservice.fluent.inner.CustomHostnameAnalysisResultInner.hasConflictOnScaleUnit()
+  fullName: com.azure.resourcemanager.appservice.fluent.inner.CustomHostnameAnalysisResultInner.hasConflictOnScaleUnit()
+  name: hasConflictOnScaleUnit()
+  nameWithType: CustomHostnameAnalysisResultInner.hasConflictOnScaleUnit()
+  summary: |-
+    Get the hasConflictOnScaleUnit property: &lt;code&gt;true&lt;/code&gt; if there is a conflict on a scale unit;
+     otherwise, &lt;code&gt;false&lt;/code&gt;.
+  syntax: public Boolean hasConflictOnScaleUnit()
+  returns:
+    description: the hasConflictOnScaleUnit value.
+    type: <xref href="java.lang.Boolean?alt=java.lang.Boolean&text=Boolean" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.resourcemanager.appservice.fluent.inner
+artifact: com.azure.resourcemanager:azure-resourcemanager-appservice:2.0.0-beta.2

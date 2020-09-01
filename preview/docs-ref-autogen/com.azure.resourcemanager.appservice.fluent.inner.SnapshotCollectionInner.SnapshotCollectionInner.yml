@@ -1,0 +1,15 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.appservice.fluent.inner.SnapshotCollectionInner.SnapshotCollectionInner*
+fullName: com.azure.resourcemanager.appservice.fluent.inner.SnapshotCollectionInner.SnapshotCollectionInner
+name: SnapshotCollectionInner
+nameWithType: SnapshotCollectionInner.SnapshotCollectionInner
+members:
+- uid: com.azure.resourcemanager.appservice.fluent.inner.SnapshotCollectionInner.SnapshotCollectionInner()
+  fullName: com.azure.resourcemanager.appservice.fluent.inner.SnapshotCollectionInner.SnapshotCollectionInner()
+  name: SnapshotCollectionInner()
+  nameWithType: SnapshotCollectionInner.SnapshotCollectionInner()
+  syntax: public SnapshotCollectionInner()
+type: constructor
+metadata: {}
+package: com.azure.resourcemanager.appservice.fluent.inner
+artifact: com.azure.resourcemanager:azure-resourcemanager-appservice:2.0.0-beta.2

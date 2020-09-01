@@ -1,0 +1,23 @@
+### YamlMime:JavaMember
+uid: com.azure.messaging.servicebus.ServiceBusManagementClient.getQueueRuntimeInfo*
+fullName: com.azure.messaging.servicebus.ServiceBusManagementClient.getQueueRuntimeInfo
+name: getQueueRuntimeInfo
+nameWithType: ServiceBusManagementClient.getQueueRuntimeInfo
+members:
+- uid: com.azure.messaging.servicebus.ServiceBusManagementClient.getQueueRuntimeInfo(java.lang.String)
+  fullName: com.azure.messaging.servicebus.ServiceBusManagementClient.getQueueRuntimeInfo(String queueName)
+  name: getQueueRuntimeInfo(String queueName)
+  nameWithType: ServiceBusManagementClient.getQueueRuntimeInfo(String queueName)
+  summary: Gets runtime information about the queue.
+  parameters:
+  - description: Name of queue to get information about.
+    name: queueName
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  syntax: public QueueRuntimeInfo getQueueRuntimeInfo(String queueName)
+  returns:
+    description: Runtime information about the queue.
+    type: <xref href="com.azure.messaging.servicebus.models.QueueRuntimeInfo?alt=com.azure.messaging.servicebus.models.QueueRuntimeInfo&text=QueueRuntimeInfo" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.messaging.servicebus
+artifact: com.azure:azure-messaging-servicebus:7.0.0-beta.5

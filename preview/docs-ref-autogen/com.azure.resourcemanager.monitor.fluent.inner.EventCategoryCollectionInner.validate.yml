@@ -1,0 +1,16 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.monitor.fluent.inner.EventCategoryCollectionInner.validate*
+fullName: com.azure.resourcemanager.monitor.fluent.inner.EventCategoryCollectionInner.validate
+name: validate
+nameWithType: EventCategoryCollectionInner.validate
+members:
+- uid: com.azure.resourcemanager.monitor.fluent.inner.EventCategoryCollectionInner.validate()
+  fullName: com.azure.resourcemanager.monitor.fluent.inner.EventCategoryCollectionInner.validate()
+  name: validate()
+  nameWithType: EventCategoryCollectionInner.validate()
+  summary: Validates the instance.
+  syntax: public void validate()
+type: method
+metadata: {}
+package: com.azure.resourcemanager.monitor.fluent.inner
+artifact: com.azure.resourcemanager:azure-resourcemanager-monitor:2.0.0-beta.2

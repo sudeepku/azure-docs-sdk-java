@@ -1,0 +1,15 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.appservice.fluent.inner.DeletedWebAppCollectionInner.DeletedWebAppCollectionInner*
+fullName: com.azure.resourcemanager.appservice.fluent.inner.DeletedWebAppCollectionInner.DeletedWebAppCollectionInner
+name: DeletedWebAppCollectionInner
+nameWithType: DeletedWebAppCollectionInner.DeletedWebAppCollectionInner
+members:
+- uid: com.azure.resourcemanager.appservice.fluent.inner.DeletedWebAppCollectionInner.DeletedWebAppCollectionInner()
+  fullName: com.azure.resourcemanager.appservice.fluent.inner.DeletedWebAppCollectionInner.DeletedWebAppCollectionInner()
+  name: DeletedWebAppCollectionInner()
+  nameWithType: DeletedWebAppCollectionInner.DeletedWebAppCollectionInner()
+  syntax: public DeletedWebAppCollectionInner()
+type: constructor
+metadata: {}
+package: com.azure.resourcemanager.appservice.fluent.inner
+artifact: com.azure.resourcemanager:azure-resourcemanager-appservice:2.0.0-beta.2

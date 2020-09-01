@@ -1,0 +1,18 @@
+### YamlMime:JavaMember
+uid: com.azure.data.schemaregistry.client.SchemaRegistryObject.getSchemaId*
+fullName: com.azure.data.schemaregistry.client.SchemaRegistryObject.getSchemaId
+name: getSchemaId
+nameWithType: SchemaRegistryObject.getSchemaId
+members:
+- uid: com.azure.data.schemaregistry.client.SchemaRegistryObject.getSchemaId()
+  fullName: com.azure.data.schemaregistry.client.SchemaRegistryObject.getSchemaId()
+  name: getSchemaId()
+  nameWithType: SchemaRegistryObject.getSchemaId()
+  syntax: public String getSchemaId()
+  returns:
+    description: schema ID
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.data.schemaregistry.client
+artifact: com.azure:azure-data-schemaregistry:1.0.0-beta.1

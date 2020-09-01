@@ -1,0 +1,43 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.sql.fluent.EncryptionProtectorsClient.beginRevalidateWithoutPolling*
+fullName: com.azure.resourcemanager.sql.fluent.EncryptionProtectorsClient.beginRevalidateWithoutPolling
+name: beginRevalidateWithoutPolling
+nameWithType: EncryptionProtectorsClient.beginRevalidateWithoutPolling
+members:
+- uid: com.azure.resourcemanager.sql.fluent.EncryptionProtectorsClient.beginRevalidateWithoutPolling(java.lang.String,java.lang.String)
+  fullName: com.azure.resourcemanager.sql.fluent.EncryptionProtectorsClient.beginRevalidateWithoutPolling(String resourceGroupName, String serverName)
+  name: beginRevalidateWithoutPolling(String resourceGroupName, String serverName)
+  nameWithType: EncryptionProtectorsClient.beginRevalidateWithoutPolling(String resourceGroupName, String serverName)
+  summary: Revalidates an existing encryption protector.
+  parameters:
+  - description: |-
+      The name of the resource group that contains the resource. You can obtain this value
+           from the Azure Resource Manager API or the portal.
+    name: resourceGroupName
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  - description: The name of the server.
+    name: serverName
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  syntax: public void beginRevalidateWithoutPolling(String resourceGroupName, String serverName)
+- uid: com.azure.resourcemanager.sql.fluent.EncryptionProtectorsClient.beginRevalidateWithoutPolling(java.lang.String,java.lang.String,com.azure.core.util.Context)
+  fullName: com.azure.resourcemanager.sql.fluent.EncryptionProtectorsClient.beginRevalidateWithoutPolling(String resourceGroupName, String serverName, Context context)
+  name: beginRevalidateWithoutPolling(String resourceGroupName, String serverName, Context context)
+  nameWithType: EncryptionProtectorsClient.beginRevalidateWithoutPolling(String resourceGroupName, String serverName, Context context)
+  summary: Revalidates an existing encryption protector.
+  parameters:
+  - description: |-
+      The name of the resource group that contains the resource. You can obtain this value
+           from the Azure Resource Manager API or the portal.
+    name: resourceGroupName
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  - description: The name of the server.
+    name: serverName
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  - description: The context to associate with this operation.
+    name: context
+    type: <xref href="com.azure.core.util.Context?alt=com.azure.core.util.Context&text=Context" data-throw-if-not-resolved="False" />
+  syntax: public void beginRevalidateWithoutPolling(String resourceGroupName, String serverName, Context context)
+type: method
+metadata: {}
+package: com.azure.resourcemanager.sql.fluent
+artifact: com.azure.resourcemanager:azure-resourcemanager-sql:2.0.0-beta.2

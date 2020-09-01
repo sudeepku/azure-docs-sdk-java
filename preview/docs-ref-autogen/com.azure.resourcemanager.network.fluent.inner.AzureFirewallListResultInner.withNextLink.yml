@@ -1,0 +1,23 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.network.fluent.inner.AzureFirewallListResultInner.withNextLink*
+fullName: com.azure.resourcemanager.network.fluent.inner.AzureFirewallListResultInner.withNextLink
+name: withNextLink
+nameWithType: AzureFirewallListResultInner.withNextLink
+members:
+- uid: com.azure.resourcemanager.network.fluent.inner.AzureFirewallListResultInner.withNextLink(java.lang.String)
+  fullName: com.azure.resourcemanager.network.fluent.inner.AzureFirewallListResultInner.withNextLink(String nextLink)
+  name: withNextLink(String nextLink)
+  nameWithType: AzureFirewallListResultInner.withNextLink(String nextLink)
+  summary: 'Set the nextLink property: URL to get the next set of results.'
+  parameters:
+  - description: the nextLink value to set.
+    name: nextLink
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  syntax: public AzureFirewallListResultInner withNextLink(String nextLink)
+  returns:
+    description: the AzureFirewallListResultInner object itself.
+    type: <xref href="com.azure.resourcemanager.network.fluent.inner.AzureFirewallListResultInner?alt=com.azure.resourcemanager.network.fluent.inner.AzureFirewallListResultInner&text=AzureFirewallListResultInner" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.resourcemanager.network.fluent.inner
+artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.0.0-beta.2

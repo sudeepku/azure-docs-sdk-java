@@ -1,0 +1,39 @@
+### YamlMime:JavaMember
+uid: com.azure.data.schemaregistry.client.implementation.AzureSchemaRegistryRestService.deleteGroupWithResponseAsync*
+fullName: com.azure.data.schemaregistry.client.implementation.AzureSchemaRegistryRestService.deleteGroupWithResponseAsync
+name: deleteGroupWithResponseAsync
+nameWithType: AzureSchemaRegistryRestService.deleteGroupWithResponseAsync
+members:
+- uid: com.azure.data.schemaregistry.client.implementation.AzureSchemaRegistryRestService.deleteGroupWithResponseAsync(java.lang.String)
+  fullName: com.azure.data.schemaregistry.client.implementation.AzureSchemaRegistryRestService.deleteGroupWithResponseAsync(String groupName)
+  name: deleteGroupWithResponseAsync(String groupName)
+  nameWithType: AzureSchemaRegistryRestService.deleteGroupWithResponseAsync(String groupName)
+  summary: Delete schema group in schema registry namespace.
+  parameters:
+  - description: schema group.
+    name: groupName
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  syntax: public Mono<Response<Void>> deleteGroupWithResponseAsync(String groupName)
+  returns:
+    description: the completion.
+    type: <xref href="reactor.core.publisher.Mono?alt=reactor.core.publisher.Mono&text=Mono" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.core.http.rest.Response?alt=com.azure.core.http.rest.Response&text=Response" data-throw-if-not-resolved="False" />&lt;<xref href="java.lang.Void?alt=java.lang.Void&text=Void" data-throw-if-not-resolved="False" />&gt;&gt;
+- uid: com.azure.data.schemaregistry.client.implementation.AzureSchemaRegistryRestService.deleteGroupWithResponseAsync(java.lang.String,com.azure.core.util.Context)
+  fullName: com.azure.data.schemaregistry.client.implementation.AzureSchemaRegistryRestService.deleteGroupWithResponseAsync(String groupName, Context context)
+  name: deleteGroupWithResponseAsync(String groupName, Context context)
+  nameWithType: AzureSchemaRegistryRestService.deleteGroupWithResponseAsync(String groupName, Context context)
+  summary: Delete schema group in schema registry namespace.
+  parameters:
+  - description: schema group.
+    name: groupName
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  - description: The context to associate with this operation.
+    name: context
+    type: <xref href="com.azure.core.util.Context?alt=com.azure.core.util.Context&text=Context" data-throw-if-not-resolved="False" />
+  syntax: public Mono<Response<Void>> deleteGroupWithResponseAsync(String groupName, Context context)
+  returns:
+    description: the completion.
+    type: <xref href="reactor.core.publisher.Mono?alt=reactor.core.publisher.Mono&text=Mono" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.core.http.rest.Response?alt=com.azure.core.http.rest.Response&text=Response" data-throw-if-not-resolved="False" />&lt;<xref href="java.lang.Void?alt=java.lang.Void&text=Void" data-throw-if-not-resolved="False" />&gt;&gt;
+type: method
+metadata: {}
+package: com.azure.data.schemaregistry.client.implementation
+artifact: com.azure:azure-data-schemaregistry:1.0.0-beta.1

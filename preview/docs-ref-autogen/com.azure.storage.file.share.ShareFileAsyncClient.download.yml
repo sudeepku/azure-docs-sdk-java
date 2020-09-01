@@ -1,0 +1,35 @@
+### YamlMime:JavaMember
+uid: com.azure.storage.file.share.ShareFileAsyncClient.download*
+fullName: com.azure.storage.file.share.ShareFileAsyncClient.download
+name: download
+nameWithType: ShareFileAsyncClient.download
+members:
+- uid: com.azure.storage.file.share.ShareFileAsyncClient.download()
+  fullName: com.azure.storage.file.share.ShareFileAsyncClient.download()
+  name: download()
+  nameWithType: ShareFileAsyncClient.download()
+  summary: |-
+    Downloads a file from the system, including its metadata and properties
+
+     <p><strong>Code Samples</strong></p>
+
+     <p>Download the file with its metadata and properties. </p>
+
+     <pre>
+     shareFileAsyncClient.download&#40;&#41;.subscribe&#40;
+         response -&gt; &#123; &#125;,
+         error -&gt; System.err.print&#40;error.toString&#40;&#41;&#41;,
+         &#40;&#41; -&gt; System.out.println&#40;&quot;Complete downloading the data!&quot;&#41;
+     &#41;;
+     </pre>
+
+     <p>For more information, see the
+     <a href="https://docs.microsoft.com/en-us/rest/api/storageservices/get-file">Azure Docs</a>.</p>
+  syntax: public Flux<ByteBuffer> download()
+  returns:
+    description: A reactive response containing the file data.
+    type: <xref href="reactor.core.publisher.Flux?alt=reactor.core.publisher.Flux&text=Flux" data-throw-if-not-resolved="False" />&lt;<xref href="java.nio.ByteBuffer?alt=java.nio.ByteBuffer&text=ByteBuffer" data-throw-if-not-resolved="False" />&gt;
+type: method
+metadata: {}
+package: com.azure.storage.file.share
+artifact: com.azure:azure-storage-file-share:12.6.0-beta.1

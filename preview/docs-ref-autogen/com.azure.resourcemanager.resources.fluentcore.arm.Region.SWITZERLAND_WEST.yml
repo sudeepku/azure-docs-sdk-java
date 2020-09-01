@@ -1,0 +1,15 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.resources.fluentcore.arm.Region.SWITZERLAND_WEST
+fullName: com.azure.resourcemanager.resources.fluentcore.arm.Region.SWITZERLAND_WEST
+name: SWITZERLAND_WEST
+nameWithType: Region.SWITZERLAND_WEST
+members:
+- uid: com.azure.resourcemanager.resources.fluentcore.arm.Region.SWITZERLAND_WEST
+  fullName: com.azure.resourcemanager.resources.fluentcore.arm.Region.SWITZERLAND_WEST
+  name: SWITZERLAND_WEST
+  nameWithType: Region.SWITZERLAND_WEST
+  syntax: public static final Region SWITZERLAND_WEST
+type: field
+metadata: {}
+package: com.azure.resourcemanager.resources.fluentcore.arm
+artifact: com.azure.resourcemanager:azure-resourcemanager-resources:2.0.0-beta.2

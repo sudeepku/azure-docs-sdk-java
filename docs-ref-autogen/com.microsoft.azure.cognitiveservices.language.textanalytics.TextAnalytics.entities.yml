@@ -1,0 +1,41 @@
+### YamlMime:JavaMember
+nameWithType: TextAnalytics.entities
+type: method
+members:
+- fullName: com.microsoft.azure.cognitiveservices.language.textanalytics.TextAnalytics.entities()
+  name: entities()
+  nameWithType: TextAnalytics.entities()
+  returns:
+    description: <p>the first stage of the entities call </p>
+    type: <xref href="TextAnalyticsEntitiesDefinitionStages.WithExecute?alt=TextAnalyticsEntitiesDefinitionStages.WithExecute&text=TextAnalyticsEntitiesDefinitionStages.WithExecute" data-throw-if-not-resolved="False"/>
+  summary: >-
+    <p>The API returns a list of recognized entities in a given document. To get even more information on each recognized entity we recommend using the Bing Entity Search API by querying for the recognized entities names. See the &lt;a href="https://docs.microsoft.com/en-us/azure/cognitive-services/text-analytics/text-analytics-supported-languages"&gt;Supported languages in Text Analytics API&lt;/a&gt; for the list of enabled languages.</p>
+
+    <p></p>
+  syntax: public TextAnalyticsEntitiesDefinitionStages.WithExecute entities()
+  uid: com.microsoft.azure.cognitiveservices.language.textanalytics.TextAnalytics.entities()
+- fullName: com.microsoft.azure.cognitiveservices.language.textanalytics.TextAnalytics.entities(EntitiesOptionalParameter entitiesOptionalParameter)
+  name: entities(EntitiesOptionalParameter entitiesOptionalParameter)
+  nameWithType: TextAnalytics.entities(EntitiesOptionalParameter entitiesOptionalParameter)
+  parameters:
+  - description: <p>the object representing the optional parameters to be set before calling this API </p>
+    name: entitiesOptionalParameter
+    type: <xref href="com.microsoft.azure.cognitiveservices.language.textanalytics.models.EntitiesOptionalParameter?alt=com.microsoft.azure.cognitiveservices.language.textanalytics.models.EntitiesOptionalParameter&text=EntitiesOptionalParameter" data-throw-if-not-resolved="False"/>
+  exceptions:
+  - name: 3c87bd19
+  - name: 00ad4777
+  - name: 9b2a4515
+  returns:
+    description: <p>the EntitiesBatchResult object if successful. </p>
+    type: <xref href="com.microsoft.azure.cognitiveservices.language.textanalytics.models.EntitiesBatchResult?alt=com.microsoft.azure.cognitiveservices.language.textanalytics.models.EntitiesBatchResult&text=EntitiesBatchResult" data-throw-if-not-resolved="False"/>
+  summary: >-
+    <p>The API returns a list of recognized entities in a given document. To get even more information on each recognized entity we recommend using the Bing Entity Search API by querying for the recognized entities names. See the &lt;a href="https://docs.microsoft.com/en-us/azure/cognitive-services/text-analytics/text-analytics-supported-languages"&gt;Supported languages in Text Analytics API&lt;/a&gt; for the list of enabled languages.</p>
+
+    <p></p>
+  syntax: public EntitiesBatchResult entities(EntitiesOptionalParameter entitiesOptionalParameter)
+  uid: com.microsoft.azure.cognitiveservices.language.textanalytics.TextAnalytics.entities(EntitiesOptionalParameter)
+uid: com.microsoft.azure.cognitiveservices.language.textanalytics.TextAnalytics.entities*
+fullName: com.microsoft.azure.cognitiveservices.language.textanalytics.TextAnalytics.entities()
+name: entities()
+package: com.microsoft.azure.cognitiveservices.language.textanalytics
+metadata: {}

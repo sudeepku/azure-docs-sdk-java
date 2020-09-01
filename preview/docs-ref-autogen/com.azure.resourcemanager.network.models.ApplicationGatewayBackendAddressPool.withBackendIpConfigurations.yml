@@ -1,0 +1,23 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.network.models.ApplicationGatewayBackendAddressPool.withBackendIpConfigurations*
+fullName: com.azure.resourcemanager.network.models.ApplicationGatewayBackendAddressPool.withBackendIpConfigurations
+name: withBackendIpConfigurations
+nameWithType: ApplicationGatewayBackendAddressPool.withBackendIpConfigurations
+members:
+- uid: com.azure.resourcemanager.network.models.ApplicationGatewayBackendAddressPool.withBackendIpConfigurations(java.util.List<com.azure.resourcemanager.network.fluent.inner.NetworkInterfaceIpConfigurationInner>)
+  fullName: com.azure.resourcemanager.network.models.ApplicationGatewayBackendAddressPool.withBackendIpConfigurations(List<NetworkInterfaceIpConfigurationInner> backendIpConfigurations)
+  name: withBackendIpConfigurations(List<NetworkInterfaceIpConfigurationInner> backendIpConfigurations)
+  nameWithType: ApplicationGatewayBackendAddressPool.withBackendIpConfigurations(List<NetworkInterfaceIpConfigurationInner> backendIpConfigurations)
+  summary: 'Set the backendIpConfigurations property: Collection of references to IPs defined in network interfaces.'
+  parameters:
+  - description: the backendIpConfigurations value to set.
+    name: backendIpConfigurations
+    type: <xref href="java.util.List?alt=java.util.List&text=List" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.resourcemanager.network.fluent.inner.NetworkInterfaceIpConfigurationInner?alt=com.azure.resourcemanager.network.fluent.inner.NetworkInterfaceIpConfigurationInner&text=NetworkInterfaceIpConfigurationInner" data-throw-if-not-resolved="False" />&gt;
+  syntax: public ApplicationGatewayBackendAddressPool withBackendIpConfigurations(List<NetworkInterfaceIpConfigurationInner> backendIpConfigurations)
+  returns:
+    description: the ApplicationGatewayBackendAddressPool object itself.
+    type: <xref href="com.azure.resourcemanager.network.models.ApplicationGatewayBackendAddressPool?alt=com.azure.resourcemanager.network.models.ApplicationGatewayBackendAddressPool&text=ApplicationGatewayBackendAddressPool" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.resourcemanager.network.models
+artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.0.0-beta.2

@@ -1,0 +1,23 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.appservice.fluent.inner.ApplicationStackCollectionInner.withValue*
+fullName: com.azure.resourcemanager.appservice.fluent.inner.ApplicationStackCollectionInner.withValue
+name: withValue
+nameWithType: ApplicationStackCollectionInner.withValue
+members:
+- uid: com.azure.resourcemanager.appservice.fluent.inner.ApplicationStackCollectionInner.withValue(java.util.List<com.azure.resourcemanager.appservice.fluent.inner.ApplicationStackResourceInner>)
+  fullName: com.azure.resourcemanager.appservice.fluent.inner.ApplicationStackCollectionInner.withValue(List<ApplicationStackResourceInner> value)
+  name: withValue(List<ApplicationStackResourceInner> value)
+  nameWithType: ApplicationStackCollectionInner.withValue(List<ApplicationStackResourceInner> value)
+  summary: 'Set the value property: Collection of resources.'
+  parameters:
+  - description: the value value to set.
+    name: value
+    type: <xref href="java.util.List?alt=java.util.List&text=List" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.resourcemanager.appservice.fluent.inner.ApplicationStackResourceInner?alt=com.azure.resourcemanager.appservice.fluent.inner.ApplicationStackResourceInner&text=ApplicationStackResourceInner" data-throw-if-not-resolved="False" />&gt;
+  syntax: public ApplicationStackCollectionInner withValue(List<ApplicationStackResourceInner> value)
+  returns:
+    description: the ApplicationStackCollectionInner object itself.
+    type: <xref href="com.azure.resourcemanager.appservice.fluent.inner.ApplicationStackCollectionInner?alt=com.azure.resourcemanager.appservice.fluent.inner.ApplicationStackCollectionInner&text=ApplicationStackCollectionInner" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.resourcemanager.appservice.fluent.inner
+artifact: com.azure.resourcemanager:azure-resourcemanager-appservice:2.0.0-beta.2

@@ -1,0 +1,26 @@
+### YamlMime:JavaMember
+uid: com.azure.storage.blob.batch.BlobBatchAsyncClient.deleteBlobs*
+fullName: com.azure.storage.blob.batch.BlobBatchAsyncClient.deleteBlobs
+name: deleteBlobs
+nameWithType: BlobBatchAsyncClient.deleteBlobs
+members:
+- uid: com.azure.storage.blob.batch.BlobBatchAsyncClient.deleteBlobs(java.util.List<java.lang.String>,com.azure.storage.blob.models.DeleteSnapshotsOptionType)
+  fullName: com.azure.storage.blob.batch.BlobBatchAsyncClient.deleteBlobs(List<String> blobUrls, DeleteSnapshotsOptionType deleteOptions)
+  name: deleteBlobs(List<String> blobUrls, DeleteSnapshotsOptionType deleteOptions)
+  nameWithType: BlobBatchAsyncClient.deleteBlobs(List<String> blobUrls, DeleteSnapshotsOptionType deleteOptions)
+  summary: "Delete multiple blobs in a single request to the service.\n\n <p><strong>Code samples</strong></p>\n\n <pre>\n List&lt;String&gt; blobUrls = new ArrayList&lt;&gt;&#40;&#41;;\n blobUrls.add&#40;blobClient1.getBlobUrl&#40;&#41;&#41;;\n blobUrls.add&#40;blobClient2.getBlobUrl&#40;&#41;&#41;;\n blobUrls.add&#40;blobClient3.getBlobUrl&#40;&#41;&#41;;\n \n batchAsyncClient.deleteBlobs&#40;blobUrls, DeleteSnapshotsOptionType.INCLUDE&#41;.subscribe&#40;response -&gt;\n         System.out.printf&#40;&quot;Deleting blob with URL %s completed with status code %d%n&quot;,\n             response.getRequest&#40;&#41;.getUrl&#40;&#41;, response.getStatusCode&#40;&#41;&#41;,\n     error -&gt; System.err.printf&#40;&quot;Deleting blob failed with exception: %s%n&quot;, error.getMessage&#40;&#41;&#41;&#41;;\n </pre>"
+  parameters:
+  - description: Urls of the blobs to delete. Blob names must be encoded to UTF-8.
+    name: blobUrls
+    type: <xref href="java.util.List?alt=java.util.List&text=List" data-throw-if-not-resolved="False" />&lt;<xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />&gt;
+  - description: The deletion option for all blobs.
+    name: deleteOptions
+    type: <xref href="com.azure.storage.blob.models.DeleteSnapshotsOptionType?alt=com.azure.storage.blob.models.DeleteSnapshotsOptionType&text=DeleteSnapshotsOptionType" data-throw-if-not-resolved="False" />
+  syntax: public PagedFlux<Response<Void>> deleteBlobs(List<String> blobUrls, DeleteSnapshotsOptionType deleteOptions)
+  returns:
+    description: The status of each delete operation.
+    type: <xref href="com.azure.core.http.rest.PagedFlux?alt=com.azure.core.http.rest.PagedFlux&text=PagedFlux" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.core.http.rest.Response?alt=com.azure.core.http.rest.Response&text=Response" data-throw-if-not-resolved="False" />&lt;<xref href="java.lang.Void?alt=java.lang.Void&text=Void" data-throw-if-not-resolved="False" />&gt;&gt;
+type: method
+metadata: {}
+package: com.azure.storage.blob.batch
+artifact: com.azure:azure-storage-blob-batch:12.6.0-beta.1

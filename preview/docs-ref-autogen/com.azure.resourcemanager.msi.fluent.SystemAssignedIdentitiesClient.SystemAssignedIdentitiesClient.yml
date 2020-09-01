@@ -1,0 +1,20 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.msi.fluent.SystemAssignedIdentitiesClient.SystemAssignedIdentitiesClient*
+fullName: com.azure.resourcemanager.msi.fluent.SystemAssignedIdentitiesClient.SystemAssignedIdentitiesClient
+name: SystemAssignedIdentitiesClient
+nameWithType: SystemAssignedIdentitiesClient.SystemAssignedIdentitiesClient
+members:
+- uid: com.azure.resourcemanager.msi.fluent.SystemAssignedIdentitiesClient.SystemAssignedIdentitiesClient(com.azure.resourcemanager.msi.ManagedServiceIdentityClient)
+  fullName: com.azure.resourcemanager.msi.fluent.SystemAssignedIdentitiesClient.SystemAssignedIdentitiesClient(ManagedServiceIdentityClient client)
+  name: SystemAssignedIdentitiesClient(ManagedServiceIdentityClient client)
+  nameWithType: SystemAssignedIdentitiesClient.SystemAssignedIdentitiesClient(ManagedServiceIdentityClient client)
+  summary: Initializes an instance of SystemAssignedIdentitiesClient.
+  parameters:
+  - description: the instance of the service client containing this operation class.
+    name: client
+    type: <xref href="com.azure.resourcemanager.msi.ManagedServiceIdentityClient?alt=com.azure.resourcemanager.msi.ManagedServiceIdentityClient&text=ManagedServiceIdentityClient" data-throw-if-not-resolved="False" />
+  syntax: public SystemAssignedIdentitiesClient(ManagedServiceIdentityClient client)
+type: constructor
+metadata: {}
+package: com.azure.resourcemanager.msi.fluent
+artifact: com.azure.resourcemanager:azure-resourcemanager-msi:2.0.0-beta.2

@@ -1,0 +1,27 @@
+### YamlMime:JavaMember
+uid: com.azure.search.documents.indexes.SearchIndexClientBuilder.pipeline*
+fullName: com.azure.search.documents.indexes.SearchIndexClientBuilder.pipeline
+name: pipeline
+nameWithType: SearchIndexClientBuilder.pipeline
+members:
+- uid: com.azure.search.documents.indexes.SearchIndexClientBuilder.pipeline(com.azure.core.http.HttpPipeline)
+  fullName: com.azure.search.documents.indexes.SearchIndexClientBuilder.pipeline(HttpPipeline httpPipeline)
+  name: pipeline(HttpPipeline httpPipeline)
+  nameWithType: SearchIndexClientBuilder.pipeline(HttpPipeline httpPipeline)
+  summary: |-
+    Sets the HTTP pipeline to use for the service client.
+     <p>
+     If <code>pipeline</code> is set, all other settings are ignored, aside from <xref uid="#endpoint(String)" data-throw-if-not-resolved="false">endpoint</xref> when
+     building a <xref uid="SearchIndexClient" data-throw-if-not-resolved="false">SearchIndexClient</xref> or <xref uid="SearchIndexAsyncClient" data-throw-if-not-resolved="false">SearchIndexAsyncClient</xref>.
+  parameters:
+  - description: The HTTP pipeline to use for sending service requests and receiving responses.
+    name: httpPipeline
+    type: <xref href="com.azure.core.http.HttpPipeline?alt=com.azure.core.http.HttpPipeline&text=HttpPipeline" data-throw-if-not-resolved="False" />
+  syntax: public SearchIndexClientBuilder pipeline(HttpPipeline httpPipeline)
+  returns:
+    description: The updated SearchIndexClientBuilder object.
+    type: <xref href="com.azure.search.documents.indexes.SearchIndexClientBuilder?alt=com.azure.search.documents.indexes.SearchIndexClientBuilder&text=SearchIndexClientBuilder" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.search.documents.indexes
+artifact: com.azure:azure-search-documents:11.0.0

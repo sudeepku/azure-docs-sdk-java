@@ -1,0 +1,25 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.network.models.NetworkInterfaceDnsSettings.withInternalFqdn*
+fullName: com.azure.resourcemanager.network.models.NetworkInterfaceDnsSettings.withInternalFqdn
+name: withInternalFqdn
+nameWithType: NetworkInterfaceDnsSettings.withInternalFqdn
+members:
+- uid: com.azure.resourcemanager.network.models.NetworkInterfaceDnsSettings.withInternalFqdn(java.lang.String)
+  fullName: com.azure.resourcemanager.network.models.NetworkInterfaceDnsSettings.withInternalFqdn(String internalFqdn)
+  name: withInternalFqdn(String internalFqdn)
+  nameWithType: NetworkInterfaceDnsSettings.withInternalFqdn(String internalFqdn)
+  summary: |-
+    Set the internalFqdn property: Fully qualified DNS name supporting internal communications between VMs in the
+     same virtual network.
+  parameters:
+  - description: the internalFqdn value to set.
+    name: internalFqdn
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  syntax: public NetworkInterfaceDnsSettings withInternalFqdn(String internalFqdn)
+  returns:
+    description: the NetworkInterfaceDnsSettings object itself.
+    type: <xref href="com.azure.resourcemanager.network.models.NetworkInterfaceDnsSettings?alt=com.azure.resourcemanager.network.models.NetworkInterfaceDnsSettings&text=NetworkInterfaceDnsSettings" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.resourcemanager.network.models
+artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.0.0-beta.2

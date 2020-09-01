@@ -1,0 +1,27 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.compute.fluent.inner.DedicatedHostInner.withLicenseType*
+fullName: com.azure.resourcemanager.compute.fluent.inner.DedicatedHostInner.withLicenseType
+name: withLicenseType
+nameWithType: DedicatedHostInner.withLicenseType
+members:
+- uid: com.azure.resourcemanager.compute.fluent.inner.DedicatedHostInner.withLicenseType(com.azure.resourcemanager.compute.models.DedicatedHostLicenseTypes)
+  fullName: com.azure.resourcemanager.compute.fluent.inner.DedicatedHostInner.withLicenseType(DedicatedHostLicenseTypes licenseType)
+  name: withLicenseType(DedicatedHostLicenseTypes licenseType)
+  nameWithType: DedicatedHostInner.withLicenseType(DedicatedHostLicenseTypes licenseType)
+  summary: |-
+    Set the licenseType property: Specifies the software license type that will be applied to the VMs deployed on the
+     dedicated host. &lt;br&gt;&lt;br&gt; Possible values are: &lt;br&gt;&lt;br&gt; **None** &lt;br&gt;&lt;br&gt;
+     **Windows_Server_Hybrid** &lt;br&gt;&lt;br&gt; **Windows_Server_Perpetual** &lt;br&gt;&lt;br&gt; Default:
+     **None**.
+  parameters:
+  - description: the licenseType value to set.
+    name: licenseType
+    type: <xref href="com.azure.resourcemanager.compute.models.DedicatedHostLicenseTypes?alt=com.azure.resourcemanager.compute.models.DedicatedHostLicenseTypes&text=DedicatedHostLicenseTypes" data-throw-if-not-resolved="False" />
+  syntax: public DedicatedHostInner withLicenseType(DedicatedHostLicenseTypes licenseType)
+  returns:
+    description: the DedicatedHostInner object itself.
+    type: <xref href="com.azure.resourcemanager.compute.fluent.inner.DedicatedHostInner?alt=com.azure.resourcemanager.compute.fluent.inner.DedicatedHostInner&text=DedicatedHostInner" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.resourcemanager.compute.fluent.inner
+artifact: com.azure.resourcemanager:azure-resourcemanager-compute:2.0.0-beta.2

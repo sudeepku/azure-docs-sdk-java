@@ -1,0 +1,23 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.compute.fluent.inner.ContainerServiceInner.withOrchestratorProfile*
+fullName: com.azure.resourcemanager.compute.fluent.inner.ContainerServiceInner.withOrchestratorProfile
+name: withOrchestratorProfile
+nameWithType: ContainerServiceInner.withOrchestratorProfile
+members:
+- uid: com.azure.resourcemanager.compute.fluent.inner.ContainerServiceInner.withOrchestratorProfile(com.azure.resourcemanager.compute.models.ContainerServiceOrchestratorProfile)
+  fullName: com.azure.resourcemanager.compute.fluent.inner.ContainerServiceInner.withOrchestratorProfile(ContainerServiceOrchestratorProfile orchestratorProfile)
+  name: withOrchestratorProfile(ContainerServiceOrchestratorProfile orchestratorProfile)
+  nameWithType: ContainerServiceInner.withOrchestratorProfile(ContainerServiceOrchestratorProfile orchestratorProfile)
+  summary: 'Set the orchestratorProfile property: Properties of the orchestrator.'
+  parameters:
+  - description: the orchestratorProfile value to set.
+    name: orchestratorProfile
+    type: <xref href="com.azure.resourcemanager.compute.models.ContainerServiceOrchestratorProfile?alt=com.azure.resourcemanager.compute.models.ContainerServiceOrchestratorProfile&text=ContainerServiceOrchestratorProfile" data-throw-if-not-resolved="False" />
+  syntax: public ContainerServiceInner withOrchestratorProfile(ContainerServiceOrchestratorProfile orchestratorProfile)
+  returns:
+    description: the ContainerServiceInner object itself.
+    type: <xref href="com.azure.resourcemanager.compute.fluent.inner.ContainerServiceInner?alt=com.azure.resourcemanager.compute.fluent.inner.ContainerServiceInner&text=ContainerServiceInner" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.resourcemanager.compute.fluent.inner
+artifact: com.azure.resourcemanager:azure-resourcemanager-compute:2.0.0-beta.2

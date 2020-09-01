@@ -1,0 +1,23 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.sql.fluent.inner.ServerUsageListResultInner.withValue*
+fullName: com.azure.resourcemanager.sql.fluent.inner.ServerUsageListResultInner.withValue
+name: withValue
+nameWithType: ServerUsageListResultInner.withValue
+members:
+- uid: com.azure.resourcemanager.sql.fluent.inner.ServerUsageListResultInner.withValue(java.util.List<com.azure.resourcemanager.sql.fluent.inner.ServerUsageInner>)
+  fullName: com.azure.resourcemanager.sql.fluent.inner.ServerUsageListResultInner.withValue(List<ServerUsageInner> value)
+  name: withValue(List<ServerUsageInner> value)
+  nameWithType: ServerUsageListResultInner.withValue(List<ServerUsageInner> value)
+  summary: 'Set the value property: The list of server metrics for the server.'
+  parameters:
+  - description: the value value to set.
+    name: value
+    type: <xref href="java.util.List?alt=java.util.List&text=List" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.resourcemanager.sql.fluent.inner.ServerUsageInner?alt=com.azure.resourcemanager.sql.fluent.inner.ServerUsageInner&text=ServerUsageInner" data-throw-if-not-resolved="False" />&gt;
+  syntax: public ServerUsageListResultInner withValue(List<ServerUsageInner> value)
+  returns:
+    description: the ServerUsageListResultInner object itself.
+    type: <xref href="com.azure.resourcemanager.sql.fluent.inner.ServerUsageListResultInner?alt=com.azure.resourcemanager.sql.fluent.inner.ServerUsageListResultInner&text=ServerUsageListResultInner" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.resourcemanager.sql.fluent.inner
+artifact: com.azure.resourcemanager:azure-resourcemanager-sql:2.0.0-beta.2

@@ -1,0 +1,31 @@
+### YamlMime:JavaMember
+uid: com.azure.data.schemaregistry.SerializationException.SerializationException*
+fullName: com.azure.data.schemaregistry.SerializationException.SerializationException
+name: SerializationException
+nameWithType: SerializationException.SerializationException
+members:
+- uid: com.azure.data.schemaregistry.SerializationException.SerializationException(java.lang.String)
+  fullName: com.azure.data.schemaregistry.SerializationException.SerializationException(String s)
+  name: SerializationException(String s)
+  nameWithType: SerializationException.SerializationException(String s)
+  parameters:
+  - description: error message explaining serde operation failure
+    name: s
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  syntax: public SerializationException(String s)
+- uid: com.azure.data.schemaregistry.SerializationException.SerializationException(java.lang.String,java.lang.Throwable)
+  fullName: com.azure.data.schemaregistry.SerializationException.SerializationException(String s, Throwable cause)
+  name: SerializationException(String s, Throwable cause)
+  nameWithType: SerializationException.SerializationException(String s, Throwable cause)
+  parameters:
+  - description: error message explaining serde operation failure
+    name: s
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  - description: Throwable cause of serialization failure
+    name: cause
+    type: <xref href="java.lang.Throwable?alt=java.lang.Throwable&text=Throwable" data-throw-if-not-resolved="False" />
+  syntax: public SerializationException(String s, Throwable cause)
+type: constructor
+metadata: {}
+package: com.azure.data.schemaregistry
+artifact: com.azure:azure-data-schemaregistry:1.0.0-beta.1

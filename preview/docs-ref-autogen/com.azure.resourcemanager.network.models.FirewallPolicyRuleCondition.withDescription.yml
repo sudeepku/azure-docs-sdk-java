@@ -1,0 +1,23 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.network.models.FirewallPolicyRuleCondition.withDescription*
+fullName: com.azure.resourcemanager.network.models.FirewallPolicyRuleCondition.withDescription
+name: withDescription
+nameWithType: FirewallPolicyRuleCondition.withDescription
+members:
+- uid: com.azure.resourcemanager.network.models.FirewallPolicyRuleCondition.withDescription(java.lang.String)
+  fullName: com.azure.resourcemanager.network.models.FirewallPolicyRuleCondition.withDescription(String description)
+  name: withDescription(String description)
+  nameWithType: FirewallPolicyRuleCondition.withDescription(String description)
+  summary: 'Set the description property: Description of the rule condition.'
+  parameters:
+  - description: the description value to set.
+    name: description
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  syntax: public FirewallPolicyRuleCondition withDescription(String description)
+  returns:
+    description: the FirewallPolicyRuleCondition object itself.
+    type: <xref href="com.azure.resourcemanager.network.models.FirewallPolicyRuleCondition?alt=com.azure.resourcemanager.network.models.FirewallPolicyRuleCondition&text=FirewallPolicyRuleCondition" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.resourcemanager.network.models
+artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.0.0-beta.2

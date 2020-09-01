@@ -1,0 +1,20 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.appservice.fluent.AppServiceCertificateOrdersClient.AppServiceCertificateOrdersClient*
+fullName: com.azure.resourcemanager.appservice.fluent.AppServiceCertificateOrdersClient.AppServiceCertificateOrdersClient
+name: AppServiceCertificateOrdersClient
+nameWithType: AppServiceCertificateOrdersClient.AppServiceCertificateOrdersClient
+members:
+- uid: com.azure.resourcemanager.appservice.fluent.AppServiceCertificateOrdersClient.AppServiceCertificateOrdersClient(com.azure.resourcemanager.appservice.WebSiteManagementClient)
+  fullName: com.azure.resourcemanager.appservice.fluent.AppServiceCertificateOrdersClient.AppServiceCertificateOrdersClient(WebSiteManagementClient client)
+  name: AppServiceCertificateOrdersClient(WebSiteManagementClient client)
+  nameWithType: AppServiceCertificateOrdersClient.AppServiceCertificateOrdersClient(WebSiteManagementClient client)
+  summary: Initializes an instance of AppServiceCertificateOrdersClient.
+  parameters:
+  - description: the instance of the service client containing this operation class.
+    name: client
+    type: <xref href="com.azure.resourcemanager.appservice.WebSiteManagementClient?alt=com.azure.resourcemanager.appservice.WebSiteManagementClient&text=WebSiteManagementClient" data-throw-if-not-resolved="False" />
+  syntax: public AppServiceCertificateOrdersClient(WebSiteManagementClient client)
+type: constructor
+metadata: {}
+package: com.azure.resourcemanager.appservice.fluent
+artifact: com.azure.resourcemanager:azure-resourcemanager-appservice:2.0.0-beta.2

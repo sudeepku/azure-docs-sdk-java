@@ -1,0 +1,23 @@
+### YamlMime:JavaMember
+uid: com.azure.messaging.servicebus.ServiceBusMessage.setLabel*
+fullName: com.azure.messaging.servicebus.ServiceBusMessage.setLabel
+name: setLabel
+nameWithType: ServiceBusMessage.setLabel
+members:
+- uid: com.azure.messaging.servicebus.ServiceBusMessage.setLabel(java.lang.String)
+  fullName: com.azure.messaging.servicebus.ServiceBusMessage.setLabel(String label)
+  name: setLabel(String label)
+  nameWithType: ServiceBusMessage.setLabel(String label)
+  summary: Sets the label for the message.
+  parameters:
+  - description: The label to set.
+    name: label
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  syntax: public ServiceBusMessage setLabel(String label)
+  returns:
+    description: The updated <xref uid="com.azure.messaging.servicebus.ServiceBusMessage" data-throw-if-not-resolved="false">ServiceBusMessage</xref> object.
+    type: <xref href="com.azure.messaging.servicebus.ServiceBusMessage?alt=com.azure.messaging.servicebus.ServiceBusMessage&text=ServiceBusMessage" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.messaging.servicebus
+artifact: com.azure:azure-messaging-servicebus:7.0.0-beta.5

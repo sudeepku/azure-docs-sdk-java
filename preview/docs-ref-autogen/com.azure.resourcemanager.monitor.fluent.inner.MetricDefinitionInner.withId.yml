@@ -1,0 +1,23 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.monitor.fluent.inner.MetricDefinitionInner.withId*
+fullName: com.azure.resourcemanager.monitor.fluent.inner.MetricDefinitionInner.withId
+name: withId
+nameWithType: MetricDefinitionInner.withId
+members:
+- uid: com.azure.resourcemanager.monitor.fluent.inner.MetricDefinitionInner.withId(java.lang.String)
+  fullName: com.azure.resourcemanager.monitor.fluent.inner.MetricDefinitionInner.withId(String id)
+  name: withId(String id)
+  nameWithType: MetricDefinitionInner.withId(String id)
+  summary: 'Set the id property: the resource identifier of the metric definition.'
+  parameters:
+  - description: the id value to set.
+    name: id
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  syntax: public MetricDefinitionInner withId(String id)
+  returns:
+    description: the MetricDefinitionInner object itself.
+    type: <xref href="com.azure.resourcemanager.monitor.fluent.inner.MetricDefinitionInner?alt=com.azure.resourcemanager.monitor.fluent.inner.MetricDefinitionInner&text=MetricDefinitionInner" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.resourcemanager.monitor.fluent.inner
+artifact: com.azure.resourcemanager:azure-resourcemanager-monitor:2.0.0-beta.2

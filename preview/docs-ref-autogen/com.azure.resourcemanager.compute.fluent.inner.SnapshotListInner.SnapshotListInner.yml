@@ -1,0 +1,15 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.compute.fluent.inner.SnapshotListInner.SnapshotListInner*
+fullName: com.azure.resourcemanager.compute.fluent.inner.SnapshotListInner.SnapshotListInner
+name: SnapshotListInner
+nameWithType: SnapshotListInner.SnapshotListInner
+members:
+- uid: com.azure.resourcemanager.compute.fluent.inner.SnapshotListInner.SnapshotListInner()
+  fullName: com.azure.resourcemanager.compute.fluent.inner.SnapshotListInner.SnapshotListInner()
+  name: SnapshotListInner()
+  nameWithType: SnapshotListInner.SnapshotListInner()
+  syntax: public SnapshotListInner()
+type: constructor
+metadata: {}
+package: com.azure.resourcemanager.compute.fluent.inner
+artifact: com.azure.resourcemanager:azure-resourcemanager-compute:2.0.0-beta.2

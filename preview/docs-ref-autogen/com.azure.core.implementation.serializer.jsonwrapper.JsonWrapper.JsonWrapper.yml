@@ -1,0 +1,15 @@
+### YamlMime:JavaMember
+uid: com.azure.core.implementation.serializer.jsonwrapper.JsonWrapper.JsonWrapper*
+fullName: com.azure.core.implementation.serializer.jsonwrapper.JsonWrapper.JsonWrapper
+name: JsonWrapper
+nameWithType: JsonWrapper.JsonWrapper
+members:
+- uid: com.azure.core.implementation.serializer.jsonwrapper.JsonWrapper.JsonWrapper()
+  fullName: com.azure.core.implementation.serializer.jsonwrapper.JsonWrapper.JsonWrapper()
+  name: JsonWrapper()
+  nameWithType: JsonWrapper.JsonWrapper()
+  syntax: public JsonWrapper()
+type: constructor
+metadata: {}
+package: com.azure.core.implementation.serializer.jsonwrapper
+artifact: com.azure:azure-core:1.3.0-beta.1

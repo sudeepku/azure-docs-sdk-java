@@ -1,0 +1,20 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.cosmos.fluent.CollectionPartitionRegionsClient.CollectionPartitionRegionsClient*
+fullName: com.azure.resourcemanager.cosmos.fluent.CollectionPartitionRegionsClient.CollectionPartitionRegionsClient
+name: CollectionPartitionRegionsClient
+nameWithType: CollectionPartitionRegionsClient.CollectionPartitionRegionsClient
+members:
+- uid: com.azure.resourcemanager.cosmos.fluent.CollectionPartitionRegionsClient.CollectionPartitionRegionsClient(com.azure.resourcemanager.cosmos.CosmosDBManagementClient)
+  fullName: com.azure.resourcemanager.cosmos.fluent.CollectionPartitionRegionsClient.CollectionPartitionRegionsClient(CosmosDBManagementClient client)
+  name: CollectionPartitionRegionsClient(CosmosDBManagementClient client)
+  nameWithType: CollectionPartitionRegionsClient.CollectionPartitionRegionsClient(CosmosDBManagementClient client)
+  summary: Initializes an instance of CollectionPartitionRegionsClient.
+  parameters:
+  - description: the instance of the service client containing this operation class.
+    name: client
+    type: <xref href="com.azure.resourcemanager.cosmos.CosmosDBManagementClient?alt=com.azure.resourcemanager.cosmos.CosmosDBManagementClient&text=CosmosDBManagementClient" data-throw-if-not-resolved="False" />
+  syntax: public CollectionPartitionRegionsClient(CosmosDBManagementClient client)
+type: constructor
+metadata: {}
+package: com.azure.resourcemanager.cosmos.fluent
+artifact: com.azure.resourcemanager:azure-resourcemanager-cosmos:2.0.0-beta.2

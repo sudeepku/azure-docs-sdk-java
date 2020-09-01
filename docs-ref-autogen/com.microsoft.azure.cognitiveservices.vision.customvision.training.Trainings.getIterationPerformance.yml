@@ -1,0 +1,47 @@
+### YamlMime:JavaMember
+nameWithType: Trainings.getIterationPerformance
+type: method
+members:
+- fullName: com.microsoft.azure.cognitiveservices.vision.customvision.training.Trainings.getIterationPerformance()
+  name: getIterationPerformance()
+  nameWithType: Trainings.getIterationPerformance()
+  returns:
+    description: <p>the first stage of the getIterationPerformance call </p>
+    type: <xref href="TrainingsGetIterationPerformanceDefinitionStages.WithProjectId?alt=TrainingsGetIterationPerformanceDefinitionStages.WithProjectId&text=TrainingsGetIterationPerformanceDefinitionStages.WithProjectId" data-throw-if-not-resolved="False"/>
+  summary: >-
+    <p>Get detailed performance information about an iteration.</p>
+
+    <p></p>
+  syntax: public TrainingsGetIterationPerformanceDefinitionStages.WithProjectId getIterationPerformance()
+  uid: com.microsoft.azure.cognitiveservices.vision.customvision.training.Trainings.getIterationPerformance()
+- fullName: com.microsoft.azure.cognitiveservices.vision.customvision.training.Trainings.getIterationPerformance(UUID projectId, UUID iterationId, GetIterationPerformanceOptionalParameter getIterationPerformanceOptionalParameter)
+  name: getIterationPerformance(UUID projectId, UUID iterationId, GetIterationPerformanceOptionalParameter getIterationPerformanceOptionalParameter)
+  nameWithType: Trainings.getIterationPerformance(UUID projectId, UUID iterationId, GetIterationPerformanceOptionalParameter getIterationPerformanceOptionalParameter)
+  parameters:
+  - description: <p>The id of the project the iteration belongs to. </p>
+    name: projectId
+    type: <xref href="UUID?alt=UUID&text=UUID" data-throw-if-not-resolved="False"/>
+  - description: <p>The id of the iteration to get. </p>
+    name: iterationId
+    type: <xref href="UUID?alt=UUID&text=UUID" data-throw-if-not-resolved="False"/>
+  - description: <p>the object representing the optional parameters to be set before calling this API </p>
+    name: getIterationPerformanceOptionalParameter
+    type: <xref href="com.microsoft.azure.cognitiveservices.vision.customvision.training.models.GetIterationPerformanceOptionalParameter?alt=com.microsoft.azure.cognitiveservices.vision.customvision.training.models.GetIterationPerformanceOptionalParameter&text=GetIterationPerformanceOptionalParameter" data-throw-if-not-resolved="False"/>
+  exceptions:
+  - name: 3c87bd19
+  - name: d8f234c9
+  - name: 9b2a4515
+  returns:
+    description: <p>the IterationPerformance object if successful. </p>
+    type: <xref href="com.microsoft.azure.cognitiveservices.vision.customvision.training.models.IterationPerformance?alt=com.microsoft.azure.cognitiveservices.vision.customvision.training.models.IterationPerformance&text=IterationPerformance" data-throw-if-not-resolved="False"/>
+  summary: >-
+    <p>Get detailed performance information about an iteration.</p>
+
+    <p></p>
+  syntax: public IterationPerformance getIterationPerformance(UUID projectId, UUID iterationId, GetIterationPerformanceOptionalParameter getIterationPerformanceOptionalParameter)
+  uid: com.microsoft.azure.cognitiveservices.vision.customvision.training.Trainings.getIterationPerformance(UUID,UUID,GetIterationPerformanceOptionalParameter)
+uid: com.microsoft.azure.cognitiveservices.vision.customvision.training.Trainings.getIterationPerformance*
+fullName: com.microsoft.azure.cognitiveservices.vision.customvision.training.Trainings.getIterationPerformance()
+name: getIterationPerformance()
+package: com.microsoft.azure.cognitiveservices.vision.customvision.training
+metadata: {}

@@ -1,0 +1,32 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.appservice.fluent.ResourceProvidersClient.listSkusAsync*
+fullName: com.azure.resourcemanager.appservice.fluent.ResourceProvidersClient.listSkusAsync
+name: listSkusAsync
+nameWithType: ResourceProvidersClient.listSkusAsync
+members:
+- uid: com.azure.resourcemanager.appservice.fluent.ResourceProvidersClient.listSkusAsync()
+  fullName: com.azure.resourcemanager.appservice.fluent.ResourceProvidersClient.listSkusAsync()
+  name: listSkusAsync()
+  nameWithType: ResourceProvidersClient.listSkusAsync()
+  summary: Description for List all SKUs.
+  syntax: public Mono<SkuInfosInner> listSkusAsync()
+  returns:
+    description: collection of SKU information.
+    type: <xref href="reactor.core.publisher.Mono?alt=reactor.core.publisher.Mono&text=Mono" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.resourcemanager.appservice.fluent.inner.SkuInfosInner?alt=com.azure.resourcemanager.appservice.fluent.inner.SkuInfosInner&text=SkuInfosInner" data-throw-if-not-resolved="False" />&gt;
+- uid: com.azure.resourcemanager.appservice.fluent.ResourceProvidersClient.listSkusAsync(com.azure.core.util.Context)
+  fullName: com.azure.resourcemanager.appservice.fluent.ResourceProvidersClient.listSkusAsync(Context context)
+  name: listSkusAsync(Context context)
+  nameWithType: ResourceProvidersClient.listSkusAsync(Context context)
+  summary: Description for List all SKUs.
+  parameters:
+  - description: The context to associate with this operation.
+    name: context
+    type: <xref href="com.azure.core.util.Context?alt=com.azure.core.util.Context&text=Context" data-throw-if-not-resolved="False" />
+  syntax: public Mono<SkuInfosInner> listSkusAsync(Context context)
+  returns:
+    description: collection of SKU information.
+    type: <xref href="reactor.core.publisher.Mono?alt=reactor.core.publisher.Mono&text=Mono" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.resourcemanager.appservice.fluent.inner.SkuInfosInner?alt=com.azure.resourcemanager.appservice.fluent.inner.SkuInfosInner&text=SkuInfosInner" data-throw-if-not-resolved="False" />&gt;
+type: method
+metadata: {}
+package: com.azure.resourcemanager.appservice.fluent
+artifact: com.azure.resourcemanager:azure-resourcemanager-appservice:2.0.0-beta.2

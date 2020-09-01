@@ -1,0 +1,16 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.network.models.NetworkUsageUnit.SECONDS
+fullName: com.azure.resourcemanager.network.models.NetworkUsageUnit.SECONDS
+name: SECONDS
+nameWithType: NetworkUsageUnit.SECONDS
+members:
+- uid: com.azure.resourcemanager.network.models.NetworkUsageUnit.SECONDS
+  fullName: com.azure.resourcemanager.network.models.NetworkUsageUnit.SECONDS
+  name: SECONDS
+  nameWithType: NetworkUsageUnit.SECONDS
+  summary: Static value Seconds for NetworkUsageUnit.
+  syntax: public static final NetworkUsageUnit SECONDS
+type: field
+metadata: {}
+package: com.azure.resourcemanager.network.models
+artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.0.0-beta.2

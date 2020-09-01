@@ -1,0 +1,20 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.resources.fluentcore.utils.PagedList.lastIndexOf*
+fullName: com.azure.resourcemanager.resources.fluentcore.utils.PagedList<E>.lastIndexOf
+name: lastIndexOf
+nameWithType: PagedList<E>.lastIndexOf
+members:
+- uid: com.azure.resourcemanager.resources.fluentcore.utils.PagedList.lastIndexOf(java.lang.Object)
+  fullName: com.azure.resourcemanager.resources.fluentcore.utils.PagedList<E>.lastIndexOf(Object o)
+  name: lastIndexOf(Object o)
+  nameWithType: PagedList<E>.lastIndexOf(Object o)
+  parameters:
+  - name: o
+    type: <xref href="java.lang.Object?alt=java.lang.Object&text=Object" data-throw-if-not-resolved="False" />
+  syntax: public int lastIndexOf(Object o)
+  returns:
+    type: <xref href="int?alt=int&text=int" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.resourcemanager.resources.fluentcore.utils
+artifact: com.azure.resourcemanager:azure-resourcemanager-resources:2.0.0-beta.2

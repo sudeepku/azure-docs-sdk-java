@@ -1,0 +1,23 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.network.fluent.inner.SecurityRuleInner.withSourcePortRanges*
+fullName: com.azure.resourcemanager.network.fluent.inner.SecurityRuleInner.withSourcePortRanges
+name: withSourcePortRanges
+nameWithType: SecurityRuleInner.withSourcePortRanges
+members:
+- uid: com.azure.resourcemanager.network.fluent.inner.SecurityRuleInner.withSourcePortRanges(java.util.List<java.lang.String>)
+  fullName: com.azure.resourcemanager.network.fluent.inner.SecurityRuleInner.withSourcePortRanges(List<String> sourcePortRanges)
+  name: withSourcePortRanges(List<String> sourcePortRanges)
+  nameWithType: SecurityRuleInner.withSourcePortRanges(List<String> sourcePortRanges)
+  summary: 'Set the sourcePortRanges property: The source port ranges.'
+  parameters:
+  - description: the sourcePortRanges value to set.
+    name: sourcePortRanges
+    type: <xref href="java.util.List?alt=java.util.List&text=List" data-throw-if-not-resolved="False" />&lt;<xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />&gt;
+  syntax: public SecurityRuleInner withSourcePortRanges(List<String> sourcePortRanges)
+  returns:
+    description: the SecurityRuleInner object itself.
+    type: <xref href="com.azure.resourcemanager.network.fluent.inner.SecurityRuleInner?alt=com.azure.resourcemanager.network.fluent.inner.SecurityRuleInner&text=SecurityRuleInner" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.resourcemanager.network.fluent.inner
+artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.0.0-beta.2

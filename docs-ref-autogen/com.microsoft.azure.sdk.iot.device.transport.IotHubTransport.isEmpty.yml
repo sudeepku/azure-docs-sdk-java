@@ -1,0 +1,23 @@
+### YamlMime:JavaMember
+uid: com.microsoft.azure.sdk.iot.device.transport.IotHubTransport.isEmpty*
+fullName: com.microsoft.azure.sdk.iot.device.transport.IotHubTransport.isEmpty
+name: isEmpty
+nameWithType: IotHubTransport.isEmpty
+members:
+- uid: com.microsoft.azure.sdk.iot.device.transport.IotHubTransport.isEmpty()
+  fullName: com.microsoft.azure.sdk.iot.device.transport.IotHubTransport.isEmpty()
+  name: isEmpty()
+  nameWithType: IotHubTransport.isEmpty()
+  summary: |-
+    Returns <code>true</code> if the transport has no more messages to handle,
+     and <code>false</code> otherwise.
+  syntax: public boolean isEmpty()
+  returns:
+    description: |-
+      <code>true</code> if the transport has no more messages to handle,
+       and <code>false</code> otherwise.
+    type: <xref href="boolean?alt=boolean&text=boolean" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.microsoft.azure.sdk.iot.device.transport
+artifact: com.microsoft.azure.sdk.iot:iot-device-client:1.24.0

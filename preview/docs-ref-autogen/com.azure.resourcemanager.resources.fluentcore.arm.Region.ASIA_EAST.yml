@@ -1,0 +1,16 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.resources.fluentcore.arm.Region.ASIA_EAST
+fullName: com.azure.resourcemanager.resources.fluentcore.arm.Region.ASIA_EAST
+name: ASIA_EAST
+nameWithType: Region.ASIA_EAST
+members:
+- uid: com.azure.resourcemanager.resources.fluentcore.arm.Region.ASIA_EAST
+  fullName: com.azure.resourcemanager.resources.fluentcore.arm.Region.ASIA_EAST
+  name: ASIA_EAST
+  nameWithType: Region.ASIA_EAST
+  summary: Azure Cloud - Asia
+  syntax: public static final Region ASIA_EAST
+type: field
+metadata: {}
+package: com.azure.resourcemanager.resources.fluentcore.arm
+artifact: com.azure.resourcemanager:azure-resourcemanager-resources:2.0.0-beta.2

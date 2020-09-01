@@ -1,0 +1,15 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.storage.fluent.inner.ObjectReplicationPoliciesInner.ObjectReplicationPoliciesInner*
+fullName: com.azure.resourcemanager.storage.fluent.inner.ObjectReplicationPoliciesInner.ObjectReplicationPoliciesInner
+name: ObjectReplicationPoliciesInner
+nameWithType: ObjectReplicationPoliciesInner.ObjectReplicationPoliciesInner
+members:
+- uid: com.azure.resourcemanager.storage.fluent.inner.ObjectReplicationPoliciesInner.ObjectReplicationPoliciesInner()
+  fullName: com.azure.resourcemanager.storage.fluent.inner.ObjectReplicationPoliciesInner.ObjectReplicationPoliciesInner()
+  name: ObjectReplicationPoliciesInner()
+  nameWithType: ObjectReplicationPoliciesInner.ObjectReplicationPoliciesInner()
+  syntax: public ObjectReplicationPoliciesInner()
+type: constructor
+metadata: {}
+package: com.azure.resourcemanager.storage.fluent.inner
+artifact: com.azure.resourcemanager:azure-resourcemanager-storage:2.0.0-beta.2

@@ -1,0 +1,45 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.network.fluent.FirewallPolicyRuleGroupsClient.delete*
+fullName: com.azure.resourcemanager.network.fluent.FirewallPolicyRuleGroupsClient.delete
+name: delete
+nameWithType: FirewallPolicyRuleGroupsClient.delete
+members:
+- uid: com.azure.resourcemanager.network.fluent.FirewallPolicyRuleGroupsClient.delete(java.lang.String,java.lang.String,java.lang.String)
+  fullName: com.azure.resourcemanager.network.fluent.FirewallPolicyRuleGroupsClient.delete(String resourceGroupName, String firewallPolicyName, String ruleGroupName)
+  name: delete(String resourceGroupName, String firewallPolicyName, String ruleGroupName)
+  nameWithType: FirewallPolicyRuleGroupsClient.delete(String resourceGroupName, String firewallPolicyName, String ruleGroupName)
+  summary: Deletes the specified FirewallPolicyRuleGroup.
+  parameters:
+  - description: The name of the resource group.
+    name: resourceGroupName
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  - description: The name of the Firewall Policy.
+    name: firewallPolicyName
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  - description: The name of the FirewallPolicyRuleGroup.
+    name: ruleGroupName
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  syntax: public void delete(String resourceGroupName, String firewallPolicyName, String ruleGroupName)
+- uid: com.azure.resourcemanager.network.fluent.FirewallPolicyRuleGroupsClient.delete(java.lang.String,java.lang.String,java.lang.String,com.azure.core.util.Context)
+  fullName: com.azure.resourcemanager.network.fluent.FirewallPolicyRuleGroupsClient.delete(String resourceGroupName, String firewallPolicyName, String ruleGroupName, Context context)
+  name: delete(String resourceGroupName, String firewallPolicyName, String ruleGroupName, Context context)
+  nameWithType: FirewallPolicyRuleGroupsClient.delete(String resourceGroupName, String firewallPolicyName, String ruleGroupName, Context context)
+  summary: Deletes the specified FirewallPolicyRuleGroup.
+  parameters:
+  - description: The name of the resource group.
+    name: resourceGroupName
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  - description: The name of the Firewall Policy.
+    name: firewallPolicyName
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  - description: The name of the FirewallPolicyRuleGroup.
+    name: ruleGroupName
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  - description: The context to associate with this operation.
+    name: context
+    type: <xref href="com.azure.core.util.Context?alt=com.azure.core.util.Context&text=Context" data-throw-if-not-resolved="False" />
+  syntax: public void delete(String resourceGroupName, String firewallPolicyName, String ruleGroupName, Context context)
+type: method
+metadata: {}
+package: com.azure.resourcemanager.network.fluent
+artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.0.0-beta.2

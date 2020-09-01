@@ -1,0 +1,15 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.authorization.fluent.inner.RoleDefinitionListResultInner.RoleDefinitionListResultInner*
+fullName: com.azure.resourcemanager.authorization.fluent.inner.RoleDefinitionListResultInner.RoleDefinitionListResultInner
+name: RoleDefinitionListResultInner
+nameWithType: RoleDefinitionListResultInner.RoleDefinitionListResultInner
+members:
+- uid: com.azure.resourcemanager.authorization.fluent.inner.RoleDefinitionListResultInner.RoleDefinitionListResultInner()
+  fullName: com.azure.resourcemanager.authorization.fluent.inner.RoleDefinitionListResultInner.RoleDefinitionListResultInner()
+  name: RoleDefinitionListResultInner()
+  nameWithType: RoleDefinitionListResultInner.RoleDefinitionListResultInner()
+  syntax: public RoleDefinitionListResultInner()
+type: constructor
+metadata: {}
+package: com.azure.resourcemanager.authorization.fluent.inner
+artifact: com.azure.resourcemanager:azure-resourcemanager-authorization:2.0.0-beta.2

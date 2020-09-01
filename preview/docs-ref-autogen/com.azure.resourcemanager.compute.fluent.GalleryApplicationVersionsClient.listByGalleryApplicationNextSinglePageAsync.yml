@@ -1,0 +1,39 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.compute.fluent.GalleryApplicationVersionsClient.listByGalleryApplicationNextSinglePageAsync*
+fullName: com.azure.resourcemanager.compute.fluent.GalleryApplicationVersionsClient.listByGalleryApplicationNextSinglePageAsync
+name: listByGalleryApplicationNextSinglePageAsync
+nameWithType: GalleryApplicationVersionsClient.listByGalleryApplicationNextSinglePageAsync
+members:
+- uid: com.azure.resourcemanager.compute.fluent.GalleryApplicationVersionsClient.listByGalleryApplicationNextSinglePageAsync(java.lang.String)
+  fullName: com.azure.resourcemanager.compute.fluent.GalleryApplicationVersionsClient.listByGalleryApplicationNextSinglePageAsync(String nextLink)
+  name: listByGalleryApplicationNextSinglePageAsync(String nextLink)
+  nameWithType: GalleryApplicationVersionsClient.listByGalleryApplicationNextSinglePageAsync(String nextLink)
+  summary: Get the next page of items.
+  parameters:
+  - description: The nextLink parameter.
+    name: nextLink
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  syntax: public Mono<PagedResponse<GalleryApplicationVersionInner>> listByGalleryApplicationNextSinglePageAsync(String nextLink)
+  returns:
+    description: the List Gallery Application version operation response.
+    type: <xref href="reactor.core.publisher.Mono?alt=reactor.core.publisher.Mono&text=Mono" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.core.http.rest.PagedResponse?alt=com.azure.core.http.rest.PagedResponse&text=PagedResponse" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.resourcemanager.compute.fluent.inner.GalleryApplicationVersionInner?alt=com.azure.resourcemanager.compute.fluent.inner.GalleryApplicationVersionInner&text=GalleryApplicationVersionInner" data-throw-if-not-resolved="False" />&gt;&gt;
+- uid: com.azure.resourcemanager.compute.fluent.GalleryApplicationVersionsClient.listByGalleryApplicationNextSinglePageAsync(java.lang.String,com.azure.core.util.Context)
+  fullName: com.azure.resourcemanager.compute.fluent.GalleryApplicationVersionsClient.listByGalleryApplicationNextSinglePageAsync(String nextLink, Context context)
+  name: listByGalleryApplicationNextSinglePageAsync(String nextLink, Context context)
+  nameWithType: GalleryApplicationVersionsClient.listByGalleryApplicationNextSinglePageAsync(String nextLink, Context context)
+  summary: Get the next page of items.
+  parameters:
+  - description: The nextLink parameter.
+    name: nextLink
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  - description: The context to associate with this operation.
+    name: context
+    type: <xref href="com.azure.core.util.Context?alt=com.azure.core.util.Context&text=Context" data-throw-if-not-resolved="False" />
+  syntax: public Mono<PagedResponse<GalleryApplicationVersionInner>> listByGalleryApplicationNextSinglePageAsync(String nextLink, Context context)
+  returns:
+    description: the List Gallery Application version operation response.
+    type: <xref href="reactor.core.publisher.Mono?alt=reactor.core.publisher.Mono&text=Mono" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.core.http.rest.PagedResponse?alt=com.azure.core.http.rest.PagedResponse&text=PagedResponse" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.resourcemanager.compute.fluent.inner.GalleryApplicationVersionInner?alt=com.azure.resourcemanager.compute.fluent.inner.GalleryApplicationVersionInner&text=GalleryApplicationVersionInner" data-throw-if-not-resolved="False" />&gt;&gt;
+type: method
+metadata: {}
+package: com.azure.resourcemanager.compute.fluent
+artifact: com.azure.resourcemanager:azure-resourcemanager-compute:2.0.0-beta.2

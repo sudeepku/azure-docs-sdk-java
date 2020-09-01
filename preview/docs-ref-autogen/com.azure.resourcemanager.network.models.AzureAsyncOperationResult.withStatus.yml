@@ -1,0 +1,23 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.network.models.AzureAsyncOperationResult.withStatus*
+fullName: com.azure.resourcemanager.network.models.AzureAsyncOperationResult.withStatus
+name: withStatus
+nameWithType: AzureAsyncOperationResult.withStatus
+members:
+- uid: com.azure.resourcemanager.network.models.AzureAsyncOperationResult.withStatus(com.azure.resourcemanager.network.models.NetworkOperationStatus)
+  fullName: com.azure.resourcemanager.network.models.AzureAsyncOperationResult.withStatus(NetworkOperationStatus status)
+  name: withStatus(NetworkOperationStatus status)
+  nameWithType: AzureAsyncOperationResult.withStatus(NetworkOperationStatus status)
+  summary: 'Set the status property: Status of the Azure async operation.'
+  parameters:
+  - description: the status value to set.
+    name: status
+    type: <xref href="com.azure.resourcemanager.network.models.NetworkOperationStatus?alt=com.azure.resourcemanager.network.models.NetworkOperationStatus&text=NetworkOperationStatus" data-throw-if-not-resolved="False" />
+  syntax: public AzureAsyncOperationResult withStatus(NetworkOperationStatus status)
+  returns:
+    description: the AzureAsyncOperationResult object itself.
+    type: <xref href="com.azure.resourcemanager.network.models.AzureAsyncOperationResult?alt=com.azure.resourcemanager.network.models.AzureAsyncOperationResult&text=AzureAsyncOperationResult" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.resourcemanager.network.models
+artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.0.0-beta.2

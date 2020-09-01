@@ -1,0 +1,16 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.appservice.models.RuntimeStack.NODEJS_4_5
+fullName: com.azure.resourcemanager.appservice.models.RuntimeStack.NODEJS_4_5
+name: NODEJS_4_5
+nameWithType: RuntimeStack.NODEJS_4_5
+members:
+- uid: com.azure.resourcemanager.appservice.models.RuntimeStack.NODEJS_4_5
+  fullName: com.azure.resourcemanager.appservice.models.RuntimeStack.NODEJS_4_5
+  name: NODEJS_4_5
+  nameWithType: RuntimeStack.NODEJS_4_5
+  summary: Node.JS 4.5.
+  syntax: public static final RuntimeStack NODEJS_4_5
+type: field
+metadata: {}
+package: com.azure.resourcemanager.appservice.models
+artifact: com.azure.resourcemanager:azure-resourcemanager-appservice:2.0.0-beta.2

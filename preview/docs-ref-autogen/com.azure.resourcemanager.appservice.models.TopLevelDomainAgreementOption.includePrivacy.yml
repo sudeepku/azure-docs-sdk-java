@@ -1,0 +1,21 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.appservice.models.TopLevelDomainAgreementOption.includePrivacy*
+fullName: com.azure.resourcemanager.appservice.models.TopLevelDomainAgreementOption.includePrivacy
+name: includePrivacy
+nameWithType: TopLevelDomainAgreementOption.includePrivacy
+members:
+- uid: com.azure.resourcemanager.appservice.models.TopLevelDomainAgreementOption.includePrivacy()
+  fullName: com.azure.resourcemanager.appservice.models.TopLevelDomainAgreementOption.includePrivacy()
+  name: includePrivacy()
+  nameWithType: TopLevelDomainAgreementOption.includePrivacy()
+  summary: |-
+    Get the includePrivacy property: If &lt;code&gt;true&lt;/code&gt;, then the list of agreements will include
+     agreements for domain privacy as well; otherwise, &lt;code&gt;false&lt;/code&gt;.
+  syntax: public Boolean includePrivacy()
+  returns:
+    description: the includePrivacy value.
+    type: <xref href="java.lang.Boolean?alt=java.lang.Boolean&text=Boolean" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.resourcemanager.appservice.models
+artifact: com.azure.resourcemanager:azure-resourcemanager-appservice:2.0.0-beta.2

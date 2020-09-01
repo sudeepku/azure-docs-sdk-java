@@ -1,0 +1,30 @@
+### YamlMime:JavaMember
+uid: com.azure.storage.file.datalake.DataLakePathAsyncClient.getProperties*
+fullName: com.azure.storage.file.datalake.DataLakePathAsyncClient.getProperties
+name: getProperties
+nameWithType: DataLakePathAsyncClient.getProperties
+members:
+- uid: com.azure.storage.file.datalake.DataLakePathAsyncClient.getProperties()
+  fullName: com.azure.storage.file.datalake.DataLakePathAsyncClient.getProperties()
+  name: getProperties()
+  nameWithType: DataLakePathAsyncClient.getProperties()
+  summary: |-
+    Returns the resources's metadata and properties.
+
+     <p><strong>Code Samples</strong></p>
+
+     <pre>
+     client.getProperties&#40;&#41;.subscribe&#40;response -&gt;
+         System.out.printf&#40;&quot;Creation Time: %s, Size: %d%n&quot;, response.getCreationTime&#40;&#41;, response.getFileSize&#40;&#41;&#41;&#41;;
+     </pre>
+
+     <p>For more information, see the
+     <a href="https://docs.microsoft.com/en-us/rest/api/storageservices/get-blob-properties">Azure Docs</a></p>
+  syntax: public Mono<PathProperties> getProperties()
+  returns:
+    description: A reactive response containing the resource's properties and metadata.
+    type: <xref href="reactor.core.publisher.Mono?alt=reactor.core.publisher.Mono&text=Mono" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.storage.file.datalake.models.PathProperties?alt=com.azure.storage.file.datalake.models.PathProperties&text=PathProperties" data-throw-if-not-resolved="False" />&gt;
+type: method
+metadata: {}
+package: com.azure.storage.file.datalake
+artifact: com.azure:azure-storage-file-datalake:12.2.0-beta.1

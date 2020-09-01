@@ -1,0 +1,33 @@
+### YamlMime:JavaMember
+uid: com.azure.search.documents.indexes.SearchIndexerAsyncClient.resetIndexer*
+fullName: com.azure.search.documents.indexes.SearchIndexerAsyncClient.resetIndexer
+name: resetIndexer
+nameWithType: SearchIndexerAsyncClient.resetIndexer
+members:
+- uid: com.azure.search.documents.indexes.SearchIndexerAsyncClient.resetIndexer(java.lang.String)
+  fullName: com.azure.search.documents.indexes.SearchIndexerAsyncClient.resetIndexer(String indexerName)
+  name: resetIndexer(String indexerName)
+  nameWithType: SearchIndexerAsyncClient.resetIndexer(String indexerName)
+  summary: |-
+    Resets the change tracking state associated with an indexer.
+
+     <p><strong>Code Sample</strong></p>
+
+     <p> Reset search indexer named "searchIndexer".  </p>
+
+     <pre>
+     searchIndexerAsyncClient.resetIndexer&#40;&quot;searchIndexer&quot;&#41;
+         .subscribe&#40;&#41;;
+     </pre>
+  parameters:
+  - description: the name of the indexer to reset
+    name: indexerName
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  syntax: public Mono<Void> resetIndexer(String indexerName)
+  returns:
+    description: a response signalling completion.
+    type: <xref href="reactor.core.publisher.Mono?alt=reactor.core.publisher.Mono&text=Mono" data-throw-if-not-resolved="False" />&lt;<xref href="java.lang.Void?alt=java.lang.Void&text=Void" data-throw-if-not-resolved="False" />&gt;
+type: method
+metadata: {}
+package: com.azure.search.documents.indexes
+artifact: com.azure:azure-search-documents:11.1.0-beta.1

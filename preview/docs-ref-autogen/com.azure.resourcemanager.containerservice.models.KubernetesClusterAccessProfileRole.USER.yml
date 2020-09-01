@@ -1,0 +1,16 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.containerservice.models.KubernetesClusterAccessProfileRole.USER
+fullName: com.azure.resourcemanager.containerservice.models.KubernetesClusterAccessProfileRole.USER
+name: USER
+nameWithType: KubernetesClusterAccessProfileRole.USER
+members:
+- uid: com.azure.resourcemanager.containerservice.models.KubernetesClusterAccessProfileRole.USER
+  fullName: com.azure.resourcemanager.containerservice.models.KubernetesClusterAccessProfileRole.USER
+  name: USER
+  nameWithType: KubernetesClusterAccessProfileRole.USER
+  summary: Static value Kubernetes access profile user role.
+  syntax: public static final KubernetesClusterAccessProfileRole USER
+type: field
+metadata: {}
+package: com.azure.resourcemanager.containerservice.models
+artifact: com.azure.resourcemanager:azure-resourcemanager-containerservice:2.0.0-beta.2

@@ -1,0 +1,57 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.network.fluent.VirtualNetworkPeeringsClient.beginCreateOrUpdateWithoutPollingWithResponseAsync*
+fullName: com.azure.resourcemanager.network.fluent.VirtualNetworkPeeringsClient.beginCreateOrUpdateWithoutPollingWithResponseAsync
+name: beginCreateOrUpdateWithoutPollingWithResponseAsync
+nameWithType: VirtualNetworkPeeringsClient.beginCreateOrUpdateWithoutPollingWithResponseAsync
+members:
+- uid: com.azure.resourcemanager.network.fluent.VirtualNetworkPeeringsClient.beginCreateOrUpdateWithoutPollingWithResponseAsync(java.lang.String,java.lang.String,java.lang.String,com.azure.resourcemanager.network.fluent.inner.VirtualNetworkPeeringInner)
+  fullName: com.azure.resourcemanager.network.fluent.VirtualNetworkPeeringsClient.beginCreateOrUpdateWithoutPollingWithResponseAsync(String resourceGroupName, String virtualNetworkName, String virtualNetworkPeeringName, VirtualNetworkPeeringInner virtualNetworkPeeringParameters)
+  name: beginCreateOrUpdateWithoutPollingWithResponseAsync(String resourceGroupName, String virtualNetworkName, String virtualNetworkPeeringName, VirtualNetworkPeeringInner virtualNetworkPeeringParameters)
+  nameWithType: VirtualNetworkPeeringsClient.beginCreateOrUpdateWithoutPollingWithResponseAsync(String resourceGroupName, String virtualNetworkName, String virtualNetworkPeeringName, VirtualNetworkPeeringInner virtualNetworkPeeringParameters)
+  summary: Creates or updates a peering in the specified virtual network.
+  parameters:
+  - description: The name of the resource group.
+    name: resourceGroupName
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  - description: The name of the virtual network.
+    name: virtualNetworkName
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  - description: The name of the peering.
+    name: virtualNetworkPeeringName
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  - description: Peerings in a virtual network resource.
+    name: virtualNetworkPeeringParameters
+    type: <xref href="com.azure.resourcemanager.network.fluent.inner.VirtualNetworkPeeringInner?alt=com.azure.resourcemanager.network.fluent.inner.VirtualNetworkPeeringInner&text=VirtualNetworkPeeringInner" data-throw-if-not-resolved="False" />
+  syntax: public Mono<Response<VirtualNetworkPeeringInner>> beginCreateOrUpdateWithoutPollingWithResponseAsync(String resourceGroupName, String virtualNetworkName, String virtualNetworkPeeringName, VirtualNetworkPeeringInner virtualNetworkPeeringParameters)
+  returns:
+    description: peerings in a virtual network resource.
+    type: <xref href="reactor.core.publisher.Mono?alt=reactor.core.publisher.Mono&text=Mono" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.core.http.rest.Response?alt=com.azure.core.http.rest.Response&text=Response" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.resourcemanager.network.fluent.inner.VirtualNetworkPeeringInner?alt=com.azure.resourcemanager.network.fluent.inner.VirtualNetworkPeeringInner&text=VirtualNetworkPeeringInner" data-throw-if-not-resolved="False" />&gt;&gt;
+- uid: com.azure.resourcemanager.network.fluent.VirtualNetworkPeeringsClient.beginCreateOrUpdateWithoutPollingWithResponseAsync(java.lang.String,java.lang.String,java.lang.String,com.azure.resourcemanager.network.fluent.inner.VirtualNetworkPeeringInner,com.azure.core.util.Context)
+  fullName: com.azure.resourcemanager.network.fluent.VirtualNetworkPeeringsClient.beginCreateOrUpdateWithoutPollingWithResponseAsync(String resourceGroupName, String virtualNetworkName, String virtualNetworkPeeringName, VirtualNetworkPeeringInner virtualNetworkPeeringParameters, Context context)
+  name: beginCreateOrUpdateWithoutPollingWithResponseAsync(String resourceGroupName, String virtualNetworkName, String virtualNetworkPeeringName, VirtualNetworkPeeringInner virtualNetworkPeeringParameters, Context context)
+  nameWithType: VirtualNetworkPeeringsClient.beginCreateOrUpdateWithoutPollingWithResponseAsync(String resourceGroupName, String virtualNetworkName, String virtualNetworkPeeringName, VirtualNetworkPeeringInner virtualNetworkPeeringParameters, Context context)
+  summary: Creates or updates a peering in the specified virtual network.
+  parameters:
+  - description: The name of the resource group.
+    name: resourceGroupName
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  - description: The name of the virtual network.
+    name: virtualNetworkName
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  - description: The name of the peering.
+    name: virtualNetworkPeeringName
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  - description: Peerings in a virtual network resource.
+    name: virtualNetworkPeeringParameters
+    type: <xref href="com.azure.resourcemanager.network.fluent.inner.VirtualNetworkPeeringInner?alt=com.azure.resourcemanager.network.fluent.inner.VirtualNetworkPeeringInner&text=VirtualNetworkPeeringInner" data-throw-if-not-resolved="False" />
+  - description: The context to associate with this operation.
+    name: context
+    type: <xref href="com.azure.core.util.Context?alt=com.azure.core.util.Context&text=Context" data-throw-if-not-resolved="False" />
+  syntax: public Mono<Response<VirtualNetworkPeeringInner>> beginCreateOrUpdateWithoutPollingWithResponseAsync(String resourceGroupName, String virtualNetworkName, String virtualNetworkPeeringName, VirtualNetworkPeeringInner virtualNetworkPeeringParameters, Context context)
+  returns:
+    description: peerings in a virtual network resource.
+    type: <xref href="reactor.core.publisher.Mono?alt=reactor.core.publisher.Mono&text=Mono" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.core.http.rest.Response?alt=com.azure.core.http.rest.Response&text=Response" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.resourcemanager.network.fluent.inner.VirtualNetworkPeeringInner?alt=com.azure.resourcemanager.network.fluent.inner.VirtualNetworkPeeringInner&text=VirtualNetworkPeeringInner" data-throw-if-not-resolved="False" />&gt;&gt;
+type: method
+metadata: {}
+package: com.azure.resourcemanager.network.fluent
+artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.0.0-beta.2

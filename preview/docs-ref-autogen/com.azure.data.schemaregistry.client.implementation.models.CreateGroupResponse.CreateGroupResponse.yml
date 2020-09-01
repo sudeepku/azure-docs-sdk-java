@@ -1,0 +1,32 @@
+### YamlMime:JavaMember
+uid: com.azure.data.schemaregistry.client.implementation.models.CreateGroupResponse.CreateGroupResponse*
+fullName: com.azure.data.schemaregistry.client.implementation.models.CreateGroupResponse.CreateGroupResponse
+name: CreateGroupResponse
+nameWithType: CreateGroupResponse.CreateGroupResponse
+members:
+- uid: com.azure.data.schemaregistry.client.implementation.models.CreateGroupResponse.CreateGroupResponse(com.azure.core.http.HttpRequest,int,com.azure.core.http.HttpHeaders,java.lang.Void,com.azure.data.schemaregistry.client.implementation.models.CreateGroupHeaders)
+  fullName: com.azure.data.schemaregistry.client.implementation.models.CreateGroupResponse.CreateGroupResponse(HttpRequest request, int statusCode, HttpHeaders rawHeaders, Void value, CreateGroupHeaders headers)
+  name: CreateGroupResponse(HttpRequest request, int statusCode, HttpHeaders rawHeaders, Void value, CreateGroupHeaders headers)
+  nameWithType: CreateGroupResponse.CreateGroupResponse(HttpRequest request, int statusCode, HttpHeaders rawHeaders, Void value, CreateGroupHeaders headers)
+  summary: Creates an instance of CreateGroupResponse.
+  parameters:
+  - description: the request which resulted in this CreateGroupResponse.
+    name: request
+    type: <xref href="com.azure.core.http.HttpRequest?alt=com.azure.core.http.HttpRequest&text=HttpRequest" data-throw-if-not-resolved="False" />
+  - description: the status code of the HTTP response.
+    name: statusCode
+    type: <xref href="int?alt=int&text=int" data-throw-if-not-resolved="False" />
+  - description: the raw headers of the HTTP response.
+    name: rawHeaders
+    type: <xref href="com.azure.core.http.HttpHeaders?alt=com.azure.core.http.HttpHeaders&text=HttpHeaders" data-throw-if-not-resolved="False" />
+  - description: the deserialized value of the HTTP response.
+    name: value
+    type: <xref href="java.lang.Void?alt=java.lang.Void&text=Void" data-throw-if-not-resolved="False" />
+  - description: the deserialized headers of the HTTP response.
+    name: headers
+    type: <xref href="com.azure.data.schemaregistry.client.implementation.models.CreateGroupHeaders?alt=com.azure.data.schemaregistry.client.implementation.models.CreateGroupHeaders&text=CreateGroupHeaders" data-throw-if-not-resolved="False" />
+  syntax: public CreateGroupResponse(HttpRequest request, int statusCode, HttpHeaders rawHeaders, Void value, CreateGroupHeaders headers)
+type: constructor
+metadata: {}
+package: com.azure.data.schemaregistry.client.implementation.models
+artifact: com.azure:azure-data-schemaregistry:1.0.0-beta.1

@@ -1,0 +1,55 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.appservice.fluent.WebAppsClient.updateWithResponseAsync*
+fullName: com.azure.resourcemanager.appservice.fluent.WebAppsClient.updateWithResponseAsync
+name: updateWithResponseAsync
+nameWithType: WebAppsClient.updateWithResponseAsync
+members:
+- uid: com.azure.resourcemanager.appservice.fluent.WebAppsClient.updateWithResponseAsync(java.lang.String,java.lang.String,com.azure.resourcemanager.appservice.fluent.inner.SitePatchResourceInner)
+  fullName: com.azure.resourcemanager.appservice.fluent.WebAppsClient.updateWithResponseAsync(String resourceGroupName, String name, SitePatchResourceInner siteEnvelope)
+  name: updateWithResponseAsync(String resourceGroupName, String name, SitePatchResourceInner siteEnvelope)
+  nameWithType: WebAppsClient.updateWithResponseAsync(String resourceGroupName, String name, SitePatchResourceInner siteEnvelope)
+  summary: Description for Creates a new web, mobile, or API app in an existing resource group, or updates an existing app.
+  parameters:
+  - description: Name of the resource group to which the resource belongs.
+    name: resourceGroupName
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  - description: |-
+      Unique name of the app to create or update. To create or update a deployment slot, use the {slot}
+           parameter.
+    name: name
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  - description: ARM resource for a site.
+    name: siteEnvelope
+    type: <xref href="com.azure.resourcemanager.appservice.fluent.inner.SitePatchResourceInner?alt=com.azure.resourcemanager.appservice.fluent.inner.SitePatchResourceInner&text=SitePatchResourceInner" data-throw-if-not-resolved="False" />
+  syntax: public Mono<Response<SiteInner>> updateWithResponseAsync(String resourceGroupName, String name, SitePatchResourceInner siteEnvelope)
+  returns:
+    description: a web app, a mobile app backend, or an API app.
+    type: <xref href="reactor.core.publisher.Mono?alt=reactor.core.publisher.Mono&text=Mono" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.core.http.rest.Response?alt=com.azure.core.http.rest.Response&text=Response" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.resourcemanager.appservice.fluent.inner.SiteInner?alt=com.azure.resourcemanager.appservice.fluent.inner.SiteInner&text=SiteInner" data-throw-if-not-resolved="False" />&gt;&gt;
+- uid: com.azure.resourcemanager.appservice.fluent.WebAppsClient.updateWithResponseAsync(java.lang.String,java.lang.String,com.azure.resourcemanager.appservice.fluent.inner.SitePatchResourceInner,com.azure.core.util.Context)
+  fullName: com.azure.resourcemanager.appservice.fluent.WebAppsClient.updateWithResponseAsync(String resourceGroupName, String name, SitePatchResourceInner siteEnvelope, Context context)
+  name: updateWithResponseAsync(String resourceGroupName, String name, SitePatchResourceInner siteEnvelope, Context context)
+  nameWithType: WebAppsClient.updateWithResponseAsync(String resourceGroupName, String name, SitePatchResourceInner siteEnvelope, Context context)
+  summary: Description for Creates a new web, mobile, or API app in an existing resource group, or updates an existing app.
+  parameters:
+  - description: Name of the resource group to which the resource belongs.
+    name: resourceGroupName
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  - description: |-
+      Unique name of the app to create or update. To create or update a deployment slot, use the {slot}
+           parameter.
+    name: name
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  - description: ARM resource for a site.
+    name: siteEnvelope
+    type: <xref href="com.azure.resourcemanager.appservice.fluent.inner.SitePatchResourceInner?alt=com.azure.resourcemanager.appservice.fluent.inner.SitePatchResourceInner&text=SitePatchResourceInner" data-throw-if-not-resolved="False" />
+  - description: The context to associate with this operation.
+    name: context
+    type: <xref href="com.azure.core.util.Context?alt=com.azure.core.util.Context&text=Context" data-throw-if-not-resolved="False" />
+  syntax: public Mono<Response<SiteInner>> updateWithResponseAsync(String resourceGroupName, String name, SitePatchResourceInner siteEnvelope, Context context)
+  returns:
+    description: a web app, a mobile app backend, or an API app.
+    type: <xref href="reactor.core.publisher.Mono?alt=reactor.core.publisher.Mono&text=Mono" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.core.http.rest.Response?alt=com.azure.core.http.rest.Response&text=Response" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.resourcemanager.appservice.fluent.inner.SiteInner?alt=com.azure.resourcemanager.appservice.fluent.inner.SiteInner&text=SiteInner" data-throw-if-not-resolved="False" />&gt;&gt;
+type: method
+metadata: {}
+package: com.azure.resourcemanager.appservice.fluent
+artifact: com.azure.resourcemanager:azure-resourcemanager-appservice:2.0.0-beta.2

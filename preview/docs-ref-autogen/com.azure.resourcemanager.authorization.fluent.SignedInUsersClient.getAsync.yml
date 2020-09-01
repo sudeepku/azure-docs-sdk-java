@@ -1,0 +1,32 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.authorization.fluent.SignedInUsersClient.getAsync*
+fullName: com.azure.resourcemanager.authorization.fluent.SignedInUsersClient.getAsync
+name: getAsync
+nameWithType: SignedInUsersClient.getAsync
+members:
+- uid: com.azure.resourcemanager.authorization.fluent.SignedInUsersClient.getAsync()
+  fullName: com.azure.resourcemanager.authorization.fluent.SignedInUsersClient.getAsync()
+  name: getAsync()
+  nameWithType: SignedInUsersClient.getAsync()
+  summary: Gets the details for the currently logged-in user.
+  syntax: public Mono<UserInner> getAsync()
+  returns:
+    description: the details for the currently logged-in user.
+    type: <xref href="reactor.core.publisher.Mono?alt=reactor.core.publisher.Mono&text=Mono" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.resourcemanager.authorization.fluent.inner.UserInner?alt=com.azure.resourcemanager.authorization.fluent.inner.UserInner&text=UserInner" data-throw-if-not-resolved="False" />&gt;
+- uid: com.azure.resourcemanager.authorization.fluent.SignedInUsersClient.getAsync(com.azure.core.util.Context)
+  fullName: com.azure.resourcemanager.authorization.fluent.SignedInUsersClient.getAsync(Context context)
+  name: getAsync(Context context)
+  nameWithType: SignedInUsersClient.getAsync(Context context)
+  summary: Gets the details for the currently logged-in user.
+  parameters:
+  - description: The context to associate with this operation.
+    name: context
+    type: <xref href="com.azure.core.util.Context?alt=com.azure.core.util.Context&text=Context" data-throw-if-not-resolved="False" />
+  syntax: public Mono<UserInner> getAsync(Context context)
+  returns:
+    description: the details for the currently logged-in user.
+    type: <xref href="reactor.core.publisher.Mono?alt=reactor.core.publisher.Mono&text=Mono" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.resourcemanager.authorization.fluent.inner.UserInner?alt=com.azure.resourcemanager.authorization.fluent.inner.UserInner&text=UserInner" data-throw-if-not-resolved="False" />&gt;
+type: method
+metadata: {}
+package: com.azure.resourcemanager.authorization.fluent
+artifact: com.azure.resourcemanager:azure-resourcemanager-authorization:2.0.0-beta.2

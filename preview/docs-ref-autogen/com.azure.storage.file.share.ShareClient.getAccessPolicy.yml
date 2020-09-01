@@ -1,0 +1,34 @@
+### YamlMime:JavaMember
+uid: com.azure.storage.file.share.ShareClient.getAccessPolicy*
+fullName: com.azure.storage.file.share.ShareClient.getAccessPolicy
+name: getAccessPolicy
+nameWithType: ShareClient.getAccessPolicy
+members:
+- uid: com.azure.storage.file.share.ShareClient.getAccessPolicy()
+  fullName: com.azure.storage.file.share.ShareClient.getAccessPolicy()
+  name: getAccessPolicy()
+  nameWithType: ShareClient.getAccessPolicy()
+  summary: |-
+    Retrieves stored access policies specified for the share.
+
+     <p><strong>Code Samples</strong></p>
+
+     <p>List the stored access policies</p>
+
+     <pre>
+     for &#40;ShareSignedIdentifier result : shareClient.getAccessPolicy&#40;&#41;&#41; &#123;
+         System.out.printf&#40;&quot;Access policy %s allows these permissions: %s&quot;,
+             result.getId&#40;&#41;, result.getAccessPolicy&#40;&#41;.getPermissions&#40;&#41;&#41;;
+     &#125;
+     </pre>
+
+     <p>For more information, see the
+     <a href="https://docs.microsoft.com/en-us/rest/api/storageservices/get-share-acl">Azure Docs</a>.</p>
+  syntax: public PagedIterable<ShareSignedIdentifier> getAccessPolicy()
+  returns:
+    description: The stored access policies specified on the queue.
+    type: <xref href="com.azure.core.http.rest.PagedIterable?alt=com.azure.core.http.rest.PagedIterable&text=PagedIterable" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.storage.file.share.models.ShareSignedIdentifier?alt=com.azure.storage.file.share.models.ShareSignedIdentifier&text=ShareSignedIdentifier" data-throw-if-not-resolved="False" />&gt;
+type: method
+metadata: {}
+package: com.azure.storage.file.share
+artifact: com.azure:azure-storage-file-share:12.6.0-beta.1

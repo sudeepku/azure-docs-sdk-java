@@ -1,0 +1,23 @@
+### YamlMime:JavaMember
+uid: com.azure.messaging.eventhubs.models.PartitionEvent.getDeserializedObject*
+fullName: com.azure.messaging.eventhubs.models.PartitionEvent.<T>getDeserializedObject
+name: <T>getDeserializedObject
+nameWithType: PartitionEvent.<T>getDeserializedObject
+members:
+- uid: com.azure.messaging.eventhubs.models.PartitionEvent.<T>getDeserializedObject(java.lang.Class<T>)
+  fullName: com.azure.messaging.eventhubs.models.PartitionEvent.<T>getDeserializedObject(Class<T> objectType)
+  name: <T>getDeserializedObject(Class<T> objectType)
+  nameWithType: PartitionEvent.<T>getDeserializedObject(Class<T> objectType)
+  summary: Deserializes event payload into object.
+  parameters:
+  - description: Class object of type T
+    name: objectType
+    type: <xref href="java.lang.Class?alt=java.lang.Class&text=Class" data-throw-if-not-resolved="False" />&lt;<xref href="T?alt=T&text=T" data-throw-if-not-resolved="False" />&gt;
+  syntax: public Mono<T> <T>getDeserializedObject(Class<T> objectType)
+  returns:
+    description: deserialized object as type T
+    type: <xref href="reactor.core.publisher.Mono?alt=reactor.core.publisher.Mono&text=Mono" data-throw-if-not-resolved="False" />&lt;<xref href="T?alt=T&text=T" data-throw-if-not-resolved="False" />&gt;
+type: method
+metadata: {}
+package: com.azure.messaging.eventhubs.models
+artifact: com.azure:azure-messaging-eventhubs:5.2.0-beta.2

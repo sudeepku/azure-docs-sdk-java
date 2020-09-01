@@ -1,0 +1,23 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.appservice.fluent.inner.SiteConfigResourceInner.withNodeVersion*
+fullName: com.azure.resourcemanager.appservice.fluent.inner.SiteConfigResourceInner.withNodeVersion
+name: withNodeVersion
+nameWithType: SiteConfigResourceInner.withNodeVersion
+members:
+- uid: com.azure.resourcemanager.appservice.fluent.inner.SiteConfigResourceInner.withNodeVersion(java.lang.String)
+  fullName: com.azure.resourcemanager.appservice.fluent.inner.SiteConfigResourceInner.withNodeVersion(String nodeVersion)
+  name: withNodeVersion(String nodeVersion)
+  nameWithType: SiteConfigResourceInner.withNodeVersion(String nodeVersion)
+  summary: 'Set the nodeVersion property: Version of Node.js.'
+  parameters:
+  - description: the nodeVersion value to set.
+    name: nodeVersion
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  syntax: public SiteConfigResourceInner withNodeVersion(String nodeVersion)
+  returns:
+    description: the SiteConfigResourceInner object itself.
+    type: <xref href="com.azure.resourcemanager.appservice.fluent.inner.SiteConfigResourceInner?alt=com.azure.resourcemanager.appservice.fluent.inner.SiteConfigResourceInner&text=SiteConfigResourceInner" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.resourcemanager.appservice.fluent.inner
+artifact: com.azure.resourcemanager:azure-resourcemanager-appservice:2.0.0-beta.2

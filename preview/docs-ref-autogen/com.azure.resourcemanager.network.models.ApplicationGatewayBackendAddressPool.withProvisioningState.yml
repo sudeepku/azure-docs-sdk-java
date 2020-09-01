@@ -1,0 +1,25 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.network.models.ApplicationGatewayBackendAddressPool.withProvisioningState*
+fullName: com.azure.resourcemanager.network.models.ApplicationGatewayBackendAddressPool.withProvisioningState
+name: withProvisioningState
+nameWithType: ApplicationGatewayBackendAddressPool.withProvisioningState
+members:
+- uid: com.azure.resourcemanager.network.models.ApplicationGatewayBackendAddressPool.withProvisioningState(java.lang.String)
+  fullName: com.azure.resourcemanager.network.models.ApplicationGatewayBackendAddressPool.withProvisioningState(String provisioningState)
+  name: withProvisioningState(String provisioningState)
+  nameWithType: ApplicationGatewayBackendAddressPool.withProvisioningState(String provisioningState)
+  summary: |-
+    Set the provisioningState property: Provisioning state of the backend address pool resource. Possible values are:
+     'Updating', 'Deleting', and 'Failed'.
+  parameters:
+  - description: the provisioningState value to set.
+    name: provisioningState
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  syntax: public ApplicationGatewayBackendAddressPool withProvisioningState(String provisioningState)
+  returns:
+    description: the ApplicationGatewayBackendAddressPool object itself.
+    type: <xref href="com.azure.resourcemanager.network.models.ApplicationGatewayBackendAddressPool?alt=com.azure.resourcemanager.network.models.ApplicationGatewayBackendAddressPool&text=ApplicationGatewayBackendAddressPool" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.resourcemanager.network.models
+artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.0.0-beta.2

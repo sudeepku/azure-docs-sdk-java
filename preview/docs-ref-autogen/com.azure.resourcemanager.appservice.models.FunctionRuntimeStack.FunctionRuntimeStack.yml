@@ -1,0 +1,31 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.appservice.models.FunctionRuntimeStack.FunctionRuntimeStack*
+fullName: com.azure.resourcemanager.appservice.models.FunctionRuntimeStack.FunctionRuntimeStack
+name: FunctionRuntimeStack
+nameWithType: FunctionRuntimeStack.FunctionRuntimeStack
+members:
+- uid: com.azure.resourcemanager.appservice.models.FunctionRuntimeStack.FunctionRuntimeStack(java.lang.String,java.lang.String,java.lang.String,java.lang.String)
+  fullName: com.azure.resourcemanager.appservice.models.FunctionRuntimeStack.FunctionRuntimeStack(String runtime, String version, String linuxFxVersionForConsumptionPlan, String linuxFxVersionForDedicatedPlan)
+  name: FunctionRuntimeStack(String runtime, String version, String linuxFxVersionForConsumptionPlan, String linuxFxVersionForDedicatedPlan)
+  nameWithType: FunctionRuntimeStack.FunctionRuntimeStack(String runtime, String version, String linuxFxVersionForConsumptionPlan, String linuxFxVersionForDedicatedPlan)
+  summary: Creates a custom function app runtime stack.
+  parameters:
+  - description: the language runtime
+    name: runtime
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  - description: the language runtime version
+    name: version
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  - description: the LinuxFxVersion property value, for Consumption plan
+    name: linuxFxVersionForConsumptionPlan
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  - description: |-
+      the LinuxFxVersion property value, for dedicated plan (app service plan or
+           premium)
+    name: linuxFxVersionForDedicatedPlan
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  syntax: public FunctionRuntimeStack(String runtime, String version, String linuxFxVersionForConsumptionPlan, String linuxFxVersionForDedicatedPlan)
+type: constructor
+metadata: {}
+package: com.azure.resourcemanager.appservice.models
+artifact: com.azure.resourcemanager:azure-resourcemanager-appservice:2.0.0-beta.2

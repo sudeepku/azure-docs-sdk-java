@@ -1,0 +1,19 @@
+### YamlMime:JavaMember
+uid: com.azure.ai.textanalytics.TextAnalyticsAsyncClient.getServiceVersion*
+fullName: com.azure.ai.textanalytics.TextAnalyticsAsyncClient.getServiceVersion
+name: getServiceVersion
+nameWithType: TextAnalyticsAsyncClient.getServiceVersion
+members:
+- uid: com.azure.ai.textanalytics.TextAnalyticsAsyncClient.getServiceVersion()
+  fullName: com.azure.ai.textanalytics.TextAnalyticsAsyncClient.getServiceVersion()
+  name: getServiceVersion()
+  nameWithType: TextAnalyticsAsyncClient.getServiceVersion()
+  summary: Gets the service version the client is using.
+  syntax: public TextAnalyticsServiceVersion getServiceVersion()
+  returns:
+    description: the service version the client is using.
+    type: <xref href="com.azure.ai.textanalytics.TextAnalyticsServiceVersion?alt=com.azure.ai.textanalytics.TextAnalyticsServiceVersion&text=TextAnalyticsServiceVersion" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.ai.textanalytics
+artifact: com.azure:azure-ai-textanalytics:1.0.0-beta.4

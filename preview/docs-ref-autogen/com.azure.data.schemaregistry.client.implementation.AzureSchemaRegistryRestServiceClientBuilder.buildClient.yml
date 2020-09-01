@@ -1,0 +1,19 @@
+### YamlMime:JavaMember
+uid: com.azure.data.schemaregistry.client.implementation.AzureSchemaRegistryRestServiceClientBuilder.buildClient*
+fullName: com.azure.data.schemaregistry.client.implementation.AzureSchemaRegistryRestServiceClientBuilder.buildClient
+name: buildClient
+nameWithType: AzureSchemaRegistryRestServiceClientBuilder.buildClient
+members:
+- uid: com.azure.data.schemaregistry.client.implementation.AzureSchemaRegistryRestServiceClientBuilder.buildClient()
+  fullName: com.azure.data.schemaregistry.client.implementation.AzureSchemaRegistryRestServiceClientBuilder.buildClient()
+  name: buildClient()
+  nameWithType: AzureSchemaRegistryRestServiceClientBuilder.buildClient()
+  summary: Builds an instance of AzureSchemaRegistryRestService with the provided parameters.
+  syntax: public AzureSchemaRegistryRestService buildClient()
+  returns:
+    description: an instance of AzureSchemaRegistryRestService.
+    type: <xref href="com.azure.data.schemaregistry.client.implementation.AzureSchemaRegistryRestService?alt=com.azure.data.schemaregistry.client.implementation.AzureSchemaRegistryRestService&text=AzureSchemaRegistryRestService" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.data.schemaregistry.client.implementation
+artifact: com.azure:azure-data-schemaregistry:1.0.0-beta.1

@@ -1,0 +1,16 @@
+### YamlMime:JavaMember
+uid: com.azure.search.documents.indexes.implementation.models.SearchIndexerDataSourceType.AZUREBLOB
+fullName: com.azure.search.documents.indexes.implementation.models.SearchIndexerDataSourceType.AZUREBLOB
+name: AZUREBLOB
+nameWithType: SearchIndexerDataSourceType.AZUREBLOB
+members:
+- uid: com.azure.search.documents.indexes.implementation.models.SearchIndexerDataSourceType.AZUREBLOB
+  fullName: com.azure.search.documents.indexes.implementation.models.SearchIndexerDataSourceType.AZUREBLOB
+  name: AZUREBLOB
+  nameWithType: SearchIndexerDataSourceType.AZUREBLOB
+  summary: Static value azureblob for SearchIndexerDataSourceType.
+  syntax: public static final SearchIndexerDataSourceType AZUREBLOB
+type: field
+metadata: {}
+package: com.azure.search.documents.indexes.implementation.models
+artifact: com.azure:azure-search-documents:11.0.0

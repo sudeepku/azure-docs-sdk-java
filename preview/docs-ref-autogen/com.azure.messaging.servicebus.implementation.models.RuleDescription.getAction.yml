@@ -1,0 +1,19 @@
+### YamlMime:JavaMember
+uid: com.azure.messaging.servicebus.implementation.models.RuleDescription.getAction*
+fullName: com.azure.messaging.servicebus.implementation.models.RuleDescription.getAction
+name: getAction
+nameWithType: RuleDescription.getAction
+members:
+- uid: com.azure.messaging.servicebus.implementation.models.RuleDescription.getAction()
+  fullName: com.azure.messaging.servicebus.implementation.models.RuleDescription.getAction()
+  name: getAction()
+  nameWithType: RuleDescription.getAction()
+  summary: 'Get the action property: The Action property.'
+  syntax: public RuleAction getAction()
+  returns:
+    description: the action value.
+    type: <xref href="com.azure.messaging.servicebus.implementation.models.RuleAction?alt=com.azure.messaging.servicebus.implementation.models.RuleAction&text=RuleAction" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.messaging.servicebus.implementation.models
+artifact: com.azure:azure-messaging-servicebus:7.0.0-beta.5

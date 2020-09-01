@@ -1,0 +1,15 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.network.models.P2SVpnServerConfigRadiusClientRootCertificate.P2SVpnServerConfigRadiusClientRootCertificate*
+fullName: com.azure.resourcemanager.network.models.P2SVpnServerConfigRadiusClientRootCertificate.P2SVpnServerConfigRadiusClientRootCertificate
+name: P2SVpnServerConfigRadiusClientRootCertificate
+nameWithType: P2SVpnServerConfigRadiusClientRootCertificate.P2SVpnServerConfigRadiusClientRootCertificate
+members:
+- uid: com.azure.resourcemanager.network.models.P2SVpnServerConfigRadiusClientRootCertificate.P2SVpnServerConfigRadiusClientRootCertificate()
+  fullName: com.azure.resourcemanager.network.models.P2SVpnServerConfigRadiusClientRootCertificate.P2SVpnServerConfigRadiusClientRootCertificate()
+  name: P2SVpnServerConfigRadiusClientRootCertificate()
+  nameWithType: P2SVpnServerConfigRadiusClientRootCertificate.P2SVpnServerConfigRadiusClientRootCertificate()
+  syntax: public P2SVpnServerConfigRadiusClientRootCertificate()
+type: constructor
+metadata: {}
+package: com.azure.resourcemanager.network.models
+artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.0.0-beta.2

@@ -1,0 +1,36 @@
+### YamlMime:JavaMember
+uid: com.azure.search.documents.indexes.SearchIndexAsyncClient.getIndexStatisticsWithResponse*
+fullName: com.azure.search.documents.indexes.SearchIndexAsyncClient.getIndexStatisticsWithResponse
+name: getIndexStatisticsWithResponse
+nameWithType: SearchIndexAsyncClient.getIndexStatisticsWithResponse
+members:
+- uid: com.azure.search.documents.indexes.SearchIndexAsyncClient.getIndexStatisticsWithResponse(java.lang.String)
+  fullName: com.azure.search.documents.indexes.SearchIndexAsyncClient.getIndexStatisticsWithResponse(String indexName)
+  name: getIndexStatisticsWithResponse(String indexName)
+  nameWithType: SearchIndexAsyncClient.getIndexStatisticsWithResponse(String indexName)
+  summary: |-
+    Returns statistics for the given index, including a document count and storage usage.
+
+     <p><strong>Code Sample</strong></p>
+
+     <p> Get search index "searchIndex" statistics. </p>
+
+     <pre>
+     searchIndexAsyncClient.getIndexStatisticsWithResponse&#40;&quot;searchIndex&quot;&#41;
+         .subscribe&#40;statistics -&gt; System.out.printf&#40;&quot;The status code of the response is %s.%n&quot;
+                 + &quot;There are %d documents and storage size of %d available in 'searchIndex'.%n&quot;,
+             statistics.getStatusCode&#40;&#41;, statistics.getValue&#40;&#41;.getDocumentCount&#40;&#41;,
+             statistics.getValue&#40;&#41;.getStorageSize&#40;&#41;&#41;&#41;;
+     </pre>
+  parameters:
+  - description: the name of the index for which to retrieve statistics
+    name: indexName
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  syntax: public Mono<Response<SearchIndexStatistics>> getIndexStatisticsWithResponse(String indexName)
+  returns:
+    description: a response containing the index statistics result.
+    type: <xref href="reactor.core.publisher.Mono?alt=reactor.core.publisher.Mono&text=Mono" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.core.http.rest.Response?alt=com.azure.core.http.rest.Response&text=Response" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.search.documents.indexes.models.SearchIndexStatistics?alt=com.azure.search.documents.indexes.models.SearchIndexStatistics&text=SearchIndexStatistics" data-throw-if-not-resolved="False" />&gt;&gt;
+type: method
+metadata: {}
+package: com.azure.search.documents.indexes
+artifact: com.azure:azure-search-documents:11.1.0-beta.1

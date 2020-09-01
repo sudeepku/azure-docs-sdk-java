@@ -1,0 +1,30 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.appservice.models.WebAppBase.zipDeploy*
+fullName: com.azure.resourcemanager.appservice.models.WebAppBase.zipDeploy
+name: zipDeploy
+nameWithType: WebAppBase.zipDeploy
+members:
+- uid: com.azure.resourcemanager.appservice.models.WebAppBase.zipDeploy(java.io.File)
+  fullName: com.azure.resourcemanager.appservice.models.WebAppBase.zipDeploy(File zipFile)
+  name: zipDeploy(File zipFile)
+  nameWithType: WebAppBase.zipDeploy(File zipFile)
+  summary: Deploys a ZIP file onto the Azure specialized Java SE image on this web app.
+  parameters:
+  - description: the ZIP file to upload
+    name: zipFile
+    type: <xref href="java.io.File?alt=java.io.File&text=File" data-throw-if-not-resolved="False" />
+  syntax: public abstract void zipDeploy(File zipFile)
+- uid: com.azure.resourcemanager.appservice.models.WebAppBase.zipDeploy(java.io.InputStream)
+  fullName: com.azure.resourcemanager.appservice.models.WebAppBase.zipDeploy(InputStream zipFile)
+  name: zipDeploy(InputStream zipFile)
+  nameWithType: WebAppBase.zipDeploy(InputStream zipFile)
+  summary: Deploys a ZIP file onto the Azure specialized Java SE image on this web app.
+  parameters:
+  - description: the ZIP file to upload
+    name: zipFile
+    type: <xref href="java.io.InputStream?alt=java.io.InputStream&text=InputStream" data-throw-if-not-resolved="False" />
+  syntax: public abstract void zipDeploy(InputStream zipFile)
+type: method
+metadata: {}
+package: com.azure.resourcemanager.appservice.models
+artifact: com.azure.resourcemanager:azure-resourcemanager-appservice:2.0.0-beta.2

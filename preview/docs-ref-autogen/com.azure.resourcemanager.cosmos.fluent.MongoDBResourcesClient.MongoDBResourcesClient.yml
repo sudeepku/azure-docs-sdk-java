@@ -1,0 +1,20 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.cosmos.fluent.MongoDBResourcesClient.MongoDBResourcesClient*
+fullName: com.azure.resourcemanager.cosmos.fluent.MongoDBResourcesClient.MongoDBResourcesClient
+name: MongoDBResourcesClient
+nameWithType: MongoDBResourcesClient.MongoDBResourcesClient
+members:
+- uid: com.azure.resourcemanager.cosmos.fluent.MongoDBResourcesClient.MongoDBResourcesClient(com.azure.resourcemanager.cosmos.CosmosDBManagementClient)
+  fullName: com.azure.resourcemanager.cosmos.fluent.MongoDBResourcesClient.MongoDBResourcesClient(CosmosDBManagementClient client)
+  name: MongoDBResourcesClient(CosmosDBManagementClient client)
+  nameWithType: MongoDBResourcesClient.MongoDBResourcesClient(CosmosDBManagementClient client)
+  summary: Initializes an instance of MongoDBResourcesClient.
+  parameters:
+  - description: the instance of the service client containing this operation class.
+    name: client
+    type: <xref href="com.azure.resourcemanager.cosmos.CosmosDBManagementClient?alt=com.azure.resourcemanager.cosmos.CosmosDBManagementClient&text=CosmosDBManagementClient" data-throw-if-not-resolved="False" />
+  syntax: public MongoDBResourcesClient(CosmosDBManagementClient client)
+type: constructor
+metadata: {}
+package: com.azure.resourcemanager.cosmos.fluent
+artifact: com.azure.resourcemanager:azure-resourcemanager-cosmos:2.0.0-beta.2

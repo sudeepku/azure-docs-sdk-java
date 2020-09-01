@@ -1,0 +1,32 @@
+### YamlMime:JavaMember
+nameWithType: Apps.publish
+type: method
+members:
+- fullName: com.microsoft.azure.cognitiveservices.language.luis.authoring.Apps.publish(UUID appId, ApplicationPublishObject applicationPublishObject)
+  name: publish(UUID appId, ApplicationPublishObject applicationPublishObject)
+  nameWithType: Apps.publish(UUID appId, ApplicationPublishObject applicationPublishObject)
+  parameters:
+  - description: <p>The application ID. </p>
+    name: appId
+    type: <xref href="UUID?alt=UUID&text=UUID" data-throw-if-not-resolved="False"/>
+  - description: <p>The application publish object. The region is the target region that the application is published to. </p>
+    name: applicationPublishObject
+    type: <xref href="com.microsoft.azure.cognitiveservices.language.luis.authoring.models.ApplicationPublishObject?alt=com.microsoft.azure.cognitiveservices.language.luis.authoring.models.ApplicationPublishObject&text=ApplicationPublishObject" data-throw-if-not-resolved="False"/>
+  exceptions:
+  - name: 3c87bd19
+  - name: 00ad4777
+  - name: 9b2a4515
+  returns:
+    description: <p>the ProductionOrStagingEndpointInfo object if successful. </p>
+    type: <xref href="com.microsoft.azure.cognitiveservices.language.luis.authoring.models.ProductionOrStagingEndpointInfo?alt=com.microsoft.azure.cognitiveservices.language.luis.authoring.models.ProductionOrStagingEndpointInfo&text=ProductionOrStagingEndpointInfo" data-throw-if-not-resolved="False"/>
+  summary: >-
+    <p>Publishes a specific version of the application.</p>
+
+    <p></p>
+  syntax: public ProductionOrStagingEndpointInfo publish(UUID appId, ApplicationPublishObject applicationPublishObject)
+  uid: com.microsoft.azure.cognitiveservices.language.luis.authoring.Apps.publish(UUID,ApplicationPublishObject)
+uid: com.microsoft.azure.cognitiveservices.language.luis.authoring.Apps.publish*
+fullName: com.microsoft.azure.cognitiveservices.language.luis.authoring.Apps.publish(UUID appId, ApplicationPublishObject applicationPublishObject)
+name: publish(UUID appId, ApplicationPublishObject applicationPublishObject)
+package: com.microsoft.azure.cognitiveservices.language.luis.authoring
+metadata: {}

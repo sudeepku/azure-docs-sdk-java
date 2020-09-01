@@ -1,0 +1,15 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.resources.fluent.inner.TemplateHashResultInner.TemplateHashResultInner*
+fullName: com.azure.resourcemanager.resources.fluent.inner.TemplateHashResultInner.TemplateHashResultInner
+name: TemplateHashResultInner
+nameWithType: TemplateHashResultInner.TemplateHashResultInner
+members:
+- uid: com.azure.resourcemanager.resources.fluent.inner.TemplateHashResultInner.TemplateHashResultInner()
+  fullName: com.azure.resourcemanager.resources.fluent.inner.TemplateHashResultInner.TemplateHashResultInner()
+  name: TemplateHashResultInner()
+  nameWithType: TemplateHashResultInner.TemplateHashResultInner()
+  syntax: public TemplateHashResultInner()
+type: constructor
+metadata: {}
+package: com.azure.resourcemanager.resources.fluent.inner
+artifact: com.azure.resourcemanager:azure-resourcemanager-resources:2.0.0-beta.2

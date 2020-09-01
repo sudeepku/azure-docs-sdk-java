@@ -1,0 +1,23 @@
+### YamlMime:JavaMember
+uid: com.azure.messaging.servicebus.ServiceBusManagementAsyncClient.getTopicRuntimeInfo*
+fullName: com.azure.messaging.servicebus.ServiceBusManagementAsyncClient.getTopicRuntimeInfo
+name: getTopicRuntimeInfo
+nameWithType: ServiceBusManagementAsyncClient.getTopicRuntimeInfo
+members:
+- uid: com.azure.messaging.servicebus.ServiceBusManagementAsyncClient.getTopicRuntimeInfo(java.lang.String)
+  fullName: com.azure.messaging.servicebus.ServiceBusManagementAsyncClient.getTopicRuntimeInfo(String topicName)
+  name: getTopicRuntimeInfo(String topicName)
+  nameWithType: ServiceBusManagementAsyncClient.getTopicRuntimeInfo(String topicName)
+  summary: Gets runtime information about the topic.
+  parameters:
+  - description: Name of topic to get information about.
+    name: topicName
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  syntax: public Mono<TopicRuntimeInfo> getTopicRuntimeInfo(String topicName)
+  returns:
+    description: A Mono that completes with runtime information about the topic.
+    type: <xref href="reactor.core.publisher.Mono?alt=reactor.core.publisher.Mono&text=Mono" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.messaging.servicebus.models.TopicRuntimeInfo?alt=com.azure.messaging.servicebus.models.TopicRuntimeInfo&text=TopicRuntimeInfo" data-throw-if-not-resolved="False" />&gt;
+type: method
+metadata: {}
+package: com.azure.messaging.servicebus
+artifact: com.azure:azure-messaging-servicebus:7.0.0-beta.5

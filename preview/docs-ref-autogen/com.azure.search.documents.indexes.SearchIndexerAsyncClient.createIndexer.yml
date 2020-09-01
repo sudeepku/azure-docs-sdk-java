@@ -1,0 +1,37 @@
+### YamlMime:JavaMember
+uid: com.azure.search.documents.indexes.SearchIndexerAsyncClient.createIndexer*
+fullName: com.azure.search.documents.indexes.SearchIndexerAsyncClient.createIndexer
+name: createIndexer
+nameWithType: SearchIndexerAsyncClient.createIndexer
+members:
+- uid: com.azure.search.documents.indexes.SearchIndexerAsyncClient.createIndexer(com.azure.search.documents.indexes.models.SearchIndexer)
+  fullName: com.azure.search.documents.indexes.SearchIndexerAsyncClient.createIndexer(SearchIndexer indexer)
+  name: createIndexer(SearchIndexer indexer)
+  nameWithType: SearchIndexerAsyncClient.createIndexer(SearchIndexer indexer)
+  summary: |-
+    Creates a new Azure Cognitive Search indexer.
+
+     <p><strong>Code Sample</strong></p>
+
+     <p> Create search indexer named "searchIndexer". </p>
+
+     <pre>
+     SearchIndexer searchIndexer = new SearchIndexer&#40;&quot;searchIndexer&quot;, &quot;dataSource&quot;,
+         &quot;searchIndex&quot;&#41;;
+     searchIndexerAsyncClient.createIndexer&#40;searchIndexer&#41;
+         .subscribe&#40;indexerFromService -&gt;
+             System.out.printf&#40;&quot;The indexer name is %s. The etag of indexer is %s.%n&quot;, indexerFromService.getName&#40;&#41;,
+             indexerFromService.getETag&#40;&#41;&#41;&#41;;
+     </pre>
+  parameters:
+  - description: definition of the indexer to create.
+    name: indexer
+    type: <xref href="com.azure.search.documents.indexes.models.SearchIndexer?alt=com.azure.search.documents.indexes.models.SearchIndexer&text=SearchIndexer" data-throw-if-not-resolved="False" />
+  syntax: public Mono<SearchIndexer> createIndexer(SearchIndexer indexer)
+  returns:
+    description: the created Indexer.
+    type: <xref href="reactor.core.publisher.Mono?alt=reactor.core.publisher.Mono&text=Mono" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.search.documents.indexes.models.SearchIndexer?alt=com.azure.search.documents.indexes.models.SearchIndexer&text=SearchIndexer" data-throw-if-not-resolved="False" />&gt;
+type: method
+metadata: {}
+package: com.azure.search.documents.indexes
+artifact: com.azure:azure-search-documents:11.1.0-beta.1

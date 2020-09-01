@@ -1,0 +1,22 @@
+### YamlMime:JavaMember
+uid: com.azure.data.schemaregistry.Codec.schemaType*
+fullName: com.azure.data.schemaregistry.Codec.schemaType
+name: schemaType
+nameWithType: Codec.schemaType
+members:
+- uid: com.azure.data.schemaregistry.Codec.schemaType()
+  fullName: com.azure.data.schemaregistry.Codec.schemaType()
+  name: schemaType()
+  nameWithType: Codec.schemaType()
+  syntax: public abstract String schemaType()
+  returns:
+    description: |-
+      String representation of schema type, e.g. "avro" or "json".
+
+       Utilized by schema registry store and client as non-case-sensitive tags for
+       schemas of a specific type.
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.data.schemaregistry
+artifact: com.azure:azure-data-schemaregistry:1.0.0-beta.1

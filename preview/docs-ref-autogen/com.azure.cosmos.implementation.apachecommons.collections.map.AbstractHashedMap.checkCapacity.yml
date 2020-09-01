@@ -1,0 +1,19 @@
+### YamlMime:JavaMember
+uid: com.azure.cosmos.implementation.apachecommons.collections.map.AbstractHashedMap.checkCapacity*
+fullName: com.azure.cosmos.implementation.apachecommons.collections.map.AbstractHashedMap<K,V>.checkCapacity
+name: checkCapacity
+nameWithType: AbstractHashedMap<K,V>.checkCapacity
+members:
+- uid: com.azure.cosmos.implementation.apachecommons.collections.map.AbstractHashedMap.checkCapacity()
+  fullName: com.azure.cosmos.implementation.apachecommons.collections.map.AbstractHashedMap<K,V>.checkCapacity()
+  name: checkCapacity()
+  nameWithType: AbstractHashedMap<K,V>.checkCapacity()
+  summary: |-
+    Checks the capacity of the map and enlarges it if necessary.
+     <p>
+     This implementation uses the threshold to check if the map needs enlarging
+  syntax: protected void checkCapacity()
+type: method
+metadata: {}
+package: com.azure.cosmos.implementation.apachecommons.collections.map
+artifact: com.azure:azure-cosmos:4.3.2-beta.2

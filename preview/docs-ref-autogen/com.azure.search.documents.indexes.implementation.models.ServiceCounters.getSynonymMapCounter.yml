@@ -1,0 +1,19 @@
+### YamlMime:JavaMember
+uid: com.azure.search.documents.indexes.implementation.models.ServiceCounters.getSynonymMapCounter*
+fullName: com.azure.search.documents.indexes.implementation.models.ServiceCounters.getSynonymMapCounter
+name: getSynonymMapCounter
+nameWithType: ServiceCounters.getSynonymMapCounter
+members:
+- uid: com.azure.search.documents.indexes.implementation.models.ServiceCounters.getSynonymMapCounter()
+  fullName: com.azure.search.documents.indexes.implementation.models.ServiceCounters.getSynonymMapCounter()
+  name: getSynonymMapCounter()
+  nameWithType: ServiceCounters.getSynonymMapCounter()
+  summary: 'Get the synonymMapCounter property: Total number of synonym maps.'
+  syntax: public ResourceCounter getSynonymMapCounter()
+  returns:
+    description: the synonymMapCounter value.
+    type: <xref href="com.azure.search.documents.indexes.implementation.models.ResourceCounter?alt=com.azure.search.documents.indexes.implementation.models.ResourceCounter&text=ResourceCounter" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.search.documents.indexes.implementation.models
+artifact: com.azure:azure-search-documents:11.1.0-beta.1

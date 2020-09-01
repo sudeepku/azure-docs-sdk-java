@@ -1,0 +1,25 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.network.fluent.inner.VirtualNetworkGatewayInner.withCustomRoutes*
+fullName: com.azure.resourcemanager.network.fluent.inner.VirtualNetworkGatewayInner.withCustomRoutes
+name: withCustomRoutes
+nameWithType: VirtualNetworkGatewayInner.withCustomRoutes
+members:
+- uid: com.azure.resourcemanager.network.fluent.inner.VirtualNetworkGatewayInner.withCustomRoutes(com.azure.resourcemanager.network.models.AddressSpace)
+  fullName: com.azure.resourcemanager.network.fluent.inner.VirtualNetworkGatewayInner.withCustomRoutes(AddressSpace customRoutes)
+  name: withCustomRoutes(AddressSpace customRoutes)
+  nameWithType: VirtualNetworkGatewayInner.withCustomRoutes(AddressSpace customRoutes)
+  summary: |-
+    Set the customRoutes property: The reference of the address space resource which represents the custom routes
+     address space specified by the customer for virtual network gateway and VpnClient.
+  parameters:
+  - description: the customRoutes value to set.
+    name: customRoutes
+    type: <xref href="com.azure.resourcemanager.network.models.AddressSpace?alt=com.azure.resourcemanager.network.models.AddressSpace&text=AddressSpace" data-throw-if-not-resolved="False" />
+  syntax: public VirtualNetworkGatewayInner withCustomRoutes(AddressSpace customRoutes)
+  returns:
+    description: the VirtualNetworkGatewayInner object itself.
+    type: <xref href="com.azure.resourcemanager.network.fluent.inner.VirtualNetworkGatewayInner?alt=com.azure.resourcemanager.network.fluent.inner.VirtualNetworkGatewayInner&text=VirtualNetworkGatewayInner" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.resourcemanager.network.fluent.inner
+artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.0.0-beta.2

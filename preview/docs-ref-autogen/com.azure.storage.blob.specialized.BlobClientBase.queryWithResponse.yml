@@ -1,0 +1,61 @@
+### YamlMime:JavaMember
+uid: com.azure.storage.blob.specialized.BlobClientBase.queryWithResponse*
+fullName: com.azure.storage.blob.specialized.BlobClientBase.queryWithResponse
+name: queryWithResponse
+nameWithType: BlobClientBase.queryWithResponse
+members:
+- uid: com.azure.storage.blob.specialized.BlobClientBase.queryWithResponse(com.azure.storage.blob.options.BlobQueryOptions,java.time.Duration,com.azure.core.util.Context)
+  fullName: com.azure.storage.blob.specialized.BlobClientBase.queryWithResponse(BlobQueryOptions queryOptions, Duration timeout, Context context)
+  name: queryWithResponse(BlobQueryOptions queryOptions, Duration timeout, Context context)
+  nameWithType: BlobClientBase.queryWithResponse(BlobQueryOptions queryOptions, Duration timeout, Context context)
+  summary: |-
+    Queries an entire blob into an output stream.
+
+     <p>For more information, see the
+     <a href="https://docs.microsoft.com/en-us/rest/api/storageservices/query-blob-contents">Azure Docs</a></p>
+
+     <p><strong>Code Samples</strong></p>
+
+     <pre>
+     ByteArrayOutputStream queryData = new ByteArrayOutputStream&#40;&#41;;
+     String expression = &quot;SELECT * from BlobStorage&quot;;
+     BlobQueryJsonSerialization input = new BlobQueryJsonSerialization&#40;&#41;
+         .setRecordSeparator&#40;'&#92;n'&#41;;
+     BlobQueryDelimitedSerialization output = new BlobQueryDelimitedSerialization&#40;&#41;
+         .setEscapeChar&#40;'&#92;0'&#41;
+         .setColumnSeparator&#40;','&#41;
+         .setRecordSeparator&#40;'&#92;n'&#41;
+         .setFieldQuote&#40;'&#92;''&#41;
+         .setHeadersPresent&#40;true&#41;;
+     BlobRequestConditions requestConditions = new BlobRequestConditions&#40;&#41;.setLeaseId&#40;leaseId&#41;;
+     Consumer&lt;BlobQueryError&gt; errorConsumer = System.out::println;
+     Consumer&lt;BlobQueryProgress&gt; progressConsumer = progress -&gt; System.out.println&#40;&quot;total blob bytes read: &quot;
+         + progress.getBytesScanned&#40;&#41;&#41;;
+     BlobQueryOptions queryOptions = new BlobQueryOptions&#40;expression, queryData&#41;
+         .setInputSerialization&#40;input&#41;
+         .setOutputSerialization&#40;output&#41;
+         .setRequestConditions&#40;requestConditions&#41;
+         .setErrorConsumer&#40;errorConsumer&#41;
+         .setProgressConsumer&#40;progressConsumer&#41;;
+     System.out.printf&#40;&quot;Query completed with status %d%n&quot;,
+         client.queryWithResponse&#40;queryOptions, timeout, new Context&#40;key1, value1&#41;&#41;
+             .getStatusCode&#40;&#41;&#41;;
+     </pre>
+  parameters:
+  - description: <xref uid="com.azure.storage.blob.options.BlobQueryOptions" data-throw-if-not-resolved="false">The query options</xref>.
+    name: queryOptions
+    type: <xref href="com.azure.storage.blob.options.BlobQueryOptions?alt=com.azure.storage.blob.options.BlobQueryOptions&text=BlobQueryOptions" data-throw-if-not-resolved="False" />
+  - description: An optional timeout value beyond which a <xref uid="" data-throw-if-not-resolved="false">RuntimeException</xref> will be raised.
+    name: timeout
+    type: <xref href="java.time.Duration?alt=java.time.Duration&text=Duration" data-throw-if-not-resolved="False" />
+  - description: Additional context that is passed through the Http pipeline during the service call.
+    name: context
+    type: <xref href="com.azure.core.util.Context?alt=com.azure.core.util.Context&text=Context" data-throw-if-not-resolved="False" />
+  syntax: public BlobQueryResponse queryWithResponse(BlobQueryOptions queryOptions, Duration timeout, Context context)
+  returns:
+    description: A response containing status code and HTTP headers.
+    type: <xref href="com.azure.storage.blob.models.BlobQueryResponse?alt=com.azure.storage.blob.models.BlobQueryResponse&text=BlobQueryResponse" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.storage.blob.specialized
+artifact: com.azure:azure-storage-blob:12.8.0-beta.1

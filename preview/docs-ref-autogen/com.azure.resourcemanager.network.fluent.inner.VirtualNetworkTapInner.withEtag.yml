@@ -1,0 +1,23 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.network.fluent.inner.VirtualNetworkTapInner.withEtag*
+fullName: com.azure.resourcemanager.network.fluent.inner.VirtualNetworkTapInner.withEtag
+name: withEtag
+nameWithType: VirtualNetworkTapInner.withEtag
+members:
+- uid: com.azure.resourcemanager.network.fluent.inner.VirtualNetworkTapInner.withEtag(java.lang.String)
+  fullName: com.azure.resourcemanager.network.fluent.inner.VirtualNetworkTapInner.withEtag(String etag)
+  name: withEtag(String etag)
+  nameWithType: VirtualNetworkTapInner.withEtag(String etag)
+  summary: 'Set the etag property: Gets a unique read-only string that changes whenever the resource is updated.'
+  parameters:
+  - description: the etag value to set.
+    name: etag
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  syntax: public VirtualNetworkTapInner withEtag(String etag)
+  returns:
+    description: the VirtualNetworkTapInner object itself.
+    type: <xref href="com.azure.resourcemanager.network.fluent.inner.VirtualNetworkTapInner?alt=com.azure.resourcemanager.network.fluent.inner.VirtualNetworkTapInner&text=VirtualNetworkTapInner" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.resourcemanager.network.fluent.inner
+artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.0.0-beta.2

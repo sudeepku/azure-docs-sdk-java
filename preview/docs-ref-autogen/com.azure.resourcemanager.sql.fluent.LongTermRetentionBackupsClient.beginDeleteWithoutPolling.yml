@@ -1,0 +1,51 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.sql.fluent.LongTermRetentionBackupsClient.beginDeleteWithoutPolling*
+fullName: com.azure.resourcemanager.sql.fluent.LongTermRetentionBackupsClient.beginDeleteWithoutPolling
+name: beginDeleteWithoutPolling
+nameWithType: LongTermRetentionBackupsClient.beginDeleteWithoutPolling
+members:
+- uid: com.azure.resourcemanager.sql.fluent.LongTermRetentionBackupsClient.beginDeleteWithoutPolling(java.lang.String,java.lang.String,java.lang.String,java.lang.String)
+  fullName: com.azure.resourcemanager.sql.fluent.LongTermRetentionBackupsClient.beginDeleteWithoutPolling(String locationName, String longTermRetentionServerName, String longTermRetentionDatabaseName, String backupName)
+  name: beginDeleteWithoutPolling(String locationName, String longTermRetentionServerName, String longTermRetentionDatabaseName, String backupName)
+  nameWithType: LongTermRetentionBackupsClient.beginDeleteWithoutPolling(String locationName, String longTermRetentionServerName, String longTermRetentionDatabaseName, String backupName)
+  summary: Deletes a long term retention backup.
+  parameters:
+  - description: The location of the database.
+    name: locationName
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  - description: The name of the server.
+    name: longTermRetentionServerName
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  - description: The name of the database.
+    name: longTermRetentionDatabaseName
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  - description: The backup name.
+    name: backupName
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  syntax: public void beginDeleteWithoutPolling(String locationName, String longTermRetentionServerName, String longTermRetentionDatabaseName, String backupName)
+- uid: com.azure.resourcemanager.sql.fluent.LongTermRetentionBackupsClient.beginDeleteWithoutPolling(java.lang.String,java.lang.String,java.lang.String,java.lang.String,com.azure.core.util.Context)
+  fullName: com.azure.resourcemanager.sql.fluent.LongTermRetentionBackupsClient.beginDeleteWithoutPolling(String locationName, String longTermRetentionServerName, String longTermRetentionDatabaseName, String backupName, Context context)
+  name: beginDeleteWithoutPolling(String locationName, String longTermRetentionServerName, String longTermRetentionDatabaseName, String backupName, Context context)
+  nameWithType: LongTermRetentionBackupsClient.beginDeleteWithoutPolling(String locationName, String longTermRetentionServerName, String longTermRetentionDatabaseName, String backupName, Context context)
+  summary: Deletes a long term retention backup.
+  parameters:
+  - description: The location of the database.
+    name: locationName
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  - description: The name of the server.
+    name: longTermRetentionServerName
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  - description: The name of the database.
+    name: longTermRetentionDatabaseName
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  - description: The backup name.
+    name: backupName
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  - description: The context to associate with this operation.
+    name: context
+    type: <xref href="com.azure.core.util.Context?alt=com.azure.core.util.Context&text=Context" data-throw-if-not-resolved="False" />
+  syntax: public void beginDeleteWithoutPolling(String locationName, String longTermRetentionServerName, String longTermRetentionDatabaseName, String backupName, Context context)
+type: method
+metadata: {}
+package: com.azure.resourcemanager.sql.fluent
+artifact: com.azure.resourcemanager:azure-resourcemanager-sql:2.0.0-beta.2

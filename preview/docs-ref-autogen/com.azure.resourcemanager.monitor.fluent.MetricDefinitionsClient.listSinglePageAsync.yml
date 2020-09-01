@@ -1,0 +1,45 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.monitor.fluent.MetricDefinitionsClient.listSinglePageAsync*
+fullName: com.azure.resourcemanager.monitor.fluent.MetricDefinitionsClient.listSinglePageAsync
+name: listSinglePageAsync
+nameWithType: MetricDefinitionsClient.listSinglePageAsync
+members:
+- uid: com.azure.resourcemanager.monitor.fluent.MetricDefinitionsClient.listSinglePageAsync(java.lang.String,java.lang.String)
+  fullName: com.azure.resourcemanager.monitor.fluent.MetricDefinitionsClient.listSinglePageAsync(String resourceUri, String metricnamespace)
+  name: listSinglePageAsync(String resourceUri, String metricnamespace)
+  nameWithType: MetricDefinitionsClient.listSinglePageAsync(String resourceUri, String metricnamespace)
+  summary: Lists the metric definitions for the resource.
+  parameters:
+  - description: The identifier of the resource.
+    name: resourceUri
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  - description: Metric namespace to query metric definitions for.
+    name: metricnamespace
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  syntax: public Mono<PagedResponse<MetricDefinitionInner>> listSinglePageAsync(String resourceUri, String metricnamespace)
+  returns:
+    description: represents collection of metric definitions.
+    type: <xref href="reactor.core.publisher.Mono?alt=reactor.core.publisher.Mono&text=Mono" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.core.http.rest.PagedResponse?alt=com.azure.core.http.rest.PagedResponse&text=PagedResponse" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.resourcemanager.monitor.fluent.inner.MetricDefinitionInner?alt=com.azure.resourcemanager.monitor.fluent.inner.MetricDefinitionInner&text=MetricDefinitionInner" data-throw-if-not-resolved="False" />&gt;&gt;
+- uid: com.azure.resourcemanager.monitor.fluent.MetricDefinitionsClient.listSinglePageAsync(java.lang.String,java.lang.String,com.azure.core.util.Context)
+  fullName: com.azure.resourcemanager.monitor.fluent.MetricDefinitionsClient.listSinglePageAsync(String resourceUri, String metricnamespace, Context context)
+  name: listSinglePageAsync(String resourceUri, String metricnamespace, Context context)
+  nameWithType: MetricDefinitionsClient.listSinglePageAsync(String resourceUri, String metricnamespace, Context context)
+  summary: Lists the metric definitions for the resource.
+  parameters:
+  - description: The identifier of the resource.
+    name: resourceUri
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  - description: Metric namespace to query metric definitions for.
+    name: metricnamespace
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  - description: The context to associate with this operation.
+    name: context
+    type: <xref href="com.azure.core.util.Context?alt=com.azure.core.util.Context&text=Context" data-throw-if-not-resolved="False" />
+  syntax: public Mono<PagedResponse<MetricDefinitionInner>> listSinglePageAsync(String resourceUri, String metricnamespace, Context context)
+  returns:
+    description: represents collection of metric definitions.
+    type: <xref href="reactor.core.publisher.Mono?alt=reactor.core.publisher.Mono&text=Mono" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.core.http.rest.PagedResponse?alt=com.azure.core.http.rest.PagedResponse&text=PagedResponse" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.resourcemanager.monitor.fluent.inner.MetricDefinitionInner?alt=com.azure.resourcemanager.monitor.fluent.inner.MetricDefinitionInner&text=MetricDefinitionInner" data-throw-if-not-resolved="False" />&gt;&gt;
+type: method
+metadata: {}
+package: com.azure.resourcemanager.monitor.fluent
+artifact: com.azure.resourcemanager:azure-resourcemanager-monitor:2.0.0-beta.2

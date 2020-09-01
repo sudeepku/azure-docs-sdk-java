@@ -1,0 +1,23 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.appservice.fluent.inner.StaticSiteFunctionOverviewCollectionInner.withValue*
+fullName: com.azure.resourcemanager.appservice.fluent.inner.StaticSiteFunctionOverviewCollectionInner.withValue
+name: withValue
+nameWithType: StaticSiteFunctionOverviewCollectionInner.withValue
+members:
+- uid: com.azure.resourcemanager.appservice.fluent.inner.StaticSiteFunctionOverviewCollectionInner.withValue(java.util.List<com.azure.resourcemanager.appservice.fluent.inner.StaticSiteFunctionOverviewArmResourceInner>)
+  fullName: com.azure.resourcemanager.appservice.fluent.inner.StaticSiteFunctionOverviewCollectionInner.withValue(List<StaticSiteFunctionOverviewArmResourceInner> value)
+  name: withValue(List<StaticSiteFunctionOverviewArmResourceInner> value)
+  nameWithType: StaticSiteFunctionOverviewCollectionInner.withValue(List<StaticSiteFunctionOverviewArmResourceInner> value)
+  summary: 'Set the value property: Collection of resources.'
+  parameters:
+  - description: the value value to set.
+    name: value
+    type: <xref href="java.util.List?alt=java.util.List&text=List" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.resourcemanager.appservice.fluent.inner.StaticSiteFunctionOverviewArmResourceInner?alt=com.azure.resourcemanager.appservice.fluent.inner.StaticSiteFunctionOverviewArmResourceInner&text=StaticSiteFunctionOverviewArmResourceInner" data-throw-if-not-resolved="False" />&gt;
+  syntax: public StaticSiteFunctionOverviewCollectionInner withValue(List<StaticSiteFunctionOverviewArmResourceInner> value)
+  returns:
+    description: the StaticSiteFunctionOverviewCollectionInner object itself.
+    type: <xref href="com.azure.resourcemanager.appservice.fluent.inner.StaticSiteFunctionOverviewCollectionInner?alt=com.azure.resourcemanager.appservice.fluent.inner.StaticSiteFunctionOverviewCollectionInner&text=StaticSiteFunctionOverviewCollectionInner" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.resourcemanager.appservice.fluent.inner
+artifact: com.azure.resourcemanager:azure-resourcemanager-appservice:2.0.0-beta.2

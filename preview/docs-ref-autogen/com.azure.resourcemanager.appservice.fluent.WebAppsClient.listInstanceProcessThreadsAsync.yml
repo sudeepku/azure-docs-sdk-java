@@ -1,0 +1,61 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.appservice.fluent.WebAppsClient.listInstanceProcessThreadsAsync*
+fullName: com.azure.resourcemanager.appservice.fluent.WebAppsClient.listInstanceProcessThreadsAsync
+name: listInstanceProcessThreadsAsync
+nameWithType: WebAppsClient.listInstanceProcessThreadsAsync
+members:
+- uid: com.azure.resourcemanager.appservice.fluent.WebAppsClient.listInstanceProcessThreadsAsync(java.lang.String,java.lang.String,java.lang.String,java.lang.String)
+  fullName: com.azure.resourcemanager.appservice.fluent.WebAppsClient.listInstanceProcessThreadsAsync(String resourceGroupName, String name, String processId, String instanceId)
+  name: listInstanceProcessThreadsAsync(String resourceGroupName, String name, String processId, String instanceId)
+  nameWithType: WebAppsClient.listInstanceProcessThreadsAsync(String resourceGroupName, String name, String processId, String instanceId)
+  summary: Description for List the threads in a process by its ID for a specific scaled-out instance in a web site.
+  parameters:
+  - description: Name of the resource group to which the resource belongs.
+    name: resourceGroupName
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  - description: Site name.
+    name: name
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  - description: PID.
+    name: processId
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  - description: |-
+      ID of a specific scaled-out instance. This is the value of the name property in the JSON
+           response from "GET api/sites/{siteName}/instances".
+    name: instanceId
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  syntax: public PagedFlux<ProcessThreadInfoInner> listInstanceProcessThreadsAsync(String resourceGroupName, String name, String processId, String instanceId)
+  returns:
+    description: collection of Kudu thread information elements.
+    type: <xref href="com.azure.core.http.rest.PagedFlux?alt=com.azure.core.http.rest.PagedFlux&text=PagedFlux" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.resourcemanager.appservice.fluent.inner.ProcessThreadInfoInner?alt=com.azure.resourcemanager.appservice.fluent.inner.ProcessThreadInfoInner&text=ProcessThreadInfoInner" data-throw-if-not-resolved="False" />&gt;
+- uid: com.azure.resourcemanager.appservice.fluent.WebAppsClient.listInstanceProcessThreadsAsync(java.lang.String,java.lang.String,java.lang.String,java.lang.String,com.azure.core.util.Context)
+  fullName: com.azure.resourcemanager.appservice.fluent.WebAppsClient.listInstanceProcessThreadsAsync(String resourceGroupName, String name, String processId, String instanceId, Context context)
+  name: listInstanceProcessThreadsAsync(String resourceGroupName, String name, String processId, String instanceId, Context context)
+  nameWithType: WebAppsClient.listInstanceProcessThreadsAsync(String resourceGroupName, String name, String processId, String instanceId, Context context)
+  summary: Description for List the threads in a process by its ID for a specific scaled-out instance in a web site.
+  parameters:
+  - description: Name of the resource group to which the resource belongs.
+    name: resourceGroupName
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  - description: Site name.
+    name: name
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  - description: PID.
+    name: processId
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  - description: |-
+      ID of a specific scaled-out instance. This is the value of the name property in the JSON
+           response from "GET api/sites/{siteName}/instances".
+    name: instanceId
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  - description: The context to associate with this operation.
+    name: context
+    type: <xref href="com.azure.core.util.Context?alt=com.azure.core.util.Context&text=Context" data-throw-if-not-resolved="False" />
+  syntax: public PagedFlux<ProcessThreadInfoInner> listInstanceProcessThreadsAsync(String resourceGroupName, String name, String processId, String instanceId, Context context)
+  returns:
+    description: collection of Kudu thread information elements.
+    type: <xref href="com.azure.core.http.rest.PagedFlux?alt=com.azure.core.http.rest.PagedFlux&text=PagedFlux" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.resourcemanager.appservice.fluent.inner.ProcessThreadInfoInner?alt=com.azure.resourcemanager.appservice.fluent.inner.ProcessThreadInfoInner&text=ProcessThreadInfoInner" data-throw-if-not-resolved="False" />&gt;
+type: method
+metadata: {}
+package: com.azure.resourcemanager.appservice.fluent
+artifact: com.azure.resourcemanager:azure-resourcemanager-appservice:2.0.0-beta.2

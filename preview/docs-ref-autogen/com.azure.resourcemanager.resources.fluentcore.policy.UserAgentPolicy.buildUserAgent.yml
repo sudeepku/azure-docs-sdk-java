@@ -1,0 +1,24 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.resources.fluentcore.policy.UserAgentPolicy.buildUserAgent*
+fullName: com.azure.resourcemanager.resources.fluentcore.policy.UserAgentPolicy.buildUserAgent
+name: buildUserAgent
+nameWithType: UserAgentPolicy.buildUserAgent
+members:
+- uid: com.azure.resourcemanager.resources.fluentcore.policy.UserAgentPolicy.buildUserAgent(java.lang.String,java.lang.String,java.lang.String)
+  fullName: com.azure.resourcemanager.resources.fluentcore.policy.UserAgentPolicy.buildUserAgent(String applicationId, String sdkName, String sdkVersion)
+  name: buildUserAgent(String applicationId, String sdkName, String sdkVersion)
+  nameWithType: UserAgentPolicy.buildUserAgent(String applicationId, String sdkName, String sdkVersion)
+  parameters:
+  - name: applicationId
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  - name: sdkName
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  - name: sdkVersion
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  syntax: protected String buildUserAgent(String applicationId, String sdkName, String sdkVersion)
+  returns:
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.resourcemanager.resources.fluentcore.policy
+artifact: com.azure.resourcemanager:azure-resourcemanager-resources:2.0.0-beta.2

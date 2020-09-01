@@ -1,0 +1,15 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.authorization.fluent.inner.OAuth2PermissionGrantListResultInner.OAuth2PermissionGrantListResultInner*
+fullName: com.azure.resourcemanager.authorization.fluent.inner.OAuth2PermissionGrantListResultInner.OAuth2PermissionGrantListResultInner
+name: OAuth2PermissionGrantListResultInner
+nameWithType: OAuth2PermissionGrantListResultInner.OAuth2PermissionGrantListResultInner
+members:
+- uid: com.azure.resourcemanager.authorization.fluent.inner.OAuth2PermissionGrantListResultInner.OAuth2PermissionGrantListResultInner()
+  fullName: com.azure.resourcemanager.authorization.fluent.inner.OAuth2PermissionGrantListResultInner.OAuth2PermissionGrantListResultInner()
+  name: OAuth2PermissionGrantListResultInner()
+  nameWithType: OAuth2PermissionGrantListResultInner.OAuth2PermissionGrantListResultInner()
+  syntax: public OAuth2PermissionGrantListResultInner()
+type: constructor
+metadata: {}
+package: com.azure.resourcemanager.authorization.fluent.inner
+artifact: com.azure.resourcemanager:azure-resourcemanager-authorization:2.0.0-beta.2

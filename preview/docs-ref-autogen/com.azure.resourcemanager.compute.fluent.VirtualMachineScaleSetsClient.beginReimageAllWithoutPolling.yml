@@ -1,0 +1,53 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.compute.fluent.VirtualMachineScaleSetsClient.beginReimageAllWithoutPolling*
+fullName: com.azure.resourcemanager.compute.fluent.VirtualMachineScaleSetsClient.beginReimageAllWithoutPolling
+name: beginReimageAllWithoutPolling
+nameWithType: VirtualMachineScaleSetsClient.beginReimageAllWithoutPolling
+members:
+- uid: com.azure.resourcemanager.compute.fluent.VirtualMachineScaleSetsClient.beginReimageAllWithoutPolling(java.lang.String,java.lang.String,java.util.List<java.lang.String>)
+  fullName: com.azure.resourcemanager.compute.fluent.VirtualMachineScaleSetsClient.beginReimageAllWithoutPolling(String resourceGroupName, String vmScaleSetName, List<String> instanceIds)
+  name: beginReimageAllWithoutPolling(String resourceGroupName, String vmScaleSetName, List<String> instanceIds)
+  nameWithType: VirtualMachineScaleSetsClient.beginReimageAllWithoutPolling(String resourceGroupName, String vmScaleSetName, List<String> instanceIds)
+  summary: |-
+    Reimages all the disks ( including data disks ) in the virtual machines in a VM scale set. This operation is only
+     supported for managed disks.
+  parameters:
+  - description: The name of the resource group.
+    name: resourceGroupName
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  - description: The name of the VM scale set.
+    name: vmScaleSetName
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  - description: |-
+      The virtual machine scale set instance ids. Omitting the virtual machine scale set instance
+           ids will result in the operation being performed on all virtual machines in the virtual machine scale set.
+    name: instanceIds
+    type: <xref href="java.util.List?alt=java.util.List&text=List" data-throw-if-not-resolved="False" />&lt;<xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />&gt;
+  syntax: public void beginReimageAllWithoutPolling(String resourceGroupName, String vmScaleSetName, List<String> instanceIds)
+- uid: com.azure.resourcemanager.compute.fluent.VirtualMachineScaleSetsClient.beginReimageAllWithoutPolling(java.lang.String,java.lang.String,java.util.List<java.lang.String>,com.azure.core.util.Context)
+  fullName: com.azure.resourcemanager.compute.fluent.VirtualMachineScaleSetsClient.beginReimageAllWithoutPolling(String resourceGroupName, String vmScaleSetName, List<String> instanceIds, Context context)
+  name: beginReimageAllWithoutPolling(String resourceGroupName, String vmScaleSetName, List<String> instanceIds, Context context)
+  nameWithType: VirtualMachineScaleSetsClient.beginReimageAllWithoutPolling(String resourceGroupName, String vmScaleSetName, List<String> instanceIds, Context context)
+  summary: |-
+    Reimages all the disks ( including data disks ) in the virtual machines in a VM scale set. This operation is only
+     supported for managed disks.
+  parameters:
+  - description: The name of the resource group.
+    name: resourceGroupName
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  - description: The name of the VM scale set.
+    name: vmScaleSetName
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  - description: |-
+      The virtual machine scale set instance ids. Omitting the virtual machine scale set instance
+           ids will result in the operation being performed on all virtual machines in the virtual machine scale set.
+    name: instanceIds
+    type: <xref href="java.util.List?alt=java.util.List&text=List" data-throw-if-not-resolved="False" />&lt;<xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />&gt;
+  - description: The context to associate with this operation.
+    name: context
+    type: <xref href="com.azure.core.util.Context?alt=com.azure.core.util.Context&text=Context" data-throw-if-not-resolved="False" />
+  syntax: public void beginReimageAllWithoutPolling(String resourceGroupName, String vmScaleSetName, List<String> instanceIds, Context context)
+type: method
+metadata: {}
+package: com.azure.resourcemanager.compute.fluent
+artifact: com.azure.resourcemanager:azure-resourcemanager-compute:2.0.0-beta.2

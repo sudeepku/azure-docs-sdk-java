@@ -1,0 +1,79 @@
+### YamlMime:JavaMember
+uid: com.azure.ai.textanalytics.TextAnalyticsAsyncClient.detectLanguage*
+fullName: com.azure.ai.textanalytics.TextAnalyticsAsyncClient.detectLanguage
+name: detectLanguage
+nameWithType: TextAnalyticsAsyncClient.detectLanguage
+members:
+- uid: com.azure.ai.textanalytics.TextAnalyticsAsyncClient.detectLanguage(java.lang.String)
+  fullName: com.azure.ai.textanalytics.TextAnalyticsAsyncClient.detectLanguage(String document)
+  name: detectLanguage(String document)
+  nameWithType: TextAnalyticsAsyncClient.detectLanguage(String document)
+  summary: |-
+    Returns the detected language and a confidence score between zero and one. Scores close to one indicate 100%
+     certainty that the identified language is true.
+
+     This method will use the default country hint that sets up in
+     <xref uid="TextAnalyticsClientBuilder#defaultCountryHint(String)" data-throw-if-not-resolved="false">TextAnalyticsClientBuilder#defaultCountryHint(String)</xref>. If none is specified, service will use 'US' as
+     the country hint.
+
+     <p><strong>Code sample</strong></p>
+     <p>Detects language in a document. Subscribes to the call asynchronously and prints out the detected language
+     details when a response is received.</p>
+
+     <pre>
+     String document = &quot;Bonjour tout le monde&quot;;
+     textAnalyticsAsyncClient.detectLanguage&#40;document&#41;.subscribe&#40;detectedLanguage -&gt;
+         System.out.printf&#40;&quot;Detected language name: %s, ISO 6391 Name: %s, score: %f.%n&quot;,
+             detectedLanguage.getName&#40;&#41;, detectedLanguage.getIso6391Name&#40;&#41;, detectedLanguage.getScore&#40;&#41;&#41;&#41;;
+     </pre>
+  parameters:
+  - description: |-
+      The document to be analyzed.
+       For text length limits, maximum batch size, and supported text encoding, see
+       <a href="https://docs.microsoft.com/azure/cognitive-services/text-analytics/overview#data-limits">data limits</a>.
+    name: document
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  syntax: public Mono<DetectedLanguage> detectLanguage(String document)
+  returns:
+    description: A <xref uid="reactor.core.publisher.Mono" data-throw-if-not-resolved="false">Mono</xref> containing the <xref uid="com.azure.ai.textanalytics.models.DetectedLanguage" data-throw-if-not-resolved="false">detected language</xref> of the document.
+    type: <xref href="reactor.core.publisher.Mono?alt=reactor.core.publisher.Mono&text=Mono" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.ai.textanalytics.models.DetectedLanguage?alt=com.azure.ai.textanalytics.models.DetectedLanguage&text=DetectedLanguage" data-throw-if-not-resolved="False" />&gt;
+- uid: com.azure.ai.textanalytics.TextAnalyticsAsyncClient.detectLanguage(java.lang.String,java.lang.String)
+  fullName: com.azure.ai.textanalytics.TextAnalyticsAsyncClient.detectLanguage(String document, String countryHint)
+  name: detectLanguage(String document, String countryHint)
+  nameWithType: TextAnalyticsAsyncClient.detectLanguage(String document, String countryHint)
+  summary: |-
+    Returns a <xref uid="Response" data-throw-if-not-resolved="false">Response</xref> contains the detected language and a confidence score between zero and one. Scores
+     close to one indicate 100% certainty that the identified language is true.
+
+     <p><strong>Code sample</strong></p>
+     <p>Detects language with http response in a document with a provided country hint. Subscribes to the call
+     asynchronously and prints out the detected language details when a response is received.</p>
+
+     <pre>
+     String document = &quot;This text is in English&quot;;
+     String countryHint = &quot;US&quot;;
+     textAnalyticsAsyncClient.detectLanguage&#40;document, countryHint&#41;.subscribe&#40;detectedLanguage -&gt;
+         System.out.printf&#40;&quot;Detected language name: %s, ISO 6391 Name: %s, score: %f.%n&quot;,
+             detectedLanguage.getName&#40;&#41;, detectedLanguage.getIso6391Name&#40;&#41;, detectedLanguage.getScore&#40;&#41;&#41;&#41;;
+     </pre>
+  parameters:
+  - description: |-
+      The document to be analyzed.
+       For text length limits, maximum batch size, and supported text encoding, see
+       <a href="https://docs.microsoft.com/azure/cognitive-services/text-analytics/overview#data-limits">data limits</a>.
+    name: document
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  - description: |-
+      Accepts two letter country codes specified by ISO 3166-1 alpha-2. Defaults to "US" if not
+       specified. To remove this behavior you can reset this parameter by setting this value to empty string
+       <code>countryHint</code> = "" or "none".
+    name: countryHint
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  syntax: public Mono<DetectedLanguage> detectLanguage(String document, String countryHint)
+  returns:
+    description: A <xref uid="reactor.core.publisher.Mono" data-throw-if-not-resolved="false">Mono</xref> contains a <xref uid="com.azure.ai.textanalytics.models.DetectedLanguage" data-throw-if-not-resolved="false">detected language</xref> of the document.
+    type: <xref href="reactor.core.publisher.Mono?alt=reactor.core.publisher.Mono&text=Mono" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.ai.textanalytics.models.DetectedLanguage?alt=com.azure.ai.textanalytics.models.DetectedLanguage&text=DetectedLanguage" data-throw-if-not-resolved="False" />&gt;
+type: method
+metadata: {}
+package: com.azure.ai.textanalytics
+artifact: com.azure:azure-ai-textanalytics:1.0.0-beta.4

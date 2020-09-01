@@ -1,0 +1,15 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.appservice.fluent.inner.BackupItemCollectionInner.BackupItemCollectionInner*
+fullName: com.azure.resourcemanager.appservice.fluent.inner.BackupItemCollectionInner.BackupItemCollectionInner
+name: BackupItemCollectionInner
+nameWithType: BackupItemCollectionInner.BackupItemCollectionInner
+members:
+- uid: com.azure.resourcemanager.appservice.fluent.inner.BackupItemCollectionInner.BackupItemCollectionInner()
+  fullName: com.azure.resourcemanager.appservice.fluent.inner.BackupItemCollectionInner.BackupItemCollectionInner()
+  name: BackupItemCollectionInner()
+  nameWithType: BackupItemCollectionInner.BackupItemCollectionInner()
+  syntax: public BackupItemCollectionInner()
+type: constructor
+metadata: {}
+package: com.azure.resourcemanager.appservice.fluent.inner
+artifact: com.azure.resourcemanager:azure-resourcemanager-appservice:2.0.0-beta.2

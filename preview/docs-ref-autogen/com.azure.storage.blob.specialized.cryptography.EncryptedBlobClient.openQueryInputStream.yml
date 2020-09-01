@@ -1,0 +1,34 @@
+### YamlMime:JavaMember
+uid: com.azure.storage.blob.specialized.cryptography.EncryptedBlobClient.openQueryInputStream*
+fullName: com.azure.storage.blob.specialized.cryptography.EncryptedBlobClient.openQueryInputStream
+name: openQueryInputStream
+nameWithType: EncryptedBlobClient.openQueryInputStream
+members:
+- uid: com.azure.storage.blob.specialized.cryptography.EncryptedBlobClient.openQueryInputStream(com.azure.storage.blob.options.BlobQueryOptions)
+  fullName: com.azure.storage.blob.specialized.cryptography.EncryptedBlobClient.openQueryInputStream(BlobQueryOptions queryOptions)
+  name: openQueryInputStream(BlobQueryOptions queryOptions)
+  nameWithType: EncryptedBlobClient.openQueryInputStream(BlobQueryOptions queryOptions)
+  summary: Unsupported. Cannot query data encrypted on client side.
+  overridden: com.azure.storage.blob.specialized.BlobClientBase.openQueryInputStream(com.azure.storage.blob.options.BlobQueryOptions)
+  parameters:
+  - name: queryOptions
+    type: <xref href="com.azure.storage.blob.options.BlobQueryOptions?alt=com.azure.storage.blob.options.BlobQueryOptions&text=BlobQueryOptions" data-throw-if-not-resolved="False" />
+  syntax: public InputStream openQueryInputStream(BlobQueryOptions queryOptions)
+  returns:
+    type: <xref href="java.io.InputStream?alt=java.io.InputStream&text=InputStream" data-throw-if-not-resolved="False" />
+- uid: com.azure.storage.blob.specialized.cryptography.EncryptedBlobClient.openQueryInputStream(java.lang.String)
+  fullName: com.azure.storage.blob.specialized.cryptography.EncryptedBlobClient.openQueryInputStream(String expression)
+  name: openQueryInputStream(String expression)
+  nameWithType: EncryptedBlobClient.openQueryInputStream(String expression)
+  summary: Unsupported. Cannot query data encrypted on client side.
+  overridden: com.azure.storage.blob.specialized.BlobClientBase.openQueryInputStream(java.lang.String)
+  parameters:
+  - name: expression
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  syntax: public InputStream openQueryInputStream(String expression)
+  returns:
+    type: <xref href="java.io.InputStream?alt=java.io.InputStream&text=InputStream" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.storage.blob.specialized.cryptography
+artifact: com.azure:azure-storage-blob-cryptography:12.8.0-beta.1

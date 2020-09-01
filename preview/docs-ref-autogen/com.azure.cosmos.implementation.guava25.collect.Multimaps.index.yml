@@ -1,0 +1,98 @@
+### YamlMime:JavaMember
+uid: com.azure.cosmos.implementation.guava25.collect.Multimaps.index*
+fullName: com.azure.cosmos.implementation.guava25.collect.Multimaps.<K,V>index
+name: <K,V>index
+nameWithType: Multimaps.<K,V>index
+members:
+- uid: com.azure.cosmos.implementation.guava25.collect.Multimaps.<K,V>index(java.lang.Iterable<V>,com.azure.cosmos.implementation.guava25.base.Function<? super V,K>)
+  fullName: com.azure.cosmos.implementation.guava25.collect.Multimaps.<K,V>index(Iterable<V> values, Function<? super V,K> keyFunction)
+  name: <K,V>index(Iterable<V> values, Function<? super V,K> keyFunction)
+  nameWithType: Multimaps.<K,V>index(Iterable<V> values, Function<? super V,K> keyFunction)
+  summary: |-
+    Creates an index <code>ImmutableListMultimap</code> that contains the results of applying a
+     specified function to each item in an <code>Iterable</code> of values. Each value will be stored as
+     a value in the resulting multimap, yielding a multimap with the same size as the input
+     iterable. The key used to store that value in the multimap will be the result of calling the
+     function on that value. The resulting multimap is created as an immutable snapshot. In the
+     returned multimap, keys appear in the order they are first encountered, and the values
+     corresponding to each key appear in the same order as they are encountered.
+
+     <p>For example,
+
+     <pre><code>
+     List<String> badGuys =
+         Arrays.asList("Inky", "Blinky", "Pinky", "Pinky", "Clyde");
+     Function<String, Integer> stringLengthFunction = ...;
+     Multimap<Integer, String> index =
+         Multimaps.index(badGuys, stringLengthFunction);
+     System.out.println(index);
+     </code></pre>
+
+     <p>prints
+
+     <pre><code>
+     {4=[Inky], 6=[Blinky], 5=[Pinky, Pinky, Clyde]}
+     </code></pre>
+
+     <p>The returned multimap is serializable if its keys and values are all serializable.
+  parameters:
+  - description: the values to use when constructing the <code>ImmutableListMultimap</code>
+    name: values
+    type: <xref href="java.lang.Iterable?alt=java.lang.Iterable&text=Iterable" data-throw-if-not-resolved="False" />&lt;<xref href="V?alt=V&text=V" data-throw-if-not-resolved="False" />&gt;
+  - description: the function used to produce the key for each value
+    name: keyFunction
+    type: <xref href="com.azure.cosmos.implementation.guava25.base.Function?alt=com.azure.cosmos.implementation.guava25.base.Function&text=Function" data-throw-if-not-resolved="False" />&lt;<xref href="? super V?alt=? super V&text=? super V" data-throw-if-not-resolved="False" />,<xref href="K?alt=K&text=K" data-throw-if-not-resolved="False" />&gt;
+  syntax: public static ImmutableListMultimap<K,V> <K,V>index(Iterable<V> values, Function<? super V,K> keyFunction)
+  returns:
+    description: |-
+      <code>ImmutableListMultimap</code> mapping the result of evaluating the function <code>
+           keyFunction</code> on each value in the input collection to that value
+    type: <xref href="com.azure.cosmos.implementation.guava25.collect.ImmutableListMultimap?alt=com.azure.cosmos.implementation.guava25.collect.ImmutableListMultimap&text=ImmutableListMultimap" data-throw-if-not-resolved="False" />&lt;<xref href="K?alt=K&text=K" data-throw-if-not-resolved="False" />,<xref href="V?alt=V&text=V" data-throw-if-not-resolved="False" />&gt;
+- uid: com.azure.cosmos.implementation.guava25.collect.Multimaps.<K,V>index(java.util.Iterator<V>,com.azure.cosmos.implementation.guava25.base.Function<? super V,K>)
+  fullName: com.azure.cosmos.implementation.guava25.collect.Multimaps.<K,V>index(Iterator<V> values, Function<? super V,K> keyFunction)
+  name: <K,V>index(Iterator<V> values, Function<? super V,K> keyFunction)
+  nameWithType: Multimaps.<K,V>index(Iterator<V> values, Function<? super V,K> keyFunction)
+  summary: |-
+    Creates an index <code>ImmutableListMultimap</code> that contains the results of applying a
+     specified function to each item in an <code>Iterator</code> of values. Each value will be stored as
+     a value in the resulting multimap, yielding a multimap with the same size as the input
+     iterator. The key used to store that value in the multimap will be the result of calling the
+     function on that value. The resulting multimap is created as an immutable snapshot. In the
+     returned multimap, keys appear in the order they are first encountered, and the values
+     corresponding to each key appear in the same order as they are encountered.
+
+     <p>For example,
+
+     <pre><code>
+     List<String> badGuys =
+         Arrays.asList("Inky", "Blinky", "Pinky", "Pinky", "Clyde");
+     Function<String, Integer> stringLengthFunction = ...;
+     Multimap<Integer, String> index =
+         Multimaps.index(badGuys.iterator(), stringLengthFunction);
+     System.out.println(index);
+     </code></pre>
+
+     <p>prints
+
+     <pre><code>
+     {4=[Inky], 6=[Blinky], 5=[Pinky, Pinky, Clyde]}
+     </code></pre>
+
+     <p>The returned multimap is serializable if its keys and values are all serializable.
+  parameters:
+  - description: the values to use when constructing the <code>ImmutableListMultimap</code>
+    name: values
+    type: <xref href="java.util.Iterator?alt=java.util.Iterator&text=Iterator" data-throw-if-not-resolved="False" />&lt;<xref href="V?alt=V&text=V" data-throw-if-not-resolved="False" />&gt;
+  - description: the function used to produce the key for each value
+    name: keyFunction
+    type: <xref href="com.azure.cosmos.implementation.guava25.base.Function?alt=com.azure.cosmos.implementation.guava25.base.Function&text=Function" data-throw-if-not-resolved="False" />&lt;<xref href="? super V?alt=? super V&text=? super V" data-throw-if-not-resolved="False" />,<xref href="K?alt=K&text=K" data-throw-if-not-resolved="False" />&gt;
+  syntax: public static ImmutableListMultimap<K,V> <K,V>index(Iterator<V> values, Function<? super V,K> keyFunction)
+  returns:
+    description: |-
+      <code>ImmutableListMultimap</code> mapping the result of evaluating the function <code>
+           keyFunction</code> on each value in the input collection to that value
+    type: <xref href="com.azure.cosmos.implementation.guava25.collect.ImmutableListMultimap?alt=com.azure.cosmos.implementation.guava25.collect.ImmutableListMultimap&text=ImmutableListMultimap" data-throw-if-not-resolved="False" />&lt;<xref href="K?alt=K&text=K" data-throw-if-not-resolved="False" />,<xref href="V?alt=V&text=V" data-throw-if-not-resolved="False" />&gt;
+type: method
+metadata: {}
+package: com.azure.cosmos.implementation.guava25.collect
+artifact: com.azure:azure-cosmos:4.3.2-beta.2

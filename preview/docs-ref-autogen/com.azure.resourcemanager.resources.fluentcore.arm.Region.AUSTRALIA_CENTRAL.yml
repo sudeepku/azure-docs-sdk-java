@@ -1,0 +1,15 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.resources.fluentcore.arm.Region.AUSTRALIA_CENTRAL
+fullName: com.azure.resourcemanager.resources.fluentcore.arm.Region.AUSTRALIA_CENTRAL
+name: AUSTRALIA_CENTRAL
+nameWithType: Region.AUSTRALIA_CENTRAL
+members:
+- uid: com.azure.resourcemanager.resources.fluentcore.arm.Region.AUSTRALIA_CENTRAL
+  fullName: com.azure.resourcemanager.resources.fluentcore.arm.Region.AUSTRALIA_CENTRAL
+  name: AUSTRALIA_CENTRAL
+  nameWithType: Region.AUSTRALIA_CENTRAL
+  syntax: public static final Region AUSTRALIA_CENTRAL
+type: field
+metadata: {}
+package: com.azure.resourcemanager.resources.fluentcore.arm
+artifact: com.azure.resourcemanager:azure-resourcemanager-resources:2.0.0-beta.2

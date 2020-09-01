@@ -1,0 +1,26 @@
+### YamlMime:JavaMember
+uid: com.azure.search.documents.indexes.SearchIndexerClient.createDataSourceConnectionWithResponse*
+fullName: com.azure.search.documents.indexes.SearchIndexerClient.createDataSourceConnectionWithResponse
+name: createDataSourceConnectionWithResponse
+nameWithType: SearchIndexerClient.createDataSourceConnectionWithResponse
+members:
+- uid: com.azure.search.documents.indexes.SearchIndexerClient.createDataSourceConnectionWithResponse(com.azure.search.documents.indexes.models.SearchIndexerDataSourceConnection,com.azure.core.util.Context)
+  fullName: com.azure.search.documents.indexes.SearchIndexerClient.createDataSourceConnectionWithResponse(SearchIndexerDataSourceConnection dataSourceConnection, Context context)
+  name: createDataSourceConnectionWithResponse(SearchIndexerDataSourceConnection dataSourceConnection, Context context)
+  nameWithType: SearchIndexerClient.createDataSourceConnectionWithResponse(SearchIndexerDataSourceConnection dataSourceConnection, Context context)
+  summary: "Creates a new Azure Cognitive Search data source\n\n <p><strong>Code Sample</strong></p>\n\n <p> Create search indexer data source connection named \"dataSource\". </p>\n\n <pre>\n SearchIndexerDataSourceConnection dataSource = new SearchIndexerDataSourceConnection&#40;&quot;dataSource&quot;,\n     SearchIndexerDataSourceType.AZURE_BLOB, &quot;&#123;connectionString&#125;&quot;,\n     new SearchIndexerDataContainer&#40;&quot;container&quot;&#41;&#41;;\n Response&lt;SearchIndexerDataSourceConnection&gt; dataSourceFromService =\n     searchIndexerClient.createDataSourceConnectionWithResponse&#40;dataSource, new Context&#40;key1, value1&#41;&#41;;\n \n System.out.printf&#40;&quot;The status code of the response is %s. The data source name is %s.%n&quot;,\n     dataSourceFromService.getStatusCode&#40;&#41;, dataSourceFromService.getValue&#40;&#41;.getName&#40;&#41;&#41;;\n </pre>"
+  parameters:
+  - description: the definition of the data source to create doesn't match specified values
+    name: dataSourceConnection
+    type: <xref href="com.azure.search.documents.indexes.models.SearchIndexerDataSourceConnection?alt=com.azure.search.documents.indexes.models.SearchIndexerDataSourceConnection&text=SearchIndexerDataSourceConnection" data-throw-if-not-resolved="False" />
+  - description: additional context that is passed through the HTTP pipeline during the service call
+    name: context
+    type: <xref href="com.azure.core.util.Context?alt=com.azure.core.util.Context&text=Context" data-throw-if-not-resolved="False" />
+  syntax: public Response<SearchIndexerDataSourceConnection> createDataSourceConnectionWithResponse(SearchIndexerDataSourceConnection dataSourceConnection, Context context)
+  returns:
+    description: a response containing data source that was created.
+    type: <xref href="com.azure.core.http.rest.Response?alt=com.azure.core.http.rest.Response&text=Response" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.search.documents.indexes.models.SearchIndexerDataSourceConnection?alt=com.azure.search.documents.indexes.models.SearchIndexerDataSourceConnection&text=SearchIndexerDataSourceConnection" data-throw-if-not-resolved="False" />&gt;
+type: method
+metadata: {}
+package: com.azure.search.documents.indexes
+artifact: com.azure:azure-search-documents:11.1.0-beta.1

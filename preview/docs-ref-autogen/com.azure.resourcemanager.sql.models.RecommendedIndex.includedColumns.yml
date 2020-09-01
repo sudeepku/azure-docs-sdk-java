@@ -1,0 +1,19 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.sql.models.RecommendedIndex.includedColumns*
+fullName: com.azure.resourcemanager.sql.models.RecommendedIndex.includedColumns
+name: includedColumns
+nameWithType: RecommendedIndex.includedColumns
+members:
+- uid: com.azure.resourcemanager.sql.models.RecommendedIndex.includedColumns()
+  fullName: com.azure.resourcemanager.sql.models.RecommendedIndex.includedColumns()
+  name: includedColumns()
+  nameWithType: RecommendedIndex.includedColumns()
+  summary: 'Get the includedColumns property: The list of column names to be included in the index.'
+  syntax: public List<String> includedColumns()
+  returns:
+    description: the includedColumns value.
+    type: <xref href="java.util.List?alt=java.util.List&text=List" data-throw-if-not-resolved="False" />&lt;<xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />&gt;
+type: method
+metadata: {}
+package: com.azure.resourcemanager.sql.models
+artifact: com.azure.resourcemanager:azure-resourcemanager-sql:2.0.0-beta.2

@@ -1,0 +1,23 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.appservice.fluent.inner.SitePhpErrorLogFlagInner.withMasterLogErrors*
+fullName: com.azure.resourcemanager.appservice.fluent.inner.SitePhpErrorLogFlagInner.withMasterLogErrors
+name: withMasterLogErrors
+nameWithType: SitePhpErrorLogFlagInner.withMasterLogErrors
+members:
+- uid: com.azure.resourcemanager.appservice.fluent.inner.SitePhpErrorLogFlagInner.withMasterLogErrors(java.lang.String)
+  fullName: com.azure.resourcemanager.appservice.fluent.inner.SitePhpErrorLogFlagInner.withMasterLogErrors(String masterLogErrors)
+  name: withMasterLogErrors(String masterLogErrors)
+  nameWithType: SitePhpErrorLogFlagInner.withMasterLogErrors(String masterLogErrors)
+  summary: 'Set the masterLogErrors property: Master log_errors setting.'
+  parameters:
+  - description: the masterLogErrors value to set.
+    name: masterLogErrors
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  syntax: public SitePhpErrorLogFlagInner withMasterLogErrors(String masterLogErrors)
+  returns:
+    description: the SitePhpErrorLogFlagInner object itself.
+    type: <xref href="com.azure.resourcemanager.appservice.fluent.inner.SitePhpErrorLogFlagInner?alt=com.azure.resourcemanager.appservice.fluent.inner.SitePhpErrorLogFlagInner&text=SitePhpErrorLogFlagInner" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.resourcemanager.appservice.fluent.inner
+artifact: com.azure.resourcemanager:azure-resourcemanager-appservice:2.0.0-beta.2

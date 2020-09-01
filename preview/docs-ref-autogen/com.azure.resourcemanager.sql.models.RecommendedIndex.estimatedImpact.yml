@@ -1,0 +1,19 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.sql.models.RecommendedIndex.estimatedImpact*
+fullName: com.azure.resourcemanager.sql.models.RecommendedIndex.estimatedImpact
+name: estimatedImpact
+nameWithType: RecommendedIndex.estimatedImpact
+members:
+- uid: com.azure.resourcemanager.sql.models.RecommendedIndex.estimatedImpact()
+  fullName: com.azure.resourcemanager.sql.models.RecommendedIndex.estimatedImpact()
+  name: estimatedImpact()
+  nameWithType: RecommendedIndex.estimatedImpact()
+  summary: 'Get the estimatedImpact property: The estimated impact of doing recommended index action.'
+  syntax: public List<OperationImpact> estimatedImpact()
+  returns:
+    description: the estimatedImpact value.
+    type: <xref href="java.util.List?alt=java.util.List&text=List" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.resourcemanager.sql.models.OperationImpact?alt=com.azure.resourcemanager.sql.models.OperationImpact&text=OperationImpact" data-throw-if-not-resolved="False" />&gt;
+type: method
+metadata: {}
+package: com.azure.resourcemanager.sql.models
+artifact: com.azure.resourcemanager:azure-resourcemanager-sql:2.0.0-beta.2

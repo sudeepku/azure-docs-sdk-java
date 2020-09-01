@@ -1,0 +1,19 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.resources.fluentcore.utils.SdkContext.getLroRetryDuration*
+fullName: com.azure.resourcemanager.resources.fluentcore.utils.SdkContext.getLroRetryDuration
+name: getLroRetryDuration
+nameWithType: SdkContext.getLroRetryDuration
+members:
+- uid: com.azure.resourcemanager.resources.fluentcore.utils.SdkContext.getLroRetryDuration()
+  fullName: com.azure.resourcemanager.resources.fluentcore.utils.SdkContext.getLroRetryDuration()
+  name: getLroRetryDuration()
+  nameWithType: SdkContext.getLroRetryDuration()
+  summary: Get long-running operation retry timeout.
+  syntax: public static Duration getLroRetryDuration()
+  returns:
+    description: the duration
+    type: <xref href="java.time.Duration?alt=java.time.Duration&text=Duration" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.resourcemanager.resources.fluentcore.utils
+artifact: com.azure.resourcemanager:azure-resourcemanager-resources:2.0.0-beta.2

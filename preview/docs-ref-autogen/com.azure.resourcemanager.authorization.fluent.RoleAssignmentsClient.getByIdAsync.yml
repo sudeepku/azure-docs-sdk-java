@@ -1,0 +1,39 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.authorization.fluent.RoleAssignmentsClient.getByIdAsync*
+fullName: com.azure.resourcemanager.authorization.fluent.RoleAssignmentsClient.getByIdAsync
+name: getByIdAsync
+nameWithType: RoleAssignmentsClient.getByIdAsync
+members:
+- uid: com.azure.resourcemanager.authorization.fluent.RoleAssignmentsClient.getByIdAsync(java.lang.String)
+  fullName: com.azure.resourcemanager.authorization.fluent.RoleAssignmentsClient.getByIdAsync(String roleId)
+  name: getByIdAsync(String roleId)
+  nameWithType: RoleAssignmentsClient.getByIdAsync(String roleId)
+  summary: Gets a role assignment by ID.
+  parameters:
+  - description: The ID of the role assignment to get.
+    name: roleId
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  syntax: public Mono<RoleAssignmentInner> getByIdAsync(String roleId)
+  returns:
+    description: a role assignment by ID.
+    type: <xref href="reactor.core.publisher.Mono?alt=reactor.core.publisher.Mono&text=Mono" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.resourcemanager.authorization.fluent.inner.RoleAssignmentInner?alt=com.azure.resourcemanager.authorization.fluent.inner.RoleAssignmentInner&text=RoleAssignmentInner" data-throw-if-not-resolved="False" />&gt;
+- uid: com.azure.resourcemanager.authorization.fluent.RoleAssignmentsClient.getByIdAsync(java.lang.String,com.azure.core.util.Context)
+  fullName: com.azure.resourcemanager.authorization.fluent.RoleAssignmentsClient.getByIdAsync(String roleId, Context context)
+  name: getByIdAsync(String roleId, Context context)
+  nameWithType: RoleAssignmentsClient.getByIdAsync(String roleId, Context context)
+  summary: Gets a role assignment by ID.
+  parameters:
+  - description: The ID of the role assignment to get.
+    name: roleId
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  - description: The context to associate with this operation.
+    name: context
+    type: <xref href="com.azure.core.util.Context?alt=com.azure.core.util.Context&text=Context" data-throw-if-not-resolved="False" />
+  syntax: public Mono<RoleAssignmentInner> getByIdAsync(String roleId, Context context)
+  returns:
+    description: a role assignment by ID.
+    type: <xref href="reactor.core.publisher.Mono?alt=reactor.core.publisher.Mono&text=Mono" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.resourcemanager.authorization.fluent.inner.RoleAssignmentInner?alt=com.azure.resourcemanager.authorization.fluent.inner.RoleAssignmentInner&text=RoleAssignmentInner" data-throw-if-not-resolved="False" />&gt;
+type: method
+metadata: {}
+package: com.azure.resourcemanager.authorization.fluent
+artifact: com.azure.resourcemanager:azure-resourcemanager-authorization:2.0.0-beta.2

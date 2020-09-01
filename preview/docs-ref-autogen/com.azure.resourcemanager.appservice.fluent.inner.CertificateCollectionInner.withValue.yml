@@ -1,0 +1,23 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.appservice.fluent.inner.CertificateCollectionInner.withValue*
+fullName: com.azure.resourcemanager.appservice.fluent.inner.CertificateCollectionInner.withValue
+name: withValue
+nameWithType: CertificateCollectionInner.withValue
+members:
+- uid: com.azure.resourcemanager.appservice.fluent.inner.CertificateCollectionInner.withValue(java.util.List<com.azure.resourcemanager.appservice.fluent.inner.CertificateInner>)
+  fullName: com.azure.resourcemanager.appservice.fluent.inner.CertificateCollectionInner.withValue(List<CertificateInner> value)
+  name: withValue(List<CertificateInner> value)
+  nameWithType: CertificateCollectionInner.withValue(List<CertificateInner> value)
+  summary: 'Set the value property: Collection of resources.'
+  parameters:
+  - description: the value value to set.
+    name: value
+    type: <xref href="java.util.List?alt=java.util.List&text=List" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.resourcemanager.appservice.fluent.inner.CertificateInner?alt=com.azure.resourcemanager.appservice.fluent.inner.CertificateInner&text=CertificateInner" data-throw-if-not-resolved="False" />&gt;
+  syntax: public CertificateCollectionInner withValue(List<CertificateInner> value)
+  returns:
+    description: the CertificateCollectionInner object itself.
+    type: <xref href="com.azure.resourcemanager.appservice.fluent.inner.CertificateCollectionInner?alt=com.azure.resourcemanager.appservice.fluent.inner.CertificateCollectionInner&text=CertificateCollectionInner" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.resourcemanager.appservice.fluent.inner
+artifact: com.azure.resourcemanager:azure-resourcemanager-appservice:2.0.0-beta.2

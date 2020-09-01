@@ -1,0 +1,22 @@
+### YamlMime:JavaMember
+uid: com.azure.cosmos.implementation.guava25.collect.FluentIterable.toMultiset*
+fullName: com.azure.cosmos.implementation.guava25.collect.FluentIterable<E>.toMultiset
+name: toMultiset
+nameWithType: FluentIterable<E>.toMultiset
+members:
+- uid: com.azure.cosmos.implementation.guava25.collect.FluentIterable.toMultiset()
+  fullName: com.azure.cosmos.implementation.guava25.collect.FluentIterable<E>.toMultiset()
+  name: toMultiset()
+  nameWithType: FluentIterable<E>.toMultiset()
+  summary: |-
+    Returns an <code>ImmutableMultiset</code> containing all of the elements from this fluent iterable.
+
+     <p><b><code>Stream</code> equivalent:</b> pass <xref uid="ImmutableMultiset#toImmutableMultiset" data-throw-if-not-resolved="false">ImmutableMultiset#toImmutableMultiset</xref> to
+     <code>stream.collect()</code>.
+  syntax: public final ImmutableMultiset<E> toMultiset()
+  returns:
+    type: <xref href="com.azure.cosmos.implementation.guava25.collect.ImmutableMultiset?alt=com.azure.cosmos.implementation.guava25.collect.ImmutableMultiset&text=ImmutableMultiset" data-throw-if-not-resolved="False" />&lt;<xref href="E?alt=E&text=E" data-throw-if-not-resolved="False" />&gt;
+type: method
+metadata: {}
+package: com.azure.cosmos.implementation.guava25.collect
+artifact: com.azure:azure-cosmos:4.3.2-beta.2

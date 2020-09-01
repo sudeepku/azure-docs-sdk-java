@@ -1,0 +1,39 @@
+### YamlMime:JavaMember
+uid: com.azure.data.schemaregistry.client.implementation.AzureSchemaRegistryRestService.getGroup*
+fullName: com.azure.data.schemaregistry.client.implementation.AzureSchemaRegistryRestService.getGroup
+name: getGroup
+nameWithType: AzureSchemaRegistryRestService.getGroup
+members:
+- uid: com.azure.data.schemaregistry.client.implementation.AzureSchemaRegistryRestService.getGroup(java.lang.String)
+  fullName: com.azure.data.schemaregistry.client.implementation.AzureSchemaRegistryRestService.getGroup(String groupName)
+  name: getGroup(String groupName)
+  nameWithType: AzureSchemaRegistryRestService.getGroup(String groupName)
+  summary: Get schema group description in registry namespace.
+  parameters:
+  - description: schema group.
+    name: groupName
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  syntax: public SchemaGroup getGroup(String groupName)
+  returns:
+    description: schema group description in registry namespace.
+    type: <xref href="com.azure.data.schemaregistry.client.implementation.models.SchemaGroup?alt=com.azure.data.schemaregistry.client.implementation.models.SchemaGroup&text=SchemaGroup" data-throw-if-not-resolved="False" />
+- uid: com.azure.data.schemaregistry.client.implementation.AzureSchemaRegistryRestService.getGroup(java.lang.String,com.azure.core.util.Context)
+  fullName: com.azure.data.schemaregistry.client.implementation.AzureSchemaRegistryRestService.getGroup(String groupName, Context context)
+  name: getGroup(String groupName, Context context)
+  nameWithType: AzureSchemaRegistryRestService.getGroup(String groupName, Context context)
+  summary: Get schema group description in registry namespace.
+  parameters:
+  - description: schema group.
+    name: groupName
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  - description: The context to associate with this operation.
+    name: context
+    type: <xref href="com.azure.core.util.Context?alt=com.azure.core.util.Context&text=Context" data-throw-if-not-resolved="False" />
+  syntax: public SchemaGroup getGroup(String groupName, Context context)
+  returns:
+    description: schema group description in registry namespace.
+    type: <xref href="com.azure.data.schemaregistry.client.implementation.models.SchemaGroup?alt=com.azure.data.schemaregistry.client.implementation.models.SchemaGroup&text=SchemaGroup" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.data.schemaregistry.client.implementation
+artifact: com.azure:azure-data-schemaregistry:1.0.0-beta.1

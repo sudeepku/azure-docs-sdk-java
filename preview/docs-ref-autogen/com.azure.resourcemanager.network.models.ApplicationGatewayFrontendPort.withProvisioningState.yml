@@ -1,0 +1,25 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.network.models.ApplicationGatewayFrontendPort.withProvisioningState*
+fullName: com.azure.resourcemanager.network.models.ApplicationGatewayFrontendPort.withProvisioningState
+name: withProvisioningState
+nameWithType: ApplicationGatewayFrontendPort.withProvisioningState
+members:
+- uid: com.azure.resourcemanager.network.models.ApplicationGatewayFrontendPort.withProvisioningState(java.lang.String)
+  fullName: com.azure.resourcemanager.network.models.ApplicationGatewayFrontendPort.withProvisioningState(String provisioningState)
+  name: withProvisioningState(String provisioningState)
+  nameWithType: ApplicationGatewayFrontendPort.withProvisioningState(String provisioningState)
+  summary: |-
+    Set the provisioningState property: Provisioning state of the frontend port resource. Possible values are:
+     'Updating', 'Deleting', and 'Failed'.
+  parameters:
+  - description: the provisioningState value to set.
+    name: provisioningState
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  syntax: public ApplicationGatewayFrontendPort withProvisioningState(String provisioningState)
+  returns:
+    description: the ApplicationGatewayFrontendPort object itself.
+    type: <xref href="com.azure.resourcemanager.network.models.ApplicationGatewayFrontendPort?alt=com.azure.resourcemanager.network.models.ApplicationGatewayFrontendPort&text=ApplicationGatewayFrontendPort" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.resourcemanager.network.models
+artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.0.0-beta.2

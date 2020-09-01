@@ -1,0 +1,84 @@
+### YamlMime:JavaMember
+uid: com.azure.ai.formrecognizer.training.FormTrainingClient.beginCopyModel*
+fullName: com.azure.ai.formrecognizer.training.FormTrainingClient.beginCopyModel
+name: beginCopyModel
+nameWithType: FormTrainingClient.beginCopyModel
+members:
+- uid: com.azure.ai.formrecognizer.training.FormTrainingClient.beginCopyModel(java.lang.String,com.azure.ai.formrecognizer.training.models.CopyAuthorization)
+  fullName: com.azure.ai.formrecognizer.training.FormTrainingClient.beginCopyModel(String modelId, CopyAuthorization target)
+  name: beginCopyModel(String modelId, CopyAuthorization target)
+  nameWithType: FormTrainingClient.beginCopyModel(String modelId, CopyAuthorization target)
+  summary: |-
+    Copy a custom model stored in this resource (the source) to the user specified target Form Recognizer resource.
+
+     <p>This should be called with the source Form Recognizer resource (with the model that is intended to be copied).
+     The target parameter should be supplied from the target resource's output from
+     <xref uid="FormTrainingAsyncClient#getCopyAuthorization(String, String)" data-throw-if-not-resolved="false">FormTrainingAsyncClient#getCopyAuthorization(String, String)</xref> method.
+     </p>
+
+     <p>The service does not support cancellation of the long running operation and returns with an
+     error message indicating absence of cancellation support.</p>
+
+     <p><strong>Code sample</strong></p>
+     <pre>
+     String resourceId = &quot;target-resource-Id&quot;;
+     String resourceRegion = &quot;target-resource-region&quot;;
+     String copyModelId = &quot;copy-model-Id&quot;;
+     formTrainingAsyncClient.getCopyAuthorization&#40;resourceId, resourceRegion&#41;
+         .flatMapMany&#40;copyAuthorization -&gt; formTrainingAsyncClient.beginCopyModel&#40;copyModelId, copyAuthorization&#41;&#41;
+         .flatMap&#40;AsyncPollResponse::getFinalResult&#41;
+         .subscribe&#40;customFormModelInfo -&gt;
+             System.out.printf&#40;&quot;Copied model has model Id: %s, model status: %s, training started on: %s,&quot;
+                 + &quot; training completed on: %s.%n&quot;,
+             customFormModelInfo.getModelId&#40;&#41;,
+             customFormModelInfo.getStatus&#40;&#41;,
+             customFormModelInfo.getTrainingStartedOn&#40;&#41;,
+             customFormModelInfo.getTrainingCompletedOn&#40;&#41;&#41;&#41;;
+     </pre>
+  parameters:
+  - description: Model identifier of the model to copy to the target Form Recognizer resource
+    name: modelId
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  - description: |-
+      the copy authorization to the target Form Recognizer resource. The copy authorization can be
+       generated from the target resource's call to <xref uid="com.azure.ai.formrecognizer.training.FormTrainingClient.getCopyAuthorization(java.lang.String,java.lang.String)" data-throw-if-not-resolved="false">FormTrainingClient#getCopyAuthorization(String, String)</xref>
+    name: target
+    type: <xref href="com.azure.ai.formrecognizer.training.models.CopyAuthorization?alt=com.azure.ai.formrecognizer.training.models.CopyAuthorization&text=CopyAuthorization" data-throw-if-not-resolved="False" />
+  syntax: public SyncPoller<FormRecognizerOperationResult,CustomFormModelInfo> beginCopyModel(String modelId, CopyAuthorization target)
+  returns:
+    description: |-
+      A <xref uid="com.azure.core.util.polling.SyncPoller" data-throw-if-not-resolved="false">SyncPoller</xref> that polls the copy model operation until it has completed, has failed,
+       or has been cancelled.
+    type: <xref href="com.azure.core.util.polling.SyncPoller?alt=com.azure.core.util.polling.SyncPoller&text=SyncPoller" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.ai.formrecognizer.models.FormRecognizerOperationResult?alt=com.azure.ai.formrecognizer.models.FormRecognizerOperationResult&text=FormRecognizerOperationResult" data-throw-if-not-resolved="False" />,<xref href="com.azure.ai.formrecognizer.training.models.CustomFormModelInfo?alt=com.azure.ai.formrecognizer.training.models.CustomFormModelInfo&text=CustomFormModelInfo" data-throw-if-not-resolved="False" />&gt;
+- uid: com.azure.ai.formrecognizer.training.FormTrainingClient.beginCopyModel(java.lang.String,com.azure.ai.formrecognizer.training.models.CopyAuthorization,java.time.Duration,com.azure.core.util.Context)
+  fullName: com.azure.ai.formrecognizer.training.FormTrainingClient.beginCopyModel(String modelId, CopyAuthorization target, Duration pollInterval, Context context)
+  name: beginCopyModel(String modelId, CopyAuthorization target, Duration pollInterval, Context context)
+  nameWithType: FormTrainingClient.beginCopyModel(String modelId, CopyAuthorization target, Duration pollInterval, Context context)
+  summary: "Copy a custom model stored in this resource (the source) to the user specified target Form Recognizer resource.\n\n <p>This should be called with the source Form Recognizer resource (with the model that is intended to be copied).\n The target parameter should be supplied from the target resource's output from\n <xref uid=\"FormTrainingClient#getCopyAuthorization(String, String)\" data-throw-if-not-resolved=\"false\">FormTrainingClient#getCopyAuthorization(String, String)</xref> method.\n </p>\n\n <p>The service does not support cancellation of the long running operation and returns with an\n error message indicating absence of cancellation support.</p>\n\n <p><strong>Code sample</strong></p>\n <pre>\n &#47;&#47; The resource to copy model to\n String resourceId = &quot;target-resource-Id&quot;;\n String resourceRegion = &quot;target-resource-region&quot;;\n &#47;&#47; The Id of the model to be copied\n String copyModelId = &quot;copy-model-Id&quot;;\n \n CopyAuthorization copyAuthorization = targetFormTrainingClient.getCopyAuthorization&#40;resourceId,\n     resourceRegion&#41;;\n formTrainingClient.beginCopyModel&#40;copyModelId, copyAuthorization, Duration.ofSeconds&#40;5&#41;, Context.NONE&#41;\n     .waitForCompletion&#40;&#41;;\n CustomFormModel modelCopy = targetFormTrainingClient.getCustomModel&#40;copyAuthorization.getModelId&#40;&#41;&#41;;\n System.out.printf&#40;&quot;Copied model has model Id: %s, model status: %s, was requested on: %s,&quot;\n         + &quot; transfer completed on: %s.%n&quot;,\n     modelCopy.getModelId&#40;&#41;,\n     modelCopy.getModelStatus&#40;&#41;,\n     modelCopy.getTrainingStartedOn&#40;&#41;,\n     modelCopy.getTrainingCompletedOn&#40;&#41;&#41;;\n </pre>"
+  parameters:
+  - description: Model identifier of the model to copy to the target Form Recognizer resource
+    name: modelId
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  - description: |-
+      the copy authorization to the target Form Recognizer resource. The copy authorization can be
+       generated from the target resource's call to <xref uid="com.azure.ai.formrecognizer.training.FormTrainingClient.getCopyAuthorization(java.lang.String,java.lang.String)" data-throw-if-not-resolved="false">FormTrainingClient#getCopyAuthorization(String, String)</xref>
+    name: target
+    type: <xref href="com.azure.ai.formrecognizer.training.models.CopyAuthorization?alt=com.azure.ai.formrecognizer.training.models.CopyAuthorization&text=CopyAuthorization" data-throw-if-not-resolved="False" />
+  - description: |-
+      Duration between each poll for the operation status. If none is specified, a default of
+       5 seconds is used.
+    name: pollInterval
+    type: <xref href="java.time.Duration?alt=java.time.Duration&text=Duration" data-throw-if-not-resolved="False" />
+  - description: Additional context that is passed through the HTTP pipeline during the service call.
+    name: context
+    type: <xref href="com.azure.core.util.Context?alt=com.azure.core.util.Context&text=Context" data-throw-if-not-resolved="False" />
+  syntax: public SyncPoller<FormRecognizerOperationResult,CustomFormModelInfo> beginCopyModel(String modelId, CopyAuthorization target, Duration pollInterval, Context context)
+  returns:
+    description: |-
+      A <xref uid="com.azure.core.util.polling.SyncPoller" data-throw-if-not-resolved="false">SyncPoller</xref> that polls the copy model operation until it has completed, has failed,
+       or has been cancelled.
+    type: <xref href="com.azure.core.util.polling.SyncPoller?alt=com.azure.core.util.polling.SyncPoller&text=SyncPoller" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.ai.formrecognizer.models.FormRecognizerOperationResult?alt=com.azure.ai.formrecognizer.models.FormRecognizerOperationResult&text=FormRecognizerOperationResult" data-throw-if-not-resolved="False" />,<xref href="com.azure.ai.formrecognizer.training.models.CustomFormModelInfo?alt=com.azure.ai.formrecognizer.training.models.CustomFormModelInfo&text=CustomFormModelInfo" data-throw-if-not-resolved="False" />&gt;
+type: method
+metadata: {}
+package: com.azure.ai.formrecognizer.training
+artifact: com.azure:azure-ai-formrecognizer:3.0.0

@@ -1,0 +1,39 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.appservice.fluent.CertificatesClient.listNextSinglePageAsync*
+fullName: com.azure.resourcemanager.appservice.fluent.CertificatesClient.listNextSinglePageAsync
+name: listNextSinglePageAsync
+nameWithType: CertificatesClient.listNextSinglePageAsync
+members:
+- uid: com.azure.resourcemanager.appservice.fluent.CertificatesClient.listNextSinglePageAsync(java.lang.String)
+  fullName: com.azure.resourcemanager.appservice.fluent.CertificatesClient.listNextSinglePageAsync(String nextLink)
+  name: listNextSinglePageAsync(String nextLink)
+  nameWithType: CertificatesClient.listNextSinglePageAsync(String nextLink)
+  summary: Get the next page of items.
+  parameters:
+  - description: The nextLink parameter.
+    name: nextLink
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  syntax: public Mono<PagedResponse<CertificateInner>> listNextSinglePageAsync(String nextLink)
+  returns:
+    description: collection of certificates.
+    type: <xref href="reactor.core.publisher.Mono?alt=reactor.core.publisher.Mono&text=Mono" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.core.http.rest.PagedResponse?alt=com.azure.core.http.rest.PagedResponse&text=PagedResponse" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.resourcemanager.appservice.fluent.inner.CertificateInner?alt=com.azure.resourcemanager.appservice.fluent.inner.CertificateInner&text=CertificateInner" data-throw-if-not-resolved="False" />&gt;&gt;
+- uid: com.azure.resourcemanager.appservice.fluent.CertificatesClient.listNextSinglePageAsync(java.lang.String,com.azure.core.util.Context)
+  fullName: com.azure.resourcemanager.appservice.fluent.CertificatesClient.listNextSinglePageAsync(String nextLink, Context context)
+  name: listNextSinglePageAsync(String nextLink, Context context)
+  nameWithType: CertificatesClient.listNextSinglePageAsync(String nextLink, Context context)
+  summary: Get the next page of items.
+  parameters:
+  - description: The nextLink parameter.
+    name: nextLink
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  - description: The context to associate with this operation.
+    name: context
+    type: <xref href="com.azure.core.util.Context?alt=com.azure.core.util.Context&text=Context" data-throw-if-not-resolved="False" />
+  syntax: public Mono<PagedResponse<CertificateInner>> listNextSinglePageAsync(String nextLink, Context context)
+  returns:
+    description: collection of certificates.
+    type: <xref href="reactor.core.publisher.Mono?alt=reactor.core.publisher.Mono&text=Mono" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.core.http.rest.PagedResponse?alt=com.azure.core.http.rest.PagedResponse&text=PagedResponse" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.resourcemanager.appservice.fluent.inner.CertificateInner?alt=com.azure.resourcemanager.appservice.fluent.inner.CertificateInner&text=CertificateInner" data-throw-if-not-resolved="False" />&gt;&gt;
+type: method
+metadata: {}
+package: com.azure.resourcemanager.appservice.fluent
+artifact: com.azure.resourcemanager:azure-resourcemanager-appservice:2.0.0-beta.2

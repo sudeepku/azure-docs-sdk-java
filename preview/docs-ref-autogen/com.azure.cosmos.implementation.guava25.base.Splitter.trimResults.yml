@@ -1,0 +1,43 @@
+### YamlMime:JavaMember
+uid: com.azure.cosmos.implementation.guava25.base.Splitter.trimResults*
+fullName: com.azure.cosmos.implementation.guava25.base.Splitter.trimResults
+name: trimResults
+nameWithType: Splitter.trimResults
+members:
+- uid: com.azure.cosmos.implementation.guava25.base.Splitter.trimResults()
+  fullName: com.azure.cosmos.implementation.guava25.base.Splitter.trimResults()
+  name: trimResults()
+  nameWithType: Splitter.trimResults()
+  summary: |-
+    Returns a splitter that behaves equivalently to <code>this</code> splitter, but automatically
+     removes leading and trailing <xref uid="CharMatcher#whitespace" data-throw-if-not-resolved="false">whitespace</xref> from each returned
+     substring; equivalent to <code>trimResults(CharMatcher.whitespace())</code>. For example, <code>
+     Splitter.on(',').trimResults().split(" a, b ,c ")</code> returns an iterable containing <code>["a",
+     "b", "c"]</code>.
+  syntax: public Splitter trimResults()
+  returns:
+    description: a splitter with the desired configuration
+    type: <xref href="com.azure.cosmos.implementation.guava25.base.Splitter?alt=com.azure.cosmos.implementation.guava25.base.Splitter&text=Splitter" data-throw-if-not-resolved="False" />
+- uid: com.azure.cosmos.implementation.guava25.base.Splitter.trimResults(com.azure.cosmos.implementation.guava25.base.CharMatcher)
+  fullName: com.azure.cosmos.implementation.guava25.base.Splitter.trimResults(CharMatcher trimmer)
+  name: trimResults(CharMatcher trimmer)
+  nameWithType: Splitter.trimResults(CharMatcher trimmer)
+  summary: |-
+    Returns a splitter that behaves equivalently to <code>this</code> splitter, but removes all leading
+     or trailing characters matching the given <code>CharMatcher</code> from each returned substring. For
+     example, <code>Splitter.on(',').trimResults(CharMatcher.is('_')).split("_a ,_b_ ,c__")</code>
+     returns an iterable containing <code>["a ", "b_ ", "c"]</code>.
+  parameters:
+  - description: |-
+      a <xref uid="com.azure.cosmos.implementation.guava25.base.CharMatcher" data-throw-if-not-resolved="false">CharMatcher</xref> that determines whether a character should be removed from
+           the beginning/end of a subsequence
+    name: trimmer
+    type: <xref href="com.azure.cosmos.implementation.guava25.base.CharMatcher?alt=com.azure.cosmos.implementation.guava25.base.CharMatcher&text=CharMatcher" data-throw-if-not-resolved="False" />
+  syntax: public Splitter trimResults(CharMatcher trimmer)
+  returns:
+    description: a splitter with the desired configuration
+    type: <xref href="com.azure.cosmos.implementation.guava25.base.Splitter?alt=com.azure.cosmos.implementation.guava25.base.Splitter&text=Splitter" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.cosmos.implementation.guava25.base
+artifact: com.azure:azure-cosmos:4.3.2-beta.2

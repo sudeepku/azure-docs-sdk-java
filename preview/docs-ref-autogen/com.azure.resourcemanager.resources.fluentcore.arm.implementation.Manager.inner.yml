@@ -1,0 +1,17 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.resources.fluentcore.arm.implementation.Manager.inner*
+fullName: com.azure.resourcemanager.resources.fluentcore.arm.implementation.Manager<T,InnerT>.inner
+name: inner
+nameWithType: Manager<T,InnerT>.inner
+members:
+- uid: com.azure.resourcemanager.resources.fluentcore.arm.implementation.Manager.inner()
+  fullName: com.azure.resourcemanager.resources.fluentcore.arm.implementation.Manager<T,InnerT>.inner()
+  name: inner()
+  nameWithType: Manager<T,InnerT>.inner()
+  syntax: public InnerT inner()
+  returns:
+    type: <xref href="InnerT?alt=InnerT&text=InnerT" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.resourcemanager.resources.fluentcore.arm.implementation
+artifact: com.azure.resourcemanager:azure-resourcemanager-resources:2.0.0-beta.2

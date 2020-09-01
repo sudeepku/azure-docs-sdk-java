@@ -1,0 +1,36 @@
+### YamlMime:JavaMember
+uid: com.azure.search.documents.implementation.converters.LexicalTokenizerNameConverter.map*
+fullName: com.azure.search.documents.implementation.converters.LexicalTokenizerNameConverter.map
+name: map
+nameWithType: LexicalTokenizerNameConverter.map
+members:
+- uid: com.azure.search.documents.implementation.converters.LexicalTokenizerNameConverter.map(com.azure.search.documents.indexes.implementation.models.LexicalTokenizerName)
+  fullName: com.azure.search.documents.implementation.converters.LexicalTokenizerNameConverter.map(LexicalTokenizerName obj)
+  name: map(LexicalTokenizerName obj)
+  nameWithType: LexicalTokenizerNameConverter.map(LexicalTokenizerName obj)
+  summary: |-
+    Maps from enum <xref uid="com.azure.search.documents.indexes.implementation.models.LexicalTokenizerName" data-throw-if-not-resolved="false">com.azure.search.documents.indexes.implementation.models.LexicalTokenizerName</xref> to enum
+     <xref uid="LexicalTokenizerName" data-throw-if-not-resolved="false">LexicalTokenizerName</xref>.
+  parameters:
+  - name: obj
+    type: <xref href="com.azure.search.documents.indexes.implementation.models.LexicalTokenizerName?alt=com.azure.search.documents.indexes.implementation.models.LexicalTokenizerName&text=LexicalTokenizerName" data-throw-if-not-resolved="False" />
+  syntax: public static LexicalTokenizerName map(LexicalTokenizerName obj)
+  returns:
+    type: <xref href="com.azure.search.documents.indexes.models.LexicalTokenizerName?alt=com.azure.search.documents.indexes.models.LexicalTokenizerName&text=LexicalTokenizerName" data-throw-if-not-resolved="False" />
+- uid: com.azure.search.documents.implementation.converters.LexicalTokenizerNameConverter.map(com.azure.search.documents.indexes.models.LexicalTokenizerName)
+  fullName: com.azure.search.documents.implementation.converters.LexicalTokenizerNameConverter.map(LexicalTokenizerName obj)
+  name: map(LexicalTokenizerName obj)
+  nameWithType: LexicalTokenizerNameConverter.map(LexicalTokenizerName obj)
+  summary: |-
+    Maps from enum <xref uid="LexicalTokenizerName" data-throw-if-not-resolved="false">LexicalTokenizerName</xref> to enum
+     <xref uid="com.azure.search.documents.indexes.implementation.models.LexicalTokenizerName" data-throw-if-not-resolved="false">com.azure.search.documents.indexes.implementation.models.LexicalTokenizerName</xref>.
+  parameters:
+  - name: obj
+    type: <xref href="com.azure.search.documents.indexes.models.LexicalTokenizerName?alt=com.azure.search.documents.indexes.models.LexicalTokenizerName&text=LexicalTokenizerName" data-throw-if-not-resolved="False" />
+  syntax: public static LexicalTokenizerName map(LexicalTokenizerName obj)
+  returns:
+    type: <xref href="com.azure.search.documents.indexes.implementation.models.LexicalTokenizerName?alt=com.azure.search.documents.indexes.implementation.models.LexicalTokenizerName&text=LexicalTokenizerName" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.search.documents.implementation.converters
+artifact: com.azure:azure-search-documents:11.1.0-beta.1

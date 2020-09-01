@@ -1,0 +1,23 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.network.models.FirewallPolicyNatRule.withAction*
+fullName: com.azure.resourcemanager.network.models.FirewallPolicyNatRule.withAction
+name: withAction
+nameWithType: FirewallPolicyNatRule.withAction
+members:
+- uid: com.azure.resourcemanager.network.models.FirewallPolicyNatRule.withAction(com.azure.resourcemanager.network.models.FirewallPolicyNatRuleAction)
+  fullName: com.azure.resourcemanager.network.models.FirewallPolicyNatRule.withAction(FirewallPolicyNatRuleAction action)
+  name: withAction(FirewallPolicyNatRuleAction action)
+  nameWithType: FirewallPolicyNatRule.withAction(FirewallPolicyNatRuleAction action)
+  summary: 'Set the action property: The action type of a Nat rule, SNAT or DNAT.'
+  parameters:
+  - description: the action value to set.
+    name: action
+    type: <xref href="com.azure.resourcemanager.network.models.FirewallPolicyNatRuleAction?alt=com.azure.resourcemanager.network.models.FirewallPolicyNatRuleAction&text=FirewallPolicyNatRuleAction" data-throw-if-not-resolved="False" />
+  syntax: public FirewallPolicyNatRule withAction(FirewallPolicyNatRuleAction action)
+  returns:
+    description: the FirewallPolicyNatRule object itself.
+    type: <xref href="com.azure.resourcemanager.network.models.FirewallPolicyNatRule?alt=com.azure.resourcemanager.network.models.FirewallPolicyNatRule&text=FirewallPolicyNatRule" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.resourcemanager.network.models
+artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.0.0-beta.2

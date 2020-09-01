@@ -1,0 +1,16 @@
+### YamlMime:JavaMember
+uid: com.azure.data.appconfiguration.ConfigurationClientBuilder.ConfigurationClientBuilder*
+fullName: com.azure.data.appconfiguration.ConfigurationClientBuilder.ConfigurationClientBuilder
+name: ConfigurationClientBuilder
+nameWithType: ConfigurationClientBuilder.ConfigurationClientBuilder
+members:
+- uid: com.azure.data.appconfiguration.ConfigurationClientBuilder.ConfigurationClientBuilder()
+  fullName: com.azure.data.appconfiguration.ConfigurationClientBuilder.ConfigurationClientBuilder()
+  name: ConfigurationClientBuilder()
+  nameWithType: ConfigurationClientBuilder.ConfigurationClientBuilder()
+  summary: The constructor with defaults.
+  syntax: public ConfigurationClientBuilder()
+type: constructor
+metadata: {}
+package: com.azure.data.appconfiguration
+artifact: com.azure:azure-data-appconfiguration:1.1.4

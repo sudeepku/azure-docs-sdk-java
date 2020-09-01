@@ -1,0 +1,20 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.network.fluent.NetworkInterfaceTapConfigurationsClient.NetworkInterfaceTapConfigurationsClient*
+fullName: com.azure.resourcemanager.network.fluent.NetworkInterfaceTapConfigurationsClient.NetworkInterfaceTapConfigurationsClient
+name: NetworkInterfaceTapConfigurationsClient
+nameWithType: NetworkInterfaceTapConfigurationsClient.NetworkInterfaceTapConfigurationsClient
+members:
+- uid: com.azure.resourcemanager.network.fluent.NetworkInterfaceTapConfigurationsClient.NetworkInterfaceTapConfigurationsClient(com.azure.resourcemanager.network.NetworkManagementClient)
+  fullName: com.azure.resourcemanager.network.fluent.NetworkInterfaceTapConfigurationsClient.NetworkInterfaceTapConfigurationsClient(NetworkManagementClient client)
+  name: NetworkInterfaceTapConfigurationsClient(NetworkManagementClient client)
+  nameWithType: NetworkInterfaceTapConfigurationsClient.NetworkInterfaceTapConfigurationsClient(NetworkManagementClient client)
+  summary: Initializes an instance of NetworkInterfaceTapConfigurationsClient.
+  parameters:
+  - description: the instance of the service client containing this operation class.
+    name: client
+    type: <xref href="com.azure.resourcemanager.network.NetworkManagementClient?alt=com.azure.resourcemanager.network.NetworkManagementClient&text=NetworkManagementClient" data-throw-if-not-resolved="False" />
+  syntax: public NetworkInterfaceTapConfigurationsClient(NetworkManagementClient client)
+type: constructor
+metadata: {}
+package: com.azure.resourcemanager.network.fluent
+artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.0.0-beta.2

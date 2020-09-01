@@ -1,0 +1,15 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.dns.fluent.inner.ZoneListResultInner.ZoneListResultInner*
+fullName: com.azure.resourcemanager.dns.fluent.inner.ZoneListResultInner.ZoneListResultInner
+name: ZoneListResultInner
+nameWithType: ZoneListResultInner.ZoneListResultInner
+members:
+- uid: com.azure.resourcemanager.dns.fluent.inner.ZoneListResultInner.ZoneListResultInner()
+  fullName: com.azure.resourcemanager.dns.fluent.inner.ZoneListResultInner.ZoneListResultInner()
+  name: ZoneListResultInner()
+  nameWithType: ZoneListResultInner.ZoneListResultInner()
+  syntax: public ZoneListResultInner()
+type: constructor
+metadata: {}
+package: com.azure.resourcemanager.dns.fluent.inner
+artifact: com.azure.resourcemanager:azure-resourcemanager-dns:2.0.0-beta.2

@@ -1,0 +1,21 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.monitor.fluent.inner.EventDataInner.eventName*
+fullName: com.azure.resourcemanager.monitor.fluent.inner.EventDataInner.eventName
+name: eventName
+nameWithType: EventDataInner.eventName
+members:
+- uid: com.azure.resourcemanager.monitor.fluent.inner.EventDataInner.eventName()
+  fullName: com.azure.resourcemanager.monitor.fluent.inner.EventDataInner.eventName()
+  name: eventName()
+  nameWithType: EventDataInner.eventName()
+  summary: |-
+    Get the eventName property: the event name. This value should not be confused with OperationName. For practical
+     purposes, OperationName might be more appealing to end users.
+  syntax: public LocalizableStringInner eventName()
+  returns:
+    description: the eventName value.
+    type: <xref href="com.azure.resourcemanager.monitor.fluent.inner.LocalizableStringInner?alt=com.azure.resourcemanager.monitor.fluent.inner.LocalizableStringInner&text=LocalizableStringInner" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.resourcemanager.monitor.fluent.inner
+artifact: com.azure.resourcemanager:azure-resourcemanager-monitor:2.0.0-beta.2

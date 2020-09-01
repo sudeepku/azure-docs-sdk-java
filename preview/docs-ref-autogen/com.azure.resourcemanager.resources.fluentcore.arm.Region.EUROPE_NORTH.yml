@@ -1,0 +1,16 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.resources.fluentcore.arm.Region.EUROPE_NORTH
+fullName: com.azure.resourcemanager.resources.fluentcore.arm.Region.EUROPE_NORTH
+name: EUROPE_NORTH
+nameWithType: Region.EUROPE_NORTH
+members:
+- uid: com.azure.resourcemanager.resources.fluentcore.arm.Region.EUROPE_NORTH
+  fullName: com.azure.resourcemanager.resources.fluentcore.arm.Region.EUROPE_NORTH
+  name: EUROPE_NORTH
+  nameWithType: Region.EUROPE_NORTH
+  summary: Azure Cloud - Europe
+  syntax: public static final Region EUROPE_NORTH
+type: field
+metadata: {}
+package: com.azure.resourcemanager.resources.fluentcore.arm
+artifact: com.azure.resourcemanager:azure-resourcemanager-resources:2.0.0-beta.2

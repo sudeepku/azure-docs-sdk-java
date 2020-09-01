@@ -1,0 +1,28 @@
+### YamlMime:JavaMember
+uid: com.azure.messaging.servicebus.ServiceBusReceiverClient.renewMessageLock*
+fullName: com.azure.messaging.servicebus.ServiceBusReceiverClient.renewMessageLock
+name: renewMessageLock
+nameWithType: ServiceBusReceiverClient.renewMessageLock
+members:
+- uid: com.azure.messaging.servicebus.ServiceBusReceiverClient.renewMessageLock(java.lang.String)
+  fullName: com.azure.messaging.servicebus.ServiceBusReceiverClient.renewMessageLock(String lockToken)
+  name: renewMessageLock(String lockToken)
+  nameWithType: ServiceBusReceiverClient.renewMessageLock(String lockToken)
+  summary: |-
+    Renews the lock on the specified message. The lock will be renewed based on the setting specified on the entity.
+     When a message is received in <xref uid="ReceiveMode#PEEK_LOCK" data-throw-if-not-resolved="false">ReceiveMode#PEEK_LOCK</xref> mode, the message is locked on the server for this
+     receiver instance for a duration as specified during the Queue creation (LockDuration). If processing of the
+     message requires longer than this duration, the lock needs to be renewed. For each renewal, the lock is reset to
+     the entity's LockDuration value.
+  parameters:
+  - description: Lock token of the message to renew.
+    name: lockToken
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  syntax: public Instant renewMessageLock(String lockToken)
+  returns:
+    description: The new expiration time for the message.
+    type: <xref href="java.time.Instant?alt=java.time.Instant&text=Instant" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.messaging.servicebus
+artifact: com.azure:azure-messaging-servicebus:7.0.0-beta.5

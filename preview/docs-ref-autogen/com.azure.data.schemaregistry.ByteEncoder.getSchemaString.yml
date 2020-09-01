@@ -1,0 +1,23 @@
+### YamlMime:JavaMember
+uid: com.azure.data.schemaregistry.ByteEncoder.getSchemaString*
+fullName: com.azure.data.schemaregistry.ByteEncoder.getSchemaString
+name: getSchemaString
+nameWithType: ByteEncoder.getSchemaString
+members:
+- uid: com.azure.data.schemaregistry.ByteEncoder.getSchemaString(java.lang.Object)
+  fullName: com.azure.data.schemaregistry.ByteEncoder.getSchemaString(Object object)
+  name: getSchemaString(Object object)
+  nameWithType: ByteEncoder.getSchemaString(Object object)
+  summary: Returns string representation of schema object to be stored in the service.
+  parameters:
+  - description: Schema object used to generate schema string
+    name: object
+    type: <xref href="java.lang.Object?alt=java.lang.Object&text=Object" data-throw-if-not-resolved="False" />
+  syntax: public abstract String getSchemaString(Object object)
+  returns:
+    description: String representation of schema object parameter
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.data.schemaregistry
+artifact: com.azure:azure-data-schemaregistry:1.0.0-beta.1

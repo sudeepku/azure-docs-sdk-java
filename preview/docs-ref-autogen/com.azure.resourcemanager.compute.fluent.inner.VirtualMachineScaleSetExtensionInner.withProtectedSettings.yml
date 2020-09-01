@@ -1,0 +1,25 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.compute.fluent.inner.VirtualMachineScaleSetExtensionInner.withProtectedSettings*
+fullName: com.azure.resourcemanager.compute.fluent.inner.VirtualMachineScaleSetExtensionInner.withProtectedSettings
+name: withProtectedSettings
+nameWithType: VirtualMachineScaleSetExtensionInner.withProtectedSettings
+members:
+- uid: com.azure.resourcemanager.compute.fluent.inner.VirtualMachineScaleSetExtensionInner.withProtectedSettings(java.lang.Object)
+  fullName: com.azure.resourcemanager.compute.fluent.inner.VirtualMachineScaleSetExtensionInner.withProtectedSettings(Object protectedSettings)
+  name: withProtectedSettings(Object protectedSettings)
+  nameWithType: VirtualMachineScaleSetExtensionInner.withProtectedSettings(Object protectedSettings)
+  summary: |-
+    Set the protectedSettings property: The extension can contain either protectedSettings or
+     protectedSettingsFromKeyVault or no protected settings at all.
+  parameters:
+  - description: the protectedSettings value to set.
+    name: protectedSettings
+    type: <xref href="java.lang.Object?alt=java.lang.Object&text=Object" data-throw-if-not-resolved="False" />
+  syntax: public VirtualMachineScaleSetExtensionInner withProtectedSettings(Object protectedSettings)
+  returns:
+    description: the VirtualMachineScaleSetExtensionInner object itself.
+    type: <xref href="com.azure.resourcemanager.compute.fluent.inner.VirtualMachineScaleSetExtensionInner?alt=com.azure.resourcemanager.compute.fluent.inner.VirtualMachineScaleSetExtensionInner&text=VirtualMachineScaleSetExtensionInner" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.resourcemanager.compute.fluent.inner
+artifact: com.azure.resourcemanager:azure-resourcemanager-compute:2.0.0-beta.2

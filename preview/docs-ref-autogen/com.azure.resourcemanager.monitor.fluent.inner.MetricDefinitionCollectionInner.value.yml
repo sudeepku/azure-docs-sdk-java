@@ -1,0 +1,19 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.monitor.fluent.inner.MetricDefinitionCollectionInner.value*
+fullName: com.azure.resourcemanager.monitor.fluent.inner.MetricDefinitionCollectionInner.value
+name: value
+nameWithType: MetricDefinitionCollectionInner.value
+members:
+- uid: com.azure.resourcemanager.monitor.fluent.inner.MetricDefinitionCollectionInner.value()
+  fullName: com.azure.resourcemanager.monitor.fluent.inner.MetricDefinitionCollectionInner.value()
+  name: value()
+  nameWithType: MetricDefinitionCollectionInner.value()
+  summary: 'Get the value property: the values for the metric definitions.'
+  syntax: public List<MetricDefinitionInner> value()
+  returns:
+    description: the value value.
+    type: <xref href="java.util.List?alt=java.util.List&text=List" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.resourcemanager.monitor.fluent.inner.MetricDefinitionInner?alt=com.azure.resourcemanager.monitor.fluent.inner.MetricDefinitionInner&text=MetricDefinitionInner" data-throw-if-not-resolved="False" />&gt;
+type: method
+metadata: {}
+package: com.azure.resourcemanager.monitor.fluent.inner
+artifact: com.azure.resourcemanager:azure-resourcemanager-monitor:2.0.0-beta.2

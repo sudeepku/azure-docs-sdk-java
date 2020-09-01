@@ -1,0 +1,26 @@
+### YamlMime:JavaMember
+uid: com.azure.messaging.servicebus.ServiceBusReceiverAsyncClient.getAutoRenewMessageLock*
+fullName: com.azure.messaging.servicebus.ServiceBusReceiverAsyncClient.getAutoRenewMessageLock
+name: getAutoRenewMessageLock
+nameWithType: ServiceBusReceiverAsyncClient.getAutoRenewMessageLock
+members:
+- uid: com.azure.messaging.servicebus.ServiceBusReceiverAsyncClient.getAutoRenewMessageLock(java.lang.String,java.time.Duration)
+  fullName: com.azure.messaging.servicebus.ServiceBusReceiverAsyncClient.getAutoRenewMessageLock(String lockToken, Duration maxLockRenewalDuration)
+  name: getAutoRenewMessageLock(String lockToken, Duration maxLockRenewalDuration)
+  nameWithType: ServiceBusReceiverAsyncClient.getAutoRenewMessageLock(String lockToken, Duration maxLockRenewalDuration)
+  summary: Gets and starts the auto lock renewal for a message with the given lock.
+  parameters:
+  - description: Lock token of the message.
+    name: lockToken
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  - description: Maximum duration to keep renewing the lock token.
+    name: maxLockRenewalDuration
+    type: <xref href="java.time.Duration?alt=java.time.Duration&text=Duration" data-throw-if-not-resolved="False" />
+  syntax: public LockRenewalOperation getAutoRenewMessageLock(String lockToken, Duration maxLockRenewalDuration)
+  returns:
+    description: A lock renewal operation for the message.
+    type: <xref href="com.azure.messaging.servicebus.LockRenewalOperation?alt=com.azure.messaging.servicebus.LockRenewalOperation&text=LockRenewalOperation" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.messaging.servicebus
+artifact: com.azure:azure-messaging-servicebus:7.0.0-beta.5

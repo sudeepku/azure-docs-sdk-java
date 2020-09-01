@@ -1,0 +1,25 @@
+### YamlMime:JavaMember
+uid: com.azure.cosmos.implementation.guava25.collect.Ordering.natural*
+fullName: com.azure.cosmos.implementation.guava25.collect.Ordering<T>.<C>natural
+name: <C>natural
+nameWithType: Ordering<T>.<C>natural
+members:
+- uid: com.azure.cosmos.implementation.guava25.collect.Ordering.<C>natural()
+  fullName: com.azure.cosmos.implementation.guava25.collect.Ordering<T>.<C>natural()
+  name: <C>natural()
+  nameWithType: Ordering<T>.<C>natural()
+  summary: |-
+    Returns a serializable ordering that uses the natural order of the values. The ordering throws
+     a <xref uid="NullPointerException" data-throw-if-not-resolved="false">NullPointerException</xref> when passed a null parameter.
+
+     <p>The type specification is <code><C extends Comparable></code>, instead of the technically correct
+     <code><C extends Comparable<? super C>></code>, to support legacy types from before Java 5.
+
+     <p><b>Java 8 users:</b> use <xref uid="Comparator#naturalOrder" data-throw-if-not-resolved="false">Comparator#naturalOrder</xref> instead.
+  syntax: public static Ordering<C> <C>natural()
+  returns:
+    type: <xref href="com.azure.cosmos.implementation.guava25.collect.Ordering?alt=com.azure.cosmos.implementation.guava25.collect.Ordering&text=Ordering" data-throw-if-not-resolved="False" />&lt;<xref href="C?alt=C&text=C" data-throw-if-not-resolved="False" />&gt;
+type: method
+metadata: {}
+package: com.azure.cosmos.implementation.guava25.collect
+artifact: com.azure:azure-cosmos:4.3.2-beta.2

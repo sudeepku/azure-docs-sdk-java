@@ -1,0 +1,19 @@
+### YamlMime:JavaMember
+uid: com.azure.search.documents.indexes.implementation.models.ServiceCounters.getIndexerCounter*
+fullName: com.azure.search.documents.indexes.implementation.models.ServiceCounters.getIndexerCounter
+name: getIndexerCounter
+nameWithType: ServiceCounters.getIndexerCounter
+members:
+- uid: com.azure.search.documents.indexes.implementation.models.ServiceCounters.getIndexerCounter()
+  fullName: com.azure.search.documents.indexes.implementation.models.ServiceCounters.getIndexerCounter()
+  name: getIndexerCounter()
+  nameWithType: ServiceCounters.getIndexerCounter()
+  summary: 'Get the indexerCounter property: Total number of indexers.'
+  syntax: public ResourceCounter getIndexerCounter()
+  returns:
+    description: the indexerCounter value.
+    type: <xref href="com.azure.search.documents.indexes.implementation.models.ResourceCounter?alt=com.azure.search.documents.indexes.implementation.models.ResourceCounter&text=ResourceCounter" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.search.documents.indexes.implementation.models
+artifact: com.azure:azure-search-documents:11.1.0-beta.1

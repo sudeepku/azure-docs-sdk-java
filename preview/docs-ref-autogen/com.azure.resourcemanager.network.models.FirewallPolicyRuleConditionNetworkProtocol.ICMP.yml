@@ -1,0 +1,16 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.network.models.FirewallPolicyRuleConditionNetworkProtocol.ICMP
+fullName: com.azure.resourcemanager.network.models.FirewallPolicyRuleConditionNetworkProtocol.ICMP
+name: ICMP
+nameWithType: FirewallPolicyRuleConditionNetworkProtocol.ICMP
+members:
+- uid: com.azure.resourcemanager.network.models.FirewallPolicyRuleConditionNetworkProtocol.ICMP
+  fullName: com.azure.resourcemanager.network.models.FirewallPolicyRuleConditionNetworkProtocol.ICMP
+  name: ICMP
+  nameWithType: FirewallPolicyRuleConditionNetworkProtocol.ICMP
+  summary: Static value ICMP for FirewallPolicyRuleConditionNetworkProtocol.
+  syntax: public static final FirewallPolicyRuleConditionNetworkProtocol ICMP
+type: field
+metadata: {}
+package: com.azure.resourcemanager.network.models
+artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.0.0-beta.2

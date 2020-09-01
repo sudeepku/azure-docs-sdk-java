@@ -1,0 +1,23 @@
+### YamlMime:JavaMember
+uid: com.azure.cosmos.implementation.apachecommons.lang.tuple.Pair.getKey*
+fullName: com.azure.cosmos.implementation.apachecommons.lang.tuple.Pair<L,R>.getKey
+name: getKey
+nameWithType: Pair<L,R>.getKey
+members:
+- uid: com.azure.cosmos.implementation.apachecommons.lang.tuple.Pair.getKey()
+  fullName: com.azure.cosmos.implementation.apachecommons.lang.tuple.Pair<L,R>.getKey()
+  name: getKey()
+  nameWithType: Pair<L,R>.getKey()
+  summary: |-
+    <p>Gets the key from this pair.</p>
+
+     <p>This method implements the <code>Map.Entry</code> interface returning the
+     left element as the key.</p>
+  syntax: public final L getKey()
+  returns:
+    description: the left element as the key, may be null
+    type: <xref href="L?alt=L&text=L" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.cosmos.implementation.apachecommons.lang.tuple
+artifact: com.azure:azure-cosmos:4.3.2-beta.2

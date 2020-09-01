@@ -1,0 +1,23 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.resources.models.DeploymentPropertiesExtended.withMode*
+fullName: com.azure.resourcemanager.resources.models.DeploymentPropertiesExtended.withMode
+name: withMode
+nameWithType: DeploymentPropertiesExtended.withMode
+members:
+- uid: com.azure.resourcemanager.resources.models.DeploymentPropertiesExtended.withMode(com.azure.resourcemanager.resources.models.DeploymentMode)
+  fullName: com.azure.resourcemanager.resources.models.DeploymentPropertiesExtended.withMode(DeploymentMode mode)
+  name: withMode(DeploymentMode mode)
+  nameWithType: DeploymentPropertiesExtended.withMode(DeploymentMode mode)
+  summary: 'Set the mode property: The deployment mode. Possible values are Incremental and Complete.'
+  parameters:
+  - description: the mode value to set.
+    name: mode
+    type: <xref href="com.azure.resourcemanager.resources.models.DeploymentMode?alt=com.azure.resourcemanager.resources.models.DeploymentMode&text=DeploymentMode" data-throw-if-not-resolved="False" />
+  syntax: public DeploymentPropertiesExtended withMode(DeploymentMode mode)
+  returns:
+    description: the DeploymentPropertiesExtended object itself.
+    type: <xref href="com.azure.resourcemanager.resources.models.DeploymentPropertiesExtended?alt=com.azure.resourcemanager.resources.models.DeploymentPropertiesExtended&text=DeploymentPropertiesExtended" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.resourcemanager.resources.models
+artifact: com.azure.resourcemanager:azure-resourcemanager-resources:2.0.0-beta.2

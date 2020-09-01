@@ -1,0 +1,39 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.sql.fluent.JobStepsClient.listByVersionNextSinglePageAsync*
+fullName: com.azure.resourcemanager.sql.fluent.JobStepsClient.listByVersionNextSinglePageAsync
+name: listByVersionNextSinglePageAsync
+nameWithType: JobStepsClient.listByVersionNextSinglePageAsync
+members:
+- uid: com.azure.resourcemanager.sql.fluent.JobStepsClient.listByVersionNextSinglePageAsync(java.lang.String)
+  fullName: com.azure.resourcemanager.sql.fluent.JobStepsClient.listByVersionNextSinglePageAsync(String nextLink)
+  name: listByVersionNextSinglePageAsync(String nextLink)
+  nameWithType: JobStepsClient.listByVersionNextSinglePageAsync(String nextLink)
+  summary: Get the next page of items.
+  parameters:
+  - description: The nextLink parameter.
+    name: nextLink
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  syntax: public Mono<PagedResponse<JobStepInner>> listByVersionNextSinglePageAsync(String nextLink)
+  returns:
+    description: a list of job steps.
+    type: <xref href="reactor.core.publisher.Mono?alt=reactor.core.publisher.Mono&text=Mono" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.core.http.rest.PagedResponse?alt=com.azure.core.http.rest.PagedResponse&text=PagedResponse" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.resourcemanager.sql.fluent.inner.JobStepInner?alt=com.azure.resourcemanager.sql.fluent.inner.JobStepInner&text=JobStepInner" data-throw-if-not-resolved="False" />&gt;&gt;
+- uid: com.azure.resourcemanager.sql.fluent.JobStepsClient.listByVersionNextSinglePageAsync(java.lang.String,com.azure.core.util.Context)
+  fullName: com.azure.resourcemanager.sql.fluent.JobStepsClient.listByVersionNextSinglePageAsync(String nextLink, Context context)
+  name: listByVersionNextSinglePageAsync(String nextLink, Context context)
+  nameWithType: JobStepsClient.listByVersionNextSinglePageAsync(String nextLink, Context context)
+  summary: Get the next page of items.
+  parameters:
+  - description: The nextLink parameter.
+    name: nextLink
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  - description: The context to associate with this operation.
+    name: context
+    type: <xref href="com.azure.core.util.Context?alt=com.azure.core.util.Context&text=Context" data-throw-if-not-resolved="False" />
+  syntax: public Mono<PagedResponse<JobStepInner>> listByVersionNextSinglePageAsync(String nextLink, Context context)
+  returns:
+    description: a list of job steps.
+    type: <xref href="reactor.core.publisher.Mono?alt=reactor.core.publisher.Mono&text=Mono" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.core.http.rest.PagedResponse?alt=com.azure.core.http.rest.PagedResponse&text=PagedResponse" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.resourcemanager.sql.fluent.inner.JobStepInner?alt=com.azure.resourcemanager.sql.fluent.inner.JobStepInner&text=JobStepInner" data-throw-if-not-resolved="False" />&gt;&gt;
+type: method
+metadata: {}
+package: com.azure.resourcemanager.sql.fluent
+artifact: com.azure.resourcemanager:azure-resourcemanager-sql:2.0.0-beta.2

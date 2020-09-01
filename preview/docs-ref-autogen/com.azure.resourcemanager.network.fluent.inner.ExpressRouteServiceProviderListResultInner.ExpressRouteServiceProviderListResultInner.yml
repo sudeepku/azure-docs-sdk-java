@@ -1,0 +1,15 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.network.fluent.inner.ExpressRouteServiceProviderListResultInner.ExpressRouteServiceProviderListResultInner*
+fullName: com.azure.resourcemanager.network.fluent.inner.ExpressRouteServiceProviderListResultInner.ExpressRouteServiceProviderListResultInner
+name: ExpressRouteServiceProviderListResultInner
+nameWithType: ExpressRouteServiceProviderListResultInner.ExpressRouteServiceProviderListResultInner
+members:
+- uid: com.azure.resourcemanager.network.fluent.inner.ExpressRouteServiceProviderListResultInner.ExpressRouteServiceProviderListResultInner()
+  fullName: com.azure.resourcemanager.network.fluent.inner.ExpressRouteServiceProviderListResultInner.ExpressRouteServiceProviderListResultInner()
+  name: ExpressRouteServiceProviderListResultInner()
+  nameWithType: ExpressRouteServiceProviderListResultInner.ExpressRouteServiceProviderListResultInner()
+  syntax: public ExpressRouteServiceProviderListResultInner()
+type: constructor
+metadata: {}
+package: com.azure.resourcemanager.network.fluent.inner
+artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.0.0-beta.2

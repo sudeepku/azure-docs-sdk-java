@@ -1,0 +1,20 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.appservice.fluent.DomainsClient.DomainsClient*
+fullName: com.azure.resourcemanager.appservice.fluent.DomainsClient.DomainsClient
+name: DomainsClient
+nameWithType: DomainsClient.DomainsClient
+members:
+- uid: com.azure.resourcemanager.appservice.fluent.DomainsClient.DomainsClient(com.azure.resourcemanager.appservice.WebSiteManagementClient)
+  fullName: com.azure.resourcemanager.appservice.fluent.DomainsClient.DomainsClient(WebSiteManagementClient client)
+  name: DomainsClient(WebSiteManagementClient client)
+  nameWithType: DomainsClient.DomainsClient(WebSiteManagementClient client)
+  summary: Initializes an instance of DomainsClient.
+  parameters:
+  - description: the instance of the service client containing this operation class.
+    name: client
+    type: <xref href="com.azure.resourcemanager.appservice.WebSiteManagementClient?alt=com.azure.resourcemanager.appservice.WebSiteManagementClient&text=WebSiteManagementClient" data-throw-if-not-resolved="False" />
+  syntax: public DomainsClient(WebSiteManagementClient client)
+type: constructor
+metadata: {}
+package: com.azure.resourcemanager.appservice.fluent
+artifact: com.azure.resourcemanager:azure-resourcemanager-appservice:2.0.0-beta.2

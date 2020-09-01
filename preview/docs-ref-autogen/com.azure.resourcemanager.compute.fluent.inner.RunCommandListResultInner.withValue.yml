@@ -1,0 +1,23 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.compute.fluent.inner.RunCommandListResultInner.withValue*
+fullName: com.azure.resourcemanager.compute.fluent.inner.RunCommandListResultInner.withValue
+name: withValue
+nameWithType: RunCommandListResultInner.withValue
+members:
+- uid: com.azure.resourcemanager.compute.fluent.inner.RunCommandListResultInner.withValue(java.util.List<com.azure.resourcemanager.compute.fluent.inner.RunCommandDocumentBaseInner>)
+  fullName: com.azure.resourcemanager.compute.fluent.inner.RunCommandListResultInner.withValue(List<RunCommandDocumentBaseInner> value)
+  name: withValue(List<RunCommandDocumentBaseInner> value)
+  nameWithType: RunCommandListResultInner.withValue(List<RunCommandDocumentBaseInner> value)
+  summary: 'Set the value property: The list of virtual machine run commands.'
+  parameters:
+  - description: the value value to set.
+    name: value
+    type: <xref href="java.util.List?alt=java.util.List&text=List" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.resourcemanager.compute.fluent.inner.RunCommandDocumentBaseInner?alt=com.azure.resourcemanager.compute.fluent.inner.RunCommandDocumentBaseInner&text=RunCommandDocumentBaseInner" data-throw-if-not-resolved="False" />&gt;
+  syntax: public RunCommandListResultInner withValue(List<RunCommandDocumentBaseInner> value)
+  returns:
+    description: the RunCommandListResultInner object itself.
+    type: <xref href="com.azure.resourcemanager.compute.fluent.inner.RunCommandListResultInner?alt=com.azure.resourcemanager.compute.fluent.inner.RunCommandListResultInner&text=RunCommandListResultInner" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.resourcemanager.compute.fluent.inner
+artifact: com.azure.resourcemanager:azure-resourcemanager-compute:2.0.0-beta.2

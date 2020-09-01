@@ -1,0 +1,18 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.resources.fluentcore.policy.UserAgentPolicy.getDefaultUserAgentPolicy*
+fullName: com.azure.resourcemanager.resources.fluentcore.policy.UserAgentPolicy.getDefaultUserAgentPolicy
+name: getDefaultUserAgentPolicy
+nameWithType: UserAgentPolicy.getDefaultUserAgentPolicy
+members:
+- uid: com.azure.resourcemanager.resources.fluentcore.policy.UserAgentPolicy.getDefaultUserAgentPolicy()
+  fullName: com.azure.resourcemanager.resources.fluentcore.policy.UserAgentPolicy.getDefaultUserAgentPolicy()
+  name: getDefaultUserAgentPolicy()
+  nameWithType: UserAgentPolicy.getDefaultUserAgentPolicy()
+  syntax: public static UserAgentPolicy getDefaultUserAgentPolicy()
+  returns:
+    description: default user agent policy
+    type: <xref href="com.azure.resourcemanager.resources.fluentcore.policy.UserAgentPolicy?alt=com.azure.resourcemanager.resources.fluentcore.policy.UserAgentPolicy&text=UserAgentPolicy" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.resourcemanager.resources.fluentcore.policy
+artifact: com.azure.resourcemanager:azure-resourcemanager-resources:2.0.0-beta.2

@@ -1,0 +1,51 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.network.fluent.ExpressRouteCrossConnectionPeeringsClient.getAsync*
+fullName: com.azure.resourcemanager.network.fluent.ExpressRouteCrossConnectionPeeringsClient.getAsync
+name: getAsync
+nameWithType: ExpressRouteCrossConnectionPeeringsClient.getAsync
+members:
+- uid: com.azure.resourcemanager.network.fluent.ExpressRouteCrossConnectionPeeringsClient.getAsync(java.lang.String,java.lang.String,java.lang.String)
+  fullName: com.azure.resourcemanager.network.fluent.ExpressRouteCrossConnectionPeeringsClient.getAsync(String resourceGroupName, String crossConnectionName, String peeringName)
+  name: getAsync(String resourceGroupName, String crossConnectionName, String peeringName)
+  nameWithType: ExpressRouteCrossConnectionPeeringsClient.getAsync(String resourceGroupName, String crossConnectionName, String peeringName)
+  summary: Gets the specified peering for the ExpressRouteCrossConnection.
+  parameters:
+  - description: The name of the resource group.
+    name: resourceGroupName
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  - description: The name of the ExpressRouteCrossConnection.
+    name: crossConnectionName
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  - description: The name of the peering.
+    name: peeringName
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  syntax: public Mono<ExpressRouteCrossConnectionPeeringInner> getAsync(String resourceGroupName, String crossConnectionName, String peeringName)
+  returns:
+    description: the specified peering for the ExpressRouteCrossConnection.
+    type: <xref href="reactor.core.publisher.Mono?alt=reactor.core.publisher.Mono&text=Mono" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.resourcemanager.network.fluent.inner.ExpressRouteCrossConnectionPeeringInner?alt=com.azure.resourcemanager.network.fluent.inner.ExpressRouteCrossConnectionPeeringInner&text=ExpressRouteCrossConnectionPeeringInner" data-throw-if-not-resolved="False" />&gt;
+- uid: com.azure.resourcemanager.network.fluent.ExpressRouteCrossConnectionPeeringsClient.getAsync(java.lang.String,java.lang.String,java.lang.String,com.azure.core.util.Context)
+  fullName: com.azure.resourcemanager.network.fluent.ExpressRouteCrossConnectionPeeringsClient.getAsync(String resourceGroupName, String crossConnectionName, String peeringName, Context context)
+  name: getAsync(String resourceGroupName, String crossConnectionName, String peeringName, Context context)
+  nameWithType: ExpressRouteCrossConnectionPeeringsClient.getAsync(String resourceGroupName, String crossConnectionName, String peeringName, Context context)
+  summary: Gets the specified peering for the ExpressRouteCrossConnection.
+  parameters:
+  - description: The name of the resource group.
+    name: resourceGroupName
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  - description: The name of the ExpressRouteCrossConnection.
+    name: crossConnectionName
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  - description: The name of the peering.
+    name: peeringName
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  - description: The context to associate with this operation.
+    name: context
+    type: <xref href="com.azure.core.util.Context?alt=com.azure.core.util.Context&text=Context" data-throw-if-not-resolved="False" />
+  syntax: public Mono<ExpressRouteCrossConnectionPeeringInner> getAsync(String resourceGroupName, String crossConnectionName, String peeringName, Context context)
+  returns:
+    description: the specified peering for the ExpressRouteCrossConnection.
+    type: <xref href="reactor.core.publisher.Mono?alt=reactor.core.publisher.Mono&text=Mono" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.resourcemanager.network.fluent.inner.ExpressRouteCrossConnectionPeeringInner?alt=com.azure.resourcemanager.network.fluent.inner.ExpressRouteCrossConnectionPeeringInner&text=ExpressRouteCrossConnectionPeeringInner" data-throw-if-not-resolved="False" />&gt;
+type: method
+metadata: {}
+package: com.azure.resourcemanager.network.fluent
+artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.0.0-beta.2

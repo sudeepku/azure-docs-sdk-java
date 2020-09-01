@@ -1,0 +1,19 @@
+### YamlMime:JavaMember
+uid: com.azure.search.documents.indexes.SimpleFieldProperty.isSortable*
+fullName: com.azure.search.documents.indexes.SimpleFieldProperty.isSortable
+name: isSortable
+nameWithType: SimpleFieldProperty.isSortable
+members:
+- uid: com.azure.search.documents.indexes.SimpleFieldProperty.isSortable()
+  fullName: com.azure.search.documents.indexes.SimpleFieldProperty.isSortable()
+  name: isSortable()
+  nameWithType: SimpleFieldProperty.isSortable()
+  summary: Optional arguments defines whether the field is sortable or not.
+  syntax: public abstract boolean isSortable()
+  returns:
+    description: True if it is sortable, and false by default for non-sortable field.
+    type: <xref href="boolean?alt=boolean&text=boolean" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.search.documents.indexes
+artifact: com.azure:azure-search-documents:11.1.0-beta.1

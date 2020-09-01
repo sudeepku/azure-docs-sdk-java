@@ -1,0 +1,15 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.compute.fluent.inner.VirtualMachineCaptureResultInner.VirtualMachineCaptureResultInner*
+fullName: com.azure.resourcemanager.compute.fluent.inner.VirtualMachineCaptureResultInner.VirtualMachineCaptureResultInner
+name: VirtualMachineCaptureResultInner
+nameWithType: VirtualMachineCaptureResultInner.VirtualMachineCaptureResultInner
+members:
+- uid: com.azure.resourcemanager.compute.fluent.inner.VirtualMachineCaptureResultInner.VirtualMachineCaptureResultInner()
+  fullName: com.azure.resourcemanager.compute.fluent.inner.VirtualMachineCaptureResultInner.VirtualMachineCaptureResultInner()
+  name: VirtualMachineCaptureResultInner()
+  nameWithType: VirtualMachineCaptureResultInner.VirtualMachineCaptureResultInner()
+  syntax: public VirtualMachineCaptureResultInner()
+type: constructor
+metadata: {}
+package: com.azure.resourcemanager.compute.fluent.inner
+artifact: com.azure.resourcemanager:azure-resourcemanager-compute:2.0.0-beta.2

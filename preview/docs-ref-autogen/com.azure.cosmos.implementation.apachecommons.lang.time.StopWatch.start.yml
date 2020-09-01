@@ -1,0 +1,23 @@
+### YamlMime:JavaMember
+uid: com.azure.cosmos.implementation.apachecommons.lang.time.StopWatch.start*
+fullName: com.azure.cosmos.implementation.apachecommons.lang.time.StopWatch.start
+name: start
+nameWithType: StopWatch.start
+members:
+- uid: com.azure.cosmos.implementation.apachecommons.lang.time.StopWatch.start()
+  fullName: com.azure.cosmos.implementation.apachecommons.lang.time.StopWatch.start()
+  name: start()
+  nameWithType: StopWatch.start()
+  summary: |-
+    <p>
+     Start the stopwatch.
+     </p>
+
+     <p>
+     This method starts a new timing session, clearing any previous values.
+     </p>
+  syntax: public void start()
+type: method
+metadata: {}
+package: com.azure.cosmos.implementation.apachecommons.lang.time
+artifact: com.azure:azure-cosmos:4.3.2-beta.2

@@ -1,0 +1,25 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.appservice.fluent.inner.TopLevelDomainInner.withPrivacy*
+fullName: com.azure.resourcemanager.appservice.fluent.inner.TopLevelDomainInner.withPrivacy
+name: withPrivacy
+nameWithType: TopLevelDomainInner.withPrivacy
+members:
+- uid: com.azure.resourcemanager.appservice.fluent.inner.TopLevelDomainInner.withPrivacy(java.lang.Boolean)
+  fullName: com.azure.resourcemanager.appservice.fluent.inner.TopLevelDomainInner.withPrivacy(Boolean privacy)
+  name: withPrivacy(Boolean privacy)
+  nameWithType: TopLevelDomainInner.withPrivacy(Boolean privacy)
+  summary: |-
+    Set the privacy property: If &lt;code&gt;true&lt;/code&gt;, then the top level domain supports domain privacy;
+     otherwise, &lt;code&gt;false&lt;/code&gt;.
+  parameters:
+  - description: the privacy value to set.
+    name: privacy
+    type: <xref href="java.lang.Boolean?alt=java.lang.Boolean&text=Boolean" data-throw-if-not-resolved="False" />
+  syntax: public TopLevelDomainInner withPrivacy(Boolean privacy)
+  returns:
+    description: the TopLevelDomainInner object itself.
+    type: <xref href="com.azure.resourcemanager.appservice.fluent.inner.TopLevelDomainInner?alt=com.azure.resourcemanager.appservice.fluent.inner.TopLevelDomainInner&text=TopLevelDomainInner" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.resourcemanager.appservice.fluent.inner
+artifact: com.azure.resourcemanager:azure-resourcemanager-appservice:2.0.0-beta.2

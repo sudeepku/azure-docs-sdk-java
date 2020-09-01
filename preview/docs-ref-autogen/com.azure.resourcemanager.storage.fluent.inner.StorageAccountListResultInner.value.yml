@@ -1,0 +1,19 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.storage.fluent.inner.StorageAccountListResultInner.value*
+fullName: com.azure.resourcemanager.storage.fluent.inner.StorageAccountListResultInner.value
+name: value
+nameWithType: StorageAccountListResultInner.value
+members:
+- uid: com.azure.resourcemanager.storage.fluent.inner.StorageAccountListResultInner.value()
+  fullName: com.azure.resourcemanager.storage.fluent.inner.StorageAccountListResultInner.value()
+  name: value()
+  nameWithType: StorageAccountListResultInner.value()
+  summary: 'Get the value property: Gets the list of storage accounts and their properties.'
+  syntax: public List<StorageAccountInner> value()
+  returns:
+    description: the value value.
+    type: <xref href="java.util.List?alt=java.util.List&text=List" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.resourcemanager.storage.fluent.inner.StorageAccountInner?alt=com.azure.resourcemanager.storage.fluent.inner.StorageAccountInner&text=StorageAccountInner" data-throw-if-not-resolved="False" />&gt;
+type: method
+metadata: {}
+package: com.azure.resourcemanager.storage.fluent.inner
+artifact: com.azure.resourcemanager:azure-resourcemanager-storage:2.0.0-beta.2

@@ -1,0 +1,23 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.resources.fluent.inner.FeatureOperationsListResultInner.withNextLink*
+fullName: com.azure.resourcemanager.resources.fluent.inner.FeatureOperationsListResultInner.withNextLink
+name: withNextLink
+nameWithType: FeatureOperationsListResultInner.withNextLink
+members:
+- uid: com.azure.resourcemanager.resources.fluent.inner.FeatureOperationsListResultInner.withNextLink(java.lang.String)
+  fullName: com.azure.resourcemanager.resources.fluent.inner.FeatureOperationsListResultInner.withNextLink(String nextLink)
+  name: withNextLink(String nextLink)
+  nameWithType: FeatureOperationsListResultInner.withNextLink(String nextLink)
+  summary: 'Set the nextLink property: The URL to use for getting the next set of results.'
+  parameters:
+  - description: the nextLink value to set.
+    name: nextLink
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  syntax: public FeatureOperationsListResultInner withNextLink(String nextLink)
+  returns:
+    description: the FeatureOperationsListResultInner object itself.
+    type: <xref href="com.azure.resourcemanager.resources.fluent.inner.FeatureOperationsListResultInner?alt=com.azure.resourcemanager.resources.fluent.inner.FeatureOperationsListResultInner&text=FeatureOperationsListResultInner" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.resourcemanager.resources.fluent.inner
+artifact: com.azure.resourcemanager:azure-resourcemanager-resources:2.0.0-beta.2

@@ -1,0 +1,19 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.cosmos.fluent.inner.PercentileMetricListResultInner.value*
+fullName: com.azure.resourcemanager.cosmos.fluent.inner.PercentileMetricListResultInner.value
+name: value
+nameWithType: PercentileMetricListResultInner.value
+members:
+- uid: com.azure.resourcemanager.cosmos.fluent.inner.PercentileMetricListResultInner.value()
+  fullName: com.azure.resourcemanager.cosmos.fluent.inner.PercentileMetricListResultInner.value()
+  name: value()
+  nameWithType: PercentileMetricListResultInner.value()
+  summary: 'Get the value property: The list of percentile metrics for the account.'
+  syntax: public List<PercentileMetricInner> value()
+  returns:
+    description: the value value.
+    type: <xref href="java.util.List?alt=java.util.List&text=List" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.resourcemanager.cosmos.fluent.inner.PercentileMetricInner?alt=com.azure.resourcemanager.cosmos.fluent.inner.PercentileMetricInner&text=PercentileMetricInner" data-throw-if-not-resolved="False" />&gt;
+type: method
+metadata: {}
+package: com.azure.resourcemanager.cosmos.fluent.inner
+artifact: com.azure.resourcemanager:azure-resourcemanager-cosmos:2.0.0-beta.2

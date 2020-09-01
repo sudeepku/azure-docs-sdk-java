@@ -1,0 +1,20 @@
+### YamlMime:JavaMember
+uid: com.azure.ai.textanalytics.util.TextAnalyticsPagedFlux.TextAnalyticsPagedFlux*
+fullName: com.azure.ai.textanalytics.util.TextAnalyticsPagedFlux<T>.TextAnalyticsPagedFlux
+name: TextAnalyticsPagedFlux
+nameWithType: TextAnalyticsPagedFlux<T>.TextAnalyticsPagedFlux
+members:
+- uid: com.azure.ai.textanalytics.util.TextAnalyticsPagedFlux.TextAnalyticsPagedFlux(java.util.function.Supplier<com.azure.core.util.paging.PageRetriever<java.lang.String,com.azure.ai.textanalytics.util.TextAnalyticsPagedResponse<T>>>)
+  fullName: com.azure.ai.textanalytics.util.TextAnalyticsPagedFlux<T>.TextAnalyticsPagedFlux(Supplier<PageRetriever<String,TextAnalyticsPagedResponse<T>>> pageRetrieverProvider)
+  name: TextAnalyticsPagedFlux(Supplier<PageRetriever<String,TextAnalyticsPagedResponse<T>>> pageRetrieverProvider)
+  nameWithType: TextAnalyticsPagedFlux<T>.TextAnalyticsPagedFlux(Supplier<PageRetriever<String,TextAnalyticsPagedResponse<T>>> pageRetrieverProvider)
+  summary: Create an instance of <xref uid="TextAnalyticsPagedFlux" data-throw-if-not-resolved="false">TextAnalyticsPagedFlux</xref>
+  parameters:
+  - description: a provider that returns <xref uid="com.azure.core.util.paging.PageRetriever" data-throw-if-not-resolved="false">PageRetriever</xref>
+    name: pageRetrieverProvider
+    type: <xref href="java.util.function.Supplier?alt=java.util.function.Supplier&text=Supplier" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.core.util.paging.PageRetriever?alt=com.azure.core.util.paging.PageRetriever&text=PageRetriever" data-throw-if-not-resolved="False" />&lt;<xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />,<xref href="com.azure.ai.textanalytics.util.TextAnalyticsPagedResponse?alt=com.azure.ai.textanalytics.util.TextAnalyticsPagedResponse&text=TextAnalyticsPagedResponse" data-throw-if-not-resolved="False" />&lt;<xref href="T?alt=T&text=T" data-throw-if-not-resolved="False" />&gt;&gt;&gt;
+  syntax: public TextAnalyticsPagedFlux(Supplier<PageRetriever<String,TextAnalyticsPagedResponse<T>>> pageRetrieverProvider)
+type: constructor
+metadata: {}
+package: com.azure.ai.textanalytics.util
+artifact: com.azure:azure-ai-textanalytics:1.0.0-beta.4

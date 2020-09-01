@@ -1,0 +1,36 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.network.fluent.ExpressRoutePortsLocationsClient.listAsync*
+fullName: com.azure.resourcemanager.network.fluent.ExpressRoutePortsLocationsClient.listAsync
+name: listAsync
+nameWithType: ExpressRoutePortsLocationsClient.listAsync
+members:
+- uid: com.azure.resourcemanager.network.fluent.ExpressRoutePortsLocationsClient.listAsync()
+  fullName: com.azure.resourcemanager.network.fluent.ExpressRoutePortsLocationsClient.listAsync()
+  name: listAsync()
+  nameWithType: ExpressRoutePortsLocationsClient.listAsync()
+  summary: |-
+    Retrieves all ExpressRoutePort peering locations. Does not return available bandwidths for each location.
+     Available bandwidths can only be obtained when retrieving a specific peering location.
+  syntax: public PagedFlux<ExpressRoutePortsLocationInner> listAsync()
+  returns:
+    description: response for ListExpressRoutePortsLocations API service call.
+    type: <xref href="com.azure.core.http.rest.PagedFlux?alt=com.azure.core.http.rest.PagedFlux&text=PagedFlux" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.resourcemanager.network.fluent.inner.ExpressRoutePortsLocationInner?alt=com.azure.resourcemanager.network.fluent.inner.ExpressRoutePortsLocationInner&text=ExpressRoutePortsLocationInner" data-throw-if-not-resolved="False" />&gt;
+- uid: com.azure.resourcemanager.network.fluent.ExpressRoutePortsLocationsClient.listAsync(com.azure.core.util.Context)
+  fullName: com.azure.resourcemanager.network.fluent.ExpressRoutePortsLocationsClient.listAsync(Context context)
+  name: listAsync(Context context)
+  nameWithType: ExpressRoutePortsLocationsClient.listAsync(Context context)
+  summary: |-
+    Retrieves all ExpressRoutePort peering locations. Does not return available bandwidths for each location.
+     Available bandwidths can only be obtained when retrieving a specific peering location.
+  parameters:
+  - description: The context to associate with this operation.
+    name: context
+    type: <xref href="com.azure.core.util.Context?alt=com.azure.core.util.Context&text=Context" data-throw-if-not-resolved="False" />
+  syntax: public PagedFlux<ExpressRoutePortsLocationInner> listAsync(Context context)
+  returns:
+    description: response for ListExpressRoutePortsLocations API service call.
+    type: <xref href="com.azure.core.http.rest.PagedFlux?alt=com.azure.core.http.rest.PagedFlux&text=PagedFlux" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.resourcemanager.network.fluent.inner.ExpressRoutePortsLocationInner?alt=com.azure.resourcemanager.network.fluent.inner.ExpressRoutePortsLocationInner&text=ExpressRoutePortsLocationInner" data-throw-if-not-resolved="False" />&gt;
+type: method
+metadata: {}
+package: com.azure.resourcemanager.network.fluent
+artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.0.0-beta.2

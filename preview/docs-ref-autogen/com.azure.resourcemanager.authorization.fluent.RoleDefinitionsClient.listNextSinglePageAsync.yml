@@ -1,0 +1,39 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.authorization.fluent.RoleDefinitionsClient.listNextSinglePageAsync*
+fullName: com.azure.resourcemanager.authorization.fluent.RoleDefinitionsClient.listNextSinglePageAsync
+name: listNextSinglePageAsync
+nameWithType: RoleDefinitionsClient.listNextSinglePageAsync
+members:
+- uid: com.azure.resourcemanager.authorization.fluent.RoleDefinitionsClient.listNextSinglePageAsync(java.lang.String)
+  fullName: com.azure.resourcemanager.authorization.fluent.RoleDefinitionsClient.listNextSinglePageAsync(String nextLink)
+  name: listNextSinglePageAsync(String nextLink)
+  nameWithType: RoleDefinitionsClient.listNextSinglePageAsync(String nextLink)
+  summary: Get the next page of items.
+  parameters:
+  - description: The nextLink parameter.
+    name: nextLink
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  syntax: public Mono<PagedResponse<RoleDefinitionInner>> listNextSinglePageAsync(String nextLink)
+  returns:
+    description: role definition list operation result.
+    type: <xref href="reactor.core.publisher.Mono?alt=reactor.core.publisher.Mono&text=Mono" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.core.http.rest.PagedResponse?alt=com.azure.core.http.rest.PagedResponse&text=PagedResponse" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.resourcemanager.authorization.fluent.inner.RoleDefinitionInner?alt=com.azure.resourcemanager.authorization.fluent.inner.RoleDefinitionInner&text=RoleDefinitionInner" data-throw-if-not-resolved="False" />&gt;&gt;
+- uid: com.azure.resourcemanager.authorization.fluent.RoleDefinitionsClient.listNextSinglePageAsync(java.lang.String,com.azure.core.util.Context)
+  fullName: com.azure.resourcemanager.authorization.fluent.RoleDefinitionsClient.listNextSinglePageAsync(String nextLink, Context context)
+  name: listNextSinglePageAsync(String nextLink, Context context)
+  nameWithType: RoleDefinitionsClient.listNextSinglePageAsync(String nextLink, Context context)
+  summary: Get the next page of items.
+  parameters:
+  - description: The nextLink parameter.
+    name: nextLink
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  - description: The context to associate with this operation.
+    name: context
+    type: <xref href="com.azure.core.util.Context?alt=com.azure.core.util.Context&text=Context" data-throw-if-not-resolved="False" />
+  syntax: public Mono<PagedResponse<RoleDefinitionInner>> listNextSinglePageAsync(String nextLink, Context context)
+  returns:
+    description: role definition list operation result.
+    type: <xref href="reactor.core.publisher.Mono?alt=reactor.core.publisher.Mono&text=Mono" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.core.http.rest.PagedResponse?alt=com.azure.core.http.rest.PagedResponse&text=PagedResponse" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.resourcemanager.authorization.fluent.inner.RoleDefinitionInner?alt=com.azure.resourcemanager.authorization.fluent.inner.RoleDefinitionInner&text=RoleDefinitionInner" data-throw-if-not-resolved="False" />&gt;&gt;
+type: method
+metadata: {}
+package: com.azure.resourcemanager.authorization.fluent
+artifact: com.azure.resourcemanager:azure-resourcemanager-authorization:2.0.0-beta.2

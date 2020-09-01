@@ -1,0 +1,41 @@
+### YamlMime:JavaMember
+uid: com.azure.cosmos.implementation.apachecommons.lang.StringUtils.containsNone*
+fullName: com.azure.cosmos.implementation.apachecommons.lang.StringUtils.containsNone
+name: containsNone
+nameWithType: StringUtils.containsNone
+members:
+- uid: com.azure.cosmos.implementation.apachecommons.lang.StringUtils.containsNone(java.lang.CharSequence,char...)
+  fullName: com.azure.cosmos.implementation.apachecommons.lang.StringUtils.containsNone(CharSequence cs, char[] searchChars)
+  name: containsNone(CharSequence cs, char[] searchChars)
+  nameWithType: StringUtils.containsNone(CharSequence cs, char[] searchChars)
+  summary: |-
+    <p>Checks that the CharSequence does not contain certain characters.</p>
+
+     <p>A <code>null</code> CharSequence will return <code>true</code>.
+     A <code>null</code> invalid character array will return <code>true</code>.
+     An empty CharSequence (length()=0) always returns true.</p>
+
+     <pre>
+     StringUtils.containsNone(null, *)       = true
+     StringUtils.containsNone(*, null)       = true
+     StringUtils.containsNone("", *)         = true
+     StringUtils.containsNone("ab", '')      = true
+     StringUtils.containsNone("abab", 'xyz') = true
+     StringUtils.containsNone("ab1", 'xyz')  = true
+     StringUtils.containsNone("abz", 'xyz')  = false
+     </pre>
+  parameters:
+  - description: the CharSequence to check, may be null
+    name: cs
+    type: <xref href="java.lang.CharSequence?alt=java.lang.CharSequence&text=CharSequence" data-throw-if-not-resolved="False" />
+  - description: an array of invalid chars, may be null
+    name: searchChars
+    type: <xref href="char?alt=char&text=char" data-throw-if-not-resolved="False" />[]
+  syntax: public static boolean containsNone(CharSequence cs, char[] searchChars)
+  returns:
+    description: true if it contains none of the invalid chars, or is null
+    type: <xref href="boolean?alt=boolean&text=boolean" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.cosmos.implementation.apachecommons.lang
+artifact: com.azure:azure-cosmos:4.3.2-beta.2

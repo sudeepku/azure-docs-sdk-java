@@ -1,0 +1,20 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.resources.fluentcore.utils.PagedList.contains*
+fullName: com.azure.resourcemanager.resources.fluentcore.utils.PagedList<E>.contains
+name: contains
+nameWithType: PagedList<E>.contains
+members:
+- uid: com.azure.resourcemanager.resources.fluentcore.utils.PagedList.contains(java.lang.Object)
+  fullName: com.azure.resourcemanager.resources.fluentcore.utils.PagedList<E>.contains(Object o)
+  name: contains(Object o)
+  nameWithType: PagedList<E>.contains(Object o)
+  parameters:
+  - name: o
+    type: <xref href="java.lang.Object?alt=java.lang.Object&text=Object" data-throw-if-not-resolved="False" />
+  syntax: public boolean contains(Object o)
+  returns:
+    type: <xref href="boolean?alt=boolean&text=boolean" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.resourcemanager.resources.fluentcore.utils
+artifact: com.azure.resourcemanager:azure-resourcemanager-resources:2.0.0-beta.2

@@ -1,0 +1,39 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.resources.fluent.PolicyDefinitionsClient.listByManagementGroupSinglePageAsync*
+fullName: com.azure.resourcemanager.resources.fluent.PolicyDefinitionsClient.listByManagementGroupSinglePageAsync
+name: listByManagementGroupSinglePageAsync
+nameWithType: PolicyDefinitionsClient.listByManagementGroupSinglePageAsync
+members:
+- uid: com.azure.resourcemanager.resources.fluent.PolicyDefinitionsClient.listByManagementGroupSinglePageAsync(java.lang.String)
+  fullName: com.azure.resourcemanager.resources.fluent.PolicyDefinitionsClient.listByManagementGroupSinglePageAsync(String managementGroupId)
+  name: listByManagementGroupSinglePageAsync(String managementGroupId)
+  nameWithType: PolicyDefinitionsClient.listByManagementGroupSinglePageAsync(String managementGroupId)
+  summary: This operation retrieves a list of all the policy definitions in a given management group.
+  parameters:
+  - description: The ID of the management group.
+    name: managementGroupId
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  syntax: public Mono<PagedResponse<PolicyDefinitionInner>> listByManagementGroupSinglePageAsync(String managementGroupId)
+  returns:
+    description: list of policy definitions.
+    type: <xref href="reactor.core.publisher.Mono?alt=reactor.core.publisher.Mono&text=Mono" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.core.http.rest.PagedResponse?alt=com.azure.core.http.rest.PagedResponse&text=PagedResponse" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.resourcemanager.resources.fluent.inner.PolicyDefinitionInner?alt=com.azure.resourcemanager.resources.fluent.inner.PolicyDefinitionInner&text=PolicyDefinitionInner" data-throw-if-not-resolved="False" />&gt;&gt;
+- uid: com.azure.resourcemanager.resources.fluent.PolicyDefinitionsClient.listByManagementGroupSinglePageAsync(java.lang.String,com.azure.core.util.Context)
+  fullName: com.azure.resourcemanager.resources.fluent.PolicyDefinitionsClient.listByManagementGroupSinglePageAsync(String managementGroupId, Context context)
+  name: listByManagementGroupSinglePageAsync(String managementGroupId, Context context)
+  nameWithType: PolicyDefinitionsClient.listByManagementGroupSinglePageAsync(String managementGroupId, Context context)
+  summary: This operation retrieves a list of all the policy definitions in a given management group.
+  parameters:
+  - description: The ID of the management group.
+    name: managementGroupId
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  - description: The context to associate with this operation.
+    name: context
+    type: <xref href="com.azure.core.util.Context?alt=com.azure.core.util.Context&text=Context" data-throw-if-not-resolved="False" />
+  syntax: public Mono<PagedResponse<PolicyDefinitionInner>> listByManagementGroupSinglePageAsync(String managementGroupId, Context context)
+  returns:
+    description: list of policy definitions.
+    type: <xref href="reactor.core.publisher.Mono?alt=reactor.core.publisher.Mono&text=Mono" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.core.http.rest.PagedResponse?alt=com.azure.core.http.rest.PagedResponse&text=PagedResponse" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.resourcemanager.resources.fluent.inner.PolicyDefinitionInner?alt=com.azure.resourcemanager.resources.fluent.inner.PolicyDefinitionInner&text=PolicyDefinitionInner" data-throw-if-not-resolved="False" />&gt;&gt;
+type: method
+metadata: {}
+package: com.azure.resourcemanager.resources.fluent
+artifact: com.azure.resourcemanager:azure-resourcemanager-resources:2.0.0-beta.2

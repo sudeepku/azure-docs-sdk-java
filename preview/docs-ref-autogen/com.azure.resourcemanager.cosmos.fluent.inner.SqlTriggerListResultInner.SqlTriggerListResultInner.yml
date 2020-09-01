@@ -1,0 +1,15 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.cosmos.fluent.inner.SqlTriggerListResultInner.SqlTriggerListResultInner*
+fullName: com.azure.resourcemanager.cosmos.fluent.inner.SqlTriggerListResultInner.SqlTriggerListResultInner
+name: SqlTriggerListResultInner
+nameWithType: SqlTriggerListResultInner.SqlTriggerListResultInner
+members:
+- uid: com.azure.resourcemanager.cosmos.fluent.inner.SqlTriggerListResultInner.SqlTriggerListResultInner()
+  fullName: com.azure.resourcemanager.cosmos.fluent.inner.SqlTriggerListResultInner.SqlTriggerListResultInner()
+  name: SqlTriggerListResultInner()
+  nameWithType: SqlTriggerListResultInner.SqlTriggerListResultInner()
+  syntax: public SqlTriggerListResultInner()
+type: constructor
+metadata: {}
+package: com.azure.resourcemanager.cosmos.fluent.inner
+artifact: com.azure.resourcemanager:azure-resourcemanager-cosmos:2.0.0-beta.2

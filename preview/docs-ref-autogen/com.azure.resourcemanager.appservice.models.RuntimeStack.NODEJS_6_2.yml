@@ -1,0 +1,16 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.appservice.models.RuntimeStack.NODEJS_6_2
+fullName: com.azure.resourcemanager.appservice.models.RuntimeStack.NODEJS_6_2
+name: NODEJS_6_2
+nameWithType: RuntimeStack.NODEJS_6_2
+members:
+- uid: com.azure.resourcemanager.appservice.models.RuntimeStack.NODEJS_6_2
+  fullName: com.azure.resourcemanager.appservice.models.RuntimeStack.NODEJS_6_2
+  name: NODEJS_6_2
+  nameWithType: RuntimeStack.NODEJS_6_2
+  summary: Node.JS 6.2.
+  syntax: public static final RuntimeStack NODEJS_6_2
+type: field
+metadata: {}
+package: com.azure.resourcemanager.appservice.models
+artifact: com.azure.resourcemanager:azure-resourcemanager-appservice:2.0.0-beta.2

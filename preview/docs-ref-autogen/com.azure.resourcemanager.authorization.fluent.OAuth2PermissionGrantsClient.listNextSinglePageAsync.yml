@@ -1,0 +1,39 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.authorization.fluent.OAuth2PermissionGrantsClient.listNextSinglePageAsync*
+fullName: com.azure.resourcemanager.authorization.fluent.OAuth2PermissionGrantsClient.listNextSinglePageAsync
+name: listNextSinglePageAsync
+nameWithType: OAuth2PermissionGrantsClient.listNextSinglePageAsync
+members:
+- uid: com.azure.resourcemanager.authorization.fluent.OAuth2PermissionGrantsClient.listNextSinglePageAsync(java.lang.String)
+  fullName: com.azure.resourcemanager.authorization.fluent.OAuth2PermissionGrantsClient.listNextSinglePageAsync(String nextLink)
+  name: listNextSinglePageAsync(String nextLink)
+  nameWithType: OAuth2PermissionGrantsClient.listNextSinglePageAsync(String nextLink)
+  summary: Gets the next page of OAuth2 permission grants.
+  parameters:
+  - description: Next link for the list operation.
+    name: nextLink
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  syntax: public Mono<PagedResponse<OAuth2PermissionGrantInner>> listNextSinglePageAsync(String nextLink)
+  returns:
+    description: the next page of OAuth2 permission grants.
+    type: <xref href="reactor.core.publisher.Mono?alt=reactor.core.publisher.Mono&text=Mono" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.core.http.rest.PagedResponse?alt=com.azure.core.http.rest.PagedResponse&text=PagedResponse" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.resourcemanager.authorization.fluent.inner.OAuth2PermissionGrantInner?alt=com.azure.resourcemanager.authorization.fluent.inner.OAuth2PermissionGrantInner&text=OAuth2PermissionGrantInner" data-throw-if-not-resolved="False" />&gt;&gt;
+- uid: com.azure.resourcemanager.authorization.fluent.OAuth2PermissionGrantsClient.listNextSinglePageAsync(java.lang.String,com.azure.core.util.Context)
+  fullName: com.azure.resourcemanager.authorization.fluent.OAuth2PermissionGrantsClient.listNextSinglePageAsync(String nextLink, Context context)
+  name: listNextSinglePageAsync(String nextLink, Context context)
+  nameWithType: OAuth2PermissionGrantsClient.listNextSinglePageAsync(String nextLink, Context context)
+  summary: Gets the next page of OAuth2 permission grants.
+  parameters:
+  - description: Next link for the list operation.
+    name: nextLink
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  - description: The context to associate with this operation.
+    name: context
+    type: <xref href="com.azure.core.util.Context?alt=com.azure.core.util.Context&text=Context" data-throw-if-not-resolved="False" />
+  syntax: public Mono<PagedResponse<OAuth2PermissionGrantInner>> listNextSinglePageAsync(String nextLink, Context context)
+  returns:
+    description: the next page of OAuth2 permission grants.
+    type: <xref href="reactor.core.publisher.Mono?alt=reactor.core.publisher.Mono&text=Mono" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.core.http.rest.PagedResponse?alt=com.azure.core.http.rest.PagedResponse&text=PagedResponse" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.resourcemanager.authorization.fluent.inner.OAuth2PermissionGrantInner?alt=com.azure.resourcemanager.authorization.fluent.inner.OAuth2PermissionGrantInner&text=OAuth2PermissionGrantInner" data-throw-if-not-resolved="False" />&gt;&gt;
+type: method
+metadata: {}
+package: com.azure.resourcemanager.authorization.fluent
+artifact: com.azure.resourcemanager:azure-resourcemanager-authorization:2.0.0-beta.2

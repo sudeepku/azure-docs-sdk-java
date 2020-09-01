@@ -1,0 +1,51 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.monitor.fluent.DiagnosticSettingsClient.createOrUpdateAsync*
+fullName: com.azure.resourcemanager.monitor.fluent.DiagnosticSettingsClient.createOrUpdateAsync
+name: createOrUpdateAsync
+nameWithType: DiagnosticSettingsClient.createOrUpdateAsync
+members:
+- uid: com.azure.resourcemanager.monitor.fluent.DiagnosticSettingsClient.createOrUpdateAsync(java.lang.String,java.lang.String,com.azure.resourcemanager.monitor.fluent.inner.DiagnosticSettingsResourceInner)
+  fullName: com.azure.resourcemanager.monitor.fluent.DiagnosticSettingsClient.createOrUpdateAsync(String resourceUri, String name, DiagnosticSettingsResourceInner parameters)
+  name: createOrUpdateAsync(String resourceUri, String name, DiagnosticSettingsResourceInner parameters)
+  nameWithType: DiagnosticSettingsClient.createOrUpdateAsync(String resourceUri, String name, DiagnosticSettingsResourceInner parameters)
+  summary: Creates or updates diagnostic settings for the specified resource.
+  parameters:
+  - description: The identifier of the resource.
+    name: resourceUri
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  - description: The name of the diagnostic setting.
+    name: name
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  - description: The diagnostic setting resource.
+    name: parameters
+    type: <xref href="com.azure.resourcemanager.monitor.fluent.inner.DiagnosticSettingsResourceInner?alt=com.azure.resourcemanager.monitor.fluent.inner.DiagnosticSettingsResourceInner&text=DiagnosticSettingsResourceInner" data-throw-if-not-resolved="False" />
+  syntax: public Mono<DiagnosticSettingsResourceInner> createOrUpdateAsync(String resourceUri, String name, DiagnosticSettingsResourceInner parameters)
+  returns:
+    description: the diagnostic setting resource.
+    type: <xref href="reactor.core.publisher.Mono?alt=reactor.core.publisher.Mono&text=Mono" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.resourcemanager.monitor.fluent.inner.DiagnosticSettingsResourceInner?alt=com.azure.resourcemanager.monitor.fluent.inner.DiagnosticSettingsResourceInner&text=DiagnosticSettingsResourceInner" data-throw-if-not-resolved="False" />&gt;
+- uid: com.azure.resourcemanager.monitor.fluent.DiagnosticSettingsClient.createOrUpdateAsync(java.lang.String,java.lang.String,com.azure.resourcemanager.monitor.fluent.inner.DiagnosticSettingsResourceInner,com.azure.core.util.Context)
+  fullName: com.azure.resourcemanager.monitor.fluent.DiagnosticSettingsClient.createOrUpdateAsync(String resourceUri, String name, DiagnosticSettingsResourceInner parameters, Context context)
+  name: createOrUpdateAsync(String resourceUri, String name, DiagnosticSettingsResourceInner parameters, Context context)
+  nameWithType: DiagnosticSettingsClient.createOrUpdateAsync(String resourceUri, String name, DiagnosticSettingsResourceInner parameters, Context context)
+  summary: Creates or updates diagnostic settings for the specified resource.
+  parameters:
+  - description: The identifier of the resource.
+    name: resourceUri
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  - description: The name of the diagnostic setting.
+    name: name
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  - description: The diagnostic setting resource.
+    name: parameters
+    type: <xref href="com.azure.resourcemanager.monitor.fluent.inner.DiagnosticSettingsResourceInner?alt=com.azure.resourcemanager.monitor.fluent.inner.DiagnosticSettingsResourceInner&text=DiagnosticSettingsResourceInner" data-throw-if-not-resolved="False" />
+  - description: The context to associate with this operation.
+    name: context
+    type: <xref href="com.azure.core.util.Context?alt=com.azure.core.util.Context&text=Context" data-throw-if-not-resolved="False" />
+  syntax: public Mono<DiagnosticSettingsResourceInner> createOrUpdateAsync(String resourceUri, String name, DiagnosticSettingsResourceInner parameters, Context context)
+  returns:
+    description: the diagnostic setting resource.
+    type: <xref href="reactor.core.publisher.Mono?alt=reactor.core.publisher.Mono&text=Mono" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.resourcemanager.monitor.fluent.inner.DiagnosticSettingsResourceInner?alt=com.azure.resourcemanager.monitor.fluent.inner.DiagnosticSettingsResourceInner&text=DiagnosticSettingsResourceInner" data-throw-if-not-resolved="False" />&gt;
+type: method
+metadata: {}
+package: com.azure.resourcemanager.monitor.fluent
+artifact: com.azure.resourcemanager:azure-resourcemanager-monitor:2.0.0-beta.2

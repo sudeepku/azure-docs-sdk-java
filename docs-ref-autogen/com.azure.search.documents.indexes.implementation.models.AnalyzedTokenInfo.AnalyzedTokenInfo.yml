@@ -1,0 +1,25 @@
+### YamlMime:JavaMember
+uid: com.azure.search.documents.indexes.implementation.models.AnalyzedTokenInfo.AnalyzedTokenInfo*
+fullName: com.azure.search.documents.indexes.implementation.models.AnalyzedTokenInfo.AnalyzedTokenInfo
+name: AnalyzedTokenInfo
+nameWithType: AnalyzedTokenInfo.AnalyzedTokenInfo
+members:
+- uid: com.azure.search.documents.indexes.implementation.models.AnalyzedTokenInfo.AnalyzedTokenInfo(java.lang.String,int,int,int)
+  fullName: com.azure.search.documents.indexes.implementation.models.AnalyzedTokenInfo.AnalyzedTokenInfo(String token, int startOffset, int endOffset, int position)
+  name: AnalyzedTokenInfo(String token, int startOffset, int endOffset, int position)
+  nameWithType: AnalyzedTokenInfo.AnalyzedTokenInfo(String token, int startOffset, int endOffset, int position)
+  summary: Creates an instance of AnalyzedTokenInfo class.
+  parameters:
+  - name: token
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  - name: startOffset
+    type: <xref href="int?alt=int&text=int" data-throw-if-not-resolved="False" />
+  - name: endOffset
+    type: <xref href="int?alt=int&text=int" data-throw-if-not-resolved="False" />
+  - name: position
+    type: <xref href="int?alt=int&text=int" data-throw-if-not-resolved="False" />
+  syntax: public AnalyzedTokenInfo(String token, int startOffset, int endOffset, int position)
+type: constructor
+metadata: {}
+package: com.azure.search.documents.indexes.implementation.models
+artifact: com.azure:azure-search-documents:11.0.0

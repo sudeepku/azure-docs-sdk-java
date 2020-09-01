@@ -1,0 +1,30 @@
+### YamlMime:JavaMember
+uid: com.azure.cosmos.models.ConflictResolutionPolicy.getConflictResolutionProcedure*
+fullName: com.azure.cosmos.models.ConflictResolutionPolicy.getConflictResolutionProcedure
+name: getConflictResolutionProcedure
+nameWithType: ConflictResolutionPolicy.getConflictResolutionProcedure
+members:
+- uid: com.azure.cosmos.models.ConflictResolutionPolicy.getConflictResolutionProcedure()
+  fullName: com.azure.cosmos.models.ConflictResolutionPolicy.getConflictResolutionProcedure()
+  name: getConflictResolutionProcedure()
+  nameWithType: ConflictResolutionPolicy.getConflictResolutionProcedure()
+  summary: |-
+    Gets the <xref uid="StoredProcedure" data-throw-if-not-resolved="false">StoredProcedure</xref> which is used for conflict resolution in the Azure Cosmos DB service.
+     This stored procedure may be created after the <xref uid="CosmosContainerProperties" data-throw-if-not-resolved="false">CosmosContainerProperties</xref> is created and can be changed as
+     required.
+
+     <ul>
+     <li>This value should only be set when using <xref uid="ConflictResolutionMode#CUSTOM" data-throw-if-not-resolved="false">ConflictResolutionMode#CUSTOM</xref></li>
+     <li>In case the stored procedure fails or throws an exception,
+     the conflict resolution will default to registering conflicts in the conflicts feed</li>
+     <li>The user can provide the stored procedure @see <xref uid="Resource#getId()" data-throw-if-not-resolved="false">Resource#getId()</xref> ()}</li>
+     </ul>
+     *
+  syntax: public String getConflictResolutionProcedure()
+  returns:
+    description: the stored procedure to perform conflict resolution.]
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.cosmos.models
+artifact: com.azure:azure-cosmos:4.3.2-beta.2

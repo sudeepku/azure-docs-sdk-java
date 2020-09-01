@@ -1,0 +1,32 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.appservice.fluent.DomainsClient.getControlCenterSsoRequest*
+fullName: com.azure.resourcemanager.appservice.fluent.DomainsClient.getControlCenterSsoRequest
+name: getControlCenterSsoRequest
+nameWithType: DomainsClient.getControlCenterSsoRequest
+members:
+- uid: com.azure.resourcemanager.appservice.fluent.DomainsClient.getControlCenterSsoRequest()
+  fullName: com.azure.resourcemanager.appservice.fluent.DomainsClient.getControlCenterSsoRequest()
+  name: getControlCenterSsoRequest()
+  nameWithType: DomainsClient.getControlCenterSsoRequest()
+  summary: Description for Generate a single sign-on request for the domain management portal.
+  syntax: public DomainControlCenterSsoRequestInner getControlCenterSsoRequest()
+  returns:
+    description: single sign-on request information for domain management.
+    type: <xref href="com.azure.resourcemanager.appservice.fluent.inner.DomainControlCenterSsoRequestInner?alt=com.azure.resourcemanager.appservice.fluent.inner.DomainControlCenterSsoRequestInner&text=DomainControlCenterSsoRequestInner" data-throw-if-not-resolved="False" />
+- uid: com.azure.resourcemanager.appservice.fluent.DomainsClient.getControlCenterSsoRequest(com.azure.core.util.Context)
+  fullName: com.azure.resourcemanager.appservice.fluent.DomainsClient.getControlCenterSsoRequest(Context context)
+  name: getControlCenterSsoRequest(Context context)
+  nameWithType: DomainsClient.getControlCenterSsoRequest(Context context)
+  summary: Description for Generate a single sign-on request for the domain management portal.
+  parameters:
+  - description: The context to associate with this operation.
+    name: context
+    type: <xref href="com.azure.core.util.Context?alt=com.azure.core.util.Context&text=Context" data-throw-if-not-resolved="False" />
+  syntax: public DomainControlCenterSsoRequestInner getControlCenterSsoRequest(Context context)
+  returns:
+    description: single sign-on request information for domain management.
+    type: <xref href="com.azure.resourcemanager.appservice.fluent.inner.DomainControlCenterSsoRequestInner?alt=com.azure.resourcemanager.appservice.fluent.inner.DomainControlCenterSsoRequestInner&text=DomainControlCenterSsoRequestInner" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.resourcemanager.appservice.fluent
+artifact: com.azure.resourcemanager:azure-resourcemanager-appservice:2.0.0-beta.2

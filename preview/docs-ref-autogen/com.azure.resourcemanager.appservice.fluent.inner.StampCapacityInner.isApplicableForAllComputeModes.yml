@@ -1,0 +1,21 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.appservice.fluent.inner.StampCapacityInner.isApplicableForAllComputeModes*
+fullName: com.azure.resourcemanager.appservice.fluent.inner.StampCapacityInner.isApplicableForAllComputeModes
+name: isApplicableForAllComputeModes
+nameWithType: StampCapacityInner.isApplicableForAllComputeModes
+members:
+- uid: com.azure.resourcemanager.appservice.fluent.inner.StampCapacityInner.isApplicableForAllComputeModes()
+  fullName: com.azure.resourcemanager.appservice.fluent.inner.StampCapacityInner.isApplicableForAllComputeModes()
+  name: isApplicableForAllComputeModes()
+  nameWithType: StampCapacityInner.isApplicableForAllComputeModes()
+  summary: |-
+    Get the isApplicableForAllComputeModes property: &lt;code&gt;true&lt;/code&gt; if capacity is applicable for all
+     apps; otherwise, &lt;code&gt;false&lt;/code&gt;.
+  syntax: public Boolean isApplicableForAllComputeModes()
+  returns:
+    description: the isApplicableForAllComputeModes value.
+    type: <xref href="java.lang.Boolean?alt=java.lang.Boolean&text=Boolean" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.resourcemanager.appservice.fluent.inner
+artifact: com.azure.resourcemanager:azure-resourcemanager-appservice:2.0.0-beta.2

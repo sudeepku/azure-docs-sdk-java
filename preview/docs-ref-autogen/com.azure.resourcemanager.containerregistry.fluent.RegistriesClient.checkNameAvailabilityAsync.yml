@@ -1,0 +1,43 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.containerregistry.fluent.RegistriesClient.checkNameAvailabilityAsync*
+fullName: com.azure.resourcemanager.containerregistry.fluent.RegistriesClient.checkNameAvailabilityAsync
+name: checkNameAvailabilityAsync
+nameWithType: RegistriesClient.checkNameAvailabilityAsync
+members:
+- uid: com.azure.resourcemanager.containerregistry.fluent.RegistriesClient.checkNameAvailabilityAsync(java.lang.String)
+  fullName: com.azure.resourcemanager.containerregistry.fluent.RegistriesClient.checkNameAvailabilityAsync(String name)
+  name: checkNameAvailabilityAsync(String name)
+  nameWithType: RegistriesClient.checkNameAvailabilityAsync(String name)
+  summary: |-
+    Checks whether the container registry name is available for use. The name must contain only alphanumeric
+     characters, be globally unique, and between 5 and 50 characters in length.
+  parameters:
+  - description: The name of the container registry.
+    name: name
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  syntax: public Mono<RegistryNameStatusInner> checkNameAvailabilityAsync(String name)
+  returns:
+    description: the result of a request to check the availability of a container registry name.
+    type: <xref href="reactor.core.publisher.Mono?alt=reactor.core.publisher.Mono&text=Mono" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.resourcemanager.containerregistry.fluent.inner.RegistryNameStatusInner?alt=com.azure.resourcemanager.containerregistry.fluent.inner.RegistryNameStatusInner&text=RegistryNameStatusInner" data-throw-if-not-resolved="False" />&gt;
+- uid: com.azure.resourcemanager.containerregistry.fluent.RegistriesClient.checkNameAvailabilityAsync(java.lang.String,com.azure.core.util.Context)
+  fullName: com.azure.resourcemanager.containerregistry.fluent.RegistriesClient.checkNameAvailabilityAsync(String name, Context context)
+  name: checkNameAvailabilityAsync(String name, Context context)
+  nameWithType: RegistriesClient.checkNameAvailabilityAsync(String name, Context context)
+  summary: |-
+    Checks whether the container registry name is available for use. The name must contain only alphanumeric
+     characters, be globally unique, and between 5 and 50 characters in length.
+  parameters:
+  - description: The name of the container registry.
+    name: name
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  - description: The context to associate with this operation.
+    name: context
+    type: <xref href="com.azure.core.util.Context?alt=com.azure.core.util.Context&text=Context" data-throw-if-not-resolved="False" />
+  syntax: public Mono<RegistryNameStatusInner> checkNameAvailabilityAsync(String name, Context context)
+  returns:
+    description: the result of a request to check the availability of a container registry name.
+    type: <xref href="reactor.core.publisher.Mono?alt=reactor.core.publisher.Mono&text=Mono" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.resourcemanager.containerregistry.fluent.inner.RegistryNameStatusInner?alt=com.azure.resourcemanager.containerregistry.fluent.inner.RegistryNameStatusInner&text=RegistryNameStatusInner" data-throw-if-not-resolved="False" />&gt;
+type: method
+metadata: {}
+package: com.azure.resourcemanager.containerregistry.fluent
+artifact: com.azure.resourcemanager:azure-resourcemanager-containerregistry:2.0.0-beta.2

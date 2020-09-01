@@ -1,0 +1,15 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.monitor.fluent.inner.ActivityLogAlertListInner.ActivityLogAlertListInner*
+fullName: com.azure.resourcemanager.monitor.fluent.inner.ActivityLogAlertListInner.ActivityLogAlertListInner
+name: ActivityLogAlertListInner
+nameWithType: ActivityLogAlertListInner.ActivityLogAlertListInner
+members:
+- uid: com.azure.resourcemanager.monitor.fluent.inner.ActivityLogAlertListInner.ActivityLogAlertListInner()
+  fullName: com.azure.resourcemanager.monitor.fluent.inner.ActivityLogAlertListInner.ActivityLogAlertListInner()
+  name: ActivityLogAlertListInner()
+  nameWithType: ActivityLogAlertListInner.ActivityLogAlertListInner()
+  syntax: public ActivityLogAlertListInner()
+type: constructor
+metadata: {}
+package: com.azure.resourcemanager.monitor.fluent.inner
+artifact: com.azure.resourcemanager:azure-resourcemanager-monitor:2.0.0-beta.2

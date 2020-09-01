@@ -1,0 +1,15 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.appservice.fluent.inner.SiteExtensionInfoCollectionInner.SiteExtensionInfoCollectionInner*
+fullName: com.azure.resourcemanager.appservice.fluent.inner.SiteExtensionInfoCollectionInner.SiteExtensionInfoCollectionInner
+name: SiteExtensionInfoCollectionInner
+nameWithType: SiteExtensionInfoCollectionInner.SiteExtensionInfoCollectionInner
+members:
+- uid: com.azure.resourcemanager.appservice.fluent.inner.SiteExtensionInfoCollectionInner.SiteExtensionInfoCollectionInner()
+  fullName: com.azure.resourcemanager.appservice.fluent.inner.SiteExtensionInfoCollectionInner.SiteExtensionInfoCollectionInner()
+  name: SiteExtensionInfoCollectionInner()
+  nameWithType: SiteExtensionInfoCollectionInner.SiteExtensionInfoCollectionInner()
+  syntax: public SiteExtensionInfoCollectionInner()
+type: constructor
+metadata: {}
+package: com.azure.resourcemanager.appservice.fluent.inner
+artifact: com.azure.resourcemanager:azure-resourcemanager-appservice:2.0.0-beta.2

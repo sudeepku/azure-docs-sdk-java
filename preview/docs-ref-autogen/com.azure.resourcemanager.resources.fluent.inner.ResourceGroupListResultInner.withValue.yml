@@ -1,0 +1,23 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.resources.fluent.inner.ResourceGroupListResultInner.withValue*
+fullName: com.azure.resourcemanager.resources.fluent.inner.ResourceGroupListResultInner.withValue
+name: withValue
+nameWithType: ResourceGroupListResultInner.withValue
+members:
+- uid: com.azure.resourcemanager.resources.fluent.inner.ResourceGroupListResultInner.withValue(java.util.List<com.azure.resourcemanager.resources.fluent.inner.ResourceGroupInner>)
+  fullName: com.azure.resourcemanager.resources.fluent.inner.ResourceGroupListResultInner.withValue(List<ResourceGroupInner> value)
+  name: withValue(List<ResourceGroupInner> value)
+  nameWithType: ResourceGroupListResultInner.withValue(List<ResourceGroupInner> value)
+  summary: 'Set the value property: An array of resource groups.'
+  parameters:
+  - description: the value value to set.
+    name: value
+    type: <xref href="java.util.List?alt=java.util.List&text=List" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.resourcemanager.resources.fluent.inner.ResourceGroupInner?alt=com.azure.resourcemanager.resources.fluent.inner.ResourceGroupInner&text=ResourceGroupInner" data-throw-if-not-resolved="False" />&gt;
+  syntax: public ResourceGroupListResultInner withValue(List<ResourceGroupInner> value)
+  returns:
+    description: the ResourceGroupListResultInner object itself.
+    type: <xref href="com.azure.resourcemanager.resources.fluent.inner.ResourceGroupListResultInner?alt=com.azure.resourcemanager.resources.fluent.inner.ResourceGroupListResultInner&text=ResourceGroupListResultInner" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.resourcemanager.resources.fluent.inner
+artifact: com.azure.resourcemanager:azure-resourcemanager-resources:2.0.0-beta.2

@@ -1,0 +1,16 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.network.fluent.inner.NatGatewayListResultInner.validate*
+fullName: com.azure.resourcemanager.network.fluent.inner.NatGatewayListResultInner.validate
+name: validate
+nameWithType: NatGatewayListResultInner.validate
+members:
+- uid: com.azure.resourcemanager.network.fluent.inner.NatGatewayListResultInner.validate()
+  fullName: com.azure.resourcemanager.network.fluent.inner.NatGatewayListResultInner.validate()
+  name: validate()
+  nameWithType: NatGatewayListResultInner.validate()
+  summary: Validates the instance.
+  syntax: public void validate()
+type: method
+metadata: {}
+package: com.azure.resourcemanager.network.fluent.inner
+artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.0.0-beta.2

@@ -1,0 +1,23 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.compute.fluent.inner.VirtualMachineScaleSetVMListResultInner.withValue*
+fullName: com.azure.resourcemanager.compute.fluent.inner.VirtualMachineScaleSetVMListResultInner.withValue
+name: withValue
+nameWithType: VirtualMachineScaleSetVMListResultInner.withValue
+members:
+- uid: com.azure.resourcemanager.compute.fluent.inner.VirtualMachineScaleSetVMListResultInner.withValue(java.util.List<com.azure.resourcemanager.compute.fluent.inner.VirtualMachineScaleSetVMInner>)
+  fullName: com.azure.resourcemanager.compute.fluent.inner.VirtualMachineScaleSetVMListResultInner.withValue(List<VirtualMachineScaleSetVMInner> value)
+  name: withValue(List<VirtualMachineScaleSetVMInner> value)
+  nameWithType: VirtualMachineScaleSetVMListResultInner.withValue(List<VirtualMachineScaleSetVMInner> value)
+  summary: 'Set the value property: The list of virtual machine scale sets VMs.'
+  parameters:
+  - description: the value value to set.
+    name: value
+    type: <xref href="java.util.List?alt=java.util.List&text=List" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.resourcemanager.compute.fluent.inner.VirtualMachineScaleSetVMInner?alt=com.azure.resourcemanager.compute.fluent.inner.VirtualMachineScaleSetVMInner&text=VirtualMachineScaleSetVMInner" data-throw-if-not-resolved="False" />&gt;
+  syntax: public VirtualMachineScaleSetVMListResultInner withValue(List<VirtualMachineScaleSetVMInner> value)
+  returns:
+    description: the VirtualMachineScaleSetVMListResultInner object itself.
+    type: <xref href="com.azure.resourcemanager.compute.fluent.inner.VirtualMachineScaleSetVMListResultInner?alt=com.azure.resourcemanager.compute.fluent.inner.VirtualMachineScaleSetVMListResultInner&text=VirtualMachineScaleSetVMListResultInner" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.resourcemanager.compute.fluent.inner
+artifact: com.azure.resourcemanager:azure-resourcemanager-compute:2.0.0-beta.2

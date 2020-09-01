@@ -1,0 +1,21 @@
+### YamlMime:JavaMember
+uid: com.azure.cosmos.implementation.guava25.collect.ForwardingNavigableSet.standardPollFirst*
+fullName: com.azure.cosmos.implementation.guava25.collect.ForwardingNavigableSet<E>.standardPollFirst
+name: standardPollFirst
+nameWithType: ForwardingNavigableSet<E>.standardPollFirst
+members:
+- uid: com.azure.cosmos.implementation.guava25.collect.ForwardingNavigableSet.standardPollFirst()
+  fullName: com.azure.cosmos.implementation.guava25.collect.ForwardingNavigableSet<E>.standardPollFirst()
+  name: standardPollFirst()
+  nameWithType: ForwardingNavigableSet<E>.standardPollFirst()
+  summary: |-
+    A sensible definition of <xref uid="#pollFirst" data-throw-if-not-resolved="false">#pollFirst</xref> in terms of the <code>iterator</code> method. If you
+     override <xref uid="#iterator" data-throw-if-not-resolved="false">#iterator</xref> you may wish to override <xref uid="#pollFirst" data-throw-if-not-resolved="false">#pollFirst</xref> to forward to this
+     implementation.
+  syntax: protected E standardPollFirst()
+  returns:
+    type: <xref href="E?alt=E&text=E" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.cosmos.implementation.guava25.collect
+artifact: com.azure:azure-cosmos:4.3.2-beta.2

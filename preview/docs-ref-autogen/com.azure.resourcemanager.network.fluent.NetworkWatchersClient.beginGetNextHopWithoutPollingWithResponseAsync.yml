@@ -1,0 +1,51 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.network.fluent.NetworkWatchersClient.beginGetNextHopWithoutPollingWithResponseAsync*
+fullName: com.azure.resourcemanager.network.fluent.NetworkWatchersClient.beginGetNextHopWithoutPollingWithResponseAsync
+name: beginGetNextHopWithoutPollingWithResponseAsync
+nameWithType: NetworkWatchersClient.beginGetNextHopWithoutPollingWithResponseAsync
+members:
+- uid: com.azure.resourcemanager.network.fluent.NetworkWatchersClient.beginGetNextHopWithoutPollingWithResponseAsync(java.lang.String,java.lang.String,com.azure.resourcemanager.network.models.NextHopParameters)
+  fullName: com.azure.resourcemanager.network.fluent.NetworkWatchersClient.beginGetNextHopWithoutPollingWithResponseAsync(String resourceGroupName, String networkWatcherName, NextHopParameters parameters)
+  name: beginGetNextHopWithoutPollingWithResponseAsync(String resourceGroupName, String networkWatcherName, NextHopParameters parameters)
+  nameWithType: NetworkWatchersClient.beginGetNextHopWithoutPollingWithResponseAsync(String resourceGroupName, String networkWatcherName, NextHopParameters parameters)
+  summary: Gets the next hop from the specified VM.
+  parameters:
+  - description: The name of the resource group.
+    name: resourceGroupName
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  - description: The name of the network watcher.
+    name: networkWatcherName
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  - description: Parameters that define the source and destination endpoint.
+    name: parameters
+    type: <xref href="com.azure.resourcemanager.network.models.NextHopParameters?alt=com.azure.resourcemanager.network.models.NextHopParameters&text=NextHopParameters" data-throw-if-not-resolved="False" />
+  syntax: public Mono<Response<NextHopResultInner>> beginGetNextHopWithoutPollingWithResponseAsync(String resourceGroupName, String networkWatcherName, NextHopParameters parameters)
+  returns:
+    description: the next hop from the specified VM.
+    type: <xref href="reactor.core.publisher.Mono?alt=reactor.core.publisher.Mono&text=Mono" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.core.http.rest.Response?alt=com.azure.core.http.rest.Response&text=Response" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.resourcemanager.network.fluent.inner.NextHopResultInner?alt=com.azure.resourcemanager.network.fluent.inner.NextHopResultInner&text=NextHopResultInner" data-throw-if-not-resolved="False" />&gt;&gt;
+- uid: com.azure.resourcemanager.network.fluent.NetworkWatchersClient.beginGetNextHopWithoutPollingWithResponseAsync(java.lang.String,java.lang.String,com.azure.resourcemanager.network.models.NextHopParameters,com.azure.core.util.Context)
+  fullName: com.azure.resourcemanager.network.fluent.NetworkWatchersClient.beginGetNextHopWithoutPollingWithResponseAsync(String resourceGroupName, String networkWatcherName, NextHopParameters parameters, Context context)
+  name: beginGetNextHopWithoutPollingWithResponseAsync(String resourceGroupName, String networkWatcherName, NextHopParameters parameters, Context context)
+  nameWithType: NetworkWatchersClient.beginGetNextHopWithoutPollingWithResponseAsync(String resourceGroupName, String networkWatcherName, NextHopParameters parameters, Context context)
+  summary: Gets the next hop from the specified VM.
+  parameters:
+  - description: The name of the resource group.
+    name: resourceGroupName
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  - description: The name of the network watcher.
+    name: networkWatcherName
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  - description: Parameters that define the source and destination endpoint.
+    name: parameters
+    type: <xref href="com.azure.resourcemanager.network.models.NextHopParameters?alt=com.azure.resourcemanager.network.models.NextHopParameters&text=NextHopParameters" data-throw-if-not-resolved="False" />
+  - description: The context to associate with this operation.
+    name: context
+    type: <xref href="com.azure.core.util.Context?alt=com.azure.core.util.Context&text=Context" data-throw-if-not-resolved="False" />
+  syntax: public Mono<Response<NextHopResultInner>> beginGetNextHopWithoutPollingWithResponseAsync(String resourceGroupName, String networkWatcherName, NextHopParameters parameters, Context context)
+  returns:
+    description: the next hop from the specified VM.
+    type: <xref href="reactor.core.publisher.Mono?alt=reactor.core.publisher.Mono&text=Mono" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.core.http.rest.Response?alt=com.azure.core.http.rest.Response&text=Response" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.resourcemanager.network.fluent.inner.NextHopResultInner?alt=com.azure.resourcemanager.network.fluent.inner.NextHopResultInner&text=NextHopResultInner" data-throw-if-not-resolved="False" />&gt;&gt;
+type: method
+metadata: {}
+package: com.azure.resourcemanager.network.fluent
+artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.0.0-beta.2

@@ -1,0 +1,19 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.resources.fluent.inner.TenantIdDescriptionInner.displayName*
+fullName: com.azure.resourcemanager.resources.fluent.inner.TenantIdDescriptionInner.displayName
+name: displayName
+nameWithType: TenantIdDescriptionInner.displayName
+members:
+- uid: com.azure.resourcemanager.resources.fluent.inner.TenantIdDescriptionInner.displayName()
+  fullName: com.azure.resourcemanager.resources.fluent.inner.TenantIdDescriptionInner.displayName()
+  name: displayName()
+  nameWithType: TenantIdDescriptionInner.displayName()
+  summary: 'Get the displayName property: The display name of the tenant.'
+  syntax: public String displayName()
+  returns:
+    description: the displayName value.
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.resourcemanager.resources.fluent.inner
+artifact: com.azure.resourcemanager:azure-resourcemanager-resources:2.0.0-beta.2

@@ -1,0 +1,19 @@
+### YamlMime:JavaMember
+uid: com.azure.storage.blob.BlobServiceClient.getAccountInfo*
+fullName: com.azure.storage.blob.BlobServiceClient.getAccountInfo
+name: getAccountInfo
+nameWithType: BlobServiceClient.getAccountInfo
+members:
+- uid: com.azure.storage.blob.BlobServiceClient.getAccountInfo()
+  fullName: com.azure.storage.blob.BlobServiceClient.getAccountInfo()
+  name: getAccountInfo()
+  nameWithType: BlobServiceClient.getAccountInfo()
+  summary: "Returns the sku name and account kind for the account. For more information, please see the\n <a href=\"https://docs.microsoft.com/en-us/rest/api/storageservices/get-account-information\">Azure Docs</a>.\n\n <p><strong>Code Samples</strong></p>\n\n <pre>\n StorageAccountInfo accountInfo = client.getAccountInfo&#40;&#41;;\n \n System.out.printf&#40;&quot;Account kind: %s, SKU: %s%n&quot;, accountInfo.getAccountKind&#40;&#41;, accountInfo.getSkuName&#40;&#41;&#41;;\n </pre>"
+  syntax: public StorageAccountInfo getAccountInfo()
+  returns:
+    description: The storage account info.
+    type: <xref href="com.azure.storage.blob.models.StorageAccountInfo?alt=com.azure.storage.blob.models.StorageAccountInfo&text=StorageAccountInfo" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.storage.blob
+artifact: com.azure:azure-storage-blob:12.8.0-beta.1

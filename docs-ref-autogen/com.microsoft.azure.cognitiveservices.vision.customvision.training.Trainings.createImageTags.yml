@@ -1,0 +1,44 @@
+### YamlMime:JavaMember
+nameWithType: Trainings.createImageTags
+type: method
+members:
+- fullName: com.microsoft.azure.cognitiveservices.vision.customvision.training.Trainings.createImageTags()
+  name: createImageTags()
+  nameWithType: Trainings.createImageTags()
+  returns:
+    description: <p>the first stage of the createImageTags call </p>
+    type: <xref href="TrainingsCreateImageTagsDefinitionStages.WithProjectId?alt=TrainingsCreateImageTagsDefinitionStages.WithProjectId&text=TrainingsCreateImageTagsDefinitionStages.WithProjectId" data-throw-if-not-resolved="False"/>
+  summary: >-
+    <p>Associate a set of images with a set of tags.</p>
+
+    <p></p>
+  syntax: public TrainingsCreateImageTagsDefinitionStages.WithProjectId createImageTags()
+  uid: com.microsoft.azure.cognitiveservices.vision.customvision.training.Trainings.createImageTags()
+- fullName: com.microsoft.azure.cognitiveservices.vision.customvision.training.Trainings.createImageTags(UUID projectId, CreateImageTagsOptionalParameter createImageTagsOptionalParameter)
+  name: createImageTags(UUID projectId, CreateImageTagsOptionalParameter createImageTagsOptionalParameter)
+  nameWithType: Trainings.createImageTags(UUID projectId, CreateImageTagsOptionalParameter createImageTagsOptionalParameter)
+  parameters:
+  - description: <p>The project id. </p>
+    name: projectId
+    type: <xref href="UUID?alt=UUID&text=UUID" data-throw-if-not-resolved="False"/>
+  - description: <p>the object representing the optional parameters to be set before calling this API </p>
+    name: createImageTagsOptionalParameter
+    type: <xref href="com.microsoft.azure.cognitiveservices.vision.customvision.training.models.CreateImageTagsOptionalParameter?alt=com.microsoft.azure.cognitiveservices.vision.customvision.training.models.CreateImageTagsOptionalParameter&text=CreateImageTagsOptionalParameter" data-throw-if-not-resolved="False"/>
+  exceptions:
+  - name: 3c87bd19
+  - name: d8f234c9
+  - name: 9b2a4515
+  returns:
+    description: <p>the ImageTagCreateSummary object if successful. </p>
+    type: <xref href="com.microsoft.azure.cognitiveservices.vision.customvision.training.models.ImageTagCreateSummary?alt=com.microsoft.azure.cognitiveservices.vision.customvision.training.models.ImageTagCreateSummary&text=ImageTagCreateSummary" data-throw-if-not-resolved="False"/>
+  summary: >-
+    <p>Associate a set of images with a set of tags.</p>
+
+    <p></p>
+  syntax: public ImageTagCreateSummary createImageTags(UUID projectId, CreateImageTagsOptionalParameter createImageTagsOptionalParameter)
+  uid: com.microsoft.azure.cognitiveservices.vision.customvision.training.Trainings.createImageTags(UUID,CreateImageTagsOptionalParameter)
+uid: com.microsoft.azure.cognitiveservices.vision.customvision.training.Trainings.createImageTags*
+fullName: com.microsoft.azure.cognitiveservices.vision.customvision.training.Trainings.createImageTags()
+name: createImageTags()
+package: com.microsoft.azure.cognitiveservices.vision.customvision.training
+metadata: {}

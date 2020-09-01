@@ -1,0 +1,23 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.appservice.fluent.inner.AppServiceCertificateOrderCollectionInner.withValue*
+fullName: com.azure.resourcemanager.appservice.fluent.inner.AppServiceCertificateOrderCollectionInner.withValue
+name: withValue
+nameWithType: AppServiceCertificateOrderCollectionInner.withValue
+members:
+- uid: com.azure.resourcemanager.appservice.fluent.inner.AppServiceCertificateOrderCollectionInner.withValue(java.util.List<com.azure.resourcemanager.appservice.fluent.inner.AppServiceCertificateOrderInner>)
+  fullName: com.azure.resourcemanager.appservice.fluent.inner.AppServiceCertificateOrderCollectionInner.withValue(List<AppServiceCertificateOrderInner> value)
+  name: withValue(List<AppServiceCertificateOrderInner> value)
+  nameWithType: AppServiceCertificateOrderCollectionInner.withValue(List<AppServiceCertificateOrderInner> value)
+  summary: 'Set the value property: Collection of resources.'
+  parameters:
+  - description: the value value to set.
+    name: value
+    type: <xref href="java.util.List?alt=java.util.List&text=List" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.resourcemanager.appservice.fluent.inner.AppServiceCertificateOrderInner?alt=com.azure.resourcemanager.appservice.fluent.inner.AppServiceCertificateOrderInner&text=AppServiceCertificateOrderInner" data-throw-if-not-resolved="False" />&gt;
+  syntax: public AppServiceCertificateOrderCollectionInner withValue(List<AppServiceCertificateOrderInner> value)
+  returns:
+    description: the AppServiceCertificateOrderCollectionInner object itself.
+    type: <xref href="com.azure.resourcemanager.appservice.fluent.inner.AppServiceCertificateOrderCollectionInner?alt=com.azure.resourcemanager.appservice.fluent.inner.AppServiceCertificateOrderCollectionInner&text=AppServiceCertificateOrderCollectionInner" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.resourcemanager.appservice.fluent.inner
+artifact: com.azure.resourcemanager:azure-resourcemanager-appservice:2.0.0-beta.2

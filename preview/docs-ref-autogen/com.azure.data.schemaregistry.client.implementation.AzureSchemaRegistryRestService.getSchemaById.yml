@@ -1,0 +1,39 @@
+### YamlMime:JavaMember
+uid: com.azure.data.schemaregistry.client.implementation.AzureSchemaRegistryRestService.getSchemaById*
+fullName: com.azure.data.schemaregistry.client.implementation.AzureSchemaRegistryRestService.getSchemaById
+name: getSchemaById
+nameWithType: AzureSchemaRegistryRestService.getSchemaById
+members:
+- uid: com.azure.data.schemaregistry.client.implementation.AzureSchemaRegistryRestService.getSchemaById(java.lang.String)
+  fullName: com.azure.data.schemaregistry.client.implementation.AzureSchemaRegistryRestService.getSchemaById(String schemaId)
+  name: getSchemaById(String schemaId)
+  nameWithType: AzureSchemaRegistryRestService.getSchemaById(String schemaId)
+  summary: Get schema by schema ID.
+  parameters:
+  - description: schema ID referencing specific schema in registry namespace.
+    name: schemaId
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  syntax: public String getSchemaById(String schemaId)
+  returns:
+    description: schema by schema ID.
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+- uid: com.azure.data.schemaregistry.client.implementation.AzureSchemaRegistryRestService.getSchemaById(java.lang.String,com.azure.core.util.Context)
+  fullName: com.azure.data.schemaregistry.client.implementation.AzureSchemaRegistryRestService.getSchemaById(String schemaId, Context context)
+  name: getSchemaById(String schemaId, Context context)
+  nameWithType: AzureSchemaRegistryRestService.getSchemaById(String schemaId, Context context)
+  summary: Get schema by schema ID.
+  parameters:
+  - description: schema ID referencing specific schema in registry namespace.
+    name: schemaId
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  - description: The context to associate with this operation.
+    name: context
+    type: <xref href="com.azure.core.util.Context?alt=com.azure.core.util.Context&text=Context" data-throw-if-not-resolved="False" />
+  syntax: public String getSchemaById(String schemaId, Context context)
+  returns:
+    description: schema by schema ID.
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.data.schemaregistry.client.implementation
+artifact: com.azure:azure-data-schemaregistry:1.0.0-beta.1

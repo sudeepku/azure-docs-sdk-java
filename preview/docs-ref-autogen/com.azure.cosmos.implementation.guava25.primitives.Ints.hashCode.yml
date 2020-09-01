@@ -1,0 +1,27 @@
+### YamlMime:JavaMember
+uid: com.azure.cosmos.implementation.guava25.primitives.Ints.hashCode*
+fullName: com.azure.cosmos.implementation.guava25.primitives.Ints.hashCode
+name: hashCode
+nameWithType: Ints.hashCode
+members:
+- uid: com.azure.cosmos.implementation.guava25.primitives.Ints.hashCode(int)
+  fullName: com.azure.cosmos.implementation.guava25.primitives.Ints.hashCode(int value)
+  name: hashCode(int value)
+  nameWithType: Ints.hashCode(int value)
+  summary: |-
+    Returns a hash code for <code>value</code>; equal to the result of invoking <code>((Integer)
+     value).hashCode()</code>.
+
+     <p><b>Java 8 users:</b> use <xref uid="Integer#hashCode(int)" data-throw-if-not-resolved="false">Integer#hashCode(int)</xref> instead.
+  parameters:
+  - description: a primitive <code>int</code> value
+    name: value
+    type: <xref href="int?alt=int&text=int" data-throw-if-not-resolved="False" />
+  syntax: public static int hashCode(int value)
+  returns:
+    description: a hash code for the value
+    type: <xref href="int?alt=int&text=int" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.cosmos.implementation.guava25.primitives
+artifact: com.azure:azure-cosmos:4.3.2-beta.2

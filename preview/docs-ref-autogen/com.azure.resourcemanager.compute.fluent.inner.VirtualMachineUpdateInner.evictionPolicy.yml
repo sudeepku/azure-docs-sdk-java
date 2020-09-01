@@ -1,0 +1,21 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.compute.fluent.inner.VirtualMachineUpdateInner.evictionPolicy*
+fullName: com.azure.resourcemanager.compute.fluent.inner.VirtualMachineUpdateInner.evictionPolicy
+name: evictionPolicy
+nameWithType: VirtualMachineUpdateInner.evictionPolicy
+members:
+- uid: com.azure.resourcemanager.compute.fluent.inner.VirtualMachineUpdateInner.evictionPolicy()
+  fullName: com.azure.resourcemanager.compute.fluent.inner.VirtualMachineUpdateInner.evictionPolicy()
+  name: evictionPolicy()
+  nameWithType: VirtualMachineUpdateInner.evictionPolicy()
+  summary: |-
+    Get the evictionPolicy property: Specifies the eviction policy for the Azure Spot virtual machine. Only supported
+     value is 'Deallocate'. &lt;br&gt;&lt;br&gt;Minimum api-version: 2019-03-01.
+  syntax: public VirtualMachineEvictionPolicyTypes evictionPolicy()
+  returns:
+    description: the evictionPolicy value.
+    type: <xref href="com.azure.resourcemanager.compute.models.VirtualMachineEvictionPolicyTypes?alt=com.azure.resourcemanager.compute.models.VirtualMachineEvictionPolicyTypes&text=VirtualMachineEvictionPolicyTypes" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.resourcemanager.compute.fluent.inner
+artifact: com.azure.resourcemanager:azure-resourcemanager-compute:2.0.0-beta.2

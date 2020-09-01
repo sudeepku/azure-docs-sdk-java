@@ -1,0 +1,16 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.appservice.models.RemoteVisualStudioVersion.VS2012
+fullName: com.azure.resourcemanager.appservice.models.RemoteVisualStudioVersion.VS2012
+name: VS2012
+nameWithType: RemoteVisualStudioVersion.VS2012
+members:
+- uid: com.azure.resourcemanager.appservice.models.RemoteVisualStudioVersion.VS2012
+  fullName: com.azure.resourcemanager.appservice.models.RemoteVisualStudioVersion.VS2012
+  name: VS2012
+  nameWithType: RemoteVisualStudioVersion.VS2012
+  summary: Static value VS2012 for RemoteVisualStudioVersion.
+  syntax: public static final RemoteVisualStudioVersion VS2012
+type: field
+metadata: {}
+package: com.azure.resourcemanager.appservice.models
+artifact: com.azure.resourcemanager:azure-resourcemanager-appservice:2.0.0-beta.2

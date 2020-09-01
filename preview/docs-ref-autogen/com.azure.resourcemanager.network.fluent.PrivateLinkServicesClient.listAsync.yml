@@ -1,0 +1,32 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.network.fluent.PrivateLinkServicesClient.listAsync*
+fullName: com.azure.resourcemanager.network.fluent.PrivateLinkServicesClient.listAsync
+name: listAsync
+nameWithType: PrivateLinkServicesClient.listAsync
+members:
+- uid: com.azure.resourcemanager.network.fluent.PrivateLinkServicesClient.listAsync()
+  fullName: com.azure.resourcemanager.network.fluent.PrivateLinkServicesClient.listAsync()
+  name: listAsync()
+  nameWithType: PrivateLinkServicesClient.listAsync()
+  summary: Gets all private link service in a subscription.
+  syntax: public PagedFlux<PrivateLinkServiceInner> listAsync()
+  returns:
+    description: all private link service in a subscription.
+    type: <xref href="com.azure.core.http.rest.PagedFlux?alt=com.azure.core.http.rest.PagedFlux&text=PagedFlux" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.resourcemanager.network.fluent.inner.PrivateLinkServiceInner?alt=com.azure.resourcemanager.network.fluent.inner.PrivateLinkServiceInner&text=PrivateLinkServiceInner" data-throw-if-not-resolved="False" />&gt;
+- uid: com.azure.resourcemanager.network.fluent.PrivateLinkServicesClient.listAsync(com.azure.core.util.Context)
+  fullName: com.azure.resourcemanager.network.fluent.PrivateLinkServicesClient.listAsync(Context context)
+  name: listAsync(Context context)
+  nameWithType: PrivateLinkServicesClient.listAsync(Context context)
+  summary: Gets all private link service in a subscription.
+  parameters:
+  - description: The context to associate with this operation.
+    name: context
+    type: <xref href="com.azure.core.util.Context?alt=com.azure.core.util.Context&text=Context" data-throw-if-not-resolved="False" />
+  syntax: public PagedFlux<PrivateLinkServiceInner> listAsync(Context context)
+  returns:
+    description: all private link service in a subscription.
+    type: <xref href="com.azure.core.http.rest.PagedFlux?alt=com.azure.core.http.rest.PagedFlux&text=PagedFlux" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.resourcemanager.network.fluent.inner.PrivateLinkServiceInner?alt=com.azure.resourcemanager.network.fluent.inner.PrivateLinkServiceInner&text=PrivateLinkServiceInner" data-throw-if-not-resolved="False" />&gt;
+type: method
+metadata: {}
+package: com.azure.resourcemanager.network.fluent
+artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.0.0-beta.2

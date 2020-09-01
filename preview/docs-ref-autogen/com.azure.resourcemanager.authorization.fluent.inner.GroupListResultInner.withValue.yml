@@ -1,0 +1,23 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.authorization.fluent.inner.GroupListResultInner.withValue*
+fullName: com.azure.resourcemanager.authorization.fluent.inner.GroupListResultInner.withValue
+name: withValue
+nameWithType: GroupListResultInner.withValue
+members:
+- uid: com.azure.resourcemanager.authorization.fluent.inner.GroupListResultInner.withValue(java.util.List<com.azure.resourcemanager.authorization.fluent.inner.ADGroupInner>)
+  fullName: com.azure.resourcemanager.authorization.fluent.inner.GroupListResultInner.withValue(List<ADGroupInner> value)
+  name: withValue(List<ADGroupInner> value)
+  nameWithType: GroupListResultInner.withValue(List<ADGroupInner> value)
+  summary: 'Set the value property: A collection of Active Directory groups.'
+  parameters:
+  - description: the value value to set.
+    name: value
+    type: <xref href="java.util.List?alt=java.util.List&text=List" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.resourcemanager.authorization.fluent.inner.ADGroupInner?alt=com.azure.resourcemanager.authorization.fluent.inner.ADGroupInner&text=ADGroupInner" data-throw-if-not-resolved="False" />&gt;
+  syntax: public GroupListResultInner withValue(List<ADGroupInner> value)
+  returns:
+    description: the GroupListResultInner object itself.
+    type: <xref href="com.azure.resourcemanager.authorization.fluent.inner.GroupListResultInner?alt=com.azure.resourcemanager.authorization.fluent.inner.GroupListResultInner&text=GroupListResultInner" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.resourcemanager.authorization.fluent.inner
+artifact: com.azure.resourcemanager:azure-resourcemanager-authorization:2.0.0-beta.2

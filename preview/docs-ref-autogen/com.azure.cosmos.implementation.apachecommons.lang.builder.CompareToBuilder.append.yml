@@ -1,0 +1,487 @@
+### YamlMime:JavaMember
+uid: com.azure.cosmos.implementation.apachecommons.lang.builder.CompareToBuilder.append*
+fullName: com.azure.cosmos.implementation.apachecommons.lang.builder.CompareToBuilder.append
+name: append
+nameWithType: CompareToBuilder.append
+members:
+- uid: com.azure.cosmos.implementation.apachecommons.lang.builder.CompareToBuilder.append(boolean,boolean)
+  fullName: com.azure.cosmos.implementation.apachecommons.lang.builder.CompareToBuilder.append(boolean lhs, boolean rhs)
+  name: append(boolean lhs, boolean rhs)
+  nameWithType: CompareToBuilder.append(boolean lhs, boolean rhs)
+  summary: |-
+    Appends to the <code>builder</code> the comparison of
+     two <code>booleans</code>s.
+  parameters:
+  - description: left-hand value
+    name: lhs
+    type: <xref href="boolean?alt=boolean&text=boolean" data-throw-if-not-resolved="False" />
+  - description: right-hand value
+    name: rhs
+    type: <xref href="boolean?alt=boolean&text=boolean" data-throw-if-not-resolved="False" />
+  syntax: public CompareToBuilder append(boolean lhs, boolean rhs)
+  returns:
+    description: this - used to chain append calls
+    type: <xref href="com.azure.cosmos.implementation.apachecommons.lang.builder.CompareToBuilder?alt=com.azure.cosmos.implementation.apachecommons.lang.builder.CompareToBuilder&text=CompareToBuilder" data-throw-if-not-resolved="False" />
+- uid: com.azure.cosmos.implementation.apachecommons.lang.builder.CompareToBuilder.append(boolean[],boolean[])
+  fullName: com.azure.cosmos.implementation.apachecommons.lang.builder.CompareToBuilder.append(boolean[] lhs, boolean[] rhs)
+  name: append(boolean[] lhs, boolean[] rhs)
+  nameWithType: CompareToBuilder.append(boolean[] lhs, boolean[] rhs)
+  summary: |-
+    <p>Appends to the <code>builder</code> the deep comparison of
+     two <code>boolean</code> arrays.</p>
+
+     <ol>
+      <li>Check if arrays are the same using <code>==</code></li>
+      <li>Check if for <code>null</code>, <code>null</code> is less than non-<code>null</code></li>
+      <li>Check array length, a shorter length array is less than a longer length array</li>
+      <li>Check array contents element by element using <xref uid="#append(boolean, boolean)" data-throw-if-not-resolved="false">#append(boolean, boolean)</xref></li>
+     </ol>
+  parameters:
+  - description: left-hand array
+    name: lhs
+    type: <xref href="boolean?alt=boolean&text=boolean" data-throw-if-not-resolved="False" />[]
+  - description: right-hand array
+    name: rhs
+    type: <xref href="boolean?alt=boolean&text=boolean" data-throw-if-not-resolved="False" />[]
+  syntax: public CompareToBuilder append(boolean[] lhs, boolean[] rhs)
+  returns:
+    description: this - used to chain append calls
+    type: <xref href="com.azure.cosmos.implementation.apachecommons.lang.builder.CompareToBuilder?alt=com.azure.cosmos.implementation.apachecommons.lang.builder.CompareToBuilder&text=CompareToBuilder" data-throw-if-not-resolved="False" />
+- uid: com.azure.cosmos.implementation.apachecommons.lang.builder.CompareToBuilder.append(byte,byte)
+  fullName: com.azure.cosmos.implementation.apachecommons.lang.builder.CompareToBuilder.append(byte lhs, byte rhs)
+  name: append(byte lhs, byte rhs)
+  nameWithType: CompareToBuilder.append(byte lhs, byte rhs)
+  summary: |-
+    Appends to the <code>builder</code> the comparison of
+     two <code>byte</code>s.
+  parameters:
+  - description: left-hand value
+    name: lhs
+    type: <xref href="byte?alt=byte&text=byte" data-throw-if-not-resolved="False" />
+  - description: right-hand value
+    name: rhs
+    type: <xref href="byte?alt=byte&text=byte" data-throw-if-not-resolved="False" />
+  syntax: public CompareToBuilder append(byte lhs, byte rhs)
+  returns:
+    description: this - used to chain append calls
+    type: <xref href="com.azure.cosmos.implementation.apachecommons.lang.builder.CompareToBuilder?alt=com.azure.cosmos.implementation.apachecommons.lang.builder.CompareToBuilder&text=CompareToBuilder" data-throw-if-not-resolved="False" />
+- uid: com.azure.cosmos.implementation.apachecommons.lang.builder.CompareToBuilder.append(byte[],byte[])
+  fullName: com.azure.cosmos.implementation.apachecommons.lang.builder.CompareToBuilder.append(byte[] lhs, byte[] rhs)
+  name: append(byte[] lhs, byte[] rhs)
+  nameWithType: CompareToBuilder.append(byte[] lhs, byte[] rhs)
+  summary: |-
+    <p>Appends to the <code>builder</code> the deep comparison of
+     two <code>byte</code> arrays.</p>
+
+     <ol>
+      <li>Check if arrays are the same using <code>==</code></li>
+      <li>Check if for <code>null</code>, <code>null</code> is less than non-<code>null</code></li>
+      <li>Check array length, a shorter length array is less than a longer length array</li>
+      <li>Check array contents element by element using <xref uid="#append(byte, byte)" data-throw-if-not-resolved="false">#append(byte, byte)</xref></li>
+     </ol>
+  parameters:
+  - description: left-hand array
+    name: lhs
+    type: <xref href="byte?alt=byte&text=byte" data-throw-if-not-resolved="False" />[]
+  - description: right-hand array
+    name: rhs
+    type: <xref href="byte?alt=byte&text=byte" data-throw-if-not-resolved="False" />[]
+  syntax: public CompareToBuilder append(byte[] lhs, byte[] rhs)
+  returns:
+    description: this - used to chain append calls
+    type: <xref href="com.azure.cosmos.implementation.apachecommons.lang.builder.CompareToBuilder?alt=com.azure.cosmos.implementation.apachecommons.lang.builder.CompareToBuilder&text=CompareToBuilder" data-throw-if-not-resolved="False" />
+- uid: com.azure.cosmos.implementation.apachecommons.lang.builder.CompareToBuilder.append(char,char)
+  fullName: com.azure.cosmos.implementation.apachecommons.lang.builder.CompareToBuilder.append(char lhs, char rhs)
+  name: append(char lhs, char rhs)
+  nameWithType: CompareToBuilder.append(char lhs, char rhs)
+  summary: |-
+    Appends to the <code>builder</code> the comparison of
+     two <code>char</code>s.
+  parameters:
+  - description: left-hand value
+    name: lhs
+    type: <xref href="char?alt=char&text=char" data-throw-if-not-resolved="False" />
+  - description: right-hand value
+    name: rhs
+    type: <xref href="char?alt=char&text=char" data-throw-if-not-resolved="False" />
+  syntax: public CompareToBuilder append(char lhs, char rhs)
+  returns:
+    description: this - used to chain append calls
+    type: <xref href="com.azure.cosmos.implementation.apachecommons.lang.builder.CompareToBuilder?alt=com.azure.cosmos.implementation.apachecommons.lang.builder.CompareToBuilder&text=CompareToBuilder" data-throw-if-not-resolved="False" />
+- uid: com.azure.cosmos.implementation.apachecommons.lang.builder.CompareToBuilder.append(char[],char[])
+  fullName: com.azure.cosmos.implementation.apachecommons.lang.builder.CompareToBuilder.append(char[] lhs, char[] rhs)
+  name: append(char[] lhs, char[] rhs)
+  nameWithType: CompareToBuilder.append(char[] lhs, char[] rhs)
+  summary: |-
+    <p>Appends to the <code>builder</code> the deep comparison of
+     two <code>char</code> arrays.</p>
+
+     <ol>
+      <li>Check if arrays are the same using <code>==</code></li>
+      <li>Check if for <code>null</code>, <code>null</code> is less than non-<code>null</code></li>
+      <li>Check array length, a shorter length array is less than a longer length array</li>
+      <li>Check array contents element by element using <xref uid="#append(char, char)" data-throw-if-not-resolved="false">#append(char, char)</xref></li>
+     </ol>
+  parameters:
+  - description: left-hand array
+    name: lhs
+    type: <xref href="char?alt=char&text=char" data-throw-if-not-resolved="False" />[]
+  - description: right-hand array
+    name: rhs
+    type: <xref href="char?alt=char&text=char" data-throw-if-not-resolved="False" />[]
+  syntax: public CompareToBuilder append(char[] lhs, char[] rhs)
+  returns:
+    description: this - used to chain append calls
+    type: <xref href="com.azure.cosmos.implementation.apachecommons.lang.builder.CompareToBuilder?alt=com.azure.cosmos.implementation.apachecommons.lang.builder.CompareToBuilder&text=CompareToBuilder" data-throw-if-not-resolved="False" />
+- uid: com.azure.cosmos.implementation.apachecommons.lang.builder.CompareToBuilder.append(double,double)
+  fullName: com.azure.cosmos.implementation.apachecommons.lang.builder.CompareToBuilder.append(double lhs, double rhs)
+  name: append(double lhs, double rhs)
+  nameWithType: CompareToBuilder.append(double lhs, double rhs)
+  summary: |-
+    <p>Appends to the <code>builder</code> the comparison of
+     two <code>double</code>s.</p>
+
+     <p>This handles NaNs, Infinities, and <code>-0.0</code>.</p>
+
+     <p>It is compatible with the hash code generated by
+     <code>HashCodeBuilder</code>.</p>
+  parameters:
+  - description: left-hand value
+    name: lhs
+    type: <xref href="double?alt=double&text=double" data-throw-if-not-resolved="False" />
+  - description: right-hand value
+    name: rhs
+    type: <xref href="double?alt=double&text=double" data-throw-if-not-resolved="False" />
+  syntax: public CompareToBuilder append(double lhs, double rhs)
+  returns:
+    description: this - used to chain append calls
+    type: <xref href="com.azure.cosmos.implementation.apachecommons.lang.builder.CompareToBuilder?alt=com.azure.cosmos.implementation.apachecommons.lang.builder.CompareToBuilder&text=CompareToBuilder" data-throw-if-not-resolved="False" />
+- uid: com.azure.cosmos.implementation.apachecommons.lang.builder.CompareToBuilder.append(double[],double[])
+  fullName: com.azure.cosmos.implementation.apachecommons.lang.builder.CompareToBuilder.append(double[] lhs, double[] rhs)
+  name: append(double[] lhs, double[] rhs)
+  nameWithType: CompareToBuilder.append(double[] lhs, double[] rhs)
+  summary: |-
+    <p>Appends to the <code>builder</code> the deep comparison of
+     two <code>double</code> arrays.</p>
+
+     <ol>
+      <li>Check if arrays are the same using <code>==</code></li>
+      <li>Check if for <code>null</code>, <code>null</code> is less than non-<code>null</code></li>
+      <li>Check array length, a shorter length array is less than a longer length array</li>
+      <li>Check array contents element by element using <xref uid="#append(double, double)" data-throw-if-not-resolved="false">#append(double, double)</xref></li>
+     </ol>
+  parameters:
+  - description: left-hand array
+    name: lhs
+    type: <xref href="double?alt=double&text=double" data-throw-if-not-resolved="False" />[]
+  - description: right-hand array
+    name: rhs
+    type: <xref href="double?alt=double&text=double" data-throw-if-not-resolved="False" />[]
+  syntax: public CompareToBuilder append(double[] lhs, double[] rhs)
+  returns:
+    description: this - used to chain append calls
+    type: <xref href="com.azure.cosmos.implementation.apachecommons.lang.builder.CompareToBuilder?alt=com.azure.cosmos.implementation.apachecommons.lang.builder.CompareToBuilder&text=CompareToBuilder" data-throw-if-not-resolved="False" />
+- uid: com.azure.cosmos.implementation.apachecommons.lang.builder.CompareToBuilder.append(float,float)
+  fullName: com.azure.cosmos.implementation.apachecommons.lang.builder.CompareToBuilder.append(float lhs, float rhs)
+  name: append(float lhs, float rhs)
+  nameWithType: CompareToBuilder.append(float lhs, float rhs)
+  summary: |-
+    <p>Appends to the <code>builder</code> the comparison of
+     two <code>float</code>s.</p>
+
+     <p>This handles NaNs, Infinities, and <code>-0.0</code>.</p>
+
+     <p>It is compatible with the hash code generated by
+     <code>HashCodeBuilder</code>.</p>
+  parameters:
+  - description: left-hand value
+    name: lhs
+    type: <xref href="float?alt=float&text=float" data-throw-if-not-resolved="False" />
+  - description: right-hand value
+    name: rhs
+    type: <xref href="float?alt=float&text=float" data-throw-if-not-resolved="False" />
+  syntax: public CompareToBuilder append(float lhs, float rhs)
+  returns:
+    description: this - used to chain append calls
+    type: <xref href="com.azure.cosmos.implementation.apachecommons.lang.builder.CompareToBuilder?alt=com.azure.cosmos.implementation.apachecommons.lang.builder.CompareToBuilder&text=CompareToBuilder" data-throw-if-not-resolved="False" />
+- uid: com.azure.cosmos.implementation.apachecommons.lang.builder.CompareToBuilder.append(float[],float[])
+  fullName: com.azure.cosmos.implementation.apachecommons.lang.builder.CompareToBuilder.append(float[] lhs, float[] rhs)
+  name: append(float[] lhs, float[] rhs)
+  nameWithType: CompareToBuilder.append(float[] lhs, float[] rhs)
+  summary: |-
+    <p>Appends to the <code>builder</code> the deep comparison of
+     two <code>float</code> arrays.</p>
+
+     <ol>
+      <li>Check if arrays are the same using <code>==</code></li>
+      <li>Check if for <code>null</code>, <code>null</code> is less than non-<code>null</code></li>
+      <li>Check array length, a shorter length array is less than a longer length array</li>
+      <li>Check array contents element by element using <xref uid="#append(float, float)" data-throw-if-not-resolved="false">#append(float, float)</xref></li>
+     </ol>
+  parameters:
+  - description: left-hand array
+    name: lhs
+    type: <xref href="float?alt=float&text=float" data-throw-if-not-resolved="False" />[]
+  - description: right-hand array
+    name: rhs
+    type: <xref href="float?alt=float&text=float" data-throw-if-not-resolved="False" />[]
+  syntax: public CompareToBuilder append(float[] lhs, float[] rhs)
+  returns:
+    description: this - used to chain append calls
+    type: <xref href="com.azure.cosmos.implementation.apachecommons.lang.builder.CompareToBuilder?alt=com.azure.cosmos.implementation.apachecommons.lang.builder.CompareToBuilder&text=CompareToBuilder" data-throw-if-not-resolved="False" />
+- uid: com.azure.cosmos.implementation.apachecommons.lang.builder.CompareToBuilder.append(int,int)
+  fullName: com.azure.cosmos.implementation.apachecommons.lang.builder.CompareToBuilder.append(int lhs, int rhs)
+  name: append(int lhs, int rhs)
+  nameWithType: CompareToBuilder.append(int lhs, int rhs)
+  summary: |-
+    Appends to the <code>builder</code> the comparison of
+     two <code>int</code>s.
+  parameters:
+  - description: left-hand value
+    name: lhs
+    type: <xref href="int?alt=int&text=int" data-throw-if-not-resolved="False" />
+  - description: right-hand value
+    name: rhs
+    type: <xref href="int?alt=int&text=int" data-throw-if-not-resolved="False" />
+  syntax: public CompareToBuilder append(int lhs, int rhs)
+  returns:
+    description: this - used to chain append calls
+    type: <xref href="com.azure.cosmos.implementation.apachecommons.lang.builder.CompareToBuilder?alt=com.azure.cosmos.implementation.apachecommons.lang.builder.CompareToBuilder&text=CompareToBuilder" data-throw-if-not-resolved="False" />
+- uid: com.azure.cosmos.implementation.apachecommons.lang.builder.CompareToBuilder.append(int[],int[])
+  fullName: com.azure.cosmos.implementation.apachecommons.lang.builder.CompareToBuilder.append(int[] lhs, int[] rhs)
+  name: append(int[] lhs, int[] rhs)
+  nameWithType: CompareToBuilder.append(int[] lhs, int[] rhs)
+  summary: |-
+    <p>Appends to the <code>builder</code> the deep comparison of
+     two <code>int</code> arrays.</p>
+
+     <ol>
+      <li>Check if arrays are the same using <code>==</code></li>
+      <li>Check if for <code>null</code>, <code>null</code> is less than non-<code>null</code></li>
+      <li>Check array length, a shorter length array is less than a longer length array</li>
+      <li>Check array contents element by element using <xref uid="#append(int, int)" data-throw-if-not-resolved="false">#append(int, int)</xref></li>
+     </ol>
+  parameters:
+  - description: left-hand array
+    name: lhs
+    type: <xref href="int?alt=int&text=int" data-throw-if-not-resolved="False" />[]
+  - description: right-hand array
+    name: rhs
+    type: <xref href="int?alt=int&text=int" data-throw-if-not-resolved="False" />[]
+  syntax: public CompareToBuilder append(int[] lhs, int[] rhs)
+  returns:
+    description: this - used to chain append calls
+    type: <xref href="com.azure.cosmos.implementation.apachecommons.lang.builder.CompareToBuilder?alt=com.azure.cosmos.implementation.apachecommons.lang.builder.CompareToBuilder&text=CompareToBuilder" data-throw-if-not-resolved="False" />
+- uid: com.azure.cosmos.implementation.apachecommons.lang.builder.CompareToBuilder.append(java.lang.Object,java.lang.Object)
+  fullName: com.azure.cosmos.implementation.apachecommons.lang.builder.CompareToBuilder.append(Object lhs, Object rhs)
+  name: append(Object lhs, Object rhs)
+  nameWithType: CompareToBuilder.append(Object lhs, Object rhs)
+  summary: |-
+    <p>Appends to the <code>builder</code> the comparison of
+     two <code>Object</code>s.</p>
+
+     <ol>
+     <li>Check if <code>lhs == rhs</code></li>
+     <li>Check if either <code>lhs</code> or <code>rhs</code> is <code>null</code>,
+         a <code>null</code> object is less than a non-<code>null</code> object</li>
+     <li>Check the object contents</li>
+     </ol>
+
+     <p><code>lhs</code> must either be an array or implement <xref uid="Comparable" data-throw-if-not-resolved="false">Comparable</xref>.</p>
+  parameters:
+  - description: left-hand object
+    name: lhs
+    type: <xref href="java.lang.Object?alt=java.lang.Object&text=Object" data-throw-if-not-resolved="False" />
+  - description: right-hand object
+    name: rhs
+    type: <xref href="java.lang.Object?alt=java.lang.Object&text=Object" data-throw-if-not-resolved="False" />
+  syntax: public CompareToBuilder append(Object lhs, Object rhs)
+  returns:
+    description: this - used to chain append calls
+    type: <xref href="com.azure.cosmos.implementation.apachecommons.lang.builder.CompareToBuilder?alt=com.azure.cosmos.implementation.apachecommons.lang.builder.CompareToBuilder&text=CompareToBuilder" data-throw-if-not-resolved="False" />
+- uid: com.azure.cosmos.implementation.apachecommons.lang.builder.CompareToBuilder.append(java.lang.Object,java.lang.Object,java.util.Comparator<?>)
+  fullName: com.azure.cosmos.implementation.apachecommons.lang.builder.CompareToBuilder.append(Object lhs, Object rhs, Comparator<?> comparator)
+  name: append(Object lhs, Object rhs, Comparator<?> comparator)
+  nameWithType: CompareToBuilder.append(Object lhs, Object rhs, Comparator<?> comparator)
+  summary: |-
+    <p>Appends to the <code>builder</code> the comparison of
+     two <code>Object</code>s.</p>
+
+     <ol>
+     <li>Check if <code>lhs == rhs</code></li>
+     <li>Check if either <code>lhs</code> or <code>rhs</code> is <code>null</code>,
+         a <code>null</code> object is less than a non-<code>null</code> object</li>
+     <li>Check the object contents</li>
+     </ol>
+
+     <p>If <code>lhs</code> is an array, array comparison methods will be used.
+     Otherwise <code>comparator</code> will be used to compare the objects.
+     If <code>comparator</code> is <code>null</code>, <code>lhs</code> must
+     implement <xref uid="Comparable" data-throw-if-not-resolved="false">Comparable</xref> instead.</p>
+  parameters:
+  - description: left-hand object
+    name: lhs
+    type: <xref href="java.lang.Object?alt=java.lang.Object&text=Object" data-throw-if-not-resolved="False" />
+  - description: right-hand object
+    name: rhs
+    type: <xref href="java.lang.Object?alt=java.lang.Object&text=Object" data-throw-if-not-resolved="False" />
+  - description: |-
+      <code>Comparator</code> used to compare the objects,
+        <code>null</code> means treat lhs as <code>Comparable</code>
+    name: comparator
+    type: <xref href="java.util.Comparator?alt=java.util.Comparator&text=Comparator" data-throw-if-not-resolved="False" />&lt;?&gt;
+  syntax: public CompareToBuilder append(Object lhs, Object rhs, Comparator<?> comparator)
+  returns:
+    description: this - used to chain append calls
+    type: <xref href="com.azure.cosmos.implementation.apachecommons.lang.builder.CompareToBuilder?alt=com.azure.cosmos.implementation.apachecommons.lang.builder.CompareToBuilder&text=CompareToBuilder" data-throw-if-not-resolved="False" />
+- uid: com.azure.cosmos.implementation.apachecommons.lang.builder.CompareToBuilder.append(java.lang.Object[],java.lang.Object[])
+  fullName: com.azure.cosmos.implementation.apachecommons.lang.builder.CompareToBuilder.append(Object[] lhs, Object[] rhs)
+  name: append(Object[] lhs, Object[] rhs)
+  nameWithType: CompareToBuilder.append(Object[] lhs, Object[] rhs)
+  summary: |-
+    <p>Appends to the <code>builder</code> the deep comparison of
+     two <code>Object</code> arrays.</p>
+
+     <ol>
+      <li>Check if arrays are the same using <code>==</code></li>
+      <li>Check if for <code>null</code>, <code>null</code> is less than non-<code>null</code></li>
+      <li>Check array length, a short length array is less than a long length array</li>
+      <li>Check array contents element by element using <xref uid="#append(Object, Object, Comparator)" data-throw-if-not-resolved="false">#append(Object, Object, Comparator)</xref></li>
+     </ol>
+
+     <p>This method will also will be called for the top level of multi-dimensional,
+     ragged, and multi-typed arrays.</p>
+  parameters:
+  - description: left-hand array
+    name: lhs
+    type: <xref href="java.lang.Object?alt=java.lang.Object&text=Object" data-throw-if-not-resolved="False" />[]
+  - description: right-hand array
+    name: rhs
+    type: <xref href="java.lang.Object?alt=java.lang.Object&text=Object" data-throw-if-not-resolved="False" />[]
+  syntax: public CompareToBuilder append(Object[] lhs, Object[] rhs)
+  returns:
+    description: this - used to chain append calls
+    type: <xref href="com.azure.cosmos.implementation.apachecommons.lang.builder.CompareToBuilder?alt=com.azure.cosmos.implementation.apachecommons.lang.builder.CompareToBuilder&text=CompareToBuilder" data-throw-if-not-resolved="False" />
+- uid: com.azure.cosmos.implementation.apachecommons.lang.builder.CompareToBuilder.append(java.lang.Object[],java.lang.Object[],java.util.Comparator<?>)
+  fullName: com.azure.cosmos.implementation.apachecommons.lang.builder.CompareToBuilder.append(Object[] lhs, Object[] rhs, Comparator<?> comparator)
+  name: append(Object[] lhs, Object[] rhs, Comparator<?> comparator)
+  nameWithType: CompareToBuilder.append(Object[] lhs, Object[] rhs, Comparator<?> comparator)
+  summary: |-
+    <p>Appends to the <code>builder</code> the deep comparison of
+     two <code>Object</code> arrays.</p>
+
+     <ol>
+      <li>Check if arrays are the same using <code>==</code></li>
+      <li>Check if for <code>null</code>, <code>null</code> is less than non-<code>null</code></li>
+      <li>Check array length, a short length array is less than a long length array</li>
+      <li>Check array contents element by element using <xref uid="#append(Object, Object, Comparator)" data-throw-if-not-resolved="false">#append(Object, Object, Comparator)</xref></li>
+     </ol>
+
+     <p>This method will also will be called for the top level of multi-dimensional,
+     ragged, and multi-typed arrays.</p>
+  parameters:
+  - description: left-hand array
+    name: lhs
+    type: <xref href="java.lang.Object?alt=java.lang.Object&text=Object" data-throw-if-not-resolved="False" />[]
+  - description: right-hand array
+    name: rhs
+    type: <xref href="java.lang.Object?alt=java.lang.Object&text=Object" data-throw-if-not-resolved="False" />[]
+  - description: |-
+      <code>Comparator</code> to use to compare the array elements,
+        <code>null</code> means to treat <code>lhs</code> elements as <code>Comparable</code>.
+    name: comparator
+    type: <xref href="java.util.Comparator?alt=java.util.Comparator&text=Comparator" data-throw-if-not-resolved="False" />&lt;?&gt;
+  syntax: public CompareToBuilder append(Object[] lhs, Object[] rhs, Comparator<?> comparator)
+  returns:
+    description: this - used to chain append calls
+    type: <xref href="com.azure.cosmos.implementation.apachecommons.lang.builder.CompareToBuilder?alt=com.azure.cosmos.implementation.apachecommons.lang.builder.CompareToBuilder&text=CompareToBuilder" data-throw-if-not-resolved="False" />
+- uid: com.azure.cosmos.implementation.apachecommons.lang.builder.CompareToBuilder.append(long,long)
+  fullName: com.azure.cosmos.implementation.apachecommons.lang.builder.CompareToBuilder.append(long lhs, long rhs)
+  name: append(long lhs, long rhs)
+  nameWithType: CompareToBuilder.append(long lhs, long rhs)
+  summary: |-
+    Appends to the <code>builder</code> the comparison of
+     two <code>long</code>s.
+  parameters:
+  - description: left-hand value
+    name: lhs
+    type: <xref href="long?alt=long&text=long" data-throw-if-not-resolved="False" />
+  - description: right-hand value
+    name: rhs
+    type: <xref href="long?alt=long&text=long" data-throw-if-not-resolved="False" />
+  syntax: public CompareToBuilder append(long lhs, long rhs)
+  returns:
+    description: this - used to chain append calls
+    type: <xref href="com.azure.cosmos.implementation.apachecommons.lang.builder.CompareToBuilder?alt=com.azure.cosmos.implementation.apachecommons.lang.builder.CompareToBuilder&text=CompareToBuilder" data-throw-if-not-resolved="False" />
+- uid: com.azure.cosmos.implementation.apachecommons.lang.builder.CompareToBuilder.append(long[],long[])
+  fullName: com.azure.cosmos.implementation.apachecommons.lang.builder.CompareToBuilder.append(long[] lhs, long[] rhs)
+  name: append(long[] lhs, long[] rhs)
+  nameWithType: CompareToBuilder.append(long[] lhs, long[] rhs)
+  summary: |-
+    <p>Appends to the <code>builder</code> the deep comparison of
+     two <code>long</code> arrays.</p>
+
+     <ol>
+      <li>Check if arrays are the same using <code>==</code></li>
+      <li>Check if for <code>null</code>, <code>null</code> is less than non-<code>null</code></li>
+      <li>Check array length, a shorter length array is less than a longer length array</li>
+      <li>Check array contents element by element using <xref uid="#append(long, long)" data-throw-if-not-resolved="false">#append(long, long)</xref></li>
+     </ol>
+  parameters:
+  - description: left-hand array
+    name: lhs
+    type: <xref href="long?alt=long&text=long" data-throw-if-not-resolved="False" />[]
+  - description: right-hand array
+    name: rhs
+    type: <xref href="long?alt=long&text=long" data-throw-if-not-resolved="False" />[]
+  syntax: public CompareToBuilder append(long[] lhs, long[] rhs)
+  returns:
+    description: this - used to chain append calls
+    type: <xref href="com.azure.cosmos.implementation.apachecommons.lang.builder.CompareToBuilder?alt=com.azure.cosmos.implementation.apachecommons.lang.builder.CompareToBuilder&text=CompareToBuilder" data-throw-if-not-resolved="False" />
+- uid: com.azure.cosmos.implementation.apachecommons.lang.builder.CompareToBuilder.append(short,short)
+  fullName: com.azure.cosmos.implementation.apachecommons.lang.builder.CompareToBuilder.append(short lhs, short rhs)
+  name: append(short lhs, short rhs)
+  nameWithType: CompareToBuilder.append(short lhs, short rhs)
+  summary: |-
+    Appends to the <code>builder</code> the comparison of
+     two <code>short</code>s.
+  parameters:
+  - description: left-hand value
+    name: lhs
+    type: <xref href="short?alt=short&text=short" data-throw-if-not-resolved="False" />
+  - description: right-hand value
+    name: rhs
+    type: <xref href="short?alt=short&text=short" data-throw-if-not-resolved="False" />
+  syntax: public CompareToBuilder append(short lhs, short rhs)
+  returns:
+    description: this - used to chain append calls
+    type: <xref href="com.azure.cosmos.implementation.apachecommons.lang.builder.CompareToBuilder?alt=com.azure.cosmos.implementation.apachecommons.lang.builder.CompareToBuilder&text=CompareToBuilder" data-throw-if-not-resolved="False" />
+- uid: com.azure.cosmos.implementation.apachecommons.lang.builder.CompareToBuilder.append(short[],short[])
+  fullName: com.azure.cosmos.implementation.apachecommons.lang.builder.CompareToBuilder.append(short[] lhs, short[] rhs)
+  name: append(short[] lhs, short[] rhs)
+  nameWithType: CompareToBuilder.append(short[] lhs, short[] rhs)
+  summary: |-
+    <p>Appends to the <code>builder</code> the deep comparison of
+     two <code>short</code> arrays.</p>
+
+     <ol>
+      <li>Check if arrays are the same using <code>==</code></li>
+      <li>Check if for <code>null</code>, <code>null</code> is less than non-<code>null</code></li>
+      <li>Check array length, a shorter length array is less than a longer length array</li>
+      <li>Check array contents element by element using <xref uid="#append(short, short)" data-throw-if-not-resolved="false">#append(short, short)</xref></li>
+     </ol>
+  parameters:
+  - description: left-hand array
+    name: lhs
+    type: <xref href="short?alt=short&text=short" data-throw-if-not-resolved="False" />[]
+  - description: right-hand array
+    name: rhs
+    type: <xref href="short?alt=short&text=short" data-throw-if-not-resolved="False" />[]
+  syntax: public CompareToBuilder append(short[] lhs, short[] rhs)
+  returns:
+    description: this - used to chain append calls
+    type: <xref href="com.azure.cosmos.implementation.apachecommons.lang.builder.CompareToBuilder?alt=com.azure.cosmos.implementation.apachecommons.lang.builder.CompareToBuilder&text=CompareToBuilder" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.cosmos.implementation.apachecommons.lang.builder
+artifact: com.azure:azure-cosmos:4.3.2-beta.2

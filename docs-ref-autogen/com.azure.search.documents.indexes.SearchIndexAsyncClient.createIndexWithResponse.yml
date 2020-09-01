@@ -1,0 +1,23 @@
+### YamlMime:JavaMember
+uid: com.azure.search.documents.indexes.SearchIndexAsyncClient.createIndexWithResponse*
+fullName: com.azure.search.documents.indexes.SearchIndexAsyncClient.createIndexWithResponse
+name: createIndexWithResponse
+nameWithType: SearchIndexAsyncClient.createIndexWithResponse
+members:
+- uid: com.azure.search.documents.indexes.SearchIndexAsyncClient.createIndexWithResponse(com.azure.search.documents.indexes.models.SearchIndex)
+  fullName: com.azure.search.documents.indexes.SearchIndexAsyncClient.createIndexWithResponse(SearchIndex index)
+  name: createIndexWithResponse(SearchIndex index)
+  nameWithType: SearchIndexAsyncClient.createIndexWithResponse(SearchIndex index)
+  summary: "Creates a new Azure Cognitive Search index.\n\n <p><strong>Code Sample</strong></p>\n\n <p> Create search index named \"searchIndex\". </p>\n\n <pre>\n List&lt;SearchField&gt; searchFields = Arrays.asList&#40;\n     new SearchField&#40;&quot;hotelId&quot;, SearchFieldDataType.STRING&#41;.setKey&#40;true&#41;,\n     new SearchField&#40;&quot;hotelName&quot;, SearchFieldDataType.STRING&#41;.setSearchable&#40;true&#41;\n &#41;;\n SearchIndex searchIndex = new SearchIndex&#40;&quot;searchIndex&quot;, searchFields&#41;;\n \n searchIndexAsyncClient.createIndexWithResponse&#40;searchIndex&#41;\n     .subscribe&#40;indexFromServiceResponse -&gt;\n         System.out.printf&#40;&quot;The status code of the response is %s. The index name is %s.%n&quot;,\n         indexFromServiceResponse.getStatusCode&#40;&#41;, indexFromServiceResponse.getValue&#40;&#41;.getName&#40;&#41;&#41;&#41;;\n </pre>"
+  parameters:
+  - description: definition of the index to create
+    name: index
+    type: <xref href="com.azure.search.documents.indexes.models.SearchIndex?alt=com.azure.search.documents.indexes.models.SearchIndex&text=SearchIndex" data-throw-if-not-resolved="False" />
+  syntax: public Mono<Response<SearchIndex>> createIndexWithResponse(SearchIndex index)
+  returns:
+    description: a response containing the created Index.
+    type: <xref href="reactor.core.publisher.Mono?alt=reactor.core.publisher.Mono&text=Mono" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.core.http.rest.Response?alt=com.azure.core.http.rest.Response&text=Response" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.search.documents.indexes.models.SearchIndex?alt=com.azure.search.documents.indexes.models.SearchIndex&text=SearchIndex" data-throw-if-not-resolved="False" />&gt;&gt;
+type: method
+metadata: {}
+package: com.azure.search.documents.indexes
+artifact: com.azure:azure-search-documents:11.0.0

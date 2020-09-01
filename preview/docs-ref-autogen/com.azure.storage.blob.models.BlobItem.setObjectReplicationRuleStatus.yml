@@ -1,0 +1,27 @@
+### YamlMime:JavaMember
+uid: com.azure.storage.blob.models.BlobItem.setObjectReplicationRuleStatus*
+fullName: com.azure.storage.blob.models.BlobItem.setObjectReplicationRuleStatus
+name: setObjectReplicationRuleStatus
+nameWithType: BlobItem.setObjectReplicationRuleStatus
+members:
+- uid: com.azure.storage.blob.models.BlobItem.setObjectReplicationRuleStatus(java.util.Map<java.lang.String,java.lang.String>)
+  fullName: com.azure.storage.blob.models.BlobItem.setObjectReplicationRuleStatus(Map<String,String> objectReplicationRuleStatus)
+  name: setObjectReplicationRuleStatus(Map<String,String> objectReplicationRuleStatus)
+  nameWithType: BlobItem.setObjectReplicationRuleStatus(Map<String,String> objectReplicationRuleStatus)
+  summary: |-
+    Set the objectReplicationRuleStatus property: The
+     objectReplicationRuleStatus property.
+  parameters:
+  - description: |-
+      the objectReplicationRuleStatus value
+       to set.
+    name: objectReplicationRuleStatus
+    type: <xref href="java.util.Map?alt=java.util.Map&text=Map" data-throw-if-not-resolved="False" />&lt;<xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />,<xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />&gt;
+  syntax: public BlobItem setObjectReplicationRuleStatus(Map<String,String> objectReplicationRuleStatus)
+  returns:
+    description: the BlobItem object itself.
+    type: <xref href="com.azure.storage.blob.models.BlobItem?alt=com.azure.storage.blob.models.BlobItem&text=BlobItem" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.storage.blob.models
+artifact: com.azure:azure-storage-blob:12.8.0-beta.1

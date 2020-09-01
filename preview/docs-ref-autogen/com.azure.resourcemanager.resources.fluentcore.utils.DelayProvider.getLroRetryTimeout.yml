@@ -1,0 +1,19 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.resources.fluentcore.utils.DelayProvider.getLroRetryTimeout*
+fullName: com.azure.resourcemanager.resources.fluentcore.utils.DelayProvider.getLroRetryTimeout
+name: getLroRetryTimeout
+nameWithType: DelayProvider.getLroRetryTimeout
+members:
+- uid: com.azure.resourcemanager.resources.fluentcore.utils.DelayProvider.getLroRetryTimeout()
+  fullName: com.azure.resourcemanager.resources.fluentcore.utils.DelayProvider.getLroRetryTimeout()
+  name: getLroRetryTimeout()
+  nameWithType: DelayProvider.getLroRetryTimeout()
+  summary: Creates an observable that emits the given item after the specified time in milliseconds.
+  syntax: public Duration getLroRetryTimeout()
+  returns:
+    description: delayed observable
+    type: <xref href="java.time.Duration?alt=java.time.Duration&text=Duration" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.resourcemanager.resources.fluentcore.utils
+artifact: com.azure.resourcemanager:azure-resourcemanager-resources:2.0.0-beta.2

@@ -1,0 +1,23 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.authorization.fluent.inner.PermissionGetResultInner.withValue*
+fullName: com.azure.resourcemanager.authorization.fluent.inner.PermissionGetResultInner.withValue
+name: withValue
+nameWithType: PermissionGetResultInner.withValue
+members:
+- uid: com.azure.resourcemanager.authorization.fluent.inner.PermissionGetResultInner.withValue(java.util.List<com.azure.resourcemanager.authorization.fluent.inner.PermissionInner>)
+  fullName: com.azure.resourcemanager.authorization.fluent.inner.PermissionGetResultInner.withValue(List<PermissionInner> value)
+  name: withValue(List<PermissionInner> value)
+  nameWithType: PermissionGetResultInner.withValue(List<PermissionInner> value)
+  summary: 'Set the value property: An array of permissions.'
+  parameters:
+  - description: the value value to set.
+    name: value
+    type: <xref href="java.util.List?alt=java.util.List&text=List" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.resourcemanager.authorization.fluent.inner.PermissionInner?alt=com.azure.resourcemanager.authorization.fluent.inner.PermissionInner&text=PermissionInner" data-throw-if-not-resolved="False" />&gt;
+  syntax: public PermissionGetResultInner withValue(List<PermissionInner> value)
+  returns:
+    description: the PermissionGetResultInner object itself.
+    type: <xref href="com.azure.resourcemanager.authorization.fluent.inner.PermissionGetResultInner?alt=com.azure.resourcemanager.authorization.fluent.inner.PermissionGetResultInner&text=PermissionGetResultInner" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.resourcemanager.authorization.fluent.inner
+artifact: com.azure.resourcemanager:azure-resourcemanager-authorization:2.0.0-beta.2

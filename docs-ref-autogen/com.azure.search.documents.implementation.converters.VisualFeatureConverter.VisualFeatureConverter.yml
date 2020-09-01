@@ -1,0 +1,15 @@
+### YamlMime:JavaMember
+uid: com.azure.search.documents.implementation.converters.VisualFeatureConverter.VisualFeatureConverter*
+fullName: com.azure.search.documents.implementation.converters.VisualFeatureConverter.VisualFeatureConverter
+name: VisualFeatureConverter
+nameWithType: VisualFeatureConverter.VisualFeatureConverter
+members:
+- uid: com.azure.search.documents.implementation.converters.VisualFeatureConverter.VisualFeatureConverter()
+  fullName: com.azure.search.documents.implementation.converters.VisualFeatureConverter.VisualFeatureConverter()
+  name: VisualFeatureConverter()
+  nameWithType: VisualFeatureConverter.VisualFeatureConverter()
+  syntax: public VisualFeatureConverter()
+type: constructor
+metadata: {}
+package: com.azure.search.documents.implementation.converters
+artifact: com.azure:azure-search-documents:11.0.0

@@ -1,0 +1,45 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.compute.fluent.VirtualMachineScaleSetRollingUpgradesClient.getLatest*
+fullName: com.azure.resourcemanager.compute.fluent.VirtualMachineScaleSetRollingUpgradesClient.getLatest
+name: getLatest
+nameWithType: VirtualMachineScaleSetRollingUpgradesClient.getLatest
+members:
+- uid: com.azure.resourcemanager.compute.fluent.VirtualMachineScaleSetRollingUpgradesClient.getLatest(java.lang.String,java.lang.String)
+  fullName: com.azure.resourcemanager.compute.fluent.VirtualMachineScaleSetRollingUpgradesClient.getLatest(String resourceGroupName, String vmScaleSetName)
+  name: getLatest(String resourceGroupName, String vmScaleSetName)
+  nameWithType: VirtualMachineScaleSetRollingUpgradesClient.getLatest(String resourceGroupName, String vmScaleSetName)
+  summary: Gets the status of the latest virtual machine scale set rolling upgrade.
+  parameters:
+  - description: The name of the resource group.
+    name: resourceGroupName
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  - description: The name of the VM scale set.
+    name: vmScaleSetName
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  syntax: public RollingUpgradeStatusInfoInner getLatest(String resourceGroupName, String vmScaleSetName)
+  returns:
+    description: the status of the latest virtual machine scale set rolling upgrade.
+    type: <xref href="com.azure.resourcemanager.compute.fluent.inner.RollingUpgradeStatusInfoInner?alt=com.azure.resourcemanager.compute.fluent.inner.RollingUpgradeStatusInfoInner&text=RollingUpgradeStatusInfoInner" data-throw-if-not-resolved="False" />
+- uid: com.azure.resourcemanager.compute.fluent.VirtualMachineScaleSetRollingUpgradesClient.getLatest(java.lang.String,java.lang.String,com.azure.core.util.Context)
+  fullName: com.azure.resourcemanager.compute.fluent.VirtualMachineScaleSetRollingUpgradesClient.getLatest(String resourceGroupName, String vmScaleSetName, Context context)
+  name: getLatest(String resourceGroupName, String vmScaleSetName, Context context)
+  nameWithType: VirtualMachineScaleSetRollingUpgradesClient.getLatest(String resourceGroupName, String vmScaleSetName, Context context)
+  summary: Gets the status of the latest virtual machine scale set rolling upgrade.
+  parameters:
+  - description: The name of the resource group.
+    name: resourceGroupName
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  - description: The name of the VM scale set.
+    name: vmScaleSetName
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  - description: The context to associate with this operation.
+    name: context
+    type: <xref href="com.azure.core.util.Context?alt=com.azure.core.util.Context&text=Context" data-throw-if-not-resolved="False" />
+  syntax: public RollingUpgradeStatusInfoInner getLatest(String resourceGroupName, String vmScaleSetName, Context context)
+  returns:
+    description: the status of the latest virtual machine scale set rolling upgrade.
+    type: <xref href="com.azure.resourcemanager.compute.fluent.inner.RollingUpgradeStatusInfoInner?alt=com.azure.resourcemanager.compute.fluent.inner.RollingUpgradeStatusInfoInner&text=RollingUpgradeStatusInfoInner" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.resourcemanager.compute.fluent
+artifact: com.azure.resourcemanager:azure-resourcemanager-compute:2.0.0-beta.2

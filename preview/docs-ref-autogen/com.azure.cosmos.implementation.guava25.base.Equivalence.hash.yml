@@ -1,0 +1,36 @@
+### YamlMime:JavaMember
+uid: com.azure.cosmos.implementation.guava25.base.Equivalence.hash*
+fullName: com.azure.cosmos.implementation.guava25.base.Equivalence<T>.hash
+name: hash
+nameWithType: Equivalence<T>.hash
+members:
+- uid: com.azure.cosmos.implementation.guava25.base.Equivalence.hash(T)
+  fullName: com.azure.cosmos.implementation.guava25.base.Equivalence<T>.hash(T t)
+  name: hash(T t)
+  nameWithType: Equivalence<T>.hash(T t)
+  summary: |-
+    Returns a hash code for <code>t</code>.
+
+     <p>The <code>hash</code> has the following properties:
+
+     <ul>
+       <li>It is <i>consistent</i>: for any reference <code>x</code>, multiple invocations of <code>
+           hash(x</code>} consistently return the same value provided <code>x</code> remains unchanged
+           according to the definition of the equivalence. The hash need not remain consistent from
+           one execution of an application to another execution of the same application.
+       <li>It is <i>distributable across equivalence</i>: for any references <code>x</code> and <code>
+           y</code>, if <code>equivalent(x, y)</code>, then <code>hash(x) == hash(y)</code>. It is <i>not</i>
+           necessary that the hash be distributable across <i>inequivalence</i>. If <code>
+           equivalence(x, y)</code> is false, <code>hash(x) == hash(y)</code> may still be true.
+       <li><code>hash(null)</code> is <code>0</code>.
+     </ul>
+  parameters:
+  - name: t
+    type: <xref href="T?alt=T&text=T" data-throw-if-not-resolved="False" />
+  syntax: public final int hash(T t)
+  returns:
+    type: <xref href="int?alt=int&text=int" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.cosmos.implementation.guava25.base
+artifact: com.azure:azure-cosmos:4.3.2-beta.2

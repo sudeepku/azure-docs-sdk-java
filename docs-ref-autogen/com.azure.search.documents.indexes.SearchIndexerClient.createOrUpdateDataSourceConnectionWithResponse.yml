@@ -1,0 +1,32 @@
+### YamlMime:JavaMember
+uid: com.azure.search.documents.indexes.SearchIndexerClient.createOrUpdateDataSourceConnectionWithResponse*
+fullName: com.azure.search.documents.indexes.SearchIndexerClient.createOrUpdateDataSourceConnectionWithResponse
+name: createOrUpdateDataSourceConnectionWithResponse
+nameWithType: SearchIndexerClient.createOrUpdateDataSourceConnectionWithResponse
+members:
+- uid: com.azure.search.documents.indexes.SearchIndexerClient.createOrUpdateDataSourceConnectionWithResponse(com.azure.search.documents.indexes.models.SearchIndexerDataSourceConnection,boolean,com.azure.core.util.Context)
+  fullName: com.azure.search.documents.indexes.SearchIndexerClient.createOrUpdateDataSourceConnectionWithResponse(SearchIndexerDataSourceConnection dataSourceConnection, boolean onlyIfUnchanged, Context context)
+  name: createOrUpdateDataSourceConnectionWithResponse(SearchIndexerDataSourceConnection dataSourceConnection, boolean onlyIfUnchanged, Context context)
+  nameWithType: SearchIndexerClient.createOrUpdateDataSourceConnectionWithResponse(SearchIndexerDataSourceConnection dataSourceConnection, boolean onlyIfUnchanged, Context context)
+  summary: "Creates a new Azure Cognitive Search data source or updates a data source if it already exists.\n\n <p><strong>Code Sample</strong></p>\n\n <p> Create or update search indexer data source connection named \"dataSource\". </p>\n\n <pre>\n SearchIndexerDataSourceConnection dataSource = searchIndexerClient.getDataSourceConnection&#40;&quot;dataSource&quot;&#41;;\n dataSource.setContainer&#40;new SearchIndexerDataContainer&#40;&quot;updatecontainer&quot;&#41;&#41;;\n \n Response&lt;SearchIndexerDataSourceConnection&gt; updateDataSource = searchIndexerClient\n     .createOrUpdateDataSourceConnectionWithResponse&#40;dataSource, true, new Context&#40;key1, value1&#41;&#41;;\n System.out.printf&#40;&quot;The status code of the response is %s.%nThe dataSource name is %s. &quot;\n     + &quot;The container name of dataSource is %s.%n&quot;, updateDataSource.getStatusCode&#40;&#41;,\n     updateDataSource.getValue&#40;&#41;.getName&#40;&#41;, updateDataSource.getValue&#40;&#41;.getContainer&#40;&#41;.getName&#40;&#41;&#41;;\n </pre>"
+  parameters:
+  - description: the <xref uid="com.azure.search.documents.indexes.models.SearchIndexerDataSourceConnection" data-throw-if-not-resolved="false">SearchIndexerDataSourceConnection</xref> to create or update
+    name: dataSourceConnection
+    type: <xref href="com.azure.search.documents.indexes.models.SearchIndexerDataSourceConnection?alt=com.azure.search.documents.indexes.models.SearchIndexerDataSourceConnection&text=SearchIndexerDataSourceConnection" data-throw-if-not-resolved="False" />
+  - description: |-
+      <code>true</code> to update if the <code>dataSourceConnection</code> is the same as the current
+       service value.
+       <code>false</code> to always update existing value.
+    name: onlyIfUnchanged
+    type: <xref href="boolean?alt=boolean&text=boolean" data-throw-if-not-resolved="False" />
+  - description: additional context that is passed through the HTTP pipeline during the service call
+    name: context
+    type: <xref href="com.azure.core.util.Context?alt=com.azure.core.util.Context&text=Context" data-throw-if-not-resolved="False" />
+  syntax: public Response<SearchIndexerDataSourceConnection> createOrUpdateDataSourceConnectionWithResponse(SearchIndexerDataSourceConnection dataSourceConnection, boolean onlyIfUnchanged, Context context)
+  returns:
+    description: a response containing data source that was created or updated.
+    type: <xref href="com.azure.core.http.rest.Response?alt=com.azure.core.http.rest.Response&text=Response" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.search.documents.indexes.models.SearchIndexerDataSourceConnection?alt=com.azure.search.documents.indexes.models.SearchIndexerDataSourceConnection&text=SearchIndexerDataSourceConnection" data-throw-if-not-resolved="False" />&gt;
+type: method
+metadata: {}
+package: com.azure.search.documents.indexes
+artifact: com.azure:azure-search-documents:11.0.0

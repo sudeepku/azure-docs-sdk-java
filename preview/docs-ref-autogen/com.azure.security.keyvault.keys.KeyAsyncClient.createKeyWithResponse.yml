@@ -1,0 +1,44 @@
+### YamlMime:JavaMember
+uid: com.azure.security.keyvault.keys.KeyAsyncClient.createKeyWithResponse*
+fullName: com.azure.security.keyvault.keys.KeyAsyncClient.createKeyWithResponse
+name: createKeyWithResponse
+nameWithType: KeyAsyncClient.createKeyWithResponse
+members:
+- uid: com.azure.security.keyvault.keys.KeyAsyncClient.createKeyWithResponse(com.azure.security.keyvault.keys.models.CreateKeyOptions)
+  fullName: com.azure.security.keyvault.keys.KeyAsyncClient.createKeyWithResponse(CreateKeyOptions createKeyOptions)
+  name: createKeyWithResponse(CreateKeyOptions createKeyOptions)
+  nameWithType: KeyAsyncClient.createKeyWithResponse(CreateKeyOptions createKeyOptions)
+  summary: |-
+    Creates a new key and stores it in the key vault. The create key operation can be used to create any key type in
+     key vault. If the named key already exists, Azure Key Vault creates a new version of the key. It requires the
+     <code>keys/create</code> permission.
+
+     <p>The <xref uid="KeyType" data-throw-if-not-resolved="false">keyType</xref> indicates the type of key to create. Possible values include: <xref uid="KeyType#EC" data-throw-if-not-resolved="false">EC</xref>, <xref uid="KeyType#EC_HSM" data-throw-if-not-resolved="false">EC-HSM</xref>, <xref uid="KeyType#RSA" data-throw-if-not-resolved="false">RSA</xref>, <xref uid="KeyType#RSA_HSM" data-throw-if-not-resolved="false">RSA-HSM</xref> and
+     <xref uid="KeyType#OCT" data-throw-if-not-resolved="false">OCT</xref>.</p>
+
+     <p><strong>Code Samples</strong></p>
+     <p>Creates a new EC key. Subscribes to the call asynchronously and prints out the newly created key details when
+     a response has been received.</p>
+
+     <pre>
+     CreateKeyOptions createKeyOptions = new CreateKeyOptions&#40;&quot;keyName&quot;, KeyType.RSA&#41;
+         .setNotBefore&#40;OffsetDateTime.now&#40;&#41;.plusDays&#40;1&#41;&#41;
+         .setExpiresOn&#40;OffsetDateTime.now&#40;&#41;.plusYears&#40;1&#41;&#41;;
+     keyAsyncClient.createKeyWithResponse&#40;createKeyOptions&#41;
+         .subscriberContext&#40;Context.of&#40;key1, value1, key2, value2&#41;&#41;
+         .subscribe&#40;keyResponse -&gt;
+             System.out.printf&#40;&quot;Key is created with name %s and id %s %n&quot;, keyResponse.getValue&#40;&#41;.getName&#40;&#41;,
+                 keyResponse.getValue&#40;&#41;.getId&#40;&#41;&#41;&#41;;
+     </pre>
+  parameters:
+  - description: The key configuration object containing information about the key being created.
+    name: createKeyOptions
+    type: <xref href="com.azure.security.keyvault.keys.models.CreateKeyOptions?alt=com.azure.security.keyvault.keys.models.CreateKeyOptions&text=CreateKeyOptions" data-throw-if-not-resolved="False" />
+  syntax: public Mono<Response<KeyVaultKey>> createKeyWithResponse(CreateKeyOptions createKeyOptions)
+  returns:
+    description: A <xref uid="reactor.core.publisher.Mono" data-throw-if-not-resolved="false">Mono</xref> containing a <xref uid="com.azure.core.http.rest.Response" data-throw-if-not-resolved="false">Response</xref> whose <xref uid="com.azure.core.http.rest.Response.getValue*" data-throw-if-not-resolved="false">value</xref> contains the <xref uid="com.azure.security.keyvault.keys.models.KeyVaultKey" data-throw-if-not-resolved="false">created key</xref>.
+    type: <xref href="reactor.core.publisher.Mono?alt=reactor.core.publisher.Mono&text=Mono" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.core.http.rest.Response?alt=com.azure.core.http.rest.Response&text=Response" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.security.keyvault.keys.models.KeyVaultKey?alt=com.azure.security.keyvault.keys.models.KeyVaultKey&text=KeyVaultKey" data-throw-if-not-resolved="False" />&gt;&gt;
+type: method
+metadata: {}
+package: com.azure.security.keyvault.keys
+artifact: com.azure:azure-security-keyvault-keys:4.2.0-beta.4

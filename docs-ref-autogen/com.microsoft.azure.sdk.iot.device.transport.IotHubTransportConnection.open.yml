@@ -1,0 +1,28 @@
+### YamlMime:JavaMember
+uid: com.microsoft.azure.sdk.iot.device.transport.IotHubTransportConnection.open*
+fullName: com.microsoft.azure.sdk.iot.device.transport.IotHubTransportConnection.open
+name: open
+nameWithType: IotHubTransportConnection.open
+members:
+- uid: com.microsoft.azure.sdk.iot.device.transport.IotHubTransportConnection.open(java.util.Queue<com.microsoft.azure.sdk.iot.device.DeviceClientConfig>,java.util.concurrent.ScheduledExecutorService)
+  fullName: com.microsoft.azure.sdk.iot.device.transport.IotHubTransportConnection.open(Queue<DeviceClientConfig> deviceClientConfigs, ScheduledExecutorService scheduledExecutorService)
+  name: open(Queue<DeviceClientConfig> deviceClientConfigs, ScheduledExecutorService scheduledExecutorService)
+  nameWithType: IotHubTransportConnection.open(Queue<DeviceClientConfig> deviceClientConfigs, ScheduledExecutorService scheduledExecutorService)
+  summary: Opens the transport connection object
+  parameters:
+  - description: |-
+      The list of configs to use. If more than 1 configs are in this list, multiplexing
+                                  will be used
+    name: deviceClientConfigs
+    type: <xref href="java.util.Queue?alt=java.util.Queue&text=Queue" data-throw-if-not-resolved="False" />&lt;<xref href="com.microsoft.azure.sdk.iot.device.DeviceClientConfig?alt=com.microsoft.azure.sdk.iot.device.DeviceClientConfig&text=DeviceClientConfig" data-throw-if-not-resolved="False" />&gt;
+  - description: the executor service to use when spawning threads
+    name: scheduledExecutorService
+    type: <xref href="java.util.concurrent.ScheduledExecutorService?alt=java.util.concurrent.ScheduledExecutorService&text=ScheduledExecutorService" data-throw-if-not-resolved="False" />
+  syntax: public abstract void open(Queue<DeviceClientConfig> deviceClientConfigs, ScheduledExecutorService scheduledExecutorService)
+  exceptions:
+  - description: If any exceptions are encountered while opening the connection
+    type: <xref href="com.microsoft.azure.sdk.iot.device.exceptions.TransportException?alt=com.microsoft.azure.sdk.iot.device.exceptions.TransportException&text=TransportException" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.microsoft.azure.sdk.iot.device.transport
+artifact: com.microsoft.azure.sdk.iot:iot-device-client:1.24.0

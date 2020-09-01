@@ -1,0 +1,25 @@
+### YamlMime:JavaMember
+nameWithType: Apps.listUsageScenarios
+type: method
+members:
+- fullName: com.microsoft.azure.cognitiveservices.language.luis.authoring.Apps.listUsageScenarios()
+  name: listUsageScenarios()
+  nameWithType: Apps.listUsageScenarios()
+  exceptions:
+  - name: 3c87bd19
+  - name: 00ad4777
+  - name: 9b2a4515
+  returns:
+    description: <p>the List&lt;String&gt; object if successful. </p>
+    type: <xref href="List%3CString%3E?alt=List<String>&text=List%3CString%3E" data-throw-if-not-resolved="False"/>
+  summary: >-
+    <p>Gets the application available usage scenarios.</p>
+
+    <p></p>
+  syntax: public List<String> listUsageScenarios()
+  uid: com.microsoft.azure.cognitiveservices.language.luis.authoring.Apps.listUsageScenarios()
+uid: com.microsoft.azure.cognitiveservices.language.luis.authoring.Apps.listUsageScenarios*
+fullName: com.microsoft.azure.cognitiveservices.language.luis.authoring.Apps.listUsageScenarios()
+name: listUsageScenarios()
+package: com.microsoft.azure.cognitiveservices.language.luis.authoring
+metadata: {}

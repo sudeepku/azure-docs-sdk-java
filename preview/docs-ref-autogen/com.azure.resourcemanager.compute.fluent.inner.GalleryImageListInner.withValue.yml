@@ -1,0 +1,23 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.compute.fluent.inner.GalleryImageListInner.withValue*
+fullName: com.azure.resourcemanager.compute.fluent.inner.GalleryImageListInner.withValue
+name: withValue
+nameWithType: GalleryImageListInner.withValue
+members:
+- uid: com.azure.resourcemanager.compute.fluent.inner.GalleryImageListInner.withValue(java.util.List<com.azure.resourcemanager.compute.fluent.inner.GalleryImageInner>)
+  fullName: com.azure.resourcemanager.compute.fluent.inner.GalleryImageListInner.withValue(List<GalleryImageInner> value)
+  name: withValue(List<GalleryImageInner> value)
+  nameWithType: GalleryImageListInner.withValue(List<GalleryImageInner> value)
+  summary: 'Set the value property: A list of Shared Image Gallery images.'
+  parameters:
+  - description: the value value to set.
+    name: value
+    type: <xref href="java.util.List?alt=java.util.List&text=List" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.resourcemanager.compute.fluent.inner.GalleryImageInner?alt=com.azure.resourcemanager.compute.fluent.inner.GalleryImageInner&text=GalleryImageInner" data-throw-if-not-resolved="False" />&gt;
+  syntax: public GalleryImageListInner withValue(List<GalleryImageInner> value)
+  returns:
+    description: the GalleryImageListInner object itself.
+    type: <xref href="com.azure.resourcemanager.compute.fluent.inner.GalleryImageListInner?alt=com.azure.resourcemanager.compute.fluent.inner.GalleryImageListInner&text=GalleryImageListInner" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.resourcemanager.compute.fluent.inner
+artifact: com.azure.resourcemanager:azure-resourcemanager-compute:2.0.0-beta.2

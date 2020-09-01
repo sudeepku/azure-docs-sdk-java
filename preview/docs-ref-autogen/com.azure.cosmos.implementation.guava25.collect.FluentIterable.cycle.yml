@@ -1,0 +1,33 @@
+### YamlMime:JavaMember
+uid: com.azure.cosmos.implementation.guava25.collect.FluentIterable.cycle*
+fullName: com.azure.cosmos.implementation.guava25.collect.FluentIterable<E>.cycle
+name: cycle
+nameWithType: FluentIterable<E>.cycle
+members:
+- uid: com.azure.cosmos.implementation.guava25.collect.FluentIterable.cycle()
+  fullName: com.azure.cosmos.implementation.guava25.collect.FluentIterable<E>.cycle()
+  name: cycle()
+  nameWithType: FluentIterable<E>.cycle()
+  summary: |-
+    Returns a fluent iterable whose <code>Iterator</code> cycles indefinitely over the elements of this
+     fluent iterable.
+
+     <p>That iterator supports <code>remove()</code> if <code>iterable.iterator()</code> does. After <code>
+     remove()</code> is called, subsequent cycles omit the removed element, which is no longer in this
+     fluent iterable. The iterator's <code>hasNext()</code> method returns <code>true</code> until this fluent
+     iterable is empty.
+
+     <p><b>Warning:</b> Typical uses of the resulting iterator may produce an infinite loop. You
+     should use an explicit <code>break</code> or be certain that you will eventually remove all the
+     elements.
+
+     <p><b><code>Stream</code> equivalent:</b> if the source iterable has only a single element <code>
+     e</code>, use <code>Stream.generate(() -> e)</code>. Otherwise, collect your stream into a collection and
+     use <code>Stream.generate(() -> collection).flatMap(Collection::stream)</code>.
+  syntax: public final FluentIterable<E> cycle()
+  returns:
+    type: <xref href="com.azure.cosmos.implementation.guava25.collect.FluentIterable?alt=com.azure.cosmos.implementation.guava25.collect.FluentIterable&text=FluentIterable" data-throw-if-not-resolved="False" />&lt;<xref href="E?alt=E&text=E" data-throw-if-not-resolved="False" />&gt;
+type: method
+metadata: {}
+package: com.azure.cosmos.implementation.guava25.collect
+artifact: com.azure:azure-cosmos:4.3.2-beta.2

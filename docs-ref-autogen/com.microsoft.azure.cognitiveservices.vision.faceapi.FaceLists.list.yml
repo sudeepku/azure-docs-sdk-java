@@ -1,0 +1,25 @@
+### YamlMime:JavaMember
+nameWithType: FaceLists.list
+type: method
+members:
+- fullName: com.microsoft.azure.cognitiveservices.vision.faceapi.FaceLists.list()
+  name: list()
+  nameWithType: FaceLists.list()
+  exceptions:
+  - name: 3c87bd19
+  - name: 3690e14b
+  - name: 9b2a4515
+  returns:
+    description: <p>the List&lt;FaceList&gt; object if successful. </p>
+    type: List&lt;<xref href="com.microsoft.azure.cognitiveservices.vision.faceapi.models.FaceList?alt=com.microsoft.azure.cognitiveservices.vision.faceapi.models.FaceList&text=FaceList" data-throw-if-not-resolved="False"/>&gt;
+  summary: >-
+    <p>Retrieve information about all existing face lists. Only faceListId, name and userData will be returned.</p>
+
+    <p></p>
+  syntax: public List<FaceList> list()
+  uid: com.microsoft.azure.cognitiveservices.vision.faceapi.FaceLists.list()
+uid: com.microsoft.azure.cognitiveservices.vision.faceapi.FaceLists.list*
+fullName: com.microsoft.azure.cognitiveservices.vision.faceapi.FaceLists.list()
+name: list()
+package: com.microsoft.azure.cognitiveservices.vision.faceapi
+metadata: {}

@@ -1,0 +1,23 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.resources.ResourceManager.Authenticated.withSdkContext*
+fullName: com.azure.resourcemanager.resources.ResourceManager.Authenticated.withSdkContext
+name: withSdkContext
+nameWithType: ResourceManager.Authenticated.withSdkContext
+members:
+- uid: com.azure.resourcemanager.resources.ResourceManager.Authenticated.withSdkContext(com.azure.resourcemanager.resources.fluentcore.utils.SdkContext)
+  fullName: com.azure.resourcemanager.resources.ResourceManager.Authenticated.withSdkContext(SdkContext sdkContext)
+  name: withSdkContext(SdkContext sdkContext)
+  nameWithType: ResourceManager.Authenticated.withSdkContext(SdkContext sdkContext)
+  summary: Specifies sdk context for resource manager.
+  parameters:
+  - description: the sdk context
+    name: sdkContext
+    type: <xref href="com.azure.resourcemanager.resources.fluentcore.utils.SdkContext?alt=com.azure.resourcemanager.resources.fluentcore.utils.SdkContext&text=SdkContext" data-throw-if-not-resolved="False" />
+  syntax: public abstract ResourceManager.Authenticated withSdkContext(SdkContext sdkContext)
+  returns:
+    description: the authenticated itself for chaining
+    type: <xref href="com.azure.resourcemanager.resources.ResourceManager.Authenticated?alt=com.azure.resourcemanager.resources.ResourceManager.Authenticated&text=Authenticated" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.resourcemanager.resources
+artifact: com.azure.resourcemanager:azure-resourcemanager-resources:2.0.0-beta.2

@@ -1,0 +1,19 @@
+### YamlMime:JavaMember
+uid: com.azure.messaging.servicebus.LockRenewalOperation.getStatus*
+fullName: com.azure.messaging.servicebus.LockRenewalOperation.getStatus
+name: getStatus
+nameWithType: LockRenewalOperation.getStatus
+members:
+- uid: com.azure.messaging.servicebus.LockRenewalOperation.getStatus()
+  fullName: com.azure.messaging.servicebus.LockRenewalOperation.getStatus()
+  name: getStatus()
+  nameWithType: LockRenewalOperation.getStatus()
+  summary: Gets the current status of the renewal operation.
+  syntax: public LockRenewalStatus getStatus()
+  returns:
+    description: The current status of the renewal operation.
+    type: <xref href="com.azure.messaging.servicebus.models.LockRenewalStatus?alt=com.azure.messaging.servicebus.models.LockRenewalStatus&text=LockRenewalStatus" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.messaging.servicebus
+artifact: com.azure:azure-messaging-servicebus:7.0.0-beta.5

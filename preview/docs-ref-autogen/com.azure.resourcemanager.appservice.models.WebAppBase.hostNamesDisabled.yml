@@ -1,0 +1,20 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.appservice.models.WebAppBase.hostNamesDisabled*
+fullName: com.azure.resourcemanager.appservice.models.WebAppBase.hostNamesDisabled
+name: hostNamesDisabled
+nameWithType: WebAppBase.hostNamesDisabled
+members:
+- uid: com.azure.resourcemanager.appservice.models.WebAppBase.hostNamesDisabled()
+  fullName: com.azure.resourcemanager.appservice.models.WebAppBase.hostNamesDisabled()
+  name: hostNamesDisabled()
+  nameWithType: WebAppBase.hostNamesDisabled()
+  syntax: public abstract boolean hostNamesDisabled()
+  returns:
+    description: |-
+      if the public hostnames are disabled the web app. If set to true the app is only accessible via API
+           Management process.
+    type: <xref href="boolean?alt=boolean&text=boolean" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.resourcemanager.appservice.models
+artifact: com.azure.resourcemanager:azure-resourcemanager-appservice:2.0.0-beta.2

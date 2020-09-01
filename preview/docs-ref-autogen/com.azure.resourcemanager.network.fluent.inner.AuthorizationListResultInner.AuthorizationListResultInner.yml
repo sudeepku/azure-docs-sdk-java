@@ -1,0 +1,15 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.network.fluent.inner.AuthorizationListResultInner.AuthorizationListResultInner*
+fullName: com.azure.resourcemanager.network.fluent.inner.AuthorizationListResultInner.AuthorizationListResultInner
+name: AuthorizationListResultInner
+nameWithType: AuthorizationListResultInner.AuthorizationListResultInner
+members:
+- uid: com.azure.resourcemanager.network.fluent.inner.AuthorizationListResultInner.AuthorizationListResultInner()
+  fullName: com.azure.resourcemanager.network.fluent.inner.AuthorizationListResultInner.AuthorizationListResultInner()
+  name: AuthorizationListResultInner()
+  nameWithType: AuthorizationListResultInner.AuthorizationListResultInner()
+  syntax: public AuthorizationListResultInner()
+type: constructor
+metadata: {}
+package: com.azure.resourcemanager.network.fluent.inner
+artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.0.0-beta.2

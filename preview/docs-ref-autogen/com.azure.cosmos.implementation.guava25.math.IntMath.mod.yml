@@ -1,0 +1,35 @@
+### YamlMime:JavaMember
+uid: com.azure.cosmos.implementation.guava25.math.IntMath.mod*
+fullName: com.azure.cosmos.implementation.guava25.math.IntMath.mod
+name: mod
+nameWithType: IntMath.mod
+members:
+- uid: com.azure.cosmos.implementation.guava25.math.IntMath.mod(int,int)
+  fullName: com.azure.cosmos.implementation.guava25.math.IntMath.mod(int x, int m)
+  name: mod(int x, int m)
+  nameWithType: IntMath.mod(int x, int m)
+  summary: |-
+    Returns <code>x mod m</code>, a non-negative value less than <code>m</code>. This differs from <code>x %
+     m</code>, which might be negative.
+
+     <p>For example:
+
+     <pre><code>
+     mod(7, 4) == 3
+     mod(-7, 4) == 1
+     mod(-1, 4) == 3
+     mod(-8, 4) == 0
+     mod(8, 4) == 0
+     </code></pre>
+  parameters:
+  - name: x
+    type: <xref href="int?alt=int&text=int" data-throw-if-not-resolved="False" />
+  - name: m
+    type: <xref href="int?alt=int&text=int" data-throw-if-not-resolved="False" />
+  syntax: public static int mod(int x, int m)
+  returns:
+    type: <xref href="int?alt=int&text=int" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.cosmos.implementation.guava25.math
+artifact: com.azure:azure-cosmos:4.3.2-beta.2

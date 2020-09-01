@@ -1,0 +1,58 @@
+### YamlMime:JavaMember
+uid: com.azure.cosmos.implementation.apachecommons.lang.ArrayUtils.indexOf*
+fullName: com.azure.cosmos.implementation.apachecommons.lang.ArrayUtils.indexOf
+name: indexOf
+nameWithType: ArrayUtils.indexOf
+members:
+- uid: com.azure.cosmos.implementation.apachecommons.lang.ArrayUtils.indexOf(java.lang.Object[],java.lang.Object)
+  fullName: com.azure.cosmos.implementation.apachecommons.lang.ArrayUtils.indexOf(Object[] array, Object objectToFind)
+  name: indexOf(Object[] array, Object objectToFind)
+  nameWithType: ArrayUtils.indexOf(Object[] array, Object objectToFind)
+  summary: |-
+    <p>Finds the index of the given object in the array.
+
+     <p>This method returns <xref uid="#INDEX_NOT_FOUND" data-throw-if-not-resolved="false">#INDEX_NOT_FOUND</xref> (<code>-1</code>) for a <code>null</code> input array.
+  parameters:
+  - description: the array to search through for the object, may be <code>null</code>
+    name: array
+    type: <xref href="java.lang.Object?alt=java.lang.Object&text=Object" data-throw-if-not-resolved="False" />[]
+  - description: the object to find, may be <code>null</code>
+    name: objectToFind
+    type: <xref href="java.lang.Object?alt=java.lang.Object&text=Object" data-throw-if-not-resolved="False" />
+  syntax: public static int indexOf(Object[] array, Object objectToFind)
+  returns:
+    description: |-
+      the index of the object within the array,
+        <xref uid="com.azure.cosmos.implementation.apachecommons.lang.ArrayUtils.INDEX_NOT_FOUND" data-throw-if-not-resolved="false">#INDEX_NOT_FOUND</xref> (<code>-1</code>) if not found or <code>null</code> array input
+    type: <xref href="int?alt=int&text=int" data-throw-if-not-resolved="False" />
+- uid: com.azure.cosmos.implementation.apachecommons.lang.ArrayUtils.indexOf(java.lang.Object[],java.lang.Object,int)
+  fullName: com.azure.cosmos.implementation.apachecommons.lang.ArrayUtils.indexOf(Object[] array, Object objectToFind, int startIndex)
+  name: indexOf(Object[] array, Object objectToFind, int startIndex)
+  nameWithType: ArrayUtils.indexOf(Object[] array, Object objectToFind, int startIndex)
+  summary: |-
+    <p>Finds the index of the given object in the array starting at the given index.
+
+     <p>This method returns <xref uid="#INDEX_NOT_FOUND" data-throw-if-not-resolved="false">#INDEX_NOT_FOUND</xref> (<code>-1</code>) for a <code>null</code> input array.
+
+     <p>A negative startIndex is treated as zero. A startIndex larger than the array
+     length will return <xref uid="#INDEX_NOT_FOUND" data-throw-if-not-resolved="false">#INDEX_NOT_FOUND</xref> (<code>-1</code>).
+  parameters:
+  - description: the array to search through for the object, may be <code>null</code>
+    name: array
+    type: <xref href="java.lang.Object?alt=java.lang.Object&text=Object" data-throw-if-not-resolved="False" />[]
+  - description: the object to find, may be <code>null</code>
+    name: objectToFind
+    type: <xref href="java.lang.Object?alt=java.lang.Object&text=Object" data-throw-if-not-resolved="False" />
+  - description: the index to start searching at
+    name: startIndex
+    type: <xref href="int?alt=int&text=int" data-throw-if-not-resolved="False" />
+  syntax: public static int indexOf(Object[] array, Object objectToFind, int startIndex)
+  returns:
+    description: |-
+      the index of the object within the array starting at the index,
+        <xref uid="com.azure.cosmos.implementation.apachecommons.lang.ArrayUtils.INDEX_NOT_FOUND" data-throw-if-not-resolved="false">#INDEX_NOT_FOUND</xref> (<code>-1</code>) if not found or <code>null</code> array input
+    type: <xref href="int?alt=int&text=int" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.cosmos.implementation.apachecommons.lang
+artifact: com.azure:azure-cosmos:4.3.2-beta.2

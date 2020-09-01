@@ -1,0 +1,61 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.sql.fluent.InstanceFailoverGroupsClient.beginCreateOrUpdateWithoutPollingWithResponseAsync*
+fullName: com.azure.resourcemanager.sql.fluent.InstanceFailoverGroupsClient.beginCreateOrUpdateWithoutPollingWithResponseAsync
+name: beginCreateOrUpdateWithoutPollingWithResponseAsync
+nameWithType: InstanceFailoverGroupsClient.beginCreateOrUpdateWithoutPollingWithResponseAsync
+members:
+- uid: com.azure.resourcemanager.sql.fluent.InstanceFailoverGroupsClient.beginCreateOrUpdateWithoutPollingWithResponseAsync(java.lang.String,java.lang.String,java.lang.String,com.azure.resourcemanager.sql.fluent.inner.InstanceFailoverGroupInner)
+  fullName: com.azure.resourcemanager.sql.fluent.InstanceFailoverGroupsClient.beginCreateOrUpdateWithoutPollingWithResponseAsync(String resourceGroupName, String locationName, String failoverGroupName, InstanceFailoverGroupInner parameters)
+  name: beginCreateOrUpdateWithoutPollingWithResponseAsync(String resourceGroupName, String locationName, String failoverGroupName, InstanceFailoverGroupInner parameters)
+  nameWithType: InstanceFailoverGroupsClient.beginCreateOrUpdateWithoutPollingWithResponseAsync(String resourceGroupName, String locationName, String failoverGroupName, InstanceFailoverGroupInner parameters)
+  summary: Creates or updates a failover group.
+  parameters:
+  - description: |-
+      The name of the resource group that contains the resource. You can obtain this value
+           from the Azure Resource Manager API or the portal.
+    name: resourceGroupName
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  - description: The name of the region where the resource is located.
+    name: locationName
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  - description: The name of the failover group.
+    name: failoverGroupName
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  - description: An instance failover group.
+    name: parameters
+    type: <xref href="com.azure.resourcemanager.sql.fluent.inner.InstanceFailoverGroupInner?alt=com.azure.resourcemanager.sql.fluent.inner.InstanceFailoverGroupInner&text=InstanceFailoverGroupInner" data-throw-if-not-resolved="False" />
+  syntax: public Mono<Response<InstanceFailoverGroupInner>> beginCreateOrUpdateWithoutPollingWithResponseAsync(String resourceGroupName, String locationName, String failoverGroupName, InstanceFailoverGroupInner parameters)
+  returns:
+    description: an instance failover group.
+    type: <xref href="reactor.core.publisher.Mono?alt=reactor.core.publisher.Mono&text=Mono" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.core.http.rest.Response?alt=com.azure.core.http.rest.Response&text=Response" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.resourcemanager.sql.fluent.inner.InstanceFailoverGroupInner?alt=com.azure.resourcemanager.sql.fluent.inner.InstanceFailoverGroupInner&text=InstanceFailoverGroupInner" data-throw-if-not-resolved="False" />&gt;&gt;
+- uid: com.azure.resourcemanager.sql.fluent.InstanceFailoverGroupsClient.beginCreateOrUpdateWithoutPollingWithResponseAsync(java.lang.String,java.lang.String,java.lang.String,com.azure.resourcemanager.sql.fluent.inner.InstanceFailoverGroupInner,com.azure.core.util.Context)
+  fullName: com.azure.resourcemanager.sql.fluent.InstanceFailoverGroupsClient.beginCreateOrUpdateWithoutPollingWithResponseAsync(String resourceGroupName, String locationName, String failoverGroupName, InstanceFailoverGroupInner parameters, Context context)
+  name: beginCreateOrUpdateWithoutPollingWithResponseAsync(String resourceGroupName, String locationName, String failoverGroupName, InstanceFailoverGroupInner parameters, Context context)
+  nameWithType: InstanceFailoverGroupsClient.beginCreateOrUpdateWithoutPollingWithResponseAsync(String resourceGroupName, String locationName, String failoverGroupName, InstanceFailoverGroupInner parameters, Context context)
+  summary: Creates or updates a failover group.
+  parameters:
+  - description: |-
+      The name of the resource group that contains the resource. You can obtain this value
+           from the Azure Resource Manager API or the portal.
+    name: resourceGroupName
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  - description: The name of the region where the resource is located.
+    name: locationName
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  - description: The name of the failover group.
+    name: failoverGroupName
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  - description: An instance failover group.
+    name: parameters
+    type: <xref href="com.azure.resourcemanager.sql.fluent.inner.InstanceFailoverGroupInner?alt=com.azure.resourcemanager.sql.fluent.inner.InstanceFailoverGroupInner&text=InstanceFailoverGroupInner" data-throw-if-not-resolved="False" />
+  - description: The context to associate with this operation.
+    name: context
+    type: <xref href="com.azure.core.util.Context?alt=com.azure.core.util.Context&text=Context" data-throw-if-not-resolved="False" />
+  syntax: public Mono<Response<InstanceFailoverGroupInner>> beginCreateOrUpdateWithoutPollingWithResponseAsync(String resourceGroupName, String locationName, String failoverGroupName, InstanceFailoverGroupInner parameters, Context context)
+  returns:
+    description: an instance failover group.
+    type: <xref href="reactor.core.publisher.Mono?alt=reactor.core.publisher.Mono&text=Mono" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.core.http.rest.Response?alt=com.azure.core.http.rest.Response&text=Response" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.resourcemanager.sql.fluent.inner.InstanceFailoverGroupInner?alt=com.azure.resourcemanager.sql.fluent.inner.InstanceFailoverGroupInner&text=InstanceFailoverGroupInner" data-throw-if-not-resolved="False" />&gt;&gt;
+type: method
+metadata: {}
+package: com.azure.resourcemanager.sql.fluent
+artifact: com.azure.resourcemanager:azure-resourcemanager-sql:2.0.0-beta.2

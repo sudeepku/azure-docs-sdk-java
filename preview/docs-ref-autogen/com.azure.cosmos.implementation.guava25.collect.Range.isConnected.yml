@@ -1,0 +1,41 @@
+### YamlMime:JavaMember
+uid: com.azure.cosmos.implementation.guava25.collect.Range.isConnected*
+fullName: com.azure.cosmos.implementation.guava25.collect.Range<C>.isConnected
+name: isConnected
+nameWithType: Range<C>.isConnected
+members:
+- uid: com.azure.cosmos.implementation.guava25.collect.Range.isConnected(com.azure.cosmos.implementation.guava25.collect.Range<C>)
+  fullName: com.azure.cosmos.implementation.guava25.collect.Range<C>.isConnected(Range<C> other)
+  name: isConnected(Range<C> other)
+  nameWithType: Range<C>.isConnected(Range<C> other)
+  summary: |-
+    Returns <code>true</code> if there exists a (possibly empty) range which is <xref uid="#encloses" data-throw-if-not-resolved="false">enclosed</xref> by both this range and <code>other</code>.
+
+     <p>For example,
+
+     <ul>
+       <li><code>[2, 4)</code> and <code>[5, 7)</code> are not connected
+       <li><code>[2, 4)</code> and <code>[3, 5)</code> are connected, because both enclose <code>[3, 4)</code>
+       <li><code>[2, 4)</code> and <code>[4, 6)</code> are connected, because both enclose the empty range
+           <code>[4, 4)</code>
+     </ul>
+
+     <p>Note that this range and <code>other</code> have a well-defined <xref uid="#span" data-throw-if-not-resolved="false">union</xref> and
+     <xref uid="#intersection" data-throw-if-not-resolved="false">intersection</xref> (as a single, possibly-empty range) if and only if this
+     method returns <code>true</code>.
+
+     <p>The connectedness relation is both reflexive and symmetric, but does not form an <xref uid="Equivalence" data-throw-if-not-resolved="false">equivalence relation</xref> as it is not transitive.
+
+     <p>Note that certain discrete ranges are not considered connected, even though there are no
+     elements "between them." For example, <code>[3, 5]</code> is not considered connected to <code>[6,
+     10]</code>. In these cases, it may be desirable for both input ranges to be preprocessed with <xref uid="#canonical(DiscreteDomain)" data-throw-if-not-resolved="false">#canonical(DiscreteDomain)</xref> before testing for connectedness.
+  parameters:
+  - name: other
+    type: <xref href="com.azure.cosmos.implementation.guava25.collect.Range?alt=com.azure.cosmos.implementation.guava25.collect.Range&text=Range" data-throw-if-not-resolved="False" />&lt;<xref href="C?alt=C&text=C" data-throw-if-not-resolved="False" />&gt;
+  syntax: public boolean isConnected(Range<C> other)
+  returns:
+    type: <xref href="boolean?alt=boolean&text=boolean" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.cosmos.implementation.guava25.collect
+artifact: com.azure:azure-cosmos:4.3.2-beta.2

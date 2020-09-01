@@ -1,0 +1,19 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.appservice.WebSiteManagementClient.getWebApps*
+fullName: com.azure.resourcemanager.appservice.WebSiteManagementClient.getWebApps
+name: getWebApps
+nameWithType: WebSiteManagementClient.getWebApps
+members:
+- uid: com.azure.resourcemanager.appservice.WebSiteManagementClient.getWebApps()
+  fullName: com.azure.resourcemanager.appservice.WebSiteManagementClient.getWebApps()
+  name: getWebApps()
+  nameWithType: WebSiteManagementClient.getWebApps()
+  summary: Gets the WebAppsClient object to access its operations.
+  syntax: public WebAppsClient getWebApps()
+  returns:
+    description: the WebAppsClient object.
+    type: <xref href="com.azure.resourcemanager.appservice.fluent.WebAppsClient?alt=com.azure.resourcemanager.appservice.fluent.WebAppsClient&text=WebAppsClient" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.resourcemanager.appservice
+artifact: com.azure.resourcemanager:azure-resourcemanager-appservice:2.0.0-beta.2

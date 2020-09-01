@@ -1,0 +1,20 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.compute.fluent.VirtualMachineScaleSetVMsClient.VirtualMachineScaleSetVMsClient*
+fullName: com.azure.resourcemanager.compute.fluent.VirtualMachineScaleSetVMsClient.VirtualMachineScaleSetVMsClient
+name: VirtualMachineScaleSetVMsClient
+nameWithType: VirtualMachineScaleSetVMsClient.VirtualMachineScaleSetVMsClient
+members:
+- uid: com.azure.resourcemanager.compute.fluent.VirtualMachineScaleSetVMsClient.VirtualMachineScaleSetVMsClient(com.azure.resourcemanager.compute.ComputeManagementClient)
+  fullName: com.azure.resourcemanager.compute.fluent.VirtualMachineScaleSetVMsClient.VirtualMachineScaleSetVMsClient(ComputeManagementClient client)
+  name: VirtualMachineScaleSetVMsClient(ComputeManagementClient client)
+  nameWithType: VirtualMachineScaleSetVMsClient.VirtualMachineScaleSetVMsClient(ComputeManagementClient client)
+  summary: Initializes an instance of VirtualMachineScaleSetVMsClient.
+  parameters:
+  - description: the instance of the service client containing this operation class.
+    name: client
+    type: <xref href="com.azure.resourcemanager.compute.ComputeManagementClient?alt=com.azure.resourcemanager.compute.ComputeManagementClient&text=ComputeManagementClient" data-throw-if-not-resolved="False" />
+  syntax: public VirtualMachineScaleSetVMsClient(ComputeManagementClient client)
+type: constructor
+metadata: {}
+package: com.azure.resourcemanager.compute.fluent
+artifact: com.azure.resourcemanager:azure-resourcemanager-compute:2.0.0-beta.2

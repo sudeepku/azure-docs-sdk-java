@@ -1,0 +1,43 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.network.fluent.ExpressRouteCircuitConnectionsClient.listNextSinglePageAsync*
+fullName: com.azure.resourcemanager.network.fluent.ExpressRouteCircuitConnectionsClient.listNextSinglePageAsync
+name: listNextSinglePageAsync
+nameWithType: ExpressRouteCircuitConnectionsClient.listNextSinglePageAsync
+members:
+- uid: com.azure.resourcemanager.network.fluent.ExpressRouteCircuitConnectionsClient.listNextSinglePageAsync(java.lang.String)
+  fullName: com.azure.resourcemanager.network.fluent.ExpressRouteCircuitConnectionsClient.listNextSinglePageAsync(String nextLink)
+  name: listNextSinglePageAsync(String nextLink)
+  nameWithType: ExpressRouteCircuitConnectionsClient.listNextSinglePageAsync(String nextLink)
+  summary: Get the next page of items.
+  parameters:
+  - description: The nextLink parameter.
+    name: nextLink
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  syntax: public Mono<PagedResponse<ExpressRouteCircuitConnectionInner>> listNextSinglePageAsync(String nextLink)
+  returns:
+    description: |-
+      response for ListConnections API service call retrieves all global reach connections that belongs to a
+           Private Peering for an ExpressRouteCircuit.
+    type: <xref href="reactor.core.publisher.Mono?alt=reactor.core.publisher.Mono&text=Mono" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.core.http.rest.PagedResponse?alt=com.azure.core.http.rest.PagedResponse&text=PagedResponse" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.resourcemanager.network.fluent.inner.ExpressRouteCircuitConnectionInner?alt=com.azure.resourcemanager.network.fluent.inner.ExpressRouteCircuitConnectionInner&text=ExpressRouteCircuitConnectionInner" data-throw-if-not-resolved="False" />&gt;&gt;
+- uid: com.azure.resourcemanager.network.fluent.ExpressRouteCircuitConnectionsClient.listNextSinglePageAsync(java.lang.String,com.azure.core.util.Context)
+  fullName: com.azure.resourcemanager.network.fluent.ExpressRouteCircuitConnectionsClient.listNextSinglePageAsync(String nextLink, Context context)
+  name: listNextSinglePageAsync(String nextLink, Context context)
+  nameWithType: ExpressRouteCircuitConnectionsClient.listNextSinglePageAsync(String nextLink, Context context)
+  summary: Get the next page of items.
+  parameters:
+  - description: The nextLink parameter.
+    name: nextLink
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  - description: The context to associate with this operation.
+    name: context
+    type: <xref href="com.azure.core.util.Context?alt=com.azure.core.util.Context&text=Context" data-throw-if-not-resolved="False" />
+  syntax: public Mono<PagedResponse<ExpressRouteCircuitConnectionInner>> listNextSinglePageAsync(String nextLink, Context context)
+  returns:
+    description: |-
+      response for ListConnections API service call retrieves all global reach connections that belongs to a
+           Private Peering for an ExpressRouteCircuit.
+    type: <xref href="reactor.core.publisher.Mono?alt=reactor.core.publisher.Mono&text=Mono" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.core.http.rest.PagedResponse?alt=com.azure.core.http.rest.PagedResponse&text=PagedResponse" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.resourcemanager.network.fluent.inner.ExpressRouteCircuitConnectionInner?alt=com.azure.resourcemanager.network.fluent.inner.ExpressRouteCircuitConnectionInner&text=ExpressRouteCircuitConnectionInner" data-throw-if-not-resolved="False" />&gt;&gt;
+type: method
+metadata: {}
+package: com.azure.resourcemanager.network.fluent
+artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.0.0-beta.2

@@ -1,0 +1,36 @@
+### YamlMime:JavaMember
+uid: com.azure.search.documents.implementation.converters.ScoringFunctionAggregationConverter.map*
+fullName: com.azure.search.documents.implementation.converters.ScoringFunctionAggregationConverter.map
+name: map
+nameWithType: ScoringFunctionAggregationConverter.map
+members:
+- uid: com.azure.search.documents.implementation.converters.ScoringFunctionAggregationConverter.map(com.azure.search.documents.indexes.implementation.models.ScoringFunctionAggregation)
+  fullName: com.azure.search.documents.implementation.converters.ScoringFunctionAggregationConverter.map(ScoringFunctionAggregation obj)
+  name: map(ScoringFunctionAggregation obj)
+  nameWithType: ScoringFunctionAggregationConverter.map(ScoringFunctionAggregation obj)
+  summary: |-
+    Maps from enum <xref uid="com.azure.search.documents.indexes.implementation.models.ScoringFunctionAggregation" data-throw-if-not-resolved="false">com.azure.search.documents.indexes.implementation.models.ScoringFunctionAggregation</xref> to enum
+     <xref uid="ScoringFunctionAggregation" data-throw-if-not-resolved="false">ScoringFunctionAggregation</xref>.
+  parameters:
+  - name: obj
+    type: <xref href="com.azure.search.documents.indexes.implementation.models.ScoringFunctionAggregation?alt=com.azure.search.documents.indexes.implementation.models.ScoringFunctionAggregation&text=ScoringFunctionAggregation" data-throw-if-not-resolved="False" />
+  syntax: public static ScoringFunctionAggregation map(ScoringFunctionAggregation obj)
+  returns:
+    type: <xref href="com.azure.search.documents.indexes.models.ScoringFunctionAggregation?alt=com.azure.search.documents.indexes.models.ScoringFunctionAggregation&text=ScoringFunctionAggregation" data-throw-if-not-resolved="False" />
+- uid: com.azure.search.documents.implementation.converters.ScoringFunctionAggregationConverter.map(com.azure.search.documents.indexes.models.ScoringFunctionAggregation)
+  fullName: com.azure.search.documents.implementation.converters.ScoringFunctionAggregationConverter.map(ScoringFunctionAggregation obj)
+  name: map(ScoringFunctionAggregation obj)
+  nameWithType: ScoringFunctionAggregationConverter.map(ScoringFunctionAggregation obj)
+  summary: |-
+    Maps from enum <xref uid="ScoringFunctionAggregation" data-throw-if-not-resolved="false">ScoringFunctionAggregation</xref> to enum
+     <xref uid="com.azure.search.documents.indexes.implementation.models.ScoringFunctionAggregation" data-throw-if-not-resolved="false">com.azure.search.documents.indexes.implementation.models.ScoringFunctionAggregation</xref>.
+  parameters:
+  - name: obj
+    type: <xref href="com.azure.search.documents.indexes.models.ScoringFunctionAggregation?alt=com.azure.search.documents.indexes.models.ScoringFunctionAggregation&text=ScoringFunctionAggregation" data-throw-if-not-resolved="False" />
+  syntax: public static ScoringFunctionAggregation map(ScoringFunctionAggregation obj)
+  returns:
+    type: <xref href="com.azure.search.documents.indexes.implementation.models.ScoringFunctionAggregation?alt=com.azure.search.documents.indexes.implementation.models.ScoringFunctionAggregation&text=ScoringFunctionAggregation" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.search.documents.implementation.converters
+artifact: com.azure:azure-search-documents:11.0.0

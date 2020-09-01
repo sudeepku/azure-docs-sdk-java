@@ -1,0 +1,44 @@
+### YamlMime:JavaMember
+nameWithType: Apps.importMethod
+type: method
+members:
+- fullName: com.microsoft.azure.cognitiveservices.language.luis.authoring.Apps.importMethod()
+  name: importMethod()
+  nameWithType: Apps.importMethod()
+  returns:
+    description: <p>the first stage of the importMethod call </p>
+    type: <xref href="AppsImportMethodDefinitionStages.WithLuisApp?alt=AppsImportMethodDefinitionStages.WithLuisApp&text=AppsImportMethodDefinitionStages.WithLuisApp" data-throw-if-not-resolved="False"/>
+  summary: >-
+    <p>Imports an application to LUIS, the application's structure should be included in in the request body.</p>
+
+    <p></p>
+  syntax: public AppsImportMethodDefinitionStages.WithLuisApp importMethod()
+  uid: com.microsoft.azure.cognitiveservices.language.luis.authoring.Apps.importMethod()
+- fullName: com.microsoft.azure.cognitiveservices.language.luis.authoring.Apps.importMethod(LuisApp luisApp, ImportMethodAppsOptionalParameter importMethodOptionalParameter)
+  name: importMethod(LuisApp luisApp, ImportMethodAppsOptionalParameter importMethodOptionalParameter)
+  nameWithType: Apps.importMethod(LuisApp luisApp, ImportMethodAppsOptionalParameter importMethodOptionalParameter)
+  parameters:
+  - description: <p>A LUIS application structure. </p>
+    name: luisApp
+    type: <xref href="com.microsoft.azure.cognitiveservices.language.luis.authoring.models.LuisApp?alt=com.microsoft.azure.cognitiveservices.language.luis.authoring.models.LuisApp&text=LuisApp" data-throw-if-not-resolved="False"/>
+  - description: <p>the object representing the optional parameters to be set before calling this API </p>
+    name: importMethodOptionalParameter
+    type: <xref href="com.microsoft.azure.cognitiveservices.language.luis.authoring.models.ImportMethodAppsOptionalParameter?alt=com.microsoft.azure.cognitiveservices.language.luis.authoring.models.ImportMethodAppsOptionalParameter&text=ImportMethodAppsOptionalParameter" data-throw-if-not-resolved="False"/>
+  exceptions:
+  - name: 3c87bd19
+  - name: 00ad4777
+  - name: 9b2a4515
+  returns:
+    description: <p>the UUID object if successful. </p>
+    type: <xref href="UUID?alt=UUID&text=UUID" data-throw-if-not-resolved="False"/>
+  summary: >-
+    <p>Imports an application to LUIS, the application's structure should be included in in the request body.</p>
+
+    <p></p>
+  syntax: public UUID importMethod(LuisApp luisApp, ImportMethodAppsOptionalParameter importMethodOptionalParameter)
+  uid: com.microsoft.azure.cognitiveservices.language.luis.authoring.Apps.importMethod(LuisApp,ImportMethodAppsOptionalParameter)
+uid: com.microsoft.azure.cognitiveservices.language.luis.authoring.Apps.importMethod*
+fullName: com.microsoft.azure.cognitiveservices.language.luis.authoring.Apps.importMethod()
+name: importMethod()
+package: com.microsoft.azure.cognitiveservices.language.luis.authoring
+metadata: {}

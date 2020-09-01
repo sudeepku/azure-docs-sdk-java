@@ -1,0 +1,45 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.network.fluent.VpnSiteLinksClient.listByVpnSiteSinglePageAsync*
+fullName: com.azure.resourcemanager.network.fluent.VpnSiteLinksClient.listByVpnSiteSinglePageAsync
+name: listByVpnSiteSinglePageAsync
+nameWithType: VpnSiteLinksClient.listByVpnSiteSinglePageAsync
+members:
+- uid: com.azure.resourcemanager.network.fluent.VpnSiteLinksClient.listByVpnSiteSinglePageAsync(java.lang.String,java.lang.String)
+  fullName: com.azure.resourcemanager.network.fluent.VpnSiteLinksClient.listByVpnSiteSinglePageAsync(String resourceGroupName, String vpnSiteName)
+  name: listByVpnSiteSinglePageAsync(String resourceGroupName, String vpnSiteName)
+  nameWithType: VpnSiteLinksClient.listByVpnSiteSinglePageAsync(String resourceGroupName, String vpnSiteName)
+  summary: Lists all the vpnSiteLinks in a resource group for a vpn site.
+  parameters:
+  - description: The resource group name of the VpnSite.
+    name: resourceGroupName
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  - description: The name of the VpnSite.
+    name: vpnSiteName
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  syntax: public Mono<PagedResponse<VpnSiteLinkInner>> listByVpnSiteSinglePageAsync(String resourceGroupName, String vpnSiteName)
+  returns:
+    description: result of the request to list VpnSiteLinks.
+    type: <xref href="reactor.core.publisher.Mono?alt=reactor.core.publisher.Mono&text=Mono" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.core.http.rest.PagedResponse?alt=com.azure.core.http.rest.PagedResponse&text=PagedResponse" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.resourcemanager.network.fluent.inner.VpnSiteLinkInner?alt=com.azure.resourcemanager.network.fluent.inner.VpnSiteLinkInner&text=VpnSiteLinkInner" data-throw-if-not-resolved="False" />&gt;&gt;
+- uid: com.azure.resourcemanager.network.fluent.VpnSiteLinksClient.listByVpnSiteSinglePageAsync(java.lang.String,java.lang.String,com.azure.core.util.Context)
+  fullName: com.azure.resourcemanager.network.fluent.VpnSiteLinksClient.listByVpnSiteSinglePageAsync(String resourceGroupName, String vpnSiteName, Context context)
+  name: listByVpnSiteSinglePageAsync(String resourceGroupName, String vpnSiteName, Context context)
+  nameWithType: VpnSiteLinksClient.listByVpnSiteSinglePageAsync(String resourceGroupName, String vpnSiteName, Context context)
+  summary: Lists all the vpnSiteLinks in a resource group for a vpn site.
+  parameters:
+  - description: The resource group name of the VpnSite.
+    name: resourceGroupName
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  - description: The name of the VpnSite.
+    name: vpnSiteName
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  - description: The context to associate with this operation.
+    name: context
+    type: <xref href="com.azure.core.util.Context?alt=com.azure.core.util.Context&text=Context" data-throw-if-not-resolved="False" />
+  syntax: public Mono<PagedResponse<VpnSiteLinkInner>> listByVpnSiteSinglePageAsync(String resourceGroupName, String vpnSiteName, Context context)
+  returns:
+    description: result of the request to list VpnSiteLinks.
+    type: <xref href="reactor.core.publisher.Mono?alt=reactor.core.publisher.Mono&text=Mono" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.core.http.rest.PagedResponse?alt=com.azure.core.http.rest.PagedResponse&text=PagedResponse" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.resourcemanager.network.fluent.inner.VpnSiteLinkInner?alt=com.azure.resourcemanager.network.fluent.inner.VpnSiteLinkInner&text=VpnSiteLinkInner" data-throw-if-not-resolved="False" />&gt;&gt;
+type: method
+metadata: {}
+package: com.azure.resourcemanager.network.fluent
+artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.0.0-beta.2

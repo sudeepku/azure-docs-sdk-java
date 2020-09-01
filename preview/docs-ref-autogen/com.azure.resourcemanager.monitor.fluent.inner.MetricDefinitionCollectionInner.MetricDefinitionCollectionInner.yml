@@ -1,0 +1,15 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.monitor.fluent.inner.MetricDefinitionCollectionInner.MetricDefinitionCollectionInner*
+fullName: com.azure.resourcemanager.monitor.fluent.inner.MetricDefinitionCollectionInner.MetricDefinitionCollectionInner
+name: MetricDefinitionCollectionInner
+nameWithType: MetricDefinitionCollectionInner.MetricDefinitionCollectionInner
+members:
+- uid: com.azure.resourcemanager.monitor.fluent.inner.MetricDefinitionCollectionInner.MetricDefinitionCollectionInner()
+  fullName: com.azure.resourcemanager.monitor.fluent.inner.MetricDefinitionCollectionInner.MetricDefinitionCollectionInner()
+  name: MetricDefinitionCollectionInner()
+  nameWithType: MetricDefinitionCollectionInner.MetricDefinitionCollectionInner()
+  syntax: public MetricDefinitionCollectionInner()
+type: constructor
+metadata: {}
+package: com.azure.resourcemanager.monitor.fluent.inner
+artifact: com.azure.resourcemanager:azure-resourcemanager-monitor:2.0.0-beta.2

@@ -1,0 +1,39 @@
+### YamlMime:JavaMember
+uid: com.azure.data.schemaregistry.client.implementation.AzureSchemaRegistryRestService.getSchemasByGroupAsync*
+fullName: com.azure.data.schemaregistry.client.implementation.AzureSchemaRegistryRestService.getSchemasByGroupAsync
+name: getSchemasByGroupAsync
+nameWithType: AzureSchemaRegistryRestService.getSchemasByGroupAsync
+members:
+- uid: com.azure.data.schemaregistry.client.implementation.AzureSchemaRegistryRestService.getSchemasByGroupAsync(java.lang.String)
+  fullName: com.azure.data.schemaregistry.client.implementation.AzureSchemaRegistryRestService.getSchemasByGroupAsync(String groupName)
+  name: getSchemasByGroupAsync(String groupName)
+  nameWithType: AzureSchemaRegistryRestService.getSchemasByGroupAsync(String groupName)
+  summary: Returns schema by group name.
+  parameters:
+  - description: schema group.
+    name: groupName
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  syntax: public Mono<List<String>> getSchemasByGroupAsync(String groupName)
+  returns:
+    description: array of String.
+    type: <xref href="reactor.core.publisher.Mono?alt=reactor.core.publisher.Mono&text=Mono" data-throw-if-not-resolved="False" />&lt;<xref href="java.util.List?alt=java.util.List&text=List" data-throw-if-not-resolved="False" />&lt;<xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />&gt;&gt;
+- uid: com.azure.data.schemaregistry.client.implementation.AzureSchemaRegistryRestService.getSchemasByGroupAsync(java.lang.String,com.azure.core.util.Context)
+  fullName: com.azure.data.schemaregistry.client.implementation.AzureSchemaRegistryRestService.getSchemasByGroupAsync(String groupName, Context context)
+  name: getSchemasByGroupAsync(String groupName, Context context)
+  nameWithType: AzureSchemaRegistryRestService.getSchemasByGroupAsync(String groupName, Context context)
+  summary: Returns schema by group name.
+  parameters:
+  - description: schema group.
+    name: groupName
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  - description: The context to associate with this operation.
+    name: context
+    type: <xref href="com.azure.core.util.Context?alt=com.azure.core.util.Context&text=Context" data-throw-if-not-resolved="False" />
+  syntax: public Mono<List<String>> getSchemasByGroupAsync(String groupName, Context context)
+  returns:
+    description: array of String.
+    type: <xref href="reactor.core.publisher.Mono?alt=reactor.core.publisher.Mono&text=Mono" data-throw-if-not-resolved="False" />&lt;<xref href="java.util.List?alt=java.util.List&text=List" data-throw-if-not-resolved="False" />&lt;<xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />&gt;&gt;
+type: method
+metadata: {}
+package: com.azure.data.schemaregistry.client.implementation
+artifact: com.azure:azure-data-schemaregistry:1.0.0-beta.1

@@ -1,0 +1,19 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.monitor.fluent.inner.DiagnosticSettingsResourceCollectionInner.value*
+fullName: com.azure.resourcemanager.monitor.fluent.inner.DiagnosticSettingsResourceCollectionInner.value
+name: value
+nameWithType: DiagnosticSettingsResourceCollectionInner.value
+members:
+- uid: com.azure.resourcemanager.monitor.fluent.inner.DiagnosticSettingsResourceCollectionInner.value()
+  fullName: com.azure.resourcemanager.monitor.fluent.inner.DiagnosticSettingsResourceCollectionInner.value()
+  name: value()
+  nameWithType: DiagnosticSettingsResourceCollectionInner.value()
+  summary: 'Get the value property: The collection of diagnostic settings resources;.'
+  syntax: public List<DiagnosticSettingsResourceInner> value()
+  returns:
+    description: the value value.
+    type: <xref href="java.util.List?alt=java.util.List&text=List" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.resourcemanager.monitor.fluent.inner.DiagnosticSettingsResourceInner?alt=com.azure.resourcemanager.monitor.fluent.inner.DiagnosticSettingsResourceInner&text=DiagnosticSettingsResourceInner" data-throw-if-not-resolved="False" />&gt;
+type: method
+metadata: {}
+package: com.azure.resourcemanager.monitor.fluent.inner
+artifact: com.azure.resourcemanager:azure-resourcemanager-monitor:2.0.0-beta.2

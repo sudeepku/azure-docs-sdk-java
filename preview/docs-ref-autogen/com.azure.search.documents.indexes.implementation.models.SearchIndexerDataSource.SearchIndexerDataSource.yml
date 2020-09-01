@@ -1,0 +1,25 @@
+### YamlMime:JavaMember
+uid: com.azure.search.documents.indexes.implementation.models.SearchIndexerDataSource.SearchIndexerDataSource*
+fullName: com.azure.search.documents.indexes.implementation.models.SearchIndexerDataSource.SearchIndexerDataSource
+name: SearchIndexerDataSource
+nameWithType: SearchIndexerDataSource.SearchIndexerDataSource
+members:
+- uid: com.azure.search.documents.indexes.implementation.models.SearchIndexerDataSource.SearchIndexerDataSource(java.lang.String,com.azure.search.documents.indexes.implementation.models.SearchIndexerDataSourceType,com.azure.search.documents.indexes.implementation.models.DataSourceCredentials,com.azure.search.documents.indexes.implementation.models.SearchIndexerDataContainer)
+  fullName: com.azure.search.documents.indexes.implementation.models.SearchIndexerDataSource.SearchIndexerDataSource(String name, SearchIndexerDataSourceType type, DataSourceCredentials credentials, SearchIndexerDataContainer container)
+  name: SearchIndexerDataSource(String name, SearchIndexerDataSourceType type, DataSourceCredentials credentials, SearchIndexerDataContainer container)
+  nameWithType: SearchIndexerDataSource.SearchIndexerDataSource(String name, SearchIndexerDataSourceType type, DataSourceCredentials credentials, SearchIndexerDataContainer container)
+  summary: Creates an instance of SearchIndexerDataSource class.
+  parameters:
+  - name: name
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  - name: type
+    type: <xref href="com.azure.search.documents.indexes.implementation.models.SearchIndexerDataSourceType?alt=com.azure.search.documents.indexes.implementation.models.SearchIndexerDataSourceType&text=SearchIndexerDataSourceType" data-throw-if-not-resolved="False" />
+  - name: credentials
+    type: <xref href="com.azure.search.documents.indexes.implementation.models.DataSourceCredentials?alt=com.azure.search.documents.indexes.implementation.models.DataSourceCredentials&text=DataSourceCredentials" data-throw-if-not-resolved="False" />
+  - name: container
+    type: <xref href="com.azure.search.documents.indexes.implementation.models.SearchIndexerDataContainer?alt=com.azure.search.documents.indexes.implementation.models.SearchIndexerDataContainer&text=SearchIndexerDataContainer" data-throw-if-not-resolved="False" />
+  syntax: public SearchIndexerDataSource(String name, SearchIndexerDataSourceType type, DataSourceCredentials credentials, SearchIndexerDataContainer container)
+type: constructor
+metadata: {}
+package: com.azure.search.documents.indexes.implementation.models
+artifact: com.azure:azure-search-documents:11.1.0-beta.1

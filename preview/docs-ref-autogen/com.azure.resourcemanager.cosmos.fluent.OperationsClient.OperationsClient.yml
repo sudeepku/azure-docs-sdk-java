@@ -1,0 +1,20 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.cosmos.fluent.OperationsClient.OperationsClient*
+fullName: com.azure.resourcemanager.cosmos.fluent.OperationsClient.OperationsClient
+name: OperationsClient
+nameWithType: OperationsClient.OperationsClient
+members:
+- uid: com.azure.resourcemanager.cosmos.fluent.OperationsClient.OperationsClient(com.azure.resourcemanager.cosmos.CosmosDBManagementClient)
+  fullName: com.azure.resourcemanager.cosmos.fluent.OperationsClient.OperationsClient(CosmosDBManagementClient client)
+  name: OperationsClient(CosmosDBManagementClient client)
+  nameWithType: OperationsClient.OperationsClient(CosmosDBManagementClient client)
+  summary: Initializes an instance of OperationsClient.
+  parameters:
+  - description: the instance of the service client containing this operation class.
+    name: client
+    type: <xref href="com.azure.resourcemanager.cosmos.CosmosDBManagementClient?alt=com.azure.resourcemanager.cosmos.CosmosDBManagementClient&text=CosmosDBManagementClient" data-throw-if-not-resolved="False" />
+  syntax: public OperationsClient(CosmosDBManagementClient client)
+type: constructor
+metadata: {}
+package: com.azure.resourcemanager.cosmos.fluent
+artifact: com.azure.resourcemanager:azure-resourcemanager-cosmos:2.0.0-beta.2

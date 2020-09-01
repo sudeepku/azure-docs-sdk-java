@@ -1,0 +1,26 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.network.models.NetworkInterfaceDnsSettings.withAppliedDnsServers*
+fullName: com.azure.resourcemanager.network.models.NetworkInterfaceDnsSettings.withAppliedDnsServers
+name: withAppliedDnsServers
+nameWithType: NetworkInterfaceDnsSettings.withAppliedDnsServers
+members:
+- uid: com.azure.resourcemanager.network.models.NetworkInterfaceDnsSettings.withAppliedDnsServers(java.util.List<java.lang.String>)
+  fullName: com.azure.resourcemanager.network.models.NetworkInterfaceDnsSettings.withAppliedDnsServers(List<String> appliedDnsServers)
+  name: withAppliedDnsServers(List<String> appliedDnsServers)
+  nameWithType: NetworkInterfaceDnsSettings.withAppliedDnsServers(List<String> appliedDnsServers)
+  summary: |-
+    Set the appliedDnsServers property: If the VM that uses this NIC is part of an Availability Set, then this list
+     will have the union of all DNS servers from all NICs that are part of the Availability Set. This property is what
+     is configured on each of those VMs.
+  parameters:
+  - description: the appliedDnsServers value to set.
+    name: appliedDnsServers
+    type: <xref href="java.util.List?alt=java.util.List&text=List" data-throw-if-not-resolved="False" />&lt;<xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />&gt;
+  syntax: public NetworkInterfaceDnsSettings withAppliedDnsServers(List<String> appliedDnsServers)
+  returns:
+    description: the NetworkInterfaceDnsSettings object itself.
+    type: <xref href="com.azure.resourcemanager.network.models.NetworkInterfaceDnsSettings?alt=com.azure.resourcemanager.network.models.NetworkInterfaceDnsSettings&text=NetworkInterfaceDnsSettings" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.resourcemanager.network.models
+artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.0.0-beta.2

@@ -1,0 +1,23 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.appservice.fluent.inner.StaticSiteCustomDomainOverviewCollectionInner.withValue*
+fullName: com.azure.resourcemanager.appservice.fluent.inner.StaticSiteCustomDomainOverviewCollectionInner.withValue
+name: withValue
+nameWithType: StaticSiteCustomDomainOverviewCollectionInner.withValue
+members:
+- uid: com.azure.resourcemanager.appservice.fluent.inner.StaticSiteCustomDomainOverviewCollectionInner.withValue(java.util.List<com.azure.resourcemanager.appservice.fluent.inner.StaticSiteCustomDomainOverviewArmResourceInner>)
+  fullName: com.azure.resourcemanager.appservice.fluent.inner.StaticSiteCustomDomainOverviewCollectionInner.withValue(List<StaticSiteCustomDomainOverviewArmResourceInner> value)
+  name: withValue(List<StaticSiteCustomDomainOverviewArmResourceInner> value)
+  nameWithType: StaticSiteCustomDomainOverviewCollectionInner.withValue(List<StaticSiteCustomDomainOverviewArmResourceInner> value)
+  summary: 'Set the value property: Collection of resources.'
+  parameters:
+  - description: the value value to set.
+    name: value
+    type: <xref href="java.util.List?alt=java.util.List&text=List" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.resourcemanager.appservice.fluent.inner.StaticSiteCustomDomainOverviewArmResourceInner?alt=com.azure.resourcemanager.appservice.fluent.inner.StaticSiteCustomDomainOverviewArmResourceInner&text=StaticSiteCustomDomainOverviewArmResourceInner" data-throw-if-not-resolved="False" />&gt;
+  syntax: public StaticSiteCustomDomainOverviewCollectionInner withValue(List<StaticSiteCustomDomainOverviewArmResourceInner> value)
+  returns:
+    description: the StaticSiteCustomDomainOverviewCollectionInner object itself.
+    type: <xref href="com.azure.resourcemanager.appservice.fluent.inner.StaticSiteCustomDomainOverviewCollectionInner?alt=com.azure.resourcemanager.appservice.fluent.inner.StaticSiteCustomDomainOverviewCollectionInner&text=StaticSiteCustomDomainOverviewCollectionInner" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.resourcemanager.appservice.fluent.inner
+artifact: com.azure.resourcemanager:azure-resourcemanager-appservice:2.0.0-beta.2

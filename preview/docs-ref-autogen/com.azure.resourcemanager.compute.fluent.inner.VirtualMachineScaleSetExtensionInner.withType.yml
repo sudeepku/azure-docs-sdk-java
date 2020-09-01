@@ -1,0 +1,23 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.compute.fluent.inner.VirtualMachineScaleSetExtensionInner.withType*
+fullName: com.azure.resourcemanager.compute.fluent.inner.VirtualMachineScaleSetExtensionInner.withType
+name: withType
+nameWithType: VirtualMachineScaleSetExtensionInner.withType
+members:
+- uid: com.azure.resourcemanager.compute.fluent.inner.VirtualMachineScaleSetExtensionInner.withType(java.lang.String)
+  fullName: com.azure.resourcemanager.compute.fluent.inner.VirtualMachineScaleSetExtensionInner.withType(String type)
+  name: withType(String type)
+  nameWithType: VirtualMachineScaleSetExtensionInner.withType(String type)
+  summary: 'Set the type property: Specifies the type of the extension; an example is "CustomScriptExtension".'
+  parameters:
+  - description: the type value to set.
+    name: type
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  syntax: public VirtualMachineScaleSetExtensionInner withType(String type)
+  returns:
+    description: the VirtualMachineScaleSetExtensionInner object itself.
+    type: <xref href="com.azure.resourcemanager.compute.fluent.inner.VirtualMachineScaleSetExtensionInner?alt=com.azure.resourcemanager.compute.fluent.inner.VirtualMachineScaleSetExtensionInner&text=VirtualMachineScaleSetExtensionInner" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.resourcemanager.compute.fluent.inner
+artifact: com.azure.resourcemanager:azure-resourcemanager-compute:2.0.0-beta.2

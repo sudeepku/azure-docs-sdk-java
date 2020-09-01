@@ -1,0 +1,20 @@
+### YamlMime:JavaMember
+uid: com.azure.ai.textanalytics.util.TextAnalyticsPagedIterable.TextAnalyticsPagedIterable*
+fullName: com.azure.ai.textanalytics.util.TextAnalyticsPagedIterable<T>.TextAnalyticsPagedIterable
+name: TextAnalyticsPagedIterable
+nameWithType: TextAnalyticsPagedIterable<T>.TextAnalyticsPagedIterable
+members:
+- uid: com.azure.ai.textanalytics.util.TextAnalyticsPagedIterable.TextAnalyticsPagedIterable(com.azure.ai.textanalytics.util.TextAnalyticsPagedFlux<T>)
+  fullName: com.azure.ai.textanalytics.util.TextAnalyticsPagedIterable<T>.TextAnalyticsPagedIterable(TextAnalyticsPagedFlux<T> textAnalyticsPagedFlux)
+  name: TextAnalyticsPagedIterable(TextAnalyticsPagedFlux<T> textAnalyticsPagedFlux)
+  nameWithType: TextAnalyticsPagedIterable<T>.TextAnalyticsPagedIterable(TextAnalyticsPagedFlux<T> textAnalyticsPagedFlux)
+  summary: Creates instance given <xref uid="TextAnalyticsPagedFlux" data-throw-if-not-resolved="false">TextAnalyticsPagedFlux</xref>.
+  parameters:
+  - description: It used as iterable.
+    name: textAnalyticsPagedFlux
+    type: <xref href="com.azure.ai.textanalytics.util.TextAnalyticsPagedFlux?alt=com.azure.ai.textanalytics.util.TextAnalyticsPagedFlux&text=TextAnalyticsPagedFlux" data-throw-if-not-resolved="False" />&lt;<xref href="T?alt=T&text=T" data-throw-if-not-resolved="False" />&gt;
+  syntax: public TextAnalyticsPagedIterable(TextAnalyticsPagedFlux<T> textAnalyticsPagedFlux)
+type: constructor
+metadata: {}
+package: com.azure.ai.textanalytics.util
+artifact: com.azure:azure-ai-textanalytics:1.0.0-beta.4

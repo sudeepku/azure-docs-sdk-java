@@ -1,0 +1,22 @@
+### YamlMime:JavaMember
+uid: com.azure.cosmos.implementation.guava25.collect.PeekingIterator.peek*
+fullName: com.azure.cosmos.implementation.guava25.collect.PeekingIterator<E>.peek
+name: peek
+nameWithType: PeekingIterator<E>.peek
+members:
+- uid: com.azure.cosmos.implementation.guava25.collect.PeekingIterator.peek()
+  fullName: com.azure.cosmos.implementation.guava25.collect.PeekingIterator<E>.peek()
+  name: peek()
+  nameWithType: PeekingIterator<E>.peek()
+  summary: |-
+    Returns the next element in the iteration, without advancing the iteration.
+
+     <p>Calls to <code>peek()</code> should not change the state of the iteration, except that it
+     <i>may</i> prevent removal of the most recent element via <xref uid="#remove()" data-throw-if-not-resolved="false">#remove()</xref>.
+  syntax: public abstract E peek()
+  returns:
+    type: <xref href="E?alt=E&text=E" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.cosmos.implementation.guava25.collect
+artifact: com.azure:azure-cosmos:4.3.2-beta.2

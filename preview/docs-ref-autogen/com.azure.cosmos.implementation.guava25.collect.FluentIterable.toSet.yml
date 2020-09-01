@@ -1,0 +1,23 @@
+### YamlMime:JavaMember
+uid: com.azure.cosmos.implementation.guava25.collect.FluentIterable.toSet*
+fullName: com.azure.cosmos.implementation.guava25.collect.FluentIterable<E>.toSet
+name: toSet
+nameWithType: FluentIterable<E>.toSet
+members:
+- uid: com.azure.cosmos.implementation.guava25.collect.FluentIterable.toSet()
+  fullName: com.azure.cosmos.implementation.guava25.collect.FluentIterable<E>.toSet()
+  name: toSet()
+  nameWithType: FluentIterable<E>.toSet()
+  summary: |-
+    Returns an <code>ImmutableSet</code> containing all of the elements from this fluent iterable with
+     duplicates removed.
+
+     <p><b><code>Stream</code> equivalent:</b> pass <xref uid="ImmutableSet#toImmutableSet" data-throw-if-not-resolved="false">ImmutableSet#toImmutableSet</xref> to <code>
+     stream.collect()</code>.
+  syntax: public final ImmutableSet<E> toSet()
+  returns:
+    type: <xref href="com.azure.cosmos.implementation.guava25.collect.ImmutableSet?alt=com.azure.cosmos.implementation.guava25.collect.ImmutableSet&text=ImmutableSet" data-throw-if-not-resolved="False" />&lt;<xref href="E?alt=E&text=E" data-throw-if-not-resolved="False" />&gt;
+type: method
+metadata: {}
+package: com.azure.cosmos.implementation.guava25.collect
+artifact: com.azure:azure-cosmos:4.3.2-beta.2

@@ -1,0 +1,19 @@
+### YamlMime:JavaMember
+uid: com.azure.storage.blob.BlobContainerAsyncClient.getAccessPolicy*
+fullName: com.azure.storage.blob.BlobContainerAsyncClient.getAccessPolicy
+name: getAccessPolicy
+nameWithType: BlobContainerAsyncClient.getAccessPolicy
+members:
+- uid: com.azure.storage.blob.BlobContainerAsyncClient.getAccessPolicy()
+  fullName: com.azure.storage.blob.BlobContainerAsyncClient.getAccessPolicy()
+  name: getAccessPolicy()
+  nameWithType: BlobContainerAsyncClient.getAccessPolicy()
+  summary: "Returns the container's permissions. The permissions indicate whether container's blobs may be accessed publicly.\n For more information, see the\n <a href=\"https://docs.microsoft.com/rest/api/storageservices/get-container-acl\">Azure Docs</a>.\n\n <p><strong>Code Samples</strong></p>\n\n <pre>\n client.getAccessPolicy&#40;&#41;.subscribe&#40;response -&gt; &#123;\n     System.out.printf&#40;&quot;Blob Access Type: %s%n&quot;, response.getBlobAccessType&#40;&#41;&#41;;\n \n     for &#40;BlobSignedIdentifier identifier : response.getIdentifiers&#40;&#41;&#41; &#123;\n         System.out.printf&#40;&quot;Identifier Name: %s, Permissions %s%n&quot;,\n             identifier.getId&#40;&#41;,\n             identifier.getAccessPolicy&#40;&#41;.getPermissions&#40;&#41;&#41;;\n     &#125;\n &#125;&#41;;\n </pre>"
+  syntax: public Mono<BlobContainerAccessPolicies> getAccessPolicy()
+  returns:
+    description: A reactive response containing the container access policy.
+    type: <xref href="reactor.core.publisher.Mono?alt=reactor.core.publisher.Mono&text=Mono" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.storage.blob.models.BlobContainerAccessPolicies?alt=com.azure.storage.blob.models.BlobContainerAccessPolicies&text=BlobContainerAccessPolicies" data-throw-if-not-resolved="False" />&gt;
+type: method
+metadata: {}
+package: com.azure.storage.blob
+artifact: com.azure:azure-storage-blob:12.8.0-beta.1

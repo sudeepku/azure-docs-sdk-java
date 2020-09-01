@@ -1,0 +1,15 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.monitor.fluent.inner.ActionGroupListInner.ActionGroupListInner*
+fullName: com.azure.resourcemanager.monitor.fluent.inner.ActionGroupListInner.ActionGroupListInner
+name: ActionGroupListInner
+nameWithType: ActionGroupListInner.ActionGroupListInner
+members:
+- uid: com.azure.resourcemanager.monitor.fluent.inner.ActionGroupListInner.ActionGroupListInner()
+  fullName: com.azure.resourcemanager.monitor.fluent.inner.ActionGroupListInner.ActionGroupListInner()
+  name: ActionGroupListInner()
+  nameWithType: ActionGroupListInner.ActionGroupListInner()
+  syntax: public ActionGroupListInner()
+type: constructor
+metadata: {}
+package: com.azure.resourcemanager.monitor.fluent.inner
+artifact: com.azure.resourcemanager:azure-resourcemanager-monitor:2.0.0-beta.2

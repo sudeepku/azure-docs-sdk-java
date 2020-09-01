@@ -1,0 +1,19 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.storage.fluent.inner.BlobServiceItemsInner.value*
+fullName: com.azure.resourcemanager.storage.fluent.inner.BlobServiceItemsInner.value
+name: value
+nameWithType: BlobServiceItemsInner.value
+members:
+- uid: com.azure.resourcemanager.storage.fluent.inner.BlobServiceItemsInner.value()
+  fullName: com.azure.resourcemanager.storage.fluent.inner.BlobServiceItemsInner.value()
+  name: value()
+  nameWithType: BlobServiceItemsInner.value()
+  summary: 'Get the value property: List of blob services returned.'
+  syntax: public List<BlobServicePropertiesInner> value()
+  returns:
+    description: the value value.
+    type: <xref href="java.util.List?alt=java.util.List&text=List" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.resourcemanager.storage.fluent.inner.BlobServicePropertiesInner?alt=com.azure.resourcemanager.storage.fluent.inner.BlobServicePropertiesInner&text=BlobServicePropertiesInner" data-throw-if-not-resolved="False" />&gt;
+type: method
+metadata: {}
+package: com.azure.resourcemanager.storage.fluent.inner
+artifact: com.azure.resourcemanager:azure-resourcemanager-storage:2.0.0-beta.2

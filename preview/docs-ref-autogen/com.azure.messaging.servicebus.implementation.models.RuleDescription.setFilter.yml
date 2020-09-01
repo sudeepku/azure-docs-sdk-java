@@ -1,0 +1,23 @@
+### YamlMime:JavaMember
+uid: com.azure.messaging.servicebus.implementation.models.RuleDescription.setFilter*
+fullName: com.azure.messaging.servicebus.implementation.models.RuleDescription.setFilter
+name: setFilter
+nameWithType: RuleDescription.setFilter
+members:
+- uid: com.azure.messaging.servicebus.implementation.models.RuleDescription.setFilter(com.azure.messaging.servicebus.implementation.models.RuleFilter)
+  fullName: com.azure.messaging.servicebus.implementation.models.RuleDescription.setFilter(RuleFilter filter)
+  name: setFilter(RuleFilter filter)
+  nameWithType: RuleDescription.setFilter(RuleFilter filter)
+  summary: 'Set the filter property: The Filter property.'
+  parameters:
+  - description: the filter value to set.
+    name: filter
+    type: <xref href="com.azure.messaging.servicebus.implementation.models.RuleFilter?alt=com.azure.messaging.servicebus.implementation.models.RuleFilter&text=RuleFilter" data-throw-if-not-resolved="False" />
+  syntax: public RuleDescription setFilter(RuleFilter filter)
+  returns:
+    description: the RuleDescription object itself.
+    type: <xref href="com.azure.messaging.servicebus.implementation.models.RuleDescription?alt=com.azure.messaging.servicebus.implementation.models.RuleDescription&text=RuleDescription" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.messaging.servicebus.implementation.models
+artifact: com.azure:azure-messaging-servicebus:7.0.0-beta.5

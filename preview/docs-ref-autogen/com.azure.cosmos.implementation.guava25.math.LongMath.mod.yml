@@ -1,0 +1,60 @@
+### YamlMime:JavaMember
+uid: com.azure.cosmos.implementation.guava25.math.LongMath.mod*
+fullName: com.azure.cosmos.implementation.guava25.math.LongMath.mod
+name: mod
+nameWithType: LongMath.mod
+members:
+- uid: com.azure.cosmos.implementation.guava25.math.LongMath.mod(long,int)
+  fullName: com.azure.cosmos.implementation.guava25.math.LongMath.mod(long x, int m)
+  name: mod(long x, int m)
+  nameWithType: LongMath.mod(long x, int m)
+  summary: |-
+    Returns <code>x mod m</code>, a non-negative value less than <code>m</code>. This differs from <code>x %
+     m</code>, which might be negative.
+
+     <p>For example:
+
+     <pre><code>
+     mod(7, 4) == 3
+     mod(-7, 4) == 1
+     mod(-1, 4) == 3
+     mod(-8, 4) == 0
+     mod(8, 4) == 0
+     </code></pre>
+  parameters:
+  - name: x
+    type: <xref href="long?alt=long&text=long" data-throw-if-not-resolved="False" />
+  - name: m
+    type: <xref href="int?alt=int&text=int" data-throw-if-not-resolved="False" />
+  syntax: public static int mod(long x, int m)
+  returns:
+    type: <xref href="int?alt=int&text=int" data-throw-if-not-resolved="False" />
+- uid: com.azure.cosmos.implementation.guava25.math.LongMath.mod(long,long)
+  fullName: com.azure.cosmos.implementation.guava25.math.LongMath.mod(long x, long m)
+  name: mod(long x, long m)
+  nameWithType: LongMath.mod(long x, long m)
+  summary: |-
+    Returns <code>x mod m</code>, a non-negative value less than <code>m</code>. This differs from <code>x %
+     m</code>, which might be negative.
+
+     <p>For example:
+
+     <pre><code>
+     mod(7, 4) == 3
+     mod(-7, 4) == 1
+     mod(-1, 4) == 3
+     mod(-8, 4) == 0
+     mod(8, 4) == 0
+     </code></pre>
+  parameters:
+  - name: x
+    type: <xref href="long?alt=long&text=long" data-throw-if-not-resolved="False" />
+  - name: m
+    type: <xref href="long?alt=long&text=long" data-throw-if-not-resolved="False" />
+  syntax: public static long mod(long x, long m)
+  returns:
+    type: <xref href="long?alt=long&text=long" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.cosmos.implementation.guava25.math
+artifact: com.azure:azure-cosmos:4.3.2-beta.2

@@ -1,0 +1,70 @@
+### YamlMime:JavaMember
+uid: com.azure.cosmos.implementation.guava25.collect.Multisets.removeOccurrences*
+fullName: com.azure.cosmos.implementation.guava25.collect.Multisets.removeOccurrences
+name: removeOccurrences
+nameWithType: Multisets.removeOccurrences
+members:
+- uid: com.azure.cosmos.implementation.guava25.collect.Multisets.removeOccurrences(com.azure.cosmos.implementation.guava25.collect.Multiset<?>,com.azure.cosmos.implementation.guava25.collect.Multiset<?>)
+  fullName: com.azure.cosmos.implementation.guava25.collect.Multisets.removeOccurrences(Multiset<?> multisetToModify, Multiset<?> occurrencesToRemove)
+  name: removeOccurrences(Multiset<?> multisetToModify, Multiset<?> occurrencesToRemove)
+  nameWithType: Multisets.removeOccurrences(Multiset<?> multisetToModify, Multiset<?> occurrencesToRemove)
+  summary: |-
+    For each occurrence of an element <code>e</code> in <code>occurrencesToRemove</code>, removes one
+     occurrence of <code>e</code> in <code>multisetToModify</code>.
+
+     <p>Equivalently, this method modifies <code>multisetToModify</code> so that <code>
+     multisetToModify.count(e)</code> is set to <code>Math.max(0, multisetToModify.count(e) -
+     occurrencesToRemove.count(e))</code>.
+
+     <p>This is <i>not</i> the same as <code>multisetToModify.</code> <xref uid="Multiset#removeAll" data-throw-if-not-resolved="false">removeAll</xref><code>(occurrencesToRemove)</code>, which removes all occurrences of elements that appear
+     in <code>occurrencesToRemove</code>. However, this operation <i>is</i> equivalent to, albeit
+     sometimes more efficient than, the following:
+
+     <pre><code>
+     for (E e : occurrencesToRemove) {
+       multisetToModify.remove(e);
+     }
+     </code></pre>
+  parameters:
+  - name: multisetToModify
+    type: <xref href="com.azure.cosmos.implementation.guava25.collect.Multiset?alt=com.azure.cosmos.implementation.guava25.collect.Multiset&text=Multiset" data-throw-if-not-resolved="False" />&lt;?&gt;
+  - name: occurrencesToRemove
+    type: <xref href="com.azure.cosmos.implementation.guava25.collect.Multiset?alt=com.azure.cosmos.implementation.guava25.collect.Multiset&text=Multiset" data-throw-if-not-resolved="False" />&lt;?&gt;
+  syntax: public static boolean removeOccurrences(Multiset<?> multisetToModify, Multiset<?> occurrencesToRemove)
+  returns:
+    description: <code>true</code> if <code>multisetToModify</code> was changed as a result of this operation
+    type: <xref href="boolean?alt=boolean&text=boolean" data-throw-if-not-resolved="False" />
+- uid: com.azure.cosmos.implementation.guava25.collect.Multisets.removeOccurrences(com.azure.cosmos.implementation.guava25.collect.Multiset<?>,java.lang.Iterable<?>)
+  fullName: com.azure.cosmos.implementation.guava25.collect.Multisets.removeOccurrences(Multiset<?> multisetToModify, Iterable<?> occurrencesToRemove)
+  name: removeOccurrences(Multiset<?> multisetToModify, Iterable<?> occurrencesToRemove)
+  nameWithType: Multisets.removeOccurrences(Multiset<?> multisetToModify, Iterable<?> occurrencesToRemove)
+  summary: |-
+    For each occurrence of an element <code>e</code> in <code>occurrencesToRemove</code>, removes one
+     occurrence of <code>e</code> in <code>multisetToModify</code>.
+
+     <p>Equivalently, this method modifies <code>multisetToModify</code> so that <code>
+     multisetToModify.count(e)</code> is set to <code>Math.max(0, multisetToModify.count(e) -
+     Iterables.frequency(occurrencesToRemove, e))</code>.
+
+     <p>This is <i>not</i> the same as <code>multisetToModify.</code> <xref uid="Multiset#removeAll" data-throw-if-not-resolved="false">removeAll</xref><code>(occurrencesToRemove)</code>, which removes all occurrences of elements that appear
+     in <code>occurrencesToRemove</code>. However, this operation <i>is</i> equivalent to, albeit
+     sometimes more efficient than, the following:
+
+     <pre><code>
+     for (E e : occurrencesToRemove) {
+       multisetToModify.remove(e);
+     }
+     </code></pre>
+  parameters:
+  - name: multisetToModify
+    type: <xref href="com.azure.cosmos.implementation.guava25.collect.Multiset?alt=com.azure.cosmos.implementation.guava25.collect.Multiset&text=Multiset" data-throw-if-not-resolved="False" />&lt;?&gt;
+  - name: occurrencesToRemove
+    type: <xref href="java.lang.Iterable?alt=java.lang.Iterable&text=Iterable" data-throw-if-not-resolved="False" />&lt;?&gt;
+  syntax: public static boolean removeOccurrences(Multiset<?> multisetToModify, Iterable<?> occurrencesToRemove)
+  returns:
+    description: <code>true</code> if <code>multisetToModify</code> was changed as a result of this operation
+    type: <xref href="boolean?alt=boolean&text=boolean" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.cosmos.implementation.guava25.collect
+artifact: com.azure:azure-cosmos:4.3.2-beta.2

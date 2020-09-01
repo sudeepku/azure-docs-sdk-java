@@ -1,0 +1,15 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.compute.fluent.inner.VirtualMachineScaleSetListOSUpgradeHistoryInner.VirtualMachineScaleSetListOSUpgradeHistoryInner*
+fullName: com.azure.resourcemanager.compute.fluent.inner.VirtualMachineScaleSetListOSUpgradeHistoryInner.VirtualMachineScaleSetListOSUpgradeHistoryInner
+name: VirtualMachineScaleSetListOSUpgradeHistoryInner
+nameWithType: VirtualMachineScaleSetListOSUpgradeHistoryInner.VirtualMachineScaleSetListOSUpgradeHistoryInner
+members:
+- uid: com.azure.resourcemanager.compute.fluent.inner.VirtualMachineScaleSetListOSUpgradeHistoryInner.VirtualMachineScaleSetListOSUpgradeHistoryInner()
+  fullName: com.azure.resourcemanager.compute.fluent.inner.VirtualMachineScaleSetListOSUpgradeHistoryInner.VirtualMachineScaleSetListOSUpgradeHistoryInner()
+  name: VirtualMachineScaleSetListOSUpgradeHistoryInner()
+  nameWithType: VirtualMachineScaleSetListOSUpgradeHistoryInner.VirtualMachineScaleSetListOSUpgradeHistoryInner()
+  syntax: public VirtualMachineScaleSetListOSUpgradeHistoryInner()
+type: constructor
+metadata: {}
+package: com.azure.resourcemanager.compute.fluent.inner
+artifact: com.azure.resourcemanager:azure-resourcemanager-compute:2.0.0-beta.2

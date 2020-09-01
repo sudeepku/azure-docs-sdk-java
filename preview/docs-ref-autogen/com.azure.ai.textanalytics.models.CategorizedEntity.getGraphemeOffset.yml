@@ -1,0 +1,19 @@
+### YamlMime:JavaMember
+uid: com.azure.ai.textanalytics.models.CategorizedEntity.getGraphemeOffset*
+fullName: com.azure.ai.textanalytics.models.CategorizedEntity.getGraphemeOffset
+name: getGraphemeOffset
+nameWithType: CategorizedEntity.getGraphemeOffset
+members:
+- uid: com.azure.ai.textanalytics.models.CategorizedEntity.getGraphemeOffset()
+  fullName: com.azure.ai.textanalytics.models.CategorizedEntity.getGraphemeOffset()
+  name: getGraphemeOffset()
+  nameWithType: CategorizedEntity.getGraphemeOffset()
+  summary: 'Get the offset property: Grapheme start position for the entity text.'
+  syntax: public int getGraphemeOffset()
+  returns:
+    description: The offset value.
+    type: <xref href="int?alt=int&text=int" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.ai.textanalytics.models
+artifact: com.azure:azure-ai-textanalytics:1.0.0-beta.4

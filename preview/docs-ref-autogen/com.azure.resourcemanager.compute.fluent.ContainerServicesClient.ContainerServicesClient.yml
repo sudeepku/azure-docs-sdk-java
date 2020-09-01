@@ -1,0 +1,20 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.compute.fluent.ContainerServicesClient.ContainerServicesClient*
+fullName: com.azure.resourcemanager.compute.fluent.ContainerServicesClient.ContainerServicesClient
+name: ContainerServicesClient
+nameWithType: ContainerServicesClient.ContainerServicesClient
+members:
+- uid: com.azure.resourcemanager.compute.fluent.ContainerServicesClient.ContainerServicesClient(com.azure.resourcemanager.compute.ComputeManagementClient)
+  fullName: com.azure.resourcemanager.compute.fluent.ContainerServicesClient.ContainerServicesClient(ComputeManagementClient client)
+  name: ContainerServicesClient(ComputeManagementClient client)
+  nameWithType: ContainerServicesClient.ContainerServicesClient(ComputeManagementClient client)
+  summary: Initializes an instance of ContainerServicesClient.
+  parameters:
+  - description: the instance of the service client containing this operation class.
+    name: client
+    type: <xref href="com.azure.resourcemanager.compute.ComputeManagementClient?alt=com.azure.resourcemanager.compute.ComputeManagementClient&text=ComputeManagementClient" data-throw-if-not-resolved="False" />
+  syntax: public ContainerServicesClient(ComputeManagementClient client)
+type: constructor
+metadata: {}
+package: com.azure.resourcemanager.compute.fluent
+artifact: com.azure.resourcemanager:azure-resourcemanager-compute:2.0.0-beta.2

@@ -1,0 +1,23 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.network.models.HubIpAddresses.withPublicIpAddresses*
+fullName: com.azure.resourcemanager.network.models.HubIpAddresses.withPublicIpAddresses
+name: withPublicIpAddresses
+nameWithType: HubIpAddresses.withPublicIpAddresses
+members:
+- uid: com.azure.resourcemanager.network.models.HubIpAddresses.withPublicIpAddresses(java.util.List<com.azure.resourcemanager.network.models.AzureFirewallPublicIpAddress>)
+  fullName: com.azure.resourcemanager.network.models.HubIpAddresses.withPublicIpAddresses(List<AzureFirewallPublicIpAddress> publicIpAddresses)
+  name: withPublicIpAddresses(List<AzureFirewallPublicIpAddress> publicIpAddresses)
+  nameWithType: HubIpAddresses.withPublicIpAddresses(List<AzureFirewallPublicIpAddress> publicIpAddresses)
+  summary: 'Set the publicIpAddresses property: List of Public IP addresses associated with azure firewall.'
+  parameters:
+  - description: the publicIpAddresses value to set.
+    name: publicIpAddresses
+    type: <xref href="java.util.List?alt=java.util.List&text=List" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.resourcemanager.network.models.AzureFirewallPublicIpAddress?alt=com.azure.resourcemanager.network.models.AzureFirewallPublicIpAddress&text=AzureFirewallPublicIpAddress" data-throw-if-not-resolved="False" />&gt;
+  syntax: public HubIpAddresses withPublicIpAddresses(List<AzureFirewallPublicIpAddress> publicIpAddresses)
+  returns:
+    description: the HubIpAddresses object itself.
+    type: <xref href="com.azure.resourcemanager.network.models.HubIpAddresses?alt=com.azure.resourcemanager.network.models.HubIpAddresses&text=HubIpAddresses" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.resourcemanager.network.models
+artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.0.0-beta.2

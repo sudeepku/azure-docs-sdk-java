@@ -1,0 +1,36 @@
+### YamlMime:JavaMember
+uid: com.azure.messaging.servicebus.ServiceBusManagementClient.createQueue*
+fullName: com.azure.messaging.servicebus.ServiceBusManagementClient.createQueue
+name: createQueue
+nameWithType: ServiceBusManagementClient.createQueue
+members:
+- uid: com.azure.messaging.servicebus.ServiceBusManagementClient.createQueue(com.azure.messaging.servicebus.models.CreateQueueOptions)
+  fullName: com.azure.messaging.servicebus.ServiceBusManagementClient.createQueue(CreateQueueOptions queueOptions)
+  name: createQueue(CreateQueueOptions queueOptions)
+  nameWithType: ServiceBusManagementClient.createQueue(CreateQueueOptions queueOptions)
+  summary: Creates a queue with the <xref uid="CreateQueueOptions" data-throw-if-not-resolved="false">CreateQueueOptions</xref>.
+  parameters:
+  - description: Information about the queue to create.
+    name: queueOptions
+    type: <xref href="com.azure.messaging.servicebus.models.CreateQueueOptions?alt=com.azure.messaging.servicebus.models.CreateQueueOptions&text=CreateQueueOptions" data-throw-if-not-resolved="False" />
+  syntax: public QueueProperties createQueue(CreateQueueOptions queueOptions)
+  returns:
+    description: The created queue.
+    type: <xref href="com.azure.messaging.servicebus.models.QueueProperties?alt=com.azure.messaging.servicebus.models.QueueProperties&text=QueueProperties" data-throw-if-not-resolved="False" />
+- uid: com.azure.messaging.servicebus.ServiceBusManagementClient.createQueue(java.lang.String)
+  fullName: com.azure.messaging.servicebus.ServiceBusManagementClient.createQueue(String queueName)
+  name: createQueue(String queueName)
+  nameWithType: ServiceBusManagementClient.createQueue(String queueName)
+  summary: Creates a queue with the given name.
+  parameters:
+  - description: Name of the queue to create.
+    name: queueName
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  syntax: public QueueProperties createQueue(String queueName)
+  returns:
+    description: The created queue.
+    type: <xref href="com.azure.messaging.servicebus.models.QueueProperties?alt=com.azure.messaging.servicebus.models.QueueProperties&text=QueueProperties" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.messaging.servicebus
+artifact: com.azure:azure-messaging-servicebus:7.0.0-beta.5

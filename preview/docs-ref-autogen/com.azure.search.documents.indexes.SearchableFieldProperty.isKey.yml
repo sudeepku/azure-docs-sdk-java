@@ -1,0 +1,19 @@
+### YamlMime:JavaMember
+uid: com.azure.search.documents.indexes.SearchableFieldProperty.isKey*
+fullName: com.azure.search.documents.indexes.SearchableFieldProperty.isKey
+name: isKey
+nameWithType: SearchableFieldProperty.isKey
+members:
+- uid: com.azure.search.documents.indexes.SearchableFieldProperty.isKey()
+  fullName: com.azure.search.documents.indexes.SearchableFieldProperty.isKey()
+  name: isKey()
+  nameWithType: SearchableFieldProperty.isKey()
+  summary: Optional arguments defines whether the field is a key field or not.
+  syntax: public abstract boolean isKey()
+  returns:
+    description: True if it is the key of SearchField, and false by default for non-key field.
+    type: <xref href="boolean?alt=boolean&text=boolean" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.search.documents.indexes
+artifact: com.azure:azure-search-documents:11.1.0-beta.1

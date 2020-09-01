@@ -1,0 +1,15 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.containerservice.fluent.inner.AgentPoolListResultInner.AgentPoolListResultInner*
+fullName: com.azure.resourcemanager.containerservice.fluent.inner.AgentPoolListResultInner.AgentPoolListResultInner
+name: AgentPoolListResultInner
+nameWithType: AgentPoolListResultInner.AgentPoolListResultInner
+members:
+- uid: com.azure.resourcemanager.containerservice.fluent.inner.AgentPoolListResultInner.AgentPoolListResultInner()
+  fullName: com.azure.resourcemanager.containerservice.fluent.inner.AgentPoolListResultInner.AgentPoolListResultInner()
+  name: AgentPoolListResultInner()
+  nameWithType: AgentPoolListResultInner.AgentPoolListResultInner()
+  syntax: public AgentPoolListResultInner()
+type: constructor
+metadata: {}
+package: com.azure.resourcemanager.containerservice.fluent.inner
+artifact: com.azure.resourcemanager:azure-resourcemanager-containerservice:2.0.0-beta.2

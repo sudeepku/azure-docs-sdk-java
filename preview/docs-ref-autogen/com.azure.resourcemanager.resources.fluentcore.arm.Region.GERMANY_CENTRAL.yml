@@ -1,0 +1,16 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.resources.fluentcore.arm.Region.GERMANY_CENTRAL
+fullName: com.azure.resourcemanager.resources.fluentcore.arm.Region.GERMANY_CENTRAL
+name: GERMANY_CENTRAL
+nameWithType: Region.GERMANY_CENTRAL
+members:
+- uid: com.azure.resourcemanager.resources.fluentcore.arm.Region.GERMANY_CENTRAL
+  fullName: com.azure.resourcemanager.resources.fluentcore.arm.Region.GERMANY_CENTRAL
+  name: GERMANY_CENTRAL
+  nameWithType: Region.GERMANY_CENTRAL
+  summary: Azure German Cloud
+  syntax: public static final Region GERMANY_CENTRAL
+type: field
+metadata: {}
+package: com.azure.resourcemanager.resources.fluentcore.arm
+artifact: com.azure.resourcemanager:azure-resourcemanager-resources:2.0.0-beta.2

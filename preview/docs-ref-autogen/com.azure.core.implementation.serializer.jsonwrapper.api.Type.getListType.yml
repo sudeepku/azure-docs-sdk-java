@@ -1,0 +1,19 @@
+### YamlMime:JavaMember
+uid: com.azure.core.implementation.serializer.jsonwrapper.api.Type.getListType*
+fullName: com.azure.core.implementation.serializer.jsonwrapper.api.Type<T>.getListType
+name: getListType
+nameWithType: Type<T>.getListType
+members:
+- uid: com.azure.core.implementation.serializer.jsonwrapper.api.Type.getListType()
+  fullName: com.azure.core.implementation.serializer.jsonwrapper.api.Type<T>.getListType()
+  name: getListType()
+  nameWithType: Type<T>.getListType()
+  summary: Get the type of the actual type of the Type object
+  syntax: public Type getListType()
+  returns:
+    description: ava.lang.reflect.Type
+    type: <xref href="java.lang.reflect.Type?alt=java.lang.reflect.Type&text=Type" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.core.implementation.serializer.jsonwrapper.api
+artifact: com.azure:azure-core:1.3.0-beta.1

@@ -1,0 +1,23 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.compute.fluent.inner.ProximityPlacementGroupListResultInner.withValue*
+fullName: com.azure.resourcemanager.compute.fluent.inner.ProximityPlacementGroupListResultInner.withValue
+name: withValue
+nameWithType: ProximityPlacementGroupListResultInner.withValue
+members:
+- uid: com.azure.resourcemanager.compute.fluent.inner.ProximityPlacementGroupListResultInner.withValue(java.util.List<com.azure.resourcemanager.compute.fluent.inner.ProximityPlacementGroupInner>)
+  fullName: com.azure.resourcemanager.compute.fluent.inner.ProximityPlacementGroupListResultInner.withValue(List<ProximityPlacementGroupInner> value)
+  name: withValue(List<ProximityPlacementGroupInner> value)
+  nameWithType: ProximityPlacementGroupListResultInner.withValue(List<ProximityPlacementGroupInner> value)
+  summary: 'Set the value property: The list of proximity placement groups.'
+  parameters:
+  - description: the value value to set.
+    name: value
+    type: <xref href="java.util.List?alt=java.util.List&text=List" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.resourcemanager.compute.fluent.inner.ProximityPlacementGroupInner?alt=com.azure.resourcemanager.compute.fluent.inner.ProximityPlacementGroupInner&text=ProximityPlacementGroupInner" data-throw-if-not-resolved="False" />&gt;
+  syntax: public ProximityPlacementGroupListResultInner withValue(List<ProximityPlacementGroupInner> value)
+  returns:
+    description: the ProximityPlacementGroupListResultInner object itself.
+    type: <xref href="com.azure.resourcemanager.compute.fluent.inner.ProximityPlacementGroupListResultInner?alt=com.azure.resourcemanager.compute.fluent.inner.ProximityPlacementGroupListResultInner&text=ProximityPlacementGroupListResultInner" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.resourcemanager.compute.fluent.inner
+artifact: com.azure.resourcemanager:azure-resourcemanager-compute:2.0.0-beta.2

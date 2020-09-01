@@ -1,0 +1,19 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.network.NetworkManagementClient.getP2SVpnServerConfigurations*
+fullName: com.azure.resourcemanager.network.NetworkManagementClient.getP2SVpnServerConfigurations
+name: getP2SVpnServerConfigurations
+nameWithType: NetworkManagementClient.getP2SVpnServerConfigurations
+members:
+- uid: com.azure.resourcemanager.network.NetworkManagementClient.getP2SVpnServerConfigurations()
+  fullName: com.azure.resourcemanager.network.NetworkManagementClient.getP2SVpnServerConfigurations()
+  name: getP2SVpnServerConfigurations()
+  nameWithType: NetworkManagementClient.getP2SVpnServerConfigurations()
+  summary: Gets the P2SVpnServerConfigurationsClient object to access its operations.
+  syntax: public P2SVpnServerConfigurationsClient getP2SVpnServerConfigurations()
+  returns:
+    description: the P2SVpnServerConfigurationsClient object.
+    type: <xref href="com.azure.resourcemanager.network.fluent.P2SVpnServerConfigurationsClient?alt=com.azure.resourcemanager.network.fluent.P2SVpnServerConfigurationsClient&text=P2SVpnServerConfigurationsClient" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.resourcemanager.network
+artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.0.0-beta.2

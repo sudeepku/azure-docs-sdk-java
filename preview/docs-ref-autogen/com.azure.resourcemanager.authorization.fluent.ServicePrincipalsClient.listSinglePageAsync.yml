@@ -1,0 +1,39 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.authorization.fluent.ServicePrincipalsClient.listSinglePageAsync*
+fullName: com.azure.resourcemanager.authorization.fluent.ServicePrincipalsClient.listSinglePageAsync
+name: listSinglePageAsync
+nameWithType: ServicePrincipalsClient.listSinglePageAsync
+members:
+- uid: com.azure.resourcemanager.authorization.fluent.ServicePrincipalsClient.listSinglePageAsync(java.lang.String)
+  fullName: com.azure.resourcemanager.authorization.fluent.ServicePrincipalsClient.listSinglePageAsync(String filter)
+  name: listSinglePageAsync(String filter)
+  nameWithType: ServicePrincipalsClient.listSinglePageAsync(String filter)
+  summary: Gets a list of service principals from the current tenant.
+  parameters:
+  - description: The filter to apply to the operation.
+    name: filter
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  syntax: public Mono<PagedResponse<ServicePrincipalInner>> listSinglePageAsync(String filter)
+  returns:
+    description: a list of service principals from the current tenant.
+    type: <xref href="reactor.core.publisher.Mono?alt=reactor.core.publisher.Mono&text=Mono" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.core.http.rest.PagedResponse?alt=com.azure.core.http.rest.PagedResponse&text=PagedResponse" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.resourcemanager.authorization.fluent.inner.ServicePrincipalInner?alt=com.azure.resourcemanager.authorization.fluent.inner.ServicePrincipalInner&text=ServicePrincipalInner" data-throw-if-not-resolved="False" />&gt;&gt;
+- uid: com.azure.resourcemanager.authorization.fluent.ServicePrincipalsClient.listSinglePageAsync(java.lang.String,com.azure.core.util.Context)
+  fullName: com.azure.resourcemanager.authorization.fluent.ServicePrincipalsClient.listSinglePageAsync(String filter, Context context)
+  name: listSinglePageAsync(String filter, Context context)
+  nameWithType: ServicePrincipalsClient.listSinglePageAsync(String filter, Context context)
+  summary: Gets a list of service principals from the current tenant.
+  parameters:
+  - description: The filter to apply to the operation.
+    name: filter
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  - description: The context to associate with this operation.
+    name: context
+    type: <xref href="com.azure.core.util.Context?alt=com.azure.core.util.Context&text=Context" data-throw-if-not-resolved="False" />
+  syntax: public Mono<PagedResponse<ServicePrincipalInner>> listSinglePageAsync(String filter, Context context)
+  returns:
+    description: a list of service principals from the current tenant.
+    type: <xref href="reactor.core.publisher.Mono?alt=reactor.core.publisher.Mono&text=Mono" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.core.http.rest.PagedResponse?alt=com.azure.core.http.rest.PagedResponse&text=PagedResponse" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.resourcemanager.authorization.fluent.inner.ServicePrincipalInner?alt=com.azure.resourcemanager.authorization.fluent.inner.ServicePrincipalInner&text=ServicePrincipalInner" data-throw-if-not-resolved="False" />&gt;&gt;
+type: method
+metadata: {}
+package: com.azure.resourcemanager.authorization.fluent
+artifact: com.azure.resourcemanager:azure-resourcemanager-authorization:2.0.0-beta.2

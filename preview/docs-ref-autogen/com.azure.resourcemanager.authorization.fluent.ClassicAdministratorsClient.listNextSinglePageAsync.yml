@@ -1,0 +1,39 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.authorization.fluent.ClassicAdministratorsClient.listNextSinglePageAsync*
+fullName: com.azure.resourcemanager.authorization.fluent.ClassicAdministratorsClient.listNextSinglePageAsync
+name: listNextSinglePageAsync
+nameWithType: ClassicAdministratorsClient.listNextSinglePageAsync
+members:
+- uid: com.azure.resourcemanager.authorization.fluent.ClassicAdministratorsClient.listNextSinglePageAsync(java.lang.String)
+  fullName: com.azure.resourcemanager.authorization.fluent.ClassicAdministratorsClient.listNextSinglePageAsync(String nextLink)
+  name: listNextSinglePageAsync(String nextLink)
+  nameWithType: ClassicAdministratorsClient.listNextSinglePageAsync(String nextLink)
+  summary: Get the next page of items.
+  parameters:
+  - description: The nextLink parameter.
+    name: nextLink
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  syntax: public Mono<PagedResponse<ClassicAdministratorInner>> listNextSinglePageAsync(String nextLink)
+  returns:
+    description: classicAdministrator list result information.
+    type: <xref href="reactor.core.publisher.Mono?alt=reactor.core.publisher.Mono&text=Mono" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.core.http.rest.PagedResponse?alt=com.azure.core.http.rest.PagedResponse&text=PagedResponse" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.resourcemanager.authorization.fluent.inner.ClassicAdministratorInner?alt=com.azure.resourcemanager.authorization.fluent.inner.ClassicAdministratorInner&text=ClassicAdministratorInner" data-throw-if-not-resolved="False" />&gt;&gt;
+- uid: com.azure.resourcemanager.authorization.fluent.ClassicAdministratorsClient.listNextSinglePageAsync(java.lang.String,com.azure.core.util.Context)
+  fullName: com.azure.resourcemanager.authorization.fluent.ClassicAdministratorsClient.listNextSinglePageAsync(String nextLink, Context context)
+  name: listNextSinglePageAsync(String nextLink, Context context)
+  nameWithType: ClassicAdministratorsClient.listNextSinglePageAsync(String nextLink, Context context)
+  summary: Get the next page of items.
+  parameters:
+  - description: The nextLink parameter.
+    name: nextLink
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  - description: The context to associate with this operation.
+    name: context
+    type: <xref href="com.azure.core.util.Context?alt=com.azure.core.util.Context&text=Context" data-throw-if-not-resolved="False" />
+  syntax: public Mono<PagedResponse<ClassicAdministratorInner>> listNextSinglePageAsync(String nextLink, Context context)
+  returns:
+    description: classicAdministrator list result information.
+    type: <xref href="reactor.core.publisher.Mono?alt=reactor.core.publisher.Mono&text=Mono" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.core.http.rest.PagedResponse?alt=com.azure.core.http.rest.PagedResponse&text=PagedResponse" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.resourcemanager.authorization.fluent.inner.ClassicAdministratorInner?alt=com.azure.resourcemanager.authorization.fluent.inner.ClassicAdministratorInner&text=ClassicAdministratorInner" data-throw-if-not-resolved="False" />&gt;&gt;
+type: method
+metadata: {}
+package: com.azure.resourcemanager.authorization.fluent
+artifact: com.azure.resourcemanager:azure-resourcemanager-authorization:2.0.0-beta.2

@@ -1,0 +1,15 @@
+### YamlMime:JavaMember
+uid: com.azure.data.schemaregistry.AbstractDataSerDe.SCHEMA_ID_SIZE
+fullName: com.azure.data.schemaregistry.AbstractDataSerDe.SCHEMA_ID_SIZE
+name: SCHEMA_ID_SIZE
+nameWithType: AbstractDataSerDe.SCHEMA_ID_SIZE
+members:
+- uid: com.azure.data.schemaregistry.AbstractDataSerDe.SCHEMA_ID_SIZE
+  fullName: com.azure.data.schemaregistry.AbstractDataSerDe.SCHEMA_ID_SIZE
+  name: SCHEMA_ID_SIZE
+  nameWithType: AbstractDataSerDe.SCHEMA_ID_SIZE
+  syntax: public static final int SCHEMA_ID_SIZE
+type: field
+metadata: {}
+package: com.azure.data.schemaregistry
+artifact: com.azure:azure-data-schemaregistry:1.0.0-beta.1

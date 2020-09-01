@@ -1,0 +1,19 @@
+### YamlMime:JavaMember
+uid: com.azure.cosmos.implementation.apachecommons.collections.map.EntrySetToMapIteratorAdapter.remove*
+fullName: com.azure.cosmos.implementation.apachecommons.collections.map.EntrySetToMapIteratorAdapter<K,V>.remove
+name: remove
+nameWithType: EntrySetToMapIteratorAdapter<K,V>.remove
+members:
+- uid: com.azure.cosmos.implementation.apachecommons.collections.map.EntrySetToMapIteratorAdapter.remove()
+  fullName: com.azure.cosmos.implementation.apachecommons.collections.map.EntrySetToMapIteratorAdapter<K,V>.remove()
+  name: remove()
+  nameWithType: EntrySetToMapIteratorAdapter<K,V>.remove()
+  summary: |-
+    Removes the last returned key from the underlying <code>Map</code> (optional operation).
+     <p>
+     This method can be called once per call to <code>next()</code>.
+  syntax: public void remove()
+type: method
+metadata: {}
+package: com.azure.cosmos.implementation.apachecommons.collections.map
+artifact: com.azure:azure-cosmos:4.3.2-beta.2

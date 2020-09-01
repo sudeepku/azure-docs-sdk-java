@@ -1,0 +1,23 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.resources.fluentcore.utils.PagedConverter.convertListToPagedFlux*
+fullName: com.azure.resourcemanager.resources.fluentcore.utils.PagedConverter.<T>convertListToPagedFlux
+name: <T>convertListToPagedFlux
+nameWithType: PagedConverter.<T>convertListToPagedFlux
+members:
+- uid: com.azure.resourcemanager.resources.fluentcore.utils.PagedConverter.<T>convertListToPagedFlux(reactor.core.publisher.Mono<java.util.List<T>>)
+  fullName: com.azure.resourcemanager.resources.fluentcore.utils.PagedConverter.<T>convertListToPagedFlux(Mono<List<T>> list)
+  name: <T>convertListToPagedFlux(Mono<List<T>> list)
+  nameWithType: PagedConverter.<T>convertListToPagedFlux(Mono<List<T>> list)
+  summary: Converts list to PagedFlux.
+  parameters:
+  - description: the list to convert.
+    name: list
+    type: <xref href="reactor.core.publisher.Mono?alt=reactor.core.publisher.Mono&text=Mono" data-throw-if-not-resolved="False" />&lt;<xref href="java.util.List?alt=java.util.List&text=List" data-throw-if-not-resolved="False" />&lt;<xref href="T?alt=T&text=T" data-throw-if-not-resolved="False" />&gt;&gt;
+  syntax: public static PagedFlux<T> <T>convertListToPagedFlux(Mono<List<T>> list)
+  returns:
+    description: the PagedFlux.
+    type: <xref href="com.azure.core.http.rest.PagedFlux?alt=com.azure.core.http.rest.PagedFlux&text=PagedFlux" data-throw-if-not-resolved="False" />&lt;<xref href="T?alt=T&text=T" data-throw-if-not-resolved="False" />&gt;
+type: method
+metadata: {}
+package: com.azure.resourcemanager.resources.fluentcore.utils
+artifact: com.azure.resourcemanager:azure-resourcemanager-resources:2.0.0-beta.2

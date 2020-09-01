@@ -1,0 +1,45 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.network.fluent.SubnetsClient.listSinglePageAsync*
+fullName: com.azure.resourcemanager.network.fluent.SubnetsClient.listSinglePageAsync
+name: listSinglePageAsync
+nameWithType: SubnetsClient.listSinglePageAsync
+members:
+- uid: com.azure.resourcemanager.network.fluent.SubnetsClient.listSinglePageAsync(java.lang.String,java.lang.String)
+  fullName: com.azure.resourcemanager.network.fluent.SubnetsClient.listSinglePageAsync(String resourceGroupName, String virtualNetworkName)
+  name: listSinglePageAsync(String resourceGroupName, String virtualNetworkName)
+  nameWithType: SubnetsClient.listSinglePageAsync(String resourceGroupName, String virtualNetworkName)
+  summary: Gets all subnets in a virtual network.
+  parameters:
+  - description: The name of the resource group.
+    name: resourceGroupName
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  - description: The name of the virtual network.
+    name: virtualNetworkName
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  syntax: public Mono<PagedResponse<SubnetInner>> listSinglePageAsync(String resourceGroupName, String virtualNetworkName)
+  returns:
+    description: all subnets in a virtual network.
+    type: <xref href="reactor.core.publisher.Mono?alt=reactor.core.publisher.Mono&text=Mono" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.core.http.rest.PagedResponse?alt=com.azure.core.http.rest.PagedResponse&text=PagedResponse" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.resourcemanager.network.fluent.inner.SubnetInner?alt=com.azure.resourcemanager.network.fluent.inner.SubnetInner&text=SubnetInner" data-throw-if-not-resolved="False" />&gt;&gt;
+- uid: com.azure.resourcemanager.network.fluent.SubnetsClient.listSinglePageAsync(java.lang.String,java.lang.String,com.azure.core.util.Context)
+  fullName: com.azure.resourcemanager.network.fluent.SubnetsClient.listSinglePageAsync(String resourceGroupName, String virtualNetworkName, Context context)
+  name: listSinglePageAsync(String resourceGroupName, String virtualNetworkName, Context context)
+  nameWithType: SubnetsClient.listSinglePageAsync(String resourceGroupName, String virtualNetworkName, Context context)
+  summary: Gets all subnets in a virtual network.
+  parameters:
+  - description: The name of the resource group.
+    name: resourceGroupName
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  - description: The name of the virtual network.
+    name: virtualNetworkName
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  - description: The context to associate with this operation.
+    name: context
+    type: <xref href="com.azure.core.util.Context?alt=com.azure.core.util.Context&text=Context" data-throw-if-not-resolved="False" />
+  syntax: public Mono<PagedResponse<SubnetInner>> listSinglePageAsync(String resourceGroupName, String virtualNetworkName, Context context)
+  returns:
+    description: all subnets in a virtual network.
+    type: <xref href="reactor.core.publisher.Mono?alt=reactor.core.publisher.Mono&text=Mono" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.core.http.rest.PagedResponse?alt=com.azure.core.http.rest.PagedResponse&text=PagedResponse" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.resourcemanager.network.fluent.inner.SubnetInner?alt=com.azure.resourcemanager.network.fluent.inner.SubnetInner&text=SubnetInner" data-throw-if-not-resolved="False" />&gt;&gt;
+type: method
+metadata: {}
+package: com.azure.resourcemanager.network.fluent
+artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.0.0-beta.2

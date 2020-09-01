@@ -1,0 +1,51 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.cosmos.fluent.DatabaseAccountsClient.beginFailoverPriorityChangeWithoutPolling*
+fullName: com.azure.resourcemanager.cosmos.fluent.DatabaseAccountsClient.beginFailoverPriorityChangeWithoutPolling
+name: beginFailoverPriorityChangeWithoutPolling
+nameWithType: DatabaseAccountsClient.beginFailoverPriorityChangeWithoutPolling
+members:
+- uid: com.azure.resourcemanager.cosmos.fluent.DatabaseAccountsClient.beginFailoverPriorityChangeWithoutPolling(java.lang.String,java.lang.String,java.util.List<com.azure.resourcemanager.cosmos.models.FailoverPolicy>)
+  fullName: com.azure.resourcemanager.cosmos.fluent.DatabaseAccountsClient.beginFailoverPriorityChangeWithoutPolling(String resourceGroupName, String accountName, List<FailoverPolicy> failoverPolicies)
+  name: beginFailoverPriorityChangeWithoutPolling(String resourceGroupName, String accountName, List<FailoverPolicy> failoverPolicies)
+  nameWithType: DatabaseAccountsClient.beginFailoverPriorityChangeWithoutPolling(String resourceGroupName, String accountName, List<FailoverPolicy> failoverPolicies)
+  summary: |-
+    Changes the failover priority for the Azure Cosmos DB database account. A failover priority of 0 indicates a
+     write region. The maximum value for a failover priority = (total number of regions - 1). Failover priority values
+     must be unique for each of the regions in which the database account exists.
+  parameters:
+  - description: Name of an Azure resource group.
+    name: resourceGroupName
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  - description: Cosmos DB database account name.
+    name: accountName
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  - description: List of failover policies.
+    name: failoverPolicies
+    type: <xref href="java.util.List?alt=java.util.List&text=List" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.resourcemanager.cosmos.models.FailoverPolicy?alt=com.azure.resourcemanager.cosmos.models.FailoverPolicy&text=FailoverPolicy" data-throw-if-not-resolved="False" />&gt;
+  syntax: public void beginFailoverPriorityChangeWithoutPolling(String resourceGroupName, String accountName, List<FailoverPolicy> failoverPolicies)
+- uid: com.azure.resourcemanager.cosmos.fluent.DatabaseAccountsClient.beginFailoverPriorityChangeWithoutPolling(java.lang.String,java.lang.String,java.util.List<com.azure.resourcemanager.cosmos.models.FailoverPolicy>,com.azure.core.util.Context)
+  fullName: com.azure.resourcemanager.cosmos.fluent.DatabaseAccountsClient.beginFailoverPriorityChangeWithoutPolling(String resourceGroupName, String accountName, List<FailoverPolicy> failoverPolicies, Context context)
+  name: beginFailoverPriorityChangeWithoutPolling(String resourceGroupName, String accountName, List<FailoverPolicy> failoverPolicies, Context context)
+  nameWithType: DatabaseAccountsClient.beginFailoverPriorityChangeWithoutPolling(String resourceGroupName, String accountName, List<FailoverPolicy> failoverPolicies, Context context)
+  summary: |-
+    Changes the failover priority for the Azure Cosmos DB database account. A failover priority of 0 indicates a
+     write region. The maximum value for a failover priority = (total number of regions - 1). Failover priority values
+     must be unique for each of the regions in which the database account exists.
+  parameters:
+  - description: Name of an Azure resource group.
+    name: resourceGroupName
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  - description: Cosmos DB database account name.
+    name: accountName
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  - description: List of failover policies.
+    name: failoverPolicies
+    type: <xref href="java.util.List?alt=java.util.List&text=List" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.resourcemanager.cosmos.models.FailoverPolicy?alt=com.azure.resourcemanager.cosmos.models.FailoverPolicy&text=FailoverPolicy" data-throw-if-not-resolved="False" />&gt;
+  - description: The context to associate with this operation.
+    name: context
+    type: <xref href="com.azure.core.util.Context?alt=com.azure.core.util.Context&text=Context" data-throw-if-not-resolved="False" />
+  syntax: public void beginFailoverPriorityChangeWithoutPolling(String resourceGroupName, String accountName, List<FailoverPolicy> failoverPolicies, Context context)
+type: method
+metadata: {}
+package: com.azure.resourcemanager.cosmos.fluent
+artifact: com.azure.resourcemanager:azure-resourcemanager-cosmos:2.0.0-beta.2

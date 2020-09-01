@@ -1,0 +1,20 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.sql.fluent.ServerAutomaticTuningsClient.ServerAutomaticTuningsClient*
+fullName: com.azure.resourcemanager.sql.fluent.ServerAutomaticTuningsClient.ServerAutomaticTuningsClient
+name: ServerAutomaticTuningsClient
+nameWithType: ServerAutomaticTuningsClient.ServerAutomaticTuningsClient
+members:
+- uid: com.azure.resourcemanager.sql.fluent.ServerAutomaticTuningsClient.ServerAutomaticTuningsClient(com.azure.resourcemanager.sql.SqlManagementClient)
+  fullName: com.azure.resourcemanager.sql.fluent.ServerAutomaticTuningsClient.ServerAutomaticTuningsClient(SqlManagementClient client)
+  name: ServerAutomaticTuningsClient(SqlManagementClient client)
+  nameWithType: ServerAutomaticTuningsClient.ServerAutomaticTuningsClient(SqlManagementClient client)
+  summary: Initializes an instance of ServerAutomaticTuningsClient.
+  parameters:
+  - description: the instance of the service client containing this operation class.
+    name: client
+    type: <xref href="com.azure.resourcemanager.sql.SqlManagementClient?alt=com.azure.resourcemanager.sql.SqlManagementClient&text=SqlManagementClient" data-throw-if-not-resolved="False" />
+  syntax: public ServerAutomaticTuningsClient(SqlManagementClient client)
+type: constructor
+metadata: {}
+package: com.azure.resourcemanager.sql.fluent
+artifact: com.azure.resourcemanager:azure-resourcemanager-sql:2.0.0-beta.2

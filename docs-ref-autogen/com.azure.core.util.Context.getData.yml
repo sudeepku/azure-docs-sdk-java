@@ -1,0 +1,23 @@
+### YamlMime:JavaMember
+uid: com.azure.core.util.Context.getData*
+fullName: com.azure.core.util.Context.getData
+name: getData
+nameWithType: Context.getData
+members:
+- uid: com.azure.core.util.Context.getData(java.lang.Object)
+  fullName: com.azure.core.util.Context.getData(Object key)
+  name: getData(Object key)
+  nameWithType: Context.getData(Object key)
+  summary: "Scans the linked-list of <xref uid=\"Context\" data-throw-if-not-resolved=\"false\">Context</xref> objects looking for one with the specified key.\n Note that the first key found, i.e. the most recently added, will be returned.\n\n <p><strong>Code samples</strong></p>\n\n <pre>\n final String key1 = &quot;Key1&quot;;\n final String value1 = &quot;first-value&quot;;\n \n &#47;&#47; Create a context object with given key and value\n Context context = new Context&#40;key1, value1&#41;;\n \n &#47;&#47; Look for the specified key in the returned context object\n Optional&lt;Object&gt; optionalObject = context.getData&#40;key1&#41;;\n if &#40;optionalObject.isPresent&#40;&#41;&#41; &#123;\n     System.out.printf&#40;&quot;Key1 value: %s%n&quot;, optionalObject.get&#40;&#41;&#41;;\n &#125; else &#123;\n     System.out.println&#40;&quot;Key1 does not exist or have data.&quot;&#41;;\n &#125;\n </pre>"
+  parameters:
+  - description: The key to search for.
+    name: key
+    type: <xref href="java.lang.Object?alt=java.lang.Object&text=Object" data-throw-if-not-resolved="False" />
+  syntax: public Optional<Object> getData(Object key)
+  returns:
+    description: The value of the specified key if it exists.
+    type: <xref href="java.util.Optional?alt=java.util.Optional&text=Optional" data-throw-if-not-resolved="False" />&lt;<xref href="java.lang.Object?alt=java.lang.Object&text=Object" data-throw-if-not-resolved="False" />&gt;
+type: method
+metadata: {}
+package: com.azure.core.util
+artifact: com.azure:azure-core:1.7.0

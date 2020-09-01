@@ -1,0 +1,19 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.sql.fluent.inner.SyncGroupInner.usePrivateLinkConnection*
+fullName: com.azure.resourcemanager.sql.fluent.inner.SyncGroupInner.usePrivateLinkConnection
+name: usePrivateLinkConnection
+nameWithType: SyncGroupInner.usePrivateLinkConnection
+members:
+- uid: com.azure.resourcemanager.sql.fluent.inner.SyncGroupInner.usePrivateLinkConnection()
+  fullName: com.azure.resourcemanager.sql.fluent.inner.SyncGroupInner.usePrivateLinkConnection()
+  name: usePrivateLinkConnection()
+  nameWithType: SyncGroupInner.usePrivateLinkConnection()
+  summary: 'Get the usePrivateLinkConnection property: If use private link connection is enabled.'
+  syntax: public Boolean usePrivateLinkConnection()
+  returns:
+    description: the usePrivateLinkConnection value.
+    type: <xref href="java.lang.Boolean?alt=java.lang.Boolean&text=Boolean" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.resourcemanager.sql.fluent.inner
+artifact: com.azure.resourcemanager:azure-resourcemanager-sql:2.0.0-beta.2

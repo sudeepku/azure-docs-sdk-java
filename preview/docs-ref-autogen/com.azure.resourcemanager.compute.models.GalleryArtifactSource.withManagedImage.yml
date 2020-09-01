@@ -1,0 +1,23 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.compute.models.GalleryArtifactSource.withManagedImage*
+fullName: com.azure.resourcemanager.compute.models.GalleryArtifactSource.withManagedImage
+name: withManagedImage
+nameWithType: GalleryArtifactSource.withManagedImage
+members:
+- uid: com.azure.resourcemanager.compute.models.GalleryArtifactSource.withManagedImage(com.azure.resourcemanager.compute.models.ManagedArtifact)
+  fullName: com.azure.resourcemanager.compute.models.GalleryArtifactSource.withManagedImage(ManagedArtifact managedImage)
+  name: withManagedImage(ManagedArtifact managedImage)
+  nameWithType: GalleryArtifactSource.withManagedImage(ManagedArtifact managedImage)
+  summary: 'Set the managedImage property: The managed artifact.'
+  parameters:
+  - description: the managedImage value to set.
+    name: managedImage
+    type: <xref href="com.azure.resourcemanager.compute.models.ManagedArtifact?alt=com.azure.resourcemanager.compute.models.ManagedArtifact&text=ManagedArtifact" data-throw-if-not-resolved="False" />
+  syntax: public GalleryArtifactSource withManagedImage(ManagedArtifact managedImage)
+  returns:
+    description: the GalleryArtifactSource object itself.
+    type: <xref href="com.azure.resourcemanager.compute.models.GalleryArtifactSource?alt=com.azure.resourcemanager.compute.models.GalleryArtifactSource&text=GalleryArtifactSource" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.resourcemanager.compute.models
+artifact: com.azure.resourcemanager:azure-resourcemanager-compute:2.0.0-beta.2

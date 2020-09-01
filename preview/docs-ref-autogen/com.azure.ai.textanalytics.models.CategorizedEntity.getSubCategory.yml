@@ -1,0 +1,19 @@
+### YamlMime:JavaMember
+uid: com.azure.ai.textanalytics.models.CategorizedEntity.getSubCategory*
+fullName: com.azure.ai.textanalytics.models.CategorizedEntity.getSubCategory
+name: getSubCategory
+nameWithType: CategorizedEntity.getSubCategory
+members:
+- uid: com.azure.ai.textanalytics.models.CategorizedEntity.getSubCategory()
+  fullName: com.azure.ai.textanalytics.models.CategorizedEntity.getSubCategory()
+  name: getSubCategory()
+  nameWithType: CategorizedEntity.getSubCategory()
+  summary: 'Get the subcategory property: Categorized entity sub category, such as Age/Year/TimeRange etc.'
+  syntax: public String getSubCategory()
+  returns:
+    description: The subcategory value.
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.ai.textanalytics.models
+artifact: com.azure:azure-ai-textanalytics:1.0.0-beta.4

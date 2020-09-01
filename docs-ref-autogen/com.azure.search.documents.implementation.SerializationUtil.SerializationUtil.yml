@@ -1,0 +1,15 @@
+### YamlMime:JavaMember
+uid: com.azure.search.documents.implementation.SerializationUtil.SerializationUtil*
+fullName: com.azure.search.documents.implementation.SerializationUtil.SerializationUtil
+name: SerializationUtil
+nameWithType: SerializationUtil.SerializationUtil
+members:
+- uid: com.azure.search.documents.implementation.SerializationUtil.SerializationUtil()
+  fullName: com.azure.search.documents.implementation.SerializationUtil.SerializationUtil()
+  name: SerializationUtil()
+  nameWithType: SerializationUtil.SerializationUtil()
+  syntax: public SerializationUtil()
+type: constructor
+metadata: {}
+package: com.azure.search.documents.implementation
+artifact: com.azure:azure-search-documents:11.0.0

@@ -1,0 +1,32 @@
+### YamlMime:JavaMember
+nameWithType: Jobs.build
+type: method
+members:
+- fullName: com.microsoft.azure.management.datalake.analytics.Jobs.build(String accountName, BuildJobParameters parameters)
+  name: build(String accountName, BuildJobParameters parameters)
+  nameWithType: Jobs.build(String accountName, BuildJobParameters parameters)
+  parameters:
+  - description: <p>The Azure Data Lake Analytics account to execute job operations on. </p>
+    name: accountName
+    type: <xref href="String?alt=String&text=String" data-throw-if-not-resolved="False"/>
+  - description: <p>The parameters to build a job. </p>
+    name: parameters
+    type: <xref href="com.microsoft.azure.management.datalake.analytics.models.BuildJobParameters?alt=com.microsoft.azure.management.datalake.analytics.models.BuildJobParameters&text=BuildJobParameters" data-throw-if-not-resolved="False"/>
+  exceptions:
+  - name: 3c87bd19
+  - name: dc385fd4
+  - name: 9b2a4515
+  returns:
+    description: <p>the JobInformation object if successful. </p>
+    type: <xref href="com.microsoft.azure.management.datalake.analytics.models.JobInformation?alt=com.microsoft.azure.management.datalake.analytics.models.JobInformation&text=JobInformation" data-throw-if-not-resolved="False"/>
+  summary: >-
+    <p>Builds (compiles) the specified job in the specified Data Lake Analytics account for job correctness and validation.</p>
+
+    <p></p>
+  syntax: public JobInformation build(String accountName, BuildJobParameters parameters)
+  uid: com.microsoft.azure.management.datalake.analytics.Jobs.build(String,BuildJobParameters)
+uid: com.microsoft.azure.management.datalake.analytics.Jobs.build*
+fullName: com.microsoft.azure.management.datalake.analytics.Jobs.build(String accountName, BuildJobParameters parameters)
+name: build(String accountName, BuildJobParameters parameters)
+package: com.microsoft.azure.management.datalake.analytics
+metadata: {}

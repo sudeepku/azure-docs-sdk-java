@@ -1,0 +1,30 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.resources.fluentcore.utils.PagedList.add*
+fullName: com.azure.resourcemanager.resources.fluentcore.utils.PagedList<E>.add
+name: add
+nameWithType: PagedList<E>.add
+members:
+- uid: com.azure.resourcemanager.resources.fluentcore.utils.PagedList.add(E)
+  fullName: com.azure.resourcemanager.resources.fluentcore.utils.PagedList<E>.add(E e)
+  name: add(E e)
+  nameWithType: PagedList<E>.add(E e)
+  parameters:
+  - name: e
+    type: <xref href="E?alt=E&text=E" data-throw-if-not-resolved="False" />
+  syntax: public boolean add(E e)
+  returns:
+    type: <xref href="boolean?alt=boolean&text=boolean" data-throw-if-not-resolved="False" />
+- uid: com.azure.resourcemanager.resources.fluentcore.utils.PagedList.add(int,E)
+  fullName: com.azure.resourcemanager.resources.fluentcore.utils.PagedList<E>.add(int index, E element)
+  name: add(int index, E element)
+  nameWithType: PagedList<E>.add(int index, E element)
+  parameters:
+  - name: index
+    type: <xref href="int?alt=int&text=int" data-throw-if-not-resolved="False" />
+  - name: element
+    type: <xref href="E?alt=E&text=E" data-throw-if-not-resolved="False" />
+  syntax: public void add(int index, E element)
+type: method
+metadata: {}
+package: com.azure.resourcemanager.resources.fluentcore.utils
+artifact: com.azure.resourcemanager:azure-resourcemanager-resources:2.0.0-beta.2

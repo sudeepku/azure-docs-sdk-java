@@ -1,0 +1,71 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.network.fluent.VirtualNetworkGatewaysClient.beginResetWithoutPollingAsync*
+fullName: com.azure.resourcemanager.network.fluent.VirtualNetworkGatewaysClient.beginResetWithoutPollingAsync
+name: beginResetWithoutPollingAsync
+nameWithType: VirtualNetworkGatewaysClient.beginResetWithoutPollingAsync
+members:
+- uid: com.azure.resourcemanager.network.fluent.VirtualNetworkGatewaysClient.beginResetWithoutPollingAsync(java.lang.String,java.lang.String)
+  fullName: com.azure.resourcemanager.network.fluent.VirtualNetworkGatewaysClient.beginResetWithoutPollingAsync(String resourceGroupName, String virtualNetworkGatewayName)
+  name: beginResetWithoutPollingAsync(String resourceGroupName, String virtualNetworkGatewayName)
+  nameWithType: VirtualNetworkGatewaysClient.beginResetWithoutPollingAsync(String resourceGroupName, String virtualNetworkGatewayName)
+  summary: Resets the primary of the virtual network gateway in the specified resource group.
+  parameters:
+  - description: The name of the resource group.
+    name: resourceGroupName
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  - description: The name of the virtual network gateway.
+    name: virtualNetworkGatewayName
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  syntax: public Mono<VirtualNetworkGatewayInner> beginResetWithoutPollingAsync(String resourceGroupName, String virtualNetworkGatewayName)
+  returns:
+    description: a common class for general resource information.
+    type: <xref href="reactor.core.publisher.Mono?alt=reactor.core.publisher.Mono&text=Mono" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.resourcemanager.network.fluent.inner.VirtualNetworkGatewayInner?alt=com.azure.resourcemanager.network.fluent.inner.VirtualNetworkGatewayInner&text=VirtualNetworkGatewayInner" data-throw-if-not-resolved="False" />&gt;
+- uid: com.azure.resourcemanager.network.fluent.VirtualNetworkGatewaysClient.beginResetWithoutPollingAsync(java.lang.String,java.lang.String,java.lang.String)
+  fullName: com.azure.resourcemanager.network.fluent.VirtualNetworkGatewaysClient.beginResetWithoutPollingAsync(String resourceGroupName, String virtualNetworkGatewayName, String gatewayVip)
+  name: beginResetWithoutPollingAsync(String resourceGroupName, String virtualNetworkGatewayName, String gatewayVip)
+  nameWithType: VirtualNetworkGatewaysClient.beginResetWithoutPollingAsync(String resourceGroupName, String virtualNetworkGatewayName, String gatewayVip)
+  summary: Resets the primary of the virtual network gateway in the specified resource group.
+  parameters:
+  - description: The name of the resource group.
+    name: resourceGroupName
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  - description: The name of the virtual network gateway.
+    name: virtualNetworkGatewayName
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  - description: |-
+      Virtual network gateway vip address supplied to the begin reset of the active-active feature
+           enabled gateway.
+    name: gatewayVip
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  syntax: public Mono<VirtualNetworkGatewayInner> beginResetWithoutPollingAsync(String resourceGroupName, String virtualNetworkGatewayName, String gatewayVip)
+  returns:
+    description: a common class for general resource information.
+    type: <xref href="reactor.core.publisher.Mono?alt=reactor.core.publisher.Mono&text=Mono" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.resourcemanager.network.fluent.inner.VirtualNetworkGatewayInner?alt=com.azure.resourcemanager.network.fluent.inner.VirtualNetworkGatewayInner&text=VirtualNetworkGatewayInner" data-throw-if-not-resolved="False" />&gt;
+- uid: com.azure.resourcemanager.network.fluent.VirtualNetworkGatewaysClient.beginResetWithoutPollingAsync(java.lang.String,java.lang.String,java.lang.String,com.azure.core.util.Context)
+  fullName: com.azure.resourcemanager.network.fluent.VirtualNetworkGatewaysClient.beginResetWithoutPollingAsync(String resourceGroupName, String virtualNetworkGatewayName, String gatewayVip, Context context)
+  name: beginResetWithoutPollingAsync(String resourceGroupName, String virtualNetworkGatewayName, String gatewayVip, Context context)
+  nameWithType: VirtualNetworkGatewaysClient.beginResetWithoutPollingAsync(String resourceGroupName, String virtualNetworkGatewayName, String gatewayVip, Context context)
+  summary: Resets the primary of the virtual network gateway in the specified resource group.
+  parameters:
+  - description: The name of the resource group.
+    name: resourceGroupName
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  - description: The name of the virtual network gateway.
+    name: virtualNetworkGatewayName
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  - description: |-
+      Virtual network gateway vip address supplied to the begin reset of the active-active feature
+           enabled gateway.
+    name: gatewayVip
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  - description: The context to associate with this operation.
+    name: context
+    type: <xref href="com.azure.core.util.Context?alt=com.azure.core.util.Context&text=Context" data-throw-if-not-resolved="False" />
+  syntax: public Mono<VirtualNetworkGatewayInner> beginResetWithoutPollingAsync(String resourceGroupName, String virtualNetworkGatewayName, String gatewayVip, Context context)
+  returns:
+    description: a common class for general resource information.
+    type: <xref href="reactor.core.publisher.Mono?alt=reactor.core.publisher.Mono&text=Mono" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.resourcemanager.network.fluent.inner.VirtualNetworkGatewayInner?alt=com.azure.resourcemanager.network.fluent.inner.VirtualNetworkGatewayInner&text=VirtualNetworkGatewayInner" data-throw-if-not-resolved="False" />&gt;
+type: method
+metadata: {}
+package: com.azure.resourcemanager.network.fluent
+artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.0.0-beta.2

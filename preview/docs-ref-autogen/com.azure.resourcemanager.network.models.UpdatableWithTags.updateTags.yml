@@ -1,0 +1,23 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.network.models.UpdatableWithTags.updateTags*
+fullName: com.azure.resourcemanager.network.models.UpdatableWithTags<T>.updateTags
+name: updateTags
+nameWithType: UpdatableWithTags<T>.updateTags
+members:
+- uid: com.azure.resourcemanager.network.models.UpdatableWithTags.updateTags()
+  fullName: com.azure.resourcemanager.network.models.UpdatableWithTags<T>.updateTags()
+  name: updateTags()
+  nameWithType: UpdatableWithTags<T>.updateTags()
+  summary: |-
+    Begins a tags update for a resource.
+
+     <p>This is the beginning of the builder pattern used to update tags for a resources in Azure. The final method
+     completing the definition and starting the actual resource update process in Azure is <xref uid="AppliableWithTags#applyTags()" data-throw-if-not-resolved="false">AppliableWithTags#applyTags()</xref>.
+  syntax: public abstract UpdatableWithTags.UpdateWithTags<T> updateTags()
+  returns:
+    description: the stage of new resource update
+    type: <xref href="com.azure.resourcemanager.network.models.UpdatableWithTags.UpdateWithTags?alt=com.azure.resourcemanager.network.models.UpdatableWithTags.UpdateWithTags&text=UpdateWithTags" data-throw-if-not-resolved="False" />&lt;<xref href="T?alt=T&text=T" data-throw-if-not-resolved="False" />&gt;
+type: method
+metadata: {}
+package: com.azure.resourcemanager.network.models
+artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.0.0-beta.2

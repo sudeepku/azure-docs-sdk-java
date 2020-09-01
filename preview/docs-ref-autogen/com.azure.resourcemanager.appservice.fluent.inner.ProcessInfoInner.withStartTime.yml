@@ -1,0 +1,23 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.appservice.fluent.inner.ProcessInfoInner.withStartTime*
+fullName: com.azure.resourcemanager.appservice.fluent.inner.ProcessInfoInner.withStartTime
+name: withStartTime
+nameWithType: ProcessInfoInner.withStartTime
+members:
+- uid: com.azure.resourcemanager.appservice.fluent.inner.ProcessInfoInner.withStartTime(java.time.OffsetDateTime)
+  fullName: com.azure.resourcemanager.appservice.fluent.inner.ProcessInfoInner.withStartTime(OffsetDateTime startTime)
+  name: withStartTime(OffsetDateTime startTime)
+  nameWithType: ProcessInfoInner.withStartTime(OffsetDateTime startTime)
+  summary: 'Set the startTime property: Start time.'
+  parameters:
+  - description: the startTime value to set.
+    name: startTime
+    type: <xref href="java.time.OffsetDateTime?alt=java.time.OffsetDateTime&text=OffsetDateTime" data-throw-if-not-resolved="False" />
+  syntax: public ProcessInfoInner withStartTime(OffsetDateTime startTime)
+  returns:
+    description: the ProcessInfoInner object itself.
+    type: <xref href="com.azure.resourcemanager.appservice.fluent.inner.ProcessInfoInner?alt=com.azure.resourcemanager.appservice.fluent.inner.ProcessInfoInner&text=ProcessInfoInner" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.resourcemanager.appservice.fluent.inner
+artifact: com.azure.resourcemanager:azure-resourcemanager-appservice:2.0.0-beta.2

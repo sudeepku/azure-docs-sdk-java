@@ -1,0 +1,38 @@
+### YamlMime:JavaMember
+uid: com.azure.security.keyvault.certificates.CertificateClient.mergeCertificate*
+fullName: com.azure.security.keyvault.certificates.CertificateClient.mergeCertificate
+name: mergeCertificate
+nameWithType: CertificateClient.mergeCertificate
+members:
+- uid: com.azure.security.keyvault.certificates.CertificateClient.mergeCertificate(com.azure.security.keyvault.certificates.models.MergeCertificateOptions)
+  fullName: com.azure.security.keyvault.certificates.CertificateClient.mergeCertificate(MergeCertificateOptions mergeCertificateOptions)
+  name: mergeCertificate(MergeCertificateOptions mergeCertificateOptions)
+  nameWithType: CertificateClient.mergeCertificate(MergeCertificateOptions mergeCertificateOptions)
+  summary: |-
+    Merges a certificate or a certificate chain with a key pair currently available in the service. This operation requires
+     the <code>certificates/create</code> permission.
+
+     <p><strong>Code Samples</strong></p>
+     <p> Merges a certificate with a kay pair available in the service.</p>
+
+     <pre>
+     List&lt;byte[]&gt; x509CertificatesToMerge = new ArrayList&lt;&gt;&#40;&#41;;
+     MergeCertificateOptions config =
+         new MergeCertificateOptions&#40;&quot;certificateName&quot;, x509CertificatesToMerge&#41;
+             .setEnabled&#40;false&#41;;
+     KeyVaultCertificate mergedCertificate = certificateClient.mergeCertificate&#40;config&#41;;
+     System.out.printf&#40;&quot;Received Certificate with name %s and key id %s&quot;,
+         mergedCertificate.getProperties&#40;&#41;.getName&#40;&#41;, mergedCertificate.getKeyId&#40;&#41;&#41;;
+     </pre>
+  parameters:
+  - description: the merge certificate configuration holding the x509 certificates.
+    name: mergeCertificateOptions
+    type: <xref href="com.azure.security.keyvault.certificates.models.MergeCertificateOptions?alt=com.azure.security.keyvault.certificates.models.MergeCertificateOptions&text=MergeCertificateOptions" data-throw-if-not-resolved="False" />
+  syntax: public KeyVaultCertificateWithPolicy mergeCertificate(MergeCertificateOptions mergeCertificateOptions)
+  returns:
+    description: The merged certificate.
+    type: <xref href="com.azure.security.keyvault.certificates.models.KeyVaultCertificateWithPolicy?alt=com.azure.security.keyvault.certificates.models.KeyVaultCertificateWithPolicy&text=KeyVaultCertificateWithPolicy" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.security.keyvault.certificates
+artifact: com.azure:azure-security-keyvault-certificates:4.1.0-beta.3

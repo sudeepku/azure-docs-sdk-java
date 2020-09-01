@@ -1,0 +1,23 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.appservice.fluent.inner.SiteExtensionInfoInner.withFeedUrl*
+fullName: com.azure.resourcemanager.appservice.fluent.inner.SiteExtensionInfoInner.withFeedUrl
+name: withFeedUrl
+nameWithType: SiteExtensionInfoInner.withFeedUrl
+members:
+- uid: com.azure.resourcemanager.appservice.fluent.inner.SiteExtensionInfoInner.withFeedUrl(java.lang.String)
+  fullName: com.azure.resourcemanager.appservice.fluent.inner.SiteExtensionInfoInner.withFeedUrl(String feedUrl)
+  name: withFeedUrl(String feedUrl)
+  nameWithType: SiteExtensionInfoInner.withFeedUrl(String feedUrl)
+  summary: 'Set the feedUrl property: Feed URL.'
+  parameters:
+  - description: the feedUrl value to set.
+    name: feedUrl
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  syntax: public SiteExtensionInfoInner withFeedUrl(String feedUrl)
+  returns:
+    description: the SiteExtensionInfoInner object itself.
+    type: <xref href="com.azure.resourcemanager.appservice.fluent.inner.SiteExtensionInfoInner?alt=com.azure.resourcemanager.appservice.fluent.inner.SiteExtensionInfoInner&text=SiteExtensionInfoInner" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.resourcemanager.appservice.fluent.inner
+artifact: com.azure.resourcemanager:azure-resourcemanager-appservice:2.0.0-beta.2

@@ -1,0 +1,28 @@
+### YamlMime:JavaMember
+uid: com.azure.data.schemaregistry.ByteEncoder.getSchemaName*
+fullName: com.azure.data.schemaregistry.ByteEncoder.getSchemaName
+name: getSchemaName
+nameWithType: ByteEncoder.getSchemaName
+members:
+- uid: com.azure.data.schemaregistry.ByteEncoder.getSchemaName(java.lang.Object)
+  fullName: com.azure.data.schemaregistry.ByteEncoder.getSchemaName(Object object)
+  name: getSchemaName(Object object)
+  nameWithType: ByteEncoder.getSchemaName(Object object)
+  summary: Return schema name for storing in registry store
+  parameters:
+  - description: |-
+      Schema object
+       Refer to Schema Registry documentation for information on schema grouping and naming.
+    name: object
+    type: <xref href="java.lang.Object?alt=java.lang.Object&text=Object" data-throw-if-not-resolved="False" />
+  syntax: public abstract String getSchemaName(Object object)
+  exceptions:
+  - description: runtime exception in error cases
+    type: <xref href="com.azure.data.schemaregistry.SerializationException?alt=com.azure.data.schemaregistry.SerializationException&text=SerializationException" data-throw-if-not-resolved="False" />
+  returns:
+    description: schema name
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.data.schemaregistry
+artifact: com.azure:azure-data-schemaregistry:1.0.0-beta.1

@@ -1,0 +1,36 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.appservice.fluent.CertificateRegistrationProvidersClient.listOperationsAsync*
+fullName: com.azure.resourcemanager.appservice.fluent.CertificateRegistrationProvidersClient.listOperationsAsync
+name: listOperationsAsync
+nameWithType: CertificateRegistrationProvidersClient.listOperationsAsync
+members:
+- uid: com.azure.resourcemanager.appservice.fluent.CertificateRegistrationProvidersClient.listOperationsAsync()
+  fullName: com.azure.resourcemanager.appservice.fluent.CertificateRegistrationProvidersClient.listOperationsAsync()
+  name: listOperationsAsync()
+  nameWithType: CertificateRegistrationProvidersClient.listOperationsAsync()
+  summary: |-
+    Description for Implements Csm operations Api to exposes the list of available Csm Apis under the resource
+     provider.
+  syntax: public PagedFlux<CsmOperationDescriptionInner> listOperationsAsync()
+  returns:
+    description: collection of Azure resource manager operation metadata.
+    type: <xref href="com.azure.core.http.rest.PagedFlux?alt=com.azure.core.http.rest.PagedFlux&text=PagedFlux" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.resourcemanager.appservice.fluent.inner.CsmOperationDescriptionInner?alt=com.azure.resourcemanager.appservice.fluent.inner.CsmOperationDescriptionInner&text=CsmOperationDescriptionInner" data-throw-if-not-resolved="False" />&gt;
+- uid: com.azure.resourcemanager.appservice.fluent.CertificateRegistrationProvidersClient.listOperationsAsync(com.azure.core.util.Context)
+  fullName: com.azure.resourcemanager.appservice.fluent.CertificateRegistrationProvidersClient.listOperationsAsync(Context context)
+  name: listOperationsAsync(Context context)
+  nameWithType: CertificateRegistrationProvidersClient.listOperationsAsync(Context context)
+  summary: |-
+    Description for Implements Csm operations Api to exposes the list of available Csm Apis under the resource
+     provider.
+  parameters:
+  - description: The context to associate with this operation.
+    name: context
+    type: <xref href="com.azure.core.util.Context?alt=com.azure.core.util.Context&text=Context" data-throw-if-not-resolved="False" />
+  syntax: public PagedFlux<CsmOperationDescriptionInner> listOperationsAsync(Context context)
+  returns:
+    description: collection of Azure resource manager operation metadata.
+    type: <xref href="com.azure.core.http.rest.PagedFlux?alt=com.azure.core.http.rest.PagedFlux&text=PagedFlux" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.resourcemanager.appservice.fluent.inner.CsmOperationDescriptionInner?alt=com.azure.resourcemanager.appservice.fluent.inner.CsmOperationDescriptionInner&text=CsmOperationDescriptionInner" data-throw-if-not-resolved="False" />&gt;
+type: method
+metadata: {}
+package: com.azure.resourcemanager.appservice.fluent
+artifact: com.azure.resourcemanager:azure-resourcemanager-appservice:2.0.0-beta.2

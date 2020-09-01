@@ -1,0 +1,31 @@
+### YamlMime:JavaMember
+uid: com.azure.ai.formrecognizer.training.FormTrainingAsyncClient.listCustomModels*
+fullName: com.azure.ai.formrecognizer.training.FormTrainingAsyncClient.listCustomModels
+name: listCustomModels
+nameWithType: FormTrainingAsyncClient.listCustomModels
+members:
+- uid: com.azure.ai.formrecognizer.training.FormTrainingAsyncClient.listCustomModels()
+  fullName: com.azure.ai.formrecognizer.training.FormTrainingAsyncClient.listCustomModels()
+  name: listCustomModels()
+  nameWithType: FormTrainingAsyncClient.listCustomModels()
+  summary: |-
+    List information for each model on the form recognizer account.
+
+     <p><strong>Code sample</strong></p>
+     <pre>
+     formTrainingAsyncClient.listCustomModels&#40;&#41;
+         .subscribe&#40;customModel -&gt;
+             System.out.printf&#40;&quot;Model Id: %s, Model status: %s, Created on: %s, Last updated on: %s.%n&quot;,
+                 customModel.getModelId&#40;&#41;,
+                 customModel.getStatus&#40;&#41;,
+                 customModel.getTrainingStartedOn&#40;&#41;,
+                 customModel.getTrainingCompletedOn&#40;&#41;&#41;&#41;;
+     </pre>
+  syntax: public PagedFlux<CustomFormModelInfo> listCustomModels()
+  returns:
+    description: <xref uid="com.azure.core.http.rest.PagedFlux" data-throw-if-not-resolved="false">PagedFlux</xref> of <xref uid="com.azure.ai.formrecognizer.training.models.CustomFormModelInfo" data-throw-if-not-resolved="false">CustomFormModelInfo</xref>.
+    type: <xref href="com.azure.core.http.rest.PagedFlux?alt=com.azure.core.http.rest.PagedFlux&text=PagedFlux" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.ai.formrecognizer.training.models.CustomFormModelInfo?alt=com.azure.ai.formrecognizer.training.models.CustomFormModelInfo&text=CustomFormModelInfo" data-throw-if-not-resolved="False" />&gt;
+type: method
+metadata: {}
+package: com.azure.ai.formrecognizer.training
+artifact: com.azure:azure-ai-formrecognizer:3.0.0

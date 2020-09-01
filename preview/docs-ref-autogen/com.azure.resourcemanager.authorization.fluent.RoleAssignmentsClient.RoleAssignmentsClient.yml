@@ -1,0 +1,20 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.authorization.fluent.RoleAssignmentsClient.RoleAssignmentsClient*
+fullName: com.azure.resourcemanager.authorization.fluent.RoleAssignmentsClient.RoleAssignmentsClient
+name: RoleAssignmentsClient
+nameWithType: RoleAssignmentsClient.RoleAssignmentsClient
+members:
+- uid: com.azure.resourcemanager.authorization.fluent.RoleAssignmentsClient.RoleAssignmentsClient(com.azure.resourcemanager.authorization.AuthorizationManagementClient)
+  fullName: com.azure.resourcemanager.authorization.fluent.RoleAssignmentsClient.RoleAssignmentsClient(AuthorizationManagementClient client)
+  name: RoleAssignmentsClient(AuthorizationManagementClient client)
+  nameWithType: RoleAssignmentsClient.RoleAssignmentsClient(AuthorizationManagementClient client)
+  summary: Initializes an instance of RoleAssignmentsClient.
+  parameters:
+  - description: the instance of the service client containing this operation class.
+    name: client
+    type: <xref href="com.azure.resourcemanager.authorization.AuthorizationManagementClient?alt=com.azure.resourcemanager.authorization.AuthorizationManagementClient&text=AuthorizationManagementClient" data-throw-if-not-resolved="False" />
+  syntax: public RoleAssignmentsClient(AuthorizationManagementClient client)
+type: constructor
+metadata: {}
+package: com.azure.resourcemanager.authorization.fluent
+artifact: com.azure.resourcemanager:azure-resourcemanager-authorization:2.0.0-beta.2

@@ -1,0 +1,25 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.compute.fluent.inner.DiskEncryptionSetListInner.withNextLink*
+fullName: com.azure.resourcemanager.compute.fluent.inner.DiskEncryptionSetListInner.withNextLink
+name: withNextLink
+nameWithType: DiskEncryptionSetListInner.withNextLink
+members:
+- uid: com.azure.resourcemanager.compute.fluent.inner.DiskEncryptionSetListInner.withNextLink(java.lang.String)
+  fullName: com.azure.resourcemanager.compute.fluent.inner.DiskEncryptionSetListInner.withNextLink(String nextLink)
+  name: withNextLink(String nextLink)
+  nameWithType: DiskEncryptionSetListInner.withNextLink(String nextLink)
+  summary: |-
+    Set the nextLink property: The uri to fetch the next page of disk encryption sets. Call ListNext() with this to
+     fetch the next page of disk encryption sets.
+  parameters:
+  - description: the nextLink value to set.
+    name: nextLink
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  syntax: public DiskEncryptionSetListInner withNextLink(String nextLink)
+  returns:
+    description: the DiskEncryptionSetListInner object itself.
+    type: <xref href="com.azure.resourcemanager.compute.fluent.inner.DiskEncryptionSetListInner?alt=com.azure.resourcemanager.compute.fluent.inner.DiskEncryptionSetListInner&text=DiskEncryptionSetListInner" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.resourcemanager.compute.fluent.inner
+artifact: com.azure.resourcemanager:azure-resourcemanager-compute:2.0.0-beta.2

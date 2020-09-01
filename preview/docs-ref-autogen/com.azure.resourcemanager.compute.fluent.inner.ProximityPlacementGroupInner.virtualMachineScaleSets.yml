@@ -1,0 +1,21 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.compute.fluent.inner.ProximityPlacementGroupInner.virtualMachineScaleSets*
+fullName: com.azure.resourcemanager.compute.fluent.inner.ProximityPlacementGroupInner.virtualMachineScaleSets
+name: virtualMachineScaleSets
+nameWithType: ProximityPlacementGroupInner.virtualMachineScaleSets
+members:
+- uid: com.azure.resourcemanager.compute.fluent.inner.ProximityPlacementGroupInner.virtualMachineScaleSets()
+  fullName: com.azure.resourcemanager.compute.fluent.inner.ProximityPlacementGroupInner.virtualMachineScaleSets()
+  name: virtualMachineScaleSets()
+  nameWithType: ProximityPlacementGroupInner.virtualMachineScaleSets()
+  summary: |-
+    Get the virtualMachineScaleSets property: A list of references to all virtual machine scale sets in the proximity
+     placement group.
+  syntax: public List<SubResource> virtualMachineScaleSets()
+  returns:
+    description: the virtualMachineScaleSets value.
+    type: <xref href="java.util.List?alt=java.util.List&text=List" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.core.management.SubResource?alt=com.azure.core.management.SubResource&text=SubResource" data-throw-if-not-resolved="False" />&gt;
+type: method
+metadata: {}
+package: com.azure.resourcemanager.compute.fluent.inner
+artifact: com.azure.resourcemanager:azure-resourcemanager-compute:2.0.0-beta.2

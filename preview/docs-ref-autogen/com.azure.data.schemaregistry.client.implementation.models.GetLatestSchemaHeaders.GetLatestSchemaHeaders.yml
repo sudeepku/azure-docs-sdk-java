@@ -1,0 +1,15 @@
+### YamlMime:JavaMember
+uid: com.azure.data.schemaregistry.client.implementation.models.GetLatestSchemaHeaders.GetLatestSchemaHeaders*
+fullName: com.azure.data.schemaregistry.client.implementation.models.GetLatestSchemaHeaders.GetLatestSchemaHeaders
+name: GetLatestSchemaHeaders
+nameWithType: GetLatestSchemaHeaders.GetLatestSchemaHeaders
+members:
+- uid: com.azure.data.schemaregistry.client.implementation.models.GetLatestSchemaHeaders.GetLatestSchemaHeaders()
+  fullName: com.azure.data.schemaregistry.client.implementation.models.GetLatestSchemaHeaders.GetLatestSchemaHeaders()
+  name: GetLatestSchemaHeaders()
+  nameWithType: GetLatestSchemaHeaders.GetLatestSchemaHeaders()
+  syntax: public GetLatestSchemaHeaders()
+type: constructor
+metadata: {}
+package: com.azure.data.schemaregistry.client.implementation.models
+artifact: com.azure:azure-data-schemaregistry:1.0.0-beta.1

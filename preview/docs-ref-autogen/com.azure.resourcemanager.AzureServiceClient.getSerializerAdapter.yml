@@ -1,0 +1,19 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.AzureServiceClient.getSerializerAdapter*
+fullName: com.azure.resourcemanager.AzureServiceClient.getSerializerAdapter
+name: getSerializerAdapter
+nameWithType: AzureServiceClient.getSerializerAdapter
+members:
+- uid: com.azure.resourcemanager.AzureServiceClient.getSerializerAdapter()
+  fullName: com.azure.resourcemanager.AzureServiceClient.getSerializerAdapter()
+  name: getSerializerAdapter()
+  nameWithType: AzureServiceClient.getSerializerAdapter()
+  summary: Gets serializer adapter for JSON serialization/de-serialization.
+  syntax: public SerializerAdapter getSerializerAdapter()
+  returns:
+    description: the serializer adapter.
+    type: <xref href="com.azure.core.util.serializer.SerializerAdapter?alt=com.azure.core.util.serializer.SerializerAdapter&text=SerializerAdapter" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.resourcemanager
+artifact: com.azure.resourcemanager:azure-resourcemanager-resources:2.0.0-beta.2

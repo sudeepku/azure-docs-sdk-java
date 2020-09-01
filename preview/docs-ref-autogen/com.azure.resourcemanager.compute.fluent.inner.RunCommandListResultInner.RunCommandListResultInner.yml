@@ -1,0 +1,15 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.compute.fluent.inner.RunCommandListResultInner.RunCommandListResultInner*
+fullName: com.azure.resourcemanager.compute.fluent.inner.RunCommandListResultInner.RunCommandListResultInner
+name: RunCommandListResultInner
+nameWithType: RunCommandListResultInner.RunCommandListResultInner
+members:
+- uid: com.azure.resourcemanager.compute.fluent.inner.RunCommandListResultInner.RunCommandListResultInner()
+  fullName: com.azure.resourcemanager.compute.fluent.inner.RunCommandListResultInner.RunCommandListResultInner()
+  name: RunCommandListResultInner()
+  nameWithType: RunCommandListResultInner.RunCommandListResultInner()
+  syntax: public RunCommandListResultInner()
+type: constructor
+metadata: {}
+package: com.azure.resourcemanager.compute.fluent.inner
+artifact: com.azure.resourcemanager:azure-resourcemanager-compute:2.0.0-beta.2

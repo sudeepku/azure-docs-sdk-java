@@ -1,0 +1,30 @@
+### YamlMime:JavaMember
+uid: com.azure.storage.blob.specialized.BlobAsyncClientBase.getAccountInfo*
+fullName: com.azure.storage.blob.specialized.BlobAsyncClientBase.getAccountInfo
+name: getAccountInfo
+nameWithType: BlobAsyncClientBase.getAccountInfo
+members:
+- uid: com.azure.storage.blob.specialized.BlobAsyncClientBase.getAccountInfo()
+  fullName: com.azure.storage.blob.specialized.BlobAsyncClientBase.getAccountInfo()
+  name: getAccountInfo()
+  nameWithType: BlobAsyncClientBase.getAccountInfo()
+  summary: |-
+    Returns the sku name and account kind for the account.
+
+     <p><strong>Code Samples</strong></p>
+
+     <pre>
+     client.getAccountInfo&#40;&#41;.subscribe&#40;response -&gt; System.out.printf&#40;&quot;Account Kind: %s, SKU: %s%n&quot;,
+         response.getAccountKind&#40;&#41;, response.getSkuName&#40;&#41;&#41;&#41;;
+     </pre>
+
+     <p>For more information, see the
+     <a href="https://docs.microsoft.com/en-us/rest/api/storageservices/get-account-information">Azure Docs</a></p>
+  syntax: public Mono<StorageAccountInfo> getAccountInfo()
+  returns:
+    description: a reactor response containing the sku name and account kind.
+    type: <xref href="reactor.core.publisher.Mono?alt=reactor.core.publisher.Mono&text=Mono" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.storage.blob.models.StorageAccountInfo?alt=com.azure.storage.blob.models.StorageAccountInfo&text=StorageAccountInfo" data-throw-if-not-resolved="False" />&gt;
+type: method
+metadata: {}
+package: com.azure.storage.blob.specialized
+artifact: com.azure:azure-storage-blob:12.8.0

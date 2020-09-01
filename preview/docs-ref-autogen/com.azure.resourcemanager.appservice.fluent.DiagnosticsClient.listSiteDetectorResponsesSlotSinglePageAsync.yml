@@ -1,0 +1,51 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.appservice.fluent.DiagnosticsClient.listSiteDetectorResponsesSlotSinglePageAsync*
+fullName: com.azure.resourcemanager.appservice.fluent.DiagnosticsClient.listSiteDetectorResponsesSlotSinglePageAsync
+name: listSiteDetectorResponsesSlotSinglePageAsync
+nameWithType: DiagnosticsClient.listSiteDetectorResponsesSlotSinglePageAsync
+members:
+- uid: com.azure.resourcemanager.appservice.fluent.DiagnosticsClient.listSiteDetectorResponsesSlotSinglePageAsync(java.lang.String,java.lang.String,java.lang.String)
+  fullName: com.azure.resourcemanager.appservice.fluent.DiagnosticsClient.listSiteDetectorResponsesSlotSinglePageAsync(String resourceGroupName, String siteName, String slot)
+  name: listSiteDetectorResponsesSlotSinglePageAsync(String resourceGroupName, String siteName, String slot)
+  nameWithType: DiagnosticsClient.listSiteDetectorResponsesSlotSinglePageAsync(String resourceGroupName, String siteName, String slot)
+  summary: Description for List Site Detector Responses.
+  parameters:
+  - description: Name of the resource group to which the resource belongs.
+    name: resourceGroupName
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  - description: Site Name.
+    name: siteName
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  - description: Slot Name.
+    name: slot
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  syntax: public Mono<PagedResponse<DetectorResponseInner>> listSiteDetectorResponsesSlotSinglePageAsync(String resourceGroupName, String siteName, String slot)
+  returns:
+    description: collection of detector responses.
+    type: <xref href="reactor.core.publisher.Mono?alt=reactor.core.publisher.Mono&text=Mono" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.core.http.rest.PagedResponse?alt=com.azure.core.http.rest.PagedResponse&text=PagedResponse" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.resourcemanager.appservice.fluent.inner.DetectorResponseInner?alt=com.azure.resourcemanager.appservice.fluent.inner.DetectorResponseInner&text=DetectorResponseInner" data-throw-if-not-resolved="False" />&gt;&gt;
+- uid: com.azure.resourcemanager.appservice.fluent.DiagnosticsClient.listSiteDetectorResponsesSlotSinglePageAsync(java.lang.String,java.lang.String,java.lang.String,com.azure.core.util.Context)
+  fullName: com.azure.resourcemanager.appservice.fluent.DiagnosticsClient.listSiteDetectorResponsesSlotSinglePageAsync(String resourceGroupName, String siteName, String slot, Context context)
+  name: listSiteDetectorResponsesSlotSinglePageAsync(String resourceGroupName, String siteName, String slot, Context context)
+  nameWithType: DiagnosticsClient.listSiteDetectorResponsesSlotSinglePageAsync(String resourceGroupName, String siteName, String slot, Context context)
+  summary: Description for List Site Detector Responses.
+  parameters:
+  - description: Name of the resource group to which the resource belongs.
+    name: resourceGroupName
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  - description: Site Name.
+    name: siteName
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  - description: Slot Name.
+    name: slot
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  - description: The context to associate with this operation.
+    name: context
+    type: <xref href="com.azure.core.util.Context?alt=com.azure.core.util.Context&text=Context" data-throw-if-not-resolved="False" />
+  syntax: public Mono<PagedResponse<DetectorResponseInner>> listSiteDetectorResponsesSlotSinglePageAsync(String resourceGroupName, String siteName, String slot, Context context)
+  returns:
+    description: collection of detector responses.
+    type: <xref href="reactor.core.publisher.Mono?alt=reactor.core.publisher.Mono&text=Mono" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.core.http.rest.PagedResponse?alt=com.azure.core.http.rest.PagedResponse&text=PagedResponse" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.resourcemanager.appservice.fluent.inner.DetectorResponseInner?alt=com.azure.resourcemanager.appservice.fluent.inner.DetectorResponseInner&text=DetectorResponseInner" data-throw-if-not-resolved="False" />&gt;&gt;
+type: method
+metadata: {}
+package: com.azure.resourcemanager.appservice.fluent
+artifact: com.azure.resourcemanager:azure-resourcemanager-appservice:2.0.0-beta.2

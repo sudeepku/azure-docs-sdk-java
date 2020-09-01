@@ -1,0 +1,25 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.appservice.fluent.inner.AppServiceCertificateOrderInner.withAutoRenew*
+fullName: com.azure.resourcemanager.appservice.fluent.inner.AppServiceCertificateOrderInner.withAutoRenew
+name: withAutoRenew
+nameWithType: AppServiceCertificateOrderInner.withAutoRenew
+members:
+- uid: com.azure.resourcemanager.appservice.fluent.inner.AppServiceCertificateOrderInner.withAutoRenew(java.lang.Boolean)
+  fullName: com.azure.resourcemanager.appservice.fluent.inner.AppServiceCertificateOrderInner.withAutoRenew(Boolean autoRenew)
+  name: withAutoRenew(Boolean autoRenew)
+  nameWithType: AppServiceCertificateOrderInner.withAutoRenew(Boolean autoRenew)
+  summary: |-
+    Set the autoRenew property: &lt;code&gt;true&lt;/code&gt; if the certificate should be automatically renewed when
+     it expires; otherwise, &lt;code&gt;false&lt;/code&gt;.
+  parameters:
+  - description: the autoRenew value to set.
+    name: autoRenew
+    type: <xref href="java.lang.Boolean?alt=java.lang.Boolean&text=Boolean" data-throw-if-not-resolved="False" />
+  syntax: public AppServiceCertificateOrderInner withAutoRenew(Boolean autoRenew)
+  returns:
+    description: the AppServiceCertificateOrderInner object itself.
+    type: <xref href="com.azure.resourcemanager.appservice.fluent.inner.AppServiceCertificateOrderInner?alt=com.azure.resourcemanager.appservice.fluent.inner.AppServiceCertificateOrderInner&text=AppServiceCertificateOrderInner" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.resourcemanager.appservice.fluent.inner
+artifact: com.azure.resourcemanager:azure-resourcemanager-appservice:2.0.0-beta.2

@@ -1,0 +1,21 @@
+### YamlMime:JavaMember
+uid: com.azure.search.documents.indexes.implementation.models.SentimentSkill.SentimentSkill*
+fullName: com.azure.search.documents.indexes.implementation.models.SentimentSkill.SentimentSkill
+name: SentimentSkill
+nameWithType: SentimentSkill.SentimentSkill
+members:
+- uid: com.azure.search.documents.indexes.implementation.models.SentimentSkill.SentimentSkill(java.util.List<com.azure.search.documents.indexes.implementation.models.InputFieldMappingEntry>,java.util.List<com.azure.search.documents.indexes.implementation.models.OutputFieldMappingEntry>)
+  fullName: com.azure.search.documents.indexes.implementation.models.SentimentSkill.SentimentSkill(List<InputFieldMappingEntry> inputs, List<OutputFieldMappingEntry> outputs)
+  name: SentimentSkill(List<InputFieldMappingEntry> inputs, List<OutputFieldMappingEntry> outputs)
+  nameWithType: SentimentSkill.SentimentSkill(List<InputFieldMappingEntry> inputs, List<OutputFieldMappingEntry> outputs)
+  summary: Creates an instance of SentimentSkill class.
+  parameters:
+  - name: inputs
+    type: <xref href="java.util.List?alt=java.util.List&text=List" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.search.documents.indexes.implementation.models.InputFieldMappingEntry?alt=com.azure.search.documents.indexes.implementation.models.InputFieldMappingEntry&text=InputFieldMappingEntry" data-throw-if-not-resolved="False" />&gt;
+  - name: outputs
+    type: <xref href="java.util.List?alt=java.util.List&text=List" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.search.documents.indexes.implementation.models.OutputFieldMappingEntry?alt=com.azure.search.documents.indexes.implementation.models.OutputFieldMappingEntry&text=OutputFieldMappingEntry" data-throw-if-not-resolved="False" />&gt;
+  syntax: public SentimentSkill(List<InputFieldMappingEntry> inputs, List<OutputFieldMappingEntry> outputs)
+type: constructor
+metadata: {}
+package: com.azure.search.documents.indexes.implementation.models
+artifact: com.azure:azure-search-documents:11.0.0

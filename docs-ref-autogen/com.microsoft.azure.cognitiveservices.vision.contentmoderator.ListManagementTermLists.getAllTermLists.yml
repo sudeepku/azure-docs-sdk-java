@@ -1,0 +1,25 @@
+### YamlMime:JavaMember
+nameWithType: ListManagementTermLists.getAllTermLists
+type: method
+members:
+- fullName: com.microsoft.azure.cognitiveservices.vision.contentmoderator.ListManagementTermLists.getAllTermLists()
+  name: getAllTermLists()
+  nameWithType: ListManagementTermLists.getAllTermLists()
+  exceptions:
+  - name: 3c87bd19
+  - name: 3690e14b
+  - name: 9b2a4515
+  returns:
+    description: <p>the List&lt;TermList&gt; object if successful. </p>
+    type: List&lt;<xref href="com.microsoft.azure.cognitiveservices.vision.contentmoderator.models.TermList?alt=com.microsoft.azure.cognitiveservices.vision.contentmoderator.models.TermList&text=TermList" data-throw-if-not-resolved="False"/>&gt;
+  summary: >-
+    <p>gets all the Term Lists.</p>
+
+    <p></p>
+  syntax: public List<TermList> getAllTermLists()
+  uid: com.microsoft.azure.cognitiveservices.vision.contentmoderator.ListManagementTermLists.getAllTermLists()
+uid: com.microsoft.azure.cognitiveservices.vision.contentmoderator.ListManagementTermLists.getAllTermLists*
+fullName: com.microsoft.azure.cognitiveservices.vision.contentmoderator.ListManagementTermLists.getAllTermLists()
+name: getAllTermLists()
+package: com.microsoft.azure.cognitiveservices.vision.contentmoderator
+metadata: {}

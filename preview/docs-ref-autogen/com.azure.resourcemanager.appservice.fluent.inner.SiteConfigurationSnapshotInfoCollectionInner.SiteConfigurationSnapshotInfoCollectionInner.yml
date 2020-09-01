@@ -1,0 +1,15 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.appservice.fluent.inner.SiteConfigurationSnapshotInfoCollectionInner.SiteConfigurationSnapshotInfoCollectionInner*
+fullName: com.azure.resourcemanager.appservice.fluent.inner.SiteConfigurationSnapshotInfoCollectionInner.SiteConfigurationSnapshotInfoCollectionInner
+name: SiteConfigurationSnapshotInfoCollectionInner
+nameWithType: SiteConfigurationSnapshotInfoCollectionInner.SiteConfigurationSnapshotInfoCollectionInner
+members:
+- uid: com.azure.resourcemanager.appservice.fluent.inner.SiteConfigurationSnapshotInfoCollectionInner.SiteConfigurationSnapshotInfoCollectionInner()
+  fullName: com.azure.resourcemanager.appservice.fluent.inner.SiteConfigurationSnapshotInfoCollectionInner.SiteConfigurationSnapshotInfoCollectionInner()
+  name: SiteConfigurationSnapshotInfoCollectionInner()
+  nameWithType: SiteConfigurationSnapshotInfoCollectionInner.SiteConfigurationSnapshotInfoCollectionInner()
+  syntax: public SiteConfigurationSnapshotInfoCollectionInner()
+type: constructor
+metadata: {}
+package: com.azure.resourcemanager.appservice.fluent.inner
+artifact: com.azure.resourcemanager:azure-resourcemanager-appservice:2.0.0-beta.2

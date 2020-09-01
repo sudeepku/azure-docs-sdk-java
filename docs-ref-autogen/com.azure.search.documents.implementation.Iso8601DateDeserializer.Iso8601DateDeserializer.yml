@@ -1,0 +1,18 @@
+### YamlMime:JavaMember
+uid: com.azure.search.documents.implementation.Iso8601DateDeserializer.Iso8601DateDeserializer*
+fullName: com.azure.search.documents.implementation.Iso8601DateDeserializer.Iso8601DateDeserializer
+name: Iso8601DateDeserializer
+nameWithType: Iso8601DateDeserializer.Iso8601DateDeserializer
+members:
+- uid: com.azure.search.documents.implementation.Iso8601DateDeserializer.Iso8601DateDeserializer(com.fasterxml.jackson.databind.deser.std.UntypedObjectDeserializer)
+  fullName: com.azure.search.documents.implementation.Iso8601DateDeserializer.Iso8601DateDeserializer(UntypedObjectDeserializer defaultDeserializer)
+  name: Iso8601DateDeserializer(UntypedObjectDeserializer defaultDeserializer)
+  nameWithType: Iso8601DateDeserializer.Iso8601DateDeserializer(UntypedObjectDeserializer defaultDeserializer)
+  parameters:
+  - name: defaultDeserializer
+    type: <xref href="com.fasterxml.jackson.databind.deser.std.UntypedObjectDeserializer?alt=com.fasterxml.jackson.databind.deser.std.UntypedObjectDeserializer&text=UntypedObjectDeserializer" data-throw-if-not-resolved="False" />
+  syntax: protected Iso8601DateDeserializer(UntypedObjectDeserializer defaultDeserializer)
+type: constructor
+metadata: {}
+package: com.azure.search.documents.implementation
+artifact: com.azure:azure-search-documents:11.0.0

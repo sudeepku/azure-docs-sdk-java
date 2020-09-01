@@ -1,0 +1,71 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.storage.fluent.QueuesClient.create*
+fullName: com.azure.resourcemanager.storage.fluent.QueuesClient.create
+name: create
+nameWithType: QueuesClient.create
+members:
+- uid: com.azure.resourcemanager.storage.fluent.QueuesClient.create(java.lang.String,java.lang.String,java.lang.String,java.util.Map<java.lang.String,java.lang.String>)
+  fullName: com.azure.resourcemanager.storage.fluent.QueuesClient.create(String resourceGroupName, String accountName, String queueName, Map<String,String> metadata)
+  name: create(String resourceGroupName, String accountName, String queueName, Map<String,String> metadata)
+  nameWithType: QueuesClient.create(String resourceGroupName, String accountName, String queueName, Map<String,String> metadata)
+  summary: Creates a new queue with the specified queue name, under the specified account.
+  parameters:
+  - description: |-
+      The name of the resource group within the user's subscription. The name is case
+           insensitive.
+    name: resourceGroupName
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  - description: |-
+      The name of the storage account within the specified resource group. Storage account names
+           must be between 3 and 24 characters in length and use numbers and lower-case letters only.
+    name: accountName
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  - description: |-
+      A queue name must be unique within a storage account and must be between 3 and 63 characters.The
+           name must comprise of lowercase alphanumeric and dash(-) characters only, it should begin and end with an
+           alphanumeric character and it cannot have two consecutive dash(-) characters.
+    name: queueName
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  - description: A name-value pair that represents queue metadata.
+    name: metadata
+    type: <xref href="java.util.Map?alt=java.util.Map&text=Map" data-throw-if-not-resolved="False" />&lt;<xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />,<xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />&gt;
+  syntax: public StorageQueueInner create(String resourceGroupName, String accountName, String queueName, Map<String,String> metadata)
+  returns:
+    description: the response.
+    type: <xref href="com.azure.resourcemanager.storage.fluent.inner.StorageQueueInner?alt=com.azure.resourcemanager.storage.fluent.inner.StorageQueueInner&text=StorageQueueInner" data-throw-if-not-resolved="False" />
+- uid: com.azure.resourcemanager.storage.fluent.QueuesClient.create(java.lang.String,java.lang.String,java.lang.String,java.util.Map<java.lang.String,java.lang.String>,com.azure.core.util.Context)
+  fullName: com.azure.resourcemanager.storage.fluent.QueuesClient.create(String resourceGroupName, String accountName, String queueName, Map<String,String> metadata, Context context)
+  name: create(String resourceGroupName, String accountName, String queueName, Map<String,String> metadata, Context context)
+  nameWithType: QueuesClient.create(String resourceGroupName, String accountName, String queueName, Map<String,String> metadata, Context context)
+  summary: Creates a new queue with the specified queue name, under the specified account.
+  parameters:
+  - description: |-
+      The name of the resource group within the user's subscription. The name is case
+           insensitive.
+    name: resourceGroupName
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  - description: |-
+      The name of the storage account within the specified resource group. Storage account names
+           must be between 3 and 24 characters in length and use numbers and lower-case letters only.
+    name: accountName
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  - description: |-
+      A queue name must be unique within a storage account and must be between 3 and 63 characters.The
+           name must comprise of lowercase alphanumeric and dash(-) characters only, it should begin and end with an
+           alphanumeric character and it cannot have two consecutive dash(-) characters.
+    name: queueName
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  - description: A name-value pair that represents queue metadata.
+    name: metadata
+    type: <xref href="java.util.Map?alt=java.util.Map&text=Map" data-throw-if-not-resolved="False" />&lt;<xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />,<xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />&gt;
+  - description: The context to associate with this operation.
+    name: context
+    type: <xref href="com.azure.core.util.Context?alt=com.azure.core.util.Context&text=Context" data-throw-if-not-resolved="False" />
+  syntax: public StorageQueueInner create(String resourceGroupName, String accountName, String queueName, Map<String,String> metadata, Context context)
+  returns:
+    description: the response.
+    type: <xref href="com.azure.resourcemanager.storage.fluent.inner.StorageQueueInner?alt=com.azure.resourcemanager.storage.fluent.inner.StorageQueueInner&text=StorageQueueInner" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.resourcemanager.storage.fluent
+artifact: com.azure.resourcemanager:azure-resourcemanager-storage:2.0.0-beta.2

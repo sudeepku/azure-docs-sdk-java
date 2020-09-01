@@ -1,0 +1,34 @@
+### YamlMime:JavaMember
+uid: com.azure.storage.blob.BlobServiceClient.deleteBlobContainer*
+fullName: com.azure.storage.blob.BlobServiceClient.deleteBlobContainer
+name: deleteBlobContainer
+nameWithType: BlobServiceClient.deleteBlobContainer
+members:
+- uid: com.azure.storage.blob.BlobServiceClient.deleteBlobContainer(java.lang.String)
+  fullName: com.azure.storage.blob.BlobServiceClient.deleteBlobContainer(String containerName)
+  name: deleteBlobContainer(String containerName)
+  nameWithType: BlobServiceClient.deleteBlobContainer(String containerName)
+  summary: |-
+    Deletes the specified container in the storage account. If the container doesn't exist the operation fails. For
+     more information see the <a href="https://docs.microsoft.com/en-us/rest/api/storageservices/delete-container">Azure
+     Docs</a>.
+
+     <p><strong>Code Samples</strong></p>
+
+     <pre>
+     try &#123;
+         client.deleteBlobContainer&#40;&quot;container Name&quot;&#41;;
+         System.out.printf&#40;&quot;Delete container completed with status %n&quot;&#41;;
+     &#125; catch &#40;UnsupportedOperationException error&#41; &#123;
+         System.out.printf&#40;&quot;Delete container failed: %s%n&quot;, error&#41;;
+     &#125;
+     </pre>
+  parameters:
+  - description: Name of the container to delete
+    name: containerName
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  syntax: public void deleteBlobContainer(String containerName)
+type: method
+metadata: {}
+package: com.azure.storage.blob
+artifact: com.azure:azure-storage-blob:12.8.0-beta.1

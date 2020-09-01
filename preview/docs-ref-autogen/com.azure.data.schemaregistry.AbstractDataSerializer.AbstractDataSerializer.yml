@@ -1,0 +1,25 @@
+### YamlMime:JavaMember
+uid: com.azure.data.schemaregistry.AbstractDataSerializer.AbstractDataSerializer*
+fullName: com.azure.data.schemaregistry.AbstractDataSerializer.AbstractDataSerializer
+name: AbstractDataSerializer
+nameWithType: AbstractDataSerializer.AbstractDataSerializer
+members:
+- uid: com.azure.data.schemaregistry.AbstractDataSerializer.AbstractDataSerializer()
+  fullName: com.azure.data.schemaregistry.AbstractDataSerializer.AbstractDataSerializer()
+  name: AbstractDataSerializer()
+  nameWithType: AbstractDataSerializer.AbstractDataSerializer()
+  summary: Special case constructor for Kafka serializer.
+  syntax: public AbstractDataSerializer()
+- uid: com.azure.data.schemaregistry.AbstractDataSerializer.AbstractDataSerializer(com.azure.data.schemaregistry.client.SchemaRegistryClient)
+  fullName: com.azure.data.schemaregistry.AbstractDataSerializer.AbstractDataSerializer(SchemaRegistryClient schemaRegistryClient)
+  name: AbstractDataSerializer(SchemaRegistryClient schemaRegistryClient)
+  nameWithType: AbstractDataSerializer.AbstractDataSerializer(SchemaRegistryClient schemaRegistryClient)
+  parameters:
+  - description: registry client to be used for storing schemas.  Not null.
+    name: schemaRegistryClient
+    type: <xref href="com.azure.data.schemaregistry.client.SchemaRegistryClient?alt=com.azure.data.schemaregistry.client.SchemaRegistryClient&text=SchemaRegistryClient" data-throw-if-not-resolved="False" />
+  syntax: public AbstractDataSerializer(SchemaRegistryClient schemaRegistryClient)
+type: constructor
+metadata: {}
+package: com.azure.data.schemaregistry
+artifact: com.azure:azure-data-schemaregistry:1.0.0-beta.1

@@ -1,0 +1,44 @@
+### YamlMime:JavaMember
+uid: com.azure.storage.blob.specialized.BlobAsyncClientBase.setAccessTierWithResponse*
+fullName: com.azure.storage.blob.specialized.BlobAsyncClientBase.setAccessTierWithResponse
+name: setAccessTierWithResponse
+nameWithType: BlobAsyncClientBase.setAccessTierWithResponse
+members:
+- uid: com.azure.storage.blob.specialized.BlobAsyncClientBase.setAccessTierWithResponse(com.azure.storage.blob.models.AccessTier,com.azure.storage.blob.models.RehydratePriority,java.lang.String)
+  fullName: com.azure.storage.blob.specialized.BlobAsyncClientBase.setAccessTierWithResponse(AccessTier tier, RehydratePriority priority, String leaseId)
+  name: setAccessTierWithResponse(AccessTier tier, RehydratePriority priority, String leaseId)
+  nameWithType: BlobAsyncClientBase.setAccessTierWithResponse(AccessTier tier, RehydratePriority priority, String leaseId)
+  summary: |-
+    Sets the tier on a blob. The operation is allowed on a page blob in a premium storage account or a block blob in
+     a blob storage or GPV2 account. A premium page blob's tier determines the allowed size, IOPS, and bandwidth of
+     the blob. A block blob's tier determines the Hot/Cool/Archive storage type. This does not update the blob's
+     etag.
+
+     <p><strong>Code Samples</strong></p>
+
+     <pre>
+     client.setAccessTierWithResponse&#40;AccessTier.HOT, RehydratePriority.STANDARD, leaseId&#41;
+         .subscribe&#40;response -&gt; System.out.printf&#40;&quot;Set tier completed with status code %d%n&quot;,
+             response.getStatusCode&#40;&#41;&#41;&#41;;
+     </pre>
+
+     <p>For more information, see the
+     <a href="https://docs.microsoft.com/en-us/rest/api/storageservices/set-blob-tier">Azure Docs</a></p>
+  parameters:
+  - description: The new tier for the blob.
+    name: tier
+    type: <xref href="com.azure.storage.blob.models.AccessTier?alt=com.azure.storage.blob.models.AccessTier&text=AccessTier" data-throw-if-not-resolved="False" />
+  - description: Optional priority to set for re-hydrating blobs.
+    name: priority
+    type: <xref href="com.azure.storage.blob.models.RehydratePriority?alt=com.azure.storage.blob.models.RehydratePriority&text=RehydratePriority" data-throw-if-not-resolved="False" />
+  - description: The lease ID the active lease on the blob must match.
+    name: leaseId
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  syntax: public Mono<Response<Void>> setAccessTierWithResponse(AccessTier tier, RehydratePriority priority, String leaseId)
+  returns:
+    description: A reactive response signalling completion.
+    type: <xref href="reactor.core.publisher.Mono?alt=reactor.core.publisher.Mono&text=Mono" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.core.http.rest.Response?alt=com.azure.core.http.rest.Response&text=Response" data-throw-if-not-resolved="False" />&lt;<xref href="java.lang.Void?alt=java.lang.Void&text=Void" data-throw-if-not-resolved="False" />&gt;&gt;
+type: method
+metadata: {}
+package: com.azure.storage.blob.specialized
+artifact: com.azure:azure-storage-blob:12.8.0-beta.1

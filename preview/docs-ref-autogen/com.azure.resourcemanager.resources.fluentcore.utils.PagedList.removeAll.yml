@@ -1,0 +1,20 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.resources.fluentcore.utils.PagedList.removeAll*
+fullName: com.azure.resourcemanager.resources.fluentcore.utils.PagedList<E>.removeAll
+name: removeAll
+nameWithType: PagedList<E>.removeAll
+members:
+- uid: com.azure.resourcemanager.resources.fluentcore.utils.PagedList.removeAll(java.util.Collection<?>)
+  fullName: com.azure.resourcemanager.resources.fluentcore.utils.PagedList<E>.removeAll(Collection<?> c)
+  name: removeAll(Collection<?> c)
+  nameWithType: PagedList<E>.removeAll(Collection<?> c)
+  parameters:
+  - name: c
+    type: <xref href="java.util.Collection?alt=java.util.Collection&text=Collection" data-throw-if-not-resolved="False" />&lt;?&gt;
+  syntax: public boolean removeAll(Collection<?> c)
+  returns:
+    type: <xref href="boolean?alt=boolean&text=boolean" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.resourcemanager.resources.fluentcore.utils
+artifact: com.azure.resourcemanager:azure-resourcemanager-resources:2.0.0-beta.2

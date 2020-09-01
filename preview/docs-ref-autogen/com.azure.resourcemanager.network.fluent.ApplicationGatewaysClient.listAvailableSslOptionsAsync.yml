@@ -1,0 +1,32 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.network.fluent.ApplicationGatewaysClient.listAvailableSslOptionsAsync*
+fullName: com.azure.resourcemanager.network.fluent.ApplicationGatewaysClient.listAvailableSslOptionsAsync
+name: listAvailableSslOptionsAsync
+nameWithType: ApplicationGatewaysClient.listAvailableSslOptionsAsync
+members:
+- uid: com.azure.resourcemanager.network.fluent.ApplicationGatewaysClient.listAvailableSslOptionsAsync()
+  fullName: com.azure.resourcemanager.network.fluent.ApplicationGatewaysClient.listAvailableSslOptionsAsync()
+  name: listAvailableSslOptionsAsync()
+  nameWithType: ApplicationGatewaysClient.listAvailableSslOptionsAsync()
+  summary: Lists available Ssl options for configuring Ssl policy.
+  syntax: public Mono<ApplicationGatewayAvailableSslOptionsInner> listAvailableSslOptionsAsync()
+  returns:
+    description: response for ApplicationGatewayAvailableSslOptions API service call.
+    type: <xref href="reactor.core.publisher.Mono?alt=reactor.core.publisher.Mono&text=Mono" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.resourcemanager.network.fluent.inner.ApplicationGatewayAvailableSslOptionsInner?alt=com.azure.resourcemanager.network.fluent.inner.ApplicationGatewayAvailableSslOptionsInner&text=ApplicationGatewayAvailableSslOptionsInner" data-throw-if-not-resolved="False" />&gt;
+- uid: com.azure.resourcemanager.network.fluent.ApplicationGatewaysClient.listAvailableSslOptionsAsync(com.azure.core.util.Context)
+  fullName: com.azure.resourcemanager.network.fluent.ApplicationGatewaysClient.listAvailableSslOptionsAsync(Context context)
+  name: listAvailableSslOptionsAsync(Context context)
+  nameWithType: ApplicationGatewaysClient.listAvailableSslOptionsAsync(Context context)
+  summary: Lists available Ssl options for configuring Ssl policy.
+  parameters:
+  - description: The context to associate with this operation.
+    name: context
+    type: <xref href="com.azure.core.util.Context?alt=com.azure.core.util.Context&text=Context" data-throw-if-not-resolved="False" />
+  syntax: public Mono<ApplicationGatewayAvailableSslOptionsInner> listAvailableSslOptionsAsync(Context context)
+  returns:
+    description: response for ApplicationGatewayAvailableSslOptions API service call.
+    type: <xref href="reactor.core.publisher.Mono?alt=reactor.core.publisher.Mono&text=Mono" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.resourcemanager.network.fluent.inner.ApplicationGatewayAvailableSslOptionsInner?alt=com.azure.resourcemanager.network.fluent.inner.ApplicationGatewayAvailableSslOptionsInner&text=ApplicationGatewayAvailableSslOptionsInner" data-throw-if-not-resolved="False" />&gt;
+type: method
+metadata: {}
+package: com.azure.resourcemanager.network.fluent
+artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.0.0-beta.2

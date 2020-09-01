@@ -1,0 +1,45 @@
+### YamlMime:JavaMember
+uid: com.azure.search.documents.SearchAsyncClient.deleteDocumentsWithResponse*
+fullName: com.azure.search.documents.SearchAsyncClient.deleteDocumentsWithResponse
+name: deleteDocumentsWithResponse
+nameWithType: SearchAsyncClient.deleteDocumentsWithResponse
+members:
+- uid: com.azure.search.documents.SearchAsyncClient.deleteDocumentsWithResponse(java.lang.Iterable<?>,com.azure.search.documents.models.IndexDocumentsOptions)
+  fullName: com.azure.search.documents.SearchAsyncClient.deleteDocumentsWithResponse(Iterable<?> documents, IndexDocumentsOptions options)
+  name: deleteDocumentsWithResponse(Iterable<?> documents, IndexDocumentsOptions options)
+  nameWithType: SearchAsyncClient.deleteDocumentsWithResponse(Iterable<?> documents, IndexDocumentsOptions options)
+  summary: |-
+    Deletes a collection of documents from the target index.
+
+     <p><strong>Code Sample</strong></p>
+
+     <p> Delete dynamic SearchDocument. </p>
+
+     <pre>
+     SearchDocument searchDocument = new SearchDocument&#40;&#41;;
+     searchDocument.put&#40;&quot;hotelId&quot;, &quot;1&quot;&#41;;
+     searchDocument.put&#40;&quot;hotelName&quot;, &quot;test&quot;&#41;;
+     searchAsyncClient.deleteDocumentsWithResponse&#40;Collections.singletonList&#40;searchDocument&#41;, null&#41;
+         .subscribe&#40;resultResponse -&gt; &#123;
+             System.out.println&#40;&quot;The status code of the response is &quot; + resultResponse.getStatusCode&#40;&#41;&#41;;
+             for &#40;IndexingResult indexingResult : resultResponse.getValue&#40;&#41;.getResults&#40;&#41;&#41; &#123;
+                 System.out.printf&#40;&quot;Does document with key %s delete successfully? %b%n&quot;, indexingResult.getKey&#40;&#41;,
+                     indexingResult.isSucceeded&#40;&#41;&#41;;
+             &#125;
+         &#125;&#41;;
+     </pre>
+  parameters:
+  - description: collection of documents to delete from the target Index. Fields other than the key are ignored.
+    name: documents
+    type: <xref href="java.lang.Iterable?alt=java.lang.Iterable&text=Iterable" data-throw-if-not-resolved="False" />&lt;?&gt;
+  - description: Options that allow specifying document indexing behavior.
+    name: options
+    type: <xref href="com.azure.search.documents.models.IndexDocumentsOptions?alt=com.azure.search.documents.models.IndexDocumentsOptions&text=IndexDocumentsOptions" data-throw-if-not-resolved="False" />
+  syntax: public Mono<Response<IndexDocumentsResult>> deleteDocumentsWithResponse(Iterable<?> documents, IndexDocumentsOptions options)
+  returns:
+    description: response containing the document index result.
+    type: <xref href="reactor.core.publisher.Mono?alt=reactor.core.publisher.Mono&text=Mono" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.core.http.rest.Response?alt=com.azure.core.http.rest.Response&text=Response" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.search.documents.models.IndexDocumentsResult?alt=com.azure.search.documents.models.IndexDocumentsResult&text=IndexDocumentsResult" data-throw-if-not-resolved="False" />&gt;&gt;
+type: method
+metadata: {}
+package: com.azure.search.documents
+artifact: com.azure:azure-search-documents:11.1.0-beta.1

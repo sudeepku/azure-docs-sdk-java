@@ -1,0 +1,19 @@
+### YamlMime:JavaMember
+uid: com.azure.cosmos.implementation.guava25.primitives.Ints.BYTES
+fullName: com.azure.cosmos.implementation.guava25.primitives.Ints.BYTES
+name: BYTES
+nameWithType: Ints.BYTES
+members:
+- uid: com.azure.cosmos.implementation.guava25.primitives.Ints.BYTES
+  fullName: com.azure.cosmos.implementation.guava25.primitives.Ints.BYTES
+  name: BYTES
+  nameWithType: Ints.BYTES
+  summary: |-
+    The number of bytes required to represent a primitive <code>int</code> value.
+
+     <p><b>Java 8 users:</b> use <xref uid="Integer#BYTES" data-throw-if-not-resolved="false">Integer#BYTES</xref> instead.
+  syntax: public static final int BYTES
+type: field
+metadata: {}
+package: com.azure.cosmos.implementation.guava25.primitives
+artifact: com.azure:azure-cosmos:4.3.2-beta.2

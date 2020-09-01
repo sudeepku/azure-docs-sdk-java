@@ -1,0 +1,23 @@
+### YamlMime:JavaMember
+uid: com.azure.messaging.servicebus.implementation.models.CorrelationFilter.setTo*
+fullName: com.azure.messaging.servicebus.implementation.models.CorrelationFilter.setTo
+name: setTo
+nameWithType: CorrelationFilter.setTo
+members:
+- uid: com.azure.messaging.servicebus.implementation.models.CorrelationFilter.setTo(java.lang.String)
+  fullName: com.azure.messaging.servicebus.implementation.models.CorrelationFilter.setTo(String to)
+  name: setTo(String to)
+  nameWithType: CorrelationFilter.setTo(String to)
+  summary: 'Set the to property: The To property.'
+  parameters:
+  - description: the to value to set.
+    name: to
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  syntax: public CorrelationFilter setTo(String to)
+  returns:
+    description: the CorrelationFilter object itself.
+    type: <xref href="com.azure.messaging.servicebus.implementation.models.CorrelationFilter?alt=com.azure.messaging.servicebus.implementation.models.CorrelationFilter&text=CorrelationFilter" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.messaging.servicebus.implementation.models
+artifact: com.azure:azure-messaging-servicebus:7.0.0-beta.5

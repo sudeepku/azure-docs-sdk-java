@@ -1,0 +1,31 @@
+### YamlMime:JavaMember
+uid: com.azure.security.keyvault.keys.cryptography.KeyEncryptionKeyClientBuilder.buildKeyEncryptionKey*
+fullName: com.azure.security.keyvault.keys.cryptography.KeyEncryptionKeyClientBuilder.buildKeyEncryptionKey
+name: buildKeyEncryptionKey
+nameWithType: KeyEncryptionKeyClientBuilder.buildKeyEncryptionKey
+members:
+- uid: com.azure.security.keyvault.keys.cryptography.KeyEncryptionKeyClientBuilder.buildKeyEncryptionKey(java.lang.String)
+  fullName: com.azure.security.keyvault.keys.cryptography.KeyEncryptionKeyClientBuilder.buildKeyEncryptionKey(String keyId)
+  name: buildKeyEncryptionKey(String keyId)
+  nameWithType: KeyEncryptionKeyClientBuilder.buildKeyEncryptionKey(String keyId)
+  summary: |-
+    Creates a <xref uid="KeyEncryptionKey" data-throw-if-not-resolved="false">KeyEncryptionKey</xref> based on options set in the builder.
+     Every time <code>buildKeyEncryptionKey(String)</code> is called, a new instance of <xref uid="KeyEncryptionKey" data-throw-if-not-resolved="false">KeyEncryptionKey</xref>
+     is created.
+
+     <p>If <xref uid="KeyEncryptionKeyClientBuilder#pipeline(HttpPipeline)" data-throw-if-not-resolved="false">pipeline</xref> is set, then the <code>pipeline</code>
+     and <code>keyId</code> are used to create the <xref uid="KeyEncryptionKeyClient" data-throw-if-not-resolved="false">client</xref>.
+      All other builder settings are ignored. If <code>pipeline</code> is not set, then
+     <xref uid="KeyEncryptionKeyClientBuilder#credential(TokenCredential)" data-throw-if-not-resolved="false">vault credential</xref> and <code>keyId</code>
+     are required to build the <xref uid="KeyEncryptionKeyClient" data-throw-if-not-resolved="false">client</xref>.</p>
+  parameters:
+  - name: keyId
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  syntax: public KeyEncryptionKey buildKeyEncryptionKey(String keyId)
+  returns:
+    description: A <xref uid="com.azure.security.keyvault.keys.cryptography.KeyEncryptionKeyClient" data-throw-if-not-resolved="false">KeyEncryptionKeyClient</xref> with the options set from the builder.
+    type: <xref href="com.azure.core.cryptography.KeyEncryptionKey?alt=com.azure.core.cryptography.KeyEncryptionKey&text=KeyEncryptionKey" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.security.keyvault.keys.cryptography
+artifact: com.azure:azure-security-keyvault-keys:4.2.0-beta.4

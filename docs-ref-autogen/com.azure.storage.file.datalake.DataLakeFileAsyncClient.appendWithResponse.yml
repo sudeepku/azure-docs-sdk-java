@@ -1,0 +1,41 @@
+### YamlMime:JavaMember
+uid: com.azure.storage.file.datalake.DataLakeFileAsyncClient.appendWithResponse*
+fullName: com.azure.storage.file.datalake.DataLakeFileAsyncClient.appendWithResponse
+name: appendWithResponse
+nameWithType: DataLakeFileAsyncClient.appendWithResponse
+members:
+- uid: com.azure.storage.file.datalake.DataLakeFileAsyncClient.appendWithResponse(reactor.core.publisher.Flux<java.nio.ByteBuffer>,long,long,byte[],java.lang.String)
+  fullName: com.azure.storage.file.datalake.DataLakeFileAsyncClient.appendWithResponse(Flux<ByteBuffer> data, long fileOffset, long length, byte[] contentMd5, String leaseId)
+  name: appendWithResponse(Flux<ByteBuffer> data, long fileOffset, long length, byte[] contentMd5, String leaseId)
+  nameWithType: DataLakeFileAsyncClient.appendWithResponse(Flux<ByteBuffer> data, long fileOffset, long length, byte[] contentMd5, String leaseId)
+  summary: "Appends data to the specified resource to later be flushed (written) by a call to flush\n\n <p><strong>Code Samples</strong></p>\n\n <pre>\n FileRange range = new FileRange&#40;1024, 2048L&#41;;\n DownloadRetryOptions options = new DownloadRetryOptions&#40;&#41;.setMaxRetryRequests&#40;5&#41;;\n byte[] contentMd5 = new byte[0]; &#47;&#47; Replace with valid md5\n \n client.appendWithResponse&#40;data, offset, length, contentMd5, leaseId&#41;.subscribe&#40;response -&gt;\n     System.out.printf&#40;&quot;Append data completed with status %d%n&quot;, response.getStatusCode&#40;&#41;&#41;&#41;;\n </pre>\n\n <p>For more information, see the\n <a href=\"https://docs.microsoft.com/en-us/rest/api/storageservices/datalakestoragegen2/path/update\">Azure\n Docs</a></p>"
+  parameters:
+  - description: The data to write to the file.
+    name: data
+    type: <xref href="reactor.core.publisher.Flux?alt=reactor.core.publisher.Flux&text=Flux" data-throw-if-not-resolved="False" />&lt;<xref href="java.nio.ByteBuffer?alt=java.nio.ByteBuffer&text=ByteBuffer" data-throw-if-not-resolved="False" />&gt;
+  - description: The position where the data is to be appended.
+    name: fileOffset
+    type: <xref href="long?alt=long&text=long" data-throw-if-not-resolved="False" />
+  - description: |-
+      The exact length of the data. It is important that this value match precisely the length of the
+       data emitted by the <code>Flux</code>.
+    name: length
+    type: <xref href="long?alt=long&text=long" data-throw-if-not-resolved="False" />
+  - description: |-
+      An MD5 hash of the content of the data. If specified, the service will calculate the MD5 of the
+       received data and fail the request if it does not match the provided MD5.
+    name: contentMd5
+    type: <xref href="byte?alt=byte&text=byte" data-throw-if-not-resolved="False" />[]
+  - description: |-
+      By setting lease id, requests will fail if the provided lease does not match the active lease on
+       the file.
+    name: leaseId
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  syntax: public Mono<Response<Void>> appendWithResponse(Flux<ByteBuffer> data, long fileOffset, long length, byte[] contentMd5, String leaseId)
+  returns:
+    description: A reactive response signalling completion.
+    type: <xref href="reactor.core.publisher.Mono?alt=reactor.core.publisher.Mono&text=Mono" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.core.http.rest.Response?alt=com.azure.core.http.rest.Response&text=Response" data-throw-if-not-resolved="False" />&lt;<xref href="java.lang.Void?alt=java.lang.Void&text=Void" data-throw-if-not-resolved="False" />&gt;&gt;
+type: method
+metadata: {}
+package: com.azure.storage.file.datalake
+artifact: com.azure:azure-storage-file-datalake:12.2.0

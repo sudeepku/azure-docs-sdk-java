@@ -1,0 +1,45 @@
+### YamlMime:JavaMember
+uid: com.azure.data.schemaregistry.client.implementation.AzureSchemaRegistryRestService.deleteSchemaVersion*
+fullName: com.azure.data.schemaregistry.client.implementation.AzureSchemaRegistryRestService.deleteSchemaVersion
+name: deleteSchemaVersion
+nameWithType: AzureSchemaRegistryRestService.deleteSchemaVersion
+members:
+- uid: com.azure.data.schemaregistry.client.implementation.AzureSchemaRegistryRestService.deleteSchemaVersion(java.lang.String,java.lang.String,int)
+  fullName: com.azure.data.schemaregistry.client.implementation.AzureSchemaRegistryRestService.deleteSchemaVersion(String groupName, String schemaName, int versionNumber)
+  name: deleteSchemaVersion(String groupName, String schemaName, int versionNumber)
+  nameWithType: AzureSchemaRegistryRestService.deleteSchemaVersion(String groupName, String schemaName, int versionNumber)
+  summary: Delete specified version of schema.
+  parameters:
+  - description: schema group.
+    name: groupName
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  - description: schema name.
+    name: schemaName
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  - description: version number.
+    name: versionNumber
+    type: <xref href="int?alt=int&text=int" data-throw-if-not-resolved="False" />
+  syntax: public void deleteSchemaVersion(String groupName, String schemaName, int versionNumber)
+- uid: com.azure.data.schemaregistry.client.implementation.AzureSchemaRegistryRestService.deleteSchemaVersion(java.lang.String,java.lang.String,int,com.azure.core.util.Context)
+  fullName: com.azure.data.schemaregistry.client.implementation.AzureSchemaRegistryRestService.deleteSchemaVersion(String groupName, String schemaName, int versionNumber, Context context)
+  name: deleteSchemaVersion(String groupName, String schemaName, int versionNumber, Context context)
+  nameWithType: AzureSchemaRegistryRestService.deleteSchemaVersion(String groupName, String schemaName, int versionNumber, Context context)
+  summary: Delete specified version of schema.
+  parameters:
+  - description: schema group.
+    name: groupName
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  - description: schema name.
+    name: schemaName
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  - description: version number.
+    name: versionNumber
+    type: <xref href="int?alt=int&text=int" data-throw-if-not-resolved="False" />
+  - description: The context to associate with this operation.
+    name: context
+    type: <xref href="com.azure.core.util.Context?alt=com.azure.core.util.Context&text=Context" data-throw-if-not-resolved="False" />
+  syntax: public void deleteSchemaVersion(String groupName, String schemaName, int versionNumber, Context context)
+type: method
+metadata: {}
+package: com.azure.data.schemaregistry.client.implementation
+artifact: com.azure:azure-data-schemaregistry:1.0.0-beta.1

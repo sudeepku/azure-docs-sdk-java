@@ -1,0 +1,19 @@
+### YamlMime:JavaMember
+uid: com.azure.messaging.servicebus.LockRenewalOperation.getThrowable*
+fullName: com.azure.messaging.servicebus.LockRenewalOperation.getThrowable
+name: getThrowable
+nameWithType: LockRenewalOperation.getThrowable
+members:
+- uid: com.azure.messaging.servicebus.LockRenewalOperation.getThrowable()
+  fullName: com.azure.messaging.servicebus.LockRenewalOperation.getThrowable()
+  name: getThrowable()
+  nameWithType: LockRenewalOperation.getThrowable()
+  summary: Gets the exception if an error occurred whilst renewing the message or session lock.
+  syntax: public Throwable getThrowable()
+  returns:
+    description: the exception if an error occurred whilst renewing the message or session lock, otherwise <code>null</code>.
+    type: <xref href="java.lang.Throwable?alt=java.lang.Throwable&text=Throwable" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.messaging.servicebus
+artifact: com.azure:azure-messaging-servicebus:7.0.0-beta.5

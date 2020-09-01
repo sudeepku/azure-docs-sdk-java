@@ -1,0 +1,23 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.resources.models.ResourceProviderOperationDisplayProperties.withOperation*
+fullName: com.azure.resourcemanager.resources.models.ResourceProviderOperationDisplayProperties.withOperation
+name: withOperation
+nameWithType: ResourceProviderOperationDisplayProperties.withOperation
+members:
+- uid: com.azure.resourcemanager.resources.models.ResourceProviderOperationDisplayProperties.withOperation(java.lang.String)
+  fullName: com.azure.resourcemanager.resources.models.ResourceProviderOperationDisplayProperties.withOperation(String operation)
+  name: withOperation(String operation)
+  nameWithType: ResourceProviderOperationDisplayProperties.withOperation(String operation)
+  summary: 'Set the operation property: Resource provider operation.'
+  parameters:
+  - description: the operation value to set.
+    name: operation
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  syntax: public ResourceProviderOperationDisplayProperties withOperation(String operation)
+  returns:
+    description: the ResourceProviderOperationDisplayProperties object itself.
+    type: <xref href="com.azure.resourcemanager.resources.models.ResourceProviderOperationDisplayProperties?alt=com.azure.resourcemanager.resources.models.ResourceProviderOperationDisplayProperties&text=ResourceProviderOperationDisplayProperties" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.resourcemanager.resources.models
+artifact: com.azure.resourcemanager:azure-resourcemanager-resources:2.0.0-beta.2

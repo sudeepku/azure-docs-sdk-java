@@ -1,0 +1,36 @@
+### YamlMime:JavaMember
+uid: com.azure.storage.file.datalake.DataLakeFileAsyncClient.read*
+fullName: com.azure.storage.file.datalake.DataLakeFileAsyncClient.read
+name: read
+nameWithType: DataLakeFileAsyncClient.read
+members:
+- uid: com.azure.storage.file.datalake.DataLakeFileAsyncClient.read()
+  fullName: com.azure.storage.file.datalake.DataLakeFileAsyncClient.read()
+  name: read()
+  nameWithType: DataLakeFileAsyncClient.read()
+  summary: |-
+    Reads the entire file.
+
+     <p><strong>Code Samples</strong></p>
+
+     <pre>
+     ByteArrayOutputStream downloadData = new ByteArrayOutputStream&#40;&#41;;
+     client.read&#40;&#41;.subscribe&#40;piece -&gt; &#123;
+         try &#123;
+             downloadData.write&#40;piece.array&#40;&#41;&#41;;
+         &#125; catch &#40;IOException ex&#41; &#123;
+             throw new UncheckedIOException&#40;ex&#41;;
+         &#125;
+     &#125;&#41;;
+     </pre>
+
+     <p>For more information, see the
+     <a href="https://docs.microsoft.com/en-us/rest/api/storageservices/get-blob">Azure Docs</a></p>
+  syntax: public Flux<ByteBuffer> read()
+  returns:
+    description: A reactive response containing the file data.
+    type: <xref href="reactor.core.publisher.Flux?alt=reactor.core.publisher.Flux&text=Flux" data-throw-if-not-resolved="False" />&lt;<xref href="java.nio.ByteBuffer?alt=java.nio.ByteBuffer&text=ByteBuffer" data-throw-if-not-resolved="False" />&gt;
+type: method
+metadata: {}
+package: com.azure.storage.file.datalake
+artifact: com.azure:azure-storage-file-datalake:12.2.0

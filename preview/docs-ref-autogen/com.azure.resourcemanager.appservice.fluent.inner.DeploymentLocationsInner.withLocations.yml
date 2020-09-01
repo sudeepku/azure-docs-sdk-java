@@ -1,0 +1,23 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.appservice.fluent.inner.DeploymentLocationsInner.withLocations*
+fullName: com.azure.resourcemanager.appservice.fluent.inner.DeploymentLocationsInner.withLocations
+name: withLocations
+nameWithType: DeploymentLocationsInner.withLocations
+members:
+- uid: com.azure.resourcemanager.appservice.fluent.inner.DeploymentLocationsInner.withLocations(java.util.List<com.azure.resourcemanager.appservice.fluent.inner.GeoRegionInner>)
+  fullName: com.azure.resourcemanager.appservice.fluent.inner.DeploymentLocationsInner.withLocations(List<GeoRegionInner> locations)
+  name: withLocations(List<GeoRegionInner> locations)
+  nameWithType: DeploymentLocationsInner.withLocations(List<GeoRegionInner> locations)
+  summary: 'Set the locations property: Available regions.'
+  parameters:
+  - description: the locations value to set.
+    name: locations
+    type: <xref href="java.util.List?alt=java.util.List&text=List" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.resourcemanager.appservice.fluent.inner.GeoRegionInner?alt=com.azure.resourcemanager.appservice.fluent.inner.GeoRegionInner&text=GeoRegionInner" data-throw-if-not-resolved="False" />&gt;
+  syntax: public DeploymentLocationsInner withLocations(List<GeoRegionInner> locations)
+  returns:
+    description: the DeploymentLocationsInner object itself.
+    type: <xref href="com.azure.resourcemanager.appservice.fluent.inner.DeploymentLocationsInner?alt=com.azure.resourcemanager.appservice.fluent.inner.DeploymentLocationsInner&text=DeploymentLocationsInner" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.resourcemanager.appservice.fluent.inner
+artifact: com.azure.resourcemanager:azure-resourcemanager-appservice:2.0.0-beta.2

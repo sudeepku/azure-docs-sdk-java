@@ -1,0 +1,25 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.appservice.fluent.inner.SiteInner.withEnabled*
+fullName: com.azure.resourcemanager.appservice.fluent.inner.SiteInner.withEnabled
+name: withEnabled
+nameWithType: SiteInner.withEnabled
+members:
+- uid: com.azure.resourcemanager.appservice.fluent.inner.SiteInner.withEnabled(java.lang.Boolean)
+  fullName: com.azure.resourcemanager.appservice.fluent.inner.SiteInner.withEnabled(Boolean enabled)
+  name: withEnabled(Boolean enabled)
+  nameWithType: SiteInner.withEnabled(Boolean enabled)
+  summary: |-
+    Set the enabled property: &lt;code&gt;true&lt;/code&gt; if the app is enabled; otherwise,
+     &lt;code&gt;false&lt;/code&gt;. Setting this value to false disables the app (takes the app offline).
+  parameters:
+  - description: the enabled value to set.
+    name: enabled
+    type: <xref href="java.lang.Boolean?alt=java.lang.Boolean&text=Boolean" data-throw-if-not-resolved="False" />
+  syntax: public SiteInner withEnabled(Boolean enabled)
+  returns:
+    description: the SiteInner object itself.
+    type: <xref href="com.azure.resourcemanager.appservice.fluent.inner.SiteInner?alt=com.azure.resourcemanager.appservice.fluent.inner.SiteInner&text=SiteInner" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.resourcemanager.appservice.fluent.inner
+artifact: com.azure.resourcemanager:azure-resourcemanager-appservice:2.0.0-beta.2

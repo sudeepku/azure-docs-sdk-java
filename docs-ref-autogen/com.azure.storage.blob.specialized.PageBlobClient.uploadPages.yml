@@ -1,0 +1,33 @@
+### YamlMime:JavaMember
+uid: com.azure.storage.blob.specialized.PageBlobClient.uploadPages*
+fullName: com.azure.storage.blob.specialized.PageBlobClient.uploadPages
+name: uploadPages
+nameWithType: PageBlobClient.uploadPages
+members:
+- uid: com.azure.storage.blob.specialized.PageBlobClient.uploadPages(com.azure.storage.blob.models.PageRange,java.io.InputStream)
+  fullName: com.azure.storage.blob.specialized.PageBlobClient.uploadPages(PageRange pageRange, InputStream body)
+  name: uploadPages(PageRange pageRange, InputStream body)
+  nameWithType: PageBlobClient.uploadPages(PageRange pageRange, InputStream body)
+  summary: "Writes one or more pages to the page blob. The write size must be a multiple of 512. For more information, see\n the <a href=\"https://docs.microsoft.com/rest/api/storageservices/put-page\">Azure Docs</a>.\n <p>\n Note that the data passed must be replayable if retries are enabled (the default). In other words, the\n <code>Flux</code> must produce the same data each time it is subscribed to.\n\n <p><strong>Code Samples</strong></p>\n\n <pre>\n PageRange pageRange = new PageRange&#40;&#41;\n     .setStart&#40;0&#41;\n     .setEnd&#40;511&#41;;\n InputStream dataStream = new ByteArrayInputStream&#40;data.getBytes&#40;StandardCharsets.UTF_8&#41;&#41;;\n \n PageBlobItem pageBlob = client.uploadPages&#40;pageRange, dataStream&#41;;\n System.out.printf&#40;&quot;Uploaded page blob with sequence number %s%n&quot;, pageBlob.getBlobSequenceNumber&#40;&#41;&#41;;\n </pre>"
+  parameters:
+  - description: |-
+      A <xref uid="com.azure.storage.blob.models.PageRange" data-throw-if-not-resolved="false">PageRange</xref> object. Given that pages must be aligned with 512-byte boundaries, the start
+       offset must be a modulus of 512 and the end offset must be a modulus of 512 - 1. Examples of valid byte ranges
+       are 0-511, 512-1023, etc.
+    name: pageRange
+    type: <xref href="com.azure.storage.blob.models.PageRange?alt=com.azure.storage.blob.models.PageRange&text=PageRange" data-throw-if-not-resolved="False" />
+  - description: |-
+      The data to upload. The data must be markable. This is in order to support retries. If
+       the data is not markable, consider using <xref uid="com.azure.storage.blob.specialized.PageBlobClient.getBlobOutputStream(com.azure.storage.blob.models.PageRange)" data-throw-if-not-resolved="false">#getBlobOutputStream(PageRange)</xref> and writing to the returned
+       OutputStream. Alternatively, consider wrapping your data source in a <xref uid="" data-throw-if-not-resolved="false">java.io.BufferedInputStream</xref> to add
+       mark support.
+    name: body
+    type: <xref href="java.io.InputStream?alt=java.io.InputStream&text=InputStream" data-throw-if-not-resolved="False" />
+  syntax: public PageBlobItem uploadPages(PageRange pageRange, InputStream body)
+  returns:
+    description: The information of the uploaded pages.
+    type: <xref href="com.azure.storage.blob.models.PageBlobItem?alt=com.azure.storage.blob.models.PageBlobItem&text=PageBlobItem" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.storage.blob.specialized
+artifact: com.azure:azure-storage-blob:12.8.0

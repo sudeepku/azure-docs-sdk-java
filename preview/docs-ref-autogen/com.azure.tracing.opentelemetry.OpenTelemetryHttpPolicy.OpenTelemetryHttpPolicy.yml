@@ -1,0 +1,15 @@
+### YamlMime:JavaMember
+uid: com.azure.tracing.opentelemetry.OpenTelemetryHttpPolicy.OpenTelemetryHttpPolicy*
+fullName: com.azure.tracing.opentelemetry.OpenTelemetryHttpPolicy.OpenTelemetryHttpPolicy
+name: OpenTelemetryHttpPolicy
+nameWithType: OpenTelemetryHttpPolicy.OpenTelemetryHttpPolicy
+members:
+- uid: com.azure.tracing.opentelemetry.OpenTelemetryHttpPolicy.OpenTelemetryHttpPolicy()
+  fullName: com.azure.tracing.opentelemetry.OpenTelemetryHttpPolicy.OpenTelemetryHttpPolicy()
+  name: OpenTelemetryHttpPolicy()
+  nameWithType: OpenTelemetryHttpPolicy.OpenTelemetryHttpPolicy()
+  syntax: public OpenTelemetryHttpPolicy()
+type: constructor
+metadata: {}
+package: com.azure.tracing.opentelemetry
+artifact: com.azure:tracing-opentelemetry:1.0.0-preview.2

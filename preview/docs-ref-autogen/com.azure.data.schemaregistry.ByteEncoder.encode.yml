@@ -1,0 +1,23 @@
+### YamlMime:JavaMember
+uid: com.azure.data.schemaregistry.ByteEncoder.encode*
+fullName: com.azure.data.schemaregistry.ByteEncoder.encode
+name: encode
+nameWithType: ByteEncoder.encode
+members:
+- uid: com.azure.data.schemaregistry.ByteEncoder.encode(java.lang.Object)
+  fullName: com.azure.data.schemaregistry.ByteEncoder.encode(Object object)
+  name: encode(Object object)
+  nameWithType: ByteEncoder.encode(Object object)
+  summary: Converts object into stream containing the encoded representation of the object.
+  parameters:
+  - description: Object to be encoded into byte stream
+    name: object
+    type: <xref href="java.lang.Object?alt=java.lang.Object&text=Object" data-throw-if-not-resolved="False" />
+  syntax: public abstract ByteArrayOutputStream encode(Object object)
+  returns:
+    description: output stream containing byte representation of object
+    type: <xref href="java.io.ByteArrayOutputStream?alt=java.io.ByteArrayOutputStream&text=ByteArrayOutputStream" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.data.schemaregistry
+artifact: com.azure:azure-data-schemaregistry:1.0.0-beta.1

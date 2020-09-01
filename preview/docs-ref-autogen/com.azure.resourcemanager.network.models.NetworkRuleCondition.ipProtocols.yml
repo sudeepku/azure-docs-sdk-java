@@ -1,0 +1,19 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.network.models.NetworkRuleCondition.ipProtocols*
+fullName: com.azure.resourcemanager.network.models.NetworkRuleCondition.ipProtocols
+name: ipProtocols
+nameWithType: NetworkRuleCondition.ipProtocols
+members:
+- uid: com.azure.resourcemanager.network.models.NetworkRuleCondition.ipProtocols()
+  fullName: com.azure.resourcemanager.network.models.NetworkRuleCondition.ipProtocols()
+  name: ipProtocols()
+  nameWithType: NetworkRuleCondition.ipProtocols()
+  summary: 'Get the ipProtocols property: Array of FirewallPolicyRuleConditionNetworkProtocols.'
+  syntax: public List<FirewallPolicyRuleConditionNetworkProtocol> ipProtocols()
+  returns:
+    description: the ipProtocols value.
+    type: <xref href="java.util.List?alt=java.util.List&text=List" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.resourcemanager.network.models.FirewallPolicyRuleConditionNetworkProtocol?alt=com.azure.resourcemanager.network.models.FirewallPolicyRuleConditionNetworkProtocol&text=FirewallPolicyRuleConditionNetworkProtocol" data-throw-if-not-resolved="False" />&gt;
+type: method
+metadata: {}
+package: com.azure.resourcemanager.network.models
+artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.0.0-beta.2

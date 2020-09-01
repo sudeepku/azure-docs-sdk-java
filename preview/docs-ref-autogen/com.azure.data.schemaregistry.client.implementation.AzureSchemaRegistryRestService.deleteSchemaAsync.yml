@@ -1,0 +1,45 @@
+### YamlMime:JavaMember
+uid: com.azure.data.schemaregistry.client.implementation.AzureSchemaRegistryRestService.deleteSchemaAsync*
+fullName: com.azure.data.schemaregistry.client.implementation.AzureSchemaRegistryRestService.deleteSchemaAsync
+name: deleteSchemaAsync
+nameWithType: AzureSchemaRegistryRestService.deleteSchemaAsync
+members:
+- uid: com.azure.data.schemaregistry.client.implementation.AzureSchemaRegistryRestService.deleteSchemaAsync(java.lang.String,java.lang.String)
+  fullName: com.azure.data.schemaregistry.client.implementation.AzureSchemaRegistryRestService.deleteSchemaAsync(String groupName, String schemaName)
+  name: deleteSchemaAsync(String groupName, String schemaName)
+  nameWithType: AzureSchemaRegistryRestService.deleteSchemaAsync(String groupName, String schemaName)
+  summary: Delete schema.
+  parameters:
+  - description: schema group.
+    name: groupName
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  - description: schema name.
+    name: schemaName
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  syntax: public Mono<Void> deleteSchemaAsync(String groupName, String schemaName)
+  returns:
+    description: the completion.
+    type: <xref href="reactor.core.publisher.Mono?alt=reactor.core.publisher.Mono&text=Mono" data-throw-if-not-resolved="False" />&lt;<xref href="java.lang.Void?alt=java.lang.Void&text=Void" data-throw-if-not-resolved="False" />&gt;
+- uid: com.azure.data.schemaregistry.client.implementation.AzureSchemaRegistryRestService.deleteSchemaAsync(java.lang.String,java.lang.String,com.azure.core.util.Context)
+  fullName: com.azure.data.schemaregistry.client.implementation.AzureSchemaRegistryRestService.deleteSchemaAsync(String groupName, String schemaName, Context context)
+  name: deleteSchemaAsync(String groupName, String schemaName, Context context)
+  nameWithType: AzureSchemaRegistryRestService.deleteSchemaAsync(String groupName, String schemaName, Context context)
+  summary: Delete schema.
+  parameters:
+  - description: schema group.
+    name: groupName
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  - description: schema name.
+    name: schemaName
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  - description: The context to associate with this operation.
+    name: context
+    type: <xref href="com.azure.core.util.Context?alt=com.azure.core.util.Context&text=Context" data-throw-if-not-resolved="False" />
+  syntax: public Mono<Void> deleteSchemaAsync(String groupName, String schemaName, Context context)
+  returns:
+    description: the completion.
+    type: <xref href="reactor.core.publisher.Mono?alt=reactor.core.publisher.Mono&text=Mono" data-throw-if-not-resolved="False" />&lt;<xref href="java.lang.Void?alt=java.lang.Void&text=Void" data-throw-if-not-resolved="False" />&gt;
+type: method
+metadata: {}
+package: com.azure.data.schemaregistry.client.implementation
+artifact: com.azure:azure-data-schemaregistry:1.0.0-beta.1

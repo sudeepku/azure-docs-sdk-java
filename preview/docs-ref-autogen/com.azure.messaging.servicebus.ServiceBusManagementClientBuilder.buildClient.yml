@@ -1,0 +1,25 @@
+### YamlMime:JavaMember
+uid: com.azure.messaging.servicebus.ServiceBusManagementClientBuilder.buildClient*
+fullName: com.azure.messaging.servicebus.ServiceBusManagementClientBuilder.buildClient
+name: buildClient
+nameWithType: ServiceBusManagementClientBuilder.buildClient
+members:
+- uid: com.azure.messaging.servicebus.ServiceBusManagementClientBuilder.buildClient()
+  fullName: com.azure.messaging.servicebus.ServiceBusManagementClientBuilder.buildClient()
+  name: buildClient()
+  nameWithType: ServiceBusManagementClientBuilder.buildClient()
+  summary: |-
+    Creates a <xref uid="ServiceBusManagementClient" data-throw-if-not-resolved="false">ServiceBusManagementClient</xref> based on options set in the builder. Every time <code>
+     buildAsyncClient</code> is invoked, a new instance of the client is created.
+
+     <p>If <xref uid="#pipeline(HttpPipeline)" data-throw-if-not-resolved="false">pipeline</xref> is set, then the <code>pipeline</code> and
+     <xref uid="#endpoint(String)" data-throw-if-not-resolved="false">endpoint</xref> are used to create the <xref uid="ServiceBusManagementClient" data-throw-if-not-resolved="false">client</xref>. All other
+     builder settings are ignored.</p>
+  syntax: public ServiceBusManagementClient buildClient()
+  returns:
+    description: A <xref uid="com.azure.messaging.servicebus.ServiceBusManagementClient" data-throw-if-not-resolved="false">ServiceBusManagementClient</xref> with the options set in the builder.
+    type: <xref href="com.azure.messaging.servicebus.ServiceBusManagementClient?alt=com.azure.messaging.servicebus.ServiceBusManagementClient&text=ServiceBusManagementClient" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.messaging.servicebus
+artifact: com.azure:azure-messaging-servicebus:7.0.0-beta.5

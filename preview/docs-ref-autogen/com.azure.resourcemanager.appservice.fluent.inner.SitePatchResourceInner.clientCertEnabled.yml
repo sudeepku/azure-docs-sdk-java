@@ -1,0 +1,22 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.appservice.fluent.inner.SitePatchResourceInner.clientCertEnabled*
+fullName: com.azure.resourcemanager.appservice.fluent.inner.SitePatchResourceInner.clientCertEnabled
+name: clientCertEnabled
+nameWithType: SitePatchResourceInner.clientCertEnabled
+members:
+- uid: com.azure.resourcemanager.appservice.fluent.inner.SitePatchResourceInner.clientCertEnabled()
+  fullName: com.azure.resourcemanager.appservice.fluent.inner.SitePatchResourceInner.clientCertEnabled()
+  name: clientCertEnabled()
+  nameWithType: SitePatchResourceInner.clientCertEnabled()
+  summary: |-
+    Get the clientCertEnabled property: &lt;code&gt;true&lt;/code&gt; to enable client certificate authentication
+     (TLS mutual authentication); otherwise, &lt;code&gt;false&lt;/code&gt;. Default is
+     &lt;code&gt;false&lt;/code&gt;.
+  syntax: public Boolean clientCertEnabled()
+  returns:
+    description: the clientCertEnabled value.
+    type: <xref href="java.lang.Boolean?alt=java.lang.Boolean&text=Boolean" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.resourcemanager.appservice.fluent.inner
+artifact: com.azure.resourcemanager:azure-resourcemanager-appservice:2.0.0-beta.2

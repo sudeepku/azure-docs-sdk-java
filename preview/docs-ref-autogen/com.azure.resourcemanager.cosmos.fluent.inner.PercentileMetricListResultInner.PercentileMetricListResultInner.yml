@@ -1,0 +1,15 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.cosmos.fluent.inner.PercentileMetricListResultInner.PercentileMetricListResultInner*
+fullName: com.azure.resourcemanager.cosmos.fluent.inner.PercentileMetricListResultInner.PercentileMetricListResultInner
+name: PercentileMetricListResultInner
+nameWithType: PercentileMetricListResultInner.PercentileMetricListResultInner
+members:
+- uid: com.azure.resourcemanager.cosmos.fluent.inner.PercentileMetricListResultInner.PercentileMetricListResultInner()
+  fullName: com.azure.resourcemanager.cosmos.fluent.inner.PercentileMetricListResultInner.PercentileMetricListResultInner()
+  name: PercentileMetricListResultInner()
+  nameWithType: PercentileMetricListResultInner.PercentileMetricListResultInner()
+  syntax: public PercentileMetricListResultInner()
+type: constructor
+metadata: {}
+package: com.azure.resourcemanager.cosmos.fluent.inner
+artifact: com.azure.resourcemanager:azure-resourcemanager-cosmos:2.0.0-beta.2

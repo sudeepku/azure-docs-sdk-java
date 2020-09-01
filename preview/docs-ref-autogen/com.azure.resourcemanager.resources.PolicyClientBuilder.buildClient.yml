@@ -1,0 +1,19 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.resources.PolicyClientBuilder.buildClient*
+fullName: com.azure.resourcemanager.resources.PolicyClientBuilder.buildClient
+name: buildClient
+nameWithType: PolicyClientBuilder.buildClient
+members:
+- uid: com.azure.resourcemanager.resources.PolicyClientBuilder.buildClient()
+  fullName: com.azure.resourcemanager.resources.PolicyClientBuilder.buildClient()
+  name: buildClient()
+  nameWithType: PolicyClientBuilder.buildClient()
+  summary: Builds an instance of PolicyClient with the provided parameters.
+  syntax: public PolicyClient buildClient()
+  returns:
+    description: an instance of PolicyClient.
+    type: <xref href="com.azure.resourcemanager.resources.PolicyClient?alt=com.azure.resourcemanager.resources.PolicyClient&text=PolicyClient" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.resourcemanager.resources
+artifact: com.azure.resourcemanager:azure-resourcemanager-resources:2.0.0-beta.2

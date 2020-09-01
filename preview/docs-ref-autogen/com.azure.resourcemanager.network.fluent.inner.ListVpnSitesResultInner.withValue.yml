@@ -1,0 +1,23 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.network.fluent.inner.ListVpnSitesResultInner.withValue*
+fullName: com.azure.resourcemanager.network.fluent.inner.ListVpnSitesResultInner.withValue
+name: withValue
+nameWithType: ListVpnSitesResultInner.withValue
+members:
+- uid: com.azure.resourcemanager.network.fluent.inner.ListVpnSitesResultInner.withValue(java.util.List<com.azure.resourcemanager.network.fluent.inner.VpnSiteInner>)
+  fullName: com.azure.resourcemanager.network.fluent.inner.ListVpnSitesResultInner.withValue(List<VpnSiteInner> value)
+  name: withValue(List<VpnSiteInner> value)
+  nameWithType: ListVpnSitesResultInner.withValue(List<VpnSiteInner> value)
+  summary: 'Set the value property: List of VpnSites.'
+  parameters:
+  - description: the value value to set.
+    name: value
+    type: <xref href="java.util.List?alt=java.util.List&text=List" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.resourcemanager.network.fluent.inner.VpnSiteInner?alt=com.azure.resourcemanager.network.fluent.inner.VpnSiteInner&text=VpnSiteInner" data-throw-if-not-resolved="False" />&gt;
+  syntax: public ListVpnSitesResultInner withValue(List<VpnSiteInner> value)
+  returns:
+    description: the ListVpnSitesResultInner object itself.
+    type: <xref href="com.azure.resourcemanager.network.fluent.inner.ListVpnSitesResultInner?alt=com.azure.resourcemanager.network.fluent.inner.ListVpnSitesResultInner&text=ListVpnSitesResultInner" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.resourcemanager.network.fluent.inner
+artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.0.0-beta.2

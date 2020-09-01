@@ -1,0 +1,19 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.compute.fluent.inner.AvailabilitySetListResultInner.value*
+fullName: com.azure.resourcemanager.compute.fluent.inner.AvailabilitySetListResultInner.value
+name: value
+nameWithType: AvailabilitySetListResultInner.value
+members:
+- uid: com.azure.resourcemanager.compute.fluent.inner.AvailabilitySetListResultInner.value()
+  fullName: com.azure.resourcemanager.compute.fluent.inner.AvailabilitySetListResultInner.value()
+  name: value()
+  nameWithType: AvailabilitySetListResultInner.value()
+  summary: 'Get the value property: The list of availability sets.'
+  syntax: public List<AvailabilitySetInner> value()
+  returns:
+    description: the value value.
+    type: <xref href="java.util.List?alt=java.util.List&text=List" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.resourcemanager.compute.fluent.inner.AvailabilitySetInner?alt=com.azure.resourcemanager.compute.fluent.inner.AvailabilitySetInner&text=AvailabilitySetInner" data-throw-if-not-resolved="False" />&gt;
+type: method
+metadata: {}
+package: com.azure.resourcemanager.compute.fluent.inner
+artifact: com.azure.resourcemanager:azure-resourcemanager-compute:2.0.0-beta.2

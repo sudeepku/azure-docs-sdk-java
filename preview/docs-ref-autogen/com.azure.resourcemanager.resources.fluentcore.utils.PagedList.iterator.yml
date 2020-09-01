@@ -1,0 +1,17 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.resources.fluentcore.utils.PagedList.iterator*
+fullName: com.azure.resourcemanager.resources.fluentcore.utils.PagedList<E>.iterator
+name: iterator
+nameWithType: PagedList<E>.iterator
+members:
+- uid: com.azure.resourcemanager.resources.fluentcore.utils.PagedList.iterator()
+  fullName: com.azure.resourcemanager.resources.fluentcore.utils.PagedList<E>.iterator()
+  name: iterator()
+  nameWithType: PagedList<E>.iterator()
+  syntax: public Iterator<E> iterator()
+  returns:
+    type: <xref href="java.util.Iterator?alt=java.util.Iterator&text=Iterator" data-throw-if-not-resolved="False" />&lt;<xref href="E?alt=E&text=E" data-throw-if-not-resolved="False" />&gt;
+type: method
+metadata: {}
+package: com.azure.resourcemanager.resources.fluentcore.utils
+artifact: com.azure.resourcemanager:azure-resourcemanager-resources:2.0.0-beta.2

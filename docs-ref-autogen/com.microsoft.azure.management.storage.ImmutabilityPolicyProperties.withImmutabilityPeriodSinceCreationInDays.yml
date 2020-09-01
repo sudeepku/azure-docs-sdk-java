@@ -1,0 +1,23 @@
+### YamlMime:JavaMember
+uid: com.microsoft.azure.management.storage.ImmutabilityPolicyProperties.withImmutabilityPeriodSinceCreationInDays*
+fullName: com.microsoft.azure.management.storage.ImmutabilityPolicyProperties.withImmutabilityPeriodSinceCreationInDays
+name: withImmutabilityPeriodSinceCreationInDays
+nameWithType: ImmutabilityPolicyProperties.withImmutabilityPeriodSinceCreationInDays
+members:
+- uid: com.microsoft.azure.management.storage.ImmutabilityPolicyProperties.withImmutabilityPeriodSinceCreationInDays(int)
+  fullName: com.microsoft.azure.management.storage.ImmutabilityPolicyProperties.withImmutabilityPeriodSinceCreationInDays(int immutabilityPeriodSinceCreationInDays)
+  name: withImmutabilityPeriodSinceCreationInDays(int immutabilityPeriodSinceCreationInDays)
+  nameWithType: ImmutabilityPolicyProperties.withImmutabilityPeriodSinceCreationInDays(int immutabilityPeriodSinceCreationInDays)
+  summary: Set the immutability period for the blobs in the container since the policy creation, in days.
+  parameters:
+  - description: the immutabilityPeriodSinceCreationInDays value to set
+    name: immutabilityPeriodSinceCreationInDays
+    type: <xref href="int?alt=int&text=int" data-throw-if-not-resolved="False" />
+  syntax: public ImmutabilityPolicyProperties withImmutabilityPeriodSinceCreationInDays(int immutabilityPeriodSinceCreationInDays)
+  returns:
+    description: the ImmutabilityPolicyProperties object itself.
+    type: <xref href="com.microsoft.azure.management.storage.ImmutabilityPolicyProperties?alt=com.microsoft.azure.management.storage.ImmutabilityPolicyProperties&text=ImmutabilityPolicyProperties" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.microsoft.azure.management.storage
+artifact: com.microsoft.azure:azure-mgmt-storage:1.36.1

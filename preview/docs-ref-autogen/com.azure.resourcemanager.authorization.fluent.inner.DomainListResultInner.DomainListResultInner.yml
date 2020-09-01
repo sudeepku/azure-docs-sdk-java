@@ -1,0 +1,15 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.authorization.fluent.inner.DomainListResultInner.DomainListResultInner*
+fullName: com.azure.resourcemanager.authorization.fluent.inner.DomainListResultInner.DomainListResultInner
+name: DomainListResultInner
+nameWithType: DomainListResultInner.DomainListResultInner
+members:
+- uid: com.azure.resourcemanager.authorization.fluent.inner.DomainListResultInner.DomainListResultInner()
+  fullName: com.azure.resourcemanager.authorization.fluent.inner.DomainListResultInner.DomainListResultInner()
+  name: DomainListResultInner()
+  nameWithType: DomainListResultInner.DomainListResultInner()
+  syntax: public DomainListResultInner()
+type: constructor
+metadata: {}
+package: com.azure.resourcemanager.authorization.fluent.inner
+artifact: com.azure.resourcemanager:azure-resourcemanager-authorization:2.0.0-beta.2

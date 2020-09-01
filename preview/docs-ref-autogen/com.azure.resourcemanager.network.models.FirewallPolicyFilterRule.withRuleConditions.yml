@@ -1,0 +1,23 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.network.models.FirewallPolicyFilterRule.withRuleConditions*
+fullName: com.azure.resourcemanager.network.models.FirewallPolicyFilterRule.withRuleConditions
+name: withRuleConditions
+nameWithType: FirewallPolicyFilterRule.withRuleConditions
+members:
+- uid: com.azure.resourcemanager.network.models.FirewallPolicyFilterRule.withRuleConditions(java.util.List<com.azure.resourcemanager.network.models.FirewallPolicyRuleCondition>)
+  fullName: com.azure.resourcemanager.network.models.FirewallPolicyFilterRule.withRuleConditions(List<FirewallPolicyRuleCondition> ruleConditions)
+  name: withRuleConditions(List<FirewallPolicyRuleCondition> ruleConditions)
+  nameWithType: FirewallPolicyFilterRule.withRuleConditions(List<FirewallPolicyRuleCondition> ruleConditions)
+  summary: 'Set the ruleConditions property: Collection of rule conditions used by a rule.'
+  parameters:
+  - description: the ruleConditions value to set.
+    name: ruleConditions
+    type: <xref href="java.util.List?alt=java.util.List&text=List" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.resourcemanager.network.models.FirewallPolicyRuleCondition?alt=com.azure.resourcemanager.network.models.FirewallPolicyRuleCondition&text=FirewallPolicyRuleCondition" data-throw-if-not-resolved="False" />&gt;
+  syntax: public FirewallPolicyFilterRule withRuleConditions(List<FirewallPolicyRuleCondition> ruleConditions)
+  returns:
+    description: the FirewallPolicyFilterRule object itself.
+    type: <xref href="com.azure.resourcemanager.network.models.FirewallPolicyFilterRule?alt=com.azure.resourcemanager.network.models.FirewallPolicyFilterRule&text=FirewallPolicyFilterRule" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.resourcemanager.network.models
+artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.0.0-beta.2

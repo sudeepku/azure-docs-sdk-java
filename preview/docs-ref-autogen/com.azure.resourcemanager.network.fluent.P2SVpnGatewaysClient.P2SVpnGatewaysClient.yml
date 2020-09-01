@@ -1,0 +1,20 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.network.fluent.P2SVpnGatewaysClient.P2SVpnGatewaysClient*
+fullName: com.azure.resourcemanager.network.fluent.P2SVpnGatewaysClient.P2SVpnGatewaysClient
+name: P2SVpnGatewaysClient
+nameWithType: P2SVpnGatewaysClient.P2SVpnGatewaysClient
+members:
+- uid: com.azure.resourcemanager.network.fluent.P2SVpnGatewaysClient.P2SVpnGatewaysClient(com.azure.resourcemanager.network.NetworkManagementClient)
+  fullName: com.azure.resourcemanager.network.fluent.P2SVpnGatewaysClient.P2SVpnGatewaysClient(NetworkManagementClient client)
+  name: P2SVpnGatewaysClient(NetworkManagementClient client)
+  nameWithType: P2SVpnGatewaysClient.P2SVpnGatewaysClient(NetworkManagementClient client)
+  summary: Initializes an instance of P2SVpnGatewaysClient.
+  parameters:
+  - description: the instance of the service client containing this operation class.
+    name: client
+    type: <xref href="com.azure.resourcemanager.network.NetworkManagementClient?alt=com.azure.resourcemanager.network.NetworkManagementClient&text=NetworkManagementClient" data-throw-if-not-resolved="False" />
+  syntax: public P2SVpnGatewaysClient(NetworkManagementClient client)
+type: constructor
+metadata: {}
+package: com.azure.resourcemanager.network.fluent
+artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.0.0-beta.2

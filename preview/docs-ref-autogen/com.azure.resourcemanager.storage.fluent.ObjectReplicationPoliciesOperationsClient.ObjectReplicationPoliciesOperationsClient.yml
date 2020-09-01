@@ -1,0 +1,20 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.storage.fluent.ObjectReplicationPoliciesOperationsClient.ObjectReplicationPoliciesOperationsClient*
+fullName: com.azure.resourcemanager.storage.fluent.ObjectReplicationPoliciesOperationsClient.ObjectReplicationPoliciesOperationsClient
+name: ObjectReplicationPoliciesOperationsClient
+nameWithType: ObjectReplicationPoliciesOperationsClient.ObjectReplicationPoliciesOperationsClient
+members:
+- uid: com.azure.resourcemanager.storage.fluent.ObjectReplicationPoliciesOperationsClient.ObjectReplicationPoliciesOperationsClient(com.azure.resourcemanager.storage.StorageManagementClient)
+  fullName: com.azure.resourcemanager.storage.fluent.ObjectReplicationPoliciesOperationsClient.ObjectReplicationPoliciesOperationsClient(StorageManagementClient client)
+  name: ObjectReplicationPoliciesOperationsClient(StorageManagementClient client)
+  nameWithType: ObjectReplicationPoliciesOperationsClient.ObjectReplicationPoliciesOperationsClient(StorageManagementClient client)
+  summary: Initializes an instance of ObjectReplicationPoliciesOperationsClient.
+  parameters:
+  - description: the instance of the service client containing this operation class.
+    name: client
+    type: <xref href="com.azure.resourcemanager.storage.StorageManagementClient?alt=com.azure.resourcemanager.storage.StorageManagementClient&text=StorageManagementClient" data-throw-if-not-resolved="False" />
+  syntax: public ObjectReplicationPoliciesOperationsClient(StorageManagementClient client)
+type: constructor
+metadata: {}
+package: com.azure.resourcemanager.storage.fluent
+artifact: com.azure.resourcemanager:azure-resourcemanager-storage:2.0.0-beta.2

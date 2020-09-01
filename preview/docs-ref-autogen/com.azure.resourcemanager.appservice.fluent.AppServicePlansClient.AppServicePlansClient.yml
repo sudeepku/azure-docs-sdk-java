@@ -1,0 +1,20 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.appservice.fluent.AppServicePlansClient.AppServicePlansClient*
+fullName: com.azure.resourcemanager.appservice.fluent.AppServicePlansClient.AppServicePlansClient
+name: AppServicePlansClient
+nameWithType: AppServicePlansClient.AppServicePlansClient
+members:
+- uid: com.azure.resourcemanager.appservice.fluent.AppServicePlansClient.AppServicePlansClient(com.azure.resourcemanager.appservice.WebSiteManagementClient)
+  fullName: com.azure.resourcemanager.appservice.fluent.AppServicePlansClient.AppServicePlansClient(WebSiteManagementClient client)
+  name: AppServicePlansClient(WebSiteManagementClient client)
+  nameWithType: AppServicePlansClient.AppServicePlansClient(WebSiteManagementClient client)
+  summary: Initializes an instance of AppServicePlansClient.
+  parameters:
+  - description: the instance of the service client containing this operation class.
+    name: client
+    type: <xref href="com.azure.resourcemanager.appservice.WebSiteManagementClient?alt=com.azure.resourcemanager.appservice.WebSiteManagementClient&text=WebSiteManagementClient" data-throw-if-not-resolved="False" />
+  syntax: public AppServicePlansClient(WebSiteManagementClient client)
+type: constructor
+metadata: {}
+package: com.azure.resourcemanager.appservice.fluent
+artifact: com.azure.resourcemanager:azure-resourcemanager-appservice:2.0.0-beta.2

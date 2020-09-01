@@ -1,0 +1,23 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.network.models.ConnectionMonitorResultProperties.withMonitoringStatus*
+fullName: com.azure.resourcemanager.network.models.ConnectionMonitorResultProperties.withMonitoringStatus
+name: withMonitoringStatus
+nameWithType: ConnectionMonitorResultProperties.withMonitoringStatus
+members:
+- uid: com.azure.resourcemanager.network.models.ConnectionMonitorResultProperties.withMonitoringStatus(java.lang.String)
+  fullName: com.azure.resourcemanager.network.models.ConnectionMonitorResultProperties.withMonitoringStatus(String monitoringStatus)
+  name: withMonitoringStatus(String monitoringStatus)
+  nameWithType: ConnectionMonitorResultProperties.withMonitoringStatus(String monitoringStatus)
+  summary: 'Set the monitoringStatus property: The monitoring status of the connection monitor.'
+  parameters:
+  - description: the monitoringStatus value to set.
+    name: monitoringStatus
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  syntax: public ConnectionMonitorResultProperties withMonitoringStatus(String monitoringStatus)
+  returns:
+    description: the ConnectionMonitorResultProperties object itself.
+    type: <xref href="com.azure.resourcemanager.network.models.ConnectionMonitorResultProperties?alt=com.azure.resourcemanager.network.models.ConnectionMonitorResultProperties&text=ConnectionMonitorResultProperties" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.resourcemanager.network.models
+artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.0.0-beta.2

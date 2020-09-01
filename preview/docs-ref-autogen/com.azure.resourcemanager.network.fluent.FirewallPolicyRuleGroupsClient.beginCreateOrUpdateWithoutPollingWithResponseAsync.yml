@@ -1,0 +1,57 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.network.fluent.FirewallPolicyRuleGroupsClient.beginCreateOrUpdateWithoutPollingWithResponseAsync*
+fullName: com.azure.resourcemanager.network.fluent.FirewallPolicyRuleGroupsClient.beginCreateOrUpdateWithoutPollingWithResponseAsync
+name: beginCreateOrUpdateWithoutPollingWithResponseAsync
+nameWithType: FirewallPolicyRuleGroupsClient.beginCreateOrUpdateWithoutPollingWithResponseAsync
+members:
+- uid: com.azure.resourcemanager.network.fluent.FirewallPolicyRuleGroupsClient.beginCreateOrUpdateWithoutPollingWithResponseAsync(java.lang.String,java.lang.String,java.lang.String,com.azure.resourcemanager.network.fluent.inner.FirewallPolicyRuleGroupInner)
+  fullName: com.azure.resourcemanager.network.fluent.FirewallPolicyRuleGroupsClient.beginCreateOrUpdateWithoutPollingWithResponseAsync(String resourceGroupName, String firewallPolicyName, String ruleGroupName, FirewallPolicyRuleGroupInner parameters)
+  name: beginCreateOrUpdateWithoutPollingWithResponseAsync(String resourceGroupName, String firewallPolicyName, String ruleGroupName, FirewallPolicyRuleGroupInner parameters)
+  nameWithType: FirewallPolicyRuleGroupsClient.beginCreateOrUpdateWithoutPollingWithResponseAsync(String resourceGroupName, String firewallPolicyName, String ruleGroupName, FirewallPolicyRuleGroupInner parameters)
+  summary: Creates or updates the specified FirewallPolicyRuleGroup.
+  parameters:
+  - description: The name of the resource group.
+    name: resourceGroupName
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  - description: The name of the Firewall Policy.
+    name: firewallPolicyName
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  - description: The name of the FirewallPolicyRuleGroup.
+    name: ruleGroupName
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  - description: Rule Group resource.
+    name: parameters
+    type: <xref href="com.azure.resourcemanager.network.fluent.inner.FirewallPolicyRuleGroupInner?alt=com.azure.resourcemanager.network.fluent.inner.FirewallPolicyRuleGroupInner&text=FirewallPolicyRuleGroupInner" data-throw-if-not-resolved="False" />
+  syntax: public Mono<Response<FirewallPolicyRuleGroupInner>> beginCreateOrUpdateWithoutPollingWithResponseAsync(String resourceGroupName, String firewallPolicyName, String ruleGroupName, FirewallPolicyRuleGroupInner parameters)
+  returns:
+    description: rule Group resource.
+    type: <xref href="reactor.core.publisher.Mono?alt=reactor.core.publisher.Mono&text=Mono" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.core.http.rest.Response?alt=com.azure.core.http.rest.Response&text=Response" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.resourcemanager.network.fluent.inner.FirewallPolicyRuleGroupInner?alt=com.azure.resourcemanager.network.fluent.inner.FirewallPolicyRuleGroupInner&text=FirewallPolicyRuleGroupInner" data-throw-if-not-resolved="False" />&gt;&gt;
+- uid: com.azure.resourcemanager.network.fluent.FirewallPolicyRuleGroupsClient.beginCreateOrUpdateWithoutPollingWithResponseAsync(java.lang.String,java.lang.String,java.lang.String,com.azure.resourcemanager.network.fluent.inner.FirewallPolicyRuleGroupInner,com.azure.core.util.Context)
+  fullName: com.azure.resourcemanager.network.fluent.FirewallPolicyRuleGroupsClient.beginCreateOrUpdateWithoutPollingWithResponseAsync(String resourceGroupName, String firewallPolicyName, String ruleGroupName, FirewallPolicyRuleGroupInner parameters, Context context)
+  name: beginCreateOrUpdateWithoutPollingWithResponseAsync(String resourceGroupName, String firewallPolicyName, String ruleGroupName, FirewallPolicyRuleGroupInner parameters, Context context)
+  nameWithType: FirewallPolicyRuleGroupsClient.beginCreateOrUpdateWithoutPollingWithResponseAsync(String resourceGroupName, String firewallPolicyName, String ruleGroupName, FirewallPolicyRuleGroupInner parameters, Context context)
+  summary: Creates or updates the specified FirewallPolicyRuleGroup.
+  parameters:
+  - description: The name of the resource group.
+    name: resourceGroupName
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  - description: The name of the Firewall Policy.
+    name: firewallPolicyName
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  - description: The name of the FirewallPolicyRuleGroup.
+    name: ruleGroupName
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  - description: Rule Group resource.
+    name: parameters
+    type: <xref href="com.azure.resourcemanager.network.fluent.inner.FirewallPolicyRuleGroupInner?alt=com.azure.resourcemanager.network.fluent.inner.FirewallPolicyRuleGroupInner&text=FirewallPolicyRuleGroupInner" data-throw-if-not-resolved="False" />
+  - description: The context to associate with this operation.
+    name: context
+    type: <xref href="com.azure.core.util.Context?alt=com.azure.core.util.Context&text=Context" data-throw-if-not-resolved="False" />
+  syntax: public Mono<Response<FirewallPolicyRuleGroupInner>> beginCreateOrUpdateWithoutPollingWithResponseAsync(String resourceGroupName, String firewallPolicyName, String ruleGroupName, FirewallPolicyRuleGroupInner parameters, Context context)
+  returns:
+    description: rule Group resource.
+    type: <xref href="reactor.core.publisher.Mono?alt=reactor.core.publisher.Mono&text=Mono" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.core.http.rest.Response?alt=com.azure.core.http.rest.Response&text=Response" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.resourcemanager.network.fluent.inner.FirewallPolicyRuleGroupInner?alt=com.azure.resourcemanager.network.fluent.inner.FirewallPolicyRuleGroupInner&text=FirewallPolicyRuleGroupInner" data-throw-if-not-resolved="False" />&gt;&gt;
+type: method
+metadata: {}
+package: com.azure.resourcemanager.network.fluent
+artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.0.0-beta.2

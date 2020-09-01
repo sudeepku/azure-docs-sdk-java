@@ -1,0 +1,29 @@
+### YamlMime:JavaMember
+nameWithType: ListManagementImageLists.refreshIndexMethod
+type: method
+members:
+- fullName: com.microsoft.azure.cognitiveservices.vision.contentmoderator.ListManagementImageLists.refreshIndexMethod(String listId)
+  name: refreshIndexMethod(String listId)
+  nameWithType: ListManagementImageLists.refreshIndexMethod(String listId)
+  parameters:
+  - description: <p>List Id of the image list. </p>
+    name: listId
+    type: <xref href="String?alt=String&text=String" data-throw-if-not-resolved="False"/>
+  exceptions:
+  - name: 3c87bd19
+  - name: 3690e14b
+  - name: 9b2a4515
+  returns:
+    description: <p>the RefreshIndex object if successful. </p>
+    type: <xref href="com.microsoft.azure.cognitiveservices.vision.contentmoderator.models.RefreshIndex?alt=com.microsoft.azure.cognitiveservices.vision.contentmoderator.models.RefreshIndex&text=RefreshIndex" data-throw-if-not-resolved="False"/>
+  summary: >-
+    <p>Refreshes the index of the list with list Id equal to list Id passed.</p>
+
+    <p></p>
+  syntax: public RefreshIndex refreshIndexMethod(String listId)
+  uid: com.microsoft.azure.cognitiveservices.vision.contentmoderator.ListManagementImageLists.refreshIndexMethod(String)
+uid: com.microsoft.azure.cognitiveservices.vision.contentmoderator.ListManagementImageLists.refreshIndexMethod*
+fullName: com.microsoft.azure.cognitiveservices.vision.contentmoderator.ListManagementImageLists.refreshIndexMethod(String listId)
+name: refreshIndexMethod(String listId)
+package: com.microsoft.azure.cognitiveservices.vision.contentmoderator
+metadata: {}

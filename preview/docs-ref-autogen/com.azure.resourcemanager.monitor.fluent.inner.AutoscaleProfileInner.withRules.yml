@@ -1,0 +1,25 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.monitor.fluent.inner.AutoscaleProfileInner.withRules*
+fullName: com.azure.resourcemanager.monitor.fluent.inner.AutoscaleProfileInner.withRules
+name: withRules
+nameWithType: AutoscaleProfileInner.withRules
+members:
+- uid: com.azure.resourcemanager.monitor.fluent.inner.AutoscaleProfileInner.withRules(java.util.List<com.azure.resourcemanager.monitor.fluent.inner.ScaleRuleInner>)
+  fullName: com.azure.resourcemanager.monitor.fluent.inner.AutoscaleProfileInner.withRules(List<ScaleRuleInner> rules)
+  name: withRules(List<ScaleRuleInner> rules)
+  nameWithType: AutoscaleProfileInner.withRules(List<ScaleRuleInner> rules)
+  summary: |-
+    Set the rules property: the collection of rules that provide the triggers and parameters for the scaling action.
+     A maximum of 10 rules can be specified.
+  parameters:
+  - description: the rules value to set.
+    name: rules
+    type: <xref href="java.util.List?alt=java.util.List&text=List" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.resourcemanager.monitor.fluent.inner.ScaleRuleInner?alt=com.azure.resourcemanager.monitor.fluent.inner.ScaleRuleInner&text=ScaleRuleInner" data-throw-if-not-resolved="False" />&gt;
+  syntax: public AutoscaleProfileInner withRules(List<ScaleRuleInner> rules)
+  returns:
+    description: the AutoscaleProfileInner object itself.
+    type: <xref href="com.azure.resourcemanager.monitor.fluent.inner.AutoscaleProfileInner?alt=com.azure.resourcemanager.monitor.fluent.inner.AutoscaleProfileInner&text=AutoscaleProfileInner" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.resourcemanager.monitor.fluent.inner
+artifact: com.azure.resourcemanager:azure-resourcemanager-monitor:2.0.0-beta.2

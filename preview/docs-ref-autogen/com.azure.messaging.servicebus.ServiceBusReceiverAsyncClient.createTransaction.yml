@@ -1,0 +1,19 @@
+### YamlMime:JavaMember
+uid: com.azure.messaging.servicebus.ServiceBusReceiverAsyncClient.createTransaction*
+fullName: com.azure.messaging.servicebus.ServiceBusReceiverAsyncClient.createTransaction
+name: createTransaction
+nameWithType: ServiceBusReceiverAsyncClient.createTransaction
+members:
+- uid: com.azure.messaging.servicebus.ServiceBusReceiverAsyncClient.createTransaction()
+  fullName: com.azure.messaging.servicebus.ServiceBusReceiverAsyncClient.createTransaction()
+  name: createTransaction()
+  nameWithType: ServiceBusReceiverAsyncClient.createTransaction()
+  summary: "Starts a new service side transaction. The <xref uid=\"ServiceBusTransactionContext\" data-throw-if-not-resolved=\"false\">ServiceBusTransactionContext</xref> should be passed to all\n operations that needs to be in this transaction.\n\n <p><strong>Create a transaction</strong></p>\n <pre>\n &#47;&#47; Hold the transaction.\n AtomicReference&lt;ServiceBusTransactionContext&gt; transaction = new AtomicReference&lt;&gt;&#40;&#41;;\n \n &#47;&#47; Keep a reference to `subscription`. When the program is finished receiving messages, call\n &#47;&#47; subscription.dispose&#40;&#41;. This will dispose it cleanly.\n Disposable subscriber = receiver.createTransaction&#40;&#41;\n     .flatMap&#40;transactionContext -&gt; &#123;\n         transaction.set&#40;transactionContext&#41;;\n         System.out.println&#40;&quot;Transaction is created.&quot;&#41;;\n         return Mono.empty&#40;&#41;;\n     &#125;&#41;\n     .subscribe&#40;&#41;;\n \n </pre>"
+  syntax: public Mono<ServiceBusTransactionContext> createTransaction()
+  returns:
+    description: The <xref uid="reactor.core.publisher.Mono" data-throw-if-not-resolved="false">Mono</xref> that finishes this operation on service bus resource.
+    type: <xref href="reactor.core.publisher.Mono?alt=reactor.core.publisher.Mono&text=Mono" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.messaging.servicebus.ServiceBusTransactionContext?alt=com.azure.messaging.servicebus.ServiceBusTransactionContext&text=ServiceBusTransactionContext" data-throw-if-not-resolved="False" />&gt;
+type: method
+metadata: {}
+package: com.azure.messaging.servicebus
+artifact: com.azure:azure-messaging-servicebus:7.0.0-beta.5

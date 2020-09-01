@@ -1,0 +1,29 @@
+### YamlMime:JavaMember
+uid: com.azure.ai.textanalytics.models.ExtractKeyPhraseResult.ExtractKeyPhraseResult*
+fullName: com.azure.ai.textanalytics.models.ExtractKeyPhraseResult.ExtractKeyPhraseResult
+name: ExtractKeyPhraseResult
+nameWithType: ExtractKeyPhraseResult.ExtractKeyPhraseResult
+members:
+- uid: com.azure.ai.textanalytics.models.ExtractKeyPhraseResult.ExtractKeyPhraseResult(java.lang.String,com.azure.ai.textanalytics.models.TextDocumentStatistics,com.azure.ai.textanalytics.models.TextAnalyticsError,com.azure.core.util.IterableStream<java.lang.String>)
+  fullName: com.azure.ai.textanalytics.models.ExtractKeyPhraseResult.ExtractKeyPhraseResult(String id, TextDocumentStatistics textDocumentStatistics, TextAnalyticsError error, IterableStream<String> keyPhrases)
+  name: ExtractKeyPhraseResult(String id, TextDocumentStatistics textDocumentStatistics, TextAnalyticsError error, IterableStream<String> keyPhrases)
+  nameWithType: ExtractKeyPhraseResult.ExtractKeyPhraseResult(String id, TextDocumentStatistics textDocumentStatistics, TextAnalyticsError error, IterableStream<String> keyPhrases)
+  summary: Create a <xref uid="ExtractKeyPhraseResult" data-throw-if-not-resolved="false">ExtractKeyPhraseResult</xref> model that describes extracted key phrases result.
+  parameters:
+  - description: Unique, non-empty document identifier.
+    name: id
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  - description: The text document statistics.
+    name: textDocumentStatistics
+    type: <xref href="com.azure.ai.textanalytics.models.TextDocumentStatistics?alt=com.azure.ai.textanalytics.models.TextDocumentStatistics&text=TextDocumentStatistics" data-throw-if-not-resolved="False" />
+  - description: The document error.
+    name: error
+    type: <xref href="com.azure.ai.textanalytics.models.TextAnalyticsError?alt=com.azure.ai.textanalytics.models.TextAnalyticsError&text=TextAnalyticsError" data-throw-if-not-resolved="False" />
+  - description: A list of key phrases string.
+    name: keyPhrases
+    type: <xref href="com.azure.core.util.IterableStream?alt=com.azure.core.util.IterableStream&text=IterableStream" data-throw-if-not-resolved="False" />&lt;<xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />&gt;
+  syntax: public ExtractKeyPhraseResult(String id, TextDocumentStatistics textDocumentStatistics, TextAnalyticsError error, IterableStream<String> keyPhrases)
+type: constructor
+metadata: {}
+package: com.azure.ai.textanalytics.models
+artifact: com.azure:azure-ai-textanalytics:1.0.0-beta.4

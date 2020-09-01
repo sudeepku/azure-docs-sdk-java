@@ -1,0 +1,18 @@
+### YamlMime:JavaMember
+uid: com.azure.core.implementation.serializer.jsonwrapper.jacksonwrapper.JacksonPlugin.getType*
+fullName: com.azure.core.implementation.serializer.jsonwrapper.jacksonwrapper.JacksonPlugin.getType
+name: getType
+nameWithType: JacksonPlugin.getType
+members:
+- uid: com.azure.core.implementation.serializer.jsonwrapper.jacksonwrapper.JacksonPlugin.getType()
+  fullName: com.azure.core.implementation.serializer.jsonwrapper.jacksonwrapper.JacksonPlugin.getType()
+  name: getType()
+  nameWithType: JacksonPlugin.getType()
+  summary: The class type of the JSON Wrapper implementation
+  syntax: public Class<? extends JsonApi> getType()
+  returns:
+    type: <xref href="java.lang.Class?alt=java.lang.Class&text=Class" data-throw-if-not-resolved="False" />&lt;<xref href="? extends com.azure.core.implementation.serializer.jsonwrapper.api.JsonApi?alt=? extends com.azure.core.implementation.serializer.jsonwrapper.api.JsonApi&text=JsonApi" data-throw-if-not-resolved="False" />&gt;
+type: method
+metadata: {}
+package: com.azure.core.implementation.serializer.jsonwrapper.jacksonwrapper
+artifact: com.azure:azure-core:1.3.0-beta.1

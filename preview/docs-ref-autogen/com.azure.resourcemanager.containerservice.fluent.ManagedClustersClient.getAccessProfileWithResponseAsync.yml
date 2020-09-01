@@ -1,0 +1,59 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.containerservice.fluent.ManagedClustersClient.getAccessProfileWithResponseAsync*
+fullName: com.azure.resourcemanager.containerservice.fluent.ManagedClustersClient.getAccessProfileWithResponseAsync
+name: getAccessProfileWithResponseAsync
+nameWithType: ManagedClustersClient.getAccessProfileWithResponseAsync
+members:
+- uid: com.azure.resourcemanager.containerservice.fluent.ManagedClustersClient.getAccessProfileWithResponseAsync(java.lang.String,java.lang.String,java.lang.String)
+  fullName: com.azure.resourcemanager.containerservice.fluent.ManagedClustersClient.getAccessProfileWithResponseAsync(String resourceGroupName, String resourceName, String roleName)
+  name: getAccessProfileWithResponseAsync(String resourceGroupName, String resourceName, String roleName)
+  nameWithType: ManagedClustersClient.getAccessProfileWithResponseAsync(String resourceGroupName, String resourceName, String roleName)
+  summary: |-
+    Gets the accessProfile for the specified role name of the managed cluster with a specified resource group and
+     name.
+  parameters:
+  - description: The name of the resource group.
+    name: resourceGroupName
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  - description: The name of the managed cluster resource.
+    name: resourceName
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  - description: The name of the role for managed cluster accessProfile resource.
+    name: roleName
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  syntax: public Mono<Response<ManagedClusterAccessProfileInner>> getAccessProfileWithResponseAsync(String resourceGroupName, String resourceName, String roleName)
+  returns:
+    description: |-
+      the accessProfile for the specified role name of the managed cluster with a specified resource group and
+           name.
+    type: <xref href="reactor.core.publisher.Mono?alt=reactor.core.publisher.Mono&text=Mono" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.core.http.rest.Response?alt=com.azure.core.http.rest.Response&text=Response" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.resourcemanager.containerservice.fluent.inner.ManagedClusterAccessProfileInner?alt=com.azure.resourcemanager.containerservice.fluent.inner.ManagedClusterAccessProfileInner&text=ManagedClusterAccessProfileInner" data-throw-if-not-resolved="False" />&gt;&gt;
+- uid: com.azure.resourcemanager.containerservice.fluent.ManagedClustersClient.getAccessProfileWithResponseAsync(java.lang.String,java.lang.String,java.lang.String,com.azure.core.util.Context)
+  fullName: com.azure.resourcemanager.containerservice.fluent.ManagedClustersClient.getAccessProfileWithResponseAsync(String resourceGroupName, String resourceName, String roleName, Context context)
+  name: getAccessProfileWithResponseAsync(String resourceGroupName, String resourceName, String roleName, Context context)
+  nameWithType: ManagedClustersClient.getAccessProfileWithResponseAsync(String resourceGroupName, String resourceName, String roleName, Context context)
+  summary: |-
+    Gets the accessProfile for the specified role name of the managed cluster with a specified resource group and
+     name.
+  parameters:
+  - description: The name of the resource group.
+    name: resourceGroupName
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  - description: The name of the managed cluster resource.
+    name: resourceName
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  - description: The name of the role for managed cluster accessProfile resource.
+    name: roleName
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  - description: The context to associate with this operation.
+    name: context
+    type: <xref href="com.azure.core.util.Context?alt=com.azure.core.util.Context&text=Context" data-throw-if-not-resolved="False" />
+  syntax: public Mono<Response<ManagedClusterAccessProfileInner>> getAccessProfileWithResponseAsync(String resourceGroupName, String resourceName, String roleName, Context context)
+  returns:
+    description: |-
+      the accessProfile for the specified role name of the managed cluster with a specified resource group and
+           name.
+    type: <xref href="reactor.core.publisher.Mono?alt=reactor.core.publisher.Mono&text=Mono" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.core.http.rest.Response?alt=com.azure.core.http.rest.Response&text=Response" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.resourcemanager.containerservice.fluent.inner.ManagedClusterAccessProfileInner?alt=com.azure.resourcemanager.containerservice.fluent.inner.ManagedClusterAccessProfileInner&text=ManagedClusterAccessProfileInner" data-throw-if-not-resolved="False" />&gt;&gt;
+type: method
+metadata: {}
+package: com.azure.resourcemanager.containerservice.fluent
+artifact: com.azure.resourcemanager:azure-resourcemanager-containerservice:2.0.0-beta.2

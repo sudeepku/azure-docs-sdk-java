@@ -1,0 +1,23 @@
+### YamlMime:JavaMember
+uid: com.azure.data.schemaregistry.client.implementation.models.SchemaGroup.setSchemaCompatibility*
+fullName: com.azure.data.schemaregistry.client.implementation.models.SchemaGroup.setSchemaCompatibility
+name: setSchemaCompatibility
+nameWithType: SchemaGroup.setSchemaCompatibility
+members:
+- uid: com.azure.data.schemaregistry.client.implementation.models.SchemaGroup.setSchemaCompatibility(java.lang.Integer)
+  fullName: com.azure.data.schemaregistry.client.implementation.models.SchemaGroup.setSchemaCompatibility(Integer schemaCompatibility)
+  name: setSchemaCompatibility(Integer schemaCompatibility)
+  nameWithType: SchemaGroup.setSchemaCompatibility(Integer schemaCompatibility)
+  summary: 'Set the schemaCompatibility property: schema compatibility mode enum, defined by supported schema type.'
+  parameters:
+  - description: the schemaCompatibility value to set.
+    name: schemaCompatibility
+    type: <xref href="java.lang.Integer?alt=java.lang.Integer&text=Integer" data-throw-if-not-resolved="False" />
+  syntax: public SchemaGroup setSchemaCompatibility(Integer schemaCompatibility)
+  returns:
+    description: the SchemaGroup object itself.
+    type: <xref href="com.azure.data.schemaregistry.client.implementation.models.SchemaGroup?alt=com.azure.data.schemaregistry.client.implementation.models.SchemaGroup&text=SchemaGroup" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.data.schemaregistry.client.implementation.models
+artifact: com.azure:azure-data-schemaregistry:1.0.0-beta.1

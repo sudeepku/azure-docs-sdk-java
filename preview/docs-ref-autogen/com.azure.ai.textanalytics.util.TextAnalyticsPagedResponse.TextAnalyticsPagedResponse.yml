@@ -1,0 +1,40 @@
+### YamlMime:JavaMember
+uid: com.azure.ai.textanalytics.util.TextAnalyticsPagedResponse.TextAnalyticsPagedResponse*
+fullName: com.azure.ai.textanalytics.util.TextAnalyticsPagedResponse<T>.TextAnalyticsPagedResponse
+name: TextAnalyticsPagedResponse
+nameWithType: TextAnalyticsPagedResponse<T>.TextAnalyticsPagedResponse
+members:
+- uid: com.azure.ai.textanalytics.util.TextAnalyticsPagedResponse.TextAnalyticsPagedResponse(com.azure.core.http.HttpRequest,int,com.azure.core.http.HttpHeaders,java.util.List<T>,java.lang.String,java.lang.String,com.azure.ai.textanalytics.models.TextDocumentBatchStatistics)
+  fullName: com.azure.ai.textanalytics.util.TextAnalyticsPagedResponse<T>.TextAnalyticsPagedResponse(HttpRequest request, int statusCode, HttpHeaders headers, List<T> items, String continuationToken, String modelVersion, TextDocumentBatchStatistics statistics)
+  name: TextAnalyticsPagedResponse(HttpRequest request, int statusCode, HttpHeaders headers, List<T> items, String continuationToken, String modelVersion, TextDocumentBatchStatistics statistics)
+  nameWithType: TextAnalyticsPagedResponse<T>.TextAnalyticsPagedResponse(HttpRequest request, int statusCode, HttpHeaders headers, List<T> items, String continuationToken, String modelVersion, TextDocumentBatchStatistics statistics)
+  summary: Create a new instance of the <xref uid="TextAnalyticsPagedResponse" data-throw-if-not-resolved="false">TextAnalyticsPagedResponse</xref>.
+  parameters:
+  - description: The HttpRequest that was sent to the service whose response resulted in this response.
+    name: request
+    type: <xref href="com.azure.core.http.HttpRequest?alt=com.azure.core.http.HttpRequest&text=HttpRequest" data-throw-if-not-resolved="False" />
+  - description: The status code from the response.
+    name: statusCode
+    type: <xref href="int?alt=int&text=int" data-throw-if-not-resolved="False" />
+  - description: The headers from the response.
+    name: headers
+    type: <xref href="com.azure.core.http.HttpHeaders?alt=com.azure.core.http.HttpHeaders&text=HttpHeaders" data-throw-if-not-resolved="False" />
+  - description: The items returned from the service within the response.
+    name: items
+    type: <xref href="java.util.List?alt=java.util.List&text=List" data-throw-if-not-resolved="False" />&lt;<xref href="T?alt=T&text=T" data-throw-if-not-resolved="False" />&gt;
+  - description: |-
+      The continuation token returned from the service, to enable future requests to pick up
+            from the same place in the paged iteration.
+    name: continuationToken
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  - description: The model version trained in service for the request.
+    name: modelVersion
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  - description: The batch statistics of response.
+    name: statistics
+    type: <xref href="com.azure.ai.textanalytics.models.TextDocumentBatchStatistics?alt=com.azure.ai.textanalytics.models.TextDocumentBatchStatistics&text=TextDocumentBatchStatistics" data-throw-if-not-resolved="False" />
+  syntax: public TextAnalyticsPagedResponse(HttpRequest request, int statusCode, HttpHeaders headers, List<T> items, String continuationToken, String modelVersion, TextDocumentBatchStatistics statistics)
+type: constructor
+metadata: {}
+package: com.azure.ai.textanalytics.util
+artifact: com.azure:azure-ai-textanalytics:1.0.0-beta.4

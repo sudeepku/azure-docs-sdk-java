@@ -1,0 +1,15 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.cosmos.fluent.inner.TableGetResultsInner.TableGetResultsInner*
+fullName: com.azure.resourcemanager.cosmos.fluent.inner.TableGetResultsInner.TableGetResultsInner
+name: TableGetResultsInner
+nameWithType: TableGetResultsInner.TableGetResultsInner
+members:
+- uid: com.azure.resourcemanager.cosmos.fluent.inner.TableGetResultsInner.TableGetResultsInner()
+  fullName: com.azure.resourcemanager.cosmos.fluent.inner.TableGetResultsInner.TableGetResultsInner()
+  name: TableGetResultsInner()
+  nameWithType: TableGetResultsInner.TableGetResultsInner()
+  syntax: public TableGetResultsInner()
+type: constructor
+metadata: {}
+package: com.azure.resourcemanager.cosmos.fluent.inner
+artifact: com.azure.resourcemanager:azure-resourcemanager-cosmos:2.0.0-beta.2

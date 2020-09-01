@@ -1,0 +1,15 @@
+### YamlMime:JavaMember
+uid: com.azure.cosmos.implementation.changefeed.ProcessorSettings.ProcessorSettings*
+fullName: com.azure.cosmos.implementation.changefeed.ProcessorSettings.ProcessorSettings
+name: ProcessorSettings
+nameWithType: ProcessorSettings.ProcessorSettings
+members:
+- uid: com.azure.cosmos.implementation.changefeed.ProcessorSettings.ProcessorSettings()
+  fullName: com.azure.cosmos.implementation.changefeed.ProcessorSettings.ProcessorSettings()
+  name: ProcessorSettings()
+  nameWithType: ProcessorSettings.ProcessorSettings()
+  syntax: public ProcessorSettings()
+type: constructor
+metadata: {}
+package: com.azure.cosmos.implementation.changefeed
+artifact: com.azure:azure-cosmos:4.3.2-beta.2

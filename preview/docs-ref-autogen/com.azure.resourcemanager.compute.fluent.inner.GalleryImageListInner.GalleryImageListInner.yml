@@ -1,0 +1,15 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.compute.fluent.inner.GalleryImageListInner.GalleryImageListInner*
+fullName: com.azure.resourcemanager.compute.fluent.inner.GalleryImageListInner.GalleryImageListInner
+name: GalleryImageListInner
+nameWithType: GalleryImageListInner.GalleryImageListInner
+members:
+- uid: com.azure.resourcemanager.compute.fluent.inner.GalleryImageListInner.GalleryImageListInner()
+  fullName: com.azure.resourcemanager.compute.fluent.inner.GalleryImageListInner.GalleryImageListInner()
+  name: GalleryImageListInner()
+  nameWithType: GalleryImageListInner.GalleryImageListInner()
+  syntax: public GalleryImageListInner()
+type: constructor
+metadata: {}
+package: com.azure.resourcemanager.compute.fluent.inner
+artifact: com.azure.resourcemanager:azure-resourcemanager-compute:2.0.0-beta.2

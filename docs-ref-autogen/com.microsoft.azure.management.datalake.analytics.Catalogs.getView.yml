@@ -1,0 +1,38 @@
+### YamlMime:JavaMember
+nameWithType: Catalogs.getView
+type: method
+members:
+- fullName: com.microsoft.azure.management.datalake.analytics.Catalogs.getView(String accountName, String databaseName, String schemaName, String viewName)
+  name: getView(String accountName, String databaseName, String schemaName, String viewName)
+  nameWithType: Catalogs.getView(String accountName, String databaseName, String schemaName, String viewName)
+  parameters:
+  - description: <p>The Azure Data Lake Analytics account upon which to execute catalog operations. </p>
+    name: accountName
+    type: <xref href="String?alt=String&text=String" data-throw-if-not-resolved="False"/>
+  - description: <p>The name of the database containing the view. </p>
+    name: databaseName
+    type: <xref href="String?alt=String&text=String" data-throw-if-not-resolved="False"/>
+  - description: <p>The name of the schema containing the view. </p>
+    name: schemaName
+    type: <xref href="String?alt=String&text=String" data-throw-if-not-resolved="False"/>
+  - description: <p>The name of the view. </p>
+    name: viewName
+    type: <xref href="String?alt=String&text=String" data-throw-if-not-resolved="False"/>
+  exceptions:
+  - name: 3c87bd19
+  - name: dc385fd4
+  - name: 9b2a4515
+  returns:
+    description: <p>the USqlView object if successful. </p>
+    type: <xref href="com.microsoft.azure.management.datalake.analytics.models.USqlView?alt=com.microsoft.azure.management.datalake.analytics.models.USqlView&text=USqlView" data-throw-if-not-resolved="False"/>
+  summary: >-
+    <p>Retrieves the specified view from the Data Lake Analytics catalog.</p>
+
+    <p></p>
+  syntax: public USqlView getView(String accountName, String databaseName, String schemaName, String viewName)
+  uid: com.microsoft.azure.management.datalake.analytics.Catalogs.getView(String,String,String,String)
+uid: com.microsoft.azure.management.datalake.analytics.Catalogs.getView*
+fullName: com.microsoft.azure.management.datalake.analytics.Catalogs.getView(String accountName, String databaseName, String schemaName, String viewName)
+name: getView(String accountName, String databaseName, String schemaName, String viewName)
+package: com.microsoft.azure.management.datalake.analytics
+metadata: {}

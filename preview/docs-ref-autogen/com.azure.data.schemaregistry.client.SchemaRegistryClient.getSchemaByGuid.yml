@@ -1,0 +1,26 @@
+### YamlMime:JavaMember
+uid: com.azure.data.schemaregistry.client.SchemaRegistryClient.getSchemaByGuid*
+fullName: com.azure.data.schemaregistry.client.SchemaRegistryClient.getSchemaByGuid
+name: getSchemaByGuid
+nameWithType: SchemaRegistryClient.getSchemaByGuid
+members:
+- uid: com.azure.data.schemaregistry.client.SchemaRegistryClient.getSchemaByGuid(java.lang.String)
+  fullName: com.azure.data.schemaregistry.client.SchemaRegistryClient.getSchemaByGuid(String schemaGuid)
+  name: getSchemaByGuid(String schemaGuid)
+  nameWithType: SchemaRegistryClient.getSchemaByGuid(String schemaGuid)
+  summary: |-
+    Fetches schema specified by the GUID.
+     <p>
+     GUID can be assumed to be unique within a schema registry store.
+  parameters:
+  - description: GUID reference to specific schema within configured schema registry store.
+    name: schemaGuid
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  syntax: public abstract SchemaRegistryObject getSchemaByGuid(String schemaGuid)
+  returns:
+    description: SchemaRegistryObject containing information regarding matching schema.
+    type: <xref href="com.azure.data.schemaregistry.client.SchemaRegistryObject?alt=com.azure.data.schemaregistry.client.SchemaRegistryObject&text=SchemaRegistryObject" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.data.schemaregistry.client
+artifact: com.azure:azure-data-schemaregistry:1.0.0-beta.1

@@ -1,0 +1,23 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.monitor.fluent.inner.MetricDefinitionCollectionInner.withValue*
+fullName: com.azure.resourcemanager.monitor.fluent.inner.MetricDefinitionCollectionInner.withValue
+name: withValue
+nameWithType: MetricDefinitionCollectionInner.withValue
+members:
+- uid: com.azure.resourcemanager.monitor.fluent.inner.MetricDefinitionCollectionInner.withValue(java.util.List<com.azure.resourcemanager.monitor.fluent.inner.MetricDefinitionInner>)
+  fullName: com.azure.resourcemanager.monitor.fluent.inner.MetricDefinitionCollectionInner.withValue(List<MetricDefinitionInner> value)
+  name: withValue(List<MetricDefinitionInner> value)
+  nameWithType: MetricDefinitionCollectionInner.withValue(List<MetricDefinitionInner> value)
+  summary: 'Set the value property: the values for the metric definitions.'
+  parameters:
+  - description: the value value to set.
+    name: value
+    type: <xref href="java.util.List?alt=java.util.List&text=List" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.resourcemanager.monitor.fluent.inner.MetricDefinitionInner?alt=com.azure.resourcemanager.monitor.fluent.inner.MetricDefinitionInner&text=MetricDefinitionInner" data-throw-if-not-resolved="False" />&gt;
+  syntax: public MetricDefinitionCollectionInner withValue(List<MetricDefinitionInner> value)
+  returns:
+    description: the MetricDefinitionCollectionInner object itself.
+    type: <xref href="com.azure.resourcemanager.monitor.fluent.inner.MetricDefinitionCollectionInner?alt=com.azure.resourcemanager.monitor.fluent.inner.MetricDefinitionCollectionInner&text=MetricDefinitionCollectionInner" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.resourcemanager.monitor.fluent.inner
+artifact: com.azure.resourcemanager:azure-resourcemanager-monitor:2.0.0-beta.2

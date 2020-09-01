@@ -1,0 +1,23 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.compute.fluent.inner.ContainerServiceListResultInner.withNextLink*
+fullName: com.azure.resourcemanager.compute.fluent.inner.ContainerServiceListResultInner.withNextLink
+name: withNextLink
+nameWithType: ContainerServiceListResultInner.withNextLink
+members:
+- uid: com.azure.resourcemanager.compute.fluent.inner.ContainerServiceListResultInner.withNextLink(java.lang.String)
+  fullName: com.azure.resourcemanager.compute.fluent.inner.ContainerServiceListResultInner.withNextLink(String nextLink)
+  name: withNextLink(String nextLink)
+  nameWithType: ContainerServiceListResultInner.withNextLink(String nextLink)
+  summary: 'Set the nextLink property: The URL to get the next set of container service results.'
+  parameters:
+  - description: the nextLink value to set.
+    name: nextLink
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  syntax: public ContainerServiceListResultInner withNextLink(String nextLink)
+  returns:
+    description: the ContainerServiceListResultInner object itself.
+    type: <xref href="com.azure.resourcemanager.compute.fluent.inner.ContainerServiceListResultInner?alt=com.azure.resourcemanager.compute.fluent.inner.ContainerServiceListResultInner&text=ContainerServiceListResultInner" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.resourcemanager.compute.fluent.inner
+artifact: com.azure.resourcemanager:azure-resourcemanager-compute:2.0.0-beta.2

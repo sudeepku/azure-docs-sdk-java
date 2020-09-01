@@ -1,0 +1,23 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.resources.models.AliasType.withName*
+fullName: com.azure.resourcemanager.resources.models.AliasType.withName
+name: withName
+nameWithType: AliasType.withName
+members:
+- uid: com.azure.resourcemanager.resources.models.AliasType.withName(java.lang.String)
+  fullName: com.azure.resourcemanager.resources.models.AliasType.withName(String name)
+  name: withName(String name)
+  nameWithType: AliasType.withName(String name)
+  summary: 'Set the name property: The alias name.'
+  parameters:
+  - description: the name value to set.
+    name: name
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  syntax: public AliasType withName(String name)
+  returns:
+    description: the AliasType object itself.
+    type: <xref href="com.azure.resourcemanager.resources.models.AliasType?alt=com.azure.resourcemanager.resources.models.AliasType&text=AliasType" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.resourcemanager.resources.models
+artifact: com.azure.resourcemanager:azure-resourcemanager-resources:2.0.0-beta.2

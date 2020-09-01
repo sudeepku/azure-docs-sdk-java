@@ -1,0 +1,43 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.sql.fluent.InstancePoolsClient.listByResourceGroupSinglePageAsync*
+fullName: com.azure.resourcemanager.sql.fluent.InstancePoolsClient.listByResourceGroupSinglePageAsync
+name: listByResourceGroupSinglePageAsync
+nameWithType: InstancePoolsClient.listByResourceGroupSinglePageAsync
+members:
+- uid: com.azure.resourcemanager.sql.fluent.InstancePoolsClient.listByResourceGroupSinglePageAsync(java.lang.String)
+  fullName: com.azure.resourcemanager.sql.fluent.InstancePoolsClient.listByResourceGroupSinglePageAsync(String resourceGroupName)
+  name: listByResourceGroupSinglePageAsync(String resourceGroupName)
+  nameWithType: InstancePoolsClient.listByResourceGroupSinglePageAsync(String resourceGroupName)
+  summary: Gets a list of instance pools in the resource group.
+  parameters:
+  - description: |-
+      The name of the resource group that contains the resource. You can obtain this value
+           from the Azure Resource Manager API or the portal.
+    name: resourceGroupName
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  syntax: public Mono<PagedResponse<InstancePoolInner>> listByResourceGroupSinglePageAsync(String resourceGroupName)
+  returns:
+    description: a list of instance pools in the resource group.
+    type: <xref href="reactor.core.publisher.Mono?alt=reactor.core.publisher.Mono&text=Mono" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.core.http.rest.PagedResponse?alt=com.azure.core.http.rest.PagedResponse&text=PagedResponse" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.resourcemanager.sql.fluent.inner.InstancePoolInner?alt=com.azure.resourcemanager.sql.fluent.inner.InstancePoolInner&text=InstancePoolInner" data-throw-if-not-resolved="False" />&gt;&gt;
+- uid: com.azure.resourcemanager.sql.fluent.InstancePoolsClient.listByResourceGroupSinglePageAsync(java.lang.String,com.azure.core.util.Context)
+  fullName: com.azure.resourcemanager.sql.fluent.InstancePoolsClient.listByResourceGroupSinglePageAsync(String resourceGroupName, Context context)
+  name: listByResourceGroupSinglePageAsync(String resourceGroupName, Context context)
+  nameWithType: InstancePoolsClient.listByResourceGroupSinglePageAsync(String resourceGroupName, Context context)
+  summary: Gets a list of instance pools in the resource group.
+  parameters:
+  - description: |-
+      The name of the resource group that contains the resource. You can obtain this value
+           from the Azure Resource Manager API or the portal.
+    name: resourceGroupName
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  - description: The context to associate with this operation.
+    name: context
+    type: <xref href="com.azure.core.util.Context?alt=com.azure.core.util.Context&text=Context" data-throw-if-not-resolved="False" />
+  syntax: public Mono<PagedResponse<InstancePoolInner>> listByResourceGroupSinglePageAsync(String resourceGroupName, Context context)
+  returns:
+    description: a list of instance pools in the resource group.
+    type: <xref href="reactor.core.publisher.Mono?alt=reactor.core.publisher.Mono&text=Mono" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.core.http.rest.PagedResponse?alt=com.azure.core.http.rest.PagedResponse&text=PagedResponse" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.resourcemanager.sql.fluent.inner.InstancePoolInner?alt=com.azure.resourcemanager.sql.fluent.inner.InstancePoolInner&text=InstancePoolInner" data-throw-if-not-resolved="False" />&gt;&gt;
+type: method
+metadata: {}
+package: com.azure.resourcemanager.sql.fluent
+artifact: com.azure.resourcemanager:azure-resourcemanager-sql:2.0.0-beta.2

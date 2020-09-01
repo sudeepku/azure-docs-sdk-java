@@ -1,0 +1,23 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.authorization.models.RoleAssignmentFilter.withPrincipalId*
+fullName: com.azure.resourcemanager.authorization.models.RoleAssignmentFilter.withPrincipalId
+name: withPrincipalId
+nameWithType: RoleAssignmentFilter.withPrincipalId
+members:
+- uid: com.azure.resourcemanager.authorization.models.RoleAssignmentFilter.withPrincipalId(java.lang.String)
+  fullName: com.azure.resourcemanager.authorization.models.RoleAssignmentFilter.withPrincipalId(String principalId)
+  name: withPrincipalId(String principalId)
+  nameWithType: RoleAssignmentFilter.withPrincipalId(String principalId)
+  summary: 'Set the principalId property: Returns role assignment of the specific principal.'
+  parameters:
+  - description: the principalId value to set.
+    name: principalId
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  syntax: public RoleAssignmentFilter withPrincipalId(String principalId)
+  returns:
+    description: the RoleAssignmentFilter object itself.
+    type: <xref href="com.azure.resourcemanager.authorization.models.RoleAssignmentFilter?alt=com.azure.resourcemanager.authorization.models.RoleAssignmentFilter&text=RoleAssignmentFilter" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.resourcemanager.authorization.models
+artifact: com.azure.resourcemanager:azure-resourcemanager-authorization:2.0.0-beta.2

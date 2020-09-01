@@ -1,0 +1,26 @@
+### YamlMime:JavaMember
+uid: com.azure.cosmos.implementation.guava25.base.Optional.fromNullable*
+fullName: com.azure.cosmos.implementation.guava25.base.Optional<T>.<T>fromNullable
+name: <T>fromNullable
+nameWithType: Optional<T>.<T>fromNullable
+members:
+- uid: com.azure.cosmos.implementation.guava25.base.Optional.<T>fromNullable(T)
+  fullName: com.azure.cosmos.implementation.guava25.base.Optional<T>.<T>fromNullable(T nullableReference)
+  name: <T>fromNullable(T nullableReference)
+  nameWithType: Optional<T>.<T>fromNullable(T nullableReference)
+  summary: |-
+    If <code>nullableReference</code> is non-null, returns an <code>Optional</code> instance containing that
+     reference; otherwise returns <xref uid="Optional#absent" data-throw-if-not-resolved="false">Optional#absent</xref>.
+
+     <p><b>Comparison to <code>java.util.Optional</code>:</b> this method is equivalent to Java 8's
+     <code>Optional.ofNullable</code>.
+  parameters:
+  - name: nullableReference
+    type: <xref href="T?alt=T&text=T" data-throw-if-not-resolved="False" />
+  syntax: public static Optional<T> <T>fromNullable(T nullableReference)
+  returns:
+    type: <xref href="com.azure.cosmos.implementation.guava25.base.Optional?alt=com.azure.cosmos.implementation.guava25.base.Optional&text=Optional" data-throw-if-not-resolved="False" />&lt;<xref href="T?alt=T&text=T" data-throw-if-not-resolved="False" />&gt;
+type: method
+metadata: {}
+package: com.azure.cosmos.implementation.guava25.base
+artifact: com.azure:azure-cosmos:4.3.2-beta.2

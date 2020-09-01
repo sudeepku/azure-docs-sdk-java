@@ -1,0 +1,19 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.cosmos.fluent.inner.PartitionMetricListResultInner.value*
+fullName: com.azure.resourcemanager.cosmos.fluent.inner.PartitionMetricListResultInner.value
+name: value
+nameWithType: PartitionMetricListResultInner.value
+members:
+- uid: com.azure.resourcemanager.cosmos.fluent.inner.PartitionMetricListResultInner.value()
+  fullName: com.azure.resourcemanager.cosmos.fluent.inner.PartitionMetricListResultInner.value()
+  name: value()
+  nameWithType: PartitionMetricListResultInner.value()
+  summary: 'Get the value property: The list of partition-level metrics for the account.'
+  syntax: public List<PartitionMetricInner> value()
+  returns:
+    description: the value value.
+    type: <xref href="java.util.List?alt=java.util.List&text=List" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.resourcemanager.cosmos.fluent.inner.PartitionMetricInner?alt=com.azure.resourcemanager.cosmos.fluent.inner.PartitionMetricInner&text=PartitionMetricInner" data-throw-if-not-resolved="False" />&gt;
+type: method
+metadata: {}
+package: com.azure.resourcemanager.cosmos.fluent.inner
+artifact: com.azure.resourcemanager:azure-resourcemanager-cosmos:2.0.0-beta.2

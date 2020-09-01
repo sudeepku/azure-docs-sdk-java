@@ -1,0 +1,23 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.network.fluent.inner.ConnectionMonitorListResultInner.withValue*
+fullName: com.azure.resourcemanager.network.fluent.inner.ConnectionMonitorListResultInner.withValue
+name: withValue
+nameWithType: ConnectionMonitorListResultInner.withValue
+members:
+- uid: com.azure.resourcemanager.network.fluent.inner.ConnectionMonitorListResultInner.withValue(java.util.List<com.azure.resourcemanager.network.fluent.inner.ConnectionMonitorResultInner>)
+  fullName: com.azure.resourcemanager.network.fluent.inner.ConnectionMonitorListResultInner.withValue(List<ConnectionMonitorResultInner> value)
+  name: withValue(List<ConnectionMonitorResultInner> value)
+  nameWithType: ConnectionMonitorListResultInner.withValue(List<ConnectionMonitorResultInner> value)
+  summary: 'Set the value property: Information about connection monitors.'
+  parameters:
+  - description: the value value to set.
+    name: value
+    type: <xref href="java.util.List?alt=java.util.List&text=List" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.resourcemanager.network.fluent.inner.ConnectionMonitorResultInner?alt=com.azure.resourcemanager.network.fluent.inner.ConnectionMonitorResultInner&text=ConnectionMonitorResultInner" data-throw-if-not-resolved="False" />&gt;
+  syntax: public ConnectionMonitorListResultInner withValue(List<ConnectionMonitorResultInner> value)
+  returns:
+    description: the ConnectionMonitorListResultInner object itself.
+    type: <xref href="com.azure.resourcemanager.network.fluent.inner.ConnectionMonitorListResultInner?alt=com.azure.resourcemanager.network.fluent.inner.ConnectionMonitorListResultInner&text=ConnectionMonitorListResultInner" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.resourcemanager.network.fluent.inner
+artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.0.0-beta.2

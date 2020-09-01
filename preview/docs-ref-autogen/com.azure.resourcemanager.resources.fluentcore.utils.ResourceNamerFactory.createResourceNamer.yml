@@ -1,0 +1,23 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.resources.fluentcore.utils.ResourceNamerFactory.createResourceNamer*
+fullName: com.azure.resourcemanager.resources.fluentcore.utils.ResourceNamerFactory.createResourceNamer
+name: createResourceNamer
+nameWithType: ResourceNamerFactory.createResourceNamer
+members:
+- uid: com.azure.resourcemanager.resources.fluentcore.utils.ResourceNamerFactory.createResourceNamer(java.lang.String)
+  fullName: com.azure.resourcemanager.resources.fluentcore.utils.ResourceNamerFactory.createResourceNamer(String name)
+  name: createResourceNamer(String name)
+  nameWithType: ResourceNamerFactory.createResourceNamer(String name)
+  summary: Factory method to generate instance of ResourceNamer.
+  parameters:
+  - description: prefix for the names.
+    name: name
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  syntax: public ResourceNamer createResourceNamer(String name)
+  returns:
+    description: instance of ResourceNamer
+    type: <xref href="com.azure.resourcemanager.resources.fluentcore.utils.ResourceNamer?alt=com.azure.resourcemanager.resources.fluentcore.utils.ResourceNamer&text=ResourceNamer" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.resourcemanager.resources.fluentcore.utils
+artifact: com.azure.resourcemanager:azure-resourcemanager-resources:2.0.0-beta.2

@@ -1,0 +1,15 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.storage.fluent.inner.BlobServiceItemsInner.BlobServiceItemsInner*
+fullName: com.azure.resourcemanager.storage.fluent.inner.BlobServiceItemsInner.BlobServiceItemsInner
+name: BlobServiceItemsInner
+nameWithType: BlobServiceItemsInner.BlobServiceItemsInner
+members:
+- uid: com.azure.resourcemanager.storage.fluent.inner.BlobServiceItemsInner.BlobServiceItemsInner()
+  fullName: com.azure.resourcemanager.storage.fluent.inner.BlobServiceItemsInner.BlobServiceItemsInner()
+  name: BlobServiceItemsInner()
+  nameWithType: BlobServiceItemsInner.BlobServiceItemsInner()
+  syntax: public BlobServiceItemsInner()
+type: constructor
+metadata: {}
+package: com.azure.resourcemanager.storage.fluent.inner
+artifact: com.azure.resourcemanager:azure-resourcemanager-storage:2.0.0-beta.2

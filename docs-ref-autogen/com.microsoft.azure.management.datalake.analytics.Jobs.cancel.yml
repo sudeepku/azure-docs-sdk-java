@@ -1,0 +1,29 @@
+### YamlMime:JavaMember
+nameWithType: Jobs.cancel
+type: method
+members:
+- fullName: com.microsoft.azure.management.datalake.analytics.Jobs.cancel(String accountName, UUID jobIdentity)
+  name: cancel(String accountName, UUID jobIdentity)
+  nameWithType: Jobs.cancel(String accountName, UUID jobIdentity)
+  parameters:
+  - description: <p>The Azure Data Lake Analytics account to execute job operations on. </p>
+    name: accountName
+    type: <xref href="String?alt=String&text=String" data-throw-if-not-resolved="False"/>
+  - description: <p>JobInfo ID to cancel. </p>
+    name: jobIdentity
+    type: <xref href="UUID?alt=UUID&text=UUID" data-throw-if-not-resolved="False"/>
+  exceptions:
+  - name: 3c87bd19
+  - name: dc385fd4
+  - name: 9b2a4515
+  summary: >-
+    <p>Cancels the running job specified by the job ID.</p>
+
+    <p></p>
+  syntax: public void cancel(String accountName, UUID jobIdentity)
+  uid: com.microsoft.azure.management.datalake.analytics.Jobs.cancel(String,UUID)
+uid: com.microsoft.azure.management.datalake.analytics.Jobs.cancel*
+fullName: com.microsoft.azure.management.datalake.analytics.Jobs.cancel(String accountName, UUID jobIdentity)
+name: cancel(String accountName, UUID jobIdentity)
+package: com.microsoft.azure.management.datalake.analytics
+metadata: {}

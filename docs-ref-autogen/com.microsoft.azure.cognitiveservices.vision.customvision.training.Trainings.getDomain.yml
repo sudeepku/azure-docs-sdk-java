@@ -1,0 +1,29 @@
+### YamlMime:JavaMember
+nameWithType: Trainings.getDomain
+type: method
+members:
+- fullName: com.microsoft.azure.cognitiveservices.vision.customvision.training.Trainings.getDomain(UUID domainId)
+  name: getDomain(UUID domainId)
+  nameWithType: Trainings.getDomain(UUID domainId)
+  parameters:
+  - description: <p>The id of the domain to get information about. </p>
+    name: domainId
+    type: <xref href="UUID?alt=UUID&text=UUID" data-throw-if-not-resolved="False"/>
+  exceptions:
+  - name: 3c87bd19
+  - name: d8f234c9
+  - name: 9b2a4515
+  returns:
+    description: <p>the Domain object if successful. </p>
+    type: <xref href="com.microsoft.azure.cognitiveservices.vision.customvision.training.models.Domain?alt=com.microsoft.azure.cognitiveservices.vision.customvision.training.models.Domain&text=Domain" data-throw-if-not-resolved="False"/>
+  summary: >-
+    <p>Get information about a specific domain.</p>
+
+    <p></p>
+  syntax: public Domain getDomain(UUID domainId)
+  uid: com.microsoft.azure.cognitiveservices.vision.customvision.training.Trainings.getDomain(UUID)
+uid: com.microsoft.azure.cognitiveservices.vision.customvision.training.Trainings.getDomain*
+fullName: com.microsoft.azure.cognitiveservices.vision.customvision.training.Trainings.getDomain(UUID domainId)
+name: getDomain(UUID domainId)
+package: com.microsoft.azure.cognitiveservices.vision.customvision.training
+metadata: {}

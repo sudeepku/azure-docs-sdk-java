@@ -1,0 +1,19 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.keyvault.fluent.inner.DeletedVaultListResultInner.value*
+fullName: com.azure.resourcemanager.keyvault.fluent.inner.DeletedVaultListResultInner.value
+name: value
+nameWithType: DeletedVaultListResultInner.value
+members:
+- uid: com.azure.resourcemanager.keyvault.fluent.inner.DeletedVaultListResultInner.value()
+  fullName: com.azure.resourcemanager.keyvault.fluent.inner.DeletedVaultListResultInner.value()
+  name: value()
+  nameWithType: DeletedVaultListResultInner.value()
+  summary: 'Get the value property: The list of deleted vaults.'
+  syntax: public List<DeletedVaultInner> value()
+  returns:
+    description: the value value.
+    type: <xref href="java.util.List?alt=java.util.List&text=List" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.resourcemanager.keyvault.fluent.inner.DeletedVaultInner?alt=com.azure.resourcemanager.keyvault.fluent.inner.DeletedVaultInner&text=DeletedVaultInner" data-throw-if-not-resolved="False" />&gt;
+type: method
+metadata: {}
+package: com.azure.resourcemanager.keyvault.fluent.inner
+artifact: com.azure.resourcemanager:azure-resourcemanager-keyvault:2.0.0-beta.2

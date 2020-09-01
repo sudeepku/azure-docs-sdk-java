@@ -1,0 +1,23 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.network.fluent.inner.ListVpnSiteLinkConnectionsResultInner.withNextLink*
+fullName: com.azure.resourcemanager.network.fluent.inner.ListVpnSiteLinkConnectionsResultInner.withNextLink
+name: withNextLink
+nameWithType: ListVpnSiteLinkConnectionsResultInner.withNextLink
+members:
+- uid: com.azure.resourcemanager.network.fluent.inner.ListVpnSiteLinkConnectionsResultInner.withNextLink(java.lang.String)
+  fullName: com.azure.resourcemanager.network.fluent.inner.ListVpnSiteLinkConnectionsResultInner.withNextLink(String nextLink)
+  name: withNextLink(String nextLink)
+  nameWithType: ListVpnSiteLinkConnectionsResultInner.withNextLink(String nextLink)
+  summary: 'Set the nextLink property: URL to get the next set of operation list results if there are any.'
+  parameters:
+  - description: the nextLink value to set.
+    name: nextLink
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  syntax: public ListVpnSiteLinkConnectionsResultInner withNextLink(String nextLink)
+  returns:
+    description: the ListVpnSiteLinkConnectionsResultInner object itself.
+    type: <xref href="com.azure.resourcemanager.network.fluent.inner.ListVpnSiteLinkConnectionsResultInner?alt=com.azure.resourcemanager.network.fluent.inner.ListVpnSiteLinkConnectionsResultInner&text=ListVpnSiteLinkConnectionsResultInner" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.resourcemanager.network.fluent.inner
+artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.0.0-beta.2

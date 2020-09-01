@@ -1,0 +1,31 @@
+### YamlMime:JavaMember
+uid: com.azure.cosmos.implementation.guava25.primitives.Booleans.contains*
+fullName: com.azure.cosmos.implementation.guava25.primitives.Booleans.contains
+name: contains
+nameWithType: Booleans.contains
+members:
+- uid: com.azure.cosmos.implementation.guava25.primitives.Booleans.contains(boolean[],boolean)
+  fullName: com.azure.cosmos.implementation.guava25.primitives.Booleans.contains(boolean[] array, boolean target)
+  name: contains(boolean[] array, boolean target)
+  nameWithType: Booleans.contains(boolean[] array, boolean target)
+  summary: |-
+    Returns <code>true</code> if <code>target</code> is present as an element anywhere in <code>array</code>.
+
+     <p><b>Note:</b> consider representing the array as a <xref uid="java.util.BitSet" data-throw-if-not-resolved="false">java.util.BitSet</xref> instead,
+     replacing <code>Booleans.contains(array, true)</code> with <code>!bitSet.isEmpty()</code> and <code>
+     Booleans.contains(array, false)</code> with <code>bitSet.nextClearBit(0) == sizeOfBitSet</code>.
+  parameters:
+  - description: an array of <code>boolean</code> values, possibly empty
+    name: array
+    type: <xref href="boolean?alt=boolean&text=boolean" data-throw-if-not-resolved="False" />[]
+  - description: a primitive <code>boolean</code> value
+    name: target
+    type: <xref href="boolean?alt=boolean&text=boolean" data-throw-if-not-resolved="False" />
+  syntax: public static boolean contains(boolean[] array, boolean target)
+  returns:
+    description: <code>true</code> if <code>array[i] == target</code> for some value of <code>i</code>
+    type: <xref href="boolean?alt=boolean&text=boolean" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.cosmos.implementation.guava25.primitives
+artifact: com.azure:azure-cosmos:4.3.2-beta.2

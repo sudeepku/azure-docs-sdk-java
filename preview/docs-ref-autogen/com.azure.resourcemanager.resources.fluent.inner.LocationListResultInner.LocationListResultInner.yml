@@ -1,0 +1,15 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.resources.fluent.inner.LocationListResultInner.LocationListResultInner*
+fullName: com.azure.resourcemanager.resources.fluent.inner.LocationListResultInner.LocationListResultInner
+name: LocationListResultInner
+nameWithType: LocationListResultInner.LocationListResultInner
+members:
+- uid: com.azure.resourcemanager.resources.fluent.inner.LocationListResultInner.LocationListResultInner()
+  fullName: com.azure.resourcemanager.resources.fluent.inner.LocationListResultInner.LocationListResultInner()
+  name: LocationListResultInner()
+  nameWithType: LocationListResultInner.LocationListResultInner()
+  syntax: public LocationListResultInner()
+type: constructor
+metadata: {}
+package: com.azure.resourcemanager.resources.fluent.inner
+artifact: com.azure.resourcemanager:azure-resourcemanager-resources:2.0.0-beta.2

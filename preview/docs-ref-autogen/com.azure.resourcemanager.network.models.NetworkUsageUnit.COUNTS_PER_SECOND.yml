@@ -1,0 +1,16 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.network.models.NetworkUsageUnit.COUNTS_PER_SECOND
+fullName: com.azure.resourcemanager.network.models.NetworkUsageUnit.COUNTS_PER_SECOND
+name: COUNTS_PER_SECOND
+nameWithType: NetworkUsageUnit.COUNTS_PER_SECOND
+members:
+- uid: com.azure.resourcemanager.network.models.NetworkUsageUnit.COUNTS_PER_SECOND
+  fullName: com.azure.resourcemanager.network.models.NetworkUsageUnit.COUNTS_PER_SECOND
+  name: COUNTS_PER_SECOND
+  nameWithType: NetworkUsageUnit.COUNTS_PER_SECOND
+  summary: Static value CountsPerSecond for NetworkUsageUnit.
+  syntax: public static final NetworkUsageUnit COUNTS_PER_SECOND
+type: field
+metadata: {}
+package: com.azure.resourcemanager.network.models
+artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.0.0-beta.2

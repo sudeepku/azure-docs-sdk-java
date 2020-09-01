@@ -1,0 +1,23 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.resources.fluent.inner.PolicyAssignmentInner.withScope*
+fullName: com.azure.resourcemanager.resources.fluent.inner.PolicyAssignmentInner.withScope
+name: withScope
+nameWithType: PolicyAssignmentInner.withScope
+members:
+- uid: com.azure.resourcemanager.resources.fluent.inner.PolicyAssignmentInner.withScope(java.lang.String)
+  fullName: com.azure.resourcemanager.resources.fluent.inner.PolicyAssignmentInner.withScope(String scope)
+  name: withScope(String scope)
+  nameWithType: PolicyAssignmentInner.withScope(String scope)
+  summary: 'Set the scope property: The scope for the policy assignment.'
+  parameters:
+  - description: the scope value to set.
+    name: scope
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  syntax: public PolicyAssignmentInner withScope(String scope)
+  returns:
+    description: the PolicyAssignmentInner object itself.
+    type: <xref href="com.azure.resourcemanager.resources.fluent.inner.PolicyAssignmentInner?alt=com.azure.resourcemanager.resources.fluent.inner.PolicyAssignmentInner&text=PolicyAssignmentInner" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.resourcemanager.resources.fluent.inner
+artifact: com.azure.resourcemanager:azure-resourcemanager-resources:2.0.0-beta.2

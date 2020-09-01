@@ -1,0 +1,16 @@
+### YamlMime:JavaMember
+uid: com.azure.search.documents.indexes.implementation.models.LexicalTokenizerName.N_GRAM
+fullName: com.azure.search.documents.indexes.implementation.models.LexicalTokenizerName.N_GRAM
+name: N_GRAM
+nameWithType: LexicalTokenizerName.N_GRAM
+members:
+- uid: com.azure.search.documents.indexes.implementation.models.LexicalTokenizerName.N_GRAM
+  fullName: com.azure.search.documents.indexes.implementation.models.LexicalTokenizerName.N_GRAM
+  name: N_GRAM
+  nameWithType: LexicalTokenizerName.N_GRAM
+  summary: Static value nGram for LexicalTokenizerName.
+  syntax: public static final LexicalTokenizerName N_GRAM
+type: field
+metadata: {}
+package: com.azure.search.documents.indexes.implementation.models
+artifact: com.azure:azure-search-documents:11.0.0

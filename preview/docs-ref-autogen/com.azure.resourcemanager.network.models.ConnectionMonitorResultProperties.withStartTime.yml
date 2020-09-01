@@ -1,0 +1,23 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.network.models.ConnectionMonitorResultProperties.withStartTime*
+fullName: com.azure.resourcemanager.network.models.ConnectionMonitorResultProperties.withStartTime
+name: withStartTime
+nameWithType: ConnectionMonitorResultProperties.withStartTime
+members:
+- uid: com.azure.resourcemanager.network.models.ConnectionMonitorResultProperties.withStartTime(java.time.OffsetDateTime)
+  fullName: com.azure.resourcemanager.network.models.ConnectionMonitorResultProperties.withStartTime(OffsetDateTime startTime)
+  name: withStartTime(OffsetDateTime startTime)
+  nameWithType: ConnectionMonitorResultProperties.withStartTime(OffsetDateTime startTime)
+  summary: 'Set the startTime property: The date and time when the connection monitor was started.'
+  parameters:
+  - description: the startTime value to set.
+    name: startTime
+    type: <xref href="java.time.OffsetDateTime?alt=java.time.OffsetDateTime&text=OffsetDateTime" data-throw-if-not-resolved="False" />
+  syntax: public ConnectionMonitorResultProperties withStartTime(OffsetDateTime startTime)
+  returns:
+    description: the ConnectionMonitorResultProperties object itself.
+    type: <xref href="com.azure.resourcemanager.network.models.ConnectionMonitorResultProperties?alt=com.azure.resourcemanager.network.models.ConnectionMonitorResultProperties&text=ConnectionMonitorResultProperties" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.resourcemanager.network.models
+artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.0.0-beta.2

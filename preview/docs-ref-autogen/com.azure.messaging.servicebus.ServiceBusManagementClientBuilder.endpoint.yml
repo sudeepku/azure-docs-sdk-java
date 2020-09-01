@@ -1,0 +1,23 @@
+### YamlMime:JavaMember
+uid: com.azure.messaging.servicebus.ServiceBusManagementClientBuilder.endpoint*
+fullName: com.azure.messaging.servicebus.ServiceBusManagementClientBuilder.endpoint
+name: endpoint
+nameWithType: ServiceBusManagementClientBuilder.endpoint
+members:
+- uid: com.azure.messaging.servicebus.ServiceBusManagementClientBuilder.endpoint(java.lang.String)
+  fullName: com.azure.messaging.servicebus.ServiceBusManagementClientBuilder.endpoint(String endpoint)
+  name: endpoint(String endpoint)
+  nameWithType: ServiceBusManagementClientBuilder.endpoint(String endpoint)
+  summary: Sets the service endpoint for the Service Bus namespace.
+  parameters:
+  - description: The URL of the Service Bus namespace.
+    name: endpoint
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  syntax: public ServiceBusManagementClientBuilder endpoint(String endpoint)
+  returns:
+    description: The updated <xref uid="com.azure.messaging.servicebus.ServiceBusManagementClientBuilder" data-throw-if-not-resolved="false">ServiceBusManagementClientBuilder</xref> object.
+    type: <xref href="com.azure.messaging.servicebus.ServiceBusManagementClientBuilder?alt=com.azure.messaging.servicebus.ServiceBusManagementClientBuilder&text=ServiceBusManagementClientBuilder" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.messaging.servicebus
+artifact: com.azure:azure-messaging-servicebus:7.0.0-beta.5

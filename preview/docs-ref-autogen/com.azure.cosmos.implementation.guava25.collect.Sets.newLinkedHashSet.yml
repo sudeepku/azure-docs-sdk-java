@@ -1,0 +1,48 @@
+### YamlMime:JavaMember
+uid: com.azure.cosmos.implementation.guava25.collect.Sets.newLinkedHashSet*
+fullName: com.azure.cosmos.implementation.guava25.collect.Sets.<E>newLinkedHashSet
+name: <E>newLinkedHashSet
+nameWithType: Sets.<E>newLinkedHashSet
+members:
+- uid: com.azure.cosmos.implementation.guava25.collect.Sets.<E>newLinkedHashSet()
+  fullName: com.azure.cosmos.implementation.guava25.collect.Sets.<E>newLinkedHashSet()
+  name: <E>newLinkedHashSet()
+  nameWithType: Sets.<E>newLinkedHashSet()
+  summary: |-
+    Creates a <i>mutable</i>, empty <code>LinkedHashSet</code> instance.
+
+     <p><b>Note:</b> if mutability is not required, use <xref uid="ImmutableSet#of()" data-throw-if-not-resolved="false">ImmutableSet#of()</xref> instead.
+
+     <p><b>Note for Java 7 and later:</b> this method is now unnecessary and should be treated as
+     deprecated. Instead, use the <code>LinkedHashSet</code> constructor directly, taking advantage of
+     the new <a href="http://goo.gl/iz2Wi">"diamond" syntax</a>.
+  syntax: public static LinkedHashSet<E> <E>newLinkedHashSet()
+  returns:
+    description: a new, empty <code>LinkedHashSet</code>
+    type: <xref href="java.util.LinkedHashSet?alt=java.util.LinkedHashSet&text=LinkedHashSet" data-throw-if-not-resolved="False" />&lt;<xref href="E?alt=E&text=E" data-throw-if-not-resolved="False" />&gt;
+- uid: com.azure.cosmos.implementation.guava25.collect.Sets.<E>newLinkedHashSet(java.lang.Iterable<? extends E>)
+  fullName: com.azure.cosmos.implementation.guava25.collect.Sets.<E>newLinkedHashSet(Iterable<? extends E> elements)
+  name: <E>newLinkedHashSet(Iterable<? extends E> elements)
+  nameWithType: Sets.<E>newLinkedHashSet(Iterable<? extends E> elements)
+  summary: |-
+    Creates a <i>mutable</i> <code>LinkedHashSet</code> instance containing the given elements in order.
+
+     <p><b>Note:</b> if mutability is not required and the elements are non-null, use <xref uid="ImmutableSet#copyOf(Iterable)" data-throw-if-not-resolved="false">ImmutableSet#copyOf(Iterable)</xref> instead.
+
+     <p><b>Note for Java 7 and later:</b> if <code>elements</code> is a <xref uid="Collection" data-throw-if-not-resolved="false">Collection</xref>, you don't
+     need this method. Instead, use the <code>LinkedHashSet</code> constructor directly, taking advantage
+     of the new <a href="http://goo.gl/iz2Wi">"diamond" syntax</a>.
+
+     <p>Overall, this method is not very useful and will likely be deprecated in the future.
+  parameters:
+  - description: the elements that the set should contain, in order
+    name: elements
+    type: <xref href="java.lang.Iterable?alt=java.lang.Iterable&text=Iterable" data-throw-if-not-resolved="False" />&lt;<xref href="? extends E?alt=? extends E&text=? extends E" data-throw-if-not-resolved="False" />&gt;
+  syntax: public static LinkedHashSet<E> <E>newLinkedHashSet(Iterable<? extends E> elements)
+  returns:
+    description: a new <code>LinkedHashSet</code> containing those elements (minus duplicates)
+    type: <xref href="java.util.LinkedHashSet?alt=java.util.LinkedHashSet&text=LinkedHashSet" data-throw-if-not-resolved="False" />&lt;<xref href="E?alt=E&text=E" data-throw-if-not-resolved="False" />&gt;
+type: method
+metadata: {}
+package: com.azure.cosmos.implementation.guava25.collect
+artifact: com.azure:azure-cosmos:4.3.2-beta.2

@@ -1,0 +1,88 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.compute.fluent.VirtualMachineExtensionImagesClient.listVersions*
+fullName: com.azure.resourcemanager.compute.fluent.VirtualMachineExtensionImagesClient.listVersions
+name: listVersions
+nameWithType: VirtualMachineExtensionImagesClient.listVersions
+members:
+- uid: com.azure.resourcemanager.compute.fluent.VirtualMachineExtensionImagesClient.listVersions(java.lang.String,java.lang.String,java.lang.String)
+  fullName: com.azure.resourcemanager.compute.fluent.VirtualMachineExtensionImagesClient.listVersions(String location, String publisherName, String type)
+  name: listVersions(String location, String publisherName, String type)
+  nameWithType: VirtualMachineExtensionImagesClient.listVersions(String location, String publisherName, String type)
+  summary: Gets a list of virtual machine extension image versions.
+  parameters:
+  - description: The name of a supported Azure region.
+    name: location
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  - description: The publisherName parameter.
+    name: publisherName
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  - description: The type parameter.
+    name: type
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  syntax: public List<VirtualMachineExtensionImageInner> listVersions(String location, String publisherName, String type)
+  returns:
+    description: a list of virtual machine extension image versions.
+    type: <xref href="java.util.List?alt=java.util.List&text=List" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.resourcemanager.compute.fluent.inner.VirtualMachineExtensionImageInner?alt=com.azure.resourcemanager.compute.fluent.inner.VirtualMachineExtensionImageInner&text=VirtualMachineExtensionImageInner" data-throw-if-not-resolved="False" />&gt;
+- uid: com.azure.resourcemanager.compute.fluent.VirtualMachineExtensionImagesClient.listVersions(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.Integer,java.lang.String)
+  fullName: com.azure.resourcemanager.compute.fluent.VirtualMachineExtensionImagesClient.listVersions(String location, String publisherName, String type, String filter, Integer top, String orderby)
+  name: listVersions(String location, String publisherName, String type, String filter, Integer top, String orderby)
+  nameWithType: VirtualMachineExtensionImagesClient.listVersions(String location, String publisherName, String type, String filter, Integer top, String orderby)
+  summary: Gets a list of virtual machine extension image versions.
+  parameters:
+  - description: The name of a supported Azure region.
+    name: location
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  - description: The publisherName parameter.
+    name: publisherName
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  - description: The type parameter.
+    name: type
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  - description: The filter to apply on the operation.
+    name: filter
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  - description: The top parameter.
+    name: top
+    type: <xref href="java.lang.Integer?alt=java.lang.Integer&text=Integer" data-throw-if-not-resolved="False" />
+  - description: The orderby parameter.
+    name: orderby
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  syntax: public List<VirtualMachineExtensionImageInner> listVersions(String location, String publisherName, String type, String filter, Integer top, String orderby)
+  returns:
+    description: a list of virtual machine extension image versions.
+    type: <xref href="java.util.List?alt=java.util.List&text=List" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.resourcemanager.compute.fluent.inner.VirtualMachineExtensionImageInner?alt=com.azure.resourcemanager.compute.fluent.inner.VirtualMachineExtensionImageInner&text=VirtualMachineExtensionImageInner" data-throw-if-not-resolved="False" />&gt;
+- uid: com.azure.resourcemanager.compute.fluent.VirtualMachineExtensionImagesClient.listVersions(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.Integer,java.lang.String,com.azure.core.util.Context)
+  fullName: com.azure.resourcemanager.compute.fluent.VirtualMachineExtensionImagesClient.listVersions(String location, String publisherName, String type, String filter, Integer top, String orderby, Context context)
+  name: listVersions(String location, String publisherName, String type, String filter, Integer top, String orderby, Context context)
+  nameWithType: VirtualMachineExtensionImagesClient.listVersions(String location, String publisherName, String type, String filter, Integer top, String orderby, Context context)
+  summary: Gets a list of virtual machine extension image versions.
+  parameters:
+  - description: The name of a supported Azure region.
+    name: location
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  - description: The publisherName parameter.
+    name: publisherName
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  - description: The type parameter.
+    name: type
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  - description: The filter to apply on the operation.
+    name: filter
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  - description: The top parameter.
+    name: top
+    type: <xref href="java.lang.Integer?alt=java.lang.Integer&text=Integer" data-throw-if-not-resolved="False" />
+  - description: The orderby parameter.
+    name: orderby
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  - description: The context to associate with this operation.
+    name: context
+    type: <xref href="com.azure.core.util.Context?alt=com.azure.core.util.Context&text=Context" data-throw-if-not-resolved="False" />
+  syntax: public List<VirtualMachineExtensionImageInner> listVersions(String location, String publisherName, String type, String filter, Integer top, String orderby, Context context)
+  returns:
+    description: a list of virtual machine extension image versions.
+    type: <xref href="java.util.List?alt=java.util.List&text=List" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.resourcemanager.compute.fluent.inner.VirtualMachineExtensionImageInner?alt=com.azure.resourcemanager.compute.fluent.inner.VirtualMachineExtensionImageInner&text=VirtualMachineExtensionImageInner" data-throw-if-not-resolved="False" />&gt;
+type: method
+metadata: {}
+package: com.azure.resourcemanager.compute.fluent
+artifact: com.azure.resourcemanager:azure-resourcemanager-compute:2.0.0-beta.2

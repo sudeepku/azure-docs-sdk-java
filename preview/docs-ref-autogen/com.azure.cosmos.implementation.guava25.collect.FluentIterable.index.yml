@@ -1,0 +1,33 @@
+### YamlMime:JavaMember
+uid: com.azure.cosmos.implementation.guava25.collect.FluentIterable.index*
+fullName: com.azure.cosmos.implementation.guava25.collect.FluentIterable<E>.<K>index
+name: <K>index
+nameWithType: FluentIterable<E>.<K>index
+members:
+- uid: com.azure.cosmos.implementation.guava25.collect.FluentIterable.<K>index(com.azure.cosmos.implementation.guava25.base.Function<? super E,K>)
+  fullName: com.azure.cosmos.implementation.guava25.collect.FluentIterable<E>.<K>index(Function<? super E,K> keyFunction)
+  name: <K>index(Function<? super E,K> keyFunction)
+  nameWithType: FluentIterable<E>.<K>index(Function<? super E,K> keyFunction)
+  summary: |-
+    Creates an index <code>ImmutableListMultimap</code> that contains the results of applying a
+     specified function to each item in this <code>FluentIterable</code> of values. Each element of this
+     iterable will be stored as a value in the resulting multimap, yielding a multimap with the same
+     size as this iterable. The key used to store that value in the multimap will be the result of
+     calling the function on that value. The resulting multimap is created as an immutable snapshot.
+     In the returned multimap, keys appear in the order they are first encountered, and the values
+     corresponding to each key appear in the same order as they are encountered.
+
+     <p><b><code>Stream</code> equivalent:</b> <code>stream.collect(Collectors.groupingBy(keyFunction))</code>
+     behaves similarly, but returns a mutable <code>Map<K, List<E>></code> instead, and may not preserve
+     the order of entries).
+  parameters:
+  - description: the function used to produce the key for each value
+    name: keyFunction
+    type: <xref href="com.azure.cosmos.implementation.guava25.base.Function?alt=com.azure.cosmos.implementation.guava25.base.Function&text=Function" data-throw-if-not-resolved="False" />&lt;<xref href="? super E?alt=? super E&text=? super E" data-throw-if-not-resolved="False" />,<xref href="K?alt=K&text=K" data-throw-if-not-resolved="False" />&gt;
+  syntax: public final ImmutableListMultimap<K,E> <K>index(Function<? super E,K> keyFunction)
+  returns:
+    type: <xref href="com.azure.cosmos.implementation.guava25.collect.ImmutableListMultimap?alt=com.azure.cosmos.implementation.guava25.collect.ImmutableListMultimap&text=ImmutableListMultimap" data-throw-if-not-resolved="False" />&lt;<xref href="K?alt=K&text=K" data-throw-if-not-resolved="False" />,<xref href="E?alt=E&text=E" data-throw-if-not-resolved="False" />&gt;
+type: method
+metadata: {}
+package: com.azure.cosmos.implementation.guava25.collect
+artifact: com.azure:azure-cosmos:4.3.2-beta.2

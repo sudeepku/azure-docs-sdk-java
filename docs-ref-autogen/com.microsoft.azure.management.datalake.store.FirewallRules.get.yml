@@ -1,0 +1,35 @@
+### YamlMime:JavaMember
+nameWithType: FirewallRules.get
+type: method
+members:
+- fullName: com.microsoft.azure.management.datalake.store.FirewallRules.get(String resourceGroupName, String accountName, String firewallRuleName)
+  name: get(String resourceGroupName, String accountName, String firewallRuleName)
+  nameWithType: FirewallRules.get(String resourceGroupName, String accountName, String firewallRuleName)
+  parameters:
+  - description: <p>The name of the Azure resource group that contains the Data Lake Store account. </p>
+    name: resourceGroupName
+    type: <xref href="String?alt=String&text=String" data-throw-if-not-resolved="False"/>
+  - description: <p>The name of the Data Lake Store account from which to get the firewall rule. </p>
+    name: accountName
+    type: <xref href="String?alt=String&text=String" data-throw-if-not-resolved="False"/>
+  - description: <p>The name of the firewall rule to retrieve. </p>
+    name: firewallRuleName
+    type: <xref href="String?alt=String&text=String" data-throw-if-not-resolved="False"/>
+  exceptions:
+  - name: 3c87bd19
+  - name: dc385fd4
+  - name: 9b2a4515
+  returns:
+    description: <p>the FirewallRule object if successful. </p>
+    type: <xref href="com.microsoft.azure.management.datalake.store.models.FirewallRule?alt=com.microsoft.azure.management.datalake.store.models.FirewallRule&text=FirewallRule" data-throw-if-not-resolved="False"/>
+  summary: >-
+    <p>Gets the specified Data Lake Store firewall rule.</p>
+
+    <p></p>
+  syntax: public FirewallRule get(String resourceGroupName, String accountName, String firewallRuleName)
+  uid: com.microsoft.azure.management.datalake.store.FirewallRules.get(String,String,String)
+uid: com.microsoft.azure.management.datalake.store.FirewallRules.get*
+fullName: com.microsoft.azure.management.datalake.store.FirewallRules.get(String resourceGroupName, String accountName, String firewallRuleName)
+name: get(String resourceGroupName, String accountName, String firewallRuleName)
+package: com.microsoft.azure.management.datalake.store
+metadata: {}

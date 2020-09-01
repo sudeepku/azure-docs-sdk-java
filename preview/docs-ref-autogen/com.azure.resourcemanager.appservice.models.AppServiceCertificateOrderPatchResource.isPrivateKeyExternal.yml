@@ -1,0 +1,21 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.appservice.models.AppServiceCertificateOrderPatchResource.isPrivateKeyExternal*
+fullName: com.azure.resourcemanager.appservice.models.AppServiceCertificateOrderPatchResource.isPrivateKeyExternal
+name: isPrivateKeyExternal
+nameWithType: AppServiceCertificateOrderPatchResource.isPrivateKeyExternal
+members:
+- uid: com.azure.resourcemanager.appservice.models.AppServiceCertificateOrderPatchResource.isPrivateKeyExternal()
+  fullName: com.azure.resourcemanager.appservice.models.AppServiceCertificateOrderPatchResource.isPrivateKeyExternal()
+  name: isPrivateKeyExternal()
+  nameWithType: AppServiceCertificateOrderPatchResource.isPrivateKeyExternal()
+  summary: |-
+    Get the isPrivateKeyExternal property: &lt;code&gt;true&lt;/code&gt; if private key is external; otherwise,
+     &lt;code&gt;false&lt;/code&gt;.
+  syntax: public Boolean isPrivateKeyExternal()
+  returns:
+    description: the isPrivateKeyExternal value.
+    type: <xref href="java.lang.Boolean?alt=java.lang.Boolean&text=Boolean" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.resourcemanager.appservice.models
+artifact: com.azure.resourcemanager:azure-resourcemanager-appservice:2.0.0-beta.2

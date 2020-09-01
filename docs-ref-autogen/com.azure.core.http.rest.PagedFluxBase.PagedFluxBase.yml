@@ -1,0 +1,33 @@
+### YamlMime:JavaMember
+uid: com.azure.core.http.rest.PagedFluxBase.PagedFluxBase*
+fullName: com.azure.core.http.rest.PagedFluxBase<T,P>.PagedFluxBase
+name: PagedFluxBase
+nameWithType: PagedFluxBase<T,P>.PagedFluxBase
+members:
+- uid: com.azure.core.http.rest.PagedFluxBase.PagedFluxBase(java.util.function.Supplier<reactor.core.publisher.Mono<P>>)
+  fullName: com.azure.core.http.rest.PagedFluxBase<T,P>.PagedFluxBase(Supplier<Mono<P>> firstPageRetriever)
+  name: PagedFluxBase(Supplier<Mono<P>> firstPageRetriever)
+  nameWithType: PagedFluxBase<T,P>.PagedFluxBase(Supplier<Mono<P>> firstPageRetriever)
+  summary: "Creates an instance of <xref uid=\"PagedFluxBase\" data-throw-if-not-resolved=\"false\">PagedFluxBase</xref> that consists of only a single page.\n This constructor takes a <code>Supplier</code> that return the single page of <code>T</code>.\n\n <p><strong>Code sample</strong></p>\n <pre>\n &#47;&#47; A supplier that fetches the first page of data from source&#47;service\n Supplier&lt;Mono&lt;PagedResponse&lt;Integer&gt;&gt;&gt; firstPageRetrieverFunction = &#40;&#41; -&gt; getFirstPage&#40;&#41;;\n \n PagedFluxBase&lt;Integer, PagedResponse&lt;Integer&gt;&gt; pagedFluxBaseInstance = new PagedFluxBase&lt;&gt;&#40;firstPageRetrieverFunction,\n     nextPageRetriever&#41;;\n </pre>"
+  parameters:
+  - description: Supplier that retrieves the first page.
+    name: firstPageRetriever
+    type: <xref href="java.util.function.Supplier?alt=java.util.function.Supplier&text=Supplier" data-throw-if-not-resolved="False" />&lt;<xref href="reactor.core.publisher.Mono?alt=reactor.core.publisher.Mono&text=Mono" data-throw-if-not-resolved="False" />&lt;<xref href="P?alt=P&text=P" data-throw-if-not-resolved="False" />&gt;&gt;
+  syntax: public PagedFluxBase(Supplier<Mono<P>> firstPageRetriever)
+- uid: com.azure.core.http.rest.PagedFluxBase.PagedFluxBase(java.util.function.Supplier<reactor.core.publisher.Mono<P>>,java.util.function.Function<java.lang.String,reactor.core.publisher.Mono<P>>)
+  fullName: com.azure.core.http.rest.PagedFluxBase<T,P>.PagedFluxBase(Supplier<Mono<P>> firstPageRetriever, Function<String,Mono<P>> nextPageRetriever)
+  name: PagedFluxBase(Supplier<Mono<P>> firstPageRetriever, Function<String,Mono<P>> nextPageRetriever)
+  nameWithType: PagedFluxBase<T,P>.PagedFluxBase(Supplier<Mono<P>> firstPageRetriever, Function<String,Mono<P>> nextPageRetriever)
+  summary: "Creates an instance of <xref uid=\"PagedFluxBase\" data-throw-if-not-resolved=\"false\">PagedFluxBase</xref>. The constructor takes a <code>Supplier</code> and\n <code>Function</code>. The <code>Supplier</code> returns the first page of <code>T</code>,\n the <code>Function</code> retrieves subsequent pages of <code>T</code>.\n\n <p><strong>Code sample</strong></p>\n <pre>\n &#47;&#47; A supplier that fetches the first page of data from source&#47;service\n Supplier&lt;Mono&lt;PagedResponse&lt;Integer&gt;&gt;&gt; firstPageRetriever = &#40;&#41; -&gt; getFirstPage&#40;&#41;;\n \n &#47;&#47; A function that fetches subsequent pages of data from source&#47;service given a continuation token\n Function&lt;String, Mono&lt;PagedResponse&lt;Integer&gt;&gt;&gt; nextPageRetriever =\n     continuationToken -&gt; getNextPage&#40;continuationToken&#41;;\n \n PagedFluxBase&lt;Integer, PagedResponse&lt;Integer&gt;&gt; pagedFluxBase = new PagedFluxBase&lt;&gt;&#40;firstPageRetriever,\n     nextPageRetriever&#41;;\n </pre>"
+  parameters:
+  - description: Supplier that retrieves the first page
+    name: firstPageRetriever
+    type: <xref href="java.util.function.Supplier?alt=java.util.function.Supplier&text=Supplier" data-throw-if-not-resolved="False" />&lt;<xref href="reactor.core.publisher.Mono?alt=reactor.core.publisher.Mono&text=Mono" data-throw-if-not-resolved="False" />&lt;<xref href="P?alt=P&text=P" data-throw-if-not-resolved="False" />&gt;&gt;
+  - description: Function that retrieves the next page given a continuation token
+    name: nextPageRetriever
+    type: <xref href="java.util.function.Function?alt=java.util.function.Function&text=Function" data-throw-if-not-resolved="False" />&lt;<xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />,<xref href="reactor.core.publisher.Mono?alt=reactor.core.publisher.Mono&text=Mono" data-throw-if-not-resolved="False" />&lt;<xref href="P?alt=P&text=P" data-throw-if-not-resolved="False" />&gt;&gt;
+  syntax: public PagedFluxBase(Supplier<Mono<P>> firstPageRetriever, Function<String,Mono<P>> nextPageRetriever)
+type: constructor
+metadata: {}
+package: com.azure.core.http.rest
+artifact: com.azure:azure-core:1.7.0

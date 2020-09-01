@@ -1,0 +1,23 @@
+### YamlMime:JavaMember
+uid: com.azure.search.documents.SearchClientBuilder.serializer*
+fullName: com.azure.search.documents.SearchClientBuilder.serializer
+name: serializer
+nameWithType: SearchClientBuilder.serializer
+members:
+- uid: com.azure.search.documents.SearchClientBuilder.serializer(com.azure.core.util.serializer.ObjectSerializer)
+  fullName: com.azure.search.documents.SearchClientBuilder.serializer(ObjectSerializer objectSerializer)
+  name: serializer(ObjectSerializer objectSerializer)
+  nameWithType: SearchClientBuilder.serializer(ObjectSerializer objectSerializer)
+  summary: Adds customer serializer to apply to external defined models.
+  parameters:
+  - description: The serializer to serialize user defined models.
+    name: objectSerializer
+    type: <xref href="com.azure.core.util.serializer.ObjectSerializer?alt=com.azure.core.util.serializer.ObjectSerializer&text=ObjectSerializer" data-throw-if-not-resolved="False" />
+  syntax: public SearchClientBuilder serializer(ObjectSerializer objectSerializer)
+  returns:
+    description: The updated SearchClientBuilder object.
+    type: <xref href="com.azure.search.documents.SearchClientBuilder?alt=com.azure.search.documents.SearchClientBuilder&text=SearchClientBuilder" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.search.documents
+artifact: com.azure:azure-search-documents:11.1.0-beta.1

@@ -1,0 +1,45 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.network.fluent.AvailableResourceGroupDelegationsClient.listSinglePageAsync*
+fullName: com.azure.resourcemanager.network.fluent.AvailableResourceGroupDelegationsClient.listSinglePageAsync
+name: listSinglePageAsync
+nameWithType: AvailableResourceGroupDelegationsClient.listSinglePageAsync
+members:
+- uid: com.azure.resourcemanager.network.fluent.AvailableResourceGroupDelegationsClient.listSinglePageAsync(java.lang.String,java.lang.String)
+  fullName: com.azure.resourcemanager.network.fluent.AvailableResourceGroupDelegationsClient.listSinglePageAsync(String location, String resourceGroupName)
+  name: listSinglePageAsync(String location, String resourceGroupName)
+  nameWithType: AvailableResourceGroupDelegationsClient.listSinglePageAsync(String location, String resourceGroupName)
+  summary: Gets all of the available subnet delegations for this resource group in this region.
+  parameters:
+  - description: The location of the domain name.
+    name: location
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  - description: The name of the resource group.
+    name: resourceGroupName
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  syntax: public Mono<PagedResponse<AvailableDelegationInner>> listSinglePageAsync(String location, String resourceGroupName)
+  returns:
+    description: all of the available subnet delegations for this resource group in this region.
+    type: <xref href="reactor.core.publisher.Mono?alt=reactor.core.publisher.Mono&text=Mono" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.core.http.rest.PagedResponse?alt=com.azure.core.http.rest.PagedResponse&text=PagedResponse" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.resourcemanager.network.fluent.inner.AvailableDelegationInner?alt=com.azure.resourcemanager.network.fluent.inner.AvailableDelegationInner&text=AvailableDelegationInner" data-throw-if-not-resolved="False" />&gt;&gt;
+- uid: com.azure.resourcemanager.network.fluent.AvailableResourceGroupDelegationsClient.listSinglePageAsync(java.lang.String,java.lang.String,com.azure.core.util.Context)
+  fullName: com.azure.resourcemanager.network.fluent.AvailableResourceGroupDelegationsClient.listSinglePageAsync(String location, String resourceGroupName, Context context)
+  name: listSinglePageAsync(String location, String resourceGroupName, Context context)
+  nameWithType: AvailableResourceGroupDelegationsClient.listSinglePageAsync(String location, String resourceGroupName, Context context)
+  summary: Gets all of the available subnet delegations for this resource group in this region.
+  parameters:
+  - description: The location of the domain name.
+    name: location
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  - description: The name of the resource group.
+    name: resourceGroupName
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  - description: The context to associate with this operation.
+    name: context
+    type: <xref href="com.azure.core.util.Context?alt=com.azure.core.util.Context&text=Context" data-throw-if-not-resolved="False" />
+  syntax: public Mono<PagedResponse<AvailableDelegationInner>> listSinglePageAsync(String location, String resourceGroupName, Context context)
+  returns:
+    description: all of the available subnet delegations for this resource group in this region.
+    type: <xref href="reactor.core.publisher.Mono?alt=reactor.core.publisher.Mono&text=Mono" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.core.http.rest.PagedResponse?alt=com.azure.core.http.rest.PagedResponse&text=PagedResponse" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.resourcemanager.network.fluent.inner.AvailableDelegationInner?alt=com.azure.resourcemanager.network.fluent.inner.AvailableDelegationInner&text=AvailableDelegationInner" data-throw-if-not-resolved="False" />&gt;&gt;
+type: method
+metadata: {}
+package: com.azure.resourcemanager.network.fluent
+artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.0.0-beta.2

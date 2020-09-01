@@ -1,0 +1,23 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.monitor.fluent.inner.LogProfileCollectionInner.withValue*
+fullName: com.azure.resourcemanager.monitor.fluent.inner.LogProfileCollectionInner.withValue
+name: withValue
+nameWithType: LogProfileCollectionInner.withValue
+members:
+- uid: com.azure.resourcemanager.monitor.fluent.inner.LogProfileCollectionInner.withValue(java.util.List<com.azure.resourcemanager.monitor.fluent.inner.LogProfileResourceInner>)
+  fullName: com.azure.resourcemanager.monitor.fluent.inner.LogProfileCollectionInner.withValue(List<LogProfileResourceInner> value)
+  name: withValue(List<LogProfileResourceInner> value)
+  nameWithType: LogProfileCollectionInner.withValue(List<LogProfileResourceInner> value)
+  summary: 'Set the value property: the values of the log profiles.'
+  parameters:
+  - description: the value value to set.
+    name: value
+    type: <xref href="java.util.List?alt=java.util.List&text=List" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.resourcemanager.monitor.fluent.inner.LogProfileResourceInner?alt=com.azure.resourcemanager.monitor.fluent.inner.LogProfileResourceInner&text=LogProfileResourceInner" data-throw-if-not-resolved="False" />&gt;
+  syntax: public LogProfileCollectionInner withValue(List<LogProfileResourceInner> value)
+  returns:
+    description: the LogProfileCollectionInner object itself.
+    type: <xref href="com.azure.resourcemanager.monitor.fluent.inner.LogProfileCollectionInner?alt=com.azure.resourcemanager.monitor.fluent.inner.LogProfileCollectionInner&text=LogProfileCollectionInner" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.resourcemanager.monitor.fluent.inner
+artifact: com.azure.resourcemanager:azure-resourcemanager-monitor:2.0.0-beta.2

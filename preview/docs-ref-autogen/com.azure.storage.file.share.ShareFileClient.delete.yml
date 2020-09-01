@@ -1,0 +1,29 @@
+### YamlMime:JavaMember
+uid: com.azure.storage.file.share.ShareFileClient.delete*
+fullName: com.azure.storage.file.share.ShareFileClient.delete
+name: delete
+nameWithType: ShareFileClient.delete
+members:
+- uid: com.azure.storage.file.share.ShareFileClient.delete()
+  fullName: com.azure.storage.file.share.ShareFileClient.delete()
+  name: delete()
+  nameWithType: ShareFileClient.delete()
+  summary: |-
+    Deletes the file associate with the client.
+
+     <p><strong>Code Samples</strong></p>
+
+     <p>Delete the file</p>
+
+     <pre>
+     fileClient.delete&#40;&#41;;
+     System.out.println&#40;&quot;Complete deleting the file.&quot;&#41;;
+     </pre>
+
+     <p>For more information, see the
+     <a href="https://docs.microsoft.com/en-us/rest/api/storageservices/delete-file2">Azure Docs</a>.</p>
+  syntax: public void delete()
+type: method
+metadata: {}
+package: com.azure.storage.file.share
+artifact: com.azure:azure-storage-file-share:12.6.0-beta.1

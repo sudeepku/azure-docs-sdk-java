@@ -1,0 +1,15 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.appservice.fluent.inner.PublicCertificateCollectionInner.PublicCertificateCollectionInner*
+fullName: com.azure.resourcemanager.appservice.fluent.inner.PublicCertificateCollectionInner.PublicCertificateCollectionInner
+name: PublicCertificateCollectionInner
+nameWithType: PublicCertificateCollectionInner.PublicCertificateCollectionInner
+members:
+- uid: com.azure.resourcemanager.appservice.fluent.inner.PublicCertificateCollectionInner.PublicCertificateCollectionInner()
+  fullName: com.azure.resourcemanager.appservice.fluent.inner.PublicCertificateCollectionInner.PublicCertificateCollectionInner()
+  name: PublicCertificateCollectionInner()
+  nameWithType: PublicCertificateCollectionInner.PublicCertificateCollectionInner()
+  syntax: public PublicCertificateCollectionInner()
+type: constructor
+metadata: {}
+package: com.azure.resourcemanager.appservice.fluent.inner
+artifact: com.azure.resourcemanager:azure-resourcemanager-appservice:2.0.0-beta.2

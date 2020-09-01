@@ -1,0 +1,18 @@
+### YamlMime:JavaMember
+uid: com.azure.tracing.opentelemetry.OpenTelemetryTracer.addLink*
+fullName: com.azure.tracing.opentelemetry.OpenTelemetryTracer.addLink
+name: addLink
+nameWithType: OpenTelemetryTracer.addLink
+members:
+- uid: com.azure.tracing.opentelemetry.OpenTelemetryTracer.addLink(com.azure.core.util.Context)
+  fullName: com.azure.tracing.opentelemetry.OpenTelemetryTracer.addLink(Context eventContext)
+  name: addLink(Context eventContext)
+  nameWithType: OpenTelemetryTracer.addLink(Context eventContext)
+  parameters:
+  - name: eventContext
+    type: <xref href="com.azure.core.util.Context?alt=com.azure.core.util.Context&text=Context" data-throw-if-not-resolved="False" />
+  syntax: public void addLink(Context eventContext)
+type: method
+metadata: {}
+package: com.azure.tracing.opentelemetry
+artifact: com.azure:tracing-opentelemetry:1.0.0-preview.2

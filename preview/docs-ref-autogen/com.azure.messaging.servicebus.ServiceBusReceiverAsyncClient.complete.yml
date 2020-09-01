@@ -1,0 +1,86 @@
+### YamlMime:JavaMember
+uid: com.azure.messaging.servicebus.ServiceBusReceiverAsyncClient.complete*
+fullName: com.azure.messaging.servicebus.ServiceBusReceiverAsyncClient.complete
+name: complete
+nameWithType: ServiceBusReceiverAsyncClient.complete
+members:
+- uid: com.azure.messaging.servicebus.ServiceBusReceiverAsyncClient.complete(java.lang.String)
+  fullName: com.azure.messaging.servicebus.ServiceBusReceiverAsyncClient.complete(String lockToken)
+  name: complete(String lockToken)
+  nameWithType: ServiceBusReceiverAsyncClient.complete(String lockToken)
+  summary: |-
+    Completes a <xref uid="ServiceBusReceivedMessage" data-throw-if-not-resolved="false">message</xref> using its lock token. This will delete the message from the
+     service.
+  parameters:
+  - description: Lock token of the message.
+    name: lockToken
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  syntax: public Mono<Void> complete(String lockToken)
+  returns:
+    description: A <xref uid="reactor.core.publisher.Mono" data-throw-if-not-resolved="false">Mono</xref> that finishes when the message is completed on Service Bus.
+    type: <xref href="reactor.core.publisher.Mono?alt=reactor.core.publisher.Mono&text=Mono" data-throw-if-not-resolved="False" />&lt;<xref href="java.lang.Void?alt=java.lang.Void&text=Void" data-throw-if-not-resolved="False" />&gt;
+- uid: com.azure.messaging.servicebus.ServiceBusReceiverAsyncClient.complete(java.lang.String,com.azure.messaging.servicebus.ServiceBusTransactionContext)
+  fullName: com.azure.messaging.servicebus.ServiceBusReceiverAsyncClient.complete(String lockToken, ServiceBusTransactionContext transactionContext)
+  name: complete(String lockToken, ServiceBusTransactionContext transactionContext)
+  nameWithType: ServiceBusReceiverAsyncClient.complete(String lockToken, ServiceBusTransactionContext transactionContext)
+  summary: "Completes a <xref uid=\"ServiceBusReceivedMessage\" data-throw-if-not-resolved=\"false\">message</xref> using its lock token. This will delete the message from the\n service.\n <p><strong>Complete a message with a transaction</strong></p>\n <pre>\n \n &#47;&#47; messageContext: This is instance `ServiceBusReceivedMessageContext` which you have received previously.\n &#47;&#47; transactionContext: This is the transaction which you have created previously.\n \n &#47;&#47; Keep a reference to `subscription`. When the program is finished receiving messages, call\n &#47;&#47; subscription.dispose&#40;&#41;. This will dispose it cleanly.\n Disposable subscriber = receiver.complete&#40;messageContext.getMessage&#40;&#41;.getLockToken&#40;&#41;, transactionContext&#41;\n     .subscribe&#40;&#41;;\n \n &#47;&#47; When all the messages are processed and settled, you should commit&#47;rollback this transaction.\n </pre>"
+  parameters:
+  - description: Lock token of the message.
+    name: lockToken
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  - description: |-
+      in which this operation is taking part in. The transaction should be created first by
+       <xref uid="com.azure.messaging.servicebus.ServiceBusReceiverAsyncClient.createTransaction()" data-throw-if-not-resolved="false">ServiceBusReceiverAsyncClient#createTransaction()</xref> or
+       <xref uid="com.azure.messaging.servicebus.ServiceBusSenderAsyncClient.createTransaction()" data-throw-if-not-resolved="false">ServiceBusSenderAsyncClient#createTransaction()</xref>.
+    name: transactionContext
+    type: <xref href="com.azure.messaging.servicebus.ServiceBusTransactionContext?alt=com.azure.messaging.servicebus.ServiceBusTransactionContext&text=ServiceBusTransactionContext" data-throw-if-not-resolved="False" />
+  syntax: public Mono<Void> complete(String lockToken, ServiceBusTransactionContext transactionContext)
+  returns:
+    description: A <xref uid="reactor.core.publisher.Mono" data-throw-if-not-resolved="false">Mono</xref> that finishes when the message is completed on Service Bus.
+    type: <xref href="reactor.core.publisher.Mono?alt=reactor.core.publisher.Mono&text=Mono" data-throw-if-not-resolved="False" />&lt;<xref href="java.lang.Void?alt=java.lang.Void&text=Void" data-throw-if-not-resolved="False" />&gt;
+- uid: com.azure.messaging.servicebus.ServiceBusReceiverAsyncClient.complete(java.lang.String,java.lang.String)
+  fullName: com.azure.messaging.servicebus.ServiceBusReceiverAsyncClient.complete(String lockToken, String sessionId)
+  name: complete(String lockToken, String sessionId)
+  nameWithType: ServiceBusReceiverAsyncClient.complete(String lockToken, String sessionId)
+  summary: |-
+    Completes a <xref uid="ServiceBusReceivedMessage" data-throw-if-not-resolved="false">message</xref> using its lock token. This will delete the message from the
+     service.
+  parameters:
+  - description: Lock token of the message.
+    name: lockToken
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  - description: Session id of the message to complete. <code>null</code> if there is no session.
+    name: sessionId
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  syntax: public Mono<Void> complete(String lockToken, String sessionId)
+  returns:
+    description: A <xref uid="reactor.core.publisher.Mono" data-throw-if-not-resolved="false">Mono</xref> that finishes when the message is completed on Service Bus.
+    type: <xref href="reactor.core.publisher.Mono?alt=reactor.core.publisher.Mono&text=Mono" data-throw-if-not-resolved="False" />&lt;<xref href="java.lang.Void?alt=java.lang.Void&text=Void" data-throw-if-not-resolved="False" />&gt;
+- uid: com.azure.messaging.servicebus.ServiceBusReceiverAsyncClient.complete(java.lang.String,java.lang.String,com.azure.messaging.servicebus.ServiceBusTransactionContext)
+  fullName: com.azure.messaging.servicebus.ServiceBusReceiverAsyncClient.complete(String lockToken, String sessionId, ServiceBusTransactionContext transactionContext)
+  name: complete(String lockToken, String sessionId, ServiceBusTransactionContext transactionContext)
+  nameWithType: ServiceBusReceiverAsyncClient.complete(String lockToken, String sessionId, ServiceBusTransactionContext transactionContext)
+  summary: |-
+    Completes a <xref uid="ServiceBusReceivedMessage" data-throw-if-not-resolved="false">message</xref> using its lock token. This will delete the message from the
+     service.
+  parameters:
+  - description: Lock token of the message.
+    name: lockToken
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  - description: Session id of the message to complete. <code>null</code> if there is no session.
+    name: sessionId
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  - description: |-
+      in which this operation is taking part in. The transaction should be created first by
+       <xref uid="com.azure.messaging.servicebus.ServiceBusReceiverAsyncClient.createTransaction()" data-throw-if-not-resolved="false">ServiceBusReceiverAsyncClient#createTransaction()</xref> or
+       <xref uid="com.azure.messaging.servicebus.ServiceBusSenderAsyncClient.createTransaction()" data-throw-if-not-resolved="false">ServiceBusSenderAsyncClient#createTransaction()</xref>.
+    name: transactionContext
+    type: <xref href="com.azure.messaging.servicebus.ServiceBusTransactionContext?alt=com.azure.messaging.servicebus.ServiceBusTransactionContext&text=ServiceBusTransactionContext" data-throw-if-not-resolved="False" />
+  syntax: public Mono<Void> complete(String lockToken, String sessionId, ServiceBusTransactionContext transactionContext)
+  returns:
+    description: A <xref uid="reactor.core.publisher.Mono" data-throw-if-not-resolved="false">Mono</xref> that finishes when the message is completed on Service Bus.
+    type: <xref href="reactor.core.publisher.Mono?alt=reactor.core.publisher.Mono&text=Mono" data-throw-if-not-resolved="False" />&lt;<xref href="java.lang.Void?alt=java.lang.Void&text=Void" data-throw-if-not-resolved="False" />&gt;
+type: method
+metadata: {}
+package: com.azure.messaging.servicebus
+artifact: com.azure:azure-messaging-servicebus:7.0.0-beta.5

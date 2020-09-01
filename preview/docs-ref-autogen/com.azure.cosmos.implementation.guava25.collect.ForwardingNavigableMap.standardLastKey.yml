@@ -1,0 +1,20 @@
+### YamlMime:JavaMember
+uid: com.azure.cosmos.implementation.guava25.collect.ForwardingNavigableMap.standardLastKey*
+fullName: com.azure.cosmos.implementation.guava25.collect.ForwardingNavigableMap<K,V>.standardLastKey
+name: standardLastKey
+nameWithType: ForwardingNavigableMap<K,V>.standardLastKey
+members:
+- uid: com.azure.cosmos.implementation.guava25.collect.ForwardingNavigableMap.standardLastKey()
+  fullName: com.azure.cosmos.implementation.guava25.collect.ForwardingNavigableMap<K,V>.standardLastKey()
+  name: standardLastKey()
+  nameWithType: ForwardingNavigableMap<K,V>.standardLastKey()
+  summary: |-
+    A sensible definition of <xref uid="#lastKey" data-throw-if-not-resolved="false">#lastKey</xref> in terms of <code>lastEntry</code>. If you override <code>
+     lastEntry</code>, you may wish to override <code>lastKey</code> to forward to this implementation.
+  syntax: protected K standardLastKey()
+  returns:
+    type: <xref href="K?alt=K&text=K" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.cosmos.implementation.guava25.collect
+artifact: com.azure:azure-cosmos:4.3.2-beta.2

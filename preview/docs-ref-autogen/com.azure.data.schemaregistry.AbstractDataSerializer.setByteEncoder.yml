@@ -1,0 +1,20 @@
+### YamlMime:JavaMember
+uid: com.azure.data.schemaregistry.AbstractDataSerializer.setByteEncoder*
+fullName: com.azure.data.schemaregistry.AbstractDataSerializer.setByteEncoder
+name: setByteEncoder
+nameWithType: AbstractDataSerializer.setByteEncoder
+members:
+- uid: com.azure.data.schemaregistry.AbstractDataSerializer.setByteEncoder(com.azure.data.schemaregistry.ByteEncoder)
+  fullName: com.azure.data.schemaregistry.AbstractDataSerializer.setByteEncoder(ByteEncoder byteEncoder)
+  name: setByteEncoder(ByteEncoder byteEncoder)
+  nameWithType: AbstractDataSerializer.setByteEncoder(ByteEncoder byteEncoder)
+  summary: Set ByteEncoder class to be used for serialized objects into bytes
+  parameters:
+  - description: ByteEncoder instance
+    name: byteEncoder
+    type: <xref href="com.azure.data.schemaregistry.ByteEncoder?alt=com.azure.data.schemaregistry.ByteEncoder&text=ByteEncoder" data-throw-if-not-resolved="False" />
+  syntax: protected void setByteEncoder(ByteEncoder byteEncoder)
+type: method
+metadata: {}
+package: com.azure.data.schemaregistry
+artifact: com.azure:azure-data-schemaregistry:1.0.0-beta.1

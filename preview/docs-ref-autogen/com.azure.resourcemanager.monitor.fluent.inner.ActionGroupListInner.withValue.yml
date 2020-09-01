@@ -1,0 +1,23 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.monitor.fluent.inner.ActionGroupListInner.withValue*
+fullName: com.azure.resourcemanager.monitor.fluent.inner.ActionGroupListInner.withValue
+name: withValue
+nameWithType: ActionGroupListInner.withValue
+members:
+- uid: com.azure.resourcemanager.monitor.fluent.inner.ActionGroupListInner.withValue(java.util.List<com.azure.resourcemanager.monitor.fluent.inner.ActionGroupResourceInner>)
+  fullName: com.azure.resourcemanager.monitor.fluent.inner.ActionGroupListInner.withValue(List<ActionGroupResourceInner> value)
+  name: withValue(List<ActionGroupResourceInner> value)
+  nameWithType: ActionGroupListInner.withValue(List<ActionGroupResourceInner> value)
+  summary: 'Set the value property: The list of action groups.'
+  parameters:
+  - description: the value value to set.
+    name: value
+    type: <xref href="java.util.List?alt=java.util.List&text=List" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.resourcemanager.monitor.fluent.inner.ActionGroupResourceInner?alt=com.azure.resourcemanager.monitor.fluent.inner.ActionGroupResourceInner&text=ActionGroupResourceInner" data-throw-if-not-resolved="False" />&gt;
+  syntax: public ActionGroupListInner withValue(List<ActionGroupResourceInner> value)
+  returns:
+    description: the ActionGroupListInner object itself.
+    type: <xref href="com.azure.resourcemanager.monitor.fluent.inner.ActionGroupListInner?alt=com.azure.resourcemanager.monitor.fluent.inner.ActionGroupListInner&text=ActionGroupListInner" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.resourcemanager.monitor.fluent.inner
+artifact: com.azure.resourcemanager:azure-resourcemanager-monitor:2.0.0-beta.2

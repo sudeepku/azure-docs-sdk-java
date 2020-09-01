@@ -1,0 +1,23 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.resources.fluent.inner.TenantListResultInner.withNextLink*
+fullName: com.azure.resourcemanager.resources.fluent.inner.TenantListResultInner.withNextLink
+name: withNextLink
+nameWithType: TenantListResultInner.withNextLink
+members:
+- uid: com.azure.resourcemanager.resources.fluent.inner.TenantListResultInner.withNextLink(java.lang.String)
+  fullName: com.azure.resourcemanager.resources.fluent.inner.TenantListResultInner.withNextLink(String nextLink)
+  name: withNextLink(String nextLink)
+  nameWithType: TenantListResultInner.withNextLink(String nextLink)
+  summary: 'Set the nextLink property: The URL to use for getting the next set of results.'
+  parameters:
+  - description: the nextLink value to set.
+    name: nextLink
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  syntax: public TenantListResultInner withNextLink(String nextLink)
+  returns:
+    description: the TenantListResultInner object itself.
+    type: <xref href="com.azure.resourcemanager.resources.fluent.inner.TenantListResultInner?alt=com.azure.resourcemanager.resources.fluent.inner.TenantListResultInner&text=TenantListResultInner" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.resourcemanager.resources.fluent.inner
+artifact: com.azure.resourcemanager:azure-resourcemanager-resources:2.0.0-beta.2

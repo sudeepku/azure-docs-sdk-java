@@ -1,0 +1,34 @@
+### YamlMime:JavaMember
+uid: com.azure.storage.file.share.ShareDirectoryAsyncClient.getPropertiesWithResponse*
+fullName: com.azure.storage.file.share.ShareDirectoryAsyncClient.getPropertiesWithResponse
+name: getPropertiesWithResponse
+nameWithType: ShareDirectoryAsyncClient.getPropertiesWithResponse
+members:
+- uid: com.azure.storage.file.share.ShareDirectoryAsyncClient.getPropertiesWithResponse()
+  fullName: com.azure.storage.file.share.ShareDirectoryAsyncClient.getPropertiesWithResponse()
+  name: getPropertiesWithResponse()
+  nameWithType: ShareDirectoryAsyncClient.getPropertiesWithResponse()
+  summary: |-
+    Retrieves the properties of this directory. The properties includes directory metadata, last modified date, is
+     server encrypted, and eTag.
+
+     <p><strong>Code Samples</strong></p>
+
+     <p>Retrieve directory properties</p>
+
+     <pre>
+     shareDirectoryAsyncClient.getPropertiesWithResponse&#40;&#41;.subscribe&#40;properties -&gt; &#123;
+         System.out.printf&#40;&quot;Directory latest modified date is %s:&quot;, properties.getValue&#40;&#41;.getLastModified&#40;&#41;&#41;;
+     &#125;&#41;;
+     </pre>
+
+     <p>For more information, see the
+     <a href="https://docs.microsoft.com/en-us/rest/api/storageservices/get-directory-properties">Azure Docs</a>.</p>
+  syntax: public Mono<Response<ShareDirectoryProperties>> getPropertiesWithResponse()
+  returns:
+    description: A response containing the storage directory properties with headers and response status code
+    type: <xref href="reactor.core.publisher.Mono?alt=reactor.core.publisher.Mono&text=Mono" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.core.http.rest.Response?alt=com.azure.core.http.rest.Response&text=Response" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.storage.file.share.models.ShareDirectoryProperties?alt=com.azure.storage.file.share.models.ShareDirectoryProperties&text=ShareDirectoryProperties" data-throw-if-not-resolved="False" />&gt;&gt;
+type: method
+metadata: {}
+package: com.azure.storage.file.share
+artifact: com.azure:azure-storage-file-share:12.6.0

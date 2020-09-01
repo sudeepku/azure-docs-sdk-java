@@ -1,0 +1,21 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.appservice.fluent.inner.SiteExtensionInfoInner.localIsLatestVersion*
+fullName: com.azure.resourcemanager.appservice.fluent.inner.SiteExtensionInfoInner.localIsLatestVersion
+name: localIsLatestVersion
+nameWithType: SiteExtensionInfoInner.localIsLatestVersion
+members:
+- uid: com.azure.resourcemanager.appservice.fluent.inner.SiteExtensionInfoInner.localIsLatestVersion()
+  fullName: com.azure.resourcemanager.appservice.fluent.inner.SiteExtensionInfoInner.localIsLatestVersion()
+  name: localIsLatestVersion()
+  nameWithType: SiteExtensionInfoInner.localIsLatestVersion()
+  summary: |-
+    Get the localIsLatestVersion property: &lt;code&gt;true&lt;/code&gt; if the local version is the latest version;
+     &lt;code&gt;false&lt;/code&gt; otherwise.
+  syntax: public Boolean localIsLatestVersion()
+  returns:
+    description: the localIsLatestVersion value.
+    type: <xref href="java.lang.Boolean?alt=java.lang.Boolean&text=Boolean" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.resourcemanager.appservice.fluent.inner
+artifact: com.azure.resourcemanager:azure-resourcemanager-appservice:2.0.0-beta.2

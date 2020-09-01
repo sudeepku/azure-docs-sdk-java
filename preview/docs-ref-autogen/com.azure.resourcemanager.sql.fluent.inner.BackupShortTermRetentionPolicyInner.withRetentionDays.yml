@@ -1,0 +1,25 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.sql.fluent.inner.BackupShortTermRetentionPolicyInner.withRetentionDays*
+fullName: com.azure.resourcemanager.sql.fluent.inner.BackupShortTermRetentionPolicyInner.withRetentionDays
+name: withRetentionDays
+nameWithType: BackupShortTermRetentionPolicyInner.withRetentionDays
+members:
+- uid: com.azure.resourcemanager.sql.fluent.inner.BackupShortTermRetentionPolicyInner.withRetentionDays(java.lang.Integer)
+  fullName: com.azure.resourcemanager.sql.fluent.inner.BackupShortTermRetentionPolicyInner.withRetentionDays(Integer retentionDays)
+  name: withRetentionDays(Integer retentionDays)
+  nameWithType: BackupShortTermRetentionPolicyInner.withRetentionDays(Integer retentionDays)
+  summary: |-
+    Set the retentionDays property: The backup retention period in days. This is how many days Point-in-Time Restore
+     will be supported.
+  parameters:
+  - description: the retentionDays value to set.
+    name: retentionDays
+    type: <xref href="java.lang.Integer?alt=java.lang.Integer&text=Integer" data-throw-if-not-resolved="False" />
+  syntax: public BackupShortTermRetentionPolicyInner withRetentionDays(Integer retentionDays)
+  returns:
+    description: the BackupShortTermRetentionPolicyInner object itself.
+    type: <xref href="com.azure.resourcemanager.sql.fluent.inner.BackupShortTermRetentionPolicyInner?alt=com.azure.resourcemanager.sql.fluent.inner.BackupShortTermRetentionPolicyInner&text=BackupShortTermRetentionPolicyInner" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.resourcemanager.sql.fluent.inner
+artifact: com.azure.resourcemanager:azure-resourcemanager-sql:2.0.0-beta.2

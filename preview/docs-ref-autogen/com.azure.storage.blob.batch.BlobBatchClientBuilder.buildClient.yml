@@ -1,0 +1,26 @@
+### YamlMime:JavaMember
+uid: com.azure.storage.blob.batch.BlobBatchClientBuilder.buildClient*
+fullName: com.azure.storage.blob.batch.BlobBatchClientBuilder.buildClient
+name: buildClient
+nameWithType: BlobBatchClientBuilder.buildClient
+members:
+- uid: com.azure.storage.blob.batch.BlobBatchClientBuilder.buildClient()
+  fullName: com.azure.storage.blob.batch.BlobBatchClientBuilder.buildClient()
+  name: buildClient()
+  nameWithType: BlobBatchClientBuilder.buildClient()
+  summary: |-
+    Creates a <xref uid="BlobBatchClient" data-throw-if-not-resolved="false">BlobBatchClient</xref> based on options set in the builder.
+
+     <p><strong>Code sample</strong></p>
+
+     <pre>
+     BlobBatchClient batchClient = new BlobBatchClientBuilder&#40;blobServiceClient&#41;.buildClient&#40;&#41;;
+     </pre>
+  syntax: public BlobBatchClient buildClient()
+  returns:
+    description: a <xref uid="com.azure.storage.blob.batch.BlobBatchClient" data-throw-if-not-resolved="false">BlobBatchClient</xref> created from the configurations in this builder.
+    type: <xref href="com.azure.storage.blob.batch.BlobBatchClient?alt=com.azure.storage.blob.batch.BlobBatchClient&text=BlobBatchClient" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.storage.blob.batch
+artifact: com.azure:azure-storage-blob-batch:12.6.0-beta.1

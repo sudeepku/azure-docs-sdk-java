@@ -1,0 +1,45 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.network.fluent.AzureFirewallsClient.getByResourceGroup*
+fullName: com.azure.resourcemanager.network.fluent.AzureFirewallsClient.getByResourceGroup
+name: getByResourceGroup
+nameWithType: AzureFirewallsClient.getByResourceGroup
+members:
+- uid: com.azure.resourcemanager.network.fluent.AzureFirewallsClient.getByResourceGroup(java.lang.String,java.lang.String)
+  fullName: com.azure.resourcemanager.network.fluent.AzureFirewallsClient.getByResourceGroup(String resourceGroupName, String azureFirewallName)
+  name: getByResourceGroup(String resourceGroupName, String azureFirewallName)
+  nameWithType: AzureFirewallsClient.getByResourceGroup(String resourceGroupName, String azureFirewallName)
+  summary: Gets the specified Azure Firewall.
+  parameters:
+  - description: The name of the resource group.
+    name: resourceGroupName
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  - description: The name of the Azure Firewall.
+    name: azureFirewallName
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  syntax: public AzureFirewallInner getByResourceGroup(String resourceGroupName, String azureFirewallName)
+  returns:
+    description: the specified Azure Firewall.
+    type: <xref href="com.azure.resourcemanager.network.fluent.inner.AzureFirewallInner?alt=com.azure.resourcemanager.network.fluent.inner.AzureFirewallInner&text=AzureFirewallInner" data-throw-if-not-resolved="False" />
+- uid: com.azure.resourcemanager.network.fluent.AzureFirewallsClient.getByResourceGroup(java.lang.String,java.lang.String,com.azure.core.util.Context)
+  fullName: com.azure.resourcemanager.network.fluent.AzureFirewallsClient.getByResourceGroup(String resourceGroupName, String azureFirewallName, Context context)
+  name: getByResourceGroup(String resourceGroupName, String azureFirewallName, Context context)
+  nameWithType: AzureFirewallsClient.getByResourceGroup(String resourceGroupName, String azureFirewallName, Context context)
+  summary: Gets the specified Azure Firewall.
+  parameters:
+  - description: The name of the resource group.
+    name: resourceGroupName
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  - description: The name of the Azure Firewall.
+    name: azureFirewallName
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  - description: The context to associate with this operation.
+    name: context
+    type: <xref href="com.azure.core.util.Context?alt=com.azure.core.util.Context&text=Context" data-throw-if-not-resolved="False" />
+  syntax: public AzureFirewallInner getByResourceGroup(String resourceGroupName, String azureFirewallName, Context context)
+  returns:
+    description: the specified Azure Firewall.
+    type: <xref href="com.azure.resourcemanager.network.fluent.inner.AzureFirewallInner?alt=com.azure.resourcemanager.network.fluent.inner.AzureFirewallInner&text=AzureFirewallInner" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.resourcemanager.network.fluent
+artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.0.0-beta.2

@@ -1,0 +1,39 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.sql.fluent.PrivateLinkResourcesClient.listByServerNextSinglePageAsync*
+fullName: com.azure.resourcemanager.sql.fluent.PrivateLinkResourcesClient.listByServerNextSinglePageAsync
+name: listByServerNextSinglePageAsync
+nameWithType: PrivateLinkResourcesClient.listByServerNextSinglePageAsync
+members:
+- uid: com.azure.resourcemanager.sql.fluent.PrivateLinkResourcesClient.listByServerNextSinglePageAsync(java.lang.String)
+  fullName: com.azure.resourcemanager.sql.fluent.PrivateLinkResourcesClient.listByServerNextSinglePageAsync(String nextLink)
+  name: listByServerNextSinglePageAsync(String nextLink)
+  nameWithType: PrivateLinkResourcesClient.listByServerNextSinglePageAsync(String nextLink)
+  summary: Get the next page of items.
+  parameters:
+  - description: The nextLink parameter.
+    name: nextLink
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  syntax: public Mono<PagedResponse<PrivateLinkResourceInner>> listByServerNextSinglePageAsync(String nextLink)
+  returns:
+    description: a list of private link resources.
+    type: <xref href="reactor.core.publisher.Mono?alt=reactor.core.publisher.Mono&text=Mono" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.core.http.rest.PagedResponse?alt=com.azure.core.http.rest.PagedResponse&text=PagedResponse" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.resourcemanager.sql.fluent.inner.PrivateLinkResourceInner?alt=com.azure.resourcemanager.sql.fluent.inner.PrivateLinkResourceInner&text=PrivateLinkResourceInner" data-throw-if-not-resolved="False" />&gt;&gt;
+- uid: com.azure.resourcemanager.sql.fluent.PrivateLinkResourcesClient.listByServerNextSinglePageAsync(java.lang.String,com.azure.core.util.Context)
+  fullName: com.azure.resourcemanager.sql.fluent.PrivateLinkResourcesClient.listByServerNextSinglePageAsync(String nextLink, Context context)
+  name: listByServerNextSinglePageAsync(String nextLink, Context context)
+  nameWithType: PrivateLinkResourcesClient.listByServerNextSinglePageAsync(String nextLink, Context context)
+  summary: Get the next page of items.
+  parameters:
+  - description: The nextLink parameter.
+    name: nextLink
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  - description: The context to associate with this operation.
+    name: context
+    type: <xref href="com.azure.core.util.Context?alt=com.azure.core.util.Context&text=Context" data-throw-if-not-resolved="False" />
+  syntax: public Mono<PagedResponse<PrivateLinkResourceInner>> listByServerNextSinglePageAsync(String nextLink, Context context)
+  returns:
+    description: a list of private link resources.
+    type: <xref href="reactor.core.publisher.Mono?alt=reactor.core.publisher.Mono&text=Mono" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.core.http.rest.PagedResponse?alt=com.azure.core.http.rest.PagedResponse&text=PagedResponse" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.resourcemanager.sql.fluent.inner.PrivateLinkResourceInner?alt=com.azure.resourcemanager.sql.fluent.inner.PrivateLinkResourceInner&text=PrivateLinkResourceInner" data-throw-if-not-resolved="False" />&gt;&gt;
+type: method
+metadata: {}
+package: com.azure.resourcemanager.sql.fluent
+artifact: com.azure.resourcemanager:azure-resourcemanager-sql:2.0.0-beta.2

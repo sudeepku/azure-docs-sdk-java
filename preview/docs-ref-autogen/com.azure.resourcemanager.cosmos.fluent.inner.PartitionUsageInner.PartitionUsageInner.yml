@@ -1,0 +1,15 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.cosmos.fluent.inner.PartitionUsageInner.PartitionUsageInner*
+fullName: com.azure.resourcemanager.cosmos.fluent.inner.PartitionUsageInner.PartitionUsageInner
+name: PartitionUsageInner
+nameWithType: PartitionUsageInner.PartitionUsageInner
+members:
+- uid: com.azure.resourcemanager.cosmos.fluent.inner.PartitionUsageInner.PartitionUsageInner()
+  fullName: com.azure.resourcemanager.cosmos.fluent.inner.PartitionUsageInner.PartitionUsageInner()
+  name: PartitionUsageInner()
+  nameWithType: PartitionUsageInner.PartitionUsageInner()
+  syntax: public PartitionUsageInner()
+type: constructor
+metadata: {}
+package: com.azure.resourcemanager.cosmos.fluent.inner
+artifact: com.azure.resourcemanager:azure-resourcemanager-cosmos:2.0.0-beta.2

@@ -1,0 +1,41 @@
+### YamlMime:JavaMember
+uid: com.azure.storage.file.share.ShareFileClient.downloadToFile*
+fullName: com.azure.storage.file.share.ShareFileClient.downloadToFile
+name: downloadToFile
+nameWithType: ShareFileClient.downloadToFile
+members:
+- uid: com.azure.storage.file.share.ShareFileClient.downloadToFile(java.lang.String)
+  fullName: com.azure.storage.file.share.ShareFileClient.downloadToFile(String downloadFilePath)
+  name: downloadToFile(String downloadFilePath)
+  nameWithType: ShareFileClient.downloadToFile(String downloadFilePath)
+  summary: |-
+    Downloads a file from the system, including its metadata and properties into a file specified by the path.
+
+     <p>The file will be created and must not exist, if the file already exists a <xref uid="FileAlreadyExistsException" data-throw-if-not-resolved="false">FileAlreadyExistsException</xref>
+     will be thrown.</p>
+
+     <p><strong>Code Samples</strong></p>
+
+     <p>Download the file to current folder. </p>
+
+     <pre>
+     fileClient.downloadToFile&#40;&quot;somelocalfilepath&quot;&#41;;
+     if &#40;Files.exists&#40;Paths.get&#40;&quot;somelocalfilepath&quot;&#41;&#41;&#41; &#123;
+         System.out.println&#40;&quot;Complete downloading the file.&quot;&#41;;
+     &#125;
+     </pre>
+
+     <p>For more information, see the
+     <a href="https://docs.microsoft.com/en-us/rest/api/storageservices/get-file">Azure Docs</a>.</p>
+  parameters:
+  - description: The path where store the downloaded file
+    name: downloadFilePath
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  syntax: public ShareFileProperties downloadToFile(String downloadFilePath)
+  returns:
+    description: The properties of the file.
+    type: <xref href="com.azure.storage.file.share.models.ShareFileProperties?alt=com.azure.storage.file.share.models.ShareFileProperties&text=ShareFileProperties" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.storage.file.share
+artifact: com.azure:azure-storage-file-share:12.6.0

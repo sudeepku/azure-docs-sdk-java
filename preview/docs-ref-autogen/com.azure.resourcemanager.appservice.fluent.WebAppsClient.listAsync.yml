@@ -1,0 +1,32 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.appservice.fluent.WebAppsClient.listAsync*
+fullName: com.azure.resourcemanager.appservice.fluent.WebAppsClient.listAsync
+name: listAsync
+nameWithType: WebAppsClient.listAsync
+members:
+- uid: com.azure.resourcemanager.appservice.fluent.WebAppsClient.listAsync()
+  fullName: com.azure.resourcemanager.appservice.fluent.WebAppsClient.listAsync()
+  name: listAsync()
+  nameWithType: WebAppsClient.listAsync()
+  summary: Description for Get all apps for a subscription.
+  syntax: public PagedFlux<SiteInner> listAsync()
+  returns:
+    description: collection of App Service apps.
+    type: <xref href="com.azure.core.http.rest.PagedFlux?alt=com.azure.core.http.rest.PagedFlux&text=PagedFlux" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.resourcemanager.appservice.fluent.inner.SiteInner?alt=com.azure.resourcemanager.appservice.fluent.inner.SiteInner&text=SiteInner" data-throw-if-not-resolved="False" />&gt;
+- uid: com.azure.resourcemanager.appservice.fluent.WebAppsClient.listAsync(com.azure.core.util.Context)
+  fullName: com.azure.resourcemanager.appservice.fluent.WebAppsClient.listAsync(Context context)
+  name: listAsync(Context context)
+  nameWithType: WebAppsClient.listAsync(Context context)
+  summary: Description for Get all apps for a subscription.
+  parameters:
+  - description: The context to associate with this operation.
+    name: context
+    type: <xref href="com.azure.core.util.Context?alt=com.azure.core.util.Context&text=Context" data-throw-if-not-resolved="False" />
+  syntax: public PagedFlux<SiteInner> listAsync(Context context)
+  returns:
+    description: collection of App Service apps.
+    type: <xref href="com.azure.core.http.rest.PagedFlux?alt=com.azure.core.http.rest.PagedFlux&text=PagedFlux" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.resourcemanager.appservice.fluent.inner.SiteInner?alt=com.azure.resourcemanager.appservice.fluent.inner.SiteInner&text=SiteInner" data-throw-if-not-resolved="False" />&gt;
+type: method
+metadata: {}
+package: com.azure.resourcemanager.appservice.fluent
+artifact: com.azure.resourcemanager:azure-resourcemanager-appservice:2.0.0-beta.2

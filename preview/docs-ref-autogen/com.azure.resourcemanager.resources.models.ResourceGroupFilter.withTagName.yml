@@ -1,0 +1,23 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.resources.models.ResourceGroupFilter.withTagName*
+fullName: com.azure.resourcemanager.resources.models.ResourceGroupFilter.withTagName
+name: withTagName
+nameWithType: ResourceGroupFilter.withTagName
+members:
+- uid: com.azure.resourcemanager.resources.models.ResourceGroupFilter.withTagName(java.lang.String)
+  fullName: com.azure.resourcemanager.resources.models.ResourceGroupFilter.withTagName(String tagName)
+  name: withTagName(String tagName)
+  nameWithType: ResourceGroupFilter.withTagName(String tagName)
+  summary: 'Set the tagName property: The tag name.'
+  parameters:
+  - description: the tagName value to set.
+    name: tagName
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  syntax: public ResourceGroupFilter withTagName(String tagName)
+  returns:
+    description: the ResourceGroupFilter object itself.
+    type: <xref href="com.azure.resourcemanager.resources.models.ResourceGroupFilter?alt=com.azure.resourcemanager.resources.models.ResourceGroupFilter&text=ResourceGroupFilter" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.resourcemanager.resources.models
+artifact: com.azure.resourcemanager:azure-resourcemanager-resources:2.0.0-beta.2

@@ -1,0 +1,23 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.appservice.fluent.inner.ResourceMetricDefinitionCollectionInner.withValue*
+fullName: com.azure.resourcemanager.appservice.fluent.inner.ResourceMetricDefinitionCollectionInner.withValue
+name: withValue
+nameWithType: ResourceMetricDefinitionCollectionInner.withValue
+members:
+- uid: com.azure.resourcemanager.appservice.fluent.inner.ResourceMetricDefinitionCollectionInner.withValue(java.util.List<com.azure.resourcemanager.appservice.fluent.inner.ResourceMetricDefinitionInner>)
+  fullName: com.azure.resourcemanager.appservice.fluent.inner.ResourceMetricDefinitionCollectionInner.withValue(List<ResourceMetricDefinitionInner> value)
+  name: withValue(List<ResourceMetricDefinitionInner> value)
+  nameWithType: ResourceMetricDefinitionCollectionInner.withValue(List<ResourceMetricDefinitionInner> value)
+  summary: 'Set the value property: Collection of resources.'
+  parameters:
+  - description: the value value to set.
+    name: value
+    type: <xref href="java.util.List?alt=java.util.List&text=List" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.resourcemanager.appservice.fluent.inner.ResourceMetricDefinitionInner?alt=com.azure.resourcemanager.appservice.fluent.inner.ResourceMetricDefinitionInner&text=ResourceMetricDefinitionInner" data-throw-if-not-resolved="False" />&gt;
+  syntax: public ResourceMetricDefinitionCollectionInner withValue(List<ResourceMetricDefinitionInner> value)
+  returns:
+    description: the ResourceMetricDefinitionCollectionInner object itself.
+    type: <xref href="com.azure.resourcemanager.appservice.fluent.inner.ResourceMetricDefinitionCollectionInner?alt=com.azure.resourcemanager.appservice.fluent.inner.ResourceMetricDefinitionCollectionInner&text=ResourceMetricDefinitionCollectionInner" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.resourcemanager.appservice.fluent.inner
+artifact: com.azure.resourcemanager:azure-resourcemanager-appservice:2.0.0-beta.2

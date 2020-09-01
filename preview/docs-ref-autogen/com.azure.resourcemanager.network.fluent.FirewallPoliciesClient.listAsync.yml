@@ -1,0 +1,32 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.network.fluent.FirewallPoliciesClient.listAsync*
+fullName: com.azure.resourcemanager.network.fluent.FirewallPoliciesClient.listAsync
+name: listAsync
+nameWithType: FirewallPoliciesClient.listAsync
+members:
+- uid: com.azure.resourcemanager.network.fluent.FirewallPoliciesClient.listAsync()
+  fullName: com.azure.resourcemanager.network.fluent.FirewallPoliciesClient.listAsync()
+  name: listAsync()
+  nameWithType: FirewallPoliciesClient.listAsync()
+  summary: Gets all the Firewall Policies in a subscription.
+  syntax: public PagedFlux<FirewallPolicyInner> listAsync()
+  returns:
+    description: all the Firewall Policies in a subscription.
+    type: <xref href="com.azure.core.http.rest.PagedFlux?alt=com.azure.core.http.rest.PagedFlux&text=PagedFlux" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.resourcemanager.network.fluent.inner.FirewallPolicyInner?alt=com.azure.resourcemanager.network.fluent.inner.FirewallPolicyInner&text=FirewallPolicyInner" data-throw-if-not-resolved="False" />&gt;
+- uid: com.azure.resourcemanager.network.fluent.FirewallPoliciesClient.listAsync(com.azure.core.util.Context)
+  fullName: com.azure.resourcemanager.network.fluent.FirewallPoliciesClient.listAsync(Context context)
+  name: listAsync(Context context)
+  nameWithType: FirewallPoliciesClient.listAsync(Context context)
+  summary: Gets all the Firewall Policies in a subscription.
+  parameters:
+  - description: The context to associate with this operation.
+    name: context
+    type: <xref href="com.azure.core.util.Context?alt=com.azure.core.util.Context&text=Context" data-throw-if-not-resolved="False" />
+  syntax: public PagedFlux<FirewallPolicyInner> listAsync(Context context)
+  returns:
+    description: all the Firewall Policies in a subscription.
+    type: <xref href="com.azure.core.http.rest.PagedFlux?alt=com.azure.core.http.rest.PagedFlux&text=PagedFlux" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.resourcemanager.network.fluent.inner.FirewallPolicyInner?alt=com.azure.resourcemanager.network.fluent.inner.FirewallPolicyInner&text=FirewallPolicyInner" data-throw-if-not-resolved="False" />&gt;
+type: method
+metadata: {}
+package: com.azure.resourcemanager.network.fluent
+artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.0.0-beta.2

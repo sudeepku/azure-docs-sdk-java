@@ -1,0 +1,15 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.appservice.fluent.inner.TopLevelDomainInner.TopLevelDomainInner*
+fullName: com.azure.resourcemanager.appservice.fluent.inner.TopLevelDomainInner.TopLevelDomainInner
+name: TopLevelDomainInner
+nameWithType: TopLevelDomainInner.TopLevelDomainInner
+members:
+- uid: com.azure.resourcemanager.appservice.fluent.inner.TopLevelDomainInner.TopLevelDomainInner()
+  fullName: com.azure.resourcemanager.appservice.fluent.inner.TopLevelDomainInner.TopLevelDomainInner()
+  name: TopLevelDomainInner()
+  nameWithType: TopLevelDomainInner.TopLevelDomainInner()
+  syntax: public TopLevelDomainInner()
+type: constructor
+metadata: {}
+package: com.azure.resourcemanager.appservice.fluent.inner
+artifact: com.azure.resourcemanager:azure-resourcemanager-appservice:2.0.0-beta.2

@@ -1,0 +1,18 @@
+### YamlMime:JavaMember
+uid: com.azure.search.documents.indexes.implementation.models.ImageDetail.values*
+fullName: com.azure.search.documents.indexes.implementation.models.ImageDetail.values
+name: values
+nameWithType: ImageDetail.values
+members:
+- uid: com.azure.search.documents.indexes.implementation.models.ImageDetail.values()
+  fullName: com.azure.search.documents.indexes.implementation.models.ImageDetail.values()
+  name: values()
+  nameWithType: ImageDetail.values()
+  syntax: public static Collection<ImageDetail> values()
+  returns:
+    description: known ImageDetail values.
+    type: <xref href="java.util.Collection?alt=java.util.Collection&text=Collection" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.search.documents.indexes.implementation.models.ImageDetail?alt=com.azure.search.documents.indexes.implementation.models.ImageDetail&text=ImageDetail" data-throw-if-not-resolved="False" />&gt;
+type: method
+metadata: {}
+package: com.azure.search.documents.indexes.implementation.models
+artifact: com.azure:azure-search-documents:11.0.0

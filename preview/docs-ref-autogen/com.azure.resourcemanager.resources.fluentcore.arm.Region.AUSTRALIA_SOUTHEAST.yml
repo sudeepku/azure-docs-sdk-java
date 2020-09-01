@@ -1,0 +1,15 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.resources.fluentcore.arm.Region.AUSTRALIA_SOUTHEAST
+fullName: com.azure.resourcemanager.resources.fluentcore.arm.Region.AUSTRALIA_SOUTHEAST
+name: AUSTRALIA_SOUTHEAST
+nameWithType: Region.AUSTRALIA_SOUTHEAST
+members:
+- uid: com.azure.resourcemanager.resources.fluentcore.arm.Region.AUSTRALIA_SOUTHEAST
+  fullName: com.azure.resourcemanager.resources.fluentcore.arm.Region.AUSTRALIA_SOUTHEAST
+  name: AUSTRALIA_SOUTHEAST
+  nameWithType: Region.AUSTRALIA_SOUTHEAST
+  syntax: public static final Region AUSTRALIA_SOUTHEAST
+type: field
+metadata: {}
+package: com.azure.resourcemanager.resources.fluentcore.arm
+artifact: com.azure.resourcemanager:azure-resourcemanager-resources:2.0.0-beta.2

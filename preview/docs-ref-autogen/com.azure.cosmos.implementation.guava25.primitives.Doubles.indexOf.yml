@@ -1,0 +1,52 @@
+### YamlMime:JavaMember
+uid: com.azure.cosmos.implementation.guava25.primitives.Doubles.indexOf*
+fullName: com.azure.cosmos.implementation.guava25.primitives.Doubles.indexOf
+name: indexOf
+nameWithType: Doubles.indexOf
+members:
+- uid: com.azure.cosmos.implementation.guava25.primitives.Doubles.indexOf(double[],double)
+  fullName: com.azure.cosmos.implementation.guava25.primitives.Doubles.indexOf(double[] array, double target)
+  name: indexOf(double[] array, double target)
+  nameWithType: Doubles.indexOf(double[] array, double target)
+  summary: |-
+    Returns the index of the first appearance of the value <code>target</code> in <code>array</code>. Note
+     that this always returns <code>-1</code> when <code>target</code> is <code>NaN</code>.
+  parameters:
+  - description: an array of <code>double</code> values, possibly empty
+    name: array
+    type: <xref href="double?alt=double&text=double" data-throw-if-not-resolved="False" />[]
+  - description: a primitive <code>double</code> value
+    name: target
+    type: <xref href="double?alt=double&text=double" data-throw-if-not-resolved="False" />
+  syntax: public static int indexOf(double[] array, double target)
+  returns:
+    description: |-
+      the least index <code>i</code> for which <code>array[i] == target</code>, or <code>-1</code> if no
+           such index exists.
+    type: <xref href="int?alt=int&text=int" data-throw-if-not-resolved="False" />
+- uid: com.azure.cosmos.implementation.guava25.primitives.Doubles.indexOf(double[],double[])
+  fullName: com.azure.cosmos.implementation.guava25.primitives.Doubles.indexOf(double[] array, double[] target)
+  name: indexOf(double[] array, double[] target)
+  nameWithType: Doubles.indexOf(double[] array, double[] target)
+  summary: |-
+    Returns the start position of the first occurrence of the specified <code>target</code> within
+     <code>array</code>, or <code>-1</code> if there is no such occurrence.
+
+     <p>More formally, returns the lowest index <code>i</code> such that <code>Arrays.copyOfRange(array,
+     i, i + target.length)</code> contains exactly the same elements as <code>target</code>.
+
+     <p>Note that this always returns <code>-1</code> when <code>target</code> contains <code>NaN</code>.
+  parameters:
+  - description: the array to search for the sequence <code>target</code>
+    name: array
+    type: <xref href="double?alt=double&text=double" data-throw-if-not-resolved="False" />[]
+  - description: the array to search for as a sub-sequence of <code>array</code>
+    name: target
+    type: <xref href="double?alt=double&text=double" data-throw-if-not-resolved="False" />[]
+  syntax: public static int indexOf(double[] array, double[] target)
+  returns:
+    type: <xref href="int?alt=int&text=int" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.cosmos.implementation.guava25.primitives
+artifact: com.azure:azure-cosmos:4.3.2-beta.2

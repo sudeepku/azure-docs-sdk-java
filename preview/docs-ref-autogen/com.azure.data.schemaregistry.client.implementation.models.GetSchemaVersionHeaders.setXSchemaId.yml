@@ -1,0 +1,23 @@
+### YamlMime:JavaMember
+uid: com.azure.data.schemaregistry.client.implementation.models.GetSchemaVersionHeaders.setXSchemaId*
+fullName: com.azure.data.schemaregistry.client.implementation.models.GetSchemaVersionHeaders.setXSchemaId
+name: setXSchemaId
+nameWithType: GetSchemaVersionHeaders.setXSchemaId
+members:
+- uid: com.azure.data.schemaregistry.client.implementation.models.GetSchemaVersionHeaders.setXSchemaId(java.lang.String)
+  fullName: com.azure.data.schemaregistry.client.implementation.models.GetSchemaVersionHeaders.setXSchemaId(String xSchemaId)
+  name: setXSchemaId(String xSchemaId)
+  nameWithType: GetSchemaVersionHeaders.setXSchemaId(String xSchemaId)
+  summary: 'Set the xSchemaId property: The X-Schema-Id property.'
+  parameters:
+  - description: the xSchemaId value to set.
+    name: xSchemaId
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  syntax: public GetSchemaVersionHeaders setXSchemaId(String xSchemaId)
+  returns:
+    description: the GetSchemaVersionHeaders object itself.
+    type: <xref href="com.azure.data.schemaregistry.client.implementation.models.GetSchemaVersionHeaders?alt=com.azure.data.schemaregistry.client.implementation.models.GetSchemaVersionHeaders&text=GetSchemaVersionHeaders" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.data.schemaregistry.client.implementation.models
+artifact: com.azure:azure-data-schemaregistry:1.0.0-beta.1

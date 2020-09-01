@@ -1,0 +1,134 @@
+### YamlMime:JavaMember
+uid: com.azure.messaging.servicebus.ServiceBusReceiverAsyncClient.abandon*
+fullName: com.azure.messaging.servicebus.ServiceBusReceiverAsyncClient.abandon
+name: abandon
+nameWithType: ServiceBusReceiverAsyncClient.abandon
+members:
+- uid: com.azure.messaging.servicebus.ServiceBusReceiverAsyncClient.abandon(java.lang.String)
+  fullName: com.azure.messaging.servicebus.ServiceBusReceiverAsyncClient.abandon(String lockToken)
+  name: abandon(String lockToken)
+  nameWithType: ServiceBusReceiverAsyncClient.abandon(String lockToken)
+  summary: |-
+    Abandon a <xref uid="ServiceBusReceivedMessage" data-throw-if-not-resolved="false">message</xref> with its lock token. This will make the message available
+     again for processing. Abandoning a message will increase the delivery count on the message.
+  parameters:
+  - description: Lock token of the message.
+    name: lockToken
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  syntax: public Mono<Void> abandon(String lockToken)
+  returns:
+    description: A <xref uid="reactor.core.publisher.Mono" data-throw-if-not-resolved="false">Mono</xref> that completes when the Service Bus abandon operation completes.
+    type: <xref href="reactor.core.publisher.Mono?alt=reactor.core.publisher.Mono&text=Mono" data-throw-if-not-resolved="False" />&lt;<xref href="java.lang.Void?alt=java.lang.Void&text=Void" data-throw-if-not-resolved="False" />&gt;
+- uid: com.azure.messaging.servicebus.ServiceBusReceiverAsyncClient.abandon(java.lang.String,java.lang.String)
+  fullName: com.azure.messaging.servicebus.ServiceBusReceiverAsyncClient.abandon(String lockToken, String sessionId)
+  name: abandon(String lockToken, String sessionId)
+  nameWithType: ServiceBusReceiverAsyncClient.abandon(String lockToken, String sessionId)
+  summary: |-
+    Abandon a <xref uid="ServiceBusReceivedMessage" data-throw-if-not-resolved="false">message</xref> with its lock token. This will make the message available
+     again for processing. Abandoning a message will increase the delivery count on the message.
+  parameters:
+  - description: Lock token of the message.
+    name: lockToken
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  - description: Session id of the message to abandon. <code>null</code> if there is no session.
+    name: sessionId
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  syntax: public Mono<Void> abandon(String lockToken, String sessionId)
+  returns:
+    description: A <xref uid="reactor.core.publisher.Mono" data-throw-if-not-resolved="false">Mono</xref> that completes when the Service Bus abandon operation completes.
+    type: <xref href="reactor.core.publisher.Mono?alt=reactor.core.publisher.Mono&text=Mono" data-throw-if-not-resolved="False" />&lt;<xref href="java.lang.Void?alt=java.lang.Void&text=Void" data-throw-if-not-resolved="False" />&gt;
+- uid: com.azure.messaging.servicebus.ServiceBusReceiverAsyncClient.abandon(java.lang.String,java.util.Map<java.lang.String,java.lang.Object>)
+  fullName: com.azure.messaging.servicebus.ServiceBusReceiverAsyncClient.abandon(String lockToken, Map<String,Object> propertiesToModify)
+  name: abandon(String lockToken, Map<String,Object> propertiesToModify)
+  nameWithType: ServiceBusReceiverAsyncClient.abandon(String lockToken, Map<String,Object> propertiesToModify)
+  summary: |-
+    Abandon a <xref uid="ServiceBusReceivedMessage" data-throw-if-not-resolved="false">message</xref> with its lock token and updates the message's properties.
+     This will make the message available again for processing. Abandoning a message will increase the delivery count
+     on the message.
+  parameters:
+  - description: Lock token of the message.
+    name: lockToken
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  - description: Properties to modify on the message.
+    name: propertiesToModify
+    type: <xref href="java.util.Map?alt=java.util.Map&text=Map" data-throw-if-not-resolved="False" />&lt;<xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />,<xref href="java.lang.Object?alt=java.lang.Object&text=Object" data-throw-if-not-resolved="False" />&gt;
+  syntax: public Mono<Void> abandon(String lockToken, Map<String,Object> propertiesToModify)
+  returns:
+    description: A <xref uid="reactor.core.publisher.Mono" data-throw-if-not-resolved="false">Mono</xref> that completes when the Service Bus operation finishes.
+    type: <xref href="reactor.core.publisher.Mono?alt=reactor.core.publisher.Mono&text=Mono" data-throw-if-not-resolved="False" />&lt;<xref href="java.lang.Void?alt=java.lang.Void&text=Void" data-throw-if-not-resolved="False" />&gt;
+- uid: com.azure.messaging.servicebus.ServiceBusReceiverAsyncClient.abandon(java.lang.String,java.util.Map<java.lang.String,java.lang.Object>,com.azure.messaging.servicebus.ServiceBusTransactionContext)
+  fullName: com.azure.messaging.servicebus.ServiceBusReceiverAsyncClient.abandon(String lockToken, Map<String,Object> propertiesToModify, ServiceBusTransactionContext transactionContext)
+  name: abandon(String lockToken, Map<String,Object> propertiesToModify, ServiceBusTransactionContext transactionContext)
+  nameWithType: ServiceBusReceiverAsyncClient.abandon(String lockToken, Map<String,Object> propertiesToModify, ServiceBusTransactionContext transactionContext)
+  summary: "Abandon a <xref uid=\"ServiceBusReceivedMessage\" data-throw-if-not-resolved=\"false\">message</xref> with its lock token and updates the message's properties.\n This will make the message available again for processing. Abandoning a message will increase the delivery count\n on the message.\n <p><strong>Complete a message with a transaction</strong></p>\n <pre>\n \n &#47;&#47; messageContext: This is instance `ServiceBusReceivedMessageContext` which you have received previously.\n &#47;&#47; propertiesToModify : This is Map of any properties to modify while abandoning the message.\n &#47;&#47; transactionContext: This is the transaction which you have created previously.\n \n &#47;&#47; Keep a reference to `subscription`. When the program is finished receiving messages, call\n &#47;&#47; subscription.dispose&#40;&#41;. This will dispose it cleanly.\n Disposable subscriber = receiver.abandon&#40;messageContext.getMessage&#40;&#41;.getLockToken&#40;&#41;, propertiesToModify,\n     transactionContext&#41;.subscribe&#40;&#41;;\n \n &#47;&#47; When all the messages are processed and settled, you should commit&#47;rollback this transaction.\n </pre>"
+  parameters:
+  - description: Lock token of the message.
+    name: lockToken
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  - description: Properties to modify on the message.
+    name: propertiesToModify
+    type: <xref href="java.util.Map?alt=java.util.Map&text=Map" data-throw-if-not-resolved="False" />&lt;<xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />,<xref href="java.lang.Object?alt=java.lang.Object&text=Object" data-throw-if-not-resolved="False" />&gt;
+  - description: |-
+      in which this operation is taking part in. The transaction should be created first by
+       <xref uid="com.azure.messaging.servicebus.ServiceBusReceiverAsyncClient.createTransaction()" data-throw-if-not-resolved="false">ServiceBusReceiverAsyncClient#createTransaction()</xref> or
+       <xref uid="com.azure.messaging.servicebus.ServiceBusSenderAsyncClient.createTransaction()" data-throw-if-not-resolved="false">ServiceBusSenderAsyncClient#createTransaction()</xref>.
+    name: transactionContext
+    type: <xref href="com.azure.messaging.servicebus.ServiceBusTransactionContext?alt=com.azure.messaging.servicebus.ServiceBusTransactionContext&text=ServiceBusTransactionContext" data-throw-if-not-resolved="False" />
+  syntax: public Mono<Void> abandon(String lockToken, Map<String,Object> propertiesToModify, ServiceBusTransactionContext transactionContext)
+  returns:
+    description: A <xref uid="reactor.core.publisher.Mono" data-throw-if-not-resolved="false">Mono</xref> that completes when the Service Bus operation finishes.
+    type: <xref href="reactor.core.publisher.Mono?alt=reactor.core.publisher.Mono&text=Mono" data-throw-if-not-resolved="False" />&lt;<xref href="java.lang.Void?alt=java.lang.Void&text=Void" data-throw-if-not-resolved="False" />&gt;
+- uid: com.azure.messaging.servicebus.ServiceBusReceiverAsyncClient.abandon(java.lang.String,java.util.Map<java.lang.String,java.lang.Object>,java.lang.String)
+  fullName: com.azure.messaging.servicebus.ServiceBusReceiverAsyncClient.abandon(String lockToken, Map<String,Object> propertiesToModify, String sessionId)
+  name: abandon(String lockToken, Map<String,Object> propertiesToModify, String sessionId)
+  nameWithType: ServiceBusReceiverAsyncClient.abandon(String lockToken, Map<String,Object> propertiesToModify, String sessionId)
+  summary: |-
+    Abandon a <xref uid="ServiceBusReceivedMessage" data-throw-if-not-resolved="false">message</xref> with its lock token and updates the message's properties.
+     This will make the message available again for processing. Abandoning a message will increase the delivery count
+     on the message.
+  parameters:
+  - description: Lock token of the message.
+    name: lockToken
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  - description: Properties to modify on the message.
+    name: propertiesToModify
+    type: <xref href="java.util.Map?alt=java.util.Map&text=Map" data-throw-if-not-resolved="False" />&lt;<xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />,<xref href="java.lang.Object?alt=java.lang.Object&text=Object" data-throw-if-not-resolved="False" />&gt;
+  - description: Session id of the message to abandon. <code>null</code> if there is no session.
+    name: sessionId
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  syntax: public Mono<Void> abandon(String lockToken, Map<String,Object> propertiesToModify, String sessionId)
+  returns:
+    description: A <xref uid="reactor.core.publisher.Mono" data-throw-if-not-resolved="false">Mono</xref> that completes when the Service Bus abandon operation completes.
+    type: <xref href="reactor.core.publisher.Mono?alt=reactor.core.publisher.Mono&text=Mono" data-throw-if-not-resolved="False" />&lt;<xref href="java.lang.Void?alt=java.lang.Void&text=Void" data-throw-if-not-resolved="False" />&gt;
+- uid: com.azure.messaging.servicebus.ServiceBusReceiverAsyncClient.abandon(java.lang.String,java.util.Map<java.lang.String,java.lang.Object>,java.lang.String,com.azure.messaging.servicebus.ServiceBusTransactionContext)
+  fullName: com.azure.messaging.servicebus.ServiceBusReceiverAsyncClient.abandon(String lockToken, Map<String,Object> propertiesToModify, String sessionId, ServiceBusTransactionContext transactionContext)
+  name: abandon(String lockToken, Map<String,Object> propertiesToModify, String sessionId, ServiceBusTransactionContext transactionContext)
+  nameWithType: ServiceBusReceiverAsyncClient.abandon(String lockToken, Map<String,Object> propertiesToModify, String sessionId, ServiceBusTransactionContext transactionContext)
+  summary: |-
+    Abandon a <xref uid="ServiceBusReceivedMessage" data-throw-if-not-resolved="false">message</xref> with its lock token and updates the message's properties.
+     This will make the message available again for processing. Abandoning a message will increase the delivery count
+     on the message.
+  parameters:
+  - description: Lock token of the message.
+    name: lockToken
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  - description: Properties to modify on the message.
+    name: propertiesToModify
+    type: <xref href="java.util.Map?alt=java.util.Map&text=Map" data-throw-if-not-resolved="False" />&lt;<xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />,<xref href="java.lang.Object?alt=java.lang.Object&text=Object" data-throw-if-not-resolved="False" />&gt;
+  - description: Session id of the message to abandon. <code>null</code> if there is no session.
+    name: sessionId
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  - description: |-
+      in which this operation is taking part in. The transaction should be created first by
+       <xref uid="com.azure.messaging.servicebus.ServiceBusReceiverAsyncClient.createTransaction()" data-throw-if-not-resolved="false">ServiceBusReceiverAsyncClient#createTransaction()</xref> or
+       <xref uid="com.azure.messaging.servicebus.ServiceBusSenderAsyncClient.createTransaction()" data-throw-if-not-resolved="false">ServiceBusSenderAsyncClient#createTransaction()</xref>.
+    name: transactionContext
+    type: <xref href="com.azure.messaging.servicebus.ServiceBusTransactionContext?alt=com.azure.messaging.servicebus.ServiceBusTransactionContext&text=ServiceBusTransactionContext" data-throw-if-not-resolved="False" />
+  syntax: public Mono<Void> abandon(String lockToken, Map<String,Object> propertiesToModify, String sessionId, ServiceBusTransactionContext transactionContext)
+  returns:
+    description: A <xref uid="reactor.core.publisher.Mono" data-throw-if-not-resolved="false">Mono</xref> that completes when the Service Bus abandon operation completes.
+    type: <xref href="reactor.core.publisher.Mono?alt=reactor.core.publisher.Mono&text=Mono" data-throw-if-not-resolved="False" />&lt;<xref href="java.lang.Void?alt=java.lang.Void&text=Void" data-throw-if-not-resolved="False" />&gt;
+type: method
+metadata: {}
+package: com.azure.messaging.servicebus
+artifact: com.azure:azure-messaging-servicebus:7.0.0-beta.5

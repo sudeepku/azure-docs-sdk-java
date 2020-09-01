@@ -1,0 +1,17 @@
+### YamlMime:JavaMember
+uid: com.azure.search.documents.indexes.implementation.models.TagScoringFunction.validate*
+fullName: com.azure.search.documents.indexes.implementation.models.TagScoringFunction.validate
+name: validate
+nameWithType: TagScoringFunction.validate
+members:
+- uid: com.azure.search.documents.indexes.implementation.models.TagScoringFunction.validate()
+  fullName: com.azure.search.documents.indexes.implementation.models.TagScoringFunction.validate()
+  name: validate()
+  nameWithType: TagScoringFunction.validate()
+  summary: Validates the instance.
+  overridden: com.azure.search.documents.indexes.implementation.models.ScoringFunction.validate()
+  syntax: public void validate()
+type: method
+metadata: {}
+package: com.azure.search.documents.indexes.implementation.models
+artifact: com.azure:azure-search-documents:11.0.0

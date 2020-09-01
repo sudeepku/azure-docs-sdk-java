@@ -1,0 +1,19 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.storage.StorageManagementClientBuilder.buildClient*
+fullName: com.azure.resourcemanager.storage.StorageManagementClientBuilder.buildClient
+name: buildClient
+nameWithType: StorageManagementClientBuilder.buildClient
+members:
+- uid: com.azure.resourcemanager.storage.StorageManagementClientBuilder.buildClient()
+  fullName: com.azure.resourcemanager.storage.StorageManagementClientBuilder.buildClient()
+  name: buildClient()
+  nameWithType: StorageManagementClientBuilder.buildClient()
+  summary: Builds an instance of StorageManagementClient with the provided parameters.
+  syntax: public StorageManagementClient buildClient()
+  returns:
+    description: an instance of StorageManagementClient.
+    type: <xref href="com.azure.resourcemanager.storage.StorageManagementClient?alt=com.azure.resourcemanager.storage.StorageManagementClient&text=StorageManagementClient" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.resourcemanager.storage
+artifact: com.azure.resourcemanager:azure-resourcemanager-storage:2.0.0-beta.2

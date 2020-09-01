@@ -1,0 +1,23 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.compute.fluent.inner.DedicatedHostListResultInner.withValue*
+fullName: com.azure.resourcemanager.compute.fluent.inner.DedicatedHostListResultInner.withValue
+name: withValue
+nameWithType: DedicatedHostListResultInner.withValue
+members:
+- uid: com.azure.resourcemanager.compute.fluent.inner.DedicatedHostListResultInner.withValue(java.util.List<com.azure.resourcemanager.compute.fluent.inner.DedicatedHostInner>)
+  fullName: com.azure.resourcemanager.compute.fluent.inner.DedicatedHostListResultInner.withValue(List<DedicatedHostInner> value)
+  name: withValue(List<DedicatedHostInner> value)
+  nameWithType: DedicatedHostListResultInner.withValue(List<DedicatedHostInner> value)
+  summary: 'Set the value property: The list of dedicated hosts.'
+  parameters:
+  - description: the value value to set.
+    name: value
+    type: <xref href="java.util.List?alt=java.util.List&text=List" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.resourcemanager.compute.fluent.inner.DedicatedHostInner?alt=com.azure.resourcemanager.compute.fluent.inner.DedicatedHostInner&text=DedicatedHostInner" data-throw-if-not-resolved="False" />&gt;
+  syntax: public DedicatedHostListResultInner withValue(List<DedicatedHostInner> value)
+  returns:
+    description: the DedicatedHostListResultInner object itself.
+    type: <xref href="com.azure.resourcemanager.compute.fluent.inner.DedicatedHostListResultInner?alt=com.azure.resourcemanager.compute.fluent.inner.DedicatedHostListResultInner&text=DedicatedHostListResultInner" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.resourcemanager.compute.fluent.inner
+artifact: com.azure.resourcemanager:azure-resourcemanager-compute:2.0.0-beta.2

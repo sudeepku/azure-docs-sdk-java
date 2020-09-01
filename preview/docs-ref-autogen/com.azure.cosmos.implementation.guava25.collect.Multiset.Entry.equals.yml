@@ -1,0 +1,32 @@
+### YamlMime:JavaMember
+uid: com.azure.cosmos.implementation.guava25.collect.Multiset.Entry.equals*
+fullName: com.azure.cosmos.implementation.guava25.collect.Multiset.Entry<E>.equals
+name: equals
+nameWithType: Multiset.Entry<E>.equals
+members:
+- uid: com.azure.cosmos.implementation.guava25.collect.Multiset.Entry.equals(java.lang.Object)
+  fullName: com.azure.cosmos.implementation.guava25.collect.Multiset.Entry<E>.equals(Object o)
+  name: equals(Object o)
+  nameWithType: Multiset.Entry<E>.equals(Object o)
+  summary: |2-
+
+
+     <p>Returns <code>true</code> if the given object is also a multiset entry and the two entries
+     represent the same element and count. That is, two entries <code>a</code> and <code>b</code> are equal
+     if:
+
+     <pre><code>
+     Objects.equal(a.getElement(), b.getElement())
+         && a.getCount() == b.getCount()
+     </code></pre>
+  overridden: java.lang.Object.equals(java.lang.Object)
+  parameters:
+  - name: o
+    type: <xref href="java.lang.Object?alt=java.lang.Object&text=Object" data-throw-if-not-resolved="False" />
+  syntax: public abstract boolean equals(Object o)
+  returns:
+    type: <xref href="boolean?alt=boolean&text=boolean" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.cosmos.implementation.guava25.collect
+artifact: com.azure:azure-cosmos:4.3.2-beta.2

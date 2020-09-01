@@ -1,0 +1,15 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.cosmos.fluent.inner.MongoDBCollectionListResultInner.MongoDBCollectionListResultInner*
+fullName: com.azure.resourcemanager.cosmos.fluent.inner.MongoDBCollectionListResultInner.MongoDBCollectionListResultInner
+name: MongoDBCollectionListResultInner
+nameWithType: MongoDBCollectionListResultInner.MongoDBCollectionListResultInner
+members:
+- uid: com.azure.resourcemanager.cosmos.fluent.inner.MongoDBCollectionListResultInner.MongoDBCollectionListResultInner()
+  fullName: com.azure.resourcemanager.cosmos.fluent.inner.MongoDBCollectionListResultInner.MongoDBCollectionListResultInner()
+  name: MongoDBCollectionListResultInner()
+  nameWithType: MongoDBCollectionListResultInner.MongoDBCollectionListResultInner()
+  syntax: public MongoDBCollectionListResultInner()
+type: constructor
+metadata: {}
+package: com.azure.resourcemanager.cosmos.fluent.inner
+artifact: com.azure.resourcemanager:azure-resourcemanager-cosmos:2.0.0-beta.2

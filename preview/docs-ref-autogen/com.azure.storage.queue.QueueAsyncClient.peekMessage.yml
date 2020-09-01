@@ -1,0 +1,38 @@
+### YamlMime:JavaMember
+uid: com.azure.storage.queue.QueueAsyncClient.peekMessage*
+fullName: com.azure.storage.queue.QueueAsyncClient.peekMessage
+name: peekMessage
+nameWithType: QueueAsyncClient.peekMessage
+members:
+- uid: com.azure.storage.queue.QueueAsyncClient.peekMessage()
+  fullName: com.azure.storage.queue.QueueAsyncClient.peekMessage()
+  name: peekMessage()
+  nameWithType: QueueAsyncClient.peekMessage()
+  summary: |-
+    Peeks the first message in the queue.
+
+     Peeked messages don't contain the necessary information needed to interact with the message nor will it hide
+     messages from other operations on the queue.
+
+     <p><strong>Code Samples</strong></p>
+
+     <p>Peek the first message</p>
+
+     <pre>
+     client.peekMessage&#40;&#41;.subscribe&#40;
+         peekMessages -&gt; System.out.println&#40;&quot;The message got from peek operation: &quot; + peekMessages.getMessageText&#40;&#41;&#41;,
+         error -&gt; System.err.print&#40;error.toString&#40;&#41;&#41;,
+         &#40;&#41; -&gt; System.out.println&#40;&quot;Complete peeking the message!&quot;&#41;
+     &#41;;
+     </pre>
+
+     <p>For more information, see the
+     <a href="https://docs.microsoft.com/en-us/rest/api/storageservices/peek-messages">Azure Docs</a>.</p>
+  syntax: public Mono<PeekedMessageItem> peekMessage()
+  returns:
+    description: A <xref uid="com.azure.storage.queue.models.PeekedMessageItem" data-throw-if-not-resolved="false">PeekedMessageItem</xref> that contains metadata about the message.
+    type: <xref href="reactor.core.publisher.Mono?alt=reactor.core.publisher.Mono&text=Mono" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.storage.queue.models.PeekedMessageItem?alt=com.azure.storage.queue.models.PeekedMessageItem&text=PeekedMessageItem" data-throw-if-not-resolved="False" />&gt;
+type: method
+metadata: {}
+package: com.azure.storage.queue
+artifact: com.azure:azure-storage-queue:12.6.0-beta.1

@@ -1,0 +1,15 @@
+### YamlMime:JavaMember
+uid: com.azure.data.schemaregistry.AbstractDataSerializer.AUTO_REGISTER_SCHEMAS_DEFAULT
+fullName: com.azure.data.schemaregistry.AbstractDataSerializer.AUTO_REGISTER_SCHEMAS_DEFAULT
+name: AUTO_REGISTER_SCHEMAS_DEFAULT
+nameWithType: AbstractDataSerializer.AUTO_REGISTER_SCHEMAS_DEFAULT
+members:
+- uid: com.azure.data.schemaregistry.AbstractDataSerializer.AUTO_REGISTER_SCHEMAS_DEFAULT
+  fullName: com.azure.data.schemaregistry.AbstractDataSerializer.AUTO_REGISTER_SCHEMAS_DEFAULT
+  name: AUTO_REGISTER_SCHEMAS_DEFAULT
+  nameWithType: AbstractDataSerializer.AUTO_REGISTER_SCHEMAS_DEFAULT
+  syntax: public static final Boolean AUTO_REGISTER_SCHEMAS_DEFAULT
+type: field
+metadata: {}
+package: com.azure.data.schemaregistry
+artifact: com.azure:azure-data-schemaregistry:1.0.0-beta.1

@@ -1,0 +1,26 @@
+### YamlMime:JavaMember
+nameWithType: PersonGroups.delete
+type: method
+members:
+- fullName: com.microsoft.azure.cognitiveservices.vision.faceapi.PersonGroups.delete(String personGroupId)
+  name: delete(String personGroupId)
+  nameWithType: PersonGroups.delete(String personGroupId)
+  parameters:
+  - description: <p>Id referencing a particular person group. </p>
+    name: personGroupId
+    type: <xref href="String?alt=String&text=String" data-throw-if-not-resolved="False"/>
+  exceptions:
+  - name: 3c87bd19
+  - name: 3690e14b
+  - name: 9b2a4515
+  summary: >-
+    <p>Delete an existing person group. Persisted face images of all people in the person group will also be deleted.</p>
+
+    <p></p>
+  syntax: public void delete(String personGroupId)
+  uid: com.microsoft.azure.cognitiveservices.vision.faceapi.PersonGroups.delete(String)
+uid: com.microsoft.azure.cognitiveservices.vision.faceapi.PersonGroups.delete*
+fullName: com.microsoft.azure.cognitiveservices.vision.faceapi.PersonGroups.delete(String personGroupId)
+name: delete(String personGroupId)
+package: com.microsoft.azure.cognitiveservices.vision.faceapi
+metadata: {}

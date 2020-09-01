@@ -1,0 +1,31 @@
+### YamlMime:JavaMember
+uid: com.azure.ai.textanalytics.models.SentenceSentiment.SentenceSentiment*
+fullName: com.azure.ai.textanalytics.models.SentenceSentiment.SentenceSentiment
+name: SentenceSentiment
+nameWithType: SentenceSentiment.SentenceSentiment
+members:
+- uid: com.azure.ai.textanalytics.models.SentenceSentiment.SentenceSentiment(com.azure.ai.textanalytics.models.TextSentiment,com.azure.ai.textanalytics.models.SentimentConfidenceScores,int,int)
+  fullName: com.azure.ai.textanalytics.models.SentenceSentiment.SentenceSentiment(TextSentiment sentiment, SentimentConfidenceScores confidenceScores, int graphemeLength, int graphemeOffset)
+  name: SentenceSentiment(TextSentiment sentiment, SentimentConfidenceScores confidenceScores, int graphemeLength, int graphemeOffset)
+  nameWithType: SentenceSentiment.SentenceSentiment(TextSentiment sentiment, SentimentConfidenceScores confidenceScores, int graphemeLength, int graphemeOffset)
+  summary: Creates a <xref uid="SentenceSentiment" data-throw-if-not-resolved="false">SentenceSentiment</xref> model that describes the sentiment analysis of sentence.
+  parameters:
+  - description: The sentiment label of the sentence.
+    name: sentiment
+    type: <xref href="com.azure.ai.textanalytics.models.TextSentiment?alt=com.azure.ai.textanalytics.models.TextSentiment&text=TextSentiment" data-throw-if-not-resolved="False" />
+  - description: |-
+      The sentiment confidence score (Softmax score) between 0 and 1, for each sentiment label.
+         Higher values signify higher confidence.
+    name: confidenceScores
+    type: <xref href="com.azure.ai.textanalytics.models.SentimentConfidenceScores?alt=com.azure.ai.textanalytics.models.SentimentConfidenceScores&text=SentimentConfidenceScores" data-throw-if-not-resolved="False" />
+  - description: The grapheme length of the sentence.
+    name: graphemeLength
+    type: <xref href="int?alt=int&text=int" data-throw-if-not-resolved="False" />
+  - description: The grapheme offset, start position for the sentence sentiment.
+    name: graphemeOffset
+    type: <xref href="int?alt=int&text=int" data-throw-if-not-resolved="False" />
+  syntax: public SentenceSentiment(TextSentiment sentiment, SentimentConfidenceScores confidenceScores, int graphemeLength, int graphemeOffset)
+type: constructor
+metadata: {}
+package: com.azure.ai.textanalytics.models
+artifact: com.azure:azure-ai-textanalytics:1.0.0-beta.4
