@@ -1,0 +1,35 @@
+### YamlMime:JavaMember
+uid: com.azure.cosmos.implementation.guava25.base.Optional.asSet*
+fullName: com.azure.cosmos.implementation.guava25.base.Optional<T>.asSet
+name: asSet
+nameWithType: Optional<T>.asSet
+members:
+- uid: com.azure.cosmos.implementation.guava25.base.Optional.asSet()
+  fullName: com.azure.cosmos.implementation.guava25.base.Optional<T>.asSet()
+  name: asSet()
+  nameWithType: Optional<T>.asSet()
+  summary: |-
+    Returns an immutable singleton <xref uid="Set" data-throw-if-not-resolved="false">Set</xref> whose only element is the contained instance if it
+     is present; an empty immutable <xref uid="Set" data-throw-if-not-resolved="false">Set</xref> otherwise.
+
+     <p><b>Comparison to <code>java.util.Optional</code>:</b> this method has no equivalent in Java 8's
+     <code>Optional</code> class. However, this common usage:
+
+     <pre><code>
+     for (Foo foo : possibleFoo.asSet()) {
+       doSomethingWith(foo);
+     }
+     </code></pre>
+
+     ... can be replaced with:
+
+     <pre><code>
+     possibleFoo.ifPresent(foo -> doSomethingWith(foo));
+     </code></pre>
+  syntax: public abstract Set<T> asSet()
+  returns:
+    type: <xref href="java.util.Set?alt=java.util.Set&text=Set" data-throw-if-not-resolved="False" />&lt;<xref href="T?alt=T&text=T" data-throw-if-not-resolved="False" />&gt;
+type: method
+metadata: {}
+package: com.azure.cosmos.implementation.guava25.base
+artifact: com.azure:azure-cosmos:4.3.2-beta.2

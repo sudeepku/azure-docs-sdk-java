@@ -1,0 +1,23 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.resources.fluent.inner.DeploymentValidateResultInner.withError*
+fullName: com.azure.resourcemanager.resources.fluent.inner.DeploymentValidateResultInner.withError
+name: withError
+nameWithType: DeploymentValidateResultInner.withError
+members:
+- uid: com.azure.resourcemanager.resources.fluent.inner.DeploymentValidateResultInner.withError(com.azure.core.management.exception.ManagementError)
+  fullName: com.azure.resourcemanager.resources.fluent.inner.DeploymentValidateResultInner.withError(ManagementError error)
+  name: withError(ManagementError error)
+  nameWithType: DeploymentValidateResultInner.withError(ManagementError error)
+  summary: 'Set the error property: The deployment validation error.'
+  parameters:
+  - description: the error value to set.
+    name: error
+    type: <xref href="com.azure.core.management.exception.ManagementError?alt=com.azure.core.management.exception.ManagementError&text=ManagementError" data-throw-if-not-resolved="False" />
+  syntax: public DeploymentValidateResultInner withError(ManagementError error)
+  returns:
+    description: the DeploymentValidateResultInner object itself.
+    type: <xref href="com.azure.resourcemanager.resources.fluent.inner.DeploymentValidateResultInner?alt=com.azure.resourcemanager.resources.fluent.inner.DeploymentValidateResultInner&text=DeploymentValidateResultInner" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.resourcemanager.resources.fluent.inner
+artifact: com.azure.resourcemanager:azure-resourcemanager-resources:2.0.0-beta.2

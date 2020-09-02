@@ -1,0 +1,23 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.appservice.fluent.inner.SiteConfigResourceInner.withTracingOptions*
+fullName: com.azure.resourcemanager.appservice.fluent.inner.SiteConfigResourceInner.withTracingOptions
+name: withTracingOptions
+nameWithType: SiteConfigResourceInner.withTracingOptions
+members:
+- uid: com.azure.resourcemanager.appservice.fluent.inner.SiteConfigResourceInner.withTracingOptions(java.lang.String)
+  fullName: com.azure.resourcemanager.appservice.fluent.inner.SiteConfigResourceInner.withTracingOptions(String tracingOptions)
+  name: withTracingOptions(String tracingOptions)
+  nameWithType: SiteConfigResourceInner.withTracingOptions(String tracingOptions)
+  summary: 'Set the tracingOptions property: Tracing options.'
+  parameters:
+  - description: the tracingOptions value to set.
+    name: tracingOptions
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  syntax: public SiteConfigResourceInner withTracingOptions(String tracingOptions)
+  returns:
+    description: the SiteConfigResourceInner object itself.
+    type: <xref href="com.azure.resourcemanager.appservice.fluent.inner.SiteConfigResourceInner?alt=com.azure.resourcemanager.appservice.fluent.inner.SiteConfigResourceInner&text=SiteConfigResourceInner" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.resourcemanager.appservice.fluent.inner
+artifact: com.azure.resourcemanager:azure-resourcemanager-appservice:2.0.0-beta.2

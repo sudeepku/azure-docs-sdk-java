@@ -1,0 +1,43 @@
+### YamlMime:JavaMember
+uid: com.azure.security.keyvault.certificates.CertificateClient.mergeCertificateWithResponse*
+fullName: com.azure.security.keyvault.certificates.CertificateClient.mergeCertificateWithResponse
+name: mergeCertificateWithResponse
+nameWithType: CertificateClient.mergeCertificateWithResponse
+members:
+- uid: com.azure.security.keyvault.certificates.CertificateClient.mergeCertificateWithResponse(com.azure.security.keyvault.certificates.models.MergeCertificateOptions,com.azure.core.util.Context)
+  fullName: com.azure.security.keyvault.certificates.CertificateClient.mergeCertificateWithResponse(MergeCertificateOptions mergeCertificateOptions, Context context)
+  name: mergeCertificateWithResponse(MergeCertificateOptions mergeCertificateOptions, Context context)
+  nameWithType: CertificateClient.mergeCertificateWithResponse(MergeCertificateOptions mergeCertificateOptions, Context context)
+  summary: |-
+    Merges a certificate or a certificate chain with a key pair currently available in the service. This operation requires
+     the <code>certificates/create</code> permission.
+
+     <p><strong>Code Samples</strong></p>
+     <p> Merges a certificate with a kay pair available in the service.</p>
+
+     <pre>
+     List&lt;byte[]&gt; x509CertsToMerge = new ArrayList&lt;&gt;&#40;&#41;;
+     MergeCertificateOptions mergeConfig =
+         new MergeCertificateOptions&#40;&quot;certificateName&quot;, x509CertsToMerge&#41;
+             .setEnabled&#40;false&#41;;
+     Response&lt;KeyVaultCertificateWithPolicy&gt; mergedCertificateWithResponse =
+         certificateClient.mergeCertificateWithResponse&#40;mergeConfig, new Context&#40;key2, value2&#41;&#41;;
+     System.out.printf&#40;&quot;Received Certificate with name %s and key id %s&quot;,
+         mergedCertificateWithResponse.getValue&#40;&#41;.getProperties&#40;&#41;.getName&#40;&#41;,
+         mergedCertificateWithResponse.getValue&#40;&#41;.getKeyId&#40;&#41;&#41;;
+     </pre>
+  parameters:
+  - description: the merge certificate configuration holding the x509 certificates.
+    name: mergeCertificateOptions
+    type: <xref href="com.azure.security.keyvault.certificates.models.MergeCertificateOptions?alt=com.azure.security.keyvault.certificates.models.MergeCertificateOptions&text=MergeCertificateOptions" data-throw-if-not-resolved="False" />
+  - description: Additional context that is passed through the Http pipeline during the service call.
+    name: context
+    type: <xref href="com.azure.core.util.Context?alt=com.azure.core.util.Context&text=Context" data-throw-if-not-resolved="False" />
+  syntax: public Response<KeyVaultCertificateWithPolicy> mergeCertificateWithResponse(MergeCertificateOptions mergeCertificateOptions, Context context)
+  returns:
+    description: A <xref uid="com.azure.core.http.rest.Response" data-throw-if-not-resolved="false">Response</xref> whose <xref uid="com.azure.core.http.rest.Response.getValue*" data-throw-if-not-resolved="false">value</xref> contains the merged certificate.
+    type: <xref href="com.azure.core.http.rest.Response?alt=com.azure.core.http.rest.Response&text=Response" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.security.keyvault.certificates.models.KeyVaultCertificateWithPolicy?alt=com.azure.security.keyvault.certificates.models.KeyVaultCertificateWithPolicy&text=KeyVaultCertificateWithPolicy" data-throw-if-not-resolved="False" />&gt;
+type: method
+metadata: {}
+package: com.azure.security.keyvault.certificates
+artifact: com.azure:azure-security-keyvault-certificates:4.1.0-beta.3

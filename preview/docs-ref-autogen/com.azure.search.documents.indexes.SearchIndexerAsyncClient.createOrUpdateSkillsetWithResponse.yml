@@ -1,0 +1,46 @@
+### YamlMime:JavaMember
+uid: com.azure.search.documents.indexes.SearchIndexerAsyncClient.createOrUpdateSkillsetWithResponse*
+fullName: com.azure.search.documents.indexes.SearchIndexerAsyncClient.createOrUpdateSkillsetWithResponse
+name: createOrUpdateSkillsetWithResponse
+nameWithType: SearchIndexerAsyncClient.createOrUpdateSkillsetWithResponse
+members:
+- uid: com.azure.search.documents.indexes.SearchIndexerAsyncClient.createOrUpdateSkillsetWithResponse(com.azure.search.documents.indexes.models.SearchIndexerSkillset,boolean)
+  fullName: com.azure.search.documents.indexes.SearchIndexerAsyncClient.createOrUpdateSkillsetWithResponse(SearchIndexerSkillset skillset, boolean onlyIfUnchanged)
+  name: createOrUpdateSkillsetWithResponse(SearchIndexerSkillset skillset, boolean onlyIfUnchanged)
+  nameWithType: SearchIndexerAsyncClient.createOrUpdateSkillsetWithResponse(SearchIndexerSkillset skillset, boolean onlyIfUnchanged)
+  summary: |-
+    Creates a new Azure Cognitive Search skillset or updates a skillset if it already exists.
+
+     <p><strong>Code Sample</strong></p>
+
+     <p> Create or update search indexer skillset "searchIndexerSkillset". </p>
+
+     <pre>
+     searchIndexerAsyncClient.getSkillset&#40;&quot;searchIndexerSkilset&quot;&#41;
+         .flatMap&#40;indexerSkillset -&gt; &#123;
+             indexerSkillset.setDescription&#40;&quot;This is new description!&quot;&#41;;
+             return searchIndexerAsyncClient.createOrUpdateSkillsetWithResponse&#40;indexerSkillset, true&#41;;
+         &#125;&#41;
+         .subscribe&#40;updateSkillsetResponse -&gt;
+             System.out.printf&#40;&quot;The status code of the response is %s.%nThe indexer skillset name is %s. &quot;
+                 + &quot;The description of indexer skilset is %s.%n&quot;, updateSkillsetResponse.getStatusCode&#40;&#41;,
+             updateSkillsetResponse.getValue&#40;&#41;.getName&#40;&#41;,
+             updateSkillsetResponse.getValue&#40;&#41;.getDescription&#40;&#41;&#41;&#41;;
+     </pre>
+  parameters:
+  - description: the definition of the skillset to create or update
+    name: skillset
+    type: <xref href="com.azure.search.documents.indexes.models.SearchIndexerSkillset?alt=com.azure.search.documents.indexes.models.SearchIndexerSkillset&text=SearchIndexerSkillset" data-throw-if-not-resolved="False" />
+  - description: |-
+      <code>true</code> to update if the <code>skillset</code> is the same as the current service value.
+       <code>false</code> to always update existing value.
+    name: onlyIfUnchanged
+    type: <xref href="boolean?alt=boolean&text=boolean" data-throw-if-not-resolved="False" />
+  syntax: public Mono<Response<SearchIndexerSkillset>> createOrUpdateSkillsetWithResponse(SearchIndexerSkillset skillset, boolean onlyIfUnchanged)
+  returns:
+    description: a response containing the skillset that was created or updated.
+    type: <xref href="reactor.core.publisher.Mono?alt=reactor.core.publisher.Mono&text=Mono" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.core.http.rest.Response?alt=com.azure.core.http.rest.Response&text=Response" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.search.documents.indexes.models.SearchIndexerSkillset?alt=com.azure.search.documents.indexes.models.SearchIndexerSkillset&text=SearchIndexerSkillset" data-throw-if-not-resolved="False" />&gt;&gt;
+type: method
+metadata: {}
+package: com.azure.search.documents.indexes
+artifact: com.azure:azure-search-documents:11.1.0-beta.1

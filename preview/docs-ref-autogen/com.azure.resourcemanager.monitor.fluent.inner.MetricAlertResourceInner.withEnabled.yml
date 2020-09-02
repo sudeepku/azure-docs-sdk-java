@@ -1,0 +1,23 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.monitor.fluent.inner.MetricAlertResourceInner.withEnabled*
+fullName: com.azure.resourcemanager.monitor.fluent.inner.MetricAlertResourceInner.withEnabled
+name: withEnabled
+nameWithType: MetricAlertResourceInner.withEnabled
+members:
+- uid: com.azure.resourcemanager.monitor.fluent.inner.MetricAlertResourceInner.withEnabled(boolean)
+  fullName: com.azure.resourcemanager.monitor.fluent.inner.MetricAlertResourceInner.withEnabled(boolean enabled)
+  name: withEnabled(boolean enabled)
+  nameWithType: MetricAlertResourceInner.withEnabled(boolean enabled)
+  summary: 'Set the enabled property: the flag that indicates whether the metric alert is enabled.'
+  parameters:
+  - description: the enabled value to set.
+    name: enabled
+    type: <xref href="boolean?alt=boolean&text=boolean" data-throw-if-not-resolved="False" />
+  syntax: public MetricAlertResourceInner withEnabled(boolean enabled)
+  returns:
+    description: the MetricAlertResourceInner object itself.
+    type: <xref href="com.azure.resourcemanager.monitor.fluent.inner.MetricAlertResourceInner?alt=com.azure.resourcemanager.monitor.fluent.inner.MetricAlertResourceInner&text=MetricAlertResourceInner" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.resourcemanager.monitor.fluent.inner
+artifact: com.azure.resourcemanager:azure-resourcemanager-monitor:2.0.0-beta.2

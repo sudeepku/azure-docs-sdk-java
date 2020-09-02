@@ -1,0 +1,39 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.resources.fluent.DeploymentsClient.exportTemplateAtTenantScopeWithResponseAsync*
+fullName: com.azure.resourcemanager.resources.fluent.DeploymentsClient.exportTemplateAtTenantScopeWithResponseAsync
+name: exportTemplateAtTenantScopeWithResponseAsync
+nameWithType: DeploymentsClient.exportTemplateAtTenantScopeWithResponseAsync
+members:
+- uid: com.azure.resourcemanager.resources.fluent.DeploymentsClient.exportTemplateAtTenantScopeWithResponseAsync(java.lang.String)
+  fullName: com.azure.resourcemanager.resources.fluent.DeploymentsClient.exportTemplateAtTenantScopeWithResponseAsync(String deploymentName)
+  name: exportTemplateAtTenantScopeWithResponseAsync(String deploymentName)
+  nameWithType: DeploymentsClient.exportTemplateAtTenantScopeWithResponseAsync(String deploymentName)
+  summary: Exports the template used for specified deployment.
+  parameters:
+  - description: The name of the deployment.
+    name: deploymentName
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  syntax: public Mono<Response<DeploymentExportResultInner>> exportTemplateAtTenantScopeWithResponseAsync(String deploymentName)
+  returns:
+    description: the deployment export result.
+    type: <xref href="reactor.core.publisher.Mono?alt=reactor.core.publisher.Mono&text=Mono" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.core.http.rest.Response?alt=com.azure.core.http.rest.Response&text=Response" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.resourcemanager.resources.fluent.inner.DeploymentExportResultInner?alt=com.azure.resourcemanager.resources.fluent.inner.DeploymentExportResultInner&text=DeploymentExportResultInner" data-throw-if-not-resolved="False" />&gt;&gt;
+- uid: com.azure.resourcemanager.resources.fluent.DeploymentsClient.exportTemplateAtTenantScopeWithResponseAsync(java.lang.String,com.azure.core.util.Context)
+  fullName: com.azure.resourcemanager.resources.fluent.DeploymentsClient.exportTemplateAtTenantScopeWithResponseAsync(String deploymentName, Context context)
+  name: exportTemplateAtTenantScopeWithResponseAsync(String deploymentName, Context context)
+  nameWithType: DeploymentsClient.exportTemplateAtTenantScopeWithResponseAsync(String deploymentName, Context context)
+  summary: Exports the template used for specified deployment.
+  parameters:
+  - description: The name of the deployment.
+    name: deploymentName
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  - description: The context to associate with this operation.
+    name: context
+    type: <xref href="com.azure.core.util.Context?alt=com.azure.core.util.Context&text=Context" data-throw-if-not-resolved="False" />
+  syntax: public Mono<Response<DeploymentExportResultInner>> exportTemplateAtTenantScopeWithResponseAsync(String deploymentName, Context context)
+  returns:
+    description: the deployment export result.
+    type: <xref href="reactor.core.publisher.Mono?alt=reactor.core.publisher.Mono&text=Mono" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.core.http.rest.Response?alt=com.azure.core.http.rest.Response&text=Response" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.resourcemanager.resources.fluent.inner.DeploymentExportResultInner?alt=com.azure.resourcemanager.resources.fluent.inner.DeploymentExportResultInner&text=DeploymentExportResultInner" data-throw-if-not-resolved="False" />&gt;&gt;
+type: method
+metadata: {}
+package: com.azure.resourcemanager.resources.fluent
+artifact: com.azure.resourcemanager:azure-resourcemanager-resources:2.0.0-beta.2

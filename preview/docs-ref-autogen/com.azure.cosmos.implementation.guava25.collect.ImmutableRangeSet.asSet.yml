@@ -1,0 +1,34 @@
+### YamlMime:JavaMember
+uid: com.azure.cosmos.implementation.guava25.collect.ImmutableRangeSet.asSet*
+fullName: com.azure.cosmos.implementation.guava25.collect.ImmutableRangeSet<C>.asSet
+name: asSet
+nameWithType: ImmutableRangeSet<C>.asSet
+members:
+- uid: com.azure.cosmos.implementation.guava25.collect.ImmutableRangeSet.asSet(com.azure.cosmos.implementation.guava25.collect.DiscreteDomain<C>)
+  fullName: com.azure.cosmos.implementation.guava25.collect.ImmutableRangeSet<C>.asSet(DiscreteDomain<C> domain)
+  name: asSet(DiscreteDomain<C> domain)
+  nameWithType: ImmutableRangeSet<C>.asSet(DiscreteDomain<C> domain)
+  summary: |-
+    Returns an <xref uid="ImmutableSortedSet" data-throw-if-not-resolved="false">ImmutableSortedSet</xref> containing the same values in the given domain
+     <xref uid="RangeSet#contains" data-throw-if-not-resolved="false">contained</xref> by this range set.
+
+     <p><b>Note:</b> <code>a.asSet(d).equals(b.asSet(d))</code> does not imply <code>a.equals(b)</code>! For
+     example, <code>a</code> and <code>b</code> could be <code>[2..4]</code> and <code>(1..5)</code>, or the empty
+     ranges <code>[3..3)</code> and <code>[4..4)</code>.
+
+     <p><b>Warning:</b> Be extremely careful what you do with the <code>asSet</code> view of a large
+     range set (such as <code>ImmutableRangeSet.of(Range.greaterThan(0))</code>). Certain operations on
+     such a set can be performed efficiently, but others (such as <xref uid="Set#hashCode" data-throw-if-not-resolved="false">Set#hashCode</xref> or <xref uid="Collections#frequency" data-throw-if-not-resolved="false">Collections#frequency</xref>) can cause major performance problems.
+
+     <p>The returned set's <xref uid="Object#toString" data-throw-if-not-resolved="false">Object#toString</xref> method returns a short-hand form of the set's
+     contents, such as <code>"[1..100]</code>"}.
+  parameters:
+  - name: domain
+    type: <xref href="com.azure.cosmos.implementation.guava25.collect.DiscreteDomain?alt=com.azure.cosmos.implementation.guava25.collect.DiscreteDomain&text=DiscreteDomain" data-throw-if-not-resolved="False" />&lt;<xref href="C?alt=C&text=C" data-throw-if-not-resolved="False" />&gt;
+  syntax: public ImmutableSortedSet<C> asSet(DiscreteDomain<C> domain)
+  returns:
+    type: <xref href="com.azure.cosmos.implementation.guava25.collect.ImmutableSortedSet?alt=com.azure.cosmos.implementation.guava25.collect.ImmutableSortedSet&text=ImmutableSortedSet" data-throw-if-not-resolved="False" />&lt;<xref href="C?alt=C&text=C" data-throw-if-not-resolved="False" />&gt;
+type: method
+metadata: {}
+package: com.azure.cosmos.implementation.guava25.collect
+artifact: com.azure:azure-cosmos:4.3.2-beta.2

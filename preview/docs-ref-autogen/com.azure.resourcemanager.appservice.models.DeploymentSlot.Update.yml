@@ -1,40 +1,14 @@
-### YamlMime:ManagedReference
-items:
-- uid: com.azure.resourcemanager.appservice.models.DeploymentSlot.Update
-  id: Update
-  artifact: com.azure.resourcemanager:azure-resourcemanager-appservice:2.0.0-beta.2
-  parent: com.azure.resourcemanager.appservice.models
-  langs:
-  - java
-  name: DeploymentSlot.Update
-  nameWithType: DeploymentSlot.Update
-  fullName: com.azure.resourcemanager.appservice.models.DeploymentSlot.Update
-  type: Interface
-  package: com.azure.resourcemanager.appservice.models
-  summary: The template for a web app update operation, containing all the settings that can be modified.
-  syntax:
-    content: public static interface DeploymentSlot.Update extends Appliable<DeploymentSlot>, WebAppBase.Update<DeploymentSlot>
-  implements:
-  - com.azure.resourcemanager.resources.fluentcore.model.Appliable<com.azure.resourcemanager.appservice.models.DeploymentSlot>
-  - com.azure.resourcemanager.appservice.models.WebAppBase.Update<com.azure.resourcemanager.appservice.models.DeploymentSlot>
-references:
-- uid: com.azure.resourcemanager.resources.fluentcore.model.Appliable<com.azure.resourcemanager.appservice.models.DeploymentSlot>
-  name: Appliable<DeploymentSlot>
-  nameWithType: Appliable<DeploymentSlot>
-  fullName: com.azure.resourcemanager.resources.fluentcore.model.Appliable<com.azure.resourcemanager.appservice.models.DeploymentSlot>
-- uid: com.azure.resourcemanager.appservice.models.WebAppBase.Update<com.azure.resourcemanager.appservice.models.DeploymentSlot>
-  name: WebAppBase.Update<DeploymentSlot>
-  nameWithType: WebAppBase.Update<DeploymentSlot>
-  fullName: com.azure.resourcemanager.appservice.models.WebAppBase.Update<com.azure.resourcemanager.appservice.models.DeploymentSlot>
-- uid: com.azure.resourcemanager.appservice.models.DeploymentSlot
-  name: DeploymentSlot
-  nameWithType: DeploymentSlot
-  fullName: com.azure.resourcemanager.appservice.models.DeploymentSlot
-- uid: com.azure.resourcemanager.resources.fluentcore.model.Appliable
-  name: Appliable
-  nameWithType: Appliable
-  fullName: com.azure.resourcemanager.resources.fluentcore.model.Appliable
-- uid: com.azure.resourcemanager.appservice.models.WebAppBase.Update
-  name: WebAppBase.Update
-  nameWithType: WebAppBase.Update
-  fullName: com.azure.resourcemanager.appservice.models.WebAppBase.Update
+### YamlMime:JavaType
+uid: com.azure.resourcemanager.appservice.models.DeploymentSlot.Update
+fullName: com.azure.resourcemanager.appservice.models.DeploymentSlot.Update
+name: DeploymentSlot.Update
+nameWithType: DeploymentSlot.Update
+summary: The template for a web app update operation, containing all the settings that can be modified.
+syntax: public static interface DeploymentSlot.Update extends Appliable<DeploymentSlot>, WebAppBase.Update<DeploymentSlot>
+type: interface
+implements:
+- <xref href="com.azure.resourcemanager.appservice.models.WebAppBase.Update?alt=com.azure.resourcemanager.appservice.models.WebAppBase.Update&text=Update" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.resourcemanager.appservice.models.DeploymentSlot?alt=com.azure.resourcemanager.appservice.models.DeploymentSlot&text=DeploymentSlot" data-throw-if-not-resolved="False" />&gt;
+- <xref href="com.azure.resourcemanager.resources.fluentcore.model.Appliable?alt=com.azure.resourcemanager.resources.fluentcore.model.Appliable&text=Appliable" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.resourcemanager.appservice.models.DeploymentSlot?alt=com.azure.resourcemanager.appservice.models.DeploymentSlot&text=DeploymentSlot" data-throw-if-not-resolved="False" />&gt;
+metadata: {}
+package: com.azure.resourcemanager.appservice.models
+artifact: com.azure.resourcemanager:azure-resourcemanager-appservice:2.0.0-beta.2

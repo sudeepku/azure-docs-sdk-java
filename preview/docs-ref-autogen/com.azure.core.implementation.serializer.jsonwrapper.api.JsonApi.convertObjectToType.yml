@@ -1,0 +1,26 @@
+### YamlMime:JavaMember
+uid: com.azure.core.implementation.serializer.jsonwrapper.api.JsonApi.convertObjectToType*
+fullName: com.azure.core.implementation.serializer.jsonwrapper.api.JsonApi.<T>convertObjectToType
+name: <T>convertObjectToType
+nameWithType: JsonApi.<T>convertObjectToType
+members:
+- uid: com.azure.core.implementation.serializer.jsonwrapper.api.JsonApi.<T>convertObjectToType(java.lang.Object,java.lang.Class<T>)
+  fullName: com.azure.core.implementation.serializer.jsonwrapper.api.JsonApi.<T>convertObjectToType(Object source, Class<T> cls)
+  name: <T>convertObjectToType(Object source, Class<T> cls)
+  nameWithType: JsonApi.<T>convertObjectToType(Object source, Class<T> cls)
+  summary: Convert an Object to instance of class T
+  parameters:
+  - description: source Object
+    name: source
+    type: <xref href="java.lang.Object?alt=java.lang.Object&text=Object" data-throw-if-not-resolved="False" />
+  - description: class type to convert to
+    name: cls
+    type: <xref href="java.lang.Class?alt=java.lang.Class&text=Class" data-throw-if-not-resolved="False" />&lt;<xref href="T?alt=T&text=T" data-throw-if-not-resolved="False" />&gt;
+  syntax: public abstract T <T>convertObjectToType(Object source, Class<T> cls)
+  returns:
+    description: an object of type T
+    type: <xref href="T?alt=T&text=T" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.core.implementation.serializer.jsonwrapper.api
+artifact: com.azure:azure-core:1.3.0-beta.1

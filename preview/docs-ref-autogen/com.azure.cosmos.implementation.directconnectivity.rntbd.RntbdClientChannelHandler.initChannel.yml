@@ -1,0 +1,35 @@
+### YamlMime:JavaMember
+uid: com.azure.cosmos.implementation.directconnectivity.rntbd.RntbdClientChannelHandler.initChannel*
+fullName: com.azure.cosmos.implementation.directconnectivity.rntbd.RntbdClientChannelHandler.initChannel
+name: initChannel
+nameWithType: RntbdClientChannelHandler.initChannel
+members:
+- uid: com.azure.cosmos.implementation.directconnectivity.rntbd.RntbdClientChannelHandler.initChannel(io.netty.channel.Channel)
+  fullName: com.azure.cosmos.implementation.directconnectivity.rntbd.RntbdClientChannelHandler.initChannel(Channel channel)
+  name: initChannel(Channel channel)
+  nameWithType: RntbdClientChannelHandler.initChannel(Channel channel)
+  summary: |-
+    Called by @{ChannelPipeline} initializer after the current channel is registered to an event loop.
+     <p>
+     This method constructs this pipeline:
+     <pre><code>
+     ChannelPipeline {
+         (SslHandler#0 = io.netty.handler.ssl.SslHandler),
+         (IdleTimeoutHandler#0 = io.netty.handler.timeout.IdleTimeoutHandler),
+         (LoggingHandler#0 = io.netty.handler.logging.LoggingHandler),  // iff RntbdClientChannelHandler.config.wireLogLevel != null
+         (RntbdContextNegotiator#0 = com.azure.cosmos.internal.directconnectivity.rntbd.RntbdContextNegotiator),
+         (RntbdResponseDecoder#0 = com.azure.cosmos.internal.directconnectivity.rntbd.RntbdResponseDecoder),
+         (RntbdRequestEncoder#0 = com.azure.cosmos.internal.directconnectivity.rntbd.RntbdRequestEncoder),
+         (RntbdRequestManager#0 = com.azure.cosmos.internal.directconnectivity.rntbd.RntbdRequestManager),
+     }
+     </code></pre>
+  overridden: io.netty.channel.ChannelInitializer.initChannel(C)
+  parameters:
+  - description: a channel that was just registered with an event loop
+    name: channel
+    type: <xref href="io.netty.channel.Channel?alt=io.netty.channel.Channel&text=Channel" data-throw-if-not-resolved="False" />
+  syntax: protected void initChannel(Channel channel)
+type: method
+metadata: {}
+package: com.azure.cosmos.implementation.directconnectivity.rntbd
+artifact: com.azure:azure-cosmos:4.3.2-beta.2

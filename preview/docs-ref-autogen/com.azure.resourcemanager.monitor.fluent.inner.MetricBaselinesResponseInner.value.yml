@@ -1,0 +1,19 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.monitor.fluent.inner.MetricBaselinesResponseInner.value*
+fullName: com.azure.resourcemanager.monitor.fluent.inner.MetricBaselinesResponseInner.value
+name: value
+nameWithType: MetricBaselinesResponseInner.value
+members:
+- uid: com.azure.resourcemanager.monitor.fluent.inner.MetricBaselinesResponseInner.value()
+  fullName: com.azure.resourcemanager.monitor.fluent.inner.MetricBaselinesResponseInner.value()
+  name: value()
+  nameWithType: MetricBaselinesResponseInner.value()
+  summary: 'Get the value property: The list of metric baselines.'
+  syntax: public List<SingleMetricBaselineInner> value()
+  returns:
+    description: the value value.
+    type: <xref href="java.util.List?alt=java.util.List&text=List" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.resourcemanager.monitor.fluent.inner.SingleMetricBaselineInner?alt=com.azure.resourcemanager.monitor.fluent.inner.SingleMetricBaselineInner&text=SingleMetricBaselineInner" data-throw-if-not-resolved="False" />&gt;
+type: method
+metadata: {}
+package: com.azure.resourcemanager.monitor.fluent.inner
+artifact: com.azure.resourcemanager:azure-resourcemanager-monitor:2.0.0-beta.2

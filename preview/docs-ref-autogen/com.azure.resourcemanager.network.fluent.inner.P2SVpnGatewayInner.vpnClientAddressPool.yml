@@ -1,0 +1,21 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.network.fluent.inner.P2SVpnGatewayInner.vpnClientAddressPool*
+fullName: com.azure.resourcemanager.network.fluent.inner.P2SVpnGatewayInner.vpnClientAddressPool
+name: vpnClientAddressPool
+nameWithType: P2SVpnGatewayInner.vpnClientAddressPool
+members:
+- uid: com.azure.resourcemanager.network.fluent.inner.P2SVpnGatewayInner.vpnClientAddressPool()
+  fullName: com.azure.resourcemanager.network.fluent.inner.P2SVpnGatewayInner.vpnClientAddressPool()
+  name: vpnClientAddressPool()
+  nameWithType: P2SVpnGatewayInner.vpnClientAddressPool()
+  summary: |-
+    Get the vpnClientAddressPool property: The reference of the address space resource which represents Address space
+     for P2S VpnClient.
+  syntax: public AddressSpace vpnClientAddressPool()
+  returns:
+    description: the vpnClientAddressPool value.
+    type: <xref href="com.azure.resourcemanager.network.models.AddressSpace?alt=com.azure.resourcemanager.network.models.AddressSpace&text=AddressSpace" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.resourcemanager.network.fluent.inner
+artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.0.0-beta.2

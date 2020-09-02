@@ -1,0 +1,19 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.appservice.fluent.inner.RelayServiceConnectionEntityInner.biztalkUri*
+fullName: com.azure.resourcemanager.appservice.fluent.inner.RelayServiceConnectionEntityInner.biztalkUri
+name: biztalkUri
+nameWithType: RelayServiceConnectionEntityInner.biztalkUri
+members:
+- uid: com.azure.resourcemanager.appservice.fluent.inner.RelayServiceConnectionEntityInner.biztalkUri()
+  fullName: com.azure.resourcemanager.appservice.fluent.inner.RelayServiceConnectionEntityInner.biztalkUri()
+  name: biztalkUri()
+  nameWithType: RelayServiceConnectionEntityInner.biztalkUri()
+  summary: 'Get the biztalkUri property: The biztalkUri property.'
+  syntax: public String biztalkUri()
+  returns:
+    description: the biztalkUri value.
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.resourcemanager.appservice.fluent.inner
+artifact: com.azure.resourcemanager:azure-resourcemanager-appservice:2.0.0-beta.2

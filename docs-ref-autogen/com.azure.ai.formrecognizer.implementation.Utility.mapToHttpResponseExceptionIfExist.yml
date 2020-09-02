@@ -1,0 +1,25 @@
+### YamlMime:JavaMember
+uid: com.azure.ai.formrecognizer.implementation.Utility.mapToHttpResponseExceptionIfExist*
+fullName: com.azure.ai.formrecognizer.implementation.Utility.mapToHttpResponseExceptionIfExist
+name: mapToHttpResponseExceptionIfExist
+nameWithType: Utility.mapToHttpResponseExceptionIfExist
+members:
+- uid: com.azure.ai.formrecognizer.implementation.Utility.mapToHttpResponseExceptionIfExist(java.lang.Throwable)
+  fullName: com.azure.ai.formrecognizer.implementation.Utility.mapToHttpResponseExceptionIfExist(Throwable throwable)
+  name: mapToHttpResponseExceptionIfExist(Throwable throwable)
+  nameWithType: Utility.mapToHttpResponseExceptionIfExist(Throwable throwable)
+  summary: |-
+    Mapping a <xref uid="ErrorResponseException" data-throw-if-not-resolved="false">ErrorResponseException</xref> to <xref uid="HttpResponseException" data-throw-if-not-resolved="false">HttpResponseException</xref> if exist. Otherwise, return
+     original <xref uid="Throwable" data-throw-if-not-resolved="false">Throwable</xref>.
+  parameters:
+  - description: A <xref uid="java.lang.Throwable" data-throw-if-not-resolved="false">Throwable</xref>.
+    name: throwable
+    type: <xref href="java.lang.Throwable?alt=java.lang.Throwable&text=Throwable" data-throw-if-not-resolved="False" />
+  syntax: public static Throwable mapToHttpResponseExceptionIfExist(Throwable throwable)
+  returns:
+    description: A <xref uid="com.azure.core.exception.HttpResponseException" data-throw-if-not-resolved="false">HttpResponseException</xref> or the original throwable type.
+    type: <xref href="java.lang.Throwable?alt=java.lang.Throwable&text=Throwable" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.ai.formrecognizer.implementation
+artifact: com.azure:azure-ai-formrecognizer:3.0.0

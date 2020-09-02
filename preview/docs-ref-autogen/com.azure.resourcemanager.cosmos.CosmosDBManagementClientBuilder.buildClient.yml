@@ -1,0 +1,19 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.cosmos.CosmosDBManagementClientBuilder.buildClient*
+fullName: com.azure.resourcemanager.cosmos.CosmosDBManagementClientBuilder.buildClient
+name: buildClient
+nameWithType: CosmosDBManagementClientBuilder.buildClient
+members:
+- uid: com.azure.resourcemanager.cosmos.CosmosDBManagementClientBuilder.buildClient()
+  fullName: com.azure.resourcemanager.cosmos.CosmosDBManagementClientBuilder.buildClient()
+  name: buildClient()
+  nameWithType: CosmosDBManagementClientBuilder.buildClient()
+  summary: Builds an instance of CosmosDBManagementClient with the provided parameters.
+  syntax: public CosmosDBManagementClient buildClient()
+  returns:
+    description: an instance of CosmosDBManagementClient.
+    type: <xref href="com.azure.resourcemanager.cosmos.CosmosDBManagementClient?alt=com.azure.resourcemanager.cosmos.CosmosDBManagementClient&text=CosmosDBManagementClient" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.resourcemanager.cosmos
+artifact: com.azure.resourcemanager:azure-resourcemanager-cosmos:2.0.0-beta.2

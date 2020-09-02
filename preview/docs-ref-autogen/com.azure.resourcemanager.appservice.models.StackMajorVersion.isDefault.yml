@@ -1,0 +1,21 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.appservice.models.StackMajorVersion.isDefault*
+fullName: com.azure.resourcemanager.appservice.models.StackMajorVersion.isDefault
+name: isDefault
+nameWithType: StackMajorVersion.isDefault
+members:
+- uid: com.azure.resourcemanager.appservice.models.StackMajorVersion.isDefault()
+  fullName: com.azure.resourcemanager.appservice.models.StackMajorVersion.isDefault()
+  name: isDefault()
+  nameWithType: StackMajorVersion.isDefault()
+  summary: |-
+    Get the isDefault property: &lt;code&gt;true&lt;/code&gt; if this is the default major version; otherwise,
+     &lt;code&gt;false&lt;/code&gt;.
+  syntax: public Boolean isDefault()
+  returns:
+    description: the isDefault value.
+    type: <xref href="java.lang.Boolean?alt=java.lang.Boolean&text=Boolean" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.resourcemanager.appservice.models
+artifact: com.azure.resourcemanager:azure-resourcemanager-appservice:2.0.0-beta.2

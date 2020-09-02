@@ -1,0 +1,45 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.appservice.fluent.DomainsClient.listOwnershipIdentifiersSinglePageAsync*
+fullName: com.azure.resourcemanager.appservice.fluent.DomainsClient.listOwnershipIdentifiersSinglePageAsync
+name: listOwnershipIdentifiersSinglePageAsync
+nameWithType: DomainsClient.listOwnershipIdentifiersSinglePageAsync
+members:
+- uid: com.azure.resourcemanager.appservice.fluent.DomainsClient.listOwnershipIdentifiersSinglePageAsync(java.lang.String,java.lang.String)
+  fullName: com.azure.resourcemanager.appservice.fluent.DomainsClient.listOwnershipIdentifiersSinglePageAsync(String resourceGroupName, String domainName)
+  name: listOwnershipIdentifiersSinglePageAsync(String resourceGroupName, String domainName)
+  nameWithType: DomainsClient.listOwnershipIdentifiersSinglePageAsync(String resourceGroupName, String domainName)
+  summary: Description for Lists domain ownership identifiers.
+  parameters:
+  - description: Name of the resource group to which the resource belongs.
+    name: resourceGroupName
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  - description: Name of domain.
+    name: domainName
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  syntax: public Mono<PagedResponse<DomainOwnershipIdentifierInner>> listOwnershipIdentifiersSinglePageAsync(String resourceGroupName, String domainName)
+  returns:
+    description: collection of domain ownership identifiers.
+    type: <xref href="reactor.core.publisher.Mono?alt=reactor.core.publisher.Mono&text=Mono" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.core.http.rest.PagedResponse?alt=com.azure.core.http.rest.PagedResponse&text=PagedResponse" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.resourcemanager.appservice.fluent.inner.DomainOwnershipIdentifierInner?alt=com.azure.resourcemanager.appservice.fluent.inner.DomainOwnershipIdentifierInner&text=DomainOwnershipIdentifierInner" data-throw-if-not-resolved="False" />&gt;&gt;
+- uid: com.azure.resourcemanager.appservice.fluent.DomainsClient.listOwnershipIdentifiersSinglePageAsync(java.lang.String,java.lang.String,com.azure.core.util.Context)
+  fullName: com.azure.resourcemanager.appservice.fluent.DomainsClient.listOwnershipIdentifiersSinglePageAsync(String resourceGroupName, String domainName, Context context)
+  name: listOwnershipIdentifiersSinglePageAsync(String resourceGroupName, String domainName, Context context)
+  nameWithType: DomainsClient.listOwnershipIdentifiersSinglePageAsync(String resourceGroupName, String domainName, Context context)
+  summary: Description for Lists domain ownership identifiers.
+  parameters:
+  - description: Name of the resource group to which the resource belongs.
+    name: resourceGroupName
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  - description: Name of domain.
+    name: domainName
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  - description: The context to associate with this operation.
+    name: context
+    type: <xref href="com.azure.core.util.Context?alt=com.azure.core.util.Context&text=Context" data-throw-if-not-resolved="False" />
+  syntax: public Mono<PagedResponse<DomainOwnershipIdentifierInner>> listOwnershipIdentifiersSinglePageAsync(String resourceGroupName, String domainName, Context context)
+  returns:
+    description: collection of domain ownership identifiers.
+    type: <xref href="reactor.core.publisher.Mono?alt=reactor.core.publisher.Mono&text=Mono" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.core.http.rest.PagedResponse?alt=com.azure.core.http.rest.PagedResponse&text=PagedResponse" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.resourcemanager.appservice.fluent.inner.DomainOwnershipIdentifierInner?alt=com.azure.resourcemanager.appservice.fluent.inner.DomainOwnershipIdentifierInner&text=DomainOwnershipIdentifierInner" data-throw-if-not-resolved="False" />&gt;&gt;
+type: method
+metadata: {}
+package: com.azure.resourcemanager.appservice.fluent
+artifact: com.azure.resourcemanager:azure-resourcemanager-appservice:2.0.0-beta.2

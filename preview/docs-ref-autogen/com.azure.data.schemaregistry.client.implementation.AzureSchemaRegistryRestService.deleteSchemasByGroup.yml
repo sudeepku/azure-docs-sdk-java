@@ -1,0 +1,33 @@
+### YamlMime:JavaMember
+uid: com.azure.data.schemaregistry.client.implementation.AzureSchemaRegistryRestService.deleteSchemasByGroup*
+fullName: com.azure.data.schemaregistry.client.implementation.AzureSchemaRegistryRestService.deleteSchemasByGroup
+name: deleteSchemasByGroup
+nameWithType: AzureSchemaRegistryRestService.deleteSchemasByGroup
+members:
+- uid: com.azure.data.schemaregistry.client.implementation.AzureSchemaRegistryRestService.deleteSchemasByGroup(java.lang.String)
+  fullName: com.azure.data.schemaregistry.client.implementation.AzureSchemaRegistryRestService.deleteSchemasByGroup(String groupName)
+  name: deleteSchemasByGroup(String groupName)
+  nameWithType: AzureSchemaRegistryRestService.deleteSchemasByGroup(String groupName)
+  summary: Deletes all schemas under specified group name.
+  parameters:
+  - description: schema group.
+    name: groupName
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  syntax: public void deleteSchemasByGroup(String groupName)
+- uid: com.azure.data.schemaregistry.client.implementation.AzureSchemaRegistryRestService.deleteSchemasByGroup(java.lang.String,com.azure.core.util.Context)
+  fullName: com.azure.data.schemaregistry.client.implementation.AzureSchemaRegistryRestService.deleteSchemasByGroup(String groupName, Context context)
+  name: deleteSchemasByGroup(String groupName, Context context)
+  nameWithType: AzureSchemaRegistryRestService.deleteSchemasByGroup(String groupName, Context context)
+  summary: Deletes all schemas under specified group name.
+  parameters:
+  - description: schema group.
+    name: groupName
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  - description: The context to associate with this operation.
+    name: context
+    type: <xref href="com.azure.core.util.Context?alt=com.azure.core.util.Context&text=Context" data-throw-if-not-resolved="False" />
+  syntax: public void deleteSchemasByGroup(String groupName, Context context)
+type: method
+metadata: {}
+package: com.azure.data.schemaregistry.client.implementation
+artifact: com.azure:azure-data-schemaregistry:1.0.0-beta.1

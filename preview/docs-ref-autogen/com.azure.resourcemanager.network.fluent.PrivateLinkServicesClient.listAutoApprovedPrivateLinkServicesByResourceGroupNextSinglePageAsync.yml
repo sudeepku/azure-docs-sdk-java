@@ -1,0 +1,39 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.network.fluent.PrivateLinkServicesClient.listAutoApprovedPrivateLinkServicesByResourceGroupNextSinglePageAsync*
+fullName: com.azure.resourcemanager.network.fluent.PrivateLinkServicesClient.listAutoApprovedPrivateLinkServicesByResourceGroupNextSinglePageAsync
+name: listAutoApprovedPrivateLinkServicesByResourceGroupNextSinglePageAsync
+nameWithType: PrivateLinkServicesClient.listAutoApprovedPrivateLinkServicesByResourceGroupNextSinglePageAsync
+members:
+- uid: com.azure.resourcemanager.network.fluent.PrivateLinkServicesClient.listAutoApprovedPrivateLinkServicesByResourceGroupNextSinglePageAsync(java.lang.String)
+  fullName: com.azure.resourcemanager.network.fluent.PrivateLinkServicesClient.listAutoApprovedPrivateLinkServicesByResourceGroupNextSinglePageAsync(String nextLink)
+  name: listAutoApprovedPrivateLinkServicesByResourceGroupNextSinglePageAsync(String nextLink)
+  nameWithType: PrivateLinkServicesClient.listAutoApprovedPrivateLinkServicesByResourceGroupNextSinglePageAsync(String nextLink)
+  summary: Get the next page of items.
+  parameters:
+  - description: The nextLink parameter.
+    name: nextLink
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  syntax: public Mono<PagedResponse<AutoApprovedPrivateLinkServiceInner>> listAutoApprovedPrivateLinkServicesByResourceGroupNextSinglePageAsync(String nextLink)
+  returns:
+    description: an array of private link service id that can be linked to a private end point with auto approved.
+    type: <xref href="reactor.core.publisher.Mono?alt=reactor.core.publisher.Mono&text=Mono" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.core.http.rest.PagedResponse?alt=com.azure.core.http.rest.PagedResponse&text=PagedResponse" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.resourcemanager.network.fluent.inner.AutoApprovedPrivateLinkServiceInner?alt=com.azure.resourcemanager.network.fluent.inner.AutoApprovedPrivateLinkServiceInner&text=AutoApprovedPrivateLinkServiceInner" data-throw-if-not-resolved="False" />&gt;&gt;
+- uid: com.azure.resourcemanager.network.fluent.PrivateLinkServicesClient.listAutoApprovedPrivateLinkServicesByResourceGroupNextSinglePageAsync(java.lang.String,com.azure.core.util.Context)
+  fullName: com.azure.resourcemanager.network.fluent.PrivateLinkServicesClient.listAutoApprovedPrivateLinkServicesByResourceGroupNextSinglePageAsync(String nextLink, Context context)
+  name: listAutoApprovedPrivateLinkServicesByResourceGroupNextSinglePageAsync(String nextLink, Context context)
+  nameWithType: PrivateLinkServicesClient.listAutoApprovedPrivateLinkServicesByResourceGroupNextSinglePageAsync(String nextLink, Context context)
+  summary: Get the next page of items.
+  parameters:
+  - description: The nextLink parameter.
+    name: nextLink
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  - description: The context to associate with this operation.
+    name: context
+    type: <xref href="com.azure.core.util.Context?alt=com.azure.core.util.Context&text=Context" data-throw-if-not-resolved="False" />
+  syntax: public Mono<PagedResponse<AutoApprovedPrivateLinkServiceInner>> listAutoApprovedPrivateLinkServicesByResourceGroupNextSinglePageAsync(String nextLink, Context context)
+  returns:
+    description: an array of private link service id that can be linked to a private end point with auto approved.
+    type: <xref href="reactor.core.publisher.Mono?alt=reactor.core.publisher.Mono&text=Mono" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.core.http.rest.PagedResponse?alt=com.azure.core.http.rest.PagedResponse&text=PagedResponse" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.resourcemanager.network.fluent.inner.AutoApprovedPrivateLinkServiceInner?alt=com.azure.resourcemanager.network.fluent.inner.AutoApprovedPrivateLinkServiceInner&text=AutoApprovedPrivateLinkServiceInner" data-throw-if-not-resolved="False" />&gt;&gt;
+type: method
+metadata: {}
+package: com.azure.resourcemanager.network.fluent
+artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.0.0-beta.2

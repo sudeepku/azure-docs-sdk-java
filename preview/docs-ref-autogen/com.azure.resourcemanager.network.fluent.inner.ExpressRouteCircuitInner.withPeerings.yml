@@ -1,0 +1,23 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.network.fluent.inner.ExpressRouteCircuitInner.withPeerings*
+fullName: com.azure.resourcemanager.network.fluent.inner.ExpressRouteCircuitInner.withPeerings
+name: withPeerings
+nameWithType: ExpressRouteCircuitInner.withPeerings
+members:
+- uid: com.azure.resourcemanager.network.fluent.inner.ExpressRouteCircuitInner.withPeerings(java.util.List<com.azure.resourcemanager.network.fluent.inner.ExpressRouteCircuitPeeringInner>)
+  fullName: com.azure.resourcemanager.network.fluent.inner.ExpressRouteCircuitInner.withPeerings(List<ExpressRouteCircuitPeeringInner> peerings)
+  name: withPeerings(List<ExpressRouteCircuitPeeringInner> peerings)
+  nameWithType: ExpressRouteCircuitInner.withPeerings(List<ExpressRouteCircuitPeeringInner> peerings)
+  summary: 'Set the peerings property: The list of peerings.'
+  parameters:
+  - description: the peerings value to set.
+    name: peerings
+    type: <xref href="java.util.List?alt=java.util.List&text=List" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.resourcemanager.network.fluent.inner.ExpressRouteCircuitPeeringInner?alt=com.azure.resourcemanager.network.fluent.inner.ExpressRouteCircuitPeeringInner&text=ExpressRouteCircuitPeeringInner" data-throw-if-not-resolved="False" />&gt;
+  syntax: public ExpressRouteCircuitInner withPeerings(List<ExpressRouteCircuitPeeringInner> peerings)
+  returns:
+    description: the ExpressRouteCircuitInner object itself.
+    type: <xref href="com.azure.resourcemanager.network.fluent.inner.ExpressRouteCircuitInner?alt=com.azure.resourcemanager.network.fluent.inner.ExpressRouteCircuitInner&text=ExpressRouteCircuitInner" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.resourcemanager.network.fluent.inner
+artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.0.0-beta.2

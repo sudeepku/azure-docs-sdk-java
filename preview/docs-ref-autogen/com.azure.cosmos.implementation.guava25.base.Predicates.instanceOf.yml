@@ -1,0 +1,31 @@
+### YamlMime:JavaMember
+uid: com.azure.cosmos.implementation.guava25.base.Predicates.instanceOf*
+fullName: com.azure.cosmos.implementation.guava25.base.Predicates.instanceOf
+name: instanceOf
+nameWithType: Predicates.instanceOf
+members:
+- uid: com.azure.cosmos.implementation.guava25.base.Predicates.instanceOf(java.lang.Class<?>)
+  fullName: com.azure.cosmos.implementation.guava25.base.Predicates.instanceOf(Class<?> clazz)
+  name: instanceOf(Class<?> clazz)
+  nameWithType: Predicates.instanceOf(Class<?> clazz)
+  summary: |-
+    Returns a predicate that evaluates to <code>true</code> if the object being tested is an instance of
+     the given class. If the object being tested is <code>null</code> this predicate evaluates to <code>
+     false</code>.
+
+     <p>If you want to filter an <code>Iterable</code> to narrow its type, consider using <xref uid="com.azure.cosmos.implementation.guava25.collect.Iterables#filter(Iterable, Class)" data-throw-if-not-resolved="false">com.azure.cosmos.implementation.guava25.collect.Iterables#filter(Iterable, Class)</xref> in preference.
+
+     <p><b>Warning:</b> contrary to the typical assumptions about predicates (as documented at
+     <xref uid="Predicate#apply" data-throw-if-not-resolved="false">Predicate#apply</xref>), the returned predicate may not be <i>consistent with equals</i>. For
+     example, <code>instanceOf(ArrayList.class)</code> will yield different results for the two equal
+     instances <code>Lists.newArrayList(1)</code> and <code>Arrays.asList(1)</code>.
+  parameters:
+  - name: clazz
+    type: <xref href="java.lang.Class?alt=java.lang.Class&text=Class" data-throw-if-not-resolved="False" />&lt;?&gt;
+  syntax: public static Predicate<Object> instanceOf(Class<?> clazz)
+  returns:
+    type: <xref href="com.azure.cosmos.implementation.guava25.base.Predicate?alt=com.azure.cosmos.implementation.guava25.base.Predicate&text=Predicate" data-throw-if-not-resolved="False" />&lt;<xref href="java.lang.Object?alt=java.lang.Object&text=Object" data-throw-if-not-resolved="False" />&gt;
+type: method
+metadata: {}
+package: com.azure.cosmos.implementation.guava25.base
+artifact: com.azure:azure-cosmos:4.3.2-beta.2

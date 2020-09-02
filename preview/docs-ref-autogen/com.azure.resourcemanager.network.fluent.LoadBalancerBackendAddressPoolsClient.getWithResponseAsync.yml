@@ -1,0 +1,51 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.network.fluent.LoadBalancerBackendAddressPoolsClient.getWithResponseAsync*
+fullName: com.azure.resourcemanager.network.fluent.LoadBalancerBackendAddressPoolsClient.getWithResponseAsync
+name: getWithResponseAsync
+nameWithType: LoadBalancerBackendAddressPoolsClient.getWithResponseAsync
+members:
+- uid: com.azure.resourcemanager.network.fluent.LoadBalancerBackendAddressPoolsClient.getWithResponseAsync(java.lang.String,java.lang.String,java.lang.String)
+  fullName: com.azure.resourcemanager.network.fluent.LoadBalancerBackendAddressPoolsClient.getWithResponseAsync(String resourceGroupName, String loadBalancerName, String backendAddressPoolName)
+  name: getWithResponseAsync(String resourceGroupName, String loadBalancerName, String backendAddressPoolName)
+  nameWithType: LoadBalancerBackendAddressPoolsClient.getWithResponseAsync(String resourceGroupName, String loadBalancerName, String backendAddressPoolName)
+  summary: Gets load balancer backend address pool.
+  parameters:
+  - description: The name of the resource group.
+    name: resourceGroupName
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  - description: The name of the load balancer.
+    name: loadBalancerName
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  - description: The name of the backend address pool.
+    name: backendAddressPoolName
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  syntax: public Mono<Response<BackendAddressPoolInner>> getWithResponseAsync(String resourceGroupName, String loadBalancerName, String backendAddressPoolName)
+  returns:
+    description: load balancer backend address pool.
+    type: <xref href="reactor.core.publisher.Mono?alt=reactor.core.publisher.Mono&text=Mono" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.core.http.rest.Response?alt=com.azure.core.http.rest.Response&text=Response" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.resourcemanager.network.fluent.inner.BackendAddressPoolInner?alt=com.azure.resourcemanager.network.fluent.inner.BackendAddressPoolInner&text=BackendAddressPoolInner" data-throw-if-not-resolved="False" />&gt;&gt;
+- uid: com.azure.resourcemanager.network.fluent.LoadBalancerBackendAddressPoolsClient.getWithResponseAsync(java.lang.String,java.lang.String,java.lang.String,com.azure.core.util.Context)
+  fullName: com.azure.resourcemanager.network.fluent.LoadBalancerBackendAddressPoolsClient.getWithResponseAsync(String resourceGroupName, String loadBalancerName, String backendAddressPoolName, Context context)
+  name: getWithResponseAsync(String resourceGroupName, String loadBalancerName, String backendAddressPoolName, Context context)
+  nameWithType: LoadBalancerBackendAddressPoolsClient.getWithResponseAsync(String resourceGroupName, String loadBalancerName, String backendAddressPoolName, Context context)
+  summary: Gets load balancer backend address pool.
+  parameters:
+  - description: The name of the resource group.
+    name: resourceGroupName
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  - description: The name of the load balancer.
+    name: loadBalancerName
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  - description: The name of the backend address pool.
+    name: backendAddressPoolName
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  - description: The context to associate with this operation.
+    name: context
+    type: <xref href="com.azure.core.util.Context?alt=com.azure.core.util.Context&text=Context" data-throw-if-not-resolved="False" />
+  syntax: public Mono<Response<BackendAddressPoolInner>> getWithResponseAsync(String resourceGroupName, String loadBalancerName, String backendAddressPoolName, Context context)
+  returns:
+    description: load balancer backend address pool.
+    type: <xref href="reactor.core.publisher.Mono?alt=reactor.core.publisher.Mono&text=Mono" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.core.http.rest.Response?alt=com.azure.core.http.rest.Response&text=Response" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.resourcemanager.network.fluent.inner.BackendAddressPoolInner?alt=com.azure.resourcemanager.network.fluent.inner.BackendAddressPoolInner&text=BackendAddressPoolInner" data-throw-if-not-resolved="False" />&gt;&gt;
+type: method
+metadata: {}
+package: com.azure.resourcemanager.network.fluent
+artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.0.0-beta.2

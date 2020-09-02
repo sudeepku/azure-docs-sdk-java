@@ -1,0 +1,16 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.network.models.FirewallPolicyNatRuleAction.validate*
+fullName: com.azure.resourcemanager.network.models.FirewallPolicyNatRuleAction.validate
+name: validate
+nameWithType: FirewallPolicyNatRuleAction.validate
+members:
+- uid: com.azure.resourcemanager.network.models.FirewallPolicyNatRuleAction.validate()
+  fullName: com.azure.resourcemanager.network.models.FirewallPolicyNatRuleAction.validate()
+  name: validate()
+  nameWithType: FirewallPolicyNatRuleAction.validate()
+  summary: Validates the instance.
+  syntax: public void validate()
+type: method
+metadata: {}
+package: com.azure.resourcemanager.network.models
+artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.0.0-beta.2

@@ -1,0 +1,19 @@
+### YamlMime:JavaMember
+uid: com.azure.data.schemaregistry.client.implementation.AzureSchemaRegistryRestService.getHost*
+fullName: com.azure.data.schemaregistry.client.implementation.AzureSchemaRegistryRestService.getHost
+name: getHost
+nameWithType: AzureSchemaRegistryRestService.getHost
+members:
+- uid: com.azure.data.schemaregistry.client.implementation.AzureSchemaRegistryRestService.getHost()
+  fullName: com.azure.data.schemaregistry.client.implementation.AzureSchemaRegistryRestService.getHost()
+  name: getHost()
+  nameWithType: AzureSchemaRegistryRestService.getHost()
+  summary: Gets server parameter.
+  syntax: public String getHost()
+  returns:
+    description: the host value.
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.data.schemaregistry.client.implementation
+artifact: com.azure:azure-data-schemaregistry:1.0.0-beta.1

@@ -1,0 +1,31 @@
+### YamlMime:JavaMember
+uid: com.azure.storage.blob.BlobContainerClient.getProperties*
+fullName: com.azure.storage.blob.BlobContainerClient.getProperties
+name: getProperties
+nameWithType: BlobContainerClient.getProperties
+members:
+- uid: com.azure.storage.blob.BlobContainerClient.getProperties()
+  fullName: com.azure.storage.blob.BlobContainerClient.getProperties()
+  name: getProperties()
+  nameWithType: BlobContainerClient.getProperties()
+  summary: |-
+    Returns the container's metadata and system properties. For more information, see the
+     <a href="https://docs.microsoft.com/rest/api/storageservices/get-container-metadata">Azure Docs</a>.
+
+     <p><strong>Code Samples</strong></p>
+
+     <pre>
+     BlobContainerProperties properties = client.getProperties&#40;&#41;;
+     System.out.printf&#40;&quot;Public Access Type: %s, Legal Hold? %b, Immutable? %b%n&quot;,
+         properties.getBlobPublicAccess&#40;&#41;,
+         properties.hasLegalHold&#40;&#41;,
+         properties.hasImmutabilityPolicy&#40;&#41;&#41;;
+     </pre>
+  syntax: public BlobContainerProperties getProperties()
+  returns:
+    description: The container properties.
+    type: <xref href="com.azure.storage.blob.models.BlobContainerProperties?alt=com.azure.storage.blob.models.BlobContainerProperties&text=BlobContainerProperties" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.storage.blob
+artifact: com.azure:azure-storage-blob:12.8.0

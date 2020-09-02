@@ -1,0 +1,41 @@
+### YamlMime:JavaMember
+uid: com.azure.security.keyvault.keys.KeyAsyncClient.listPropertiesOfKeyVersions*
+fullName: com.azure.security.keyvault.keys.KeyAsyncClient.listPropertiesOfKeyVersions
+name: listPropertiesOfKeyVersions
+nameWithType: KeyAsyncClient.listPropertiesOfKeyVersions
+members:
+- uid: com.azure.security.keyvault.keys.KeyAsyncClient.listPropertiesOfKeyVersions(java.lang.String)
+  fullName: com.azure.security.keyvault.keys.KeyAsyncClient.listPropertiesOfKeyVersions(String name)
+  name: listPropertiesOfKeyVersions(String name)
+  nameWithType: KeyAsyncClient.listPropertiesOfKeyVersions(String name)
+  summary: |-
+    List all versions of the specified key. The individual key response in the flux is represented by <xref uid="KeyProperties" data-throw-if-not-resolved="false">KeyProperties</xref>
+     as only the key identifier, attributes and tags are provided in the response. The key material values are
+     not provided in the response. This operation requires the <code>keys/list</code> permission.
+
+     <p>It is possible to get the keys with key material of all the versions from this information. Convert the <xref uid="Flux" data-throw-if-not-resolved="false">Flux</xref> containing <xref uid="KeyProperties" data-throw-if-not-resolved="false">key properties</xref> to <xref uid="Flux" data-throw-if-not-resolved="false">Flux</xref> containing <xref uid="KeyVaultKey" data-throw-if-not-resolved="false">key</xref> using
+     <xref uid="KeyAsyncClient#getKey(String, String)" data-throw-if-not-resolved="false">KeyAsyncClient#getKey(String, String)</xref> within <xref uid="Flux#flatMap(Function)" data-throw-if-not-resolved="false">Flux#flatMap(Function)</xref>.</p>
+
+     <pre>
+     keyAsyncClient.listPropertiesOfKeyVersions&#40;&quot;keyName&quot;&#41;
+         .subscriberContext&#40;Context.of&#40;key1, value1, key2, value2&#41;&#41;
+         .subscribe&#40;keyProperties -&gt; keyAsyncClient.getKey&#40;keyProperties.getName&#40;&#41;, keyProperties.getVersion&#40;&#41;&#41;
+             .subscribe&#40;keyResponse -&gt;
+                 System.out.printf&#40;&quot;Received key's version with name %s, type %s and version %s&quot;,
+                     keyResponse.getName&#40;&#41;,
+                     keyResponse.getKeyType&#40;&#41;, keyResponse.getProperties&#40;&#41;.getVersion&#40;&#41;&#41;&#41;&#41;;
+     </pre>
+  parameters:
+  - description: The name of the key.
+    name: name
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  syntax: public PagedFlux<KeyProperties> listPropertiesOfKeyVersions(String name)
+  returns:
+    description: |-
+      A <xref uid="com.azure.core.http.rest.PagedFlux" data-throw-if-not-resolved="false">PagedFlux</xref> containing <xref uid="com.azure.security.keyvault.keys.models.KeyProperties" data-throw-if-not-resolved="false">key</xref> of all the versions of the specified key in the vault.
+           Flux is empty if key with <code>name</code> does not exist in key vault.
+    type: <xref href="com.azure.core.http.rest.PagedFlux?alt=com.azure.core.http.rest.PagedFlux&text=PagedFlux" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.security.keyvault.keys.models.KeyProperties?alt=com.azure.security.keyvault.keys.models.KeyProperties&text=KeyProperties" data-throw-if-not-resolved="False" />&gt;
+type: method
+metadata: {}
+package: com.azure.security.keyvault.keys
+artifact: com.azure:azure-security-keyvault-keys:4.2.0-beta.4

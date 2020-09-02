@@ -1,0 +1,23 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.appservice.fluent.inner.SitePatchResourceInner.withRedundancyMode*
+fullName: com.azure.resourcemanager.appservice.fluent.inner.SitePatchResourceInner.withRedundancyMode
+name: withRedundancyMode
+nameWithType: SitePatchResourceInner.withRedundancyMode
+members:
+- uid: com.azure.resourcemanager.appservice.fluent.inner.SitePatchResourceInner.withRedundancyMode(com.azure.resourcemanager.appservice.models.RedundancyMode)
+  fullName: com.azure.resourcemanager.appservice.fluent.inner.SitePatchResourceInner.withRedundancyMode(RedundancyMode redundancyMode)
+  name: withRedundancyMode(RedundancyMode redundancyMode)
+  nameWithType: SitePatchResourceInner.withRedundancyMode(RedundancyMode redundancyMode)
+  summary: 'Set the redundancyMode property: Site redundancy mode.'
+  parameters:
+  - description: the redundancyMode value to set.
+    name: redundancyMode
+    type: <xref href="com.azure.resourcemanager.appservice.models.RedundancyMode?alt=com.azure.resourcemanager.appservice.models.RedundancyMode&text=RedundancyMode" data-throw-if-not-resolved="False" />
+  syntax: public SitePatchResourceInner withRedundancyMode(RedundancyMode redundancyMode)
+  returns:
+    description: the SitePatchResourceInner object itself.
+    type: <xref href="com.azure.resourcemanager.appservice.fluent.inner.SitePatchResourceInner?alt=com.azure.resourcemanager.appservice.fluent.inner.SitePatchResourceInner&text=SitePatchResourceInner" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.resourcemanager.appservice.fluent.inner
+artifact: com.azure.resourcemanager:azure-resourcemanager-appservice:2.0.0-beta.2

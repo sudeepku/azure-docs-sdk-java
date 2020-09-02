@@ -1,0 +1,90 @@
+### YamlMime:JavaMember
+uid: com.azure.messaging.eventhubs.EventHubConsumerAsyncClient.receive*
+fullName: com.azure.messaging.eventhubs.EventHubConsumerAsyncClient.receive
+name: receive
+nameWithType: EventHubConsumerAsyncClient.receive
+members:
+- uid: com.azure.messaging.eventhubs.EventHubConsumerAsyncClient.receive()
+  fullName: com.azure.messaging.eventhubs.EventHubConsumerAsyncClient.receive()
+  name: receive()
+  nameWithType: EventHubConsumerAsyncClient.receive()
+  summary: |-
+    Consumes events from all partitions starting from the beginning of each partition.
+
+     <p>This method is <b>not</b> recommended for production use; the <xref uid="EventProcessorClient" data-throw-if-not-resolved="false">EventProcessorClient</xref> should be used for
+     reading events from all partitions in a production scenario, as it offers a much more robust experience with
+     higher throughput.
+
+     It is important to note that this method does not guarantee fairness amongst the partitions. Depending on service
+     communication, there may be a clustering of events per partition and/or there may be a noticeable bias for a
+     given partition or subset of partitions.</p>
+  syntax: public Flux<PartitionEvent> receive()
+  returns:
+    description: A stream of events for every partition in the Event Hub starting from the beginning of each partition.
+    type: <xref href="reactor.core.publisher.Flux?alt=reactor.core.publisher.Flux&text=Flux" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.messaging.eventhubs.models.PartitionEvent?alt=com.azure.messaging.eventhubs.models.PartitionEvent&text=PartitionEvent" data-throw-if-not-resolved="False" />&gt;
+- uid: com.azure.messaging.eventhubs.EventHubConsumerAsyncClient.receive(boolean)
+  fullName: com.azure.messaging.eventhubs.EventHubConsumerAsyncClient.receive(boolean startReadingAtEarliestEvent)
+  name: receive(boolean startReadingAtEarliestEvent)
+  nameWithType: EventHubConsumerAsyncClient.receive(boolean startReadingAtEarliestEvent)
+  summary: |-
+    Consumes events from all partitions.
+
+     <p>This method is <b>not</b> recommended for production use; the <xref uid="EventProcessorClient" data-throw-if-not-resolved="false">EventProcessorClient</xref> should be used for
+     reading events from all partitions in a production scenario, as it offers a much more robust experience with
+     higher throughput.
+
+     It is important to note that this method does not guarantee fairness amongst the partitions. Depending on service
+     communication, there may be a clustering of events per partition and/or there may be a noticeable bias for a
+     given partition or subset of partitions.</p>
+  parameters:
+  - description: |-
+      <code>true</code> to begin reading at the first events available in each
+           partition; otherwise, reading will begin at the end of each partition seeing only new events as they are
+           published.
+    name: startReadingAtEarliestEvent
+    type: <xref href="boolean?alt=boolean&text=boolean" data-throw-if-not-resolved="False" />
+  syntax: public Flux<PartitionEvent> receive(boolean startReadingAtEarliestEvent)
+  returns:
+    description: A stream of events for every partition in the Event Hub.
+    type: <xref href="reactor.core.publisher.Flux?alt=reactor.core.publisher.Flux&text=Flux" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.messaging.eventhubs.models.PartitionEvent?alt=com.azure.messaging.eventhubs.models.PartitionEvent&text=PartitionEvent" data-throw-if-not-resolved="False" />&gt;
+- uid: com.azure.messaging.eventhubs.EventHubConsumerAsyncClient.receive(boolean,com.azure.messaging.eventhubs.models.ReceiveOptions)
+  fullName: com.azure.messaging.eventhubs.EventHubConsumerAsyncClient.receive(boolean startReadingAtEarliestEvent, ReceiveOptions receiveOptions)
+  name: receive(boolean startReadingAtEarliestEvent, ReceiveOptions receiveOptions)
+  nameWithType: EventHubConsumerAsyncClient.receive(boolean startReadingAtEarliestEvent, ReceiveOptions receiveOptions)
+  summary: |-
+    Consumes events from all partitions configured with a set of <code>receiveOptions</code>.
+
+     <p>This method is <b>not</b> recommended for production use; the <xref uid="EventProcessorClient" data-throw-if-not-resolved="false">EventProcessorClient</xref> should be used for
+     reading events from all partitions in a production scenario, as it offers a much more robust experience with
+     higher throughput.
+
+     It is important to note that this method does not guarantee fairness amongst the partitions. Depending on service
+     communication, there may be a clustering of events per partition and/or there may be a noticeable bias for a
+     given partition or subset of partitions.</p>
+
+     <ul>
+     <li>If receive is invoked where <xref uid="ReceiveOptions#getOwnerLevel()" data-throw-if-not-resolved="false">ReceiveOptions#getOwnerLevel()</xref> has a value, then Event Hubs service will
+     guarantee only one active consumer exists per partitionId and consumer group combination. This receive operation
+     is sometimes referred to as an "Epoch Consumer".</li>
+     <li>Multiple consumers per partitionId and consumer group combination can be created by not setting
+     <xref uid="ReceiveOptions#getOwnerLevel()" data-throw-if-not-resolved="false">ReceiveOptions#getOwnerLevel()</xref> when invoking receive operations. This non-exclusive consumer is sometimes
+     referred to as a "Non-Epoch Consumer."</li>
+     </ul>
+  parameters:
+  - description: |-
+      <code>true</code> to begin reading at the first events available in each
+           partition; otherwise, reading will begin at the end of each partition seeing only new events as they are
+           published.
+    name: startReadingAtEarliestEvent
+    type: <xref href="boolean?alt=boolean&text=boolean" data-throw-if-not-resolved="False" />
+  - description: Options when receiving events from each Event Hub partition.
+    name: receiveOptions
+    type: <xref href="com.azure.messaging.eventhubs.models.ReceiveOptions?alt=com.azure.messaging.eventhubs.models.ReceiveOptions&text=ReceiveOptions" data-throw-if-not-resolved="False" />
+  syntax: public Flux<PartitionEvent> receive(boolean startReadingAtEarliestEvent, ReceiveOptions receiveOptions)
+  returns:
+    description: A stream of events for every partition in the Event Hub.
+    type: <xref href="reactor.core.publisher.Flux?alt=reactor.core.publisher.Flux&text=Flux" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.messaging.eventhubs.models.PartitionEvent?alt=com.azure.messaging.eventhubs.models.PartitionEvent&text=PartitionEvent" data-throw-if-not-resolved="False" />&gt;
+type: method
+metadata: {}
+package: com.azure.messaging.eventhubs
+artifact: com.azure:azure-messaging-eventhubs:5.1.1

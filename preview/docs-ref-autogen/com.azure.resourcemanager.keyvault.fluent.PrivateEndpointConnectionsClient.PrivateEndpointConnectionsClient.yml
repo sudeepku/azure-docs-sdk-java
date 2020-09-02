@@ -1,0 +1,20 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.keyvault.fluent.PrivateEndpointConnectionsClient.PrivateEndpointConnectionsClient*
+fullName: com.azure.resourcemanager.keyvault.fluent.PrivateEndpointConnectionsClient.PrivateEndpointConnectionsClient
+name: PrivateEndpointConnectionsClient
+nameWithType: PrivateEndpointConnectionsClient.PrivateEndpointConnectionsClient
+members:
+- uid: com.azure.resourcemanager.keyvault.fluent.PrivateEndpointConnectionsClient.PrivateEndpointConnectionsClient(com.azure.resourcemanager.keyvault.KeyVaultManagementClient)
+  fullName: com.azure.resourcemanager.keyvault.fluent.PrivateEndpointConnectionsClient.PrivateEndpointConnectionsClient(KeyVaultManagementClient client)
+  name: PrivateEndpointConnectionsClient(KeyVaultManagementClient client)
+  nameWithType: PrivateEndpointConnectionsClient.PrivateEndpointConnectionsClient(KeyVaultManagementClient client)
+  summary: Initializes an instance of PrivateEndpointConnectionsClient.
+  parameters:
+  - description: the instance of the service client containing this operation class.
+    name: client
+    type: <xref href="com.azure.resourcemanager.keyvault.KeyVaultManagementClient?alt=com.azure.resourcemanager.keyvault.KeyVaultManagementClient&text=KeyVaultManagementClient" data-throw-if-not-resolved="False" />
+  syntax: public PrivateEndpointConnectionsClient(KeyVaultManagementClient client)
+type: constructor
+metadata: {}
+package: com.azure.resourcemanager.keyvault.fluent
+artifact: com.azure.resourcemanager:azure-resourcemanager-keyvault:2.0.0-beta.2

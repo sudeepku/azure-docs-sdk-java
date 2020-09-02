@@ -1,0 +1,47 @@
+### YamlMime:JavaMember
+uid: com.azure.cosmos.implementation.guava25.collect.Maps.newLinkedHashMap*
+fullName: com.azure.cosmos.implementation.guava25.collect.Maps.<K,V>newLinkedHashMap
+name: <K,V>newLinkedHashMap
+nameWithType: Maps.<K,V>newLinkedHashMap
+members:
+- uid: com.azure.cosmos.implementation.guava25.collect.Maps.<K,V>newLinkedHashMap()
+  fullName: com.azure.cosmos.implementation.guava25.collect.Maps.<K,V>newLinkedHashMap()
+  name: <K,V>newLinkedHashMap()
+  nameWithType: Maps.<K,V>newLinkedHashMap()
+  summary: |-
+    Creates a <i>mutable</i>, empty, insertion-ordered <code>LinkedHashMap</code> instance.
+
+     <p><b>Note:</b> if mutability is not required, use <xref uid="ImmutableMap#of()" data-throw-if-not-resolved="false">ImmutableMap#of()</xref> instead.
+
+     <p><b>Note for Java 7 and later:</b> this method is now unnecessary and should be treated as
+     deprecated. Instead, use the <code>LinkedHashMap</code> constructor directly, taking advantage of
+     the new <a href="http://goo.gl/iz2Wi">"diamond" syntax</a>.
+  syntax: public static LinkedHashMap<K,V> <K,V>newLinkedHashMap()
+  returns:
+    description: a new, empty <code>LinkedHashMap</code>
+    type: <xref href="java.util.LinkedHashMap?alt=java.util.LinkedHashMap&text=LinkedHashMap" data-throw-if-not-resolved="False" />&lt;<xref href="K?alt=K&text=K" data-throw-if-not-resolved="False" />,<xref href="V?alt=V&text=V" data-throw-if-not-resolved="False" />&gt;
+- uid: com.azure.cosmos.implementation.guava25.collect.Maps.<K,V>newLinkedHashMap(java.util.Map<? extends K,? extends V>)
+  fullName: com.azure.cosmos.implementation.guava25.collect.Maps.<K,V>newLinkedHashMap(Map<? extends K,? extends V> map)
+  name: <K,V>newLinkedHashMap(Map<? extends K,? extends V> map)
+  nameWithType: Maps.<K,V>newLinkedHashMap(Map<? extends K,? extends V> map)
+  summary: |-
+    Creates a <i>mutable</i>, insertion-ordered <code>LinkedHashMap</code> instance with the same
+     mappings as the specified map.
+
+     <p><b>Note:</b> if mutability is not required, use <xref uid="ImmutableMap#copyOf(Map)" data-throw-if-not-resolved="false">ImmutableMap#copyOf(Map)</xref> instead.
+
+     <p><b>Note for Java 7 and later:</b> this method is now unnecessary and should be treated as
+     deprecated. Instead, use the <code>LinkedHashMap</code> constructor directly, taking advantage of
+     the new <a href="http://goo.gl/iz2Wi">"diamond" syntax</a>.
+  parameters:
+  - description: the mappings to be placed in the new map
+    name: map
+    type: <xref href="java.util.Map?alt=java.util.Map&text=Map" data-throw-if-not-resolved="False" />&lt;<xref href="? extends K?alt=? extends K&text=? extends K" data-throw-if-not-resolved="False" />,<xref href="? extends V?alt=? extends V&text=? extends V" data-throw-if-not-resolved="False" />&gt;
+  syntax: public static LinkedHashMap<K,V> <K,V>newLinkedHashMap(Map<? extends K,? extends V> map)
+  returns:
+    description: a new, <code>LinkedHashMap</code> initialized with the mappings from <code>map</code>
+    type: <xref href="java.util.LinkedHashMap?alt=java.util.LinkedHashMap&text=LinkedHashMap" data-throw-if-not-resolved="False" />&lt;<xref href="K?alt=K&text=K" data-throw-if-not-resolved="False" />,<xref href="V?alt=V&text=V" data-throw-if-not-resolved="False" />&gt;
+type: method
+metadata: {}
+package: com.azure.cosmos.implementation.guava25.collect
+artifact: com.azure:azure-cosmos:4.3.2-beta.2

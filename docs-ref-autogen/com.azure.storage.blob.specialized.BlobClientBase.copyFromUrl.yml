@@ -1,0 +1,33 @@
+### YamlMime:JavaMember
+uid: com.azure.storage.blob.specialized.BlobClientBase.copyFromUrl*
+fullName: com.azure.storage.blob.specialized.BlobClientBase.copyFromUrl
+name: copyFromUrl
+nameWithType: BlobClientBase.copyFromUrl
+members:
+- uid: com.azure.storage.blob.specialized.BlobClientBase.copyFromUrl(java.lang.String)
+  fullName: com.azure.storage.blob.specialized.BlobClientBase.copyFromUrl(String copySource)
+  name: copyFromUrl(String copySource)
+  nameWithType: BlobClientBase.copyFromUrl(String copySource)
+  summary: |-
+    Copies the data at the source URL to a blob and waits for the copy to complete before returning a response.
+
+     <p><strong>Code Samples</strong></p>
+
+     <pre>
+     System.out.printf&#40;&quot;Copy identifier: %s%n&quot;, client.copyFromUrl&#40;url&#41;&#41;;
+     </pre>
+
+     <p>For more information, see the
+     <a href="https://docs.microsoft.com/en-us/rest/api/storageservices/copy-blob-from-url">Azure Docs</a></p>
+  parameters:
+  - description: The source URL to copy from.
+    name: copySource
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  syntax: public String copyFromUrl(String copySource)
+  returns:
+    description: The copy ID for the long running operation.
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.storage.blob.specialized
+artifact: com.azure:azure-storage-blob:12.8.0

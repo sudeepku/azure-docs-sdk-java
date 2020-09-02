@@ -1,0 +1,17 @@
+### YamlMime:JavaMember
+uid: com.azure.search.documents.indexes.implementation.models.SoftDeleteColumnDeletionDetectionPolicy.validate*
+fullName: com.azure.search.documents.indexes.implementation.models.SoftDeleteColumnDeletionDetectionPolicy.validate
+name: validate
+nameWithType: SoftDeleteColumnDeletionDetectionPolicy.validate
+members:
+- uid: com.azure.search.documents.indexes.implementation.models.SoftDeleteColumnDeletionDetectionPolicy.validate()
+  fullName: com.azure.search.documents.indexes.implementation.models.SoftDeleteColumnDeletionDetectionPolicy.validate()
+  name: validate()
+  nameWithType: SoftDeleteColumnDeletionDetectionPolicy.validate()
+  summary: Validates the instance.
+  overridden: com.azure.search.documents.indexes.implementation.models.DataDeletionDetectionPolicy.validate()
+  syntax: public void validate()
+type: method
+metadata: {}
+package: com.azure.search.documents.indexes.implementation.models
+artifact: com.azure:azure-search-documents:11.0.0

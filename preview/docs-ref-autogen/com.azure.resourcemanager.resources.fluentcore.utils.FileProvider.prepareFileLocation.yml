@@ -1,0 +1,36 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.resources.fluentcore.utils.FileProvider.prepareFileLocation*
+fullName: com.azure.resourcemanager.resources.fluentcore.utils.FileProvider.prepareFileLocation
+name: prepareFileLocation
+nameWithType: FileProvider.prepareFileLocation
+members:
+- uid: com.azure.resourcemanager.resources.fluentcore.utils.FileProvider.prepareFileLocation(java.io.File)
+  fullName: com.azure.resourcemanager.resources.fluentcore.utils.FileProvider.prepareFileLocation(File file)
+  name: prepareFileLocation(File file)
+  nameWithType: FileProvider.prepareFileLocation(File file)
+  summary: Prepares the location for file to be created.
+  parameters:
+  - description: the file to be created.
+    name: file
+    type: <xref href="java.io.File?alt=java.io.File&text=File" data-throw-if-not-resolved="False" />
+  syntax: public void prepareFileLocation(File file)
+  exceptions:
+  - description: thrown when failed on IO.
+    type: <xref href="java.io.IOException?alt=java.io.IOException&text=IOException" data-throw-if-not-resolved="False" />
+- uid: com.azure.resourcemanager.resources.fluentcore.utils.FileProvider.prepareFileLocation(java.io.File...)
+  fullName: com.azure.resourcemanager.resources.fluentcore.utils.FileProvider.prepareFileLocation(File[] files)
+  name: prepareFileLocation(File[] files)
+  nameWithType: FileProvider.prepareFileLocation(File[] files)
+  summary: Prepares the location for file to be created.
+  parameters:
+  - description: the files to be created.
+    name: files
+    type: <xref href="java.io.File?alt=java.io.File&text=File" data-throw-if-not-resolved="False" />[]
+  syntax: public void prepareFileLocation(File[] files)
+  exceptions:
+  - description: thrown when failed on IO.
+    type: <xref href="java.io.IOException?alt=java.io.IOException&text=IOException" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.resourcemanager.resources.fluentcore.utils
+artifact: com.azure.resourcemanager:azure-resourcemanager-resources:2.0.0-beta.2

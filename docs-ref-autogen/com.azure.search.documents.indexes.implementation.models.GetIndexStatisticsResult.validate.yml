@@ -1,0 +1,16 @@
+### YamlMime:JavaMember
+uid: com.azure.search.documents.indexes.implementation.models.GetIndexStatisticsResult.validate*
+fullName: com.azure.search.documents.indexes.implementation.models.GetIndexStatisticsResult.validate
+name: validate
+nameWithType: GetIndexStatisticsResult.validate
+members:
+- uid: com.azure.search.documents.indexes.implementation.models.GetIndexStatisticsResult.validate()
+  fullName: com.azure.search.documents.indexes.implementation.models.GetIndexStatisticsResult.validate()
+  name: validate()
+  nameWithType: GetIndexStatisticsResult.validate()
+  summary: Validates the instance.
+  syntax: public void validate()
+type: method
+metadata: {}
+package: com.azure.search.documents.indexes.implementation.models
+artifact: com.azure:azure-search-documents:11.0.0

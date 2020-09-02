@@ -1,0 +1,34 @@
+### YamlMime:JavaMember
+uid: com.azure.search.documents.indexes.SearchIndexerAsyncClient.getIndexerStatus*
+fullName: com.azure.search.documents.indexes.SearchIndexerAsyncClient.getIndexerStatus
+name: getIndexerStatus
+nameWithType: SearchIndexerAsyncClient.getIndexerStatus
+members:
+- uid: com.azure.search.documents.indexes.SearchIndexerAsyncClient.getIndexerStatus(java.lang.String)
+  fullName: com.azure.search.documents.indexes.SearchIndexerAsyncClient.getIndexerStatus(String indexerName)
+  name: getIndexerStatus(String indexerName)
+  nameWithType: SearchIndexerAsyncClient.getIndexerStatus(String indexerName)
+  summary: |-
+    Returns the current status and execution history of an indexer.
+
+     <p><strong>Code Sample</strong></p>
+
+     <p> Get status for search indexer "searchIndexer".  </p>
+
+     <pre>
+     searchIndexerAsyncClient.getIndexerStatus&#40;&quot;searchIndexer&quot;&#41;
+         .subscribe&#40;indexerStatus -&gt;
+             System.out.printf&#40;&quot;The indexer status is %s.%n&quot;, indexerStatus.getStatus&#40;&#41;&#41;&#41;;
+     </pre>
+  parameters:
+  - description: the name of the indexer for which to retrieve status
+    name: indexerName
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  syntax: public Mono<SearchIndexerStatus> getIndexerStatus(String indexerName)
+  returns:
+    description: the indexer execution info.
+    type: <xref href="reactor.core.publisher.Mono?alt=reactor.core.publisher.Mono&text=Mono" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.search.documents.indexes.models.SearchIndexerStatus?alt=com.azure.search.documents.indexes.models.SearchIndexerStatus&text=SearchIndexerStatus" data-throw-if-not-resolved="False" />&gt;
+type: method
+metadata: {}
+package: com.azure.search.documents.indexes
+artifact: com.azure:azure-search-documents:11.1.0-beta.1

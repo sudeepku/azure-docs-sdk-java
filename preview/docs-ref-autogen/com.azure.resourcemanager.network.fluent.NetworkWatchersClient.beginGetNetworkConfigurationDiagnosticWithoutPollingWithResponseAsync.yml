@@ -1,0 +1,51 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.network.fluent.NetworkWatchersClient.beginGetNetworkConfigurationDiagnosticWithoutPollingWithResponseAsync*
+fullName: com.azure.resourcemanager.network.fluent.NetworkWatchersClient.beginGetNetworkConfigurationDiagnosticWithoutPollingWithResponseAsync
+name: beginGetNetworkConfigurationDiagnosticWithoutPollingWithResponseAsync
+nameWithType: NetworkWatchersClient.beginGetNetworkConfigurationDiagnosticWithoutPollingWithResponseAsync
+members:
+- uid: com.azure.resourcemanager.network.fluent.NetworkWatchersClient.beginGetNetworkConfigurationDiagnosticWithoutPollingWithResponseAsync(java.lang.String,java.lang.String,com.azure.resourcemanager.network.models.NetworkConfigurationDiagnosticParameters)
+  fullName: com.azure.resourcemanager.network.fluent.NetworkWatchersClient.beginGetNetworkConfigurationDiagnosticWithoutPollingWithResponseAsync(String resourceGroupName, String networkWatcherName, NetworkConfigurationDiagnosticParameters parameters)
+  name: beginGetNetworkConfigurationDiagnosticWithoutPollingWithResponseAsync(String resourceGroupName, String networkWatcherName, NetworkConfigurationDiagnosticParameters parameters)
+  nameWithType: NetworkWatchersClient.beginGetNetworkConfigurationDiagnosticWithoutPollingWithResponseAsync(String resourceGroupName, String networkWatcherName, NetworkConfigurationDiagnosticParameters parameters)
+  summary: Get network configuration diagnostic.
+  parameters:
+  - description: The name of the resource group.
+    name: resourceGroupName
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  - description: The name of the network watcher.
+    name: networkWatcherName
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  - description: Parameters to get network configuration diagnostic.
+    name: parameters
+    type: <xref href="com.azure.resourcemanager.network.models.NetworkConfigurationDiagnosticParameters?alt=com.azure.resourcemanager.network.models.NetworkConfigurationDiagnosticParameters&text=NetworkConfigurationDiagnosticParameters" data-throw-if-not-resolved="False" />
+  syntax: public Mono<Response<NetworkConfigurationDiagnosticResponseInner>> beginGetNetworkConfigurationDiagnosticWithoutPollingWithResponseAsync(String resourceGroupName, String networkWatcherName, NetworkConfigurationDiagnosticParameters parameters)
+  returns:
+    description: network configuration diagnostic.
+    type: <xref href="reactor.core.publisher.Mono?alt=reactor.core.publisher.Mono&text=Mono" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.core.http.rest.Response?alt=com.azure.core.http.rest.Response&text=Response" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.resourcemanager.network.fluent.inner.NetworkConfigurationDiagnosticResponseInner?alt=com.azure.resourcemanager.network.fluent.inner.NetworkConfigurationDiagnosticResponseInner&text=NetworkConfigurationDiagnosticResponseInner" data-throw-if-not-resolved="False" />&gt;&gt;
+- uid: com.azure.resourcemanager.network.fluent.NetworkWatchersClient.beginGetNetworkConfigurationDiagnosticWithoutPollingWithResponseAsync(java.lang.String,java.lang.String,com.azure.resourcemanager.network.models.NetworkConfigurationDiagnosticParameters,com.azure.core.util.Context)
+  fullName: com.azure.resourcemanager.network.fluent.NetworkWatchersClient.beginGetNetworkConfigurationDiagnosticWithoutPollingWithResponseAsync(String resourceGroupName, String networkWatcherName, NetworkConfigurationDiagnosticParameters parameters, Context context)
+  name: beginGetNetworkConfigurationDiagnosticWithoutPollingWithResponseAsync(String resourceGroupName, String networkWatcherName, NetworkConfigurationDiagnosticParameters parameters, Context context)
+  nameWithType: NetworkWatchersClient.beginGetNetworkConfigurationDiagnosticWithoutPollingWithResponseAsync(String resourceGroupName, String networkWatcherName, NetworkConfigurationDiagnosticParameters parameters, Context context)
+  summary: Get network configuration diagnostic.
+  parameters:
+  - description: The name of the resource group.
+    name: resourceGroupName
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  - description: The name of the network watcher.
+    name: networkWatcherName
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  - description: Parameters to get network configuration diagnostic.
+    name: parameters
+    type: <xref href="com.azure.resourcemanager.network.models.NetworkConfigurationDiagnosticParameters?alt=com.azure.resourcemanager.network.models.NetworkConfigurationDiagnosticParameters&text=NetworkConfigurationDiagnosticParameters" data-throw-if-not-resolved="False" />
+  - description: The context to associate with this operation.
+    name: context
+    type: <xref href="com.azure.core.util.Context?alt=com.azure.core.util.Context&text=Context" data-throw-if-not-resolved="False" />
+  syntax: public Mono<Response<NetworkConfigurationDiagnosticResponseInner>> beginGetNetworkConfigurationDiagnosticWithoutPollingWithResponseAsync(String resourceGroupName, String networkWatcherName, NetworkConfigurationDiagnosticParameters parameters, Context context)
+  returns:
+    description: network configuration diagnostic.
+    type: <xref href="reactor.core.publisher.Mono?alt=reactor.core.publisher.Mono&text=Mono" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.core.http.rest.Response?alt=com.azure.core.http.rest.Response&text=Response" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.resourcemanager.network.fluent.inner.NetworkConfigurationDiagnosticResponseInner?alt=com.azure.resourcemanager.network.fluent.inner.NetworkConfigurationDiagnosticResponseInner&text=NetworkConfigurationDiagnosticResponseInner" data-throw-if-not-resolved="False" />&gt;&gt;
+type: method
+metadata: {}
+package: com.azure.resourcemanager.network.fluent
+artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.0.0-beta.2

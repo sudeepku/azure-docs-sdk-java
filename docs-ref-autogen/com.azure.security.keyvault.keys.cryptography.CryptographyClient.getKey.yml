@@ -1,0 +1,28 @@
+### YamlMime:JavaMember
+uid: com.azure.security.keyvault.keys.cryptography.CryptographyClient.getKey*
+fullName: com.azure.security.keyvault.keys.cryptography.CryptographyClient.getKey
+name: getKey
+nameWithType: CryptographyClient.getKey
+members:
+- uid: com.azure.security.keyvault.keys.cryptography.CryptographyClient.getKey()
+  fullName: com.azure.security.keyvault.keys.cryptography.CryptographyClient.getKey()
+  name: getKey()
+  nameWithType: CryptographyClient.getKey()
+  summary: |-
+    Gets the public part of the configured key. The get key operation is applicable to all key types and it requires
+     the <code>keys/get</code> permission.
+
+     <p><strong>Code Samples</strong></p>
+     <p>Gets the key configured in the client. Prints out the returned key details.</p>
+     <pre>
+     KeyVaultKey key = cryptographyClient.getKey&#40;&#41;;
+     System.out.printf&#40;&quot;Key is returned with name %s and id %s &#92;n&quot;, key.getName&#40;&#41;, key.getId&#40;&#41;&#41;;
+     </pre>
+  syntax: public KeyVaultKey getKey()
+  returns:
+    description: The requested <xref uid="com.azure.security.keyvault.keys.models.KeyVaultKey" data-throw-if-not-resolved="false">key</xref>.
+    type: <xref href="com.azure.security.keyvault.keys.models.KeyVaultKey?alt=com.azure.security.keyvault.keys.models.KeyVaultKey&text=KeyVaultKey" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.security.keyvault.keys.cryptography
+artifact: com.azure:azure-security-keyvault-keys:4.2.0

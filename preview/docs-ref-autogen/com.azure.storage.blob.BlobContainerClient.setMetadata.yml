@@ -1,0 +1,34 @@
+### YamlMime:JavaMember
+uid: com.azure.storage.blob.BlobContainerClient.setMetadata*
+fullName: com.azure.storage.blob.BlobContainerClient.setMetadata
+name: setMetadata
+nameWithType: BlobContainerClient.setMetadata
+members:
+- uid: com.azure.storage.blob.BlobContainerClient.setMetadata(java.util.Map<java.lang.String,java.lang.String>)
+  fullName: com.azure.storage.blob.BlobContainerClient.setMetadata(Map<String,String> metadata)
+  name: setMetadata(Map<String,String> metadata)
+  nameWithType: BlobContainerClient.setMetadata(Map<String,String> metadata)
+  summary: |-
+    Sets the container's metadata. For more information, see the
+     <a href="https://docs.microsoft.com/rest/api/storageservices/set-container-metadata">Azure Docs</a>.
+
+     <p><strong>Code Samples</strong></p>
+
+     <pre>
+     Map&lt;String, String&gt; metadata = Collections.singletonMap&#40;&quot;metadata&quot;, &quot;value&quot;&#41;;
+     try &#123;
+         client.setMetadata&#40;metadata&#41;;
+         System.out.printf&#40;&quot;Set metadata completed with status %n&quot;&#41;;
+     &#125; catch &#40;UnsupportedOperationException error&#41; &#123;
+         System.out.printf&#40;&quot;Fail while setting metadata %n&quot;&#41;;
+     &#125;
+     </pre>
+  parameters:
+  - description: Metadata to associate with the container.
+    name: metadata
+    type: <xref href="java.util.Map?alt=java.util.Map&text=Map" data-throw-if-not-resolved="False" />&lt;<xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />,<xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />&gt;
+  syntax: public void setMetadata(Map<String,String> metadata)
+type: method
+metadata: {}
+package: com.azure.storage.blob
+artifact: com.azure:azure-storage-blob:12.8.0-beta.1

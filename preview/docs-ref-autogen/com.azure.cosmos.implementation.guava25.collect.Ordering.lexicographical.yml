@@ -1,0 +1,29 @@
+### YamlMime:JavaMember
+uid: com.azure.cosmos.implementation.guava25.collect.Ordering.lexicographical*
+fullName: com.azure.cosmos.implementation.guava25.collect.Ordering<T>.<S>lexicographical
+name: <S>lexicographical
+nameWithType: Ordering<T>.<S>lexicographical
+members:
+- uid: com.azure.cosmos.implementation.guava25.collect.Ordering.<S>lexicographical()
+  fullName: com.azure.cosmos.implementation.guava25.collect.Ordering<T>.<S>lexicographical()
+  name: <S>lexicographical()
+  nameWithType: Ordering<T>.<S>lexicographical()
+  summary: |-
+    Returns a new ordering which sorts iterables by comparing corresponding elements pairwise until
+     a nonzero result is found; imposes "dictionary order". If the end of one iterable is reached,
+     but not the other, the shorter iterable is considered to be less than the longer one. For
+     example, a lexicographical natural ordering over integers considers <code>[] < [1] < [1, 1] <
+     [1, 2] < [2]</code>.
+
+     <p>Note that <code>ordering.lexicographical().reverse()</code> is not equivalent to <code>
+     ordering.reverse().lexicographical()</code> (consider how each would order <code>[1]</code> and <code>[1,
+     1]</code>).
+
+     <p><b>Java 8 users:</b> Use <xref uid="Comparators#lexicographical(Comparator)" data-throw-if-not-resolved="false">Comparators#lexicographical(Comparator)</xref> instead.
+  syntax: public Ordering<Iterable<S>> <S>lexicographical()
+  returns:
+    type: <xref href="com.azure.cosmos.implementation.guava25.collect.Ordering?alt=com.azure.cosmos.implementation.guava25.collect.Ordering&text=Ordering" data-throw-if-not-resolved="False" />&lt;<xref href="java.lang.Iterable?alt=java.lang.Iterable&text=Iterable" data-throw-if-not-resolved="False" />&lt;<xref href="S?alt=S&text=S" data-throw-if-not-resolved="False" />&gt;&gt;
+type: method
+metadata: {}
+package: com.azure.cosmos.implementation.guava25.collect
+artifact: com.azure:azure-cosmos:4.3.2-beta.2

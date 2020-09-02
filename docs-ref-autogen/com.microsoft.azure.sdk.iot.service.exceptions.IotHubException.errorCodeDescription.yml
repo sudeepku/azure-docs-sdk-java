@@ -1,0 +1,20 @@
+### YamlMime:JavaMember
+uid: com.microsoft.azure.sdk.iot.service.exceptions.IotHubException.errorCodeDescription
+fullName: com.microsoft.azure.sdk.iot.service.exceptions.IotHubException.errorCodeDescription
+name: errorCodeDescription
+nameWithType: IotHubException.errorCodeDescription
+members:
+- uid: com.microsoft.azure.sdk.iot.service.exceptions.IotHubException.errorCodeDescription
+  fullName: com.microsoft.azure.sdk.iot.service.exceptions.IotHubException.errorCodeDescription
+  name: errorCodeDescription
+  nameWithType: IotHubException.errorCodeDescription
+  summary: |-
+    <p>Provides the HTTP error code description, if applicable.</p>
+
+     <p>For AMQP operations such as sending cloud to device messages,
+     receiving message feedback, and getting file upload notifications, this field will not be populated.</p>
+  syntax: protected ErrorCodeDescription errorCodeDescription
+type: field
+metadata: {}
+package: com.microsoft.azure.sdk.iot.service.exceptions
+artifact: com.microsoft.azure.sdk.iot:iot-service-client:1.24.0

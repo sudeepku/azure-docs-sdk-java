@@ -1,0 +1,18 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.resources.fluentcore.arm.implementation.ManagerBase.withResourceManager*
+fullName: com.azure.resourcemanager.resources.fluentcore.arm.implementation.ManagerBase.withResourceManager
+name: withResourceManager
+nameWithType: ManagerBase.withResourceManager
+members:
+- uid: com.azure.resourcemanager.resources.fluentcore.arm.implementation.ManagerBase.withResourceManager(com.azure.resourcemanager.resources.ResourceManager)
+  fullName: com.azure.resourcemanager.resources.fluentcore.arm.implementation.ManagerBase.withResourceManager(ResourceManager resourceManager)
+  name: withResourceManager(ResourceManager resourceManager)
+  nameWithType: ManagerBase.withResourceManager(ResourceManager resourceManager)
+  parameters:
+  - name: resourceManager
+    type: <xref href="com.azure.resourcemanager.resources.ResourceManager?alt=com.azure.resourcemanager.resources.ResourceManager&text=ResourceManager" data-throw-if-not-resolved="False" />
+  syntax: protected final void withResourceManager(ResourceManager resourceManager)
+type: method
+metadata: {}
+package: com.azure.resourcemanager.resources.fluentcore.arm.implementation
+artifact: com.azure.resourcemanager:azure-resourcemanager-resources:2.0.0-beta.2

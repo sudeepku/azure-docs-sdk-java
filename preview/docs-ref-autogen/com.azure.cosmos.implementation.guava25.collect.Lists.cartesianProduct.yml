@@ -1,0 +1,124 @@
+### YamlMime:JavaMember
+uid: com.azure.cosmos.implementation.guava25.collect.Lists.cartesianProduct*
+fullName: com.azure.cosmos.implementation.guava25.collect.Lists.<B>cartesianProduct
+name: <B>cartesianProduct
+nameWithType: Lists.<B>cartesianProduct
+members:
+- uid: com.azure.cosmos.implementation.guava25.collect.Lists.<B>cartesianProduct(java.util.List<? extends B>...)
+  fullName: com.azure.cosmos.implementation.guava25.collect.Lists.<B>cartesianProduct(List<? extends B>[] lists)
+  name: <B>cartesianProduct(List<? extends B>[] lists)
+  nameWithType: Lists.<B>cartesianProduct(List<? extends B>[] lists)
+  summary: |-
+    Returns every possible list that can be formed by choosing one element from each of the given
+     lists in order; the "n-ary <a href="http://en.wikipedia.org/wiki/Cartesian_product">Cartesian
+     product</a>" of the lists. For example:
+
+     <pre><code>
+     Lists.cartesianProduct(ImmutableList.of(
+         ImmutableList.of(1, 2),
+         ImmutableList.of("A", "B", "C")))
+     </code></pre>
+
+     <p>returns a list containing six lists in the following order:
+
+     <ul>
+       <li><code>ImmutableList.of(1, "A")</code>
+       <li><code>ImmutableList.of(1, "B")</code>
+       <li><code>ImmutableList.of(1, "C")</code>
+       <li><code>ImmutableList.of(2, "A")</code>
+       <li><code>ImmutableList.of(2, "B")</code>
+       <li><code>ImmutableList.of(2, "C")</code>
+     </ul>
+
+     <p>The result is guaranteed to be in the "traditional", lexicographical order for Cartesian
+     products that you would get from nesting for loops:
+
+     <pre><code>
+     for (B b0 : lists.get(0)) {
+       for (B b1 : lists.get(1)) {
+         ...
+         ImmutableList<B> tuple = ImmutableList.of(b0, b1, ...);
+         // operate on tuple
+       }
+     }
+     </code></pre>
+
+     <p>Note that if any input list is empty, the Cartesian product will also be empty. If no lists
+     at all are provided (an empty list), the resulting Cartesian product has one element, an empty
+     list (counter-intuitive, but mathematically consistent).
+
+     <p><i>Performance notes:</i> while the cartesian product of lists of size <code>m, n, p</code> is a
+     list of size <code>m x n x p</code>, its actual memory consumption is much smaller. When the
+     cartesian product is constructed, the input lists are merely copied. Only as the resulting list
+     is iterated are the individual lists created, and these are not retained after iteration.
+  parameters:
+  - description: |-
+      the lists to choose elements from, in the order that the elements chosen from
+           those lists should appear in the resulting lists
+    name: lists
+    type: <xref href="java.util.List?alt=java.util.List&text=List" data-throw-if-not-resolved="False" />&lt;<xref href="? extends B?alt=? extends B&text=? extends B" data-throw-if-not-resolved="False" />&gt;[]
+  syntax: public static List<List<B>> <B>cartesianProduct(List<? extends B>[] lists)
+  returns:
+    description: the Cartesian product, as an immutable list containing immutable lists
+    type: <xref href="java.util.List?alt=java.util.List&text=List" data-throw-if-not-resolved="False" />&lt;<xref href="java.util.List?alt=java.util.List&text=List" data-throw-if-not-resolved="False" />&lt;<xref href="B?alt=B&text=B" data-throw-if-not-resolved="False" />&gt;&gt;
+- uid: com.azure.cosmos.implementation.guava25.collect.Lists.<B>cartesianProduct(java.util.List<? extends java.util.List<? extends B>>)
+  fullName: com.azure.cosmos.implementation.guava25.collect.Lists.<B>cartesianProduct(List<? extends List<? extends B>> lists)
+  name: <B>cartesianProduct(List<? extends List<? extends B>> lists)
+  nameWithType: Lists.<B>cartesianProduct(List<? extends List<? extends B>> lists)
+  summary: |-
+    Returns every possible list that can be formed by choosing one element from each of the given
+     lists in order; the "n-ary <a href="http://en.wikipedia.org/wiki/Cartesian_product">Cartesian
+     product</a>" of the lists. For example:
+
+     <pre><code>
+     Lists.cartesianProduct(ImmutableList.of(
+         ImmutableList.of(1, 2),
+         ImmutableList.of("A", "B", "C")))
+     </code></pre>
+
+     <p>returns a list containing six lists in the following order:
+
+     <ul>
+       <li><code>ImmutableList.of(1, "A")</code>
+       <li><code>ImmutableList.of(1, "B")</code>
+       <li><code>ImmutableList.of(1, "C")</code>
+       <li><code>ImmutableList.of(2, "A")</code>
+       <li><code>ImmutableList.of(2, "B")</code>
+       <li><code>ImmutableList.of(2, "C")</code>
+     </ul>
+
+     <p>The result is guaranteed to be in the "traditional", lexicographical order for Cartesian
+     products that you would get from nesting for loops:
+
+     <pre><code>
+     for (B b0 : lists.get(0)) {
+       for (B b1 : lists.get(1)) {
+         ...
+         ImmutableList<B> tuple = ImmutableList.of(b0, b1, ...);
+         // operate on tuple
+       }
+     }
+     </code></pre>
+
+     <p>Note that if any input list is empty, the Cartesian product will also be empty. If no lists
+     at all are provided (an empty list), the resulting Cartesian product has one element, an empty
+     list (counter-intuitive, but mathematically consistent).
+
+     <p><i>Performance notes:</i> while the cartesian product of lists of size <code>m, n, p</code> is a
+     list of size <code>m x n x p</code>, its actual memory consumption is much smaller. When the
+     cartesian product is constructed, the input lists are merely copied. Only as the resulting list
+     is iterated are the individual lists created, and these are not retained after iteration.
+  parameters:
+  - description: |-
+      the lists to choose elements from, in the order that the elements chosen from
+           those lists should appear in the resulting lists
+    name: lists
+    type: <xref href="java.util.List?alt=java.util.List&text=List" data-throw-if-not-resolved="False" />&lt;<xref href="? extends java.util.List?alt=? extends java.util.List&text=List" data-throw-if-not-resolved="False" />&lt;<xref href="? extends B?alt=? extends B&text=? extends B" data-throw-if-not-resolved="False" />&gt;&gt;
+  syntax: public static List<List<B>> <B>cartesianProduct(List<? extends List<? extends B>> lists)
+  returns:
+    description: the Cartesian product, as an immutable list containing immutable lists
+    type: <xref href="java.util.List?alt=java.util.List&text=List" data-throw-if-not-resolved="False" />&lt;<xref href="java.util.List?alt=java.util.List&text=List" data-throw-if-not-resolved="False" />&lt;<xref href="B?alt=B&text=B" data-throw-if-not-resolved="False" />&gt;&gt;
+type: method
+metadata: {}
+package: com.azure.cosmos.implementation.guava25.collect
+artifact: com.azure:azure-cosmos:4.3.2-beta.2

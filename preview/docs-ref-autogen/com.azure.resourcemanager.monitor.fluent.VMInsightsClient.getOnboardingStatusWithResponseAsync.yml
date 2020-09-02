@@ -1,0 +1,43 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.monitor.fluent.VMInsightsClient.getOnboardingStatusWithResponseAsync*
+fullName: com.azure.resourcemanager.monitor.fluent.VMInsightsClient.getOnboardingStatusWithResponseAsync
+name: getOnboardingStatusWithResponseAsync
+nameWithType: VMInsightsClient.getOnboardingStatusWithResponseAsync
+members:
+- uid: com.azure.resourcemanager.monitor.fluent.VMInsightsClient.getOnboardingStatusWithResponseAsync(java.lang.String)
+  fullName: com.azure.resourcemanager.monitor.fluent.VMInsightsClient.getOnboardingStatusWithResponseAsync(String resourceUri)
+  name: getOnboardingStatusWithResponseAsync(String resourceUri)
+  nameWithType: VMInsightsClient.getOnboardingStatusWithResponseAsync(String resourceUri)
+  summary: Retrieves the VM Insights onboarding status for the specified resource or resource scope.
+  parameters:
+  - description: |-
+      The fully qualified Azure Resource manager identifier of the resource, or scope, whose status
+           to retrieve.
+    name: resourceUri
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  syntax: public Mono<Response<VMInsightsOnboardingStatusInner>> getOnboardingStatusWithResponseAsync(String resourceUri)
+  returns:
+    description: vM Insights onboarding status for a resource.
+    type: <xref href="reactor.core.publisher.Mono?alt=reactor.core.publisher.Mono&text=Mono" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.core.http.rest.Response?alt=com.azure.core.http.rest.Response&text=Response" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.resourcemanager.monitor.fluent.inner.VMInsightsOnboardingStatusInner?alt=com.azure.resourcemanager.monitor.fluent.inner.VMInsightsOnboardingStatusInner&text=VMInsightsOnboardingStatusInner" data-throw-if-not-resolved="False" />&gt;&gt;
+- uid: com.azure.resourcemanager.monitor.fluent.VMInsightsClient.getOnboardingStatusWithResponseAsync(java.lang.String,com.azure.core.util.Context)
+  fullName: com.azure.resourcemanager.monitor.fluent.VMInsightsClient.getOnboardingStatusWithResponseAsync(String resourceUri, Context context)
+  name: getOnboardingStatusWithResponseAsync(String resourceUri, Context context)
+  nameWithType: VMInsightsClient.getOnboardingStatusWithResponseAsync(String resourceUri, Context context)
+  summary: Retrieves the VM Insights onboarding status for the specified resource or resource scope.
+  parameters:
+  - description: |-
+      The fully qualified Azure Resource manager identifier of the resource, or scope, whose status
+           to retrieve.
+    name: resourceUri
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  - description: The context to associate with this operation.
+    name: context
+    type: <xref href="com.azure.core.util.Context?alt=com.azure.core.util.Context&text=Context" data-throw-if-not-resolved="False" />
+  syntax: public Mono<Response<VMInsightsOnboardingStatusInner>> getOnboardingStatusWithResponseAsync(String resourceUri, Context context)
+  returns:
+    description: vM Insights onboarding status for a resource.
+    type: <xref href="reactor.core.publisher.Mono?alt=reactor.core.publisher.Mono&text=Mono" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.core.http.rest.Response?alt=com.azure.core.http.rest.Response&text=Response" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.resourcemanager.monitor.fluent.inner.VMInsightsOnboardingStatusInner?alt=com.azure.resourcemanager.monitor.fluent.inner.VMInsightsOnboardingStatusInner&text=VMInsightsOnboardingStatusInner" data-throw-if-not-resolved="False" />&gt;&gt;
+type: method
+metadata: {}
+package: com.azure.resourcemanager.monitor.fluent
+artifact: com.azure.resourcemanager:azure-resourcemanager-monitor:2.0.0-beta.2

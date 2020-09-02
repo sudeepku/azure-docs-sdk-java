@@ -1,0 +1,20 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.storage.fluent.FileSharesClient.FileSharesClient*
+fullName: com.azure.resourcemanager.storage.fluent.FileSharesClient.FileSharesClient
+name: FileSharesClient
+nameWithType: FileSharesClient.FileSharesClient
+members:
+- uid: com.azure.resourcemanager.storage.fluent.FileSharesClient.FileSharesClient(com.azure.resourcemanager.storage.StorageManagementClient)
+  fullName: com.azure.resourcemanager.storage.fluent.FileSharesClient.FileSharesClient(StorageManagementClient client)
+  name: FileSharesClient(StorageManagementClient client)
+  nameWithType: FileSharesClient.FileSharesClient(StorageManagementClient client)
+  summary: Initializes an instance of FileSharesClient.
+  parameters:
+  - description: the instance of the service client containing this operation class.
+    name: client
+    type: <xref href="com.azure.resourcemanager.storage.StorageManagementClient?alt=com.azure.resourcemanager.storage.StorageManagementClient&text=StorageManagementClient" data-throw-if-not-resolved="False" />
+  syntax: public FileSharesClient(StorageManagementClient client)
+type: constructor
+metadata: {}
+package: com.azure.resourcemanager.storage.fluent
+artifact: com.azure.resourcemanager:azure-resourcemanager-storage:2.0.0-beta.2

@@ -1,0 +1,16 @@
+### YamlMime:JavaMember
+uid: com.azure.identity.KnownAuthorityHosts.AZURE_CLOUD
+fullName: com.azure.identity.KnownAuthorityHosts.AZURE_CLOUD
+name: AZURE_CLOUD
+nameWithType: KnownAuthorityHosts.AZURE_CLOUD
+members:
+- uid: com.azure.identity.KnownAuthorityHosts.AZURE_CLOUD
+  fullName: com.azure.identity.KnownAuthorityHosts.AZURE_CLOUD
+  name: AZURE_CLOUD
+  nameWithType: KnownAuthorityHosts.AZURE_CLOUD
+  summary: The host of the Azure Active Directory authority for tenants in the Azure Public Cloud.
+  syntax: public static final String AZURE_CLOUD
+type: field
+metadata: {}
+package: com.azure.identity
+artifact: com.azure:azure-identity:1.1.0-beta.4

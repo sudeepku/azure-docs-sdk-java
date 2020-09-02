@@ -1,0 +1,20 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.containerservice.fluent.OperationsClient.OperationsClient*
+fullName: com.azure.resourcemanager.containerservice.fluent.OperationsClient.OperationsClient
+name: OperationsClient
+nameWithType: OperationsClient.OperationsClient
+members:
+- uid: com.azure.resourcemanager.containerservice.fluent.OperationsClient.OperationsClient(com.azure.resourcemanager.containerservice.ContainerServiceManagementClient)
+  fullName: com.azure.resourcemanager.containerservice.fluent.OperationsClient.OperationsClient(ContainerServiceManagementClient client)
+  name: OperationsClient(ContainerServiceManagementClient client)
+  nameWithType: OperationsClient.OperationsClient(ContainerServiceManagementClient client)
+  summary: Initializes an instance of OperationsClient.
+  parameters:
+  - description: the instance of the service client containing this operation class.
+    name: client
+    type: <xref href="com.azure.resourcemanager.containerservice.ContainerServiceManagementClient?alt=com.azure.resourcemanager.containerservice.ContainerServiceManagementClient&text=ContainerServiceManagementClient" data-throw-if-not-resolved="False" />
+  syntax: public OperationsClient(ContainerServiceManagementClient client)
+type: constructor
+metadata: {}
+package: com.azure.resourcemanager.containerservice.fluent
+artifact: com.azure.resourcemanager:azure-resourcemanager-containerservice:2.0.0-beta.2

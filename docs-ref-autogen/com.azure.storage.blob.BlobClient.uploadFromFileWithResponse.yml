@@ -1,0 +1,29 @@
+### YamlMime:JavaMember
+uid: com.azure.storage.blob.BlobClient.uploadFromFileWithResponse*
+fullName: com.azure.storage.blob.BlobClient.uploadFromFileWithResponse
+name: uploadFromFileWithResponse
+nameWithType: BlobClient.uploadFromFileWithResponse
+members:
+- uid: com.azure.storage.blob.BlobClient.uploadFromFileWithResponse(com.azure.storage.blob.options.BlobUploadFromFileOptions,java.time.Duration,com.azure.core.util.Context)
+  fullName: com.azure.storage.blob.BlobClient.uploadFromFileWithResponse(BlobUploadFromFileOptions options, Duration timeout, Context context)
+  name: uploadFromFileWithResponse(BlobUploadFromFileOptions options, Duration timeout, Context context)
+  nameWithType: BlobClient.uploadFromFileWithResponse(BlobUploadFromFileOptions options, Duration timeout, Context context)
+  summary: "Creates a new block blob, or updates the content of an existing block blob.\n <p>\n To avoid overwriting, pass \"*\" to <xref uid=\"BlobRequestConditions#setIfNoneMatch(String)\" data-throw-if-not-resolved=\"false\">BlobRequestConditions#setIfNoneMatch(String)</xref>.\n\n <p><strong>Code Samples</strong></p>\n\n <pre>\n BlobHttpHeaders headers = new BlobHttpHeaders&#40;&#41;\n     .setContentMd5&#40;&quot;data&quot;.getBytes&#40;StandardCharsets.UTF_8&#41;&#41;\n     .setContentLanguage&#40;&quot;en-US&quot;&#41;\n     .setContentType&#40;&quot;binary&quot;&#41;;\n \n Map&lt;String, String&gt; metadata = Collections.singletonMap&#40;&quot;metadata&quot;, &quot;value&quot;&#41;;\n Map&lt;String, String&gt; tags = Collections.singletonMap&#40;&quot;tag&quot;, &quot;value&quot;&#41;;\n BlobRequestConditions requestConditions = new BlobRequestConditions&#40;&#41;\n     .setLeaseId&#40;leaseId&#41;\n     .setIfUnmodifiedSince&#40;OffsetDateTime.now&#40;&#41;.minusDays&#40;3&#41;&#41;;\n Long blockSize = 100 * 1024 * 1024L; &#47;&#47; 100 MB;\n ParallelTransferOptions parallelTransferOptions = new ParallelTransferOptions&#40;&#41;.setBlockSizeLong&#40;blockSize&#41;;\n \n try &#123;\n     client.uploadFromFileWithResponse&#40;new BlobUploadFromFileOptions&#40;filePath&#41;\n         .setParallelTransferOptions&#40;parallelTransferOptions&#41;.setHeaders&#40;headers&#41;.setMetadata&#40;metadata&#41;\n         .setTags&#40;tags&#41;.setTier&#40;AccessTier.HOT&#41;.setRequestConditions&#40;requestConditions&#41;, timeout,\n         new Context&#40;key2, value2&#41;&#41;;\n     System.out.println&#40;&quot;Upload from file succeeded&quot;&#41;;\n &#125; catch &#40;UncheckedIOException ex&#41; &#123;\n     System.err.printf&#40;&quot;Failed to upload from file %s%n&quot;, ex.getMessage&#40;&#41;&#41;;\n &#125;\n </pre>"
+  parameters:
+  - description: <xref uid="com.azure.storage.blob.options.BlobUploadFromFileOptions" data-throw-if-not-resolved="false">BlobUploadFromFileOptions</xref>
+    name: options
+    type: <xref href="com.azure.storage.blob.options.BlobUploadFromFileOptions?alt=com.azure.storage.blob.options.BlobUploadFromFileOptions&text=BlobUploadFromFileOptions" data-throw-if-not-resolved="False" />
+  - description: An optional timeout value beyond which a <xref uid="" data-throw-if-not-resolved="false">RuntimeException</xref> will be raised.
+    name: timeout
+    type: <xref href="java.time.Duration?alt=java.time.Duration&text=Duration" data-throw-if-not-resolved="False" />
+  - description: Additional context that is passed through the Http pipeline during the service call.
+    name: context
+    type: <xref href="com.azure.core.util.Context?alt=com.azure.core.util.Context&text=Context" data-throw-if-not-resolved="False" />
+  syntax: public Response<BlockBlobItem> uploadFromFileWithResponse(BlobUploadFromFileOptions options, Duration timeout, Context context)
+  returns:
+    description: Information about the uploaded block blob.
+    type: <xref href="com.azure.core.http.rest.Response?alt=com.azure.core.http.rest.Response&text=Response" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.storage.blob.models.BlockBlobItem?alt=com.azure.storage.blob.models.BlockBlobItem&text=BlockBlobItem" data-throw-if-not-resolved="False" />&gt;
+type: method
+metadata: {}
+package: com.azure.storage.blob
+artifact: com.azure:azure-storage-blob:12.8.0

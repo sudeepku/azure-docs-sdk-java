@@ -1,0 +1,55 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.sql.fluent.ManagedInstanceEncryptionProtectorsClient.beginCreateOrUpdateWithoutPolling*
+fullName: com.azure.resourcemanager.sql.fluent.ManagedInstanceEncryptionProtectorsClient.beginCreateOrUpdateWithoutPolling
+name: beginCreateOrUpdateWithoutPolling
+nameWithType: ManagedInstanceEncryptionProtectorsClient.beginCreateOrUpdateWithoutPolling
+members:
+- uid: com.azure.resourcemanager.sql.fluent.ManagedInstanceEncryptionProtectorsClient.beginCreateOrUpdateWithoutPolling(java.lang.String,java.lang.String,com.azure.resourcemanager.sql.fluent.inner.ManagedInstanceEncryptionProtectorInner)
+  fullName: com.azure.resourcemanager.sql.fluent.ManagedInstanceEncryptionProtectorsClient.beginCreateOrUpdateWithoutPolling(String resourceGroupName, String managedInstanceName, ManagedInstanceEncryptionProtectorInner parameters)
+  name: beginCreateOrUpdateWithoutPolling(String resourceGroupName, String managedInstanceName, ManagedInstanceEncryptionProtectorInner parameters)
+  nameWithType: ManagedInstanceEncryptionProtectorsClient.beginCreateOrUpdateWithoutPolling(String resourceGroupName, String managedInstanceName, ManagedInstanceEncryptionProtectorInner parameters)
+  summary: Updates an existing encryption protector.
+  parameters:
+  - description: |-
+      The name of the resource group that contains the resource. You can obtain this value
+           from the Azure Resource Manager API or the portal.
+    name: resourceGroupName
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  - description: The name of the managed instance.
+    name: managedInstanceName
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  - description: The managed instance encryption protector.
+    name: parameters
+    type: <xref href="com.azure.resourcemanager.sql.fluent.inner.ManagedInstanceEncryptionProtectorInner?alt=com.azure.resourcemanager.sql.fluent.inner.ManagedInstanceEncryptionProtectorInner&text=ManagedInstanceEncryptionProtectorInner" data-throw-if-not-resolved="False" />
+  syntax: public ManagedInstanceEncryptionProtectorInner beginCreateOrUpdateWithoutPolling(String resourceGroupName, String managedInstanceName, ManagedInstanceEncryptionProtectorInner parameters)
+  returns:
+    description: the managed instance encryption protector.
+    type: <xref href="com.azure.resourcemanager.sql.fluent.inner.ManagedInstanceEncryptionProtectorInner?alt=com.azure.resourcemanager.sql.fluent.inner.ManagedInstanceEncryptionProtectorInner&text=ManagedInstanceEncryptionProtectorInner" data-throw-if-not-resolved="False" />
+- uid: com.azure.resourcemanager.sql.fluent.ManagedInstanceEncryptionProtectorsClient.beginCreateOrUpdateWithoutPolling(java.lang.String,java.lang.String,com.azure.resourcemanager.sql.fluent.inner.ManagedInstanceEncryptionProtectorInner,com.azure.core.util.Context)
+  fullName: com.azure.resourcemanager.sql.fluent.ManagedInstanceEncryptionProtectorsClient.beginCreateOrUpdateWithoutPolling(String resourceGroupName, String managedInstanceName, ManagedInstanceEncryptionProtectorInner parameters, Context context)
+  name: beginCreateOrUpdateWithoutPolling(String resourceGroupName, String managedInstanceName, ManagedInstanceEncryptionProtectorInner parameters, Context context)
+  nameWithType: ManagedInstanceEncryptionProtectorsClient.beginCreateOrUpdateWithoutPolling(String resourceGroupName, String managedInstanceName, ManagedInstanceEncryptionProtectorInner parameters, Context context)
+  summary: Updates an existing encryption protector.
+  parameters:
+  - description: |-
+      The name of the resource group that contains the resource. You can obtain this value
+           from the Azure Resource Manager API or the portal.
+    name: resourceGroupName
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  - description: The name of the managed instance.
+    name: managedInstanceName
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  - description: The managed instance encryption protector.
+    name: parameters
+    type: <xref href="com.azure.resourcemanager.sql.fluent.inner.ManagedInstanceEncryptionProtectorInner?alt=com.azure.resourcemanager.sql.fluent.inner.ManagedInstanceEncryptionProtectorInner&text=ManagedInstanceEncryptionProtectorInner" data-throw-if-not-resolved="False" />
+  - description: The context to associate with this operation.
+    name: context
+    type: <xref href="com.azure.core.util.Context?alt=com.azure.core.util.Context&text=Context" data-throw-if-not-resolved="False" />
+  syntax: public ManagedInstanceEncryptionProtectorInner beginCreateOrUpdateWithoutPolling(String resourceGroupName, String managedInstanceName, ManagedInstanceEncryptionProtectorInner parameters, Context context)
+  returns:
+    description: the managed instance encryption protector.
+    type: <xref href="com.azure.resourcemanager.sql.fluent.inner.ManagedInstanceEncryptionProtectorInner?alt=com.azure.resourcemanager.sql.fluent.inner.ManagedInstanceEncryptionProtectorInner&text=ManagedInstanceEncryptionProtectorInner" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.resourcemanager.sql.fluent
+artifact: com.azure.resourcemanager:azure-resourcemanager-sql:2.0.0-beta.2

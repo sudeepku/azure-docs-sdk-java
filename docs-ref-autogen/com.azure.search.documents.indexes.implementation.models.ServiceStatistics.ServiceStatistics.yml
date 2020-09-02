@@ -1,0 +1,21 @@
+### YamlMime:JavaMember
+uid: com.azure.search.documents.indexes.implementation.models.ServiceStatistics.ServiceStatistics*
+fullName: com.azure.search.documents.indexes.implementation.models.ServiceStatistics.ServiceStatistics
+name: ServiceStatistics
+nameWithType: ServiceStatistics.ServiceStatistics
+members:
+- uid: com.azure.search.documents.indexes.implementation.models.ServiceStatistics.ServiceStatistics(com.azure.search.documents.indexes.implementation.models.ServiceCounters,com.azure.search.documents.indexes.implementation.models.ServiceLimits)
+  fullName: com.azure.search.documents.indexes.implementation.models.ServiceStatistics.ServiceStatistics(ServiceCounters counters, ServiceLimits limits)
+  name: ServiceStatistics(ServiceCounters counters, ServiceLimits limits)
+  nameWithType: ServiceStatistics.ServiceStatistics(ServiceCounters counters, ServiceLimits limits)
+  summary: Creates an instance of ServiceStatistics class.
+  parameters:
+  - name: counters
+    type: <xref href="com.azure.search.documents.indexes.implementation.models.ServiceCounters?alt=com.azure.search.documents.indexes.implementation.models.ServiceCounters&text=ServiceCounters" data-throw-if-not-resolved="False" />
+  - name: limits
+    type: <xref href="com.azure.search.documents.indexes.implementation.models.ServiceLimits?alt=com.azure.search.documents.indexes.implementation.models.ServiceLimits&text=ServiceLimits" data-throw-if-not-resolved="False" />
+  syntax: public ServiceStatistics(ServiceCounters counters, ServiceLimits limits)
+type: constructor
+metadata: {}
+package: com.azure.search.documents.indexes.implementation.models
+artifact: com.azure:azure-search-documents:11.0.0

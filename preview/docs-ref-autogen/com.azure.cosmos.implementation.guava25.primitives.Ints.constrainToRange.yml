@@ -1,0 +1,33 @@
+### YamlMime:JavaMember
+uid: com.azure.cosmos.implementation.guava25.primitives.Ints.constrainToRange*
+fullName: com.azure.cosmos.implementation.guava25.primitives.Ints.constrainToRange
+name: constrainToRange
+nameWithType: Ints.constrainToRange
+members:
+- uid: com.azure.cosmos.implementation.guava25.primitives.Ints.constrainToRange(int,int,int)
+  fullName: com.azure.cosmos.implementation.guava25.primitives.Ints.constrainToRange(int value, int min, int max)
+  name: constrainToRange(int value, int min, int max)
+  nameWithType: Ints.constrainToRange(int value, int min, int max)
+  summary: |-
+    Returns the value nearest to <code>value</code> which is within the closed range <code>[min..max]</code>.
+
+     <p>If <code>value</code> is within the range <code>[min..max]</code>, <code>value</code> is returned
+     unchanged. If <code>value</code> is less than <code>min</code>, <code>min</code> is returned, and if <code>
+     value</code> is greater than <code>max</code>, <code>max</code> is returned.
+  parameters:
+  - description: the <code>int</code> value to constrain
+    name: value
+    type: <xref href="int?alt=int&text=int" data-throw-if-not-resolved="False" />
+  - description: the lower bound (inclusive) of the range to constrain <code>value</code> to
+    name: min
+    type: <xref href="int?alt=int&text=int" data-throw-if-not-resolved="False" />
+  - description: the upper bound (inclusive) of the range to constrain <code>value</code> to
+    name: max
+    type: <xref href="int?alt=int&text=int" data-throw-if-not-resolved="False" />
+  syntax: public static int constrainToRange(int value, int min, int max)
+  returns:
+    type: <xref href="int?alt=int&text=int" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.cosmos.implementation.guava25.primitives
+artifact: com.azure:azure-cosmos:4.3.2-beta.2

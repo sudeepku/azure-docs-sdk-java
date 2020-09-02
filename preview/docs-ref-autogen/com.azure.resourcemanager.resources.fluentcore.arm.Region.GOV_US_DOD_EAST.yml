@@ -1,0 +1,16 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.resources.fluentcore.arm.Region.GOV_US_DOD_EAST
+fullName: com.azure.resourcemanager.resources.fluentcore.arm.Region.GOV_US_DOD_EAST
+name: GOV_US_DOD_EAST
+nameWithType: Region.GOV_US_DOD_EAST
+members:
+- uid: com.azure.resourcemanager.resources.fluentcore.arm.Region.GOV_US_DOD_EAST
+  fullName: com.azure.resourcemanager.resources.fluentcore.arm.Region.GOV_US_DOD_EAST
+  name: GOV_US_DOD_EAST
+  nameWithType: Region.GOV_US_DOD_EAST
+  summary: U.S. Department of Defense cloud - East.
+  syntax: public static final Region GOV_US_DOD_EAST
+type: field
+metadata: {}
+package: com.azure.resourcemanager.resources.fluentcore.arm
+artifact: com.azure.resourcemanager:azure-resourcemanager-resources:2.0.0-beta.2

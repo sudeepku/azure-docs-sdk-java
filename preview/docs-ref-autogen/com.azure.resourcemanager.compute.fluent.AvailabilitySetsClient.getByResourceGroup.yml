@@ -1,0 +1,45 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.compute.fluent.AvailabilitySetsClient.getByResourceGroup*
+fullName: com.azure.resourcemanager.compute.fluent.AvailabilitySetsClient.getByResourceGroup
+name: getByResourceGroup
+nameWithType: AvailabilitySetsClient.getByResourceGroup
+members:
+- uid: com.azure.resourcemanager.compute.fluent.AvailabilitySetsClient.getByResourceGroup(java.lang.String,java.lang.String)
+  fullName: com.azure.resourcemanager.compute.fluent.AvailabilitySetsClient.getByResourceGroup(String resourceGroupName, String availabilitySetName)
+  name: getByResourceGroup(String resourceGroupName, String availabilitySetName)
+  nameWithType: AvailabilitySetsClient.getByResourceGroup(String resourceGroupName, String availabilitySetName)
+  summary: Retrieves information about an availability set.
+  parameters:
+  - description: The name of the resource group.
+    name: resourceGroupName
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  - description: The name of the availability set.
+    name: availabilitySetName
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  syntax: public AvailabilitySetInner getByResourceGroup(String resourceGroupName, String availabilitySetName)
+  returns:
+    description: specifies information about the availability set that the virtual machine should be assigned to.
+    type: <xref href="com.azure.resourcemanager.compute.fluent.inner.AvailabilitySetInner?alt=com.azure.resourcemanager.compute.fluent.inner.AvailabilitySetInner&text=AvailabilitySetInner" data-throw-if-not-resolved="False" />
+- uid: com.azure.resourcemanager.compute.fluent.AvailabilitySetsClient.getByResourceGroup(java.lang.String,java.lang.String,com.azure.core.util.Context)
+  fullName: com.azure.resourcemanager.compute.fluent.AvailabilitySetsClient.getByResourceGroup(String resourceGroupName, String availabilitySetName, Context context)
+  name: getByResourceGroup(String resourceGroupName, String availabilitySetName, Context context)
+  nameWithType: AvailabilitySetsClient.getByResourceGroup(String resourceGroupName, String availabilitySetName, Context context)
+  summary: Retrieves information about an availability set.
+  parameters:
+  - description: The name of the resource group.
+    name: resourceGroupName
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  - description: The name of the availability set.
+    name: availabilitySetName
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  - description: The context to associate with this operation.
+    name: context
+    type: <xref href="com.azure.core.util.Context?alt=com.azure.core.util.Context&text=Context" data-throw-if-not-resolved="False" />
+  syntax: public AvailabilitySetInner getByResourceGroup(String resourceGroupName, String availabilitySetName, Context context)
+  returns:
+    description: specifies information about the availability set that the virtual machine should be assigned to.
+    type: <xref href="com.azure.resourcemanager.compute.fluent.inner.AvailabilitySetInner?alt=com.azure.resourcemanager.compute.fluent.inner.AvailabilitySetInner&text=AvailabilitySetInner" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.resourcemanager.compute.fluent
+artifact: com.azure.resourcemanager:azure-resourcemanager-compute:2.0.0-beta.2

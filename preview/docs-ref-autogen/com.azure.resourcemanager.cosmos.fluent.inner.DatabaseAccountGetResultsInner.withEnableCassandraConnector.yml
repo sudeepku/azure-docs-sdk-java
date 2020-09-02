@@ -1,0 +1,23 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.cosmos.fluent.inner.DatabaseAccountGetResultsInner.withEnableCassandraConnector*
+fullName: com.azure.resourcemanager.cosmos.fluent.inner.DatabaseAccountGetResultsInner.withEnableCassandraConnector
+name: withEnableCassandraConnector
+nameWithType: DatabaseAccountGetResultsInner.withEnableCassandraConnector
+members:
+- uid: com.azure.resourcemanager.cosmos.fluent.inner.DatabaseAccountGetResultsInner.withEnableCassandraConnector(java.lang.Boolean)
+  fullName: com.azure.resourcemanager.cosmos.fluent.inner.DatabaseAccountGetResultsInner.withEnableCassandraConnector(Boolean enableCassandraConnector)
+  name: withEnableCassandraConnector(Boolean enableCassandraConnector)
+  nameWithType: DatabaseAccountGetResultsInner.withEnableCassandraConnector(Boolean enableCassandraConnector)
+  summary: 'Set the enableCassandraConnector property: Enables the cassandra connector on the Cosmos DB C* account.'
+  parameters:
+  - description: the enableCassandraConnector value to set.
+    name: enableCassandraConnector
+    type: <xref href="java.lang.Boolean?alt=java.lang.Boolean&text=Boolean" data-throw-if-not-resolved="False" />
+  syntax: public DatabaseAccountGetResultsInner withEnableCassandraConnector(Boolean enableCassandraConnector)
+  returns:
+    description: the DatabaseAccountGetResultsInner object itself.
+    type: <xref href="com.azure.resourcemanager.cosmos.fluent.inner.DatabaseAccountGetResultsInner?alt=com.azure.resourcemanager.cosmos.fluent.inner.DatabaseAccountGetResultsInner&text=DatabaseAccountGetResultsInner" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.resourcemanager.cosmos.fluent.inner
+artifact: com.azure.resourcemanager:azure-resourcemanager-cosmos:2.0.0-beta.2

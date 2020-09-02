@@ -1,0 +1,23 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.network.models.FirewallPolicyFilterRule.withAction*
+fullName: com.azure.resourcemanager.network.models.FirewallPolicyFilterRule.withAction
+name: withAction
+nameWithType: FirewallPolicyFilterRule.withAction
+members:
+- uid: com.azure.resourcemanager.network.models.FirewallPolicyFilterRule.withAction(com.azure.resourcemanager.network.models.FirewallPolicyFilterRuleAction)
+  fullName: com.azure.resourcemanager.network.models.FirewallPolicyFilterRule.withAction(FirewallPolicyFilterRuleAction action)
+  name: withAction(FirewallPolicyFilterRuleAction action)
+  nameWithType: FirewallPolicyFilterRule.withAction(FirewallPolicyFilterRuleAction action)
+  summary: 'Set the action property: The action type of a Filter rule.'
+  parameters:
+  - description: the action value to set.
+    name: action
+    type: <xref href="com.azure.resourcemanager.network.models.FirewallPolicyFilterRuleAction?alt=com.azure.resourcemanager.network.models.FirewallPolicyFilterRuleAction&text=FirewallPolicyFilterRuleAction" data-throw-if-not-resolved="False" />
+  syntax: public FirewallPolicyFilterRule withAction(FirewallPolicyFilterRuleAction action)
+  returns:
+    description: the FirewallPolicyFilterRule object itself.
+    type: <xref href="com.azure.resourcemanager.network.models.FirewallPolicyFilterRule?alt=com.azure.resourcemanager.network.models.FirewallPolicyFilterRule&text=FirewallPolicyFilterRule" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.resourcemanager.network.models
+artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.0.0-beta.2

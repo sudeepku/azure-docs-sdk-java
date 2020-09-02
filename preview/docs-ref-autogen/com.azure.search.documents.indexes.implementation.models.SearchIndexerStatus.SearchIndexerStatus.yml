@@ -1,0 +1,23 @@
+### YamlMime:JavaMember
+uid: com.azure.search.documents.indexes.implementation.models.SearchIndexerStatus.SearchIndexerStatus*
+fullName: com.azure.search.documents.indexes.implementation.models.SearchIndexerStatus.SearchIndexerStatus
+name: SearchIndexerStatus
+nameWithType: SearchIndexerStatus.SearchIndexerStatus
+members:
+- uid: com.azure.search.documents.indexes.implementation.models.SearchIndexerStatus.SearchIndexerStatus(com.azure.search.documents.indexes.implementation.models.IndexerStatus,java.util.List<com.azure.search.documents.indexes.implementation.models.IndexerExecutionResult>,com.azure.search.documents.indexes.implementation.models.SearchIndexerLimits)
+  fullName: com.azure.search.documents.indexes.implementation.models.SearchIndexerStatus.SearchIndexerStatus(IndexerStatus status, List<IndexerExecutionResult> executionHistory, SearchIndexerLimits limits)
+  name: SearchIndexerStatus(IndexerStatus status, List<IndexerExecutionResult> executionHistory, SearchIndexerLimits limits)
+  nameWithType: SearchIndexerStatus.SearchIndexerStatus(IndexerStatus status, List<IndexerExecutionResult> executionHistory, SearchIndexerLimits limits)
+  summary: Creates an instance of SearchIndexerStatus class.
+  parameters:
+  - name: status
+    type: <xref href="com.azure.search.documents.indexes.implementation.models.IndexerStatus?alt=com.azure.search.documents.indexes.implementation.models.IndexerStatus&text=IndexerStatus" data-throw-if-not-resolved="False" />
+  - name: executionHistory
+    type: <xref href="java.util.List?alt=java.util.List&text=List" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.search.documents.indexes.implementation.models.IndexerExecutionResult?alt=com.azure.search.documents.indexes.implementation.models.IndexerExecutionResult&text=IndexerExecutionResult" data-throw-if-not-resolved="False" />&gt;
+  - name: limits
+    type: <xref href="com.azure.search.documents.indexes.implementation.models.SearchIndexerLimits?alt=com.azure.search.documents.indexes.implementation.models.SearchIndexerLimits&text=SearchIndexerLimits" data-throw-if-not-resolved="False" />
+  syntax: public SearchIndexerStatus(IndexerStatus status, List<IndexerExecutionResult> executionHistory, SearchIndexerLimits limits)
+type: constructor
+metadata: {}
+package: com.azure.search.documents.indexes.implementation.models
+artifact: com.azure:azure-search-documents:11.1.0-beta.1

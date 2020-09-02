@@ -1,0 +1,67 @@
+### YamlMime:JavaMember
+uid: com.azure.ai.textanalytics.TextAnalyticsClient.recognizeEntities*
+fullName: com.azure.ai.textanalytics.TextAnalyticsClient.recognizeEntities
+name: recognizeEntities
+nameWithType: TextAnalyticsClient.recognizeEntities
+members:
+- uid: com.azure.ai.textanalytics.TextAnalyticsClient.recognizeEntities(java.lang.String)
+  fullName: com.azure.ai.textanalytics.TextAnalyticsClient.recognizeEntities(String document)
+  name: recognizeEntities(String document)
+  nameWithType: TextAnalyticsClient.recognizeEntities(String document)
+  summary: |-
+    Returns a list of general categorized entities in the provided document.
+
+     For a list of supported entity types, check: <a href="https://aka.ms/taner">this</a>
+
+     This method will use the default language that sets up in
+     <xref uid="TextAnalyticsClientBuilder#defaultLanguage(String)" data-throw-if-not-resolved="false">TextAnalyticsClientBuilder#defaultLanguage(String)</xref>. If none is specified, service will use 'en' as
+     the language.
+
+     <p><strong>Code Sample</strong></p>
+     <p>Recognize the entities of documents</p>
+     <pre>
+     final TextAnalyticsPagedIterable&lt;CategorizedEntity&gt; recognizeEntitiesResult =
+         textAnalyticsClient.recognizeEntities&#40;&quot;Satya Nadella is the CEO of Microsoft&quot;&#41;;
+     for &#40;CategorizedEntity entity : recognizeEntitiesResult&#41; &#123;
+         System.out.printf&#40;&quot;Recognized entity: %s, entity category: %s, score: %f.%n&quot;,
+             entity.getText&#40;&#41;, entity.getCategory&#40;&#41;, entity.getConfidenceScore&#40;&#41;&#41;;
+     &#125;
+     </pre>
+  parameters:
+  - description: |-
+      the document to recognize entities for.
+       For text length limits, maximum batch size, and supported text encoding, see
+       <a href="https://docs.microsoft.com/azure/cognitive-services/text-analytics/overview#data-limits">data limits</a>.
+    name: document
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  syntax: public TextAnalyticsPagedIterable<CategorizedEntity> recognizeEntities(String document)
+  returns:
+    description: |-
+      A <xref uid="com.azure.ai.textanalytics.util.TextAnalyticsPagedIterable" data-throw-if-not-resolved="false">TextAnalyticsPagedIterable</xref> contains a list of
+       <xref uid="com.azure.ai.textanalytics.models.CategorizedEntity" data-throw-if-not-resolved="false">recognized categorized entities</xref>.
+    type: <xref href="com.azure.ai.textanalytics.util.TextAnalyticsPagedIterable?alt=com.azure.ai.textanalytics.util.TextAnalyticsPagedIterable&text=TextAnalyticsPagedIterable" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.ai.textanalytics.models.CategorizedEntity?alt=com.azure.ai.textanalytics.models.CategorizedEntity&text=CategorizedEntity" data-throw-if-not-resolved="False" />&gt;
+- uid: com.azure.ai.textanalytics.TextAnalyticsClient.recognizeEntities(java.lang.String,java.lang.String)
+  fullName: com.azure.ai.textanalytics.TextAnalyticsClient.recognizeEntities(String document, String language)
+  name: recognizeEntities(String document, String language)
+  nameWithType: TextAnalyticsClient.recognizeEntities(String document, String language)
+  summary: "Returns a list of general categorized entities in the provided document with provided language code.\n\n For a list of supported entity types, check: <a href=\"https://aka.ms/taner\">this</a>\n For a list of enabled languages, check: <a href=\"https://aka.ms/talangs\">this</a>\n\n <p><strong>Code Sample</strong></p>\n <p>Recognizes the entities in a document with a provided language code.</p>\n <pre>\n final TextAnalyticsPagedIterable&lt;CategorizedEntity&gt; recognizeEntitiesResult =\n     textAnalyticsClient.recognizeEntities&#40;&quot;Satya Nadella is the CEO of Microsoft&quot;, &quot;en&quot;&#41;;\n \n for &#40;CategorizedEntity entity : recognizeEntitiesResult&#41; &#123;\n     System.out.printf&#40;&quot;Recognized entity: %s, entity category: %s, score: %f.%n&quot;,\n         entity.getText&#40;&#41;, entity.getCategory&#40;&#41;, entity.getConfidenceScore&#40;&#41;&#41;;\n &#125;\n </pre>"
+  parameters:
+  - description: |-
+      The document to recognize entities for.
+       For text length limits, maximum batch size, and supported text encoding, see
+       <a href="https://docs.microsoft.com/azure/cognitive-services/text-analytics/overview#data-limits">data limits</a>.
+    name: document
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  - description: The 2 letter ISO 639-1 representation of language. If not set, uses "en" for English as default.
+    name: language
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  syntax: public TextAnalyticsPagedIterable<CategorizedEntity> recognizeEntities(String document, String language)
+  returns:
+    description: |-
+      The <xref uid="com.azure.ai.textanalytics.util.TextAnalyticsPagedIterable" data-throw-if-not-resolved="false">TextAnalyticsPagedIterable</xref> contains a list of
+       <xref uid="com.azure.ai.textanalytics.models.CategorizedEntity" data-throw-if-not-resolved="false">recognized categorized entities</xref>.
+    type: <xref href="com.azure.ai.textanalytics.util.TextAnalyticsPagedIterable?alt=com.azure.ai.textanalytics.util.TextAnalyticsPagedIterable&text=TextAnalyticsPagedIterable" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.ai.textanalytics.models.CategorizedEntity?alt=com.azure.ai.textanalytics.models.CategorizedEntity&text=CategorizedEntity" data-throw-if-not-resolved="False" />&gt;
+type: method
+metadata: {}
+package: com.azure.ai.textanalytics
+artifact: com.azure:azure-ai-textanalytics:1.0.0-beta.4

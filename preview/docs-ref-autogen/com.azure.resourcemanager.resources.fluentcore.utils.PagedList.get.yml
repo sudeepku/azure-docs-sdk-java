@@ -1,0 +1,20 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.resources.fluentcore.utils.PagedList.get*
+fullName: com.azure.resourcemanager.resources.fluentcore.utils.PagedList<E>.get
+name: get
+nameWithType: PagedList<E>.get
+members:
+- uid: com.azure.resourcemanager.resources.fluentcore.utils.PagedList.get(int)
+  fullName: com.azure.resourcemanager.resources.fluentcore.utils.PagedList<E>.get(int index)
+  name: get(int index)
+  nameWithType: PagedList<E>.get(int index)
+  parameters:
+  - name: index
+    type: <xref href="int?alt=int&text=int" data-throw-if-not-resolved="False" />
+  syntax: public E get(int index)
+  returns:
+    type: <xref href="E?alt=E&text=E" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.resourcemanager.resources.fluentcore.utils
+artifact: com.azure.resourcemanager:azure-resourcemanager-resources:2.0.0-beta.2

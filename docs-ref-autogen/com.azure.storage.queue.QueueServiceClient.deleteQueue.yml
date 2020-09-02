@@ -1,0 +1,30 @@
+### YamlMime:JavaMember
+uid: com.azure.storage.queue.QueueServiceClient.deleteQueue*
+fullName: com.azure.storage.queue.QueueServiceClient.deleteQueue
+name: deleteQueue
+nameWithType: QueueServiceClient.deleteQueue
+members:
+- uid: com.azure.storage.queue.QueueServiceClient.deleteQueue(java.lang.String)
+  fullName: com.azure.storage.queue.QueueServiceClient.deleteQueue(String queueName)
+  name: deleteQueue(String queueName)
+  nameWithType: QueueServiceClient.deleteQueue(String queueName)
+  summary: |-
+    Deletes a queue in the storage account
+
+     <p><strong>Code Samples</strong></p>
+
+     <p>Delete the queue "test"</p>
+
+     <pre>
+     client.deleteQueue&#40;&quot;myqueue&quot;&#41;;
+     System.out.println&#40;&quot;Complete deleting the queue.&quot;&#41;;
+     </pre>
+  parameters:
+  - description: Name of the queue
+    name: queueName
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  syntax: public void deleteQueue(String queueName)
+type: method
+metadata: {}
+package: com.azure.storage.queue
+artifact: com.azure:azure-storage-queue:12.6.0

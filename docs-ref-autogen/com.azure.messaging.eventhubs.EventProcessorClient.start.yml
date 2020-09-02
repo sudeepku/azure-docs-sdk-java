@@ -1,0 +1,29 @@
+### YamlMime:JavaMember
+uid: com.azure.messaging.eventhubs.EventProcessorClient.start*
+fullName: com.azure.messaging.eventhubs.EventProcessorClient.start
+name: start
+nameWithType: EventProcessorClient.start
+members:
+- uid: com.azure.messaging.eventhubs.EventProcessorClient.start()
+  fullName: com.azure.messaging.eventhubs.EventProcessorClient.start()
+  name: start()
+  nameWithType: EventProcessorClient.start()
+  summary: |-
+    Starts processing of events for all partitions of the Event Hub that this event processor can own, assigning a
+     dedicated <xref uid="PartitionProcessor" data-throw-if-not-resolved="false">PartitionProcessor</xref> to each partition. If there are other Event Processors active for the same
+     consumer group on the Event Hub, responsibility for partitions will be shared between them.
+     <p>
+     Subsequent calls to start will be ignored if this event processor is already running. Calling start after <xref uid="#stop()" data-throw-if-not-resolved="false">#stop()</xref> is called will restart this event processor.
+     </p>
+
+     <p><strong>Starting the processor to consume events from all partitions</strong></p>
+     <pre>
+     eventProcessorClient.start&#40;&#41;;
+     &#47;&#47; Continue to perform other tasks while the processor is running in the background.
+     eventProcessorClient.stop&#40;&#41;;
+     </pre>
+  syntax: public synchronized void start()
+type: method
+metadata: {}
+package: com.azure.messaging.eventhubs
+artifact: com.azure:azure-messaging-eventhubs:5.1.1

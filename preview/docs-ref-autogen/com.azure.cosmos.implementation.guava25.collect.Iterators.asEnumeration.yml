@@ -1,0 +1,25 @@
+### YamlMime:JavaMember
+uid: com.azure.cosmos.implementation.guava25.collect.Iterators.asEnumeration*
+fullName: com.azure.cosmos.implementation.guava25.collect.Iterators.<T>asEnumeration
+name: <T>asEnumeration
+nameWithType: Iterators.<T>asEnumeration
+members:
+- uid: com.azure.cosmos.implementation.guava25.collect.Iterators.<T>asEnumeration(java.util.Iterator<T>)
+  fullName: com.azure.cosmos.implementation.guava25.collect.Iterators.<T>asEnumeration(Iterator<T> iterator)
+  name: <T>asEnumeration(Iterator<T> iterator)
+  nameWithType: Iterators.<T>asEnumeration(Iterator<T> iterator)
+  summary: |-
+    Adapts an <code>Iterator</code> to the <code>Enumeration</code> interface.
+
+     <p>The <code>Iterable</code> equivalent of this method is either <xref uid="Collections#enumeration" data-throw-if-not-resolved="false">Collections#enumeration</xref> (if
+     you have a <xref uid="Collection" data-throw-if-not-resolved="false">Collection</xref>), or <code>Iterators.asEnumeration(collection.iterator())</code>.
+  parameters:
+  - name: iterator
+    type: <xref href="java.util.Iterator?alt=java.util.Iterator&text=Iterator" data-throw-if-not-resolved="False" />&lt;<xref href="T?alt=T&text=T" data-throw-if-not-resolved="False" />&gt;
+  syntax: public static Enumeration<T> <T>asEnumeration(Iterator<T> iterator)
+  returns:
+    type: <xref href="java.util.Enumeration?alt=java.util.Enumeration&text=Enumeration" data-throw-if-not-resolved="False" />&lt;<xref href="T?alt=T&text=T" data-throw-if-not-resolved="False" />&gt;
+type: method
+metadata: {}
+package: com.azure.cosmos.implementation.guava25.collect
+artifact: com.azure:azure-cosmos:4.3.2-beta.2

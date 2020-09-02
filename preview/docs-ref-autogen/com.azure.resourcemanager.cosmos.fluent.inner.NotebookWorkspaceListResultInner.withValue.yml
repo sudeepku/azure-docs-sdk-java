@@ -1,0 +1,23 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.cosmos.fluent.inner.NotebookWorkspaceListResultInner.withValue*
+fullName: com.azure.resourcemanager.cosmos.fluent.inner.NotebookWorkspaceListResultInner.withValue
+name: withValue
+nameWithType: NotebookWorkspaceListResultInner.withValue
+members:
+- uid: com.azure.resourcemanager.cosmos.fluent.inner.NotebookWorkspaceListResultInner.withValue(java.util.List<com.azure.resourcemanager.cosmos.fluent.inner.NotebookWorkspaceInner>)
+  fullName: com.azure.resourcemanager.cosmos.fluent.inner.NotebookWorkspaceListResultInner.withValue(List<NotebookWorkspaceInner> value)
+  name: withValue(List<NotebookWorkspaceInner> value)
+  nameWithType: NotebookWorkspaceListResultInner.withValue(List<NotebookWorkspaceInner> value)
+  summary: 'Set the value property: Array of notebook workspace resources.'
+  parameters:
+  - description: the value value to set.
+    name: value
+    type: <xref href="java.util.List?alt=java.util.List&text=List" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.resourcemanager.cosmos.fluent.inner.NotebookWorkspaceInner?alt=com.azure.resourcemanager.cosmos.fluent.inner.NotebookWorkspaceInner&text=NotebookWorkspaceInner" data-throw-if-not-resolved="False" />&gt;
+  syntax: public NotebookWorkspaceListResultInner withValue(List<NotebookWorkspaceInner> value)
+  returns:
+    description: the NotebookWorkspaceListResultInner object itself.
+    type: <xref href="com.azure.resourcemanager.cosmos.fluent.inner.NotebookWorkspaceListResultInner?alt=com.azure.resourcemanager.cosmos.fluent.inner.NotebookWorkspaceListResultInner&text=NotebookWorkspaceListResultInner" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.resourcemanager.cosmos.fluent.inner
+artifact: com.azure.resourcemanager:azure-resourcemanager-cosmos:2.0.0-beta.2

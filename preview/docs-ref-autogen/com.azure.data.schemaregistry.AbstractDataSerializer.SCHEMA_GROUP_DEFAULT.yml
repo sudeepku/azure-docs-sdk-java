@@ -1,0 +1,15 @@
+### YamlMime:JavaMember
+uid: com.azure.data.schemaregistry.AbstractDataSerializer.SCHEMA_GROUP_DEFAULT
+fullName: com.azure.data.schemaregistry.AbstractDataSerializer.SCHEMA_GROUP_DEFAULT
+name: SCHEMA_GROUP_DEFAULT
+nameWithType: AbstractDataSerializer.SCHEMA_GROUP_DEFAULT
+members:
+- uid: com.azure.data.schemaregistry.AbstractDataSerializer.SCHEMA_GROUP_DEFAULT
+  fullName: com.azure.data.schemaregistry.AbstractDataSerializer.SCHEMA_GROUP_DEFAULT
+  name: SCHEMA_GROUP_DEFAULT
+  nameWithType: AbstractDataSerializer.SCHEMA_GROUP_DEFAULT
+  syntax: public static final String SCHEMA_GROUP_DEFAULT
+type: field
+metadata: {}
+package: com.azure.data.schemaregistry
+artifact: com.azure:azure-data-schemaregistry:1.0.0-beta.1

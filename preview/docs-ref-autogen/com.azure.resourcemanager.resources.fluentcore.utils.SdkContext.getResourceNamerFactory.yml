@@ -1,0 +1,19 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.resources.fluentcore.utils.SdkContext.getResourceNamerFactory*
+fullName: com.azure.resourcemanager.resources.fluentcore.utils.SdkContext.getResourceNamerFactory
+name: getResourceNamerFactory
+nameWithType: SdkContext.getResourceNamerFactory
+members:
+- uid: com.azure.resourcemanager.resources.fluentcore.utils.SdkContext.getResourceNamerFactory()
+  fullName: com.azure.resourcemanager.resources.fluentcore.utils.SdkContext.getResourceNamerFactory()
+  name: getResourceNamerFactory()
+  nameWithType: SdkContext.getResourceNamerFactory()
+  summary: Gets the current factory for ResourceNamer.
+  syntax: public ResourceNamerFactory getResourceNamerFactory()
+  returns:
+    description: resourceNamer factory.
+    type: <xref href="com.azure.resourcemanager.resources.fluentcore.utils.ResourceNamerFactory?alt=com.azure.resourcemanager.resources.fluentcore.utils.ResourceNamerFactory&text=ResourceNamerFactory" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.resourcemanager.resources.fluentcore.utils
+artifact: com.azure.resourcemanager:azure-resourcemanager-resources:2.0.0-beta.2

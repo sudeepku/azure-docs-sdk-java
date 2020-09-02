@@ -1,0 +1,19 @@
+### YamlMime:JavaMember
+uid: com.azure.ai.textanalytics.models.ExtractKeyPhraseResult.getKeyPhrases*
+fullName: com.azure.ai.textanalytics.models.ExtractKeyPhraseResult.getKeyPhrases
+name: getKeyPhrases
+nameWithType: ExtractKeyPhraseResult.getKeyPhrases
+members:
+- uid: com.azure.ai.textanalytics.models.ExtractKeyPhraseResult.getKeyPhrases()
+  fullName: com.azure.ai.textanalytics.models.ExtractKeyPhraseResult.getKeyPhrases()
+  name: getKeyPhrases()
+  nameWithType: ExtractKeyPhraseResult.getKeyPhrases()
+  summary: Get a list of key phrase string.
+  syntax: public IterableStream<String> getKeyPhrases()
+  returns:
+    description: A list of key phrase string.
+    type: <xref href="com.azure.core.util.IterableStream?alt=com.azure.core.util.IterableStream&text=IterableStream" data-throw-if-not-resolved="False" />&lt;<xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />&gt;
+type: method
+metadata: {}
+package: com.azure.ai.textanalytics.models
+artifact: com.azure:azure-ai-textanalytics:1.0.0-beta.4

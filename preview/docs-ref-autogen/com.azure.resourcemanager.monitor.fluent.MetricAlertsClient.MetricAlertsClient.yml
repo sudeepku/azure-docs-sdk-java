@@ -1,0 +1,20 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.monitor.fluent.MetricAlertsClient.MetricAlertsClient*
+fullName: com.azure.resourcemanager.monitor.fluent.MetricAlertsClient.MetricAlertsClient
+name: MetricAlertsClient
+nameWithType: MetricAlertsClient.MetricAlertsClient
+members:
+- uid: com.azure.resourcemanager.monitor.fluent.MetricAlertsClient.MetricAlertsClient(com.azure.resourcemanager.monitor.MonitorClient)
+  fullName: com.azure.resourcemanager.monitor.fluent.MetricAlertsClient.MetricAlertsClient(MonitorClient client)
+  name: MetricAlertsClient(MonitorClient client)
+  nameWithType: MetricAlertsClient.MetricAlertsClient(MonitorClient client)
+  summary: Initializes an instance of MetricAlertsClient.
+  parameters:
+  - description: the instance of the service client containing this operation class.
+    name: client
+    type: <xref href="com.azure.resourcemanager.monitor.MonitorClient?alt=com.azure.resourcemanager.monitor.MonitorClient&text=MonitorClient" data-throw-if-not-resolved="False" />
+  syntax: public MetricAlertsClient(MonitorClient client)
+type: constructor
+metadata: {}
+package: com.azure.resourcemanager.monitor.fluent
+artifact: com.azure.resourcemanager:azure-resourcemanager-monitor:2.0.0-beta.2

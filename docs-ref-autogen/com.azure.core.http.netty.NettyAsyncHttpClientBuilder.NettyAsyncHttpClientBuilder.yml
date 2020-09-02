@@ -1,0 +1,37 @@
+### YamlMime:JavaMember
+uid: com.azure.core.http.netty.NettyAsyncHttpClientBuilder.NettyAsyncHttpClientBuilder*
+fullName: com.azure.core.http.netty.NettyAsyncHttpClientBuilder.NettyAsyncHttpClientBuilder
+name: NettyAsyncHttpClientBuilder
+nameWithType: NettyAsyncHttpClientBuilder.NettyAsyncHttpClientBuilder
+members:
+- uid: com.azure.core.http.netty.NettyAsyncHttpClientBuilder.NettyAsyncHttpClientBuilder()
+  fullName: com.azure.core.http.netty.NettyAsyncHttpClientBuilder.NettyAsyncHttpClientBuilder()
+  name: NettyAsyncHttpClientBuilder()
+  nameWithType: NettyAsyncHttpClientBuilder.NettyAsyncHttpClientBuilder()
+  summary: Creates a new builder instance, where a builder is capable of generating multiple instances of <xref uid="NettyAsyncHttpClient" data-throw-if-not-resolved="false">NettyAsyncHttpClient</xref>.
+  syntax: public NettyAsyncHttpClientBuilder()
+- uid: com.azure.core.http.netty.NettyAsyncHttpClientBuilder.NettyAsyncHttpClientBuilder(reactor.netty.http.client.HttpClient)
+  fullName: com.azure.core.http.netty.NettyAsyncHttpClientBuilder.NettyAsyncHttpClientBuilder(HttpClient nettyHttpClient)
+  name: NettyAsyncHttpClientBuilder(HttpClient nettyHttpClient)
+  nameWithType: NettyAsyncHttpClientBuilder.NettyAsyncHttpClientBuilder(HttpClient nettyHttpClient)
+  summary: |-
+    Creates a new builder instance, where a builder is capable of generating multiple instances of <xref uid="NettyAsyncHttpClient" data-throw-if-not-resolved="false">NettyAsyncHttpClient</xref> based on the provided reactor netty HttpClient.
+
+     <pre>
+     &#47;&#47; Creates a reactor-netty client with netty logging enabled.
+     reactor.netty.http.client.HttpClient baseHttpClient = reactor.netty.http.client.HttpClient.create&#40;&#41;
+         .tcpConfiguration&#40;tcp -&gt; tcp.bootstrap&#40;b -&gt; b.handler&#40;new LoggingHandler&#40;LogLevel.INFO&#41;&#41;&#41;&#41;;
+     &#47;&#47; Create an HttpClient based on above reactor-netty client and configure EventLoop count.
+     HttpClient client = new NettyAsyncHttpClientBuilder&#40;baseHttpClient&#41;
+         .eventLoopGroup&#40;new NioEventLoopGroup&#40;5&#41;&#41;
+         .build&#40;&#41;;
+     </pre>
+  parameters:
+  - description: base reactor netty HttpClient
+    name: nettyHttpClient
+    type: <xref href="reactor.netty.http.client.HttpClient?alt=reactor.netty.http.client.HttpClient&text=HttpClient" data-throw-if-not-resolved="False" />
+  syntax: public NettyAsyncHttpClientBuilder(HttpClient nettyHttpClient)
+type: constructor
+metadata: {}
+package: com.azure.core.http.netty
+artifact: com.azure:azure-core-http-netty:1.5.4

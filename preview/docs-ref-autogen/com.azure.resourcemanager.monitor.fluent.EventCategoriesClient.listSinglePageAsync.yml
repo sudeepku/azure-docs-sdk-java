@@ -1,0 +1,36 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.monitor.fluent.EventCategoriesClient.listSinglePageAsync*
+fullName: com.azure.resourcemanager.monitor.fluent.EventCategoriesClient.listSinglePageAsync
+name: listSinglePageAsync
+nameWithType: EventCategoriesClient.listSinglePageAsync
+members:
+- uid: com.azure.resourcemanager.monitor.fluent.EventCategoriesClient.listSinglePageAsync()
+  fullName: com.azure.resourcemanager.monitor.fluent.EventCategoriesClient.listSinglePageAsync()
+  name: listSinglePageAsync()
+  nameWithType: EventCategoriesClient.listSinglePageAsync()
+  summary: |-
+    Get the list of available event categories supported in the Activity Logs Service.&lt;br&gt;The current list
+     includes the following: Administrative, Security, ServiceHealth, Alert, Recommendation, Policy.
+  syntax: public Mono<PagedResponse<LocalizableStringInner>> listSinglePageAsync()
+  returns:
+    description: the list of available event categories supported in the Activity Logs Service.
+    type: <xref href="reactor.core.publisher.Mono?alt=reactor.core.publisher.Mono&text=Mono" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.core.http.rest.PagedResponse?alt=com.azure.core.http.rest.PagedResponse&text=PagedResponse" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.resourcemanager.monitor.fluent.inner.LocalizableStringInner?alt=com.azure.resourcemanager.monitor.fluent.inner.LocalizableStringInner&text=LocalizableStringInner" data-throw-if-not-resolved="False" />&gt;&gt;
+- uid: com.azure.resourcemanager.monitor.fluent.EventCategoriesClient.listSinglePageAsync(com.azure.core.util.Context)
+  fullName: com.azure.resourcemanager.monitor.fluent.EventCategoriesClient.listSinglePageAsync(Context context)
+  name: listSinglePageAsync(Context context)
+  nameWithType: EventCategoriesClient.listSinglePageAsync(Context context)
+  summary: |-
+    Get the list of available event categories supported in the Activity Logs Service.&lt;br&gt;The current list
+     includes the following: Administrative, Security, ServiceHealth, Alert, Recommendation, Policy.
+  parameters:
+  - description: The context to associate with this operation.
+    name: context
+    type: <xref href="com.azure.core.util.Context?alt=com.azure.core.util.Context&text=Context" data-throw-if-not-resolved="False" />
+  syntax: public Mono<PagedResponse<LocalizableStringInner>> listSinglePageAsync(Context context)
+  returns:
+    description: the list of available event categories supported in the Activity Logs Service.
+    type: <xref href="reactor.core.publisher.Mono?alt=reactor.core.publisher.Mono&text=Mono" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.core.http.rest.PagedResponse?alt=com.azure.core.http.rest.PagedResponse&text=PagedResponse" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.resourcemanager.monitor.fluent.inner.LocalizableStringInner?alt=com.azure.resourcemanager.monitor.fluent.inner.LocalizableStringInner&text=LocalizableStringInner" data-throw-if-not-resolved="False" />&gt;&gt;
+type: method
+metadata: {}
+package: com.azure.resourcemanager.monitor.fluent
+artifact: com.azure.resourcemanager:azure-resourcemanager-monitor:2.0.0-beta.2

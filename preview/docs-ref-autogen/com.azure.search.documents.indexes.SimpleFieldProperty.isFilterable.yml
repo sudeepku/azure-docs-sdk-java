@@ -1,0 +1,19 @@
+### YamlMime:JavaMember
+uid: com.azure.search.documents.indexes.SimpleFieldProperty.isFilterable*
+fullName: com.azure.search.documents.indexes.SimpleFieldProperty.isFilterable
+name: isFilterable
+nameWithType: SimpleFieldProperty.isFilterable
+members:
+- uid: com.azure.search.documents.indexes.SimpleFieldProperty.isFilterable()
+  fullName: com.azure.search.documents.indexes.SimpleFieldProperty.isFilterable()
+  name: isFilterable()
+  nameWithType: SimpleFieldProperty.isFilterable()
+  summary: Optional arguments defines whether the field is filterable or not.
+  syntax: public abstract boolean isFilterable()
+  returns:
+    description: True if it is filterable, and false by default for non-filterable field.
+    type: <xref href="boolean?alt=boolean&text=boolean" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.search.documents.indexes
+artifact: com.azure:azure-search-documents:11.1.0-beta.1

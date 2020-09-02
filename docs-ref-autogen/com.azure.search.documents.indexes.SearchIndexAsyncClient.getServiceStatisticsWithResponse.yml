@@ -1,0 +1,33 @@
+### YamlMime:JavaMember
+uid: com.azure.search.documents.indexes.SearchIndexAsyncClient.getServiceStatisticsWithResponse*
+fullName: com.azure.search.documents.indexes.SearchIndexAsyncClient.getServiceStatisticsWithResponse
+name: getServiceStatisticsWithResponse
+nameWithType: SearchIndexAsyncClient.getServiceStatisticsWithResponse
+members:
+- uid: com.azure.search.documents.indexes.SearchIndexAsyncClient.getServiceStatisticsWithResponse()
+  fullName: com.azure.search.documents.indexes.SearchIndexAsyncClient.getServiceStatisticsWithResponse()
+  name: getServiceStatisticsWithResponse()
+  nameWithType: SearchIndexAsyncClient.getServiceStatisticsWithResponse()
+  summary: |-
+    Returns service level statistics for a search service, including service counters and limits.
+
+     <p><strong>Code Sample</strong></p>
+
+     <p> Get service statistics. </p>
+
+     <pre>
+     searchIndexAsyncClient.getServiceStatisticsWithResponse&#40;&#41;
+         .subscribe&#40;serviceStatistics -&gt;
+             System.out.printf&#40;&quot;The status code of the response is %s.%n&quot;
+                     + &quot;There are %s search indexes in your service.%n&quot;,
+             serviceStatistics.getStatusCode&#40;&#41;,
+             serviceStatistics.getValue&#40;&#41;.getCounters&#40;&#41;.getIndexCounter&#40;&#41;&#41;&#41;;
+     </pre>
+  syntax: public Mono<Response<SearchServiceStatistics>> getServiceStatisticsWithResponse()
+  returns:
+    description: the search service statistics result.
+    type: <xref href="reactor.core.publisher.Mono?alt=reactor.core.publisher.Mono&text=Mono" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.core.http.rest.Response?alt=com.azure.core.http.rest.Response&text=Response" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.search.documents.indexes.models.SearchServiceStatistics?alt=com.azure.search.documents.indexes.models.SearchServiceStatistics&text=SearchServiceStatistics" data-throw-if-not-resolved="False" />&gt;&gt;
+type: method
+metadata: {}
+package: com.azure.search.documents.indexes
+artifact: com.azure:azure-search-documents:11.0.0

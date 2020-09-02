@@ -1,0 +1,15 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.monitor.fluent.inner.AutoscaleSettingResourceInner.AutoscaleSettingResourceInner*
+fullName: com.azure.resourcemanager.monitor.fluent.inner.AutoscaleSettingResourceInner.AutoscaleSettingResourceInner
+name: AutoscaleSettingResourceInner
+nameWithType: AutoscaleSettingResourceInner.AutoscaleSettingResourceInner
+members:
+- uid: com.azure.resourcemanager.monitor.fluent.inner.AutoscaleSettingResourceInner.AutoscaleSettingResourceInner()
+  fullName: com.azure.resourcemanager.monitor.fluent.inner.AutoscaleSettingResourceInner.AutoscaleSettingResourceInner()
+  name: AutoscaleSettingResourceInner()
+  nameWithType: AutoscaleSettingResourceInner.AutoscaleSettingResourceInner()
+  syntax: public AutoscaleSettingResourceInner()
+type: constructor
+metadata: {}
+package: com.azure.resourcemanager.monitor.fluent.inner
+artifact: com.azure.resourcemanager:azure-resourcemanager-monitor:2.0.0-beta.2

@@ -1,0 +1,36 @@
+### YamlMime:JavaMember
+uid: com.azure.cosmos.implementation.guava25.collect.AbstractIterator.computeNext*
+fullName: com.azure.cosmos.implementation.guava25.collect.AbstractIterator<T>.computeNext
+name: computeNext
+nameWithType: AbstractIterator<T>.computeNext
+members:
+- uid: com.azure.cosmos.implementation.guava25.collect.AbstractIterator.computeNext()
+  fullName: com.azure.cosmos.implementation.guava25.collect.AbstractIterator<T>.computeNext()
+  name: computeNext()
+  nameWithType: AbstractIterator<T>.computeNext()
+  summary: |-
+    Returns the next element. <b>Note:</b> the implementation must call <xref uid="#endOfData()" data-throw-if-not-resolved="false">#endOfData()</xref> when
+     there are no elements left in the iteration. Failure to do so could result in an infinite loop.
+
+     <p>The initial invocation of <xref uid="#hasNext()" data-throw-if-not-resolved="false">#hasNext()</xref> or <xref uid="#next()" data-throw-if-not-resolved="false">#next()</xref> calls this method, as does
+     the first invocation of <code>hasNext</code> or <code>next</code> following each successful call to
+     <code>next</code>. Once the implementation either invokes <code>endOfData</code> or throws an exception,
+     <code>computeNext</code> is guaranteed to never be called again.
+
+     <p>If this method throws an exception, it will propagate outward to the <code>hasNext</code> or
+     <code>next</code> invocation that invoked this method. Any further attempts to use the iterator will
+     result in an <xref uid="IllegalStateException" data-throw-if-not-resolved="false">IllegalStateException</xref>.
+
+     <p>The implementation of this method may not invoke the <code>hasNext</code>, <code>next</code>, or
+     <xref uid="#peek()" data-throw-if-not-resolved="false">#peek()</xref> methods on this instance; if it does, an <code>IllegalStateException</code> will
+     result.
+  syntax: protected abstract T computeNext()
+  returns:
+    description: |-
+      the next element if there was one. If <code>endOfData</code> was called during execution,
+           the return value will be ignored.
+    type: <xref href="T?alt=T&text=T" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.cosmos.implementation.guava25.collect
+artifact: com.azure:azure-cosmos:4.3.2-beta.2

@@ -1,0 +1,15 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.keyvault.fluent.inner.DeletedVaultListResultInner.DeletedVaultListResultInner*
+fullName: com.azure.resourcemanager.keyvault.fluent.inner.DeletedVaultListResultInner.DeletedVaultListResultInner
+name: DeletedVaultListResultInner
+nameWithType: DeletedVaultListResultInner.DeletedVaultListResultInner
+members:
+- uid: com.azure.resourcemanager.keyvault.fluent.inner.DeletedVaultListResultInner.DeletedVaultListResultInner()
+  fullName: com.azure.resourcemanager.keyvault.fluent.inner.DeletedVaultListResultInner.DeletedVaultListResultInner()
+  name: DeletedVaultListResultInner()
+  nameWithType: DeletedVaultListResultInner.DeletedVaultListResultInner()
+  syntax: public DeletedVaultListResultInner()
+type: constructor
+metadata: {}
+package: com.azure.resourcemanager.keyvault.fluent.inner
+artifact: com.azure.resourcemanager:azure-resourcemanager-keyvault:2.0.0-beta.2

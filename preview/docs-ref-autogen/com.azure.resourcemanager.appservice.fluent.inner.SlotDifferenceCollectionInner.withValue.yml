@@ -1,0 +1,23 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.appservice.fluent.inner.SlotDifferenceCollectionInner.withValue*
+fullName: com.azure.resourcemanager.appservice.fluent.inner.SlotDifferenceCollectionInner.withValue
+name: withValue
+nameWithType: SlotDifferenceCollectionInner.withValue
+members:
+- uid: com.azure.resourcemanager.appservice.fluent.inner.SlotDifferenceCollectionInner.withValue(java.util.List<com.azure.resourcemanager.appservice.fluent.inner.SlotDifferenceInner>)
+  fullName: com.azure.resourcemanager.appservice.fluent.inner.SlotDifferenceCollectionInner.withValue(List<SlotDifferenceInner> value)
+  name: withValue(List<SlotDifferenceInner> value)
+  nameWithType: SlotDifferenceCollectionInner.withValue(List<SlotDifferenceInner> value)
+  summary: 'Set the value property: Collection of resources.'
+  parameters:
+  - description: the value value to set.
+    name: value
+    type: <xref href="java.util.List?alt=java.util.List&text=List" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.resourcemanager.appservice.fluent.inner.SlotDifferenceInner?alt=com.azure.resourcemanager.appservice.fluent.inner.SlotDifferenceInner&text=SlotDifferenceInner" data-throw-if-not-resolved="False" />&gt;
+  syntax: public SlotDifferenceCollectionInner withValue(List<SlotDifferenceInner> value)
+  returns:
+    description: the SlotDifferenceCollectionInner object itself.
+    type: <xref href="com.azure.resourcemanager.appservice.fluent.inner.SlotDifferenceCollectionInner?alt=com.azure.resourcemanager.appservice.fluent.inner.SlotDifferenceCollectionInner&text=SlotDifferenceCollectionInner" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.resourcemanager.appservice.fluent.inner
+artifact: com.azure.resourcemanager:azure-resourcemanager-appservice:2.0.0-beta.2

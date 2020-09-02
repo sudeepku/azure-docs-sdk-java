@@ -1,0 +1,15 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.compute.fluent.inner.DedicatedHostGroupListResultInner.DedicatedHostGroupListResultInner*
+fullName: com.azure.resourcemanager.compute.fluent.inner.DedicatedHostGroupListResultInner.DedicatedHostGroupListResultInner
+name: DedicatedHostGroupListResultInner
+nameWithType: DedicatedHostGroupListResultInner.DedicatedHostGroupListResultInner
+members:
+- uid: com.azure.resourcemanager.compute.fluent.inner.DedicatedHostGroupListResultInner.DedicatedHostGroupListResultInner()
+  fullName: com.azure.resourcemanager.compute.fluent.inner.DedicatedHostGroupListResultInner.DedicatedHostGroupListResultInner()
+  name: DedicatedHostGroupListResultInner()
+  nameWithType: DedicatedHostGroupListResultInner.DedicatedHostGroupListResultInner()
+  syntax: public DedicatedHostGroupListResultInner()
+type: constructor
+metadata: {}
+package: com.azure.resourcemanager.compute.fluent.inner
+artifact: com.azure.resourcemanager:azure-resourcemanager-compute:2.0.0-beta.2

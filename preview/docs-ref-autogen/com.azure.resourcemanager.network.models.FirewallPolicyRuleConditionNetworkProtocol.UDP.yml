@@ -1,0 +1,16 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.network.models.FirewallPolicyRuleConditionNetworkProtocol.UDP
+fullName: com.azure.resourcemanager.network.models.FirewallPolicyRuleConditionNetworkProtocol.UDP
+name: UDP
+nameWithType: FirewallPolicyRuleConditionNetworkProtocol.UDP
+members:
+- uid: com.azure.resourcemanager.network.models.FirewallPolicyRuleConditionNetworkProtocol.UDP
+  fullName: com.azure.resourcemanager.network.models.FirewallPolicyRuleConditionNetworkProtocol.UDP
+  name: UDP
+  nameWithType: FirewallPolicyRuleConditionNetworkProtocol.UDP
+  summary: Static value UDP for FirewallPolicyRuleConditionNetworkProtocol.
+  syntax: public static final FirewallPolicyRuleConditionNetworkProtocol UDP
+type: field
+metadata: {}
+package: com.azure.resourcemanager.network.models
+artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.0.0-beta.2

@@ -1,0 +1,23 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.compute.fluent.inner.VirtualMachineScaleSetExtensionListResultInner.withValue*
+fullName: com.azure.resourcemanager.compute.fluent.inner.VirtualMachineScaleSetExtensionListResultInner.withValue
+name: withValue
+nameWithType: VirtualMachineScaleSetExtensionListResultInner.withValue
+members:
+- uid: com.azure.resourcemanager.compute.fluent.inner.VirtualMachineScaleSetExtensionListResultInner.withValue(java.util.List<com.azure.resourcemanager.compute.fluent.inner.VirtualMachineScaleSetExtensionInner>)
+  fullName: com.azure.resourcemanager.compute.fluent.inner.VirtualMachineScaleSetExtensionListResultInner.withValue(List<VirtualMachineScaleSetExtensionInner> value)
+  name: withValue(List<VirtualMachineScaleSetExtensionInner> value)
+  nameWithType: VirtualMachineScaleSetExtensionListResultInner.withValue(List<VirtualMachineScaleSetExtensionInner> value)
+  summary: 'Set the value property: The list of VM scale set extensions.'
+  parameters:
+  - description: the value value to set.
+    name: value
+    type: <xref href="java.util.List?alt=java.util.List&text=List" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.resourcemanager.compute.fluent.inner.VirtualMachineScaleSetExtensionInner?alt=com.azure.resourcemanager.compute.fluent.inner.VirtualMachineScaleSetExtensionInner&text=VirtualMachineScaleSetExtensionInner" data-throw-if-not-resolved="False" />&gt;
+  syntax: public VirtualMachineScaleSetExtensionListResultInner withValue(List<VirtualMachineScaleSetExtensionInner> value)
+  returns:
+    description: the VirtualMachineScaleSetExtensionListResultInner object itself.
+    type: <xref href="com.azure.resourcemanager.compute.fluent.inner.VirtualMachineScaleSetExtensionListResultInner?alt=com.azure.resourcemanager.compute.fluent.inner.VirtualMachineScaleSetExtensionListResultInner&text=VirtualMachineScaleSetExtensionListResultInner" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.resourcemanager.compute.fluent.inner
+artifact: com.azure.resourcemanager:azure-resourcemanager-compute:2.0.0-beta.2

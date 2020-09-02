@@ -1,0 +1,19 @@
+### YamlMime:JavaMember
+uid: com.azure.cosmos.implementation.guava25.primitives.Longs.BYTES
+fullName: com.azure.cosmos.implementation.guava25.primitives.Longs.BYTES
+name: BYTES
+nameWithType: Longs.BYTES
+members:
+- uid: com.azure.cosmos.implementation.guava25.primitives.Longs.BYTES
+  fullName: com.azure.cosmos.implementation.guava25.primitives.Longs.BYTES
+  name: BYTES
+  nameWithType: Longs.BYTES
+  summary: |-
+    The number of bytes required to represent a primitive <code>long</code> value.
+
+     <p><b>Java 8 users:</b> use <xref uid="Long#BYTES" data-throw-if-not-resolved="false">Long#BYTES</xref> instead.
+  syntax: public static final int BYTES
+type: field
+metadata: {}
+package: com.azure.cosmos.implementation.guava25.primitives
+artifact: com.azure:azure-cosmos:4.3.2-beta.2

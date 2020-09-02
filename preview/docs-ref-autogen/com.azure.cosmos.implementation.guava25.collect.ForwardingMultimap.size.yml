@@ -1,0 +1,23 @@
+### YamlMime:JavaMember
+uid: com.azure.cosmos.implementation.guava25.collect.ForwardingMultimap.size*
+fullName: com.azure.cosmos.implementation.guava25.collect.ForwardingMultimap<K,V>.size
+name: size
+nameWithType: ForwardingMultimap<K,V>.size
+members:
+- uid: com.azure.cosmos.implementation.guava25.collect.ForwardingMultimap.size()
+  fullName: com.azure.cosmos.implementation.guava25.collect.ForwardingMultimap<K,V>.size()
+  name: size()
+  nameWithType: ForwardingMultimap<K,V>.size()
+  summary: |-
+    Returns the number of key-value pairs in this multimap.
+
+     <p><b>Note:</b> this method does not return the number of <i>distinct keys</i> in the multimap,
+     which is given by <code>keySet().size()</code> or <code>asMap().size()</code>. See the opening section of
+     the <xref uid="Multimap" data-throw-if-not-resolved="false">Multimap</xref> class documentation for clarification.
+  syntax: public int size()
+  returns:
+    type: <xref href="int?alt=int&text=int" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.cosmos.implementation.guava25.collect
+artifact: com.azure:azure-cosmos:4.3.2-beta.2

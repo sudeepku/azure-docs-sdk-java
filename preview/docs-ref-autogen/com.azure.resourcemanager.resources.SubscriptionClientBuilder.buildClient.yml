@@ -1,0 +1,19 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.resources.SubscriptionClientBuilder.buildClient*
+fullName: com.azure.resourcemanager.resources.SubscriptionClientBuilder.buildClient
+name: buildClient
+nameWithType: SubscriptionClientBuilder.buildClient
+members:
+- uid: com.azure.resourcemanager.resources.SubscriptionClientBuilder.buildClient()
+  fullName: com.azure.resourcemanager.resources.SubscriptionClientBuilder.buildClient()
+  name: buildClient()
+  nameWithType: SubscriptionClientBuilder.buildClient()
+  summary: Builds an instance of SubscriptionClient with the provided parameters.
+  syntax: public SubscriptionClient buildClient()
+  returns:
+    description: an instance of SubscriptionClient.
+    type: <xref href="com.azure.resourcemanager.resources.SubscriptionClient?alt=com.azure.resourcemanager.resources.SubscriptionClient&text=SubscriptionClient" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.resourcemanager.resources
+artifact: com.azure.resourcemanager:azure-resourcemanager-resources:2.0.0-beta.2

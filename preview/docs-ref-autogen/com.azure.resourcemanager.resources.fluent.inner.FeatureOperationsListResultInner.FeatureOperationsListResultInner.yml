@@ -1,0 +1,15 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.resources.fluent.inner.FeatureOperationsListResultInner.FeatureOperationsListResultInner*
+fullName: com.azure.resourcemanager.resources.fluent.inner.FeatureOperationsListResultInner.FeatureOperationsListResultInner
+name: FeatureOperationsListResultInner
+nameWithType: FeatureOperationsListResultInner.FeatureOperationsListResultInner
+members:
+- uid: com.azure.resourcemanager.resources.fluent.inner.FeatureOperationsListResultInner.FeatureOperationsListResultInner()
+  fullName: com.azure.resourcemanager.resources.fluent.inner.FeatureOperationsListResultInner.FeatureOperationsListResultInner()
+  name: FeatureOperationsListResultInner()
+  nameWithType: FeatureOperationsListResultInner.FeatureOperationsListResultInner()
+  syntax: public FeatureOperationsListResultInner()
+type: constructor
+metadata: {}
+package: com.azure.resourcemanager.resources.fluent.inner
+artifact: com.azure.resourcemanager:azure-resourcemanager-resources:2.0.0-beta.2

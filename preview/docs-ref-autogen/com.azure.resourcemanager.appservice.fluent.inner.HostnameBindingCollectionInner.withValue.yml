@@ -1,0 +1,23 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.appservice.fluent.inner.HostnameBindingCollectionInner.withValue*
+fullName: com.azure.resourcemanager.appservice.fluent.inner.HostnameBindingCollectionInner.withValue
+name: withValue
+nameWithType: HostnameBindingCollectionInner.withValue
+members:
+- uid: com.azure.resourcemanager.appservice.fluent.inner.HostnameBindingCollectionInner.withValue(java.util.List<com.azure.resourcemanager.appservice.fluent.inner.HostnameBindingInner>)
+  fullName: com.azure.resourcemanager.appservice.fluent.inner.HostnameBindingCollectionInner.withValue(List<HostnameBindingInner> value)
+  name: withValue(List<HostnameBindingInner> value)
+  nameWithType: HostnameBindingCollectionInner.withValue(List<HostnameBindingInner> value)
+  summary: 'Set the value property: Collection of resources.'
+  parameters:
+  - description: the value value to set.
+    name: value
+    type: <xref href="java.util.List?alt=java.util.List&text=List" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.resourcemanager.appservice.fluent.inner.HostnameBindingInner?alt=com.azure.resourcemanager.appservice.fluent.inner.HostnameBindingInner&text=HostnameBindingInner" data-throw-if-not-resolved="False" />&gt;
+  syntax: public HostnameBindingCollectionInner withValue(List<HostnameBindingInner> value)
+  returns:
+    description: the HostnameBindingCollectionInner object itself.
+    type: <xref href="com.azure.resourcemanager.appservice.fluent.inner.HostnameBindingCollectionInner?alt=com.azure.resourcemanager.appservice.fluent.inner.HostnameBindingCollectionInner&text=HostnameBindingCollectionInner" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.resourcemanager.appservice.fluent.inner
+artifact: com.azure.resourcemanager:azure-resourcemanager-appservice:2.0.0-beta.2

@@ -1,0 +1,23 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.authorization.fluent.inner.ApplicationListResultInner.withOdataNextLink*
+fullName: com.azure.resourcemanager.authorization.fluent.inner.ApplicationListResultInner.withOdataNextLink
+name: withOdataNextLink
+nameWithType: ApplicationListResultInner.withOdataNextLink
+members:
+- uid: com.azure.resourcemanager.authorization.fluent.inner.ApplicationListResultInner.withOdataNextLink(java.lang.String)
+  fullName: com.azure.resourcemanager.authorization.fluent.inner.ApplicationListResultInner.withOdataNextLink(String odataNextLink)
+  name: withOdataNextLink(String odataNextLink)
+  nameWithType: ApplicationListResultInner.withOdataNextLink(String odataNextLink)
+  summary: 'Set the odataNextLink property: The URL to get the next set of results.'
+  parameters:
+  - description: the odataNextLink value to set.
+    name: odataNextLink
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  syntax: public ApplicationListResultInner withOdataNextLink(String odataNextLink)
+  returns:
+    description: the ApplicationListResultInner object itself.
+    type: <xref href="com.azure.resourcemanager.authorization.fluent.inner.ApplicationListResultInner?alt=com.azure.resourcemanager.authorization.fluent.inner.ApplicationListResultInner&text=ApplicationListResultInner" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.resourcemanager.authorization.fluent.inner
+artifact: com.azure.resourcemanager:azure-resourcemanager-authorization:2.0.0-beta.2

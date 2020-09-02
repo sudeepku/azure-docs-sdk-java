@@ -1,0 +1,39 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.resources.fluent.DeploymentsClient.exportTemplateAtTenantScope*
+fullName: com.azure.resourcemanager.resources.fluent.DeploymentsClient.exportTemplateAtTenantScope
+name: exportTemplateAtTenantScope
+nameWithType: DeploymentsClient.exportTemplateAtTenantScope
+members:
+- uid: com.azure.resourcemanager.resources.fluent.DeploymentsClient.exportTemplateAtTenantScope(java.lang.String)
+  fullName: com.azure.resourcemanager.resources.fluent.DeploymentsClient.exportTemplateAtTenantScope(String deploymentName)
+  name: exportTemplateAtTenantScope(String deploymentName)
+  nameWithType: DeploymentsClient.exportTemplateAtTenantScope(String deploymentName)
+  summary: Exports the template used for specified deployment.
+  parameters:
+  - description: The name of the deployment.
+    name: deploymentName
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  syntax: public DeploymentExportResultInner exportTemplateAtTenantScope(String deploymentName)
+  returns:
+    description: the deployment export result.
+    type: <xref href="com.azure.resourcemanager.resources.fluent.inner.DeploymentExportResultInner?alt=com.azure.resourcemanager.resources.fluent.inner.DeploymentExportResultInner&text=DeploymentExportResultInner" data-throw-if-not-resolved="False" />
+- uid: com.azure.resourcemanager.resources.fluent.DeploymentsClient.exportTemplateAtTenantScope(java.lang.String,com.azure.core.util.Context)
+  fullName: com.azure.resourcemanager.resources.fluent.DeploymentsClient.exportTemplateAtTenantScope(String deploymentName, Context context)
+  name: exportTemplateAtTenantScope(String deploymentName, Context context)
+  nameWithType: DeploymentsClient.exportTemplateAtTenantScope(String deploymentName, Context context)
+  summary: Exports the template used for specified deployment.
+  parameters:
+  - description: The name of the deployment.
+    name: deploymentName
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  - description: The context to associate with this operation.
+    name: context
+    type: <xref href="com.azure.core.util.Context?alt=com.azure.core.util.Context&text=Context" data-throw-if-not-resolved="False" />
+  syntax: public DeploymentExportResultInner exportTemplateAtTenantScope(String deploymentName, Context context)
+  returns:
+    description: the deployment export result.
+    type: <xref href="com.azure.resourcemanager.resources.fluent.inner.DeploymentExportResultInner?alt=com.azure.resourcemanager.resources.fluent.inner.DeploymentExportResultInner&text=DeploymentExportResultInner" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.resourcemanager.resources.fluent
+artifact: com.azure.resourcemanager:azure-resourcemanager-resources:2.0.0-beta.2

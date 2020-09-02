@@ -1,0 +1,23 @@
+### YamlMime:JavaMember
+uid: com.azure.cosmos.implementation.guava25.base.Optional.get*
+fullName: com.azure.cosmos.implementation.guava25.base.Optional<T>.get
+name: get
+nameWithType: Optional<T>.get
+members:
+- uid: com.azure.cosmos.implementation.guava25.base.Optional.get()
+  fullName: com.azure.cosmos.implementation.guava25.base.Optional<T>.get()
+  name: get()
+  nameWithType: Optional<T>.get()
+  summary: |-
+    Returns the contained instance, which must be present. If the instance might be absent, use
+     <xref uid="#or(Object)" data-throw-if-not-resolved="false">#or(Object)</xref> or <xref uid="#orNull" data-throw-if-not-resolved="false">#orNull</xref> instead.
+
+     <p><b>Comparison to <code>java.util.Optional</code>:</b> when the value is absent, this method
+     throws <xref uid="IllegalStateException" data-throw-if-not-resolved="false">IllegalStateException</xref>, whereas the Java 8 counterpart throws <xref uid="java.util.NoSuchElementException" data-throw-if-not-resolved="false">NoSuchElementException</xref>.
+  syntax: public abstract T get()
+  returns:
+    type: <xref href="T?alt=T&text=T" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.cosmos.implementation.guava25.base
+artifact: com.azure:azure-cosmos:4.3.2-beta.2

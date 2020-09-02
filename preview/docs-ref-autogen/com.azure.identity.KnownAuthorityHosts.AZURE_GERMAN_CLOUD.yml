@@ -1,0 +1,16 @@
+### YamlMime:JavaMember
+uid: com.azure.identity.KnownAuthorityHosts.AZURE_GERMAN_CLOUD
+fullName: com.azure.identity.KnownAuthorityHosts.AZURE_GERMAN_CLOUD
+name: AZURE_GERMAN_CLOUD
+nameWithType: KnownAuthorityHosts.AZURE_GERMAN_CLOUD
+members:
+- uid: com.azure.identity.KnownAuthorityHosts.AZURE_GERMAN_CLOUD
+  fullName: com.azure.identity.KnownAuthorityHosts.AZURE_GERMAN_CLOUD
+  name: AZURE_GERMAN_CLOUD
+  nameWithType: KnownAuthorityHosts.AZURE_GERMAN_CLOUD
+  summary: The host of the Azure Active Directory authority for tenants in the Azure German Cloud.
+  syntax: public static final String AZURE_GERMAN_CLOUD
+type: field
+metadata: {}
+package: com.azure.identity
+artifact: com.azure:azure-identity:1.1.0-beta.4

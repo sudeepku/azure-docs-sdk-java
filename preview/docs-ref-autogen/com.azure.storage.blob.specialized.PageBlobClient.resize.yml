@@ -1,0 +1,33 @@
+### YamlMime:JavaMember
+uid: com.azure.storage.blob.specialized.PageBlobClient.resize*
+fullName: com.azure.storage.blob.specialized.PageBlobClient.resize
+name: resize
+nameWithType: PageBlobClient.resize
+members:
+- uid: com.azure.storage.blob.specialized.PageBlobClient.resize(long)
+  fullName: com.azure.storage.blob.specialized.PageBlobClient.resize(long size)
+  name: resize(long size)
+  nameWithType: PageBlobClient.resize(long size)
+  summary: |-
+    Resizes the page blob to the specified size (which must be a multiple of 512). For more information, see the <a href="https://docs.microsoft.com/rest/api/storageservices/set-blob-properties">Azure Docs</a>.
+
+     <p><strong>Code Samples</strong></p>
+
+     <pre>
+     PageBlobItem pageBlob = client.resize&#40;size&#41;;
+     System.out.printf&#40;&quot;Page blob resized with sequence number %s%n&quot;, pageBlob.getBlobSequenceNumber&#40;&#41;&#41;;
+     </pre>
+  parameters:
+  - description: |-
+      Resizes a page blob to the specified size. If the specified value is less than the current size of
+       the blob, then all pages above the specified value are cleared.
+    name: size
+    type: <xref href="long?alt=long&text=long" data-throw-if-not-resolved="False" />
+  syntax: public PageBlobItem resize(long size)
+  returns:
+    description: The resized page blob.
+    type: <xref href="com.azure.storage.blob.models.PageBlobItem?alt=com.azure.storage.blob.models.PageBlobItem&text=PageBlobItem" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.storage.blob.specialized
+artifact: com.azure:azure-storage-blob:12.8.0-beta.1

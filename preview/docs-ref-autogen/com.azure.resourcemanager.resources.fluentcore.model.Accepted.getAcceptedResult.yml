@@ -1,0 +1,19 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.resources.fluentcore.model.Accepted.getAcceptedResult*
+fullName: com.azure.resourcemanager.resources.fluentcore.model.Accepted<T>.getAcceptedResult
+name: getAcceptedResult
+nameWithType: Accepted<T>.getAcceptedResult
+members:
+- uid: com.azure.resourcemanager.resources.fluentcore.model.Accepted.getAcceptedResult()
+  fullName: com.azure.resourcemanager.resources.fluentcore.model.Accepted<T>.getAcceptedResult()
+  name: getAcceptedResult()
+  nameWithType: Accepted<T>.getAcceptedResult()
+  summary: Gets the accepted result of LRO.
+  syntax: public abstract ActivationResponse<T> getAcceptedResult()
+  returns:
+    description: the accepted result
+    type: <xref href="com.azure.resourcemanager.resources.fluentcore.rest.ActivationResponse?alt=com.azure.resourcemanager.resources.fluentcore.rest.ActivationResponse&text=ActivationResponse" data-throw-if-not-resolved="False" />&lt;<xref href="T?alt=T&text=T" data-throw-if-not-resolved="False" />&gt;
+type: method
+metadata: {}
+package: com.azure.resourcemanager.resources.fluentcore.model
+artifact: com.azure.resourcemanager:azure-resourcemanager-resources:2.0.0-beta.2

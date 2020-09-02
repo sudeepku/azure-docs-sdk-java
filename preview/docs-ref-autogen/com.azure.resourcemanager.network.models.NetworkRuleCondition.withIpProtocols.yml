@@ -1,0 +1,23 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.network.models.NetworkRuleCondition.withIpProtocols*
+fullName: com.azure.resourcemanager.network.models.NetworkRuleCondition.withIpProtocols
+name: withIpProtocols
+nameWithType: NetworkRuleCondition.withIpProtocols
+members:
+- uid: com.azure.resourcemanager.network.models.NetworkRuleCondition.withIpProtocols(java.util.List<com.azure.resourcemanager.network.models.FirewallPolicyRuleConditionNetworkProtocol>)
+  fullName: com.azure.resourcemanager.network.models.NetworkRuleCondition.withIpProtocols(List<FirewallPolicyRuleConditionNetworkProtocol> ipProtocols)
+  name: withIpProtocols(List<FirewallPolicyRuleConditionNetworkProtocol> ipProtocols)
+  nameWithType: NetworkRuleCondition.withIpProtocols(List<FirewallPolicyRuleConditionNetworkProtocol> ipProtocols)
+  summary: 'Set the ipProtocols property: Array of FirewallPolicyRuleConditionNetworkProtocols.'
+  parameters:
+  - description: the ipProtocols value to set.
+    name: ipProtocols
+    type: <xref href="java.util.List?alt=java.util.List&text=List" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.resourcemanager.network.models.FirewallPolicyRuleConditionNetworkProtocol?alt=com.azure.resourcemanager.network.models.FirewallPolicyRuleConditionNetworkProtocol&text=FirewallPolicyRuleConditionNetworkProtocol" data-throw-if-not-resolved="False" />&gt;
+  syntax: public NetworkRuleCondition withIpProtocols(List<FirewallPolicyRuleConditionNetworkProtocol> ipProtocols)
+  returns:
+    description: the NetworkRuleCondition object itself.
+    type: <xref href="com.azure.resourcemanager.network.models.NetworkRuleCondition?alt=com.azure.resourcemanager.network.models.NetworkRuleCondition&text=NetworkRuleCondition" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.resourcemanager.network.models
+artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.0.0-beta.2

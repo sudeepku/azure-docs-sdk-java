@@ -1,0 +1,15 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.compute.fluent.inner.VirtualMachineScaleSetListResultInner.VirtualMachineScaleSetListResultInner*
+fullName: com.azure.resourcemanager.compute.fluent.inner.VirtualMachineScaleSetListResultInner.VirtualMachineScaleSetListResultInner
+name: VirtualMachineScaleSetListResultInner
+nameWithType: VirtualMachineScaleSetListResultInner.VirtualMachineScaleSetListResultInner
+members:
+- uid: com.azure.resourcemanager.compute.fluent.inner.VirtualMachineScaleSetListResultInner.VirtualMachineScaleSetListResultInner()
+  fullName: com.azure.resourcemanager.compute.fluent.inner.VirtualMachineScaleSetListResultInner.VirtualMachineScaleSetListResultInner()
+  name: VirtualMachineScaleSetListResultInner()
+  nameWithType: VirtualMachineScaleSetListResultInner.VirtualMachineScaleSetListResultInner()
+  syntax: public VirtualMachineScaleSetListResultInner()
+type: constructor
+metadata: {}
+package: com.azure.resourcemanager.compute.fluent.inner
+artifact: com.azure.resourcemanager:azure-resourcemanager-compute:2.0.0-beta.2

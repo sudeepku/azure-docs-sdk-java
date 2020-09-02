@@ -1,0 +1,21 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.appservice.models.DomainPatchResource.autoRenew*
+fullName: com.azure.resourcemanager.appservice.models.DomainPatchResource.autoRenew
+name: autoRenew
+nameWithType: DomainPatchResource.autoRenew
+members:
+- uid: com.azure.resourcemanager.appservice.models.DomainPatchResource.autoRenew()
+  fullName: com.azure.resourcemanager.appservice.models.DomainPatchResource.autoRenew()
+  name: autoRenew()
+  nameWithType: DomainPatchResource.autoRenew()
+  summary: |-
+    Get the autoRenew property: &lt;code&gt;true&lt;/code&gt; if the domain should be automatically renewed;
+     otherwise, &lt;code&gt;false&lt;/code&gt;.
+  syntax: public Boolean autoRenew()
+  returns:
+    description: the autoRenew value.
+    type: <xref href="java.lang.Boolean?alt=java.lang.Boolean&text=Boolean" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.resourcemanager.appservice.models
+artifact: com.azure.resourcemanager:azure-resourcemanager-appservice:2.0.0-beta.2

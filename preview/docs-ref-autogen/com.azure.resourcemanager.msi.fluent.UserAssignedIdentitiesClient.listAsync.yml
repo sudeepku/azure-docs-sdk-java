@@ -1,0 +1,32 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.msi.fluent.UserAssignedIdentitiesClient.listAsync*
+fullName: com.azure.resourcemanager.msi.fluent.UserAssignedIdentitiesClient.listAsync
+name: listAsync
+nameWithType: UserAssignedIdentitiesClient.listAsync
+members:
+- uid: com.azure.resourcemanager.msi.fluent.UserAssignedIdentitiesClient.listAsync()
+  fullName: com.azure.resourcemanager.msi.fluent.UserAssignedIdentitiesClient.listAsync()
+  name: listAsync()
+  nameWithType: UserAssignedIdentitiesClient.listAsync()
+  summary: Lists all the userAssignedIdentities available under the specified subscription.
+  syntax: public PagedFlux<IdentityInner> listAsync()
+  returns:
+    description: values returned by the List operation.
+    type: <xref href="com.azure.core.http.rest.PagedFlux?alt=com.azure.core.http.rest.PagedFlux&text=PagedFlux" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.resourcemanager.msi.fluent.inner.IdentityInner?alt=com.azure.resourcemanager.msi.fluent.inner.IdentityInner&text=IdentityInner" data-throw-if-not-resolved="False" />&gt;
+- uid: com.azure.resourcemanager.msi.fluent.UserAssignedIdentitiesClient.listAsync(com.azure.core.util.Context)
+  fullName: com.azure.resourcemanager.msi.fluent.UserAssignedIdentitiesClient.listAsync(Context context)
+  name: listAsync(Context context)
+  nameWithType: UserAssignedIdentitiesClient.listAsync(Context context)
+  summary: Lists all the userAssignedIdentities available under the specified subscription.
+  parameters:
+  - description: The context to associate with this operation.
+    name: context
+    type: <xref href="com.azure.core.util.Context?alt=com.azure.core.util.Context&text=Context" data-throw-if-not-resolved="False" />
+  syntax: public PagedFlux<IdentityInner> listAsync(Context context)
+  returns:
+    description: values returned by the List operation.
+    type: <xref href="com.azure.core.http.rest.PagedFlux?alt=com.azure.core.http.rest.PagedFlux&text=PagedFlux" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.resourcemanager.msi.fluent.inner.IdentityInner?alt=com.azure.resourcemanager.msi.fluent.inner.IdentityInner&text=IdentityInner" data-throw-if-not-resolved="False" />&gt;
+type: method
+metadata: {}
+package: com.azure.resourcemanager.msi.fluent
+artifact: com.azure.resourcemanager:azure-resourcemanager-msi:2.0.0-beta.2

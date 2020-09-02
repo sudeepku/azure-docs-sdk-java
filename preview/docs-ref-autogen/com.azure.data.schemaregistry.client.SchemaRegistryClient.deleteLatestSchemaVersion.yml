@@ -1,0 +1,26 @@
+### YamlMime:JavaMember
+uid: com.azure.data.schemaregistry.client.SchemaRegistryClient.deleteLatestSchemaVersion*
+fullName: com.azure.data.schemaregistry.client.SchemaRegistryClient.deleteLatestSchemaVersion
+name: deleteLatestSchemaVersion
+nameWithType: SchemaRegistryClient.deleteLatestSchemaVersion
+members:
+- uid: com.azure.data.schemaregistry.client.SchemaRegistryClient.deleteLatestSchemaVersion(java.lang.String,java.lang.String)
+  fullName: com.azure.data.schemaregistry.client.SchemaRegistryClient.deleteLatestSchemaVersion(String schemaGroup, String schemaName)
+  name: deleteLatestSchemaVersion(String schemaGroup, String schemaName)
+  nameWithType: SchemaRegistryClient.deleteLatestSchemaVersion(String schemaGroup, String schemaName)
+  summary: Not currently implemented.
+  parameters:
+  - description: schema group name
+    name: schemaGroup
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  - description: schema name
+    name: schemaName
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  syntax: public abstract String deleteLatestSchemaVersion(String schemaGroup, String schemaName)
+  returns:
+    description: GUID of deleted schema
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.data.schemaregistry.client
+artifact: com.azure:azure-data-schemaregistry:1.0.0-beta.1

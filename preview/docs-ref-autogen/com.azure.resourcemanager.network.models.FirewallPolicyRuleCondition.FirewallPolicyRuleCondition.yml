@@ -1,0 +1,15 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.network.models.FirewallPolicyRuleCondition.FirewallPolicyRuleCondition*
+fullName: com.azure.resourcemanager.network.models.FirewallPolicyRuleCondition.FirewallPolicyRuleCondition
+name: FirewallPolicyRuleCondition
+nameWithType: FirewallPolicyRuleCondition.FirewallPolicyRuleCondition
+members:
+- uid: com.azure.resourcemanager.network.models.FirewallPolicyRuleCondition.FirewallPolicyRuleCondition()
+  fullName: com.azure.resourcemanager.network.models.FirewallPolicyRuleCondition.FirewallPolicyRuleCondition()
+  name: FirewallPolicyRuleCondition()
+  nameWithType: FirewallPolicyRuleCondition.FirewallPolicyRuleCondition()
+  syntax: public FirewallPolicyRuleCondition()
+type: constructor
+metadata: {}
+package: com.azure.resourcemanager.network.models
+artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.0.0-beta.2

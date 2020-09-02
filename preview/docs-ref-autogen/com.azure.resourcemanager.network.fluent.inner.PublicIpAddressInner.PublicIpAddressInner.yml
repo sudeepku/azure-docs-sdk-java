@@ -1,0 +1,15 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.network.fluent.inner.PublicIpAddressInner.PublicIpAddressInner*
+fullName: com.azure.resourcemanager.network.fluent.inner.PublicIpAddressInner.PublicIpAddressInner
+name: PublicIpAddressInner
+nameWithType: PublicIpAddressInner.PublicIpAddressInner
+members:
+- uid: com.azure.resourcemanager.network.fluent.inner.PublicIpAddressInner.PublicIpAddressInner()
+  fullName: com.azure.resourcemanager.network.fluent.inner.PublicIpAddressInner.PublicIpAddressInner()
+  name: PublicIpAddressInner()
+  nameWithType: PublicIpAddressInner.PublicIpAddressInner()
+  syntax: public PublicIpAddressInner()
+type: constructor
+metadata: {}
+package: com.azure.resourcemanager.network.fluent.inner
+artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.0.0-beta.2

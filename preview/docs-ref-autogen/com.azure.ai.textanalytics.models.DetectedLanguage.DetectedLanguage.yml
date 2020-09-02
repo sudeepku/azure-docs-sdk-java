@@ -1,0 +1,26 @@
+### YamlMime:JavaMember
+uid: com.azure.ai.textanalytics.models.DetectedLanguage.DetectedLanguage*
+fullName: com.azure.ai.textanalytics.models.DetectedLanguage.DetectedLanguage
+name: DetectedLanguage
+nameWithType: DetectedLanguage.DetectedLanguage
+members:
+- uid: com.azure.ai.textanalytics.models.DetectedLanguage.DetectedLanguage(java.lang.String,java.lang.String,double)
+  fullName: com.azure.ai.textanalytics.models.DetectedLanguage.DetectedLanguage(String name, String iso6391Name, double score)
+  name: DetectedLanguage(String name, String iso6391Name, double score)
+  nameWithType: DetectedLanguage.DetectedLanguage(String name, String iso6391Name, double score)
+  summary: Creates a <xref uid="DetectedLanguage" data-throw-if-not-resolved="false">DetectedLanguage</xref> model that describes detected language content.
+  parameters:
+  - description: The name of a detected language.
+    name: name
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  - description: A two letter representation of the detected language according to the ISO 639-1 standard.
+    name: iso6391Name
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  - description: A confidence score between 0 and 1.
+    name: score
+    type: <xref href="double?alt=double&text=double" data-throw-if-not-resolved="False" />
+  syntax: public DetectedLanguage(String name, String iso6391Name, double score)
+type: constructor
+metadata: {}
+package: com.azure.ai.textanalytics.models
+artifact: com.azure:azure-ai-textanalytics:1.0.0-beta.4

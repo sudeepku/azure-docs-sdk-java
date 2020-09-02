@@ -1,0 +1,15 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.monitor.fluent.inner.LogSearchRuleResourceCollectionInner.LogSearchRuleResourceCollectionInner*
+fullName: com.azure.resourcemanager.monitor.fluent.inner.LogSearchRuleResourceCollectionInner.LogSearchRuleResourceCollectionInner
+name: LogSearchRuleResourceCollectionInner
+nameWithType: LogSearchRuleResourceCollectionInner.LogSearchRuleResourceCollectionInner
+members:
+- uid: com.azure.resourcemanager.monitor.fluent.inner.LogSearchRuleResourceCollectionInner.LogSearchRuleResourceCollectionInner()
+  fullName: com.azure.resourcemanager.monitor.fluent.inner.LogSearchRuleResourceCollectionInner.LogSearchRuleResourceCollectionInner()
+  name: LogSearchRuleResourceCollectionInner()
+  nameWithType: LogSearchRuleResourceCollectionInner.LogSearchRuleResourceCollectionInner()
+  syntax: public LogSearchRuleResourceCollectionInner()
+type: constructor
+metadata: {}
+package: com.azure.resourcemanager.monitor.fluent.inner
+artifact: com.azure.resourcemanager:azure-resourcemanager-monitor:2.0.0-beta.2

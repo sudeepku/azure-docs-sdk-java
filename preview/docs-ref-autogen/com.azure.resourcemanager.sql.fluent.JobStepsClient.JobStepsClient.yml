@@ -1,0 +1,20 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.sql.fluent.JobStepsClient.JobStepsClient*
+fullName: com.azure.resourcemanager.sql.fluent.JobStepsClient.JobStepsClient
+name: JobStepsClient
+nameWithType: JobStepsClient.JobStepsClient
+members:
+- uid: com.azure.resourcemanager.sql.fluent.JobStepsClient.JobStepsClient(com.azure.resourcemanager.sql.SqlManagementClient)
+  fullName: com.azure.resourcemanager.sql.fluent.JobStepsClient.JobStepsClient(SqlManagementClient client)
+  name: JobStepsClient(SqlManagementClient client)
+  nameWithType: JobStepsClient.JobStepsClient(SqlManagementClient client)
+  summary: Initializes an instance of JobStepsClient.
+  parameters:
+  - description: the instance of the service client containing this operation class.
+    name: client
+    type: <xref href="com.azure.resourcemanager.sql.SqlManagementClient?alt=com.azure.resourcemanager.sql.SqlManagementClient&text=SqlManagementClient" data-throw-if-not-resolved="False" />
+  syntax: public JobStepsClient(SqlManagementClient client)
+type: constructor
+metadata: {}
+package: com.azure.resourcemanager.sql.fluent
+artifact: com.azure.resourcemanager:azure-resourcemanager-sql:2.0.0-beta.2

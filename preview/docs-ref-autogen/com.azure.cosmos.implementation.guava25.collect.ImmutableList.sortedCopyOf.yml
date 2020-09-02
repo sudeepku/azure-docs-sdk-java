@@ -1,0 +1,54 @@
+### YamlMime:JavaMember
+uid: com.azure.cosmos.implementation.guava25.collect.ImmutableList.sortedCopyOf*
+fullName: com.azure.cosmos.implementation.guava25.collect.ImmutableList<E>.<E>sortedCopyOf
+name: <E>sortedCopyOf
+nameWithType: ImmutableList<E>.<E>sortedCopyOf
+members:
+- uid: com.azure.cosmos.implementation.guava25.collect.ImmutableList.<E>sortedCopyOf(java.lang.Iterable<? extends E>)
+  fullName: com.azure.cosmos.implementation.guava25.collect.ImmutableList<E>.<E>sortedCopyOf(Iterable<? extends E> elements)
+  name: <E>sortedCopyOf(Iterable<? extends E> elements)
+  nameWithType: ImmutableList<E>.<E>sortedCopyOf(Iterable<? extends E> elements)
+  summary: |-
+    Returns an immutable list containing the given elements, sorted according to their natural
+     order. The sorting algorithm used is stable, so elements that compare as equal will stay in the
+     order in which they appear in the input.
+
+     <p>If your data has no duplicates, or you wish to deduplicate elements, use <code>
+     ImmutableSortedSet.copyOf(elements)</code>; if you want a <code>List</code> you can use its <code>
+     asList()</code> view.
+
+     <p><b>Java 8 users:</b> If you want to convert a <xref uid="java.util.stream.Stream" data-throw-if-not-resolved="false">java.util.stream.Stream</xref> to a sorted
+     <code>ImmutableList</code>, use <code>stream.sorted().collect(toImmutableList())</code>.
+  parameters:
+  - name: elements
+    type: <xref href="java.lang.Iterable?alt=java.lang.Iterable&text=Iterable" data-throw-if-not-resolved="False" />&lt;<xref href="? extends E?alt=? extends E&text=? extends E" data-throw-if-not-resolved="False" />&gt;
+  syntax: public static ImmutableList<E> <E>sortedCopyOf(Iterable<? extends E> elements)
+  returns:
+    type: <xref href="com.azure.cosmos.implementation.guava25.collect.ImmutableList?alt=com.azure.cosmos.implementation.guava25.collect.ImmutableList&text=ImmutableList" data-throw-if-not-resolved="False" />&lt;<xref href="E?alt=E&text=E" data-throw-if-not-resolved="False" />&gt;
+- uid: com.azure.cosmos.implementation.guava25.collect.ImmutableList.<E>sortedCopyOf(java.util.Comparator<? super E>,java.lang.Iterable<? extends E>)
+  fullName: com.azure.cosmos.implementation.guava25.collect.ImmutableList<E>.<E>sortedCopyOf(Comparator<? super E> comparator, Iterable<? extends E> elements)
+  name: <E>sortedCopyOf(Comparator<? super E> comparator, Iterable<? extends E> elements)
+  nameWithType: ImmutableList<E>.<E>sortedCopyOf(Comparator<? super E> comparator, Iterable<? extends E> elements)
+  summary: |-
+    Returns an immutable list containing the given elements, in sorted order relative to the
+     specified comparator. The sorting algorithm used is stable, so elements that compare as equal
+     will stay in the order in which they appear in the input.
+
+     <p>If your data has no duplicates, or you wish to deduplicate elements, use <code>
+     ImmutableSortedSet.copyOf(comparator, elements)</code>; if you want a <code>List</code> you can use its
+     <code>asList()</code> view.
+
+     <p><b>Java 8 users:</b> If you want to convert a <xref uid="java.util.stream.Stream" data-throw-if-not-resolved="false">java.util.stream.Stream</xref> to a sorted
+     <code>ImmutableList</code>, use <code>stream.sorted(comparator).collect(toImmutableList())</code>.
+  parameters:
+  - name: comparator
+    type: <xref href="java.util.Comparator?alt=java.util.Comparator&text=Comparator" data-throw-if-not-resolved="False" />&lt;<xref href="? super E?alt=? super E&text=? super E" data-throw-if-not-resolved="False" />&gt;
+  - name: elements
+    type: <xref href="java.lang.Iterable?alt=java.lang.Iterable&text=Iterable" data-throw-if-not-resolved="False" />&lt;<xref href="? extends E?alt=? extends E&text=? extends E" data-throw-if-not-resolved="False" />&gt;
+  syntax: public static ImmutableList<E> <E>sortedCopyOf(Comparator<? super E> comparator, Iterable<? extends E> elements)
+  returns:
+    type: <xref href="com.azure.cosmos.implementation.guava25.collect.ImmutableList?alt=com.azure.cosmos.implementation.guava25.collect.ImmutableList&text=ImmutableList" data-throw-if-not-resolved="False" />&lt;<xref href="E?alt=E&text=E" data-throw-if-not-resolved="False" />&gt;
+type: method
+metadata: {}
+package: com.azure.cosmos.implementation.guava25.collect
+artifact: com.azure:azure-cosmos:4.3.2-beta.2

@@ -1,0 +1,20 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.appservice.fluent.DiagnosticsClient.DiagnosticsClient*
+fullName: com.azure.resourcemanager.appservice.fluent.DiagnosticsClient.DiagnosticsClient
+name: DiagnosticsClient
+nameWithType: DiagnosticsClient.DiagnosticsClient
+members:
+- uid: com.azure.resourcemanager.appservice.fluent.DiagnosticsClient.DiagnosticsClient(com.azure.resourcemanager.appservice.WebSiteManagementClient)
+  fullName: com.azure.resourcemanager.appservice.fluent.DiagnosticsClient.DiagnosticsClient(WebSiteManagementClient client)
+  name: DiagnosticsClient(WebSiteManagementClient client)
+  nameWithType: DiagnosticsClient.DiagnosticsClient(WebSiteManagementClient client)
+  summary: Initializes an instance of DiagnosticsClient.
+  parameters:
+  - description: the instance of the service client containing this operation class.
+    name: client
+    type: <xref href="com.azure.resourcemanager.appservice.WebSiteManagementClient?alt=com.azure.resourcemanager.appservice.WebSiteManagementClient&text=WebSiteManagementClient" data-throw-if-not-resolved="False" />
+  syntax: public DiagnosticsClient(WebSiteManagementClient client)
+type: constructor
+metadata: {}
+package: com.azure.resourcemanager.appservice.fluent
+artifact: com.azure.resourcemanager:azure-resourcemanager-appservice:2.0.0-beta.2

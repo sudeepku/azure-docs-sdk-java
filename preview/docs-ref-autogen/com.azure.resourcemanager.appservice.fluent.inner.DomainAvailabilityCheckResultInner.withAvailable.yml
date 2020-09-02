@@ -1,0 +1,25 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.appservice.fluent.inner.DomainAvailabilityCheckResultInner.withAvailable*
+fullName: com.azure.resourcemanager.appservice.fluent.inner.DomainAvailabilityCheckResultInner.withAvailable
+name: withAvailable
+nameWithType: DomainAvailabilityCheckResultInner.withAvailable
+members:
+- uid: com.azure.resourcemanager.appservice.fluent.inner.DomainAvailabilityCheckResultInner.withAvailable(java.lang.Boolean)
+  fullName: com.azure.resourcemanager.appservice.fluent.inner.DomainAvailabilityCheckResultInner.withAvailable(Boolean available)
+  name: withAvailable(Boolean available)
+  nameWithType: DomainAvailabilityCheckResultInner.withAvailable(Boolean available)
+  summary: |-
+    Set the available property: &lt;code&gt;true&lt;/code&gt; if domain can be purchased using CreateDomain API;
+     otherwise, &lt;code&gt;false&lt;/code&gt;.
+  parameters:
+  - description: the available value to set.
+    name: available
+    type: <xref href="java.lang.Boolean?alt=java.lang.Boolean&text=Boolean" data-throw-if-not-resolved="False" />
+  syntax: public DomainAvailabilityCheckResultInner withAvailable(Boolean available)
+  returns:
+    description: the DomainAvailabilityCheckResultInner object itself.
+    type: <xref href="com.azure.resourcemanager.appservice.fluent.inner.DomainAvailabilityCheckResultInner?alt=com.azure.resourcemanager.appservice.fluent.inner.DomainAvailabilityCheckResultInner&text=DomainAvailabilityCheckResultInner" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.resourcemanager.appservice.fluent.inner
+artifact: com.azure.resourcemanager:azure-resourcemanager-appservice:2.0.0-beta.2

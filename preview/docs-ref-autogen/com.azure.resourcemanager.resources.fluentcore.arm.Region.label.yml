@@ -1,0 +1,18 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.resources.fluentcore.arm.Region.label*
+fullName: com.azure.resourcemanager.resources.fluentcore.arm.Region.label
+name: label
+nameWithType: Region.label
+members:
+- uid: com.azure.resourcemanager.resources.fluentcore.arm.Region.label()
+  fullName: com.azure.resourcemanager.resources.fluentcore.arm.Region.label()
+  name: label()
+  nameWithType: Region.label()
+  syntax: public String label()
+  returns:
+    description: the label of the region
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.resourcemanager.resources.fluentcore.arm
+artifact: com.azure.resourcemanager:azure-resourcemanager-resources:2.0.0-beta.2

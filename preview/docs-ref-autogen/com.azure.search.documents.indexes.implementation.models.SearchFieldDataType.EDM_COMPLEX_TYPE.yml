@@ -1,0 +1,16 @@
+### YamlMime:JavaMember
+uid: com.azure.search.documents.indexes.implementation.models.SearchFieldDataType.EDM_COMPLEX_TYPE
+fullName: com.azure.search.documents.indexes.implementation.models.SearchFieldDataType.EDM_COMPLEX_TYPE
+name: EDM_COMPLEX_TYPE
+nameWithType: SearchFieldDataType.EDM_COMPLEX_TYPE
+members:
+- uid: com.azure.search.documents.indexes.implementation.models.SearchFieldDataType.EDM_COMPLEX_TYPE
+  fullName: com.azure.search.documents.indexes.implementation.models.SearchFieldDataType.EDM_COMPLEX_TYPE
+  name: EDM_COMPLEX_TYPE
+  nameWithType: SearchFieldDataType.EDM_COMPLEX_TYPE
+  summary: Static value Edm.ComplexType for SearchFieldDataType.
+  syntax: public static final SearchFieldDataType EDM_COMPLEX_TYPE
+type: field
+metadata: {}
+package: com.azure.search.documents.indexes.implementation.models
+artifact: com.azure:azure-search-documents:11.1.0-beta.1

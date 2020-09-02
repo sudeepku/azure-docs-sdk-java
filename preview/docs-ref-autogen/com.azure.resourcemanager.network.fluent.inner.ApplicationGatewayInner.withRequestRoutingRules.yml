@@ -1,0 +1,23 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.network.fluent.inner.ApplicationGatewayInner.withRequestRoutingRules*
+fullName: com.azure.resourcemanager.network.fluent.inner.ApplicationGatewayInner.withRequestRoutingRules
+name: withRequestRoutingRules
+nameWithType: ApplicationGatewayInner.withRequestRoutingRules
+members:
+- uid: com.azure.resourcemanager.network.fluent.inner.ApplicationGatewayInner.withRequestRoutingRules(java.util.List<com.azure.resourcemanager.network.fluent.inner.ApplicationGatewayRequestRoutingRuleInner>)
+  fullName: com.azure.resourcemanager.network.fluent.inner.ApplicationGatewayInner.withRequestRoutingRules(List<ApplicationGatewayRequestRoutingRuleInner> requestRoutingRules)
+  name: withRequestRoutingRules(List<ApplicationGatewayRequestRoutingRuleInner> requestRoutingRules)
+  nameWithType: ApplicationGatewayInner.withRequestRoutingRules(List<ApplicationGatewayRequestRoutingRuleInner> requestRoutingRules)
+  summary: 'Set the requestRoutingRules property: Request routing rules of the application gateway resource.'
+  parameters:
+  - description: the requestRoutingRules value to set.
+    name: requestRoutingRules
+    type: <xref href="java.util.List?alt=java.util.List&text=List" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.resourcemanager.network.fluent.inner.ApplicationGatewayRequestRoutingRuleInner?alt=com.azure.resourcemanager.network.fluent.inner.ApplicationGatewayRequestRoutingRuleInner&text=ApplicationGatewayRequestRoutingRuleInner" data-throw-if-not-resolved="False" />&gt;
+  syntax: public ApplicationGatewayInner withRequestRoutingRules(List<ApplicationGatewayRequestRoutingRuleInner> requestRoutingRules)
+  returns:
+    description: the ApplicationGatewayInner object itself.
+    type: <xref href="com.azure.resourcemanager.network.fluent.inner.ApplicationGatewayInner?alt=com.azure.resourcemanager.network.fluent.inner.ApplicationGatewayInner&text=ApplicationGatewayInner" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.resourcemanager.network.fluent.inner
+artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.0.0-beta.2

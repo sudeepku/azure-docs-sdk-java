@@ -1,0 +1,15 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.monitor.fluent.inner.EventCategoryCollectionInner.EventCategoryCollectionInner*
+fullName: com.azure.resourcemanager.monitor.fluent.inner.EventCategoryCollectionInner.EventCategoryCollectionInner
+name: EventCategoryCollectionInner
+nameWithType: EventCategoryCollectionInner.EventCategoryCollectionInner
+members:
+- uid: com.azure.resourcemanager.monitor.fluent.inner.EventCategoryCollectionInner.EventCategoryCollectionInner()
+  fullName: com.azure.resourcemanager.monitor.fluent.inner.EventCategoryCollectionInner.EventCategoryCollectionInner()
+  name: EventCategoryCollectionInner()
+  nameWithType: EventCategoryCollectionInner.EventCategoryCollectionInner()
+  syntax: public EventCategoryCollectionInner()
+type: constructor
+metadata: {}
+package: com.azure.resourcemanager.monitor.fluent.inner
+artifact: com.azure.resourcemanager:azure-resourcemanager-monitor:2.0.0-beta.2

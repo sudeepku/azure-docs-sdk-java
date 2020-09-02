@@ -1,0 +1,23 @@
+### YamlMime:JavaMember
+uid: com.azure.messaging.servicebus.implementation.models.TopicDescription.setAuthorizationRules*
+fullName: com.azure.messaging.servicebus.implementation.models.TopicDescription.setAuthorizationRules
+name: setAuthorizationRules
+nameWithType: TopicDescription.setAuthorizationRules
+members:
+- uid: com.azure.messaging.servicebus.implementation.models.TopicDescription.setAuthorizationRules(java.util.List<com.azure.messaging.servicebus.models.AuthorizationRule>)
+  fullName: com.azure.messaging.servicebus.implementation.models.TopicDescription.setAuthorizationRules(List<AuthorizationRule> authorizationRules)
+  name: setAuthorizationRules(List<AuthorizationRule> authorizationRules)
+  nameWithType: TopicDescription.setAuthorizationRules(List<AuthorizationRule> authorizationRules)
+  summary: 'Set the authorizationRules property: Authorization rules for resource.'
+  parameters:
+  - description: the authorizationRules value to set.
+    name: authorizationRules
+    type: <xref href="java.util.List?alt=java.util.List&text=List" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.messaging.servicebus.models.AuthorizationRule?alt=com.azure.messaging.servicebus.models.AuthorizationRule&text=AuthorizationRule" data-throw-if-not-resolved="False" />&gt;
+  syntax: public TopicDescription setAuthorizationRules(List<AuthorizationRule> authorizationRules)
+  returns:
+    description: the TopicDescription object itself.
+    type: <xref href="com.azure.messaging.servicebus.implementation.models.TopicDescription?alt=com.azure.messaging.servicebus.implementation.models.TopicDescription&text=TopicDescription" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.messaging.servicebus.implementation.models
+artifact: com.azure:azure-messaging-servicebus:7.0.0-beta.5

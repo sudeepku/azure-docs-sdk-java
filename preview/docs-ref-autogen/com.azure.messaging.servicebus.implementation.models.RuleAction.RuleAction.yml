@@ -1,0 +1,15 @@
+### YamlMime:JavaMember
+uid: com.azure.messaging.servicebus.implementation.models.RuleAction.RuleAction*
+fullName: com.azure.messaging.servicebus.implementation.models.RuleAction.RuleAction
+name: RuleAction
+nameWithType: RuleAction.RuleAction
+members:
+- uid: com.azure.messaging.servicebus.implementation.models.RuleAction.RuleAction()
+  fullName: com.azure.messaging.servicebus.implementation.models.RuleAction.RuleAction()
+  name: RuleAction()
+  nameWithType: RuleAction.RuleAction()
+  syntax: public RuleAction()
+type: constructor
+metadata: {}
+package: com.azure.messaging.servicebus.implementation.models
+artifact: com.azure:azure-messaging-servicebus:7.0.0-beta.5

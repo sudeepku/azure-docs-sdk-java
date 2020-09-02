@@ -1,0 +1,25 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.network.fluent.inner.ApplicationGatewayUrlPathMapInner.withProvisioningState*
+fullName: com.azure.resourcemanager.network.fluent.inner.ApplicationGatewayUrlPathMapInner.withProvisioningState
+name: withProvisioningState
+nameWithType: ApplicationGatewayUrlPathMapInner.withProvisioningState
+members:
+- uid: com.azure.resourcemanager.network.fluent.inner.ApplicationGatewayUrlPathMapInner.withProvisioningState(java.lang.String)
+  fullName: com.azure.resourcemanager.network.fluent.inner.ApplicationGatewayUrlPathMapInner.withProvisioningState(String provisioningState)
+  name: withProvisioningState(String provisioningState)
+  nameWithType: ApplicationGatewayUrlPathMapInner.withProvisioningState(String provisioningState)
+  summary: |-
+    Set the provisioningState property: Provisioning state of the backend http settings resource. Possible values
+     are: 'Updating', 'Deleting', and 'Failed'.
+  parameters:
+  - description: the provisioningState value to set.
+    name: provisioningState
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  syntax: public ApplicationGatewayUrlPathMapInner withProvisioningState(String provisioningState)
+  returns:
+    description: the ApplicationGatewayUrlPathMapInner object itself.
+    type: <xref href="com.azure.resourcemanager.network.fluent.inner.ApplicationGatewayUrlPathMapInner?alt=com.azure.resourcemanager.network.fluent.inner.ApplicationGatewayUrlPathMapInner&text=ApplicationGatewayUrlPathMapInner" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.resourcemanager.network.fluent.inner
+artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.0.0-beta.2

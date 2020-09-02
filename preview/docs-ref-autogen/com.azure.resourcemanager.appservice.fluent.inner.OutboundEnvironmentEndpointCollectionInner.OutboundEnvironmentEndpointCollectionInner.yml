@@ -1,0 +1,15 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.appservice.fluent.inner.OutboundEnvironmentEndpointCollectionInner.OutboundEnvironmentEndpointCollectionInner*
+fullName: com.azure.resourcemanager.appservice.fluent.inner.OutboundEnvironmentEndpointCollectionInner.OutboundEnvironmentEndpointCollectionInner
+name: OutboundEnvironmentEndpointCollectionInner
+nameWithType: OutboundEnvironmentEndpointCollectionInner.OutboundEnvironmentEndpointCollectionInner
+members:
+- uid: com.azure.resourcemanager.appservice.fluent.inner.OutboundEnvironmentEndpointCollectionInner.OutboundEnvironmentEndpointCollectionInner()
+  fullName: com.azure.resourcemanager.appservice.fluent.inner.OutboundEnvironmentEndpointCollectionInner.OutboundEnvironmentEndpointCollectionInner()
+  name: OutboundEnvironmentEndpointCollectionInner()
+  nameWithType: OutboundEnvironmentEndpointCollectionInner.OutboundEnvironmentEndpointCollectionInner()
+  syntax: public OutboundEnvironmentEndpointCollectionInner()
+type: constructor
+metadata: {}
+package: com.azure.resourcemanager.appservice.fluent.inner
+artifact: com.azure.resourcemanager:azure-resourcemanager-appservice:2.0.0-beta.2

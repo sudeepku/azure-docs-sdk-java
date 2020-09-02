@@ -1,0 +1,51 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.containerservice.fluent.ManagedClustersClient.beginResetAadProfileWithoutPollingAsync*
+fullName: com.azure.resourcemanager.containerservice.fluent.ManagedClustersClient.beginResetAadProfileWithoutPollingAsync
+name: beginResetAadProfileWithoutPollingAsync
+nameWithType: ManagedClustersClient.beginResetAadProfileWithoutPollingAsync
+members:
+- uid: com.azure.resourcemanager.containerservice.fluent.ManagedClustersClient.beginResetAadProfileWithoutPollingAsync(java.lang.String,java.lang.String,com.azure.resourcemanager.containerservice.models.ManagedClusterAadProfile)
+  fullName: com.azure.resourcemanager.containerservice.fluent.ManagedClustersClient.beginResetAadProfileWithoutPollingAsync(String resourceGroupName, String resourceName, ManagedClusterAadProfile parameters)
+  name: beginResetAadProfileWithoutPollingAsync(String resourceGroupName, String resourceName, ManagedClusterAadProfile parameters)
+  nameWithType: ManagedClustersClient.beginResetAadProfileWithoutPollingAsync(String resourceGroupName, String resourceName, ManagedClusterAadProfile parameters)
+  summary: Update the AAD Profile for a managed cluster.
+  parameters:
+  - description: The name of the resource group.
+    name: resourceGroupName
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  - description: The name of the managed cluster resource.
+    name: resourceName
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  - description: AADProfile specifies attributes for Azure Active Directory integration.
+    name: parameters
+    type: <xref href="com.azure.resourcemanager.containerservice.models.ManagedClusterAadProfile?alt=com.azure.resourcemanager.containerservice.models.ManagedClusterAadProfile&text=ManagedClusterAadProfile" data-throw-if-not-resolved="False" />
+  syntax: public Mono<Void> beginResetAadProfileWithoutPollingAsync(String resourceGroupName, String resourceName, ManagedClusterAadProfile parameters)
+  returns:
+    description: the completion.
+    type: <xref href="reactor.core.publisher.Mono?alt=reactor.core.publisher.Mono&text=Mono" data-throw-if-not-resolved="False" />&lt;<xref href="java.lang.Void?alt=java.lang.Void&text=Void" data-throw-if-not-resolved="False" />&gt;
+- uid: com.azure.resourcemanager.containerservice.fluent.ManagedClustersClient.beginResetAadProfileWithoutPollingAsync(java.lang.String,java.lang.String,com.azure.resourcemanager.containerservice.models.ManagedClusterAadProfile,com.azure.core.util.Context)
+  fullName: com.azure.resourcemanager.containerservice.fluent.ManagedClustersClient.beginResetAadProfileWithoutPollingAsync(String resourceGroupName, String resourceName, ManagedClusterAadProfile parameters, Context context)
+  name: beginResetAadProfileWithoutPollingAsync(String resourceGroupName, String resourceName, ManagedClusterAadProfile parameters, Context context)
+  nameWithType: ManagedClustersClient.beginResetAadProfileWithoutPollingAsync(String resourceGroupName, String resourceName, ManagedClusterAadProfile parameters, Context context)
+  summary: Update the AAD Profile for a managed cluster.
+  parameters:
+  - description: The name of the resource group.
+    name: resourceGroupName
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  - description: The name of the managed cluster resource.
+    name: resourceName
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  - description: AADProfile specifies attributes for Azure Active Directory integration.
+    name: parameters
+    type: <xref href="com.azure.resourcemanager.containerservice.models.ManagedClusterAadProfile?alt=com.azure.resourcemanager.containerservice.models.ManagedClusterAadProfile&text=ManagedClusterAadProfile" data-throw-if-not-resolved="False" />
+  - description: The context to associate with this operation.
+    name: context
+    type: <xref href="com.azure.core.util.Context?alt=com.azure.core.util.Context&text=Context" data-throw-if-not-resolved="False" />
+  syntax: public Mono<Void> beginResetAadProfileWithoutPollingAsync(String resourceGroupName, String resourceName, ManagedClusterAadProfile parameters, Context context)
+  returns:
+    description: the completion.
+    type: <xref href="reactor.core.publisher.Mono?alt=reactor.core.publisher.Mono&text=Mono" data-throw-if-not-resolved="False" />&lt;<xref href="java.lang.Void?alt=java.lang.Void&text=Void" data-throw-if-not-resolved="False" />&gt;
+type: method
+metadata: {}
+package: com.azure.resourcemanager.containerservice.fluent
+artifact: com.azure.resourcemanager:azure-resourcemanager-containerservice:2.0.0-beta.2

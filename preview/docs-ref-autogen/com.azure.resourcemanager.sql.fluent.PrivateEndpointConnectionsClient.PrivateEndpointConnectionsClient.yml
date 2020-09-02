@@ -1,0 +1,20 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.sql.fluent.PrivateEndpointConnectionsClient.PrivateEndpointConnectionsClient*
+fullName: com.azure.resourcemanager.sql.fluent.PrivateEndpointConnectionsClient.PrivateEndpointConnectionsClient
+name: PrivateEndpointConnectionsClient
+nameWithType: PrivateEndpointConnectionsClient.PrivateEndpointConnectionsClient
+members:
+- uid: com.azure.resourcemanager.sql.fluent.PrivateEndpointConnectionsClient.PrivateEndpointConnectionsClient(com.azure.resourcemanager.sql.SqlManagementClient)
+  fullName: com.azure.resourcemanager.sql.fluent.PrivateEndpointConnectionsClient.PrivateEndpointConnectionsClient(SqlManagementClient client)
+  name: PrivateEndpointConnectionsClient(SqlManagementClient client)
+  nameWithType: PrivateEndpointConnectionsClient.PrivateEndpointConnectionsClient(SqlManagementClient client)
+  summary: Initializes an instance of PrivateEndpointConnectionsClient.
+  parameters:
+  - description: the instance of the service client containing this operation class.
+    name: client
+    type: <xref href="com.azure.resourcemanager.sql.SqlManagementClient?alt=com.azure.resourcemanager.sql.SqlManagementClient&text=SqlManagementClient" data-throw-if-not-resolved="False" />
+  syntax: public PrivateEndpointConnectionsClient(SqlManagementClient client)
+type: constructor
+metadata: {}
+package: com.azure.resourcemanager.sql.fluent
+artifact: com.azure.resourcemanager:azure-resourcemanager-sql:2.0.0-beta.2

@@ -1,0 +1,20 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.monitor.fluent.MetricBaselinesClient.MetricBaselinesClient*
+fullName: com.azure.resourcemanager.monitor.fluent.MetricBaselinesClient.MetricBaselinesClient
+name: MetricBaselinesClient
+nameWithType: MetricBaselinesClient.MetricBaselinesClient
+members:
+- uid: com.azure.resourcemanager.monitor.fluent.MetricBaselinesClient.MetricBaselinesClient(com.azure.resourcemanager.monitor.MonitorClient)
+  fullName: com.azure.resourcemanager.monitor.fluent.MetricBaselinesClient.MetricBaselinesClient(MonitorClient client)
+  name: MetricBaselinesClient(MonitorClient client)
+  nameWithType: MetricBaselinesClient.MetricBaselinesClient(MonitorClient client)
+  summary: Initializes an instance of MetricBaselinesClient.
+  parameters:
+  - description: the instance of the service client containing this operation class.
+    name: client
+    type: <xref href="com.azure.resourcemanager.monitor.MonitorClient?alt=com.azure.resourcemanager.monitor.MonitorClient&text=MonitorClient" data-throw-if-not-resolved="False" />
+  syntax: public MetricBaselinesClient(MonitorClient client)
+type: constructor
+metadata: {}
+package: com.azure.resourcemanager.monitor.fluent
+artifact: com.azure.resourcemanager:azure-resourcemanager-monitor:2.0.0-beta.2

@@ -1,0 +1,32 @@
+### YamlMime:JavaMember
+uid: com.azure.data.schemaregistry.client.implementation.AzureSchemaRegistryRestService.getGroupsWithResponseAsync*
+fullName: com.azure.data.schemaregistry.client.implementation.AzureSchemaRegistryRestService.getGroupsWithResponseAsync
+name: getGroupsWithResponseAsync
+nameWithType: AzureSchemaRegistryRestService.getGroupsWithResponseAsync
+members:
+- uid: com.azure.data.schemaregistry.client.implementation.AzureSchemaRegistryRestService.getGroupsWithResponseAsync()
+  fullName: com.azure.data.schemaregistry.client.implementation.AzureSchemaRegistryRestService.getGroupsWithResponseAsync()
+  name: getGroupsWithResponseAsync()
+  nameWithType: AzureSchemaRegistryRestService.getGroupsWithResponseAsync()
+  summary: Get all schema groups in namespace.
+  syntax: public Mono<Response<List<String>>> getGroupsWithResponseAsync()
+  returns:
+    description: all schema groups in namespace.
+    type: <xref href="reactor.core.publisher.Mono?alt=reactor.core.publisher.Mono&text=Mono" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.core.http.rest.Response?alt=com.azure.core.http.rest.Response&text=Response" data-throw-if-not-resolved="False" />&lt;<xref href="java.util.List?alt=java.util.List&text=List" data-throw-if-not-resolved="False" />&lt;<xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />&gt;&gt;&gt;
+- uid: com.azure.data.schemaregistry.client.implementation.AzureSchemaRegistryRestService.getGroupsWithResponseAsync(com.azure.core.util.Context)
+  fullName: com.azure.data.schemaregistry.client.implementation.AzureSchemaRegistryRestService.getGroupsWithResponseAsync(Context context)
+  name: getGroupsWithResponseAsync(Context context)
+  nameWithType: AzureSchemaRegistryRestService.getGroupsWithResponseAsync(Context context)
+  summary: Get all schema groups in namespace.
+  parameters:
+  - description: The context to associate with this operation.
+    name: context
+    type: <xref href="com.azure.core.util.Context?alt=com.azure.core.util.Context&text=Context" data-throw-if-not-resolved="False" />
+  syntax: public Mono<Response<List<String>>> getGroupsWithResponseAsync(Context context)
+  returns:
+    description: all schema groups in namespace.
+    type: <xref href="reactor.core.publisher.Mono?alt=reactor.core.publisher.Mono&text=Mono" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.core.http.rest.Response?alt=com.azure.core.http.rest.Response&text=Response" data-throw-if-not-resolved="False" />&lt;<xref href="java.util.List?alt=java.util.List&text=List" data-throw-if-not-resolved="False" />&lt;<xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />&gt;&gt;&gt;
+type: method
+metadata: {}
+package: com.azure.data.schemaregistry.client.implementation
+artifact: com.azure:azure-data-schemaregistry:1.0.0-beta.1

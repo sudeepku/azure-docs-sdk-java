@@ -1,0 +1,16 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.keyvault.fluent.inner.VaultListResultInner.validate*
+fullName: com.azure.resourcemanager.keyvault.fluent.inner.VaultListResultInner.validate
+name: validate
+nameWithType: VaultListResultInner.validate
+members:
+- uid: com.azure.resourcemanager.keyvault.fluent.inner.VaultListResultInner.validate()
+  fullName: com.azure.resourcemanager.keyvault.fluent.inner.VaultListResultInner.validate()
+  name: validate()
+  nameWithType: VaultListResultInner.validate()
+  summary: Validates the instance.
+  syntax: public void validate()
+type: method
+metadata: {}
+package: com.azure.resourcemanager.keyvault.fluent.inner
+artifact: com.azure.resourcemanager:azure-resourcemanager-keyvault:2.0.0-beta.2

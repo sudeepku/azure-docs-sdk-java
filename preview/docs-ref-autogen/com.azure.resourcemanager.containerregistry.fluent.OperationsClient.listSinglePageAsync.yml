@@ -1,0 +1,32 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.containerregistry.fluent.OperationsClient.listSinglePageAsync*
+fullName: com.azure.resourcemanager.containerregistry.fluent.OperationsClient.listSinglePageAsync
+name: listSinglePageAsync
+nameWithType: OperationsClient.listSinglePageAsync
+members:
+- uid: com.azure.resourcemanager.containerregistry.fluent.OperationsClient.listSinglePageAsync()
+  fullName: com.azure.resourcemanager.containerregistry.fluent.OperationsClient.listSinglePageAsync()
+  name: listSinglePageAsync()
+  nameWithType: OperationsClient.listSinglePageAsync()
+  summary: Lists all of the available Azure Container Registry REST API operations.
+  syntax: public Mono<PagedResponse<OperationDefinitionInner>> listSinglePageAsync()
+  returns:
+    description: the result of a request to list container registry operations.
+    type: <xref href="reactor.core.publisher.Mono?alt=reactor.core.publisher.Mono&text=Mono" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.core.http.rest.PagedResponse?alt=com.azure.core.http.rest.PagedResponse&text=PagedResponse" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.resourcemanager.containerregistry.fluent.inner.OperationDefinitionInner?alt=com.azure.resourcemanager.containerregistry.fluent.inner.OperationDefinitionInner&text=OperationDefinitionInner" data-throw-if-not-resolved="False" />&gt;&gt;
+- uid: com.azure.resourcemanager.containerregistry.fluent.OperationsClient.listSinglePageAsync(com.azure.core.util.Context)
+  fullName: com.azure.resourcemanager.containerregistry.fluent.OperationsClient.listSinglePageAsync(Context context)
+  name: listSinglePageAsync(Context context)
+  nameWithType: OperationsClient.listSinglePageAsync(Context context)
+  summary: Lists all of the available Azure Container Registry REST API operations.
+  parameters:
+  - description: The context to associate with this operation.
+    name: context
+    type: <xref href="com.azure.core.util.Context?alt=com.azure.core.util.Context&text=Context" data-throw-if-not-resolved="False" />
+  syntax: public Mono<PagedResponse<OperationDefinitionInner>> listSinglePageAsync(Context context)
+  returns:
+    description: the result of a request to list container registry operations.
+    type: <xref href="reactor.core.publisher.Mono?alt=reactor.core.publisher.Mono&text=Mono" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.core.http.rest.PagedResponse?alt=com.azure.core.http.rest.PagedResponse&text=PagedResponse" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.resourcemanager.containerregistry.fluent.inner.OperationDefinitionInner?alt=com.azure.resourcemanager.containerregistry.fluent.inner.OperationDefinitionInner&text=OperationDefinitionInner" data-throw-if-not-resolved="False" />&gt;&gt;
+type: method
+metadata: {}
+package: com.azure.resourcemanager.containerregistry.fluent
+artifact: com.azure.resourcemanager:azure-resourcemanager-containerregistry:2.0.0-beta.2

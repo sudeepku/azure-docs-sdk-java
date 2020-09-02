@@ -1,0 +1,19 @@
+### YamlMime:JavaMember
+uid: com.azure.data.schemaregistry.client.implementation.models.SchemaGroup.getGroupProperties*
+fullName: com.azure.data.schemaregistry.client.implementation.models.SchemaGroup.getGroupProperties
+name: getGroupProperties
+nameWithType: SchemaGroup.getGroupProperties
+members:
+- uid: com.azure.data.schemaregistry.client.implementation.models.SchemaGroup.getGroupProperties()
+  fullName: com.azure.data.schemaregistry.client.implementation.models.SchemaGroup.getGroupProperties()
+  name: getGroupProperties()
+  nameWithType: SchemaGroup.getGroupProperties()
+  summary: 'Get the groupProperties property: Dictionary of &lt;string&gt;.'
+  syntax: public Map<String,String> getGroupProperties()
+  returns:
+    description: the groupProperties value.
+    type: <xref href="java.util.Map?alt=java.util.Map&text=Map" data-throw-if-not-resolved="False" />&lt;<xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />,<xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />&gt;
+type: method
+metadata: {}
+package: com.azure.data.schemaregistry.client.implementation.models
+artifact: com.azure:azure-data-schemaregistry:1.0.0-beta.1

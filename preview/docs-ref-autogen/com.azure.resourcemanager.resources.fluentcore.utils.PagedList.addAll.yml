@@ -1,0 +1,32 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.resources.fluentcore.utils.PagedList.addAll*
+fullName: com.azure.resourcemanager.resources.fluentcore.utils.PagedList<E>.addAll
+name: addAll
+nameWithType: PagedList<E>.addAll
+members:
+- uid: com.azure.resourcemanager.resources.fluentcore.utils.PagedList.addAll(int,java.util.Collection<? extends E>)
+  fullName: com.azure.resourcemanager.resources.fluentcore.utils.PagedList<E>.addAll(int index, Collection<? extends E> c)
+  name: addAll(int index, Collection<? extends E> c)
+  nameWithType: PagedList<E>.addAll(int index, Collection<? extends E> c)
+  parameters:
+  - name: index
+    type: <xref href="int?alt=int&text=int" data-throw-if-not-resolved="False" />
+  - name: c
+    type: <xref href="java.util.Collection?alt=java.util.Collection&text=Collection" data-throw-if-not-resolved="False" />&lt;<xref href="? extends E?alt=? extends E&text=? extends E" data-throw-if-not-resolved="False" />&gt;
+  syntax: public boolean addAll(int index, Collection<? extends E> c)
+  returns:
+    type: <xref href="boolean?alt=boolean&text=boolean" data-throw-if-not-resolved="False" />
+- uid: com.azure.resourcemanager.resources.fluentcore.utils.PagedList.addAll(java.util.Collection<? extends E>)
+  fullName: com.azure.resourcemanager.resources.fluentcore.utils.PagedList<E>.addAll(Collection<? extends E> c)
+  name: addAll(Collection<? extends E> c)
+  nameWithType: PagedList<E>.addAll(Collection<? extends E> c)
+  parameters:
+  - name: c
+    type: <xref href="java.util.Collection?alt=java.util.Collection&text=Collection" data-throw-if-not-resolved="False" />&lt;<xref href="? extends E?alt=? extends E&text=? extends E" data-throw-if-not-resolved="False" />&gt;
+  syntax: public boolean addAll(Collection<? extends E> c)
+  returns:
+    type: <xref href="boolean?alt=boolean&text=boolean" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.resourcemanager.resources.fluentcore.utils
+artifact: com.azure.resourcemanager:azure-resourcemanager-resources:2.0.0-beta.2

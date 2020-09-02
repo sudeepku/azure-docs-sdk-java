@@ -1,0 +1,15 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.appservice.fluent.inner.RestoreRequestInner.RestoreRequestInner*
+fullName: com.azure.resourcemanager.appservice.fluent.inner.RestoreRequestInner.RestoreRequestInner
+name: RestoreRequestInner
+nameWithType: RestoreRequestInner.RestoreRequestInner
+members:
+- uid: com.azure.resourcemanager.appservice.fluent.inner.RestoreRequestInner.RestoreRequestInner()
+  fullName: com.azure.resourcemanager.appservice.fluent.inner.RestoreRequestInner.RestoreRequestInner()
+  name: RestoreRequestInner()
+  nameWithType: RestoreRequestInner.RestoreRequestInner()
+  syntax: public RestoreRequestInner()
+type: constructor
+metadata: {}
+package: com.azure.resourcemanager.appservice.fluent.inner
+artifact: com.azure.resourcemanager:azure-resourcemanager-appservice:2.0.0-beta.2

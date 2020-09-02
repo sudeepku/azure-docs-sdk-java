@@ -1,0 +1,19 @@
+### YamlMime:JavaMember
+uid: com.azure.messaging.servicebus.implementation.models.CorrelationFilter.getProperties*
+fullName: com.azure.messaging.servicebus.implementation.models.CorrelationFilter.getProperties
+name: getProperties
+nameWithType: CorrelationFilter.getProperties
+members:
+- uid: com.azure.messaging.servicebus.implementation.models.CorrelationFilter.getProperties()
+  fullName: com.azure.messaging.servicebus.implementation.models.CorrelationFilter.getProperties()
+  name: getProperties()
+  nameWithType: CorrelationFilter.getProperties()
+  summary: 'Get the properties property: The Properties property.'
+  syntax: public List<KeyValue> getProperties()
+  returns:
+    description: the properties value.
+    type: <xref href="java.util.List?alt=java.util.List&text=List" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.messaging.servicebus.implementation.models.KeyValue?alt=com.azure.messaging.servicebus.implementation.models.KeyValue&text=KeyValue" data-throw-if-not-resolved="False" />&gt;
+type: method
+metadata: {}
+package: com.azure.messaging.servicebus.implementation.models
+artifact: com.azure:azure-messaging-servicebus:7.0.0-beta.5

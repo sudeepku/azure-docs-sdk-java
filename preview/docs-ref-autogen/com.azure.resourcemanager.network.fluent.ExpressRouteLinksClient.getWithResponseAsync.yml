@@ -1,0 +1,51 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.network.fluent.ExpressRouteLinksClient.getWithResponseAsync*
+fullName: com.azure.resourcemanager.network.fluent.ExpressRouteLinksClient.getWithResponseAsync
+name: getWithResponseAsync
+nameWithType: ExpressRouteLinksClient.getWithResponseAsync
+members:
+- uid: com.azure.resourcemanager.network.fluent.ExpressRouteLinksClient.getWithResponseAsync(java.lang.String,java.lang.String,java.lang.String)
+  fullName: com.azure.resourcemanager.network.fluent.ExpressRouteLinksClient.getWithResponseAsync(String resourceGroupName, String expressRoutePortName, String linkName)
+  name: getWithResponseAsync(String resourceGroupName, String expressRoutePortName, String linkName)
+  nameWithType: ExpressRouteLinksClient.getWithResponseAsync(String resourceGroupName, String expressRoutePortName, String linkName)
+  summary: Retrieves the specified ExpressRouteLink resource.
+  parameters:
+  - description: The name of the resource group.
+    name: resourceGroupName
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  - description: The name of the ExpressRoutePort resource.
+    name: expressRoutePortName
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  - description: The name of the ExpressRouteLink resource.
+    name: linkName
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  syntax: public Mono<Response<ExpressRouteLinkInner>> getWithResponseAsync(String resourceGroupName, String expressRoutePortName, String linkName)
+  returns:
+    description: expressRouteLink child resource definition.
+    type: <xref href="reactor.core.publisher.Mono?alt=reactor.core.publisher.Mono&text=Mono" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.core.http.rest.Response?alt=com.azure.core.http.rest.Response&text=Response" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.resourcemanager.network.fluent.inner.ExpressRouteLinkInner?alt=com.azure.resourcemanager.network.fluent.inner.ExpressRouteLinkInner&text=ExpressRouteLinkInner" data-throw-if-not-resolved="False" />&gt;&gt;
+- uid: com.azure.resourcemanager.network.fluent.ExpressRouteLinksClient.getWithResponseAsync(java.lang.String,java.lang.String,java.lang.String,com.azure.core.util.Context)
+  fullName: com.azure.resourcemanager.network.fluent.ExpressRouteLinksClient.getWithResponseAsync(String resourceGroupName, String expressRoutePortName, String linkName, Context context)
+  name: getWithResponseAsync(String resourceGroupName, String expressRoutePortName, String linkName, Context context)
+  nameWithType: ExpressRouteLinksClient.getWithResponseAsync(String resourceGroupName, String expressRoutePortName, String linkName, Context context)
+  summary: Retrieves the specified ExpressRouteLink resource.
+  parameters:
+  - description: The name of the resource group.
+    name: resourceGroupName
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  - description: The name of the ExpressRoutePort resource.
+    name: expressRoutePortName
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  - description: The name of the ExpressRouteLink resource.
+    name: linkName
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  - description: The context to associate with this operation.
+    name: context
+    type: <xref href="com.azure.core.util.Context?alt=com.azure.core.util.Context&text=Context" data-throw-if-not-resolved="False" />
+  syntax: public Mono<Response<ExpressRouteLinkInner>> getWithResponseAsync(String resourceGroupName, String expressRoutePortName, String linkName, Context context)
+  returns:
+    description: expressRouteLink child resource definition.
+    type: <xref href="reactor.core.publisher.Mono?alt=reactor.core.publisher.Mono&text=Mono" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.core.http.rest.Response?alt=com.azure.core.http.rest.Response&text=Response" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.resourcemanager.network.fluent.inner.ExpressRouteLinkInner?alt=com.azure.resourcemanager.network.fluent.inner.ExpressRouteLinkInner&text=ExpressRouteLinkInner" data-throw-if-not-resolved="False" />&gt;&gt;
+type: method
+metadata: {}
+package: com.azure.resourcemanager.network.fluent
+artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.0.0-beta.2

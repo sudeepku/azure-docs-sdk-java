@@ -1,0 +1,23 @@
+### YamlMime:JavaMember
+uid: com.azure.cosmos.implementation.guava25.base.CharMatcher.invisible*
+fullName: com.azure.cosmos.implementation.guava25.base.CharMatcher.invisible
+name: invisible
+nameWithType: CharMatcher.invisible
+members:
+- uid: com.azure.cosmos.implementation.guava25.base.CharMatcher.invisible()
+  fullName: com.azure.cosmos.implementation.guava25.base.CharMatcher.invisible()
+  name: invisible()
+  nameWithType: CharMatcher.invisible()
+  summary: |-
+    Determines whether a character is invisible; that is, if its Unicode category is any of
+     SPACE_SEPARATOR, LINE_SEPARATOR, PARAGRAPH_SEPARATOR, CONTROL, FORMAT, SURROGATE, and
+     PRIVATE_USE according to ICU4J.
+
+     <p>See also the Unicode Default_Ignorable_Code_Point property (available via ICU).
+  syntax: public static CharMatcher invisible()
+  returns:
+    type: <xref href="com.azure.cosmos.implementation.guava25.base.CharMatcher?alt=com.azure.cosmos.implementation.guava25.base.CharMatcher&text=CharMatcher" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.cosmos.implementation.guava25.base
+artifact: com.azure:azure-cosmos:4.3.2-beta.2

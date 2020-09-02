@@ -1,0 +1,24 @@
+### YamlMime:JavaMember
+uid: com.azure.search.documents.util.SearchPagedIterable.getCoverage*
+fullName: com.azure.search.documents.util.SearchPagedIterable.getCoverage
+name: getCoverage
+nameWithType: SearchPagedIterable.getCoverage
+members:
+- uid: com.azure.search.documents.util.SearchPagedIterable.getCoverage()
+  fullName: com.azure.search.documents.util.SearchPagedIterable.getCoverage()
+  name: getCoverage()
+  nameWithType: SearchPagedIterable.getCoverage()
+  summary: |-
+    The percentage of the index covered in the search request.
+     <p>
+     If <code>minimumCoverage</code> wasn't supplied in the request this will be <code>null</code>.
+  syntax: public Double getCoverage()
+  returns:
+    description: |-
+      The percentage of the index covered in the search request if <code>minimumCoverage</code> was set in the
+       request, otherwise <code>null</code>.
+    type: <xref href="java.lang.Double?alt=java.lang.Double&text=Double" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.search.documents.util
+artifact: com.azure:azure-search-documents:11.0.0

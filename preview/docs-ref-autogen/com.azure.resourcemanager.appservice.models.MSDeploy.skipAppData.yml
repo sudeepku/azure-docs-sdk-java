@@ -1,0 +1,22 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.appservice.models.MSDeploy.skipAppData*
+fullName: com.azure.resourcemanager.appservice.models.MSDeploy.skipAppData
+name: skipAppData
+nameWithType: MSDeploy.skipAppData
+members:
+- uid: com.azure.resourcemanager.appservice.models.MSDeploy.skipAppData()
+  fullName: com.azure.resourcemanager.appservice.models.MSDeploy.skipAppData()
+  name: skipAppData()
+  nameWithType: MSDeploy.skipAppData()
+  summary: |-
+    Get the skipAppData property: Controls whether the MSDeploy operation skips the App_Data directory. If set to
+     &lt;code&gt;true&lt;/code&gt;, the existing App_Data directory on the destination will not be deleted, and any
+     App_Data directory in the source will be ignored. Setting is &lt;code&gt;false&lt;/code&gt; by default.
+  syntax: public Boolean skipAppData()
+  returns:
+    description: the skipAppData value.
+    type: <xref href="java.lang.Boolean?alt=java.lang.Boolean&text=Boolean" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.resourcemanager.appservice.models
+artifact: com.azure.resourcemanager:azure-resourcemanager-appservice:2.0.0-beta.2

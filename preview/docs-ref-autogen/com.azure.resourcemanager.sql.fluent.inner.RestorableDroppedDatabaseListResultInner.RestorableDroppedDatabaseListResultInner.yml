@@ -1,0 +1,15 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.sql.fluent.inner.RestorableDroppedDatabaseListResultInner.RestorableDroppedDatabaseListResultInner*
+fullName: com.azure.resourcemanager.sql.fluent.inner.RestorableDroppedDatabaseListResultInner.RestorableDroppedDatabaseListResultInner
+name: RestorableDroppedDatabaseListResultInner
+nameWithType: RestorableDroppedDatabaseListResultInner.RestorableDroppedDatabaseListResultInner
+members:
+- uid: com.azure.resourcemanager.sql.fluent.inner.RestorableDroppedDatabaseListResultInner.RestorableDroppedDatabaseListResultInner()
+  fullName: com.azure.resourcemanager.sql.fluent.inner.RestorableDroppedDatabaseListResultInner.RestorableDroppedDatabaseListResultInner()
+  name: RestorableDroppedDatabaseListResultInner()
+  nameWithType: RestorableDroppedDatabaseListResultInner.RestorableDroppedDatabaseListResultInner()
+  syntax: public RestorableDroppedDatabaseListResultInner()
+type: constructor
+metadata: {}
+package: com.azure.resourcemanager.sql.fluent.inner
+artifact: com.azure.resourcemanager:azure-resourcemanager-sql:2.0.0-beta.2

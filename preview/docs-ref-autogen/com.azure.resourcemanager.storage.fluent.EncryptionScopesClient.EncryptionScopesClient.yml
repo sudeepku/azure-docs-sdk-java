@@ -1,0 +1,20 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.storage.fluent.EncryptionScopesClient.EncryptionScopesClient*
+fullName: com.azure.resourcemanager.storage.fluent.EncryptionScopesClient.EncryptionScopesClient
+name: EncryptionScopesClient
+nameWithType: EncryptionScopesClient.EncryptionScopesClient
+members:
+- uid: com.azure.resourcemanager.storage.fluent.EncryptionScopesClient.EncryptionScopesClient(com.azure.resourcemanager.storage.StorageManagementClient)
+  fullName: com.azure.resourcemanager.storage.fluent.EncryptionScopesClient.EncryptionScopesClient(StorageManagementClient client)
+  name: EncryptionScopesClient(StorageManagementClient client)
+  nameWithType: EncryptionScopesClient.EncryptionScopesClient(StorageManagementClient client)
+  summary: Initializes an instance of EncryptionScopesClient.
+  parameters:
+  - description: the instance of the service client containing this operation class.
+    name: client
+    type: <xref href="com.azure.resourcemanager.storage.StorageManagementClient?alt=com.azure.resourcemanager.storage.StorageManagementClient&text=StorageManagementClient" data-throw-if-not-resolved="False" />
+  syntax: public EncryptionScopesClient(StorageManagementClient client)
+type: constructor
+metadata: {}
+package: com.azure.resourcemanager.storage.fluent
+artifact: com.azure.resourcemanager:azure-resourcemanager-storage:2.0.0-beta.2

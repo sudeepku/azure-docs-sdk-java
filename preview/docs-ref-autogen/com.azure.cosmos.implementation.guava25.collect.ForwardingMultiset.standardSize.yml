@@ -1,0 +1,21 @@
+### YamlMime:JavaMember
+uid: com.azure.cosmos.implementation.guava25.collect.ForwardingMultiset.standardSize*
+fullName: com.azure.cosmos.implementation.guava25.collect.ForwardingMultiset<E>.standardSize
+name: standardSize
+nameWithType: ForwardingMultiset<E>.standardSize
+members:
+- uid: com.azure.cosmos.implementation.guava25.collect.ForwardingMultiset.standardSize()
+  fullName: com.azure.cosmos.implementation.guava25.collect.ForwardingMultiset<E>.standardSize()
+  name: standardSize()
+  nameWithType: ForwardingMultiset<E>.standardSize()
+  summary: |-
+    A sensible, albeit inefficient, definition of <xref uid="#size" data-throw-if-not-resolved="false">#size</xref> in terms of <xref uid="#entrySet" data-throw-if-not-resolved="false">#entrySet</xref>. If
+     you override <xref uid="#entrySet" data-throw-if-not-resolved="false">#entrySet</xref>, you may wish to override <xref uid="#size" data-throw-if-not-resolved="false">#size</xref> to forward to this
+     implementation.
+  syntax: protected int standardSize()
+  returns:
+    type: <xref href="int?alt=int&text=int" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.cosmos.implementation.guava25.collect
+artifact: com.azure:azure-cosmos:4.3.2-beta.2

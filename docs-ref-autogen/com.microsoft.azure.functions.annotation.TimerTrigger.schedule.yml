@@ -1,0 +1,53 @@
+### YamlMime:JavaMember
+uid: com.microsoft.azure.functions.annotation.TimerTrigger.schedule*
+fullName: com.microsoft.azure.functions.annotation.TimerTrigger.schedule
+name: schedule
+nameWithType: TimerTrigger.schedule
+members:
+- uid: com.microsoft.azure.functions.annotation.TimerTrigger.schedule()
+  fullName: com.microsoft.azure.functions.annotation.TimerTrigger.schedule()
+  name: schedule()
+  nameWithType: TimerTrigger.schedule()
+  summary: |-
+    A <a href="http://en.wikipedia.org/wiki/Cron#CRON_expression">CRON expression</a> in the format
+     <code>{second} {minute} {hour} {day} {month} {day-of-week}</code>.
+
+     <table>
+         <caption>A table showing some examples of CRON expressions that could be used.</caption>
+         <tr>
+             <th>Goal</th>
+             <th>CRON Expression</th>
+         </tr>
+         <tr>
+             <td>To trigger once every five minutes:</td>
+             <td>0 *&#47;5 * * * *</td>
+         </tr>
+         <tr>
+             <td>To trigger once at the top of every hour:</td>
+             <td>0 0 * * * *</td>
+         </tr>
+         <tr>
+             <td>To trigger once every two hours:</td>
+             <td>0 0 *&#47;2 * * *</td>
+         </tr>
+         <tr>
+             <td>To trigger once every hour from 9 AM to 5 PM:</td>
+             <td>0 0 9-17 * * *</td>
+         </tr>
+         <tr>
+             <td>To trigger at 9:30 AM every day:</td>
+             <td>0 30 9 * * *</td>
+         </tr>
+         <tr>
+             <td>To trigger at 9:30 AM every weekday:</td>
+             <td>0 30 9 * * 1-5</td>
+         </tr>
+     </table>
+  syntax: public abstract String schedule()
+  returns:
+    description: A string representing a CRON expression that will be used to schedule a function to run.
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.microsoft.azure.functions.annotation
+artifact: com.microsoft.azure.functions:azure-functions-java-library:1.3.1

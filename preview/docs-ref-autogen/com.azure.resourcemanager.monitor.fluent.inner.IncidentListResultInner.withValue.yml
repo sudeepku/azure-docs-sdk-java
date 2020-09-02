@@ -1,0 +1,23 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.monitor.fluent.inner.IncidentListResultInner.withValue*
+fullName: com.azure.resourcemanager.monitor.fluent.inner.IncidentListResultInner.withValue
+name: withValue
+nameWithType: IncidentListResultInner.withValue
+members:
+- uid: com.azure.resourcemanager.monitor.fluent.inner.IncidentListResultInner.withValue(java.util.List<com.azure.resourcemanager.monitor.fluent.inner.IncidentInner>)
+  fullName: com.azure.resourcemanager.monitor.fluent.inner.IncidentListResultInner.withValue(List<IncidentInner> value)
+  name: withValue(List<IncidentInner> value)
+  nameWithType: IncidentListResultInner.withValue(List<IncidentInner> value)
+  summary: 'Set the value property: the incident collection.'
+  parameters:
+  - description: the value value to set.
+    name: value
+    type: <xref href="java.util.List?alt=java.util.List&text=List" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.resourcemanager.monitor.fluent.inner.IncidentInner?alt=com.azure.resourcemanager.monitor.fluent.inner.IncidentInner&text=IncidentInner" data-throw-if-not-resolved="False" />&gt;
+  syntax: public IncidentListResultInner withValue(List<IncidentInner> value)
+  returns:
+    description: the IncidentListResultInner object itself.
+    type: <xref href="com.azure.resourcemanager.monitor.fluent.inner.IncidentListResultInner?alt=com.azure.resourcemanager.monitor.fluent.inner.IncidentListResultInner&text=IncidentListResultInner" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.resourcemanager.monitor.fluent.inner
+artifact: com.azure.resourcemanager:azure-resourcemanager-monitor:2.0.0-beta.2

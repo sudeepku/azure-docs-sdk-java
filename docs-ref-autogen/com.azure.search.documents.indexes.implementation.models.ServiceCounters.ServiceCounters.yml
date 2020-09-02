@@ -1,0 +1,29 @@
+### YamlMime:JavaMember
+uid: com.azure.search.documents.indexes.implementation.models.ServiceCounters.ServiceCounters*
+fullName: com.azure.search.documents.indexes.implementation.models.ServiceCounters.ServiceCounters
+name: ServiceCounters
+nameWithType: ServiceCounters.ServiceCounters
+members:
+- uid: com.azure.search.documents.indexes.implementation.models.ServiceCounters.ServiceCounters(com.azure.search.documents.indexes.implementation.models.ResourceCounter,com.azure.search.documents.indexes.implementation.models.ResourceCounter,com.azure.search.documents.indexes.implementation.models.ResourceCounter,com.azure.search.documents.indexes.implementation.models.ResourceCounter,com.azure.search.documents.indexes.implementation.models.ResourceCounter,com.azure.search.documents.indexes.implementation.models.ResourceCounter)
+  fullName: com.azure.search.documents.indexes.implementation.models.ServiceCounters.ServiceCounters(ResourceCounter documentCounter, ResourceCounter indexCounter, ResourceCounter indexerCounter, ResourceCounter dataSourceCounter, ResourceCounter storageSizeCounter, ResourceCounter synonymMapCounter)
+  name: ServiceCounters(ResourceCounter documentCounter, ResourceCounter indexCounter, ResourceCounter indexerCounter, ResourceCounter dataSourceCounter, ResourceCounter storageSizeCounter, ResourceCounter synonymMapCounter)
+  nameWithType: ServiceCounters.ServiceCounters(ResourceCounter documentCounter, ResourceCounter indexCounter, ResourceCounter indexerCounter, ResourceCounter dataSourceCounter, ResourceCounter storageSizeCounter, ResourceCounter synonymMapCounter)
+  summary: Creates an instance of ServiceCounters class.
+  parameters:
+  - name: documentCounter
+    type: <xref href="com.azure.search.documents.indexes.implementation.models.ResourceCounter?alt=com.azure.search.documents.indexes.implementation.models.ResourceCounter&text=ResourceCounter" data-throw-if-not-resolved="False" />
+  - name: indexCounter
+    type: <xref href="com.azure.search.documents.indexes.implementation.models.ResourceCounter?alt=com.azure.search.documents.indexes.implementation.models.ResourceCounter&text=ResourceCounter" data-throw-if-not-resolved="False" />
+  - name: indexerCounter
+    type: <xref href="com.azure.search.documents.indexes.implementation.models.ResourceCounter?alt=com.azure.search.documents.indexes.implementation.models.ResourceCounter&text=ResourceCounter" data-throw-if-not-resolved="False" />
+  - name: dataSourceCounter
+    type: <xref href="com.azure.search.documents.indexes.implementation.models.ResourceCounter?alt=com.azure.search.documents.indexes.implementation.models.ResourceCounter&text=ResourceCounter" data-throw-if-not-resolved="False" />
+  - name: storageSizeCounter
+    type: <xref href="com.azure.search.documents.indexes.implementation.models.ResourceCounter?alt=com.azure.search.documents.indexes.implementation.models.ResourceCounter&text=ResourceCounter" data-throw-if-not-resolved="False" />
+  - name: synonymMapCounter
+    type: <xref href="com.azure.search.documents.indexes.implementation.models.ResourceCounter?alt=com.azure.search.documents.indexes.implementation.models.ResourceCounter&text=ResourceCounter" data-throw-if-not-resolved="False" />
+  syntax: public ServiceCounters(ResourceCounter documentCounter, ResourceCounter indexCounter, ResourceCounter indexerCounter, ResourceCounter dataSourceCounter, ResourceCounter storageSizeCounter, ResourceCounter synonymMapCounter)
+type: constructor
+metadata: {}
+package: com.azure.search.documents.indexes.implementation.models
+artifact: com.azure:azure-search-documents:11.0.0

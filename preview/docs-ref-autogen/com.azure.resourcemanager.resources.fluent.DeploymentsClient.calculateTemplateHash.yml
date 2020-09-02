@@ -1,0 +1,39 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.resources.fluent.DeploymentsClient.calculateTemplateHash*
+fullName: com.azure.resourcemanager.resources.fluent.DeploymentsClient.calculateTemplateHash
+name: calculateTemplateHash
+nameWithType: DeploymentsClient.calculateTemplateHash
+members:
+- uid: com.azure.resourcemanager.resources.fluent.DeploymentsClient.calculateTemplateHash(java.lang.Object)
+  fullName: com.azure.resourcemanager.resources.fluent.DeploymentsClient.calculateTemplateHash(Object template)
+  name: calculateTemplateHash(Object template)
+  nameWithType: DeploymentsClient.calculateTemplateHash(Object template)
+  summary: Calculate the hash of the given template.
+  parameters:
+  - description: Any object.
+    name: template
+    type: <xref href="java.lang.Object?alt=java.lang.Object&text=Object" data-throw-if-not-resolved="False" />
+  syntax: public TemplateHashResultInner calculateTemplateHash(Object template)
+  returns:
+    description: result of the request to calculate template hash.
+    type: <xref href="com.azure.resourcemanager.resources.fluent.inner.TemplateHashResultInner?alt=com.azure.resourcemanager.resources.fluent.inner.TemplateHashResultInner&text=TemplateHashResultInner" data-throw-if-not-resolved="False" />
+- uid: com.azure.resourcemanager.resources.fluent.DeploymentsClient.calculateTemplateHash(java.lang.Object,com.azure.core.util.Context)
+  fullName: com.azure.resourcemanager.resources.fluent.DeploymentsClient.calculateTemplateHash(Object template, Context context)
+  name: calculateTemplateHash(Object template, Context context)
+  nameWithType: DeploymentsClient.calculateTemplateHash(Object template, Context context)
+  summary: Calculate the hash of the given template.
+  parameters:
+  - description: Any object.
+    name: template
+    type: <xref href="java.lang.Object?alt=java.lang.Object&text=Object" data-throw-if-not-resolved="False" />
+  - description: The context to associate with this operation.
+    name: context
+    type: <xref href="com.azure.core.util.Context?alt=com.azure.core.util.Context&text=Context" data-throw-if-not-resolved="False" />
+  syntax: public TemplateHashResultInner calculateTemplateHash(Object template, Context context)
+  returns:
+    description: result of the request to calculate template hash.
+    type: <xref href="com.azure.resourcemanager.resources.fluent.inner.TemplateHashResultInner?alt=com.azure.resourcemanager.resources.fluent.inner.TemplateHashResultInner&text=TemplateHashResultInner" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.resourcemanager.resources.fluent
+artifact: com.azure.resourcemanager:azure-resourcemanager-resources:2.0.0-beta.2

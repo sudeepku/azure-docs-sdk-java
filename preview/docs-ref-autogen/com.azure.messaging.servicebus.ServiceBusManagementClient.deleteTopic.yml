@@ -1,0 +1,20 @@
+### YamlMime:JavaMember
+uid: com.azure.messaging.servicebus.ServiceBusManagementClient.deleteTopic*
+fullName: com.azure.messaging.servicebus.ServiceBusManagementClient.deleteTopic
+name: deleteTopic
+nameWithType: ServiceBusManagementClient.deleteTopic
+members:
+- uid: com.azure.messaging.servicebus.ServiceBusManagementClient.deleteTopic(java.lang.String)
+  fullName: com.azure.messaging.servicebus.ServiceBusManagementClient.deleteTopic(String topicName)
+  name: deleteTopic(String topicName)
+  nameWithType: ServiceBusManagementClient.deleteTopic(String topicName)
+  summary: Deletes a topic the matching <code>topicName</code>.
+  parameters:
+  - description: Name of topic to delete.
+    name: topicName
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  syntax: public void deleteTopic(String topicName)
+type: method
+metadata: {}
+package: com.azure.messaging.servicebus
+artifact: com.azure:azure-messaging-servicebus:7.0.0-beta.5

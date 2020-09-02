@@ -1,0 +1,76 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.appservice.fluent.WebAppsClient.analyzeCustomHostnameSlot*
+fullName: com.azure.resourcemanager.appservice.fluent.WebAppsClient.analyzeCustomHostnameSlot
+name: analyzeCustomHostnameSlot
+nameWithType: WebAppsClient.analyzeCustomHostnameSlot
+members:
+- uid: com.azure.resourcemanager.appservice.fluent.WebAppsClient.analyzeCustomHostnameSlot(java.lang.String,java.lang.String,java.lang.String)
+  fullName: com.azure.resourcemanager.appservice.fluent.WebAppsClient.analyzeCustomHostnameSlot(String resourceGroupName, String name, String slot)
+  name: analyzeCustomHostnameSlot(String resourceGroupName, String name, String slot)
+  nameWithType: WebAppsClient.analyzeCustomHostnameSlot(String resourceGroupName, String name, String slot)
+  summary: Description for Analyze a custom hostname.
+  parameters:
+  - description: Name of the resource group to which the resource belongs.
+    name: resourceGroupName
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  - description: Name of web app.
+    name: name
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  - description: Name of web app slot. If not specified then will default to production slot.
+    name: slot
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  syntax: public CustomHostnameAnalysisResultInner analyzeCustomHostnameSlot(String resourceGroupName, String name, String slot)
+  returns:
+    description: custom domain analysis.
+    type: <xref href="com.azure.resourcemanager.appservice.fluent.inner.CustomHostnameAnalysisResultInner?alt=com.azure.resourcemanager.appservice.fluent.inner.CustomHostnameAnalysisResultInner&text=CustomHostnameAnalysisResultInner" data-throw-if-not-resolved="False" />
+- uid: com.azure.resourcemanager.appservice.fluent.WebAppsClient.analyzeCustomHostnameSlot(java.lang.String,java.lang.String,java.lang.String,java.lang.String)
+  fullName: com.azure.resourcemanager.appservice.fluent.WebAppsClient.analyzeCustomHostnameSlot(String resourceGroupName, String name, String slot, String hostname)
+  name: analyzeCustomHostnameSlot(String resourceGroupName, String name, String slot, String hostname)
+  nameWithType: WebAppsClient.analyzeCustomHostnameSlot(String resourceGroupName, String name, String slot, String hostname)
+  summary: Description for Analyze a custom hostname.
+  parameters:
+  - description: Name of the resource group to which the resource belongs.
+    name: resourceGroupName
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  - description: Name of web app.
+    name: name
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  - description: Name of web app slot. If not specified then will default to production slot.
+    name: slot
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  - description: Custom hostname.
+    name: hostname
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  syntax: public CustomHostnameAnalysisResultInner analyzeCustomHostnameSlot(String resourceGroupName, String name, String slot, String hostname)
+  returns:
+    description: custom domain analysis.
+    type: <xref href="com.azure.resourcemanager.appservice.fluent.inner.CustomHostnameAnalysisResultInner?alt=com.azure.resourcemanager.appservice.fluent.inner.CustomHostnameAnalysisResultInner&text=CustomHostnameAnalysisResultInner" data-throw-if-not-resolved="False" />
+- uid: com.azure.resourcemanager.appservice.fluent.WebAppsClient.analyzeCustomHostnameSlot(java.lang.String,java.lang.String,java.lang.String,java.lang.String,com.azure.core.util.Context)
+  fullName: com.azure.resourcemanager.appservice.fluent.WebAppsClient.analyzeCustomHostnameSlot(String resourceGroupName, String name, String slot, String hostname, Context context)
+  name: analyzeCustomHostnameSlot(String resourceGroupName, String name, String slot, String hostname, Context context)
+  nameWithType: WebAppsClient.analyzeCustomHostnameSlot(String resourceGroupName, String name, String slot, String hostname, Context context)
+  summary: Description for Analyze a custom hostname.
+  parameters:
+  - description: Name of the resource group to which the resource belongs.
+    name: resourceGroupName
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  - description: Name of web app.
+    name: name
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  - description: Name of web app slot. If not specified then will default to production slot.
+    name: slot
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  - description: Custom hostname.
+    name: hostname
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  - description: The context to associate with this operation.
+    name: context
+    type: <xref href="com.azure.core.util.Context?alt=com.azure.core.util.Context&text=Context" data-throw-if-not-resolved="False" />
+  syntax: public CustomHostnameAnalysisResultInner analyzeCustomHostnameSlot(String resourceGroupName, String name, String slot, String hostname, Context context)
+  returns:
+    description: custom domain analysis.
+    type: <xref href="com.azure.resourcemanager.appservice.fluent.inner.CustomHostnameAnalysisResultInner?alt=com.azure.resourcemanager.appservice.fluent.inner.CustomHostnameAnalysisResultInner&text=CustomHostnameAnalysisResultInner" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.resourcemanager.appservice.fluent
+artifact: com.azure.resourcemanager:azure-resourcemanager-appservice:2.0.0-beta.2

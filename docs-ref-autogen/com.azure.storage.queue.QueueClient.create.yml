@@ -1,0 +1,29 @@
+### YamlMime:JavaMember
+uid: com.azure.storage.queue.QueueClient.create*
+fullName: com.azure.storage.queue.QueueClient.create
+name: create
+nameWithType: QueueClient.create
+members:
+- uid: com.azure.storage.queue.QueueClient.create()
+  fullName: com.azure.storage.queue.QueueClient.create()
+  name: create()
+  nameWithType: QueueClient.create()
+  summary: |-
+    Creates a new queue.
+
+     <p><strong>Code Samples</strong></p>
+
+     <p>Create a queue</p>
+
+     <pre>
+     client.create&#40;&#41;;
+     System.out.println&#40;&quot;Complete creating queue.&quot;&#41;;
+     </pre>
+
+     <p>For more information, see the
+     <a href="https://docs.microsoft.com/en-us/rest/api/storageservices/create-queue4">Azure Docs</a>.</p>
+  syntax: public void create()
+type: method
+metadata: {}
+package: com.azure.storage.queue
+artifact: com.azure:azure-storage-queue:12.6.0

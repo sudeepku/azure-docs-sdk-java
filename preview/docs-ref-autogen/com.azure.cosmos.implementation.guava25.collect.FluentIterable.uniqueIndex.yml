@@ -1,0 +1,43 @@
+### YamlMime:JavaMember
+uid: com.azure.cosmos.implementation.guava25.collect.FluentIterable.uniqueIndex*
+fullName: com.azure.cosmos.implementation.guava25.collect.FluentIterable<E>.<K>uniqueIndex
+name: <K>uniqueIndex
+nameWithType: FluentIterable<E>.<K>uniqueIndex
+members:
+- uid: com.azure.cosmos.implementation.guava25.collect.FluentIterable.<K>uniqueIndex(com.azure.cosmos.implementation.guava25.base.Function<? super E,K>)
+  fullName: com.azure.cosmos.implementation.guava25.collect.FluentIterable<E>.<K>uniqueIndex(Function<? super E,K> keyFunction)
+  name: <K>uniqueIndex(Function<? super E,K> keyFunction)
+  nameWithType: FluentIterable<E>.<K>uniqueIndex(Function<? super E,K> keyFunction)
+  summary: |-
+    Returns a map with the contents of this <code>FluentIterable</code> as its <code>values</code>, indexed
+     by keys derived from those values. In other words, each input value produces an entry in the
+     map whose key is the result of applying <code>keyFunction</code> to that value. These entries appear
+     in the same order as they appeared in this fluent iterable. Example usage:
+
+     <pre><code>
+     Color red = new Color("red", 255, 0, 0);
+     ...
+     FluentIterable<Color> allColors = FluentIterable.from(ImmutableSet.of(red, green, blue));
+
+     Map<String, Color> colorForName = allColors.uniqueIndex(toStringFunction());
+     assertThat(colorForName).containsEntry("red", red);
+     </code></pre>
+
+     <p>If your index may associate multiple values with each key, use <xref uid="#index(Function)" data-throw-if-not-resolved="false">index</xref>.
+
+     <p><b><code>Stream</code> equivalent:</b> <code>
+     stream.collect(ImmutableMap.toImmutableMap(keyFunction, v -> v))</code>.
+  parameters:
+  - description: the function used to produce the key for each value
+    name: keyFunction
+    type: <xref href="com.azure.cosmos.implementation.guava25.base.Function?alt=com.azure.cosmos.implementation.guava25.base.Function&text=Function" data-throw-if-not-resolved="False" />&lt;<xref href="? super E?alt=? super E&text=? super E" data-throw-if-not-resolved="False" />,<xref href="K?alt=K&text=K" data-throw-if-not-resolved="False" />&gt;
+  syntax: public final ImmutableMap<K,E> <K>uniqueIndex(Function<? super E,K> keyFunction)
+  returns:
+    description: |-
+      a map mapping the result of evaluating the function <code>keyFunction</code> on each value
+           in this fluent iterable to that value
+    type: <xref href="com.azure.cosmos.implementation.guava25.collect.ImmutableMap?alt=com.azure.cosmos.implementation.guava25.collect.ImmutableMap&text=ImmutableMap" data-throw-if-not-resolved="False" />&lt;<xref href="K?alt=K&text=K" data-throw-if-not-resolved="False" />,<xref href="E?alt=E&text=E" data-throw-if-not-resolved="False" />&gt;
+type: method
+metadata: {}
+package: com.azure.cosmos.implementation.guava25.collect
+artifact: com.azure:azure-cosmos:4.3.2-beta.2

@@ -1,0 +1,15 @@
+### YamlMime:JavaMember
+uid: com.azure.messaging.servicebus.implementation.models.FalseFilter.FalseFilter*
+fullName: com.azure.messaging.servicebus.implementation.models.FalseFilter.FalseFilter
+name: FalseFilter
+nameWithType: FalseFilter.FalseFilter
+members:
+- uid: com.azure.messaging.servicebus.implementation.models.FalseFilter.FalseFilter()
+  fullName: com.azure.messaging.servicebus.implementation.models.FalseFilter.FalseFilter()
+  name: FalseFilter()
+  nameWithType: FalseFilter.FalseFilter()
+  syntax: public FalseFilter()
+type: constructor
+metadata: {}
+package: com.azure.messaging.servicebus.implementation.models
+artifact: com.azure:azure-messaging-servicebus:7.0.0-beta.5

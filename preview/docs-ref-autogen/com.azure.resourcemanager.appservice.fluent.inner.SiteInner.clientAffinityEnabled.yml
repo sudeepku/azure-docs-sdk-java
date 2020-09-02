@@ -1,0 +1,22 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.appservice.fluent.inner.SiteInner.clientAffinityEnabled*
+fullName: com.azure.resourcemanager.appservice.fluent.inner.SiteInner.clientAffinityEnabled
+name: clientAffinityEnabled
+nameWithType: SiteInner.clientAffinityEnabled
+members:
+- uid: com.azure.resourcemanager.appservice.fluent.inner.SiteInner.clientAffinityEnabled()
+  fullName: com.azure.resourcemanager.appservice.fluent.inner.SiteInner.clientAffinityEnabled()
+  name: clientAffinityEnabled()
+  nameWithType: SiteInner.clientAffinityEnabled()
+  summary: |-
+    Get the clientAffinityEnabled property: &lt;code&gt;true&lt;/code&gt; to enable client affinity;
+     &lt;code&gt;false&lt;/code&gt; to stop sending session affinity cookies, which route client requests in the same
+     session to the same instance. Default is &lt;code&gt;true&lt;/code&gt;.
+  syntax: public Boolean clientAffinityEnabled()
+  returns:
+    description: the clientAffinityEnabled value.
+    type: <xref href="java.lang.Boolean?alt=java.lang.Boolean&text=Boolean" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.resourcemanager.appservice.fluent.inner
+artifact: com.azure.resourcemanager:azure-resourcemanager-appservice:2.0.0-beta.2

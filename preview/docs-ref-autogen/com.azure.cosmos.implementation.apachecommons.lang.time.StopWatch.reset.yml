@@ -1,0 +1,23 @@
+### YamlMime:JavaMember
+uid: com.azure.cosmos.implementation.apachecommons.lang.time.StopWatch.reset*
+fullName: com.azure.cosmos.implementation.apachecommons.lang.time.StopWatch.reset
+name: reset
+nameWithType: StopWatch.reset
+members:
+- uid: com.azure.cosmos.implementation.apachecommons.lang.time.StopWatch.reset()
+  fullName: com.azure.cosmos.implementation.apachecommons.lang.time.StopWatch.reset()
+  name: reset()
+  nameWithType: StopWatch.reset()
+  summary: |-
+    <p>
+     Resets the stopwatch. Stops it if need be.
+     </p>
+
+     <p>
+     This method clears the internal values to allow the object to be reused.
+     </p>
+  syntax: public void reset()
+type: method
+metadata: {}
+package: com.azure.cosmos.implementation.apachecommons.lang.time
+artifact: com.azure:azure-cosmos:4.3.2-beta.2

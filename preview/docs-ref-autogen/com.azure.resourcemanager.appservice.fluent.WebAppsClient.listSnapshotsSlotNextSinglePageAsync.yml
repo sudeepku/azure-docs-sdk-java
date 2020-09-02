@@ -1,0 +1,39 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.appservice.fluent.WebAppsClient.listSnapshotsSlotNextSinglePageAsync*
+fullName: com.azure.resourcemanager.appservice.fluent.WebAppsClient.listSnapshotsSlotNextSinglePageAsync
+name: listSnapshotsSlotNextSinglePageAsync
+nameWithType: WebAppsClient.listSnapshotsSlotNextSinglePageAsync
+members:
+- uid: com.azure.resourcemanager.appservice.fluent.WebAppsClient.listSnapshotsSlotNextSinglePageAsync(java.lang.String)
+  fullName: com.azure.resourcemanager.appservice.fluent.WebAppsClient.listSnapshotsSlotNextSinglePageAsync(String nextLink)
+  name: listSnapshotsSlotNextSinglePageAsync(String nextLink)
+  nameWithType: WebAppsClient.listSnapshotsSlotNextSinglePageAsync(String nextLink)
+  summary: Get the next page of items.
+  parameters:
+  - description: The nextLink parameter.
+    name: nextLink
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  syntax: public Mono<PagedResponse<SnapshotInner>> listSnapshotsSlotNextSinglePageAsync(String nextLink)
+  returns:
+    description: collection of snapshots which can be used to revert an app to a previous time.
+    type: <xref href="reactor.core.publisher.Mono?alt=reactor.core.publisher.Mono&text=Mono" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.core.http.rest.PagedResponse?alt=com.azure.core.http.rest.PagedResponse&text=PagedResponse" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.resourcemanager.appservice.fluent.inner.SnapshotInner?alt=com.azure.resourcemanager.appservice.fluent.inner.SnapshotInner&text=SnapshotInner" data-throw-if-not-resolved="False" />&gt;&gt;
+- uid: com.azure.resourcemanager.appservice.fluent.WebAppsClient.listSnapshotsSlotNextSinglePageAsync(java.lang.String,com.azure.core.util.Context)
+  fullName: com.azure.resourcemanager.appservice.fluent.WebAppsClient.listSnapshotsSlotNextSinglePageAsync(String nextLink, Context context)
+  name: listSnapshotsSlotNextSinglePageAsync(String nextLink, Context context)
+  nameWithType: WebAppsClient.listSnapshotsSlotNextSinglePageAsync(String nextLink, Context context)
+  summary: Get the next page of items.
+  parameters:
+  - description: The nextLink parameter.
+    name: nextLink
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  - description: The context to associate with this operation.
+    name: context
+    type: <xref href="com.azure.core.util.Context?alt=com.azure.core.util.Context&text=Context" data-throw-if-not-resolved="False" />
+  syntax: public Mono<PagedResponse<SnapshotInner>> listSnapshotsSlotNextSinglePageAsync(String nextLink, Context context)
+  returns:
+    description: collection of snapshots which can be used to revert an app to a previous time.
+    type: <xref href="reactor.core.publisher.Mono?alt=reactor.core.publisher.Mono&text=Mono" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.core.http.rest.PagedResponse?alt=com.azure.core.http.rest.PagedResponse&text=PagedResponse" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.resourcemanager.appservice.fluent.inner.SnapshotInner?alt=com.azure.resourcemanager.appservice.fluent.inner.SnapshotInner&text=SnapshotInner" data-throw-if-not-resolved="False" />&gt;&gt;
+type: method
+metadata: {}
+package: com.azure.resourcemanager.appservice.fluent
+artifact: com.azure.resourcemanager:azure-resourcemanager-appservice:2.0.0-beta.2

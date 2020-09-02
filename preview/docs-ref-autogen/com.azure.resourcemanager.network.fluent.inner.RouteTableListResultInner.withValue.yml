@@ -1,0 +1,23 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.network.fluent.inner.RouteTableListResultInner.withValue*
+fullName: com.azure.resourcemanager.network.fluent.inner.RouteTableListResultInner.withValue
+name: withValue
+nameWithType: RouteTableListResultInner.withValue
+members:
+- uid: com.azure.resourcemanager.network.fluent.inner.RouteTableListResultInner.withValue(java.util.List<com.azure.resourcemanager.network.fluent.inner.RouteTableInner>)
+  fullName: com.azure.resourcemanager.network.fluent.inner.RouteTableListResultInner.withValue(List<RouteTableInner> value)
+  name: withValue(List<RouteTableInner> value)
+  nameWithType: RouteTableListResultInner.withValue(List<RouteTableInner> value)
+  summary: 'Set the value property: Gets a list of route tables in a resource group.'
+  parameters:
+  - description: the value value to set.
+    name: value
+    type: <xref href="java.util.List?alt=java.util.List&text=List" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.resourcemanager.network.fluent.inner.RouteTableInner?alt=com.azure.resourcemanager.network.fluent.inner.RouteTableInner&text=RouteTableInner" data-throw-if-not-resolved="False" />&gt;
+  syntax: public RouteTableListResultInner withValue(List<RouteTableInner> value)
+  returns:
+    description: the RouteTableListResultInner object itself.
+    type: <xref href="com.azure.resourcemanager.network.fluent.inner.RouteTableListResultInner?alt=com.azure.resourcemanager.network.fluent.inner.RouteTableListResultInner&text=RouteTableListResultInner" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.resourcemanager.network.fluent.inner
+artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.0.0-beta.2

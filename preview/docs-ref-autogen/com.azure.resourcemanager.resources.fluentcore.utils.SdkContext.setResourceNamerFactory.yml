@@ -1,0 +1,20 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.resources.fluentcore.utils.SdkContext.setResourceNamerFactory*
+fullName: com.azure.resourcemanager.resources.fluentcore.utils.SdkContext.setResourceNamerFactory
+name: setResourceNamerFactory
+nameWithType: SdkContext.setResourceNamerFactory
+members:
+- uid: com.azure.resourcemanager.resources.fluentcore.utils.SdkContext.setResourceNamerFactory(com.azure.resourcemanager.resources.fluentcore.utils.ResourceNamerFactory)
+  fullName: com.azure.resourcemanager.resources.fluentcore.utils.SdkContext.setResourceNamerFactory(ResourceNamerFactory resourceNamerFactory)
+  name: setResourceNamerFactory(ResourceNamerFactory resourceNamerFactory)
+  nameWithType: SdkContext.setResourceNamerFactory(ResourceNamerFactory resourceNamerFactory)
+  summary: Function to override the ResourceNamerFactory.
+  parameters:
+  - description: factory to override.
+    name: resourceNamerFactory
+    type: <xref href="com.azure.resourcemanager.resources.fluentcore.utils.ResourceNamerFactory?alt=com.azure.resourcemanager.resources.fluentcore.utils.ResourceNamerFactory&text=ResourceNamerFactory" data-throw-if-not-resolved="False" />
+  syntax: public void setResourceNamerFactory(ResourceNamerFactory resourceNamerFactory)
+type: method
+metadata: {}
+package: com.azure.resourcemanager.resources.fluentcore.utils
+artifact: com.azure.resourcemanager:azure-resourcemanager-resources:2.0.0-beta.2

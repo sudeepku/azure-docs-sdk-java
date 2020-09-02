@@ -1,0 +1,17 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.resources.fluentcore.dag.FunctionalTaskItem.Context.inner*
+fullName: com.azure.resourcemanager.resources.fluentcore.dag.FunctionalTaskItem.Context.inner
+name: inner
+nameWithType: FunctionalTaskItem.Context.inner
+members:
+- uid: com.azure.resourcemanager.resources.fluentcore.dag.FunctionalTaskItem.Context.inner()
+  fullName: com.azure.resourcemanager.resources.fluentcore.dag.FunctionalTaskItem.Context.inner()
+  name: inner()
+  nameWithType: FunctionalTaskItem.Context.inner()
+  syntax: public TaskGroup.InvocationContext inner()
+  returns:
+    type: <xref href="com.azure.resourcemanager.resources.fluentcore.dag.TaskGroup.InvocationContext?alt=com.azure.resourcemanager.resources.fluentcore.dag.TaskGroup.InvocationContext&text=InvocationContext" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.resourcemanager.resources.fluentcore.dag
+artifact: com.azure.resourcemanager:azure-resourcemanager-resources:2.0.0-beta.2

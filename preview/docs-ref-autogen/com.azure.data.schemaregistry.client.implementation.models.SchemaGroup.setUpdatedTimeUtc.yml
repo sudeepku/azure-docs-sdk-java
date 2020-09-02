@@ -1,0 +1,23 @@
+### YamlMime:JavaMember
+uid: com.azure.data.schemaregistry.client.implementation.models.SchemaGroup.setUpdatedTimeUtc*
+fullName: com.azure.data.schemaregistry.client.implementation.models.SchemaGroup.setUpdatedTimeUtc
+name: setUpdatedTimeUtc
+nameWithType: SchemaGroup.setUpdatedTimeUtc
+members:
+- uid: com.azure.data.schemaregistry.client.implementation.models.SchemaGroup.setUpdatedTimeUtc(java.time.OffsetDateTime)
+  fullName: com.azure.data.schemaregistry.client.implementation.models.SchemaGroup.setUpdatedTimeUtc(OffsetDateTime updatedTimeUtc)
+  name: setUpdatedTimeUtc(OffsetDateTime updatedTimeUtc)
+  nameWithType: SchemaGroup.setUpdatedTimeUtc(OffsetDateTime updatedTimeUtc)
+  summary: 'Set the updatedTimeUtc property: The updatedTimeUtc property.'
+  parameters:
+  - description: the updatedTimeUtc value to set.
+    name: updatedTimeUtc
+    type: <xref href="java.time.OffsetDateTime?alt=java.time.OffsetDateTime&text=OffsetDateTime" data-throw-if-not-resolved="False" />
+  syntax: public SchemaGroup setUpdatedTimeUtc(OffsetDateTime updatedTimeUtc)
+  returns:
+    description: the SchemaGroup object itself.
+    type: <xref href="com.azure.data.schemaregistry.client.implementation.models.SchemaGroup?alt=com.azure.data.schemaregistry.client.implementation.models.SchemaGroup&text=SchemaGroup" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.data.schemaregistry.client.implementation.models
+artifact: com.azure:azure-data-schemaregistry:1.0.0-beta.1

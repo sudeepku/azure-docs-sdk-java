@@ -1,0 +1,19 @@
+### YamlMime:JavaMember
+uid: com.azure.messaging.servicebus.models.AuthorizationRule.getSecondaryKey*
+fullName: com.azure.messaging.servicebus.models.AuthorizationRule.getSecondaryKey
+name: getSecondaryKey
+nameWithType: AuthorizationRule.getSecondaryKey
+members:
+- uid: com.azure.messaging.servicebus.models.AuthorizationRule.getSecondaryKey()
+  fullName: com.azure.messaging.servicebus.models.AuthorizationRule.getSecondaryKey()
+  name: getSecondaryKey()
+  nameWithType: AuthorizationRule.getSecondaryKey()
+  summary: 'Get the secondaryKey property: The primary key of the authorization rule.'
+  syntax: public String getSecondaryKey()
+  returns:
+    description: the secondaryKey value.
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.messaging.servicebus.models
+artifact: com.azure:azure-messaging-servicebus:7.0.0-beta.5

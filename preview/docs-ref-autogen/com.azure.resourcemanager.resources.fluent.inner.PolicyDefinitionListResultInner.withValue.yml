@@ -1,0 +1,23 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.resources.fluent.inner.PolicyDefinitionListResultInner.withValue*
+fullName: com.azure.resourcemanager.resources.fluent.inner.PolicyDefinitionListResultInner.withValue
+name: withValue
+nameWithType: PolicyDefinitionListResultInner.withValue
+members:
+- uid: com.azure.resourcemanager.resources.fluent.inner.PolicyDefinitionListResultInner.withValue(java.util.List<com.azure.resourcemanager.resources.fluent.inner.PolicyDefinitionInner>)
+  fullName: com.azure.resourcemanager.resources.fluent.inner.PolicyDefinitionListResultInner.withValue(List<PolicyDefinitionInner> value)
+  name: withValue(List<PolicyDefinitionInner> value)
+  nameWithType: PolicyDefinitionListResultInner.withValue(List<PolicyDefinitionInner> value)
+  summary: 'Set the value property: An array of policy definitions.'
+  parameters:
+  - description: the value value to set.
+    name: value
+    type: <xref href="java.util.List?alt=java.util.List&text=List" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.resourcemanager.resources.fluent.inner.PolicyDefinitionInner?alt=com.azure.resourcemanager.resources.fluent.inner.PolicyDefinitionInner&text=PolicyDefinitionInner" data-throw-if-not-resolved="False" />&gt;
+  syntax: public PolicyDefinitionListResultInner withValue(List<PolicyDefinitionInner> value)
+  returns:
+    description: the PolicyDefinitionListResultInner object itself.
+    type: <xref href="com.azure.resourcemanager.resources.fluent.inner.PolicyDefinitionListResultInner?alt=com.azure.resourcemanager.resources.fluent.inner.PolicyDefinitionListResultInner&text=PolicyDefinitionListResultInner" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.resourcemanager.resources.fluent.inner
+artifact: com.azure.resourcemanager:azure-resourcemanager-resources:2.0.0-beta.2

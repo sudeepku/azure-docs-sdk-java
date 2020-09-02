@@ -1,0 +1,20 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.dns.fluent.ZonesClient.ZonesClient*
+fullName: com.azure.resourcemanager.dns.fluent.ZonesClient.ZonesClient
+name: ZonesClient
+nameWithType: ZonesClient.ZonesClient
+members:
+- uid: com.azure.resourcemanager.dns.fluent.ZonesClient.ZonesClient(com.azure.resourcemanager.dns.DnsManagementClient)
+  fullName: com.azure.resourcemanager.dns.fluent.ZonesClient.ZonesClient(DnsManagementClient client)
+  name: ZonesClient(DnsManagementClient client)
+  nameWithType: ZonesClient.ZonesClient(DnsManagementClient client)
+  summary: Initializes an instance of ZonesClient.
+  parameters:
+  - description: the instance of the service client containing this operation class.
+    name: client
+    type: <xref href="com.azure.resourcemanager.dns.DnsManagementClient?alt=com.azure.resourcemanager.dns.DnsManagementClient&text=DnsManagementClient" data-throw-if-not-resolved="False" />
+  syntax: public ZonesClient(DnsManagementClient client)
+type: constructor
+metadata: {}
+package: com.azure.resourcemanager.dns.fluent
+artifact: com.azure.resourcemanager:azure-resourcemanager-dns:2.0.0-beta.2

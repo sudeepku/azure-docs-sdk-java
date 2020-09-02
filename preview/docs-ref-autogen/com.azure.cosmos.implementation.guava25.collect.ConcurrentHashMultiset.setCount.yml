@@ -1,0 +1,50 @@
+### YamlMime:JavaMember
+uid: com.azure.cosmos.implementation.guava25.collect.ConcurrentHashMultiset.setCount*
+fullName: com.azure.cosmos.implementation.guava25.collect.ConcurrentHashMultiset<E>.setCount
+name: setCount
+nameWithType: ConcurrentHashMultiset<E>.setCount
+members:
+- uid: com.azure.cosmos.implementation.guava25.collect.ConcurrentHashMultiset.setCount(E,int)
+  fullName: com.azure.cosmos.implementation.guava25.collect.ConcurrentHashMultiset<E>.setCount(E element, int count)
+  name: setCount(E element, int count)
+  nameWithType: ConcurrentHashMultiset<E>.setCount(E element, int count)
+  summary: |-
+    Adds or removes occurrences of <code>element</code> such that the <xref uid="#count" data-throw-if-not-resolved="false">#count</xref> of the element
+     becomes <code>count</code>.
+  overridden: com.azure.cosmos.implementation.guava25.collect.AbstractMultiset.setCount(E,int)
+  parameters:
+  - name: element
+    type: <xref href="E?alt=E&text=E" data-throw-if-not-resolved="False" />
+  - name: count
+    type: <xref href="int?alt=int&text=int" data-throw-if-not-resolved="False" />
+  syntax: public int setCount(E element, int count)
+  returns:
+    description: the count of <code>element</code> in the multiset before this call
+    type: <xref href="int?alt=int&text=int" data-throw-if-not-resolved="False" />
+- uid: com.azure.cosmos.implementation.guava25.collect.ConcurrentHashMultiset.setCount(E,int,int)
+  fullName: com.azure.cosmos.implementation.guava25.collect.ConcurrentHashMultiset<E>.setCount(E element, int expectedOldCount, int newCount)
+  name: setCount(E element, int expectedOldCount, int newCount)
+  nameWithType: ConcurrentHashMultiset<E>.setCount(E element, int expectedOldCount, int newCount)
+  summary: |-
+    Sets the number of occurrences of <code>element</code> to <code>newCount</code>, but only if the count is
+     currently <code>expectedOldCount</code>. If <code>element</code> does not appear in the multiset exactly
+     <code>expectedOldCount</code> times, no changes will be made.
+  overridden: com.azure.cosmos.implementation.guava25.collect.AbstractMultiset.setCount(E,int,int)
+  parameters:
+  - name: element
+    type: <xref href="E?alt=E&text=E" data-throw-if-not-resolved="False" />
+  - name: expectedOldCount
+    type: <xref href="int?alt=int&text=int" data-throw-if-not-resolved="False" />
+  - name: newCount
+    type: <xref href="int?alt=int&text=int" data-throw-if-not-resolved="False" />
+  syntax: public boolean setCount(E element, int expectedOldCount, int newCount)
+  returns:
+    description: |-
+      <code>true</code> if the change was successful. This usually indicates that the multiset has
+           been modified, but not always: in the case that <code>expectedOldCount == newCount</code>, the
+           method will return <code>true</code> if the condition was met.
+    type: <xref href="boolean?alt=boolean&text=boolean" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.cosmos.implementation.guava25.collect
+artifact: com.azure:azure-cosmos:4.3.2-beta.2

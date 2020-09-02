@@ -1,0 +1,23 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.authorization.fluent.inner.ClassicAdministratorListResultInner.withNextLink*
+fullName: com.azure.resourcemanager.authorization.fluent.inner.ClassicAdministratorListResultInner.withNextLink
+name: withNextLink
+nameWithType: ClassicAdministratorListResultInner.withNextLink
+members:
+- uid: com.azure.resourcemanager.authorization.fluent.inner.ClassicAdministratorListResultInner.withNextLink(java.lang.String)
+  fullName: com.azure.resourcemanager.authorization.fluent.inner.ClassicAdministratorListResultInner.withNextLink(String nextLink)
+  name: withNextLink(String nextLink)
+  nameWithType: ClassicAdministratorListResultInner.withNextLink(String nextLink)
+  summary: 'Set the nextLink property: The URL to use for getting the next set of results.'
+  parameters:
+  - description: the nextLink value to set.
+    name: nextLink
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  syntax: public ClassicAdministratorListResultInner withNextLink(String nextLink)
+  returns:
+    description: the ClassicAdministratorListResultInner object itself.
+    type: <xref href="com.azure.resourcemanager.authorization.fluent.inner.ClassicAdministratorListResultInner?alt=com.azure.resourcemanager.authorization.fluent.inner.ClassicAdministratorListResultInner&text=ClassicAdministratorListResultInner" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.resourcemanager.authorization.fluent.inner
+artifact: com.azure.resourcemanager:azure-resourcemanager-authorization:2.0.0-beta.2

@@ -1,0 +1,19 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.keyvault.KeyVaultManagementClientBuilder.buildClient*
+fullName: com.azure.resourcemanager.keyvault.KeyVaultManagementClientBuilder.buildClient
+name: buildClient
+nameWithType: KeyVaultManagementClientBuilder.buildClient
+members:
+- uid: com.azure.resourcemanager.keyvault.KeyVaultManagementClientBuilder.buildClient()
+  fullName: com.azure.resourcemanager.keyvault.KeyVaultManagementClientBuilder.buildClient()
+  name: buildClient()
+  nameWithType: KeyVaultManagementClientBuilder.buildClient()
+  summary: Builds an instance of KeyVaultManagementClient with the provided parameters.
+  syntax: public KeyVaultManagementClient buildClient()
+  returns:
+    description: an instance of KeyVaultManagementClient.
+    type: <xref href="com.azure.resourcemanager.keyvault.KeyVaultManagementClient?alt=com.azure.resourcemanager.keyvault.KeyVaultManagementClient&text=KeyVaultManagementClient" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.resourcemanager.keyvault
+artifact: com.azure.resourcemanager:azure-resourcemanager-keyvault:2.0.0-beta.2

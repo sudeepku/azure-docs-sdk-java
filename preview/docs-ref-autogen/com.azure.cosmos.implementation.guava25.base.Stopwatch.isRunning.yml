@@ -1,0 +1,20 @@
+### YamlMime:JavaMember
+uid: com.azure.cosmos.implementation.guava25.base.Stopwatch.isRunning*
+fullName: com.azure.cosmos.implementation.guava25.base.Stopwatch.isRunning
+name: isRunning
+nameWithType: Stopwatch.isRunning
+members:
+- uid: com.azure.cosmos.implementation.guava25.base.Stopwatch.isRunning()
+  fullName: com.azure.cosmos.implementation.guava25.base.Stopwatch.isRunning()
+  name: isRunning()
+  nameWithType: Stopwatch.isRunning()
+  summary: |-
+    Returns <code>true</code> if <xref uid="#start()" data-throw-if-not-resolved="false">#start()</xref> has been called on this stopwatch, and <xref uid="#stop()" data-throw-if-not-resolved="false">#stop()</xref>
+     has not been called since the last call to <code>start()</code>.
+  syntax: public boolean isRunning()
+  returns:
+    type: <xref href="boolean?alt=boolean&text=boolean" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.cosmos.implementation.guava25.base
+artifact: com.azure:azure-cosmos:4.3.2-beta.2

@@ -1,0 +1,42 @@
+### YamlMime:JavaMember
+uid: com.azure.messaging.servicebus.ServiceBusManagementAsyncClient.updateTopicWithResponse*
+fullName: com.azure.messaging.servicebus.ServiceBusManagementAsyncClient.updateTopicWithResponse
+name: updateTopicWithResponse
+nameWithType: ServiceBusManagementAsyncClient.updateTopicWithResponse
+members:
+- uid: com.azure.messaging.servicebus.ServiceBusManagementAsyncClient.updateTopicWithResponse(com.azure.messaging.servicebus.models.TopicProperties)
+  fullName: com.azure.messaging.servicebus.ServiceBusManagementAsyncClient.updateTopicWithResponse(TopicProperties topic)
+  name: updateTopicWithResponse(TopicProperties topic)
+  nameWithType: ServiceBusManagementAsyncClient.updateTopicWithResponse(TopicProperties topic)
+  summary: |-
+    Updates a topic with the given <xref uid="TopicProperties" data-throw-if-not-resolved="false">TopicProperties</xref>. The <xref uid="TopicProperties" data-throw-if-not-resolved="false">TopicProperties</xref> must be fully populated as
+     all of the properties are replaced. If a property is not set the service default value is used.
+
+     The suggested flow is:
+     <ol>
+         <li><xref uid="#getTopic(String)" data-throw-if-not-resolved="false">Get topic description.</xref></li>
+         <li>Update the required elements.</li>
+         <li>Pass the updated description into this method.</li>
+     </ol>
+
+     <p>
+     There are a subset of properties that can be updated. More information can be found in the links below. They are:
+     <ul>
+     <li><xref uid="TopicProperties#setDefaultMessageTimeToLive(Duration)" data-throw-if-not-resolved="false">DefaultMessageTimeToLive</xref></li>
+     <li><xref uid="TopicProperties#setDuplicateDetectionHistoryTimeWindow(Duration)" data-throw-if-not-resolved="false">DuplicateDetectionHistoryTimeWindow</xref>
+     </li>
+     </ul>
+  parameters:
+  - description: |-
+      Information about the topic to update. You must provide all the property values that are desired
+           on the updated entity. Any values not provided are set to the service default values.
+    name: topic
+    type: <xref href="com.azure.messaging.servicebus.models.TopicProperties?alt=com.azure.messaging.servicebus.models.TopicProperties&text=TopicProperties" data-throw-if-not-resolved="False" />
+  syntax: public Mono<Response<TopicProperties>> updateTopicWithResponse(TopicProperties topic)
+  returns:
+    description: A Mono that completes with the updated topic and its HTTP response.
+    type: <xref href="reactor.core.publisher.Mono?alt=reactor.core.publisher.Mono&text=Mono" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.core.http.rest.Response?alt=com.azure.core.http.rest.Response&text=Response" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.messaging.servicebus.models.TopicProperties?alt=com.azure.messaging.servicebus.models.TopicProperties&text=TopicProperties" data-throw-if-not-resolved="False" />&gt;&gt;
+type: method
+metadata: {}
+package: com.azure.messaging.servicebus
+artifact: com.azure:azure-messaging-servicebus:7.0.0-beta.5

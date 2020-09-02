@@ -1,0 +1,23 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.appservice.fluent.inner.StampCapacityCollectionInner.withValue*
+fullName: com.azure.resourcemanager.appservice.fluent.inner.StampCapacityCollectionInner.withValue
+name: withValue
+nameWithType: StampCapacityCollectionInner.withValue
+members:
+- uid: com.azure.resourcemanager.appservice.fluent.inner.StampCapacityCollectionInner.withValue(java.util.List<com.azure.resourcemanager.appservice.fluent.inner.StampCapacityInner>)
+  fullName: com.azure.resourcemanager.appservice.fluent.inner.StampCapacityCollectionInner.withValue(List<StampCapacityInner> value)
+  name: withValue(List<StampCapacityInner> value)
+  nameWithType: StampCapacityCollectionInner.withValue(List<StampCapacityInner> value)
+  summary: 'Set the value property: Collection of resources.'
+  parameters:
+  - description: the value value to set.
+    name: value
+    type: <xref href="java.util.List?alt=java.util.List&text=List" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.resourcemanager.appservice.fluent.inner.StampCapacityInner?alt=com.azure.resourcemanager.appservice.fluent.inner.StampCapacityInner&text=StampCapacityInner" data-throw-if-not-resolved="False" />&gt;
+  syntax: public StampCapacityCollectionInner withValue(List<StampCapacityInner> value)
+  returns:
+    description: the StampCapacityCollectionInner object itself.
+    type: <xref href="com.azure.resourcemanager.appservice.fluent.inner.StampCapacityCollectionInner?alt=com.azure.resourcemanager.appservice.fluent.inner.StampCapacityCollectionInner&text=StampCapacityCollectionInner" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.resourcemanager.appservice.fluent.inner
+artifact: com.azure.resourcemanager:azure-resourcemanager-appservice:2.0.0-beta.2

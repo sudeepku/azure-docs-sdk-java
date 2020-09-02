@@ -1,0 +1,23 @@
+### YamlMime:JavaMember
+uid: com.azure.search.documents.indexes.implementation.models.SearchIndexer.SearchIndexer*
+fullName: com.azure.search.documents.indexes.implementation.models.SearchIndexer.SearchIndexer
+name: SearchIndexer
+nameWithType: SearchIndexer.SearchIndexer
+members:
+- uid: com.azure.search.documents.indexes.implementation.models.SearchIndexer.SearchIndexer(java.lang.String,java.lang.String,java.lang.String)
+  fullName: com.azure.search.documents.indexes.implementation.models.SearchIndexer.SearchIndexer(String name, String dataSourceName, String targetIndexName)
+  name: SearchIndexer(String name, String dataSourceName, String targetIndexName)
+  nameWithType: SearchIndexer.SearchIndexer(String name, String dataSourceName, String targetIndexName)
+  summary: Creates an instance of SearchIndexer class.
+  parameters:
+  - name: name
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  - name: dataSourceName
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  - name: targetIndexName
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  syntax: public SearchIndexer(String name, String dataSourceName, String targetIndexName)
+type: constructor
+metadata: {}
+package: com.azure.search.documents.indexes.implementation.models
+artifact: com.azure:azure-search-documents:11.1.0-beta.1

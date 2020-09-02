@@ -1,0 +1,73 @@
+### YamlMime:JavaMember
+uid: com.azure.cosmos.implementation.guava25.collect.Maps.newTreeMap*
+fullName: com.azure.cosmos.implementation.guava25.collect.Maps.<C,K,V>newTreeMap
+name: <C,K,V>newTreeMap
+nameWithType: Maps.<C,K,V>newTreeMap
+members:
+- uid: com.azure.cosmos.implementation.guava25.collect.Maps.<C,K,V>newTreeMap(java.util.Comparator<C>)
+  fullName: com.azure.cosmos.implementation.guava25.collect.Maps.<C,K,V>newTreeMap(Comparator<C> comparator)
+  name: <C,K,V>newTreeMap(Comparator<C> comparator)
+  nameWithType: Maps.<C,K,V>newTreeMap(Comparator<C> comparator)
+  summary: |-
+    Creates a <i>mutable</i>, empty <code>TreeMap</code> instance using the given comparator.
+
+     <p><b>Note:</b> if mutability is not required, use <code>
+     ImmutableSortedMap.orderedBy(comparator).build()</code> instead.
+
+     <p><b>Note for Java 7 and later:</b> this method is now unnecessary and should be treated as
+     deprecated. Instead, use the <code>TreeMap</code> constructor directly, taking advantage of the new
+     <a href="http://goo.gl/iz2Wi">"diamond" syntax</a>.
+  parameters:
+  - description: the comparator to sort the keys with
+    name: comparator
+    type: <xref href="java.util.Comparator?alt=java.util.Comparator&text=Comparator" data-throw-if-not-resolved="False" />&lt;<xref href="C?alt=C&text=C" data-throw-if-not-resolved="False" />&gt;
+  syntax: public static TreeMap<K,V> <C,K,V>newTreeMap(Comparator<C> comparator)
+  returns:
+    description: a new, empty <code>TreeMap</code>
+    type: <xref href="java.util.TreeMap?alt=java.util.TreeMap&text=TreeMap" data-throw-if-not-resolved="False" />&lt;<xref href="K?alt=K&text=K" data-throw-if-not-resolved="False" />,<xref href="V?alt=V&text=V" data-throw-if-not-resolved="False" />&gt;
+- uid: com.azure.cosmos.implementation.guava25.collect.Maps.<K,V>newTreeMap()
+  fullName: com.azure.cosmos.implementation.guava25.collect.Maps.<K,V>newTreeMap()
+  name: <K,V>newTreeMap()
+  nameWithType: Maps.<K,V>newTreeMap()
+  summary: |-
+    Creates a <i>mutable</i>, empty <code>TreeMap</code> instance using the natural ordering of its
+     elements.
+
+     <p><b>Note:</b> if mutability is not required, use <xref uid="ImmutableSortedMap#of()" data-throw-if-not-resolved="false">ImmutableSortedMap#of()</xref> instead.
+
+     <p><b>Note for Java 7 and later:</b> this method is now unnecessary and should be treated as
+     deprecated. Instead, use the <code>TreeMap</code> constructor directly, taking advantage of the new
+     <a href="http://goo.gl/iz2Wi">"diamond" syntax</a>.
+  syntax: public static TreeMap<K,V> <K,V>newTreeMap()
+  returns:
+    description: a new, empty <code>TreeMap</code>
+    type: <xref href="java.util.TreeMap?alt=java.util.TreeMap&text=TreeMap" data-throw-if-not-resolved="False" />&lt;<xref href="K?alt=K&text=K" data-throw-if-not-resolved="False" />,<xref href="V?alt=V&text=V" data-throw-if-not-resolved="False" />&gt;
+- uid: com.azure.cosmos.implementation.guava25.collect.Maps.<K,V>newTreeMap(java.util.SortedMap<K,? extends V>)
+  fullName: com.azure.cosmos.implementation.guava25.collect.Maps.<K,V>newTreeMap(SortedMap<K,? extends V> map)
+  name: <K,V>newTreeMap(SortedMap<K,? extends V> map)
+  nameWithType: Maps.<K,V>newTreeMap(SortedMap<K,? extends V> map)
+  summary: |-
+    Creates a <i>mutable</i> <code>TreeMap</code> instance with the same mappings as the specified map
+     and using the same ordering as the specified map.
+
+     <p><b>Note:</b> if mutability is not required, use <xref uid="ImmutableSortedMap#copyOfSorted(SortedMap)" data-throw-if-not-resolved="false">ImmutableSortedMap#copyOfSorted(SortedMap)</xref> instead.
+
+     <p><b>Note for Java 7 and later:</b> this method is now unnecessary and should be treated as
+     deprecated. Instead, use the <code>TreeMap</code> constructor directly, taking advantage of the new
+     <a href="http://goo.gl/iz2Wi">"diamond" syntax</a>.
+  parameters:
+  - description: |-
+      the sorted map whose mappings are to be placed in the new map and whose comparator
+           is to be used to sort the new map
+    name: map
+    type: <xref href="java.util.SortedMap?alt=java.util.SortedMap&text=SortedMap" data-throw-if-not-resolved="False" />&lt;<xref href="K?alt=K&text=K" data-throw-if-not-resolved="False" />,<xref href="? extends V?alt=? extends V&text=? extends V" data-throw-if-not-resolved="False" />&gt;
+  syntax: public static TreeMap<K,V> <K,V>newTreeMap(SortedMap<K,? extends V> map)
+  returns:
+    description: |-
+      a new <code>TreeMap</code> initialized with the mappings from <code>map</code> and using the
+           comparator of <code>map</code>
+    type: <xref href="java.util.TreeMap?alt=java.util.TreeMap&text=TreeMap" data-throw-if-not-resolved="False" />&lt;<xref href="K?alt=K&text=K" data-throw-if-not-resolved="False" />,<xref href="V?alt=V&text=V" data-throw-if-not-resolved="False" />&gt;
+type: method
+metadata: {}
+package: com.azure.cosmos.implementation.guava25.collect
+artifact: com.azure:azure-cosmos:4.3.2-beta.2

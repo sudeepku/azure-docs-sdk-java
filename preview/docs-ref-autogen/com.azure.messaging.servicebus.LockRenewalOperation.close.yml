@@ -1,0 +1,16 @@
+### YamlMime:JavaMember
+uid: com.azure.messaging.servicebus.LockRenewalOperation.close*
+fullName: com.azure.messaging.servicebus.LockRenewalOperation.close
+name: close
+nameWithType: LockRenewalOperation.close
+members:
+- uid: com.azure.messaging.servicebus.LockRenewalOperation.close()
+  fullName: com.azure.messaging.servicebus.LockRenewalOperation.close()
+  name: close()
+  nameWithType: LockRenewalOperation.close()
+  summary: Cancels the lock renewal operation.
+  syntax: public void close()
+type: method
+metadata: {}
+package: com.azure.messaging.servicebus
+artifact: com.azure:azure-messaging-servicebus:7.0.0-beta.5

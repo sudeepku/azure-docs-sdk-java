@@ -1,0 +1,15 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.cosmos.fluent.inner.NotebookWorkspaceListResultInner.NotebookWorkspaceListResultInner*
+fullName: com.azure.resourcemanager.cosmos.fluent.inner.NotebookWorkspaceListResultInner.NotebookWorkspaceListResultInner
+name: NotebookWorkspaceListResultInner
+nameWithType: NotebookWorkspaceListResultInner.NotebookWorkspaceListResultInner
+members:
+- uid: com.azure.resourcemanager.cosmos.fluent.inner.NotebookWorkspaceListResultInner.NotebookWorkspaceListResultInner()
+  fullName: com.azure.resourcemanager.cosmos.fluent.inner.NotebookWorkspaceListResultInner.NotebookWorkspaceListResultInner()
+  name: NotebookWorkspaceListResultInner()
+  nameWithType: NotebookWorkspaceListResultInner.NotebookWorkspaceListResultInner()
+  syntax: public NotebookWorkspaceListResultInner()
+type: constructor
+metadata: {}
+package: com.azure.resourcemanager.cosmos.fluent.inner
+artifact: com.azure.resourcemanager:azure-resourcemanager-cosmos:2.0.0-beta.2

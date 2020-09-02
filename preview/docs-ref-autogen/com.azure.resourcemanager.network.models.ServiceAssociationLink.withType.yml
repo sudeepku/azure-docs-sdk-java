@@ -1,0 +1,23 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.network.models.ServiceAssociationLink.withType*
+fullName: com.azure.resourcemanager.network.models.ServiceAssociationLink.withType
+name: withType
+nameWithType: ServiceAssociationLink.withType
+members:
+- uid: com.azure.resourcemanager.network.models.ServiceAssociationLink.withType(java.lang.String)
+  fullName: com.azure.resourcemanager.network.models.ServiceAssociationLink.withType(String type)
+  name: withType(String type)
+  nameWithType: ServiceAssociationLink.withType(String type)
+  summary: 'Set the type property: Resource type.'
+  parameters:
+  - description: the type value to set.
+    name: type
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  syntax: public ServiceAssociationLink withType(String type)
+  returns:
+    description: the ServiceAssociationLink object itself.
+    type: <xref href="com.azure.resourcemanager.network.models.ServiceAssociationLink?alt=com.azure.resourcemanager.network.models.ServiceAssociationLink&text=ServiceAssociationLink" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.resourcemanager.network.models
+artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.0.0-beta.2

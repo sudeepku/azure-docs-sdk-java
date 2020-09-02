@@ -1,0 +1,19 @@
+### YamlMime:JavaMember
+uid: com.azure.ai.textanalytics.models.CategorizedEntity.getGraphemeLength*
+fullName: com.azure.ai.textanalytics.models.CategorizedEntity.getGraphemeLength
+name: getGraphemeLength
+nameWithType: CategorizedEntity.getGraphemeLength
+members:
+- uid: com.azure.ai.textanalytics.models.CategorizedEntity.getGraphemeLength()
+  fullName: com.azure.ai.textanalytics.models.CategorizedEntity.getGraphemeLength()
+  name: getGraphemeLength()
+  nameWithType: CategorizedEntity.getGraphemeLength()
+  summary: 'Get the length property: Grapheme length for the entity text.'
+  syntax: public int getGraphemeLength()
+  returns:
+    description: The length value.
+    type: <xref href="int?alt=int&text=int" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.ai.textanalytics.models
+artifact: com.azure:azure-ai-textanalytics:1.0.0-beta.4

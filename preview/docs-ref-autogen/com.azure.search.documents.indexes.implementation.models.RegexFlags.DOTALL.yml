@@ -1,0 +1,16 @@
+### YamlMime:JavaMember
+uid: com.azure.search.documents.indexes.implementation.models.RegexFlags.DOTALL
+fullName: com.azure.search.documents.indexes.implementation.models.RegexFlags.DOTALL
+name: DOTALL
+nameWithType: RegexFlags.DOTALL
+members:
+- uid: com.azure.search.documents.indexes.implementation.models.RegexFlags.DOTALL
+  fullName: com.azure.search.documents.indexes.implementation.models.RegexFlags.DOTALL
+  name: DOTALL
+  nameWithType: RegexFlags.DOTALL
+  summary: Static value DOTALL for RegexFlags.
+  syntax: public static final RegexFlags DOTALL
+type: field
+metadata: {}
+package: com.azure.search.documents.indexes.implementation.models
+artifact: com.azure:azure-search-documents:11.1.0-beta.1

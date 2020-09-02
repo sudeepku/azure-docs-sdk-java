@@ -1,0 +1,24 @@
+### YamlMime:JavaMember
+uid: com.azure.cosmos.implementation.guava25.collect.AbstractSequentialIterator.computeNext*
+fullName: com.azure.cosmos.implementation.guava25.collect.AbstractSequentialIterator<T>.computeNext
+name: computeNext
+nameWithType: AbstractSequentialIterator<T>.computeNext
+members:
+- uid: com.azure.cosmos.implementation.guava25.collect.AbstractSequentialIterator.computeNext(T)
+  fullName: com.azure.cosmos.implementation.guava25.collect.AbstractSequentialIterator<T>.computeNext(T previous)
+  name: computeNext(T previous)
+  nameWithType: AbstractSequentialIterator<T>.computeNext(T previous)
+  summary: |-
+    Returns the element that follows <code>previous</code>, or returns <code>null</code> if no elements
+     remain. This method is invoked during each call to <xref uid="#next()" data-throw-if-not-resolved="false">#next()</xref> in order to compute the
+     result of a <i>future</i> call to <code>next()</code>.
+  parameters:
+  - name: previous
+    type: <xref href="T?alt=T&text=T" data-throw-if-not-resolved="False" />
+  syntax: protected abstract T computeNext(T previous)
+  returns:
+    type: <xref href="T?alt=T&text=T" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.cosmos.implementation.guava25.collect
+artifact: com.azure:azure-cosmos:4.3.2-beta.2

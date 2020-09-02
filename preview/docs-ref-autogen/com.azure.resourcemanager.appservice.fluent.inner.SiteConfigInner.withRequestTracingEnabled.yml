@@ -1,0 +1,25 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.appservice.fluent.inner.SiteConfigInner.withRequestTracingEnabled*
+fullName: com.azure.resourcemanager.appservice.fluent.inner.SiteConfigInner.withRequestTracingEnabled
+name: withRequestTracingEnabled
+nameWithType: SiteConfigInner.withRequestTracingEnabled
+members:
+- uid: com.azure.resourcemanager.appservice.fluent.inner.SiteConfigInner.withRequestTracingEnabled(java.lang.Boolean)
+  fullName: com.azure.resourcemanager.appservice.fluent.inner.SiteConfigInner.withRequestTracingEnabled(Boolean requestTracingEnabled)
+  name: withRequestTracingEnabled(Boolean requestTracingEnabled)
+  nameWithType: SiteConfigInner.withRequestTracingEnabled(Boolean requestTracingEnabled)
+  summary: |-
+    Set the requestTracingEnabled property: &lt;code&gt;true&lt;/code&gt; if request tracing is enabled; otherwise,
+     &lt;code&gt;false&lt;/code&gt;.
+  parameters:
+  - description: the requestTracingEnabled value to set.
+    name: requestTracingEnabled
+    type: <xref href="java.lang.Boolean?alt=java.lang.Boolean&text=Boolean" data-throw-if-not-resolved="False" />
+  syntax: public SiteConfigInner withRequestTracingEnabled(Boolean requestTracingEnabled)
+  returns:
+    description: the SiteConfigInner object itself.
+    type: <xref href="com.azure.resourcemanager.appservice.fluent.inner.SiteConfigInner?alt=com.azure.resourcemanager.appservice.fluent.inner.SiteConfigInner&text=SiteConfigInner" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.resourcemanager.appservice.fluent.inner
+artifact: com.azure.resourcemanager:azure-resourcemanager-appservice:2.0.0-beta.2

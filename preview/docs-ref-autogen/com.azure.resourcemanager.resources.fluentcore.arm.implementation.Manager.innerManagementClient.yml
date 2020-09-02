@@ -1,0 +1,15 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.resources.fluentcore.arm.implementation.Manager.innerManagementClient
+fullName: com.azure.resourcemanager.resources.fluentcore.arm.implementation.Manager<T,InnerT>.innerManagementClient
+name: innerManagementClient
+nameWithType: Manager<T,InnerT>.innerManagementClient
+members:
+- uid: com.azure.resourcemanager.resources.fluentcore.arm.implementation.Manager.innerManagementClient
+  fullName: com.azure.resourcemanager.resources.fluentcore.arm.implementation.Manager<T,InnerT>.innerManagementClient
+  name: innerManagementClient
+  nameWithType: Manager<T,InnerT>.innerManagementClient
+  syntax: protected final InnerT innerManagementClient
+type: field
+metadata: {}
+package: com.azure.resourcemanager.resources.fluentcore.arm.implementation
+artifact: com.azure.resourcemanager:azure-resourcemanager-resources:2.0.0-beta.2

@@ -1,0 +1,50 @@
+### YamlMime:JavaMember
+uid: com.azure.search.documents.SearchAsyncClient.getDocumentWithResponse*
+fullName: com.azure.search.documents.SearchAsyncClient.<T>getDocumentWithResponse
+name: <T>getDocumentWithResponse
+nameWithType: SearchAsyncClient.<T>getDocumentWithResponse
+members:
+- uid: com.azure.search.documents.SearchAsyncClient.<T>getDocumentWithResponse(java.lang.String,java.lang.Class<T>,java.util.List<java.lang.String>)
+  fullName: com.azure.search.documents.SearchAsyncClient.<T>getDocumentWithResponse(String key, Class<T> modelClass, List<String> selectedFields)
+  name: <T>getDocumentWithResponse(String key, Class<T> modelClass, List<String> selectedFields)
+  nameWithType: SearchAsyncClient.<T>getDocumentWithResponse(String key, Class<T> modelClass, List<String> selectedFields)
+  summary: |-
+    Retrieves a document from the Azure Cognitive Search index.
+     <p>
+     View <a href="https://docs.microsoft.com/rest/api/searchservice/Naming-rules">naming rules</a> for guidelines on
+     constructing valid document keys.
+
+     <p><strong>Code Sample</strong></p>
+
+     <p> Get dynamic SearchDocument. </p>
+
+     <pre>
+     searchAsyncClient.getDocumentWithResponse&#40;&quot;hotelId&quot;, SearchDocument.class, null&#41;
+         .subscribe&#40;resultResponse -&gt; &#123;
+             System.out.println&#40;&quot;The status code of the response is &quot; + resultResponse.getStatusCode&#40;&#41;&#41;;
+             for &#40;Map.Entry&lt;String, Object&gt; keyValuePair : resultResponse.getValue&#40;&#41;.entrySet&#40;&#41;&#41; &#123;
+                 System.out.printf&#40;&quot;Document key %s, Document value %s&quot;, keyValuePair.getKey&#40;&#41;,
+                     keyValuePair.getValue&#40;&#41;&#41;;
+             &#125;
+         &#125;&#41;;
+     </pre>
+  parameters:
+  - description: The key of the document to retrieve.
+    name: key
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  - description: The model class converts to.
+    name: modelClass
+    type: <xref href="java.lang.Class?alt=java.lang.Class&text=Class" data-throw-if-not-resolved="False" />&lt;<xref href="T?alt=T&text=T" data-throw-if-not-resolved="False" />&gt;
+  - description: |-
+      List of field names to retrieve for the document; Any field not retrieved will have null or
+       default as its corresponding property value in the returned object.
+    name: selectedFields
+    type: <xref href="java.util.List?alt=java.util.List&text=List" data-throw-if-not-resolved="False" />&lt;<xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />&gt;
+  syntax: public Mono<Response<T>> <T>getDocumentWithResponse(String key, Class<T> modelClass, List<String> selectedFields)
+  returns:
+    description: a response containing the document object
+    type: <xref href="reactor.core.publisher.Mono?alt=reactor.core.publisher.Mono&text=Mono" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.core.http.rest.Response?alt=com.azure.core.http.rest.Response&text=Response" data-throw-if-not-resolved="False" />&lt;<xref href="T?alt=T&text=T" data-throw-if-not-resolved="False" />&gt;&gt;
+type: method
+metadata: {}
+package: com.azure.search.documents
+artifact: com.azure:azure-search-documents:11.1.0-beta.1

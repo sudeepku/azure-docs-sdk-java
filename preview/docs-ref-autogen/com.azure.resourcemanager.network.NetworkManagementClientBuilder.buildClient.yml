@@ -1,0 +1,19 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.network.NetworkManagementClientBuilder.buildClient*
+fullName: com.azure.resourcemanager.network.NetworkManagementClientBuilder.buildClient
+name: buildClient
+nameWithType: NetworkManagementClientBuilder.buildClient
+members:
+- uid: com.azure.resourcemanager.network.NetworkManagementClientBuilder.buildClient()
+  fullName: com.azure.resourcemanager.network.NetworkManagementClientBuilder.buildClient()
+  name: buildClient()
+  nameWithType: NetworkManagementClientBuilder.buildClient()
+  summary: Builds an instance of NetworkManagementClient with the provided parameters.
+  syntax: public NetworkManagementClient buildClient()
+  returns:
+    description: an instance of NetworkManagementClient.
+    type: <xref href="com.azure.resourcemanager.network.NetworkManagementClient?alt=com.azure.resourcemanager.network.NetworkManagementClient&text=NetworkManagementClient" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.resourcemanager.network
+artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.0.0-beta.2

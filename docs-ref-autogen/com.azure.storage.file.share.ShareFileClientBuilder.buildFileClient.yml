@@ -1,0 +1,26 @@
+### YamlMime:JavaMember
+uid: com.azure.storage.file.share.ShareFileClientBuilder.buildFileClient*
+fullName: com.azure.storage.file.share.ShareFileClientBuilder.buildFileClient
+name: buildFileClient
+nameWithType: ShareFileClientBuilder.buildFileClient
+members:
+- uid: com.azure.storage.file.share.ShareFileClientBuilder.buildFileClient()
+  fullName: com.azure.storage.file.share.ShareFileClientBuilder.buildFileClient()
+  name: buildFileClient()
+  nameWithType: ShareFileClientBuilder.buildFileClient()
+  summary: |-
+    Creates a <xref uid="ShareFileClient" data-throw-if-not-resolved="false">ShareFileClient</xref> based on options set in the builder. Every time <code>buildFileClient()</code> is
+     called a new instance of <xref uid="ShareFileClient" data-throw-if-not-resolved="false">ShareFileClient</xref> is created.
+
+     <p>
+     If <xref uid="ShareFileClientBuilder#pipeline(HttpPipeline)" data-throw-if-not-resolved="false">pipeline</xref> is set, then the <code>pipeline</code> and <xref uid="ShareFileClientBuilder#endpoint(String)" data-throw-if-not-resolved="false">endpoint</xref> are used to create the <xref uid="ShareFileClient" data-throw-if-not-resolved="false">client</xref>.
+     All other builder settings are ignored.
+     </p>
+  syntax: public ShareFileClient buildFileClient()
+  returns:
+    description: A ShareFileClient with the options set from the builder.
+    type: <xref href="com.azure.storage.file.share.ShareFileClient?alt=com.azure.storage.file.share.ShareFileClient&text=ShareFileClient" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.storage.file.share
+artifact: com.azure:azure-storage-file-share:12.6.0

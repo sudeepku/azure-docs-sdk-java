@@ -1,0 +1,42 @@
+### YamlMime:JavaMember
+uid: com.azure.cosmos.implementation.guava25.primitives.UnsignedLongs.parseUnsignedLong*
+fullName: com.azure.cosmos.implementation.guava25.primitives.UnsignedLongs.parseUnsignedLong
+name: parseUnsignedLong
+nameWithType: UnsignedLongs.parseUnsignedLong
+members:
+- uid: com.azure.cosmos.implementation.guava25.primitives.UnsignedLongs.parseUnsignedLong(java.lang.String)
+  fullName: com.azure.cosmos.implementation.guava25.primitives.UnsignedLongs.parseUnsignedLong(String string)
+  name: parseUnsignedLong(String string)
+  nameWithType: UnsignedLongs.parseUnsignedLong(String string)
+  summary: |-
+    Returns the unsigned <code>long</code> value represented by the given decimal string.
+
+     <p><b>Java 8 users:</b> use <xref uid="Long#parseUnsignedLong(String)" data-throw-if-not-resolved="false">Long#parseUnsignedLong(String)</xref> instead.
+  parameters:
+  - name: string
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  syntax: public static long parseUnsignedLong(String string)
+  returns:
+    type: <xref href="long?alt=long&text=long" data-throw-if-not-resolved="False" />
+- uid: com.azure.cosmos.implementation.guava25.primitives.UnsignedLongs.parseUnsignedLong(java.lang.String,int)
+  fullName: com.azure.cosmos.implementation.guava25.primitives.UnsignedLongs.parseUnsignedLong(String string, int radix)
+  name: parseUnsignedLong(String string, int radix)
+  nameWithType: UnsignedLongs.parseUnsignedLong(String string, int radix)
+  summary: |-
+    Returns the unsigned <code>long</code> value represented by a string with the given radix.
+
+     <p><b>Java 8 users:</b> use <xref uid="Long#parseUnsignedLong(String, int)" data-throw-if-not-resolved="false">Long#parseUnsignedLong(String, int)</xref> instead.
+  parameters:
+  - description: the string containing the unsigned <code>long</code> representation to be parsed.
+    name: string
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  - description: the radix to use while parsing <code>string</code>
+    name: radix
+    type: <xref href="int?alt=int&text=int" data-throw-if-not-resolved="False" />
+  syntax: public static long parseUnsignedLong(String string, int radix)
+  returns:
+    type: <xref href="long?alt=long&text=long" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.cosmos.implementation.guava25.primitives
+artifact: com.azure:azure-cosmos:4.3.2-beta.2

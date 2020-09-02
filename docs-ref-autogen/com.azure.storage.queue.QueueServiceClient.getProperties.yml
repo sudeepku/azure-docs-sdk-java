@@ -1,0 +1,35 @@
+### YamlMime:JavaMember
+uid: com.azure.storage.queue.QueueServiceClient.getProperties*
+fullName: com.azure.storage.queue.QueueServiceClient.getProperties
+name: getProperties
+nameWithType: QueueServiceClient.getProperties
+members:
+- uid: com.azure.storage.queue.QueueServiceClient.getProperties()
+  fullName: com.azure.storage.queue.QueueServiceClient.getProperties()
+  name: getProperties()
+  nameWithType: QueueServiceClient.getProperties()
+  summary: |-
+    Retrieves the properties of the storage account's Queue service. The properties range from storage analytics and
+     metric to CORS (Cross-Origin Resource Sharing).
+
+     <p><strong>Code Samples</strong></p>
+
+     <p>Retrieve Queue service properties</p>
+
+     <pre>
+     QueueServiceProperties properties = client.getProperties&#40;&#41;;
+     System.out.printf&#40;&quot;Hour metrics enabled: %b, Minute metrics enabled: %b&quot;,
+         properties.getHourMetrics&#40;&#41;.isEnabled&#40;&#41;, properties.getMinuteMetrics&#40;&#41;.isEnabled&#40;&#41;&#41;;
+     </pre>
+
+     <p>For more information, see the
+     <a href="https://docs.microsoft.com/en-us/rest/api/storageservices/get-queue-service-properties">Azure
+     Docs</a>.</p>
+  syntax: public QueueServiceProperties getProperties()
+  returns:
+    description: Storage account Queue service properties
+    type: <xref href="com.azure.storage.queue.models.QueueServiceProperties?alt=com.azure.storage.queue.models.QueueServiceProperties&text=QueueServiceProperties" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.storage.queue
+artifact: com.azure:azure-storage-queue:12.6.0

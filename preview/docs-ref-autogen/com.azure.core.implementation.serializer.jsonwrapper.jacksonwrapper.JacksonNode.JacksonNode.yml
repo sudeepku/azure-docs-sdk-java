@@ -1,0 +1,20 @@
+### YamlMime:JavaMember
+uid: com.azure.core.implementation.serializer.jsonwrapper.jacksonwrapper.JacksonNode.JacksonNode*
+fullName: com.azure.core.implementation.serializer.jsonwrapper.jacksonwrapper.JacksonNode.JacksonNode
+name: JacksonNode
+nameWithType: JacksonNode.JacksonNode
+members:
+- uid: com.azure.core.implementation.serializer.jsonwrapper.jacksonwrapper.JacksonNode.JacksonNode(com.fasterxml.jackson.databind.JsonNode)
+  fullName: com.azure.core.implementation.serializer.jsonwrapper.jacksonwrapper.JacksonNode.JacksonNode(JsonNode node)
+  name: JacksonNode(JsonNode node)
+  nameWithType: JacksonNode.JacksonNode(JsonNode node)
+  summary: Constructor
+  parameters:
+  - description: JsonNode
+    name: node
+    type: <xref href="com.fasterxml.jackson.databind.JsonNode?alt=com.fasterxml.jackson.databind.JsonNode&text=JsonNode" data-throw-if-not-resolved="False" />
+  syntax: public JacksonNode(JsonNode node)
+type: constructor
+metadata: {}
+package: com.azure.core.implementation.serializer.jsonwrapper.jacksonwrapper
+artifact: com.azure:azure-core:1.3.0-beta.1

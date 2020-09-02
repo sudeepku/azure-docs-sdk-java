@@ -1,0 +1,30 @@
+### YamlMime:JavaMember
+uid: com.azure.storage.blob.BlobServiceAsyncClient.getProperties*
+fullName: com.azure.storage.blob.BlobServiceAsyncClient.getProperties
+name: getProperties
+nameWithType: BlobServiceAsyncClient.getProperties
+members:
+- uid: com.azure.storage.blob.BlobServiceAsyncClient.getProperties()
+  fullName: com.azure.storage.blob.BlobServiceAsyncClient.getProperties()
+  name: getProperties()
+  nameWithType: BlobServiceAsyncClient.getProperties()
+  summary: |-
+    Gets the properties of a storage account\u2019s Blob service. For more information, see the
+     <a href="https://docs.microsoft.com/en-us/rest/api/storageservices/get-blob-service-properties">Azure Docs</a>.
+
+     <p><strong>Code Samples</strong></p>
+
+     <pre>
+     client.getProperties&#40;&#41;.subscribe&#40;response -&gt;
+         System.out.printf&#40;&quot;Hour metrics enabled: %b, Minute metrics enabled: %b%n&quot;,
+             response.getHourMetrics&#40;&#41;.isEnabled&#40;&#41;,
+             response.getMinuteMetrics&#40;&#41;.isEnabled&#40;&#41;&#41;&#41;;
+     </pre>
+  syntax: public Mono<BlobServiceProperties> getProperties()
+  returns:
+    description: A reactive response containing the storage account properties.
+    type: <xref href="reactor.core.publisher.Mono?alt=reactor.core.publisher.Mono&text=Mono" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.storage.blob.models.BlobServiceProperties?alt=com.azure.storage.blob.models.BlobServiceProperties&text=BlobServiceProperties" data-throw-if-not-resolved="False" />&gt;
+type: method
+metadata: {}
+package: com.azure.storage.blob
+artifact: com.azure:azure-storage-blob:12.8.0-beta.1

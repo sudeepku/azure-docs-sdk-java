@@ -1,0 +1,16 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.network.models.FirewallPolicyRuleType.FIREWALL_POLICY_FILTER_RULE
+fullName: com.azure.resourcemanager.network.models.FirewallPolicyRuleType.FIREWALL_POLICY_FILTER_RULE
+name: FIREWALL_POLICY_FILTER_RULE
+nameWithType: FirewallPolicyRuleType.FIREWALL_POLICY_FILTER_RULE
+members:
+- uid: com.azure.resourcemanager.network.models.FirewallPolicyRuleType.FIREWALL_POLICY_FILTER_RULE
+  fullName: com.azure.resourcemanager.network.models.FirewallPolicyRuleType.FIREWALL_POLICY_FILTER_RULE
+  name: FIREWALL_POLICY_FILTER_RULE
+  nameWithType: FirewallPolicyRuleType.FIREWALL_POLICY_FILTER_RULE
+  summary: Static value FirewallPolicyFilterRule for FirewallPolicyRuleType.
+  syntax: public static final FirewallPolicyRuleType FIREWALL_POLICY_FILTER_RULE
+type: field
+metadata: {}
+package: com.azure.resourcemanager.network.models
+artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.0.0-beta.2

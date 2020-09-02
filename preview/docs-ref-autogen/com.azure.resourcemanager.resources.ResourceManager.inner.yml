@@ -1,0 +1,17 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.resources.ResourceManager.inner*
+fullName: com.azure.resourcemanager.resources.ResourceManager.inner
+name: inner
+nameWithType: ResourceManager.inner
+members:
+- uid: com.azure.resourcemanager.resources.ResourceManager.inner()
+  fullName: com.azure.resourcemanager.resources.ResourceManager.inner()
+  name: inner()
+  nameWithType: ResourceManager.inner()
+  syntax: public ResourceManagementClient inner()
+  returns:
+    type: <xref href="com.azure.resourcemanager.resources.ResourceManagementClient?alt=com.azure.resourcemanager.resources.ResourceManagementClient&text=ResourceManagementClient" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.resourcemanager.resources
+artifact: com.azure.resourcemanager:azure-resourcemanager-resources:2.0.0-beta.2

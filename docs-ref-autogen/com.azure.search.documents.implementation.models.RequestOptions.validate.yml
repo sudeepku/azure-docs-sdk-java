@@ -1,0 +1,16 @@
+### YamlMime:JavaMember
+uid: com.azure.search.documents.implementation.models.RequestOptions.validate*
+fullName: com.azure.search.documents.implementation.models.RequestOptions.validate
+name: validate
+nameWithType: RequestOptions.validate
+members:
+- uid: com.azure.search.documents.implementation.models.RequestOptions.validate()
+  fullName: com.azure.search.documents.implementation.models.RequestOptions.validate()
+  name: validate()
+  nameWithType: RequestOptions.validate()
+  summary: Validates the instance.
+  syntax: public void validate()
+type: method
+metadata: {}
+package: com.azure.search.documents.implementation.models
+artifact: com.azure:azure-search-documents:11.0.0

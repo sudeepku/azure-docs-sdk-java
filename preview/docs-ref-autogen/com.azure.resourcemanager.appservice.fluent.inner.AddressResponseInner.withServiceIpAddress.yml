@@ -1,0 +1,23 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.appservice.fluent.inner.AddressResponseInner.withServiceIpAddress*
+fullName: com.azure.resourcemanager.appservice.fluent.inner.AddressResponseInner.withServiceIpAddress
+name: withServiceIpAddress
+nameWithType: AddressResponseInner.withServiceIpAddress
+members:
+- uid: com.azure.resourcemanager.appservice.fluent.inner.AddressResponseInner.withServiceIpAddress(java.lang.String)
+  fullName: com.azure.resourcemanager.appservice.fluent.inner.AddressResponseInner.withServiceIpAddress(String serviceIpAddress)
+  name: withServiceIpAddress(String serviceIpAddress)
+  nameWithType: AddressResponseInner.withServiceIpAddress(String serviceIpAddress)
+  summary: 'Set the serviceIpAddress property: Main public virtual IP.'
+  parameters:
+  - description: the serviceIpAddress value to set.
+    name: serviceIpAddress
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  syntax: public AddressResponseInner withServiceIpAddress(String serviceIpAddress)
+  returns:
+    description: the AddressResponseInner object itself.
+    type: <xref href="com.azure.resourcemanager.appservice.fluent.inner.AddressResponseInner?alt=com.azure.resourcemanager.appservice.fluent.inner.AddressResponseInner&text=AddressResponseInner" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.resourcemanager.appservice.fluent.inner
+artifact: com.azure.resourcemanager:azure-resourcemanager-appservice:2.0.0-beta.2

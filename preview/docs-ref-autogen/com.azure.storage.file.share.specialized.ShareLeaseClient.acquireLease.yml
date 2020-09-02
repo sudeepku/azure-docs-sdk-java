@@ -1,0 +1,26 @@
+### YamlMime:JavaMember
+uid: com.azure.storage.file.share.specialized.ShareLeaseClient.acquireLease*
+fullName: com.azure.storage.file.share.specialized.ShareLeaseClient.acquireLease
+name: acquireLease
+nameWithType: ShareLeaseClient.acquireLease
+members:
+- uid: com.azure.storage.file.share.specialized.ShareLeaseClient.acquireLease()
+  fullName: com.azure.storage.file.share.specialized.ShareLeaseClient.acquireLease()
+  name: acquireLease()
+  nameWithType: ShareLeaseClient.acquireLease()
+  summary: |-
+    Acquires a lease for write and delete operations. All leases are infinite.
+
+     <p><strong>Code Samples</strong></p>
+
+     <pre>
+     System.out.printf&#40;&quot;Lease ID is %s%n&quot;, client.acquireLease&#40;&#41;&#41;;
+     </pre>
+  syntax: public String acquireLease()
+  returns:
+    description: The lease ID.
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.storage.file.share.specialized
+artifact: com.azure:azure-storage-file-share:12.6.0-beta.1

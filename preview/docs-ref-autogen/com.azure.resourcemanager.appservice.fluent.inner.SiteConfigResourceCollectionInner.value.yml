@@ -1,0 +1,19 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.appservice.fluent.inner.SiteConfigResourceCollectionInner.value*
+fullName: com.azure.resourcemanager.appservice.fluent.inner.SiteConfigResourceCollectionInner.value
+name: value
+nameWithType: SiteConfigResourceCollectionInner.value
+members:
+- uid: com.azure.resourcemanager.appservice.fluent.inner.SiteConfigResourceCollectionInner.value()
+  fullName: com.azure.resourcemanager.appservice.fluent.inner.SiteConfigResourceCollectionInner.value()
+  name: value()
+  nameWithType: SiteConfigResourceCollectionInner.value()
+  summary: 'Get the value property: Collection of resources.'
+  syntax: public List<SiteConfigResourceInner> value()
+  returns:
+    description: the value value.
+    type: <xref href="java.util.List?alt=java.util.List&text=List" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.resourcemanager.appservice.fluent.inner.SiteConfigResourceInner?alt=com.azure.resourcemanager.appservice.fluent.inner.SiteConfigResourceInner&text=SiteConfigResourceInner" data-throw-if-not-resolved="False" />&gt;
+type: method
+metadata: {}
+package: com.azure.resourcemanager.appservice.fluent.inner
+artifact: com.azure.resourcemanager:azure-resourcemanager-appservice:2.0.0-beta.2

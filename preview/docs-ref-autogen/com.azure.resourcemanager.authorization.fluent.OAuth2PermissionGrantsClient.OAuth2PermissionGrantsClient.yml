@@ -1,0 +1,20 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.authorization.fluent.OAuth2PermissionGrantsClient.OAuth2PermissionGrantsClient*
+fullName: com.azure.resourcemanager.authorization.fluent.OAuth2PermissionGrantsClient.OAuth2PermissionGrantsClient
+name: OAuth2PermissionGrantsClient
+nameWithType: OAuth2PermissionGrantsClient.OAuth2PermissionGrantsClient
+members:
+- uid: com.azure.resourcemanager.authorization.fluent.OAuth2PermissionGrantsClient.OAuth2PermissionGrantsClient(com.azure.resourcemanager.authorization.GraphRbacManagementClient)
+  fullName: com.azure.resourcemanager.authorization.fluent.OAuth2PermissionGrantsClient.OAuth2PermissionGrantsClient(GraphRbacManagementClient client)
+  name: OAuth2PermissionGrantsClient(GraphRbacManagementClient client)
+  nameWithType: OAuth2PermissionGrantsClient.OAuth2PermissionGrantsClient(GraphRbacManagementClient client)
+  summary: Initializes an instance of OAuth2PermissionGrantsClient.
+  parameters:
+  - description: the instance of the service client containing this operation class.
+    name: client
+    type: <xref href="com.azure.resourcemanager.authorization.GraphRbacManagementClient?alt=com.azure.resourcemanager.authorization.GraphRbacManagementClient&text=GraphRbacManagementClient" data-throw-if-not-resolved="False" />
+  syntax: public OAuth2PermissionGrantsClient(GraphRbacManagementClient client)
+type: constructor
+metadata: {}
+package: com.azure.resourcemanager.authorization.fluent
+artifact: com.azure.resourcemanager:azure-resourcemanager-authorization:2.0.0-beta.2

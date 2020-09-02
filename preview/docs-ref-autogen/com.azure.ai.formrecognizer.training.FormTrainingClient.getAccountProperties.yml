@@ -1,0 +1,28 @@
+### YamlMime:JavaMember
+uid: com.azure.ai.formrecognizer.training.FormTrainingClient.getAccountProperties*
+fullName: com.azure.ai.formrecognizer.training.FormTrainingClient.getAccountProperties
+name: getAccountProperties
+nameWithType: FormTrainingClient.getAccountProperties
+members:
+- uid: com.azure.ai.formrecognizer.training.FormTrainingClient.getAccountProperties()
+  fullName: com.azure.ai.formrecognizer.training.FormTrainingClient.getAccountProperties()
+  name: getAccountProperties()
+  nameWithType: FormTrainingClient.getAccountProperties()
+  summary: |-
+    Get account information of the form recognizer account.
+
+     <p><strong>Code sample</strong></p>
+     <pre>
+     AccountProperties accountProperties = formTrainingClient.getAccountProperties&#40;&#41;;
+     System.out.printf&#40;&quot;Max number of models that can be trained for this account: %d%n&quot;,
+         accountProperties.getCustomModelLimit&#40;&#41;&#41;;
+     System.out.printf&#40;&quot;Current count of trained custom models: %d%n&quot;, accountProperties.getCustomModelCount&#40;&#41;&#41;;
+     </pre>
+  syntax: public AccountProperties getAccountProperties()
+  returns:
+    description: The requested account information of the form recognizer account.
+    type: <xref href="com.azure.ai.formrecognizer.training.models.AccountProperties?alt=com.azure.ai.formrecognizer.training.models.AccountProperties&text=AccountProperties" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.ai.formrecognizer.training
+artifact: com.azure:azure-ai-formrecognizer:3.0.0-beta.1

@@ -1,0 +1,16 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.appservice.models.RuntimeStack.RUBY_2_4
+fullName: com.azure.resourcemanager.appservice.models.RuntimeStack.RUBY_2_4
+name: RUBY_2_4
+nameWithType: RuntimeStack.RUBY_2_4
+members:
+- uid: com.azure.resourcemanager.appservice.models.RuntimeStack.RUBY_2_4
+  fullName: com.azure.resourcemanager.appservice.models.RuntimeStack.RUBY_2_4
+  name: RUBY_2_4
+  nameWithType: RuntimeStack.RUBY_2_4
+  summary: RUBY 2.4.
+  syntax: public static final RuntimeStack RUBY_2_4
+type: field
+metadata: {}
+package: com.azure.resourcemanager.appservice.models
+artifact: com.azure.resourcemanager:azure-resourcemanager-appservice:2.0.0-beta.2

@@ -1,0 +1,64 @@
+### YamlMime:JavaMember
+uid: com.azure.security.keyvault.certificates.CertificateAsyncClient.listPropertiesOfCertificates*
+fullName: com.azure.security.keyvault.certificates.CertificateAsyncClient.listPropertiesOfCertificates
+name: listPropertiesOfCertificates
+nameWithType: CertificateAsyncClient.listPropertiesOfCertificates
+members:
+- uid: com.azure.security.keyvault.certificates.CertificateAsyncClient.listPropertiesOfCertificates()
+  fullName: com.azure.security.keyvault.certificates.CertificateAsyncClient.listPropertiesOfCertificates()
+  name: listPropertiesOfCertificates()
+  nameWithType: CertificateAsyncClient.listPropertiesOfCertificates()
+  summary: |-
+    List certificates in a the key vault. Retrieves the set of certificates resources in the key vault and the individual
+     certificate response in the flux is represented by <xref uid="CertificateProperties" data-throw-if-not-resolved="false">CertificateProperties</xref> as only the certificate identifier, thumbprint,
+     attributes and tags are provided in the response. The policy and individual certificate versions are not listed in
+     the response. This operation requires the certificates/list permission.
+
+     <p>It is possible to get certificates with all the properties excluding the policy from this information. Convert the <xref uid="Flux" data-throw-if-not-resolved="false">Flux</xref> containing <xref uid="CertificateProperties" data-throw-if-not-resolved="false">CertificateProperties</xref> to
+     <xref uid="Flux" data-throw-if-not-resolved="false">Flux</xref> containing <xref uid="KeyVaultCertificate" data-throw-if-not-resolved="false">certificate</xref> using <xref uid="CertificateAsyncClient#getCertificateVersion(String, String)" data-throw-if-not-resolved="false">CertificateAsyncClient#getCertificateVersion(String, String)</xref> within <xref uid="Flux#flatMap(Function)" data-throw-if-not-resolved="false">Flux#flatMap(Function)</xref>.</p>
+
+     <pre>
+     certificateAsyncClient.listPropertiesOfCertificates&#40;&#41;
+         .subscriberContext&#40;Context.of&#40;key1, value1, key2, value2&#41;&#41;
+         .subscribe&#40;certificate -&gt; certificateAsyncClient.getCertificateVersion&#40;certificate.getName&#40;&#41;,
+             certificate.getVersion&#40;&#41;&#41;
+             .subscribe&#40;certificateResponse -&gt; System.out.printf&#40;&quot;Received certificate with name %s and key id %s&quot;,
+                 certificateResponse.getName&#40;&#41;, certificateResponse.getKeyId&#40;&#41;&#41;&#41;&#41;;
+     </pre>
+  syntax: public PagedFlux<CertificateProperties> listPropertiesOfCertificates()
+  returns:
+    description: A <xref uid="com.azure.core.http.rest.PagedFlux" data-throw-if-not-resolved="false">PagedFlux</xref> containing <xref uid="com.azure.security.keyvault.certificates.models.CertificateProperties" data-throw-if-not-resolved="false">certificate</xref> for all the certificates in the vault.
+    type: <xref href="com.azure.core.http.rest.PagedFlux?alt=com.azure.core.http.rest.PagedFlux&text=PagedFlux" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.security.keyvault.certificates.models.CertificateProperties?alt=com.azure.security.keyvault.certificates.models.CertificateProperties&text=CertificateProperties" data-throw-if-not-resolved="False" />&gt;
+- uid: com.azure.security.keyvault.certificates.CertificateAsyncClient.listPropertiesOfCertificates(boolean)
+  fullName: com.azure.security.keyvault.certificates.CertificateAsyncClient.listPropertiesOfCertificates(boolean includePending)
+  name: listPropertiesOfCertificates(boolean includePending)
+  nameWithType: CertificateAsyncClient.listPropertiesOfCertificates(boolean includePending)
+  summary: |-
+    List certificates in a the key vault. Retrieves the set of certificates resources in the key vault and the individual
+     certificate response in the flux is represented by <xref uid="CertificateProperties" data-throw-if-not-resolved="false">CertificateProperties</xref> as only the certificate identifier, thumbprint,
+     attributes and tags are provided in the response. The policy and individual certificate versions are not listed in
+     the response. This operation requires the certificates/list permission.
+
+     <p>It is possible to get certificates with all the properties excluding the policy from this information. Convert the <xref uid="Flux" data-throw-if-not-resolved="false">Flux</xref> containing <xref uid="CertificateProperties" data-throw-if-not-resolved="false">CertificateProperties</xref> to
+     <xref uid="Flux" data-throw-if-not-resolved="false">Flux</xref> containing <xref uid="KeyVaultCertificate" data-throw-if-not-resolved="false">certificate</xref> using <xref uid="CertificateAsyncClient#getCertificateVersion(String, String)" data-throw-if-not-resolved="false">CertificateAsyncClient#getCertificateVersion(String, String)</xref> within <xref uid="Flux#flatMap(Function)" data-throw-if-not-resolved="false">Flux#flatMap(Function)</xref>.</p>
+
+     <pre>
+     certificateAsyncClient.listPropertiesOfCertificates&#40;&#41;
+         .subscriberContext&#40;Context.of&#40;key1, value1, key2, value2&#41;&#41;
+         .subscribe&#40;certificate -&gt; certificateAsyncClient.getCertificateVersion&#40;certificate.getName&#40;&#41;,
+             certificate.getVersion&#40;&#41;&#41;
+             .subscribe&#40;certificateResponse -&gt; System.out.printf&#40;&quot;Received certificate with name %s and key id %s&quot;,
+                 certificateResponse.getName&#40;&#41;, certificateResponse.getKeyId&#40;&#41;&#41;&#41;&#41;;
+     </pre>
+  parameters:
+  - description: indicate if pending certificates should be included in the results.
+    name: includePending
+    type: <xref href="boolean?alt=boolean&text=boolean" data-throw-if-not-resolved="False" />
+  syntax: public PagedFlux<CertificateProperties> listPropertiesOfCertificates(boolean includePending)
+  returns:
+    description: A <xref uid="com.azure.core.http.rest.PagedFlux" data-throw-if-not-resolved="false">PagedFlux</xref> containing <xref uid="com.azure.security.keyvault.certificates.models.CertificateProperties" data-throw-if-not-resolved="false">certificate</xref> for all the certificates in the vault.
+    type: <xref href="com.azure.core.http.rest.PagedFlux?alt=com.azure.core.http.rest.PagedFlux&text=PagedFlux" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.security.keyvault.certificates.models.CertificateProperties?alt=com.azure.security.keyvault.certificates.models.CertificateProperties&text=CertificateProperties" data-throw-if-not-resolved="False" />&gt;
+type: method
+metadata: {}
+package: com.azure.security.keyvault.certificates
+artifact: com.azure:azure-security-keyvault-certificates:4.1.0

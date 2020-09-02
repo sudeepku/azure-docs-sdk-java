@@ -1,0 +1,19 @@
+### YamlMime:JavaMember
+uid: com.azure.data.schemaregistry.client.implementation.models.SchemaGroup.getSchemaType*
+fullName: com.azure.data.schemaregistry.client.implementation.models.SchemaGroup.getSchemaType
+name: getSchemaType
+nameWithType: SchemaGroup.getSchemaType
+members:
+- uid: com.azure.data.schemaregistry.client.implementation.models.SchemaGroup.getSchemaType()
+  fullName: com.azure.data.schemaregistry.client.implementation.models.SchemaGroup.getSchemaType()
+  name: getSchemaType()
+  nameWithType: SchemaGroup.getSchemaType()
+  summary: 'Get the schemaType property: The schemaType property.'
+  syntax: public String getSchemaType()
+  returns:
+    description: the schemaType value.
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.data.schemaregistry.client.implementation.models
+artifact: com.azure:azure-data-schemaregistry:1.0.0-beta.1

@@ -1,0 +1,20 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.containerregistry.fluent.TasksClient.TasksClient*
+fullName: com.azure.resourcemanager.containerregistry.fluent.TasksClient.TasksClient
+name: TasksClient
+nameWithType: TasksClient.TasksClient
+members:
+- uid: com.azure.resourcemanager.containerregistry.fluent.TasksClient.TasksClient(com.azure.resourcemanager.containerregistry.ContainerRegistryManagementClient)
+  fullName: com.azure.resourcemanager.containerregistry.fluent.TasksClient.TasksClient(ContainerRegistryManagementClient client)
+  name: TasksClient(ContainerRegistryManagementClient client)
+  nameWithType: TasksClient.TasksClient(ContainerRegistryManagementClient client)
+  summary: Initializes an instance of TasksClient.
+  parameters:
+  - description: the instance of the service client containing this operation class.
+    name: client
+    type: <xref href="com.azure.resourcemanager.containerregistry.ContainerRegistryManagementClient?alt=com.azure.resourcemanager.containerregistry.ContainerRegistryManagementClient&text=ContainerRegistryManagementClient" data-throw-if-not-resolved="False" />
+  syntax: public TasksClient(ContainerRegistryManagementClient client)
+type: constructor
+metadata: {}
+package: com.azure.resourcemanager.containerregistry.fluent
+artifact: com.azure.resourcemanager:azure-resourcemanager-containerregistry:2.0.0-beta.2

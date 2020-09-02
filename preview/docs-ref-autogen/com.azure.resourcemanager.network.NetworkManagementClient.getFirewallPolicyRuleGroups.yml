@@ -1,0 +1,19 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.network.NetworkManagementClient.getFirewallPolicyRuleGroups*
+fullName: com.azure.resourcemanager.network.NetworkManagementClient.getFirewallPolicyRuleGroups
+name: getFirewallPolicyRuleGroups
+nameWithType: NetworkManagementClient.getFirewallPolicyRuleGroups
+members:
+- uid: com.azure.resourcemanager.network.NetworkManagementClient.getFirewallPolicyRuleGroups()
+  fullName: com.azure.resourcemanager.network.NetworkManagementClient.getFirewallPolicyRuleGroups()
+  name: getFirewallPolicyRuleGroups()
+  nameWithType: NetworkManagementClient.getFirewallPolicyRuleGroups()
+  summary: Gets the FirewallPolicyRuleGroupsClient object to access its operations.
+  syntax: public FirewallPolicyRuleGroupsClient getFirewallPolicyRuleGroups()
+  returns:
+    description: the FirewallPolicyRuleGroupsClient object.
+    type: <xref href="com.azure.resourcemanager.network.fluent.FirewallPolicyRuleGroupsClient?alt=com.azure.resourcemanager.network.fluent.FirewallPolicyRuleGroupsClient&text=FirewallPolicyRuleGroupsClient" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.resourcemanager.network
+artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.0.0-beta.2

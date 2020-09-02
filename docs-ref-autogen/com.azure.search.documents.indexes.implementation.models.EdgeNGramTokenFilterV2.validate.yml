@@ -1,0 +1,17 @@
+### YamlMime:JavaMember
+uid: com.azure.search.documents.indexes.implementation.models.EdgeNGramTokenFilterV2.validate*
+fullName: com.azure.search.documents.indexes.implementation.models.EdgeNGramTokenFilterV2.validate
+name: validate
+nameWithType: EdgeNGramTokenFilterV2.validate
+members:
+- uid: com.azure.search.documents.indexes.implementation.models.EdgeNGramTokenFilterV2.validate()
+  fullName: com.azure.search.documents.indexes.implementation.models.EdgeNGramTokenFilterV2.validate()
+  name: validate()
+  nameWithType: EdgeNGramTokenFilterV2.validate()
+  summary: Validates the instance.
+  overridden: com.azure.search.documents.indexes.implementation.models.TokenFilter.validate()
+  syntax: public void validate()
+type: method
+metadata: {}
+package: com.azure.search.documents.indexes.implementation.models
+artifact: com.azure:azure-search-documents:11.0.0

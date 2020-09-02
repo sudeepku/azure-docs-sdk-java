@@ -1,0 +1,30 @@
+### YamlMime:JavaMember
+uid: com.azure.cosmos.implementation.guava25.base.Predicate.equals*
+fullName: com.azure.cosmos.implementation.guava25.base.Predicate<T>.equals
+name: equals
+nameWithType: Predicate<T>.equals
+members:
+- uid: com.azure.cosmos.implementation.guava25.base.Predicate.equals(java.lang.Object)
+  fullName: com.azure.cosmos.implementation.guava25.base.Predicate<T>.equals(Object object)
+  name: equals(Object object)
+  nameWithType: Predicate<T>.equals(Object object)
+  summary: |-
+    Indicates whether another object is equal to this predicate.
+
+     <p>Most implementations will have no reason to override the behavior of <xref uid="Object#equals" data-throw-if-not-resolved="false">Object#equals</xref>.
+     However, an implementation may also choose to return <code>true</code> whenever <code>object</code> is a
+     <xref uid="Predicate" data-throw-if-not-resolved="false">Predicate</xref> that it considers <i>interchangeable</i> with this one. "Interchangeable"
+     <i>typically</i> means that <code>this.apply(t) == that.apply(t)</code> for all <code>t</code> of type
+     <code>T</code>). Note that a <code>false</code> result from this method does not imply that the
+     predicates are known <i>not</i> to be interchangeable.
+  overridden: java.lang.Object.equals(java.lang.Object)
+  parameters:
+  - name: object
+    type: <xref href="java.lang.Object?alt=java.lang.Object&text=Object" data-throw-if-not-resolved="False" />
+  syntax: public abstract boolean equals(Object object)
+  returns:
+    type: <xref href="boolean?alt=boolean&text=boolean" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.cosmos.implementation.guava25.base
+artifact: com.azure:azure-cosmos:4.3.2-beta.2

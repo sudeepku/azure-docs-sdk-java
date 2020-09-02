@@ -1,0 +1,38 @@
+### YamlMime:JavaMember
+uid: com.azure.storage.queue.QueueAsyncClient.getPropertiesWithResponse*
+fullName: com.azure.storage.queue.QueueAsyncClient.getPropertiesWithResponse
+name: getPropertiesWithResponse
+nameWithType: QueueAsyncClient.getPropertiesWithResponse
+members:
+- uid: com.azure.storage.queue.QueueAsyncClient.getPropertiesWithResponse()
+  fullName: com.azure.storage.queue.QueueAsyncClient.getPropertiesWithResponse()
+  name: getPropertiesWithResponse()
+  nameWithType: QueueAsyncClient.getPropertiesWithResponse()
+  summary: |-
+    Retrieves metadata and approximate message count of the queue.
+
+     <p><strong>Code Samples</strong></p>
+
+     <p>Get the properties of the queue</p>
+
+     <pre>
+     client.getPropertiesWithResponse&#40;&#41;
+         .subscribe&#40;response -&gt; &#123;
+             QueueProperties properties = response.getValue&#40;&#41;;
+             System.out.printf&#40;&quot;Metadata: %s, Approximate message count: %d&quot;, properties.getMetadata&#40;&#41;,
+                 properties.getApproximateMessagesCount&#40;&#41;&#41;;
+         &#125;&#41;;
+     </pre>
+
+     <p>For more information, see the
+     <a href="https://docs.microsoft.com/en-us/rest/api/storageservices/get-queue-metadata">Azure Docs</a>.</p>
+  syntax: public Mono<Response<QueueProperties>> getPropertiesWithResponse()
+  returns:
+    description: |-
+      A response containing a <xref uid="com.azure.storage.queue.models.QueueProperties" data-throw-if-not-resolved="false">QueueProperties</xref> value which contains the metadata and approximate
+       messages count of the queue.
+    type: <xref href="reactor.core.publisher.Mono?alt=reactor.core.publisher.Mono&text=Mono" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.core.http.rest.Response?alt=com.azure.core.http.rest.Response&text=Response" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.storage.queue.models.QueueProperties?alt=com.azure.storage.queue.models.QueueProperties&text=QueueProperties" data-throw-if-not-resolved="False" />&gt;&gt;
+type: method
+metadata: {}
+package: com.azure.storage.queue
+artifact: com.azure:azure-storage-queue:12.6.0

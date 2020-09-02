@@ -1,0 +1,19 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.storage.fluent.inner.ObjectReplicationPoliciesInner.value*
+fullName: com.azure.resourcemanager.storage.fluent.inner.ObjectReplicationPoliciesInner.value
+name: value
+nameWithType: ObjectReplicationPoliciesInner.value
+members:
+- uid: com.azure.resourcemanager.storage.fluent.inner.ObjectReplicationPoliciesInner.value()
+  fullName: com.azure.resourcemanager.storage.fluent.inner.ObjectReplicationPoliciesInner.value()
+  name: value()
+  nameWithType: ObjectReplicationPoliciesInner.value()
+  summary: 'Get the value property: The replication policy between two storage accounts.'
+  syntax: public List<ObjectReplicationPolicyInner> value()
+  returns:
+    description: the value value.
+    type: <xref href="java.util.List?alt=java.util.List&text=List" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.resourcemanager.storage.fluent.inner.ObjectReplicationPolicyInner?alt=com.azure.resourcemanager.storage.fluent.inner.ObjectReplicationPolicyInner&text=ObjectReplicationPolicyInner" data-throw-if-not-resolved="False" />&gt;
+type: method
+metadata: {}
+package: com.azure.resourcemanager.storage.fluent.inner
+artifact: com.azure.resourcemanager:azure-resourcemanager-storage:2.0.0-beta.2

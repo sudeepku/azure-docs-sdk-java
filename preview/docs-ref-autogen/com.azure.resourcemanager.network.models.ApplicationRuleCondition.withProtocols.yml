@@ -1,0 +1,23 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.network.models.ApplicationRuleCondition.withProtocols*
+fullName: com.azure.resourcemanager.network.models.ApplicationRuleCondition.withProtocols
+name: withProtocols
+nameWithType: ApplicationRuleCondition.withProtocols
+members:
+- uid: com.azure.resourcemanager.network.models.ApplicationRuleCondition.withProtocols(java.util.List<com.azure.resourcemanager.network.models.FirewallPolicyRuleConditionApplicationProtocol>)
+  fullName: com.azure.resourcemanager.network.models.ApplicationRuleCondition.withProtocols(List<FirewallPolicyRuleConditionApplicationProtocol> protocols)
+  name: withProtocols(List<FirewallPolicyRuleConditionApplicationProtocol> protocols)
+  nameWithType: ApplicationRuleCondition.withProtocols(List<FirewallPolicyRuleConditionApplicationProtocol> protocols)
+  summary: 'Set the protocols property: Array of Application Protocols.'
+  parameters:
+  - description: the protocols value to set.
+    name: protocols
+    type: <xref href="java.util.List?alt=java.util.List&text=List" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.resourcemanager.network.models.FirewallPolicyRuleConditionApplicationProtocol?alt=com.azure.resourcemanager.network.models.FirewallPolicyRuleConditionApplicationProtocol&text=FirewallPolicyRuleConditionApplicationProtocol" data-throw-if-not-resolved="False" />&gt;
+  syntax: public ApplicationRuleCondition withProtocols(List<FirewallPolicyRuleConditionApplicationProtocol> protocols)
+  returns:
+    description: the ApplicationRuleCondition object itself.
+    type: <xref href="com.azure.resourcemanager.network.models.ApplicationRuleCondition?alt=com.azure.resourcemanager.network.models.ApplicationRuleCondition&text=ApplicationRuleCondition" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.resourcemanager.network.models
+artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.0.0-beta.2

@@ -1,0 +1,18 @@
+### YamlMime:JavaMember
+uid: com.azure.core.tracing.opencensus.OpenCensusHttpPolicy.create*
+fullName: com.azure.core.tracing.opencensus.OpenCensusHttpPolicy.create
+name: create
+nameWithType: OpenCensusHttpPolicy.create
+members:
+- uid: com.azure.core.tracing.opencensus.OpenCensusHttpPolicy.create()
+  fullName: com.azure.core.tracing.opencensus.OpenCensusHttpPolicy.create()
+  name: create()
+  nameWithType: OpenCensusHttpPolicy.create()
+  syntax: public HttpPipelinePolicy create()
+  returns:
+    description: a OpenCensus HTTP policy.
+    type: <xref href="com.azure.core.http.policy.HttpPipelinePolicy?alt=com.azure.core.http.policy.HttpPipelinePolicy&text=HttpPipelinePolicy" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.core.tracing.opencensus
+artifact: com.azure:azure-core-tracing-opencensus:1.0.0-beta.6

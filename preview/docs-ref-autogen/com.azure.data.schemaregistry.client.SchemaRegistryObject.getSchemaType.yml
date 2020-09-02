@@ -1,0 +1,18 @@
+### YamlMime:JavaMember
+uid: com.azure.data.schemaregistry.client.SchemaRegistryObject.getSchemaType*
+fullName: com.azure.data.schemaregistry.client.SchemaRegistryObject.getSchemaType
+name: getSchemaType
+nameWithType: SchemaRegistryObject.getSchemaType
+members:
+- uid: com.azure.data.schemaregistry.client.SchemaRegistryObject.getSchemaType()
+  fullName: com.azure.data.schemaregistry.client.SchemaRegistryObject.getSchemaType()
+  name: getSchemaType()
+  nameWithType: SchemaRegistryObject.getSchemaType()
+  syntax: public String getSchemaType()
+  returns:
+    description: schema type associated with the schema payload
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.data.schemaregistry.client
+artifact: com.azure:azure-data-schemaregistry:1.0.0-beta.1

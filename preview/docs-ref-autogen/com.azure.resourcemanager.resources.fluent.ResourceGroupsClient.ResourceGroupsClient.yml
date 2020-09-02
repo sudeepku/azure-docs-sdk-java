@@ -1,0 +1,20 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.resources.fluent.ResourceGroupsClient.ResourceGroupsClient*
+fullName: com.azure.resourcemanager.resources.fluent.ResourceGroupsClient.ResourceGroupsClient
+name: ResourceGroupsClient
+nameWithType: ResourceGroupsClient.ResourceGroupsClient
+members:
+- uid: com.azure.resourcemanager.resources.fluent.ResourceGroupsClient.ResourceGroupsClient(com.azure.resourcemanager.resources.ResourceManagementClient)
+  fullName: com.azure.resourcemanager.resources.fluent.ResourceGroupsClient.ResourceGroupsClient(ResourceManagementClient client)
+  name: ResourceGroupsClient(ResourceManagementClient client)
+  nameWithType: ResourceGroupsClient.ResourceGroupsClient(ResourceManagementClient client)
+  summary: Initializes an instance of ResourceGroupsClient.
+  parameters:
+  - description: the instance of the service client containing this operation class.
+    name: client
+    type: <xref href="com.azure.resourcemanager.resources.ResourceManagementClient?alt=com.azure.resourcemanager.resources.ResourceManagementClient&text=ResourceManagementClient" data-throw-if-not-resolved="False" />
+  syntax: public ResourceGroupsClient(ResourceManagementClient client)
+type: constructor
+metadata: {}
+package: com.azure.resourcemanager.resources.fluent
+artifact: com.azure.resourcemanager:azure-resourcemanager-resources:2.0.0-beta.2

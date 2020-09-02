@@ -1,0 +1,23 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.network.fluent.inner.P2SVpnServerConfigurationInner.withVpnClientIpsecPolicies*
+fullName: com.azure.resourcemanager.network.fluent.inner.P2SVpnServerConfigurationInner.withVpnClientIpsecPolicies
+name: withVpnClientIpsecPolicies
+nameWithType: P2SVpnServerConfigurationInner.withVpnClientIpsecPolicies
+members:
+- uid: com.azure.resourcemanager.network.fluent.inner.P2SVpnServerConfigurationInner.withVpnClientIpsecPolicies(java.util.List<com.azure.resourcemanager.network.models.IpsecPolicy>)
+  fullName: com.azure.resourcemanager.network.fluent.inner.P2SVpnServerConfigurationInner.withVpnClientIpsecPolicies(List<IpsecPolicy> vpnClientIpsecPolicies)
+  name: withVpnClientIpsecPolicies(List<IpsecPolicy> vpnClientIpsecPolicies)
+  nameWithType: P2SVpnServerConfigurationInner.withVpnClientIpsecPolicies(List<IpsecPolicy> vpnClientIpsecPolicies)
+  summary: 'Set the vpnClientIpsecPolicies property: VpnClientIpsecPolicies for P2SVpnServerConfiguration.'
+  parameters:
+  - description: the vpnClientIpsecPolicies value to set.
+    name: vpnClientIpsecPolicies
+    type: <xref href="java.util.List?alt=java.util.List&text=List" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.resourcemanager.network.models.IpsecPolicy?alt=com.azure.resourcemanager.network.models.IpsecPolicy&text=IpsecPolicy" data-throw-if-not-resolved="False" />&gt;
+  syntax: public P2SVpnServerConfigurationInner withVpnClientIpsecPolicies(List<IpsecPolicy> vpnClientIpsecPolicies)
+  returns:
+    description: the P2SVpnServerConfigurationInner object itself.
+    type: <xref href="com.azure.resourcemanager.network.fluent.inner.P2SVpnServerConfigurationInner?alt=com.azure.resourcemanager.network.fluent.inner.P2SVpnServerConfigurationInner&text=P2SVpnServerConfigurationInner" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.resourcemanager.network.fluent.inner
+artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.0.0-beta.2

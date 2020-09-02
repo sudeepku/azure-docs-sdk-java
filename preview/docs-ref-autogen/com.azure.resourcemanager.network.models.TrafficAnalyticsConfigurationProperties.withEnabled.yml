@@ -1,0 +1,23 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.network.models.TrafficAnalyticsConfigurationProperties.withEnabled*
+fullName: com.azure.resourcemanager.network.models.TrafficAnalyticsConfigurationProperties.withEnabled
+name: withEnabled
+nameWithType: TrafficAnalyticsConfigurationProperties.withEnabled
+members:
+- uid: com.azure.resourcemanager.network.models.TrafficAnalyticsConfigurationProperties.withEnabled(boolean)
+  fullName: com.azure.resourcemanager.network.models.TrafficAnalyticsConfigurationProperties.withEnabled(boolean enabled)
+  name: withEnabled(boolean enabled)
+  nameWithType: TrafficAnalyticsConfigurationProperties.withEnabled(boolean enabled)
+  summary: 'Set the enabled property: Flag to enable/disable traffic analytics.'
+  parameters:
+  - description: the enabled value to set.
+    name: enabled
+    type: <xref href="boolean?alt=boolean&text=boolean" data-throw-if-not-resolved="False" />
+  syntax: public TrafficAnalyticsConfigurationProperties withEnabled(boolean enabled)
+  returns:
+    description: the TrafficAnalyticsConfigurationProperties object itself.
+    type: <xref href="com.azure.resourcemanager.network.models.TrafficAnalyticsConfigurationProperties?alt=com.azure.resourcemanager.network.models.TrafficAnalyticsConfigurationProperties&text=TrafficAnalyticsConfigurationProperties" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.resourcemanager.network.models
+artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.0.0-beta.2

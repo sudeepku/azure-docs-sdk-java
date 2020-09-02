@@ -1,0 +1,25 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.monitor.fluent.inner.MetricAlertResourceInner.withEvaluationFrequency*
+fullName: com.azure.resourcemanager.monitor.fluent.inner.MetricAlertResourceInner.withEvaluationFrequency
+name: withEvaluationFrequency
+nameWithType: MetricAlertResourceInner.withEvaluationFrequency
+members:
+- uid: com.azure.resourcemanager.monitor.fluent.inner.MetricAlertResourceInner.withEvaluationFrequency(java.time.Duration)
+  fullName: com.azure.resourcemanager.monitor.fluent.inner.MetricAlertResourceInner.withEvaluationFrequency(Duration evaluationFrequency)
+  name: withEvaluationFrequency(Duration evaluationFrequency)
+  nameWithType: MetricAlertResourceInner.withEvaluationFrequency(Duration evaluationFrequency)
+  summary: |-
+    Set the evaluationFrequency property: how often the metric alert is evaluated represented in ISO 8601 duration
+     format.
+  parameters:
+  - description: the evaluationFrequency value to set.
+    name: evaluationFrequency
+    type: <xref href="java.time.Duration?alt=java.time.Duration&text=Duration" data-throw-if-not-resolved="False" />
+  syntax: public MetricAlertResourceInner withEvaluationFrequency(Duration evaluationFrequency)
+  returns:
+    description: the MetricAlertResourceInner object itself.
+    type: <xref href="com.azure.resourcemanager.monitor.fluent.inner.MetricAlertResourceInner?alt=com.azure.resourcemanager.monitor.fluent.inner.MetricAlertResourceInner&text=MetricAlertResourceInner" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.resourcemanager.monitor.fluent.inner
+artifact: com.azure.resourcemanager:azure-resourcemanager-monitor:2.0.0-beta.2

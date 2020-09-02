@@ -1,0 +1,32 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.network.fluent.DdosProtectionPlansClient.listAsync*
+fullName: com.azure.resourcemanager.network.fluent.DdosProtectionPlansClient.listAsync
+name: listAsync
+nameWithType: DdosProtectionPlansClient.listAsync
+members:
+- uid: com.azure.resourcemanager.network.fluent.DdosProtectionPlansClient.listAsync()
+  fullName: com.azure.resourcemanager.network.fluent.DdosProtectionPlansClient.listAsync()
+  name: listAsync()
+  nameWithType: DdosProtectionPlansClient.listAsync()
+  summary: Gets all DDoS protection plans in a subscription.
+  syntax: public PagedFlux<DdosProtectionPlanInner> listAsync()
+  returns:
+    description: all DDoS protection plans in a subscription.
+    type: <xref href="com.azure.core.http.rest.PagedFlux?alt=com.azure.core.http.rest.PagedFlux&text=PagedFlux" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.resourcemanager.network.fluent.inner.DdosProtectionPlanInner?alt=com.azure.resourcemanager.network.fluent.inner.DdosProtectionPlanInner&text=DdosProtectionPlanInner" data-throw-if-not-resolved="False" />&gt;
+- uid: com.azure.resourcemanager.network.fluent.DdosProtectionPlansClient.listAsync(com.azure.core.util.Context)
+  fullName: com.azure.resourcemanager.network.fluent.DdosProtectionPlansClient.listAsync(Context context)
+  name: listAsync(Context context)
+  nameWithType: DdosProtectionPlansClient.listAsync(Context context)
+  summary: Gets all DDoS protection plans in a subscription.
+  parameters:
+  - description: The context to associate with this operation.
+    name: context
+    type: <xref href="com.azure.core.util.Context?alt=com.azure.core.util.Context&text=Context" data-throw-if-not-resolved="False" />
+  syntax: public PagedFlux<DdosProtectionPlanInner> listAsync(Context context)
+  returns:
+    description: all DDoS protection plans in a subscription.
+    type: <xref href="com.azure.core.http.rest.PagedFlux?alt=com.azure.core.http.rest.PagedFlux&text=PagedFlux" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.resourcemanager.network.fluent.inner.DdosProtectionPlanInner?alt=com.azure.resourcemanager.network.fluent.inner.DdosProtectionPlanInner&text=DdosProtectionPlanInner" data-throw-if-not-resolved="False" />&gt;
+type: method
+metadata: {}
+package: com.azure.resourcemanager.network.fluent
+artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.0.0-beta.2

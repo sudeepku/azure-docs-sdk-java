@@ -1,0 +1,19 @@
+### YamlMime:JavaMember
+uid: com.azure.search.documents.indexes.implementation.models.FieldMappingFunction.FieldMappingFunction*
+fullName: com.azure.search.documents.indexes.implementation.models.FieldMappingFunction.FieldMappingFunction
+name: FieldMappingFunction
+nameWithType: FieldMappingFunction.FieldMappingFunction
+members:
+- uid: com.azure.search.documents.indexes.implementation.models.FieldMappingFunction.FieldMappingFunction(java.lang.String)
+  fullName: com.azure.search.documents.indexes.implementation.models.FieldMappingFunction.FieldMappingFunction(String name)
+  name: FieldMappingFunction(String name)
+  nameWithType: FieldMappingFunction.FieldMappingFunction(String name)
+  summary: Creates an instance of FieldMappingFunction class.
+  parameters:
+  - name: name
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  syntax: public FieldMappingFunction(String name)
+type: constructor
+metadata: {}
+package: com.azure.search.documents.indexes.implementation.models
+artifact: com.azure:azure-search-documents:11.0.0

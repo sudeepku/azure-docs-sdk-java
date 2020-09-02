@@ -1,0 +1,27 @@
+### YamlMime:JavaMember
+uid: com.azure.cosmos.implementation.guava25.collect.Range.equals*
+fullName: com.azure.cosmos.implementation.guava25.collect.Range<C>.equals
+name: equals
+nameWithType: Range<C>.equals
+members:
+- uid: com.azure.cosmos.implementation.guava25.collect.Range.equals(java.lang.Object)
+  fullName: com.azure.cosmos.implementation.guava25.collect.Range<C>.equals(Object object)
+  name: equals(Object object)
+  nameWithType: Range<C>.equals(Object object)
+  summary: |-
+    Returns <code>true</code> if <code>object</code> is a range having the same endpoints and bound types as
+     this range. Note that discrete ranges such as <code>(1..4)</code> and <code>[2..3]</code> are <b>not</b>
+     equal to one another, despite the fact that they each contain precisely the same set of values.
+     Similarly, empty ranges are not equal unless they have exactly the same representation, so
+     <code>[3..3)</code>, <code>(3..3]</code>, <code>(4..4]</code> are all unequal.
+  overridden: java.lang.Object.equals(java.lang.Object)
+  parameters:
+  - name: object
+    type: <xref href="java.lang.Object?alt=java.lang.Object&text=Object" data-throw-if-not-resolved="False" />
+  syntax: public boolean equals(Object object)
+  returns:
+    type: <xref href="boolean?alt=boolean&text=boolean" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.cosmos.implementation.guava25.collect
+artifact: com.azure:azure-cosmos:4.3.2-beta.2

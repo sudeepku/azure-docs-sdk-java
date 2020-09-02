@@ -1,0 +1,26 @@
+### YamlMime:JavaMember
+uid: com.azure.storage.queue.QueueClientBuilder.buildAsyncClient*
+fullName: com.azure.storage.queue.QueueClientBuilder.buildAsyncClient
+name: buildAsyncClient
+nameWithType: QueueClientBuilder.buildAsyncClient
+members:
+- uid: com.azure.storage.queue.QueueClientBuilder.buildAsyncClient()
+  fullName: com.azure.storage.queue.QueueClientBuilder.buildAsyncClient()
+  name: buildAsyncClient()
+  nameWithType: QueueClientBuilder.buildAsyncClient()
+  summary: |-
+    Creates a <xref uid="QueueAsyncClient" data-throw-if-not-resolved="false">QueueAsyncClient</xref> based on options set in the builder. Every time <code>buildAsyncClient()</code> is
+     called a new instance of <xref uid="QueueAsyncClient" data-throw-if-not-resolved="false">QueueAsyncClient</xref> is created.
+
+     <p>
+     If <xref uid="QueueClientBuilder#pipeline(HttpPipeline)" data-throw-if-not-resolved="false">pipeline</xref> is set, then the <code>pipeline</code>, <xref uid="QueueClientBuilder#endpoint(String)" data-throw-if-not-resolved="false">endpoint</xref>, and <xref uid="QueueClientBuilder#queueName(String)" data-throw-if-not-resolved="false">queueName</xref> are
+     used to create the <xref uid="QueueAsyncClient" data-throw-if-not-resolved="false">client</xref>. All other builder settings are ignored.
+     </p>
+  syntax: public QueueAsyncClient buildAsyncClient()
+  returns:
+    description: A QueueAsyncClient with the options set from the builder.
+    type: <xref href="com.azure.storage.queue.QueueAsyncClient?alt=com.azure.storage.queue.QueueAsyncClient&text=QueueAsyncClient" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.storage.queue
+artifact: com.azure:azure-storage-queue:12.6.0-beta.1

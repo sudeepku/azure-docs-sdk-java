@@ -1,0 +1,22 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.appservice.fluent.inner.RestoreRequestInner.overwrite*
+fullName: com.azure.resourcemanager.appservice.fluent.inner.RestoreRequestInner.overwrite
+name: overwrite
+nameWithType: RestoreRequestInner.overwrite
+members:
+- uid: com.azure.resourcemanager.appservice.fluent.inner.RestoreRequestInner.overwrite()
+  fullName: com.azure.resourcemanager.appservice.fluent.inner.RestoreRequestInner.overwrite()
+  name: overwrite()
+  nameWithType: RestoreRequestInner.overwrite()
+  summary: |-
+    Get the overwrite property: &lt;code&gt;true&lt;/code&gt; if the restore operation can overwrite target app;
+     otherwise, &lt;code&gt;false&lt;/code&gt;. &lt;code&gt;true&lt;/code&gt; is needed if trying to restore over an
+     existing app.
+  syntax: public Boolean overwrite()
+  returns:
+    description: the overwrite value.
+    type: <xref href="java.lang.Boolean?alt=java.lang.Boolean&text=Boolean" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.resourcemanager.appservice.fluent.inner
+artifact: com.azure.resourcemanager:azure-resourcemanager-appservice:2.0.0-beta.2

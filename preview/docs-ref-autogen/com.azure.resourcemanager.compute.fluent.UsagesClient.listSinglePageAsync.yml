@@ -1,0 +1,43 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.compute.fluent.UsagesClient.listSinglePageAsync*
+fullName: com.azure.resourcemanager.compute.fluent.UsagesClient.listSinglePageAsync
+name: listSinglePageAsync
+nameWithType: UsagesClient.listSinglePageAsync
+members:
+- uid: com.azure.resourcemanager.compute.fluent.UsagesClient.listSinglePageAsync(java.lang.String)
+  fullName: com.azure.resourcemanager.compute.fluent.UsagesClient.listSinglePageAsync(String location)
+  name: listSinglePageAsync(String location)
+  nameWithType: UsagesClient.listSinglePageAsync(String location)
+  summary: |-
+    Gets, for the specified location, the current compute resource usage information as well as the limits for
+     compute resources under the subscription.
+  parameters:
+  - description: The location for which resource usage is queried.
+    name: location
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  syntax: public Mono<PagedResponse<UsageInner>> listSinglePageAsync(String location)
+  returns:
+    description: the List Usages operation response.
+    type: <xref href="reactor.core.publisher.Mono?alt=reactor.core.publisher.Mono&text=Mono" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.core.http.rest.PagedResponse?alt=com.azure.core.http.rest.PagedResponse&text=PagedResponse" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.resourcemanager.compute.fluent.inner.UsageInner?alt=com.azure.resourcemanager.compute.fluent.inner.UsageInner&text=UsageInner" data-throw-if-not-resolved="False" />&gt;&gt;
+- uid: com.azure.resourcemanager.compute.fluent.UsagesClient.listSinglePageAsync(java.lang.String,com.azure.core.util.Context)
+  fullName: com.azure.resourcemanager.compute.fluent.UsagesClient.listSinglePageAsync(String location, Context context)
+  name: listSinglePageAsync(String location, Context context)
+  nameWithType: UsagesClient.listSinglePageAsync(String location, Context context)
+  summary: |-
+    Gets, for the specified location, the current compute resource usage information as well as the limits for
+     compute resources under the subscription.
+  parameters:
+  - description: The location for which resource usage is queried.
+    name: location
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  - description: The context to associate with this operation.
+    name: context
+    type: <xref href="com.azure.core.util.Context?alt=com.azure.core.util.Context&text=Context" data-throw-if-not-resolved="False" />
+  syntax: public Mono<PagedResponse<UsageInner>> listSinglePageAsync(String location, Context context)
+  returns:
+    description: the List Usages operation response.
+    type: <xref href="reactor.core.publisher.Mono?alt=reactor.core.publisher.Mono&text=Mono" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.core.http.rest.PagedResponse?alt=com.azure.core.http.rest.PagedResponse&text=PagedResponse" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.resourcemanager.compute.fluent.inner.UsageInner?alt=com.azure.resourcemanager.compute.fluent.inner.UsageInner&text=UsageInner" data-throw-if-not-resolved="False" />&gt;&gt;
+type: method
+metadata: {}
+package: com.azure.resourcemanager.compute.fluent
+artifact: com.azure.resourcemanager:azure-resourcemanager-compute:2.0.0-beta.2

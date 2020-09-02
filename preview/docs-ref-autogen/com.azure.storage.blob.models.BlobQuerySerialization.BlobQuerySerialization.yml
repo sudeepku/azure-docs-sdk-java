@@ -1,0 +1,15 @@
+### YamlMime:JavaMember
+uid: com.azure.storage.blob.models.BlobQuerySerialization.BlobQuerySerialization*
+fullName: com.azure.storage.blob.models.BlobQuerySerialization.BlobQuerySerialization
+name: BlobQuerySerialization
+nameWithType: BlobQuerySerialization.BlobQuerySerialization
+members:
+- uid: com.azure.storage.blob.models.BlobQuerySerialization.BlobQuerySerialization()
+  fullName: com.azure.storage.blob.models.BlobQuerySerialization.BlobQuerySerialization()
+  name: BlobQuerySerialization()
+  nameWithType: BlobQuerySerialization.BlobQuerySerialization()
+  syntax: public BlobQuerySerialization()
+type: constructor
+metadata: {}
+package: com.azure.storage.blob.models
+artifact: com.azure:azure-storage-blob:12.8.0-beta.1

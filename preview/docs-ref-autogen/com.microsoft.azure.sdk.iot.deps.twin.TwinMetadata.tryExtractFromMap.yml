@@ -1,0 +1,52 @@
+### YamlMime:JavaMember
+uid: com.microsoft.azure.sdk.iot.deps.twin.TwinMetadata.tryExtractFromMap*
+fullName: com.microsoft.azure.sdk.iot.deps.twin.TwinMetadata.tryExtractFromMap
+name: tryExtractFromMap
+nameWithType: TwinMetadata.tryExtractFromMap
+members:
+- uid: com.microsoft.azure.sdk.iot.deps.twin.TwinMetadata.tryExtractFromMap(java.lang.Object)
+  fullName: com.microsoft.azure.sdk.iot.deps.twin.TwinMetadata.tryExtractFromMap(Object metadata)
+  name: tryExtractFromMap(Object metadata)
+  nameWithType: TwinMetadata.tryExtractFromMap(Object metadata)
+  summary: |-
+    Metadata extractor
+
+     <p> This internal method will try to find $lastUpdated and $lastUpdatedVersion at the first
+         level of the provided Map (Object), and create a new instance of the TwinMetadata with
+         this information.
+
+     <p> Once the provide Object can or cannot be a Map, and, if it is a Map, it can or cannot
+         contains a valid metadata, this method contains the label <b>try</b>, which means that
+         it can return a valid TwinMetadata or <code>null</code>.
+
+     <p> For instance, for the follow Map, this method will create a TwinMetadata with
+         <code>lastUpdated = 2015-09-21T02:07:44.238Z</code> and <code>lastUpdatedVersion = 3</code>
+
+     <pre>
+     <code>
+     "$lastUpdated":"2015-09-21T02:07:44.238Z",
+     "$lastUpdatedVersion":3,
+     "Value":{
+         "$lastUpdated":"2016-09-21T02:07:44.238Z",
+         "$lastUpdatedVersion":5
+     },
+     "NewValue":{
+         "$lastUpdated":"2017-09-21T02:07:44.238Z",
+         "$lastUpdatedVersion":5
+     }
+     </code>
+     </pre>
+  parameters:
+  - description: the <code>Object</code> that may contains the metadata.
+    name: metadata
+    type: <xref href="java.lang.Object?alt=java.lang.Object&text=Object" data-throw-if-not-resolved="False" />
+  syntax: protected static TwinMetadata tryExtractFromMap(Object metadata)
+  returns:
+    description: |-
+      A valid TwinMetadata instance it the provided metadata <code>Object</code> is a Map with
+               data and version metadata, or <code>null</code> for the other cases.
+    type: <xref href="com.microsoft.azure.sdk.iot.deps.twin.TwinMetadata?alt=com.microsoft.azure.sdk.iot.deps.twin.TwinMetadata&text=TwinMetadata" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.microsoft.azure.sdk.iot.deps.twin
+artifact: com.microsoft.azure.sdk.iot:iot-deps-preview:1.1.0

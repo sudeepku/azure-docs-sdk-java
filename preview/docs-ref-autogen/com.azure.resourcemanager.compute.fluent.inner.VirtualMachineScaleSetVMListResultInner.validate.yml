@@ -1,0 +1,16 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.compute.fluent.inner.VirtualMachineScaleSetVMListResultInner.validate*
+fullName: com.azure.resourcemanager.compute.fluent.inner.VirtualMachineScaleSetVMListResultInner.validate
+name: validate
+nameWithType: VirtualMachineScaleSetVMListResultInner.validate
+members:
+- uid: com.azure.resourcemanager.compute.fluent.inner.VirtualMachineScaleSetVMListResultInner.validate()
+  fullName: com.azure.resourcemanager.compute.fluent.inner.VirtualMachineScaleSetVMListResultInner.validate()
+  name: validate()
+  nameWithType: VirtualMachineScaleSetVMListResultInner.validate()
+  summary: Validates the instance.
+  syntax: public void validate()
+type: method
+metadata: {}
+package: com.azure.resourcemanager.compute.fluent.inner
+artifact: com.azure.resourcemanager:azure-resourcemanager-compute:2.0.0-beta.2

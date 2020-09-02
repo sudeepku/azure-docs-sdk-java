@@ -1,0 +1,21 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.network.fluent.inner.ApplicationGatewayProbeInner.path*
+fullName: com.azure.resourcemanager.network.fluent.inner.ApplicationGatewayProbeInner.path
+name: path
+nameWithType: ApplicationGatewayProbeInner.path
+members:
+- uid: com.azure.resourcemanager.network.fluent.inner.ApplicationGatewayProbeInner.path()
+  fullName: com.azure.resourcemanager.network.fluent.inner.ApplicationGatewayProbeInner.path()
+  name: path()
+  nameWithType: ApplicationGatewayProbeInner.path()
+  summary: |-
+    Get the path property: Relative path of probe. Valid path starts from '/'. Probe is sent to
+     &lt;Protocol&gt;://&lt;host&gt;:&lt;port&gt;&lt;path&gt;.
+  syntax: public String path()
+  returns:
+    description: the path value.
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.resourcemanager.network.fluent.inner
+artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.0.0-beta.2

@@ -1,0 +1,15 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.monitor.fluent.inner.MetricBaselinesResponseInner.MetricBaselinesResponseInner*
+fullName: com.azure.resourcemanager.monitor.fluent.inner.MetricBaselinesResponseInner.MetricBaselinesResponseInner
+name: MetricBaselinesResponseInner
+nameWithType: MetricBaselinesResponseInner.MetricBaselinesResponseInner
+members:
+- uid: com.azure.resourcemanager.monitor.fluent.inner.MetricBaselinesResponseInner.MetricBaselinesResponseInner()
+  fullName: com.azure.resourcemanager.monitor.fluent.inner.MetricBaselinesResponseInner.MetricBaselinesResponseInner()
+  name: MetricBaselinesResponseInner()
+  nameWithType: MetricBaselinesResponseInner.MetricBaselinesResponseInner()
+  syntax: public MetricBaselinesResponseInner()
+type: constructor
+metadata: {}
+package: com.azure.resourcemanager.monitor.fluent.inner
+artifact: com.azure.resourcemanager:azure-resourcemanager-monitor:2.0.0-beta.2

@@ -1,0 +1,22 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.compute.fluent.inner.VirtualMachineScaleSetVMInstanceViewInner.bootDiagnostics*
+fullName: com.azure.resourcemanager.compute.fluent.inner.VirtualMachineScaleSetVMInstanceViewInner.bootDiagnostics
+name: bootDiagnostics
+nameWithType: VirtualMachineScaleSetVMInstanceViewInner.bootDiagnostics
+members:
+- uid: com.azure.resourcemanager.compute.fluent.inner.VirtualMachineScaleSetVMInstanceViewInner.bootDiagnostics()
+  fullName: com.azure.resourcemanager.compute.fluent.inner.VirtualMachineScaleSetVMInstanceViewInner.bootDiagnostics()
+  name: bootDiagnostics()
+  nameWithType: VirtualMachineScaleSetVMInstanceViewInner.bootDiagnostics()
+  summary: |-
+    Get the bootDiagnostics property: Boot Diagnostics is a debugging feature which allows you to view Console Output
+     and Screenshot to diagnose VM status. &lt;br&gt;&lt;br&gt; You can easily view the output of your console log.
+     &lt;br&gt;&lt;br&gt; Azure also enables you to see a screenshot of the VM from the hypervisor.
+  syntax: public BootDiagnosticsInstanceView bootDiagnostics()
+  returns:
+    description: the bootDiagnostics value.
+    type: <xref href="com.azure.resourcemanager.compute.models.BootDiagnosticsInstanceView?alt=com.azure.resourcemanager.compute.models.BootDiagnosticsInstanceView&text=BootDiagnosticsInstanceView" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.resourcemanager.compute.fluent.inner
+artifact: com.azure.resourcemanager:azure-resourcemanager-compute:2.0.0-beta.2

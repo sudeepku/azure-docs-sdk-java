@@ -1,0 +1,15 @@
+### YamlMime:JavaMember
+uid: com.microsoft.azure.sdk.iot.device.transport.TransportUtils.IOTHUB_API_VERSION_PREVIEW
+fullName: com.microsoft.azure.sdk.iot.device.transport.TransportUtils.IOTHUB_API_VERSION_PREVIEW
+name: IOTHUB_API_VERSION_PREVIEW
+nameWithType: TransportUtils.IOTHUB_API_VERSION_PREVIEW
+members:
+- uid: com.microsoft.azure.sdk.iot.device.transport.TransportUtils.IOTHUB_API_VERSION_PREVIEW
+  fullName: com.microsoft.azure.sdk.iot.device.transport.TransportUtils.IOTHUB_API_VERSION_PREVIEW
+  name: IOTHUB_API_VERSION_PREVIEW
+  nameWithType: TransportUtils.IOTHUB_API_VERSION_PREVIEW
+  syntax: public static String IOTHUB_API_VERSION_PREVIEW
+type: field
+metadata: {}
+package: com.microsoft.azure.sdk.iot.device.transport
+artifact: com.microsoft.azure.sdk.iot:iot-device-client:1.24.0

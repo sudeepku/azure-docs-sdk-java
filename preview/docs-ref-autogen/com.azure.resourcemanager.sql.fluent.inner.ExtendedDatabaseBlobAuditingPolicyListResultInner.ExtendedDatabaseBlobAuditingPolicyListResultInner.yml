@@ -1,0 +1,15 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.sql.fluent.inner.ExtendedDatabaseBlobAuditingPolicyListResultInner.ExtendedDatabaseBlobAuditingPolicyListResultInner*
+fullName: com.azure.resourcemanager.sql.fluent.inner.ExtendedDatabaseBlobAuditingPolicyListResultInner.ExtendedDatabaseBlobAuditingPolicyListResultInner
+name: ExtendedDatabaseBlobAuditingPolicyListResultInner
+nameWithType: ExtendedDatabaseBlobAuditingPolicyListResultInner.ExtendedDatabaseBlobAuditingPolicyListResultInner
+members:
+- uid: com.azure.resourcemanager.sql.fluent.inner.ExtendedDatabaseBlobAuditingPolicyListResultInner.ExtendedDatabaseBlobAuditingPolicyListResultInner()
+  fullName: com.azure.resourcemanager.sql.fluent.inner.ExtendedDatabaseBlobAuditingPolicyListResultInner.ExtendedDatabaseBlobAuditingPolicyListResultInner()
+  name: ExtendedDatabaseBlobAuditingPolicyListResultInner()
+  nameWithType: ExtendedDatabaseBlobAuditingPolicyListResultInner.ExtendedDatabaseBlobAuditingPolicyListResultInner()
+  syntax: public ExtendedDatabaseBlobAuditingPolicyListResultInner()
+type: constructor
+metadata: {}
+package: com.azure.resourcemanager.sql.fluent.inner
+artifact: com.azure.resourcemanager:azure-resourcemanager-sql:2.0.0-beta.2

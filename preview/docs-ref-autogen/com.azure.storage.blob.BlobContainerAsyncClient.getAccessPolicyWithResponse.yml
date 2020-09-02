@@ -1,0 +1,23 @@
+### YamlMime:JavaMember
+uid: com.azure.storage.blob.BlobContainerAsyncClient.getAccessPolicyWithResponse*
+fullName: com.azure.storage.blob.BlobContainerAsyncClient.getAccessPolicyWithResponse
+name: getAccessPolicyWithResponse
+nameWithType: BlobContainerAsyncClient.getAccessPolicyWithResponse
+members:
+- uid: com.azure.storage.blob.BlobContainerAsyncClient.getAccessPolicyWithResponse(java.lang.String)
+  fullName: com.azure.storage.blob.BlobContainerAsyncClient.getAccessPolicyWithResponse(String leaseId)
+  name: getAccessPolicyWithResponse(String leaseId)
+  nameWithType: BlobContainerAsyncClient.getAccessPolicyWithResponse(String leaseId)
+  summary: "Returns the container's permissions. The permissions indicate whether container's blobs may be accessed publicly.\n For more information, see the\n <a href=\"https://docs.microsoft.com/rest/api/storageservices/get-container-acl\">Azure Docs</a>.\n\n <p><strong>Code Samples</strong></p>\n\n <pre>\n client.getAccessPolicyWithResponse&#40;leaseId&#41;.subscribe&#40;response -&gt; &#123;\n     System.out.printf&#40;&quot;Blob Access Type: %s%n&quot;, response.getValue&#40;&#41;.getBlobAccessType&#40;&#41;&#41;;\n \n     for &#40;BlobSignedIdentifier identifier : response.getValue&#40;&#41;.getIdentifiers&#40;&#41;&#41; &#123;\n         System.out.printf&#40;&quot;Identifier Name: %s, Permissions %s%n&quot;,\n             identifier.getId&#40;&#41;,\n             identifier.getAccessPolicy&#40;&#41;.getPermissions&#40;&#41;&#41;;\n     &#125;\n &#125;&#41;;\n </pre>"
+  parameters:
+  - description: The lease ID the active lease on the container must match.
+    name: leaseId
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  syntax: public Mono<Response<BlobContainerAccessPolicies>> getAccessPolicyWithResponse(String leaseId)
+  returns:
+    description: A reactive response containing the container access policy.
+    type: <xref href="reactor.core.publisher.Mono?alt=reactor.core.publisher.Mono&text=Mono" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.core.http.rest.Response?alt=com.azure.core.http.rest.Response&text=Response" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.storage.blob.models.BlobContainerAccessPolicies?alt=com.azure.storage.blob.models.BlobContainerAccessPolicies&text=BlobContainerAccessPolicies" data-throw-if-not-resolved="False" />&gt;&gt;
+type: method
+metadata: {}
+package: com.azure.storage.blob
+artifact: com.azure:azure-storage-blob:12.8.0-beta.1

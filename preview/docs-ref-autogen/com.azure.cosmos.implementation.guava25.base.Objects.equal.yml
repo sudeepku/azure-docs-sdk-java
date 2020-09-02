@@ -1,0 +1,36 @@
+### YamlMime:JavaMember
+uid: com.azure.cosmos.implementation.guava25.base.Objects.equal*
+fullName: com.azure.cosmos.implementation.guava25.base.Objects.equal
+name: equal
+nameWithType: Objects.equal
+members:
+- uid: com.azure.cosmos.implementation.guava25.base.Objects.equal(java.lang.Object,java.lang.Object)
+  fullName: com.azure.cosmos.implementation.guava25.base.Objects.equal(Object a, Object b)
+  name: equal(Object a, Object b)
+  nameWithType: Objects.equal(Object a, Object b)
+  summary: |-
+    Determines whether two possibly-null objects are equal. Returns:
+
+     <ul>
+       <li><code>true</code> if <code>a</code> and <code>b</code> are both null.
+       <li><code>true</code> if <code>a</code> and <code>b</code> are both non-null and they are equal according to
+           <xref uid="Object#equals(Object)" data-throw-if-not-resolved="false">Object#equals(Object)</xref>.
+       <li><code>false</code> in all other situations.
+     </ul>
+
+     <p>This assumes that any non-null objects passed to this function conform to the <code>
+     equals()</code> contract.
+
+     <p><b>Note for Java 7 and later:</b> This method should be treated as deprecated; use <xref uid="java.util.Objects#equals" data-throw-if-not-resolved="false">java.util.Objects#equals</xref> instead.
+  parameters:
+  - name: a
+    type: <xref href="java.lang.Object?alt=java.lang.Object&text=Object" data-throw-if-not-resolved="False" />
+  - name: b
+    type: <xref href="java.lang.Object?alt=java.lang.Object&text=Object" data-throw-if-not-resolved="False" />
+  syntax: public static boolean equal(Object a, Object b)
+  returns:
+    type: <xref href="boolean?alt=boolean&text=boolean" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.cosmos.implementation.guava25.base
+artifact: com.azure:azure-cosmos:4.3.2-beta.2

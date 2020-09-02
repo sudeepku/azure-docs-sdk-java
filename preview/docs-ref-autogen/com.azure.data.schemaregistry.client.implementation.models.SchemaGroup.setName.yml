@@ -1,0 +1,23 @@
+### YamlMime:JavaMember
+uid: com.azure.data.schemaregistry.client.implementation.models.SchemaGroup.setName*
+fullName: com.azure.data.schemaregistry.client.implementation.models.SchemaGroup.setName
+name: setName
+nameWithType: SchemaGroup.setName
+members:
+- uid: com.azure.data.schemaregistry.client.implementation.models.SchemaGroup.setName(java.lang.String)
+  fullName: com.azure.data.schemaregistry.client.implementation.models.SchemaGroup.setName(String name)
+  name: setName(String name)
+  nameWithType: SchemaGroup.setName(String name)
+  summary: 'Set the name property: The name property.'
+  parameters:
+  - description: the name value to set.
+    name: name
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  syntax: public SchemaGroup setName(String name)
+  returns:
+    description: the SchemaGroup object itself.
+    type: <xref href="com.azure.data.schemaregistry.client.implementation.models.SchemaGroup?alt=com.azure.data.schemaregistry.client.implementation.models.SchemaGroup&text=SchemaGroup" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.data.schemaregistry.client.implementation.models
+artifact: com.azure:azure-data-schemaregistry:1.0.0-beta.1

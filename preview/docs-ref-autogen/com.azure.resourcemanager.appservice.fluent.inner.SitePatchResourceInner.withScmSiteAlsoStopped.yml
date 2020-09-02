@@ -1,0 +1,25 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.appservice.fluent.inner.SitePatchResourceInner.withScmSiteAlsoStopped*
+fullName: com.azure.resourcemanager.appservice.fluent.inner.SitePatchResourceInner.withScmSiteAlsoStopped
+name: withScmSiteAlsoStopped
+nameWithType: SitePatchResourceInner.withScmSiteAlsoStopped
+members:
+- uid: com.azure.resourcemanager.appservice.fluent.inner.SitePatchResourceInner.withScmSiteAlsoStopped(java.lang.Boolean)
+  fullName: com.azure.resourcemanager.appservice.fluent.inner.SitePatchResourceInner.withScmSiteAlsoStopped(Boolean scmSiteAlsoStopped)
+  name: withScmSiteAlsoStopped(Boolean scmSiteAlsoStopped)
+  nameWithType: SitePatchResourceInner.withScmSiteAlsoStopped(Boolean scmSiteAlsoStopped)
+  summary: |-
+    Set the scmSiteAlsoStopped property: &lt;code&gt;true&lt;/code&gt; to stop SCM (KUDU) site when the app is
+     stopped; otherwise, &lt;code&gt;false&lt;/code&gt;. The default is &lt;code&gt;false&lt;/code&gt;.
+  parameters:
+  - description: the scmSiteAlsoStopped value to set.
+    name: scmSiteAlsoStopped
+    type: <xref href="java.lang.Boolean?alt=java.lang.Boolean&text=Boolean" data-throw-if-not-resolved="False" />
+  syntax: public SitePatchResourceInner withScmSiteAlsoStopped(Boolean scmSiteAlsoStopped)
+  returns:
+    description: the SitePatchResourceInner object itself.
+    type: <xref href="com.azure.resourcemanager.appservice.fluent.inner.SitePatchResourceInner?alt=com.azure.resourcemanager.appservice.fluent.inner.SitePatchResourceInner&text=SitePatchResourceInner" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.resourcemanager.appservice.fluent.inner
+artifact: com.azure.resourcemanager:azure-resourcemanager-appservice:2.0.0-beta.2

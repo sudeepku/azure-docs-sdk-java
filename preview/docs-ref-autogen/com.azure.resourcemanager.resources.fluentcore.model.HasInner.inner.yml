@@ -1,0 +1,20 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.resources.fluentcore.model.HasInner.inner*
+fullName: com.azure.resourcemanager.resources.fluentcore.model.HasInner<T>.inner
+name: inner
+nameWithType: HasInner<T>.inner
+members:
+- uid: com.azure.resourcemanager.resources.fluentcore.model.HasInner.inner()
+  fullName: com.azure.resourcemanager.resources.fluentcore.model.HasInner<T>.inner()
+  name: inner()
+  nameWithType: HasInner<T>.inner()
+  syntax: public abstract T inner()
+  returns:
+    description: |-
+      wrapped inner object providing direct access to the underlying
+       auto-generated API implementation, based on Azure REST API
+    type: <xref href="T?alt=T&text=T" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.resourcemanager.resources.fluentcore.model
+artifact: com.azure.resourcemanager:azure-resourcemanager-resources:2.0.0-beta.2

@@ -1,0 +1,15 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.network.fluent.inner.NetworkInterfaceLoadBalancerListResultInner.NetworkInterfaceLoadBalancerListResultInner*
+fullName: com.azure.resourcemanager.network.fluent.inner.NetworkInterfaceLoadBalancerListResultInner.NetworkInterfaceLoadBalancerListResultInner
+name: NetworkInterfaceLoadBalancerListResultInner
+nameWithType: NetworkInterfaceLoadBalancerListResultInner.NetworkInterfaceLoadBalancerListResultInner
+members:
+- uid: com.azure.resourcemanager.network.fluent.inner.NetworkInterfaceLoadBalancerListResultInner.NetworkInterfaceLoadBalancerListResultInner()
+  fullName: com.azure.resourcemanager.network.fluent.inner.NetworkInterfaceLoadBalancerListResultInner.NetworkInterfaceLoadBalancerListResultInner()
+  name: NetworkInterfaceLoadBalancerListResultInner()
+  nameWithType: NetworkInterfaceLoadBalancerListResultInner.NetworkInterfaceLoadBalancerListResultInner()
+  syntax: public NetworkInterfaceLoadBalancerListResultInner()
+type: constructor
+metadata: {}
+package: com.azure.resourcemanager.network.fluent.inner
+artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.0.0-beta.2

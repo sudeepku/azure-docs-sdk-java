@@ -1,0 +1,147 @@
+### YamlMime:JavaMember
+uid: com.azure.cosmos.implementation.guava25.collect.Maps.filterEntries*
+fullName: com.azure.cosmos.implementation.guava25.collect.Maps.<K,V>filterEntries
+name: <K,V>filterEntries
+nameWithType: Maps.<K,V>filterEntries
+members:
+- uid: com.azure.cosmos.implementation.guava25.collect.Maps.<K,V>filterEntries(com.azure.cosmos.implementation.guava25.collect.BiMap<K,V>,com.azure.cosmos.implementation.guava25.base.Predicate<? super java.util.Map.Entry<K,V>>)
+  fullName: com.azure.cosmos.implementation.guava25.collect.Maps.<K,V>filterEntries(BiMap<K,V> unfiltered, Predicate<? super Map.Entry<K,V>> entryPredicate)
+  name: <K,V>filterEntries(BiMap<K,V> unfiltered, Predicate<? super Map.Entry<K,V>> entryPredicate)
+  nameWithType: Maps.<K,V>filterEntries(BiMap<K,V> unfiltered, Predicate<? super Map.Entry<K,V>> entryPredicate)
+  summary: |-
+    Returns a bimap containing the mappings in <code>unfiltered</code> that satisfy a predicate. The
+     returned bimap is a live view of <code>unfiltered</code>; changes to one affect the other.
+
+     <p>The resulting bimap's <code>keySet()</code>, <code>entrySet()</code>, and <code>values()</code> views have
+     iterators that don't support <code>remove()</code>, but all other methods are supported by the bimap
+     and its views. When given a key/value pair that doesn't satisfy the predicate, the bimap's
+     <code>put()</code>, <code>forcePut()</code> and <code>putAll()</code> methods throw an <xref uid="IllegalArgumentException" data-throw-if-not-resolved="false">IllegalArgumentException</xref>. Similarly, the map's entries have an <xref uid="Entry#setValue" data-throw-if-not-resolved="false">Entry#setValue</xref> method
+     that throws an <xref uid="IllegalArgumentException" data-throw-if-not-resolved="false">IllegalArgumentException</xref> when the existing key and the provided value
+     don't satisfy the predicate.
+
+     <p>When methods such as <code>removeAll()</code> and <code>clear()</code> are called on the filtered
+     bimap or its views, only mappings that satisfy the filter will be removed from the underlying
+     bimap.
+
+     <p>The returned bimap isn't threadsafe or serializable, even if <code>unfiltered</code> is.
+
+     <p>Many of the filtered bimap's methods, such as <code>size()</code>, iterate across every key/value
+     mapping in the underlying bimap and determine which satisfy the filter. When a live view is
+     <i>not</i> needed, it may be faster to copy the filtered bimap and use the copy.
+
+     <p><b>Warning:</b> <code>entryPredicate</code> must be <i>consistent with equals </i>, as documented
+     at <xref uid="Predicate#apply" data-throw-if-not-resolved="false">Predicate#apply</xref>.
+  parameters:
+  - name: unfiltered
+    type: <xref href="com.azure.cosmos.implementation.guava25.collect.BiMap?alt=com.azure.cosmos.implementation.guava25.collect.BiMap&text=BiMap" data-throw-if-not-resolved="False" />&lt;<xref href="K?alt=K&text=K" data-throw-if-not-resolved="False" />,<xref href="V?alt=V&text=V" data-throw-if-not-resolved="False" />&gt;
+  - name: entryPredicate
+    type: <xref href="com.azure.cosmos.implementation.guava25.base.Predicate?alt=com.azure.cosmos.implementation.guava25.base.Predicate&text=Predicate" data-throw-if-not-resolved="False" />&lt;<xref href="? super java.util.Map.Entry?alt=? super java.util.Map.Entry&text=Entry" data-throw-if-not-resolved="False" />&lt;<xref href="K?alt=K&text=K" data-throw-if-not-resolved="False" />,<xref href="V?alt=V&text=V" data-throw-if-not-resolved="False" />&gt;&gt;
+  syntax: public static BiMap<K,V> <K,V>filterEntries(BiMap<K,V> unfiltered, Predicate<? super Map.Entry<K,V>> entryPredicate)
+  returns:
+    type: <xref href="com.azure.cosmos.implementation.guava25.collect.BiMap?alt=com.azure.cosmos.implementation.guava25.collect.BiMap&text=BiMap" data-throw-if-not-resolved="False" />&lt;<xref href="K?alt=K&text=K" data-throw-if-not-resolved="False" />,<xref href="V?alt=V&text=V" data-throw-if-not-resolved="False" />&gt;
+- uid: com.azure.cosmos.implementation.guava25.collect.Maps.<K,V>filterEntries(java.util.Map<K,V>,com.azure.cosmos.implementation.guava25.base.Predicate<? super java.util.Map.Entry<K,V>>)
+  fullName: com.azure.cosmos.implementation.guava25.collect.Maps.<K,V>filterEntries(Map<K,V> unfiltered, Predicate<? super Map.Entry<K,V>> entryPredicate)
+  name: <K,V>filterEntries(Map<K,V> unfiltered, Predicate<? super Map.Entry<K,V>> entryPredicate)
+  nameWithType: Maps.<K,V>filterEntries(Map<K,V> unfiltered, Predicate<? super Map.Entry<K,V>> entryPredicate)
+  summary: |-
+    Returns a map containing the mappings in <code>unfiltered</code> that satisfy a predicate. The
+     returned map is a live view of <code>unfiltered</code>; changes to one affect the other.
+
+     <p>The resulting map's <code>keySet()</code>, <code>entrySet()</code>, and <code>values()</code> views have
+     iterators that don't support <code>remove()</code>, but all other methods are supported by the map
+     and its views. When given a key/value pair that doesn't satisfy the predicate, the map's <code>
+     put()</code> and <code>putAll()</code> methods throw an <xref uid="IllegalArgumentException" data-throw-if-not-resolved="false">IllegalArgumentException</xref>. Similarly, the
+     map's entries have a <xref uid="Entry#setValue" data-throw-if-not-resolved="false">Entry#setValue</xref> method that throws an <xref uid="IllegalArgumentException" data-throw-if-not-resolved="false">IllegalArgumentException</xref> when the existing key and the provided value don't satisfy the
+     predicate.
+
+     <p>When methods such as <code>removeAll()</code> and <code>clear()</code> are called on the filtered map
+     or its views, only mappings that satisfy the filter will be removed from the underlying map.
+
+     <p>The returned map isn't threadsafe or serializable, even if <code>unfiltered</code> is.
+
+     <p>Many of the filtered map's methods, such as <code>size()</code>, iterate across every key/value
+     mapping in the underlying map and determine which satisfy the filter. When a live view is
+     <i>not</i> needed, it may be faster to copy the filtered map and use the copy.
+
+     <p><b>Warning:</b> <code>entryPredicate</code> must be <i>consistent with equals</i>, as documented
+     at <xref uid="Predicate#apply" data-throw-if-not-resolved="false">Predicate#apply</xref>.
+  parameters:
+  - name: unfiltered
+    type: <xref href="java.util.Map?alt=java.util.Map&text=Map" data-throw-if-not-resolved="False" />&lt;<xref href="K?alt=K&text=K" data-throw-if-not-resolved="False" />,<xref href="V?alt=V&text=V" data-throw-if-not-resolved="False" />&gt;
+  - name: entryPredicate
+    type: <xref href="com.azure.cosmos.implementation.guava25.base.Predicate?alt=com.azure.cosmos.implementation.guava25.base.Predicate&text=Predicate" data-throw-if-not-resolved="False" />&lt;<xref href="? super java.util.Map.Entry?alt=? super java.util.Map.Entry&text=Entry" data-throw-if-not-resolved="False" />&lt;<xref href="K?alt=K&text=K" data-throw-if-not-resolved="False" />,<xref href="V?alt=V&text=V" data-throw-if-not-resolved="False" />&gt;&gt;
+  syntax: public static Map<K,V> <K,V>filterEntries(Map<K,V> unfiltered, Predicate<? super Map.Entry<K,V>> entryPredicate)
+  returns:
+    type: <xref href="java.util.Map?alt=java.util.Map&text=Map" data-throw-if-not-resolved="False" />&lt;<xref href="K?alt=K&text=K" data-throw-if-not-resolved="False" />,<xref href="V?alt=V&text=V" data-throw-if-not-resolved="False" />&gt;
+- uid: com.azure.cosmos.implementation.guava25.collect.Maps.<K,V>filterEntries(java.util.NavigableMap<K,V>,com.azure.cosmos.implementation.guava25.base.Predicate<? super java.util.Map.Entry<K,V>>)
+  fullName: com.azure.cosmos.implementation.guava25.collect.Maps.<K,V>filterEntries(NavigableMap<K,V> unfiltered, Predicate<? super Map.Entry<K,V>> entryPredicate)
+  name: <K,V>filterEntries(NavigableMap<K,V> unfiltered, Predicate<? super Map.Entry<K,V>> entryPredicate)
+  nameWithType: Maps.<K,V>filterEntries(NavigableMap<K,V> unfiltered, Predicate<? super Map.Entry<K,V>> entryPredicate)
+  summary: |-
+    Returns a sorted map containing the mappings in <code>unfiltered</code> that satisfy a predicate.
+     The returned map is a live view of <code>unfiltered</code>; changes to one affect the other.
+
+     <p>The resulting map's <code>keySet()</code>, <code>entrySet()</code>, and <code>values()</code> views have
+     iterators that don't support <code>remove()</code>, but all other methods are supported by the map
+     and its views. When given a key/value pair that doesn't satisfy the predicate, the map's <code>
+     put()</code> and <code>putAll()</code> methods throw an <xref uid="IllegalArgumentException" data-throw-if-not-resolved="false">IllegalArgumentException</xref>. Similarly, the
+     map's entries have a <xref uid="Entry#setValue" data-throw-if-not-resolved="false">Entry#setValue</xref> method that throws an <xref uid="IllegalArgumentException" data-throw-if-not-resolved="false">IllegalArgumentException</xref> when the existing key and the provided value don't satisfy the
+     predicate.
+
+     <p>When methods such as <code>removeAll()</code> and <code>clear()</code> are called on the filtered map
+     or its views, only mappings that satisfy the filter will be removed from the underlying map.
+
+     <p>The returned map isn't threadsafe or serializable, even if <code>unfiltered</code> is.
+
+     <p>Many of the filtered map's methods, such as <code>size()</code>, iterate across every key/value
+     mapping in the underlying map and determine which satisfy the filter. When a live view is
+     <i>not</i> needed, it may be faster to copy the filtered map and use the copy.
+
+     <p><b>Warning:</b> <code>entryPredicate</code> must be <i>consistent with equals</i>, as documented
+     at <xref uid="Predicate#apply" data-throw-if-not-resolved="false">Predicate#apply</xref>.
+  parameters:
+  - name: unfiltered
+    type: <xref href="java.util.NavigableMap?alt=java.util.NavigableMap&text=NavigableMap" data-throw-if-not-resolved="False" />&lt;<xref href="K?alt=K&text=K" data-throw-if-not-resolved="False" />,<xref href="V?alt=V&text=V" data-throw-if-not-resolved="False" />&gt;
+  - name: entryPredicate
+    type: <xref href="com.azure.cosmos.implementation.guava25.base.Predicate?alt=com.azure.cosmos.implementation.guava25.base.Predicate&text=Predicate" data-throw-if-not-resolved="False" />&lt;<xref href="? super java.util.Map.Entry?alt=? super java.util.Map.Entry&text=Entry" data-throw-if-not-resolved="False" />&lt;<xref href="K?alt=K&text=K" data-throw-if-not-resolved="False" />,<xref href="V?alt=V&text=V" data-throw-if-not-resolved="False" />&gt;&gt;
+  syntax: public static NavigableMap<K,V> <K,V>filterEntries(NavigableMap<K,V> unfiltered, Predicate<? super Map.Entry<K,V>> entryPredicate)
+  returns:
+    type: <xref href="java.util.NavigableMap?alt=java.util.NavigableMap&text=NavigableMap" data-throw-if-not-resolved="False" />&lt;<xref href="K?alt=K&text=K" data-throw-if-not-resolved="False" />,<xref href="V?alt=V&text=V" data-throw-if-not-resolved="False" />&gt;
+- uid: com.azure.cosmos.implementation.guava25.collect.Maps.<K,V>filterEntries(java.util.SortedMap<K,V>,com.azure.cosmos.implementation.guava25.base.Predicate<? super java.util.Map.Entry<K,V>>)
+  fullName: com.azure.cosmos.implementation.guava25.collect.Maps.<K,V>filterEntries(SortedMap<K,V> unfiltered, Predicate<? super Map.Entry<K,V>> entryPredicate)
+  name: <K,V>filterEntries(SortedMap<K,V> unfiltered, Predicate<? super Map.Entry<K,V>> entryPredicate)
+  nameWithType: Maps.<K,V>filterEntries(SortedMap<K,V> unfiltered, Predicate<? super Map.Entry<K,V>> entryPredicate)
+  summary: |-
+    Returns a sorted map containing the mappings in <code>unfiltered</code> that satisfy a predicate.
+     The returned map is a live view of <code>unfiltered</code>; changes to one affect the other.
+
+     <p>The resulting map's <code>keySet()</code>, <code>entrySet()</code>, and <code>values()</code> views have
+     iterators that don't support <code>remove()</code>, but all other methods are supported by the map
+     and its views. When given a key/value pair that doesn't satisfy the predicate, the map's <code>
+     put()</code> and <code>putAll()</code> methods throw an <xref uid="IllegalArgumentException" data-throw-if-not-resolved="false">IllegalArgumentException</xref>. Similarly, the
+     map's entries have a <xref uid="Entry#setValue" data-throw-if-not-resolved="false">Entry#setValue</xref> method that throws an <xref uid="IllegalArgumentException" data-throw-if-not-resolved="false">IllegalArgumentException</xref> when the existing key and the provided value don't satisfy the
+     predicate.
+
+     <p>When methods such as <code>removeAll()</code> and <code>clear()</code> are called on the filtered map
+     or its views, only mappings that satisfy the filter will be removed from the underlying map.
+
+     <p>The returned map isn't threadsafe or serializable, even if <code>unfiltered</code> is.
+
+     <p>Many of the filtered map's methods, such as <code>size()</code>, iterate across every key/value
+     mapping in the underlying map and determine which satisfy the filter. When a live view is
+     <i>not</i> needed, it may be faster to copy the filtered map and use the copy.
+
+     <p><b>Warning:</b> <code>entryPredicate</code> must be <i>consistent with equals</i>, as documented
+     at <xref uid="Predicate#apply" data-throw-if-not-resolved="false">Predicate#apply</xref>.
+  parameters:
+  - name: unfiltered
+    type: <xref href="java.util.SortedMap?alt=java.util.SortedMap&text=SortedMap" data-throw-if-not-resolved="False" />&lt;<xref href="K?alt=K&text=K" data-throw-if-not-resolved="False" />,<xref href="V?alt=V&text=V" data-throw-if-not-resolved="False" />&gt;
+  - name: entryPredicate
+    type: <xref href="com.azure.cosmos.implementation.guava25.base.Predicate?alt=com.azure.cosmos.implementation.guava25.base.Predicate&text=Predicate" data-throw-if-not-resolved="False" />&lt;<xref href="? super java.util.Map.Entry?alt=? super java.util.Map.Entry&text=Entry" data-throw-if-not-resolved="False" />&lt;<xref href="K?alt=K&text=K" data-throw-if-not-resolved="False" />,<xref href="V?alt=V&text=V" data-throw-if-not-resolved="False" />&gt;&gt;
+  syntax: public static SortedMap<K,V> <K,V>filterEntries(SortedMap<K,V> unfiltered, Predicate<? super Map.Entry<K,V>> entryPredicate)
+  returns:
+    type: <xref href="java.util.SortedMap?alt=java.util.SortedMap&text=SortedMap" data-throw-if-not-resolved="False" />&lt;<xref href="K?alt=K&text=K" data-throw-if-not-resolved="False" />,<xref href="V?alt=V&text=V" data-throw-if-not-resolved="False" />&gt;
+type: method
+metadata: {}
+package: com.azure.cosmos.implementation.guava25.collect
+artifact: com.azure:azure-cosmos:4.3.2-beta.2

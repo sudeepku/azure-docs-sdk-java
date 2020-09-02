@@ -1,0 +1,26 @@
+### YamlMime:JavaMember
+uid: com.azure.cosmos.implementation.guava25.collect.RangeSet.add*
+fullName: com.azure.cosmos.implementation.guava25.collect.RangeSet<C>.add
+name: add
+nameWithType: RangeSet<C>.add
+members:
+- uid: com.azure.cosmos.implementation.guava25.collect.RangeSet.add(com.azure.cosmos.implementation.guava25.collect.Range<C>)
+  fullName: com.azure.cosmos.implementation.guava25.collect.RangeSet<C>.add(Range<C> range)
+  name: add(Range<C> range)
+  nameWithType: RangeSet<C>.add(Range<C> range)
+  summary: |-
+    Adds the specified range to this <code>RangeSet</code> (optional operation). That is, for equal
+     range sets a and b, the result of <code>a.add(range)</code> is that <code>a</code> will be the minimal
+     range set for which both <code>a.enclosesAll(b)</code> and <code>a.encloses(range)</code>.
+
+     <p>Note that <code>range</code> will be <xref uid="Range#span(Range)" data-throw-if-not-resolved="false">coalesced</xref> with any ranges in
+     the range set that are <xref uid="Range#isConnected(Range)" data-throw-if-not-resolved="false">connected</xref> with it. Moreover, if
+     <code>range</code> is empty, this is a no-op.
+  parameters:
+  - name: range
+    type: <xref href="com.azure.cosmos.implementation.guava25.collect.Range?alt=com.azure.cosmos.implementation.guava25.collect.Range&text=Range" data-throw-if-not-resolved="False" />&lt;<xref href="C?alt=C&text=C" data-throw-if-not-resolved="False" />&gt;
+  syntax: public abstract void add(Range<C> range)
+type: method
+metadata: {}
+package: com.azure.cosmos.implementation.guava25.collect
+artifact: com.azure:azure-cosmos:4.3.2-beta.2

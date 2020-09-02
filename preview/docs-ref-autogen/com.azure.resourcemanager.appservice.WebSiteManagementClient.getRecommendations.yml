@@ -1,0 +1,19 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.appservice.WebSiteManagementClient.getRecommendations*
+fullName: com.azure.resourcemanager.appservice.WebSiteManagementClient.getRecommendations
+name: getRecommendations
+nameWithType: WebSiteManagementClient.getRecommendations
+members:
+- uid: com.azure.resourcemanager.appservice.WebSiteManagementClient.getRecommendations()
+  fullName: com.azure.resourcemanager.appservice.WebSiteManagementClient.getRecommendations()
+  name: getRecommendations()
+  nameWithType: WebSiteManagementClient.getRecommendations()
+  summary: Gets the RecommendationsClient object to access its operations.
+  syntax: public RecommendationsClient getRecommendations()
+  returns:
+    description: the RecommendationsClient object.
+    type: <xref href="com.azure.resourcemanager.appservice.fluent.RecommendationsClient?alt=com.azure.resourcemanager.appservice.fluent.RecommendationsClient&text=RecommendationsClient" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.resourcemanager.appservice
+artifact: com.azure.resourcemanager:azure-resourcemanager-appservice:2.0.0-beta.2

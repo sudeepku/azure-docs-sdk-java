@@ -1,0 +1,39 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.network.fluent.WebApplicationFirewallPoliciesClient.listAllNextSinglePageAsync*
+fullName: com.azure.resourcemanager.network.fluent.WebApplicationFirewallPoliciesClient.listAllNextSinglePageAsync
+name: listAllNextSinglePageAsync
+nameWithType: WebApplicationFirewallPoliciesClient.listAllNextSinglePageAsync
+members:
+- uid: com.azure.resourcemanager.network.fluent.WebApplicationFirewallPoliciesClient.listAllNextSinglePageAsync(java.lang.String)
+  fullName: com.azure.resourcemanager.network.fluent.WebApplicationFirewallPoliciesClient.listAllNextSinglePageAsync(String nextLink)
+  name: listAllNextSinglePageAsync(String nextLink)
+  nameWithType: WebApplicationFirewallPoliciesClient.listAllNextSinglePageAsync(String nextLink)
+  summary: Get the next page of items.
+  parameters:
+  - description: The nextLink parameter.
+    name: nextLink
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  syntax: public Mono<PagedResponse<WebApplicationFirewallPolicyInner>> listAllNextSinglePageAsync(String nextLink)
+  returns:
+    description: result of the request to list WebApplicationFirewallPolicies.
+    type: <xref href="reactor.core.publisher.Mono?alt=reactor.core.publisher.Mono&text=Mono" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.core.http.rest.PagedResponse?alt=com.azure.core.http.rest.PagedResponse&text=PagedResponse" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.resourcemanager.network.fluent.inner.WebApplicationFirewallPolicyInner?alt=com.azure.resourcemanager.network.fluent.inner.WebApplicationFirewallPolicyInner&text=WebApplicationFirewallPolicyInner" data-throw-if-not-resolved="False" />&gt;&gt;
+- uid: com.azure.resourcemanager.network.fluent.WebApplicationFirewallPoliciesClient.listAllNextSinglePageAsync(java.lang.String,com.azure.core.util.Context)
+  fullName: com.azure.resourcemanager.network.fluent.WebApplicationFirewallPoliciesClient.listAllNextSinglePageAsync(String nextLink, Context context)
+  name: listAllNextSinglePageAsync(String nextLink, Context context)
+  nameWithType: WebApplicationFirewallPoliciesClient.listAllNextSinglePageAsync(String nextLink, Context context)
+  summary: Get the next page of items.
+  parameters:
+  - description: The nextLink parameter.
+    name: nextLink
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  - description: The context to associate with this operation.
+    name: context
+    type: <xref href="com.azure.core.util.Context?alt=com.azure.core.util.Context&text=Context" data-throw-if-not-resolved="False" />
+  syntax: public Mono<PagedResponse<WebApplicationFirewallPolicyInner>> listAllNextSinglePageAsync(String nextLink, Context context)
+  returns:
+    description: result of the request to list WebApplicationFirewallPolicies.
+    type: <xref href="reactor.core.publisher.Mono?alt=reactor.core.publisher.Mono&text=Mono" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.core.http.rest.PagedResponse?alt=com.azure.core.http.rest.PagedResponse&text=PagedResponse" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.resourcemanager.network.fluent.inner.WebApplicationFirewallPolicyInner?alt=com.azure.resourcemanager.network.fluent.inner.WebApplicationFirewallPolicyInner&text=WebApplicationFirewallPolicyInner" data-throw-if-not-resolved="False" />&gt;&gt;
+type: method
+metadata: {}
+package: com.azure.resourcemanager.network.fluent
+artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.0.0-beta.2

@@ -1,0 +1,38 @@
+### YamlMime:JavaMember
+uid: com.azure.storage.file.share.ShareDirectoryAsyncClient.forceCloseHandle*
+fullName: com.azure.storage.file.share.ShareDirectoryAsyncClient.forceCloseHandle
+name: forceCloseHandle
+nameWithType: ShareDirectoryAsyncClient.forceCloseHandle
+members:
+- uid: com.azure.storage.file.share.ShareDirectoryAsyncClient.forceCloseHandle(java.lang.String)
+  fullName: com.azure.storage.file.share.ShareDirectoryAsyncClient.forceCloseHandle(String handleId)
+  name: forceCloseHandle(String handleId)
+  nameWithType: ShareDirectoryAsyncClient.forceCloseHandle(String handleId)
+  summary: |-
+    Closes a handle on the directory. This is intended to be used alongside <xref uid="#listHandles(Integer, boolean)" data-throw-if-not-resolved="false">#listHandles(Integer, boolean)</xref>.
+
+     <p><strong>Code Samples</strong></p>
+
+     <p>Force close handles returned by list handles.</p>
+
+     <pre>
+     shareDirectoryAsyncClient.listHandles&#40;null, true&#41;.subscribe&#40;handleItem -&gt;
+         shareDirectoryAsyncClient.forceCloseHandle&#40;handleItem.getHandleId&#40;&#41;&#41;.subscribe&#40;ignored -&gt;
+             System.out.printf&#40;&quot;Closed handle %s on resource %s%n&quot;,
+                 handleItem.getHandleId&#40;&#41;, handleItem.getPath&#40;&#41;&#41;&#41;&#41;;
+     </pre>
+
+     <p>For more information, see the
+     <a href="https://docs.microsoft.com/en-us/rest/api/storageservices/force-close-handles">Azure Docs</a>.</p>
+  parameters:
+  - description: Handle ID to be closed.
+    name: handleId
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  syntax: public Mono<CloseHandlesInfo> forceCloseHandle(String handleId)
+  returns:
+    description: A response that contains information about the closed handles.
+    type: <xref href="reactor.core.publisher.Mono?alt=reactor.core.publisher.Mono&text=Mono" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.storage.file.share.models.CloseHandlesInfo?alt=com.azure.storage.file.share.models.CloseHandlesInfo&text=CloseHandlesInfo" data-throw-if-not-resolved="False" />&gt;
+type: method
+metadata: {}
+package: com.azure.storage.file.share
+artifact: com.azure:azure-storage-file-share:12.6.0-beta.1

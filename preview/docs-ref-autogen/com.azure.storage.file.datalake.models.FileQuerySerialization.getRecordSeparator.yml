@@ -1,0 +1,19 @@
+### YamlMime:JavaMember
+uid: com.azure.storage.file.datalake.models.FileQuerySerialization.getRecordSeparator*
+fullName: com.azure.storage.file.datalake.models.FileQuerySerialization.getRecordSeparator
+name: getRecordSeparator
+nameWithType: FileQuerySerialization.getRecordSeparator
+members:
+- uid: com.azure.storage.file.datalake.models.FileQuerySerialization.getRecordSeparator()
+  fullName: com.azure.storage.file.datalake.models.FileQuerySerialization.getRecordSeparator()
+  name: getRecordSeparator()
+  nameWithType: FileQuerySerialization.getRecordSeparator()
+  summary: Gets the record separator.
+  syntax: public char getRecordSeparator()
+  returns:
+    description: the record separator.
+    type: <xref href="char?alt=char&text=char" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.storage.file.datalake.models
+artifact: com.azure:azure-storage-file-datalake:12.2.0-beta.1

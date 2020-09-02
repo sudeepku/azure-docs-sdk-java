@@ -1,0 +1,32 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.network.fluent.ExpressRouteCircuitsClient.listAsync*
+fullName: com.azure.resourcemanager.network.fluent.ExpressRouteCircuitsClient.listAsync
+name: listAsync
+nameWithType: ExpressRouteCircuitsClient.listAsync
+members:
+- uid: com.azure.resourcemanager.network.fluent.ExpressRouteCircuitsClient.listAsync()
+  fullName: com.azure.resourcemanager.network.fluent.ExpressRouteCircuitsClient.listAsync()
+  name: listAsync()
+  nameWithType: ExpressRouteCircuitsClient.listAsync()
+  summary: Gets all the express route circuits in a subscription.
+  syntax: public PagedFlux<ExpressRouteCircuitInner> listAsync()
+  returns:
+    description: all the express route circuits in a subscription.
+    type: <xref href="com.azure.core.http.rest.PagedFlux?alt=com.azure.core.http.rest.PagedFlux&text=PagedFlux" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.resourcemanager.network.fluent.inner.ExpressRouteCircuitInner?alt=com.azure.resourcemanager.network.fluent.inner.ExpressRouteCircuitInner&text=ExpressRouteCircuitInner" data-throw-if-not-resolved="False" />&gt;
+- uid: com.azure.resourcemanager.network.fluent.ExpressRouteCircuitsClient.listAsync(com.azure.core.util.Context)
+  fullName: com.azure.resourcemanager.network.fluent.ExpressRouteCircuitsClient.listAsync(Context context)
+  name: listAsync(Context context)
+  nameWithType: ExpressRouteCircuitsClient.listAsync(Context context)
+  summary: Gets all the express route circuits in a subscription.
+  parameters:
+  - description: The context to associate with this operation.
+    name: context
+    type: <xref href="com.azure.core.util.Context?alt=com.azure.core.util.Context&text=Context" data-throw-if-not-resolved="False" />
+  syntax: public PagedFlux<ExpressRouteCircuitInner> listAsync(Context context)
+  returns:
+    description: all the express route circuits in a subscription.
+    type: <xref href="com.azure.core.http.rest.PagedFlux?alt=com.azure.core.http.rest.PagedFlux&text=PagedFlux" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.resourcemanager.network.fluent.inner.ExpressRouteCircuitInner?alt=com.azure.resourcemanager.network.fluent.inner.ExpressRouteCircuitInner&text=ExpressRouteCircuitInner" data-throw-if-not-resolved="False" />&gt;
+type: method
+metadata: {}
+package: com.azure.resourcemanager.network.fluent
+artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.0.0-beta.2

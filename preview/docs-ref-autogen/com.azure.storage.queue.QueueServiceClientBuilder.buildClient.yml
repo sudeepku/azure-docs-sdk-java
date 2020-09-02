@@ -1,0 +1,26 @@
+### YamlMime:JavaMember
+uid: com.azure.storage.queue.QueueServiceClientBuilder.buildClient*
+fullName: com.azure.storage.queue.QueueServiceClientBuilder.buildClient
+name: buildClient
+nameWithType: QueueServiceClientBuilder.buildClient
+members:
+- uid: com.azure.storage.queue.QueueServiceClientBuilder.buildClient()
+  fullName: com.azure.storage.queue.QueueServiceClientBuilder.buildClient()
+  name: buildClient()
+  nameWithType: QueueServiceClientBuilder.buildClient()
+  summary: |-
+    Creates a <xref uid="QueueServiceClient" data-throw-if-not-resolved="false">QueueServiceClient</xref> based on options set in the builder. Every time this is called a new
+     instance of <xref uid="QueueServiceClient" data-throw-if-not-resolved="false">QueueServiceClient</xref> is created.
+
+     <p>
+     If <xref uid="QueueServiceClientBuilder#pipeline(HttpPipeline)" data-throw-if-not-resolved="false">pipeline</xref> is set, then the <code>pipeline</code> and <xref uid="QueueServiceClientBuilder#endpoint(String)" data-throw-if-not-resolved="false">endpoint</xref> are used to create the <xref uid="QueueServiceClient" data-throw-if-not-resolved="false">client</xref>.
+     All other builder settings are ignored.
+     </p>
+  syntax: public QueueServiceClient buildClient()
+  returns:
+    description: A QueueServiceClient with the options set from the builder.
+    type: <xref href="com.azure.storage.queue.QueueServiceClient?alt=com.azure.storage.queue.QueueServiceClient&text=QueueServiceClient" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.storage.queue
+artifact: com.azure:azure-storage-queue:12.6.0-beta.1

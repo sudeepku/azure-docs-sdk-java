@@ -1,0 +1,28 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.resources.fluentcore.utils.ReactorMapper.map*
+fullName: com.azure.resourcemanager.resources.fluentcore.utils.ReactorMapper<T>.<T>map
+name: <T>map
+nameWithType: ReactorMapper<T>.<T>map
+members:
+- uid: com.azure.resourcemanager.resources.fluentcore.utils.ReactorMapper.<T>map(reactor.core.publisher.Mono<?>,T)
+  fullName: com.azure.resourcemanager.resources.fluentcore.utils.ReactorMapper<T>.<T>map(Mono<?> fromObservable, T toValue)
+  name: <T>map(Mono<?> fromObservable, T toValue)
+  nameWithType: ReactorMapper<T>.<T>map(Mono<?> fromObservable, T toValue)
+  summary: |-
+    Shortcut for mapping the output of an arbitrary observable to one returning an instance of a specific type,
+     using the IO scheduler.
+  parameters:
+  - description: the source observable
+    name: fromObservable
+    type: <xref href="reactor.core.publisher.Mono?alt=reactor.core.publisher.Mono&text=Mono" data-throw-if-not-resolved="False" />&lt;?&gt;
+  - description: the value to emit to the observer
+    name: toValue
+    type: <xref href="T?alt=T&text=T" data-throw-if-not-resolved="False" />
+  syntax: public static Mono<T> <T>map(Mono<?> fromObservable, T toValue)
+  returns:
+    description: an observable emitting the specified value
+    type: <xref href="reactor.core.publisher.Mono?alt=reactor.core.publisher.Mono&text=Mono" data-throw-if-not-resolved="False" />&lt;<xref href="T?alt=T&text=T" data-throw-if-not-resolved="False" />&gt;
+type: method
+metadata: {}
+package: com.azure.resourcemanager.resources.fluentcore.utils
+artifact: com.azure.resourcemanager:azure-resourcemanager-resources:2.0.0-beta.2

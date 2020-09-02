@@ -1,0 +1,19 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.resources.fluentcore.utils.PagedList.hasNextPage*
+fullName: com.azure.resourcemanager.resources.fluentcore.utils.PagedList<E>.hasNextPage
+name: hasNextPage
+nameWithType: PagedList<E>.hasNextPage
+members:
+- uid: com.azure.resourcemanager.resources.fluentcore.utils.PagedList.hasNextPage()
+  fullName: com.azure.resourcemanager.resources.fluentcore.utils.PagedList<E>.hasNextPage()
+  name: hasNextPage()
+  nameWithType: PagedList<E>.hasNextPage()
+  summary: If there are more pages available.
+  syntax: protected boolean hasNextPage()
+  returns:
+    description: true if there are more pages to load. False otherwise.
+    type: <xref href="boolean?alt=boolean&text=boolean" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.resourcemanager.resources.fluentcore.utils
+artifact: com.azure.resourcemanager:azure-resourcemanager-resources:2.0.0-beta.2

@@ -1,0 +1,21 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.appservice.models.StackMajorVersion.isDeprecated*
+fullName: com.azure.resourcemanager.appservice.models.StackMajorVersion.isDeprecated
+name: isDeprecated
+nameWithType: StackMajorVersion.isDeprecated
+members:
+- uid: com.azure.resourcemanager.appservice.models.StackMajorVersion.isDeprecated()
+  fullName: com.azure.resourcemanager.appservice.models.StackMajorVersion.isDeprecated()
+  name: isDeprecated()
+  nameWithType: StackMajorVersion.isDeprecated()
+  summary: |-
+    Get the isDeprecated property: &lt;code&gt;true&lt;/code&gt; if this stack has been deprecated, otherwise
+     &lt;code&gt;false&lt;/code&gt;.
+  syntax: public Boolean isDeprecated()
+  returns:
+    description: the isDeprecated value.
+    type: <xref href="java.lang.Boolean?alt=java.lang.Boolean&text=Boolean" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.resourcemanager.appservice.models
+artifact: com.azure.resourcemanager:azure-resourcemanager-appservice:2.0.0-beta.2

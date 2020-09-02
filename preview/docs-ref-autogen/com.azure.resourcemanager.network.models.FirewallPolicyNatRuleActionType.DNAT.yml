@@ -1,0 +1,16 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.network.models.FirewallPolicyNatRuleActionType.DNAT
+fullName: com.azure.resourcemanager.network.models.FirewallPolicyNatRuleActionType.DNAT
+name: DNAT
+nameWithType: FirewallPolicyNatRuleActionType.DNAT
+members:
+- uid: com.azure.resourcemanager.network.models.FirewallPolicyNatRuleActionType.DNAT
+  fullName: com.azure.resourcemanager.network.models.FirewallPolicyNatRuleActionType.DNAT
+  name: DNAT
+  nameWithType: FirewallPolicyNatRuleActionType.DNAT
+  summary: Static value DNAT for FirewallPolicyNatRuleActionType.
+  syntax: public static final FirewallPolicyNatRuleActionType DNAT
+type: field
+metadata: {}
+package: com.azure.resourcemanager.network.models
+artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.0.0-beta.2

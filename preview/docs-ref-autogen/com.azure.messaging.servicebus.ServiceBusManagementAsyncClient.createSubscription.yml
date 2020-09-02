@@ -1,0 +1,39 @@
+### YamlMime:JavaMember
+uid: com.azure.messaging.servicebus.ServiceBusManagementAsyncClient.createSubscription*
+fullName: com.azure.messaging.servicebus.ServiceBusManagementAsyncClient.createSubscription
+name: createSubscription
+nameWithType: ServiceBusManagementAsyncClient.createSubscription
+members:
+- uid: com.azure.messaging.servicebus.ServiceBusManagementAsyncClient.createSubscription(com.azure.messaging.servicebus.models.CreateSubscriptionOptions)
+  fullName: com.azure.messaging.servicebus.ServiceBusManagementAsyncClient.createSubscription(CreateSubscriptionOptions subscription)
+  name: createSubscription(CreateSubscriptionOptions subscription)
+  nameWithType: ServiceBusManagementAsyncClient.createSubscription(CreateSubscriptionOptions subscription)
+  summary: Creates a subscription with the <xref uid="SubscriptionProperties" data-throw-if-not-resolved="false">SubscriptionProperties</xref>.
+  parameters:
+  - description: Information about the subscription to create.
+    name: subscription
+    type: <xref href="com.azure.messaging.servicebus.models.CreateSubscriptionOptions?alt=com.azure.messaging.servicebus.models.CreateSubscriptionOptions&text=CreateSubscriptionOptions" data-throw-if-not-resolved="False" />
+  syntax: public Mono<SubscriptionProperties> createSubscription(CreateSubscriptionOptions subscription)
+  returns:
+    description: A Mono that completes with information about the created subscription.
+    type: <xref href="reactor.core.publisher.Mono?alt=reactor.core.publisher.Mono&text=Mono" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.messaging.servicebus.models.SubscriptionProperties?alt=com.azure.messaging.servicebus.models.SubscriptionProperties&text=SubscriptionProperties" data-throw-if-not-resolved="False" />&gt;
+- uid: com.azure.messaging.servicebus.ServiceBusManagementAsyncClient.createSubscription(java.lang.String,java.lang.String)
+  fullName: com.azure.messaging.servicebus.ServiceBusManagementAsyncClient.createSubscription(String topicName, String subscriptionName)
+  name: createSubscription(String topicName, String subscriptionName)
+  nameWithType: ServiceBusManagementAsyncClient.createSubscription(String topicName, String subscriptionName)
+  summary: Creates a subscription with the given topic and subscription names.
+  parameters:
+  - description: Name of the topic associated with subscription.
+    name: topicName
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  - description: Name of the subscription.
+    name: subscriptionName
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  syntax: public Mono<SubscriptionProperties> createSubscription(String topicName, String subscriptionName)
+  returns:
+    description: A Mono that completes with information about the created subscription.
+    type: <xref href="reactor.core.publisher.Mono?alt=reactor.core.publisher.Mono&text=Mono" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.messaging.servicebus.models.SubscriptionProperties?alt=com.azure.messaging.servicebus.models.SubscriptionProperties&text=SubscriptionProperties" data-throw-if-not-resolved="False" />&gt;
+type: method
+metadata: {}
+package: com.azure.messaging.servicebus
+artifact: com.azure:azure-messaging-servicebus:7.0.0-beta.5

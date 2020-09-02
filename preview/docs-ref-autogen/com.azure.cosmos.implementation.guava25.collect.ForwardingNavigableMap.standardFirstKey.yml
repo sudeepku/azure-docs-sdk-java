@@ -1,0 +1,21 @@
+### YamlMime:JavaMember
+uid: com.azure.cosmos.implementation.guava25.collect.ForwardingNavigableMap.standardFirstKey*
+fullName: com.azure.cosmos.implementation.guava25.collect.ForwardingNavigableMap<K,V>.standardFirstKey
+name: standardFirstKey
+nameWithType: ForwardingNavigableMap<K,V>.standardFirstKey
+members:
+- uid: com.azure.cosmos.implementation.guava25.collect.ForwardingNavigableMap.standardFirstKey()
+  fullName: com.azure.cosmos.implementation.guava25.collect.ForwardingNavigableMap<K,V>.standardFirstKey()
+  name: standardFirstKey()
+  nameWithType: ForwardingNavigableMap<K,V>.standardFirstKey()
+  summary: |-
+    A sensible definition of <xref uid="#firstKey" data-throw-if-not-resolved="false">#firstKey</xref> in terms of <code>firstEntry</code>. If you override
+     <code>firstEntry</code>, you may wish to override <code>firstKey</code> to forward to this
+     implementation.
+  syntax: protected K standardFirstKey()
+  returns:
+    type: <xref href="K?alt=K&text=K" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.cosmos.implementation.guava25.collect
+artifact: com.azure:azure-cosmos:4.3.2-beta.2

@@ -1,0 +1,40 @@
+### YamlMime:JavaMember
+uid: com.azure.search.documents.indexes.SearchIndexAsyncClient.createIndex*
+fullName: com.azure.search.documents.indexes.SearchIndexAsyncClient.createIndex
+name: createIndex
+nameWithType: SearchIndexAsyncClient.createIndex
+members:
+- uid: com.azure.search.documents.indexes.SearchIndexAsyncClient.createIndex(com.azure.search.documents.indexes.models.SearchIndex)
+  fullName: com.azure.search.documents.indexes.SearchIndexAsyncClient.createIndex(SearchIndex index)
+  name: createIndex(SearchIndex index)
+  nameWithType: SearchIndexAsyncClient.createIndex(SearchIndex index)
+  summary: |-
+    Creates a new Azure Cognitive Search index.
+
+     <p><strong>Code Sample</strong></p>
+
+     <p> Create search index named "searchIndex". </p>
+
+     <pre>
+     List&lt;SearchField&gt; searchFields = Arrays.asList&#40;
+         new SearchField&#40;&quot;hotelId&quot;, SearchFieldDataType.STRING&#41;.setKey&#40;true&#41;,
+         new SearchField&#40;&quot;hotelName&quot;, SearchFieldDataType.STRING&#41;.setSearchable&#40;true&#41;
+     &#41;;
+     SearchIndex searchIndex = new SearchIndex&#40;&quot;searchIndex&quot;, searchFields&#41;;
+     searchIndexAsyncClient.createIndex&#40;searchIndex&#41;
+         .subscribe&#40;indexFromService -&gt;
+             System.out.printf&#40;&quot;The index name is %s. The etag of index is %s.%n&quot;, indexFromService.getName&#40;&#41;,
+             indexFromService.getETag&#40;&#41;&#41;&#41;;
+     </pre>
+  parameters:
+  - description: definition of the index to create.
+    name: index
+    type: <xref href="com.azure.search.documents.indexes.models.SearchIndex?alt=com.azure.search.documents.indexes.models.SearchIndex&text=SearchIndex" data-throw-if-not-resolved="False" />
+  syntax: public Mono<SearchIndex> createIndex(SearchIndex index)
+  returns:
+    description: the created Index.
+    type: <xref href="reactor.core.publisher.Mono?alt=reactor.core.publisher.Mono&text=Mono" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.search.documents.indexes.models.SearchIndex?alt=com.azure.search.documents.indexes.models.SearchIndex&text=SearchIndex" data-throw-if-not-resolved="False" />&gt;
+type: method
+metadata: {}
+package: com.azure.search.documents.indexes
+artifact: com.azure:azure-search-documents:11.1.0-beta.1

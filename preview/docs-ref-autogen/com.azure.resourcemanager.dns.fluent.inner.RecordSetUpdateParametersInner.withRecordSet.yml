@@ -1,0 +1,23 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.dns.fluent.inner.RecordSetUpdateParametersInner.withRecordSet*
+fullName: com.azure.resourcemanager.dns.fluent.inner.RecordSetUpdateParametersInner.withRecordSet
+name: withRecordSet
+nameWithType: RecordSetUpdateParametersInner.withRecordSet
+members:
+- uid: com.azure.resourcemanager.dns.fluent.inner.RecordSetUpdateParametersInner.withRecordSet(com.azure.resourcemanager.dns.fluent.inner.RecordSetInner)
+  fullName: com.azure.resourcemanager.dns.fluent.inner.RecordSetUpdateParametersInner.withRecordSet(RecordSetInner recordSet)
+  name: withRecordSet(RecordSetInner recordSet)
+  nameWithType: RecordSetUpdateParametersInner.withRecordSet(RecordSetInner recordSet)
+  summary: 'Set the recordSet property: Specifies information about the record set being updated.'
+  parameters:
+  - description: the recordSet value to set.
+    name: recordSet
+    type: <xref href="com.azure.resourcemanager.dns.fluent.inner.RecordSetInner?alt=com.azure.resourcemanager.dns.fluent.inner.RecordSetInner&text=RecordSetInner" data-throw-if-not-resolved="False" />
+  syntax: public RecordSetUpdateParametersInner withRecordSet(RecordSetInner recordSet)
+  returns:
+    description: the RecordSetUpdateParametersInner object itself.
+    type: <xref href="com.azure.resourcemanager.dns.fluent.inner.RecordSetUpdateParametersInner?alt=com.azure.resourcemanager.dns.fluent.inner.RecordSetUpdateParametersInner&text=RecordSetUpdateParametersInner" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.resourcemanager.dns.fluent.inner
+artifact: com.azure.resourcemanager:azure-resourcemanager-dns:2.0.0-beta.2

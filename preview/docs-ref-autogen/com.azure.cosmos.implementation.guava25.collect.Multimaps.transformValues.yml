@@ -1,0 +1,109 @@
+### YamlMime:JavaMember
+uid: com.azure.cosmos.implementation.guava25.collect.Multimaps.transformValues*
+fullName: com.azure.cosmos.implementation.guava25.collect.Multimaps.<K,V1,V2>transformValues
+name: <K,V1,V2>transformValues
+nameWithType: Multimaps.<K,V1,V2>transformValues
+members:
+- uid: com.azure.cosmos.implementation.guava25.collect.Multimaps.<K,V1,V2>transformValues(com.azure.cosmos.implementation.guava25.collect.ListMultimap<K,V1>,com.azure.cosmos.implementation.guava25.base.Function<? super V1,V2>)
+  fullName: com.azure.cosmos.implementation.guava25.collect.Multimaps.<K,V1,V2>transformValues(ListMultimap<K,V1> fromMultimap, Function<? super V1,V2> function)
+  name: <K,V1,V2>transformValues(ListMultimap<K,V1> fromMultimap, Function<? super V1,V2> function)
+  nameWithType: Multimaps.<K,V1,V2>transformValues(ListMultimap<K,V1> fromMultimap, Function<? super V1,V2> function)
+  summary: |-
+    Returns a view of a <code>ListMultimap</code> where each value is transformed by a function. All
+     other properties of the multimap, such as iteration order, are left intact. For example, the
+     code:
+
+     <pre><code>
+     ListMultimap<String, Integer> multimap
+          = ImmutableListMultimap.of("a", 4, "a", 16, "b", 9);
+     Function<Integer, Double> sqrt =
+         new Function<Integer, Double>() {
+           public Double apply(Integer in) {
+             return Math.sqrt((int) in);
+           }
+         };
+     ListMultimap<String, Double> transformed = Multimaps.transformValues(map,
+         sqrt);
+     System.out.println(transformed);
+     </code></pre>
+
+     ... prints <code>{a=[2.0, 4.0], b=[3.0]}</code>.
+
+     <p>Changes in the underlying multimap are reflected in this view. Conversely, this view
+     supports removal operations, and these are reflected in the underlying multimap.
+
+     <p>It's acceptable for the underlying multimap to contain null keys, and even null values
+     provided that the function is capable of accepting null input. The transformed multimap might
+     contain null values, if the function sometimes gives a null result.
+
+     <p>The returned multimap is not thread-safe or serializable, even if the underlying multimap
+     is.
+
+     <p>The function is applied lazily, invoked when needed. This is necessary for the returned
+     multimap to be a view, but it means that the function will be applied many times for bulk
+     operations like <xref uid="Multimap#containsValue" data-throw-if-not-resolved="false">Multimap#containsValue</xref> and <code>Multimap.toString()</code>. For this to
+     perform well, <code>function</code> should be fast. To avoid lazy evaluation when the returned
+     multimap doesn't need to be a view, copy the returned multimap into a new multimap of your
+     choosing.
+  parameters:
+  - name: fromMultimap
+    type: <xref href="com.azure.cosmos.implementation.guava25.collect.ListMultimap?alt=com.azure.cosmos.implementation.guava25.collect.ListMultimap&text=ListMultimap" data-throw-if-not-resolved="False" />&lt;<xref href="K?alt=K&text=K" data-throw-if-not-resolved="False" />,<xref href="V1?alt=V1&text=V1" data-throw-if-not-resolved="False" />&gt;
+  - name: function
+    type: <xref href="com.azure.cosmos.implementation.guava25.base.Function?alt=com.azure.cosmos.implementation.guava25.base.Function&text=Function" data-throw-if-not-resolved="False" />&lt;<xref href="? super V1?alt=? super V1&text=? super V1" data-throw-if-not-resolved="False" />,<xref href="V2?alt=V2&text=V2" data-throw-if-not-resolved="False" />&gt;
+  syntax: public static ListMultimap<K,V2> <K,V1,V2>transformValues(ListMultimap<K,V1> fromMultimap, Function<? super V1,V2> function)
+  returns:
+    type: <xref href="com.azure.cosmos.implementation.guava25.collect.ListMultimap?alt=com.azure.cosmos.implementation.guava25.collect.ListMultimap&text=ListMultimap" data-throw-if-not-resolved="False" />&lt;<xref href="K?alt=K&text=K" data-throw-if-not-resolved="False" />,<xref href="V2?alt=V2&text=V2" data-throw-if-not-resolved="False" />&gt;
+- uid: com.azure.cosmos.implementation.guava25.collect.Multimaps.<K,V1,V2>transformValues(com.azure.cosmos.implementation.guava25.collect.Multimap<K,V1>,com.azure.cosmos.implementation.guava25.base.Function<? super V1,V2>)
+  fullName: com.azure.cosmos.implementation.guava25.collect.Multimaps.<K,V1,V2>transformValues(Multimap<K,V1> fromMultimap, Function<? super V1,V2> function)
+  name: <K,V1,V2>transformValues(Multimap<K,V1> fromMultimap, Function<? super V1,V2> function)
+  nameWithType: Multimaps.<K,V1,V2>transformValues(Multimap<K,V1> fromMultimap, Function<? super V1,V2> function)
+  summary: |-
+    Returns a view of a multimap where each value is transformed by a function. All other
+     properties of the multimap, such as iteration order, are left intact. For example, the code:
+
+     <pre><code>
+     Multimap<String, Integer> multimap =
+         ImmutableSetMultimap.of("a", 2, "b", -3, "b", -3, "a", 4, "c", 6);
+     Function<Integer, String> square = new Function<Integer, String>() {
+         public String apply(Integer in) {
+           return Integer.toString(in * in);
+         }
+     };
+     Multimap<String, String> transformed =
+         Multimaps.transformValues(multimap, square);
+       System.out.println(transformed);
+     </code></pre>
+
+     ... prints <code>{a=[4, 16], b=[9, 9], c=[36]}</code>.
+
+     <p>Changes in the underlying multimap are reflected in this view. Conversely, this view
+     supports removal operations, and these are reflected in the underlying multimap.
+
+     <p>It's acceptable for the underlying multimap to contain null keys, and even null values
+     provided that the function is capable of accepting null input. The transformed multimap might
+     contain null values, if the function sometimes gives a null result.
+
+     <p>The returned multimap is not thread-safe or serializable, even if the underlying multimap
+     is. The <code>equals</code> and <code>hashCode</code> methods of the returned multimap are meaningless,
+     since there is not a definition of <code>equals</code> or <code>hashCode</code> for general collections,
+     and <code>get()</code> will return a general <code>Collection</code> as opposed to a <code>List</code> or a
+     <code>Set</code>.
+
+     <p>The function is applied lazily, invoked when needed. This is necessary for the returned
+     multimap to be a view, but it means that the function will be applied many times for bulk
+     operations like <xref uid="Multimap#containsValue" data-throw-if-not-resolved="false">Multimap#containsValue</xref> and <code>Multimap.toString()</code>. For this to
+     perform well, <code>function</code> should be fast. To avoid lazy evaluation when the returned
+     multimap doesn't need to be a view, copy the returned multimap into a new multimap of your
+     choosing.
+  parameters:
+  - name: fromMultimap
+    type: <xref href="com.azure.cosmos.implementation.guava25.collect.Multimap?alt=com.azure.cosmos.implementation.guava25.collect.Multimap&text=Multimap" data-throw-if-not-resolved="False" />&lt;<xref href="K?alt=K&text=K" data-throw-if-not-resolved="False" />,<xref href="V1?alt=V1&text=V1" data-throw-if-not-resolved="False" />&gt;
+  - name: function
+    type: <xref href="com.azure.cosmos.implementation.guava25.base.Function?alt=com.azure.cosmos.implementation.guava25.base.Function&text=Function" data-throw-if-not-resolved="False" />&lt;<xref href="? super V1?alt=? super V1&text=? super V1" data-throw-if-not-resolved="False" />,<xref href="V2?alt=V2&text=V2" data-throw-if-not-resolved="False" />&gt;
+  syntax: public static Multimap<K,V2> <K,V1,V2>transformValues(Multimap<K,V1> fromMultimap, Function<? super V1,V2> function)
+  returns:
+    type: <xref href="com.azure.cosmos.implementation.guava25.collect.Multimap?alt=com.azure.cosmos.implementation.guava25.collect.Multimap&text=Multimap" data-throw-if-not-resolved="False" />&lt;<xref href="K?alt=K&text=K" data-throw-if-not-resolved="False" />,<xref href="V2?alt=V2&text=V2" data-throw-if-not-resolved="False" />&gt;
+type: method
+metadata: {}
+package: com.azure.cosmos.implementation.guava25.collect
+artifact: com.azure:azure-cosmos:4.3.2-beta.2

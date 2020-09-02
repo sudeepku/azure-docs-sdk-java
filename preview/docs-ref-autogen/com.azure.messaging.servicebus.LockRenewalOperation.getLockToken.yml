@@ -1,0 +1,19 @@
+### YamlMime:JavaMember
+uid: com.azure.messaging.servicebus.LockRenewalOperation.getLockToken*
+fullName: com.azure.messaging.servicebus.LockRenewalOperation.getLockToken
+name: getLockToken
+nameWithType: LockRenewalOperation.getLockToken
+members:
+- uid: com.azure.messaging.servicebus.LockRenewalOperation.getLockToken()
+  fullName: com.azure.messaging.servicebus.LockRenewalOperation.getLockToken()
+  name: getLockToken()
+  nameWithType: LockRenewalOperation.getLockToken()
+  summary: Gets the message lock token for the renewal operation.
+  syntax: public String getLockToken()
+  returns:
+    description: The message lock token or <code>null</code> if a session is being renewed instead.
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.messaging.servicebus
+artifact: com.azure:azure-messaging-servicebus:7.0.0-beta.5

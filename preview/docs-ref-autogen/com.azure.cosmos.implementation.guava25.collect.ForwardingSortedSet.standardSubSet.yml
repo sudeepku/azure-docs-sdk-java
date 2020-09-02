@@ -1,0 +1,25 @@
+### YamlMime:JavaMember
+uid: com.azure.cosmos.implementation.guava25.collect.ForwardingSortedSet.standardSubSet*
+fullName: com.azure.cosmos.implementation.guava25.collect.ForwardingSortedSet<E>.standardSubSet
+name: standardSubSet
+nameWithType: ForwardingSortedSet<E>.standardSubSet
+members:
+- uid: com.azure.cosmos.implementation.guava25.collect.ForwardingSortedSet.standardSubSet(E,E)
+  fullName: com.azure.cosmos.implementation.guava25.collect.ForwardingSortedSet<E>.standardSubSet(E fromElement, E toElement)
+  name: standardSubSet(E fromElement, E toElement)
+  nameWithType: ForwardingSortedSet<E>.standardSubSet(E fromElement, E toElement)
+  summary: |-
+    A sensible default implementation of <xref uid="#subSet(Object, Object)" data-throw-if-not-resolved="false">#subSet(Object, Object)</xref> in terms of <xref uid="#headSet(Object)" data-throw-if-not-resolved="false">#headSet(Object)</xref> and <xref uid="#tailSet(Object)" data-throw-if-not-resolved="false">#tailSet(Object)</xref>. In some situations, you may wish to override
+     <xref uid="#subSet(Object, Object)" data-throw-if-not-resolved="false">#subSet(Object, Object)</xref> to forward to this implementation.
+  parameters:
+  - name: fromElement
+    type: <xref href="E?alt=E&text=E" data-throw-if-not-resolved="False" />
+  - name: toElement
+    type: <xref href="E?alt=E&text=E" data-throw-if-not-resolved="False" />
+  syntax: protected SortedSet<E> standardSubSet(E fromElement, E toElement)
+  returns:
+    type: <xref href="java.util.SortedSet?alt=java.util.SortedSet&text=SortedSet" data-throw-if-not-resolved="False" />&lt;<xref href="E?alt=E&text=E" data-throw-if-not-resolved="False" />&gt;
+type: method
+metadata: {}
+package: com.azure.cosmos.implementation.guava25.collect
+artifact: com.azure:azure-cosmos:4.3.2-beta.2

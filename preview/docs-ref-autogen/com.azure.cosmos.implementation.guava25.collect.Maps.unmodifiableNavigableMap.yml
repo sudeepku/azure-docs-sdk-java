@@ -1,0 +1,35 @@
+### YamlMime:JavaMember
+uid: com.azure.cosmos.implementation.guava25.collect.Maps.unmodifiableNavigableMap*
+fullName: com.azure.cosmos.implementation.guava25.collect.Maps.<K,V>unmodifiableNavigableMap
+name: <K,V>unmodifiableNavigableMap
+nameWithType: Maps.<K,V>unmodifiableNavigableMap
+members:
+- uid: com.azure.cosmos.implementation.guava25.collect.Maps.<K,V>unmodifiableNavigableMap(java.util.NavigableMap<K,? extends V>)
+  fullName: com.azure.cosmos.implementation.guava25.collect.Maps.<K,V>unmodifiableNavigableMap(NavigableMap<K,? extends V> map)
+  name: <K,V>unmodifiableNavigableMap(NavigableMap<K,? extends V> map)
+  nameWithType: Maps.<K,V>unmodifiableNavigableMap(NavigableMap<K,? extends V> map)
+  summary: |-
+    Returns an unmodifiable view of the specified navigable map. Query operations on the returned
+     map read through to the specified map, and attempts to modify the returned map, whether direct
+     or via its views, result in an <code>UnsupportedOperationException</code>.
+
+     <p>The returned navigable map will be serializable if the specified navigable map is
+     serializable.
+
+     <p>This method's signature will not permit you to convert a <code>NavigableMap<? extends K,
+     V></code> to a <code>NavigableMap<K, V></code>. If it permitted this, the returned map's <code>
+     comparator()</code> method might return a <code>Comparator<? extends K></code>, which works only on a
+     particular subtype of <code>K</code>, but promise that it's a <code>Comparator<? super K></code>, which
+     must work on any type of <code>K</code>.
+  parameters:
+  - description: the navigable map for which an unmodifiable view is to be returned
+    name: map
+    type: <xref href="java.util.NavigableMap?alt=java.util.NavigableMap&text=NavigableMap" data-throw-if-not-resolved="False" />&lt;<xref href="K?alt=K&text=K" data-throw-if-not-resolved="False" />,<xref href="? extends V?alt=? extends V&text=? extends V" data-throw-if-not-resolved="False" />&gt;
+  syntax: public static NavigableMap<K,V> <K,V>unmodifiableNavigableMap(NavigableMap<K,? extends V> map)
+  returns:
+    description: an unmodifiable view of the specified navigable map
+    type: <xref href="java.util.NavigableMap?alt=java.util.NavigableMap&text=NavigableMap" data-throw-if-not-resolved="False" />&lt;<xref href="K?alt=K&text=K" data-throw-if-not-resolved="False" />,<xref href="V?alt=V&text=V" data-throw-if-not-resolved="False" />&gt;
+type: method
+metadata: {}
+package: com.azure.cosmos.implementation.guava25.collect
+artifact: com.azure:azure-cosmos:4.3.2-beta.2

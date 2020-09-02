@@ -1,0 +1,27 @@
+### YamlMime:JavaMember
+uid: com.azure.storage.file.datalake.DataLakeFileSystemClientBuilder.buildAsyncClient*
+fullName: com.azure.storage.file.datalake.DataLakeFileSystemClientBuilder.buildAsyncClient
+name: buildAsyncClient
+nameWithType: DataLakeFileSystemClientBuilder.buildAsyncClient
+members:
+- uid: com.azure.storage.file.datalake.DataLakeFileSystemClientBuilder.buildAsyncClient()
+  fullName: com.azure.storage.file.datalake.DataLakeFileSystemClientBuilder.buildAsyncClient()
+  name: buildAsyncClient()
+  nameWithType: DataLakeFileSystemClientBuilder.buildAsyncClient()
+  summary: |-
+    <p><strong>Code Samples</strong></p>
+
+     <pre>
+     DataLakeFileSystemAsyncClient client = new DataLakeFileSystemClientBuilder&#40;&#41;
+         .endpoint&#40;endpoint&#41;
+         .credential&#40;storageSharedKeyCredential&#41;
+         .buildAsyncClient&#40;&#41;;
+     </pre>
+  syntax: public DataLakeFileSystemAsyncClient buildAsyncClient()
+  returns:
+    description: a <xref uid="com.azure.storage.file.datalake.DataLakeFileSystemAsyncClient" data-throw-if-not-resolved="false">DataLakeFileSystemAsyncClient</xref> created from the configurations in this builder.
+    type: <xref href="com.azure.storage.file.datalake.DataLakeFileSystemAsyncClient?alt=com.azure.storage.file.datalake.DataLakeFileSystemAsyncClient&text=DataLakeFileSystemAsyncClient" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.storage.file.datalake
+artifact: com.azure:azure-storage-file-datalake:12.2.0-beta.1

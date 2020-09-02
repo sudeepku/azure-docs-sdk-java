@@ -1,0 +1,45 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.monitor.fluent.DiagnosticSettingsCategorysClient.getAsync*
+fullName: com.azure.resourcemanager.monitor.fluent.DiagnosticSettingsCategorysClient.getAsync
+name: getAsync
+nameWithType: DiagnosticSettingsCategorysClient.getAsync
+members:
+- uid: com.azure.resourcemanager.monitor.fluent.DiagnosticSettingsCategorysClient.getAsync(java.lang.String,java.lang.String)
+  fullName: com.azure.resourcemanager.monitor.fluent.DiagnosticSettingsCategorysClient.getAsync(String resourceUri, String name)
+  name: getAsync(String resourceUri, String name)
+  nameWithType: DiagnosticSettingsCategorysClient.getAsync(String resourceUri, String name)
+  summary: Gets the diagnostic settings category for the specified resource.
+  parameters:
+  - description: The identifier of the resource.
+    name: resourceUri
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  - description: The name of the diagnostic setting.
+    name: name
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  syntax: public Mono<DiagnosticSettingsCategoryResourceInner> getAsync(String resourceUri, String name)
+  returns:
+    description: the diagnostic settings category for the specified resource.
+    type: <xref href="reactor.core.publisher.Mono?alt=reactor.core.publisher.Mono&text=Mono" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.resourcemanager.monitor.fluent.inner.DiagnosticSettingsCategoryResourceInner?alt=com.azure.resourcemanager.monitor.fluent.inner.DiagnosticSettingsCategoryResourceInner&text=DiagnosticSettingsCategoryResourceInner" data-throw-if-not-resolved="False" />&gt;
+- uid: com.azure.resourcemanager.monitor.fluent.DiagnosticSettingsCategorysClient.getAsync(java.lang.String,java.lang.String,com.azure.core.util.Context)
+  fullName: com.azure.resourcemanager.monitor.fluent.DiagnosticSettingsCategorysClient.getAsync(String resourceUri, String name, Context context)
+  name: getAsync(String resourceUri, String name, Context context)
+  nameWithType: DiagnosticSettingsCategorysClient.getAsync(String resourceUri, String name, Context context)
+  summary: Gets the diagnostic settings category for the specified resource.
+  parameters:
+  - description: The identifier of the resource.
+    name: resourceUri
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  - description: The name of the diagnostic setting.
+    name: name
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  - description: The context to associate with this operation.
+    name: context
+    type: <xref href="com.azure.core.util.Context?alt=com.azure.core.util.Context&text=Context" data-throw-if-not-resolved="False" />
+  syntax: public Mono<DiagnosticSettingsCategoryResourceInner> getAsync(String resourceUri, String name, Context context)
+  returns:
+    description: the diagnostic settings category for the specified resource.
+    type: <xref href="reactor.core.publisher.Mono?alt=reactor.core.publisher.Mono&text=Mono" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.resourcemanager.monitor.fluent.inner.DiagnosticSettingsCategoryResourceInner?alt=com.azure.resourcemanager.monitor.fluent.inner.DiagnosticSettingsCategoryResourceInner&text=DiagnosticSettingsCategoryResourceInner" data-throw-if-not-resolved="False" />&gt;
+type: method
+metadata: {}
+package: com.azure.resourcemanager.monitor.fluent
+artifact: com.azure.resourcemanager:azure-resourcemanager-monitor:2.0.0-beta.2

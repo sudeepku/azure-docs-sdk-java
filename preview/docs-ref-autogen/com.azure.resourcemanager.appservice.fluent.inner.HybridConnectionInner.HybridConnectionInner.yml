@@ -1,0 +1,15 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.appservice.fluent.inner.HybridConnectionInner.HybridConnectionInner*
+fullName: com.azure.resourcemanager.appservice.fluent.inner.HybridConnectionInner.HybridConnectionInner
+name: HybridConnectionInner
+nameWithType: HybridConnectionInner.HybridConnectionInner
+members:
+- uid: com.azure.resourcemanager.appservice.fluent.inner.HybridConnectionInner.HybridConnectionInner()
+  fullName: com.azure.resourcemanager.appservice.fluent.inner.HybridConnectionInner.HybridConnectionInner()
+  name: HybridConnectionInner()
+  nameWithType: HybridConnectionInner.HybridConnectionInner()
+  syntax: public HybridConnectionInner()
+type: constructor
+metadata: {}
+package: com.azure.resourcemanager.appservice.fluent.inner
+artifact: com.azure.resourcemanager:azure-resourcemanager-appservice:2.0.0-beta.2

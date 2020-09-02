@@ -1,0 +1,19 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.monitor.fluent.inner.EventDataInner.resourceType*
+fullName: com.azure.resourcemanager.monitor.fluent.inner.EventDataInner.resourceType
+name: resourceType
+nameWithType: EventDataInner.resourceType
+members:
+- uid: com.azure.resourcemanager.monitor.fluent.inner.EventDataInner.resourceType()
+  fullName: com.azure.resourcemanager.monitor.fluent.inner.EventDataInner.resourceType()
+  name: resourceType()
+  nameWithType: EventDataInner.resourceType()
+  summary: 'Get the resourceType property: the resource type.'
+  syntax: public LocalizableStringInner resourceType()
+  returns:
+    description: the resourceType value.
+    type: <xref href="com.azure.resourcemanager.monitor.fluent.inner.LocalizableStringInner?alt=com.azure.resourcemanager.monitor.fluent.inner.LocalizableStringInner&text=LocalizableStringInner" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.resourcemanager.monitor.fluent.inner
+artifact: com.azure.resourcemanager:azure-resourcemanager-monitor:2.0.0-beta.2

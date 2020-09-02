@@ -1,0 +1,36 @@
+### YamlMime:JavaMember
+uid: com.azure.messaging.servicebus.ServiceBusManagementAsyncClient.createTopic*
+fullName: com.azure.messaging.servicebus.ServiceBusManagementAsyncClient.createTopic
+name: createTopic
+nameWithType: ServiceBusManagementAsyncClient.createTopic
+members:
+- uid: com.azure.messaging.servicebus.ServiceBusManagementAsyncClient.createTopic(com.azure.messaging.servicebus.models.CreateTopicOptions)
+  fullName: com.azure.messaging.servicebus.ServiceBusManagementAsyncClient.createTopic(CreateTopicOptions topicOptions)
+  name: createTopic(CreateTopicOptions topicOptions)
+  nameWithType: ServiceBusManagementAsyncClient.createTopic(CreateTopicOptions topicOptions)
+  summary: Creates a topic with the <xref uid="CreateTopicOptions" data-throw-if-not-resolved="false">CreateTopicOptions</xref>.
+  parameters:
+  - description: Information about the topic to create.
+    name: topicOptions
+    type: <xref href="com.azure.messaging.servicebus.models.CreateTopicOptions?alt=com.azure.messaging.servicebus.models.CreateTopicOptions&text=CreateTopicOptions" data-throw-if-not-resolved="False" />
+  syntax: public Mono<TopicProperties> createTopic(CreateTopicOptions topicOptions)
+  returns:
+    description: A Mono that completes with information about the created topic.
+    type: <xref href="reactor.core.publisher.Mono?alt=reactor.core.publisher.Mono&text=Mono" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.messaging.servicebus.models.TopicProperties?alt=com.azure.messaging.servicebus.models.TopicProperties&text=TopicProperties" data-throw-if-not-resolved="False" />&gt;
+- uid: com.azure.messaging.servicebus.ServiceBusManagementAsyncClient.createTopic(java.lang.String)
+  fullName: com.azure.messaging.servicebus.ServiceBusManagementAsyncClient.createTopic(String topicName)
+  name: createTopic(String topicName)
+  nameWithType: ServiceBusManagementAsyncClient.createTopic(String topicName)
+  summary: Creates a topic with the given name.
+  parameters:
+  - description: Name of the topic to create.
+    name: topicName
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  syntax: public Mono<TopicProperties> createTopic(String topicName)
+  returns:
+    description: A Mono that completes with information about the created topic.
+    type: <xref href="reactor.core.publisher.Mono?alt=reactor.core.publisher.Mono&text=Mono" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.messaging.servicebus.models.TopicProperties?alt=com.azure.messaging.servicebus.models.TopicProperties&text=TopicProperties" data-throw-if-not-resolved="False" />&gt;
+type: method
+metadata: {}
+package: com.azure.messaging.servicebus
+artifact: com.azure:azure-messaging-servicebus:7.0.0-beta.5

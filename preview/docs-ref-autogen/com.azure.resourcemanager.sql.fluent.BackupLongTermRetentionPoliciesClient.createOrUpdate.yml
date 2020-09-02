@@ -1,0 +1,61 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.sql.fluent.BackupLongTermRetentionPoliciesClient.createOrUpdate*
+fullName: com.azure.resourcemanager.sql.fluent.BackupLongTermRetentionPoliciesClient.createOrUpdate
+name: createOrUpdate
+nameWithType: BackupLongTermRetentionPoliciesClient.createOrUpdate
+members:
+- uid: com.azure.resourcemanager.sql.fluent.BackupLongTermRetentionPoliciesClient.createOrUpdate(java.lang.String,java.lang.String,java.lang.String,com.azure.resourcemanager.sql.fluent.inner.BackupLongTermRetentionPolicyInner)
+  fullName: com.azure.resourcemanager.sql.fluent.BackupLongTermRetentionPoliciesClient.createOrUpdate(String resourceGroupName, String serverName, String databaseName, BackupLongTermRetentionPolicyInner parameters)
+  name: createOrUpdate(String resourceGroupName, String serverName, String databaseName, BackupLongTermRetentionPolicyInner parameters)
+  nameWithType: BackupLongTermRetentionPoliciesClient.createOrUpdate(String resourceGroupName, String serverName, String databaseName, BackupLongTermRetentionPolicyInner parameters)
+  summary: Sets a database's long term retention policy.
+  parameters:
+  - description: |-
+      The name of the resource group that contains the resource. You can obtain this value
+           from the Azure Resource Manager API or the portal.
+    name: resourceGroupName
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  - description: The name of the server.
+    name: serverName
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  - description: The name of the database.
+    name: databaseName
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  - description: A long term retention policy.
+    name: parameters
+    type: <xref href="com.azure.resourcemanager.sql.fluent.inner.BackupLongTermRetentionPolicyInner?alt=com.azure.resourcemanager.sql.fluent.inner.BackupLongTermRetentionPolicyInner&text=BackupLongTermRetentionPolicyInner" data-throw-if-not-resolved="False" />
+  syntax: public BackupLongTermRetentionPolicyInner createOrUpdate(String resourceGroupName, String serverName, String databaseName, BackupLongTermRetentionPolicyInner parameters)
+  returns:
+    description: a long term retention policy.
+    type: <xref href="com.azure.resourcemanager.sql.fluent.inner.BackupLongTermRetentionPolicyInner?alt=com.azure.resourcemanager.sql.fluent.inner.BackupLongTermRetentionPolicyInner&text=BackupLongTermRetentionPolicyInner" data-throw-if-not-resolved="False" />
+- uid: com.azure.resourcemanager.sql.fluent.BackupLongTermRetentionPoliciesClient.createOrUpdate(java.lang.String,java.lang.String,java.lang.String,com.azure.resourcemanager.sql.fluent.inner.BackupLongTermRetentionPolicyInner,com.azure.core.util.Context)
+  fullName: com.azure.resourcemanager.sql.fluent.BackupLongTermRetentionPoliciesClient.createOrUpdate(String resourceGroupName, String serverName, String databaseName, BackupLongTermRetentionPolicyInner parameters, Context context)
+  name: createOrUpdate(String resourceGroupName, String serverName, String databaseName, BackupLongTermRetentionPolicyInner parameters, Context context)
+  nameWithType: BackupLongTermRetentionPoliciesClient.createOrUpdate(String resourceGroupName, String serverName, String databaseName, BackupLongTermRetentionPolicyInner parameters, Context context)
+  summary: Sets a database's long term retention policy.
+  parameters:
+  - description: |-
+      The name of the resource group that contains the resource. You can obtain this value
+           from the Azure Resource Manager API or the portal.
+    name: resourceGroupName
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  - description: The name of the server.
+    name: serverName
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  - description: The name of the database.
+    name: databaseName
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  - description: A long term retention policy.
+    name: parameters
+    type: <xref href="com.azure.resourcemanager.sql.fluent.inner.BackupLongTermRetentionPolicyInner?alt=com.azure.resourcemanager.sql.fluent.inner.BackupLongTermRetentionPolicyInner&text=BackupLongTermRetentionPolicyInner" data-throw-if-not-resolved="False" />
+  - description: The context to associate with this operation.
+    name: context
+    type: <xref href="com.azure.core.util.Context?alt=com.azure.core.util.Context&text=Context" data-throw-if-not-resolved="False" />
+  syntax: public BackupLongTermRetentionPolicyInner createOrUpdate(String resourceGroupName, String serverName, String databaseName, BackupLongTermRetentionPolicyInner parameters, Context context)
+  returns:
+    description: a long term retention policy.
+    type: <xref href="com.azure.resourcemanager.sql.fluent.inner.BackupLongTermRetentionPolicyInner?alt=com.azure.resourcemanager.sql.fluent.inner.BackupLongTermRetentionPolicyInner&text=BackupLongTermRetentionPolicyInner" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.resourcemanager.sql.fluent
+artifact: com.azure.resourcemanager:azure-resourcemanager-sql:2.0.0-beta.2

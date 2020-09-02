@@ -1,0 +1,16 @@
+### YamlMime:JavaMember
+uid: com.azure.search.documents.indexes.implementation.models.OcrSkillLanguage.HU
+fullName: com.azure.search.documents.indexes.implementation.models.OcrSkillLanguage.HU
+name: HU
+nameWithType: OcrSkillLanguage.HU
+members:
+- uid: com.azure.search.documents.indexes.implementation.models.OcrSkillLanguage.HU
+  fullName: com.azure.search.documents.indexes.implementation.models.OcrSkillLanguage.HU
+  name: HU
+  nameWithType: OcrSkillLanguage.HU
+  summary: Static value hu for OcrSkillLanguage.
+  syntax: public static final OcrSkillLanguage HU
+type: field
+metadata: {}
+package: com.azure.search.documents.indexes.implementation.models
+artifact: com.azure:azure-search-documents:11.0.0

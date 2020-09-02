@@ -1,0 +1,16 @@
+### YamlMime:JavaMember
+uid: com.azure.search.documents.indexes.implementation.models.KeyPhraseExtractionSkillLanguage.FR
+fullName: com.azure.search.documents.indexes.implementation.models.KeyPhraseExtractionSkillLanguage.FR
+name: FR
+nameWithType: KeyPhraseExtractionSkillLanguage.FR
+members:
+- uid: com.azure.search.documents.indexes.implementation.models.KeyPhraseExtractionSkillLanguage.FR
+  fullName: com.azure.search.documents.indexes.implementation.models.KeyPhraseExtractionSkillLanguage.FR
+  name: FR
+  nameWithType: KeyPhraseExtractionSkillLanguage.FR
+  summary: Static value fr for KeyPhraseExtractionSkillLanguage.
+  syntax: public static final KeyPhraseExtractionSkillLanguage FR
+type: field
+metadata: {}
+package: com.azure.search.documents.indexes.implementation.models
+artifact: com.azure:azure-search-documents:11.0.0

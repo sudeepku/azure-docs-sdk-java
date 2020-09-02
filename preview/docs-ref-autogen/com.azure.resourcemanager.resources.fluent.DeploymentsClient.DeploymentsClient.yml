@@ -1,0 +1,20 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.resources.fluent.DeploymentsClient.DeploymentsClient*
+fullName: com.azure.resourcemanager.resources.fluent.DeploymentsClient.DeploymentsClient
+name: DeploymentsClient
+nameWithType: DeploymentsClient.DeploymentsClient
+members:
+- uid: com.azure.resourcemanager.resources.fluent.DeploymentsClient.DeploymentsClient(com.azure.resourcemanager.resources.ResourceManagementClient)
+  fullName: com.azure.resourcemanager.resources.fluent.DeploymentsClient.DeploymentsClient(ResourceManagementClient client)
+  name: DeploymentsClient(ResourceManagementClient client)
+  nameWithType: DeploymentsClient.DeploymentsClient(ResourceManagementClient client)
+  summary: Initializes an instance of DeploymentsClient.
+  parameters:
+  - description: the instance of the service client containing this operation class.
+    name: client
+    type: <xref href="com.azure.resourcemanager.resources.ResourceManagementClient?alt=com.azure.resourcemanager.resources.ResourceManagementClient&text=ResourceManagementClient" data-throw-if-not-resolved="False" />
+  syntax: public DeploymentsClient(ResourceManagementClient client)
+type: constructor
+metadata: {}
+package: com.azure.resourcemanager.resources.fluent
+artifact: com.azure.resourcemanager:azure-resourcemanager-resources:2.0.0-beta.2

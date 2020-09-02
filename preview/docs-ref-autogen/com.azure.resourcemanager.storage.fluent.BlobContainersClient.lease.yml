@@ -1,0 +1,103 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.storage.fluent.BlobContainersClient.lease*
+fullName: com.azure.resourcemanager.storage.fluent.BlobContainersClient.lease
+name: lease
+nameWithType: BlobContainersClient.lease
+members:
+- uid: com.azure.resourcemanager.storage.fluent.BlobContainersClient.lease(java.lang.String,java.lang.String,java.lang.String)
+  fullName: com.azure.resourcemanager.storage.fluent.BlobContainersClient.lease(String resourceGroupName, String accountName, String containerName)
+  name: lease(String resourceGroupName, String accountName, String containerName)
+  nameWithType: BlobContainersClient.lease(String resourceGroupName, String accountName, String containerName)
+  summary: |-
+    The Lease Container operation establishes and manages a lock on a container for delete operations. The lock
+     duration can be 15 to 60 seconds, or can be infinite.
+  parameters:
+  - description: |-
+      The name of the resource group within the user's subscription. The name is case
+           insensitive.
+    name: resourceGroupName
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  - description: |-
+      The name of the storage account within the specified resource group. Storage account names
+           must be between 3 and 24 characters in length and use numbers and lower-case letters only.
+    name: accountName
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  - description: |-
+      The name of the blob container within the specified storage account. Blob container names
+           must be between 3 and 63 characters in length and use numbers, lower-case letters and dash (-) only. Every
+           dash (-) character must be immediately preceded and followed by a letter or number.
+    name: containerName
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  syntax: public LeaseContainerResponseInner lease(String resourceGroupName, String accountName, String containerName)
+  returns:
+    description: lease Container response schema.
+    type: <xref href="com.azure.resourcemanager.storage.fluent.inner.LeaseContainerResponseInner?alt=com.azure.resourcemanager.storage.fluent.inner.LeaseContainerResponseInner&text=LeaseContainerResponseInner" data-throw-if-not-resolved="False" />
+- uid: com.azure.resourcemanager.storage.fluent.BlobContainersClient.lease(java.lang.String,java.lang.String,java.lang.String,com.azure.resourcemanager.storage.models.LeaseContainerRequest)
+  fullName: com.azure.resourcemanager.storage.fluent.BlobContainersClient.lease(String resourceGroupName, String accountName, String containerName, LeaseContainerRequest parameters)
+  name: lease(String resourceGroupName, String accountName, String containerName, LeaseContainerRequest parameters)
+  nameWithType: BlobContainersClient.lease(String resourceGroupName, String accountName, String containerName, LeaseContainerRequest parameters)
+  summary: |-
+    The Lease Container operation establishes and manages a lock on a container for delete operations. The lock
+     duration can be 15 to 60 seconds, or can be infinite.
+  parameters:
+  - description: |-
+      The name of the resource group within the user's subscription. The name is case
+           insensitive.
+    name: resourceGroupName
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  - description: |-
+      The name of the storage account within the specified resource group. Storage account names
+           must be between 3 and 24 characters in length and use numbers and lower-case letters only.
+    name: accountName
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  - description: |-
+      The name of the blob container within the specified storage account. Blob container names
+           must be between 3 and 63 characters in length and use numbers, lower-case letters and dash (-) only. Every
+           dash (-) character must be immediately preceded and followed by a letter or number.
+    name: containerName
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  - description: Lease Container request schema.
+    name: parameters
+    type: <xref href="com.azure.resourcemanager.storage.models.LeaseContainerRequest?alt=com.azure.resourcemanager.storage.models.LeaseContainerRequest&text=LeaseContainerRequest" data-throw-if-not-resolved="False" />
+  syntax: public LeaseContainerResponseInner lease(String resourceGroupName, String accountName, String containerName, LeaseContainerRequest parameters)
+  returns:
+    description: lease Container response schema.
+    type: <xref href="com.azure.resourcemanager.storage.fluent.inner.LeaseContainerResponseInner?alt=com.azure.resourcemanager.storage.fluent.inner.LeaseContainerResponseInner&text=LeaseContainerResponseInner" data-throw-if-not-resolved="False" />
+- uid: com.azure.resourcemanager.storage.fluent.BlobContainersClient.lease(java.lang.String,java.lang.String,java.lang.String,com.azure.resourcemanager.storage.models.LeaseContainerRequest,com.azure.core.util.Context)
+  fullName: com.azure.resourcemanager.storage.fluent.BlobContainersClient.lease(String resourceGroupName, String accountName, String containerName, LeaseContainerRequest parameters, Context context)
+  name: lease(String resourceGroupName, String accountName, String containerName, LeaseContainerRequest parameters, Context context)
+  nameWithType: BlobContainersClient.lease(String resourceGroupName, String accountName, String containerName, LeaseContainerRequest parameters, Context context)
+  summary: |-
+    The Lease Container operation establishes and manages a lock on a container for delete operations. The lock
+     duration can be 15 to 60 seconds, or can be infinite.
+  parameters:
+  - description: |-
+      The name of the resource group within the user's subscription. The name is case
+           insensitive.
+    name: resourceGroupName
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  - description: |-
+      The name of the storage account within the specified resource group. Storage account names
+           must be between 3 and 24 characters in length and use numbers and lower-case letters only.
+    name: accountName
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  - description: |-
+      The name of the blob container within the specified storage account. Blob container names
+           must be between 3 and 63 characters in length and use numbers, lower-case letters and dash (-) only. Every
+           dash (-) character must be immediately preceded and followed by a letter or number.
+    name: containerName
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  - description: Lease Container request schema.
+    name: parameters
+    type: <xref href="com.azure.resourcemanager.storage.models.LeaseContainerRequest?alt=com.azure.resourcemanager.storage.models.LeaseContainerRequest&text=LeaseContainerRequest" data-throw-if-not-resolved="False" />
+  - description: The context to associate with this operation.
+    name: context
+    type: <xref href="com.azure.core.util.Context?alt=com.azure.core.util.Context&text=Context" data-throw-if-not-resolved="False" />
+  syntax: public LeaseContainerResponseInner lease(String resourceGroupName, String accountName, String containerName, LeaseContainerRequest parameters, Context context)
+  returns:
+    description: lease Container response schema.
+    type: <xref href="com.azure.resourcemanager.storage.fluent.inner.LeaseContainerResponseInner?alt=com.azure.resourcemanager.storage.fluent.inner.LeaseContainerResponseInner&text=LeaseContainerResponseInner" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.resourcemanager.storage.fluent
+artifact: com.azure.resourcemanager:azure-resourcemanager-storage:2.0.0-beta.2

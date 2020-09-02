@@ -1,0 +1,51 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.network.fluent.ExpressRouteCrossConnectionsClient.beginCreateOrUpdateWithoutPollingWithResponseAsync*
+fullName: com.azure.resourcemanager.network.fluent.ExpressRouteCrossConnectionsClient.beginCreateOrUpdateWithoutPollingWithResponseAsync
+name: beginCreateOrUpdateWithoutPollingWithResponseAsync
+nameWithType: ExpressRouteCrossConnectionsClient.beginCreateOrUpdateWithoutPollingWithResponseAsync
+members:
+- uid: com.azure.resourcemanager.network.fluent.ExpressRouteCrossConnectionsClient.beginCreateOrUpdateWithoutPollingWithResponseAsync(java.lang.String,java.lang.String,com.azure.resourcemanager.network.fluent.inner.ExpressRouteCrossConnectionInner)
+  fullName: com.azure.resourcemanager.network.fluent.ExpressRouteCrossConnectionsClient.beginCreateOrUpdateWithoutPollingWithResponseAsync(String resourceGroupName, String crossConnectionName, ExpressRouteCrossConnectionInner parameters)
+  name: beginCreateOrUpdateWithoutPollingWithResponseAsync(String resourceGroupName, String crossConnectionName, ExpressRouteCrossConnectionInner parameters)
+  nameWithType: ExpressRouteCrossConnectionsClient.beginCreateOrUpdateWithoutPollingWithResponseAsync(String resourceGroupName, String crossConnectionName, ExpressRouteCrossConnectionInner parameters)
+  summary: Update the specified ExpressRouteCrossConnection.
+  parameters:
+  - description: The name of the resource group.
+    name: resourceGroupName
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  - description: The name of the ExpressRouteCrossConnection.
+    name: crossConnectionName
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  - description: ExpressRouteCrossConnection resource.
+    name: parameters
+    type: <xref href="com.azure.resourcemanager.network.fluent.inner.ExpressRouteCrossConnectionInner?alt=com.azure.resourcemanager.network.fluent.inner.ExpressRouteCrossConnectionInner&text=ExpressRouteCrossConnectionInner" data-throw-if-not-resolved="False" />
+  syntax: public Mono<Response<ExpressRouteCrossConnectionInner>> beginCreateOrUpdateWithoutPollingWithResponseAsync(String resourceGroupName, String crossConnectionName, ExpressRouteCrossConnectionInner parameters)
+  returns:
+    description: expressRouteCrossConnection resource.
+    type: <xref href="reactor.core.publisher.Mono?alt=reactor.core.publisher.Mono&text=Mono" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.core.http.rest.Response?alt=com.azure.core.http.rest.Response&text=Response" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.resourcemanager.network.fluent.inner.ExpressRouteCrossConnectionInner?alt=com.azure.resourcemanager.network.fluent.inner.ExpressRouteCrossConnectionInner&text=ExpressRouteCrossConnectionInner" data-throw-if-not-resolved="False" />&gt;&gt;
+- uid: com.azure.resourcemanager.network.fluent.ExpressRouteCrossConnectionsClient.beginCreateOrUpdateWithoutPollingWithResponseAsync(java.lang.String,java.lang.String,com.azure.resourcemanager.network.fluent.inner.ExpressRouteCrossConnectionInner,com.azure.core.util.Context)
+  fullName: com.azure.resourcemanager.network.fluent.ExpressRouteCrossConnectionsClient.beginCreateOrUpdateWithoutPollingWithResponseAsync(String resourceGroupName, String crossConnectionName, ExpressRouteCrossConnectionInner parameters, Context context)
+  name: beginCreateOrUpdateWithoutPollingWithResponseAsync(String resourceGroupName, String crossConnectionName, ExpressRouteCrossConnectionInner parameters, Context context)
+  nameWithType: ExpressRouteCrossConnectionsClient.beginCreateOrUpdateWithoutPollingWithResponseAsync(String resourceGroupName, String crossConnectionName, ExpressRouteCrossConnectionInner parameters, Context context)
+  summary: Update the specified ExpressRouteCrossConnection.
+  parameters:
+  - description: The name of the resource group.
+    name: resourceGroupName
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  - description: The name of the ExpressRouteCrossConnection.
+    name: crossConnectionName
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  - description: ExpressRouteCrossConnection resource.
+    name: parameters
+    type: <xref href="com.azure.resourcemanager.network.fluent.inner.ExpressRouteCrossConnectionInner?alt=com.azure.resourcemanager.network.fluent.inner.ExpressRouteCrossConnectionInner&text=ExpressRouteCrossConnectionInner" data-throw-if-not-resolved="False" />
+  - description: The context to associate with this operation.
+    name: context
+    type: <xref href="com.azure.core.util.Context?alt=com.azure.core.util.Context&text=Context" data-throw-if-not-resolved="False" />
+  syntax: public Mono<Response<ExpressRouteCrossConnectionInner>> beginCreateOrUpdateWithoutPollingWithResponseAsync(String resourceGroupName, String crossConnectionName, ExpressRouteCrossConnectionInner parameters, Context context)
+  returns:
+    description: expressRouteCrossConnection resource.
+    type: <xref href="reactor.core.publisher.Mono?alt=reactor.core.publisher.Mono&text=Mono" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.core.http.rest.Response?alt=com.azure.core.http.rest.Response&text=Response" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.resourcemanager.network.fluent.inner.ExpressRouteCrossConnectionInner?alt=com.azure.resourcemanager.network.fluent.inner.ExpressRouteCrossConnectionInner&text=ExpressRouteCrossConnectionInner" data-throw-if-not-resolved="False" />&gt;&gt;
+type: method
+metadata: {}
+package: com.azure.resourcemanager.network.fluent
+artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.0.0-beta.2

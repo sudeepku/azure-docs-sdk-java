@@ -1,0 +1,21 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.appservice.models.SnapshotRestoreRequest.overwrite*
+fullName: com.azure.resourcemanager.appservice.models.SnapshotRestoreRequest.overwrite
+name: overwrite
+nameWithType: SnapshotRestoreRequest.overwrite
+members:
+- uid: com.azure.resourcemanager.appservice.models.SnapshotRestoreRequest.overwrite()
+  fullName: com.azure.resourcemanager.appservice.models.SnapshotRestoreRequest.overwrite()
+  name: overwrite()
+  nameWithType: SnapshotRestoreRequest.overwrite()
+  summary: |-
+    Get the overwrite property: If &lt;code&gt;true&lt;/code&gt; the restore operation can overwrite source app;
+     otherwise, &lt;code&gt;false&lt;/code&gt;.
+  syntax: public Boolean overwrite()
+  returns:
+    description: the overwrite value.
+    type: <xref href="java.lang.Boolean?alt=java.lang.Boolean&text=Boolean" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.resourcemanager.appservice.models
+artifact: com.azure.resourcemanager:azure-resourcemanager-appservice:2.0.0-beta.2

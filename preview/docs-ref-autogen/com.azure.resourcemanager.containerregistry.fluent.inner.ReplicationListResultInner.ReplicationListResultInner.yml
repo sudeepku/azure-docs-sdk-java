@@ -1,0 +1,15 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.containerregistry.fluent.inner.ReplicationListResultInner.ReplicationListResultInner*
+fullName: com.azure.resourcemanager.containerregistry.fluent.inner.ReplicationListResultInner.ReplicationListResultInner
+name: ReplicationListResultInner
+nameWithType: ReplicationListResultInner.ReplicationListResultInner
+members:
+- uid: com.azure.resourcemanager.containerregistry.fluent.inner.ReplicationListResultInner.ReplicationListResultInner()
+  fullName: com.azure.resourcemanager.containerregistry.fluent.inner.ReplicationListResultInner.ReplicationListResultInner()
+  name: ReplicationListResultInner()
+  nameWithType: ReplicationListResultInner.ReplicationListResultInner()
+  syntax: public ReplicationListResultInner()
+type: constructor
+metadata: {}
+package: com.azure.resourcemanager.containerregistry.fluent.inner
+artifact: com.azure.resourcemanager:azure-resourcemanager-containerregistry:2.0.0-beta.2

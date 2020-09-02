@@ -1,0 +1,39 @@
+### YamlMime:JavaMember
+uid: com.azure.core.implementation.serializer.jsonwrapper.jacksonwrapper.JacksonDeserializer.readString*
+fullName: com.azure.core.implementation.serializer.jsonwrapper.jacksonwrapper.JacksonDeserializer.<T>readString
+name: <T>readString
+nameWithType: JacksonDeserializer.<T>readString
+members:
+- uid: com.azure.core.implementation.serializer.jsonwrapper.jacksonwrapper.JacksonDeserializer.<T>readString(java.lang.String,com.azure.core.implementation.serializer.jsonwrapper.api.Type<T>)
+  fullName: com.azure.core.implementation.serializer.jsonwrapper.jacksonwrapper.JacksonDeserializer.<T>readString(String json, Type<T> type)
+  name: <T>readString(String json, Type<T> type)
+  nameWithType: JacksonDeserializer.<T>readString(String json, Type<T> type)
+  summary: Deserialize string into object
+  parameters:
+  - name: json
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  - name: type
+    type: <xref href="com.azure.core.implementation.serializer.jsonwrapper.api.Type?alt=com.azure.core.implementation.serializer.jsonwrapper.api.Type&text=Type" data-throw-if-not-resolved="False" />&lt;<xref href="T?alt=T&text=T" data-throw-if-not-resolved="False" />&gt;
+  syntax: public T <T>readString(String json, Type<T> type)
+  returns:
+    type: <xref href="T?alt=T&text=T" data-throw-if-not-resolved="False" />
+- uid: com.azure.core.implementation.serializer.jsonwrapper.jacksonwrapper.JacksonDeserializer.<T>readString(java.lang.String,java.lang.Class<? extends T>)
+  fullName: com.azure.core.implementation.serializer.jsonwrapper.jacksonwrapper.JacksonDeserializer.<T>readString(String json, Class<? extends T> cls)
+  name: <T>readString(String json, Class<? extends T> cls)
+  nameWithType: JacksonDeserializer.<T>readString(String json, Class<? extends T> cls)
+  summary: read json string convert to class type
+  parameters:
+  - description: input string
+    name: json
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  - description: class type
+    name: cls
+    type: <xref href="java.lang.Class?alt=java.lang.Class&text=Class" data-throw-if-not-resolved="False" />&lt;<xref href="? extends T?alt=? extends T&text=? extends T" data-throw-if-not-resolved="False" />&gt;
+  syntax: public T <T>readString(String json, Class<? extends T> cls)
+  returns:
+    description: object of type T
+    type: <xref href="T?alt=T&text=T" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.core.implementation.serializer.jsonwrapper.jacksonwrapper
+artifact: com.azure:azure-core:1.3.0-beta.1

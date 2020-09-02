@@ -1,0 +1,22 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.network.models.Subnet.getNetworkInterfaceIPConfigurations*
+fullName: com.azure.resourcemanager.network.models.Subnet.getNetworkInterfaceIPConfigurations
+name: getNetworkInterfaceIPConfigurations
+nameWithType: Subnet.getNetworkInterfaceIPConfigurations
+members:
+- uid: com.azure.resourcemanager.network.models.Subnet.getNetworkInterfaceIPConfigurations()
+  fullName: com.azure.resourcemanager.network.models.Subnet.getNetworkInterfaceIPConfigurations()
+  name: getNetworkInterfaceIPConfigurations()
+  nameWithType: Subnet.getNetworkInterfaceIPConfigurations()
+  syntax: public abstract Set<NicIpConfiguration> getNetworkInterfaceIPConfigurations()
+  returns:
+    description: |-
+      network interface IP configurations that are associated with this subnet
+           <p>Note that this call may result in multiple calls to Azure to fetch all the referenced interfaces each time
+           it is invoked.
+           <p>
+    type: <xref href="java.util.Set?alt=java.util.Set&text=Set" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.resourcemanager.network.models.NicIpConfiguration?alt=com.azure.resourcemanager.network.models.NicIpConfiguration&text=NicIpConfiguration" data-throw-if-not-resolved="False" />&gt;
+type: method
+metadata: {}
+package: com.azure.resourcemanager.network.models
+artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.0.0-beta.2

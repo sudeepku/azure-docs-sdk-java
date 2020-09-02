@@ -1,0 +1,23 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.appservice.fluent.inner.SiteConfigResourceInner.withDocumentRoot*
+fullName: com.azure.resourcemanager.appservice.fluent.inner.SiteConfigResourceInner.withDocumentRoot
+name: withDocumentRoot
+nameWithType: SiteConfigResourceInner.withDocumentRoot
+members:
+- uid: com.azure.resourcemanager.appservice.fluent.inner.SiteConfigResourceInner.withDocumentRoot(java.lang.String)
+  fullName: com.azure.resourcemanager.appservice.fluent.inner.SiteConfigResourceInner.withDocumentRoot(String documentRoot)
+  name: withDocumentRoot(String documentRoot)
+  nameWithType: SiteConfigResourceInner.withDocumentRoot(String documentRoot)
+  summary: 'Set the documentRoot property: Document root.'
+  parameters:
+  - description: the documentRoot value to set.
+    name: documentRoot
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  syntax: public SiteConfigResourceInner withDocumentRoot(String documentRoot)
+  returns:
+    description: the SiteConfigResourceInner object itself.
+    type: <xref href="com.azure.resourcemanager.appservice.fluent.inner.SiteConfigResourceInner?alt=com.azure.resourcemanager.appservice.fluent.inner.SiteConfigResourceInner&text=SiteConfigResourceInner" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.resourcemanager.appservice.fluent.inner
+artifact: com.azure.resourcemanager:azure-resourcemanager-appservice:2.0.0-beta.2

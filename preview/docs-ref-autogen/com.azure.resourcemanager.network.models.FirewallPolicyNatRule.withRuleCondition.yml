@@ -1,0 +1,23 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.network.models.FirewallPolicyNatRule.withRuleCondition*
+fullName: com.azure.resourcemanager.network.models.FirewallPolicyNatRule.withRuleCondition
+name: withRuleCondition
+nameWithType: FirewallPolicyNatRule.withRuleCondition
+members:
+- uid: com.azure.resourcemanager.network.models.FirewallPolicyNatRule.withRuleCondition(com.azure.resourcemanager.network.models.FirewallPolicyRuleCondition)
+  fullName: com.azure.resourcemanager.network.models.FirewallPolicyNatRule.withRuleCondition(FirewallPolicyRuleCondition ruleCondition)
+  name: withRuleCondition(FirewallPolicyRuleCondition ruleCondition)
+  nameWithType: FirewallPolicyNatRule.withRuleCondition(FirewallPolicyRuleCondition ruleCondition)
+  summary: 'Set the ruleCondition property: The match conditions for incoming traffic.'
+  parameters:
+  - description: the ruleCondition value to set.
+    name: ruleCondition
+    type: <xref href="com.azure.resourcemanager.network.models.FirewallPolicyRuleCondition?alt=com.azure.resourcemanager.network.models.FirewallPolicyRuleCondition&text=FirewallPolicyRuleCondition" data-throw-if-not-resolved="False" />
+  syntax: public FirewallPolicyNatRule withRuleCondition(FirewallPolicyRuleCondition ruleCondition)
+  returns:
+    description: the FirewallPolicyNatRule object itself.
+    type: <xref href="com.azure.resourcemanager.network.models.FirewallPolicyNatRule?alt=com.azure.resourcemanager.network.models.FirewallPolicyNatRule&text=FirewallPolicyNatRule" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.resourcemanager.network.models
+artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.0.0-beta.2

@@ -1,0 +1,30 @@
+### YamlMime:JavaMember
+uid: com.azure.storage.file.datalake.DataLakeFileSystemAsyncClient.create*
+fullName: com.azure.storage.file.datalake.DataLakeFileSystemAsyncClient.create
+name: create
+nameWithType: DataLakeFileSystemAsyncClient.create
+members:
+- uid: com.azure.storage.file.datalake.DataLakeFileSystemAsyncClient.create()
+  fullName: com.azure.storage.file.datalake.DataLakeFileSystemAsyncClient.create()
+  name: create()
+  nameWithType: DataLakeFileSystemAsyncClient.create()
+  summary: |-
+    Creates a new file system within a storage account. If a file system with the same name already exists, the
+     operation fails. For more information, see the
+     <a href="https://docs.microsoft.com/rest/api/storageservices/create-container">Azure Docs</a>.
+
+     <p><strong>Code Samples</strong></p>
+
+     <pre>
+     client.create&#40;&#41;.subscribe&#40;
+         response -&gt; System.out.printf&#40;&quot;Create completed%n&quot;&#41;,
+         error -&gt; System.out.printf&#40;&quot;Error while creating file system %s%n&quot;, error&#41;&#41;;
+     </pre>
+  syntax: public Mono<Void> create()
+  returns:
+    description: A reactive response signalling completion.
+    type: <xref href="reactor.core.publisher.Mono?alt=reactor.core.publisher.Mono&text=Mono" data-throw-if-not-resolved="False" />&lt;<xref href="java.lang.Void?alt=java.lang.Void&text=Void" data-throw-if-not-resolved="False" />&gt;
+type: method
+metadata: {}
+package: com.azure.storage.file.datalake
+artifact: com.azure:azure-storage-file-datalake:12.2.0-beta.1

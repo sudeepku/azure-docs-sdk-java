@@ -1,0 +1,15 @@
+### YamlMime:JavaMember
+uid: com.azure.search.documents.implementation.converters.StopwordsListConverter.StopwordsListConverter*
+fullName: com.azure.search.documents.implementation.converters.StopwordsListConverter.StopwordsListConverter
+name: StopwordsListConverter
+nameWithType: StopwordsListConverter.StopwordsListConverter
+members:
+- uid: com.azure.search.documents.implementation.converters.StopwordsListConverter.StopwordsListConverter()
+  fullName: com.azure.search.documents.implementation.converters.StopwordsListConverter.StopwordsListConverter()
+  name: StopwordsListConverter()
+  nameWithType: StopwordsListConverter.StopwordsListConverter()
+  syntax: public StopwordsListConverter()
+type: constructor
+metadata: {}
+package: com.azure.search.documents.implementation.converters
+artifact: com.azure:azure-search-documents:11.0.0

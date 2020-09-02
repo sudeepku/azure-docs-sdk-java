@@ -1,0 +1,23 @@
+### YamlMime:JavaMember
+uid: com.azure.data.schemaregistry.client.implementation.models.SchemaGroup.setSchemaType*
+fullName: com.azure.data.schemaregistry.client.implementation.models.SchemaGroup.setSchemaType
+name: setSchemaType
+nameWithType: SchemaGroup.setSchemaType
+members:
+- uid: com.azure.data.schemaregistry.client.implementation.models.SchemaGroup.setSchemaType(java.lang.String)
+  fullName: com.azure.data.schemaregistry.client.implementation.models.SchemaGroup.setSchemaType(String schemaType)
+  name: setSchemaType(String schemaType)
+  nameWithType: SchemaGroup.setSchemaType(String schemaType)
+  summary: 'Set the schemaType property: The schemaType property.'
+  parameters:
+  - description: the schemaType value to set.
+    name: schemaType
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  syntax: public SchemaGroup setSchemaType(String schemaType)
+  returns:
+    description: the SchemaGroup object itself.
+    type: <xref href="com.azure.data.schemaregistry.client.implementation.models.SchemaGroup?alt=com.azure.data.schemaregistry.client.implementation.models.SchemaGroup&text=SchemaGroup" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.data.schemaregistry.client.implementation.models
+artifact: com.azure:azure-data-schemaregistry:1.0.0-beta.1

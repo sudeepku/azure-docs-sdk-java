@@ -1,0 +1,20 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.storage.fluent.SkusClient.SkusClient*
+fullName: com.azure.resourcemanager.storage.fluent.SkusClient.SkusClient
+name: SkusClient
+nameWithType: SkusClient.SkusClient
+members:
+- uid: com.azure.resourcemanager.storage.fluent.SkusClient.SkusClient(com.azure.resourcemanager.storage.StorageManagementClient)
+  fullName: com.azure.resourcemanager.storage.fluent.SkusClient.SkusClient(StorageManagementClient client)
+  name: SkusClient(StorageManagementClient client)
+  nameWithType: SkusClient.SkusClient(StorageManagementClient client)
+  summary: Initializes an instance of SkusClient.
+  parameters:
+  - description: the instance of the service client containing this operation class.
+    name: client
+    type: <xref href="com.azure.resourcemanager.storage.StorageManagementClient?alt=com.azure.resourcemanager.storage.StorageManagementClient&text=StorageManagementClient" data-throw-if-not-resolved="False" />
+  syntax: public SkusClient(StorageManagementClient client)
+type: constructor
+metadata: {}
+package: com.azure.resourcemanager.storage.fluent
+artifact: com.azure.resourcemanager:azure-resourcemanager-storage:2.0.0-beta.2

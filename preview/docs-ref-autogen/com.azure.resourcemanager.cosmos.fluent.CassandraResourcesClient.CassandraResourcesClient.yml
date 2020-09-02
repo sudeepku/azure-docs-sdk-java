@@ -1,0 +1,20 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.cosmos.fluent.CassandraResourcesClient.CassandraResourcesClient*
+fullName: com.azure.resourcemanager.cosmos.fluent.CassandraResourcesClient.CassandraResourcesClient
+name: CassandraResourcesClient
+nameWithType: CassandraResourcesClient.CassandraResourcesClient
+members:
+- uid: com.azure.resourcemanager.cosmos.fluent.CassandraResourcesClient.CassandraResourcesClient(com.azure.resourcemanager.cosmos.CosmosDBManagementClient)
+  fullName: com.azure.resourcemanager.cosmos.fluent.CassandraResourcesClient.CassandraResourcesClient(CosmosDBManagementClient client)
+  name: CassandraResourcesClient(CosmosDBManagementClient client)
+  nameWithType: CassandraResourcesClient.CassandraResourcesClient(CosmosDBManagementClient client)
+  summary: Initializes an instance of CassandraResourcesClient.
+  parameters:
+  - description: the instance of the service client containing this operation class.
+    name: client
+    type: <xref href="com.azure.resourcemanager.cosmos.CosmosDBManagementClient?alt=com.azure.resourcemanager.cosmos.CosmosDBManagementClient&text=CosmosDBManagementClient" data-throw-if-not-resolved="False" />
+  syntax: public CassandraResourcesClient(CosmosDBManagementClient client)
+type: constructor
+metadata: {}
+package: com.azure.resourcemanager.cosmos.fluent
+artifact: com.azure.resourcemanager:azure-resourcemanager-cosmos:2.0.0-beta.2

@@ -1,0 +1,27 @@
+### YamlMime:JavaMember
+uid: com.azure.storage.blob.models.BlobItem.setObjectReplicationPolicyId*
+fullName: com.azure.storage.blob.models.BlobItem.setObjectReplicationPolicyId
+name: setObjectReplicationPolicyId
+nameWithType: BlobItem.setObjectReplicationPolicyId
+members:
+- uid: com.azure.storage.blob.models.BlobItem.setObjectReplicationPolicyId(java.lang.String)
+  fullName: com.azure.storage.blob.models.BlobItem.setObjectReplicationPolicyId(String objectReplicationPolicyId)
+  name: setObjectReplicationPolicyId(String objectReplicationPolicyId)
+  nameWithType: BlobItem.setObjectReplicationPolicyId(String objectReplicationPolicyId)
+  summary: |-
+    Set the objectReplicationPolicyId property: The
+     objectReplicationPolicyId property.
+  parameters:
+  - description: |-
+      the objectReplicationPolicyId value to
+       set.
+    name: objectReplicationPolicyId
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  syntax: public BlobItem setObjectReplicationPolicyId(String objectReplicationPolicyId)
+  returns:
+    description: the BlobItem object itself.
+    type: <xref href="com.azure.storage.blob.models.BlobItem?alt=com.azure.storage.blob.models.BlobItem&text=BlobItem" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.storage.blob.models
+artifact: com.azure:azure-storage-blob:12.8.0-beta.1

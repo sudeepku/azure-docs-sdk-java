@@ -1,0 +1,20 @@
+### YamlMime:JavaMember
+uid: com.azure.cosmos.implementation.guava25.base.CharMatcher.javaLetter*
+fullName: com.azure.cosmos.implementation.guava25.base.CharMatcher.javaLetter
+name: javaLetter
+nameWithType: CharMatcher.javaLetter
+members:
+- uid: com.azure.cosmos.implementation.guava25.base.CharMatcher.javaLetter()
+  fullName: com.azure.cosmos.implementation.guava25.base.CharMatcher.javaLetter()
+  name: javaLetter()
+  nameWithType: CharMatcher.javaLetter()
+  summary: |-
+    Determines whether a character is a BMP letter according to <xref uid="Character#isLetter(char)" data-throw-if-not-resolved="false">Java's definition</xref>. If you only care to match letters of the Latin
+     alphabet, you can use <code>inRange('a', 'z').or(inRange('A', 'Z'))</code>.
+  syntax: public static CharMatcher javaLetter()
+  returns:
+    type: <xref href="com.azure.cosmos.implementation.guava25.base.CharMatcher?alt=com.azure.cosmos.implementation.guava25.base.CharMatcher&text=CharMatcher" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.cosmos.implementation.guava25.base
+artifact: com.azure:azure-cosmos:4.3.2-beta.2

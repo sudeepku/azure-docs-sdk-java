@@ -1,0 +1,39 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.network.fluent.PublicIpPrefixesClient.beginDeleteWithoutPolling*
+fullName: com.azure.resourcemanager.network.fluent.PublicIpPrefixesClient.beginDeleteWithoutPolling
+name: beginDeleteWithoutPolling
+nameWithType: PublicIpPrefixesClient.beginDeleteWithoutPolling
+members:
+- uid: com.azure.resourcemanager.network.fluent.PublicIpPrefixesClient.beginDeleteWithoutPolling(java.lang.String,java.lang.String)
+  fullName: com.azure.resourcemanager.network.fluent.PublicIpPrefixesClient.beginDeleteWithoutPolling(String resourceGroupName, String publicIpPrefixName)
+  name: beginDeleteWithoutPolling(String resourceGroupName, String publicIpPrefixName)
+  nameWithType: PublicIpPrefixesClient.beginDeleteWithoutPolling(String resourceGroupName, String publicIpPrefixName)
+  summary: Deletes the specified public IP prefix.
+  parameters:
+  - description: The name of the resource group.
+    name: resourceGroupName
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  - description: The name of the PublicIpPrefix.
+    name: publicIpPrefixName
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  syntax: public void beginDeleteWithoutPolling(String resourceGroupName, String publicIpPrefixName)
+- uid: com.azure.resourcemanager.network.fluent.PublicIpPrefixesClient.beginDeleteWithoutPolling(java.lang.String,java.lang.String,com.azure.core.util.Context)
+  fullName: com.azure.resourcemanager.network.fluent.PublicIpPrefixesClient.beginDeleteWithoutPolling(String resourceGroupName, String publicIpPrefixName, Context context)
+  name: beginDeleteWithoutPolling(String resourceGroupName, String publicIpPrefixName, Context context)
+  nameWithType: PublicIpPrefixesClient.beginDeleteWithoutPolling(String resourceGroupName, String publicIpPrefixName, Context context)
+  summary: Deletes the specified public IP prefix.
+  parameters:
+  - description: The name of the resource group.
+    name: resourceGroupName
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  - description: The name of the PublicIpPrefix.
+    name: publicIpPrefixName
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  - description: The context to associate with this operation.
+    name: context
+    type: <xref href="com.azure.core.util.Context?alt=com.azure.core.util.Context&text=Context" data-throw-if-not-resolved="False" />
+  syntax: public void beginDeleteWithoutPolling(String resourceGroupName, String publicIpPrefixName, Context context)
+type: method
+metadata: {}
+package: com.azure.resourcemanager.network.fluent
+artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.0.0-beta.2

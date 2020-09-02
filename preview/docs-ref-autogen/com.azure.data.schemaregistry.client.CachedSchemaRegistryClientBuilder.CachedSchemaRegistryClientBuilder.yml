@@ -1,0 +1,16 @@
+### YamlMime:JavaMember
+uid: com.azure.data.schemaregistry.client.CachedSchemaRegistryClientBuilder.CachedSchemaRegistryClientBuilder*
+fullName: com.azure.data.schemaregistry.client.CachedSchemaRegistryClientBuilder.CachedSchemaRegistryClientBuilder
+name: CachedSchemaRegistryClientBuilder
+nameWithType: CachedSchemaRegistryClientBuilder.CachedSchemaRegistryClientBuilder
+members:
+- uid: com.azure.data.schemaregistry.client.CachedSchemaRegistryClientBuilder.CachedSchemaRegistryClientBuilder()
+  fullName: com.azure.data.schemaregistry.client.CachedSchemaRegistryClientBuilder.CachedSchemaRegistryClientBuilder()
+  name: CachedSchemaRegistryClientBuilder()
+  nameWithType: CachedSchemaRegistryClientBuilder.CachedSchemaRegistryClientBuilder()
+  summary: Constructor for CachedSchemaRegistryClientBuilder.  Supplies client defaults.
+  syntax: public CachedSchemaRegistryClientBuilder()
+type: constructor
+metadata: {}
+package: com.azure.data.schemaregistry.client
+artifact: com.azure:azure-data-schemaregistry:1.0.0-beta.1

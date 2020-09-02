@@ -1,0 +1,23 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.authorization.fluent.inner.ApplicationListResultInner.withValue*
+fullName: com.azure.resourcemanager.authorization.fluent.inner.ApplicationListResultInner.withValue
+name: withValue
+nameWithType: ApplicationListResultInner.withValue
+members:
+- uid: com.azure.resourcemanager.authorization.fluent.inner.ApplicationListResultInner.withValue(java.util.List<com.azure.resourcemanager.authorization.fluent.inner.ApplicationInner>)
+  fullName: com.azure.resourcemanager.authorization.fluent.inner.ApplicationListResultInner.withValue(List<ApplicationInner> value)
+  name: withValue(List<ApplicationInner> value)
+  nameWithType: ApplicationListResultInner.withValue(List<ApplicationInner> value)
+  summary: 'Set the value property: A collection of applications.'
+  parameters:
+  - description: the value value to set.
+    name: value
+    type: <xref href="java.util.List?alt=java.util.List&text=List" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.resourcemanager.authorization.fluent.inner.ApplicationInner?alt=com.azure.resourcemanager.authorization.fluent.inner.ApplicationInner&text=ApplicationInner" data-throw-if-not-resolved="False" />&gt;
+  syntax: public ApplicationListResultInner withValue(List<ApplicationInner> value)
+  returns:
+    description: the ApplicationListResultInner object itself.
+    type: <xref href="com.azure.resourcemanager.authorization.fluent.inner.ApplicationListResultInner?alt=com.azure.resourcemanager.authorization.fluent.inner.ApplicationListResultInner&text=ApplicationListResultInner" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.resourcemanager.authorization.fluent.inner
+artifact: com.azure.resourcemanager:azure-resourcemanager-authorization:2.0.0-beta.2

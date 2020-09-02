@@ -1,0 +1,23 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.resources.models.GenericResourceFilter.withResourceType*
+fullName: com.azure.resourcemanager.resources.models.GenericResourceFilter.withResourceType
+name: withResourceType
+nameWithType: GenericResourceFilter.withResourceType
+members:
+- uid: com.azure.resourcemanager.resources.models.GenericResourceFilter.withResourceType(java.lang.String)
+  fullName: com.azure.resourcemanager.resources.models.GenericResourceFilter.withResourceType(String resourceType)
+  name: withResourceType(String resourceType)
+  nameWithType: GenericResourceFilter.withResourceType(String resourceType)
+  summary: 'Set the resourceType property: The resource type.'
+  parameters:
+  - description: the resourceType value to set.
+    name: resourceType
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  syntax: public GenericResourceFilter withResourceType(String resourceType)
+  returns:
+    description: the GenericResourceFilter object itself.
+    type: <xref href="com.azure.resourcemanager.resources.models.GenericResourceFilter?alt=com.azure.resourcemanager.resources.models.GenericResourceFilter&text=GenericResourceFilter" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.resourcemanager.resources.models
+artifact: com.azure.resourcemanager:azure-resourcemanager-resources:2.0.0-beta.2

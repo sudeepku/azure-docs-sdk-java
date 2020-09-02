@@ -1,0 +1,45 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.cosmos.fluent.NotebookWorkspacesClient.listConnectionInfo*
+fullName: com.azure.resourcemanager.cosmos.fluent.NotebookWorkspacesClient.listConnectionInfo
+name: listConnectionInfo
+nameWithType: NotebookWorkspacesClient.listConnectionInfo
+members:
+- uid: com.azure.resourcemanager.cosmos.fluent.NotebookWorkspacesClient.listConnectionInfo(java.lang.String,java.lang.String)
+  fullName: com.azure.resourcemanager.cosmos.fluent.NotebookWorkspacesClient.listConnectionInfo(String resourceGroupName, String accountName)
+  name: listConnectionInfo(String resourceGroupName, String accountName)
+  nameWithType: NotebookWorkspacesClient.listConnectionInfo(String resourceGroupName, String accountName)
+  summary: Retrieves the connection info for the notebook workspace.
+  parameters:
+  - description: The name of the resource group. The name is case insensitive.
+    name: resourceGroupName
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  - description: Cosmos DB database account name.
+    name: accountName
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  syntax: public NotebookWorkspaceConnectionInfoResultInner listConnectionInfo(String resourceGroupName, String accountName)
+  returns:
+    description: the connection info for the given notebook workspace.
+    type: <xref href="com.azure.resourcemanager.cosmos.fluent.inner.NotebookWorkspaceConnectionInfoResultInner?alt=com.azure.resourcemanager.cosmos.fluent.inner.NotebookWorkspaceConnectionInfoResultInner&text=NotebookWorkspaceConnectionInfoResultInner" data-throw-if-not-resolved="False" />
+- uid: com.azure.resourcemanager.cosmos.fluent.NotebookWorkspacesClient.listConnectionInfo(java.lang.String,java.lang.String,com.azure.core.util.Context)
+  fullName: com.azure.resourcemanager.cosmos.fluent.NotebookWorkspacesClient.listConnectionInfo(String resourceGroupName, String accountName, Context context)
+  name: listConnectionInfo(String resourceGroupName, String accountName, Context context)
+  nameWithType: NotebookWorkspacesClient.listConnectionInfo(String resourceGroupName, String accountName, Context context)
+  summary: Retrieves the connection info for the notebook workspace.
+  parameters:
+  - description: The name of the resource group. The name is case insensitive.
+    name: resourceGroupName
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  - description: Cosmos DB database account name.
+    name: accountName
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  - description: The context to associate with this operation.
+    name: context
+    type: <xref href="com.azure.core.util.Context?alt=com.azure.core.util.Context&text=Context" data-throw-if-not-resolved="False" />
+  syntax: public NotebookWorkspaceConnectionInfoResultInner listConnectionInfo(String resourceGroupName, String accountName, Context context)
+  returns:
+    description: the connection info for the given notebook workspace.
+    type: <xref href="com.azure.resourcemanager.cosmos.fluent.inner.NotebookWorkspaceConnectionInfoResultInner?alt=com.azure.resourcemanager.cosmos.fluent.inner.NotebookWorkspaceConnectionInfoResultInner&text=NotebookWorkspaceConnectionInfoResultInner" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.resourcemanager.cosmos.fluent
+artifact: com.azure.resourcemanager:azure-resourcemanager-cosmos:2.0.0-beta.2

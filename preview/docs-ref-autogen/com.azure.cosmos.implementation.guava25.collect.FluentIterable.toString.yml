@@ -1,0 +1,24 @@
+### YamlMime:JavaMember
+uid: com.azure.cosmos.implementation.guava25.collect.FluentIterable.toString*
+fullName: com.azure.cosmos.implementation.guava25.collect.FluentIterable<E>.toString
+name: toString
+nameWithType: FluentIterable<E>.toString
+members:
+- uid: com.azure.cosmos.implementation.guava25.collect.FluentIterable.toString()
+  fullName: com.azure.cosmos.implementation.guava25.collect.FluentIterable<E>.toString()
+  name: toString()
+  nameWithType: FluentIterable<E>.toString()
+  summary: |-
+    Returns a string representation of this fluent iterable, with the format <code>[e1, e2, ...,
+     en]</code>.
+
+     <p><b><code>Stream</code> equivalent:</b> <code>stream.collect(Collectors.joining(", ", "[", "]"))</code>
+     or (less efficiently) <code>stream.collect(Collectors.toList()).toString()</code>.
+  overridden: java.lang.Object.toString()
+  syntax: public String toString()
+  returns:
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.cosmos.implementation.guava25.collect
+artifact: com.azure:azure-cosmos:4.3.2-beta.2

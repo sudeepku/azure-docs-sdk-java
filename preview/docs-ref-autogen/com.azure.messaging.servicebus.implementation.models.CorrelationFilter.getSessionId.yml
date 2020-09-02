@@ -1,0 +1,19 @@
+### YamlMime:JavaMember
+uid: com.azure.messaging.servicebus.implementation.models.CorrelationFilter.getSessionId*
+fullName: com.azure.messaging.servicebus.implementation.models.CorrelationFilter.getSessionId
+name: getSessionId
+nameWithType: CorrelationFilter.getSessionId
+members:
+- uid: com.azure.messaging.servicebus.implementation.models.CorrelationFilter.getSessionId()
+  fullName: com.azure.messaging.servicebus.implementation.models.CorrelationFilter.getSessionId()
+  name: getSessionId()
+  nameWithType: CorrelationFilter.getSessionId()
+  summary: 'Get the sessionId property: The SessionId property.'
+  syntax: public String getSessionId()
+  returns:
+    description: the sessionId value.
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.messaging.servicebus.implementation.models
+artifact: com.azure:azure-messaging-servicebus:7.0.0-beta.5

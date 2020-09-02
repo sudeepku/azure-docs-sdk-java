@@ -1,0 +1,27 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.resources.fluentcore.utils.PagedList.toArray*
+fullName: com.azure.resourcemanager.resources.fluentcore.utils.PagedList<E>.<T>toArray
+name: <T>toArray
+nameWithType: PagedList<E>.<T>toArray
+members:
+- uid: com.azure.resourcemanager.resources.fluentcore.utils.PagedList.<T>toArray(T[])
+  fullName: com.azure.resourcemanager.resources.fluentcore.utils.PagedList<E>.<T>toArray(T[] a)
+  name: <T>toArray(T[] a)
+  nameWithType: PagedList<E>.<T>toArray(T[] a)
+  parameters:
+  - name: a
+    type: <xref href="T?alt=T&text=T" data-throw-if-not-resolved="False" />[]
+  syntax: public T[] <T>toArray(T[] a)
+  returns:
+    type: <xref href="T?alt=T&text=T" data-throw-if-not-resolved="False" />[]
+- uid: com.azure.resourcemanager.resources.fluentcore.utils.PagedList.toArray()
+  fullName: com.azure.resourcemanager.resources.fluentcore.utils.PagedList<E>.toArray()
+  name: toArray()
+  nameWithType: PagedList<E>.toArray()
+  syntax: public Object[] toArray()
+  returns:
+    type: <xref href="java.lang.Object?alt=java.lang.Object&text=Object" data-throw-if-not-resolved="False" />[]
+type: method
+metadata: {}
+package: com.azure.resourcemanager.resources.fluentcore.utils
+artifact: com.azure.resourcemanager:azure-resourcemanager-resources:2.0.0-beta.2

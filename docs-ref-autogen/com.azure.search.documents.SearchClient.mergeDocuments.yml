@@ -1,0 +1,45 @@
+### YamlMime:JavaMember
+uid: com.azure.search.documents.SearchClient.mergeDocuments*
+fullName: com.azure.search.documents.SearchClient.mergeDocuments
+name: mergeDocuments
+nameWithType: SearchClient.mergeDocuments
+members:
+- uid: com.azure.search.documents.SearchClient.mergeDocuments(java.lang.Iterable<?>)
+  fullName: com.azure.search.documents.SearchClient.mergeDocuments(Iterable<?> documents)
+  name: mergeDocuments(Iterable<?> documents)
+  nameWithType: SearchClient.mergeDocuments(Iterable<?> documents)
+  summary: |-
+    Merges a collection of documents with existing documents in the target index.
+     <p>
+     If the type of the document contains non-nullable primitive-typed properties, these properties may not merge
+     correctly. If you do not set such a property, it will automatically take its default value (for example, <code>
+     0</code> for <code>int</code> or <code>false</code> for <code>boolean</code>), which will override the value of the property currently
+     stored in the index, even if this was not your intent. For this reason, it is strongly recommended that you
+     always declare primitive-typed properties with their class equivalents (for example, an integer property should
+     be of type <code>Integer</code> instead of <code>int</code>).
+
+     <p><strong>Code Sample</strong></p>
+
+     <p> Merge dynamic SearchDocument. </p>
+
+     <pre>
+     SearchDocument searchDocument = new SearchDocument&#40;&#41;;
+     searchDocument.put&#40;&quot;hotelName&quot;, &quot;merge&quot;&#41;;
+     IndexDocumentsResult result = searchClient.mergeDocuments&#40;Collections.singletonList&#40;searchDocument&#41;&#41;;
+     for &#40;IndexingResult indexingResult : result.getResults&#40;&#41;&#41; &#123;
+         System.out.printf&#40;&quot;Does document with key %s merge successfully? %b%n&quot;, indexingResult.getKey&#40;&#41;,
+             indexingResult.isSucceeded&#40;&#41;&#41;;
+     &#125;
+     </pre>
+  parameters:
+  - description: collection of documents to be merged
+    name: documents
+    type: <xref href="java.lang.Iterable?alt=java.lang.Iterable&text=Iterable" data-throw-if-not-resolved="False" />&lt;?&gt;
+  syntax: public IndexDocumentsResult mergeDocuments(Iterable<?> documents)
+  returns:
+    description: document index result
+    type: <xref href="com.azure.search.documents.models.IndexDocumentsResult?alt=com.azure.search.documents.models.IndexDocumentsResult&text=IndexDocumentsResult" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.search.documents
+artifact: com.azure:azure-search-documents:11.0.0

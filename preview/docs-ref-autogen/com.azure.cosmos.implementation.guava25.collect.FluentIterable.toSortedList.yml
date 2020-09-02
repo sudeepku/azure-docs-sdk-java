@@ -1,0 +1,28 @@
+### YamlMime:JavaMember
+uid: com.azure.cosmos.implementation.guava25.collect.FluentIterable.toSortedList*
+fullName: com.azure.cosmos.implementation.guava25.collect.FluentIterable<E>.toSortedList
+name: toSortedList
+nameWithType: FluentIterable<E>.toSortedList
+members:
+- uid: com.azure.cosmos.implementation.guava25.collect.FluentIterable.toSortedList(java.util.Comparator<? super E>)
+  fullName: com.azure.cosmos.implementation.guava25.collect.FluentIterable<E>.toSortedList(Comparator<? super E> comparator)
+  name: toSortedList(Comparator<? super E> comparator)
+  nameWithType: FluentIterable<E>.toSortedList(Comparator<? super E> comparator)
+  summary: |-
+    Returns an <code>ImmutableList</code> containing all of the elements from this <code>
+     FluentIterable</code> in the order specified by <code>comparator</code>. To produce an <code>
+     ImmutableList</code> sorted by its natural ordering, use <code>toSortedList(Ordering.natural())</code>.
+
+     <p><b><code>Stream</code> equivalent:</b> pass <xref uid="ImmutableList#toImmutableList" data-throw-if-not-resolved="false">ImmutableList#toImmutableList</xref> to <code>
+     stream.sorted(comparator).collect()</code>.
+  parameters:
+  - description: the function by which to sort list elements
+    name: comparator
+    type: <xref href="java.util.Comparator?alt=java.util.Comparator&text=Comparator" data-throw-if-not-resolved="False" />&lt;<xref href="? super E?alt=? super E&text=? super E" data-throw-if-not-resolved="False" />&gt;
+  syntax: public final ImmutableList<E> toSortedList(Comparator<? super E> comparator)
+  returns:
+    type: <xref href="com.azure.cosmos.implementation.guava25.collect.ImmutableList?alt=com.azure.cosmos.implementation.guava25.collect.ImmutableList&text=ImmutableList" data-throw-if-not-resolved="False" />&lt;<xref href="E?alt=E&text=E" data-throw-if-not-resolved="False" />&gt;
+type: method
+metadata: {}
+package: com.azure.cosmos.implementation.guava25.collect
+artifact: com.azure:azure-cosmos:4.3.2-beta.2

@@ -1,0 +1,23 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.network.fluent.inner.VirtualNetworkGatewayIpConfigurationInner.withSubnet*
+fullName: com.azure.resourcemanager.network.fluent.inner.VirtualNetworkGatewayIpConfigurationInner.withSubnet
+name: withSubnet
+nameWithType: VirtualNetworkGatewayIpConfigurationInner.withSubnet
+members:
+- uid: com.azure.resourcemanager.network.fluent.inner.VirtualNetworkGatewayIpConfigurationInner.withSubnet(com.azure.core.management.SubResource)
+  fullName: com.azure.resourcemanager.network.fluent.inner.VirtualNetworkGatewayIpConfigurationInner.withSubnet(SubResource subnet)
+  name: withSubnet(SubResource subnet)
+  nameWithType: VirtualNetworkGatewayIpConfigurationInner.withSubnet(SubResource subnet)
+  summary: 'Set the subnet property: The reference of the subnet resource.'
+  parameters:
+  - description: the subnet value to set.
+    name: subnet
+    type: <xref href="com.azure.core.management.SubResource?alt=com.azure.core.management.SubResource&text=SubResource" data-throw-if-not-resolved="False" />
+  syntax: public VirtualNetworkGatewayIpConfigurationInner withSubnet(SubResource subnet)
+  returns:
+    description: the VirtualNetworkGatewayIpConfigurationInner object itself.
+    type: <xref href="com.azure.resourcemanager.network.fluent.inner.VirtualNetworkGatewayIpConfigurationInner?alt=com.azure.resourcemanager.network.fluent.inner.VirtualNetworkGatewayIpConfigurationInner&text=VirtualNetworkGatewayIpConfigurationInner" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.resourcemanager.network.fluent.inner
+artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.0.0-beta.2

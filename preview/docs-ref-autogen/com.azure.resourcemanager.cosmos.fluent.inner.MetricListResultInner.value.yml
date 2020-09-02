@@ -1,0 +1,19 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.cosmos.fluent.inner.MetricListResultInner.value*
+fullName: com.azure.resourcemanager.cosmos.fluent.inner.MetricListResultInner.value
+name: value
+nameWithType: MetricListResultInner.value
+members:
+- uid: com.azure.resourcemanager.cosmos.fluent.inner.MetricListResultInner.value()
+  fullName: com.azure.resourcemanager.cosmos.fluent.inner.MetricListResultInner.value()
+  name: value()
+  nameWithType: MetricListResultInner.value()
+  summary: 'Get the value property: The list of metrics for the account.'
+  syntax: public List<MetricInner> value()
+  returns:
+    description: the value value.
+    type: <xref href="java.util.List?alt=java.util.List&text=List" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.resourcemanager.cosmos.fluent.inner.MetricInner?alt=com.azure.resourcemanager.cosmos.fluent.inner.MetricInner&text=MetricInner" data-throw-if-not-resolved="False" />&gt;
+type: method
+metadata: {}
+package: com.azure.resourcemanager.cosmos.fluent.inner
+artifact: com.azure.resourcemanager:azure-resourcemanager-cosmos:2.0.0-beta.2

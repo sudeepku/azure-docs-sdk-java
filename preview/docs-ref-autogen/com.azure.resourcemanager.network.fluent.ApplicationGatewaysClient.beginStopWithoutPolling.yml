@@ -1,0 +1,39 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.network.fluent.ApplicationGatewaysClient.beginStopWithoutPolling*
+fullName: com.azure.resourcemanager.network.fluent.ApplicationGatewaysClient.beginStopWithoutPolling
+name: beginStopWithoutPolling
+nameWithType: ApplicationGatewaysClient.beginStopWithoutPolling
+members:
+- uid: com.azure.resourcemanager.network.fluent.ApplicationGatewaysClient.beginStopWithoutPolling(java.lang.String,java.lang.String)
+  fullName: com.azure.resourcemanager.network.fluent.ApplicationGatewaysClient.beginStopWithoutPolling(String resourceGroupName, String applicationGatewayName)
+  name: beginStopWithoutPolling(String resourceGroupName, String applicationGatewayName)
+  nameWithType: ApplicationGatewaysClient.beginStopWithoutPolling(String resourceGroupName, String applicationGatewayName)
+  summary: Stops the specified application gateway in a resource group.
+  parameters:
+  - description: The name of the resource group.
+    name: resourceGroupName
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  - description: The name of the application gateway.
+    name: applicationGatewayName
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  syntax: public void beginStopWithoutPolling(String resourceGroupName, String applicationGatewayName)
+- uid: com.azure.resourcemanager.network.fluent.ApplicationGatewaysClient.beginStopWithoutPolling(java.lang.String,java.lang.String,com.azure.core.util.Context)
+  fullName: com.azure.resourcemanager.network.fluent.ApplicationGatewaysClient.beginStopWithoutPolling(String resourceGroupName, String applicationGatewayName, Context context)
+  name: beginStopWithoutPolling(String resourceGroupName, String applicationGatewayName, Context context)
+  nameWithType: ApplicationGatewaysClient.beginStopWithoutPolling(String resourceGroupName, String applicationGatewayName, Context context)
+  summary: Stops the specified application gateway in a resource group.
+  parameters:
+  - description: The name of the resource group.
+    name: resourceGroupName
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  - description: The name of the application gateway.
+    name: applicationGatewayName
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  - description: The context to associate with this operation.
+    name: context
+    type: <xref href="com.azure.core.util.Context?alt=com.azure.core.util.Context&text=Context" data-throw-if-not-resolved="False" />
+  syntax: public void beginStopWithoutPolling(String resourceGroupName, String applicationGatewayName, Context context)
+type: method
+metadata: {}
+package: com.azure.resourcemanager.network.fluent
+artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.0.0-beta.2

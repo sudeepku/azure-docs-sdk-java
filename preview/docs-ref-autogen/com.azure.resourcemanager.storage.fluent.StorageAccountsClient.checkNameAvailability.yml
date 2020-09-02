@@ -1,0 +1,39 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.storage.fluent.StorageAccountsClient.checkNameAvailability*
+fullName: com.azure.resourcemanager.storage.fluent.StorageAccountsClient.checkNameAvailability
+name: checkNameAvailability
+nameWithType: StorageAccountsClient.checkNameAvailability
+members:
+- uid: com.azure.resourcemanager.storage.fluent.StorageAccountsClient.checkNameAvailability(java.lang.String)
+  fullName: com.azure.resourcemanager.storage.fluent.StorageAccountsClient.checkNameAvailability(String name)
+  name: checkNameAvailability(String name)
+  nameWithType: StorageAccountsClient.checkNameAvailability(String name)
+  summary: Checks that the storage account name is valid and is not already in use.
+  parameters:
+  - description: The storage account name.
+    name: name
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  syntax: public CheckNameAvailabilityResultInner checkNameAvailability(String name)
+  returns:
+    description: the CheckNameAvailability operation response.
+    type: <xref href="com.azure.resourcemanager.storage.fluent.inner.CheckNameAvailabilityResultInner?alt=com.azure.resourcemanager.storage.fluent.inner.CheckNameAvailabilityResultInner&text=CheckNameAvailabilityResultInner" data-throw-if-not-resolved="False" />
+- uid: com.azure.resourcemanager.storage.fluent.StorageAccountsClient.checkNameAvailability(java.lang.String,com.azure.core.util.Context)
+  fullName: com.azure.resourcemanager.storage.fluent.StorageAccountsClient.checkNameAvailability(String name, Context context)
+  name: checkNameAvailability(String name, Context context)
+  nameWithType: StorageAccountsClient.checkNameAvailability(String name, Context context)
+  summary: Checks that the storage account name is valid and is not already in use.
+  parameters:
+  - description: The storage account name.
+    name: name
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  - description: The context to associate with this operation.
+    name: context
+    type: <xref href="com.azure.core.util.Context?alt=com.azure.core.util.Context&text=Context" data-throw-if-not-resolved="False" />
+  syntax: public CheckNameAvailabilityResultInner checkNameAvailability(String name, Context context)
+  returns:
+    description: the CheckNameAvailability operation response.
+    type: <xref href="com.azure.resourcemanager.storage.fluent.inner.CheckNameAvailabilityResultInner?alt=com.azure.resourcemanager.storage.fluent.inner.CheckNameAvailabilityResultInner&text=CheckNameAvailabilityResultInner" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.resourcemanager.storage.fluent
+artifact: com.azure.resourcemanager:azure-resourcemanager-storage:2.0.0-beta.2

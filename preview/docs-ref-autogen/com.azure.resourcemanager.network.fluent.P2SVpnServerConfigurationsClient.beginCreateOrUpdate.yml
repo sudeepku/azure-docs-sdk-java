@@ -1,0 +1,61 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.network.fluent.P2SVpnServerConfigurationsClient.beginCreateOrUpdate*
+fullName: com.azure.resourcemanager.network.fluent.P2SVpnServerConfigurationsClient.beginCreateOrUpdate
+name: beginCreateOrUpdate
+nameWithType: P2SVpnServerConfigurationsClient.beginCreateOrUpdate
+members:
+- uid: com.azure.resourcemanager.network.fluent.P2SVpnServerConfigurationsClient.beginCreateOrUpdate(java.lang.String,java.lang.String,java.lang.String,com.azure.resourcemanager.network.fluent.inner.P2SVpnServerConfigurationInner)
+  fullName: com.azure.resourcemanager.network.fluent.P2SVpnServerConfigurationsClient.beginCreateOrUpdate(String resourceGroupName, String virtualWanName, String p2SVpnServerConfigurationName, P2SVpnServerConfigurationInner p2SVpnServerConfigurationParameters)
+  name: beginCreateOrUpdate(String resourceGroupName, String virtualWanName, String p2SVpnServerConfigurationName, P2SVpnServerConfigurationInner p2SVpnServerConfigurationParameters)
+  nameWithType: P2SVpnServerConfigurationsClient.beginCreateOrUpdate(String resourceGroupName, String virtualWanName, String p2SVpnServerConfigurationName, P2SVpnServerConfigurationInner p2SVpnServerConfigurationParameters)
+  summary: |-
+    Creates a P2SVpnServerConfiguration to associate with a VirtualWan if it doesn't exist else updates the existing
+     P2SVpnServerConfiguration.
+  parameters:
+  - description: The resource group name of the VirtualWan.
+    name: resourceGroupName
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  - description: The name of the VirtualWan.
+    name: virtualWanName
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  - description: The name of the P2SVpnServerConfiguration.
+    name: p2SVpnServerConfigurationName
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  - description: P2SVpnServerConfiguration Resource.
+    name: p2SVpnServerConfigurationParameters
+    type: <xref href="com.azure.resourcemanager.network.fluent.inner.P2SVpnServerConfigurationInner?alt=com.azure.resourcemanager.network.fluent.inner.P2SVpnServerConfigurationInner&text=P2SVpnServerConfigurationInner" data-throw-if-not-resolved="False" />
+  syntax: public PollerFlux<PollResult<P2SVpnServerConfigurationInner>,P2SVpnServerConfigurationInner> beginCreateOrUpdate(String resourceGroupName, String virtualWanName, String p2SVpnServerConfigurationName, P2SVpnServerConfigurationInner p2SVpnServerConfigurationParameters)
+  returns:
+    description: p2SVpnServerConfiguration Resource.
+    type: <xref href="com.azure.core.util.polling.PollerFlux?alt=com.azure.core.util.polling.PollerFlux&text=PollerFlux" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.core.management.polling.PollResult?alt=com.azure.core.management.polling.PollResult&text=PollResult" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.resourcemanager.network.fluent.inner.P2SVpnServerConfigurationInner?alt=com.azure.resourcemanager.network.fluent.inner.P2SVpnServerConfigurationInner&text=P2SVpnServerConfigurationInner" data-throw-if-not-resolved="False" />&gt;,<xref href="com.azure.resourcemanager.network.fluent.inner.P2SVpnServerConfigurationInner?alt=com.azure.resourcemanager.network.fluent.inner.P2SVpnServerConfigurationInner&text=P2SVpnServerConfigurationInner" data-throw-if-not-resolved="False" />&gt;
+- uid: com.azure.resourcemanager.network.fluent.P2SVpnServerConfigurationsClient.beginCreateOrUpdate(java.lang.String,java.lang.String,java.lang.String,com.azure.resourcemanager.network.fluent.inner.P2SVpnServerConfigurationInner,com.azure.core.util.Context)
+  fullName: com.azure.resourcemanager.network.fluent.P2SVpnServerConfigurationsClient.beginCreateOrUpdate(String resourceGroupName, String virtualWanName, String p2SVpnServerConfigurationName, P2SVpnServerConfigurationInner p2SVpnServerConfigurationParameters, Context context)
+  name: beginCreateOrUpdate(String resourceGroupName, String virtualWanName, String p2SVpnServerConfigurationName, P2SVpnServerConfigurationInner p2SVpnServerConfigurationParameters, Context context)
+  nameWithType: P2SVpnServerConfigurationsClient.beginCreateOrUpdate(String resourceGroupName, String virtualWanName, String p2SVpnServerConfigurationName, P2SVpnServerConfigurationInner p2SVpnServerConfigurationParameters, Context context)
+  summary: |-
+    Creates a P2SVpnServerConfiguration to associate with a VirtualWan if it doesn't exist else updates the existing
+     P2SVpnServerConfiguration.
+  parameters:
+  - description: The resource group name of the VirtualWan.
+    name: resourceGroupName
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  - description: The name of the VirtualWan.
+    name: virtualWanName
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  - description: The name of the P2SVpnServerConfiguration.
+    name: p2SVpnServerConfigurationName
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  - description: P2SVpnServerConfiguration Resource.
+    name: p2SVpnServerConfigurationParameters
+    type: <xref href="com.azure.resourcemanager.network.fluent.inner.P2SVpnServerConfigurationInner?alt=com.azure.resourcemanager.network.fluent.inner.P2SVpnServerConfigurationInner&text=P2SVpnServerConfigurationInner" data-throw-if-not-resolved="False" />
+  - description: The context to associate with this operation.
+    name: context
+    type: <xref href="com.azure.core.util.Context?alt=com.azure.core.util.Context&text=Context" data-throw-if-not-resolved="False" />
+  syntax: public PollerFlux<PollResult<P2SVpnServerConfigurationInner>,P2SVpnServerConfigurationInner> beginCreateOrUpdate(String resourceGroupName, String virtualWanName, String p2SVpnServerConfigurationName, P2SVpnServerConfigurationInner p2SVpnServerConfigurationParameters, Context context)
+  returns:
+    description: p2SVpnServerConfiguration Resource.
+    type: <xref href="com.azure.core.util.polling.PollerFlux?alt=com.azure.core.util.polling.PollerFlux&text=PollerFlux" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.core.management.polling.PollResult?alt=com.azure.core.management.polling.PollResult&text=PollResult" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.resourcemanager.network.fluent.inner.P2SVpnServerConfigurationInner?alt=com.azure.resourcemanager.network.fluent.inner.P2SVpnServerConfigurationInner&text=P2SVpnServerConfigurationInner" data-throw-if-not-resolved="False" />&gt;,<xref href="com.azure.resourcemanager.network.fluent.inner.P2SVpnServerConfigurationInner?alt=com.azure.resourcemanager.network.fluent.inner.P2SVpnServerConfigurationInner&text=P2SVpnServerConfigurationInner" data-throw-if-not-resolved="False" />&gt;
+type: method
+metadata: {}
+package: com.azure.resourcemanager.network.fluent
+artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.0.0-beta.2

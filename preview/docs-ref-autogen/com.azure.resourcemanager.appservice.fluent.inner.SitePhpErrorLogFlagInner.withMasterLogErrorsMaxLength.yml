@@ -1,0 +1,23 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.appservice.fluent.inner.SitePhpErrorLogFlagInner.withMasterLogErrorsMaxLength*
+fullName: com.azure.resourcemanager.appservice.fluent.inner.SitePhpErrorLogFlagInner.withMasterLogErrorsMaxLength
+name: withMasterLogErrorsMaxLength
+nameWithType: SitePhpErrorLogFlagInner.withMasterLogErrorsMaxLength
+members:
+- uid: com.azure.resourcemanager.appservice.fluent.inner.SitePhpErrorLogFlagInner.withMasterLogErrorsMaxLength(java.lang.String)
+  fullName: com.azure.resourcemanager.appservice.fluent.inner.SitePhpErrorLogFlagInner.withMasterLogErrorsMaxLength(String masterLogErrorsMaxLength)
+  name: withMasterLogErrorsMaxLength(String masterLogErrorsMaxLength)
+  nameWithType: SitePhpErrorLogFlagInner.withMasterLogErrorsMaxLength(String masterLogErrorsMaxLength)
+  summary: 'Set the masterLogErrorsMaxLength property: Master log_errors_max_len setting.'
+  parameters:
+  - description: the masterLogErrorsMaxLength value to set.
+    name: masterLogErrorsMaxLength
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  syntax: public SitePhpErrorLogFlagInner withMasterLogErrorsMaxLength(String masterLogErrorsMaxLength)
+  returns:
+    description: the SitePhpErrorLogFlagInner object itself.
+    type: <xref href="com.azure.resourcemanager.appservice.fluent.inner.SitePhpErrorLogFlagInner?alt=com.azure.resourcemanager.appservice.fluent.inner.SitePhpErrorLogFlagInner&text=SitePhpErrorLogFlagInner" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.resourcemanager.appservice.fluent.inner
+artifact: com.azure.resourcemanager:azure-resourcemanager-appservice:2.0.0-beta.2

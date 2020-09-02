@@ -1,0 +1,20 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.authorization.fluent.ClassicAdministratorsClient.ClassicAdministratorsClient*
+fullName: com.azure.resourcemanager.authorization.fluent.ClassicAdministratorsClient.ClassicAdministratorsClient
+name: ClassicAdministratorsClient
+nameWithType: ClassicAdministratorsClient.ClassicAdministratorsClient
+members:
+- uid: com.azure.resourcemanager.authorization.fluent.ClassicAdministratorsClient.ClassicAdministratorsClient(com.azure.resourcemanager.authorization.AuthorizationManagementClient)
+  fullName: com.azure.resourcemanager.authorization.fluent.ClassicAdministratorsClient.ClassicAdministratorsClient(AuthorizationManagementClient client)
+  name: ClassicAdministratorsClient(AuthorizationManagementClient client)
+  nameWithType: ClassicAdministratorsClient.ClassicAdministratorsClient(AuthorizationManagementClient client)
+  summary: Initializes an instance of ClassicAdministratorsClient.
+  parameters:
+  - description: the instance of the service client containing this operation class.
+    name: client
+    type: <xref href="com.azure.resourcemanager.authorization.AuthorizationManagementClient?alt=com.azure.resourcemanager.authorization.AuthorizationManagementClient&text=AuthorizationManagementClient" data-throw-if-not-resolved="False" />
+  syntax: public ClassicAdministratorsClient(AuthorizationManagementClient client)
+type: constructor
+metadata: {}
+package: com.azure.resourcemanager.authorization.fluent
+artifact: com.azure.resourcemanager:azure-resourcemanager-authorization:2.0.0-beta.2

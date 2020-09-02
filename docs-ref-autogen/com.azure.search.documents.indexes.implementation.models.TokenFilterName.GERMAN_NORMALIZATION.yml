@@ -1,0 +1,16 @@
+### YamlMime:JavaMember
+uid: com.azure.search.documents.indexes.implementation.models.TokenFilterName.GERMAN_NORMALIZATION
+fullName: com.azure.search.documents.indexes.implementation.models.TokenFilterName.GERMAN_NORMALIZATION
+name: GERMAN_NORMALIZATION
+nameWithType: TokenFilterName.GERMAN_NORMALIZATION
+members:
+- uid: com.azure.search.documents.indexes.implementation.models.TokenFilterName.GERMAN_NORMALIZATION
+  fullName: com.azure.search.documents.indexes.implementation.models.TokenFilterName.GERMAN_NORMALIZATION
+  name: GERMAN_NORMALIZATION
+  nameWithType: TokenFilterName.GERMAN_NORMALIZATION
+  summary: Static value german_normalization for TokenFilterName.
+  syntax: public static final TokenFilterName GERMAN_NORMALIZATION
+type: field
+metadata: {}
+package: com.azure.search.documents.indexes.implementation.models
+artifact: com.azure:azure-search-documents:11.0.0

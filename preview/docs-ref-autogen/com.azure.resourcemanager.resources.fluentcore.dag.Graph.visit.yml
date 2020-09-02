@@ -1,0 +1,24 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.resources.fluentcore.dag.Graph.visit*
+fullName: com.azure.resourcemanager.resources.fluentcore.dag.Graph<DataT,NodeT>.visit
+name: visit
+nameWithType: Graph<DataT,NodeT>.visit
+members:
+- uid: com.azure.resourcemanager.resources.fluentcore.dag.Graph.visit(com.azure.resourcemanager.resources.fluentcore.dag.Graph.Visitor)
+  fullName: com.azure.resourcemanager.resources.fluentcore.dag.Graph<DataT,NodeT>.visit(Graph.Visitor visitor)
+  name: visit(Graph.Visitor visitor)
+  nameWithType: Graph<DataT,NodeT>.visit(Graph.Visitor visitor)
+  summary: |-
+    Perform DFS visit in this graph.
+     <p>
+     The directed graph will be traversed in DFS order and the visitor will be notified as
+     search explores each node and edge.
+  parameters:
+  - description: the graph visitor
+    name: visitor
+    type: <xref href="com.azure.resourcemanager.resources.fluentcore.dag.Graph.Visitor?alt=com.azure.resourcemanager.resources.fluentcore.dag.Graph.Visitor&text=Visitor" data-throw-if-not-resolved="False" />
+  syntax: public void visit(Graph.Visitor visitor)
+type: method
+metadata: {}
+package: com.azure.resourcemanager.resources.fluentcore.dag
+artifact: com.azure.resourcemanager:azure-resourcemanager-resources:2.0.0-beta.2

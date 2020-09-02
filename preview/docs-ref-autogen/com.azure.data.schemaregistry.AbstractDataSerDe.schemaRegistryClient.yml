@@ -1,0 +1,15 @@
+### YamlMime:JavaMember
+uid: com.azure.data.schemaregistry.AbstractDataSerDe.schemaRegistryClient
+fullName: com.azure.data.schemaregistry.AbstractDataSerDe.schemaRegistryClient
+name: schemaRegistryClient
+nameWithType: AbstractDataSerDe.schemaRegistryClient
+members:
+- uid: com.azure.data.schemaregistry.AbstractDataSerDe.schemaRegistryClient
+  fullName: com.azure.data.schemaregistry.AbstractDataSerDe.schemaRegistryClient
+  name: schemaRegistryClient
+  nameWithType: AbstractDataSerDe.schemaRegistryClient
+  syntax: protected SchemaRegistryClient schemaRegistryClient
+type: field
+metadata: {}
+package: com.azure.data.schemaregistry
+artifact: com.azure:azure-data-schemaregistry:1.0.0-beta.1

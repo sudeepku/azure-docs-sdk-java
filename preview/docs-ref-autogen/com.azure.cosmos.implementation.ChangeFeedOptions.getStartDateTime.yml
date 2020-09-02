@@ -1,0 +1,21 @@
+### YamlMime:JavaMember
+uid: com.azure.cosmos.implementation.ChangeFeedOptions.getStartDateTime*
+fullName: com.azure.cosmos.implementation.ChangeFeedOptions.getStartDateTime
+name: getStartDateTime
+nameWithType: ChangeFeedOptions.getStartDateTime
+members:
+- uid: com.azure.cosmos.implementation.ChangeFeedOptions.getStartDateTime()
+  fullName: com.azure.cosmos.implementation.ChangeFeedOptions.getStartDateTime()
+  name: getStartDateTime()
+  nameWithType: ChangeFeedOptions.getStartDateTime()
+  summary: Gets the instant time to start looking for changes after.
+  syntax: public Instant getStartDateTime()
+  returns:
+    description: |-
+      a instant time to start looking for changes after, if set or null
+       otherwise
+    type: <xref href="java.time.Instant?alt=java.time.Instant&text=Instant" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.cosmos.implementation
+artifact: com.azure:azure-cosmos:4.3.2-beta.2

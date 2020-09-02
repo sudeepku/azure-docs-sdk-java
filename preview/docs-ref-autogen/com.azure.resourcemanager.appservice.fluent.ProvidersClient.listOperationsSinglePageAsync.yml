@@ -1,0 +1,36 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.appservice.fluent.ProvidersClient.listOperationsSinglePageAsync*
+fullName: com.azure.resourcemanager.appservice.fluent.ProvidersClient.listOperationsSinglePageAsync
+name: listOperationsSinglePageAsync
+nameWithType: ProvidersClient.listOperationsSinglePageAsync
+members:
+- uid: com.azure.resourcemanager.appservice.fluent.ProvidersClient.listOperationsSinglePageAsync()
+  fullName: com.azure.resourcemanager.appservice.fluent.ProvidersClient.listOperationsSinglePageAsync()
+  name: listOperationsSinglePageAsync()
+  nameWithType: ProvidersClient.listOperationsSinglePageAsync()
+  summary: |-
+    Description for Gets all available operations for the Microsoft.Web resource provider. Also exposes resource
+     metric definitions.
+  syntax: public Mono<PagedResponse<CsmOperationDescriptionInner>> listOperationsSinglePageAsync()
+  returns:
+    description: collection of Azure resource manager operation metadata.
+    type: <xref href="reactor.core.publisher.Mono?alt=reactor.core.publisher.Mono&text=Mono" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.core.http.rest.PagedResponse?alt=com.azure.core.http.rest.PagedResponse&text=PagedResponse" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.resourcemanager.appservice.fluent.inner.CsmOperationDescriptionInner?alt=com.azure.resourcemanager.appservice.fluent.inner.CsmOperationDescriptionInner&text=CsmOperationDescriptionInner" data-throw-if-not-resolved="False" />&gt;&gt;
+- uid: com.azure.resourcemanager.appservice.fluent.ProvidersClient.listOperationsSinglePageAsync(com.azure.core.util.Context)
+  fullName: com.azure.resourcemanager.appservice.fluent.ProvidersClient.listOperationsSinglePageAsync(Context context)
+  name: listOperationsSinglePageAsync(Context context)
+  nameWithType: ProvidersClient.listOperationsSinglePageAsync(Context context)
+  summary: |-
+    Description for Gets all available operations for the Microsoft.Web resource provider. Also exposes resource
+     metric definitions.
+  parameters:
+  - description: The context to associate with this operation.
+    name: context
+    type: <xref href="com.azure.core.util.Context?alt=com.azure.core.util.Context&text=Context" data-throw-if-not-resolved="False" />
+  syntax: public Mono<PagedResponse<CsmOperationDescriptionInner>> listOperationsSinglePageAsync(Context context)
+  returns:
+    description: collection of Azure resource manager operation metadata.
+    type: <xref href="reactor.core.publisher.Mono?alt=reactor.core.publisher.Mono&text=Mono" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.core.http.rest.PagedResponse?alt=com.azure.core.http.rest.PagedResponse&text=PagedResponse" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.resourcemanager.appservice.fluent.inner.CsmOperationDescriptionInner?alt=com.azure.resourcemanager.appservice.fluent.inner.CsmOperationDescriptionInner&text=CsmOperationDescriptionInner" data-throw-if-not-resolved="False" />&gt;&gt;
+type: method
+metadata: {}
+package: com.azure.resourcemanager.appservice.fluent
+artifact: com.azure.resourcemanager:azure-resourcemanager-appservice:2.0.0-beta.2

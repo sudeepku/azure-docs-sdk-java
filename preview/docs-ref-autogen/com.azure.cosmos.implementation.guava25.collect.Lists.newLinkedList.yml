@@ -1,0 +1,53 @@
+### YamlMime:JavaMember
+uid: com.azure.cosmos.implementation.guava25.collect.Lists.newLinkedList*
+fullName: com.azure.cosmos.implementation.guava25.collect.Lists.<E>newLinkedList
+name: <E>newLinkedList
+nameWithType: Lists.<E>newLinkedList
+members:
+- uid: com.azure.cosmos.implementation.guava25.collect.Lists.<E>newLinkedList()
+  fullName: com.azure.cosmos.implementation.guava25.collect.Lists.<E>newLinkedList()
+  name: <E>newLinkedList()
+  nameWithType: Lists.<E>newLinkedList()
+  summary: |-
+    Creates a <i>mutable</i>, empty <code>LinkedList</code> instance (for Java 6 and earlier).
+
+     <p><b>Note:</b> if you won't be adding any elements to the list, use <xref uid="ImmutableList#of()" data-throw-if-not-resolved="false">ImmutableList#of()</xref>
+     instead.
+
+     <p><b>Performance note:</b> <xref uid="ArrayList" data-throw-if-not-resolved="false">ArrayList</xref> and <xref uid="java.util.ArrayDeque" data-throw-if-not-resolved="false">java.util.ArrayDeque</xref> consistently
+     outperform <code>LinkedList</code> except in certain rare and specific situations. Unless you have
+     spent a lot of time benchmarking your specific needs, use one of those instead.
+
+     <p><b>Note for Java 7 and later:</b> this method is now unnecessary and should be treated as
+     deprecated. Instead, use the <code>LinkedList</code> <xref uid="LinkedList#LinkedList()" data-throw-if-not-resolved="false">constructor</xref> directly, taking advantage of the new <a href="http://goo.gl/iz2Wi">"diamond"
+     syntax</a>.
+  syntax: public static LinkedList<E> <E>newLinkedList()
+  returns:
+    type: <xref href="java.util.LinkedList?alt=java.util.LinkedList&text=LinkedList" data-throw-if-not-resolved="False" />&lt;<xref href="E?alt=E&text=E" data-throw-if-not-resolved="False" />&gt;
+- uid: com.azure.cosmos.implementation.guava25.collect.Lists.<E>newLinkedList(java.lang.Iterable<? extends E>)
+  fullName: com.azure.cosmos.implementation.guava25.collect.Lists.<E>newLinkedList(Iterable<? extends E> elements)
+  name: <E>newLinkedList(Iterable<? extends E> elements)
+  nameWithType: Lists.<E>newLinkedList(Iterable<? extends E> elements)
+  summary: |-
+    Creates a <i>mutable</i> <code>LinkedList</code> instance containing the given elements; a very thin
+     shortcut for creating an empty list then calling <xref uid="Iterables#addAll" data-throw-if-not-resolved="false">Iterables#addAll</xref>.
+
+     <p><b>Note:</b> if mutability is not required and the elements are non-null, use <xref uid="ImmutableList#copyOf(Iterable)" data-throw-if-not-resolved="false">ImmutableList#copyOf(Iterable)</xref> instead. (Or, change <code>elements</code> to be a <xref uid="FluentIterable" data-throw-if-not-resolved="false">FluentIterable</xref> and call <code>elements.toList()</code>.)
+
+     <p><b>Performance note:</b> <xref uid="ArrayList" data-throw-if-not-resolved="false">ArrayList</xref> and <xref uid="java.util.ArrayDeque" data-throw-if-not-resolved="false">java.util.ArrayDeque</xref> consistently
+     outperform <code>LinkedList</code> except in certain rare and specific situations. Unless you have
+     spent a lot of time benchmarking your specific needs, use one of those instead.
+
+     <p><b>Note for Java 7 and later:</b> if <code>elements</code> is a <xref uid="Collection" data-throw-if-not-resolved="false">Collection</xref>, you don't
+     need this method. Use the <code>LinkedList</code> <xref uid="LinkedList#LinkedList(Collection)" data-throw-if-not-resolved="false">constructor</xref> directly, taking advantage of the new <a href="http://goo.gl/iz2Wi">"diamond"
+     syntax</a>.
+  parameters:
+  - name: elements
+    type: <xref href="java.lang.Iterable?alt=java.lang.Iterable&text=Iterable" data-throw-if-not-resolved="False" />&lt;<xref href="? extends E?alt=? extends E&text=? extends E" data-throw-if-not-resolved="False" />&gt;
+  syntax: public static LinkedList<E> <E>newLinkedList(Iterable<? extends E> elements)
+  returns:
+    type: <xref href="java.util.LinkedList?alt=java.util.LinkedList&text=LinkedList" data-throw-if-not-resolved="False" />&lt;<xref href="E?alt=E&text=E" data-throw-if-not-resolved="False" />&gt;
+type: method
+metadata: {}
+package: com.azure.cosmos.implementation.guava25.collect
+artifact: com.azure:azure-cosmos:4.3.2-beta.2

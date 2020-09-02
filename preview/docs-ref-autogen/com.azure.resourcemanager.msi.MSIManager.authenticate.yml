@@ -1,0 +1,67 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.msi.MSIManager.authenticate*
+fullName: com.azure.resourcemanager.msi.MSIManager.authenticate
+name: authenticate
+nameWithType: MSIManager.authenticate
+members:
+- uid: com.azure.resourcemanager.msi.MSIManager.authenticate(com.azure.core.credential.TokenCredential,com.azure.resourcemanager.resources.fluentcore.profile.AzureProfile)
+  fullName: com.azure.resourcemanager.msi.MSIManager.authenticate(TokenCredential credential, AzureProfile profile)
+  name: authenticate(TokenCredential credential, AzureProfile profile)
+  nameWithType: MSIManager.authenticate(TokenCredential credential, AzureProfile profile)
+  summary: |-
+    Creates an instance of MSIManager that exposes Managed Service Identity (MSI)
+     resource management API entry points.
+  parameters:
+  - description: the credential to use
+    name: credential
+    type: <xref href="com.azure.core.credential.TokenCredential?alt=com.azure.core.credential.TokenCredential&text=TokenCredential" data-throw-if-not-resolved="False" />
+  - description: the profile to use
+    name: profile
+    type: <xref href="com.azure.resourcemanager.resources.fluentcore.profile.AzureProfile?alt=com.azure.resourcemanager.resources.fluentcore.profile.AzureProfile&text=AzureProfile" data-throw-if-not-resolved="False" />
+  syntax: public static MSIManager authenticate(TokenCredential credential, AzureProfile profile)
+  returns:
+    description: the MSIManager
+    type: <xref href="com.azure.resourcemanager.msi.MSIManager?alt=com.azure.resourcemanager.msi.MSIManager&text=MSIManager" data-throw-if-not-resolved="False" />
+- uid: com.azure.resourcemanager.msi.MSIManager.authenticate(com.azure.core.http.HttpPipeline,com.azure.resourcemanager.resources.fluentcore.profile.AzureProfile)
+  fullName: com.azure.resourcemanager.msi.MSIManager.authenticate(HttpPipeline httpPipeline, AzureProfile profile)
+  name: authenticate(HttpPipeline httpPipeline, AzureProfile profile)
+  nameWithType: MSIManager.authenticate(HttpPipeline httpPipeline, AzureProfile profile)
+  summary: |-
+    Creates an instance of MSIManager that exposes Managed Service Identity (MSI)
+     resource management API entry points.
+  parameters:
+  - description: the HttpPipeline to be used for API calls.
+    name: httpPipeline
+    type: <xref href="com.azure.core.http.HttpPipeline?alt=com.azure.core.http.HttpPipeline&text=HttpPipeline" data-throw-if-not-resolved="False" />
+  - description: the profile to use
+    name: profile
+    type: <xref href="com.azure.resourcemanager.resources.fluentcore.profile.AzureProfile?alt=com.azure.resourcemanager.resources.fluentcore.profile.AzureProfile&text=AzureProfile" data-throw-if-not-resolved="False" />
+  syntax: public static MSIManager authenticate(HttpPipeline httpPipeline, AzureProfile profile)
+  returns:
+    description: the MSIManager
+    type: <xref href="com.azure.resourcemanager.msi.MSIManager?alt=com.azure.resourcemanager.msi.MSIManager&text=MSIManager" data-throw-if-not-resolved="False" />
+- uid: com.azure.resourcemanager.msi.MSIManager.authenticate(com.azure.core.http.HttpPipeline,com.azure.resourcemanager.resources.fluentcore.profile.AzureProfile,com.azure.resourcemanager.resources.fluentcore.utils.SdkContext)
+  fullName: com.azure.resourcemanager.msi.MSIManager.authenticate(HttpPipeline httpPipeline, AzureProfile profile, SdkContext sdkContext)
+  name: authenticate(HttpPipeline httpPipeline, AzureProfile profile, SdkContext sdkContext)
+  nameWithType: MSIManager.authenticate(HttpPipeline httpPipeline, AzureProfile profile, SdkContext sdkContext)
+  summary: |-
+    Creates an instance of MSIManager that exposes Managed Service Identity (MSI)
+     resource management API entry points.
+  parameters:
+  - description: the HttpPipeline to be used for API calls.
+    name: httpPipeline
+    type: <xref href="com.azure.core.http.HttpPipeline?alt=com.azure.core.http.HttpPipeline&text=HttpPipeline" data-throw-if-not-resolved="False" />
+  - description: the profile to use
+    name: profile
+    type: <xref href="com.azure.resourcemanager.resources.fluentcore.profile.AzureProfile?alt=com.azure.resourcemanager.resources.fluentcore.profile.AzureProfile&text=AzureProfile" data-throw-if-not-resolved="False" />
+  - description: the sdk context
+    name: sdkContext
+    type: <xref href="com.azure.resourcemanager.resources.fluentcore.utils.SdkContext?alt=com.azure.resourcemanager.resources.fluentcore.utils.SdkContext&text=SdkContext" data-throw-if-not-resolved="False" />
+  syntax: public static MSIManager authenticate(HttpPipeline httpPipeline, AzureProfile profile, SdkContext sdkContext)
+  returns:
+    description: the MSIManager
+    type: <xref href="com.azure.resourcemanager.msi.MSIManager?alt=com.azure.resourcemanager.msi.MSIManager&text=MSIManager" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.resourcemanager.msi
+artifact: com.azure.resourcemanager:azure-resourcemanager-msi:2.0.0-beta.2

@@ -1,0 +1,23 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.network.fluent.inner.NetworkWatcherListResultInner.withValue*
+fullName: com.azure.resourcemanager.network.fluent.inner.NetworkWatcherListResultInner.withValue
+name: withValue
+nameWithType: NetworkWatcherListResultInner.withValue
+members:
+- uid: com.azure.resourcemanager.network.fluent.inner.NetworkWatcherListResultInner.withValue(java.util.List<com.azure.resourcemanager.network.fluent.inner.NetworkWatcherInner>)
+  fullName: com.azure.resourcemanager.network.fluent.inner.NetworkWatcherListResultInner.withValue(List<NetworkWatcherInner> value)
+  name: withValue(List<NetworkWatcherInner> value)
+  nameWithType: NetworkWatcherListResultInner.withValue(List<NetworkWatcherInner> value)
+  summary: 'Set the value property: List of network watcher resources.'
+  parameters:
+  - description: the value value to set.
+    name: value
+    type: <xref href="java.util.List?alt=java.util.List&text=List" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.resourcemanager.network.fluent.inner.NetworkWatcherInner?alt=com.azure.resourcemanager.network.fluent.inner.NetworkWatcherInner&text=NetworkWatcherInner" data-throw-if-not-resolved="False" />&gt;
+  syntax: public NetworkWatcherListResultInner withValue(List<NetworkWatcherInner> value)
+  returns:
+    description: the NetworkWatcherListResultInner object itself.
+    type: <xref href="com.azure.resourcemanager.network.fluent.inner.NetworkWatcherListResultInner?alt=com.azure.resourcemanager.network.fluent.inner.NetworkWatcherListResultInner&text=NetworkWatcherListResultInner" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.resourcemanager.network.fluent.inner
+artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.0.0-beta.2

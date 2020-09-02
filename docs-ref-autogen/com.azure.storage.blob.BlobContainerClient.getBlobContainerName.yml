@@ -1,0 +1,27 @@
+### YamlMime:JavaMember
+uid: com.azure.storage.blob.BlobContainerClient.getBlobContainerName*
+fullName: com.azure.storage.blob.BlobContainerClient.getBlobContainerName
+name: getBlobContainerName
+nameWithType: BlobContainerClient.getBlobContainerName
+members:
+- uid: com.azure.storage.blob.BlobContainerClient.getBlobContainerName()
+  fullName: com.azure.storage.blob.BlobContainerClient.getBlobContainerName()
+  name: getBlobContainerName()
+  nameWithType: BlobContainerClient.getBlobContainerName()
+  summary: |-
+    Get the container name.
+
+     <p><strong>Code Samples</strong></p>
+
+     <pre>
+     String containerName = client.getBlobContainerName&#40;&#41;;
+     System.out.println&#40;&quot;The name of the blob is &quot; + containerName&#41;;
+     </pre>
+  syntax: public String getBlobContainerName()
+  returns:
+    description: The name of container.
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.storage.blob
+artifact: com.azure:azure-storage-blob:12.8.0

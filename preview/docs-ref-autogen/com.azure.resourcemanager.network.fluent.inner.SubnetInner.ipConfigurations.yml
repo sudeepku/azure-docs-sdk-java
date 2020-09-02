@@ -1,0 +1,21 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.network.fluent.inner.SubnetInner.ipConfigurations*
+fullName: com.azure.resourcemanager.network.fluent.inner.SubnetInner.ipConfigurations
+name: ipConfigurations
+nameWithType: SubnetInner.ipConfigurations
+members:
+- uid: com.azure.resourcemanager.network.fluent.inner.SubnetInner.ipConfigurations()
+  fullName: com.azure.resourcemanager.network.fluent.inner.SubnetInner.ipConfigurations()
+  name: ipConfigurations()
+  nameWithType: SubnetInner.ipConfigurations()
+  summary: |-
+    Get the ipConfigurations property: Gets an array of references to the network interface IP configurations using
+     subnet.
+  syntax: public List<IpConfigurationInner> ipConfigurations()
+  returns:
+    description: the ipConfigurations value.
+    type: <xref href="java.util.List?alt=java.util.List&text=List" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.resourcemanager.network.fluent.inner.IpConfigurationInner?alt=com.azure.resourcemanager.network.fluent.inner.IpConfigurationInner&text=IpConfigurationInner" data-throw-if-not-resolved="False" />&gt;
+type: method
+metadata: {}
+package: com.azure.resourcemanager.network.fluent.inner
+artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.0.0-beta.2

@@ -1,0 +1,33 @@
+### YamlMime:JavaMember
+uid: com.azure.storage.blob.specialized.BlobLeaseAsyncClient.breakLeaseWithResponse*
+fullName: com.azure.storage.blob.specialized.BlobLeaseAsyncClient.breakLeaseWithResponse
+name: breakLeaseWithResponse
+nameWithType: BlobLeaseAsyncClient.breakLeaseWithResponse
+members:
+- uid: com.azure.storage.blob.specialized.BlobLeaseAsyncClient.breakLeaseWithResponse(java.lang.Integer,com.azure.core.http.RequestConditions)
+  fullName: com.azure.storage.blob.specialized.BlobLeaseAsyncClient.breakLeaseWithResponse(Integer breakPeriodInSeconds, RequestConditions modifiedRequestConditions)
+  name: breakLeaseWithResponse(Integer breakPeriodInSeconds, RequestConditions modifiedRequestConditions)
+  nameWithType: BlobLeaseAsyncClient.breakLeaseWithResponse(Integer breakPeriodInSeconds, RequestConditions modifiedRequestConditions)
+  summary: "Breaks the previously acquired lease, if it exists.\n\n <p>If <code>null</code> is passed for <code>breakPeriodInSeconds</code> a fixed duration lease will break after the\n remaining lease period elapses and an infinite lease will break immediately.</p>\n\n <p><strong>Code Samples</strong></p>\n\n <pre>\n Integer retainLeaseInSeconds = 5;\n RequestConditions modifiedRequestConditions = new RequestConditions&#40;&#41;\n     .setIfUnmodifiedSince&#40;OffsetDateTime.now&#40;&#41;.minusDays&#40;3&#41;&#41;;\n \n client.breakLeaseWithResponse&#40;retainLeaseInSeconds, modifiedRequestConditions&#41;.subscribe&#40;response -&gt;\n     System.out.printf&#40;&quot;The broken lease has %d seconds remaining on the lease&quot;, response.getValue&#40;&#41;&#41;&#41;;\n </pre>"
+  parameters:
+  - description: |-
+      An optional duration, between 0 and 60 seconds, that the lease should continue before
+       it is broken. If the break period is longer than the time remaining on the lease the remaining time on the lease
+       is used. A new lease will not be available before the break period has expired, but the lease may be held for
+       longer than the break period.
+    name: breakPeriodInSeconds
+    type: <xref href="java.lang.Integer?alt=java.lang.Integer&text=Integer" data-throw-if-not-resolved="False" />
+  - description: |-
+      Standard HTTP Access conditions related to the modification of data. ETag and
+       LastModifiedTime are used to construct conditions related to when the resource was changed relative to the given
+       request. The request will fail if the specified condition is not satisfied.
+    name: modifiedRequestConditions
+    type: <xref href="com.azure.core.http.RequestConditions?alt=com.azure.core.http.RequestConditions&text=RequestConditions" data-throw-if-not-resolved="False" />
+  syntax: public Mono<Response<Integer>> breakLeaseWithResponse(Integer breakPeriodInSeconds, RequestConditions modifiedRequestConditions)
+  returns:
+    description: A reactive response containing the remaining time in the broken lease in seconds.
+    type: <xref href="reactor.core.publisher.Mono?alt=reactor.core.publisher.Mono&text=Mono" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.core.http.rest.Response?alt=com.azure.core.http.rest.Response&text=Response" data-throw-if-not-resolved="False" />&lt;<xref href="java.lang.Integer?alt=java.lang.Integer&text=Integer" data-throw-if-not-resolved="False" />&gt;&gt;
+type: method
+metadata: {}
+package: com.azure.storage.blob.specialized
+artifact: com.azure:azure-storage-blob:12.8.0-beta.1

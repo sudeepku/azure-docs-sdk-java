@@ -1,0 +1,23 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.compute.fluent.inner.VirtualMachineScaleSetListOSUpgradeHistoryInner.withValue*
+fullName: com.azure.resourcemanager.compute.fluent.inner.VirtualMachineScaleSetListOSUpgradeHistoryInner.withValue
+name: withValue
+nameWithType: VirtualMachineScaleSetListOSUpgradeHistoryInner.withValue
+members:
+- uid: com.azure.resourcemanager.compute.fluent.inner.VirtualMachineScaleSetListOSUpgradeHistoryInner.withValue(java.util.List<com.azure.resourcemanager.compute.fluent.inner.UpgradeOperationHistoricalStatusInfoInner>)
+  fullName: com.azure.resourcemanager.compute.fluent.inner.VirtualMachineScaleSetListOSUpgradeHistoryInner.withValue(List<UpgradeOperationHistoricalStatusInfoInner> value)
+  name: withValue(List<UpgradeOperationHistoricalStatusInfoInner> value)
+  nameWithType: VirtualMachineScaleSetListOSUpgradeHistoryInner.withValue(List<UpgradeOperationHistoricalStatusInfoInner> value)
+  summary: 'Set the value property: The list of OS upgrades performed on the virtual machine scale set.'
+  parameters:
+  - description: the value value to set.
+    name: value
+    type: <xref href="java.util.List?alt=java.util.List&text=List" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.resourcemanager.compute.fluent.inner.UpgradeOperationHistoricalStatusInfoInner?alt=com.azure.resourcemanager.compute.fluent.inner.UpgradeOperationHistoricalStatusInfoInner&text=UpgradeOperationHistoricalStatusInfoInner" data-throw-if-not-resolved="False" />&gt;
+  syntax: public VirtualMachineScaleSetListOSUpgradeHistoryInner withValue(List<UpgradeOperationHistoricalStatusInfoInner> value)
+  returns:
+    description: the VirtualMachineScaleSetListOSUpgradeHistoryInner object itself.
+    type: <xref href="com.azure.resourcemanager.compute.fluent.inner.VirtualMachineScaleSetListOSUpgradeHistoryInner?alt=com.azure.resourcemanager.compute.fluent.inner.VirtualMachineScaleSetListOSUpgradeHistoryInner&text=VirtualMachineScaleSetListOSUpgradeHistoryInner" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.resourcemanager.compute.fluent.inner
+artifact: com.azure.resourcemanager:azure-resourcemanager-compute:2.0.0-beta.2

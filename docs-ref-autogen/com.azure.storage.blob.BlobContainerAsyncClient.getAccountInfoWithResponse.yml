@@ -1,0 +1,30 @@
+### YamlMime:JavaMember
+uid: com.azure.storage.blob.BlobContainerAsyncClient.getAccountInfoWithResponse*
+fullName: com.azure.storage.blob.BlobContainerAsyncClient.getAccountInfoWithResponse
+name: getAccountInfoWithResponse
+nameWithType: BlobContainerAsyncClient.getAccountInfoWithResponse
+members:
+- uid: com.azure.storage.blob.BlobContainerAsyncClient.getAccountInfoWithResponse()
+  fullName: com.azure.storage.blob.BlobContainerAsyncClient.getAccountInfoWithResponse()
+  name: getAccountInfoWithResponse()
+  nameWithType: BlobContainerAsyncClient.getAccountInfoWithResponse()
+  summary: |-
+    Returns the sku name and account kind for the account. For more information, please see the
+     <a href="https://docs.microsoft.com/en-us/rest/api/storageservices/get-account-information">Azure Docs</a>.
+
+     <p><strong>Code Samples</strong></p>
+
+     <pre>
+     client.getAccountInfoWithResponse&#40;&#41;.subscribe&#40;response -&gt;
+         System.out.printf&#40;&quot;Account Kind: %s, SKU: %s%n&quot;,
+             response.getValue&#40;&#41;.getAccountKind&#40;&#41;,
+             response.getValue&#40;&#41;.getSkuName&#40;&#41;&#41;&#41;;
+     </pre>
+  syntax: public Mono<Response<StorageAccountInfo>> getAccountInfoWithResponse()
+  returns:
+    description: A reactive response containing the account info.
+    type: <xref href="reactor.core.publisher.Mono?alt=reactor.core.publisher.Mono&text=Mono" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.core.http.rest.Response?alt=com.azure.core.http.rest.Response&text=Response" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.storage.blob.models.StorageAccountInfo?alt=com.azure.storage.blob.models.StorageAccountInfo&text=StorageAccountInfo" data-throw-if-not-resolved="False" />&gt;&gt;
+type: method
+metadata: {}
+package: com.azure.storage.blob
+artifact: com.azure:azure-storage-blob:12.8.0

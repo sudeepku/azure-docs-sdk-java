@@ -1,0 +1,23 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.compute.fluent.inner.DiskListInner.withValue*
+fullName: com.azure.resourcemanager.compute.fluent.inner.DiskListInner.withValue
+name: withValue
+nameWithType: DiskListInner.withValue
+members:
+- uid: com.azure.resourcemanager.compute.fluent.inner.DiskListInner.withValue(java.util.List<com.azure.resourcemanager.compute.fluent.inner.DiskInner>)
+  fullName: com.azure.resourcemanager.compute.fluent.inner.DiskListInner.withValue(List<DiskInner> value)
+  name: withValue(List<DiskInner> value)
+  nameWithType: DiskListInner.withValue(List<DiskInner> value)
+  summary: 'Set the value property: A list of disks.'
+  parameters:
+  - description: the value value to set.
+    name: value
+    type: <xref href="java.util.List?alt=java.util.List&text=List" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.resourcemanager.compute.fluent.inner.DiskInner?alt=com.azure.resourcemanager.compute.fluent.inner.DiskInner&text=DiskInner" data-throw-if-not-resolved="False" />&gt;
+  syntax: public DiskListInner withValue(List<DiskInner> value)
+  returns:
+    description: the DiskListInner object itself.
+    type: <xref href="com.azure.resourcemanager.compute.fluent.inner.DiskListInner?alt=com.azure.resourcemanager.compute.fluent.inner.DiskListInner&text=DiskListInner" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.resourcemanager.compute.fluent.inner
+artifact: com.azure.resourcemanager:azure-resourcemanager-compute:2.0.0-beta.2

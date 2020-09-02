@@ -1,0 +1,23 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.network.models.FirewallPolicyRuleConditionNetworkProtocol.fromString*
+fullName: com.azure.resourcemanager.network.models.FirewallPolicyRuleConditionNetworkProtocol.fromString
+name: fromString
+nameWithType: FirewallPolicyRuleConditionNetworkProtocol.fromString
+members:
+- uid: com.azure.resourcemanager.network.models.FirewallPolicyRuleConditionNetworkProtocol.fromString(java.lang.String)
+  fullName: com.azure.resourcemanager.network.models.FirewallPolicyRuleConditionNetworkProtocol.fromString(String name)
+  name: fromString(String name)
+  nameWithType: FirewallPolicyRuleConditionNetworkProtocol.fromString(String name)
+  summary: Creates or finds a FirewallPolicyRuleConditionNetworkProtocol from its string representation.
+  parameters:
+  - description: a name to look for.
+    name: name
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  syntax: public static FirewallPolicyRuleConditionNetworkProtocol fromString(String name)
+  returns:
+    description: the corresponding FirewallPolicyRuleConditionNetworkProtocol.
+    type: <xref href="com.azure.resourcemanager.network.models.FirewallPolicyRuleConditionNetworkProtocol?alt=com.azure.resourcemanager.network.models.FirewallPolicyRuleConditionNetworkProtocol&text=FirewallPolicyRuleConditionNetworkProtocol" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.resourcemanager.network.models
+artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.0.0-beta.2

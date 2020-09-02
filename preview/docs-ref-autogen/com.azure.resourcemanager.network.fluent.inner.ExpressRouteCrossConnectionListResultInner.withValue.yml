@@ -1,0 +1,23 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.network.fluent.inner.ExpressRouteCrossConnectionListResultInner.withValue*
+fullName: com.azure.resourcemanager.network.fluent.inner.ExpressRouteCrossConnectionListResultInner.withValue
+name: withValue
+nameWithType: ExpressRouteCrossConnectionListResultInner.withValue
+members:
+- uid: com.azure.resourcemanager.network.fluent.inner.ExpressRouteCrossConnectionListResultInner.withValue(java.util.List<com.azure.resourcemanager.network.fluent.inner.ExpressRouteCrossConnectionInner>)
+  fullName: com.azure.resourcemanager.network.fluent.inner.ExpressRouteCrossConnectionListResultInner.withValue(List<ExpressRouteCrossConnectionInner> value)
+  name: withValue(List<ExpressRouteCrossConnectionInner> value)
+  nameWithType: ExpressRouteCrossConnectionListResultInner.withValue(List<ExpressRouteCrossConnectionInner> value)
+  summary: 'Set the value property: A list of ExpressRouteCrossConnection resources.'
+  parameters:
+  - description: the value value to set.
+    name: value
+    type: <xref href="java.util.List?alt=java.util.List&text=List" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.resourcemanager.network.fluent.inner.ExpressRouteCrossConnectionInner?alt=com.azure.resourcemanager.network.fluent.inner.ExpressRouteCrossConnectionInner&text=ExpressRouteCrossConnectionInner" data-throw-if-not-resolved="False" />&gt;
+  syntax: public ExpressRouteCrossConnectionListResultInner withValue(List<ExpressRouteCrossConnectionInner> value)
+  returns:
+    description: the ExpressRouteCrossConnectionListResultInner object itself.
+    type: <xref href="com.azure.resourcemanager.network.fluent.inner.ExpressRouteCrossConnectionListResultInner?alt=com.azure.resourcemanager.network.fluent.inner.ExpressRouteCrossConnectionListResultInner&text=ExpressRouteCrossConnectionListResultInner" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.resourcemanager.network.fluent.inner
+artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.0.0-beta.2

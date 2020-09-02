@@ -1,0 +1,27 @@
+### YamlMime:JavaMember
+uid: com.azure.cosmos.implementation.guava25.math.IntMath.isPrime*
+fullName: com.azure.cosmos.implementation.guava25.math.IntMath.isPrime
+name: isPrime
+nameWithType: IntMath.isPrime
+members:
+- uid: com.azure.cosmos.implementation.guava25.math.IntMath.isPrime(int)
+  fullName: com.azure.cosmos.implementation.guava25.math.IntMath.isPrime(int n)
+  name: isPrime(int n)
+  nameWithType: IntMath.isPrime(int n)
+  summary: |-
+    Returns <code>true</code> if <code>n</code> is a <a href="http://mathworld.wolfram.com/PrimeNumber.html">prime number</a>: an integer <i>greater
+     than one</i> that cannot be factored into a product of <i>smaller</i> positive integers.
+     Returns <code>false</code> if <code>n</code> is zero, one, or a composite number (one which <i>can</i> be
+     factored into smaller positive integers).
+
+     <p>To test larger numbers, use <xref uid="LongMath#isPrime" data-throw-if-not-resolved="false">LongMath#isPrime</xref> or <xref uid="BigInteger#isProbablePrime" data-throw-if-not-resolved="false">BigInteger#isProbablePrime</xref>.
+  parameters:
+  - name: n
+    type: <xref href="int?alt=int&text=int" data-throw-if-not-resolved="False" />
+  syntax: public static boolean isPrime(int n)
+  returns:
+    type: <xref href="boolean?alt=boolean&text=boolean" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.cosmos.implementation.guava25.math
+artifact: com.azure:azure-cosmos:4.3.2-beta.2

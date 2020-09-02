@@ -1,0 +1,16 @@
+### YamlMime:JavaMember
+uid: com.azure.search.documents.indexes.implementation.models.TokenFilterName.SCANDINAVIAN_FOLDING
+fullName: com.azure.search.documents.indexes.implementation.models.TokenFilterName.SCANDINAVIAN_FOLDING
+name: SCANDINAVIAN_FOLDING
+nameWithType: TokenFilterName.SCANDINAVIAN_FOLDING
+members:
+- uid: com.azure.search.documents.indexes.implementation.models.TokenFilterName.SCANDINAVIAN_FOLDING
+  fullName: com.azure.search.documents.indexes.implementation.models.TokenFilterName.SCANDINAVIAN_FOLDING
+  name: SCANDINAVIAN_FOLDING
+  nameWithType: TokenFilterName.SCANDINAVIAN_FOLDING
+  summary: Static value scandinavian_folding for TokenFilterName.
+  syntax: public static final TokenFilterName SCANDINAVIAN_FOLDING
+type: field
+metadata: {}
+package: com.azure.search.documents.indexes.implementation.models
+artifact: com.azure:azure-search-documents:11.0.0

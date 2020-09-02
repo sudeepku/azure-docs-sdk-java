@@ -1,0 +1,15 @@
+### YamlMime:JavaMember
+uid: com.azure.messaging.servicebus.implementation.models.TrueFilter.TrueFilter*
+fullName: com.azure.messaging.servicebus.implementation.models.TrueFilter.TrueFilter
+name: TrueFilter
+nameWithType: TrueFilter.TrueFilter
+members:
+- uid: com.azure.messaging.servicebus.implementation.models.TrueFilter.TrueFilter()
+  fullName: com.azure.messaging.servicebus.implementation.models.TrueFilter.TrueFilter()
+  name: TrueFilter()
+  nameWithType: TrueFilter.TrueFilter()
+  syntax: public TrueFilter()
+type: constructor
+metadata: {}
+package: com.azure.messaging.servicebus.implementation.models
+artifact: com.azure:azure-messaging-servicebus:7.0.0-beta.5

@@ -1,0 +1,57 @@
+### YamlMime:JavaMember
+uid: com.azure.storage.file.datalake.DataLakePathAsyncClient.create*
+fullName: com.azure.storage.file.datalake.DataLakePathAsyncClient.create
+name: create
+nameWithType: DataLakePathAsyncClient.create
+members:
+- uid: com.azure.storage.file.datalake.DataLakePathAsyncClient.create()
+  fullName: com.azure.storage.file.datalake.DataLakePathAsyncClient.create()
+  name: create()
+  nameWithType: DataLakePathAsyncClient.create()
+  summary: |-
+    Creates a resource. By default this method will not overwrite an existing path.
+
+     <p><strong>Code Samples</strong></p>
+
+     <pre>
+     client.create&#40;&#41;.subscribe&#40;response -&gt;
+         System.out.printf&#40;&quot;Last Modified Time:%s&quot;, response.getLastModified&#40;&#41;&#41;&#41;;
+     </pre>
+
+     <p>For more information see the
+     <a href="https://docs.microsoft.com/en-us/rest/api/storageservices/datalakestoragegen2/path/create">Azure
+     Docs</a></p>
+  syntax: public Mono<PathInfo> create()
+  returns:
+    description: A reactive response containing information about the created resource.
+    type: <xref href="reactor.core.publisher.Mono?alt=reactor.core.publisher.Mono&text=Mono" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.storage.file.datalake.models.PathInfo?alt=com.azure.storage.file.datalake.models.PathInfo&text=PathInfo" data-throw-if-not-resolved="False" />&gt;
+- uid: com.azure.storage.file.datalake.DataLakePathAsyncClient.create(boolean)
+  fullName: com.azure.storage.file.datalake.DataLakePathAsyncClient.create(boolean overwrite)
+  name: create(boolean overwrite)
+  nameWithType: DataLakePathAsyncClient.create(boolean overwrite)
+  summary: |-
+    Creates a resource.
+
+     <p><strong>Code Samples</strong></p>
+
+     <pre>
+     boolean overwrite = true;
+     client.create&#40;overwrite&#41;.subscribe&#40;response -&gt;
+         System.out.printf&#40;&quot;Last Modified Time:%s&quot;, response.getLastModified&#40;&#41;&#41;&#41;;
+     </pre>
+
+     <p>For more information see the
+     <a href="https://docs.microsoft.com/en-us/rest/api/storageservices/datalakestoragegen2/path/create">Azure
+     Docs</a></p>
+  parameters:
+  - description: Whether or not to overwrite, should data exist on the file.
+    name: overwrite
+    type: <xref href="boolean?alt=boolean&text=boolean" data-throw-if-not-resolved="False" />
+  syntax: public Mono<PathInfo> create(boolean overwrite)
+  returns:
+    description: A reactive response containing information about the created resource.
+    type: <xref href="reactor.core.publisher.Mono?alt=reactor.core.publisher.Mono&text=Mono" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.storage.file.datalake.models.PathInfo?alt=com.azure.storage.file.datalake.models.PathInfo&text=PathInfo" data-throw-if-not-resolved="False" />&gt;
+type: method
+metadata: {}
+package: com.azure.storage.file.datalake
+artifact: com.azure:azure-storage-file-datalake:12.2.0-beta.1

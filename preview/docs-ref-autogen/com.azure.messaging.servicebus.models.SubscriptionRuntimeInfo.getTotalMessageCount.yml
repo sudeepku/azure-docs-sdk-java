@@ -1,0 +1,19 @@
+### YamlMime:JavaMember
+uid: com.azure.messaging.servicebus.models.SubscriptionRuntimeInfo.getTotalMessageCount*
+fullName: com.azure.messaging.servicebus.models.SubscriptionRuntimeInfo.getTotalMessageCount
+name: getTotalMessageCount
+nameWithType: SubscriptionRuntimeInfo.getTotalMessageCount
+members:
+- uid: com.azure.messaging.servicebus.models.SubscriptionRuntimeInfo.getTotalMessageCount()
+  fullName: com.azure.messaging.servicebus.models.SubscriptionRuntimeInfo.getTotalMessageCount()
+  name: getTotalMessageCount()
+  nameWithType: SubscriptionRuntimeInfo.getTotalMessageCount()
+  summary: Gets the number of messages in the subscription.
+  syntax: public long getTotalMessageCount()
+  returns:
+    description: The number of messages in the subscription.
+    type: <xref href="long?alt=long&text=long" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.messaging.servicebus.models
+artifact: com.azure:azure-messaging-servicebus:7.0.0-beta.5

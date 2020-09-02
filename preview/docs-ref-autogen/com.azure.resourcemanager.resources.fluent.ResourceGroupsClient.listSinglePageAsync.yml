@@ -1,0 +1,49 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.resources.fluent.ResourceGroupsClient.listSinglePageAsync*
+fullName: com.azure.resourcemanager.resources.fluent.ResourceGroupsClient.listSinglePageAsync
+name: listSinglePageAsync
+nameWithType: ResourceGroupsClient.listSinglePageAsync
+members:
+- uid: com.azure.resourcemanager.resources.fluent.ResourceGroupsClient.listSinglePageAsync(java.lang.String,java.lang.Integer)
+  fullName: com.azure.resourcemanager.resources.fluent.ResourceGroupsClient.listSinglePageAsync(String filter, Integer top)
+  name: listSinglePageAsync(String filter, Integer top)
+  nameWithType: ResourceGroupsClient.listSinglePageAsync(String filter, Integer top)
+  summary: Gets all the resource groups for a subscription.
+  parameters:
+  - description: |-
+      The filter to apply on the operation.&lt;br&gt;&lt;br&gt;You can filter by tag names and values.
+           For example, to filter for a tag name and value, use $filter=tagName eq 'tag1' and tagValue eq 'Value1'.
+    name: filter
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  - description: The number of results to return. If null is passed, returns all resource groups.
+    name: top
+    type: <xref href="java.lang.Integer?alt=java.lang.Integer&text=Integer" data-throw-if-not-resolved="False" />
+  syntax: public Mono<PagedResponse<ResourceGroupInner>> listSinglePageAsync(String filter, Integer top)
+  returns:
+    description: all the resource groups for a subscription.
+    type: <xref href="reactor.core.publisher.Mono?alt=reactor.core.publisher.Mono&text=Mono" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.core.http.rest.PagedResponse?alt=com.azure.core.http.rest.PagedResponse&text=PagedResponse" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.resourcemanager.resources.fluent.inner.ResourceGroupInner?alt=com.azure.resourcemanager.resources.fluent.inner.ResourceGroupInner&text=ResourceGroupInner" data-throw-if-not-resolved="False" />&gt;&gt;
+- uid: com.azure.resourcemanager.resources.fluent.ResourceGroupsClient.listSinglePageAsync(java.lang.String,java.lang.Integer,com.azure.core.util.Context)
+  fullName: com.azure.resourcemanager.resources.fluent.ResourceGroupsClient.listSinglePageAsync(String filter, Integer top, Context context)
+  name: listSinglePageAsync(String filter, Integer top, Context context)
+  nameWithType: ResourceGroupsClient.listSinglePageAsync(String filter, Integer top, Context context)
+  summary: Gets all the resource groups for a subscription.
+  parameters:
+  - description: |-
+      The filter to apply on the operation.&lt;br&gt;&lt;br&gt;You can filter by tag names and values.
+           For example, to filter for a tag name and value, use $filter=tagName eq 'tag1' and tagValue eq 'Value1'.
+    name: filter
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  - description: The number of results to return. If null is passed, returns all resource groups.
+    name: top
+    type: <xref href="java.lang.Integer?alt=java.lang.Integer&text=Integer" data-throw-if-not-resolved="False" />
+  - description: The context to associate with this operation.
+    name: context
+    type: <xref href="com.azure.core.util.Context?alt=com.azure.core.util.Context&text=Context" data-throw-if-not-resolved="False" />
+  syntax: public Mono<PagedResponse<ResourceGroupInner>> listSinglePageAsync(String filter, Integer top, Context context)
+  returns:
+    description: all the resource groups for a subscription.
+    type: <xref href="reactor.core.publisher.Mono?alt=reactor.core.publisher.Mono&text=Mono" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.core.http.rest.PagedResponse?alt=com.azure.core.http.rest.PagedResponse&text=PagedResponse" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.resourcemanager.resources.fluent.inner.ResourceGroupInner?alt=com.azure.resourcemanager.resources.fluent.inner.ResourceGroupInner&text=ResourceGroupInner" data-throw-if-not-resolved="False" />&gt;&gt;
+type: method
+metadata: {}
+package: com.azure.resourcemanager.resources.fluent
+artifact: com.azure.resourcemanager:azure-resourcemanager-resources:2.0.0-beta.2

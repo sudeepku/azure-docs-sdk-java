@@ -1,0 +1,30 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.resources.fluentcore.utils.PagedList.remove*
+fullName: com.azure.resourcemanager.resources.fluentcore.utils.PagedList<E>.remove
+name: remove
+nameWithType: PagedList<E>.remove
+members:
+- uid: com.azure.resourcemanager.resources.fluentcore.utils.PagedList.remove(int)
+  fullName: com.azure.resourcemanager.resources.fluentcore.utils.PagedList<E>.remove(int index)
+  name: remove(int index)
+  nameWithType: PagedList<E>.remove(int index)
+  parameters:
+  - name: index
+    type: <xref href="int?alt=int&text=int" data-throw-if-not-resolved="False" />
+  syntax: public E remove(int index)
+  returns:
+    type: <xref href="E?alt=E&text=E" data-throw-if-not-resolved="False" />
+- uid: com.azure.resourcemanager.resources.fluentcore.utils.PagedList.remove(java.lang.Object)
+  fullName: com.azure.resourcemanager.resources.fluentcore.utils.PagedList<E>.remove(Object o)
+  name: remove(Object o)
+  nameWithType: PagedList<E>.remove(Object o)
+  parameters:
+  - name: o
+    type: <xref href="java.lang.Object?alt=java.lang.Object&text=Object" data-throw-if-not-resolved="False" />
+  syntax: public boolean remove(Object o)
+  returns:
+    type: <xref href="boolean?alt=boolean&text=boolean" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.resourcemanager.resources.fluentcore.utils
+artifact: com.azure.resourcemanager:azure-resourcemanager-resources:2.0.0-beta.2

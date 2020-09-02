@@ -1,0 +1,34 @@
+### YamlMime:JavaMember
+uid: com.azure.storage.queue.QueueClient.getAccessPolicy*
+fullName: com.azure.storage.queue.QueueClient.getAccessPolicy
+name: getAccessPolicy
+nameWithType: QueueClient.getAccessPolicy
+members:
+- uid: com.azure.storage.queue.QueueClient.getAccessPolicy()
+  fullName: com.azure.storage.queue.QueueClient.getAccessPolicy()
+  name: getAccessPolicy()
+  nameWithType: QueueClient.getAccessPolicy()
+  summary: |-
+    Retrieves stored access policies specified on the queue.
+
+     <p><strong>Code Samples</strong></p>
+
+     <p>List the stored access policies</p>
+
+     <pre>
+     for &#40;QueueSignedIdentifier permission : client.getAccessPolicy&#40;&#41;&#41; &#123;
+         System.out.printf&#40;&quot;Access policy %s allows these permissions: %s&quot;, permission.getId&#40;&#41;,
+             permission.getAccessPolicy&#40;&#41;.getPermissions&#40;&#41;&#41;;
+     &#125;
+     </pre>
+
+     <p>For more information, see the
+     <a href="https://docs.microsoft.com/en-us/rest/api/storageservices/get-queue-acl">Azure Docs</a>.</p>
+  syntax: public PagedIterable<QueueSignedIdentifier> getAccessPolicy()
+  returns:
+    description: The stored access policies specified on the queue.
+    type: <xref href="com.azure.core.http.rest.PagedIterable?alt=com.azure.core.http.rest.PagedIterable&text=PagedIterable" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.storage.queue.models.QueueSignedIdentifier?alt=com.azure.storage.queue.models.QueueSignedIdentifier&text=QueueSignedIdentifier" data-throw-if-not-resolved="False" />&gt;
+type: method
+metadata: {}
+package: com.azure.storage.queue
+artifact: com.azure:azure-storage-queue:12.6.0

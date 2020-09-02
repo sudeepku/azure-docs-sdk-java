@@ -1,0 +1,19 @@
+### YamlMime:JavaMember
+uid: com.azure.messaging.servicebus.models.SubscriptionRuntimeInfo.getDeadLetterMessageCount*
+fullName: com.azure.messaging.servicebus.models.SubscriptionRuntimeInfo.getDeadLetterMessageCount
+name: getDeadLetterMessageCount
+nameWithType: SubscriptionRuntimeInfo.getDeadLetterMessageCount
+members:
+- uid: com.azure.messaging.servicebus.models.SubscriptionRuntimeInfo.getDeadLetterMessageCount()
+  fullName: com.azure.messaging.servicebus.models.SubscriptionRuntimeInfo.getDeadLetterMessageCount()
+  name: getDeadLetterMessageCount()
+  nameWithType: SubscriptionRuntimeInfo.getDeadLetterMessageCount()
+  summary: 'Get the deadLetterMessageCount property: Number of messages that are dead lettered.'
+  syntax: public int getDeadLetterMessageCount()
+  returns:
+    description: the deadLetterMessageCount value.
+    type: <xref href="int?alt=int&text=int" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.messaging.servicebus.models
+artifact: com.azure:azure-messaging-servicebus:7.0.0-beta.5

@@ -1,0 +1,23 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.appservice.fluent.inner.StaticSiteCollectionInner.withValue*
+fullName: com.azure.resourcemanager.appservice.fluent.inner.StaticSiteCollectionInner.withValue
+name: withValue
+nameWithType: StaticSiteCollectionInner.withValue
+members:
+- uid: com.azure.resourcemanager.appservice.fluent.inner.StaticSiteCollectionInner.withValue(java.util.List<com.azure.resourcemanager.appservice.fluent.inner.StaticSiteArmResourceInner>)
+  fullName: com.azure.resourcemanager.appservice.fluent.inner.StaticSiteCollectionInner.withValue(List<StaticSiteArmResourceInner> value)
+  name: withValue(List<StaticSiteArmResourceInner> value)
+  nameWithType: StaticSiteCollectionInner.withValue(List<StaticSiteArmResourceInner> value)
+  summary: 'Set the value property: Collection of resources.'
+  parameters:
+  - description: the value value to set.
+    name: value
+    type: <xref href="java.util.List?alt=java.util.List&text=List" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.resourcemanager.appservice.fluent.inner.StaticSiteArmResourceInner?alt=com.azure.resourcemanager.appservice.fluent.inner.StaticSiteArmResourceInner&text=StaticSiteArmResourceInner" data-throw-if-not-resolved="False" />&gt;
+  syntax: public StaticSiteCollectionInner withValue(List<StaticSiteArmResourceInner> value)
+  returns:
+    description: the StaticSiteCollectionInner object itself.
+    type: <xref href="com.azure.resourcemanager.appservice.fluent.inner.StaticSiteCollectionInner?alt=com.azure.resourcemanager.appservice.fluent.inner.StaticSiteCollectionInner&text=StaticSiteCollectionInner" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.resourcemanager.appservice.fluent.inner
+artifact: com.azure.resourcemanager:azure-resourcemanager-appservice:2.0.0-beta.2

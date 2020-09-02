@@ -1,0 +1,16 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.network.models.FirewallPolicyRuleConditionType.NETWORK_RULE_CONDITION
+fullName: com.azure.resourcemanager.network.models.FirewallPolicyRuleConditionType.NETWORK_RULE_CONDITION
+name: NETWORK_RULE_CONDITION
+nameWithType: FirewallPolicyRuleConditionType.NETWORK_RULE_CONDITION
+members:
+- uid: com.azure.resourcemanager.network.models.FirewallPolicyRuleConditionType.NETWORK_RULE_CONDITION
+  fullName: com.azure.resourcemanager.network.models.FirewallPolicyRuleConditionType.NETWORK_RULE_CONDITION
+  name: NETWORK_RULE_CONDITION
+  nameWithType: FirewallPolicyRuleConditionType.NETWORK_RULE_CONDITION
+  summary: Static value NetworkRuleCondition for FirewallPolicyRuleConditionType.
+  syntax: public static final FirewallPolicyRuleConditionType NETWORK_RULE_CONDITION
+type: field
+metadata: {}
+package: com.azure.resourcemanager.network.models
+artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.0.0-beta.2

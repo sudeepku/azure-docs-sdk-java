@@ -1,0 +1,29 @@
+### YamlMime:JavaMember
+uid: com.azure.data.schemaregistry.client.SchemaRegistryObject.SchemaRegistryObject*
+fullName: com.azure.data.schemaregistry.client.SchemaRegistryObject.SchemaRegistryObject
+name: SchemaRegistryObject
+nameWithType: SchemaRegistryObject.SchemaRegistryObject
+members:
+- uid: com.azure.data.schemaregistry.client.SchemaRegistryObject.SchemaRegistryObject(java.lang.String,java.lang.String,byte[],java.util.function.Function<java.lang.String,java.lang.Object>)
+  fullName: com.azure.data.schemaregistry.client.SchemaRegistryObject.SchemaRegistryObject(String schemaId, String schemaType, byte[] schemaByteArray, Function<String,Object> parseMethod)
+  name: SchemaRegistryObject(String schemaId, String schemaType, byte[] schemaByteArray, Function<String,Object> parseMethod)
+  nameWithType: SchemaRegistryObject.SchemaRegistryObject(String schemaId, String schemaType, byte[] schemaByteArray, Function<String,Object> parseMethod)
+  summary: Initializes SchemaRegistryObject instance.
+  parameters:
+  - description: schema ID
+    name: schemaId
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  - description: type of schema, e.g. avro, json
+    name: schemaType
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  - description: byte payload representing schema, returned from Azure Schema Registry
+    name: schemaByteArray
+    type: <xref href="byte?alt=byte&text=byte" data-throw-if-not-resolved="False" />[]
+  - description: method to deserialize schema payload into Object
+    name: parseMethod
+    type: <xref href="java.util.function.Function?alt=java.util.function.Function&text=Function" data-throw-if-not-resolved="False" />&lt;<xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />,<xref href="java.lang.Object?alt=java.lang.Object&text=Object" data-throw-if-not-resolved="False" />&gt;
+  syntax: public SchemaRegistryObject(String schemaId, String schemaType, byte[] schemaByteArray, Function<String,Object> parseMethod)
+type: constructor
+metadata: {}
+package: com.azure.data.schemaregistry.client
+artifact: com.azure:azure-data-schemaregistry:1.0.0-beta.1

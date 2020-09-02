@@ -1,0 +1,21 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.appservice.fluent.inner.AppServicePlanInner.reserved*
+fullName: com.azure.resourcemanager.appservice.fluent.inner.AppServicePlanInner.reserved
+name: reserved
+nameWithType: AppServicePlanInner.reserved
+members:
+- uid: com.azure.resourcemanager.appservice.fluent.inner.AppServicePlanInner.reserved()
+  fullName: com.azure.resourcemanager.appservice.fluent.inner.AppServicePlanInner.reserved()
+  name: reserved()
+  nameWithType: AppServicePlanInner.reserved()
+  summary: |-
+    Get the reserved property: If Linux app service plan &lt;code&gt;true&lt;/code&gt;,
+     &lt;code&gt;false&lt;/code&gt; otherwise.
+  syntax: public Boolean reserved()
+  returns:
+    description: the reserved value.
+    type: <xref href="java.lang.Boolean?alt=java.lang.Boolean&text=Boolean" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.resourcemanager.appservice.fluent.inner
+artifact: com.azure.resourcemanager:azure-resourcemanager-appservice:2.0.0-beta.2

@@ -1,0 +1,20 @@
+### YamlMime:JavaMember
+uid: com.azure.search.documents.implementation.util.MappingUtils.mappingAutocompleteResponse*
+fullName: com.azure.search.documents.implementation.util.MappingUtils.mappingAutocompleteResponse
+name: mappingAutocompleteResponse
+nameWithType: MappingUtils.mappingAutocompleteResponse
+members:
+- uid: com.azure.search.documents.implementation.util.MappingUtils.mappingAutocompleteResponse(com.azure.core.http.rest.Response<com.azure.search.documents.implementation.models.AutocompleteResult>)
+  fullName: com.azure.search.documents.implementation.util.MappingUtils.mappingAutocompleteResponse(Response<AutocompleteResult> autocompleteResultResponse)
+  name: mappingAutocompleteResponse(Response<AutocompleteResult> autocompleteResultResponse)
+  nameWithType: MappingUtils.mappingAutocompleteResponse(Response<AutocompleteResult> autocompleteResultResponse)
+  parameters:
+  - name: autocompleteResultResponse
+    type: <xref href="com.azure.core.http.rest.Response?alt=com.azure.core.http.rest.Response&text=Response" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.search.documents.implementation.models.AutocompleteResult?alt=com.azure.search.documents.implementation.models.AutocompleteResult&text=AutocompleteResult" data-throw-if-not-resolved="False" />&gt;
+  syntax: public static AutocompletePagedResponse mappingAutocompleteResponse(Response<AutocompleteResult> autocompleteResultResponse)
+  returns:
+    type: <xref href="com.azure.search.documents.util.AutocompletePagedResponse?alt=com.azure.search.documents.util.AutocompletePagedResponse&text=AutocompletePagedResponse" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.search.documents.implementation.util
+artifact: com.azure:azure-search-documents:11.1.0-beta.1

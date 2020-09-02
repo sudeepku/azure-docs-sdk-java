@@ -1,0 +1,31 @@
+### YamlMime:JavaMember
+uid: com.azure.cosmos.implementation.guava25.base.Splitter.omitEmptyStrings*
+fullName: com.azure.cosmos.implementation.guava25.base.Splitter.omitEmptyStrings
+name: omitEmptyStrings
+nameWithType: Splitter.omitEmptyStrings
+members:
+- uid: com.azure.cosmos.implementation.guava25.base.Splitter.omitEmptyStrings()
+  fullName: com.azure.cosmos.implementation.guava25.base.Splitter.omitEmptyStrings()
+  name: omitEmptyStrings()
+  nameWithType: Splitter.omitEmptyStrings()
+  summary: |-
+    Returns a splitter that behaves equivalently to <code>this</code> splitter, but automatically omits
+     empty strings from the results. For example, <code>
+     Splitter.on(',').omitEmptyStrings().split(",a,,,b,c,,")</code> returns an iterable containing only
+     <code>["a", "b", "c"]</code>.
+
+     <p>If either <code>trimResults</code> option is also specified when creating a splitter, that
+     splitter always trims results first before checking for emptiness. So, for example, <code>
+     Splitter.on(':').omitEmptyStrings().trimResults().split(": : : ")</code> returns an empty iterable.
+
+     <p>Note that it is ordinarily not possible for <xref uid="#split(CharSequence)" data-throw-if-not-resolved="false">#split(CharSequence)</xref> to return an empty
+     iterable, but when using this option, it can (if the input sequence consists of nothing but
+     separators).
+  syntax: public Splitter omitEmptyStrings()
+  returns:
+    description: a splitter with the desired configuration
+    type: <xref href="com.azure.cosmos.implementation.guava25.base.Splitter?alt=com.azure.cosmos.implementation.guava25.base.Splitter&text=Splitter" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.cosmos.implementation.guava25.base
+artifact: com.azure:azure-cosmos:4.3.2-beta.2

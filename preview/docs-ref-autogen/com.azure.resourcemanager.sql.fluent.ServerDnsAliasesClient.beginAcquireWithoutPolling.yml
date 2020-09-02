@@ -1,0 +1,55 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.sql.fluent.ServerDnsAliasesClient.beginAcquireWithoutPolling*
+fullName: com.azure.resourcemanager.sql.fluent.ServerDnsAliasesClient.beginAcquireWithoutPolling
+name: beginAcquireWithoutPolling
+nameWithType: ServerDnsAliasesClient.beginAcquireWithoutPolling
+members:
+- uid: com.azure.resourcemanager.sql.fluent.ServerDnsAliasesClient.beginAcquireWithoutPolling(java.lang.String,java.lang.String,java.lang.String,java.lang.String)
+  fullName: com.azure.resourcemanager.sql.fluent.ServerDnsAliasesClient.beginAcquireWithoutPolling(String resourceGroupName, String serverName, String dnsAliasName, String oldServerDnsAliasId)
+  name: beginAcquireWithoutPolling(String resourceGroupName, String serverName, String dnsAliasName, String oldServerDnsAliasId)
+  nameWithType: ServerDnsAliasesClient.beginAcquireWithoutPolling(String resourceGroupName, String serverName, String dnsAliasName, String oldServerDnsAliasId)
+  summary: Acquires server DNS alias from another server.
+  parameters:
+  - description: |-
+      The name of the resource group that contains the resource. You can obtain this value
+           from the Azure Resource Manager API or the portal.
+    name: resourceGroupName
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  - description: The name of the server that the alias is pointing to.
+    name: serverName
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  - description: The name of the server dns alias.
+    name: dnsAliasName
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  - description: The id of the server alias that will be acquired to point to this server instead.
+    name: oldServerDnsAliasId
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  syntax: public void beginAcquireWithoutPolling(String resourceGroupName, String serverName, String dnsAliasName, String oldServerDnsAliasId)
+- uid: com.azure.resourcemanager.sql.fluent.ServerDnsAliasesClient.beginAcquireWithoutPolling(java.lang.String,java.lang.String,java.lang.String,java.lang.String,com.azure.core.util.Context)
+  fullName: com.azure.resourcemanager.sql.fluent.ServerDnsAliasesClient.beginAcquireWithoutPolling(String resourceGroupName, String serverName, String dnsAliasName, String oldServerDnsAliasId, Context context)
+  name: beginAcquireWithoutPolling(String resourceGroupName, String serverName, String dnsAliasName, String oldServerDnsAliasId, Context context)
+  nameWithType: ServerDnsAliasesClient.beginAcquireWithoutPolling(String resourceGroupName, String serverName, String dnsAliasName, String oldServerDnsAliasId, Context context)
+  summary: Acquires server DNS alias from another server.
+  parameters:
+  - description: |-
+      The name of the resource group that contains the resource. You can obtain this value
+           from the Azure Resource Manager API or the portal.
+    name: resourceGroupName
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  - description: The name of the server that the alias is pointing to.
+    name: serverName
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  - description: The name of the server dns alias.
+    name: dnsAliasName
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  - description: The id of the server alias that will be acquired to point to this server instead.
+    name: oldServerDnsAliasId
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  - description: The context to associate with this operation.
+    name: context
+    type: <xref href="com.azure.core.util.Context?alt=com.azure.core.util.Context&text=Context" data-throw-if-not-resolved="False" />
+  syntax: public void beginAcquireWithoutPolling(String resourceGroupName, String serverName, String dnsAliasName, String oldServerDnsAliasId, Context context)
+type: method
+metadata: {}
+package: com.azure.resourcemanager.sql.fluent
+artifact: com.azure.resourcemanager:azure-resourcemanager-sql:2.0.0-beta.2

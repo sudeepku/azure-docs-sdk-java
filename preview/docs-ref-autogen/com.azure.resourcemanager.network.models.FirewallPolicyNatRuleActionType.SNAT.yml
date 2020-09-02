@@ -1,0 +1,16 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.network.models.FirewallPolicyNatRuleActionType.SNAT
+fullName: com.azure.resourcemanager.network.models.FirewallPolicyNatRuleActionType.SNAT
+name: SNAT
+nameWithType: FirewallPolicyNatRuleActionType.SNAT
+members:
+- uid: com.azure.resourcemanager.network.models.FirewallPolicyNatRuleActionType.SNAT
+  fullName: com.azure.resourcemanager.network.models.FirewallPolicyNatRuleActionType.SNAT
+  name: SNAT
+  nameWithType: FirewallPolicyNatRuleActionType.SNAT
+  summary: Static value SNAT for FirewallPolicyNatRuleActionType.
+  syntax: public static final FirewallPolicyNatRuleActionType SNAT
+type: field
+metadata: {}
+package: com.azure.resourcemanager.network.models
+artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.0.0-beta.2

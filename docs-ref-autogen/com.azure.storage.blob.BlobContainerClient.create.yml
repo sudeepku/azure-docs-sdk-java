@@ -1,0 +1,32 @@
+### YamlMime:JavaMember
+uid: com.azure.storage.blob.BlobContainerClient.create*
+fullName: com.azure.storage.blob.BlobContainerClient.create
+name: create
+nameWithType: BlobContainerClient.create
+members:
+- uid: com.azure.storage.blob.BlobContainerClient.create()
+  fullName: com.azure.storage.blob.BlobContainerClient.create()
+  name: create()
+  nameWithType: BlobContainerClient.create()
+  summary: |-
+    Creates a new container within a storage account. If a container with the same name already exists, the operation
+     fails. For more information, see the
+     <a href="https://docs.microsoft.com/rest/api/storageservices/create-container">Azure Docs</a>.
+
+     <p><strong>Code Samples</strong></p>
+
+     <pre>
+     try &#123;
+         client.create&#40;&#41;;
+         System.out.printf&#40;&quot;Create completed%n&quot;&#41;;
+     &#125; catch &#40;BlobStorageException error&#41; &#123;
+         if &#40;error.getErrorCode&#40;&#41;.equals&#40;BlobErrorCode.CONTAINER_ALREADY_EXISTS&#41;&#41; &#123;
+             System.out.printf&#40;&quot;Can't create container. It already exists %n&quot;&#41;;
+         &#125;
+     &#125;
+     </pre>
+  syntax: public void create()
+type: method
+metadata: {}
+package: com.azure.storage.blob
+artifact: com.azure:azure-storage-blob:12.8.0

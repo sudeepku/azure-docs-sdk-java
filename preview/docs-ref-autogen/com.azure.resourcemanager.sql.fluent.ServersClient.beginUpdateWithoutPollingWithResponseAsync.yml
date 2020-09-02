@@ -1,0 +1,55 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.sql.fluent.ServersClient.beginUpdateWithoutPollingWithResponseAsync*
+fullName: com.azure.resourcemanager.sql.fluent.ServersClient.beginUpdateWithoutPollingWithResponseAsync
+name: beginUpdateWithoutPollingWithResponseAsync
+nameWithType: ServersClient.beginUpdateWithoutPollingWithResponseAsync
+members:
+- uid: com.azure.resourcemanager.sql.fluent.ServersClient.beginUpdateWithoutPollingWithResponseAsync(java.lang.String,java.lang.String,com.azure.resourcemanager.sql.models.ServerUpdate)
+  fullName: com.azure.resourcemanager.sql.fluent.ServersClient.beginUpdateWithoutPollingWithResponseAsync(String resourceGroupName, String serverName, ServerUpdate parameters)
+  name: beginUpdateWithoutPollingWithResponseAsync(String resourceGroupName, String serverName, ServerUpdate parameters)
+  nameWithType: ServersClient.beginUpdateWithoutPollingWithResponseAsync(String resourceGroupName, String serverName, ServerUpdate parameters)
+  summary: Updates a server.
+  parameters:
+  - description: |-
+      The name of the resource group that contains the resource. You can obtain this value
+           from the Azure Resource Manager API or the portal.
+    name: resourceGroupName
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  - description: The name of the server.
+    name: serverName
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  - description: An update request for an Azure SQL Database server.
+    name: parameters
+    type: <xref href="com.azure.resourcemanager.sql.models.ServerUpdate?alt=com.azure.resourcemanager.sql.models.ServerUpdate&text=ServerUpdate" data-throw-if-not-resolved="False" />
+  syntax: public Mono<Response<ServerInner>> beginUpdateWithoutPollingWithResponseAsync(String resourceGroupName, String serverName, ServerUpdate parameters)
+  returns:
+    description: an Azure SQL Database server.
+    type: <xref href="reactor.core.publisher.Mono?alt=reactor.core.publisher.Mono&text=Mono" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.core.http.rest.Response?alt=com.azure.core.http.rest.Response&text=Response" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.resourcemanager.sql.fluent.inner.ServerInner?alt=com.azure.resourcemanager.sql.fluent.inner.ServerInner&text=ServerInner" data-throw-if-not-resolved="False" />&gt;&gt;
+- uid: com.azure.resourcemanager.sql.fluent.ServersClient.beginUpdateWithoutPollingWithResponseAsync(java.lang.String,java.lang.String,com.azure.resourcemanager.sql.models.ServerUpdate,com.azure.core.util.Context)
+  fullName: com.azure.resourcemanager.sql.fluent.ServersClient.beginUpdateWithoutPollingWithResponseAsync(String resourceGroupName, String serverName, ServerUpdate parameters, Context context)
+  name: beginUpdateWithoutPollingWithResponseAsync(String resourceGroupName, String serverName, ServerUpdate parameters, Context context)
+  nameWithType: ServersClient.beginUpdateWithoutPollingWithResponseAsync(String resourceGroupName, String serverName, ServerUpdate parameters, Context context)
+  summary: Updates a server.
+  parameters:
+  - description: |-
+      The name of the resource group that contains the resource. You can obtain this value
+           from the Azure Resource Manager API or the portal.
+    name: resourceGroupName
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  - description: The name of the server.
+    name: serverName
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  - description: An update request for an Azure SQL Database server.
+    name: parameters
+    type: <xref href="com.azure.resourcemanager.sql.models.ServerUpdate?alt=com.azure.resourcemanager.sql.models.ServerUpdate&text=ServerUpdate" data-throw-if-not-resolved="False" />
+  - description: The context to associate with this operation.
+    name: context
+    type: <xref href="com.azure.core.util.Context?alt=com.azure.core.util.Context&text=Context" data-throw-if-not-resolved="False" />
+  syntax: public Mono<Response<ServerInner>> beginUpdateWithoutPollingWithResponseAsync(String resourceGroupName, String serverName, ServerUpdate parameters, Context context)
+  returns:
+    description: an Azure SQL Database server.
+    type: <xref href="reactor.core.publisher.Mono?alt=reactor.core.publisher.Mono&text=Mono" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.core.http.rest.Response?alt=com.azure.core.http.rest.Response&text=Response" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.resourcemanager.sql.fluent.inner.ServerInner?alt=com.azure.resourcemanager.sql.fluent.inner.ServerInner&text=ServerInner" data-throw-if-not-resolved="False" />&gt;&gt;
+type: method
+metadata: {}
+package: com.azure.resourcemanager.sql.fluent
+artifact: com.azure.resourcemanager:azure-resourcemanager-sql:2.0.0-beta.2

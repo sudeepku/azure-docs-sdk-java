@@ -1,0 +1,16 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.network.models.NetworkUsageUnit.BYTES
+fullName: com.azure.resourcemanager.network.models.NetworkUsageUnit.BYTES
+name: BYTES
+nameWithType: NetworkUsageUnit.BYTES
+members:
+- uid: com.azure.resourcemanager.network.models.NetworkUsageUnit.BYTES
+  fullName: com.azure.resourcemanager.network.models.NetworkUsageUnit.BYTES
+  name: BYTES
+  nameWithType: NetworkUsageUnit.BYTES
+  summary: Static value Bytes for NetworkUsageUnit.
+  syntax: public static final NetworkUsageUnit BYTES
+type: field
+metadata: {}
+package: com.azure.resourcemanager.network.models
+artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.0.0-beta.2

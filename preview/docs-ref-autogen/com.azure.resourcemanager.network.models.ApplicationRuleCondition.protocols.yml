@@ -1,0 +1,19 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.network.models.ApplicationRuleCondition.protocols*
+fullName: com.azure.resourcemanager.network.models.ApplicationRuleCondition.protocols
+name: protocols
+nameWithType: ApplicationRuleCondition.protocols
+members:
+- uid: com.azure.resourcemanager.network.models.ApplicationRuleCondition.protocols()
+  fullName: com.azure.resourcemanager.network.models.ApplicationRuleCondition.protocols()
+  name: protocols()
+  nameWithType: ApplicationRuleCondition.protocols()
+  summary: 'Get the protocols property: Array of Application Protocols.'
+  syntax: public List<FirewallPolicyRuleConditionApplicationProtocol> protocols()
+  returns:
+    description: the protocols value.
+    type: <xref href="java.util.List?alt=java.util.List&text=List" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.resourcemanager.network.models.FirewallPolicyRuleConditionApplicationProtocol?alt=com.azure.resourcemanager.network.models.FirewallPolicyRuleConditionApplicationProtocol&text=FirewallPolicyRuleConditionApplicationProtocol" data-throw-if-not-resolved="False" />&gt;
+type: method
+metadata: {}
+package: com.azure.resourcemanager.network.models
+artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.0.0-beta.2

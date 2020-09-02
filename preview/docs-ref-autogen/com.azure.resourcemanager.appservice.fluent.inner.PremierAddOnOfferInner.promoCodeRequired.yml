@@ -1,0 +1,21 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.appservice.fluent.inner.PremierAddOnOfferInner.promoCodeRequired*
+fullName: com.azure.resourcemanager.appservice.fluent.inner.PremierAddOnOfferInner.promoCodeRequired
+name: promoCodeRequired
+nameWithType: PremierAddOnOfferInner.promoCodeRequired
+members:
+- uid: com.azure.resourcemanager.appservice.fluent.inner.PremierAddOnOfferInner.promoCodeRequired()
+  fullName: com.azure.resourcemanager.appservice.fluent.inner.PremierAddOnOfferInner.promoCodeRequired()
+  name: promoCodeRequired()
+  nameWithType: PremierAddOnOfferInner.promoCodeRequired()
+  summary: |-
+    Get the promoCodeRequired property: &lt;code&gt;true&lt;/code&gt; if promotion code is required; otherwise,
+     &lt;code&gt;false&lt;/code&gt;.
+  syntax: public Boolean promoCodeRequired()
+  returns:
+    description: the promoCodeRequired value.
+    type: <xref href="java.lang.Boolean?alt=java.lang.Boolean&text=Boolean" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.resourcemanager.appservice.fluent.inner
+artifact: com.azure.resourcemanager:azure-resourcemanager-appservice:2.0.0-beta.2

@@ -1,0 +1,22 @@
+### YamlMime:JavaMember
+uid: com.azure.cosmos.implementation.apachecommons.lang.tuple.Pair.getLeft*
+fullName: com.azure.cosmos.implementation.apachecommons.lang.tuple.Pair<L,R>.getLeft
+name: getLeft
+nameWithType: Pair<L,R>.getLeft
+members:
+- uid: com.azure.cosmos.implementation.apachecommons.lang.tuple.Pair.getLeft()
+  fullName: com.azure.cosmos.implementation.apachecommons.lang.tuple.Pair<L,R>.getLeft()
+  name: getLeft()
+  nameWithType: Pair<L,R>.getLeft()
+  summary: |-
+    <p>Gets the left element from this pair.</p>
+
+     <p>When treated as a key-value pair, this is the key.</p>
+  syntax: public abstract L getLeft()
+  returns:
+    description: the left element, may be null
+    type: <xref href="L?alt=L&text=L" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.cosmos.implementation.apachecommons.lang.tuple
+artifact: com.azure:azure-cosmos:4.3.2-beta.2

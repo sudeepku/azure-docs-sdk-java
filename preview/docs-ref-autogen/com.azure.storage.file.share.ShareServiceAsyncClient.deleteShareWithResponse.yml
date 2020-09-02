@@ -1,0 +1,42 @@
+### YamlMime:JavaMember
+uid: com.azure.storage.file.share.ShareServiceAsyncClient.deleteShareWithResponse*
+fullName: com.azure.storage.file.share.ShareServiceAsyncClient.deleteShareWithResponse
+name: deleteShareWithResponse
+nameWithType: ShareServiceAsyncClient.deleteShareWithResponse
+members:
+- uid: com.azure.storage.file.share.ShareServiceAsyncClient.deleteShareWithResponse(java.lang.String,java.lang.String)
+  fullName: com.azure.storage.file.share.ShareServiceAsyncClient.deleteShareWithResponse(String shareName, String snapshot)
+  name: deleteShareWithResponse(String shareName, String snapshot)
+  nameWithType: ShareServiceAsyncClient.deleteShareWithResponse(String shareName, String snapshot)
+  summary: |-
+    Deletes the specific snapshot of the share in the storage account with the given name. Snapshot are identified by
+     the time they were created.
+
+     <p><strong>Code Samples</strong></p>
+
+     <p>Delete the snapshot of share "test" that was created at current time.</p>
+
+     <pre>
+     OffsetDateTime midnight = OffsetDateTime.of&#40;LocalDateTime.now&#40;&#41;, ZoneOffset.UTC&#41;;
+     fileServiceAsyncClient.deleteShareWithResponse&#40;&quot;test&quot;, midnight.toString&#40;&#41;&#41;
+         .subscribe&#40;response -&gt; System.out.printf&#40;&quot;Deleting the snapshot completed with status code %d&quot;,
+             response.getStatusCode&#40;&#41;&#41;&#41;;
+     </pre>
+
+     <p>For more information, see the
+     <a href="https://docs.microsoft.com/en-us/rest/api/storageservices/delete-share">Azure Docs</a>.</p>
+  parameters:
+  - description: Name of the share
+    name: shareName
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  - description: Identifier of the snapshot
+    name: snapshot
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  syntax: public Mono<Response<Void>> deleteShareWithResponse(String shareName, String snapshot)
+  returns:
+    description: A response that only contains headers and response status code
+    type: <xref href="reactor.core.publisher.Mono?alt=reactor.core.publisher.Mono&text=Mono" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.core.http.rest.Response?alt=com.azure.core.http.rest.Response&text=Response" data-throw-if-not-resolved="False" />&lt;<xref href="java.lang.Void?alt=java.lang.Void&text=Void" data-throw-if-not-resolved="False" />&gt;&gt;
+type: method
+metadata: {}
+package: com.azure.storage.file.share
+artifact: com.azure:azure-storage-file-share:12.6.0-beta.1

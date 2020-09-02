@@ -1,0 +1,32 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.network.fluent.WebApplicationFirewallPoliciesClient.listSinglePageAsync*
+fullName: com.azure.resourcemanager.network.fluent.WebApplicationFirewallPoliciesClient.listSinglePageAsync
+name: listSinglePageAsync
+nameWithType: WebApplicationFirewallPoliciesClient.listSinglePageAsync
+members:
+- uid: com.azure.resourcemanager.network.fluent.WebApplicationFirewallPoliciesClient.listSinglePageAsync()
+  fullName: com.azure.resourcemanager.network.fluent.WebApplicationFirewallPoliciesClient.listSinglePageAsync()
+  name: listSinglePageAsync()
+  nameWithType: WebApplicationFirewallPoliciesClient.listSinglePageAsync()
+  summary: Gets all the WAF policies in a subscription.
+  syntax: public Mono<PagedResponse<WebApplicationFirewallPolicyInner>> listSinglePageAsync()
+  returns:
+    description: all the WAF policies in a subscription.
+    type: <xref href="reactor.core.publisher.Mono?alt=reactor.core.publisher.Mono&text=Mono" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.core.http.rest.PagedResponse?alt=com.azure.core.http.rest.PagedResponse&text=PagedResponse" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.resourcemanager.network.fluent.inner.WebApplicationFirewallPolicyInner?alt=com.azure.resourcemanager.network.fluent.inner.WebApplicationFirewallPolicyInner&text=WebApplicationFirewallPolicyInner" data-throw-if-not-resolved="False" />&gt;&gt;
+- uid: com.azure.resourcemanager.network.fluent.WebApplicationFirewallPoliciesClient.listSinglePageAsync(com.azure.core.util.Context)
+  fullName: com.azure.resourcemanager.network.fluent.WebApplicationFirewallPoliciesClient.listSinglePageAsync(Context context)
+  name: listSinglePageAsync(Context context)
+  nameWithType: WebApplicationFirewallPoliciesClient.listSinglePageAsync(Context context)
+  summary: Gets all the WAF policies in a subscription.
+  parameters:
+  - description: The context to associate with this operation.
+    name: context
+    type: <xref href="com.azure.core.util.Context?alt=com.azure.core.util.Context&text=Context" data-throw-if-not-resolved="False" />
+  syntax: public Mono<PagedResponse<WebApplicationFirewallPolicyInner>> listSinglePageAsync(Context context)
+  returns:
+    description: all the WAF policies in a subscription.
+    type: <xref href="reactor.core.publisher.Mono?alt=reactor.core.publisher.Mono&text=Mono" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.core.http.rest.PagedResponse?alt=com.azure.core.http.rest.PagedResponse&text=PagedResponse" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.resourcemanager.network.fluent.inner.WebApplicationFirewallPolicyInner?alt=com.azure.resourcemanager.network.fluent.inner.WebApplicationFirewallPolicyInner&text=WebApplicationFirewallPolicyInner" data-throw-if-not-resolved="False" />&gt;&gt;
+type: method
+metadata: {}
+package: com.azure.resourcemanager.network.fluent
+artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.0.0-beta.2

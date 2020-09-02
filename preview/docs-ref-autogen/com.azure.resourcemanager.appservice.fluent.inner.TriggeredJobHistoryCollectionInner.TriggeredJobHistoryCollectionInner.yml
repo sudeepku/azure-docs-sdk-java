@@ -1,0 +1,15 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.appservice.fluent.inner.TriggeredJobHistoryCollectionInner.TriggeredJobHistoryCollectionInner*
+fullName: com.azure.resourcemanager.appservice.fluent.inner.TriggeredJobHistoryCollectionInner.TriggeredJobHistoryCollectionInner
+name: TriggeredJobHistoryCollectionInner
+nameWithType: TriggeredJobHistoryCollectionInner.TriggeredJobHistoryCollectionInner
+members:
+- uid: com.azure.resourcemanager.appservice.fluent.inner.TriggeredJobHistoryCollectionInner.TriggeredJobHistoryCollectionInner()
+  fullName: com.azure.resourcemanager.appservice.fluent.inner.TriggeredJobHistoryCollectionInner.TriggeredJobHistoryCollectionInner()
+  name: TriggeredJobHistoryCollectionInner()
+  nameWithType: TriggeredJobHistoryCollectionInner.TriggeredJobHistoryCollectionInner()
+  syntax: public TriggeredJobHistoryCollectionInner()
+type: constructor
+metadata: {}
+package: com.azure.resourcemanager.appservice.fluent.inner
+artifact: com.azure.resourcemanager:azure-resourcemanager-appservice:2.0.0-beta.2

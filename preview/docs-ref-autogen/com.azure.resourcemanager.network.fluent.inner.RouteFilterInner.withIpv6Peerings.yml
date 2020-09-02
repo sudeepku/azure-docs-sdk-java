@@ -1,0 +1,23 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.network.fluent.inner.RouteFilterInner.withIpv6Peerings*
+fullName: com.azure.resourcemanager.network.fluent.inner.RouteFilterInner.withIpv6Peerings
+name: withIpv6Peerings
+nameWithType: RouteFilterInner.withIpv6Peerings
+members:
+- uid: com.azure.resourcemanager.network.fluent.inner.RouteFilterInner.withIpv6Peerings(java.util.List<com.azure.resourcemanager.network.fluent.inner.ExpressRouteCircuitPeeringInner>)
+  fullName: com.azure.resourcemanager.network.fluent.inner.RouteFilterInner.withIpv6Peerings(List<ExpressRouteCircuitPeeringInner> ipv6Peerings)
+  name: withIpv6Peerings(List<ExpressRouteCircuitPeeringInner> ipv6Peerings)
+  nameWithType: RouteFilterInner.withIpv6Peerings(List<ExpressRouteCircuitPeeringInner> ipv6Peerings)
+  summary: 'Set the ipv6Peerings property: A collection of references to express route circuit ipv6 peerings.'
+  parameters:
+  - description: the ipv6Peerings value to set.
+    name: ipv6Peerings
+    type: <xref href="java.util.List?alt=java.util.List&text=List" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.resourcemanager.network.fluent.inner.ExpressRouteCircuitPeeringInner?alt=com.azure.resourcemanager.network.fluent.inner.ExpressRouteCircuitPeeringInner&text=ExpressRouteCircuitPeeringInner" data-throw-if-not-resolved="False" />&gt;
+  syntax: public RouteFilterInner withIpv6Peerings(List<ExpressRouteCircuitPeeringInner> ipv6Peerings)
+  returns:
+    description: the RouteFilterInner object itself.
+    type: <xref href="com.azure.resourcemanager.network.fluent.inner.RouteFilterInner?alt=com.azure.resourcemanager.network.fluent.inner.RouteFilterInner&text=RouteFilterInner" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.resourcemanager.network.fluent.inner
+artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.0.0-beta.2

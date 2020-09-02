@@ -1,0 +1,41 @@
+### YamlMime:JavaMember
+uid: com.azure.search.documents.SearchAsyncClient.deleteDocuments*
+fullName: com.azure.search.documents.SearchAsyncClient.deleteDocuments
+name: deleteDocuments
+nameWithType: SearchAsyncClient.deleteDocuments
+members:
+- uid: com.azure.search.documents.SearchAsyncClient.deleteDocuments(java.lang.Iterable<?>)
+  fullName: com.azure.search.documents.SearchAsyncClient.deleteDocuments(Iterable<?> documents)
+  name: deleteDocuments(Iterable<?> documents)
+  nameWithType: SearchAsyncClient.deleteDocuments(Iterable<?> documents)
+  summary: |-
+    Deletes a collection of documents from the target index.
+
+     <p><strong>Code Sample</strong></p>
+
+     <p> Delete dynamic SearchDocument. </p>
+
+     <pre>
+     SearchDocument searchDocument = new SearchDocument&#40;&#41;;
+     searchDocument.put&#40;&quot;hotelId&quot;, &quot;1&quot;&#41;;
+     searchDocument.put&#40;&quot;hotelName&quot;, &quot;test&quot;&#41;;
+     searchAsyncClient.deleteDocuments&#40;Collections.singletonList&#40;searchDocument&#41;&#41;
+         .subscribe&#40;result -&gt; &#123;
+             for &#40;IndexingResult indexingResult : result.getResults&#40;&#41;&#41; &#123;
+                 System.out.printf&#40;&quot;Does document with key %s delete successfully? %b%n&quot;, indexingResult.getKey&#40;&#41;,
+                     indexingResult.isSucceeded&#40;&#41;&#41;;
+             &#125;
+         &#125;&#41;;
+     </pre>
+  parameters:
+  - description: collection of documents to delete from the target Index. Fields other than the key are ignored.
+    name: documents
+    type: <xref href="java.lang.Iterable?alt=java.lang.Iterable&text=Iterable" data-throw-if-not-resolved="False" />&lt;?&gt;
+  syntax: public Mono<IndexDocumentsResult> deleteDocuments(Iterable<?> documents)
+  returns:
+    description: document index result.
+    type: <xref href="reactor.core.publisher.Mono?alt=reactor.core.publisher.Mono&text=Mono" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.search.documents.models.IndexDocumentsResult?alt=com.azure.search.documents.models.IndexDocumentsResult&text=IndexDocumentsResult" data-throw-if-not-resolved="False" />&gt;
+type: method
+metadata: {}
+package: com.azure.search.documents
+artifact: com.azure:azure-search-documents:11.0.0

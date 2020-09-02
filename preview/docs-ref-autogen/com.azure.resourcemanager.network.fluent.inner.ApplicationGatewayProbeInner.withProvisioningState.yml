@@ -1,0 +1,25 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.network.fluent.inner.ApplicationGatewayProbeInner.withProvisioningState*
+fullName: com.azure.resourcemanager.network.fluent.inner.ApplicationGatewayProbeInner.withProvisioningState
+name: withProvisioningState
+nameWithType: ApplicationGatewayProbeInner.withProvisioningState
+members:
+- uid: com.azure.resourcemanager.network.fluent.inner.ApplicationGatewayProbeInner.withProvisioningState(java.lang.String)
+  fullName: com.azure.resourcemanager.network.fluent.inner.ApplicationGatewayProbeInner.withProvisioningState(String provisioningState)
+  name: withProvisioningState(String provisioningState)
+  nameWithType: ApplicationGatewayProbeInner.withProvisioningState(String provisioningState)
+  summary: |-
+    Set the provisioningState property: Provisioning state of the backend http settings resource. Possible values
+     are: 'Updating', 'Deleting', and 'Failed'.
+  parameters:
+  - description: the provisioningState value to set.
+    name: provisioningState
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  syntax: public ApplicationGatewayProbeInner withProvisioningState(String provisioningState)
+  returns:
+    description: the ApplicationGatewayProbeInner object itself.
+    type: <xref href="com.azure.resourcemanager.network.fluent.inner.ApplicationGatewayProbeInner?alt=com.azure.resourcemanager.network.fluent.inner.ApplicationGatewayProbeInner&text=ApplicationGatewayProbeInner" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.resourcemanager.network.fluent.inner
+artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.0.0-beta.2

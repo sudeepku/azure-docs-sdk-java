@@ -1,0 +1,16 @@
+### YamlMime:JavaMember
+uid: com.azure.search.documents.indexes.implementation.models.FieldMappingFunction.validate*
+fullName: com.azure.search.documents.indexes.implementation.models.FieldMappingFunction.validate
+name: validate
+nameWithType: FieldMappingFunction.validate
+members:
+- uid: com.azure.search.documents.indexes.implementation.models.FieldMappingFunction.validate()
+  fullName: com.azure.search.documents.indexes.implementation.models.FieldMappingFunction.validate()
+  name: validate()
+  nameWithType: FieldMappingFunction.validate()
+  summary: Validates the instance.
+  syntax: public void validate()
+type: method
+metadata: {}
+package: com.azure.search.documents.indexes.implementation.models
+artifact: com.azure:azure-search-documents:11.1.0-beta.1

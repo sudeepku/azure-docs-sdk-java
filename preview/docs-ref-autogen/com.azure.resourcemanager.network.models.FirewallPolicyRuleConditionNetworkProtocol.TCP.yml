@@ -1,0 +1,16 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.network.models.FirewallPolicyRuleConditionNetworkProtocol.TCP
+fullName: com.azure.resourcemanager.network.models.FirewallPolicyRuleConditionNetworkProtocol.TCP
+name: TCP
+nameWithType: FirewallPolicyRuleConditionNetworkProtocol.TCP
+members:
+- uid: com.azure.resourcemanager.network.models.FirewallPolicyRuleConditionNetworkProtocol.TCP
+  fullName: com.azure.resourcemanager.network.models.FirewallPolicyRuleConditionNetworkProtocol.TCP
+  name: TCP
+  nameWithType: FirewallPolicyRuleConditionNetworkProtocol.TCP
+  summary: Static value TCP for FirewallPolicyRuleConditionNetworkProtocol.
+  syntax: public static final FirewallPolicyRuleConditionNetworkProtocol TCP
+type: field
+metadata: {}
+package: com.azure.resourcemanager.network.models
+artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.0.0-beta.2

@@ -1,0 +1,23 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.appservice.fluent.inner.ProcessInfoInner.withTotalCpuTime*
+fullName: com.azure.resourcemanager.appservice.fluent.inner.ProcessInfoInner.withTotalCpuTime
+name: withTotalCpuTime
+nameWithType: ProcessInfoInner.withTotalCpuTime
+members:
+- uid: com.azure.resourcemanager.appservice.fluent.inner.ProcessInfoInner.withTotalCpuTime(java.lang.String)
+  fullName: com.azure.resourcemanager.appservice.fluent.inner.ProcessInfoInner.withTotalCpuTime(String totalCpuTime)
+  name: withTotalCpuTime(String totalCpuTime)
+  nameWithType: ProcessInfoInner.withTotalCpuTime(String totalCpuTime)
+  summary: 'Set the totalCpuTime property: Total CPU time.'
+  parameters:
+  - description: the totalCpuTime value to set.
+    name: totalCpuTime
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  syntax: public ProcessInfoInner withTotalCpuTime(String totalCpuTime)
+  returns:
+    description: the ProcessInfoInner object itself.
+    type: <xref href="com.azure.resourcemanager.appservice.fluent.inner.ProcessInfoInner?alt=com.azure.resourcemanager.appservice.fluent.inner.ProcessInfoInner&text=ProcessInfoInner" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.resourcemanager.appservice.fluent.inner
+artifact: com.azure.resourcemanager:azure-resourcemanager-appservice:2.0.0-beta.2

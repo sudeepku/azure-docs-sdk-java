@@ -1,0 +1,19 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.monitor.MonitorClientBuilder.buildClient*
+fullName: com.azure.resourcemanager.monitor.MonitorClientBuilder.buildClient
+name: buildClient
+nameWithType: MonitorClientBuilder.buildClient
+members:
+- uid: com.azure.resourcemanager.monitor.MonitorClientBuilder.buildClient()
+  fullName: com.azure.resourcemanager.monitor.MonitorClientBuilder.buildClient()
+  name: buildClient()
+  nameWithType: MonitorClientBuilder.buildClient()
+  summary: Builds an instance of MonitorClient with the provided parameters.
+  syntax: public MonitorClient buildClient()
+  returns:
+    description: an instance of MonitorClient.
+    type: <xref href="com.azure.resourcemanager.monitor.MonitorClient?alt=com.azure.resourcemanager.monitor.MonitorClient&text=MonitorClient" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.resourcemanager.monitor
+artifact: com.azure.resourcemanager:azure-resourcemanager-monitor:2.0.0-beta.2

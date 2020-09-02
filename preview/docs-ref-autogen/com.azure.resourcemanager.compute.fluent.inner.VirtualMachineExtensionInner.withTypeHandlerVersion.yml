@@ -1,0 +1,23 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.compute.fluent.inner.VirtualMachineExtensionInner.withTypeHandlerVersion*
+fullName: com.azure.resourcemanager.compute.fluent.inner.VirtualMachineExtensionInner.withTypeHandlerVersion
+name: withTypeHandlerVersion
+nameWithType: VirtualMachineExtensionInner.withTypeHandlerVersion
+members:
+- uid: com.azure.resourcemanager.compute.fluent.inner.VirtualMachineExtensionInner.withTypeHandlerVersion(java.lang.String)
+  fullName: com.azure.resourcemanager.compute.fluent.inner.VirtualMachineExtensionInner.withTypeHandlerVersion(String typeHandlerVersion)
+  name: withTypeHandlerVersion(String typeHandlerVersion)
+  nameWithType: VirtualMachineExtensionInner.withTypeHandlerVersion(String typeHandlerVersion)
+  summary: 'Set the typeHandlerVersion property: Specifies the version of the script handler.'
+  parameters:
+  - description: the typeHandlerVersion value to set.
+    name: typeHandlerVersion
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  syntax: public VirtualMachineExtensionInner withTypeHandlerVersion(String typeHandlerVersion)
+  returns:
+    description: the VirtualMachineExtensionInner object itself.
+    type: <xref href="com.azure.resourcemanager.compute.fluent.inner.VirtualMachineExtensionInner?alt=com.azure.resourcemanager.compute.fluent.inner.VirtualMachineExtensionInner&text=VirtualMachineExtensionInner" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.resourcemanager.compute.fluent.inner
+artifact: com.azure.resourcemanager:azure-resourcemanager-compute:2.0.0-beta.2

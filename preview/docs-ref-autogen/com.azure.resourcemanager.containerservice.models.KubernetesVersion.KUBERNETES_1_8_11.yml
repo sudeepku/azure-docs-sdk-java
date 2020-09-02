@@ -1,0 +1,16 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.containerservice.models.KubernetesVersion.KUBERNETES_1_8_11
+fullName: com.azure.resourcemanager.containerservice.models.KubernetesVersion.KUBERNETES_1_8_11
+name: KUBERNETES_1_8_11
+nameWithType: KubernetesVersion.KUBERNETES_1_8_11
+members:
+- uid: com.azure.resourcemanager.containerservice.models.KubernetesVersion.KUBERNETES_1_8_11
+  fullName: com.azure.resourcemanager.containerservice.models.KubernetesVersion.KUBERNETES_1_8_11
+  name: KUBERNETES_1_8_11
+  nameWithType: KubernetesVersion.KUBERNETES_1_8_11
+  summary: Static value Kubernetes version 1.8.11.
+  syntax: public static final KubernetesVersion KUBERNETES_1_8_11
+type: field
+metadata: {}
+package: com.azure.resourcemanager.containerservice.models
+artifact: com.azure.resourcemanager:azure-resourcemanager-containerservice:2.0.0-beta.2

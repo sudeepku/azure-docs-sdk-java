@@ -1,0 +1,23 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.network.models.VirtualNetworkGatewaySku.withCapacity*
+fullName: com.azure.resourcemanager.network.models.VirtualNetworkGatewaySku.withCapacity
+name: withCapacity
+nameWithType: VirtualNetworkGatewaySku.withCapacity
+members:
+- uid: com.azure.resourcemanager.network.models.VirtualNetworkGatewaySku.withCapacity(java.lang.Integer)
+  fullName: com.azure.resourcemanager.network.models.VirtualNetworkGatewaySku.withCapacity(Integer capacity)
+  name: withCapacity(Integer capacity)
+  nameWithType: VirtualNetworkGatewaySku.withCapacity(Integer capacity)
+  summary: 'Set the capacity property: The capacity.'
+  parameters:
+  - description: the capacity value to set.
+    name: capacity
+    type: <xref href="java.lang.Integer?alt=java.lang.Integer&text=Integer" data-throw-if-not-resolved="False" />
+  syntax: public VirtualNetworkGatewaySku withCapacity(Integer capacity)
+  returns:
+    description: the VirtualNetworkGatewaySku object itself.
+    type: <xref href="com.azure.resourcemanager.network.models.VirtualNetworkGatewaySku?alt=com.azure.resourcemanager.network.models.VirtualNetworkGatewaySku&text=VirtualNetworkGatewaySku" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.resourcemanager.network.models
+artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.0.0-beta.2

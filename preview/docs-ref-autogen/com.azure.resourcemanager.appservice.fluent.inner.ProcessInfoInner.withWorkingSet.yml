@@ -1,0 +1,23 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.appservice.fluent.inner.ProcessInfoInner.withWorkingSet*
+fullName: com.azure.resourcemanager.appservice.fluent.inner.ProcessInfoInner.withWorkingSet
+name: withWorkingSet
+nameWithType: ProcessInfoInner.withWorkingSet
+members:
+- uid: com.azure.resourcemanager.appservice.fluent.inner.ProcessInfoInner.withWorkingSet(java.lang.Long)
+  fullName: com.azure.resourcemanager.appservice.fluent.inner.ProcessInfoInner.withWorkingSet(Long workingSet)
+  name: withWorkingSet(Long workingSet)
+  nameWithType: ProcessInfoInner.withWorkingSet(Long workingSet)
+  summary: 'Set the workingSet property: Working set.'
+  parameters:
+  - description: the workingSet value to set.
+    name: workingSet
+    type: <xref href="java.lang.Long?alt=java.lang.Long&text=Long" data-throw-if-not-resolved="False" />
+  syntax: public ProcessInfoInner withWorkingSet(Long workingSet)
+  returns:
+    description: the ProcessInfoInner object itself.
+    type: <xref href="com.azure.resourcemanager.appservice.fluent.inner.ProcessInfoInner?alt=com.azure.resourcemanager.appservice.fluent.inner.ProcessInfoInner&text=ProcessInfoInner" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.resourcemanager.appservice.fluent.inner
+artifact: com.azure.resourcemanager:azure-resourcemanager-appservice:2.0.0-beta.2

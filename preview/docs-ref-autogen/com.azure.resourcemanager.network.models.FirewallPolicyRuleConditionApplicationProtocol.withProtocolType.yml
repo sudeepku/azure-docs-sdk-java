@@ -1,0 +1,23 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.network.models.FirewallPolicyRuleConditionApplicationProtocol.withProtocolType*
+fullName: com.azure.resourcemanager.network.models.FirewallPolicyRuleConditionApplicationProtocol.withProtocolType
+name: withProtocolType
+nameWithType: FirewallPolicyRuleConditionApplicationProtocol.withProtocolType
+members:
+- uid: com.azure.resourcemanager.network.models.FirewallPolicyRuleConditionApplicationProtocol.withProtocolType(com.azure.resourcemanager.network.models.FirewallPolicyRuleConditionApplicationProtocolType)
+  fullName: com.azure.resourcemanager.network.models.FirewallPolicyRuleConditionApplicationProtocol.withProtocolType(FirewallPolicyRuleConditionApplicationProtocolType protocolType)
+  name: withProtocolType(FirewallPolicyRuleConditionApplicationProtocolType protocolType)
+  nameWithType: FirewallPolicyRuleConditionApplicationProtocol.withProtocolType(FirewallPolicyRuleConditionApplicationProtocolType protocolType)
+  summary: 'Set the protocolType property: Protocol type.'
+  parameters:
+  - description: the protocolType value to set.
+    name: protocolType
+    type: <xref href="com.azure.resourcemanager.network.models.FirewallPolicyRuleConditionApplicationProtocolType?alt=com.azure.resourcemanager.network.models.FirewallPolicyRuleConditionApplicationProtocolType&text=FirewallPolicyRuleConditionApplicationProtocolType" data-throw-if-not-resolved="False" />
+  syntax: public FirewallPolicyRuleConditionApplicationProtocol withProtocolType(FirewallPolicyRuleConditionApplicationProtocolType protocolType)
+  returns:
+    description: the FirewallPolicyRuleConditionApplicationProtocol object itself.
+    type: <xref href="com.azure.resourcemanager.network.models.FirewallPolicyRuleConditionApplicationProtocol?alt=com.azure.resourcemanager.network.models.FirewallPolicyRuleConditionApplicationProtocol&text=FirewallPolicyRuleConditionApplicationProtocol" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.resourcemanager.network.models
+artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.0.0-beta.2

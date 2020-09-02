@@ -1,0 +1,15 @@
+### YamlMime:JavaMember
+uid: com.azure.data.schemaregistry.client.implementation.models.GetIdBySchemaContentHeaders.GetIdBySchemaContentHeaders*
+fullName: com.azure.data.schemaregistry.client.implementation.models.GetIdBySchemaContentHeaders.GetIdBySchemaContentHeaders
+name: GetIdBySchemaContentHeaders
+nameWithType: GetIdBySchemaContentHeaders.GetIdBySchemaContentHeaders
+members:
+- uid: com.azure.data.schemaregistry.client.implementation.models.GetIdBySchemaContentHeaders.GetIdBySchemaContentHeaders()
+  fullName: com.azure.data.schemaregistry.client.implementation.models.GetIdBySchemaContentHeaders.GetIdBySchemaContentHeaders()
+  name: GetIdBySchemaContentHeaders()
+  nameWithType: GetIdBySchemaContentHeaders.GetIdBySchemaContentHeaders()
+  syntax: public GetIdBySchemaContentHeaders()
+type: constructor
+metadata: {}
+package: com.azure.data.schemaregistry.client.implementation.models
+artifact: com.azure:azure-data-schemaregistry:1.0.0-beta.1

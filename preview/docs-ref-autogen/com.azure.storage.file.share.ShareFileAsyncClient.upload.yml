@@ -1,0 +1,44 @@
+### YamlMime:JavaMember
+uid: com.azure.storage.file.share.ShareFileAsyncClient.upload*
+fullName: com.azure.storage.file.share.ShareFileAsyncClient.upload
+name: upload
+nameWithType: ShareFileAsyncClient.upload
+members:
+- uid: com.azure.storage.file.share.ShareFileAsyncClient.upload(reactor.core.publisher.Flux<java.nio.ByteBuffer>,long)
+  fullName: com.azure.storage.file.share.ShareFileAsyncClient.upload(Flux<ByteBuffer> data, long length)
+  name: upload(Flux<ByteBuffer> data, long length)
+  nameWithType: ShareFileAsyncClient.upload(Flux<ByteBuffer> data, long length)
+  summary: |-
+    Uploads a range of bytes to the beginning of a file in storage file service. Upload operations performs an
+     in-place write on the specified file.
+
+     <p><strong>Code Samples</strong></p>
+
+     <p>Upload data "default" to the file in Storage File Service. </p>
+
+     <pre>
+     ByteBuffer defaultData = ByteBuffer.wrap&#40;&quot;default&quot;.getBytes&#40;StandardCharsets.UTF_8&#41;&#41;;
+     shareFileAsyncClient.upload&#40;Flux.just&#40;defaultData&#41;, defaultData.remaining&#40;&#41;&#41;.subscribe&#40;
+         response -&gt; &#123; &#125;,
+         error -&gt; System.err.print&#40;error.toString&#40;&#41;&#41;,
+         &#40;&#41; -&gt; System.out.println&#40;&quot;Complete deleting the file!&quot;&#41;
+     &#41;;
+     </pre>
+
+     <p>For more information, see the
+     <a href="https://docs.microsoft.com/en-us/rest/api/storageservices/put-range">Azure Docs</a>.</p>
+  parameters:
+  - description: The data which will upload to the storage file.
+    name: data
+    type: <xref href="reactor.core.publisher.Flux?alt=reactor.core.publisher.Flux&text=Flux" data-throw-if-not-resolved="False" />&lt;<xref href="java.nio.ByteBuffer?alt=java.nio.ByteBuffer&text=ByteBuffer" data-throw-if-not-resolved="False" />&gt;
+  - description: Specifies the number of bytes being transmitted in the request body.
+    name: length
+    type: <xref href="long?alt=long&text=long" data-throw-if-not-resolved="False" />
+  syntax: public Mono<ShareFileUploadInfo> upload(Flux<ByteBuffer> data, long length)
+  returns:
+    description: A response that only contains headers and response status code
+    type: <xref href="reactor.core.publisher.Mono?alt=reactor.core.publisher.Mono&text=Mono" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.storage.file.share.models.ShareFileUploadInfo?alt=com.azure.storage.file.share.models.ShareFileUploadInfo&text=ShareFileUploadInfo" data-throw-if-not-resolved="False" />&gt;
+type: method
+metadata: {}
+package: com.azure.storage.file.share
+artifact: com.azure:azure-storage-file-share:12.6.0-beta.1

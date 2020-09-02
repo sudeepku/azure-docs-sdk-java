@@ -1,0 +1,29 @@
+### YamlMime:JavaMember
+uid: com.azure.data.schemaregistry.ByteDecoder.decodeBytes*
+fullName: com.azure.data.schemaregistry.ByteDecoder.decodeBytes
+name: decodeBytes
+nameWithType: ByteDecoder.decodeBytes
+members:
+- uid: com.azure.data.schemaregistry.ByteDecoder.decodeBytes(byte[],java.lang.Object)
+  fullName: com.azure.data.schemaregistry.ByteDecoder.decodeBytes(byte[] encodedBytes, Object schemaObject)
+  name: decodeBytes(byte[] encodedBytes, Object schemaObject)
+  nameWithType: ByteDecoder.decodeBytes(byte[] encodedBytes, Object schemaObject)
+  summary: Decodes byte array into Object given provided schema object.
+  parameters:
+  - description: payload to be decoded
+    name: encodedBytes
+    type: <xref href="byte?alt=byte&text=byte" data-throw-if-not-resolved="False" />[]
+  - description: object used to decode the payload
+    name: schemaObject
+    type: <xref href="java.lang.Object?alt=java.lang.Object&text=Object" data-throw-if-not-resolved="False" />
+  syntax: public abstract Object decodeBytes(byte[] encodedBytes, Object schemaObject)
+  exceptions:
+  - description: if decode operation fails
+    type: <xref href="com.azure.data.schemaregistry.SerializationException?alt=com.azure.data.schemaregistry.SerializationException&text=SerializationException" data-throw-if-not-resolved="False" />
+  returns:
+    description: deserialized object
+    type: <xref href="java.lang.Object?alt=java.lang.Object&text=Object" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.data.schemaregistry
+artifact: com.azure:azure-data-schemaregistry:1.0.0-beta.1

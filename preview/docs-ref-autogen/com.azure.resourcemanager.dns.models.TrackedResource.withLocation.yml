@@ -1,0 +1,23 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.dns.models.TrackedResource.withLocation*
+fullName: com.azure.resourcemanager.dns.models.TrackedResource.withLocation
+name: withLocation
+nameWithType: TrackedResource.withLocation
+members:
+- uid: com.azure.resourcemanager.dns.models.TrackedResource.withLocation(java.lang.String)
+  fullName: com.azure.resourcemanager.dns.models.TrackedResource.withLocation(String location)
+  name: withLocation(String location)
+  nameWithType: TrackedResource.withLocation(String location)
+  summary: 'Set the location property: The geo-location where the resource lives.'
+  parameters:
+  - description: the location value to set.
+    name: location
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  syntax: public TrackedResource withLocation(String location)
+  returns:
+    description: the TrackedResource object itself.
+    type: <xref href="com.azure.resourcemanager.dns.models.TrackedResource?alt=com.azure.resourcemanager.dns.models.TrackedResource&text=TrackedResource" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.resourcemanager.dns.models
+artifact: com.azure.resourcemanager:azure-resourcemanager-dns:2.0.0-beta.2

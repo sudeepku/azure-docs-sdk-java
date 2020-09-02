@@ -1,0 +1,21 @@
+### YamlMime:JavaMember
+uid: com.azure.data.schemaregistry.client.SchemaRegistryObject.deserialize*
+fullName: com.azure.data.schemaregistry.client.SchemaRegistryObject.deserialize
+name: deserialize
+nameWithType: SchemaRegistryObject.deserialize
+members:
+- uid: com.azure.data.schemaregistry.client.SchemaRegistryObject.deserialize()
+  fullName: com.azure.data.schemaregistry.client.SchemaRegistryObject.deserialize()
+  name: deserialize()
+  nameWithType: SchemaRegistryObject.deserialize()
+  summary: |-
+    Deserialize schema bytes returned from Schema Registry.  If deserialization has happened once, the deserialized
+      object is stored and returned.
+  syntax: public Object deserialize()
+  returns:
+    description: schema object, deserialized using stored schema parser method.
+    type: <xref href="java.lang.Object?alt=java.lang.Object&text=Object" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.data.schemaregistry.client
+artifact: com.azure:azure-data-schemaregistry:1.0.0-beta.1

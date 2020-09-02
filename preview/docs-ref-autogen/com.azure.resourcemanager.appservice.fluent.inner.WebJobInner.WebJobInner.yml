@@ -1,0 +1,15 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.appservice.fluent.inner.WebJobInner.WebJobInner*
+fullName: com.azure.resourcemanager.appservice.fluent.inner.WebJobInner.WebJobInner
+name: WebJobInner
+nameWithType: WebJobInner.WebJobInner
+members:
+- uid: com.azure.resourcemanager.appservice.fluent.inner.WebJobInner.WebJobInner()
+  fullName: com.azure.resourcemanager.appservice.fluent.inner.WebJobInner.WebJobInner()
+  name: WebJobInner()
+  nameWithType: WebJobInner.WebJobInner()
+  syntax: public WebJobInner()
+type: constructor
+metadata: {}
+package: com.azure.resourcemanager.appservice.fluent.inner
+artifact: com.azure.resourcemanager:azure-resourcemanager-appservice:2.0.0-beta.2

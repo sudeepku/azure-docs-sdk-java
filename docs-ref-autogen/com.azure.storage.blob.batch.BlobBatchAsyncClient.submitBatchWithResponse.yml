@@ -1,0 +1,28 @@
+### YamlMime:JavaMember
+uid: com.azure.storage.blob.batch.BlobBatchAsyncClient.submitBatchWithResponse*
+fullName: com.azure.storage.blob.batch.BlobBatchAsyncClient.submitBatchWithResponse
+name: submitBatchWithResponse
+nameWithType: BlobBatchAsyncClient.submitBatchWithResponse
+members:
+- uid: com.azure.storage.blob.batch.BlobBatchAsyncClient.submitBatchWithResponse(com.azure.storage.blob.batch.BlobBatch,boolean)
+  fullName: com.azure.storage.blob.batch.BlobBatchAsyncClient.submitBatchWithResponse(BlobBatch batch, boolean throwOnAnyFailure)
+  name: submitBatchWithResponse(BlobBatch batch, boolean throwOnAnyFailure)
+  nameWithType: BlobBatchAsyncClient.submitBatchWithResponse(BlobBatch batch, boolean throwOnAnyFailure)
+  summary: "Submits a batch operation.\n\n <p>If <code>throwOnAnyFailure</code> is <code>true</code> a <xref uid=\"BlobStorageException\" data-throw-if-not-resolved=\"false\">BlobStorageException</xref> will be thrown if any request\n fails.</p>\n\n <p><strong>Code samples</strong></p>\n\n <pre>\n BlobBatch batch = batchAsyncClient.getBlobBatch&#40;&#41;;\n \n Response&lt;Void&gt; deleteResponse1 = batch.deleteBlob&#40;&quot;container&quot;, &quot;blob1&quot;&#41;;\n Response&lt;Void&gt; deleteResponse2 = batch.deleteBlob&#40;&quot;container&quot;, &quot;blob2&quot;, DeleteSnapshotsOptionType.INCLUDE,\n     new BlobRequestConditions&#40;&#41;.setLeaseId&#40;&quot;leaseId&quot;&#41;&#41;;\n \n batchAsyncClient.submitBatchWithResponse&#40;batch, true&#41;.subscribe&#40;response -&gt; &#123;\n     System.out.printf&#40;&quot;Batch submission completed with status code: %d%n&quot;, response.getStatusCode&#40;&#41;&#41;;\n     System.out.printf&#40;&quot;Delete operation 1 completed with status code: %d%n&quot;, deleteResponse1.getStatusCode&#40;&#41;&#41;;\n     System.out.printf&#40;&quot;Delete operation 2 completed with status code: %d%n&quot;, deleteResponse2.getStatusCode&#40;&#41;&#41;;\n &#125;, error -&gt; System.err.printf&#40;&quot;Batch submission failed. Error message: %s%n&quot;, error.getMessage&#40;&#41;&#41;&#41;;\n </pre>"
+  parameters:
+  - description: Batch to submit.
+    name: batch
+    type: <xref href="com.azure.storage.blob.batch.BlobBatch?alt=com.azure.storage.blob.batch.BlobBatch&text=BlobBatch" data-throw-if-not-resolved="False" />
+  - description: Flag to indicate if an exception should be thrown if any request in the batch fails.
+    name: throwOnAnyFailure
+    type: <xref href="boolean?alt=boolean&text=boolean" data-throw-if-not-resolved="False" />
+  syntax: public Mono<Response<Void>> submitBatchWithResponse(BlobBatch batch, boolean throwOnAnyFailure)
+  returns:
+    description: |-
+      A response only containing header and status code information, used to indicate that the batch operation
+       has completed.
+    type: <xref href="reactor.core.publisher.Mono?alt=reactor.core.publisher.Mono&text=Mono" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.core.http.rest.Response?alt=com.azure.core.http.rest.Response&text=Response" data-throw-if-not-resolved="False" />&lt;<xref href="java.lang.Void?alt=java.lang.Void&text=Void" data-throw-if-not-resolved="False" />&gt;&gt;
+type: method
+metadata: {}
+package: com.azure.storage.blob.batch
+artifact: com.azure:azure-storage-blob-batch:12.6.0

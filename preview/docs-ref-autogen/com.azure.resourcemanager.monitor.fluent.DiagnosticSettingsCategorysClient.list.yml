@@ -1,0 +1,39 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.monitor.fluent.DiagnosticSettingsCategorysClient.list*
+fullName: com.azure.resourcemanager.monitor.fluent.DiagnosticSettingsCategorysClient.list
+name: list
+nameWithType: DiagnosticSettingsCategorysClient.list
+members:
+- uid: com.azure.resourcemanager.monitor.fluent.DiagnosticSettingsCategorysClient.list(java.lang.String)
+  fullName: com.azure.resourcemanager.monitor.fluent.DiagnosticSettingsCategorysClient.list(String resourceUri)
+  name: list(String resourceUri)
+  nameWithType: DiagnosticSettingsCategorysClient.list(String resourceUri)
+  summary: Lists the diagnostic settings categories for the specified resource.
+  parameters:
+  - description: The identifier of the resource.
+    name: resourceUri
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  syntax: public DiagnosticSettingsCategoryResourceCollectionInner list(String resourceUri)
+  returns:
+    description: represents a collection of diagnostic setting category resources.
+    type: <xref href="com.azure.resourcemanager.monitor.fluent.inner.DiagnosticSettingsCategoryResourceCollectionInner?alt=com.azure.resourcemanager.monitor.fluent.inner.DiagnosticSettingsCategoryResourceCollectionInner&text=DiagnosticSettingsCategoryResourceCollectionInner" data-throw-if-not-resolved="False" />
+- uid: com.azure.resourcemanager.monitor.fluent.DiagnosticSettingsCategorysClient.list(java.lang.String,com.azure.core.util.Context)
+  fullName: com.azure.resourcemanager.monitor.fluent.DiagnosticSettingsCategorysClient.list(String resourceUri, Context context)
+  name: list(String resourceUri, Context context)
+  nameWithType: DiagnosticSettingsCategorysClient.list(String resourceUri, Context context)
+  summary: Lists the diagnostic settings categories for the specified resource.
+  parameters:
+  - description: The identifier of the resource.
+    name: resourceUri
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  - description: The context to associate with this operation.
+    name: context
+    type: <xref href="com.azure.core.util.Context?alt=com.azure.core.util.Context&text=Context" data-throw-if-not-resolved="False" />
+  syntax: public DiagnosticSettingsCategoryResourceCollectionInner list(String resourceUri, Context context)
+  returns:
+    description: represents a collection of diagnostic setting category resources.
+    type: <xref href="com.azure.resourcemanager.monitor.fluent.inner.DiagnosticSettingsCategoryResourceCollectionInner?alt=com.azure.resourcemanager.monitor.fluent.inner.DiagnosticSettingsCategoryResourceCollectionInner&text=DiagnosticSettingsCategoryResourceCollectionInner" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.resourcemanager.monitor.fluent
+artifact: com.azure.resourcemanager:azure-resourcemanager-monitor:2.0.0-beta.2

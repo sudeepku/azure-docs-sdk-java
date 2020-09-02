@@ -1,0 +1,19 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.monitor.fluent.inner.EventDataInner.category*
+fullName: com.azure.resourcemanager.monitor.fluent.inner.EventDataInner.category
+name: category
+nameWithType: EventDataInner.category
+members:
+- uid: com.azure.resourcemanager.monitor.fluent.inner.EventDataInner.category()
+  fullName: com.azure.resourcemanager.monitor.fluent.inner.EventDataInner.category()
+  name: category()
+  nameWithType: EventDataInner.category()
+  summary: 'Get the category property: the event category.'
+  syntax: public LocalizableStringInner category()
+  returns:
+    description: the category value.
+    type: <xref href="com.azure.resourcemanager.monitor.fluent.inner.LocalizableStringInner?alt=com.azure.resourcemanager.monitor.fluent.inner.LocalizableStringInner&text=LocalizableStringInner" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.resourcemanager.monitor.fluent.inner
+artifact: com.azure.resourcemanager:azure-resourcemanager-monitor:2.0.0-beta.2

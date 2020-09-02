@@ -1,0 +1,23 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.resources.models.GenericResourceFilter.withTagName*
+fullName: com.azure.resourcemanager.resources.models.GenericResourceFilter.withTagName
+name: withTagName
+nameWithType: GenericResourceFilter.withTagName
+members:
+- uid: com.azure.resourcemanager.resources.models.GenericResourceFilter.withTagName(java.lang.String)
+  fullName: com.azure.resourcemanager.resources.models.GenericResourceFilter.withTagName(String tagName)
+  name: withTagName(String tagName)
+  nameWithType: GenericResourceFilter.withTagName(String tagName)
+  summary: 'Set the tagName property: The tag name.'
+  parameters:
+  - description: the tagName value to set.
+    name: tagName
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  syntax: public GenericResourceFilter withTagName(String tagName)
+  returns:
+    description: the GenericResourceFilter object itself.
+    type: <xref href="com.azure.resourcemanager.resources.models.GenericResourceFilter?alt=com.azure.resourcemanager.resources.models.GenericResourceFilter&text=GenericResourceFilter" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.resourcemanager.resources.models
+artifact: com.azure.resourcemanager:azure-resourcemanager-resources:2.0.0-beta.2

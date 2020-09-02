@@ -1,0 +1,53 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.compute.fluent.VirtualMachineScaleSetsClient.listSkusSinglePageAsync*
+fullName: com.azure.resourcemanager.compute.fluent.VirtualMachineScaleSetsClient.listSkusSinglePageAsync
+name: listSkusSinglePageAsync
+nameWithType: VirtualMachineScaleSetsClient.listSkusSinglePageAsync
+members:
+- uid: com.azure.resourcemanager.compute.fluent.VirtualMachineScaleSetsClient.listSkusSinglePageAsync(java.lang.String,java.lang.String)
+  fullName: com.azure.resourcemanager.compute.fluent.VirtualMachineScaleSetsClient.listSkusSinglePageAsync(String resourceGroupName, String vmScaleSetName)
+  name: listSkusSinglePageAsync(String resourceGroupName, String vmScaleSetName)
+  nameWithType: VirtualMachineScaleSetsClient.listSkusSinglePageAsync(String resourceGroupName, String vmScaleSetName)
+  summary: |-
+    Gets a list of SKUs available for your VM scale set, including the minimum and maximum VM instances allowed for
+     each SKU.
+  parameters:
+  - description: The name of the resource group.
+    name: resourceGroupName
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  - description: The name of the VM scale set.
+    name: vmScaleSetName
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  syntax: public Mono<PagedResponse<VirtualMachineScaleSetSkuInner>> listSkusSinglePageAsync(String resourceGroupName, String vmScaleSetName)
+  returns:
+    description: |-
+      a list of SKUs available for your VM scale set, including the minimum and maximum VM instances allowed
+           for each SKU.
+    type: <xref href="reactor.core.publisher.Mono?alt=reactor.core.publisher.Mono&text=Mono" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.core.http.rest.PagedResponse?alt=com.azure.core.http.rest.PagedResponse&text=PagedResponse" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.resourcemanager.compute.fluent.inner.VirtualMachineScaleSetSkuInner?alt=com.azure.resourcemanager.compute.fluent.inner.VirtualMachineScaleSetSkuInner&text=VirtualMachineScaleSetSkuInner" data-throw-if-not-resolved="False" />&gt;&gt;
+- uid: com.azure.resourcemanager.compute.fluent.VirtualMachineScaleSetsClient.listSkusSinglePageAsync(java.lang.String,java.lang.String,com.azure.core.util.Context)
+  fullName: com.azure.resourcemanager.compute.fluent.VirtualMachineScaleSetsClient.listSkusSinglePageAsync(String resourceGroupName, String vmScaleSetName, Context context)
+  name: listSkusSinglePageAsync(String resourceGroupName, String vmScaleSetName, Context context)
+  nameWithType: VirtualMachineScaleSetsClient.listSkusSinglePageAsync(String resourceGroupName, String vmScaleSetName, Context context)
+  summary: |-
+    Gets a list of SKUs available for your VM scale set, including the minimum and maximum VM instances allowed for
+     each SKU.
+  parameters:
+  - description: The name of the resource group.
+    name: resourceGroupName
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  - description: The name of the VM scale set.
+    name: vmScaleSetName
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  - description: The context to associate with this operation.
+    name: context
+    type: <xref href="com.azure.core.util.Context?alt=com.azure.core.util.Context&text=Context" data-throw-if-not-resolved="False" />
+  syntax: public Mono<PagedResponse<VirtualMachineScaleSetSkuInner>> listSkusSinglePageAsync(String resourceGroupName, String vmScaleSetName, Context context)
+  returns:
+    description: |-
+      a list of SKUs available for your VM scale set, including the minimum and maximum VM instances allowed
+           for each SKU.
+    type: <xref href="reactor.core.publisher.Mono?alt=reactor.core.publisher.Mono&text=Mono" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.core.http.rest.PagedResponse?alt=com.azure.core.http.rest.PagedResponse&text=PagedResponse" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.resourcemanager.compute.fluent.inner.VirtualMachineScaleSetSkuInner?alt=com.azure.resourcemanager.compute.fluent.inner.VirtualMachineScaleSetSkuInner&text=VirtualMachineScaleSetSkuInner" data-throw-if-not-resolved="False" />&gt;&gt;
+type: method
+metadata: {}
+package: com.azure.resourcemanager.compute.fluent
+artifact: com.azure.resourcemanager:azure-resourcemanager-compute:2.0.0-beta.2

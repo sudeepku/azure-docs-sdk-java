@@ -1,0 +1,39 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.cosmos.fluent.NotebookWorkspacesClient.beginRegenerateAuthTokenWithoutPolling*
+fullName: com.azure.resourcemanager.cosmos.fluent.NotebookWorkspacesClient.beginRegenerateAuthTokenWithoutPolling
+name: beginRegenerateAuthTokenWithoutPolling
+nameWithType: NotebookWorkspacesClient.beginRegenerateAuthTokenWithoutPolling
+members:
+- uid: com.azure.resourcemanager.cosmos.fluent.NotebookWorkspacesClient.beginRegenerateAuthTokenWithoutPolling(java.lang.String,java.lang.String)
+  fullName: com.azure.resourcemanager.cosmos.fluent.NotebookWorkspacesClient.beginRegenerateAuthTokenWithoutPolling(String resourceGroupName, String accountName)
+  name: beginRegenerateAuthTokenWithoutPolling(String resourceGroupName, String accountName)
+  nameWithType: NotebookWorkspacesClient.beginRegenerateAuthTokenWithoutPolling(String resourceGroupName, String accountName)
+  summary: Regenerates the auth token for the notebook workspace.
+  parameters:
+  - description: The name of the resource group. The name is case insensitive.
+    name: resourceGroupName
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  - description: Cosmos DB database account name.
+    name: accountName
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  syntax: public void beginRegenerateAuthTokenWithoutPolling(String resourceGroupName, String accountName)
+- uid: com.azure.resourcemanager.cosmos.fluent.NotebookWorkspacesClient.beginRegenerateAuthTokenWithoutPolling(java.lang.String,java.lang.String,com.azure.core.util.Context)
+  fullName: com.azure.resourcemanager.cosmos.fluent.NotebookWorkspacesClient.beginRegenerateAuthTokenWithoutPolling(String resourceGroupName, String accountName, Context context)
+  name: beginRegenerateAuthTokenWithoutPolling(String resourceGroupName, String accountName, Context context)
+  nameWithType: NotebookWorkspacesClient.beginRegenerateAuthTokenWithoutPolling(String resourceGroupName, String accountName, Context context)
+  summary: Regenerates the auth token for the notebook workspace.
+  parameters:
+  - description: The name of the resource group. The name is case insensitive.
+    name: resourceGroupName
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  - description: Cosmos DB database account name.
+    name: accountName
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  - description: The context to associate with this operation.
+    name: context
+    type: <xref href="com.azure.core.util.Context?alt=com.azure.core.util.Context&text=Context" data-throw-if-not-resolved="False" />
+  syntax: public void beginRegenerateAuthTokenWithoutPolling(String resourceGroupName, String accountName, Context context)
+type: method
+metadata: {}
+package: com.azure.resourcemanager.cosmos.fluent
+artifact: com.azure.resourcemanager:azure-resourcemanager-cosmos:2.0.0-beta.2

@@ -1,0 +1,29 @@
+### YamlMime:JavaMember
+uid: com.azure.storage.queue.QueueClient.delete*
+fullName: com.azure.storage.queue.QueueClient.delete
+name: delete
+nameWithType: QueueClient.delete
+members:
+- uid: com.azure.storage.queue.QueueClient.delete()
+  fullName: com.azure.storage.queue.QueueClient.delete()
+  name: delete()
+  nameWithType: QueueClient.delete()
+  summary: |-
+    Permanently deletes the queue.
+
+     <p><strong>Code Samples</strong></p>
+
+     <p>Delete a queue</p>
+
+     <pre>
+     client.delete&#40;&#41;;
+     System.out.println&#40;&quot;Complete deleting the queue.&quot;&#41;;
+     </pre>
+
+     <p>For more information, see the
+     <a href="https://docs.microsoft.com/en-us/rest/api/storageservices/delete-queue3">Azure Docs</a>.</p>
+  syntax: public void delete()
+type: method
+metadata: {}
+package: com.azure.storage.queue
+artifact: com.azure:azure-storage-queue:12.6.0-beta.1

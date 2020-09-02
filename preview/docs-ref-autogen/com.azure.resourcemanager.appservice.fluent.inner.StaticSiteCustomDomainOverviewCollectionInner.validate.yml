@@ -1,0 +1,16 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.appservice.fluent.inner.StaticSiteCustomDomainOverviewCollectionInner.validate*
+fullName: com.azure.resourcemanager.appservice.fluent.inner.StaticSiteCustomDomainOverviewCollectionInner.validate
+name: validate
+nameWithType: StaticSiteCustomDomainOverviewCollectionInner.validate
+members:
+- uid: com.azure.resourcemanager.appservice.fluent.inner.StaticSiteCustomDomainOverviewCollectionInner.validate()
+  fullName: com.azure.resourcemanager.appservice.fluent.inner.StaticSiteCustomDomainOverviewCollectionInner.validate()
+  name: validate()
+  nameWithType: StaticSiteCustomDomainOverviewCollectionInner.validate()
+  summary: Validates the instance.
+  syntax: public void validate()
+type: method
+metadata: {}
+package: com.azure.resourcemanager.appservice.fluent.inner
+artifact: com.azure.resourcemanager:azure-resourcemanager-appservice:2.0.0-beta.2

@@ -1,0 +1,23 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.authorization.fluent.inner.DirectoryObjectListResultInner.withValue*
+fullName: com.azure.resourcemanager.authorization.fluent.inner.DirectoryObjectListResultInner.withValue
+name: withValue
+nameWithType: DirectoryObjectListResultInner.withValue
+members:
+- uid: com.azure.resourcemanager.authorization.fluent.inner.DirectoryObjectListResultInner.withValue(java.util.List<com.azure.resourcemanager.authorization.fluent.inner.DirectoryObjectInner>)
+  fullName: com.azure.resourcemanager.authorization.fluent.inner.DirectoryObjectListResultInner.withValue(List<DirectoryObjectInner> value)
+  name: withValue(List<DirectoryObjectInner> value)
+  nameWithType: DirectoryObjectListResultInner.withValue(List<DirectoryObjectInner> value)
+  summary: 'Set the value property: A collection of DirectoryObject.'
+  parameters:
+  - description: the value value to set.
+    name: value
+    type: <xref href="java.util.List?alt=java.util.List&text=List" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.resourcemanager.authorization.fluent.inner.DirectoryObjectInner?alt=com.azure.resourcemanager.authorization.fluent.inner.DirectoryObjectInner&text=DirectoryObjectInner" data-throw-if-not-resolved="False" />&gt;
+  syntax: public DirectoryObjectListResultInner withValue(List<DirectoryObjectInner> value)
+  returns:
+    description: the DirectoryObjectListResultInner object itself.
+    type: <xref href="com.azure.resourcemanager.authorization.fluent.inner.DirectoryObjectListResultInner?alt=com.azure.resourcemanager.authorization.fluent.inner.DirectoryObjectListResultInner&text=DirectoryObjectListResultInner" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.resourcemanager.authorization.fluent.inner
+artifact: com.azure.resourcemanager:azure-resourcemanager-authorization:2.0.0-beta.2

@@ -1,0 +1,105 @@
+### YamlMime:JavaMember
+uid: com.azure.ai.textanalytics.TextAnalyticsClient.recognizeLinkedEntitiesBatch*
+fullName: com.azure.ai.textanalytics.TextAnalyticsClient.recognizeLinkedEntitiesBatch
+name: recognizeLinkedEntitiesBatch
+nameWithType: TextAnalyticsClient.recognizeLinkedEntitiesBatch
+members:
+- uid: com.azure.ai.textanalytics.TextAnalyticsClient.recognizeLinkedEntitiesBatch(java.lang.Iterable<com.azure.ai.textanalytics.models.TextDocumentInput>,com.azure.ai.textanalytics.models.TextAnalyticsRequestOptions,com.azure.core.util.Context)
+  fullName: com.azure.ai.textanalytics.TextAnalyticsClient.recognizeLinkedEntitiesBatch(Iterable<TextDocumentInput> documents, TextAnalyticsRequestOptions options, Context context)
+  name: recognizeLinkedEntitiesBatch(Iterable<TextDocumentInput> documents, TextAnalyticsRequestOptions options, Context context)
+  nameWithType: TextAnalyticsClient.recognizeLinkedEntitiesBatch(Iterable<TextDocumentInput> documents, TextAnalyticsRequestOptions options, Context context)
+  summary: "Returns a list of recognized entities with links to a well-known knowledge base for the list of\n <xref uid=\"TextDocumentInput\" data-throw-if-not-resolved=\"false\">document</xref> and request options.\n\n See <a href=\"https://aka.ms/talangs\">this</a> for supported languages in Text Analytics API.\n\n <p><strong>Code Sample</strong></p>\n <p>Recognizes the linked entities with http response in a list of <xref uid=\"TextDocumentInput\" data-throw-if-not-resolved=\"false\">TextDocumentInput</xref> with request options.\n </p>\n <pre>\n List&lt;TextDocumentInput&gt; textDocumentInputs = Arrays.asList&#40;\n     new TextDocumentInput&#40;&quot;1&quot;, &quot;Old Faithful is a geyser at Yellowstone Park.&quot;, &quot;en&quot;&#41;,\n     new TextDocumentInput&#40;&quot;2&quot;, &quot;Mount Shasta has lenticular clouds.&quot;, &quot;en&quot;&#41;\n &#41;;\n \n textAnalyticsClient.recognizeLinkedEntitiesBatch&#40;textDocumentInputs,\n     new TextAnalyticsRequestOptions&#40;&#41;.setIncludeStatistics&#40;true&#41;, Context.NONE&#41;.iterableByPage&#40;&#41;.forEach&#40;\n         response -&gt; &#123;\n             &#47;&#47; Batch statistics\n             TextDocumentBatchStatistics batchStatistics = response.getStatistics&#40;&#41;;\n             System.out.printf&#40;\n                 &quot;A batch of documents statistics, transaction count: %s, valid document count: %s.%n&quot;,\n                 batchStatistics.getTransactionCount&#40;&#41;, batchStatistics.getValidDocumentCount&#40;&#41;&#41;;\n \n             response.getElements&#40;&#41;.forEach&#40;recognizeLinkedEntitiesResult -&gt;\n                 recognizeLinkedEntitiesResult.getEntities&#40;&#41;.forEach&#40;linkedEntity -&gt; &#123;\n                     System.out.println&#40;&quot;Linked Entities:&quot;&#41;;\n                     System.out.printf&#40;&quot;Name: %s, entity ID in data source: %s, URL: %s, data source: %s.%n&quot;,\n                         linkedEntity.getName&#40;&#41;, linkedEntity.getDataSourceEntityId&#40;&#41;, linkedEntity.getUrl&#40;&#41;,\n                         linkedEntity.getDataSource&#40;&#41;&#41;;\n                     linkedEntity.getLinkedEntityMatches&#40;&#41;.forEach&#40;entityMatch -&gt; System.out.printf&#40;\n                         &quot;Matched entity: %s, score: %.2f.%n&quot;, entityMatch.getText&#40;&#41;, entityMatch.getConfidenceScore&#40;&#41;&#41;&#41;;\n                 &#125;&#41;&#41;;\n         &#125;&#41;;\n </pre>"
+  parameters:
+  - description: |-
+      A list of <xref uid="com.azure.ai.textanalytics.models.TextDocumentInput" data-throw-if-not-resolved="false">documents</xref> to recognize linked entities for.
+       For text length limits, maximum batch size, and supported text encoding, see
+       <a href="https://docs.microsoft.com/azure/cognitive-services/text-analytics/overview#data-limits">data limits</a>.
+    name: documents
+    type: <xref href="java.lang.Iterable?alt=java.lang.Iterable&text=Iterable" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.ai.textanalytics.models.TextDocumentInput?alt=com.azure.ai.textanalytics.models.TextDocumentInput&text=TextDocumentInput" data-throw-if-not-resolved="False" />&gt;
+  - description: |-
+      The <xref uid="com.azure.ai.textanalytics.models.TextAnalyticsRequestOptions" data-throw-if-not-resolved="false">options</xref> to configure the scoring model for documents
+       and show statistics.
+    name: options
+    type: <xref href="com.azure.ai.textanalytics.models.TextAnalyticsRequestOptions?alt=com.azure.ai.textanalytics.models.TextAnalyticsRequestOptions&text=TextAnalyticsRequestOptions" data-throw-if-not-resolved="False" />
+  - description: Additional context that is passed through the Http pipeline during the service call.
+    name: context
+    type: <xref href="com.azure.core.util.Context?alt=com.azure.core.util.Context&text=Context" data-throw-if-not-resolved="False" />
+  syntax: public TextAnalyticsPagedIterable<RecognizeLinkedEntitiesResult> recognizeLinkedEntitiesBatch(Iterable<TextDocumentInput> documents, TextAnalyticsRequestOptions options, Context context)
+  returns:
+    description: |-
+      A <xref uid="com.azure.ai.textanalytics.util.TextAnalyticsPagedIterable" data-throw-if-not-resolved="false">TextAnalyticsPagedIterable</xref> of the
+       <xref uid="com.azure.ai.textanalytics.models.LinkedEntity" data-throw-if-not-resolved="false">recognized linked entities document result</xref>.
+    type: <xref href="com.azure.ai.textanalytics.util.TextAnalyticsPagedIterable?alt=com.azure.ai.textanalytics.util.TextAnalyticsPagedIterable&text=TextAnalyticsPagedIterable" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.ai.textanalytics.models.RecognizeLinkedEntitiesResult?alt=com.azure.ai.textanalytics.models.RecognizeLinkedEntitiesResult&text=RecognizeLinkedEntitiesResult" data-throw-if-not-resolved="False" />&gt;
+- uid: com.azure.ai.textanalytics.TextAnalyticsClient.recognizeLinkedEntitiesBatch(java.lang.Iterable<java.lang.String>)
+  fullName: com.azure.ai.textanalytics.TextAnalyticsClient.recognizeLinkedEntitiesBatch(Iterable<String> documents)
+  name: recognizeLinkedEntitiesBatch(Iterable<String> documents)
+  nameWithType: TextAnalyticsClient.recognizeLinkedEntitiesBatch(Iterable<String> documents)
+  summary: "Returns a list of recognized entities with links to a well-known knowledge base for the list of documents.\n See <a href=\"https://aka.ms/talangs\">this</a> for supported languages in Text Analytics API.\n\n This method will use the default language that sets up in\n <xref uid=\"TextAnalyticsClientBuilder#defaultLanguage(String)\" data-throw-if-not-resolved=\"false\">TextAnalyticsClientBuilder#defaultLanguage(String)</xref>. If none is specified, service will use 'en' as\n the language.\n\n <p><strong>Code Sample</strong></p>\n <p>Recognizes the linked entities in a list of documents.</p>\n <pre>\n final List&lt;String&gt; documents = Arrays.asList&#40;\n     &quot;Old Faithful is a geyser at Yellowstone Park.&quot;,\n     &quot;Mount Shasta has lenticular clouds.&quot;&#41;;\n \n textAnalyticsClient.recognizeLinkedEntitiesBatch&#40;documents&#41;.iterableByPage&#40;&#41;.forEach&#40;response -&gt; &#123;\n     &#47;&#47; Batch statistics\n     TextDocumentBatchStatistics batchStatistics = response.getStatistics&#40;&#41;;\n     System.out.printf&#40;&quot;A batch of documents statistics, transaction count: %s, valid document count: %s.%n&quot;,\n         batchStatistics.getTransactionCount&#40;&#41;, batchStatistics.getValidDocumentCount&#40;&#41;&#41;;\n \n     response.getElements&#40;&#41;.forEach&#40;recognizeLinkedEntitiesResult -&gt;\n         recognizeLinkedEntitiesResult.getEntities&#40;&#41;.forEach&#40;linkedEntity -&gt; &#123;\n             System.out.println&#40;&quot;Linked Entities:&quot;&#41;;\n             System.out.printf&#40;&quot;Name: %s, entity ID in data source: %s, URL: %s, data source: %s.%n&quot;,\n                 linkedEntity.getName&#40;&#41;, linkedEntity.getDataSourceEntityId&#40;&#41;, linkedEntity.getUrl&#40;&#41;,\n                 linkedEntity.getDataSource&#40;&#41;&#41;;\n             linkedEntity.getLinkedEntityMatches&#40;&#41;.forEach&#40;entityMatch -&gt; System.out.printf&#40;\n                 &quot;Matched entity: %s, score: %f.%n&quot;, entityMatch.getText&#40;&#41;, entityMatch.getConfidenceScore&#40;&#41;&#41;&#41;;\n         &#125;&#41;&#41;;\n &#125;&#41;;\n </pre>"
+  parameters:
+  - description: |-
+      A list of documents to recognize linked entities for.
+       For text length limits, maximum batch size, and supported text encoding, see
+       <a href="https://docs.microsoft.com/azure/cognitive-services/text-analytics/overview#data-limits">data limits</a>.
+    name: documents
+    type: <xref href="java.lang.Iterable?alt=java.lang.Iterable&text=Iterable" data-throw-if-not-resolved="False" />&lt;<xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />&gt;
+  syntax: public TextAnalyticsPagedIterable<RecognizeLinkedEntitiesResult> recognizeLinkedEntitiesBatch(Iterable<String> documents)
+  returns:
+    description: |-
+      A <xref uid="com.azure.ai.textanalytics.util.TextAnalyticsPagedIterable" data-throw-if-not-resolved="false">TextAnalyticsPagedIterable</xref> of the
+       <xref uid="com.azure.ai.textanalytics.models.LinkedEntity" data-throw-if-not-resolved="false">recognized linked entities document result</xref>.
+    type: <xref href="com.azure.ai.textanalytics.util.TextAnalyticsPagedIterable?alt=com.azure.ai.textanalytics.util.TextAnalyticsPagedIterable&text=TextAnalyticsPagedIterable" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.ai.textanalytics.models.RecognizeLinkedEntitiesResult?alt=com.azure.ai.textanalytics.models.RecognizeLinkedEntitiesResult&text=RecognizeLinkedEntitiesResult" data-throw-if-not-resolved="False" />&gt;
+- uid: com.azure.ai.textanalytics.TextAnalyticsClient.recognizeLinkedEntitiesBatch(java.lang.Iterable<java.lang.String>,java.lang.String)
+  fullName: com.azure.ai.textanalytics.TextAnalyticsClient.recognizeLinkedEntitiesBatch(Iterable<String> documents, String language)
+  name: recognizeLinkedEntitiesBatch(Iterable<String> documents, String language)
+  nameWithType: TextAnalyticsClient.recognizeLinkedEntitiesBatch(Iterable<String> documents, String language)
+  summary: "Returns a list of recognized entities with links to a well-known knowledge base for the list of documents with\n provided language code.\n\n See <a href=\"https://aka.ms/talangs\">this</a> for supported languages in Text Analytics API.\n\n <p><strong>Code Sample</strong></p>\n <p>Recognizes the linked entities in a list of documents with a provided language code.\n </p>\n <pre>\n List&lt;String&gt; documents = Arrays.asList&#40;\n     &quot;Old Faithful is a geyser at Yellowstone Park.&quot;,\n     &quot;Mount Shasta has lenticular clouds.&quot;\n &#41;;\n \n textAnalyticsClient.recognizeLinkedEntitiesBatch&#40;documents, &quot;en&quot;&#41;.iterableByPage&#40;&#41;\n     .forEach&#40;response -&gt; &#123;\n         &#47;&#47; Batch statistics\n         TextDocumentBatchStatistics batchStatistics = response.getStatistics&#40;&#41;;\n         System.out.printf&#40;&quot;A batch of documents statistics, transaction count: %s, valid document count: %s.%n&quot;,\n             batchStatistics.getTransactionCount&#40;&#41;, batchStatistics.getValidDocumentCount&#40;&#41;&#41;;\n \n         response.getElements&#40;&#41;.forEach&#40;recognizeLinkedEntitiesResult -&gt;\n             recognizeLinkedEntitiesResult.getEntities&#40;&#41;.forEach&#40;linkedEntity -&gt; &#123;\n                 System.out.println&#40;&quot;Linked Entities:&quot;&#41;;\n                 System.out.printf&#40;&quot;Name: %s, entity ID in data source: %s, URL: %s, data source: %s.%n&quot;,\n                     linkedEntity.getName&#40;&#41;, linkedEntity.getDataSourceEntityId&#40;&#41;, linkedEntity.getUrl&#40;&#41;,\n                     linkedEntity.getDataSource&#40;&#41;&#41;;\n                 linkedEntity.getLinkedEntityMatches&#40;&#41;.forEach&#40;entityMatch -&gt; System.out.printf&#40;\n                     &quot;Matched entity: %s, score: %f.%n&quot;, entityMatch.getText&#40;&#41;, entityMatch.getConfidenceScore&#40;&#41;&#41;&#41;;\n             &#125;&#41;&#41;;\n     &#125;&#41;;\n </pre>"
+  parameters:
+  - description: |-
+      A list of documents to recognize linked entities for.
+       For text length limits, maximum batch size, and supported text encoding, see
+       <a href="https://docs.microsoft.com/azure/cognitive-services/text-analytics/overview#data-limits">data limits</a>.
+    name: documents
+    type: <xref href="java.lang.Iterable?alt=java.lang.Iterable&text=Iterable" data-throw-if-not-resolved="False" />&lt;<xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />&gt;
+  - description: |-
+      The 2 letter ISO 639-1 representation of language for the documents. If not set, uses "en" for
+       English as default.
+    name: language
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  syntax: public TextAnalyticsPagedIterable<RecognizeLinkedEntitiesResult> recognizeLinkedEntitiesBatch(Iterable<String> documents, String language)
+  returns:
+    description: |-
+      A <xref uid="com.azure.ai.textanalytics.util.TextAnalyticsPagedIterable" data-throw-if-not-resolved="false">TextAnalyticsPagedIterable</xref> of the
+       <xref uid="com.azure.ai.textanalytics.models.LinkedEntity" data-throw-if-not-resolved="false">recognized linked entities document result</xref>.
+    type: <xref href="com.azure.ai.textanalytics.util.TextAnalyticsPagedIterable?alt=com.azure.ai.textanalytics.util.TextAnalyticsPagedIterable&text=TextAnalyticsPagedIterable" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.ai.textanalytics.models.RecognizeLinkedEntitiesResult?alt=com.azure.ai.textanalytics.models.RecognizeLinkedEntitiesResult&text=RecognizeLinkedEntitiesResult" data-throw-if-not-resolved="False" />&gt;
+- uid: com.azure.ai.textanalytics.TextAnalyticsClient.recognizeLinkedEntitiesBatch(java.lang.Iterable<java.lang.String>,java.lang.String,com.azure.ai.textanalytics.models.TextAnalyticsRequestOptions)
+  fullName: com.azure.ai.textanalytics.TextAnalyticsClient.recognizeLinkedEntitiesBatch(Iterable<String> documents, String language, TextAnalyticsRequestOptions options)
+  name: recognizeLinkedEntitiesBatch(Iterable<String> documents, String language, TextAnalyticsRequestOptions options)
+  nameWithType: TextAnalyticsClient.recognizeLinkedEntitiesBatch(Iterable<String> documents, String language, TextAnalyticsRequestOptions options)
+  summary: "Returns a list of recognized entities with links to a well-known knowledge base for the list of documents with\n provided language code and request options.\n\n See <a href=\"https://aka.ms/talangs\">this</a> for supported languages in Text Analytics API.\n\n <p><strong>Code Sample</strong></p>\n <p>Recognizes the linked entities in a list of documents with a provided language code and request options.\n </p>\n <pre>\n List&lt;String&gt; documents = Arrays.asList&#40;\n     &quot;Old Faithful is a geyser at Yellowstone Park.&quot;,\n     &quot;Mount Shasta has lenticular clouds.&quot;\n &#41;;\n \n textAnalyticsClient.recognizeLinkedEntitiesBatch&#40;documents, &quot;en&quot;, null&#41;.iterableByPage&#40;&#41;\n     .forEach&#40;response -&gt; &#123;\n         &#47;&#47; Batch statistics\n         TextDocumentBatchStatistics batchStatistics = response.getStatistics&#40;&#41;;\n         System.out.printf&#40;&quot;A batch of documents statistics, transaction count: %s, valid document count: %s.%n&quot;,\n             batchStatistics.getTransactionCount&#40;&#41;, batchStatistics.getValidDocumentCount&#40;&#41;&#41;;\n \n         response.getElements&#40;&#41;.forEach&#40;recognizeLinkedEntitiesResult -&gt;\n             recognizeLinkedEntitiesResult.getEntities&#40;&#41;.forEach&#40;linkedEntity -&gt; &#123;\n                 System.out.println&#40;&quot;Linked Entities:&quot;&#41;;\n                 System.out.printf&#40;&quot;Name: %s, entity ID in data source: %s, URL: %s, data source: %s.%n&quot;,\n                     linkedEntity.getName&#40;&#41;, linkedEntity.getDataSourceEntityId&#40;&#41;, linkedEntity.getUrl&#40;&#41;,\n                     linkedEntity.getDataSource&#40;&#41;&#41;;\n                 linkedEntity.getLinkedEntityMatches&#40;&#41;.forEach&#40;entityMatch -&gt; System.out.printf&#40;\n                     &quot;Matched entity: %s, score: %f.%n&quot;, entityMatch.getText&#40;&#41;, entityMatch.getConfidenceScore&#40;&#41;&#41;&#41;;\n             &#125;&#41;&#41;;\n     &#125;&#41;;\n </pre>"
+  parameters:
+  - description: |-
+      A list of documents to recognize linked entities for.
+       For text length limits, maximum batch size, and supported text encoding, see
+       <a href="https://docs.microsoft.com/azure/cognitive-services/text-analytics/overview#data-limits">data limits</a>.
+    name: documents
+    type: <xref href="java.lang.Iterable?alt=java.lang.Iterable&text=Iterable" data-throw-if-not-resolved="False" />&lt;<xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />&gt;
+  - description: |-
+      The 2 letter ISO 639-1 representation of language for the documents. If not set, uses "en" for
+       English as default.
+    name: language
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  - description: |-
+      The <xref uid="com.azure.ai.textanalytics.models.TextAnalyticsRequestOptions" data-throw-if-not-resolved="false">options</xref> to configure the scoring model for documents
+       and show statistics.
+    name: options
+    type: <xref href="com.azure.ai.textanalytics.models.TextAnalyticsRequestOptions?alt=com.azure.ai.textanalytics.models.TextAnalyticsRequestOptions&text=TextAnalyticsRequestOptions" data-throw-if-not-resolved="False" />
+  syntax: public TextAnalyticsPagedIterable<RecognizeLinkedEntitiesResult> recognizeLinkedEntitiesBatch(Iterable<String> documents, String language, TextAnalyticsRequestOptions options)
+  returns:
+    description: |-
+      A <xref uid="com.azure.ai.textanalytics.util.TextAnalyticsPagedIterable" data-throw-if-not-resolved="false">TextAnalyticsPagedIterable</xref> of the
+       <xref uid="com.azure.ai.textanalytics.models.LinkedEntity" data-throw-if-not-resolved="false">recognized linked entities document result</xref>.
+    type: <xref href="com.azure.ai.textanalytics.util.TextAnalyticsPagedIterable?alt=com.azure.ai.textanalytics.util.TextAnalyticsPagedIterable&text=TextAnalyticsPagedIterable" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.ai.textanalytics.models.RecognizeLinkedEntitiesResult?alt=com.azure.ai.textanalytics.models.RecognizeLinkedEntitiesResult&text=RecognizeLinkedEntitiesResult" data-throw-if-not-resolved="False" />&gt;
+type: method
+metadata: {}
+package: com.azure.ai.textanalytics
+artifact: com.azure:azure-ai-textanalytics:1.0.0-beta.4

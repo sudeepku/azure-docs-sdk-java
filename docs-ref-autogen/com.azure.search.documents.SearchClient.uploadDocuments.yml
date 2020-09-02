@@ -1,0 +1,39 @@
+### YamlMime:JavaMember
+uid: com.azure.search.documents.SearchClient.uploadDocuments*
+fullName: com.azure.search.documents.SearchClient.uploadDocuments
+name: uploadDocuments
+nameWithType: SearchClient.uploadDocuments
+members:
+- uid: com.azure.search.documents.SearchClient.uploadDocuments(java.lang.Iterable<?>)
+  fullName: com.azure.search.documents.SearchClient.uploadDocuments(Iterable<?> documents)
+  name: uploadDocuments(Iterable<?> documents)
+  nameWithType: SearchClient.uploadDocuments(Iterable<?> documents)
+  summary: |-
+    Uploads a collection of documents to the target index.
+
+     <p><strong>Code Sample</strong></p>
+
+     <p> Upload dynamic SearchDocument. </p>
+
+     <pre>
+     SearchDocument searchDocument = new SearchDocument&#40;&#41;;
+     searchDocument.put&#40;&quot;hotelId&quot;, &quot;1&quot;&#41;;
+     searchDocument.put&#40;&quot;hotelName&quot;, &quot;test&quot;&#41;;
+     IndexDocumentsResult result = searchClient.uploadDocuments&#40;Collections.singletonList&#40;searchDocument&#41;&#41;;
+     for &#40;IndexingResult indexingResult : result.getResults&#40;&#41;&#41; &#123;
+         System.out.printf&#40;&quot;Does document with key %s upload successfully? %b%n&quot;, indexingResult.getKey&#40;&#41;,
+             indexingResult.isSucceeded&#40;&#41;&#41;;
+     &#125;
+     </pre>
+  parameters:
+  - description: collection of documents to upload to the target Index.
+    name: documents
+    type: <xref href="java.lang.Iterable?alt=java.lang.Iterable&text=Iterable" data-throw-if-not-resolved="False" />&lt;?&gt;
+  syntax: public IndexDocumentsResult uploadDocuments(Iterable<?> documents)
+  returns:
+    description: document index result.
+    type: <xref href="com.azure.search.documents.models.IndexDocumentsResult?alt=com.azure.search.documents.models.IndexDocumentsResult&text=IndexDocumentsResult" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.search.documents
+artifact: com.azure:azure-search-documents:11.0.0

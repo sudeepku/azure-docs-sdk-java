@@ -1,0 +1,38 @@
+### YamlMime:JavaMember
+uid: com.azure.storage.queue.QueueServiceAsyncClient.getPropertiesWithResponse*
+fullName: com.azure.storage.queue.QueueServiceAsyncClient.getPropertiesWithResponse
+name: getPropertiesWithResponse
+nameWithType: QueueServiceAsyncClient.getPropertiesWithResponse
+members:
+- uid: com.azure.storage.queue.QueueServiceAsyncClient.getPropertiesWithResponse()
+  fullName: com.azure.storage.queue.QueueServiceAsyncClient.getPropertiesWithResponse()
+  name: getPropertiesWithResponse()
+  nameWithType: QueueServiceAsyncClient.getPropertiesWithResponse()
+  summary: |-
+    Retrieves the properties of the storage account's Queue service. The properties range from storage analytics and
+     metric to CORS (Cross-Origin Resource Sharing).
+
+     <p><strong>Code Samples</strong></p>
+
+     <p>Retrieve Queue service properties</p>
+
+     <pre>
+     client.getPropertiesWithResponse&#40;&#41;
+         .subscribe&#40;response -&gt; &#123;
+             QueueServiceProperties properties = response.getValue&#40;&#41;;
+             System.out.printf&#40;&quot;Hour metrics enabled: %b, Minute metrics enabled: %b&quot;,
+                 properties.getHourMetrics&#40;&#41;.isEnabled&#40;&#41;, properties.getMinuteMetrics&#40;&#41;.isEnabled&#40;&#41;&#41;;
+         &#125;&#41;;
+     </pre>
+
+     <p>For more information, see the
+     <a href="https://docs.microsoft.com/en-us/rest/api/storageservices/get-queue-service-properties">Azure
+     Docs</a>.</p>
+  syntax: public Mono<Response<QueueServiceProperties>> getPropertiesWithResponse()
+  returns:
+    description: A response containing the Storage account <xref uid="com.azure.storage.queue.models.QueueServiceProperties" data-throw-if-not-resolved="false">Queue service properties</xref>
+    type: <xref href="reactor.core.publisher.Mono?alt=reactor.core.publisher.Mono&text=Mono" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.core.http.rest.Response?alt=com.azure.core.http.rest.Response&text=Response" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.storage.queue.models.QueueServiceProperties?alt=com.azure.storage.queue.models.QueueServiceProperties&text=QueueServiceProperties" data-throw-if-not-resolved="False" />&gt;&gt;
+type: method
+metadata: {}
+package: com.azure.storage.queue
+artifact: com.azure:azure-storage-queue:12.6.0

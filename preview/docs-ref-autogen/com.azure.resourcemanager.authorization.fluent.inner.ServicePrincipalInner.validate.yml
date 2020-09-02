@@ -1,0 +1,17 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.authorization.fluent.inner.ServicePrincipalInner.validate*
+fullName: com.azure.resourcemanager.authorization.fluent.inner.ServicePrincipalInner.validate
+name: validate
+nameWithType: ServicePrincipalInner.validate
+members:
+- uid: com.azure.resourcemanager.authorization.fluent.inner.ServicePrincipalInner.validate()
+  fullName: com.azure.resourcemanager.authorization.fluent.inner.ServicePrincipalInner.validate()
+  name: validate()
+  nameWithType: ServicePrincipalInner.validate()
+  summary: Validates the instance.
+  overridden: com.azure.resourcemanager.authorization.fluent.inner.DirectoryObjectInner.validate()
+  syntax: public void validate()
+type: method
+metadata: {}
+package: com.azure.resourcemanager.authorization.fluent.inner
+artifact: com.azure.resourcemanager:azure-resourcemanager-authorization:2.0.0-beta.2

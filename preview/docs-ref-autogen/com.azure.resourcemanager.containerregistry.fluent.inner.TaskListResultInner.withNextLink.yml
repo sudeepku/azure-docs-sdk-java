@@ -1,0 +1,23 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.containerregistry.fluent.inner.TaskListResultInner.withNextLink*
+fullName: com.azure.resourcemanager.containerregistry.fluent.inner.TaskListResultInner.withNextLink
+name: withNextLink
+nameWithType: TaskListResultInner.withNextLink
+members:
+- uid: com.azure.resourcemanager.containerregistry.fluent.inner.TaskListResultInner.withNextLink(java.lang.String)
+  fullName: com.azure.resourcemanager.containerregistry.fluent.inner.TaskListResultInner.withNextLink(String nextLink)
+  name: withNextLink(String nextLink)
+  nameWithType: TaskListResultInner.withNextLink(String nextLink)
+  summary: 'Set the nextLink property: The URI that can be used to request the next set of paged results.'
+  parameters:
+  - description: the nextLink value to set.
+    name: nextLink
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  syntax: public TaskListResultInner withNextLink(String nextLink)
+  returns:
+    description: the TaskListResultInner object itself.
+    type: <xref href="com.azure.resourcemanager.containerregistry.fluent.inner.TaskListResultInner?alt=com.azure.resourcemanager.containerregistry.fluent.inner.TaskListResultInner&text=TaskListResultInner" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.resourcemanager.containerregistry.fluent.inner
+artifact: com.azure.resourcemanager:azure-resourcemanager-containerregistry:2.0.0-beta.2

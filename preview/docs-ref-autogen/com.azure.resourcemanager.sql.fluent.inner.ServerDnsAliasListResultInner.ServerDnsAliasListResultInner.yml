@@ -1,0 +1,15 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.sql.fluent.inner.ServerDnsAliasListResultInner.ServerDnsAliasListResultInner*
+fullName: com.azure.resourcemanager.sql.fluent.inner.ServerDnsAliasListResultInner.ServerDnsAliasListResultInner
+name: ServerDnsAliasListResultInner
+nameWithType: ServerDnsAliasListResultInner.ServerDnsAliasListResultInner
+members:
+- uid: com.azure.resourcemanager.sql.fluent.inner.ServerDnsAliasListResultInner.ServerDnsAliasListResultInner()
+  fullName: com.azure.resourcemanager.sql.fluent.inner.ServerDnsAliasListResultInner.ServerDnsAliasListResultInner()
+  name: ServerDnsAliasListResultInner()
+  nameWithType: ServerDnsAliasListResultInner.ServerDnsAliasListResultInner()
+  syntax: public ServerDnsAliasListResultInner()
+type: constructor
+metadata: {}
+package: com.azure.resourcemanager.sql.fluent.inner
+artifact: com.azure.resourcemanager:azure-resourcemanager-sql:2.0.0-beta.2

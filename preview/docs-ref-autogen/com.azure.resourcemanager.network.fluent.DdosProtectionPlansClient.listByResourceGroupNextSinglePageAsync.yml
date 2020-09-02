@@ -1,0 +1,39 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.network.fluent.DdosProtectionPlansClient.listByResourceGroupNextSinglePageAsync*
+fullName: com.azure.resourcemanager.network.fluent.DdosProtectionPlansClient.listByResourceGroupNextSinglePageAsync
+name: listByResourceGroupNextSinglePageAsync
+nameWithType: DdosProtectionPlansClient.listByResourceGroupNextSinglePageAsync
+members:
+- uid: com.azure.resourcemanager.network.fluent.DdosProtectionPlansClient.listByResourceGroupNextSinglePageAsync(java.lang.String)
+  fullName: com.azure.resourcemanager.network.fluent.DdosProtectionPlansClient.listByResourceGroupNextSinglePageAsync(String nextLink)
+  name: listByResourceGroupNextSinglePageAsync(String nextLink)
+  nameWithType: DdosProtectionPlansClient.listByResourceGroupNextSinglePageAsync(String nextLink)
+  summary: Get the next page of items.
+  parameters:
+  - description: The nextLink parameter.
+    name: nextLink
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  syntax: public Mono<PagedResponse<DdosProtectionPlanInner>> listByResourceGroupNextSinglePageAsync(String nextLink)
+  returns:
+    description: a list of DDoS protection plans.
+    type: <xref href="reactor.core.publisher.Mono?alt=reactor.core.publisher.Mono&text=Mono" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.core.http.rest.PagedResponse?alt=com.azure.core.http.rest.PagedResponse&text=PagedResponse" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.resourcemanager.network.fluent.inner.DdosProtectionPlanInner?alt=com.azure.resourcemanager.network.fluent.inner.DdosProtectionPlanInner&text=DdosProtectionPlanInner" data-throw-if-not-resolved="False" />&gt;&gt;
+- uid: com.azure.resourcemanager.network.fluent.DdosProtectionPlansClient.listByResourceGroupNextSinglePageAsync(java.lang.String,com.azure.core.util.Context)
+  fullName: com.azure.resourcemanager.network.fluent.DdosProtectionPlansClient.listByResourceGroupNextSinglePageAsync(String nextLink, Context context)
+  name: listByResourceGroupNextSinglePageAsync(String nextLink, Context context)
+  nameWithType: DdosProtectionPlansClient.listByResourceGroupNextSinglePageAsync(String nextLink, Context context)
+  summary: Get the next page of items.
+  parameters:
+  - description: The nextLink parameter.
+    name: nextLink
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  - description: The context to associate with this operation.
+    name: context
+    type: <xref href="com.azure.core.util.Context?alt=com.azure.core.util.Context&text=Context" data-throw-if-not-resolved="False" />
+  syntax: public Mono<PagedResponse<DdosProtectionPlanInner>> listByResourceGroupNextSinglePageAsync(String nextLink, Context context)
+  returns:
+    description: a list of DDoS protection plans.
+    type: <xref href="reactor.core.publisher.Mono?alt=reactor.core.publisher.Mono&text=Mono" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.core.http.rest.PagedResponse?alt=com.azure.core.http.rest.PagedResponse&text=PagedResponse" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.resourcemanager.network.fluent.inner.DdosProtectionPlanInner?alt=com.azure.resourcemanager.network.fluent.inner.DdosProtectionPlanInner&text=DdosProtectionPlanInner" data-throw-if-not-resolved="False" />&gt;&gt;
+type: method
+metadata: {}
+package: com.azure.resourcemanager.network.fluent
+artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.0.0-beta.2

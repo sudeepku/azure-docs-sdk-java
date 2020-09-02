@@ -1,0 +1,17 @@
+### YamlMime:JavaMember
+uid: com.azure.search.documents.indexes.implementation.models.CustomAnalyzer.validate*
+fullName: com.azure.search.documents.indexes.implementation.models.CustomAnalyzer.validate
+name: validate
+nameWithType: CustomAnalyzer.validate
+members:
+- uid: com.azure.search.documents.indexes.implementation.models.CustomAnalyzer.validate()
+  fullName: com.azure.search.documents.indexes.implementation.models.CustomAnalyzer.validate()
+  name: validate()
+  nameWithType: CustomAnalyzer.validate()
+  summary: Validates the instance.
+  overridden: com.azure.search.documents.indexes.implementation.models.LexicalAnalyzer.validate()
+  syntax: public void validate()
+type: method
+metadata: {}
+package: com.azure.search.documents.indexes.implementation.models
+artifact: com.azure:azure-search-documents:11.1.0-beta.1

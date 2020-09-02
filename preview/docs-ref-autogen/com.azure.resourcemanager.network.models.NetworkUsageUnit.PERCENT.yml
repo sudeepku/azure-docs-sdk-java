@@ -1,0 +1,16 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.network.models.NetworkUsageUnit.PERCENT
+fullName: com.azure.resourcemanager.network.models.NetworkUsageUnit.PERCENT
+name: PERCENT
+nameWithType: NetworkUsageUnit.PERCENT
+members:
+- uid: com.azure.resourcemanager.network.models.NetworkUsageUnit.PERCENT
+  fullName: com.azure.resourcemanager.network.models.NetworkUsageUnit.PERCENT
+  name: PERCENT
+  nameWithType: NetworkUsageUnit.PERCENT
+  summary: Static value Percent for NetworkUsageUnit.
+  syntax: public static final NetworkUsageUnit PERCENT
+type: field
+metadata: {}
+package: com.azure.resourcemanager.network.models
+artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.0.0-beta.2

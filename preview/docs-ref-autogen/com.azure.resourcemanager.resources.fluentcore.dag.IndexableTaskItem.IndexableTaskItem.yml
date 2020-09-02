@@ -1,0 +1,36 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.resources.fluentcore.dag.IndexableTaskItem.IndexableTaskItem*
+fullName: com.azure.resourcemanager.resources.fluentcore.dag.IndexableTaskItem.IndexableTaskItem
+name: IndexableTaskItem
+nameWithType: IndexableTaskItem.IndexableTaskItem
+members:
+- uid: com.azure.resourcemanager.resources.fluentcore.dag.IndexableTaskItem.IndexableTaskItem()
+  fullName: com.azure.resourcemanager.resources.fluentcore.dag.IndexableTaskItem.IndexableTaskItem()
+  name: IndexableTaskItem()
+  nameWithType: IndexableTaskItem.IndexableTaskItem()
+  summary: Creates a TaskItem which is index-able using a random UUID.
+  syntax: public IndexableTaskItem()
+- uid: com.azure.resourcemanager.resources.fluentcore.dag.IndexableTaskItem.IndexableTaskItem(com.azure.resourcemanager.resources.fluentcore.utils.SdkContext)
+  fullName: com.azure.resourcemanager.resources.fluentcore.dag.IndexableTaskItem.IndexableTaskItem(SdkContext sdkContext)
+  name: IndexableTaskItem(SdkContext sdkContext)
+  nameWithType: IndexableTaskItem.IndexableTaskItem(SdkContext sdkContext)
+  summary: Creates a TaskItem which is index-able using a random UUID.
+  parameters:
+  - description: the sdkcontext
+    name: sdkContext
+    type: <xref href="com.azure.resourcemanager.resources.fluentcore.utils.SdkContext?alt=com.azure.resourcemanager.resources.fluentcore.utils.SdkContext&text=SdkContext" data-throw-if-not-resolved="False" />
+  syntax: public IndexableTaskItem(SdkContext sdkContext)
+- uid: com.azure.resourcemanager.resources.fluentcore.dag.IndexableTaskItem.IndexableTaskItem(java.lang.String)
+  fullName: com.azure.resourcemanager.resources.fluentcore.dag.IndexableTaskItem.IndexableTaskItem(String key)
+  name: IndexableTaskItem(String key)
+  nameWithType: IndexableTaskItem.IndexableTaskItem(String key)
+  summary: Creates a TaskItem which is index-able using provided key.
+  parameters:
+  - description: the unique key to index this TaskItem
+    name: key
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  syntax: public IndexableTaskItem(String key)
+type: constructor
+metadata: {}
+package: com.azure.resourcemanager.resources.fluentcore.dag
+artifact: com.azure.resourcemanager:azure-resourcemanager-resources:2.0.0-beta.2

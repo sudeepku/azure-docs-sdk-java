@@ -1,0 +1,19 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.cosmos.fluent.inner.SqlContainerListResultInner.value*
+fullName: com.azure.resourcemanager.cosmos.fluent.inner.SqlContainerListResultInner.value
+name: value
+nameWithType: SqlContainerListResultInner.value
+members:
+- uid: com.azure.resourcemanager.cosmos.fluent.inner.SqlContainerListResultInner.value()
+  fullName: com.azure.resourcemanager.cosmos.fluent.inner.SqlContainerListResultInner.value()
+  name: value()
+  nameWithType: SqlContainerListResultInner.value()
+  summary: 'Get the value property: List of containers and their properties.'
+  syntax: public List<SqlContainerGetResultsInner> value()
+  returns:
+    description: the value value.
+    type: <xref href="java.util.List?alt=java.util.List&text=List" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.resourcemanager.cosmos.fluent.inner.SqlContainerGetResultsInner?alt=com.azure.resourcemanager.cosmos.fluent.inner.SqlContainerGetResultsInner&text=SqlContainerGetResultsInner" data-throw-if-not-resolved="False" />&gt;
+type: method
+metadata: {}
+package: com.azure.resourcemanager.cosmos.fluent.inner
+artifact: com.azure.resourcemanager:azure-resourcemanager-cosmos:2.0.0-beta.2

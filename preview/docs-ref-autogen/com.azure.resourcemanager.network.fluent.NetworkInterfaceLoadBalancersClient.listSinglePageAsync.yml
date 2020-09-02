@@ -1,0 +1,45 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.network.fluent.NetworkInterfaceLoadBalancersClient.listSinglePageAsync*
+fullName: com.azure.resourcemanager.network.fluent.NetworkInterfaceLoadBalancersClient.listSinglePageAsync
+name: listSinglePageAsync
+nameWithType: NetworkInterfaceLoadBalancersClient.listSinglePageAsync
+members:
+- uid: com.azure.resourcemanager.network.fluent.NetworkInterfaceLoadBalancersClient.listSinglePageAsync(java.lang.String,java.lang.String)
+  fullName: com.azure.resourcemanager.network.fluent.NetworkInterfaceLoadBalancersClient.listSinglePageAsync(String resourceGroupName, String networkInterfaceName)
+  name: listSinglePageAsync(String resourceGroupName, String networkInterfaceName)
+  nameWithType: NetworkInterfaceLoadBalancersClient.listSinglePageAsync(String resourceGroupName, String networkInterfaceName)
+  summary: List all load balancers in a network interface.
+  parameters:
+  - description: The name of the resource group.
+    name: resourceGroupName
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  - description: The name of the network interface.
+    name: networkInterfaceName
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  syntax: public Mono<PagedResponse<LoadBalancerInner>> listSinglePageAsync(String resourceGroupName, String networkInterfaceName)
+  returns:
+    description: response for list ip configurations API service call.
+    type: <xref href="reactor.core.publisher.Mono?alt=reactor.core.publisher.Mono&text=Mono" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.core.http.rest.PagedResponse?alt=com.azure.core.http.rest.PagedResponse&text=PagedResponse" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.resourcemanager.network.fluent.inner.LoadBalancerInner?alt=com.azure.resourcemanager.network.fluent.inner.LoadBalancerInner&text=LoadBalancerInner" data-throw-if-not-resolved="False" />&gt;&gt;
+- uid: com.azure.resourcemanager.network.fluent.NetworkInterfaceLoadBalancersClient.listSinglePageAsync(java.lang.String,java.lang.String,com.azure.core.util.Context)
+  fullName: com.azure.resourcemanager.network.fluent.NetworkInterfaceLoadBalancersClient.listSinglePageAsync(String resourceGroupName, String networkInterfaceName, Context context)
+  name: listSinglePageAsync(String resourceGroupName, String networkInterfaceName, Context context)
+  nameWithType: NetworkInterfaceLoadBalancersClient.listSinglePageAsync(String resourceGroupName, String networkInterfaceName, Context context)
+  summary: List all load balancers in a network interface.
+  parameters:
+  - description: The name of the resource group.
+    name: resourceGroupName
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  - description: The name of the network interface.
+    name: networkInterfaceName
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  - description: The context to associate with this operation.
+    name: context
+    type: <xref href="com.azure.core.util.Context?alt=com.azure.core.util.Context&text=Context" data-throw-if-not-resolved="False" />
+  syntax: public Mono<PagedResponse<LoadBalancerInner>> listSinglePageAsync(String resourceGroupName, String networkInterfaceName, Context context)
+  returns:
+    description: response for list ip configurations API service call.
+    type: <xref href="reactor.core.publisher.Mono?alt=reactor.core.publisher.Mono&text=Mono" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.core.http.rest.PagedResponse?alt=com.azure.core.http.rest.PagedResponse&text=PagedResponse" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.resourcemanager.network.fluent.inner.LoadBalancerInner?alt=com.azure.resourcemanager.network.fluent.inner.LoadBalancerInner&text=LoadBalancerInner" data-throw-if-not-resolved="False" />&gt;&gt;
+type: method
+metadata: {}
+package: com.azure.resourcemanager.network.fluent
+artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.0.0-beta.2

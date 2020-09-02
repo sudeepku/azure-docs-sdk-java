@@ -1,0 +1,23 @@
+### YamlMime:JavaMember
+uid: com.azure.messaging.servicebus.implementation.models.RuleDescription.setAction*
+fullName: com.azure.messaging.servicebus.implementation.models.RuleDescription.setAction
+name: setAction
+nameWithType: RuleDescription.setAction
+members:
+- uid: com.azure.messaging.servicebus.implementation.models.RuleDescription.setAction(com.azure.messaging.servicebus.implementation.models.RuleAction)
+  fullName: com.azure.messaging.servicebus.implementation.models.RuleDescription.setAction(RuleAction action)
+  name: setAction(RuleAction action)
+  nameWithType: RuleDescription.setAction(RuleAction action)
+  summary: 'Set the action property: The Action property.'
+  parameters:
+  - description: the action value to set.
+    name: action
+    type: <xref href="com.azure.messaging.servicebus.implementation.models.RuleAction?alt=com.azure.messaging.servicebus.implementation.models.RuleAction&text=RuleAction" data-throw-if-not-resolved="False" />
+  syntax: public RuleDescription setAction(RuleAction action)
+  returns:
+    description: the RuleDescription object itself.
+    type: <xref href="com.azure.messaging.servicebus.implementation.models.RuleDescription?alt=com.azure.messaging.servicebus.implementation.models.RuleDescription&text=RuleDescription" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.messaging.servicebus.implementation.models
+artifact: com.azure:azure-messaging-servicebus:7.0.0-beta.5

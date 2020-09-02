@@ -1,0 +1,23 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.network.models.FirewallPolicyNatRule.withTranslatedAddress*
+fullName: com.azure.resourcemanager.network.models.FirewallPolicyNatRule.withTranslatedAddress
+name: withTranslatedAddress
+nameWithType: FirewallPolicyNatRule.withTranslatedAddress
+members:
+- uid: com.azure.resourcemanager.network.models.FirewallPolicyNatRule.withTranslatedAddress(java.lang.String)
+  fullName: com.azure.resourcemanager.network.models.FirewallPolicyNatRule.withTranslatedAddress(String translatedAddress)
+  name: withTranslatedAddress(String translatedAddress)
+  nameWithType: FirewallPolicyNatRule.withTranslatedAddress(String translatedAddress)
+  summary: 'Set the translatedAddress property: The translated address for this NAT rule.'
+  parameters:
+  - description: the translatedAddress value to set.
+    name: translatedAddress
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  syntax: public FirewallPolicyNatRule withTranslatedAddress(String translatedAddress)
+  returns:
+    description: the FirewallPolicyNatRule object itself.
+    type: <xref href="com.azure.resourcemanager.network.models.FirewallPolicyNatRule?alt=com.azure.resourcemanager.network.models.FirewallPolicyNatRule&text=FirewallPolicyNatRule" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.resourcemanager.network.models
+artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.0.0-beta.2

@@ -1,0 +1,66 @@
+### YamlMime:JavaMember
+uid: com.azure.cosmos.implementation.guava25.collect.TreeMultiset.create*
+fullName: com.azure.cosmos.implementation.guava25.collect.TreeMultiset<E>.<E>create
+name: <E>create
+nameWithType: TreeMultiset<E>.<E>create
+members:
+- uid: com.azure.cosmos.implementation.guava25.collect.TreeMultiset.<E>create()
+  fullName: com.azure.cosmos.implementation.guava25.collect.TreeMultiset<E>.<E>create()
+  name: <E>create()
+  nameWithType: TreeMultiset<E>.<E>create()
+  summary: |-
+    Creates a new, empty multiset, sorted according to the elements' natural order. All elements
+     inserted into the multiset must implement the <code>Comparable</code> interface. Furthermore, all
+     such elements must be <i>mutually comparable</i>: <code>e1.compareTo(e2)</code> must not throw a
+     <code>ClassCastException</code> for any elements <code>e1</code> and <code>e2</code> in the multiset. If the
+     user attempts to add an element to the multiset that violates this constraint (for example, the
+     user attempts to add a string element to a set whose elements are integers), the <code>
+     add(Object)</code> call will throw a <code>ClassCastException</code>.
+
+     <p>The type specification is <code><E extends Comparable></code>, instead of the more specific
+     <code><E extends Comparable<? super E>></code>, to support classes defined without generics.
+  syntax: public static TreeMultiset<E> <E>create()
+  returns:
+    type: <xref href="com.azure.cosmos.implementation.guava25.collect.TreeMultiset?alt=com.azure.cosmos.implementation.guava25.collect.TreeMultiset&text=TreeMultiset" data-throw-if-not-resolved="False" />&lt;<xref href="E?alt=E&text=E" data-throw-if-not-resolved="False" />&gt;
+- uid: com.azure.cosmos.implementation.guava25.collect.TreeMultiset.<E>create(java.lang.Iterable<? extends E>)
+  fullName: com.azure.cosmos.implementation.guava25.collect.TreeMultiset<E>.<E>create(Iterable<? extends E> elements)
+  name: <E>create(Iterable<? extends E> elements)
+  nameWithType: TreeMultiset<E>.<E>create(Iterable<? extends E> elements)
+  summary: |-
+    Creates an empty multiset containing the given initial elements, sorted according to the
+     elements' natural order.
+
+     <p>This implementation is highly efficient when <code>elements</code> is itself a <xref uid="Multiset" data-throw-if-not-resolved="false">Multiset</xref>.
+
+     <p>The type specification is <code><E extends Comparable></code>, instead of the more specific
+     <code><E extends Comparable<? super E>></code>, to support classes defined without generics.
+  parameters:
+  - name: elements
+    type: <xref href="java.lang.Iterable?alt=java.lang.Iterable&text=Iterable" data-throw-if-not-resolved="False" />&lt;<xref href="? extends E?alt=? extends E&text=? extends E" data-throw-if-not-resolved="False" />&gt;
+  syntax: public static TreeMultiset<E> <E>create(Iterable<? extends E> elements)
+  returns:
+    type: <xref href="com.azure.cosmos.implementation.guava25.collect.TreeMultiset?alt=com.azure.cosmos.implementation.guava25.collect.TreeMultiset&text=TreeMultiset" data-throw-if-not-resolved="False" />&lt;<xref href="E?alt=E&text=E" data-throw-if-not-resolved="False" />&gt;
+- uid: com.azure.cosmos.implementation.guava25.collect.TreeMultiset.<E>create(java.util.Comparator<? super E>)
+  fullName: com.azure.cosmos.implementation.guava25.collect.TreeMultiset<E>.<E>create(Comparator<? super E> comparator)
+  name: <E>create(Comparator<? super E> comparator)
+  nameWithType: TreeMultiset<E>.<E>create(Comparator<? super E> comparator)
+  summary: |-
+    Creates a new, empty multiset, sorted according to the specified comparator. All elements
+     inserted into the multiset must be <i>mutually comparable</i> by the specified comparator:
+     <code>comparator.compare(e1, e2)</code> must not throw a <code>ClassCastException</code> for any elements
+     <code>e1</code> and <code>e2</code> in the multiset. If the user attempts to add an element to the
+     multiset that violates this constraint, the <code>add(Object)</code> call will throw a <code>
+     ClassCastException</code>.
+  parameters:
+  - description: |-
+      the comparator that will be used to sort this multiset. A null value
+           indicates that the elements' <i>natural ordering</i> should be used.
+    name: comparator
+    type: <xref href="java.util.Comparator?alt=java.util.Comparator&text=Comparator" data-throw-if-not-resolved="False" />&lt;<xref href="? super E?alt=? super E&text=? super E" data-throw-if-not-resolved="False" />&gt;
+  syntax: public static TreeMultiset<E> <E>create(Comparator<? super E> comparator)
+  returns:
+    type: <xref href="com.azure.cosmos.implementation.guava25.collect.TreeMultiset?alt=com.azure.cosmos.implementation.guava25.collect.TreeMultiset&text=TreeMultiset" data-throw-if-not-resolved="False" />&lt;<xref href="E?alt=E&text=E" data-throw-if-not-resolved="False" />&gt;
+type: method
+metadata: {}
+package: com.azure.cosmos.implementation.guava25.collect
+artifact: com.azure:azure-cosmos:4.3.2-beta.2

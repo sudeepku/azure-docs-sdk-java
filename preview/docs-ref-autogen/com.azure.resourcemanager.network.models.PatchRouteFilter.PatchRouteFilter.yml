@@ -1,0 +1,15 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.network.models.PatchRouteFilter.PatchRouteFilter*
+fullName: com.azure.resourcemanager.network.models.PatchRouteFilter.PatchRouteFilter
+name: PatchRouteFilter
+nameWithType: PatchRouteFilter.PatchRouteFilter
+members:
+- uid: com.azure.resourcemanager.network.models.PatchRouteFilter.PatchRouteFilter()
+  fullName: com.azure.resourcemanager.network.models.PatchRouteFilter.PatchRouteFilter()
+  name: PatchRouteFilter()
+  nameWithType: PatchRouteFilter.PatchRouteFilter()
+  syntax: public PatchRouteFilter()
+type: constructor
+metadata: {}
+package: com.azure.resourcemanager.network.models
+artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.0.0-beta.2

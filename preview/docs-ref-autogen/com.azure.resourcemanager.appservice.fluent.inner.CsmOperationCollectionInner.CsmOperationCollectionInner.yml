@@ -1,0 +1,15 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.appservice.fluent.inner.CsmOperationCollectionInner.CsmOperationCollectionInner*
+fullName: com.azure.resourcemanager.appservice.fluent.inner.CsmOperationCollectionInner.CsmOperationCollectionInner
+name: CsmOperationCollectionInner
+nameWithType: CsmOperationCollectionInner.CsmOperationCollectionInner
+members:
+- uid: com.azure.resourcemanager.appservice.fluent.inner.CsmOperationCollectionInner.CsmOperationCollectionInner()
+  fullName: com.azure.resourcemanager.appservice.fluent.inner.CsmOperationCollectionInner.CsmOperationCollectionInner()
+  name: CsmOperationCollectionInner()
+  nameWithType: CsmOperationCollectionInner.CsmOperationCollectionInner()
+  syntax: public CsmOperationCollectionInner()
+type: constructor
+metadata: {}
+package: com.azure.resourcemanager.appservice.fluent.inner
+artifact: com.azure.resourcemanager:azure-resourcemanager-appservice:2.0.0-beta.2

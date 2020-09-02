@@ -1,0 +1,23 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.appservice.fluent.inner.PerfMonCounterCollectionInner.withValue*
+fullName: com.azure.resourcemanager.appservice.fluent.inner.PerfMonCounterCollectionInner.withValue
+name: withValue
+nameWithType: PerfMonCounterCollectionInner.withValue
+members:
+- uid: com.azure.resourcemanager.appservice.fluent.inner.PerfMonCounterCollectionInner.withValue(java.util.List<com.azure.resourcemanager.appservice.fluent.inner.PerfMonResponseInner>)
+  fullName: com.azure.resourcemanager.appservice.fluent.inner.PerfMonCounterCollectionInner.withValue(List<PerfMonResponseInner> value)
+  name: withValue(List<PerfMonResponseInner> value)
+  nameWithType: PerfMonCounterCollectionInner.withValue(List<PerfMonResponseInner> value)
+  summary: 'Set the value property: Collection of resources.'
+  parameters:
+  - description: the value value to set.
+    name: value
+    type: <xref href="java.util.List?alt=java.util.List&text=List" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.resourcemanager.appservice.fluent.inner.PerfMonResponseInner?alt=com.azure.resourcemanager.appservice.fluent.inner.PerfMonResponseInner&text=PerfMonResponseInner" data-throw-if-not-resolved="False" />&gt;
+  syntax: public PerfMonCounterCollectionInner withValue(List<PerfMonResponseInner> value)
+  returns:
+    description: the PerfMonCounterCollectionInner object itself.
+    type: <xref href="com.azure.resourcemanager.appservice.fluent.inner.PerfMonCounterCollectionInner?alt=com.azure.resourcemanager.appservice.fluent.inner.PerfMonCounterCollectionInner&text=PerfMonCounterCollectionInner" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.resourcemanager.appservice.fluent.inner
+artifact: com.azure.resourcemanager:azure-resourcemanager-appservice:2.0.0-beta.2

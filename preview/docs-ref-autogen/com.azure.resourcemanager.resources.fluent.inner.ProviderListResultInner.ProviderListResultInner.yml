@@ -1,0 +1,15 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.resources.fluent.inner.ProviderListResultInner.ProviderListResultInner*
+fullName: com.azure.resourcemanager.resources.fluent.inner.ProviderListResultInner.ProviderListResultInner
+name: ProviderListResultInner
+nameWithType: ProviderListResultInner.ProviderListResultInner
+members:
+- uid: com.azure.resourcemanager.resources.fluent.inner.ProviderListResultInner.ProviderListResultInner()
+  fullName: com.azure.resourcemanager.resources.fluent.inner.ProviderListResultInner.ProviderListResultInner()
+  name: ProviderListResultInner()
+  nameWithType: ProviderListResultInner.ProviderListResultInner()
+  syntax: public ProviderListResultInner()
+type: constructor
+metadata: {}
+package: com.azure.resourcemanager.resources.fluent.inner
+artifact: com.azure.resourcemanager:azure-resourcemanager-resources:2.0.0-beta.2

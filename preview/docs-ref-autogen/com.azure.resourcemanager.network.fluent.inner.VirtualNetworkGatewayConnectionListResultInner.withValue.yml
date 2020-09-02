@@ -1,0 +1,23 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.network.fluent.inner.VirtualNetworkGatewayConnectionListResultInner.withValue*
+fullName: com.azure.resourcemanager.network.fluent.inner.VirtualNetworkGatewayConnectionListResultInner.withValue
+name: withValue
+nameWithType: VirtualNetworkGatewayConnectionListResultInner.withValue
+members:
+- uid: com.azure.resourcemanager.network.fluent.inner.VirtualNetworkGatewayConnectionListResultInner.withValue(java.util.List<com.azure.resourcemanager.network.fluent.inner.VirtualNetworkGatewayConnectionInner>)
+  fullName: com.azure.resourcemanager.network.fluent.inner.VirtualNetworkGatewayConnectionListResultInner.withValue(List<VirtualNetworkGatewayConnectionInner> value)
+  name: withValue(List<VirtualNetworkGatewayConnectionInner> value)
+  nameWithType: VirtualNetworkGatewayConnectionListResultInner.withValue(List<VirtualNetworkGatewayConnectionInner> value)
+  summary: 'Set the value property: Gets a list of VirtualNetworkGatewayConnection resources that exists in a resource group.'
+  parameters:
+  - description: the value value to set.
+    name: value
+    type: <xref href="java.util.List?alt=java.util.List&text=List" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.resourcemanager.network.fluent.inner.VirtualNetworkGatewayConnectionInner?alt=com.azure.resourcemanager.network.fluent.inner.VirtualNetworkGatewayConnectionInner&text=VirtualNetworkGatewayConnectionInner" data-throw-if-not-resolved="False" />&gt;
+  syntax: public VirtualNetworkGatewayConnectionListResultInner withValue(List<VirtualNetworkGatewayConnectionInner> value)
+  returns:
+    description: the VirtualNetworkGatewayConnectionListResultInner object itself.
+    type: <xref href="com.azure.resourcemanager.network.fluent.inner.VirtualNetworkGatewayConnectionListResultInner?alt=com.azure.resourcemanager.network.fluent.inner.VirtualNetworkGatewayConnectionListResultInner&text=VirtualNetworkGatewayConnectionListResultInner" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.resourcemanager.network.fluent.inner
+artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.0.0-beta.2

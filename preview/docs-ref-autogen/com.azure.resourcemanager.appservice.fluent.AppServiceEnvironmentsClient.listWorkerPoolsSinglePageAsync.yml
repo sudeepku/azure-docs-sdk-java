@@ -1,0 +1,45 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.appservice.fluent.AppServiceEnvironmentsClient.listWorkerPoolsSinglePageAsync*
+fullName: com.azure.resourcemanager.appservice.fluent.AppServiceEnvironmentsClient.listWorkerPoolsSinglePageAsync
+name: listWorkerPoolsSinglePageAsync
+nameWithType: AppServiceEnvironmentsClient.listWorkerPoolsSinglePageAsync
+members:
+- uid: com.azure.resourcemanager.appservice.fluent.AppServiceEnvironmentsClient.listWorkerPoolsSinglePageAsync(java.lang.String,java.lang.String)
+  fullName: com.azure.resourcemanager.appservice.fluent.AppServiceEnvironmentsClient.listWorkerPoolsSinglePageAsync(String resourceGroupName, String name)
+  name: listWorkerPoolsSinglePageAsync(String resourceGroupName, String name)
+  nameWithType: AppServiceEnvironmentsClient.listWorkerPoolsSinglePageAsync(String resourceGroupName, String name)
+  summary: Description for Get all worker pools of an App Service Environment.
+  parameters:
+  - description: Name of the resource group to which the resource belongs.
+    name: resourceGroupName
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  - description: Name of the App Service Environment.
+    name: name
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  syntax: public Mono<PagedResponse<WorkerPoolResourceInner>> listWorkerPoolsSinglePageAsync(String resourceGroupName, String name)
+  returns:
+    description: collection of worker pools.
+    type: <xref href="reactor.core.publisher.Mono?alt=reactor.core.publisher.Mono&text=Mono" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.core.http.rest.PagedResponse?alt=com.azure.core.http.rest.PagedResponse&text=PagedResponse" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.resourcemanager.appservice.fluent.inner.WorkerPoolResourceInner?alt=com.azure.resourcemanager.appservice.fluent.inner.WorkerPoolResourceInner&text=WorkerPoolResourceInner" data-throw-if-not-resolved="False" />&gt;&gt;
+- uid: com.azure.resourcemanager.appservice.fluent.AppServiceEnvironmentsClient.listWorkerPoolsSinglePageAsync(java.lang.String,java.lang.String,com.azure.core.util.Context)
+  fullName: com.azure.resourcemanager.appservice.fluent.AppServiceEnvironmentsClient.listWorkerPoolsSinglePageAsync(String resourceGroupName, String name, Context context)
+  name: listWorkerPoolsSinglePageAsync(String resourceGroupName, String name, Context context)
+  nameWithType: AppServiceEnvironmentsClient.listWorkerPoolsSinglePageAsync(String resourceGroupName, String name, Context context)
+  summary: Description for Get all worker pools of an App Service Environment.
+  parameters:
+  - description: Name of the resource group to which the resource belongs.
+    name: resourceGroupName
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  - description: Name of the App Service Environment.
+    name: name
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  - description: The context to associate with this operation.
+    name: context
+    type: <xref href="com.azure.core.util.Context?alt=com.azure.core.util.Context&text=Context" data-throw-if-not-resolved="False" />
+  syntax: public Mono<PagedResponse<WorkerPoolResourceInner>> listWorkerPoolsSinglePageAsync(String resourceGroupName, String name, Context context)
+  returns:
+    description: collection of worker pools.
+    type: <xref href="reactor.core.publisher.Mono?alt=reactor.core.publisher.Mono&text=Mono" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.core.http.rest.PagedResponse?alt=com.azure.core.http.rest.PagedResponse&text=PagedResponse" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.resourcemanager.appservice.fluent.inner.WorkerPoolResourceInner?alt=com.azure.resourcemanager.appservice.fluent.inner.WorkerPoolResourceInner&text=WorkerPoolResourceInner" data-throw-if-not-resolved="False" />&gt;&gt;
+type: method
+metadata: {}
+package: com.azure.resourcemanager.appservice.fluent
+artifact: com.azure.resourcemanager:azure-resourcemanager-appservice:2.0.0-beta.2

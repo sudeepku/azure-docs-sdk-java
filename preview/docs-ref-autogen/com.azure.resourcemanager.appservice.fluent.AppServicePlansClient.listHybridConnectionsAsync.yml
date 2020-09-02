@@ -1,0 +1,45 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.appservice.fluent.AppServicePlansClient.listHybridConnectionsAsync*
+fullName: com.azure.resourcemanager.appservice.fluent.AppServicePlansClient.listHybridConnectionsAsync
+name: listHybridConnectionsAsync
+nameWithType: AppServicePlansClient.listHybridConnectionsAsync
+members:
+- uid: com.azure.resourcemanager.appservice.fluent.AppServicePlansClient.listHybridConnectionsAsync(java.lang.String,java.lang.String)
+  fullName: com.azure.resourcemanager.appservice.fluent.AppServicePlansClient.listHybridConnectionsAsync(String resourceGroupName, String name)
+  name: listHybridConnectionsAsync(String resourceGroupName, String name)
+  nameWithType: AppServicePlansClient.listHybridConnectionsAsync(String resourceGroupName, String name)
+  summary: Description for Retrieve all Hybrid Connections in use in an App Service plan.
+  parameters:
+  - description: Name of the resource group to which the resource belongs.
+    name: resourceGroupName
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  - description: Name of the App Service plan.
+    name: name
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  syntax: public PagedFlux<HybridConnectionInner> listHybridConnectionsAsync(String resourceGroupName, String name)
+  returns:
+    description: collection of hostname bindings.
+    type: <xref href="com.azure.core.http.rest.PagedFlux?alt=com.azure.core.http.rest.PagedFlux&text=PagedFlux" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.resourcemanager.appservice.fluent.inner.HybridConnectionInner?alt=com.azure.resourcemanager.appservice.fluent.inner.HybridConnectionInner&text=HybridConnectionInner" data-throw-if-not-resolved="False" />&gt;
+- uid: com.azure.resourcemanager.appservice.fluent.AppServicePlansClient.listHybridConnectionsAsync(java.lang.String,java.lang.String,com.azure.core.util.Context)
+  fullName: com.azure.resourcemanager.appservice.fluent.AppServicePlansClient.listHybridConnectionsAsync(String resourceGroupName, String name, Context context)
+  name: listHybridConnectionsAsync(String resourceGroupName, String name, Context context)
+  nameWithType: AppServicePlansClient.listHybridConnectionsAsync(String resourceGroupName, String name, Context context)
+  summary: Description for Retrieve all Hybrid Connections in use in an App Service plan.
+  parameters:
+  - description: Name of the resource group to which the resource belongs.
+    name: resourceGroupName
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  - description: Name of the App Service plan.
+    name: name
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  - description: The context to associate with this operation.
+    name: context
+    type: <xref href="com.azure.core.util.Context?alt=com.azure.core.util.Context&text=Context" data-throw-if-not-resolved="False" />
+  syntax: public PagedFlux<HybridConnectionInner> listHybridConnectionsAsync(String resourceGroupName, String name, Context context)
+  returns:
+    description: collection of hostname bindings.
+    type: <xref href="com.azure.core.http.rest.PagedFlux?alt=com.azure.core.http.rest.PagedFlux&text=PagedFlux" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.resourcemanager.appservice.fluent.inner.HybridConnectionInner?alt=com.azure.resourcemanager.appservice.fluent.inner.HybridConnectionInner&text=HybridConnectionInner" data-throw-if-not-resolved="False" />&gt;
+type: method
+metadata: {}
+package: com.azure.resourcemanager.appservice.fluent
+artifact: com.azure.resourcemanager:azure-resourcemanager-appservice:2.0.0-beta.2

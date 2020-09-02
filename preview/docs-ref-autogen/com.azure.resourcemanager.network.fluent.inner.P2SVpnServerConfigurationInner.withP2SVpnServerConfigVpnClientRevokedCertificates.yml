@@ -1,0 +1,27 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.network.fluent.inner.P2SVpnServerConfigurationInner.withP2SVpnServerConfigVpnClientRevokedCertificates*
+fullName: com.azure.resourcemanager.network.fluent.inner.P2SVpnServerConfigurationInner.withP2SVpnServerConfigVpnClientRevokedCertificates
+name: withP2SVpnServerConfigVpnClientRevokedCertificates
+nameWithType: P2SVpnServerConfigurationInner.withP2SVpnServerConfigVpnClientRevokedCertificates
+members:
+- uid: com.azure.resourcemanager.network.fluent.inner.P2SVpnServerConfigurationInner.withP2SVpnServerConfigVpnClientRevokedCertificates(java.util.List<com.azure.resourcemanager.network.models.P2SVpnServerConfigVpnClientRevokedCertificate>)
+  fullName: com.azure.resourcemanager.network.fluent.inner.P2SVpnServerConfigurationInner.withP2SVpnServerConfigVpnClientRevokedCertificates(List<P2SVpnServerConfigVpnClientRevokedCertificate> p2SVpnServerConfigVpnClientRevokedCertificates)
+  name: withP2SVpnServerConfigVpnClientRevokedCertificates(List<P2SVpnServerConfigVpnClientRevokedCertificate> p2SVpnServerConfigVpnClientRevokedCertificates)
+  nameWithType: P2SVpnServerConfigurationInner.withP2SVpnServerConfigVpnClientRevokedCertificates(List<P2SVpnServerConfigVpnClientRevokedCertificate> p2SVpnServerConfigVpnClientRevokedCertificates)
+  summary: |-
+    Set the p2SVpnServerConfigVpnClientRevokedCertificates property: VPN client revoked certificate of
+     P2SVpnServerConfiguration.
+  parameters:
+  - description: |-
+      the p2SVpnServerConfigVpnClientRevokedCertificates value to
+           set.
+    name: p2SVpnServerConfigVpnClientRevokedCertificates
+    type: <xref href="java.util.List?alt=java.util.List&text=List" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.resourcemanager.network.models.P2SVpnServerConfigVpnClientRevokedCertificate?alt=com.azure.resourcemanager.network.models.P2SVpnServerConfigVpnClientRevokedCertificate&text=P2SVpnServerConfigVpnClientRevokedCertificate" data-throw-if-not-resolved="False" />&gt;
+  syntax: public P2SVpnServerConfigurationInner withP2SVpnServerConfigVpnClientRevokedCertificates(List<P2SVpnServerConfigVpnClientRevokedCertificate> p2SVpnServerConfigVpnClientRevokedCertificates)
+  returns:
+    description: the P2SVpnServerConfigurationInner object itself.
+    type: <xref href="com.azure.resourcemanager.network.fluent.inner.P2SVpnServerConfigurationInner?alt=com.azure.resourcemanager.network.fluent.inner.P2SVpnServerConfigurationInner&text=P2SVpnServerConfigurationInner" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.resourcemanager.network.fluent.inner
+artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.0.0-beta.2

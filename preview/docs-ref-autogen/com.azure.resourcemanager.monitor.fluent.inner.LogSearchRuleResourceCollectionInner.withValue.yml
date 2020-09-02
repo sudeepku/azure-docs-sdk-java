@@ -1,0 +1,23 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.monitor.fluent.inner.LogSearchRuleResourceCollectionInner.withValue*
+fullName: com.azure.resourcemanager.monitor.fluent.inner.LogSearchRuleResourceCollectionInner.withValue
+name: withValue
+nameWithType: LogSearchRuleResourceCollectionInner.withValue
+members:
+- uid: com.azure.resourcemanager.monitor.fluent.inner.LogSearchRuleResourceCollectionInner.withValue(java.util.List<com.azure.resourcemanager.monitor.fluent.inner.LogSearchRuleResourceInner>)
+  fullName: com.azure.resourcemanager.monitor.fluent.inner.LogSearchRuleResourceCollectionInner.withValue(List<LogSearchRuleResourceInner> value)
+  name: withValue(List<LogSearchRuleResourceInner> value)
+  nameWithType: LogSearchRuleResourceCollectionInner.withValue(List<LogSearchRuleResourceInner> value)
+  summary: 'Set the value property: The values for the Log Search Rule resources.'
+  parameters:
+  - description: the value value to set.
+    name: value
+    type: <xref href="java.util.List?alt=java.util.List&text=List" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.resourcemanager.monitor.fluent.inner.LogSearchRuleResourceInner?alt=com.azure.resourcemanager.monitor.fluent.inner.LogSearchRuleResourceInner&text=LogSearchRuleResourceInner" data-throw-if-not-resolved="False" />&gt;
+  syntax: public LogSearchRuleResourceCollectionInner withValue(List<LogSearchRuleResourceInner> value)
+  returns:
+    description: the LogSearchRuleResourceCollectionInner object itself.
+    type: <xref href="com.azure.resourcemanager.monitor.fluent.inner.LogSearchRuleResourceCollectionInner?alt=com.azure.resourcemanager.monitor.fluent.inner.LogSearchRuleResourceCollectionInner&text=LogSearchRuleResourceCollectionInner" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.resourcemanager.monitor.fluent.inner
+artifact: com.azure.resourcemanager:azure-resourcemanager-monitor:2.0.0-beta.2

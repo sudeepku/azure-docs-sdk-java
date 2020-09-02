@@ -1,0 +1,16 @@
+### YamlMime:JavaMember
+uid: com.azure.search.documents.indexes.implementation.models.SearchFieldDataType.EDM_DOUBLE
+fullName: com.azure.search.documents.indexes.implementation.models.SearchFieldDataType.EDM_DOUBLE
+name: EDM_DOUBLE
+nameWithType: SearchFieldDataType.EDM_DOUBLE
+members:
+- uid: com.azure.search.documents.indexes.implementation.models.SearchFieldDataType.EDM_DOUBLE
+  fullName: com.azure.search.documents.indexes.implementation.models.SearchFieldDataType.EDM_DOUBLE
+  name: EDM_DOUBLE
+  nameWithType: SearchFieldDataType.EDM_DOUBLE
+  summary: Static value Edm.Double for SearchFieldDataType.
+  syntax: public static final SearchFieldDataType EDM_DOUBLE
+type: field
+metadata: {}
+package: com.azure.search.documents.indexes.implementation.models
+artifact: com.azure:azure-search-documents:11.1.0-beta.1

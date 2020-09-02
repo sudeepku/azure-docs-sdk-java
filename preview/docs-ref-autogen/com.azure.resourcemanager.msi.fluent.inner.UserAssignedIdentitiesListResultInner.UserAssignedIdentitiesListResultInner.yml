@@ -1,0 +1,15 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.msi.fluent.inner.UserAssignedIdentitiesListResultInner.UserAssignedIdentitiesListResultInner*
+fullName: com.azure.resourcemanager.msi.fluent.inner.UserAssignedIdentitiesListResultInner.UserAssignedIdentitiesListResultInner
+name: UserAssignedIdentitiesListResultInner
+nameWithType: UserAssignedIdentitiesListResultInner.UserAssignedIdentitiesListResultInner
+members:
+- uid: com.azure.resourcemanager.msi.fluent.inner.UserAssignedIdentitiesListResultInner.UserAssignedIdentitiesListResultInner()
+  fullName: com.azure.resourcemanager.msi.fluent.inner.UserAssignedIdentitiesListResultInner.UserAssignedIdentitiesListResultInner()
+  name: UserAssignedIdentitiesListResultInner()
+  nameWithType: UserAssignedIdentitiesListResultInner.UserAssignedIdentitiesListResultInner()
+  syntax: public UserAssignedIdentitiesListResultInner()
+type: constructor
+metadata: {}
+package: com.azure.resourcemanager.msi.fluent.inner
+artifact: com.azure.resourcemanager:azure-resourcemanager-msi:2.0.0-beta.2

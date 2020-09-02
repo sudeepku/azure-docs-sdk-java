@@ -1,0 +1,63 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.cosmos.fluent.MongoDBResourcesClient.beginCreateUpdateMongoDBCollectionWithoutPollingAsync*
+fullName: com.azure.resourcemanager.cosmos.fluent.MongoDBResourcesClient.beginCreateUpdateMongoDBCollectionWithoutPollingAsync
+name: beginCreateUpdateMongoDBCollectionWithoutPollingAsync
+nameWithType: MongoDBResourcesClient.beginCreateUpdateMongoDBCollectionWithoutPollingAsync
+members:
+- uid: com.azure.resourcemanager.cosmos.fluent.MongoDBResourcesClient.beginCreateUpdateMongoDBCollectionWithoutPollingAsync(java.lang.String,java.lang.String,java.lang.String,java.lang.String,com.azure.resourcemanager.cosmos.models.MongoDBCollectionCreateUpdateParameters)
+  fullName: com.azure.resourcemanager.cosmos.fluent.MongoDBResourcesClient.beginCreateUpdateMongoDBCollectionWithoutPollingAsync(String resourceGroupName, String accountName, String databaseName, String collectionName, MongoDBCollectionCreateUpdateParameters createUpdateMongoDBCollectionParameters)
+  name: beginCreateUpdateMongoDBCollectionWithoutPollingAsync(String resourceGroupName, String accountName, String databaseName, String collectionName, MongoDBCollectionCreateUpdateParameters createUpdateMongoDBCollectionParameters)
+  nameWithType: MongoDBResourcesClient.beginCreateUpdateMongoDBCollectionWithoutPollingAsync(String resourceGroupName, String accountName, String databaseName, String collectionName, MongoDBCollectionCreateUpdateParameters createUpdateMongoDBCollectionParameters)
+  summary: Create or update an Azure Cosmos DB MongoDB Collection.
+  parameters:
+  - description: Name of an Azure resource group.
+    name: resourceGroupName
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  - description: Cosmos DB database account name.
+    name: accountName
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  - description: Cosmos DB database name.
+    name: databaseName
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  - description: Cosmos DB collection name.
+    name: collectionName
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  - description: Parameters to create and update Cosmos DB MongoDB collection.
+    name: createUpdateMongoDBCollectionParameters
+    type: <xref href="com.azure.resourcemanager.cosmos.models.MongoDBCollectionCreateUpdateParameters?alt=com.azure.resourcemanager.cosmos.models.MongoDBCollectionCreateUpdateParameters&text=MongoDBCollectionCreateUpdateParameters" data-throw-if-not-resolved="False" />
+  syntax: public Mono<MongoDBCollectionGetResultsInner> beginCreateUpdateMongoDBCollectionWithoutPollingAsync(String resourceGroupName, String accountName, String databaseName, String collectionName, MongoDBCollectionCreateUpdateParameters createUpdateMongoDBCollectionParameters)
+  returns:
+    description: an Azure Cosmos DB MongoDB collection.
+    type: <xref href="reactor.core.publisher.Mono?alt=reactor.core.publisher.Mono&text=Mono" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.resourcemanager.cosmos.fluent.inner.MongoDBCollectionGetResultsInner?alt=com.azure.resourcemanager.cosmos.fluent.inner.MongoDBCollectionGetResultsInner&text=MongoDBCollectionGetResultsInner" data-throw-if-not-resolved="False" />&gt;
+- uid: com.azure.resourcemanager.cosmos.fluent.MongoDBResourcesClient.beginCreateUpdateMongoDBCollectionWithoutPollingAsync(java.lang.String,java.lang.String,java.lang.String,java.lang.String,com.azure.resourcemanager.cosmos.models.MongoDBCollectionCreateUpdateParameters,com.azure.core.util.Context)
+  fullName: com.azure.resourcemanager.cosmos.fluent.MongoDBResourcesClient.beginCreateUpdateMongoDBCollectionWithoutPollingAsync(String resourceGroupName, String accountName, String databaseName, String collectionName, MongoDBCollectionCreateUpdateParameters createUpdateMongoDBCollectionParameters, Context context)
+  name: beginCreateUpdateMongoDBCollectionWithoutPollingAsync(String resourceGroupName, String accountName, String databaseName, String collectionName, MongoDBCollectionCreateUpdateParameters createUpdateMongoDBCollectionParameters, Context context)
+  nameWithType: MongoDBResourcesClient.beginCreateUpdateMongoDBCollectionWithoutPollingAsync(String resourceGroupName, String accountName, String databaseName, String collectionName, MongoDBCollectionCreateUpdateParameters createUpdateMongoDBCollectionParameters, Context context)
+  summary: Create or update an Azure Cosmos DB MongoDB Collection.
+  parameters:
+  - description: Name of an Azure resource group.
+    name: resourceGroupName
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  - description: Cosmos DB database account name.
+    name: accountName
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  - description: Cosmos DB database name.
+    name: databaseName
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  - description: Cosmos DB collection name.
+    name: collectionName
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  - description: Parameters to create and update Cosmos DB MongoDB collection.
+    name: createUpdateMongoDBCollectionParameters
+    type: <xref href="com.azure.resourcemanager.cosmos.models.MongoDBCollectionCreateUpdateParameters?alt=com.azure.resourcemanager.cosmos.models.MongoDBCollectionCreateUpdateParameters&text=MongoDBCollectionCreateUpdateParameters" data-throw-if-not-resolved="False" />
+  - description: The context to associate with this operation.
+    name: context
+    type: <xref href="com.azure.core.util.Context?alt=com.azure.core.util.Context&text=Context" data-throw-if-not-resolved="False" />
+  syntax: public Mono<MongoDBCollectionGetResultsInner> beginCreateUpdateMongoDBCollectionWithoutPollingAsync(String resourceGroupName, String accountName, String databaseName, String collectionName, MongoDBCollectionCreateUpdateParameters createUpdateMongoDBCollectionParameters, Context context)
+  returns:
+    description: an Azure Cosmos DB MongoDB collection.
+    type: <xref href="reactor.core.publisher.Mono?alt=reactor.core.publisher.Mono&text=Mono" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.resourcemanager.cosmos.fluent.inner.MongoDBCollectionGetResultsInner?alt=com.azure.resourcemanager.cosmos.fluent.inner.MongoDBCollectionGetResultsInner&text=MongoDBCollectionGetResultsInner" data-throw-if-not-resolved="False" />&gt;
+type: method
+metadata: {}
+package: com.azure.resourcemanager.cosmos.fluent
+artifact: com.azure.resourcemanager:azure-resourcemanager-cosmos:2.0.0-beta.2

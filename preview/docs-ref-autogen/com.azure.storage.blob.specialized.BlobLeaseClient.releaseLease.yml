@@ -1,0 +1,24 @@
+### YamlMime:JavaMember
+uid: com.azure.storage.blob.specialized.BlobLeaseClient.releaseLease*
+fullName: com.azure.storage.blob.specialized.BlobLeaseClient.releaseLease
+name: releaseLease
+nameWithType: BlobLeaseClient.releaseLease
+members:
+- uid: com.azure.storage.blob.specialized.BlobLeaseClient.releaseLease()
+  fullName: com.azure.storage.blob.specialized.BlobLeaseClient.releaseLease()
+  name: releaseLease()
+  nameWithType: BlobLeaseClient.releaseLease()
+  summary: |-
+    Releases the previously acquired lease.
+
+     <p><strong>Code Samples</strong></p>
+
+     <pre>
+     client.releaseLease&#40;&#41;;
+     System.out.println&#40;&quot;Release lease completed&quot;&#41;;
+     </pre>
+  syntax: public void releaseLease()
+type: method
+metadata: {}
+package: com.azure.storage.blob.specialized
+artifact: com.azure:azure-storage-blob:12.8.0-beta.1

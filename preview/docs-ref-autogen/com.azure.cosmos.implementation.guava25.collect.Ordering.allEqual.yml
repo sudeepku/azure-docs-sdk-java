@@ -1,0 +1,41 @@
+### YamlMime:JavaMember
+uid: com.azure.cosmos.implementation.guava25.collect.Ordering.allEqual*
+fullName: com.azure.cosmos.implementation.guava25.collect.Ordering<T>.allEqual
+name: allEqual
+nameWithType: Ordering<T>.allEqual
+members:
+- uid: com.azure.cosmos.implementation.guava25.collect.Ordering.allEqual()
+  fullName: com.azure.cosmos.implementation.guava25.collect.Ordering<T>.allEqual()
+  name: allEqual()
+  nameWithType: Ordering<T>.allEqual()
+  summary: |-
+    Returns an ordering which treats all values as equal, indicating "no ordering." Passing this
+     ordering to any <i>stable</i> sort algorithm results in no change to the order of elements.
+     Note especially that <xref uid="#sortedCopy" data-throw-if-not-resolved="false">#sortedCopy</xref> and <xref uid="#immutableSortedCopy" data-throw-if-not-resolved="false">#immutableSortedCopy</xref> are stable, and in
+     the returned instance these are implemented by simply copying the source list.
+
+     <p>Example:
+
+     <pre><code>
+     Ordering.allEqual().nullsLast().sortedCopy(
+         asList(t, null, e, s, null, t, null))
+     </code></pre>
+
+     <p>Assuming <code>t</code>, <code>e</code> and <code>s</code> are non-null, this returns <code>[t, e, s, t,
+     null, null, null]</code> regardless of the true comparison order of those three values (which might
+     not even implement <xref uid="Comparable" data-throw-if-not-resolved="false">Comparable</xref> at all).
+
+     <p><b>Warning:</b> by definition, this comparator is not <i>consistent with equals</i> (as
+     defined <xref uid="Comparator" data-throw-if-not-resolved="false">here</xref>). Avoid its use in APIs, such as <xref uid="TreeSet#TreeSet(Comparator)" data-throw-if-not-resolved="false">TreeSet#TreeSet(Comparator)</xref>, where such consistency is expected.
+
+     <p>The returned comparator is serializable.
+
+     <p><b>Java 8 users:</b> Use the lambda expression <code>(a, b) -> 0</code> instead (in certain cases
+     you may need to cast that to <code>Comparator<YourType></code>).
+  syntax: public static Ordering<Object> allEqual()
+  returns:
+    type: <xref href="com.azure.cosmos.implementation.guava25.collect.Ordering?alt=com.azure.cosmos.implementation.guava25.collect.Ordering&text=Ordering" data-throw-if-not-resolved="False" />&lt;<xref href="java.lang.Object?alt=java.lang.Object&text=Object" data-throw-if-not-resolved="False" />&gt;
+type: method
+metadata: {}
+package: com.azure.cosmos.implementation.guava25.collect
+artifact: com.azure:azure-cosmos:4.3.2-beta.2

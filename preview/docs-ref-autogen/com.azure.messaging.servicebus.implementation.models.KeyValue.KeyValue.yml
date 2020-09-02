@@ -1,0 +1,15 @@
+### YamlMime:JavaMember
+uid: com.azure.messaging.servicebus.implementation.models.KeyValue.KeyValue*
+fullName: com.azure.messaging.servicebus.implementation.models.KeyValue.KeyValue
+name: KeyValue
+nameWithType: KeyValue.KeyValue
+members:
+- uid: com.azure.messaging.servicebus.implementation.models.KeyValue.KeyValue()
+  fullName: com.azure.messaging.servicebus.implementation.models.KeyValue.KeyValue()
+  name: KeyValue()
+  nameWithType: KeyValue.KeyValue()
+  syntax: public KeyValue()
+type: constructor
+metadata: {}
+package: com.azure.messaging.servicebus.implementation.models
+artifact: com.azure:azure-messaging-servicebus:7.0.0-beta.5

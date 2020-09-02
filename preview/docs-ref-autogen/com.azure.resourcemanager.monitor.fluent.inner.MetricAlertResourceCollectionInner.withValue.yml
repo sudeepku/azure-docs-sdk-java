@@ -1,0 +1,23 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.monitor.fluent.inner.MetricAlertResourceCollectionInner.withValue*
+fullName: com.azure.resourcemanager.monitor.fluent.inner.MetricAlertResourceCollectionInner.withValue
+name: withValue
+nameWithType: MetricAlertResourceCollectionInner.withValue
+members:
+- uid: com.azure.resourcemanager.monitor.fluent.inner.MetricAlertResourceCollectionInner.withValue(java.util.List<com.azure.resourcemanager.monitor.fluent.inner.MetricAlertResourceInner>)
+  fullName: com.azure.resourcemanager.monitor.fluent.inner.MetricAlertResourceCollectionInner.withValue(List<MetricAlertResourceInner> value)
+  name: withValue(List<MetricAlertResourceInner> value)
+  nameWithType: MetricAlertResourceCollectionInner.withValue(List<MetricAlertResourceInner> value)
+  summary: 'Set the value property: the values for the alert rule resources.'
+  parameters:
+  - description: the value value to set.
+    name: value
+    type: <xref href="java.util.List?alt=java.util.List&text=List" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.resourcemanager.monitor.fluent.inner.MetricAlertResourceInner?alt=com.azure.resourcemanager.monitor.fluent.inner.MetricAlertResourceInner&text=MetricAlertResourceInner" data-throw-if-not-resolved="False" />&gt;
+  syntax: public MetricAlertResourceCollectionInner withValue(List<MetricAlertResourceInner> value)
+  returns:
+    description: the MetricAlertResourceCollectionInner object itself.
+    type: <xref href="com.azure.resourcemanager.monitor.fluent.inner.MetricAlertResourceCollectionInner?alt=com.azure.resourcemanager.monitor.fluent.inner.MetricAlertResourceCollectionInner&text=MetricAlertResourceCollectionInner" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.resourcemanager.monitor.fluent.inner
+artifact: com.azure.resourcemanager:azure-resourcemanager-monitor:2.0.0-beta.2

@@ -1,0 +1,16 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.resources.fluent.inner.WhatIfOperationResultInner.validate*
+fullName: com.azure.resourcemanager.resources.fluent.inner.WhatIfOperationResultInner.validate
+name: validate
+nameWithType: WhatIfOperationResultInner.validate
+members:
+- uid: com.azure.resourcemanager.resources.fluent.inner.WhatIfOperationResultInner.validate()
+  fullName: com.azure.resourcemanager.resources.fluent.inner.WhatIfOperationResultInner.validate()
+  name: validate()
+  nameWithType: WhatIfOperationResultInner.validate()
+  summary: Validates the instance.
+  syntax: public void validate()
+type: method
+metadata: {}
+package: com.azure.resourcemanager.resources.fluent.inner
+artifact: com.azure.resourcemanager:azure-resourcemanager-resources:2.0.0-beta.2

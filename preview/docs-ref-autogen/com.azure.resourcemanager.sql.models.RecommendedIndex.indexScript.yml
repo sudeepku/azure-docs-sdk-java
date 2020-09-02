@@ -1,0 +1,19 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.sql.models.RecommendedIndex.indexScript*
+fullName: com.azure.resourcemanager.sql.models.RecommendedIndex.indexScript
+name: indexScript
+nameWithType: RecommendedIndex.indexScript
+members:
+- uid: com.azure.resourcemanager.sql.models.RecommendedIndex.indexScript()
+  fullName: com.azure.resourcemanager.sql.models.RecommendedIndex.indexScript()
+  name: indexScript()
+  nameWithType: RecommendedIndex.indexScript()
+  summary: 'Get the indexScript property: The full build index script.'
+  syntax: public String indexScript()
+  returns:
+    description: the indexScript value.
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.resourcemanager.sql.models
+artifact: com.azure.resourcemanager:azure-resourcemanager-sql:2.0.0-beta.2

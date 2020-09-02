@@ -1,0 +1,20 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.storage.fluent.QueueServicesClient.QueueServicesClient*
+fullName: com.azure.resourcemanager.storage.fluent.QueueServicesClient.QueueServicesClient
+name: QueueServicesClient
+nameWithType: QueueServicesClient.QueueServicesClient
+members:
+- uid: com.azure.resourcemanager.storage.fluent.QueueServicesClient.QueueServicesClient(com.azure.resourcemanager.storage.StorageManagementClient)
+  fullName: com.azure.resourcemanager.storage.fluent.QueueServicesClient.QueueServicesClient(StorageManagementClient client)
+  name: QueueServicesClient(StorageManagementClient client)
+  nameWithType: QueueServicesClient.QueueServicesClient(StorageManagementClient client)
+  summary: Initializes an instance of QueueServicesClient.
+  parameters:
+  - description: the instance of the service client containing this operation class.
+    name: client
+    type: <xref href="com.azure.resourcemanager.storage.StorageManagementClient?alt=com.azure.resourcemanager.storage.StorageManagementClient&text=StorageManagementClient" data-throw-if-not-resolved="False" />
+  syntax: public QueueServicesClient(StorageManagementClient client)
+type: constructor
+metadata: {}
+package: com.azure.resourcemanager.storage.fluent
+artifact: com.azure.resourcemanager:azure-resourcemanager-storage:2.0.0-beta.2

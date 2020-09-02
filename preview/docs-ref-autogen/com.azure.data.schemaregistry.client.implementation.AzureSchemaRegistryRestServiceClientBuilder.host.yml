@@ -1,0 +1,23 @@
+### YamlMime:JavaMember
+uid: com.azure.data.schemaregistry.client.implementation.AzureSchemaRegistryRestServiceClientBuilder.host*
+fullName: com.azure.data.schemaregistry.client.implementation.AzureSchemaRegistryRestServiceClientBuilder.host
+name: host
+nameWithType: AzureSchemaRegistryRestServiceClientBuilder.host
+members:
+- uid: com.azure.data.schemaregistry.client.implementation.AzureSchemaRegistryRestServiceClientBuilder.host(java.lang.String)
+  fullName: com.azure.data.schemaregistry.client.implementation.AzureSchemaRegistryRestServiceClientBuilder.host(String host)
+  name: host(String host)
+  nameWithType: AzureSchemaRegistryRestServiceClientBuilder.host(String host)
+  summary: Sets server parameter.
+  parameters:
+  - description: the host value.
+    name: host
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  syntax: public AzureSchemaRegistryRestServiceClientBuilder host(String host)
+  returns:
+    description: the AzureSchemaRegistryRestServiceClientBuilder.
+    type: <xref href="com.azure.data.schemaregistry.client.implementation.AzureSchemaRegistryRestServiceClientBuilder?alt=com.azure.data.schemaregistry.client.implementation.AzureSchemaRegistryRestServiceClientBuilder&text=AzureSchemaRegistryRestServiceClientBuilder" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.data.schemaregistry.client.implementation
+artifact: com.azure:azure-data-schemaregistry:1.0.0-beta.1

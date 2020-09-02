@@ -1,0 +1,23 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.network.fluent.inner.NetworkProfileInner.withContainerNetworkInterfaces*
+fullName: com.azure.resourcemanager.network.fluent.inner.NetworkProfileInner.withContainerNetworkInterfaces
+name: withContainerNetworkInterfaces
+nameWithType: NetworkProfileInner.withContainerNetworkInterfaces
+members:
+- uid: com.azure.resourcemanager.network.fluent.inner.NetworkProfileInner.withContainerNetworkInterfaces(java.util.List<com.azure.resourcemanager.network.models.ContainerNetworkInterface>)
+  fullName: com.azure.resourcemanager.network.fluent.inner.NetworkProfileInner.withContainerNetworkInterfaces(List<ContainerNetworkInterface> containerNetworkInterfaces)
+  name: withContainerNetworkInterfaces(List<ContainerNetworkInterface> containerNetworkInterfaces)
+  nameWithType: NetworkProfileInner.withContainerNetworkInterfaces(List<ContainerNetworkInterface> containerNetworkInterfaces)
+  summary: 'Set the containerNetworkInterfaces property: List of child container network interfaces.'
+  parameters:
+  - description: the containerNetworkInterfaces value to set.
+    name: containerNetworkInterfaces
+    type: <xref href="java.util.List?alt=java.util.List&text=List" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.resourcemanager.network.models.ContainerNetworkInterface?alt=com.azure.resourcemanager.network.models.ContainerNetworkInterface&text=ContainerNetworkInterface" data-throw-if-not-resolved="False" />&gt;
+  syntax: public NetworkProfileInner withContainerNetworkInterfaces(List<ContainerNetworkInterface> containerNetworkInterfaces)
+  returns:
+    description: the NetworkProfileInner object itself.
+    type: <xref href="com.azure.resourcemanager.network.fluent.inner.NetworkProfileInner?alt=com.azure.resourcemanager.network.fluent.inner.NetworkProfileInner&text=NetworkProfileInner" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.resourcemanager.network.fluent.inner
+artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.0.0-beta.2

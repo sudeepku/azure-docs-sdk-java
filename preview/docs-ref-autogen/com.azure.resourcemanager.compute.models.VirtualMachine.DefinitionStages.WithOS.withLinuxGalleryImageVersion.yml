@@ -1,0 +1,23 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.compute.models.VirtualMachine.DefinitionStages.WithOS.withLinuxGalleryImageVersion*
+fullName: com.azure.resourcemanager.compute.models.VirtualMachine.DefinitionStages.WithOS.withLinuxGalleryImageVersion
+name: withLinuxGalleryImageVersion
+nameWithType: VirtualMachine.DefinitionStages.WithOS.withLinuxGalleryImageVersion
+members:
+- uid: com.azure.resourcemanager.compute.models.VirtualMachine.DefinitionStages.WithOS.withLinuxGalleryImageVersion(java.lang.String)
+  fullName: com.azure.resourcemanager.compute.models.VirtualMachine.DefinitionStages.WithOS.withLinuxGalleryImageVersion(String galleryImageVersionId)
+  name: withLinuxGalleryImageVersion(String galleryImageVersionId)
+  nameWithType: VirtualMachine.DefinitionStages.WithOS.withLinuxGalleryImageVersion(String galleryImageVersionId)
+  summary: Specifies the resource ID of a Linux gallery image version to be used as the virtual machines' OS.
+  parameters:
+  - description: the resource ID of a gallery image version
+    name: galleryImageVersionId
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  syntax: public abstract VirtualMachine.DefinitionStages.WithLinuxRootUsernameManaged withLinuxGalleryImageVersion(String galleryImageVersionId)
+  returns:
+    description: the next stage of the definition
+    type: <xref href="com.azure.resourcemanager.compute.models.VirtualMachine.DefinitionStages.WithLinuxRootUsernameManaged?alt=com.azure.resourcemanager.compute.models.VirtualMachine.DefinitionStages.WithLinuxRootUsernameManaged&text=WithLinuxRootUsernameManaged" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.resourcemanager.compute.models
+artifact: com.azure.resourcemanager:azure-resourcemanager-compute:2.0.0-beta.2

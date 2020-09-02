@@ -1,0 +1,34 @@
+### YamlMime:JavaMember
+uid: com.azure.cosmos.implementation.guava25.base.Suppliers.memoize*
+fullName: com.azure.cosmos.implementation.guava25.base.Suppliers.<T>memoize
+name: <T>memoize
+nameWithType: Suppliers.<T>memoize
+members:
+- uid: com.azure.cosmos.implementation.guava25.base.Suppliers.<T>memoize(com.azure.cosmos.implementation.guava25.base.Supplier<T>)
+  fullName: com.azure.cosmos.implementation.guava25.base.Suppliers.<T>memoize(Supplier<T> delegate)
+  name: <T>memoize(Supplier<T> delegate)
+  nameWithType: Suppliers.<T>memoize(Supplier<T> delegate)
+  summary: |-
+    Returns a supplier which caches the instance retrieved during the first call to <code>get()</code>
+     and returns that value on subsequent calls to <code>get()</code>. See: <a href="http://en.wikipedia.org/wiki/Memoization">memoization</a>
+
+     <p>The returned supplier is thread-safe. The delegate's <code>get()</code> method will be invoked at
+     most once unless the underlying <code>get()</code> throws an exception. The supplier's serialized
+     form does not contain the cached value, which will be recalculated when <code>get()</code> is called
+     on the reserialized instance.
+
+     <p>When the underlying delegate throws an exception then this memoizing supplier will keep
+     delegating calls until it returns valid data.
+
+     <p>If <code>delegate</code> is an instance created by an earlier call to <code>memoize</code>, it is
+     returned directly.
+  parameters:
+  - name: delegate
+    type: <xref href="com.azure.cosmos.implementation.guava25.base.Supplier?alt=com.azure.cosmos.implementation.guava25.base.Supplier&text=Supplier" data-throw-if-not-resolved="False" />&lt;<xref href="T?alt=T&text=T" data-throw-if-not-resolved="False" />&gt;
+  syntax: public static Supplier<T> <T>memoize(Supplier<T> delegate)
+  returns:
+    type: <xref href="com.azure.cosmos.implementation.guava25.base.Supplier?alt=com.azure.cosmos.implementation.guava25.base.Supplier&text=Supplier" data-throw-if-not-resolved="False" />&lt;<xref href="T?alt=T&text=T" data-throw-if-not-resolved="False" />&gt;
+type: method
+metadata: {}
+package: com.azure.cosmos.implementation.guava25.base
+artifact: com.azure:azure-cosmos:4.3.2-beta.2

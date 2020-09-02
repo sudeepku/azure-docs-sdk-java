@@ -1,0 +1,16 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.network.models.NetworkUsageUnit.COUNT
+fullName: com.azure.resourcemanager.network.models.NetworkUsageUnit.COUNT
+name: COUNT
+nameWithType: NetworkUsageUnit.COUNT
+members:
+- uid: com.azure.resourcemanager.network.models.NetworkUsageUnit.COUNT
+  fullName: com.azure.resourcemanager.network.models.NetworkUsageUnit.COUNT
+  name: COUNT
+  nameWithType: NetworkUsageUnit.COUNT
+  summary: Static value Count for NetworkUsageUnit.
+  syntax: public static final NetworkUsageUnit COUNT
+type: field
+metadata: {}
+package: com.azure.resourcemanager.network.models
+artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.0.0-beta.2

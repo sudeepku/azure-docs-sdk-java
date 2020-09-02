@@ -1,0 +1,23 @@
+### YamlMime:JavaMember
+uid: com.azure.data.schemaregistry.client.implementation.models.GetSchemaByIdHeaders.setLocation*
+fullName: com.azure.data.schemaregistry.client.implementation.models.GetSchemaByIdHeaders.setLocation
+name: setLocation
+nameWithType: GetSchemaByIdHeaders.setLocation
+members:
+- uid: com.azure.data.schemaregistry.client.implementation.models.GetSchemaByIdHeaders.setLocation(java.lang.String)
+  fullName: com.azure.data.schemaregistry.client.implementation.models.GetSchemaByIdHeaders.setLocation(String location)
+  name: setLocation(String location)
+  nameWithType: GetSchemaByIdHeaders.setLocation(String location)
+  summary: 'Set the location property: The Location property.'
+  parameters:
+  - description: the location value to set.
+    name: location
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  syntax: public GetSchemaByIdHeaders setLocation(String location)
+  returns:
+    description: the GetSchemaByIdHeaders object itself.
+    type: <xref href="com.azure.data.schemaregistry.client.implementation.models.GetSchemaByIdHeaders?alt=com.azure.data.schemaregistry.client.implementation.models.GetSchemaByIdHeaders&text=GetSchemaByIdHeaders" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.data.schemaregistry.client.implementation.models
+artifact: com.azure:azure-data-schemaregistry:1.0.0-beta.1

@@ -1,0 +1,50 @@
+### YamlMime:JavaMember
+uid: com.azure.cosmos.implementation.guava25.base.Utf8.isWellFormed*
+fullName: com.azure.cosmos.implementation.guava25.base.Utf8.isWellFormed
+name: isWellFormed
+nameWithType: Utf8.isWellFormed
+members:
+- uid: com.azure.cosmos.implementation.guava25.base.Utf8.isWellFormed(byte[])
+  fullName: com.azure.cosmos.implementation.guava25.base.Utf8.isWellFormed(byte[] bytes)
+  name: isWellFormed(byte[] bytes)
+  nameWithType: Utf8.isWellFormed(byte[] bytes)
+  summary: |-
+    Returns <code>true</code> if <code>bytes</code> is a <i>well-formed</i> UTF-8 byte sequence according to
+     Unicode 6.0. Note that this is a stronger criterion than simply whether the bytes can be
+     decoded. For example, some versions of the JDK decoder will accept "non-shortest form" byte
+     sequences, but encoding never reproduces these. Such byte sequences are <i>not</i> considered
+     well-formed.
+
+     <p>This method returns <code>true</code> if and only if <code>Arrays.equals(bytes, new
+     String(bytes, UTF_8).getBytes(UTF_8))</code> does, but is more efficient in both time and space.
+  parameters:
+  - name: bytes
+    type: <xref href="byte?alt=byte&text=byte" data-throw-if-not-resolved="False" />[]
+  syntax: public static boolean isWellFormed(byte[] bytes)
+  returns:
+    type: <xref href="boolean?alt=boolean&text=boolean" data-throw-if-not-resolved="False" />
+- uid: com.azure.cosmos.implementation.guava25.base.Utf8.isWellFormed(byte[],int,int)
+  fullName: com.azure.cosmos.implementation.guava25.base.Utf8.isWellFormed(byte[] bytes, int off, int len)
+  name: isWellFormed(byte[] bytes, int off, int len)
+  nameWithType: Utf8.isWellFormed(byte[] bytes, int off, int len)
+  summary: |-
+    Returns whether the given byte array slice is a well-formed UTF-8 byte sequence, as defined by
+     <xref uid="#isWellFormed(byte[])" data-throw-if-not-resolved="false">#isWellFormed(byte[])</xref>. Note that this can be false even when <code>
+     isWellFormed(bytes)</code> is true.
+  parameters:
+  - description: the input buffer
+    name: bytes
+    type: <xref href="byte?alt=byte&text=byte" data-throw-if-not-resolved="False" />[]
+  - description: the offset in the buffer of the first byte to read
+    name: off
+    type: <xref href="int?alt=int&text=int" data-throw-if-not-resolved="False" />
+  - description: the number of bytes to read from the buffer
+    name: len
+    type: <xref href="int?alt=int&text=int" data-throw-if-not-resolved="False" />
+  syntax: public static boolean isWellFormed(byte[] bytes, int off, int len)
+  returns:
+    type: <xref href="boolean?alt=boolean&text=boolean" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.cosmos.implementation.guava25.base
+artifact: com.azure:azure-cosmos:4.3.2-beta.2

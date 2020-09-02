@@ -1,0 +1,22 @@
+### YamlMime:JavaMember
+uid: com.azure.cosmos.implementation.guava25.base.Equivalence.equals*
+fullName: com.azure.cosmos.implementation.guava25.base.Equivalence<T>.equals
+name: equals
+nameWithType: Equivalence<T>.equals
+members:
+- uid: com.azure.cosmos.implementation.guava25.base.Equivalence.equals()
+  fullName: com.azure.cosmos.implementation.guava25.base.Equivalence<T>.equals()
+  name: equals()
+  nameWithType: Equivalence<T>.equals()
+  summary: |-
+    Returns an equivalence that delegates to <xref uid="Object#equals" data-throw-if-not-resolved="false">Object#equals</xref> and <xref uid="Object#hashCode" data-throw-if-not-resolved="false">Object#hashCode</xref>.
+     <xref uid="Equivalence#equivalent" data-throw-if-not-resolved="false">Equivalence#equivalent</xref> returns <code>true</code> if both values are null, or if neither
+     value is null and <xref uid="Object#equals" data-throw-if-not-resolved="false">Object#equals</xref> returns <code>true</code>. <xref uid="Equivalence#hash" data-throw-if-not-resolved="false">Equivalence#hash</xref> returns
+     <code>0</code> if passed a null value.
+  syntax: public static Equivalence<Object> equals()
+  returns:
+    type: <xref href="com.azure.cosmos.implementation.guava25.base.Equivalence?alt=com.azure.cosmos.implementation.guava25.base.Equivalence&text=Equivalence" data-throw-if-not-resolved="False" />&lt;<xref href="java.lang.Object?alt=java.lang.Object&text=Object" data-throw-if-not-resolved="False" />&gt;
+type: method
+metadata: {}
+package: com.azure.cosmos.implementation.guava25.base
+artifact: com.azure:azure-cosmos:4.3.2-beta.2

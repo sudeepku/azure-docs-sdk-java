@@ -1,0 +1,23 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.authorization.fluent.inner.RoleDefinitionListResultInner.withValue*
+fullName: com.azure.resourcemanager.authorization.fluent.inner.RoleDefinitionListResultInner.withValue
+name: withValue
+nameWithType: RoleDefinitionListResultInner.withValue
+members:
+- uid: com.azure.resourcemanager.authorization.fluent.inner.RoleDefinitionListResultInner.withValue(java.util.List<com.azure.resourcemanager.authorization.fluent.inner.RoleDefinitionInner>)
+  fullName: com.azure.resourcemanager.authorization.fluent.inner.RoleDefinitionListResultInner.withValue(List<RoleDefinitionInner> value)
+  name: withValue(List<RoleDefinitionInner> value)
+  nameWithType: RoleDefinitionListResultInner.withValue(List<RoleDefinitionInner> value)
+  summary: 'Set the value property: Role definition list.'
+  parameters:
+  - description: the value value to set.
+    name: value
+    type: <xref href="java.util.List?alt=java.util.List&text=List" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.resourcemanager.authorization.fluent.inner.RoleDefinitionInner?alt=com.azure.resourcemanager.authorization.fluent.inner.RoleDefinitionInner&text=RoleDefinitionInner" data-throw-if-not-resolved="False" />&gt;
+  syntax: public RoleDefinitionListResultInner withValue(List<RoleDefinitionInner> value)
+  returns:
+    description: the RoleDefinitionListResultInner object itself.
+    type: <xref href="com.azure.resourcemanager.authorization.fluent.inner.RoleDefinitionListResultInner?alt=com.azure.resourcemanager.authorization.fluent.inner.RoleDefinitionListResultInner&text=RoleDefinitionListResultInner" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.resourcemanager.authorization.fluent.inner
+artifact: com.azure.resourcemanager:azure-resourcemanager-authorization:2.0.0-beta.2

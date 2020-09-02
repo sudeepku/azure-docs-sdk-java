@@ -1,0 +1,32 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.resources.fluent.SubscriptionsClient.listSinglePageAsync*
+fullName: com.azure.resourcemanager.resources.fluent.SubscriptionsClient.listSinglePageAsync
+name: listSinglePageAsync
+nameWithType: SubscriptionsClient.listSinglePageAsync
+members:
+- uid: com.azure.resourcemanager.resources.fluent.SubscriptionsClient.listSinglePageAsync()
+  fullName: com.azure.resourcemanager.resources.fluent.SubscriptionsClient.listSinglePageAsync()
+  name: listSinglePageAsync()
+  nameWithType: SubscriptionsClient.listSinglePageAsync()
+  summary: Gets all subscriptions for a tenant.
+  syntax: public Mono<PagedResponse<SubscriptionInner>> listSinglePageAsync()
+  returns:
+    description: all subscriptions for a tenant.
+    type: <xref href="reactor.core.publisher.Mono?alt=reactor.core.publisher.Mono&text=Mono" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.core.http.rest.PagedResponse?alt=com.azure.core.http.rest.PagedResponse&text=PagedResponse" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.resourcemanager.resources.fluent.inner.SubscriptionInner?alt=com.azure.resourcemanager.resources.fluent.inner.SubscriptionInner&text=SubscriptionInner" data-throw-if-not-resolved="False" />&gt;&gt;
+- uid: com.azure.resourcemanager.resources.fluent.SubscriptionsClient.listSinglePageAsync(com.azure.core.util.Context)
+  fullName: com.azure.resourcemanager.resources.fluent.SubscriptionsClient.listSinglePageAsync(Context context)
+  name: listSinglePageAsync(Context context)
+  nameWithType: SubscriptionsClient.listSinglePageAsync(Context context)
+  summary: Gets all subscriptions for a tenant.
+  parameters:
+  - description: The context to associate with this operation.
+    name: context
+    type: <xref href="com.azure.core.util.Context?alt=com.azure.core.util.Context&text=Context" data-throw-if-not-resolved="False" />
+  syntax: public Mono<PagedResponse<SubscriptionInner>> listSinglePageAsync(Context context)
+  returns:
+    description: all subscriptions for a tenant.
+    type: <xref href="reactor.core.publisher.Mono?alt=reactor.core.publisher.Mono&text=Mono" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.core.http.rest.PagedResponse?alt=com.azure.core.http.rest.PagedResponse&text=PagedResponse" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.resourcemanager.resources.fluent.inner.SubscriptionInner?alt=com.azure.resourcemanager.resources.fluent.inner.SubscriptionInner&text=SubscriptionInner" data-throw-if-not-resolved="False" />&gt;&gt;
+type: method
+metadata: {}
+package: com.azure.resourcemanager.resources.fluent
+artifact: com.azure.resourcemanager:azure-resourcemanager-resources:2.0.0-beta.2

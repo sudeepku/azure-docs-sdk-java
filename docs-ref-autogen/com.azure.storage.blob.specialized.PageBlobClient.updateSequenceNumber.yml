@@ -1,0 +1,28 @@
+### YamlMime:JavaMember
+uid: com.azure.storage.blob.specialized.PageBlobClient.updateSequenceNumber*
+fullName: com.azure.storage.blob.specialized.PageBlobClient.updateSequenceNumber
+name: updateSequenceNumber
+nameWithType: PageBlobClient.updateSequenceNumber
+members:
+- uid: com.azure.storage.blob.specialized.PageBlobClient.updateSequenceNumber(com.azure.storage.blob.models.SequenceNumberActionType,java.lang.Long)
+  fullName: com.azure.storage.blob.specialized.PageBlobClient.updateSequenceNumber(SequenceNumberActionType action, Long sequenceNumber)
+  name: updateSequenceNumber(SequenceNumberActionType action, Long sequenceNumber)
+  nameWithType: PageBlobClient.updateSequenceNumber(SequenceNumberActionType action, Long sequenceNumber)
+  summary: "Sets the page blob's sequence number. For more information, see the <a href=\"https://docs.microsoft.com/rest/api/storageservices/set-blob-properties\">Azure\n Docs</a>.\n\n <p><strong>Code Samples</strong></p>\n\n <pre>\n PageBlobItem pageBlob = client.updateSequenceNumber&#40;SequenceNumberActionType.INCREMENT, size&#41;;\n \n System.out.printf&#40;&quot;Page blob updated to sequence number %s%n&quot;, pageBlob.getBlobSequenceNumber&#40;&#41;&#41;;\n </pre>"
+  parameters:
+  - description: Indicates how the service should modify the blob's sequence number.
+    name: action
+    type: <xref href="com.azure.storage.blob.models.SequenceNumberActionType?alt=com.azure.storage.blob.models.SequenceNumberActionType&text=SequenceNumberActionType" data-throw-if-not-resolved="False" />
+  - description: |-
+      The blob's sequence number. The sequence number is a user-controlled property that you can
+       use to track requests and manage concurrency issues.
+    name: sequenceNumber
+    type: <xref href="java.lang.Long?alt=java.lang.Long&text=Long" data-throw-if-not-resolved="False" />
+  syntax: public PageBlobItem updateSequenceNumber(SequenceNumberActionType action, Long sequenceNumber)
+  returns:
+    description: The updated page blob.
+    type: <xref href="com.azure.storage.blob.models.PageBlobItem?alt=com.azure.storage.blob.models.PageBlobItem&text=PageBlobItem" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.storage.blob.specialized
+artifact: com.azure:azure-storage-blob:12.8.0

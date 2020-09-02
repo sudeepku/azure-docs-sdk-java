@@ -1,0 +1,15 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.resources.fluent.inner.DeploymentInner.DeploymentInner*
+fullName: com.azure.resourcemanager.resources.fluent.inner.DeploymentInner.DeploymentInner
+name: DeploymentInner
+nameWithType: DeploymentInner.DeploymentInner
+members:
+- uid: com.azure.resourcemanager.resources.fluent.inner.DeploymentInner.DeploymentInner()
+  fullName: com.azure.resourcemanager.resources.fluent.inner.DeploymentInner.DeploymentInner()
+  name: DeploymentInner()
+  nameWithType: DeploymentInner.DeploymentInner()
+  syntax: public DeploymentInner()
+type: constructor
+metadata: {}
+package: com.azure.resourcemanager.resources.fluent.inner
+artifact: com.azure.resourcemanager:azure-resourcemanager-resources:2.0.0-beta.2

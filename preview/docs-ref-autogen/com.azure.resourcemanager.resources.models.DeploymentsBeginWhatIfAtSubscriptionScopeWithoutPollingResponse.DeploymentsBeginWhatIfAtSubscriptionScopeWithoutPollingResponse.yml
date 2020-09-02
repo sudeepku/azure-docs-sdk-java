@@ -1,0 +1,34 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.resources.models.DeploymentsBeginWhatIfAtSubscriptionScopeWithoutPollingResponse.DeploymentsBeginWhatIfAtSubscriptionScopeWithoutPollingResponse*
+fullName: com.azure.resourcemanager.resources.models.DeploymentsBeginWhatIfAtSubscriptionScopeWithoutPollingResponse.DeploymentsBeginWhatIfAtSubscriptionScopeWithoutPollingResponse
+name: DeploymentsBeginWhatIfAtSubscriptionScopeWithoutPollingResponse
+nameWithType: DeploymentsBeginWhatIfAtSubscriptionScopeWithoutPollingResponse.DeploymentsBeginWhatIfAtSubscriptionScopeWithoutPollingResponse
+members:
+- uid: com.azure.resourcemanager.resources.models.DeploymentsBeginWhatIfAtSubscriptionScopeWithoutPollingResponse.DeploymentsBeginWhatIfAtSubscriptionScopeWithoutPollingResponse(com.azure.core.http.HttpRequest,int,com.azure.core.http.HttpHeaders,com.azure.resourcemanager.resources.fluent.inner.WhatIfOperationResultInner,com.azure.resourcemanager.resources.models.DeploymentsBeginWhatIfAtSubscriptionScopeWithoutPollingHeaders)
+  fullName: com.azure.resourcemanager.resources.models.DeploymentsBeginWhatIfAtSubscriptionScopeWithoutPollingResponse.DeploymentsBeginWhatIfAtSubscriptionScopeWithoutPollingResponse(HttpRequest request, int statusCode, HttpHeaders rawHeaders, WhatIfOperationResultInner value, DeploymentsBeginWhatIfAtSubscriptionScopeWithoutPollingHeaders headers)
+  name: DeploymentsBeginWhatIfAtSubscriptionScopeWithoutPollingResponse(HttpRequest request, int statusCode, HttpHeaders rawHeaders, WhatIfOperationResultInner value, DeploymentsBeginWhatIfAtSubscriptionScopeWithoutPollingHeaders headers)
+  nameWithType: DeploymentsBeginWhatIfAtSubscriptionScopeWithoutPollingResponse.DeploymentsBeginWhatIfAtSubscriptionScopeWithoutPollingResponse(HttpRequest request, int statusCode, HttpHeaders rawHeaders, WhatIfOperationResultInner value, DeploymentsBeginWhatIfAtSubscriptionScopeWithoutPollingHeaders headers)
+  summary: Creates an instance of DeploymentsBeginWhatIfAtSubscriptionScopeWithoutPollingResponse.
+  parameters:
+  - description: |-
+      the request which resulted in this
+           DeploymentsBeginWhatIfAtSubscriptionScopeWithoutPollingResponse.
+    name: request
+    type: <xref href="com.azure.core.http.HttpRequest?alt=com.azure.core.http.HttpRequest&text=HttpRequest" data-throw-if-not-resolved="False" />
+  - description: the status code of the HTTP response.
+    name: statusCode
+    type: <xref href="int?alt=int&text=int" data-throw-if-not-resolved="False" />
+  - description: the raw headers of the HTTP response.
+    name: rawHeaders
+    type: <xref href="com.azure.core.http.HttpHeaders?alt=com.azure.core.http.HttpHeaders&text=HttpHeaders" data-throw-if-not-resolved="False" />
+  - description: the deserialized value of the HTTP response.
+    name: value
+    type: <xref href="com.azure.resourcemanager.resources.fluent.inner.WhatIfOperationResultInner?alt=com.azure.resourcemanager.resources.fluent.inner.WhatIfOperationResultInner&text=WhatIfOperationResultInner" data-throw-if-not-resolved="False" />
+  - description: the deserialized headers of the HTTP response.
+    name: headers
+    type: <xref href="com.azure.resourcemanager.resources.models.DeploymentsBeginWhatIfAtSubscriptionScopeWithoutPollingHeaders?alt=com.azure.resourcemanager.resources.models.DeploymentsBeginWhatIfAtSubscriptionScopeWithoutPollingHeaders&text=DeploymentsBeginWhatIfAtSubscriptionScopeWithoutPollingHeaders" data-throw-if-not-resolved="False" />
+  syntax: public DeploymentsBeginWhatIfAtSubscriptionScopeWithoutPollingResponse(HttpRequest request, int statusCode, HttpHeaders rawHeaders, WhatIfOperationResultInner value, DeploymentsBeginWhatIfAtSubscriptionScopeWithoutPollingHeaders headers)
+type: constructor
+metadata: {}
+package: com.azure.resourcemanager.resources.models
+artifact: com.azure.resourcemanager:azure-resourcemanager-resources:2.0.0-beta.2

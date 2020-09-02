@@ -1,0 +1,40 @@
+### YamlMime:JavaMember
+uid: com.azure.cosmos.implementation.guava25.base.Equivalence.onResultOf*
+fullName: com.azure.cosmos.implementation.guava25.base.Equivalence<T>.<F>onResultOf
+name: <F>onResultOf
+nameWithType: Equivalence<T>.<F>onResultOf
+members:
+- uid: com.azure.cosmos.implementation.guava25.base.Equivalence.<F>onResultOf(com.azure.cosmos.implementation.guava25.base.Function<F,? extends T>)
+  fullName: com.azure.cosmos.implementation.guava25.base.Equivalence<T>.<F>onResultOf(Function<F,? extends T> function)
+  name: <F>onResultOf(Function<F,? extends T> function)
+  nameWithType: Equivalence<T>.<F>onResultOf(Function<F,? extends T> function)
+  summary: |-
+    Returns a new equivalence relation for <code>F</code> which evaluates equivalence by first applying
+     <code>function</code> to the argument, then evaluating using <code>this</code>. That is, for any pair of
+     non-null objects <code>x</code> and <code>y</code>, <code>equivalence.onResultOf(function).equivalent(a,
+     b)</code> is true if and only if <code>equivalence.equivalent(function.apply(a), function.apply(b))</code>
+     is true.
+
+     <p>For example:
+
+     <pre><code>
+     Equivalence<Person> SAME_AGE = Equivalence.equals().onResultOf(GET_PERSON_AGE);
+     </code></pre>
+
+     <p><code>function</code> will never be invoked with a null value.
+
+     <p>Note that <code>function</code> must be consistent according to <code>this</code> equivalence
+     relation. That is, invoking <xref uid="Function#apply" data-throw-if-not-resolved="false">Function#apply</xref> multiple times for a given value must return
+     equivalent results. For example, <code>
+     Equivalence.identity().onResultOf(Functions.toStringFunction())</code> is broken because it's not
+     guaranteed that <xref uid="Object#toString" data-throw-if-not-resolved="false">Object#toString</xref>) always returns the same string instance.
+  parameters:
+  - name: function
+    type: <xref href="com.azure.cosmos.implementation.guava25.base.Function?alt=com.azure.cosmos.implementation.guava25.base.Function&text=Function" data-throw-if-not-resolved="False" />&lt;<xref href="F?alt=F&text=F" data-throw-if-not-resolved="False" />,<xref href="? extends T?alt=? extends T&text=? extends T" data-throw-if-not-resolved="False" />&gt;
+  syntax: public final Equivalence<F> <F>onResultOf(Function<F,? extends T> function)
+  returns:
+    type: <xref href="com.azure.cosmos.implementation.guava25.base.Equivalence?alt=com.azure.cosmos.implementation.guava25.base.Equivalence&text=Equivalence" data-throw-if-not-resolved="False" />&lt;<xref href="F?alt=F&text=F" data-throw-if-not-resolved="False" />&gt;
+type: method
+metadata: {}
+package: com.azure.cosmos.implementation.guava25.base
+artifact: com.azure:azure-cosmos:4.3.2-beta.2

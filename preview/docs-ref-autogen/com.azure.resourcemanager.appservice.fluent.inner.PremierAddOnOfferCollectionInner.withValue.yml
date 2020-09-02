@@ -1,0 +1,23 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.appservice.fluent.inner.PremierAddOnOfferCollectionInner.withValue*
+fullName: com.azure.resourcemanager.appservice.fluent.inner.PremierAddOnOfferCollectionInner.withValue
+name: withValue
+nameWithType: PremierAddOnOfferCollectionInner.withValue
+members:
+- uid: com.azure.resourcemanager.appservice.fluent.inner.PremierAddOnOfferCollectionInner.withValue(java.util.List<com.azure.resourcemanager.appservice.fluent.inner.PremierAddOnOfferInner>)
+  fullName: com.azure.resourcemanager.appservice.fluent.inner.PremierAddOnOfferCollectionInner.withValue(List<PremierAddOnOfferInner> value)
+  name: withValue(List<PremierAddOnOfferInner> value)
+  nameWithType: PremierAddOnOfferCollectionInner.withValue(List<PremierAddOnOfferInner> value)
+  summary: 'Set the value property: Collection of resources.'
+  parameters:
+  - description: the value value to set.
+    name: value
+    type: <xref href="java.util.List?alt=java.util.List&text=List" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.resourcemanager.appservice.fluent.inner.PremierAddOnOfferInner?alt=com.azure.resourcemanager.appservice.fluent.inner.PremierAddOnOfferInner&text=PremierAddOnOfferInner" data-throw-if-not-resolved="False" />&gt;
+  syntax: public PremierAddOnOfferCollectionInner withValue(List<PremierAddOnOfferInner> value)
+  returns:
+    description: the PremierAddOnOfferCollectionInner object itself.
+    type: <xref href="com.azure.resourcemanager.appservice.fluent.inner.PremierAddOnOfferCollectionInner?alt=com.azure.resourcemanager.appservice.fluent.inner.PremierAddOnOfferCollectionInner&text=PremierAddOnOfferCollectionInner" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.resourcemanager.appservice.fluent.inner
+artifact: com.azure.resourcemanager:azure-resourcemanager-appservice:2.0.0-beta.2

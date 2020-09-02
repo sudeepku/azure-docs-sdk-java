@@ -1,0 +1,30 @@
+### YamlMime:JavaMember
+uid: com.azure.storage.blob.specialized.BlobClientBase.getTags*
+fullName: com.azure.storage.blob.specialized.BlobClientBase.getTags
+name: getTags
+nameWithType: BlobClientBase.getTags
+members:
+- uid: com.azure.storage.blob.specialized.BlobClientBase.getTags()
+  fullName: com.azure.storage.blob.specialized.BlobClientBase.getTags()
+  name: getTags()
+  nameWithType: BlobClientBase.getTags()
+  summary: |-
+    Returns the blob's tags.
+
+     <p><strong>Code Samples</strong></p>
+
+     <pre>
+     Map&lt;String, String&gt; tags = client.getTags&#40;&#41;;
+     System.out.printf&#40;&quot;Number of tags: %d%n&quot;, tags.size&#40;&#41;&#41;;
+     </pre>
+
+     <p>For more information, see the
+     <a href="https://docs.microsoft.com/en-us/rest/api/storageservices/get-blob-tags">Azure Docs</a></p>
+  syntax: public Map<String,String> getTags()
+  returns:
+    description: The blob's tags.
+    type: <xref href="java.util.Map?alt=java.util.Map&text=Map" data-throw-if-not-resolved="False" />&lt;<xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />,<xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />&gt;
+type: method
+metadata: {}
+package: com.azure.storage.blob.specialized
+artifact: com.azure:azure-storage-blob:12.8.0

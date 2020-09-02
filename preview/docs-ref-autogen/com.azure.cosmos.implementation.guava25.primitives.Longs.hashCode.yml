@@ -1,0 +1,30 @@
+### YamlMime:JavaMember
+uid: com.azure.cosmos.implementation.guava25.primitives.Longs.hashCode*
+fullName: com.azure.cosmos.implementation.guava25.primitives.Longs.hashCode
+name: hashCode
+nameWithType: Longs.hashCode
+members:
+- uid: com.azure.cosmos.implementation.guava25.primitives.Longs.hashCode(long)
+  fullName: com.azure.cosmos.implementation.guava25.primitives.Longs.hashCode(long value)
+  name: hashCode(long value)
+  nameWithType: Longs.hashCode(long value)
+  summary: |-
+    Returns a hash code for <code>value</code>; equal to the result of invoking <code>((Long)
+     value).hashCode()</code>.
+
+     <p>This method always return the value specified by <xref uid="Long#hashCode()" data-throw-if-not-resolved="false">Long#hashCode()</xref> in java, which
+     might be different from <code>((Long) value).hashCode()</code> in GWT because <xref uid="Long#hashCode()" data-throw-if-not-resolved="false">Long#hashCode()</xref> in GWT does not obey the JRE contract.
+
+     <p><b>Java 8 users:</b> use <xref uid="Long#hashCode(long)" data-throw-if-not-resolved="false">Long#hashCode(long)</xref> instead.
+  parameters:
+  - description: a primitive <code>long</code> value
+    name: value
+    type: <xref href="long?alt=long&text=long" data-throw-if-not-resolved="False" />
+  syntax: public static int hashCode(long value)
+  returns:
+    description: a hash code for the value
+    type: <xref href="int?alt=int&text=int" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.cosmos.implementation.guava25.primitives
+artifact: com.azure:azure-cosmos:4.3.2-beta.2

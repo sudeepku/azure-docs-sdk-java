@@ -1,0 +1,32 @@
+### YamlMime:JavaMember
+uid: com.azure.storage.blob.BlobContainerClient.delete*
+fullName: com.azure.storage.blob.BlobContainerClient.delete
+name: delete
+nameWithType: BlobContainerClient.delete
+members:
+- uid: com.azure.storage.blob.BlobContainerClient.delete()
+  fullName: com.azure.storage.blob.BlobContainerClient.delete()
+  name: delete()
+  nameWithType: BlobContainerClient.delete()
+  summary: |-
+    Marks the specified container for deletion. The container and any blobs contained within it are later deleted
+     during garbage collection. For more information, see the
+     <a href="https://docs.microsoft.com/rest/api/storageservices/delete-container">Azure Docs</a>.
+
+     <p><strong>Code Samples</strong></p>
+
+     <pre>
+     try &#123;
+         client.delete&#40;&#41;;
+         System.out.printf&#40;&quot;Delete completed%n&quot;&#41;;
+     &#125; catch &#40;BlobStorageException error&#41; &#123;
+         if &#40;error.getErrorCode&#40;&#41;.equals&#40;BlobErrorCode.CONTAINER_NOT_FOUND&#41;&#41; &#123;
+             System.out.printf&#40;&quot;Delete failed. Container was not found %n&quot;&#41;;
+         &#125;
+     &#125;
+     </pre>
+  syntax: public void delete()
+type: method
+metadata: {}
+package: com.azure.storage.blob
+artifact: com.azure:azure-storage-blob:12.8.0-beta.1

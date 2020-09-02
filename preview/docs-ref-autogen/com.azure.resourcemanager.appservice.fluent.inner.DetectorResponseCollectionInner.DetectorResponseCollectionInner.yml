@@ -1,0 +1,15 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.appservice.fluent.inner.DetectorResponseCollectionInner.DetectorResponseCollectionInner*
+fullName: com.azure.resourcemanager.appservice.fluent.inner.DetectorResponseCollectionInner.DetectorResponseCollectionInner
+name: DetectorResponseCollectionInner
+nameWithType: DetectorResponseCollectionInner.DetectorResponseCollectionInner
+members:
+- uid: com.azure.resourcemanager.appservice.fluent.inner.DetectorResponseCollectionInner.DetectorResponseCollectionInner()
+  fullName: com.azure.resourcemanager.appservice.fluent.inner.DetectorResponseCollectionInner.DetectorResponseCollectionInner()
+  name: DetectorResponseCollectionInner()
+  nameWithType: DetectorResponseCollectionInner.DetectorResponseCollectionInner()
+  syntax: public DetectorResponseCollectionInner()
+type: constructor
+metadata: {}
+package: com.azure.resourcemanager.appservice.fluent.inner
+artifact: com.azure.resourcemanager:azure-resourcemanager-appservice:2.0.0-beta.2

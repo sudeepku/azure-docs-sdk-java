@@ -1,0 +1,23 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.containerservice.fluent.inner.OpenShiftManagedClusterListResultInner.withValue*
+fullName: com.azure.resourcemanager.containerservice.fluent.inner.OpenShiftManagedClusterListResultInner.withValue
+name: withValue
+nameWithType: OpenShiftManagedClusterListResultInner.withValue
+members:
+- uid: com.azure.resourcemanager.containerservice.fluent.inner.OpenShiftManagedClusterListResultInner.withValue(java.util.List<com.azure.resourcemanager.containerservice.fluent.inner.OpenShiftManagedClusterInner>)
+  fullName: com.azure.resourcemanager.containerservice.fluent.inner.OpenShiftManagedClusterListResultInner.withValue(List<OpenShiftManagedClusterInner> value)
+  name: withValue(List<OpenShiftManagedClusterInner> value)
+  nameWithType: OpenShiftManagedClusterListResultInner.withValue(List<OpenShiftManagedClusterInner> value)
+  summary: 'Set the value property: The list of OpenShift managed clusters.'
+  parameters:
+  - description: the value value to set.
+    name: value
+    type: <xref href="java.util.List?alt=java.util.List&text=List" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.resourcemanager.containerservice.fluent.inner.OpenShiftManagedClusterInner?alt=com.azure.resourcemanager.containerservice.fluent.inner.OpenShiftManagedClusterInner&text=OpenShiftManagedClusterInner" data-throw-if-not-resolved="False" />&gt;
+  syntax: public OpenShiftManagedClusterListResultInner withValue(List<OpenShiftManagedClusterInner> value)
+  returns:
+    description: the OpenShiftManagedClusterListResultInner object itself.
+    type: <xref href="com.azure.resourcemanager.containerservice.fluent.inner.OpenShiftManagedClusterListResultInner?alt=com.azure.resourcemanager.containerservice.fluent.inner.OpenShiftManagedClusterListResultInner&text=OpenShiftManagedClusterListResultInner" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.resourcemanager.containerservice.fluent.inner
+artifact: com.azure.resourcemanager:azure-resourcemanager-containerservice:2.0.0-beta.2

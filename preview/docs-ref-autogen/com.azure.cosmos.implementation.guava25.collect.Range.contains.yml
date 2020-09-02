@@ -1,0 +1,24 @@
+### YamlMime:JavaMember
+uid: com.azure.cosmos.implementation.guava25.collect.Range.contains*
+fullName: com.azure.cosmos.implementation.guava25.collect.Range<C>.contains
+name: contains
+nameWithType: Range<C>.contains
+members:
+- uid: com.azure.cosmos.implementation.guava25.collect.Range.contains(C)
+  fullName: com.azure.cosmos.implementation.guava25.collect.Range<C>.contains(C value)
+  name: contains(C value)
+  nameWithType: Range<C>.contains(C value)
+  summary: |-
+    Returns <code>true</code> if <code>value</code> is within the bounds of this range. For example, on the
+     range <code>[0..2)</code>, <code>contains(1)</code> returns <code>true</code>, while <code>contains(2)</code>
+     returns <code>false</code>.
+  parameters:
+  - name: value
+    type: <xref href="C?alt=C&text=C" data-throw-if-not-resolved="False" />
+  syntax: public boolean contains(C value)
+  returns:
+    type: <xref href="boolean?alt=boolean&text=boolean" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.cosmos.implementation.guava25.collect
+artifact: com.azure:azure-cosmos:4.3.2-beta.2

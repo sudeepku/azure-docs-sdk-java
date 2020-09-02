@@ -1,0 +1,15 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.authorization.fluent.inner.RoleAssignmentListResultInner.RoleAssignmentListResultInner*
+fullName: com.azure.resourcemanager.authorization.fluent.inner.RoleAssignmentListResultInner.RoleAssignmentListResultInner
+name: RoleAssignmentListResultInner
+nameWithType: RoleAssignmentListResultInner.RoleAssignmentListResultInner
+members:
+- uid: com.azure.resourcemanager.authorization.fluent.inner.RoleAssignmentListResultInner.RoleAssignmentListResultInner()
+  fullName: com.azure.resourcemanager.authorization.fluent.inner.RoleAssignmentListResultInner.RoleAssignmentListResultInner()
+  name: RoleAssignmentListResultInner()
+  nameWithType: RoleAssignmentListResultInner.RoleAssignmentListResultInner()
+  syntax: public RoleAssignmentListResultInner()
+type: constructor
+metadata: {}
+package: com.azure.resourcemanager.authorization.fluent.inner
+artifact: com.azure.resourcemanager:azure-resourcemanager-authorization:2.0.0-beta.2

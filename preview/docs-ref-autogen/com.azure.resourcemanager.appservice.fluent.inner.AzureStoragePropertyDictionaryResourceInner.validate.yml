@@ -1,0 +1,17 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.appservice.fluent.inner.AzureStoragePropertyDictionaryResourceInner.validate*
+fullName: com.azure.resourcemanager.appservice.fluent.inner.AzureStoragePropertyDictionaryResourceInner.validate
+name: validate
+nameWithType: AzureStoragePropertyDictionaryResourceInner.validate
+members:
+- uid: com.azure.resourcemanager.appservice.fluent.inner.AzureStoragePropertyDictionaryResourceInner.validate()
+  fullName: com.azure.resourcemanager.appservice.fluent.inner.AzureStoragePropertyDictionaryResourceInner.validate()
+  name: validate()
+  nameWithType: AzureStoragePropertyDictionaryResourceInner.validate()
+  summary: Validates the instance.
+  overridden: com.azure.resourcemanager.appservice.models.ProxyOnlyResource.validate()
+  syntax: public void validate()
+type: method
+metadata: {}
+package: com.azure.resourcemanager.appservice.fluent.inner
+artifact: com.azure.resourcemanager:azure-resourcemanager-appservice:2.0.0-beta.2

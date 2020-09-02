@@ -1,0 +1,43 @@
+### YamlMime:JavaMember
+uid: com.azure.cosmos.implementation.guava25.collect.ContiguousSet.headSet*
+fullName: com.azure.cosmos.implementation.guava25.collect.ContiguousSet<C>.headSet
+name: headSet
+nameWithType: ContiguousSet<C>.headSet
+members:
+- uid: com.azure.cosmos.implementation.guava25.collect.ContiguousSet.headSet(C)
+  fullName: com.azure.cosmos.implementation.guava25.collect.ContiguousSet<C>.headSet(C toElement)
+  name: headSet(C toElement)
+  nameWithType: ContiguousSet<C>.headSet(C toElement)
+  summary: |2-
+
+
+     <p>This method returns a serializable <code>ImmutableSortedSet</code>.
+
+     <p>The <xref uid="SortedSet#headSet" data-throw-if-not-resolved="false">SortedSet#headSet</xref> documentation states that a subset of a subset throws an
+     <xref uid="IllegalArgumentException" data-throw-if-not-resolved="false">IllegalArgumentException</xref> if passed a <code>toElement</code> greater than an earlier <code>
+     toElement</code>. However, this method doesn't throw an exception in that situation, but instead
+     keeps the original <code>toElement</code>.
+  overridden: com.azure.cosmos.implementation.guava25.collect.ImmutableSortedSet.headSet(E)
+  parameters:
+  - name: toElement
+    type: <xref href="C?alt=C&text=C" data-throw-if-not-resolved="False" />
+  syntax: public ContiguousSet<C> headSet(C toElement)
+  returns:
+    type: <xref href="com.azure.cosmos.implementation.guava25.collect.ContiguousSet?alt=com.azure.cosmos.implementation.guava25.collect.ContiguousSet&text=ContiguousSet" data-throw-if-not-resolved="False" />&lt;<xref href="C?alt=C&text=C" data-throw-if-not-resolved="False" />&gt;
+- uid: com.azure.cosmos.implementation.guava25.collect.ContiguousSet.headSet(C,boolean)
+  fullName: com.azure.cosmos.implementation.guava25.collect.ContiguousSet<C>.headSet(C toElement, boolean inclusive)
+  name: headSet(C toElement, boolean inclusive)
+  nameWithType: ContiguousSet<C>.headSet(C toElement, boolean inclusive)
+  overridden: com.azure.cosmos.implementation.guava25.collect.ImmutableSortedSet.headSet(E,boolean)
+  parameters:
+  - name: toElement
+    type: <xref href="C?alt=C&text=C" data-throw-if-not-resolved="False" />
+  - name: inclusive
+    type: <xref href="boolean?alt=boolean&text=boolean" data-throw-if-not-resolved="False" />
+  syntax: public ContiguousSet<C> headSet(C toElement, boolean inclusive)
+  returns:
+    type: <xref href="com.azure.cosmos.implementation.guava25.collect.ContiguousSet?alt=com.azure.cosmos.implementation.guava25.collect.ContiguousSet&text=ContiguousSet" data-throw-if-not-resolved="False" />&lt;<xref href="C?alt=C&text=C" data-throw-if-not-resolved="False" />&gt;
+type: method
+metadata: {}
+package: com.azure.cosmos.implementation.guava25.collect
+artifact: com.azure:azure-cosmos:4.3.2-beta.2

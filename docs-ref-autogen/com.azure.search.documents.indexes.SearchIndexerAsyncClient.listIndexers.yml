@@ -1,0 +1,31 @@
+### YamlMime:JavaMember
+uid: com.azure.search.documents.indexes.SearchIndexerAsyncClient.listIndexers*
+fullName: com.azure.search.documents.indexes.SearchIndexerAsyncClient.listIndexers
+name: listIndexers
+nameWithType: SearchIndexerAsyncClient.listIndexers
+members:
+- uid: com.azure.search.documents.indexes.SearchIndexerAsyncClient.listIndexers()
+  fullName: com.azure.search.documents.indexes.SearchIndexerAsyncClient.listIndexers()
+  name: listIndexers()
+  nameWithType: SearchIndexerAsyncClient.listIndexers()
+  summary: |-
+    Lists all indexers available for an Azure Cognitive Search service.
+
+     <p><strong>Code Sample</strong></p>
+
+     <p> List all search indexers. </p>
+
+     <pre>
+     searchIndexerAsyncClient.listIndexers&#40;&#41;
+         .subscribe&#40;indexer -&gt;
+             System.out.printf&#40;&quot;The indexer name is %s. The etag of indexer is %s.%n&quot;, indexer.getName&#40;&#41;,
+             indexer.getETag&#40;&#41;&#41;&#41;;
+     </pre>
+  syntax: public PagedFlux<SearchIndexer> listIndexers()
+  returns:
+    description: a response containing all Indexers from the Search service.
+    type: <xref href="com.azure.core.http.rest.PagedFlux?alt=com.azure.core.http.rest.PagedFlux&text=PagedFlux" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.search.documents.indexes.models.SearchIndexer?alt=com.azure.search.documents.indexes.models.SearchIndexer&text=SearchIndexer" data-throw-if-not-resolved="False" />&gt;
+type: method
+metadata: {}
+package: com.azure.search.documents.indexes
+artifact: com.azure:azure-search-documents:11.0.0

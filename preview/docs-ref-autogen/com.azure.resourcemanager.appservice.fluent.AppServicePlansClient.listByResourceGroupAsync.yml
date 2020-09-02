@@ -1,0 +1,39 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.appservice.fluent.AppServicePlansClient.listByResourceGroupAsync*
+fullName: com.azure.resourcemanager.appservice.fluent.AppServicePlansClient.listByResourceGroupAsync
+name: listByResourceGroupAsync
+nameWithType: AppServicePlansClient.listByResourceGroupAsync
+members:
+- uid: com.azure.resourcemanager.appservice.fluent.AppServicePlansClient.listByResourceGroupAsync(java.lang.String)
+  fullName: com.azure.resourcemanager.appservice.fluent.AppServicePlansClient.listByResourceGroupAsync(String resourceGroupName)
+  name: listByResourceGroupAsync(String resourceGroupName)
+  nameWithType: AppServicePlansClient.listByResourceGroupAsync(String resourceGroupName)
+  summary: Description for Get all App Service plans in a resource group.
+  parameters:
+  - description: Name of the resource group to which the resource belongs.
+    name: resourceGroupName
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  syntax: public PagedFlux<AppServicePlanInner> listByResourceGroupAsync(String resourceGroupName)
+  returns:
+    description: collection of App Service plans.
+    type: <xref href="com.azure.core.http.rest.PagedFlux?alt=com.azure.core.http.rest.PagedFlux&text=PagedFlux" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.resourcemanager.appservice.fluent.inner.AppServicePlanInner?alt=com.azure.resourcemanager.appservice.fluent.inner.AppServicePlanInner&text=AppServicePlanInner" data-throw-if-not-resolved="False" />&gt;
+- uid: com.azure.resourcemanager.appservice.fluent.AppServicePlansClient.listByResourceGroupAsync(java.lang.String,com.azure.core.util.Context)
+  fullName: com.azure.resourcemanager.appservice.fluent.AppServicePlansClient.listByResourceGroupAsync(String resourceGroupName, Context context)
+  name: listByResourceGroupAsync(String resourceGroupName, Context context)
+  nameWithType: AppServicePlansClient.listByResourceGroupAsync(String resourceGroupName, Context context)
+  summary: Description for Get all App Service plans in a resource group.
+  parameters:
+  - description: Name of the resource group to which the resource belongs.
+    name: resourceGroupName
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  - description: The context to associate with this operation.
+    name: context
+    type: <xref href="com.azure.core.util.Context?alt=com.azure.core.util.Context&text=Context" data-throw-if-not-resolved="False" />
+  syntax: public PagedFlux<AppServicePlanInner> listByResourceGroupAsync(String resourceGroupName, Context context)
+  returns:
+    description: collection of App Service plans.
+    type: <xref href="com.azure.core.http.rest.PagedFlux?alt=com.azure.core.http.rest.PagedFlux&text=PagedFlux" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.resourcemanager.appservice.fluent.inner.AppServicePlanInner?alt=com.azure.resourcemanager.appservice.fluent.inner.AppServicePlanInner&text=AppServicePlanInner" data-throw-if-not-resolved="False" />&gt;
+type: method
+metadata: {}
+package: com.azure.resourcemanager.appservice.fluent
+artifact: com.azure.resourcemanager:azure-resourcemanager-appservice:2.0.0-beta.2

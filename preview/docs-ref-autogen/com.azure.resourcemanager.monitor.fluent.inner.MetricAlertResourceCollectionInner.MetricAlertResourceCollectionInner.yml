@@ -1,0 +1,15 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.monitor.fluent.inner.MetricAlertResourceCollectionInner.MetricAlertResourceCollectionInner*
+fullName: com.azure.resourcemanager.monitor.fluent.inner.MetricAlertResourceCollectionInner.MetricAlertResourceCollectionInner
+name: MetricAlertResourceCollectionInner
+nameWithType: MetricAlertResourceCollectionInner.MetricAlertResourceCollectionInner
+members:
+- uid: com.azure.resourcemanager.monitor.fluent.inner.MetricAlertResourceCollectionInner.MetricAlertResourceCollectionInner()
+  fullName: com.azure.resourcemanager.monitor.fluent.inner.MetricAlertResourceCollectionInner.MetricAlertResourceCollectionInner()
+  name: MetricAlertResourceCollectionInner()
+  nameWithType: MetricAlertResourceCollectionInner.MetricAlertResourceCollectionInner()
+  syntax: public MetricAlertResourceCollectionInner()
+type: constructor
+metadata: {}
+package: com.azure.resourcemanager.monitor.fluent.inner
+artifact: com.azure.resourcemanager:azure-resourcemanager-monitor:2.0.0-beta.2

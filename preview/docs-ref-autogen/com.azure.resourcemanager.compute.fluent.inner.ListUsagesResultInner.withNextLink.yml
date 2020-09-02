@@ -1,0 +1,25 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.compute.fluent.inner.ListUsagesResultInner.withNextLink*
+fullName: com.azure.resourcemanager.compute.fluent.inner.ListUsagesResultInner.withNextLink
+name: withNextLink
+nameWithType: ListUsagesResultInner.withNextLink
+members:
+- uid: com.azure.resourcemanager.compute.fluent.inner.ListUsagesResultInner.withNextLink(java.lang.String)
+  fullName: com.azure.resourcemanager.compute.fluent.inner.ListUsagesResultInner.withNextLink(String nextLink)
+  name: withNextLink(String nextLink)
+  nameWithType: ListUsagesResultInner.withNextLink(String nextLink)
+  summary: |-
+    Set the nextLink property: The URI to fetch the next page of compute resource usage information. Call ListNext()
+     with this to fetch the next page of compute resource usage information.
+  parameters:
+  - description: the nextLink value to set.
+    name: nextLink
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  syntax: public ListUsagesResultInner withNextLink(String nextLink)
+  returns:
+    description: the ListUsagesResultInner object itself.
+    type: <xref href="com.azure.resourcemanager.compute.fluent.inner.ListUsagesResultInner?alt=com.azure.resourcemanager.compute.fluent.inner.ListUsagesResultInner&text=ListUsagesResultInner" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.resourcemanager.compute.fluent.inner
+artifact: com.azure.resourcemanager:azure-resourcemanager-compute:2.0.0-beta.2

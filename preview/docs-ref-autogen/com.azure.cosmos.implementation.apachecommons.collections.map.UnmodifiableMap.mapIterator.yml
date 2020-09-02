@@ -1,0 +1,32 @@
+### YamlMime:JavaMember
+uid: com.azure.cosmos.implementation.apachecommons.collections.map.UnmodifiableMap.mapIterator*
+fullName: com.azure.cosmos.implementation.apachecommons.collections.map.UnmodifiableMap<K,V>.mapIterator
+name: mapIterator
+nameWithType: UnmodifiableMap<K,V>.mapIterator
+members:
+- uid: com.azure.cosmos.implementation.apachecommons.collections.map.UnmodifiableMap.mapIterator()
+  fullName: com.azure.cosmos.implementation.apachecommons.collections.map.UnmodifiableMap<K,V>.mapIterator()
+  name: mapIterator()
+  nameWithType: UnmodifiableMap<K,V>.mapIterator()
+  summary: |-
+    Obtains a <code>MapIterator</code> over the map.
+     <p>
+     A map iterator is an efficient way of iterating over maps.
+     There is no need to access the entry set or use Map Entry objects.
+     <pre>
+     IterableMap&lt;String,Integer&gt; map = new HashedMap&lt;String,Integer&gt;();
+     MapIterator&lt;String,Integer&gt; it = map.mapIterator();
+     while (it.hasNext()) {
+       String key = it.next();
+       Integer value = it.getValue();
+       it.setValue(value + 1);
+     }
+     </pre>
+  overridden: com.azure.cosmos.implementation.apachecommons.collections.map.AbstractIterableMap.mapIterator()
+  syntax: public MapIterator<K,V> mapIterator()
+  returns:
+    type: <xref href="com.azure.cosmos.implementation.apachecommons.collections.MapIterator?alt=com.azure.cosmos.implementation.apachecommons.collections.MapIterator&text=MapIterator" data-throw-if-not-resolved="False" />&lt;<xref href="K?alt=K&text=K" data-throw-if-not-resolved="False" />,<xref href="V?alt=V&text=V" data-throw-if-not-resolved="False" />&gt;
+type: method
+metadata: {}
+package: com.azure.cosmos.implementation.apachecommons.collections.map
+artifact: com.azure:azure-cosmos:4.3.2-beta.2

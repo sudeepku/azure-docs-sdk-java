@@ -1,0 +1,18 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.resources.fluentcore.arm.Region.values*
+fullName: com.azure.resourcemanager.resources.fluentcore.arm.Region.values
+name: values
+nameWithType: Region.values
+members:
+- uid: com.azure.resourcemanager.resources.fluentcore.arm.Region.values()
+  fullName: com.azure.resourcemanager.resources.fluentcore.arm.Region.values()
+  name: values()
+  nameWithType: Region.values()
+  syntax: public static Region[] values()
+  returns:
+    description: predefined Azure regions
+    type: <xref href="com.azure.resourcemanager.resources.fluentcore.arm.Region?alt=com.azure.resourcemanager.resources.fluentcore.arm.Region&text=Region" data-throw-if-not-resolved="False" />[]
+type: method
+metadata: {}
+package: com.azure.resourcemanager.resources.fluentcore.arm
+artifact: com.azure.resourcemanager:azure-resourcemanager-resources:2.0.0-beta.2

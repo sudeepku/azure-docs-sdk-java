@@ -1,0 +1,20 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.network.fluent.ExpressRouteConnectionsClient.ExpressRouteConnectionsClient*
+fullName: com.azure.resourcemanager.network.fluent.ExpressRouteConnectionsClient.ExpressRouteConnectionsClient
+name: ExpressRouteConnectionsClient
+nameWithType: ExpressRouteConnectionsClient.ExpressRouteConnectionsClient
+members:
+- uid: com.azure.resourcemanager.network.fluent.ExpressRouteConnectionsClient.ExpressRouteConnectionsClient(com.azure.resourcemanager.network.NetworkManagementClient)
+  fullName: com.azure.resourcemanager.network.fluent.ExpressRouteConnectionsClient.ExpressRouteConnectionsClient(NetworkManagementClient client)
+  name: ExpressRouteConnectionsClient(NetworkManagementClient client)
+  nameWithType: ExpressRouteConnectionsClient.ExpressRouteConnectionsClient(NetworkManagementClient client)
+  summary: Initializes an instance of ExpressRouteConnectionsClient.
+  parameters:
+  - description: the instance of the service client containing this operation class.
+    name: client
+    type: <xref href="com.azure.resourcemanager.network.NetworkManagementClient?alt=com.azure.resourcemanager.network.NetworkManagementClient&text=NetworkManagementClient" data-throw-if-not-resolved="False" />
+  syntax: public ExpressRouteConnectionsClient(NetworkManagementClient client)
+type: constructor
+metadata: {}
+package: com.azure.resourcemanager.network.fluent
+artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.0.0-beta.2

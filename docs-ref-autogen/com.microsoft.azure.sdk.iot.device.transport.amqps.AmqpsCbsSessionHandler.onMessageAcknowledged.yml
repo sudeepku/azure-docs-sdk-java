@@ -1,0 +1,21 @@
+### YamlMime:JavaMember
+uid: com.microsoft.azure.sdk.iot.device.transport.amqps.AmqpsCbsSessionHandler.onMessageAcknowledged*
+fullName: com.microsoft.azure.sdk.iot.device.transport.amqps.AmqpsCbsSessionHandler.onMessageAcknowledged
+name: onMessageAcknowledged
+nameWithType: AmqpsCbsSessionHandler.onMessageAcknowledged
+members:
+- uid: com.microsoft.azure.sdk.iot.device.transport.amqps.AmqpsCbsSessionHandler.onMessageAcknowledged(com.microsoft.azure.sdk.iot.device.Message,int)
+  fullName: com.microsoft.azure.sdk.iot.device.transport.amqps.AmqpsCbsSessionHandler.onMessageAcknowledged(Message message, int deliveryTag)
+  name: onMessageAcknowledged(Message message, int deliveryTag)
+  nameWithType: AmqpsCbsSessionHandler.onMessageAcknowledged(Message message, int deliveryTag)
+  summary: Executed when a message sent by a link in this session was acknowledged by the service
+  parameters:
+  - name: message
+    type: <xref href="com.microsoft.azure.sdk.iot.device.Message?alt=com.microsoft.azure.sdk.iot.device.Message&text=Message" data-throw-if-not-resolved="False" />
+  - name: deliveryTag
+    type: <xref href="int?alt=int&text=int" data-throw-if-not-resolved="False" />
+  syntax: public void onMessageAcknowledged(Message message, int deliveryTag)
+type: method
+metadata: {}
+package: com.microsoft.azure.sdk.iot.device.transport.amqps
+artifact: com.microsoft.azure.sdk.iot:iot-device-client:1.24.0

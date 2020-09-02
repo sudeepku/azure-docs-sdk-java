@@ -1,0 +1,22 @@
+### YamlMime:JavaMember
+uid: com.azure.cosmos.implementation.guava25.base.Optional.absent*
+fullName: com.azure.cosmos.implementation.guava25.base.Optional<T>.<T>absent
+name: <T>absent
+nameWithType: Optional<T>.<T>absent
+members:
+- uid: com.azure.cosmos.implementation.guava25.base.Optional.<T>absent()
+  fullName: com.azure.cosmos.implementation.guava25.base.Optional<T>.<T>absent()
+  name: <T>absent()
+  nameWithType: Optional<T>.<T>absent()
+  summary: |-
+    Returns an <code>Optional</code> instance with no contained reference.
+
+     <p><b>Comparison to <code>java.util.Optional</code>:</b> this method is equivalent to Java 8's
+     <code>Optional.empty</code>.
+  syntax: public static Optional<T> <T>absent()
+  returns:
+    type: <xref href="com.azure.cosmos.implementation.guava25.base.Optional?alt=com.azure.cosmos.implementation.guava25.base.Optional&text=Optional" data-throw-if-not-resolved="False" />&lt;<xref href="T?alt=T&text=T" data-throw-if-not-resolved="False" />&gt;
+type: method
+metadata: {}
+package: com.azure.cosmos.implementation.guava25.base
+artifact: com.azure:azure-cosmos:4.3.2-beta.2

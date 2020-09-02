@@ -1,0 +1,20 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.appservice.fluent.ResourceHealthMetadatasClient.ResourceHealthMetadatasClient*
+fullName: com.azure.resourcemanager.appservice.fluent.ResourceHealthMetadatasClient.ResourceHealthMetadatasClient
+name: ResourceHealthMetadatasClient
+nameWithType: ResourceHealthMetadatasClient.ResourceHealthMetadatasClient
+members:
+- uid: com.azure.resourcemanager.appservice.fluent.ResourceHealthMetadatasClient.ResourceHealthMetadatasClient(com.azure.resourcemanager.appservice.WebSiteManagementClient)
+  fullName: com.azure.resourcemanager.appservice.fluent.ResourceHealthMetadatasClient.ResourceHealthMetadatasClient(WebSiteManagementClient client)
+  name: ResourceHealthMetadatasClient(WebSiteManagementClient client)
+  nameWithType: ResourceHealthMetadatasClient.ResourceHealthMetadatasClient(WebSiteManagementClient client)
+  summary: Initializes an instance of ResourceHealthMetadatasClient.
+  parameters:
+  - description: the instance of the service client containing this operation class.
+    name: client
+    type: <xref href="com.azure.resourcemanager.appservice.WebSiteManagementClient?alt=com.azure.resourcemanager.appservice.WebSiteManagementClient&text=WebSiteManagementClient" data-throw-if-not-resolved="False" />
+  syntax: public ResourceHealthMetadatasClient(WebSiteManagementClient client)
+type: constructor
+metadata: {}
+package: com.azure.resourcemanager.appservice.fluent
+artifact: com.azure.resourcemanager:azure-resourcemanager-appservice:2.0.0-beta.2

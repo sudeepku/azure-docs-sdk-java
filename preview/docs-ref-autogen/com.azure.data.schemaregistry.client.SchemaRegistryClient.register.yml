@@ -1,0 +1,32 @@
+### YamlMime:JavaMember
+uid: com.azure.data.schemaregistry.client.SchemaRegistryClient.register*
+fullName: com.azure.data.schemaregistry.client.SchemaRegistryClient.register
+name: register
+nameWithType: SchemaRegistryClient.register
+members:
+- uid: com.azure.data.schemaregistry.client.SchemaRegistryClient.register(java.lang.String,java.lang.String,java.lang.String,java.lang.String)
+  fullName: com.azure.data.schemaregistry.client.SchemaRegistryClient.register(String schemaGroup, String schemaName, String schemaString, String schemaType)
+  name: register(String schemaGroup, String schemaName, String schemaString, String schemaType)
+  nameWithType: SchemaRegistryClient.register(String schemaGroup, String schemaName, String schemaString, String schemaType)
+  summary: Registers a schema against backing schema registry store.
+  parameters:
+  - description: schema group name
+    name: schemaGroup
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  - description: schema name
+    name: schemaName
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  - description: string representation of schema
+    name: schemaString
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  - description: string representation of schema type
+    name: schemaType
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  syntax: public abstract SchemaRegistryObject register(String schemaGroup, String schemaName, String schemaString, String schemaType)
+  returns:
+    description: SchemaRegistryObject containing information regarding registered schema.
+    type: <xref href="com.azure.data.schemaregistry.client.SchemaRegistryObject?alt=com.azure.data.schemaregistry.client.SchemaRegistryObject&text=SchemaRegistryObject" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.data.schemaregistry.client
+artifact: com.azure:azure-data-schemaregistry:1.0.0-beta.1

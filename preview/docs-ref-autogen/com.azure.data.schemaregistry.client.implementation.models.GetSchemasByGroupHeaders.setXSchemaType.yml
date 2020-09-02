@@ -1,0 +1,23 @@
+### YamlMime:JavaMember
+uid: com.azure.data.schemaregistry.client.implementation.models.GetSchemasByGroupHeaders.setXSchemaType*
+fullName: com.azure.data.schemaregistry.client.implementation.models.GetSchemasByGroupHeaders.setXSchemaType
+name: setXSchemaType
+nameWithType: GetSchemasByGroupHeaders.setXSchemaType
+members:
+- uid: com.azure.data.schemaregistry.client.implementation.models.GetSchemasByGroupHeaders.setXSchemaType(java.lang.String)
+  fullName: com.azure.data.schemaregistry.client.implementation.models.GetSchemasByGroupHeaders.setXSchemaType(String xSchemaType)
+  name: setXSchemaType(String xSchemaType)
+  nameWithType: GetSchemasByGroupHeaders.setXSchemaType(String xSchemaType)
+  summary: 'Set the xSchemaType property: The X-Schema-Type property.'
+  parameters:
+  - description: the xSchemaType value to set.
+    name: xSchemaType
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  syntax: public GetSchemasByGroupHeaders setXSchemaType(String xSchemaType)
+  returns:
+    description: the GetSchemasByGroupHeaders object itself.
+    type: <xref href="com.azure.data.schemaregistry.client.implementation.models.GetSchemasByGroupHeaders?alt=com.azure.data.schemaregistry.client.implementation.models.GetSchemasByGroupHeaders&text=GetSchemasByGroupHeaders" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.data.schemaregistry.client.implementation.models
+artifact: com.azure:azure-data-schemaregistry:1.0.0-beta.1

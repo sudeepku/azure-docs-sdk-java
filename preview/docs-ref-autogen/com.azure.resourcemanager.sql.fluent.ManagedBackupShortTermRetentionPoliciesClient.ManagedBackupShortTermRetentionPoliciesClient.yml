@@ -1,0 +1,20 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.sql.fluent.ManagedBackupShortTermRetentionPoliciesClient.ManagedBackupShortTermRetentionPoliciesClient*
+fullName: com.azure.resourcemanager.sql.fluent.ManagedBackupShortTermRetentionPoliciesClient.ManagedBackupShortTermRetentionPoliciesClient
+name: ManagedBackupShortTermRetentionPoliciesClient
+nameWithType: ManagedBackupShortTermRetentionPoliciesClient.ManagedBackupShortTermRetentionPoliciesClient
+members:
+- uid: com.azure.resourcemanager.sql.fluent.ManagedBackupShortTermRetentionPoliciesClient.ManagedBackupShortTermRetentionPoliciesClient(com.azure.resourcemanager.sql.SqlManagementClient)
+  fullName: com.azure.resourcemanager.sql.fluent.ManagedBackupShortTermRetentionPoliciesClient.ManagedBackupShortTermRetentionPoliciesClient(SqlManagementClient client)
+  name: ManagedBackupShortTermRetentionPoliciesClient(SqlManagementClient client)
+  nameWithType: ManagedBackupShortTermRetentionPoliciesClient.ManagedBackupShortTermRetentionPoliciesClient(SqlManagementClient client)
+  summary: Initializes an instance of ManagedBackupShortTermRetentionPoliciesClient.
+  parameters:
+  - description: the instance of the service client containing this operation class.
+    name: client
+    type: <xref href="com.azure.resourcemanager.sql.SqlManagementClient?alt=com.azure.resourcemanager.sql.SqlManagementClient&text=SqlManagementClient" data-throw-if-not-resolved="False" />
+  syntax: public ManagedBackupShortTermRetentionPoliciesClient(SqlManagementClient client)
+type: constructor
+metadata: {}
+package: com.azure.resourcemanager.sql.fluent
+artifact: com.azure.resourcemanager:azure-resourcemanager-sql:2.0.0-beta.2

@@ -1,0 +1,23 @@
+### YamlMime:JavaMember
+uid: com.azure.data.schemaregistry.client.implementation.models.GetLatestSchemaHeaders.setXSchemaType*
+fullName: com.azure.data.schemaregistry.client.implementation.models.GetLatestSchemaHeaders.setXSchemaType
+name: setXSchemaType
+nameWithType: GetLatestSchemaHeaders.setXSchemaType
+members:
+- uid: com.azure.data.schemaregistry.client.implementation.models.GetLatestSchemaHeaders.setXSchemaType(java.lang.String)
+  fullName: com.azure.data.schemaregistry.client.implementation.models.GetLatestSchemaHeaders.setXSchemaType(String xSchemaType)
+  name: setXSchemaType(String xSchemaType)
+  nameWithType: GetLatestSchemaHeaders.setXSchemaType(String xSchemaType)
+  summary: 'Set the xSchemaType property: The X-Schema-Type property.'
+  parameters:
+  - description: the xSchemaType value to set.
+    name: xSchemaType
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  syntax: public GetLatestSchemaHeaders setXSchemaType(String xSchemaType)
+  returns:
+    description: the GetLatestSchemaHeaders object itself.
+    type: <xref href="com.azure.data.schemaregistry.client.implementation.models.GetLatestSchemaHeaders?alt=com.azure.data.schemaregistry.client.implementation.models.GetLatestSchemaHeaders&text=GetLatestSchemaHeaders" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.data.schemaregistry.client.implementation.models
+artifact: com.azure:azure-data-schemaregistry:1.0.0-beta.1

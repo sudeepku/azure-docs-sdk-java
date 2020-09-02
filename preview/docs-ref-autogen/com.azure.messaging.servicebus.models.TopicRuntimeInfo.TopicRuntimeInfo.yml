@@ -1,0 +1,20 @@
+### YamlMime:JavaMember
+uid: com.azure.messaging.servicebus.models.TopicRuntimeInfo.TopicRuntimeInfo*
+fullName: com.azure.messaging.servicebus.models.TopicRuntimeInfo.TopicRuntimeInfo
+name: TopicRuntimeInfo
+nameWithType: TopicRuntimeInfo.TopicRuntimeInfo
+members:
+- uid: com.azure.messaging.servicebus.models.TopicRuntimeInfo.TopicRuntimeInfo(com.azure.messaging.servicebus.models.TopicProperties)
+  fullName: com.azure.messaging.servicebus.models.TopicRuntimeInfo.TopicRuntimeInfo(TopicProperties topicProperties)
+  name: TopicRuntimeInfo(TopicProperties topicProperties)
+  nameWithType: TopicRuntimeInfo.TopicRuntimeInfo(TopicProperties topicProperties)
+  summary: Creates a new instance with runtime properties extracted from the given TopicDescription.
+  parameters:
+  - description: Topic description to extract runtime information from.
+    name: topicProperties
+    type: <xref href="com.azure.messaging.servicebus.models.TopicProperties?alt=com.azure.messaging.servicebus.models.TopicProperties&text=TopicProperties" data-throw-if-not-resolved="False" />
+  syntax: public TopicRuntimeInfo(TopicProperties topicProperties)
+type: constructor
+metadata: {}
+package: com.azure.messaging.servicebus.models
+artifact: com.azure:azure-messaging-servicebus:7.0.0-beta.5

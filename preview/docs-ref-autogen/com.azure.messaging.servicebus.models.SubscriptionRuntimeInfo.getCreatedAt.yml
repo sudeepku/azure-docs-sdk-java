@@ -1,0 +1,19 @@
+### YamlMime:JavaMember
+uid: com.azure.messaging.servicebus.models.SubscriptionRuntimeInfo.getCreatedAt*
+fullName: com.azure.messaging.servicebus.models.SubscriptionRuntimeInfo.getCreatedAt
+name: getCreatedAt
+nameWithType: SubscriptionRuntimeInfo.getCreatedAt
+members:
+- uid: com.azure.messaging.servicebus.models.SubscriptionRuntimeInfo.getCreatedAt()
+  fullName: com.azure.messaging.servicebus.models.SubscriptionRuntimeInfo.getCreatedAt()
+  name: getCreatedAt()
+  nameWithType: SubscriptionRuntimeInfo.getCreatedAt()
+  summary: Gets the exact time the subscription was created.
+  syntax: public OffsetDateTime getCreatedAt()
+  returns:
+    description: The exact time the subscription was created.
+    type: <xref href="java.time.OffsetDateTime?alt=java.time.OffsetDateTime&text=OffsetDateTime" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.messaging.servicebus.models
+artifact: com.azure:azure-messaging-servicebus:7.0.0-beta.5

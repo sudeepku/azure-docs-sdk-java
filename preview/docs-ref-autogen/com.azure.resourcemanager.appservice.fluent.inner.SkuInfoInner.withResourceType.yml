@@ -1,0 +1,23 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.appservice.fluent.inner.SkuInfoInner.withResourceType*
+fullName: com.azure.resourcemanager.appservice.fluent.inner.SkuInfoInner.withResourceType
+name: withResourceType
+nameWithType: SkuInfoInner.withResourceType
+members:
+- uid: com.azure.resourcemanager.appservice.fluent.inner.SkuInfoInner.withResourceType(java.lang.String)
+  fullName: com.azure.resourcemanager.appservice.fluent.inner.SkuInfoInner.withResourceType(String resourceType)
+  name: withResourceType(String resourceType)
+  nameWithType: SkuInfoInner.withResourceType(String resourceType)
+  summary: 'Set the resourceType property: Resource type that this SKU applies to.'
+  parameters:
+  - description: the resourceType value to set.
+    name: resourceType
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  syntax: public SkuInfoInner withResourceType(String resourceType)
+  returns:
+    description: the SkuInfoInner object itself.
+    type: <xref href="com.azure.resourcemanager.appservice.fluent.inner.SkuInfoInner?alt=com.azure.resourcemanager.appservice.fluent.inner.SkuInfoInner&text=SkuInfoInner" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.resourcemanager.appservice.fluent.inner
+artifact: com.azure.resourcemanager:azure-resourcemanager-appservice:2.0.0-beta.2

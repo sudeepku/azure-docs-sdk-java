@@ -1,0 +1,19 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.authorization.fluent.inner.DomainListResultInner.value*
+fullName: com.azure.resourcemanager.authorization.fluent.inner.DomainListResultInner.value
+name: value
+nameWithType: DomainListResultInner.value
+members:
+- uid: com.azure.resourcemanager.authorization.fluent.inner.DomainListResultInner.value()
+  fullName: com.azure.resourcemanager.authorization.fluent.inner.DomainListResultInner.value()
+  name: value()
+  nameWithType: DomainListResultInner.value()
+  summary: 'Get the value property: the list of domains.'
+  syntax: public List<DomainInner> value()
+  returns:
+    description: the value value.
+    type: <xref href="java.util.List?alt=java.util.List&text=List" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.resourcemanager.authorization.fluent.inner.DomainInner?alt=com.azure.resourcemanager.authorization.fluent.inner.DomainInner&text=DomainInner" data-throw-if-not-resolved="False" />&gt;
+type: method
+metadata: {}
+package: com.azure.resourcemanager.authorization.fluent.inner
+artifact: com.azure.resourcemanager:azure-resourcemanager-authorization:2.0.0-beta.2

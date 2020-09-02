@@ -1,0 +1,29 @@
+### YamlMime:JavaMember
+uid: com.azure.search.documents.indexes.SearchIndexAsyncClient.listIndexNames*
+fullName: com.azure.search.documents.indexes.SearchIndexAsyncClient.listIndexNames
+name: listIndexNames
+nameWithType: SearchIndexAsyncClient.listIndexNames
+members:
+- uid: com.azure.search.documents.indexes.SearchIndexAsyncClient.listIndexNames()
+  fullName: com.azure.search.documents.indexes.SearchIndexAsyncClient.listIndexNames()
+  name: listIndexNames()
+  nameWithType: SearchIndexAsyncClient.listIndexNames()
+  summary: |-
+    Lists all indexes names for an Azure Cognitive Search service.
+
+     <p><strong>Code Sample</strong></p>
+
+     <p> List all search indexes names. </p>
+
+     <pre>
+     searchIndexAsyncClient.listIndexNames&#40;&#41;
+         .subscribe&#40;indexName -&gt; System.out.printf&#40;&quot;The index name is %s.%n&quot;, indexName&#41;&#41;;
+     </pre>
+  syntax: public PagedFlux<String> listIndexNames()
+  returns:
+    description: a reactive response emitting the list of index names.
+    type: <xref href="com.azure.core.http.rest.PagedFlux?alt=com.azure.core.http.rest.PagedFlux&text=PagedFlux" data-throw-if-not-resolved="False" />&lt;<xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />&gt;
+type: method
+metadata: {}
+package: com.azure.search.documents.indexes
+artifact: com.azure:azure-search-documents:11.0.0

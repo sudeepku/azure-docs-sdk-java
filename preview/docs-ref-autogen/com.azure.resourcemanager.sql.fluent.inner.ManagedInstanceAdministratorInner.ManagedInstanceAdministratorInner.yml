@@ -1,0 +1,15 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.sql.fluent.inner.ManagedInstanceAdministratorInner.ManagedInstanceAdministratorInner*
+fullName: com.azure.resourcemanager.sql.fluent.inner.ManagedInstanceAdministratorInner.ManagedInstanceAdministratorInner
+name: ManagedInstanceAdministratorInner
+nameWithType: ManagedInstanceAdministratorInner.ManagedInstanceAdministratorInner
+members:
+- uid: com.azure.resourcemanager.sql.fluent.inner.ManagedInstanceAdministratorInner.ManagedInstanceAdministratorInner()
+  fullName: com.azure.resourcemanager.sql.fluent.inner.ManagedInstanceAdministratorInner.ManagedInstanceAdministratorInner()
+  name: ManagedInstanceAdministratorInner()
+  nameWithType: ManagedInstanceAdministratorInner.ManagedInstanceAdministratorInner()
+  syntax: public ManagedInstanceAdministratorInner()
+type: constructor
+metadata: {}
+package: com.azure.resourcemanager.sql.fluent.inner
+artifact: com.azure.resourcemanager:azure-resourcemanager-sql:2.0.0-beta.2

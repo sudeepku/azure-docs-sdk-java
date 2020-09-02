@@ -1,0 +1,78 @@
+### YamlMime:JavaMember
+uid: com.azure.cosmos.implementation.guava25.collect.Sets.newTreeSet*
+fullName: com.azure.cosmos.implementation.guava25.collect.Sets.<E>newTreeSet
+name: <E>newTreeSet
+nameWithType: Sets.<E>newTreeSet
+members:
+- uid: com.azure.cosmos.implementation.guava25.collect.Sets.<E>newTreeSet()
+  fullName: com.azure.cosmos.implementation.guava25.collect.Sets.<E>newTreeSet()
+  name: <E>newTreeSet()
+  nameWithType: Sets.<E>newTreeSet()
+  summary: |-
+    Creates a <i>mutable</i>, empty <code>TreeSet</code> instance sorted by the natural sort ordering of
+     its elements.
+
+     <p><b>Note:</b> if mutability is not required, use <xref uid="ImmutableSortedSet#of()" data-throw-if-not-resolved="false">ImmutableSortedSet#of()</xref> instead.
+
+     <p><b>Note for Java 7 and later:</b> this method is now unnecessary and should be treated as
+     deprecated. Instead, use the <code>TreeSet</code> constructor directly, taking advantage of the new
+     <a href="http://goo.gl/iz2Wi">"diamond" syntax</a>.
+  syntax: public static TreeSet<E> <E>newTreeSet()
+  returns:
+    description: a new, empty <code>TreeSet</code>
+    type: <xref href="java.util.TreeSet?alt=java.util.TreeSet&text=TreeSet" data-throw-if-not-resolved="False" />&lt;<xref href="E?alt=E&text=E" data-throw-if-not-resolved="False" />&gt;
+- uid: com.azure.cosmos.implementation.guava25.collect.Sets.<E>newTreeSet(java.lang.Iterable<? extends E>)
+  fullName: com.azure.cosmos.implementation.guava25.collect.Sets.<E>newTreeSet(Iterable<? extends E> elements)
+  name: <E>newTreeSet(Iterable<? extends E> elements)
+  nameWithType: Sets.<E>newTreeSet(Iterable<? extends E> elements)
+  summary: |-
+    Creates a <i>mutable</i> <code>TreeSet</code> instance containing the given elements sorted by their
+     natural ordering.
+
+     <p><b>Note:</b> if mutability is not required, use <xref uid="ImmutableSortedSet#copyOf(Iterable)" data-throw-if-not-resolved="false">ImmutableSortedSet#copyOf(Iterable)</xref>
+     instead.
+
+     <p><b>Note:</b> If <code>elements</code> is a <code>SortedSet</code> with an explicit comparator, this
+     method has different behavior than <xref uid="TreeSet#TreeSet(SortedSet)" data-throw-if-not-resolved="false">TreeSet#TreeSet(SortedSet)</xref>, which returns a <code>
+     TreeSet</code> with that comparator.
+
+     <p><b>Note for Java 7 and later:</b> this method is now unnecessary and should be treated as
+     deprecated. Instead, use the <code>TreeSet</code> constructor directly, taking advantage of the new
+     <a href="http://goo.gl/iz2Wi">"diamond" syntax</a>.
+
+     <p>This method is just a small convenience for creating an empty set and then calling <xref uid="Iterables#addAll" data-throw-if-not-resolved="false">Iterables#addAll</xref>. This method is not very useful and will likely be deprecated in the future.
+  parameters:
+  - description: the elements that the set should contain
+    name: elements
+    type: <xref href="java.lang.Iterable?alt=java.lang.Iterable&text=Iterable" data-throw-if-not-resolved="False" />&lt;<xref href="? extends E?alt=? extends E&text=? extends E" data-throw-if-not-resolved="False" />&gt;
+  syntax: public static TreeSet<E> <E>newTreeSet(Iterable<? extends E> elements)
+  returns:
+    description: a new <code>TreeSet</code> containing those elements (minus duplicates)
+    type: <xref href="java.util.TreeSet?alt=java.util.TreeSet&text=TreeSet" data-throw-if-not-resolved="False" />&lt;<xref href="E?alt=E&text=E" data-throw-if-not-resolved="False" />&gt;
+- uid: com.azure.cosmos.implementation.guava25.collect.Sets.<E>newTreeSet(java.util.Comparator<? super E>)
+  fullName: com.azure.cosmos.implementation.guava25.collect.Sets.<E>newTreeSet(Comparator<? super E> comparator)
+  name: <E>newTreeSet(Comparator<? super E> comparator)
+  nameWithType: Sets.<E>newTreeSet(Comparator<? super E> comparator)
+  summary: |-
+    Creates a <i>mutable</i>, empty <code>TreeSet</code> instance with the given comparator.
+
+     <p><b>Note:</b> if mutability is not required, use <code>
+     ImmutableSortedSet.orderedBy(comparator).build()</code> instead.
+
+     <p><b>Note for Java 7 and later:</b> this method is now unnecessary and should be treated as
+     deprecated. Instead, use the <code>TreeSet</code> constructor directly, taking advantage of the new
+     <a href="http://goo.gl/iz2Wi">"diamond" syntax</a>. One caveat to this is that the <code>
+     TreeSet</code> constructor uses a null <code>Comparator</code> to mean "natural ordering," whereas this
+     factory rejects null. Clean your code accordingly.
+  parameters:
+  - description: the comparator to use to sort the set
+    name: comparator
+    type: <xref href="java.util.Comparator?alt=java.util.Comparator&text=Comparator" data-throw-if-not-resolved="False" />&lt;<xref href="? super E?alt=? super E&text=? super E" data-throw-if-not-resolved="False" />&gt;
+  syntax: public static TreeSet<E> <E>newTreeSet(Comparator<? super E> comparator)
+  returns:
+    description: a new, empty <code>TreeSet</code>
+    type: <xref href="java.util.TreeSet?alt=java.util.TreeSet&text=TreeSet" data-throw-if-not-resolved="False" />&lt;<xref href="E?alt=E&text=E" data-throw-if-not-resolved="False" />&gt;
+type: method
+metadata: {}
+package: com.azure.cosmos.implementation.guava25.collect
+artifact: com.azure:azure-cosmos:4.3.2-beta.2

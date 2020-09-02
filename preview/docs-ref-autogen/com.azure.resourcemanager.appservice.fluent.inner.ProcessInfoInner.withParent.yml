@@ -1,0 +1,23 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.appservice.fluent.inner.ProcessInfoInner.withParent*
+fullName: com.azure.resourcemanager.appservice.fluent.inner.ProcessInfoInner.withParent
+name: withParent
+nameWithType: ProcessInfoInner.withParent
+members:
+- uid: com.azure.resourcemanager.appservice.fluent.inner.ProcessInfoInner.withParent(java.lang.String)
+  fullName: com.azure.resourcemanager.appservice.fluent.inner.ProcessInfoInner.withParent(String parent)
+  name: withParent(String parent)
+  nameWithType: ProcessInfoInner.withParent(String parent)
+  summary: 'Set the parent property: Parent process.'
+  parameters:
+  - description: the parent value to set.
+    name: parent
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  syntax: public ProcessInfoInner withParent(String parent)
+  returns:
+    description: the ProcessInfoInner object itself.
+    type: <xref href="com.azure.resourcemanager.appservice.fluent.inner.ProcessInfoInner?alt=com.azure.resourcemanager.appservice.fluent.inner.ProcessInfoInner&text=ProcessInfoInner" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.resourcemanager.appservice.fluent.inner
+artifact: com.azure.resourcemanager:azure-resourcemanager-appservice:2.0.0-beta.2

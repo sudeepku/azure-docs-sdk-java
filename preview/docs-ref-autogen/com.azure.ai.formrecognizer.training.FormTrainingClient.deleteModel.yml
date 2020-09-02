@@ -1,0 +1,28 @@
+### YamlMime:JavaMember
+uid: com.azure.ai.formrecognizer.training.FormTrainingClient.deleteModel*
+fullName: com.azure.ai.formrecognizer.training.FormTrainingClient.deleteModel
+name: deleteModel
+nameWithType: FormTrainingClient.deleteModel
+members:
+- uid: com.azure.ai.formrecognizer.training.FormTrainingClient.deleteModel(java.lang.String)
+  fullName: com.azure.ai.formrecognizer.training.FormTrainingClient.deleteModel(String modelId)
+  name: deleteModel(String modelId)
+  nameWithType: FormTrainingClient.deleteModel(String modelId)
+  summary: |-
+    Deletes the specified custom model.
+
+     <p><strong>Code sample</strong></p>
+     <pre>
+     String modelId = &quot;&#123;model_id&#125;&quot;;
+     formTrainingClient.deleteModel&#40;modelId&#41;;
+     System.out.printf&#40;&quot;Model Id: %s is deleted.%n&quot;, modelId&#41;;
+     </pre>
+  parameters:
+  - description: The UUID string format model identifier.
+    name: modelId
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  syntax: public void deleteModel(String modelId)
+type: method
+metadata: {}
+package: com.azure.ai.formrecognizer.training
+artifact: com.azure:azure-ai-formrecognizer:3.0.0-beta.1

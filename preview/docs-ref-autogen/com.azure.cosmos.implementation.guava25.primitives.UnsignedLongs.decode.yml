@@ -1,0 +1,31 @@
+### YamlMime:JavaMember
+uid: com.azure.cosmos.implementation.guava25.primitives.UnsignedLongs.decode*
+fullName: com.azure.cosmos.implementation.guava25.primitives.UnsignedLongs.decode
+name: decode
+nameWithType: UnsignedLongs.decode
+members:
+- uid: com.azure.cosmos.implementation.guava25.primitives.UnsignedLongs.decode(java.lang.String)
+  fullName: com.azure.cosmos.implementation.guava25.primitives.UnsignedLongs.decode(String stringValue)
+  name: decode(String stringValue)
+  nameWithType: UnsignedLongs.decode(String stringValue)
+  summary: |-
+    Returns the unsigned <code>long</code> value represented by the given string.
+
+     <p>Accepts a decimal, hexadecimal, or octal number given by specifying the following prefix:
+
+     <ul>
+       <li><code>0x</code><i>HexDigits</i>
+       <li><code>0X</code><i>HexDigits</i>
+       <li><code>#</code><i>HexDigits</i>
+       <li><code>0</code><i>OctalDigits</i>
+     </ul>
+  parameters:
+  - name: stringValue
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  syntax: public static long decode(String stringValue)
+  returns:
+    type: <xref href="long?alt=long&text=long" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.cosmos.implementation.guava25.primitives
+artifact: com.azure:azure-cosmos:4.3.2-beta.2

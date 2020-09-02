@@ -1,0 +1,19 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.appservice.models.FunctionRuntimeStack.getLinuxFxVersionForConsumptionPlan*
+fullName: com.azure.resourcemanager.appservice.models.FunctionRuntimeStack.getLinuxFxVersionForConsumptionPlan
+name: getLinuxFxVersionForConsumptionPlan
+nameWithType: FunctionRuntimeStack.getLinuxFxVersionForConsumptionPlan
+members:
+- uid: com.azure.resourcemanager.appservice.models.FunctionRuntimeStack.getLinuxFxVersionForConsumptionPlan()
+  fullName: com.azure.resourcemanager.appservice.models.FunctionRuntimeStack.getLinuxFxVersionForConsumptionPlan()
+  name: getLinuxFxVersionForConsumptionPlan()
+  nameWithType: FunctionRuntimeStack.getLinuxFxVersionForConsumptionPlan()
+  summary: Gets LinuxFxVersion property value, for Consumption plan.
+  syntax: public String getLinuxFxVersionForConsumptionPlan()
+  returns:
+    description: the LinuxFxVersion property value for siteConfig
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.resourcemanager.appservice.models
+artifact: com.azure.resourcemanager:azure-resourcemanager-appservice:2.0.0-beta.2

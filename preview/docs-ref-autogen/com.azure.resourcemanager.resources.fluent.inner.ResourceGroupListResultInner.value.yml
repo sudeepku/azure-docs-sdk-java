@@ -1,0 +1,19 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.resources.fluent.inner.ResourceGroupListResultInner.value*
+fullName: com.azure.resourcemanager.resources.fluent.inner.ResourceGroupListResultInner.value
+name: value
+nameWithType: ResourceGroupListResultInner.value
+members:
+- uid: com.azure.resourcemanager.resources.fluent.inner.ResourceGroupListResultInner.value()
+  fullName: com.azure.resourcemanager.resources.fluent.inner.ResourceGroupListResultInner.value()
+  name: value()
+  nameWithType: ResourceGroupListResultInner.value()
+  summary: 'Get the value property: An array of resource groups.'
+  syntax: public List<ResourceGroupInner> value()
+  returns:
+    description: the value value.
+    type: <xref href="java.util.List?alt=java.util.List&text=List" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.resourcemanager.resources.fluent.inner.ResourceGroupInner?alt=com.azure.resourcemanager.resources.fluent.inner.ResourceGroupInner&text=ResourceGroupInner" data-throw-if-not-resolved="False" />&gt;
+type: method
+metadata: {}
+package: com.azure.resourcemanager.resources.fluent.inner
+artifact: com.azure.resourcemanager:azure-resourcemanager-resources:2.0.0-beta.2

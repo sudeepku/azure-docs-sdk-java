@@ -1,0 +1,23 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.authorization.fluent.inner.UserGetMemberGroupsResultInner.withValue*
+fullName: com.azure.resourcemanager.authorization.fluent.inner.UserGetMemberGroupsResultInner.withValue
+name: withValue
+nameWithType: UserGetMemberGroupsResultInner.withValue
+members:
+- uid: com.azure.resourcemanager.authorization.fluent.inner.UserGetMemberGroupsResultInner.withValue(java.util.List<java.lang.String>)
+  fullName: com.azure.resourcemanager.authorization.fluent.inner.UserGetMemberGroupsResultInner.withValue(List<String> value)
+  name: withValue(List<String> value)
+  nameWithType: UserGetMemberGroupsResultInner.withValue(List<String> value)
+  summary: 'Set the value property: A collection of group IDs of which the user is a member.'
+  parameters:
+  - description: the value value to set.
+    name: value
+    type: <xref href="java.util.List?alt=java.util.List&text=List" data-throw-if-not-resolved="False" />&lt;<xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />&gt;
+  syntax: public UserGetMemberGroupsResultInner withValue(List<String> value)
+  returns:
+    description: the UserGetMemberGroupsResultInner object itself.
+    type: <xref href="com.azure.resourcemanager.authorization.fluent.inner.UserGetMemberGroupsResultInner?alt=com.azure.resourcemanager.authorization.fluent.inner.UserGetMemberGroupsResultInner&text=UserGetMemberGroupsResultInner" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.resourcemanager.authorization.fluent.inner
+artifact: com.azure.resourcemanager:azure-resourcemanager-authorization:2.0.0-beta.2

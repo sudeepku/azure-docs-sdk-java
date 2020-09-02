@@ -1,0 +1,15 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.resources.fluentcore.arm.Region.US_WEST_CENTRAL
+fullName: com.azure.resourcemanager.resources.fluentcore.arm.Region.US_WEST_CENTRAL
+name: US_WEST_CENTRAL
+nameWithType: Region.US_WEST_CENTRAL
+members:
+- uid: com.azure.resourcemanager.resources.fluentcore.arm.Region.US_WEST_CENTRAL
+  fullName: com.azure.resourcemanager.resources.fluentcore.arm.Region.US_WEST_CENTRAL
+  name: US_WEST_CENTRAL
+  nameWithType: Region.US_WEST_CENTRAL
+  syntax: public static final Region US_WEST_CENTRAL
+type: field
+metadata: {}
+package: com.azure.resourcemanager.resources.fluentcore.arm
+artifact: com.azure.resourcemanager:azure-resourcemanager-resources:2.0.0-beta.2

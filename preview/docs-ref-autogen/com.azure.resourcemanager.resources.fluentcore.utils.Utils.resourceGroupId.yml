@@ -1,0 +1,22 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.resources.fluentcore.utils.Utils.resourceGroupId*
+fullName: com.azure.resourcemanager.resources.fluentcore.utils.Utils.resourceGroupId
+name: resourceGroupId
+nameWithType: Utils.resourceGroupId
+members:
+- uid: com.azure.resourcemanager.resources.fluentcore.utils.Utils.resourceGroupId(java.lang.String)
+  fullName: com.azure.resourcemanager.resources.fluentcore.utils.Utils.resourceGroupId(String id)
+  name: resourceGroupId(String id)
+  nameWithType: Utils.resourceGroupId(String id)
+  parameters:
+  - description: resource id
+    name: id
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  syntax: public static String resourceGroupId(String id)
+  returns:
+    description: resource group id for the resource id provided
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.resourcemanager.resources.fluentcore.utils
+artifact: com.azure.resourcemanager:azure-resourcemanager-resources:2.0.0-beta.2

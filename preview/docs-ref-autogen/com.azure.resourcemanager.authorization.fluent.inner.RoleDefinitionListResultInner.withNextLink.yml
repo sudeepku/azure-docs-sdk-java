@@ -1,0 +1,23 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.authorization.fluent.inner.RoleDefinitionListResultInner.withNextLink*
+fullName: com.azure.resourcemanager.authorization.fluent.inner.RoleDefinitionListResultInner.withNextLink
+name: withNextLink
+nameWithType: RoleDefinitionListResultInner.withNextLink
+members:
+- uid: com.azure.resourcemanager.authorization.fluent.inner.RoleDefinitionListResultInner.withNextLink(java.lang.String)
+  fullName: com.azure.resourcemanager.authorization.fluent.inner.RoleDefinitionListResultInner.withNextLink(String nextLink)
+  name: withNextLink(String nextLink)
+  nameWithType: RoleDefinitionListResultInner.withNextLink(String nextLink)
+  summary: 'Set the nextLink property: The URL to use for getting the next set of results.'
+  parameters:
+  - description: the nextLink value to set.
+    name: nextLink
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  syntax: public RoleDefinitionListResultInner withNextLink(String nextLink)
+  returns:
+    description: the RoleDefinitionListResultInner object itself.
+    type: <xref href="com.azure.resourcemanager.authorization.fluent.inner.RoleDefinitionListResultInner?alt=com.azure.resourcemanager.authorization.fluent.inner.RoleDefinitionListResultInner&text=RoleDefinitionListResultInner" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.resourcemanager.authorization.fluent.inner
+artifact: com.azure.resourcemanager:azure-resourcemanager-authorization:2.0.0-beta.2

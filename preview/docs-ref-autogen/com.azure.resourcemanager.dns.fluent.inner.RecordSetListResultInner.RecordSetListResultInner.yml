@@ -1,0 +1,15 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.dns.fluent.inner.RecordSetListResultInner.RecordSetListResultInner*
+fullName: com.azure.resourcemanager.dns.fluent.inner.RecordSetListResultInner.RecordSetListResultInner
+name: RecordSetListResultInner
+nameWithType: RecordSetListResultInner.RecordSetListResultInner
+members:
+- uid: com.azure.resourcemanager.dns.fluent.inner.RecordSetListResultInner.RecordSetListResultInner()
+  fullName: com.azure.resourcemanager.dns.fluent.inner.RecordSetListResultInner.RecordSetListResultInner()
+  name: RecordSetListResultInner()
+  nameWithType: RecordSetListResultInner.RecordSetListResultInner()
+  syntax: public RecordSetListResultInner()
+type: constructor
+metadata: {}
+package: com.azure.resourcemanager.dns.fluent.inner
+artifact: com.azure.resourcemanager:azure-resourcemanager-dns:2.0.0-beta.2

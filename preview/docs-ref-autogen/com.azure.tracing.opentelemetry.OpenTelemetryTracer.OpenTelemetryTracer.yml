@@ -1,0 +1,15 @@
+### YamlMime:JavaMember
+uid: com.azure.tracing.opentelemetry.OpenTelemetryTracer.OpenTelemetryTracer*
+fullName: com.azure.tracing.opentelemetry.OpenTelemetryTracer.OpenTelemetryTracer
+name: OpenTelemetryTracer
+nameWithType: OpenTelemetryTracer.OpenTelemetryTracer
+members:
+- uid: com.azure.tracing.opentelemetry.OpenTelemetryTracer.OpenTelemetryTracer()
+  fullName: com.azure.tracing.opentelemetry.OpenTelemetryTracer.OpenTelemetryTracer()
+  name: OpenTelemetryTracer()
+  nameWithType: OpenTelemetryTracer.OpenTelemetryTracer()
+  syntax: public OpenTelemetryTracer()
+type: constructor
+metadata: {}
+package: com.azure.tracing.opentelemetry
+artifact: com.azure:tracing-opentelemetry:1.0.0-preview.2

@@ -1,0 +1,49 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.appservice.fluent.WebAppsClient.listByResourceGroupSinglePageAsync*
+fullName: com.azure.resourcemanager.appservice.fluent.WebAppsClient.listByResourceGroupSinglePageAsync
+name: listByResourceGroupSinglePageAsync
+nameWithType: WebAppsClient.listByResourceGroupSinglePageAsync
+members:
+- uid: com.azure.resourcemanager.appservice.fluent.WebAppsClient.listByResourceGroupSinglePageAsync(java.lang.String,java.lang.Boolean)
+  fullName: com.azure.resourcemanager.appservice.fluent.WebAppsClient.listByResourceGroupSinglePageAsync(String resourceGroupName, Boolean includeSlots)
+  name: listByResourceGroupSinglePageAsync(String resourceGroupName, Boolean includeSlots)
+  nameWithType: WebAppsClient.listByResourceGroupSinglePageAsync(String resourceGroupName, Boolean includeSlots)
+  summary: Description for Gets all web, mobile, and API apps in the specified resource group.
+  parameters:
+  - description: Name of the resource group to which the resource belongs.
+    name: resourceGroupName
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  - description: |-
+      Specify &lt;strong&gt;true&lt;/strong&gt; to include deployment slots in results. The default
+           is false, which only gives you the production slot of all apps.
+    name: includeSlots
+    type: <xref href="java.lang.Boolean?alt=java.lang.Boolean&text=Boolean" data-throw-if-not-resolved="False" />
+  syntax: public Mono<PagedResponse<SiteInner>> listByResourceGroupSinglePageAsync(String resourceGroupName, Boolean includeSlots)
+  returns:
+    description: collection of App Service apps.
+    type: <xref href="reactor.core.publisher.Mono?alt=reactor.core.publisher.Mono&text=Mono" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.core.http.rest.PagedResponse?alt=com.azure.core.http.rest.PagedResponse&text=PagedResponse" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.resourcemanager.appservice.fluent.inner.SiteInner?alt=com.azure.resourcemanager.appservice.fluent.inner.SiteInner&text=SiteInner" data-throw-if-not-resolved="False" />&gt;&gt;
+- uid: com.azure.resourcemanager.appservice.fluent.WebAppsClient.listByResourceGroupSinglePageAsync(java.lang.String,java.lang.Boolean,com.azure.core.util.Context)
+  fullName: com.azure.resourcemanager.appservice.fluent.WebAppsClient.listByResourceGroupSinglePageAsync(String resourceGroupName, Boolean includeSlots, Context context)
+  name: listByResourceGroupSinglePageAsync(String resourceGroupName, Boolean includeSlots, Context context)
+  nameWithType: WebAppsClient.listByResourceGroupSinglePageAsync(String resourceGroupName, Boolean includeSlots, Context context)
+  summary: Description for Gets all web, mobile, and API apps in the specified resource group.
+  parameters:
+  - description: Name of the resource group to which the resource belongs.
+    name: resourceGroupName
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  - description: |-
+      Specify &lt;strong&gt;true&lt;/strong&gt; to include deployment slots in results. The default
+           is false, which only gives you the production slot of all apps.
+    name: includeSlots
+    type: <xref href="java.lang.Boolean?alt=java.lang.Boolean&text=Boolean" data-throw-if-not-resolved="False" />
+  - description: The context to associate with this operation.
+    name: context
+    type: <xref href="com.azure.core.util.Context?alt=com.azure.core.util.Context&text=Context" data-throw-if-not-resolved="False" />
+  syntax: public Mono<PagedResponse<SiteInner>> listByResourceGroupSinglePageAsync(String resourceGroupName, Boolean includeSlots, Context context)
+  returns:
+    description: collection of App Service apps.
+    type: <xref href="reactor.core.publisher.Mono?alt=reactor.core.publisher.Mono&text=Mono" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.core.http.rest.PagedResponse?alt=com.azure.core.http.rest.PagedResponse&text=PagedResponse" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.resourcemanager.appservice.fluent.inner.SiteInner?alt=com.azure.resourcemanager.appservice.fluent.inner.SiteInner&text=SiteInner" data-throw-if-not-resolved="False" />&gt;&gt;
+type: method
+metadata: {}
+package: com.azure.resourcemanager.appservice.fluent
+artifact: com.azure.resourcemanager:azure-resourcemanager-appservice:2.0.0-beta.2

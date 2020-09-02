@@ -1,0 +1,19 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.network.models.AzureAsyncOperationResult.error*
+fullName: com.azure.resourcemanager.network.models.AzureAsyncOperationResult.error
+name: error
+nameWithType: AzureAsyncOperationResult.error
+members:
+- uid: com.azure.resourcemanager.network.models.AzureAsyncOperationResult.error()
+  fullName: com.azure.resourcemanager.network.models.AzureAsyncOperationResult.error()
+  name: error()
+  nameWithType: AzureAsyncOperationResult.error()
+  summary: 'Get the error property: Details of the error occurred during specified asynchronous operation.'
+  syntax: public Error error()
+  returns:
+    description: the error value.
+    type: <xref href="com.azure.resourcemanager.network.models.Error?alt=com.azure.resourcemanager.network.models.Error&text=Error" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.resourcemanager.network.models
+artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.0.0-beta.2

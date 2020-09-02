@@ -1,0 +1,32 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.resources.fluent.PolicySetDefinitionsClient.listSinglePageAsync*
+fullName: com.azure.resourcemanager.resources.fluent.PolicySetDefinitionsClient.listSinglePageAsync
+name: listSinglePageAsync
+nameWithType: PolicySetDefinitionsClient.listSinglePageAsync
+members:
+- uid: com.azure.resourcemanager.resources.fluent.PolicySetDefinitionsClient.listSinglePageAsync()
+  fullName: com.azure.resourcemanager.resources.fluent.PolicySetDefinitionsClient.listSinglePageAsync()
+  name: listSinglePageAsync()
+  nameWithType: PolicySetDefinitionsClient.listSinglePageAsync()
+  summary: This operation retrieves a list of all the policy set definitions in the given subscription.
+  syntax: public Mono<PagedResponse<PolicySetDefinitionInner>> listSinglePageAsync()
+  returns:
+    description: list of policy set definitions.
+    type: <xref href="reactor.core.publisher.Mono?alt=reactor.core.publisher.Mono&text=Mono" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.core.http.rest.PagedResponse?alt=com.azure.core.http.rest.PagedResponse&text=PagedResponse" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.resourcemanager.resources.fluent.inner.PolicySetDefinitionInner?alt=com.azure.resourcemanager.resources.fluent.inner.PolicySetDefinitionInner&text=PolicySetDefinitionInner" data-throw-if-not-resolved="False" />&gt;&gt;
+- uid: com.azure.resourcemanager.resources.fluent.PolicySetDefinitionsClient.listSinglePageAsync(com.azure.core.util.Context)
+  fullName: com.azure.resourcemanager.resources.fluent.PolicySetDefinitionsClient.listSinglePageAsync(Context context)
+  name: listSinglePageAsync(Context context)
+  nameWithType: PolicySetDefinitionsClient.listSinglePageAsync(Context context)
+  summary: This operation retrieves a list of all the policy set definitions in the given subscription.
+  parameters:
+  - description: The context to associate with this operation.
+    name: context
+    type: <xref href="com.azure.core.util.Context?alt=com.azure.core.util.Context&text=Context" data-throw-if-not-resolved="False" />
+  syntax: public Mono<PagedResponse<PolicySetDefinitionInner>> listSinglePageAsync(Context context)
+  returns:
+    description: list of policy set definitions.
+    type: <xref href="reactor.core.publisher.Mono?alt=reactor.core.publisher.Mono&text=Mono" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.core.http.rest.PagedResponse?alt=com.azure.core.http.rest.PagedResponse&text=PagedResponse" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.resourcemanager.resources.fluent.inner.PolicySetDefinitionInner?alt=com.azure.resourcemanager.resources.fluent.inner.PolicySetDefinitionInner&text=PolicySetDefinitionInner" data-throw-if-not-resolved="False" />&gt;&gt;
+type: method
+metadata: {}
+package: com.azure.resourcemanager.resources.fluent
+artifact: com.azure.resourcemanager:azure-resourcemanager-resources:2.0.0-beta.2

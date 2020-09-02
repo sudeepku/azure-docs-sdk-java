@@ -1,0 +1,25 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.compute.fluent.inner.ImageListResultInner.withNextLink*
+fullName: com.azure.resourcemanager.compute.fluent.inner.ImageListResultInner.withNextLink
+name: withNextLink
+nameWithType: ImageListResultInner.withNextLink
+members:
+- uid: com.azure.resourcemanager.compute.fluent.inner.ImageListResultInner.withNextLink(java.lang.String)
+  fullName: com.azure.resourcemanager.compute.fluent.inner.ImageListResultInner.withNextLink(String nextLink)
+  name: withNextLink(String nextLink)
+  nameWithType: ImageListResultInner.withNextLink(String nextLink)
+  summary: |-
+    Set the nextLink property: The uri to fetch the next page of Images. Call ListNext() with this to fetch the next
+     page of Images.
+  parameters:
+  - description: the nextLink value to set.
+    name: nextLink
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  syntax: public ImageListResultInner withNextLink(String nextLink)
+  returns:
+    description: the ImageListResultInner object itself.
+    type: <xref href="com.azure.resourcemanager.compute.fluent.inner.ImageListResultInner?alt=com.azure.resourcemanager.compute.fluent.inner.ImageListResultInner&text=ImageListResultInner" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.resourcemanager.compute.fluent.inner
+artifact: com.azure.resourcemanager:azure-resourcemanager-compute:2.0.0-beta.2

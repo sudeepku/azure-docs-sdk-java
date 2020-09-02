@@ -1,0 +1,15 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.monitor.fluent.inner.LogProfileCollectionInner.LogProfileCollectionInner*
+fullName: com.azure.resourcemanager.monitor.fluent.inner.LogProfileCollectionInner.LogProfileCollectionInner
+name: LogProfileCollectionInner
+nameWithType: LogProfileCollectionInner.LogProfileCollectionInner
+members:
+- uid: com.azure.resourcemanager.monitor.fluent.inner.LogProfileCollectionInner.LogProfileCollectionInner()
+  fullName: com.azure.resourcemanager.monitor.fluent.inner.LogProfileCollectionInner.LogProfileCollectionInner()
+  name: LogProfileCollectionInner()
+  nameWithType: LogProfileCollectionInner.LogProfileCollectionInner()
+  syntax: public LogProfileCollectionInner()
+type: constructor
+metadata: {}
+package: com.azure.resourcemanager.monitor.fluent.inner
+artifact: com.azure.resourcemanager:azure-resourcemanager-monitor:2.0.0-beta.2

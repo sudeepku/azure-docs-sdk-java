@@ -1,0 +1,80 @@
+### YamlMime:JavaMember
+uid: com.azure.cosmos.implementation.guava25.base.Throwables.propagateIfPossible*
+fullName: com.azure.cosmos.implementation.guava25.base.Throwables.<X1,X2>propagateIfPossible
+name: <X1,X2>propagateIfPossible
+nameWithType: Throwables.<X1,X2>propagateIfPossible
+members:
+- uid: com.azure.cosmos.implementation.guava25.base.Throwables.<X1,X2>propagateIfPossible(java.lang.Throwable,java.lang.Class<X1>,java.lang.Class<X2>)
+  fullName: com.azure.cosmos.implementation.guava25.base.Throwables.<X1,X2>propagateIfPossible(Throwable throwable, Class<X1> declaredType1, Class<X2> declaredType2)
+  name: <X1,X2>propagateIfPossible(Throwable throwable, Class<X1> declaredType1, Class<X2> declaredType2)
+  nameWithType: Throwables.<X1,X2>propagateIfPossible(Throwable throwable, Class<X1> declaredType1, Class<X2> declaredType2)
+  summary: |-
+    Propagates <code>throwable</code> exactly as-is, if and only if it is an instance of <xref uid="RuntimeException" data-throw-if-not-resolved="false">RuntimeException</xref>, <xref uid="Error" data-throw-if-not-resolved="false">Error</xref>, <code>declaredType1</code>, or <code>declaredType2</code>. In the
+     unlikely case that you have three or more declared checked exception types, you can handle them
+     all by invoking these methods repeatedly. See usage example in <xref uid="#propagateIfPossible(Throwable, Class)" data-throw-if-not-resolved="false">#propagateIfPossible(Throwable, Class)</xref>.
+  parameters:
+  - description: the Throwable to possibly propagate
+    name: throwable
+    type: <xref href="java.lang.Throwable?alt=java.lang.Throwable&text=Throwable" data-throw-if-not-resolved="False" />
+  - description: any checked exception type declared by the calling method
+    name: declaredType1
+    type: <xref href="java.lang.Class?alt=java.lang.Class&text=Class" data-throw-if-not-resolved="False" />&lt;<xref href="X1?alt=X1&text=X1" data-throw-if-not-resolved="False" />&gt;
+  - description: any other checked exception type declared by the calling method
+    name: declaredType2
+    type: <xref href="java.lang.Class?alt=java.lang.Class&text=Class" data-throw-if-not-resolved="False" />&lt;<xref href="X2?alt=X2&text=X2" data-throw-if-not-resolved="False" />&gt;
+  syntax: public static void <X1,X2>propagateIfPossible(Throwable throwable, Class<X1> declaredType1, Class<X2> declaredType2)
+  exceptions:
+  - type: <xref href="X1?alt=X1&text=X1" data-throw-if-not-resolved="False" />
+  - type: <xref href="X2?alt=X2&text=X2" data-throw-if-not-resolved="False" />
+- uid: com.azure.cosmos.implementation.guava25.base.Throwables.<X>propagateIfPossible(java.lang.Throwable,java.lang.Class<X>)
+  fullName: com.azure.cosmos.implementation.guava25.base.Throwables.<X>propagateIfPossible(Throwable throwable, Class<X> declaredType)
+  name: <X>propagateIfPossible(Throwable throwable, Class<X> declaredType)
+  nameWithType: Throwables.<X>propagateIfPossible(Throwable throwable, Class<X> declaredType)
+  summary: |-
+    Propagates <code>throwable</code> exactly as-is, if and only if it is an instance of <xref uid="RuntimeException" data-throw-if-not-resolved="false">RuntimeException</xref>, <xref uid="Error" data-throw-if-not-resolved="false">Error</xref>, or <code>declaredType</code>. Example usage:
+
+     <pre>
+     try {
+       someMethodThatCouldThrowAnything();
+     } catch (IKnowWhatToDoWithThisException e) {
+       handle(e);
+     } catch (Throwable t) {
+       Throwables.propagateIfPossible(t, OtherException.class);
+       throw new RuntimeException("unexpected", t);
+     }
+     </pre>
+  parameters:
+  - description: the Throwable to possibly propagate
+    name: throwable
+    type: <xref href="java.lang.Throwable?alt=java.lang.Throwable&text=Throwable" data-throw-if-not-resolved="False" />
+  - description: the single checked exception type declared by the calling method
+    name: declaredType
+    type: <xref href="java.lang.Class?alt=java.lang.Class&text=Class" data-throw-if-not-resolved="False" />&lt;<xref href="X?alt=X&text=X" data-throw-if-not-resolved="False" />&gt;
+  syntax: public static void <X>propagateIfPossible(Throwable throwable, Class<X> declaredType)
+  exceptions:
+  - type: <xref href="X?alt=X&text=X" data-throw-if-not-resolved="False" />
+- uid: com.azure.cosmos.implementation.guava25.base.Throwables.propagateIfPossible(java.lang.Throwable)
+  fullName: com.azure.cosmos.implementation.guava25.base.Throwables.propagateIfPossible(Throwable throwable)
+  name: propagateIfPossible(Throwable throwable)
+  nameWithType: Throwables.propagateIfPossible(Throwable throwable)
+  summary: |-
+    Propagates <code>throwable</code> exactly as-is, if and only if it is an instance of <xref uid="RuntimeException" data-throw-if-not-resolved="false">RuntimeException</xref> or <xref uid="Error" data-throw-if-not-resolved="false">Error</xref>. Example usage:
+
+     <pre>
+     try {
+       someMethodThatCouldThrowAnything();
+     } catch (IKnowWhatToDoWithThisException e) {
+       handle(e);
+     } catch (Throwable t) {
+       Throwables.propagateIfPossible(t);
+       throw new RuntimeException("unexpected", t);
+     }
+     </pre>
+  parameters:
+  - name: throwable
+    type: <xref href="java.lang.Throwable?alt=java.lang.Throwable&text=Throwable" data-throw-if-not-resolved="False" />
+  syntax: public static void propagateIfPossible(Throwable throwable)
+type: method
+metadata: {}
+package: com.azure.cosmos.implementation.guava25.base
+artifact: com.azure:azure-cosmos:4.3.2-beta.2

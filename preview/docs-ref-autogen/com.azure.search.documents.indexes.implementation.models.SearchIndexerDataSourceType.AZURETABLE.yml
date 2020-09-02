@@ -1,0 +1,16 @@
+### YamlMime:JavaMember
+uid: com.azure.search.documents.indexes.implementation.models.SearchIndexerDataSourceType.AZURETABLE
+fullName: com.azure.search.documents.indexes.implementation.models.SearchIndexerDataSourceType.AZURETABLE
+name: AZURETABLE
+nameWithType: SearchIndexerDataSourceType.AZURETABLE
+members:
+- uid: com.azure.search.documents.indexes.implementation.models.SearchIndexerDataSourceType.AZURETABLE
+  fullName: com.azure.search.documents.indexes.implementation.models.SearchIndexerDataSourceType.AZURETABLE
+  name: AZURETABLE
+  nameWithType: SearchIndexerDataSourceType.AZURETABLE
+  summary: Static value azuretable for SearchIndexerDataSourceType.
+  syntax: public static final SearchIndexerDataSourceType AZURETABLE
+type: field
+metadata: {}
+package: com.azure.search.documents.indexes.implementation.models
+artifact: com.azure:azure-search-documents:11.1.0-beta.1

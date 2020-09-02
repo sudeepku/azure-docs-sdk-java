@@ -1,0 +1,26 @@
+### YamlMime:JavaMember
+uid: com.azure.data.schemaregistry.AbstractDataSerializer.serializeImpl*
+fullName: com.azure.data.schemaregistry.AbstractDataSerializer.serializeImpl
+name: serializeImpl
+nameWithType: AbstractDataSerializer.serializeImpl
+members:
+- uid: com.azure.data.schemaregistry.AbstractDataSerializer.serializeImpl(java.lang.Object)
+  fullName: com.azure.data.schemaregistry.AbstractDataSerializer.serializeImpl(Object object)
+  name: serializeImpl(Object object)
+  nameWithType: AbstractDataSerializer.serializeImpl(Object object)
+  summary: |-
+    Core implementation of registry-based serialization.
+     ID for data schema is fetched from the registry and prefixed to the encoded byte array
+     representation of the object param.
+  parameters:
+  - description: object to be serialized
+    name: object
+    type: <xref href="java.lang.Object?alt=java.lang.Object&text=Object" data-throw-if-not-resolved="False" />
+  syntax: protected byte[] serializeImpl(Object object)
+  returns:
+    description: byte array containing encoded bytes with prefixed schema ID
+    type: <xref href="byte?alt=byte&text=byte" data-throw-if-not-resolved="False" />[]
+type: method
+metadata: {}
+package: com.azure.data.schemaregistry
+artifact: com.azure:azure-data-schemaregistry:1.0.0-beta.1

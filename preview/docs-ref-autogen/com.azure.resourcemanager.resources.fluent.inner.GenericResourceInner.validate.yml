@@ -1,0 +1,16 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.resources.fluent.inner.GenericResourceInner.validate*
+fullName: com.azure.resourcemanager.resources.fluent.inner.GenericResourceInner.validate
+name: validate
+nameWithType: GenericResourceInner.validate
+members:
+- uid: com.azure.resourcemanager.resources.fluent.inner.GenericResourceInner.validate()
+  fullName: com.azure.resourcemanager.resources.fluent.inner.GenericResourceInner.validate()
+  name: validate()
+  nameWithType: GenericResourceInner.validate()
+  summary: Validates the instance.
+  syntax: public void validate()
+type: method
+metadata: {}
+package: com.azure.resourcemanager.resources.fluent.inner
+artifact: com.azure.resourcemanager:azure-resourcemanager-resources:2.0.0-beta.2

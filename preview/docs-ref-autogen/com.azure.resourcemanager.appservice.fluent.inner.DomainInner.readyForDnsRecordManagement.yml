@@ -1,0 +1,22 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.appservice.fluent.inner.DomainInner.readyForDnsRecordManagement*
+fullName: com.azure.resourcemanager.appservice.fluent.inner.DomainInner.readyForDnsRecordManagement
+name: readyForDnsRecordManagement
+nameWithType: DomainInner.readyForDnsRecordManagement
+members:
+- uid: com.azure.resourcemanager.appservice.fluent.inner.DomainInner.readyForDnsRecordManagement()
+  fullName: com.azure.resourcemanager.appservice.fluent.inner.DomainInner.readyForDnsRecordManagement()
+  name: readyForDnsRecordManagement()
+  nameWithType: DomainInner.readyForDnsRecordManagement()
+  summary: |-
+    Get the readyForDnsRecordManagement property: &lt;code&gt;true&lt;/code&gt; if Azure can assign this domain to
+     App Service apps; otherwise, &lt;code&gt;false&lt;/code&gt;. This value will be &lt;code&gt;true&lt;/code&gt; if
+     domain registration status is active and it is hosted on name servers Azure has programmatic access to.
+  syntax: public Boolean readyForDnsRecordManagement()
+  returns:
+    description: the readyForDnsRecordManagement value.
+    type: <xref href="java.lang.Boolean?alt=java.lang.Boolean&text=Boolean" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.resourcemanager.appservice.fluent.inner
+artifact: com.azure.resourcemanager:azure-resourcemanager-appservice:2.0.0-beta.2

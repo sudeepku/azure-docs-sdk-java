@@ -1,0 +1,15 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.appservice.fluent.inner.ContinuousWebJobCollectionInner.ContinuousWebJobCollectionInner*
+fullName: com.azure.resourcemanager.appservice.fluent.inner.ContinuousWebJobCollectionInner.ContinuousWebJobCollectionInner
+name: ContinuousWebJobCollectionInner
+nameWithType: ContinuousWebJobCollectionInner.ContinuousWebJobCollectionInner
+members:
+- uid: com.azure.resourcemanager.appservice.fluent.inner.ContinuousWebJobCollectionInner.ContinuousWebJobCollectionInner()
+  fullName: com.azure.resourcemanager.appservice.fluent.inner.ContinuousWebJobCollectionInner.ContinuousWebJobCollectionInner()
+  name: ContinuousWebJobCollectionInner()
+  nameWithType: ContinuousWebJobCollectionInner.ContinuousWebJobCollectionInner()
+  syntax: public ContinuousWebJobCollectionInner()
+type: constructor
+metadata: {}
+package: com.azure.resourcemanager.appservice.fluent.inner
+artifact: com.azure.resourcemanager:azure-resourcemanager-appservice:2.0.0-beta.2

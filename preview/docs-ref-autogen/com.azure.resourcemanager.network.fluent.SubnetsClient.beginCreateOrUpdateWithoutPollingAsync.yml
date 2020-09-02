@@ -1,0 +1,57 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.network.fluent.SubnetsClient.beginCreateOrUpdateWithoutPollingAsync*
+fullName: com.azure.resourcemanager.network.fluent.SubnetsClient.beginCreateOrUpdateWithoutPollingAsync
+name: beginCreateOrUpdateWithoutPollingAsync
+nameWithType: SubnetsClient.beginCreateOrUpdateWithoutPollingAsync
+members:
+- uid: com.azure.resourcemanager.network.fluent.SubnetsClient.beginCreateOrUpdateWithoutPollingAsync(java.lang.String,java.lang.String,java.lang.String,com.azure.resourcemanager.network.fluent.inner.SubnetInner)
+  fullName: com.azure.resourcemanager.network.fluent.SubnetsClient.beginCreateOrUpdateWithoutPollingAsync(String resourceGroupName, String virtualNetworkName, String subnetName, SubnetInner subnetParameters)
+  name: beginCreateOrUpdateWithoutPollingAsync(String resourceGroupName, String virtualNetworkName, String subnetName, SubnetInner subnetParameters)
+  nameWithType: SubnetsClient.beginCreateOrUpdateWithoutPollingAsync(String resourceGroupName, String virtualNetworkName, String subnetName, SubnetInner subnetParameters)
+  summary: Creates or updates a subnet in the specified virtual network.
+  parameters:
+  - description: The name of the resource group.
+    name: resourceGroupName
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  - description: The name of the virtual network.
+    name: virtualNetworkName
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  - description: The name of the subnet.
+    name: subnetName
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  - description: Subnet in a virtual network resource.
+    name: subnetParameters
+    type: <xref href="com.azure.resourcemanager.network.fluent.inner.SubnetInner?alt=com.azure.resourcemanager.network.fluent.inner.SubnetInner&text=SubnetInner" data-throw-if-not-resolved="False" />
+  syntax: public Mono<SubnetInner> beginCreateOrUpdateWithoutPollingAsync(String resourceGroupName, String virtualNetworkName, String subnetName, SubnetInner subnetParameters)
+  returns:
+    description: subnet in a virtual network resource.
+    type: <xref href="reactor.core.publisher.Mono?alt=reactor.core.publisher.Mono&text=Mono" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.resourcemanager.network.fluent.inner.SubnetInner?alt=com.azure.resourcemanager.network.fluent.inner.SubnetInner&text=SubnetInner" data-throw-if-not-resolved="False" />&gt;
+- uid: com.azure.resourcemanager.network.fluent.SubnetsClient.beginCreateOrUpdateWithoutPollingAsync(java.lang.String,java.lang.String,java.lang.String,com.azure.resourcemanager.network.fluent.inner.SubnetInner,com.azure.core.util.Context)
+  fullName: com.azure.resourcemanager.network.fluent.SubnetsClient.beginCreateOrUpdateWithoutPollingAsync(String resourceGroupName, String virtualNetworkName, String subnetName, SubnetInner subnetParameters, Context context)
+  name: beginCreateOrUpdateWithoutPollingAsync(String resourceGroupName, String virtualNetworkName, String subnetName, SubnetInner subnetParameters, Context context)
+  nameWithType: SubnetsClient.beginCreateOrUpdateWithoutPollingAsync(String resourceGroupName, String virtualNetworkName, String subnetName, SubnetInner subnetParameters, Context context)
+  summary: Creates or updates a subnet in the specified virtual network.
+  parameters:
+  - description: The name of the resource group.
+    name: resourceGroupName
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  - description: The name of the virtual network.
+    name: virtualNetworkName
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  - description: The name of the subnet.
+    name: subnetName
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  - description: Subnet in a virtual network resource.
+    name: subnetParameters
+    type: <xref href="com.azure.resourcemanager.network.fluent.inner.SubnetInner?alt=com.azure.resourcemanager.network.fluent.inner.SubnetInner&text=SubnetInner" data-throw-if-not-resolved="False" />
+  - description: The context to associate with this operation.
+    name: context
+    type: <xref href="com.azure.core.util.Context?alt=com.azure.core.util.Context&text=Context" data-throw-if-not-resolved="False" />
+  syntax: public Mono<SubnetInner> beginCreateOrUpdateWithoutPollingAsync(String resourceGroupName, String virtualNetworkName, String subnetName, SubnetInner subnetParameters, Context context)
+  returns:
+    description: subnet in a virtual network resource.
+    type: <xref href="reactor.core.publisher.Mono?alt=reactor.core.publisher.Mono&text=Mono" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.resourcemanager.network.fluent.inner.SubnetInner?alt=com.azure.resourcemanager.network.fluent.inner.SubnetInner&text=SubnetInner" data-throw-if-not-resolved="False" />&gt;
+type: method
+metadata: {}
+package: com.azure.resourcemanager.network.fluent
+artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.0.0-beta.2

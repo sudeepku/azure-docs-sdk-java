@@ -1,0 +1,29 @@
+### YamlMime:JavaMember
+uid: com.azure.data.schemaregistry.client.SchemaRegistryClient.deleteSchemaVersion*
+fullName: com.azure.data.schemaregistry.client.SchemaRegistryClient.deleteSchemaVersion
+name: deleteSchemaVersion
+nameWithType: SchemaRegistryClient.deleteSchemaVersion
+members:
+- uid: com.azure.data.schemaregistry.client.SchemaRegistryClient.deleteSchemaVersion(java.lang.String,java.lang.String,int)
+  fullName: com.azure.data.schemaregistry.client.SchemaRegistryClient.deleteSchemaVersion(String schemaGroup, String schemaName, int version)
+  name: deleteSchemaVersion(String schemaGroup, String schemaName, int version)
+  nameWithType: SchemaRegistryClient.deleteSchemaVersion(String schemaGroup, String schemaName, int version)
+  summary: Not currently implemented.
+  parameters:
+  - description: schema group name
+    name: schemaGroup
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  - description: schema name
+    name: schemaName
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  - description: schema version
+    name: version
+    type: <xref href="int?alt=int&text=int" data-throw-if-not-resolved="False" />
+  syntax: public abstract String deleteSchemaVersion(String schemaGroup, String schemaName, int version)
+  returns:
+    description: GUID of delete schema
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.data.schemaregistry.client
+artifact: com.azure:azure-data-schemaregistry:1.0.0-beta.1

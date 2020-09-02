@@ -1,0 +1,23 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.network.fluent.inner.AvailableDelegationsResultInner.withValue*
+fullName: com.azure.resourcemanager.network.fluent.inner.AvailableDelegationsResultInner.withValue
+name: withValue
+nameWithType: AvailableDelegationsResultInner.withValue
+members:
+- uid: com.azure.resourcemanager.network.fluent.inner.AvailableDelegationsResultInner.withValue(java.util.List<com.azure.resourcemanager.network.fluent.inner.AvailableDelegationInner>)
+  fullName: com.azure.resourcemanager.network.fluent.inner.AvailableDelegationsResultInner.withValue(List<AvailableDelegationInner> value)
+  name: withValue(List<AvailableDelegationInner> value)
+  nameWithType: AvailableDelegationsResultInner.withValue(List<AvailableDelegationInner> value)
+  summary: 'Set the value property: An array of available delegations.'
+  parameters:
+  - description: the value value to set.
+    name: value
+    type: <xref href="java.util.List?alt=java.util.List&text=List" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.resourcemanager.network.fluent.inner.AvailableDelegationInner?alt=com.azure.resourcemanager.network.fluent.inner.AvailableDelegationInner&text=AvailableDelegationInner" data-throw-if-not-resolved="False" />&gt;
+  syntax: public AvailableDelegationsResultInner withValue(List<AvailableDelegationInner> value)
+  returns:
+    description: the AvailableDelegationsResultInner object itself.
+    type: <xref href="com.azure.resourcemanager.network.fluent.inner.AvailableDelegationsResultInner?alt=com.azure.resourcemanager.network.fluent.inner.AvailableDelegationsResultInner&text=AvailableDelegationsResultInner" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.resourcemanager.network.fluent.inner
+artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.0.0-beta.2

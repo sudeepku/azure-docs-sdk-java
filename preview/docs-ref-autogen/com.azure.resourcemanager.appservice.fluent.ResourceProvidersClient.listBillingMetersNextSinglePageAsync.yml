@@ -1,0 +1,39 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.appservice.fluent.ResourceProvidersClient.listBillingMetersNextSinglePageAsync*
+fullName: com.azure.resourcemanager.appservice.fluent.ResourceProvidersClient.listBillingMetersNextSinglePageAsync
+name: listBillingMetersNextSinglePageAsync
+nameWithType: ResourceProvidersClient.listBillingMetersNextSinglePageAsync
+members:
+- uid: com.azure.resourcemanager.appservice.fluent.ResourceProvidersClient.listBillingMetersNextSinglePageAsync(java.lang.String)
+  fullName: com.azure.resourcemanager.appservice.fluent.ResourceProvidersClient.listBillingMetersNextSinglePageAsync(String nextLink)
+  name: listBillingMetersNextSinglePageAsync(String nextLink)
+  nameWithType: ResourceProvidersClient.listBillingMetersNextSinglePageAsync(String nextLink)
+  summary: Get the next page of items.
+  parameters:
+  - description: The nextLink parameter.
+    name: nextLink
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  syntax: public Mono<PagedResponse<BillingMeterInner>> listBillingMetersNextSinglePageAsync(String nextLink)
+  returns:
+    description: collection of Billing Meters.
+    type: <xref href="reactor.core.publisher.Mono?alt=reactor.core.publisher.Mono&text=Mono" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.core.http.rest.PagedResponse?alt=com.azure.core.http.rest.PagedResponse&text=PagedResponse" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.resourcemanager.appservice.fluent.inner.BillingMeterInner?alt=com.azure.resourcemanager.appservice.fluent.inner.BillingMeterInner&text=BillingMeterInner" data-throw-if-not-resolved="False" />&gt;&gt;
+- uid: com.azure.resourcemanager.appservice.fluent.ResourceProvidersClient.listBillingMetersNextSinglePageAsync(java.lang.String,com.azure.core.util.Context)
+  fullName: com.azure.resourcemanager.appservice.fluent.ResourceProvidersClient.listBillingMetersNextSinglePageAsync(String nextLink, Context context)
+  name: listBillingMetersNextSinglePageAsync(String nextLink, Context context)
+  nameWithType: ResourceProvidersClient.listBillingMetersNextSinglePageAsync(String nextLink, Context context)
+  summary: Get the next page of items.
+  parameters:
+  - description: The nextLink parameter.
+    name: nextLink
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  - description: The context to associate with this operation.
+    name: context
+    type: <xref href="com.azure.core.util.Context?alt=com.azure.core.util.Context&text=Context" data-throw-if-not-resolved="False" />
+  syntax: public Mono<PagedResponse<BillingMeterInner>> listBillingMetersNextSinglePageAsync(String nextLink, Context context)
+  returns:
+    description: collection of Billing Meters.
+    type: <xref href="reactor.core.publisher.Mono?alt=reactor.core.publisher.Mono&text=Mono" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.core.http.rest.PagedResponse?alt=com.azure.core.http.rest.PagedResponse&text=PagedResponse" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.resourcemanager.appservice.fluent.inner.BillingMeterInner?alt=com.azure.resourcemanager.appservice.fluent.inner.BillingMeterInner&text=BillingMeterInner" data-throw-if-not-resolved="False" />&gt;&gt;
+type: method
+metadata: {}
+package: com.azure.resourcemanager.appservice.fluent
+artifact: com.azure.resourcemanager:azure-resourcemanager-appservice:2.0.0-beta.2

@@ -1,0 +1,79 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.storage.fluent.StorageAccountsClient.listKeys*
+fullName: com.azure.resourcemanager.storage.fluent.StorageAccountsClient.listKeys
+name: listKeys
+nameWithType: StorageAccountsClient.listKeys
+members:
+- uid: com.azure.resourcemanager.storage.fluent.StorageAccountsClient.listKeys(java.lang.String,java.lang.String)
+  fullName: com.azure.resourcemanager.storage.fluent.StorageAccountsClient.listKeys(String resourceGroupName, String accountName)
+  name: listKeys(String resourceGroupName, String accountName)
+  nameWithType: StorageAccountsClient.listKeys(String resourceGroupName, String accountName)
+  summary: Lists the access keys or Kerberos keys (if active directory enabled) for the specified storage account.
+  parameters:
+  - description: |-
+      The name of the resource group within the user's subscription. The name is case
+           insensitive.
+    name: resourceGroupName
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  - description: |-
+      The name of the storage account within the specified resource group. Storage account names
+           must be between 3 and 24 characters in length and use numbers and lower-case letters only.
+    name: accountName
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  syntax: public StorageAccountListKeysResultInner listKeys(String resourceGroupName, String accountName)
+  returns:
+    description: the response from the ListKeys operation.
+    type: <xref href="com.azure.resourcemanager.storage.fluent.inner.StorageAccountListKeysResultInner?alt=com.azure.resourcemanager.storage.fluent.inner.StorageAccountListKeysResultInner&text=StorageAccountListKeysResultInner" data-throw-if-not-resolved="False" />
+- uid: com.azure.resourcemanager.storage.fluent.StorageAccountsClient.listKeys(java.lang.String,java.lang.String,com.azure.resourcemanager.storage.models.ListKeyExpand)
+  fullName: com.azure.resourcemanager.storage.fluent.StorageAccountsClient.listKeys(String resourceGroupName, String accountName, ListKeyExpand expand)
+  name: listKeys(String resourceGroupName, String accountName, ListKeyExpand expand)
+  nameWithType: StorageAccountsClient.listKeys(String resourceGroupName, String accountName, ListKeyExpand expand)
+  summary: Lists the access keys or Kerberos keys (if active directory enabled) for the specified storage account.
+  parameters:
+  - description: |-
+      The name of the resource group within the user's subscription. The name is case
+           insensitive.
+    name: resourceGroupName
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  - description: |-
+      The name of the storage account within the specified resource group. Storage account names
+           must be between 3 and 24 characters in length and use numbers and lower-case letters only.
+    name: accountName
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  - description: Specifies type of the key to be listed. Possible value is kerb.
+    name: expand
+    type: <xref href="com.azure.resourcemanager.storage.models.ListKeyExpand?alt=com.azure.resourcemanager.storage.models.ListKeyExpand&text=ListKeyExpand" data-throw-if-not-resolved="False" />
+  syntax: public StorageAccountListKeysResultInner listKeys(String resourceGroupName, String accountName, ListKeyExpand expand)
+  returns:
+    description: the response from the ListKeys operation.
+    type: <xref href="com.azure.resourcemanager.storage.fluent.inner.StorageAccountListKeysResultInner?alt=com.azure.resourcemanager.storage.fluent.inner.StorageAccountListKeysResultInner&text=StorageAccountListKeysResultInner" data-throw-if-not-resolved="False" />
+- uid: com.azure.resourcemanager.storage.fluent.StorageAccountsClient.listKeys(java.lang.String,java.lang.String,com.azure.resourcemanager.storage.models.ListKeyExpand,com.azure.core.util.Context)
+  fullName: com.azure.resourcemanager.storage.fluent.StorageAccountsClient.listKeys(String resourceGroupName, String accountName, ListKeyExpand expand, Context context)
+  name: listKeys(String resourceGroupName, String accountName, ListKeyExpand expand, Context context)
+  nameWithType: StorageAccountsClient.listKeys(String resourceGroupName, String accountName, ListKeyExpand expand, Context context)
+  summary: Lists the access keys or Kerberos keys (if active directory enabled) for the specified storage account.
+  parameters:
+  - description: |-
+      The name of the resource group within the user's subscription. The name is case
+           insensitive.
+    name: resourceGroupName
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  - description: |-
+      The name of the storage account within the specified resource group. Storage account names
+           must be between 3 and 24 characters in length and use numbers and lower-case letters only.
+    name: accountName
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  - description: Specifies type of the key to be listed. Possible value is kerb.
+    name: expand
+    type: <xref href="com.azure.resourcemanager.storage.models.ListKeyExpand?alt=com.azure.resourcemanager.storage.models.ListKeyExpand&text=ListKeyExpand" data-throw-if-not-resolved="False" />
+  - description: The context to associate with this operation.
+    name: context
+    type: <xref href="com.azure.core.util.Context?alt=com.azure.core.util.Context&text=Context" data-throw-if-not-resolved="False" />
+  syntax: public StorageAccountListKeysResultInner listKeys(String resourceGroupName, String accountName, ListKeyExpand expand, Context context)
+  returns:
+    description: the response from the ListKeys operation.
+    type: <xref href="com.azure.resourcemanager.storage.fluent.inner.StorageAccountListKeysResultInner?alt=com.azure.resourcemanager.storage.fluent.inner.StorageAccountListKeysResultInner&text=StorageAccountListKeysResultInner" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.resourcemanager.storage.fluent
+artifact: com.azure.resourcemanager:azure-resourcemanager-storage:2.0.0-beta.2

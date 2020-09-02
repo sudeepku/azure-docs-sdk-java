@@ -1,0 +1,23 @@
+### YamlMime:JavaMember
+uid: com.azure.messaging.servicebus.implementation.models.CorrelationFilter.setMessageId*
+fullName: com.azure.messaging.servicebus.implementation.models.CorrelationFilter.setMessageId
+name: setMessageId
+nameWithType: CorrelationFilter.setMessageId
+members:
+- uid: com.azure.messaging.servicebus.implementation.models.CorrelationFilter.setMessageId(java.lang.String)
+  fullName: com.azure.messaging.servicebus.implementation.models.CorrelationFilter.setMessageId(String messageId)
+  name: setMessageId(String messageId)
+  nameWithType: CorrelationFilter.setMessageId(String messageId)
+  summary: 'Set the messageId property: The MessageId property.'
+  parameters:
+  - description: the messageId value to set.
+    name: messageId
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  syntax: public CorrelationFilter setMessageId(String messageId)
+  returns:
+    description: the CorrelationFilter object itself.
+    type: <xref href="com.azure.messaging.servicebus.implementation.models.CorrelationFilter?alt=com.azure.messaging.servicebus.implementation.models.CorrelationFilter&text=CorrelationFilter" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.messaging.servicebus.implementation.models
+artifact: com.azure:azure-messaging-servicebus:7.0.0-beta.5

@@ -1,0 +1,25 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.network.models.ApplicationGatewayTrustedRootCertificate.withProvisioningState*
+fullName: com.azure.resourcemanager.network.models.ApplicationGatewayTrustedRootCertificate.withProvisioningState
+name: withProvisioningState
+nameWithType: ApplicationGatewayTrustedRootCertificate.withProvisioningState
+members:
+- uid: com.azure.resourcemanager.network.models.ApplicationGatewayTrustedRootCertificate.withProvisioningState(java.lang.String)
+  fullName: com.azure.resourcemanager.network.models.ApplicationGatewayTrustedRootCertificate.withProvisioningState(String provisioningState)
+  name: withProvisioningState(String provisioningState)
+  nameWithType: ApplicationGatewayTrustedRootCertificate.withProvisioningState(String provisioningState)
+  summary: |-
+    Set the provisioningState property: Provisioning state of the trusted root certificate resource. Possible values
+     are: 'Updating', 'Deleting', and 'Failed'.
+  parameters:
+  - description: the provisioningState value to set.
+    name: provisioningState
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  syntax: public ApplicationGatewayTrustedRootCertificate withProvisioningState(String provisioningState)
+  returns:
+    description: the ApplicationGatewayTrustedRootCertificate object itself.
+    type: <xref href="com.azure.resourcemanager.network.models.ApplicationGatewayTrustedRootCertificate?alt=com.azure.resourcemanager.network.models.ApplicationGatewayTrustedRootCertificate&text=ApplicationGatewayTrustedRootCertificate" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.resourcemanager.network.models
+artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.0.0-beta.2

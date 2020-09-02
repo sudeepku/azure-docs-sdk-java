@@ -1,0 +1,22 @@
+### YamlMime:JavaMember
+uid: com.azure.cosmos.implementation.guava25.collect.Ordering.nullsLast*
+fullName: com.azure.cosmos.implementation.guava25.collect.Ordering<T>.<S>nullsLast
+name: <S>nullsLast
+nameWithType: Ordering<T>.<S>nullsLast
+members:
+- uid: com.azure.cosmos.implementation.guava25.collect.Ordering.<S>nullsLast()
+  fullName: com.azure.cosmos.implementation.guava25.collect.Ordering<T>.<S>nullsLast()
+  name: <S>nullsLast()
+  nameWithType: Ordering<T>.<S>nullsLast()
+  summary: |-
+    Returns an ordering that treats <code>null</code> as greater than all other values and uses this
+     ordering to compare non-null values.
+
+     <p><b>Java 8 users:</b> Use <code>Comparator.nullsLast(thisComparator)</code> instead.
+  syntax: public Ordering<S> <S>nullsLast()
+  returns:
+    type: <xref href="com.azure.cosmos.implementation.guava25.collect.Ordering?alt=com.azure.cosmos.implementation.guava25.collect.Ordering&text=Ordering" data-throw-if-not-resolved="False" />&lt;<xref href="S?alt=S&text=S" data-throw-if-not-resolved="False" />&gt;
+type: method
+metadata: {}
+package: com.azure.cosmos.implementation.guava25.collect
+artifact: com.azure:azure-cosmos:4.3.2-beta.2

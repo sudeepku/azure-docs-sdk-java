@@ -1,0 +1,16 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.appservice.models.RuntimeStack.NETCORE_V2_0
+fullName: com.azure.resourcemanager.appservice.models.RuntimeStack.NETCORE_V2_0
+name: NETCORE_V2_0
+nameWithType: RuntimeStack.NETCORE_V2_0
+members:
+- uid: com.azure.resourcemanager.appservice.models.RuntimeStack.NETCORE_V2_0
+  fullName: com.azure.resourcemanager.appservice.models.RuntimeStack.NETCORE_V2_0
+  name: NETCORE_V2_0
+  nameWithType: RuntimeStack.NETCORE_V2_0
+  summary: .NET Core v2.0.
+  syntax: public static final RuntimeStack NETCORE_V2_0
+type: field
+metadata: {}
+package: com.azure.resourcemanager.appservice.models
+artifact: com.azure.resourcemanager:azure-resourcemanager-appservice:2.0.0-beta.2

@@ -1,0 +1,31 @@
+### YamlMime:JavaMember
+uid: com.azure.cosmos.implementation.guava25.base.Converter.equals*
+fullName: com.azure.cosmos.implementation.guava25.base.Converter<A,B>.equals
+name: equals
+nameWithType: Converter<A,B>.equals
+members:
+- uid: com.azure.cosmos.implementation.guava25.base.Converter.equals(java.lang.Object)
+  fullName: com.azure.cosmos.implementation.guava25.base.Converter<A,B>.equals(Object object)
+  name: equals(Object object)
+  nameWithType: Converter<A,B>.equals(Object object)
+  summary: |-
+    Indicates whether another object is equal to this converter.
+
+     <p>Most implementations will have no reason to override the behavior of <xref uid="Object#equals" data-throw-if-not-resolved="false">Object#equals</xref>.
+     However, an implementation may also choose to return <code>true</code> whenever <code>object</code> is a
+     <xref uid="Converter" data-throw-if-not-resolved="false">Converter</xref> that it considers <i>interchangeable</i> with this one. "Interchangeable"
+     <i>typically</i> means that <code>Objects.equal(this.convert(a), that.convert(a))</code> is true for
+     all <code>a</code> of type <code>A</code> (and similarly for <code>reverse</code>). Note that a <code>false</code>
+     result from this method does not imply that the converters are known <i>not</i> to be
+     interchangeable.
+  overridden: java.lang.Object.equals(java.lang.Object)
+  parameters:
+  - name: object
+    type: <xref href="java.lang.Object?alt=java.lang.Object&text=Object" data-throw-if-not-resolved="False" />
+  syntax: public boolean equals(Object object)
+  returns:
+    type: <xref href="boolean?alt=boolean&text=boolean" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.cosmos.implementation.guava25.base
+artifact: com.azure:azure-cosmos:4.3.2-beta.2

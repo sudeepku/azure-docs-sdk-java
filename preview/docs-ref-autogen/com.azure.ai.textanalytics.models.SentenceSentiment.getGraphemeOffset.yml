@@ -1,0 +1,19 @@
+### YamlMime:JavaMember
+uid: com.azure.ai.textanalytics.models.SentenceSentiment.getGraphemeOffset*
+fullName: com.azure.ai.textanalytics.models.SentenceSentiment.getGraphemeOffset
+name: getGraphemeOffset
+nameWithType: SentenceSentiment.getGraphemeOffset
+members:
+- uid: com.azure.ai.textanalytics.models.SentenceSentiment.getGraphemeOffset()
+  fullName: com.azure.ai.textanalytics.models.SentenceSentiment.getGraphemeOffset()
+  name: getGraphemeOffset()
+  nameWithType: SentenceSentiment.getGraphemeOffset()
+  summary: 'Get the grapheme offset property: start position for the sentence sentiment.'
+  syntax: public int getGraphemeOffset()
+  returns:
+    description: The grapheme offset of sentence sentiment.
+    type: <xref href="int?alt=int&text=int" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.ai.textanalytics.models
+artifact: com.azure:azure-ai-textanalytics:1.0.0-beta.4

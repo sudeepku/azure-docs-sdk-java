@@ -1,0 +1,23 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.compute.fluent.inner.SnapshotInner.withSku*
+fullName: com.azure.resourcemanager.compute.fluent.inner.SnapshotInner.withSku
+name: withSku
+nameWithType: SnapshotInner.withSku
+members:
+- uid: com.azure.resourcemanager.compute.fluent.inner.SnapshotInner.withSku(com.azure.resourcemanager.compute.models.SnapshotSku)
+  fullName: com.azure.resourcemanager.compute.fluent.inner.SnapshotInner.withSku(SnapshotSku sku)
+  name: withSku(SnapshotSku sku)
+  nameWithType: SnapshotInner.withSku(SnapshotSku sku)
+  summary: 'Set the sku property: The snapshots sku name. Can be Standard_LRS, Premium_LRS, or Standard_ZRS.'
+  parameters:
+  - description: the sku value to set.
+    name: sku
+    type: <xref href="com.azure.resourcemanager.compute.models.SnapshotSku?alt=com.azure.resourcemanager.compute.models.SnapshotSku&text=SnapshotSku" data-throw-if-not-resolved="False" />
+  syntax: public SnapshotInner withSku(SnapshotSku sku)
+  returns:
+    description: the SnapshotInner object itself.
+    type: <xref href="com.azure.resourcemanager.compute.fluent.inner.SnapshotInner?alt=com.azure.resourcemanager.compute.fluent.inner.SnapshotInner&text=SnapshotInner" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.resourcemanager.compute.fluent.inner
+artifact: com.azure.resourcemanager:azure-resourcemanager-compute:2.0.0-beta.2

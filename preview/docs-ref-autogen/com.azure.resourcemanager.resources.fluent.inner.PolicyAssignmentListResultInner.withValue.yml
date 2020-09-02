@@ -1,0 +1,23 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.resources.fluent.inner.PolicyAssignmentListResultInner.withValue*
+fullName: com.azure.resourcemanager.resources.fluent.inner.PolicyAssignmentListResultInner.withValue
+name: withValue
+nameWithType: PolicyAssignmentListResultInner.withValue
+members:
+- uid: com.azure.resourcemanager.resources.fluent.inner.PolicyAssignmentListResultInner.withValue(java.util.List<com.azure.resourcemanager.resources.fluent.inner.PolicyAssignmentInner>)
+  fullName: com.azure.resourcemanager.resources.fluent.inner.PolicyAssignmentListResultInner.withValue(List<PolicyAssignmentInner> value)
+  name: withValue(List<PolicyAssignmentInner> value)
+  nameWithType: PolicyAssignmentListResultInner.withValue(List<PolicyAssignmentInner> value)
+  summary: 'Set the value property: An array of policy assignments.'
+  parameters:
+  - description: the value value to set.
+    name: value
+    type: <xref href="java.util.List?alt=java.util.List&text=List" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.resourcemanager.resources.fluent.inner.PolicyAssignmentInner?alt=com.azure.resourcemanager.resources.fluent.inner.PolicyAssignmentInner&text=PolicyAssignmentInner" data-throw-if-not-resolved="False" />&gt;
+  syntax: public PolicyAssignmentListResultInner withValue(List<PolicyAssignmentInner> value)
+  returns:
+    description: the PolicyAssignmentListResultInner object itself.
+    type: <xref href="com.azure.resourcemanager.resources.fluent.inner.PolicyAssignmentListResultInner?alt=com.azure.resourcemanager.resources.fluent.inner.PolicyAssignmentListResultInner&text=PolicyAssignmentListResultInner" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.resourcemanager.resources.fluent.inner
+artifact: com.azure.resourcemanager:azure-resourcemanager-resources:2.0.0-beta.2

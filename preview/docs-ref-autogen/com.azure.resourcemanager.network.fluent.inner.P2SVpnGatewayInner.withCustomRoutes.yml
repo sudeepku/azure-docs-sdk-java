@@ -1,0 +1,25 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.network.fluent.inner.P2SVpnGatewayInner.withCustomRoutes*
+fullName: com.azure.resourcemanager.network.fluent.inner.P2SVpnGatewayInner.withCustomRoutes
+name: withCustomRoutes
+nameWithType: P2SVpnGatewayInner.withCustomRoutes
+members:
+- uid: com.azure.resourcemanager.network.fluent.inner.P2SVpnGatewayInner.withCustomRoutes(com.azure.resourcemanager.network.models.AddressSpace)
+  fullName: com.azure.resourcemanager.network.fluent.inner.P2SVpnGatewayInner.withCustomRoutes(AddressSpace customRoutes)
+  name: withCustomRoutes(AddressSpace customRoutes)
+  nameWithType: P2SVpnGatewayInner.withCustomRoutes(AddressSpace customRoutes)
+  summary: |-
+    Set the customRoutes property: The reference of the address space resource which represents the custom routes
+     specified by the customer for P2SVpnGateway and P2S VpnClient.
+  parameters:
+  - description: the customRoutes value to set.
+    name: customRoutes
+    type: <xref href="com.azure.resourcemanager.network.models.AddressSpace?alt=com.azure.resourcemanager.network.models.AddressSpace&text=AddressSpace" data-throw-if-not-resolved="False" />
+  syntax: public P2SVpnGatewayInner withCustomRoutes(AddressSpace customRoutes)
+  returns:
+    description: the P2SVpnGatewayInner object itself.
+    type: <xref href="com.azure.resourcemanager.network.fluent.inner.P2SVpnGatewayInner?alt=com.azure.resourcemanager.network.fluent.inner.P2SVpnGatewayInner&text=P2SVpnGatewayInner" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.resourcemanager.network.fluent.inner
+artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.0.0-beta.2

@@ -1,0 +1,45 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.appservice.fluent.AppServicePlansClient.listSinglePageAsync*
+fullName: com.azure.resourcemanager.appservice.fluent.AppServicePlansClient.listSinglePageAsync
+name: listSinglePageAsync
+nameWithType: AppServicePlansClient.listSinglePageAsync
+members:
+- uid: com.azure.resourcemanager.appservice.fluent.AppServicePlansClient.listSinglePageAsync(java.lang.Boolean)
+  fullName: com.azure.resourcemanager.appservice.fluent.AppServicePlansClient.listSinglePageAsync(Boolean detailed)
+  name: listSinglePageAsync(Boolean detailed)
+  nameWithType: AppServicePlansClient.listSinglePageAsync(Boolean detailed)
+  summary: Description for Get all App Service plans for a subscription.
+  parameters:
+  - description: |-
+      Specify &lt;code&gt;true&lt;/code&gt; to return all App Service plan properties. The default is
+           &lt;code&gt;false&lt;/code&gt;, which returns a subset of the properties. Retrieval of all properties may
+           increase the API latency.
+    name: detailed
+    type: <xref href="java.lang.Boolean?alt=java.lang.Boolean&text=Boolean" data-throw-if-not-resolved="False" />
+  syntax: public Mono<PagedResponse<AppServicePlanInner>> listSinglePageAsync(Boolean detailed)
+  returns:
+    description: collection of App Service plans.
+    type: <xref href="reactor.core.publisher.Mono?alt=reactor.core.publisher.Mono&text=Mono" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.core.http.rest.PagedResponse?alt=com.azure.core.http.rest.PagedResponse&text=PagedResponse" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.resourcemanager.appservice.fluent.inner.AppServicePlanInner?alt=com.azure.resourcemanager.appservice.fluent.inner.AppServicePlanInner&text=AppServicePlanInner" data-throw-if-not-resolved="False" />&gt;&gt;
+- uid: com.azure.resourcemanager.appservice.fluent.AppServicePlansClient.listSinglePageAsync(java.lang.Boolean,com.azure.core.util.Context)
+  fullName: com.azure.resourcemanager.appservice.fluent.AppServicePlansClient.listSinglePageAsync(Boolean detailed, Context context)
+  name: listSinglePageAsync(Boolean detailed, Context context)
+  nameWithType: AppServicePlansClient.listSinglePageAsync(Boolean detailed, Context context)
+  summary: Description for Get all App Service plans for a subscription.
+  parameters:
+  - description: |-
+      Specify &lt;code&gt;true&lt;/code&gt; to return all App Service plan properties. The default is
+           &lt;code&gt;false&lt;/code&gt;, which returns a subset of the properties. Retrieval of all properties may
+           increase the API latency.
+    name: detailed
+    type: <xref href="java.lang.Boolean?alt=java.lang.Boolean&text=Boolean" data-throw-if-not-resolved="False" />
+  - description: The context to associate with this operation.
+    name: context
+    type: <xref href="com.azure.core.util.Context?alt=com.azure.core.util.Context&text=Context" data-throw-if-not-resolved="False" />
+  syntax: public Mono<PagedResponse<AppServicePlanInner>> listSinglePageAsync(Boolean detailed, Context context)
+  returns:
+    description: collection of App Service plans.
+    type: <xref href="reactor.core.publisher.Mono?alt=reactor.core.publisher.Mono&text=Mono" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.core.http.rest.PagedResponse?alt=com.azure.core.http.rest.PagedResponse&text=PagedResponse" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.resourcemanager.appservice.fluent.inner.AppServicePlanInner?alt=com.azure.resourcemanager.appservice.fluent.inner.AppServicePlanInner&text=AppServicePlanInner" data-throw-if-not-resolved="False" />&gt;&gt;
+type: method
+metadata: {}
+package: com.azure.resourcemanager.appservice.fluent
+artifact: com.azure.resourcemanager:azure-resourcemanager-appservice:2.0.0-beta.2

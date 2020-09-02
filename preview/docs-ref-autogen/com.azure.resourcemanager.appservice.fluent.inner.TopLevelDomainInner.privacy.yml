@@ -1,0 +1,21 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.appservice.fluent.inner.TopLevelDomainInner.privacy*
+fullName: com.azure.resourcemanager.appservice.fluent.inner.TopLevelDomainInner.privacy
+name: privacy
+nameWithType: TopLevelDomainInner.privacy
+members:
+- uid: com.azure.resourcemanager.appservice.fluent.inner.TopLevelDomainInner.privacy()
+  fullName: com.azure.resourcemanager.appservice.fluent.inner.TopLevelDomainInner.privacy()
+  name: privacy()
+  nameWithType: TopLevelDomainInner.privacy()
+  summary: |-
+    Get the privacy property: If &lt;code&gt;true&lt;/code&gt;, then the top level domain supports domain privacy;
+     otherwise, &lt;code&gt;false&lt;/code&gt;.
+  syntax: public Boolean privacy()
+  returns:
+    description: the privacy value.
+    type: <xref href="java.lang.Boolean?alt=java.lang.Boolean&text=Boolean" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.resourcemanager.appservice.fluent.inner
+artifact: com.azure.resourcemanager:azure-resourcemanager-appservice:2.0.0-beta.2

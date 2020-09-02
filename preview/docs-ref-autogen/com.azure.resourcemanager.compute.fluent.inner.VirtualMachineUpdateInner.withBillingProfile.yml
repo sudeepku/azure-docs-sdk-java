@@ -1,0 +1,25 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.compute.fluent.inner.VirtualMachineUpdateInner.withBillingProfile*
+fullName: com.azure.resourcemanager.compute.fluent.inner.VirtualMachineUpdateInner.withBillingProfile
+name: withBillingProfile
+nameWithType: VirtualMachineUpdateInner.withBillingProfile
+members:
+- uid: com.azure.resourcemanager.compute.fluent.inner.VirtualMachineUpdateInner.withBillingProfile(com.azure.resourcemanager.compute.models.BillingProfile)
+  fullName: com.azure.resourcemanager.compute.fluent.inner.VirtualMachineUpdateInner.withBillingProfile(BillingProfile billingProfile)
+  name: withBillingProfile(BillingProfile billingProfile)
+  nameWithType: VirtualMachineUpdateInner.withBillingProfile(BillingProfile billingProfile)
+  summary: |-
+    Set the billingProfile property: Specifies the billing related details of a Azure Spot virtual machine.
+     &lt;br&gt;&lt;br&gt;Minimum api-version: 2019-03-01.
+  parameters:
+  - description: the billingProfile value to set.
+    name: billingProfile
+    type: <xref href="com.azure.resourcemanager.compute.models.BillingProfile?alt=com.azure.resourcemanager.compute.models.BillingProfile&text=BillingProfile" data-throw-if-not-resolved="False" />
+  syntax: public VirtualMachineUpdateInner withBillingProfile(BillingProfile billingProfile)
+  returns:
+    description: the VirtualMachineUpdateInner object itself.
+    type: <xref href="com.azure.resourcemanager.compute.fluent.inner.VirtualMachineUpdateInner?alt=com.azure.resourcemanager.compute.fluent.inner.VirtualMachineUpdateInner&text=VirtualMachineUpdateInner" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.resourcemanager.compute.fluent.inner
+artifact: com.azure.resourcemanager:azure-resourcemanager-compute:2.0.0-beta.2

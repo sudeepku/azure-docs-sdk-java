@@ -1,0 +1,32 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.network.fluent.ExpressRouteCrossConnectionsClient.listSinglePageAsync*
+fullName: com.azure.resourcemanager.network.fluent.ExpressRouteCrossConnectionsClient.listSinglePageAsync
+name: listSinglePageAsync
+nameWithType: ExpressRouteCrossConnectionsClient.listSinglePageAsync
+members:
+- uid: com.azure.resourcemanager.network.fluent.ExpressRouteCrossConnectionsClient.listSinglePageAsync()
+  fullName: com.azure.resourcemanager.network.fluent.ExpressRouteCrossConnectionsClient.listSinglePageAsync()
+  name: listSinglePageAsync()
+  nameWithType: ExpressRouteCrossConnectionsClient.listSinglePageAsync()
+  summary: Retrieves all the ExpressRouteCrossConnections in a subscription.
+  syntax: public Mono<PagedResponse<ExpressRouteCrossConnectionInner>> listSinglePageAsync()
+  returns:
+    description: response for ListExpressRouteCrossConnection API service call.
+    type: <xref href="reactor.core.publisher.Mono?alt=reactor.core.publisher.Mono&text=Mono" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.core.http.rest.PagedResponse?alt=com.azure.core.http.rest.PagedResponse&text=PagedResponse" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.resourcemanager.network.fluent.inner.ExpressRouteCrossConnectionInner?alt=com.azure.resourcemanager.network.fluent.inner.ExpressRouteCrossConnectionInner&text=ExpressRouteCrossConnectionInner" data-throw-if-not-resolved="False" />&gt;&gt;
+- uid: com.azure.resourcemanager.network.fluent.ExpressRouteCrossConnectionsClient.listSinglePageAsync(com.azure.core.util.Context)
+  fullName: com.azure.resourcemanager.network.fluent.ExpressRouteCrossConnectionsClient.listSinglePageAsync(Context context)
+  name: listSinglePageAsync(Context context)
+  nameWithType: ExpressRouteCrossConnectionsClient.listSinglePageAsync(Context context)
+  summary: Retrieves all the ExpressRouteCrossConnections in a subscription.
+  parameters:
+  - description: The context to associate with this operation.
+    name: context
+    type: <xref href="com.azure.core.util.Context?alt=com.azure.core.util.Context&text=Context" data-throw-if-not-resolved="False" />
+  syntax: public Mono<PagedResponse<ExpressRouteCrossConnectionInner>> listSinglePageAsync(Context context)
+  returns:
+    description: response for ListExpressRouteCrossConnection API service call.
+    type: <xref href="reactor.core.publisher.Mono?alt=reactor.core.publisher.Mono&text=Mono" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.core.http.rest.PagedResponse?alt=com.azure.core.http.rest.PagedResponse&text=PagedResponse" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.resourcemanager.network.fluent.inner.ExpressRouteCrossConnectionInner?alt=com.azure.resourcemanager.network.fluent.inner.ExpressRouteCrossConnectionInner&text=ExpressRouteCrossConnectionInner" data-throw-if-not-resolved="False" />&gt;&gt;
+type: method
+metadata: {}
+package: com.azure.resourcemanager.network.fluent
+artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.0.0-beta.2

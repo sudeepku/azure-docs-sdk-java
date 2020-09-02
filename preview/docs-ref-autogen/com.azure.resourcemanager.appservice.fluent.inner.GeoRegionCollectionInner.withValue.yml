@@ -1,0 +1,23 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.appservice.fluent.inner.GeoRegionCollectionInner.withValue*
+fullName: com.azure.resourcemanager.appservice.fluent.inner.GeoRegionCollectionInner.withValue
+name: withValue
+nameWithType: GeoRegionCollectionInner.withValue
+members:
+- uid: com.azure.resourcemanager.appservice.fluent.inner.GeoRegionCollectionInner.withValue(java.util.List<com.azure.resourcemanager.appservice.fluent.inner.GeoRegionInner>)
+  fullName: com.azure.resourcemanager.appservice.fluent.inner.GeoRegionCollectionInner.withValue(List<GeoRegionInner> value)
+  name: withValue(List<GeoRegionInner> value)
+  nameWithType: GeoRegionCollectionInner.withValue(List<GeoRegionInner> value)
+  summary: 'Set the value property: Collection of resources.'
+  parameters:
+  - description: the value value to set.
+    name: value
+    type: <xref href="java.util.List?alt=java.util.List&text=List" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.resourcemanager.appservice.fluent.inner.GeoRegionInner?alt=com.azure.resourcemanager.appservice.fluent.inner.GeoRegionInner&text=GeoRegionInner" data-throw-if-not-resolved="False" />&gt;
+  syntax: public GeoRegionCollectionInner withValue(List<GeoRegionInner> value)
+  returns:
+    description: the GeoRegionCollectionInner object itself.
+    type: <xref href="com.azure.resourcemanager.appservice.fluent.inner.GeoRegionCollectionInner?alt=com.azure.resourcemanager.appservice.fluent.inner.GeoRegionCollectionInner&text=GeoRegionCollectionInner" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.resourcemanager.appservice.fluent.inner
+artifact: com.azure.resourcemanager:azure-resourcemanager-appservice:2.0.0-beta.2

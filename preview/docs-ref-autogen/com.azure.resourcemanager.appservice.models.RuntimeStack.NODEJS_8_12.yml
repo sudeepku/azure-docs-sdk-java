@@ -1,0 +1,16 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.appservice.models.RuntimeStack.NODEJS_8_12
+fullName: com.azure.resourcemanager.appservice.models.RuntimeStack.NODEJS_8_12
+name: NODEJS_8_12
+nameWithType: RuntimeStack.NODEJS_8_12
+members:
+- uid: com.azure.resourcemanager.appservice.models.RuntimeStack.NODEJS_8_12
+  fullName: com.azure.resourcemanager.appservice.models.RuntimeStack.NODEJS_8_12
+  name: NODEJS_8_12
+  nameWithType: RuntimeStack.NODEJS_8_12
+  summary: Node.JS 8.12.
+  syntax: public static final RuntimeStack NODEJS_8_12
+type: field
+metadata: {}
+package: com.azure.resourcemanager.appservice.models
+artifact: com.azure.resourcemanager:azure-resourcemanager-appservice:2.0.0-beta.2

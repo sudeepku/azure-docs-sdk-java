@@ -1,0 +1,20 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.network.fluent.VpnLinkConnectionsClient.VpnLinkConnectionsClient*
+fullName: com.azure.resourcemanager.network.fluent.VpnLinkConnectionsClient.VpnLinkConnectionsClient
+name: VpnLinkConnectionsClient
+nameWithType: VpnLinkConnectionsClient.VpnLinkConnectionsClient
+members:
+- uid: com.azure.resourcemanager.network.fluent.VpnLinkConnectionsClient.VpnLinkConnectionsClient(com.azure.resourcemanager.network.NetworkManagementClient)
+  fullName: com.azure.resourcemanager.network.fluent.VpnLinkConnectionsClient.VpnLinkConnectionsClient(NetworkManagementClient client)
+  name: VpnLinkConnectionsClient(NetworkManagementClient client)
+  nameWithType: VpnLinkConnectionsClient.VpnLinkConnectionsClient(NetworkManagementClient client)
+  summary: Initializes an instance of VpnLinkConnectionsClient.
+  parameters:
+  - description: the instance of the service client containing this operation class.
+    name: client
+    type: <xref href="com.azure.resourcemanager.network.NetworkManagementClient?alt=com.azure.resourcemanager.network.NetworkManagementClient&text=NetworkManagementClient" data-throw-if-not-resolved="False" />
+  syntax: public VpnLinkConnectionsClient(NetworkManagementClient client)
+type: constructor
+metadata: {}
+package: com.azure.resourcemanager.network.fluent
+artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.0.0-beta.2

@@ -1,0 +1,23 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.containerservice.fluent.inner.ContainerServiceListResultInner.withValue*
+fullName: com.azure.resourcemanager.containerservice.fluent.inner.ContainerServiceListResultInner.withValue
+name: withValue
+nameWithType: ContainerServiceListResultInner.withValue
+members:
+- uid: com.azure.resourcemanager.containerservice.fluent.inner.ContainerServiceListResultInner.withValue(java.util.List<com.azure.resourcemanager.containerservice.fluent.inner.ContainerServiceInner>)
+  fullName: com.azure.resourcemanager.containerservice.fluent.inner.ContainerServiceListResultInner.withValue(List<ContainerServiceInner> value)
+  name: withValue(List<ContainerServiceInner> value)
+  nameWithType: ContainerServiceListResultInner.withValue(List<ContainerServiceInner> value)
+  summary: 'Set the value property: The list of container services.'
+  parameters:
+  - description: the value value to set.
+    name: value
+    type: <xref href="java.util.List?alt=java.util.List&text=List" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.resourcemanager.containerservice.fluent.inner.ContainerServiceInner?alt=com.azure.resourcemanager.containerservice.fluent.inner.ContainerServiceInner&text=ContainerServiceInner" data-throw-if-not-resolved="False" />&gt;
+  syntax: public ContainerServiceListResultInner withValue(List<ContainerServiceInner> value)
+  returns:
+    description: the ContainerServiceListResultInner object itself.
+    type: <xref href="com.azure.resourcemanager.containerservice.fluent.inner.ContainerServiceListResultInner?alt=com.azure.resourcemanager.containerservice.fluent.inner.ContainerServiceListResultInner&text=ContainerServiceListResultInner" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.resourcemanager.containerservice.fluent.inner
+artifact: com.azure.resourcemanager:azure-resourcemanager-containerservice:2.0.0-beta.2

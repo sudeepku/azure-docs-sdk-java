@@ -1,0 +1,21 @@
+### YamlMime:JavaMember
+uid: com.azure.cosmos.implementation.apachecommons.lang.builder.CompareToBuilder.CompareToBuilder*
+fullName: com.azure.cosmos.implementation.apachecommons.lang.builder.CompareToBuilder.CompareToBuilder
+name: CompareToBuilder
+nameWithType: CompareToBuilder.CompareToBuilder
+members:
+- uid: com.azure.cosmos.implementation.apachecommons.lang.builder.CompareToBuilder.CompareToBuilder()
+  fullName: com.azure.cosmos.implementation.apachecommons.lang.builder.CompareToBuilder.CompareToBuilder()
+  name: CompareToBuilder()
+  nameWithType: CompareToBuilder.CompareToBuilder()
+  summary: |-
+    <p>Constructor for CompareToBuilder.</p>
+
+     <p>Starts off assuming that the objects are equal. Multiple calls are
+     then made to the various append methods, followed by a call to
+     <xref uid="#toComparison" data-throw-if-not-resolved="false">#toComparison</xref> to get the result.</p>
+  syntax: public CompareToBuilder()
+type: constructor
+metadata: {}
+package: com.azure.cosmos.implementation.apachecommons.lang.builder
+artifact: com.azure:azure-cosmos:4.3.2-beta.2

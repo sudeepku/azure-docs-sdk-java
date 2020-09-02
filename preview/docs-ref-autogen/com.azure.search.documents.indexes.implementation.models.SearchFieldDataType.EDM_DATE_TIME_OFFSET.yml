@@ -1,0 +1,16 @@
+### YamlMime:JavaMember
+uid: com.azure.search.documents.indexes.implementation.models.SearchFieldDataType.EDM_DATE_TIME_OFFSET
+fullName: com.azure.search.documents.indexes.implementation.models.SearchFieldDataType.EDM_DATE_TIME_OFFSET
+name: EDM_DATE_TIME_OFFSET
+nameWithType: SearchFieldDataType.EDM_DATE_TIME_OFFSET
+members:
+- uid: com.azure.search.documents.indexes.implementation.models.SearchFieldDataType.EDM_DATE_TIME_OFFSET
+  fullName: com.azure.search.documents.indexes.implementation.models.SearchFieldDataType.EDM_DATE_TIME_OFFSET
+  name: EDM_DATE_TIME_OFFSET
+  nameWithType: SearchFieldDataType.EDM_DATE_TIME_OFFSET
+  summary: Static value Edm.DateTimeOffset for SearchFieldDataType.
+  syntax: public static final SearchFieldDataType EDM_DATE_TIME_OFFSET
+type: field
+metadata: {}
+package: com.azure.search.documents.indexes.implementation.models
+artifact: com.azure:azure-search-documents:11.1.0-beta.1

@@ -1,0 +1,20 @@
+### YamlMime:JavaMember
+uid: com.azure.search.documents.implementation.util.MappingUtils.mappingExternalServiceStatistics*
+fullName: com.azure.search.documents.implementation.util.MappingUtils.mappingExternalServiceStatistics
+name: mappingExternalServiceStatistics
+nameWithType: MappingUtils.mappingExternalServiceStatistics
+members:
+- uid: com.azure.search.documents.implementation.util.MappingUtils.mappingExternalServiceStatistics(com.azure.core.http.rest.Response<com.azure.search.documents.indexes.implementation.models.ServiceStatistics>)
+  fullName: com.azure.search.documents.implementation.util.MappingUtils.mappingExternalServiceStatistics(Response<ServiceStatistics> statisticsResponse)
+  name: mappingExternalServiceStatistics(Response<ServiceStatistics> statisticsResponse)
+  nameWithType: MappingUtils.mappingExternalServiceStatistics(Response<ServiceStatistics> statisticsResponse)
+  parameters:
+  - name: statisticsResponse
+    type: <xref href="com.azure.core.http.rest.Response?alt=com.azure.core.http.rest.Response&text=Response" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.search.documents.indexes.implementation.models.ServiceStatistics?alt=com.azure.search.documents.indexes.implementation.models.ServiceStatistics&text=ServiceStatistics" data-throw-if-not-resolved="False" />&gt;
+  syntax: public static Response<SearchServiceStatistics> mappingExternalServiceStatistics(Response<ServiceStatistics> statisticsResponse)
+  returns:
+    type: <xref href="com.azure.core.http.rest.Response?alt=com.azure.core.http.rest.Response&text=Response" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.search.documents.indexes.models.SearchServiceStatistics?alt=com.azure.search.documents.indexes.models.SearchServiceStatistics&text=SearchServiceStatistics" data-throw-if-not-resolved="False" />&gt;
+type: method
+metadata: {}
+package: com.azure.search.documents.implementation.util
+artifact: com.azure:azure-search-documents:11.1.0-beta.1

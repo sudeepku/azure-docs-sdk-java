@@ -1,0 +1,23 @@
+### YamlMime:JavaMember
+uid: com.azure.search.documents.indexes.implementation.models.SynonymMap.SynonymMap*
+fullName: com.azure.search.documents.indexes.implementation.models.SynonymMap.SynonymMap
+name: SynonymMap
+nameWithType: SynonymMap.SynonymMap
+members:
+- uid: com.azure.search.documents.indexes.implementation.models.SynonymMap.SynonymMap(java.lang.String,java.lang.String,java.lang.String)
+  fullName: com.azure.search.documents.indexes.implementation.models.SynonymMap.SynonymMap(String name, String format, String synonyms)
+  name: SynonymMap(String name, String format, String synonyms)
+  nameWithType: SynonymMap.SynonymMap(String name, String format, String synonyms)
+  summary: Creates an instance of SynonymMap class.
+  parameters:
+  - name: name
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  - name: format
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  - name: synonyms
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  syntax: public SynonymMap(String name, String format, String synonyms)
+type: constructor
+metadata: {}
+package: com.azure.search.documents.indexes.implementation.models
+artifact: com.azure:azure-search-documents:11.1.0-beta.1

@@ -1,0 +1,15 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.network.fluent.inner.BastionHostInner.BastionHostInner*
+fullName: com.azure.resourcemanager.network.fluent.inner.BastionHostInner.BastionHostInner
+name: BastionHostInner
+nameWithType: BastionHostInner.BastionHostInner
+members:
+- uid: com.azure.resourcemanager.network.fluent.inner.BastionHostInner.BastionHostInner()
+  fullName: com.azure.resourcemanager.network.fluent.inner.BastionHostInner.BastionHostInner()
+  name: BastionHostInner()
+  nameWithType: BastionHostInner.BastionHostInner()
+  syntax: public BastionHostInner()
+type: constructor
+metadata: {}
+package: com.azure.resourcemanager.network.fluent.inner
+artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.0.0-beta.2

@@ -1,0 +1,23 @@
+### YamlMime:JavaMember
+uid: com.azure.messaging.servicebus.ServiceBusManagementClient.deleteSubscription*
+fullName: com.azure.messaging.servicebus.ServiceBusManagementClient.deleteSubscription
+name: deleteSubscription
+nameWithType: ServiceBusManagementClient.deleteSubscription
+members:
+- uid: com.azure.messaging.servicebus.ServiceBusManagementClient.deleteSubscription(java.lang.String,java.lang.String)
+  fullName: com.azure.messaging.servicebus.ServiceBusManagementClient.deleteSubscription(String topicName, String subscriptionName)
+  name: deleteSubscription(String topicName, String subscriptionName)
+  nameWithType: ServiceBusManagementClient.deleteSubscription(String topicName, String subscriptionName)
+  summary: Deletes a subscription the matching <code>subscriptionName</code>.
+  parameters:
+  - description: Name of topic associated with subscription to delete.
+    name: topicName
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  - description: Name of subscription to delete.
+    name: subscriptionName
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  syntax: public void deleteSubscription(String topicName, String subscriptionName)
+type: method
+metadata: {}
+package: com.azure.messaging.servicebus
+artifact: com.azure:azure-messaging-servicebus:7.0.0-beta.5

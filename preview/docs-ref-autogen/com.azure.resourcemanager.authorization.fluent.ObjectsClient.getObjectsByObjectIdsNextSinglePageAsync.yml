@@ -1,0 +1,39 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.authorization.fluent.ObjectsClient.getObjectsByObjectIdsNextSinglePageAsync*
+fullName: com.azure.resourcemanager.authorization.fluent.ObjectsClient.getObjectsByObjectIdsNextSinglePageAsync
+name: getObjectsByObjectIdsNextSinglePageAsync
+nameWithType: ObjectsClient.getObjectsByObjectIdsNextSinglePageAsync
+members:
+- uid: com.azure.resourcemanager.authorization.fluent.ObjectsClient.getObjectsByObjectIdsNextSinglePageAsync(java.lang.String)
+  fullName: com.azure.resourcemanager.authorization.fluent.ObjectsClient.getObjectsByObjectIdsNextSinglePageAsync(String nextLink)
+  name: getObjectsByObjectIdsNextSinglePageAsync(String nextLink)
+  nameWithType: ObjectsClient.getObjectsByObjectIdsNextSinglePageAsync(String nextLink)
+  summary: Gets AD group membership for the specified AD object IDs.
+  parameters:
+  - description: Next link for the list operation.
+    name: nextLink
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  syntax: public Mono<PagedResponse<DirectoryObjectInner>> getObjectsByObjectIdsNextSinglePageAsync(String nextLink)
+  returns:
+    description: aD group membership for the specified AD object IDs.
+    type: <xref href="reactor.core.publisher.Mono?alt=reactor.core.publisher.Mono&text=Mono" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.core.http.rest.PagedResponse?alt=com.azure.core.http.rest.PagedResponse&text=PagedResponse" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.resourcemanager.authorization.fluent.inner.DirectoryObjectInner?alt=com.azure.resourcemanager.authorization.fluent.inner.DirectoryObjectInner&text=DirectoryObjectInner" data-throw-if-not-resolved="False" />&gt;&gt;
+- uid: com.azure.resourcemanager.authorization.fluent.ObjectsClient.getObjectsByObjectIdsNextSinglePageAsync(java.lang.String,com.azure.core.util.Context)
+  fullName: com.azure.resourcemanager.authorization.fluent.ObjectsClient.getObjectsByObjectIdsNextSinglePageAsync(String nextLink, Context context)
+  name: getObjectsByObjectIdsNextSinglePageAsync(String nextLink, Context context)
+  nameWithType: ObjectsClient.getObjectsByObjectIdsNextSinglePageAsync(String nextLink, Context context)
+  summary: Gets AD group membership for the specified AD object IDs.
+  parameters:
+  - description: Next link for the list operation.
+    name: nextLink
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  - description: The context to associate with this operation.
+    name: context
+    type: <xref href="com.azure.core.util.Context?alt=com.azure.core.util.Context&text=Context" data-throw-if-not-resolved="False" />
+  syntax: public Mono<PagedResponse<DirectoryObjectInner>> getObjectsByObjectIdsNextSinglePageAsync(String nextLink, Context context)
+  returns:
+    description: aD group membership for the specified AD object IDs.
+    type: <xref href="reactor.core.publisher.Mono?alt=reactor.core.publisher.Mono&text=Mono" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.core.http.rest.PagedResponse?alt=com.azure.core.http.rest.PagedResponse&text=PagedResponse" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.resourcemanager.authorization.fluent.inner.DirectoryObjectInner?alt=com.azure.resourcemanager.authorization.fluent.inner.DirectoryObjectInner&text=DirectoryObjectInner" data-throw-if-not-resolved="False" />&gt;&gt;
+type: method
+metadata: {}
+package: com.azure.resourcemanager.authorization.fluent
+artifact: com.azure.resourcemanager:azure-resourcemanager-authorization:2.0.0-beta.2

@@ -1,0 +1,19 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.authorization.fluent.inner.RoleDefinitionListResultInner.value*
+fullName: com.azure.resourcemanager.authorization.fluent.inner.RoleDefinitionListResultInner.value
+name: value
+nameWithType: RoleDefinitionListResultInner.value
+members:
+- uid: com.azure.resourcemanager.authorization.fluent.inner.RoleDefinitionListResultInner.value()
+  fullName: com.azure.resourcemanager.authorization.fluent.inner.RoleDefinitionListResultInner.value()
+  name: value()
+  nameWithType: RoleDefinitionListResultInner.value()
+  summary: 'Get the value property: Role definition list.'
+  syntax: public List<RoleDefinitionInner> value()
+  returns:
+    description: the value value.
+    type: <xref href="java.util.List?alt=java.util.List&text=List" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.resourcemanager.authorization.fluent.inner.RoleDefinitionInner?alt=com.azure.resourcemanager.authorization.fluent.inner.RoleDefinitionInner&text=RoleDefinitionInner" data-throw-if-not-resolved="False" />&gt;
+type: method
+metadata: {}
+package: com.azure.resourcemanager.authorization.fluent.inner
+artifact: com.azure.resourcemanager:azure-resourcemanager-authorization:2.0.0-beta.2

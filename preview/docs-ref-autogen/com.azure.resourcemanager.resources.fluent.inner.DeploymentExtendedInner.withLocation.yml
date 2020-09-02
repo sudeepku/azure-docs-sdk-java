@@ -1,0 +1,23 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.resources.fluent.inner.DeploymentExtendedInner.withLocation*
+fullName: com.azure.resourcemanager.resources.fluent.inner.DeploymentExtendedInner.withLocation
+name: withLocation
+nameWithType: DeploymentExtendedInner.withLocation
+members:
+- uid: com.azure.resourcemanager.resources.fluent.inner.DeploymentExtendedInner.withLocation(java.lang.String)
+  fullName: com.azure.resourcemanager.resources.fluent.inner.DeploymentExtendedInner.withLocation(String location)
+  name: withLocation(String location)
+  nameWithType: DeploymentExtendedInner.withLocation(String location)
+  summary: 'Set the location property: the location of the deployment.'
+  parameters:
+  - description: the location value to set.
+    name: location
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  syntax: public DeploymentExtendedInner withLocation(String location)
+  returns:
+    description: the DeploymentExtendedInner object itself.
+    type: <xref href="com.azure.resourcemanager.resources.fluent.inner.DeploymentExtendedInner?alt=com.azure.resourcemanager.resources.fluent.inner.DeploymentExtendedInner&text=DeploymentExtendedInner" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.resourcemanager.resources.fluent.inner
+artifact: com.azure.resourcemanager:azure-resourcemanager-resources:2.0.0-beta.2

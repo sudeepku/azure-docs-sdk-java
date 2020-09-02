@@ -1,0 +1,23 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.network.models.ContainerNetworkInterfaceConfiguration.withEtag*
+fullName: com.azure.resourcemanager.network.models.ContainerNetworkInterfaceConfiguration.withEtag
+name: withEtag
+nameWithType: ContainerNetworkInterfaceConfiguration.withEtag
+members:
+- uid: com.azure.resourcemanager.network.models.ContainerNetworkInterfaceConfiguration.withEtag(java.lang.String)
+  fullName: com.azure.resourcemanager.network.models.ContainerNetworkInterfaceConfiguration.withEtag(String etag)
+  name: withEtag(String etag)
+  nameWithType: ContainerNetworkInterfaceConfiguration.withEtag(String etag)
+  summary: 'Set the etag property: A unique read-only string that changes whenever the resource is updated.'
+  parameters:
+  - description: the etag value to set.
+    name: etag
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  syntax: public ContainerNetworkInterfaceConfiguration withEtag(String etag)
+  returns:
+    description: the ContainerNetworkInterfaceConfiguration object itself.
+    type: <xref href="com.azure.resourcemanager.network.models.ContainerNetworkInterfaceConfiguration?alt=com.azure.resourcemanager.network.models.ContainerNetworkInterfaceConfiguration&text=ContainerNetworkInterfaceConfiguration" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.resourcemanager.network.models
+artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.0.0-beta.2

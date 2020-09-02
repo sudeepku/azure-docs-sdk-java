@@ -1,0 +1,15 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.resources.fluentcore.utils.FileProvider.FileProvider*
+fullName: com.azure.resourcemanager.resources.fluentcore.utils.FileProvider.FileProvider
+name: FileProvider
+nameWithType: FileProvider.FileProvider
+members:
+- uid: com.azure.resourcemanager.resources.fluentcore.utils.FileProvider.FileProvider()
+  fullName: com.azure.resourcemanager.resources.fluentcore.utils.FileProvider.FileProvider()
+  name: FileProvider()
+  nameWithType: FileProvider.FileProvider()
+  syntax: public FileProvider()
+type: constructor
+metadata: {}
+package: com.azure.resourcemanager.resources.fluentcore.utils
+artifact: com.azure.resourcemanager:azure-resourcemanager-resources:2.0.0-beta.2

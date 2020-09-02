@@ -1,0 +1,20 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.network.fluent.ExpressRouteCircuitAuthorizationsClient.ExpressRouteCircuitAuthorizationsClient*
+fullName: com.azure.resourcemanager.network.fluent.ExpressRouteCircuitAuthorizationsClient.ExpressRouteCircuitAuthorizationsClient
+name: ExpressRouteCircuitAuthorizationsClient
+nameWithType: ExpressRouteCircuitAuthorizationsClient.ExpressRouteCircuitAuthorizationsClient
+members:
+- uid: com.azure.resourcemanager.network.fluent.ExpressRouteCircuitAuthorizationsClient.ExpressRouteCircuitAuthorizationsClient(com.azure.resourcemanager.network.NetworkManagementClient)
+  fullName: com.azure.resourcemanager.network.fluent.ExpressRouteCircuitAuthorizationsClient.ExpressRouteCircuitAuthorizationsClient(NetworkManagementClient client)
+  name: ExpressRouteCircuitAuthorizationsClient(NetworkManagementClient client)
+  nameWithType: ExpressRouteCircuitAuthorizationsClient.ExpressRouteCircuitAuthorizationsClient(NetworkManagementClient client)
+  summary: Initializes an instance of ExpressRouteCircuitAuthorizationsClient.
+  parameters:
+  - description: the instance of the service client containing this operation class.
+    name: client
+    type: <xref href="com.azure.resourcemanager.network.NetworkManagementClient?alt=com.azure.resourcemanager.network.NetworkManagementClient&text=NetworkManagementClient" data-throw-if-not-resolved="False" />
+  syntax: public ExpressRouteCircuitAuthorizationsClient(NetworkManagementClient client)
+type: constructor
+metadata: {}
+package: com.azure.resourcemanager.network.fluent
+artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.0.0-beta.2

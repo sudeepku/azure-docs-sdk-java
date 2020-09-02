@@ -1,0 +1,19 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.resources.PolicyClient.getPolicyAssignments*
+fullName: com.azure.resourcemanager.resources.PolicyClient.getPolicyAssignments
+name: getPolicyAssignments
+nameWithType: PolicyClient.getPolicyAssignments
+members:
+- uid: com.azure.resourcemanager.resources.PolicyClient.getPolicyAssignments()
+  fullName: com.azure.resourcemanager.resources.PolicyClient.getPolicyAssignments()
+  name: getPolicyAssignments()
+  nameWithType: PolicyClient.getPolicyAssignments()
+  summary: Gets the PolicyAssignmentsClient object to access its operations.
+  syntax: public PolicyAssignmentsClient getPolicyAssignments()
+  returns:
+    description: the PolicyAssignmentsClient object.
+    type: <xref href="com.azure.resourcemanager.resources.fluent.PolicyAssignmentsClient?alt=com.azure.resourcemanager.resources.fluent.PolicyAssignmentsClient&text=PolicyAssignmentsClient" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.resourcemanager.resources
+artifact: com.azure.resourcemanager:azure-resourcemanager-resources:2.0.0-beta.2

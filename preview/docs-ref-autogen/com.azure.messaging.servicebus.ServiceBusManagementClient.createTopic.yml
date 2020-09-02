@@ -1,0 +1,36 @@
+### YamlMime:JavaMember
+uid: com.azure.messaging.servicebus.ServiceBusManagementClient.createTopic*
+fullName: com.azure.messaging.servicebus.ServiceBusManagementClient.createTopic
+name: createTopic
+nameWithType: ServiceBusManagementClient.createTopic
+members:
+- uid: com.azure.messaging.servicebus.ServiceBusManagementClient.createTopic(com.azure.messaging.servicebus.models.CreateTopicOptions)
+  fullName: com.azure.messaging.servicebus.ServiceBusManagementClient.createTopic(CreateTopicOptions topicOptions)
+  name: createTopic(CreateTopicOptions topicOptions)
+  nameWithType: ServiceBusManagementClient.createTopic(CreateTopicOptions topicOptions)
+  summary: Creates a topic with the <xref uid="TopicProperties" data-throw-if-not-resolved="false">TopicProperties</xref>.
+  parameters:
+  - description: Information about the topic to create.
+    name: topicOptions
+    type: <xref href="com.azure.messaging.servicebus.models.CreateTopicOptions?alt=com.azure.messaging.servicebus.models.CreateTopicOptions&text=CreateTopicOptions" data-throw-if-not-resolved="False" />
+  syntax: public TopicProperties createTopic(CreateTopicOptions topicOptions)
+  returns:
+    description: Information about the created topic.
+    type: <xref href="com.azure.messaging.servicebus.models.TopicProperties?alt=com.azure.messaging.servicebus.models.TopicProperties&text=TopicProperties" data-throw-if-not-resolved="False" />
+- uid: com.azure.messaging.servicebus.ServiceBusManagementClient.createTopic(java.lang.String)
+  fullName: com.azure.messaging.servicebus.ServiceBusManagementClient.createTopic(String topicName)
+  name: createTopic(String topicName)
+  nameWithType: ServiceBusManagementClient.createTopic(String topicName)
+  summary: Creates a topic with the given name.
+  parameters:
+  - description: Name of the topic to create.
+    name: topicName
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  syntax: public TopicProperties createTopic(String topicName)
+  returns:
+    description: Information about the created topic.
+    type: <xref href="com.azure.messaging.servicebus.models.TopicProperties?alt=com.azure.messaging.servicebus.models.TopicProperties&text=TopicProperties" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.messaging.servicebus
+artifact: com.azure:azure-messaging-servicebus:7.0.0-beta.5

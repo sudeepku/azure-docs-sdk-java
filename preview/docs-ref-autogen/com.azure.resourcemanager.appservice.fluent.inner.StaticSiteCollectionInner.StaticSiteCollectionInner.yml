@@ -1,0 +1,15 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.appservice.fluent.inner.StaticSiteCollectionInner.StaticSiteCollectionInner*
+fullName: com.azure.resourcemanager.appservice.fluent.inner.StaticSiteCollectionInner.StaticSiteCollectionInner
+name: StaticSiteCollectionInner
+nameWithType: StaticSiteCollectionInner.StaticSiteCollectionInner
+members:
+- uid: com.azure.resourcemanager.appservice.fluent.inner.StaticSiteCollectionInner.StaticSiteCollectionInner()
+  fullName: com.azure.resourcemanager.appservice.fluent.inner.StaticSiteCollectionInner.StaticSiteCollectionInner()
+  name: StaticSiteCollectionInner()
+  nameWithType: StaticSiteCollectionInner.StaticSiteCollectionInner()
+  syntax: public StaticSiteCollectionInner()
+type: constructor
+metadata: {}
+package: com.azure.resourcemanager.appservice.fluent.inner
+artifact: com.azure.resourcemanager:azure-resourcemanager-appservice:2.0.0-beta.2

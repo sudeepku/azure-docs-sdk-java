@@ -1,0 +1,16 @@
+### YamlMime:JavaMember
+uid: com.azure.search.documents.implementation.models.IndexDocumentsResult.validate*
+fullName: com.azure.search.documents.implementation.models.IndexDocumentsResult.validate
+name: validate
+nameWithType: IndexDocumentsResult.validate
+members:
+- uid: com.azure.search.documents.implementation.models.IndexDocumentsResult.validate()
+  fullName: com.azure.search.documents.implementation.models.IndexDocumentsResult.validate()
+  name: validate()
+  nameWithType: IndexDocumentsResult.validate()
+  summary: Validates the instance.
+  syntax: public void validate()
+type: method
+metadata: {}
+package: com.azure.search.documents.implementation.models
+artifact: com.azure:azure-search-documents:11.1.0-beta.1

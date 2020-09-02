@@ -1,0 +1,30 @@
+### YamlMime:JavaMember
+uid: com.azure.search.documents.indexes.SearchIndexClient.getServiceStatistics*
+fullName: com.azure.search.documents.indexes.SearchIndexClient.getServiceStatistics
+name: getServiceStatistics
+nameWithType: SearchIndexClient.getServiceStatistics
+members:
+- uid: com.azure.search.documents.indexes.SearchIndexClient.getServiceStatistics()
+  fullName: com.azure.search.documents.indexes.SearchIndexClient.getServiceStatistics()
+  name: getServiceStatistics()
+  nameWithType: SearchIndexClient.getServiceStatistics()
+  summary: |-
+    Returns service level statistics for a search service, including service counters and limits.
+
+     <p><strong>Code Sample</strong></p>
+
+     <p> Get service statistics. </p>
+
+     <pre>
+     SearchServiceStatistics serviceStatistics = searchIndexClient.getServiceStatistics&#40;&#41;;
+     System.out.printf&#40;&quot;There are %s search indexes in your service.%n&quot;,
+         serviceStatistics.getCounters&#40;&#41;.getIndexCounter&#40;&#41;&#41;;
+     </pre>
+  syntax: public SearchServiceStatistics getServiceStatistics()
+  returns:
+    description: the search service statistics result.
+    type: <xref href="com.azure.search.documents.indexes.models.SearchServiceStatistics?alt=com.azure.search.documents.indexes.models.SearchServiceStatistics&text=SearchServiceStatistics" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.search.documents.indexes
+artifact: com.azure:azure-search-documents:11.0.0

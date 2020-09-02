@@ -1,0 +1,20 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.appservice.fluent.RecommendationsClient.RecommendationsClient*
+fullName: com.azure.resourcemanager.appservice.fluent.RecommendationsClient.RecommendationsClient
+name: RecommendationsClient
+nameWithType: RecommendationsClient.RecommendationsClient
+members:
+- uid: com.azure.resourcemanager.appservice.fluent.RecommendationsClient.RecommendationsClient(com.azure.resourcemanager.appservice.WebSiteManagementClient)
+  fullName: com.azure.resourcemanager.appservice.fluent.RecommendationsClient.RecommendationsClient(WebSiteManagementClient client)
+  name: RecommendationsClient(WebSiteManagementClient client)
+  nameWithType: RecommendationsClient.RecommendationsClient(WebSiteManagementClient client)
+  summary: Initializes an instance of RecommendationsClient.
+  parameters:
+  - description: the instance of the service client containing this operation class.
+    name: client
+    type: <xref href="com.azure.resourcemanager.appservice.WebSiteManagementClient?alt=com.azure.resourcemanager.appservice.WebSiteManagementClient&text=WebSiteManagementClient" data-throw-if-not-resolved="False" />
+  syntax: public RecommendationsClient(WebSiteManagementClient client)
+type: constructor
+metadata: {}
+package: com.azure.resourcemanager.appservice.fluent
+artifact: com.azure.resourcemanager:azure-resourcemanager-appservice:2.0.0-beta.2

@@ -1,0 +1,19 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.authorization.models.RoleDefinitionFilter.type*
+fullName: com.azure.resourcemanager.authorization.models.RoleDefinitionFilter.type
+name: type
+nameWithType: RoleDefinitionFilter.type
+members:
+- uid: com.azure.resourcemanager.authorization.models.RoleDefinitionFilter.type()
+  fullName: com.azure.resourcemanager.authorization.models.RoleDefinitionFilter.type()
+  name: type()
+  nameWithType: RoleDefinitionFilter.type()
+  summary: 'Get the type property: Returns role definition with the specific type.'
+  syntax: public String type()
+  returns:
+    description: the type value.
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.resourcemanager.authorization.models
+artifact: com.azure.resourcemanager:azure-resourcemanager-authorization:2.0.0-beta.2

@@ -1,0 +1,32 @@
+### YamlMime:JavaMember
+uid: com.azure.search.documents.SearchAsyncClient.getDocumentCountWithResponse*
+fullName: com.azure.search.documents.SearchAsyncClient.getDocumentCountWithResponse
+name: getDocumentCountWithResponse
+nameWithType: SearchAsyncClient.getDocumentCountWithResponse
+members:
+- uid: com.azure.search.documents.SearchAsyncClient.getDocumentCountWithResponse()
+  fullName: com.azure.search.documents.SearchAsyncClient.getDocumentCountWithResponse()
+  name: getDocumentCountWithResponse()
+  nameWithType: SearchAsyncClient.getDocumentCountWithResponse()
+  summary: |-
+    Queries the number of documents in the search index.
+
+     <p><strong>Code Sample</strong></p>
+
+     <p> Get document count. </p>
+
+     <pre>
+     searchAsyncClient.getDocumentCountWithResponse&#40;&#41;
+         .subscribe&#40;countResponse -&gt; &#123;
+             System.out.println&#40;&quot;The status code of the response is &quot; + countResponse.getStatusCode&#40;&#41;&#41;;
+             System.out.printf&#40;&quot;There are %d documents in service.&quot;, countResponse.getValue&#40;&#41;&#41;;
+         &#125;&#41;;
+     </pre>
+  syntax: public Mono<Response<Long>> getDocumentCountWithResponse()
+  returns:
+    description: response containing the number of documents.
+    type: <xref href="reactor.core.publisher.Mono?alt=reactor.core.publisher.Mono&text=Mono" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.core.http.rest.Response?alt=com.azure.core.http.rest.Response&text=Response" data-throw-if-not-resolved="False" />&lt;<xref href="java.lang.Long?alt=java.lang.Long&text=Long" data-throw-if-not-resolved="False" />&gt;&gt;
+type: method
+metadata: {}
+package: com.azure.search.documents
+artifact: com.azure:azure-search-documents:11.1.0-beta.1

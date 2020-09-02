@@ -1,0 +1,51 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.cosmos.fluent.PrivateEndpointConnectionsClient.beginDeleteWithoutPollingAsync*
+fullName: com.azure.resourcemanager.cosmos.fluent.PrivateEndpointConnectionsClient.beginDeleteWithoutPollingAsync
+name: beginDeleteWithoutPollingAsync
+nameWithType: PrivateEndpointConnectionsClient.beginDeleteWithoutPollingAsync
+members:
+- uid: com.azure.resourcemanager.cosmos.fluent.PrivateEndpointConnectionsClient.beginDeleteWithoutPollingAsync(java.lang.String,java.lang.String,java.lang.String)
+  fullName: com.azure.resourcemanager.cosmos.fluent.PrivateEndpointConnectionsClient.beginDeleteWithoutPollingAsync(String resourceGroupName, String accountName, String privateEndpointConnectionName)
+  name: beginDeleteWithoutPollingAsync(String resourceGroupName, String accountName, String privateEndpointConnectionName)
+  nameWithType: PrivateEndpointConnectionsClient.beginDeleteWithoutPollingAsync(String resourceGroupName, String accountName, String privateEndpointConnectionName)
+  summary: Deletes a private endpoint connection with a given name.
+  parameters:
+  - description: The name of the resource group. The name is case insensitive.
+    name: resourceGroupName
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  - description: Cosmos DB database account name.
+    name: accountName
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  - description: The name of the private endpoint connection.
+    name: privateEndpointConnectionName
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  syntax: public Mono<Void> beginDeleteWithoutPollingAsync(String resourceGroupName, String accountName, String privateEndpointConnectionName)
+  returns:
+    description: the completion.
+    type: <xref href="reactor.core.publisher.Mono?alt=reactor.core.publisher.Mono&text=Mono" data-throw-if-not-resolved="False" />&lt;<xref href="java.lang.Void?alt=java.lang.Void&text=Void" data-throw-if-not-resolved="False" />&gt;
+- uid: com.azure.resourcemanager.cosmos.fluent.PrivateEndpointConnectionsClient.beginDeleteWithoutPollingAsync(java.lang.String,java.lang.String,java.lang.String,com.azure.core.util.Context)
+  fullName: com.azure.resourcemanager.cosmos.fluent.PrivateEndpointConnectionsClient.beginDeleteWithoutPollingAsync(String resourceGroupName, String accountName, String privateEndpointConnectionName, Context context)
+  name: beginDeleteWithoutPollingAsync(String resourceGroupName, String accountName, String privateEndpointConnectionName, Context context)
+  nameWithType: PrivateEndpointConnectionsClient.beginDeleteWithoutPollingAsync(String resourceGroupName, String accountName, String privateEndpointConnectionName, Context context)
+  summary: Deletes a private endpoint connection with a given name.
+  parameters:
+  - description: The name of the resource group. The name is case insensitive.
+    name: resourceGroupName
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  - description: Cosmos DB database account name.
+    name: accountName
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  - description: The name of the private endpoint connection.
+    name: privateEndpointConnectionName
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  - description: The context to associate with this operation.
+    name: context
+    type: <xref href="com.azure.core.util.Context?alt=com.azure.core.util.Context&text=Context" data-throw-if-not-resolved="False" />
+  syntax: public Mono<Void> beginDeleteWithoutPollingAsync(String resourceGroupName, String accountName, String privateEndpointConnectionName, Context context)
+  returns:
+    description: the completion.
+    type: <xref href="reactor.core.publisher.Mono?alt=reactor.core.publisher.Mono&text=Mono" data-throw-if-not-resolved="False" />&lt;<xref href="java.lang.Void?alt=java.lang.Void&text=Void" data-throw-if-not-resolved="False" />&gt;
+type: method
+metadata: {}
+package: com.azure.resourcemanager.cosmos.fluent
+artifact: com.azure.resourcemanager:azure-resourcemanager-cosmos:2.0.0-beta.2

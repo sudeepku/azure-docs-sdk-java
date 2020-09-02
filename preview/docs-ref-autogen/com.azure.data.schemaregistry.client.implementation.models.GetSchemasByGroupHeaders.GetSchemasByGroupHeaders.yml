@@ -1,0 +1,15 @@
+### YamlMime:JavaMember
+uid: com.azure.data.schemaregistry.client.implementation.models.GetSchemasByGroupHeaders.GetSchemasByGroupHeaders*
+fullName: com.azure.data.schemaregistry.client.implementation.models.GetSchemasByGroupHeaders.GetSchemasByGroupHeaders
+name: GetSchemasByGroupHeaders
+nameWithType: GetSchemasByGroupHeaders.GetSchemasByGroupHeaders
+members:
+- uid: com.azure.data.schemaregistry.client.implementation.models.GetSchemasByGroupHeaders.GetSchemasByGroupHeaders()
+  fullName: com.azure.data.schemaregistry.client.implementation.models.GetSchemasByGroupHeaders.GetSchemasByGroupHeaders()
+  name: GetSchemasByGroupHeaders()
+  nameWithType: GetSchemasByGroupHeaders.GetSchemasByGroupHeaders()
+  syntax: public GetSchemasByGroupHeaders()
+type: constructor
+metadata: {}
+package: com.azure.data.schemaregistry.client.implementation.models
+artifact: com.azure:azure-data-schemaregistry:1.0.0-beta.1

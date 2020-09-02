@@ -1,0 +1,23 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.resources.fluent.inner.FeatureOperationsListResultInner.withValue*
+fullName: com.azure.resourcemanager.resources.fluent.inner.FeatureOperationsListResultInner.withValue
+name: withValue
+nameWithType: FeatureOperationsListResultInner.withValue
+members:
+- uid: com.azure.resourcemanager.resources.fluent.inner.FeatureOperationsListResultInner.withValue(java.util.List<com.azure.resourcemanager.resources.fluent.inner.FeatureResultInner>)
+  fullName: com.azure.resourcemanager.resources.fluent.inner.FeatureOperationsListResultInner.withValue(List<FeatureResultInner> value)
+  name: withValue(List<FeatureResultInner> value)
+  nameWithType: FeatureOperationsListResultInner.withValue(List<FeatureResultInner> value)
+  summary: 'Set the value property: The array of features.'
+  parameters:
+  - description: the value value to set.
+    name: value
+    type: <xref href="java.util.List?alt=java.util.List&text=List" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.resourcemanager.resources.fluent.inner.FeatureResultInner?alt=com.azure.resourcemanager.resources.fluent.inner.FeatureResultInner&text=FeatureResultInner" data-throw-if-not-resolved="False" />&gt;
+  syntax: public FeatureOperationsListResultInner withValue(List<FeatureResultInner> value)
+  returns:
+    description: the FeatureOperationsListResultInner object itself.
+    type: <xref href="com.azure.resourcemanager.resources.fluent.inner.FeatureOperationsListResultInner?alt=com.azure.resourcemanager.resources.fluent.inner.FeatureOperationsListResultInner&text=FeatureOperationsListResultInner" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.resourcemanager.resources.fluent.inner
+artifact: com.azure.resourcemanager:azure-resourcemanager-resources:2.0.0-beta.2

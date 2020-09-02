@@ -1,0 +1,19 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.network.models.PolicySettings.enabledState*
+fullName: com.azure.resourcemanager.network.models.PolicySettings.enabledState
+name: enabledState
+nameWithType: PolicySettings.enabledState
+members:
+- uid: com.azure.resourcemanager.network.models.PolicySettings.enabledState()
+  fullName: com.azure.resourcemanager.network.models.PolicySettings.enabledState()
+  name: enabledState()
+  nameWithType: PolicySettings.enabledState()
+  summary: 'Get the enabledState property: Describes if the policy is in enabled state or disabled state.'
+  syntax: public WebApplicationFirewallEnabledState enabledState()
+  returns:
+    description: the enabledState value.
+    type: <xref href="com.azure.resourcemanager.network.models.WebApplicationFirewallEnabledState?alt=com.azure.resourcemanager.network.models.WebApplicationFirewallEnabledState&text=WebApplicationFirewallEnabledState" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.resourcemanager.network.models
+artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.0.0-beta.2

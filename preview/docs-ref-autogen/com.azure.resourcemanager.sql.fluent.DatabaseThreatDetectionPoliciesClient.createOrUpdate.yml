@@ -1,0 +1,61 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.sql.fluent.DatabaseThreatDetectionPoliciesClient.createOrUpdate*
+fullName: com.azure.resourcemanager.sql.fluent.DatabaseThreatDetectionPoliciesClient.createOrUpdate
+name: createOrUpdate
+nameWithType: DatabaseThreatDetectionPoliciesClient.createOrUpdate
+members:
+- uid: com.azure.resourcemanager.sql.fluent.DatabaseThreatDetectionPoliciesClient.createOrUpdate(java.lang.String,java.lang.String,java.lang.String,com.azure.resourcemanager.sql.fluent.inner.DatabaseSecurityAlertPolicyInner)
+  fullName: com.azure.resourcemanager.sql.fluent.DatabaseThreatDetectionPoliciesClient.createOrUpdate(String resourceGroupName, String serverName, String databaseName, DatabaseSecurityAlertPolicyInner parameters)
+  name: createOrUpdate(String resourceGroupName, String serverName, String databaseName, DatabaseSecurityAlertPolicyInner parameters)
+  nameWithType: DatabaseThreatDetectionPoliciesClient.createOrUpdate(String resourceGroupName, String serverName, String databaseName, DatabaseSecurityAlertPolicyInner parameters)
+  summary: Creates or updates a database's threat detection policy.
+  parameters:
+  - description: |-
+      The name of the resource group that contains the resource. You can obtain this value
+           from the Azure Resource Manager API or the portal.
+    name: resourceGroupName
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  - description: The name of the server.
+    name: serverName
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  - description: The name of the database for which database Threat Detection policy is defined.
+    name: databaseName
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  - description: Contains information about a database Threat Detection policy.
+    name: parameters
+    type: <xref href="com.azure.resourcemanager.sql.fluent.inner.DatabaseSecurityAlertPolicyInner?alt=com.azure.resourcemanager.sql.fluent.inner.DatabaseSecurityAlertPolicyInner&text=DatabaseSecurityAlertPolicyInner" data-throw-if-not-resolved="False" />
+  syntax: public DatabaseSecurityAlertPolicyInner createOrUpdate(String resourceGroupName, String serverName, String databaseName, DatabaseSecurityAlertPolicyInner parameters)
+  returns:
+    description: contains information about a database Threat Detection policy.
+    type: <xref href="com.azure.resourcemanager.sql.fluent.inner.DatabaseSecurityAlertPolicyInner?alt=com.azure.resourcemanager.sql.fluent.inner.DatabaseSecurityAlertPolicyInner&text=DatabaseSecurityAlertPolicyInner" data-throw-if-not-resolved="False" />
+- uid: com.azure.resourcemanager.sql.fluent.DatabaseThreatDetectionPoliciesClient.createOrUpdate(java.lang.String,java.lang.String,java.lang.String,com.azure.resourcemanager.sql.fluent.inner.DatabaseSecurityAlertPolicyInner,com.azure.core.util.Context)
+  fullName: com.azure.resourcemanager.sql.fluent.DatabaseThreatDetectionPoliciesClient.createOrUpdate(String resourceGroupName, String serverName, String databaseName, DatabaseSecurityAlertPolicyInner parameters, Context context)
+  name: createOrUpdate(String resourceGroupName, String serverName, String databaseName, DatabaseSecurityAlertPolicyInner parameters, Context context)
+  nameWithType: DatabaseThreatDetectionPoliciesClient.createOrUpdate(String resourceGroupName, String serverName, String databaseName, DatabaseSecurityAlertPolicyInner parameters, Context context)
+  summary: Creates or updates a database's threat detection policy.
+  parameters:
+  - description: |-
+      The name of the resource group that contains the resource. You can obtain this value
+           from the Azure Resource Manager API or the portal.
+    name: resourceGroupName
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  - description: The name of the server.
+    name: serverName
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  - description: The name of the database for which database Threat Detection policy is defined.
+    name: databaseName
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  - description: Contains information about a database Threat Detection policy.
+    name: parameters
+    type: <xref href="com.azure.resourcemanager.sql.fluent.inner.DatabaseSecurityAlertPolicyInner?alt=com.azure.resourcemanager.sql.fluent.inner.DatabaseSecurityAlertPolicyInner&text=DatabaseSecurityAlertPolicyInner" data-throw-if-not-resolved="False" />
+  - description: The context to associate with this operation.
+    name: context
+    type: <xref href="com.azure.core.util.Context?alt=com.azure.core.util.Context&text=Context" data-throw-if-not-resolved="False" />
+  syntax: public DatabaseSecurityAlertPolicyInner createOrUpdate(String resourceGroupName, String serverName, String databaseName, DatabaseSecurityAlertPolicyInner parameters, Context context)
+  returns:
+    description: contains information about a database Threat Detection policy.
+    type: <xref href="com.azure.resourcemanager.sql.fluent.inner.DatabaseSecurityAlertPolicyInner?alt=com.azure.resourcemanager.sql.fluent.inner.DatabaseSecurityAlertPolicyInner&text=DatabaseSecurityAlertPolicyInner" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.resourcemanager.sql.fluent
+artifact: com.azure.resourcemanager:azure-resourcemanager-sql:2.0.0-beta.2

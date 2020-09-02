@@ -1,0 +1,45 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.network.fluent.NetworkInterfacesClient.beginListEffectiveNetworkSecurityGroupsWithoutPolling*
+fullName: com.azure.resourcemanager.network.fluent.NetworkInterfacesClient.beginListEffectiveNetworkSecurityGroupsWithoutPolling
+name: beginListEffectiveNetworkSecurityGroupsWithoutPolling
+nameWithType: NetworkInterfacesClient.beginListEffectiveNetworkSecurityGroupsWithoutPolling
+members:
+- uid: com.azure.resourcemanager.network.fluent.NetworkInterfacesClient.beginListEffectiveNetworkSecurityGroupsWithoutPolling(java.lang.String,java.lang.String)
+  fullName: com.azure.resourcemanager.network.fluent.NetworkInterfacesClient.beginListEffectiveNetworkSecurityGroupsWithoutPolling(String resourceGroupName, String networkInterfaceName)
+  name: beginListEffectiveNetworkSecurityGroupsWithoutPolling(String resourceGroupName, String networkInterfaceName)
+  nameWithType: NetworkInterfacesClient.beginListEffectiveNetworkSecurityGroupsWithoutPolling(String resourceGroupName, String networkInterfaceName)
+  summary: Gets all network security groups applied to a network interface.
+  parameters:
+  - description: The name of the resource group.
+    name: resourceGroupName
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  - description: The name of the network interface.
+    name: networkInterfaceName
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  syntax: public EffectiveNetworkSecurityGroupListResultInner beginListEffectiveNetworkSecurityGroupsWithoutPolling(String resourceGroupName, String networkInterfaceName)
+  returns:
+    description: all network security groups applied to a network interface.
+    type: <xref href="com.azure.resourcemanager.network.fluent.inner.EffectiveNetworkSecurityGroupListResultInner?alt=com.azure.resourcemanager.network.fluent.inner.EffectiveNetworkSecurityGroupListResultInner&text=EffectiveNetworkSecurityGroupListResultInner" data-throw-if-not-resolved="False" />
+- uid: com.azure.resourcemanager.network.fluent.NetworkInterfacesClient.beginListEffectiveNetworkSecurityGroupsWithoutPolling(java.lang.String,java.lang.String,com.azure.core.util.Context)
+  fullName: com.azure.resourcemanager.network.fluent.NetworkInterfacesClient.beginListEffectiveNetworkSecurityGroupsWithoutPolling(String resourceGroupName, String networkInterfaceName, Context context)
+  name: beginListEffectiveNetworkSecurityGroupsWithoutPolling(String resourceGroupName, String networkInterfaceName, Context context)
+  nameWithType: NetworkInterfacesClient.beginListEffectiveNetworkSecurityGroupsWithoutPolling(String resourceGroupName, String networkInterfaceName, Context context)
+  summary: Gets all network security groups applied to a network interface.
+  parameters:
+  - description: The name of the resource group.
+    name: resourceGroupName
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  - description: The name of the network interface.
+    name: networkInterfaceName
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  - description: The context to associate with this operation.
+    name: context
+    type: <xref href="com.azure.core.util.Context?alt=com.azure.core.util.Context&text=Context" data-throw-if-not-resolved="False" />
+  syntax: public EffectiveNetworkSecurityGroupListResultInner beginListEffectiveNetworkSecurityGroupsWithoutPolling(String resourceGroupName, String networkInterfaceName, Context context)
+  returns:
+    description: all network security groups applied to a network interface.
+    type: <xref href="com.azure.resourcemanager.network.fluent.inner.EffectiveNetworkSecurityGroupListResultInner?alt=com.azure.resourcemanager.network.fluent.inner.EffectiveNetworkSecurityGroupListResultInner&text=EffectiveNetworkSecurityGroupListResultInner" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.resourcemanager.network.fluent
+artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.0.0-beta.2

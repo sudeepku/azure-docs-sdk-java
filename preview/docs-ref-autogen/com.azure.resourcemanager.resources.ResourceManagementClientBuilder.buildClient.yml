@@ -1,0 +1,19 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.resources.ResourceManagementClientBuilder.buildClient*
+fullName: com.azure.resourcemanager.resources.ResourceManagementClientBuilder.buildClient
+name: buildClient
+nameWithType: ResourceManagementClientBuilder.buildClient
+members:
+- uid: com.azure.resourcemanager.resources.ResourceManagementClientBuilder.buildClient()
+  fullName: com.azure.resourcemanager.resources.ResourceManagementClientBuilder.buildClient()
+  name: buildClient()
+  nameWithType: ResourceManagementClientBuilder.buildClient()
+  summary: Builds an instance of ResourceManagementClient with the provided parameters.
+  syntax: public ResourceManagementClient buildClient()
+  returns:
+    description: an instance of ResourceManagementClient.
+    type: <xref href="com.azure.resourcemanager.resources.ResourceManagementClient?alt=com.azure.resourcemanager.resources.ResourceManagementClient&text=ResourceManagementClient" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.resourcemanager.resources
+artifact: com.azure.resourcemanager:azure-resourcemanager-resources:2.0.0-beta.2

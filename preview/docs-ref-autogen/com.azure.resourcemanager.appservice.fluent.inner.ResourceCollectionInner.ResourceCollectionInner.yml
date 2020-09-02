@@ -1,0 +1,15 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.appservice.fluent.inner.ResourceCollectionInner.ResourceCollectionInner*
+fullName: com.azure.resourcemanager.appservice.fluent.inner.ResourceCollectionInner.ResourceCollectionInner
+name: ResourceCollectionInner
+nameWithType: ResourceCollectionInner.ResourceCollectionInner
+members:
+- uid: com.azure.resourcemanager.appservice.fluent.inner.ResourceCollectionInner.ResourceCollectionInner()
+  fullName: com.azure.resourcemanager.appservice.fluent.inner.ResourceCollectionInner.ResourceCollectionInner()
+  name: ResourceCollectionInner()
+  nameWithType: ResourceCollectionInner.ResourceCollectionInner()
+  syntax: public ResourceCollectionInner()
+type: constructor
+metadata: {}
+package: com.azure.resourcemanager.appservice.fluent.inner
+artifact: com.azure.resourcemanager:azure-resourcemanager-appservice:2.0.0-beta.2

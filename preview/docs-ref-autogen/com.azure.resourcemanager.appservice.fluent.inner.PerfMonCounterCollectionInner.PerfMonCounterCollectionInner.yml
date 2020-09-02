@@ -1,0 +1,15 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.appservice.fluent.inner.PerfMonCounterCollectionInner.PerfMonCounterCollectionInner*
+fullName: com.azure.resourcemanager.appservice.fluent.inner.PerfMonCounterCollectionInner.PerfMonCounterCollectionInner
+name: PerfMonCounterCollectionInner
+nameWithType: PerfMonCounterCollectionInner.PerfMonCounterCollectionInner
+members:
+- uid: com.azure.resourcemanager.appservice.fluent.inner.PerfMonCounterCollectionInner.PerfMonCounterCollectionInner()
+  fullName: com.azure.resourcemanager.appservice.fluent.inner.PerfMonCounterCollectionInner.PerfMonCounterCollectionInner()
+  name: PerfMonCounterCollectionInner()
+  nameWithType: PerfMonCounterCollectionInner.PerfMonCounterCollectionInner()
+  syntax: public PerfMonCounterCollectionInner()
+type: constructor
+metadata: {}
+package: com.azure.resourcemanager.appservice.fluent.inner
+artifact: com.azure.resourcemanager:azure-resourcemanager-appservice:2.0.0-beta.2

@@ -1,0 +1,43 @@
+### YamlMime:JavaMember
+uid: com.azure.cosmos.implementation.guava25.collect.Iterables.getOnlyElement*
+fullName: com.azure.cosmos.implementation.guava25.collect.Iterables.<T>getOnlyElement
+name: <T>getOnlyElement
+nameWithType: Iterables.<T>getOnlyElement
+members:
+- uid: com.azure.cosmos.implementation.guava25.collect.Iterables.<T>getOnlyElement(java.lang.Iterable<? extends T>,T)
+  fullName: com.azure.cosmos.implementation.guava25.collect.Iterables.<T>getOnlyElement(Iterable<? extends T> iterable, T defaultValue)
+  name: <T>getOnlyElement(Iterable<? extends T> iterable, T defaultValue)
+  nameWithType: Iterables.<T>getOnlyElement(Iterable<? extends T> iterable, T defaultValue)
+  summary: |-
+    Returns the single element contained in <code>iterable</code>, or <code>defaultValue</code> if the
+     iterable is empty.
+
+     <p><b>Java 8 users:</b> the <code>Stream</code> equivalent to this method is <code>
+     stream.collect(MoreCollectors.toOptional()).orElse(defaultValue)</code>.
+  parameters:
+  - name: iterable
+    type: <xref href="java.lang.Iterable?alt=java.lang.Iterable&text=Iterable" data-throw-if-not-resolved="False" />&lt;<xref href="? extends T?alt=? extends T&text=? extends T" data-throw-if-not-resolved="False" />&gt;
+  - name: defaultValue
+    type: <xref href="T?alt=T&text=T" data-throw-if-not-resolved="False" />
+  syntax: public static T <T>getOnlyElement(Iterable<? extends T> iterable, T defaultValue)
+  returns:
+    type: <xref href="T?alt=T&text=T" data-throw-if-not-resolved="False" />
+- uid: com.azure.cosmos.implementation.guava25.collect.Iterables.<T>getOnlyElement(java.lang.Iterable<T>)
+  fullName: com.azure.cosmos.implementation.guava25.collect.Iterables.<T>getOnlyElement(Iterable<T> iterable)
+  name: <T>getOnlyElement(Iterable<T> iterable)
+  nameWithType: Iterables.<T>getOnlyElement(Iterable<T> iterable)
+  summary: |-
+    Returns the single element contained in <code>iterable</code>.
+
+     <p><b>Java 8 users:</b> the <code>Stream</code> equivalent to this method is <code>
+     stream.collect(MoreCollectors.onlyElement())</code>.
+  parameters:
+  - name: iterable
+    type: <xref href="java.lang.Iterable?alt=java.lang.Iterable&text=Iterable" data-throw-if-not-resolved="False" />&lt;<xref href="T?alt=T&text=T" data-throw-if-not-resolved="False" />&gt;
+  syntax: public static T <T>getOnlyElement(Iterable<T> iterable)
+  returns:
+    type: <xref href="T?alt=T&text=T" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.cosmos.implementation.guava25.collect
+artifact: com.azure:azure-cosmos:4.3.2-beta.2

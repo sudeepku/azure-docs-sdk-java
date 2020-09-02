@@ -1,0 +1,21 @@
+### YamlMime:JavaMember
+uid: com.azure.cosmos.implementation.guava25.collect.Ordering.reverse*
+fullName: com.azure.cosmos.implementation.guava25.collect.Ordering<T>.<S>reverse
+name: <S>reverse
+nameWithType: Ordering<T>.<S>reverse
+members:
+- uid: com.azure.cosmos.implementation.guava25.collect.Ordering.<S>reverse()
+  fullName: com.azure.cosmos.implementation.guava25.collect.Ordering<T>.<S>reverse()
+  name: <S>reverse()
+  nameWithType: Ordering<T>.<S>reverse()
+  summary: |-
+    Returns the reverse of this ordering; the <code>Ordering</code> equivalent to <xref uid="Collections#reverseOrder(Comparator)" data-throw-if-not-resolved="false">Collections#reverseOrder(Comparator)</xref>.
+
+     <p><b>Java 8 users:</b> Use <code>thisComparator.reversed()</code> instead.
+  syntax: public Ordering<S> <S>reverse()
+  returns:
+    type: <xref href="com.azure.cosmos.implementation.guava25.collect.Ordering?alt=com.azure.cosmos.implementation.guava25.collect.Ordering&text=Ordering" data-throw-if-not-resolved="False" />&lt;<xref href="S?alt=S&text=S" data-throw-if-not-resolved="False" />&gt;
+type: method
+metadata: {}
+package: com.azure.cosmos.implementation.guava25.collect
+artifact: com.azure:azure-cosmos:4.3.2-beta.2

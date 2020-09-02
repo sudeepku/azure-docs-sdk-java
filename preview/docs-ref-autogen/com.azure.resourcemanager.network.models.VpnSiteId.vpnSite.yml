@@ -1,0 +1,19 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.network.models.VpnSiteId.vpnSite*
+fullName: com.azure.resourcemanager.network.models.VpnSiteId.vpnSite
+name: vpnSite
+nameWithType: VpnSiteId.vpnSite
+members:
+- uid: com.azure.resourcemanager.network.models.VpnSiteId.vpnSite()
+  fullName: com.azure.resourcemanager.network.models.VpnSiteId.vpnSite()
+  name: vpnSite()
+  nameWithType: VpnSiteId.vpnSite()
+  summary: 'Get the vpnSite property: The resource-uri of the vpn-site for which config is to be fetched.'
+  syntax: public String vpnSite()
+  returns:
+    description: the vpnSite value.
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.resourcemanager.network.models
+artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.0.0-beta.2

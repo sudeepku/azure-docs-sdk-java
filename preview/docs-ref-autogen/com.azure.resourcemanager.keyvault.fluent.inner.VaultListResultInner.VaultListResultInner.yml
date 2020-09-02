@@ -1,0 +1,15 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.keyvault.fluent.inner.VaultListResultInner.VaultListResultInner*
+fullName: com.azure.resourcemanager.keyvault.fluent.inner.VaultListResultInner.VaultListResultInner
+name: VaultListResultInner
+nameWithType: VaultListResultInner.VaultListResultInner
+members:
+- uid: com.azure.resourcemanager.keyvault.fluent.inner.VaultListResultInner.VaultListResultInner()
+  fullName: com.azure.resourcemanager.keyvault.fluent.inner.VaultListResultInner.VaultListResultInner()
+  name: VaultListResultInner()
+  nameWithType: VaultListResultInner.VaultListResultInner()
+  syntax: public VaultListResultInner()
+type: constructor
+metadata: {}
+package: com.azure.resourcemanager.keyvault.fluent.inner
+artifact: com.azure.resourcemanager:azure-resourcemanager-keyvault:2.0.0-beta.2

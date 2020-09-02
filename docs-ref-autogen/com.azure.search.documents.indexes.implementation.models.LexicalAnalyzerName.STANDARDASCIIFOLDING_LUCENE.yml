@@ -1,0 +1,16 @@
+### YamlMime:JavaMember
+uid: com.azure.search.documents.indexes.implementation.models.LexicalAnalyzerName.STANDARDASCIIFOLDING_LUCENE
+fullName: com.azure.search.documents.indexes.implementation.models.LexicalAnalyzerName.STANDARDASCIIFOLDING_LUCENE
+name: STANDARDASCIIFOLDING_LUCENE
+nameWithType: LexicalAnalyzerName.STANDARDASCIIFOLDING_LUCENE
+members:
+- uid: com.azure.search.documents.indexes.implementation.models.LexicalAnalyzerName.STANDARDASCIIFOLDING_LUCENE
+  fullName: com.azure.search.documents.indexes.implementation.models.LexicalAnalyzerName.STANDARDASCIIFOLDING_LUCENE
+  name: STANDARDASCIIFOLDING_LUCENE
+  nameWithType: LexicalAnalyzerName.STANDARDASCIIFOLDING_LUCENE
+  summary: Static value standardasciifolding.lucene for LexicalAnalyzerName.
+  syntax: public static final LexicalAnalyzerName STANDARDASCIIFOLDING_LUCENE
+type: field
+metadata: {}
+package: com.azure.search.documents.indexes.implementation.models
+artifact: com.azure:azure-search-documents:11.0.0

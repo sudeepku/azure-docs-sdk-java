@@ -1,0 +1,20 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.resources.fluent.ResourcesClient.ResourcesClient*
+fullName: com.azure.resourcemanager.resources.fluent.ResourcesClient.ResourcesClient
+name: ResourcesClient
+nameWithType: ResourcesClient.ResourcesClient
+members:
+- uid: com.azure.resourcemanager.resources.fluent.ResourcesClient.ResourcesClient(com.azure.resourcemanager.resources.ResourceManagementClient)
+  fullName: com.azure.resourcemanager.resources.fluent.ResourcesClient.ResourcesClient(ResourceManagementClient client)
+  name: ResourcesClient(ResourceManagementClient client)
+  nameWithType: ResourcesClient.ResourcesClient(ResourceManagementClient client)
+  summary: Initializes an instance of ResourcesClient.
+  parameters:
+  - description: the instance of the service client containing this operation class.
+    name: client
+    type: <xref href="com.azure.resourcemanager.resources.ResourceManagementClient?alt=com.azure.resourcemanager.resources.ResourceManagementClient&text=ResourceManagementClient" data-throw-if-not-resolved="False" />
+  syntax: public ResourcesClient(ResourceManagementClient client)
+type: constructor
+metadata: {}
+package: com.azure.resourcemanager.resources.fluent
+artifact: com.azure.resourcemanager:azure-resourcemanager-resources:2.0.0-beta.2

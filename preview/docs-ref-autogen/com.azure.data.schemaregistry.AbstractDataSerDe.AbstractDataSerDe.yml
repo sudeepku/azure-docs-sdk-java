@@ -1,0 +1,26 @@
+### YamlMime:JavaMember
+uid: com.azure.data.schemaregistry.AbstractDataSerDe.AbstractDataSerDe*
+fullName: com.azure.data.schemaregistry.AbstractDataSerDe.AbstractDataSerDe
+name: AbstractDataSerDe
+nameWithType: AbstractDataSerDe.AbstractDataSerDe
+members:
+- uid: com.azure.data.schemaregistry.AbstractDataSerDe.AbstractDataSerDe()
+  fullName: com.azure.data.schemaregistry.AbstractDataSerDe.AbstractDataSerDe()
+  name: AbstractDataSerDe()
+  nameWithType: AbstractDataSerDe.AbstractDataSerDe()
+  summary: Special case for Kafka serializer/deserializer implementations.
+  syntax: public AbstractDataSerDe()
+- uid: com.azure.data.schemaregistry.AbstractDataSerDe.AbstractDataSerDe(com.azure.data.schemaregistry.client.SchemaRegistryClient)
+  fullName: com.azure.data.schemaregistry.AbstractDataSerDe.AbstractDataSerDe(SchemaRegistryClient schemaRegistryClient)
+  name: AbstractDataSerDe(SchemaRegistryClient schemaRegistryClient)
+  nameWithType: AbstractDataSerDe.AbstractDataSerDe(SchemaRegistryClient schemaRegistryClient)
+  summary: Base constructor for all SerDe implementations.
+  parameters:
+  - description: client to be used for sending or fetching schemas.
+    name: schemaRegistryClient
+    type: <xref href="com.azure.data.schemaregistry.client.SchemaRegistryClient?alt=com.azure.data.schemaregistry.client.SchemaRegistryClient&text=SchemaRegistryClient" data-throw-if-not-resolved="False" />
+  syntax: protected AbstractDataSerDe(SchemaRegistryClient schemaRegistryClient)
+type: constructor
+metadata: {}
+package: com.azure.data.schemaregistry
+artifact: com.azure:azure-data-schemaregistry:1.0.0-beta.1

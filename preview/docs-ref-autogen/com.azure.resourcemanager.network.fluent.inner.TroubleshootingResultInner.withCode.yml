@@ -1,0 +1,23 @@
+### YamlMime:JavaMember
+uid: com.azure.resourcemanager.network.fluent.inner.TroubleshootingResultInner.withCode*
+fullName: com.azure.resourcemanager.network.fluent.inner.TroubleshootingResultInner.withCode
+name: withCode
+nameWithType: TroubleshootingResultInner.withCode
+members:
+- uid: com.azure.resourcemanager.network.fluent.inner.TroubleshootingResultInner.withCode(java.lang.String)
+  fullName: com.azure.resourcemanager.network.fluent.inner.TroubleshootingResultInner.withCode(String code)
+  name: withCode(String code)
+  nameWithType: TroubleshootingResultInner.withCode(String code)
+  summary: 'Set the code property: The result code of the troubleshooting.'
+  parameters:
+  - description: the code value to set.
+    name: code
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  syntax: public TroubleshootingResultInner withCode(String code)
+  returns:
+    description: the TroubleshootingResultInner object itself.
+    type: <xref href="com.azure.resourcemanager.network.fluent.inner.TroubleshootingResultInner?alt=com.azure.resourcemanager.network.fluent.inner.TroubleshootingResultInner&text=TroubleshootingResultInner" data-throw-if-not-resolved="False" />
+type: method
+metadata: {}
+package: com.azure.resourcemanager.network.fluent.inner
+artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.0.0-beta.2

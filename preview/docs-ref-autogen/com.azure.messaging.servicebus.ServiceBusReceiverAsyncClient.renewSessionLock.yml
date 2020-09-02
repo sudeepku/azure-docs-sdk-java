@@ -1,0 +1,23 @@
+### YamlMime:JavaMember
+uid: com.azure.messaging.servicebus.ServiceBusReceiverAsyncClient.renewSessionLock*
+fullName: com.azure.messaging.servicebus.ServiceBusReceiverAsyncClient.renewSessionLock
+name: renewSessionLock
+nameWithType: ServiceBusReceiverAsyncClient.renewSessionLock
+members:
+- uid: com.azure.messaging.servicebus.ServiceBusReceiverAsyncClient.renewSessionLock(java.lang.String)
+  fullName: com.azure.messaging.servicebus.ServiceBusReceiverAsyncClient.renewSessionLock(String sessionId)
+  name: renewSessionLock(String sessionId)
+  nameWithType: ServiceBusReceiverAsyncClient.renewSessionLock(String sessionId)
+  summary: Sets the state of a session given its identifier.
+  parameters:
+  - description: Identifier of session to get.
+    name: sessionId
+    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
+  syntax: public Mono<Instant> renewSessionLock(String sessionId)
+  returns:
+    description: The next expiration time for the session lock.
+    type: <xref href="reactor.core.publisher.Mono?alt=reactor.core.publisher.Mono&text=Mono" data-throw-if-not-resolved="False" />&lt;<xref href="java.time.Instant?alt=java.time.Instant&text=Instant" data-throw-if-not-resolved="False" />&gt;
+type: method
+metadata: {}
+package: com.azure.messaging.servicebus
+artifact: com.azure:azure-messaging-servicebus:7.0.0-beta.5
