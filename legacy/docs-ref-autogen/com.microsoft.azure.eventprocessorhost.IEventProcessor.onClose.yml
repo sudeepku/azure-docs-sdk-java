@@ -13,7 +13,8 @@ members:
     name: reason
     type: <xref href="com.microsoft.azure.eventprocessorhost.CloseReason?alt=com.microsoft.azure.eventprocessorhost.CloseReason&text=CloseReason" data-throw-if-not-resolved="False"/>
   exceptions:
-  - name: 8a99d4b0
+  - type: <xref href="Exception?alt=Exception&text=Exception" data-throw-if-not-resolved="False"/>
+    description: <p>to indicate failure. </p>
   summary: >-
     <p>Called by processor host to indicate that the event processor is being stopped. </p>
 

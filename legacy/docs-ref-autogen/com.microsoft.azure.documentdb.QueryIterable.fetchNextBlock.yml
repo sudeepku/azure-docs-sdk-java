@@ -6,10 +6,11 @@ members:
   name: fetchNextBlock()
   nameWithType: QueryIterable<T>.fetchNextBlock()
   exceptions:
-  - name: deb9d423
+  - type: <xref href="DocumentClientException?alt=DocumentClientException&text=DocumentClientException" data-throw-if-not-resolved="False"/>
+    description: <p>the document client exception. </p>
   returns:
     description: <p>the list of fetched resources. </p>
-    type: <xref href="List%3CT%3E?alt=List<T>&text=List%3CT%3E" data-throw-if-not-resolved="False"/>
+    type: <xref href="List<T>?alt=List<T>&text=List%3CT%3E" data-throw-if-not-resolved="False"/>
   summary: >-
     <p>Fetch the next block of query results.</p>
 

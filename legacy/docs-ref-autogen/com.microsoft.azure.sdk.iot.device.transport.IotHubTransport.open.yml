@@ -10,7 +10,8 @@ members:
     name: deviceClientConfigs
     type: Collection&lt;<xref href="com.microsoft.azure.sdk.iot.device.DeviceClientConfig?alt=com.microsoft.azure.sdk.iot.device.DeviceClientConfig&text=DeviceClientConfig" data-throw-if-not-resolved="False"/>&gt;
   exceptions:
-  - name: 884c4cdf
+  - type: <xref href="DeviceClientException?alt=DeviceClientException&text=DeviceClientException" data-throw-if-not-resolved="False"/>
+    description: <p>if a communication channel cannot be established. </p>
   summary: >-
     <p>Establishes a communication channel with an IoT Hub. If a channel is already open, the function shall do nothing.</p>
 

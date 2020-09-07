@@ -11,7 +11,8 @@ members:
     name: message
     type: <xref href="com.microsoft.azure.sdk.iot.device.Message?alt=com.microsoft.azure.sdk.iot.device.Message&text=Message" data-throw-if-not-resolved="False"/>
   exceptions:
-  - name: 848a9648
+  - type: <xref href="TransportException?alt=TransportException&text=TransportException" data-throw-if-not-resolved="False"/>
+    description: <p>if the MqttIotHubConnection is not open </p>
   returns:
     description: <p>the status code from sending the event message.</p>
     type: <xref href="com.microsoft.azure.sdk.iot.device.IotHubStatusCode?alt=com.microsoft.azure.sdk.iot.device.IotHubStatusCode&text=IotHubStatusCode" data-throw-if-not-resolved="False"/>

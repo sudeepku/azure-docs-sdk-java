@@ -6,7 +6,8 @@ members:
   name: getStatus()
   nameWithType: MethodParser.getStatus()
   exceptions:
-  - name: 3c87bd19
+  - type: <xref href="IllegalArgumentException?alt=IllegalArgumentException&text=IllegalArgumentException" data-throw-if-not-resolved="False"/>
+    description: <p>This exception is thrown if the operation is not type of `response`. </p>
   returns:
     description: >-
       <p>An integer with the status of the response. It can be<code>null 

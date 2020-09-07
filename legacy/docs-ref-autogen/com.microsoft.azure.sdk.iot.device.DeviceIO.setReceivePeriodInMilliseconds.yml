@@ -10,8 +10,10 @@ members:
     name: newIntervalInMilliseconds
     type: <xref href="long?alt=long&text=long" data-throw-if-not-resolved="False"/>
   exceptions:
-  - name: cbf33bbe
-  - name: 3c87bd19
+  - type: <xref href="IOException?alt=IOException&text=IOException" data-throw-if-not-resolved="False"/>
+    description: <p>if the task schedule exist but there is no receive task function to call. </p>
+  - type: <xref href="IllegalArgumentException?alt=IllegalArgumentException&text=IllegalArgumentException" data-throw-if-not-resolved="False"/>
+    description: <p>if the provided interval is invalid (zero or negative). </p>
   summary: >-
     <p>Setter for the receive period in milliseconds.</p>
 

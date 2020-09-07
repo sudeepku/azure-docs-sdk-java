@@ -8,12 +8,13 @@ members:
   parameters:
   - description: <p>Application's <xref uid="" data-throw-if-not-resolved="false">Context</xref>. The sdk requires the application context to be passed in <xref uid="com.microsoft.identity.client.PublicClientApplication" data-throw-if-not-resolved="false">PublicClientApplication</xref>. Cannot be null. </p>
     name: context
-    type: <xref href="%40NonNull+final+Context?alt=@NonNull final Context&text=%40NonNull+final+Context" data-throw-if-not-resolved="False"/>
+    type: <xref href="@NonNull final Context?alt=@NonNull final Context&text=%40NonNull+final+Context" data-throw-if-not-resolved="False"/>
   - description: <p>The file containing the JSON configuration for the PublicClientApplication. Cannot be null. </p>
     name: configFile
-    type: <xref href="%40Nullable+final+File?alt=@Nullable final File&text=%40Nullable+final+File" data-throw-if-not-resolved="False"/>
+    type: <xref href="@Nullable final File?alt=@Nullable final File&text=%40Nullable+final+File" data-throw-if-not-resolved="False"/>
   exceptions:
-  - name: 12fe80de
+  - type: <xref href="IllegalStateException?alt=IllegalStateException&text=IllegalStateException" data-throw-if-not-resolved="False"/>
+    description: <p>if this function is invoked on the main thread. </p>
   returns:
     description: <p>An instance of ISingleAccountPublicClientApplication. </p>
     type: <xref href="com.microsoft.identity.client.ISingleAccountPublicClientApplication?alt=com.microsoft.identity.client.ISingleAccountPublicClientApplication&text=ISingleAccountPublicClientApplication" data-throw-if-not-resolved="False"/>
@@ -41,12 +42,13 @@ members:
   parameters:
   - description: <p>Application's <xref uid="" data-throw-if-not-resolved="false">Context</xref>. The sdk requires the application context to be passed in <xref uid="com.microsoft.identity.client.PublicClientApplication" data-throw-if-not-resolved="false">PublicClientApplication</xref>. Cannot be null. </p>
     name: context
-    type: <xref href="%40NonNull+final+Context?alt=@NonNull final Context&text=%40NonNull+final+Context" data-throw-if-not-resolved="False"/>
+    type: <xref href="@NonNull final Context?alt=@NonNull final Context&text=%40NonNull+final+Context" data-throw-if-not-resolved="False"/>
   - description: <p>The resource ID of the raw file containing the JSON configuration for the PublicClientApplication. </p>
     name: configFileResourceId
-    type: <xref href="final+int?alt=final int&text=final+int" data-throw-if-not-resolved="False"/>
+    type: <xref href="final int?alt=final int&text=final+int" data-throw-if-not-resolved="False"/>
   exceptions:
-  - name: 12fe80de
+  - type: <xref href="IllegalStateException?alt=IllegalStateException&text=IllegalStateException" data-throw-if-not-resolved="False"/>
+    description: <p>if this function is invoked on the main thread. </p>
   returns:
     description: <p>An instance of ISingleAccountPublicClientApplication. </p>
     type: <xref href="com.microsoft.identity.client.ISingleAccountPublicClientApplication?alt=com.microsoft.identity.client.ISingleAccountPublicClientApplication&text=ISingleAccountPublicClientApplication" data-throw-if-not-resolved="False"/>
@@ -74,10 +76,10 @@ members:
   parameters:
   - description: <p>Application's <xref uid="" data-throw-if-not-resolved="false">Context</xref>. The sdk requires the application context to be passed in <xref uid="com.microsoft.identity.client.PublicClientApplication" data-throw-if-not-resolved="false">PublicClientApplication</xref>. Cannot be null. </p>
     name: context
-    type: <xref href="%40NonNull+final+Context?alt=@NonNull final Context&text=%40NonNull+final+Context" data-throw-if-not-resolved="False"/>
+    type: <xref href="@NonNull final Context?alt=@NonNull final Context&text=%40NonNull+final+Context" data-throw-if-not-resolved="False"/>
   - description: <p>The file containing the JSON configuration for the PublicClientApplication. Cannot be null. </p>
     name: configFile
-    type: <xref href="%40NonNull+final+File?alt=@NonNull final File&text=%40NonNull+final+File" data-throw-if-not-resolved="False"/>
+    type: <xref href="@NonNull final File?alt=@NonNull final File&text=%40NonNull+final+File" data-throw-if-not-resolved="False"/>
   - description: <p>a callback to be invoked when the object is successfully created. Cannot be null. </p>
     name: listener
     type: '@NonNull final <xref href="com.microsoft.identity.client.IPublicClientApplication.ISingleAccountApplicationCreatedListener?alt=com.microsoft.identity.client.IPublicClientApplication.ISingleAccountApplicationCreatedListener&text=IPublicClientApplication.ISingleAccountApplicationCreatedListener" data-throw-if-not-resolved="False"/>'
@@ -105,10 +107,10 @@ members:
   parameters:
   - description: <p>Application's <xref uid="" data-throw-if-not-resolved="false">Context</xref>. The sdk requires the application context to be passed in <xref uid="com.microsoft.identity.client.PublicClientApplication" data-throw-if-not-resolved="false">PublicClientApplication</xref>. Cannot be null. </p>
     name: context
-    type: <xref href="%40NonNull+final+Context?alt=@NonNull final Context&text=%40NonNull+final+Context" data-throw-if-not-resolved="False"/>
+    type: <xref href="@NonNull final Context?alt=@NonNull final Context&text=%40NonNull+final+Context" data-throw-if-not-resolved="False"/>
   - description: <p>The resource ID of the raw file containing the JSON configuration for the PublicClientApplication. </p>
     name: configFileResourceId
-    type: <xref href="final+int?alt=final int&text=final+int" data-throw-if-not-resolved="False"/>
+    type: <xref href="final int?alt=final int&text=final+int" data-throw-if-not-resolved="False"/>
   - description: <p>a callback to be invoked when the object is successfully created. Cannot be null. </p>
     name: listener
     type: '@NonNull final <xref href="com.microsoft.identity.client.IPublicClientApplication.ISingleAccountApplicationCreatedListener?alt=com.microsoft.identity.client.IPublicClientApplication.ISingleAccountApplicationCreatedListener&text=IPublicClientApplication.ISingleAccountApplicationCreatedListener" data-throw-if-not-resolved="False"/>'

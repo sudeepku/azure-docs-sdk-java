@@ -6,8 +6,10 @@ members:
   name: refreshSasToken()
   nameWithType: IotHubSasTokenHsmAuthenticationProvider.refreshSasToken()
   exceptions:
-  - name: cbf33bbe
-  - name: 848a9648
+  - type: <xref href="IOException?alt=IOException&text=IOException" data-throw-if-not-resolved="False"/>
+    description: <p>If the Hsm unit cannot be reached </p>
+  - type: <xref href="TransportException?alt=TransportException&text=TransportException" data-throw-if-not-resolved="False"/>
+    description: <p>If the Hsm unit cannot be reached </p>
   summary: <p>Renew the saved sas token using the HSM unit </p>
   syntax: public void refreshSasToken()
   uid: com.microsoft.azure.sdk.iot.device.hsm.IotHubSasTokenHsmAuthenticationProvider.refreshSasToken()

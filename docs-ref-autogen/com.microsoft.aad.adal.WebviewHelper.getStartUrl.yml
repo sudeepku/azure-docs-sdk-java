@@ -6,7 +6,8 @@ members:
   name: getStartUrl()
   nameWithType: WebviewHelper.getStartUrl()
   exceptions:
-  - name: d5427e37
+  - type: <xref href="UnsupportedEncodingException?alt=UnsupportedEncodingException&text=UnsupportedEncodingException" data-throw-if-not-resolved="False"/>
+    description: <p>if the url is malformed </p>
   returns:
     description: <p>Url </p>
     type: <xref href="String?alt=String&text=String" data-throw-if-not-resolved="False"/>

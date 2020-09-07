@@ -14,7 +14,7 @@ members:
     name: copyContext
     type: <xref href="system.fabric.OperationDataStream?alt=system.fabric.OperationDataStream&text=OperationDataStream" data-throw-if-not-resolved="False"/>
   exceptions:
-  - name: 12fe80de
+  - type: <xref href="IllegalStateException?alt=IllegalStateException&text=IllegalStateException" data-throw-if-not-resolved="False"/>
   returns:
     description: <p>Returns <xref uid="" data-throw-if-not-resolved="false">OperationDataStream</xref>. </p>
     type: <xref href="system.fabric.OperationDataStream?alt=system.fabric.OperationDataStream&text=OperationDataStream" data-throw-if-not-resolved="False"/>

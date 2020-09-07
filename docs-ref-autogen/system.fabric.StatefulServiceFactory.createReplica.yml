@@ -14,7 +14,7 @@ members:
     type: <xref href="URI?alt=URI&text=URI" data-throw-if-not-resolved="False"/>
   - description: <p>A byte array that contains the initialization data which was originally passed as a part of this service's service description. </p>
     name: initializationData
-    type: <xref href="byte+%5B%5D?alt=byte []&text=byte+%5B%5D" data-throw-if-not-resolved="False"/>
+    type: <xref href="byte []?alt=byte []&text=byte+%5B%5D" data-throw-if-not-resolved="False"/>
   - description: <p>The partition ID of type, a GUID, with which this replica is associated. </p>
     name: partitionId
     type: <xref href="UUID?alt=UUID&text=UUID" data-throw-if-not-resolved="False"/>
@@ -22,8 +22,10 @@ members:
     name: replicaId
     type: <xref href="long?alt=long&text=long" data-throw-if-not-resolved="False"/>
   exceptions:
-  - name: 84fa3863
-  - name: "81e09942"
+  - type: <xref href="InstantiationException?alt=InstantiationException&text=InstantiationException" data-throw-if-not-resolved="False"/>
+    description: <p>On failure of instance creation </p>
+  - type: <xref href="IllegalAccessException?alt=IllegalAccessException&text=IllegalAccessException" data-throw-if-not-resolved="False"/>
+    description: <p>On Access voilation </p>
   returns:
     description: <p>Returns <xref uid="system.fabric.StatefulServiceReplica" data-throw-if-not-resolved="false">system.fabric.StatefulServiceReplica</xref>. </p>
     type: <xref href="system.fabric.StatefulServiceReplica?alt=system.fabric.StatefulServiceReplica&text=StatefulServiceReplica" data-throw-if-not-resolved="False"/>

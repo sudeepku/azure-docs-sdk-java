@@ -14,8 +14,13 @@ members:
     name: result
     type: <xref href="com.microsoft.azure.sdk.iot.device.IotHubMessageResult?alt=com.microsoft.azure.sdk.iot.device.IotHubMessageResult&text=IotHubMessageResult" data-throw-if-not-resolved="False"/>
   exceptions:
-  - name: 848a9648
-  - name: 848a9648
+  - type: <xref href="TransportException?alt=TransportException&text=TransportException" data-throw-if-not-resolved="False"/>
+    description: >-
+      <p>if<code>sendMessageResult 
+
+          </code> is called before <xref uid="com.microsoft.azure.sdk.iot.device.transport.https.HttpsIotHubConnection.receiveMessage()" data-throw-if-not-resolved="false">receiveMessage()</xref> is called. </p>
+  - type: <xref href="TransportException?alt=TransportException&text=TransportException" data-throw-if-not-resolved="False"/>
+    description: <p>if the IoT Hub could not be reached. </p>
   returns:
     type: <xref href="boolean?alt=boolean&text=boolean" data-throw-if-not-resolved="False"/>
   summary: >-

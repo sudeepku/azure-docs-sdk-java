@@ -10,7 +10,8 @@ members:
     name: authentication
     type: <xref href="com.microsoft.azure.sdk.iot.deps.serializer.AuthenticationParser?alt=com.microsoft.azure.sdk.iot.deps.serializer.AuthenticationParser&text=AuthenticationParser" data-throw-if-not-resolved="False"/>
   exceptions:
-  - name: 3c87bd19
+  - type: <xref href="IllegalArgumentException?alt=IllegalArgumentException&text=IllegalArgumentException" data-throw-if-not-resolved="False"/>
+    description: <p>if authentication is null </p>
   summary: <p>Setter for authentication </p>
   syntax: public void setAuthentication(AuthenticationParser authentication)
   uid: com.microsoft.azure.sdk.iot.deps.serializer.ExportImportDeviceParser.setAuthentication(AuthenticationParser)

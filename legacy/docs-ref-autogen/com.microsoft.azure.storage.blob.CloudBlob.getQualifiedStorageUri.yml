@@ -6,8 +6,10 @@ members:
   name: getQualifiedStorageUri()
   nameWithType: CloudBlob.getQualifiedStorageUri()
   exceptions:
-  - name: ca4f407a
-  - name: "44102508"
+  - type: <xref href="StorageException?alt=StorageException&text=StorageException" data-throw-if-not-resolved="False"/>
+    description: <p>If a storage service error occurred. </p>
+  - type: <xref href="URISyntaxException?alt=URISyntaxException&text=URISyntaxException" data-throw-if-not-resolved="False"/>
+    description: <p>If the resource URI is invalid. </p>
   returns:
     description: <p>A <xref uid="com.microsoft.azure.storage.StorageUri" data-throw-if-not-resolved="false">StorageUri</xref> object that represents the snapshot or shared access signature.</p>
     type: final <xref href="com.microsoft.azure.storage.StorageUri?alt=com.microsoft.azure.storage.StorageUri&text=StorageUri" data-throw-if-not-resolved="False"/>

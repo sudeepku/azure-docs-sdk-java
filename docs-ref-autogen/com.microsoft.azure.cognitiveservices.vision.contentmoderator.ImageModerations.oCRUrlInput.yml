@@ -31,9 +31,12 @@ members:
     name: oCRUrlInputOptionalParameter
     type: <xref href="com.microsoft.azure.cognitiveservices.vision.contentmoderator.models.OCRUrlInputOptionalParameter?alt=com.microsoft.azure.cognitiveservices.vision.contentmoderator.models.OCRUrlInputOptionalParameter&text=OCRUrlInputOptionalParameter" data-throw-if-not-resolved="False"/>
   exceptions:
-  - name: 3c87bd19
-  - name: 3690e14b
-  - name: 9b2a4515
+  - type: <xref href="IllegalArgumentException?alt=IllegalArgumentException&text=IllegalArgumentException" data-throw-if-not-resolved="False"/>
+    description: <p>thrown if parameters fail the validation </p>
+  - type: <xref href="APIErrorException?alt=APIErrorException&text=APIErrorException" data-throw-if-not-resolved="False"/>
+    description: <p>thrown if the request is rejected by server </p>
+  - type: <xref href="RuntimeException?alt=RuntimeException&text=RuntimeException" data-throw-if-not-resolved="False"/>
+    description: <p>all other wrapped checked exceptions if the request fails to be sent </p>
   returns:
     description: <p>the OCR object if successful. </p>
     type: <xref href="com.microsoft.azure.cognitiveservices.vision.contentmoderator.models.OCR?alt=com.microsoft.azure.cognitiveservices.vision.contentmoderator.models.OCR&text=OCR" data-throw-if-not-resolved="False"/>

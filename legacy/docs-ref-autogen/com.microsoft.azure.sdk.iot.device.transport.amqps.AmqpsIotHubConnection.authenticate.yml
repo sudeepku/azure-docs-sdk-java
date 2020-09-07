@@ -6,7 +6,8 @@ members:
   name: authenticate()
   nameWithType: AmqpsIotHubConnection.authenticate()
   exceptions:
-  - name: 848a9648
+  - type: <xref href="TransportException?alt=TransportException&text=TransportException" data-throw-if-not-resolved="False"/>
+    description: <p>if authentication open throws. </p>
   summary: >-
     <p>Starts the authentication by calling the AmqpsSessionManager.</p>
 

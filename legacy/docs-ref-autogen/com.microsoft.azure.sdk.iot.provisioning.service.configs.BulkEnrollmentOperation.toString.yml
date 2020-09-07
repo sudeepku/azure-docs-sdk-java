@@ -13,7 +13,8 @@ members:
     name: individualEnrollments
     type: Collection&lt;<xref href="com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollment?alt=com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollment&text=IndividualEnrollment" data-throw-if-not-resolved="False"/>&gt;
   exceptions:
-  - name: 3c87bd19
+  - type: <xref href="IllegalArgumentException?alt=IllegalArgumentException&text=IllegalArgumentException" data-throw-if-not-resolved="False"/>
+    description: <p>if one of the parameters is invalid. </p>
   returns:
     description: >-
       <p>The<code>String 

@@ -13,7 +13,8 @@ members:
     name: x509Certificates
     type: <xref href="com.microsoft.azure.sdk.iot.provisioning.service.configs.X509Certificates?alt=com.microsoft.azure.sdk.iot.provisioning.service.configs.X509Certificates&text=X509Certificates" data-throw-if-not-resolved="False"/>
   exceptions:
-  - name: 3c87bd19
+  - type: <xref href="IllegalArgumentException?alt=IllegalArgumentException&text=IllegalArgumentException" data-throw-if-not-resolved="False"/>
+    description: <p>if the provided x509Certificates is null or if its primary certificate is null. </p>
   summary: >-
     <p>Constructor [COPY]</p>
 

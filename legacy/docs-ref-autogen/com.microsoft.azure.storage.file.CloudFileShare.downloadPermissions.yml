@@ -6,7 +6,8 @@ members:
   name: downloadPermissions()
   nameWithType: CloudFileShare.downloadPermissions()
   exceptions:
-  - name: ca4f407a
+  - type: <xref href="StorageException?alt=StorageException&text=StorageException" data-throw-if-not-resolved="False"/>
+    description: <p>If a storage service error occurred. </p>
   returns:
     description: <p>A <xref uid="com.microsoft.azure.storage.file.FileSharePermissions" data-throw-if-not-resolved="false">FileSharePermissions</xref> object that represents the share's permissions.</p>
     type: <xref href="com.microsoft.azure.storage.file.FileSharePermissions?alt=com.microsoft.azure.storage.file.FileSharePermissions&text=FileSharePermissions" data-throw-if-not-resolved="False"/>
@@ -30,7 +31,8 @@ members:
     name: opContext
     type: <xref href="com.microsoft.azure.storage.OperationContext?alt=com.microsoft.azure.storage.OperationContext&text=OperationContext" data-throw-if-not-resolved="False"/>
   exceptions:
-  - name: ca4f407a
+  - type: <xref href="StorageException?alt=StorageException&text=StorageException" data-throw-if-not-resolved="False"/>
+    description: <p>If a storage service error occurred. </p>
   returns:
     description: <p>A <xref uid="com.microsoft.azure.storage.file.FileSharePermissions" data-throw-if-not-resolved="false">FileSharePermissions</xref> object that represents the share's permissions.</p>
     type: <xref href="com.microsoft.azure.storage.file.FileSharePermissions?alt=com.microsoft.azure.storage.file.FileSharePermissions&text=FileSharePermissions" data-throw-if-not-resolved="False"/>

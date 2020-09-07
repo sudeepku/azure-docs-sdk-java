@@ -6,8 +6,10 @@ members:
   name: next()
   nameWithType: QueryCollection.next()
   exceptions:
-  - name: cbf33bbe
-  - name: 0d494ee6
+  - type: <xref href="IOException?alt=IOException&text=IOException" data-throw-if-not-resolved="False"/>
+    description: <p>If an IOException occurs when calling the Service API, or if the results of that call are unexpected </p>
+  - type: <xref href="IotHubException?alt=IotHubException&text=IotHubException" data-throw-if-not-resolved="False"/>
+    description: <p>If an IotHubException occurs when calling the Service API </p>
   returns:
     description: <p>The next QueryCollectionResponse object or null if there is not a next QueryCollectionResponse object </p>
     type: <xref href="com.microsoft.azure.sdk.iot.service.devicetwin.QueryCollectionResponse?alt=com.microsoft.azure.sdk.iot.service.devicetwin.QueryCollectionResponse&text=QueryCollectionResponse" data-throw-if-not-resolved="False"/>&lt;String&gt;
@@ -22,8 +24,10 @@ members:
     name: options
     type: <xref href="com.microsoft.azure.sdk.iot.service.devicetwin.QueryOptions?alt=com.microsoft.azure.sdk.iot.service.devicetwin.QueryOptions&text=QueryOptions" data-throw-if-not-resolved="False"/>
   exceptions:
-  - name: cbf33bbe
-  - name: 0d494ee6
+  - type: <xref href="IOException?alt=IOException&text=IOException" data-throw-if-not-resolved="False"/>
+    description: <p>If an IOException occurs when calling the Service API, or if the results of that call are unexpected </p>
+  - type: <xref href="IotHubException?alt=IotHubException&text=IotHubException" data-throw-if-not-resolved="False"/>
+    description: <p>If an IotHubException occurs when calling the Service API </p>
   returns:
     description: <p>The next QueryCollectionResponse object or null if there is no next QueryCollectionResponse object </p>
     type: <xref href="com.microsoft.azure.sdk.iot.service.devicetwin.QueryCollectionResponse?alt=com.microsoft.azure.sdk.iot.service.devicetwin.QueryCollectionResponse&text=QueryCollectionResponse" data-throw-if-not-resolved="False"/>&lt;String&gt;

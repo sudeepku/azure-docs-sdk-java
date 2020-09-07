@@ -8,10 +8,12 @@ members:
   parameters:
   - description: <p>A <code>long</code> which represents the size, in bytes, of the page blob.</p>
     name: length
-    type: <xref href="final+long?alt=final long&text=final+long" data-throw-if-not-resolved="False"/>
+    type: <xref href="final long?alt=final long&text=final+long" data-throw-if-not-resolved="False"/>
   exceptions:
-  - name: 3c87bd19
-  - name: ca4f407a
+  - type: <xref href="IllegalArgumentException?alt=IllegalArgumentException&text=IllegalArgumentException" data-throw-if-not-resolved="False"/>
+    description: <p>If the length is not a multiple of 512. </p>
+  - type: <xref href="StorageException?alt=StorageException&text=StorageException" data-throw-if-not-resolved="False"/>
+    description: <p>If a storage service error occurred. </p>
   summary: <p>Creates a page blob. If the blob already exists, this will replace it. To instead throw an error if the blob already exists, use the <xref uid="com.microsoft.azure.storage.blob.CloudPageBlob.create(final long,final AccessCondition,BlobRequestOptions,OperationContext)" data-throw-if-not-resolved="false">create(long, AccessCondition, BlobRequestOptions, OperationContext)</xref> overload with <xref uid="com.microsoft.azure.storage.AccessCondition.generateIfNotExistsCondition()" data-throw-if-not-resolved="false">AccessCondition#generateIfNotExistsCondition()</xref>. </p>
   syntax: public void create(final long length)
   uid: com.microsoft.azure.storage.blob.CloudPageBlob.create(final long)
@@ -21,7 +23,7 @@ members:
   parameters:
   - description: <p>A <code>long</code> which represents the size, in bytes, of the page blob. </p>
     name: length
-    type: <xref href="final+long?alt=final long&text=final+long" data-throw-if-not-resolved="False"/>
+    type: <xref href="final long?alt=final long&text=final+long" data-throw-if-not-resolved="False"/>
   - description: <p>An <xref uid="com.microsoft.azure.storage.AccessCondition" data-throw-if-not-resolved="false">AccessCondition</xref> object which represents the access conditions for the blob. </p>
     name: accessCondition
     type: final <xref href="com.microsoft.azure.storage.AccessCondition?alt=com.microsoft.azure.storage.AccessCondition&text=AccessCondition" data-throw-if-not-resolved="False"/>
@@ -32,8 +34,10 @@ members:
     name: opContext
     type: <xref href="com.microsoft.azure.storage.OperationContext?alt=com.microsoft.azure.storage.OperationContext&text=OperationContext" data-throw-if-not-resolved="False"/>
   exceptions:
-  - name: 3c87bd19
-  - name: ca4f407a
+  - type: <xref href="IllegalArgumentException?alt=IllegalArgumentException&text=IllegalArgumentException" data-throw-if-not-resolved="False"/>
+    description: <p>If the length is not a multiple of 512.</p>
+  - type: <xref href="StorageException?alt=StorageException&text=StorageException" data-throw-if-not-resolved="False"/>
+    description: <p>If a storage service error occurred. </p>
   summary: >-
     <p>Creates a page blob using the specified request options and operation context. If the blob already exists, this will replace it. To instead throw an error if the blob already exists, use <xref uid="com.microsoft.azure.storage.AccessCondition.generateIfNotExistsCondition()" data-throw-if-not-resolved="false">AccessCondition#generateIfNotExistsCondition()</xref>.</p>
 
@@ -46,7 +50,7 @@ members:
   parameters:
   - description: <p>A <code>long</code> which represents the size, in bytes, of the page blob. </p>
     name: length
-    type: <xref href="final+long?alt=final long&text=final+long" data-throw-if-not-resolved="False"/>
+    type: <xref href="final long?alt=final long&text=final+long" data-throw-if-not-resolved="False"/>
   - description: <p>A <xref uid="com.microsoft.azure.storage.blob.PremiumPageBlobTier" data-throw-if-not-resolved="false">PremiumPageBlobTier</xref> object which represents the tier of the blob. </p>
     name: premiumBlobTier
     type: final <xref href="com.microsoft.azure.storage.blob.PremiumPageBlobTier?alt=com.microsoft.azure.storage.blob.PremiumPageBlobTier&text=PremiumPageBlobTier" data-throw-if-not-resolved="False"/>
@@ -60,8 +64,10 @@ members:
     name: opContext
     type: <xref href="com.microsoft.azure.storage.OperationContext?alt=com.microsoft.azure.storage.OperationContext&text=OperationContext" data-throw-if-not-resolved="False"/>
   exceptions:
-  - name: 3c87bd19
-  - name: ca4f407a
+  - type: <xref href="IllegalArgumentException?alt=IllegalArgumentException&text=IllegalArgumentException" data-throw-if-not-resolved="False"/>
+    description: <p>If the length is not a multiple of 512.</p>
+  - type: <xref href="StorageException?alt=StorageException&text=StorageException" data-throw-if-not-resolved="False"/>
+    description: <p>If a storage service error occurred. </p>
   summary: >-
     <p>Creates a page blob using the specified request options and operation context. If the blob already exists, this will replace it. To instead throw an error if the blob already exists, use <xref uid="com.microsoft.azure.storage.AccessCondition.generateIfNotExistsCondition()" data-throw-if-not-resolved="false">AccessCondition#generateIfNotExistsCondition()</xref>.</p>
 

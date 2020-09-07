@@ -6,7 +6,8 @@ members:
   name: next()
   nameWithType: Query.next()
   exceptions:
-  - name: 05807805
+  - type: <xref href="NoSuchElementException?alt=NoSuchElementException&text=NoSuchElementException" data-throw-if-not-resolved="False"/>
+    description: <p>if the query does no have more pages to return. </p>
   returns:
     description: <p>A <xref uid="" data-throw-if-not-resolved="false">QueryResult</xref> with the next page of items for the query. </p>
     type: <xref href="com.microsoft.azure.sdk.iot.provisioning.service.configs.QueryResult?alt=com.microsoft.azure.sdk.iot.provisioning.service.configs.QueryResult&text=QueryResult" data-throw-if-not-resolved="False"/>
@@ -29,7 +30,8 @@ members:
     name: continuationToken
     type: <xref href="String?alt=String&text=String" data-throw-if-not-resolved="False"/>
   exceptions:
-  - name: 05807805
+  - type: <xref href="NoSuchElementException?alt=NoSuchElementException&text=NoSuchElementException" data-throw-if-not-resolved="False"/>
+    description: <p>if the query does no have more pages to return. </p>
   returns:
     description: <p>A <xref uid="" data-throw-if-not-resolved="false">QueryResult</xref> with the next page of items for the query. </p>
     type: <xref href="com.microsoft.azure.sdk.iot.provisioning.service.configs.QueryResult?alt=com.microsoft.azure.sdk.iot.provisioning.service.configs.QueryResult&text=QueryResult" data-throw-if-not-resolved="False"/>

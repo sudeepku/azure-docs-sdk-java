@@ -19,7 +19,8 @@ members:
     name: authenticationType
     type: <xref href="com.microsoft.azure.sdk.iot.service.auth.AuthenticationType?alt=com.microsoft.azure.sdk.iot.service.auth.AuthenticationType&text=AuthenticationType" data-throw-if-not-resolved="False"/>
   exceptions:
-  - name: 3c87bd19
+  - type: <xref href="IllegalArgumentException?alt=IllegalArgumentException&text=IllegalArgumentException" data-throw-if-not-resolved="False"/>
+    description: <p>if the provided deviceId or authenticationType is null or empty </p>
   summary: <p>Constructor for an ExportImportDevice object. </p>
   syntax: public ExportImportDevice(String deviceId, AuthenticationType authenticationType)
   uid: com.microsoft.azure.sdk.iot.service.ExportImportDevice.ExportImportDevice(String,AuthenticationType)

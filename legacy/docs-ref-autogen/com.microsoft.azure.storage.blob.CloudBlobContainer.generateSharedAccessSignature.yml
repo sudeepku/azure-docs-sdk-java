@@ -11,10 +11,12 @@ members:
     type: final <xref href="com.microsoft.azure.storage.blob.SharedAccessBlobPolicy?alt=com.microsoft.azure.storage.blob.SharedAccessBlobPolicy&text=SharedAccessBlobPolicy" data-throw-if-not-resolved="False"/>
   - description: <p>A <code>String</code> which represents the container-level access policy.</p>
     name: groupPolicyIdentifier
-    type: <xref href="final+String?alt=final String&text=final+String" data-throw-if-not-resolved="False"/>
+    type: <xref href="final String?alt=final String&text=final+String" data-throw-if-not-resolved="False"/>
   exceptions:
-  - name: ca4f407a
-  - name: e333ca4f
+  - type: <xref href="StorageException?alt=StorageException&text=StorageException" data-throw-if-not-resolved="False"/>
+    description: <p>If a storage service error occurred. </p>
+  - type: <xref href="InvalidKeyException?alt=InvalidKeyException&text=InvalidKeyException" data-throw-if-not-resolved="False"/>
+    description: <p>If the key is invalid. </p>
   returns:
     description: <p>A <code>String</code> which represents a shared access signature for the container.</p>
     type: <xref href="String?alt=String&text=String" data-throw-if-not-resolved="False"/>
@@ -33,7 +35,7 @@ members:
     type: final <xref href="com.microsoft.azure.storage.blob.SharedAccessBlobPolicy?alt=com.microsoft.azure.storage.blob.SharedAccessBlobPolicy&text=SharedAccessBlobPolicy" data-throw-if-not-resolved="False"/>
   - description: <p>A <code>String</code> which represents the container-level access policy. </p>
     name: groupPolicyIdentifier
-    type: <xref href="final+String?alt=final String&text=final+String" data-throw-if-not-resolved="False"/>
+    type: <xref href="final String?alt=final String&text=final+String" data-throw-if-not-resolved="False"/>
   - description: <p>A <xref uid="com.microsoft.azure.storage.IPRange" data-throw-if-not-resolved="false">IPRange</xref> object containing the range of allowed IP addresses. </p>
     name: ipRange
     type: final <xref href="com.microsoft.azure.storage.IPRange?alt=com.microsoft.azure.storage.IPRange&text=IPRange" data-throw-if-not-resolved="False"/>
@@ -41,8 +43,10 @@ members:
     name: protocols
     type: final <xref href="com.microsoft.azure.storage.SharedAccessProtocols?alt=com.microsoft.azure.storage.SharedAccessProtocols&text=SharedAccessProtocols" data-throw-if-not-resolved="False"/>
   exceptions:
-  - name: ca4f407a
-  - name: e333ca4f
+  - type: <xref href="StorageException?alt=StorageException&text=StorageException" data-throw-if-not-resolved="False"/>
+    description: <p>If a storage service error occurred. </p>
+  - type: <xref href="InvalidKeyException?alt=InvalidKeyException&text=InvalidKeyException" data-throw-if-not-resolved="False"/>
+    description: <p>If the key is invalid. </p>
   returns:
     description: <p>A <code>String</code> which represents a shared access signature for the container.</p>
     type: <xref href="String?alt=String&text=String" data-throw-if-not-resolved="False"/>

@@ -10,7 +10,8 @@ members:
     name: device
     type: <xref href="com.microsoft.azure.sdk.iot.service.devicetwin.DeviceTwinDevice?alt=com.microsoft.azure.sdk.iot.service.devicetwin.DeviceTwinDevice&text=DeviceTwinDevice" data-throw-if-not-resolved="False"/>
   exceptions:
-  - name: b1c38b44
+  - type: <xref href="UnsupportedOperationException?alt=UnsupportedOperationException&text=UnsupportedOperationException" data-throw-if-not-resolved="False"/>
+    description: <p>This exception is always thrown. </p>
   summary: >-
     <p>This method updates desired properties for the specified device.</p>
 

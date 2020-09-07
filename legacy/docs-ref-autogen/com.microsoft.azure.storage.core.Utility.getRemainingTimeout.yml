@@ -13,7 +13,8 @@ members:
     name: timeoutIntervalInMs
     type: <xref href="Integer?alt=Integer&text=Integer" data-throw-if-not-resolved="False"/>
   exceptions:
-  - name: ca4f407a
+  - type: <xref href="StorageException?alt=StorageException&text=StorageException" data-throw-if-not-resolved="False"/>
+    description: <p>wraps a TimeoutException if there is no more time remaining </p>
   returns:
     description: <p>the remaining time before the operation expires </p>
     type: <xref href="int?alt=int&text=int" data-throw-if-not-resolved="False"/>

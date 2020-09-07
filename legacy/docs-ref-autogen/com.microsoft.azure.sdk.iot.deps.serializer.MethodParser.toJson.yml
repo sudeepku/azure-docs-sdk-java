@@ -6,7 +6,8 @@ members:
   name: toJson()
   nameWithType: MethodParser.toJson()
   exceptions:
-  - name: 3c87bd19
+  - type: <xref href="IllegalArgumentException?alt=IllegalArgumentException&text=IllegalArgumentException" data-throw-if-not-resolved="False"/>
+    description: <p>This exception is thrown if the one of the provided information do not fits the requirements. </p>
   returns:
     description: <p>String with the json content. </p>
     type: <xref href="String?alt=String&text=String" data-throw-if-not-resolved="False"/>

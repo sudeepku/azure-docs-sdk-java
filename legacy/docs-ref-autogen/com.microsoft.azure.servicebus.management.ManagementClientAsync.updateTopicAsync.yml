@@ -10,7 +10,8 @@ members:
     name: topicDescription
     type: <xref href="com.microsoft.azure.servicebus.management.TopicDescription?alt=com.microsoft.azure.servicebus.management.TopicDescription&text=TopicDescription" data-throw-if-not-resolved="False"/>
   exceptions:
-  - name: 3c87bd19
+  - type: <xref href="IllegalArgumentException?alt=IllegalArgumentException&text=IllegalArgumentException" data-throw-if-not-resolved="False"/>
+    description: <p>- descriptor is null. </p>
   returns:
     description: >-
       <p>

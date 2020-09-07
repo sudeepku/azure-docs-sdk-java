@@ -10,8 +10,10 @@ members:
     name: sqlQuery
     type: <xref href="String?alt=String&text=String" data-throw-if-not-resolved="False"/>
   exceptions:
-  - name: 0d494ee6
-  - name: cbf33bbe
+  - type: <xref href="IotHubException?alt=IotHubException&text=IotHubException" data-throw-if-not-resolved="False"/>
+    description: <p>If IotHub did not respond successfully to the query </p>
+  - type: <xref href="IOException?alt=IOException&text=IOException" data-throw-if-not-resolved="False"/>
+    description: <p>If any of the input parameters are incorrect </p>
   returns:
     description: <p>Object for the query </p>
     type: synchronized <xref href="com.microsoft.azure.sdk.iot.service.devicetwin.Query?alt=com.microsoft.azure.sdk.iot.service.devicetwin.Query&text=Query" data-throw-if-not-resolved="False"/>
@@ -29,8 +31,10 @@ members:
     name: pageSize
     type: <xref href="Integer?alt=Integer&text=Integer" data-throw-if-not-resolved="False"/>
   exceptions:
-  - name: 0d494ee6
-  - name: cbf33bbe
+  - type: <xref href="IotHubException?alt=IotHubException&text=IotHubException" data-throw-if-not-resolved="False"/>
+    description: <p>If IotHub did not respond successfully to the query </p>
+  - type: <xref href="IOException?alt=IOException&text=IOException" data-throw-if-not-resolved="False"/>
+    description: <p>If any of the input parameters are incorrect </p>
   returns:
     description: <p>Object for the query </p>
     type: synchronized <xref href="com.microsoft.azure.sdk.iot.service.devicetwin.Query?alt=com.microsoft.azure.sdk.iot.service.devicetwin.Query&text=Query" data-throw-if-not-resolved="False"/>

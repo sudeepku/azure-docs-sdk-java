@@ -19,7 +19,8 @@ members:
     name: useWebSockets
     type: <xref href="boolean?alt=boolean&text=boolean" data-throw-if-not-resolved="False"/>
   exceptions:
-  - name: 1e2d9f84
+  - type: <xref href="ProvisioningDeviceConnectionException?alt=ProvisioningDeviceConnectionException&text=ProvisioningDeviceConnectionException" data-throw-if-not-resolved="False"/>
+    description: <p>if connection could not succeed for any reason. </p>
   summary: <p>Opens the Amqp connection </p>
   syntax: public void open(String registrationId, SSLContext sslContext, SaslHandler saslHandler, boolean useWebSockets)
   uid: com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.amqp.ProvisioningAmqpOperations.open(String,SSLContext,SaslHandler,boolean)

@@ -10,9 +10,15 @@ members:
     name: connectionString
     type: <xref href="String?alt=String&text=String" data-throw-if-not-resolved="False"/>
   exceptions:
-  - name: 3c87bd19
-  - name: 836e31af
-  - name: "44102508"
+  - type: <xref href="IllegalArgumentException?alt=IllegalArgumentException&text=IllegalArgumentException" data-throw-if-not-resolved="False"/>
+    description: >-
+      <p>if the provided connectionString is<code>null 
+
+          </code> , empty, or not valid or if the hostName in the connection string is not a valid URI. </p>
+  - type: <xref href="SecurityException?alt=SecurityException&text=SecurityException" data-throw-if-not-resolved="False"/>
+    description: <p>if the provided connection string contains an expired sas token </p>
+  - type: <xref href="URISyntaxException?alt=URISyntaxException&text=URISyntaxException" data-throw-if-not-resolved="False"/>
+    description: <p>if the hostname is not a valid URI </p>
   summary: >-
     <p>CONSTRUCTOR.</p>
 
@@ -36,8 +42,10 @@ members:
     name: sharedAccessToken
     type: <xref href="String?alt=String&text=String" data-throw-if-not-resolved="False"/>
   exceptions:
-  - name: 3c87bd19
-  - name: "44102508"
+  - type: <xref href="IllegalArgumentException?alt=IllegalArgumentException&text=IllegalArgumentException" data-throw-if-not-resolved="False"/>
+    description: <p>if the IoT Hub hostname does not contain a valid IoT Hub name as its prefix or if the IoT Hub hostname does not conform to RFC 3986. </p>
+  - type: <xref href="URISyntaxException?alt=URISyntaxException&text=URISyntaxException" data-throw-if-not-resolved="False"/>
+    description: <p>if the hostname is not a valid URI </p>
   summary: >-
     <p>Constructor.</p>
 

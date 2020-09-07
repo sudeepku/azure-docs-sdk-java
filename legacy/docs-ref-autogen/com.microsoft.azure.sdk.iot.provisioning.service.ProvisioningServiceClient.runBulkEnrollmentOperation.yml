@@ -19,9 +19,12 @@ members:
     name: individualEnrollments
     type: Collection&lt;<xref href="com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollment?alt=com.microsoft.azure.sdk.iot.provisioning.service.configs.IndividualEnrollment&text=IndividualEnrollment" data-throw-if-not-resolved="False"/>&gt;
   exceptions:
-  - name: 3c87bd19
-  - name: 637b6540
-  - name: 407b0ee3
+  - type: <xref href="IllegalArgumentException?alt=IllegalArgumentException&text=IllegalArgumentException" data-throw-if-not-resolved="False"/>
+    description: <p>if the provided parameters are not correct. </p>
+  - type: <xref href="ProvisioningServiceClientTransportException?alt=ProvisioningServiceClientTransportException&text=ProvisioningServiceClientTransportException" data-throw-if-not-resolved="False"/>
+    description: <p>if the SDK failed to send the request to the Device Provisioning Service. </p>
+  - type: <xref href="ProvisioningServiceClientException?alt=ProvisioningServiceClientException&text=ProvisioningServiceClientException" data-throw-if-not-resolved="False"/>
+    description: <p>if the Device Provisioning Service was not able to execute the bulk operation. </p>
   returns:
     description: <p>A <xref uid="" data-throw-if-not-resolved="false">BulkEnrollmentOperationResult</xref> object with the result of operation for each enrollment. </p>
     type: <xref href="com.microsoft.azure.sdk.iot.provisioning.service.configs.BulkEnrollmentOperationResult?alt=com.microsoft.azure.sdk.iot.provisioning.service.configs.BulkEnrollmentOperationResult&text=BulkEnrollmentOperationResult" data-throw-if-not-resolved="False"/>

@@ -6,10 +6,11 @@ members:
   name: getStorageRootKey()
   nameWithType: SecurityProviderTPMEmulator.getStorageRootKey()
   exceptions:
-  - name: f44c259f
+  - type: <xref href="SecurityProviderException?alt=SecurityProviderException&text=SecurityProviderException" data-throw-if-not-resolved="False"/>
+    description: <p>If StorageRootKey could not be extracted. </p>
   returns:
     description: <p>The StorageRootKey from TPM </p>
-    type: <xref href="byte+%5B%5D?alt=byte []&text=byte+%5B%5D" data-throw-if-not-resolved="False"/>
+    type: <xref href="byte []?alt=byte []&text=byte+%5B%5D" data-throw-if-not-resolved="False"/>
   summary: <p>Getter for extracting StorageRootKey from TPM </p>
   syntax: public byte [] getStorageRootKey()
   uid: com.microsoft.azure.sdk.iot.provisioning.security.hsm.SecurityProviderTPMEmulator.getStorageRootKey()

@@ -13,8 +13,10 @@ members:
     name: taskList
     type: List&lt;<xref href="com.microsoft.azure.batch.protocol.models.TaskAddParameter?alt=com.microsoft.azure.batch.protocol.models.TaskAddParameter&text=TaskAddParameter" data-throw-if-not-resolved="False"/>&gt;
   exceptions:
-  - name: 9b2a4515
-  - name: 8256ba40
+  - type: <xref href="RuntimeException?alt=RuntimeException&text=RuntimeException" data-throw-if-not-resolved="False"/>
+    description: <p>Exception thrown when an error response is received from the Batch service or any network exception. </p>
+  - type: <xref href="InterruptedException?alt=InterruptedException&text=InterruptedException" data-throw-if-not-resolved="False"/>
+    description: <p>Exception thrown if any thread has interrupted the current thread. </p>
   summary: >-
     <p>Adds multiple tasks to a job.</p>
 
@@ -35,8 +37,10 @@ members:
     name: additionalBehaviors
     type: Iterable&lt;<xref href="com.microsoft.azure.batch.BatchClientBehavior?alt=com.microsoft.azure.batch.BatchClientBehavior&text=BatchClientBehavior" data-throw-if-not-resolved="False"/>&gt;
   exceptions:
-  - name: 9b2a4515
-  - name: 8256ba40
+  - type: <xref href="RuntimeException?alt=RuntimeException&text=RuntimeException" data-throw-if-not-resolved="False"/>
+    description: <p>Exception thrown when an error response is received from the Batch service or any network exception. </p>
+  - type: <xref href="InterruptedException?alt=InterruptedException&text=InterruptedException" data-throw-if-not-resolved="False"/>
+    description: <p>Exception thrown if any thread has interrupted the current thread. </p>
   summary: >-
     <p>Adds multiple tasks to a job.</p>
 

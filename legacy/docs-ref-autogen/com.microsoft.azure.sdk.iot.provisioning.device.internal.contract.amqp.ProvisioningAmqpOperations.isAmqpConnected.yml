@@ -6,7 +6,8 @@ members:
   name: isAmqpConnected()
   nameWithType: ProvisioningAmqpOperations.isAmqpConnected()
   exceptions:
-  - name: 1e2d9f84
+  - type: <xref href="ProvisioningDeviceConnectionException?alt=ProvisioningDeviceConnectionException&text=ProvisioningDeviceConnectionException" data-throw-if-not-resolved="False"/>
+    description: <p>if connection could not succeed for any reason. </p>
   returns:
     description: <p>boolean true is connected false otherwise </p>
     type: <xref href="boolean?alt=boolean&text=boolean" data-throw-if-not-resolved="False"/>

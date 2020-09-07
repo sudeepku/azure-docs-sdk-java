@@ -8,7 +8,7 @@ members:
   parameters:
   - description: <p>specifies the collection of JSON-serialized documents to import </p>
     name: documents
-    type: <xref href="Collection%3CString%3E?alt=Collection<String>&text=Collection%3CString%3E" data-throw-if-not-resolved="False"/>
+    type: <xref href="Collection<String>?alt=Collection<String>&text=Collection%3CString%3E" data-throw-if-not-resolved="False"/>
   - description: <p>indicates whether a document in the supplied collection needs to be overwritten if the id already exists </p>
     name: isUpsert
     type: <xref href="boolean?alt=boolean&text=boolean" data-throw-if-not-resolved="False"/>
@@ -19,7 +19,8 @@ members:
     name: maxConcurrencyPerPartitionRange
     type: <xref href="Integer?alt=Integer&text=Integer" data-throw-if-not-resolved="False"/>
   exceptions:
-  - name: deb9d423
+  - type: <xref href="DocumentClientException?alt=DocumentClientException&text=DocumentClientException" data-throw-if-not-resolved="False"/>
+    description: <p>if any failure happens </p>
   returns:
     description: <p>an instance of <xref uid="com.microsoft.azure.documentdb.bulkexecutor.BulkImportResponse" data-throw-if-not-resolved="false">BulkImportResponse</xref></p>
     type: <xref href="com.microsoft.azure.documentdb.bulkexecutor.BulkImportResponse?alt=com.microsoft.azure.documentdb.bulkexecutor.BulkImportResponse&text=BulkImportResponse" data-throw-if-not-resolved="False"/>

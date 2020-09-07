@@ -10,7 +10,8 @@ members:
     name: json
     type: <xref href="String?alt=String&text=String" data-throw-if-not-resolved="False"/>
   exceptions:
-  - name: cbf33bbe
+  - type: <xref href="IOException?alt=IOException&text=IOException" data-throw-if-not-resolved="False"/>
+    description: <p>When provided json is invalid or cannot be parsed </p>
   returns:
     description: <p>an object for this class </p>
     type: <xref href="com.microsoft.azure.sdk.iot.deps.serializer.JobQueryResponseError?alt=com.microsoft.azure.sdk.iot.deps.serializer.JobQueryResponseError&text=JobQueryResponseError" data-throw-if-not-resolved="False"/>

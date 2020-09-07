@@ -6,7 +6,8 @@ members:
   name: SecurityProviderTPMHsm()
   nameWithType: SecurityProviderTPMHsm.SecurityProviderTPMHsm()
   exceptions:
-  - name: f44c259f
+  - type: <xref href="SecurityProviderException?alt=SecurityProviderException&text=SecurityProviderException" data-throw-if-not-resolved="False"/>
+    description: <p>If the constructor could not start the TPM </p>
   summary: <p>Constructor for creating a Security Provider on TPM hardware </p>
   syntax: public SecurityProviderTPMHsm()
   uid: com.microsoft.azure.sdk.iot.provisioning.security.hsm.SecurityProviderTPMHsm.SecurityProviderTPMHsm()
@@ -21,7 +22,8 @@ members:
     name: registrationId
     type: <xref href="String?alt=String&text=String" data-throw-if-not-resolved="False"/>
   exceptions:
-  - name: f44c259f
+  - type: <xref href="SecurityProviderException?alt=SecurityProviderException&text=SecurityProviderException" data-throw-if-not-resolved="False"/>
+    description: <p>If the constructor could not start the TPM </p>
   summary: <p>Constructor for creating a Security Provider on TPM hardware with the supplied Registration ID </p>
   syntax: public SecurityProviderTPMHsm(String registrationId)
   uid: com.microsoft.azure.sdk.iot.provisioning.security.hsm.SecurityProviderTPMHsm.SecurityProviderTPMHsm(String)

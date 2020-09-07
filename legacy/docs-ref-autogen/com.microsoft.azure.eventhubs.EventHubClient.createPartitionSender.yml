@@ -8,9 +8,10 @@ members:
   parameters:
   - description: <p>partitionId of EventHub to send the <xref uid="com.microsoft.azure.eventhubs.EventData" data-throw-if-not-resolved="false">EventData</xref>'s to </p>
     name: partitionId
-    type: <xref href="final+String?alt=final String&text=final+String" data-throw-if-not-resolved="False"/>
+    type: <xref href="final String?alt=final String&text=final+String" data-throw-if-not-resolved="False"/>
   exceptions:
-  - name: ca207911
+  - type: <xref href="EventHubException?alt=EventHubException&text=EventHubException" data-throw-if-not-resolved="False"/>
+    description: <p>if Service Bus service encountered problems during connection creation. </p>
   returns:
     description: <p>a CompletableFuture that would result in a PartitionSenderImpl when it is completed. </p>
     type: CompletableFuture&lt;<xref href="com.microsoft.azure.eventhubs.PartitionSender?alt=com.microsoft.azure.eventhubs.PartitionSender&text=PartitionSender" data-throw-if-not-resolved="False"/>&gt;

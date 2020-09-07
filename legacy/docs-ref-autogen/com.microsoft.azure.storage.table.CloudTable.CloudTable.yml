@@ -10,7 +10,8 @@ members:
     name: uri
     type: final <xref href="com.microsoft.azure.storage.StorageUri?alt=com.microsoft.azure.storage.StorageUri&text=StorageUri" data-throw-if-not-resolved="False"/>
   exceptions:
-  - name: ca4f407a
+  - type: <xref href="StorageException?alt=StorageException&text=StorageException" data-throw-if-not-resolved="False"/>
+    description: <p>If a storage service error occurred. </p>
   summary: >-
     <p>Creates an instance of the  class using the specified table URI. The table URI must include a SAS token.</p>
 
@@ -28,7 +29,8 @@ members:
     name: credentials
     type: final <xref href="com.microsoft.azure.storage.StorageCredentials?alt=com.microsoft.azure.storage.StorageCredentials&text=StorageCredentials" data-throw-if-not-resolved="False"/>
   exceptions:
-  - name: ca4f407a
+  - type: <xref href="StorageException?alt=StorageException&text=StorageException" data-throw-if-not-resolved="False"/>
+    description: <p>If a storage service error occurred. </p>
   summary: >-
     <p>Creates an instance of the  class using the specified table StorageUri and credentials.</p>
 
@@ -41,13 +43,15 @@ members:
   parameters:
   - description: <p>A <code>String</code> which represents the name of the table, which must adhere to table naming rules. The table name should not include any path separator characters (/). Table names are case insensitive, must be unique within an account and must be between 3-63 characters long. Table names must start with an cannot begin with a numeric character and may only contain alphanumeric characters. Some table names are reserved, including "table". </p>
     name: tableName
-    type: <xref href="final+String?alt=final String&text=final+String" data-throw-if-not-resolved="False"/>
+    type: <xref href="final String?alt=final String&text=final+String" data-throw-if-not-resolved="False"/>
   - description: <p>A <xref uid="com.microsoft.azure.storage.table.CloudTableClient" data-throw-if-not-resolved="false">CloudTableClient</xref> object that represents the associated service client, and that specifies the endpoint for the Table service.</p>
     name: client
     type: final <xref href="com.microsoft.azure.storage.table.CloudTableClient?alt=com.microsoft.azure.storage.table.CloudTableClient&text=CloudTableClient" data-throw-if-not-resolved="False"/>
   exceptions:
-  - name: "44102508"
-  - name: ca4f407a
+  - type: <xref href="URISyntaxException?alt=URISyntaxException&text=URISyntaxException" data-throw-if-not-resolved="False"/>
+    description: <p>If the resource URI constructed based on the tableName is invalid. </p>
+  - type: <xref href="StorageException?alt=StorageException&text=StorageException" data-throw-if-not-resolved="False"/>
+    description: <p>If a storage service error occurred. </p>
   summary: >-
     <p>Creates an instance of the  class using the specified name and client.</p>
 
@@ -60,9 +64,10 @@ members:
   parameters:
   - description: <p>A <code>java.net.URI</code> object that represents the absolute URI of the table.</p>
     name: uri
-    type: <xref href="final+URI?alt=final URI&text=final+URI" data-throw-if-not-resolved="False"/>
+    type: <xref href="final URI?alt=final URI&text=final+URI" data-throw-if-not-resolved="False"/>
   exceptions:
-  - name: ca4f407a
+  - type: <xref href="StorageException?alt=StorageException&text=StorageException" data-throw-if-not-resolved="False"/>
+    description: <p>If a storage service error occurred. </p>
   summary: >-
     <p>Creates an instance of the  class using the specified table URI. The table URI must include a SAS token.</p>
 
@@ -75,12 +80,13 @@ members:
   parameters:
   - description: <p>A <code>java.net.URI</code> object that represents the absolute URI of the table. </p>
     name: uri
-    type: <xref href="final+URI?alt=final URI&text=final+URI" data-throw-if-not-resolved="False"/>
+    type: <xref href="final URI?alt=final URI&text=final+URI" data-throw-if-not-resolved="False"/>
   - description: <p>A <xref uid="com.microsoft.azure.storage.StorageCredentials" data-throw-if-not-resolved="false">StorageCredentials</xref> object used to authenticate access.</p>
     name: credentials
     type: final <xref href="com.microsoft.azure.storage.StorageCredentials?alt=com.microsoft.azure.storage.StorageCredentials&text=StorageCredentials" data-throw-if-not-resolved="False"/>
   exceptions:
-  - name: ca4f407a
+  - type: <xref href="StorageException?alt=StorageException&text=StorageException" data-throw-if-not-resolved="False"/>
+    description: <p>If a storage service error occurred. </p>
   summary: >-
     <p>Creates an instance of the  class using the specified table URI and credentials.</p>
 

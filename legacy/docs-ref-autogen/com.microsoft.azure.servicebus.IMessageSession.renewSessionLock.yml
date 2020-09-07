@@ -6,8 +6,10 @@ members:
   name: renewSessionLock()
   nameWithType: IMessageSession.renewSessionLock()
   exceptions:
-  - name: 8256ba40
-  - name: 73fec9fb
+  - type: <xref href="InterruptedException?alt=InterruptedException&text=InterruptedException" data-throw-if-not-resolved="False"/>
+    description: <p>if the current thread was interrupted while waiting </p>
+  - type: <xref href="ServiceBusException?alt=ServiceBusException&text=ServiceBusException" data-throw-if-not-resolved="False"/>
+    description: <p>if the renew failed. </p>
   summary: >-
     <p>Renews the lock on the session specified by the <xref uid="com.microsoft.azure.servicebus.IMessageSession.getSessionId()" data-throw-if-not-resolved="false">IMessageSession#getSessionId()</xref>. The lock will be renewed based on the setting specified on the entity. </p>
 

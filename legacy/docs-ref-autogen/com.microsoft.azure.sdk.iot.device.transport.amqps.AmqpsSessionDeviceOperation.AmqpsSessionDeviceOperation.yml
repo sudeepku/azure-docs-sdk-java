@@ -13,7 +13,8 @@ members:
     name: amqpsDeviceAuthentication
     type: <xref href="com.microsoft.azure.sdk.iot.device.transport.amqps.AmqpsDeviceAuthentication?alt=com.microsoft.azure.sdk.iot.device.transport.amqps.AmqpsDeviceAuthentication&text=AmqpsDeviceAuthentication" data-throw-if-not-resolved="False"/>
   exceptions:
-  - name: 3c87bd19
+  - type: <xref href="IllegalArgumentException?alt=IllegalArgumentException&text=IllegalArgumentException" data-throw-if-not-resolved="False"/>
+    description: <p>if deviceClientConfig or amqpsDeviceAuthentication is null </p>
   summary: >-
     <p>Create logical device entity to handle all operation.</p>
 

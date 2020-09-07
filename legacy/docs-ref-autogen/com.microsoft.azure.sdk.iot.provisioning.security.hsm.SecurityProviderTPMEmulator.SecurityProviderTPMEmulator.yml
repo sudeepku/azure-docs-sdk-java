@@ -6,7 +6,8 @@ members:
   name: SecurityProviderTPMEmulator()
   nameWithType: SecurityProviderTPMEmulator.SecurityProviderTPMEmulator()
   exceptions:
-  - name: f44c259f
+  - type: <xref href="SecurityProviderException?alt=SecurityProviderException&text=SecurityProviderException" data-throw-if-not-resolved="False"/>
+    description: <p>If the constructor could not start the TPM </p>
   summary: <p>Constructor for creating a Security Provider on TPM Simulator </p>
   syntax: public SecurityProviderTPMEmulator()
   uid: com.microsoft.azure.sdk.iot.provisioning.security.hsm.SecurityProviderTPMEmulator.SecurityProviderTPMEmulator()
@@ -21,7 +22,8 @@ members:
     name: registrationId
     type: <xref href="String?alt=String&text=String" data-throw-if-not-resolved="False"/>
   exceptions:
-  - name: f44c259f
+  - type: <xref href="SecurityProviderException?alt=SecurityProviderException&text=SecurityProviderException" data-throw-if-not-resolved="False"/>
+    description: <p>If the constructor could not start the TPM </p>
   summary: <p>Constructor for creating a Security Provider on TPM Simulator with the supplied Registration ID </p>
   syntax: public SecurityProviderTPMEmulator(String registrationId)
   uid: com.microsoft.azure.sdk.iot.provisioning.security.hsm.SecurityProviderTPMEmulator.SecurityProviderTPMEmulator(String)
@@ -38,7 +40,8 @@ members:
   - name: tpmConnectRetryAttempts
     type: <xref href="int?alt=int&text=int" data-throw-if-not-resolved="False"/>
   exceptions:
-  - name: f44c259f
+  - type: <xref href="SecurityProviderException?alt=SecurityProviderException&text=SecurityProviderException" data-throw-if-not-resolved="False"/>
+    description: <p>If the constructor could not start the TPM </p>
   summary: <p>Constructor for creating a Security Provider on TPM Simulator with the supplied Registration ID </p>
   syntax: public SecurityProviderTPMEmulator(String registrationId, int tpmConnectRetryAttempts)
   uid: com.microsoft.azure.sdk.iot.provisioning.security.hsm.SecurityProviderTPMEmulator.SecurityProviderTPMEmulator(String,int)
@@ -59,7 +62,8 @@ members:
     name: ipAddressSimulator
     type: <xref href="String?alt=String&text=String" data-throw-if-not-resolved="False"/>
   exceptions:
-  - name: f44c259f
+  - type: <xref href="SecurityProviderException?alt=SecurityProviderException&text=SecurityProviderException" data-throw-if-not-resolved="False"/>
+    description: <p>If the constructor could not start the TPM </p>
   summary: <p>Constructor for creating a Security Provider on TPM Simulator with the supplied Registration ID and ip address of the the remote where TPM simulator is running </p>
   syntax: public SecurityProviderTPMEmulator(String registrationId, String ipAddressSimulator)
   uid: com.microsoft.azure.sdk.iot.provisioning.security.hsm.SecurityProviderTPMEmulator.SecurityProviderTPMEmulator(String,String)

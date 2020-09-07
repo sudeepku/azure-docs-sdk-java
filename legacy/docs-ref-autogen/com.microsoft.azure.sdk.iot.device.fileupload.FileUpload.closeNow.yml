@@ -6,7 +6,8 @@ members:
   name: closeNow()
   nameWithType: FileUpload.closeNow()
   exceptions:
-  - name: cbf33bbe
+  - type: <xref href="IOException?alt=IOException&text=IOException" data-throw-if-not-resolved="False"/>
+    description: <p>if an I/O error occurs in the inputStream. </p>
   summary: >-
     <p>Close the file upload cancelling all existing uploads and shutting down the thread pool.</p>
 

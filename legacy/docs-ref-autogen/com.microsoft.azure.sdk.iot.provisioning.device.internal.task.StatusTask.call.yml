@@ -6,7 +6,8 @@ members:
   name: call()
   nameWithType: StatusTask.call()
   exceptions:
-  - name: 8a99d4b0
+  - type: <xref href="Exception?alt=Exception&text=Exception" data-throw-if-not-resolved="False"/>
+    description: <p>If any of the underlying calls fail </p>
   returns:
     description: <p>RegistrationOperationStatusParser object holding the information received from service </p>
     type: <xref href="com.microsoft.azure.sdk.iot.provisioning.device.internal.parser.RegistrationOperationStatusParser?alt=com.microsoft.azure.sdk.iot.provisioning.device.internal.parser.RegistrationOperationStatusParser&text=RegistrationOperationStatusParser" data-throw-if-not-resolved="False"/>

@@ -6,7 +6,8 @@ members:
   name: create()
   nameWithType: CloudTable.create()
   exceptions:
-  - name: ca4f407a
+  - type: <xref href="StorageException?alt=StorageException&text=StorageException" data-throw-if-not-resolved="False"/>
+    description: <p>If a storage service error occurred during the operation. </p>
   summary: >-
     <p>Creates the table in the storage service with default request options. </p>
 
@@ -26,7 +27,8 @@ members:
     name: opContext
     type: <xref href="com.microsoft.azure.storage.OperationContext?alt=com.microsoft.azure.storage.OperationContext&text=OperationContext" data-throw-if-not-resolved="False"/>
   exceptions:
-  - name: ca4f407a
+  - type: <xref href="StorageException?alt=StorageException&text=StorageException" data-throw-if-not-resolved="False"/>
+    description: <p>If an error occurs accessing the storage service, or because the table cannot be created, or already exists. </p>
   summary: >-
     <p>Creates the table in the storage service, using the specified <xref uid="com.microsoft.azure.storage.table.TableRequestOptions" data-throw-if-not-resolved="false">TableRequestOptions</xref> and <xref uid="com.microsoft.azure.storage.OperationContext" data-throw-if-not-resolved="false">OperationContext</xref>. </p>
 

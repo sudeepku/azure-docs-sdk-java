@@ -14,11 +14,14 @@ members:
     type: final <xref href="com.microsoft.azure.storage.blob.SharedAccessBlobHeaders?alt=com.microsoft.azure.storage.blob.SharedAccessBlobHeaders&text=SharedAccessBlobHeaders" data-throw-if-not-resolved="False"/>
   - description: <p>A <code>String</code> that represents the container-level access policy.</p>
     name: groupPolicyIdentifier
-    type: <xref href="final+String?alt=final String&text=final+String" data-throw-if-not-resolved="False"/>
+    type: <xref href="final String?alt=final String&text=final+String" data-throw-if-not-resolved="False"/>
   exceptions:
-  - name: 3c87bd19
-  - name: e333ca4f
-  - name: ca4f407a
+  - type: <xref href="IllegalArgumentException?alt=IllegalArgumentException&text=IllegalArgumentException" data-throw-if-not-resolved="False"/>
+    description: <p>If the credentials are invalid or the blob is a snapshot. </p>
+  - type: <xref href="InvalidKeyException?alt=InvalidKeyException&text=InvalidKeyException" data-throw-if-not-resolved="False"/>
+    description: <p>If the credentials are invalid. </p>
+  - type: <xref href="StorageException?alt=StorageException&text=StorageException" data-throw-if-not-resolved="False"/>
+    description: <p>If a storage service error occurred. </p>
   returns:
     description: <p>A <code>String</code> that represents the shared access signature.</p>
     type: <xref href="String?alt=String&text=String" data-throw-if-not-resolved="False"/>
@@ -40,7 +43,7 @@ members:
     type: final <xref href="com.microsoft.azure.storage.blob.SharedAccessBlobHeaders?alt=com.microsoft.azure.storage.blob.SharedAccessBlobHeaders&text=SharedAccessBlobHeaders" data-throw-if-not-resolved="False"/>
   - description: <p>A <code>String</code> that represents the container-level access policy. </p>
     name: groupPolicyIdentifier
-    type: <xref href="final+String?alt=final String&text=final+String" data-throw-if-not-resolved="False"/>
+    type: <xref href="final String?alt=final String&text=final+String" data-throw-if-not-resolved="False"/>
   - description: <p>A <xref uid="com.microsoft.azure.storage.IPRange" data-throw-if-not-resolved="false">IPRange</xref> object containing the range of allowed IP addresses. </p>
     name: ipRange
     type: final <xref href="com.microsoft.azure.storage.IPRange?alt=com.microsoft.azure.storage.IPRange&text=IPRange" data-throw-if-not-resolved="False"/>
@@ -48,9 +51,12 @@ members:
     name: protocols
     type: final <xref href="com.microsoft.azure.storage.SharedAccessProtocols?alt=com.microsoft.azure.storage.SharedAccessProtocols&text=SharedAccessProtocols" data-throw-if-not-resolved="False"/>
   exceptions:
-  - name: 3c87bd19
-  - name: e333ca4f
-  - name: ca4f407a
+  - type: <xref href="IllegalArgumentException?alt=IllegalArgumentException&text=IllegalArgumentException" data-throw-if-not-resolved="False"/>
+    description: <p>If the credentials are invalid or the blob is a snapshot. </p>
+  - type: <xref href="InvalidKeyException?alt=InvalidKeyException&text=InvalidKeyException" data-throw-if-not-resolved="False"/>
+    description: <p>If the credentials are invalid. </p>
+  - type: <xref href="StorageException?alt=StorageException&text=StorageException" data-throw-if-not-resolved="False"/>
+    description: <p>If a storage service error occurred. </p>
   returns:
     description: <p>A <code>String</code> that represents the shared access signature.</p>
     type: <xref href="String?alt=String&text=String" data-throw-if-not-resolved="False"/>
@@ -72,7 +78,7 @@ members:
     type: final <xref href="com.microsoft.azure.storage.blob.SharedAccessBlobHeaders?alt=com.microsoft.azure.storage.blob.SharedAccessBlobHeaders&text=SharedAccessBlobHeaders" data-throw-if-not-resolved="False"/>
   - description: <p>A <code>String</code> that represents the container-level access policy. </p>
     name: groupPolicyIdentifier
-    type: <xref href="final+String?alt=final String&text=final+String" data-throw-if-not-resolved="False"/>
+    type: <xref href="final String?alt=final String&text=final+String" data-throw-if-not-resolved="False"/>
   - description: <p>A <xref uid="com.microsoft.azure.storage.IPRange" data-throw-if-not-resolved="false">IPRange</xref> object containing the range of allowed IP addresses. </p>
     name: ipRange
     type: final <xref href="com.microsoft.azure.storage.IPRange?alt=com.microsoft.azure.storage.IPRange&text=IPRange" data-throw-if-not-resolved="False"/>
@@ -83,9 +89,12 @@ members:
     name: skipDecoding
     type: <xref href="boolean?alt=boolean&text=boolean" data-throw-if-not-resolved="False"/>
   exceptions:
-  - name: 3c87bd19
-  - name: e333ca4f
-  - name: ca4f407a
+  - type: <xref href="IllegalArgumentException?alt=IllegalArgumentException&text=IllegalArgumentException" data-throw-if-not-resolved="False"/>
+    description: <p>If the credentials are invalid or the blob is a snapshot. </p>
+  - type: <xref href="InvalidKeyException?alt=InvalidKeyException&text=InvalidKeyException" data-throw-if-not-resolved="False"/>
+    description: <p>If the credentials are invalid. </p>
+  - type: <xref href="StorageException?alt=StorageException&text=StorageException" data-throw-if-not-resolved="False"/>
+    description: <p>If a storage service error occurred. </p>
   returns:
     description: <p>A <code>String</code> that represents the shared access signature.</p>
     type: <xref href="String?alt=String&text=String" data-throw-if-not-resolved="False"/>
@@ -104,11 +113,14 @@ members:
     type: final <xref href="com.microsoft.azure.storage.blob.SharedAccessBlobPolicy?alt=com.microsoft.azure.storage.blob.SharedAccessBlobPolicy&text=SharedAccessBlobPolicy" data-throw-if-not-resolved="False"/>
   - description: <p>A <code>String</code> that represents the container-level access policy.</p>
     name: groupPolicyIdentifier
-    type: <xref href="final+String?alt=final String&text=final+String" data-throw-if-not-resolved="False"/>
+    type: <xref href="final String?alt=final String&text=final+String" data-throw-if-not-resolved="False"/>
   exceptions:
-  - name: 3c87bd19
-  - name: e333ca4f
-  - name: ca4f407a
+  - type: <xref href="IllegalArgumentException?alt=IllegalArgumentException&text=IllegalArgumentException" data-throw-if-not-resolved="False"/>
+    description: <p>If the credentials are invalid or the blob is a snapshot. </p>
+  - type: <xref href="InvalidKeyException?alt=InvalidKeyException&text=InvalidKeyException" data-throw-if-not-resolved="False"/>
+    description: <p>If the credentials are invalid. </p>
+  - type: <xref href="StorageException?alt=StorageException&text=StorageException" data-throw-if-not-resolved="False"/>
+    description: <p>If a storage service error occurred. </p>
   returns:
     description: <p>A <code>String</code> that represents the shared access signature.</p>
     type: <xref href="String?alt=String&text=String" data-throw-if-not-resolved="False"/>

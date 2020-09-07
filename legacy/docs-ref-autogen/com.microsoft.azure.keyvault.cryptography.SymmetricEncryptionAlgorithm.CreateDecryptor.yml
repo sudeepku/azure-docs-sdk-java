@@ -8,21 +8,21 @@ members:
   parameters:
   - description: <p>The key material to be used. </p>
     name: key
-    type: <xref href="byte+%5B%5D?alt=byte []&text=byte+%5B%5D" data-throw-if-not-resolved="False"/>
+    type: <xref href="byte []?alt=byte []&text=byte+%5B%5D" data-throw-if-not-resolved="False"/>
   - description: <p>The initialization vector to be used. </p>
     name: iv
-    type: <xref href="byte+%5B%5D?alt=byte []&text=byte+%5B%5D" data-throw-if-not-resolved="False"/>
+    type: <xref href="byte []?alt=byte []&text=byte+%5B%5D" data-throw-if-not-resolved="False"/>
   - description: <p>The authentication data to be used with authenticating encryption algorithms (ignored for non-authenticating algorithms) </p>
     name: authenticationData
-    type: <xref href="byte+%5B%5D?alt=byte []&text=byte+%5B%5D" data-throw-if-not-resolved="False"/>
+    type: <xref href="byte []?alt=byte []&text=byte+%5B%5D" data-throw-if-not-resolved="False"/>
   - description: <p>The authentication tag to verify when using authenticating encryption algorithms (ignored for non-authenticating algorithms) </p>
     name: authenticationTag
-    type: <xref href="byte+%5B%5D?alt=byte []&text=byte+%5B%5D" data-throw-if-not-resolved="False"/>
+    type: <xref href="byte []?alt=byte []&text=byte+%5B%5D" data-throw-if-not-resolved="False"/>
   exceptions:
-  - name: e333ca4f
-  - name: 456eb9d1
-  - name: 5ef34f89
-  - name: 2093b65f
+  - type: <xref href="InvalidKeyException?alt=InvalidKeyException&text=InvalidKeyException" data-throw-if-not-resolved="False"/>
+  - type: <xref href="NoSuchAlgorithmException?alt=NoSuchAlgorithmException&text=NoSuchAlgorithmException" data-throw-if-not-resolved="False"/>
+  - type: <xref href="NoSuchPaddingException?alt=NoSuchPaddingException&text=NoSuchPaddingException" data-throw-if-not-resolved="False"/>
+  - type: <xref href="InvalidAlgorithmParameterException?alt=InvalidAlgorithmParameterException&text=InvalidAlgorithmParameterException" data-throw-if-not-resolved="False"/>
   returns:
     description: <p>A <xref uid="com.microsoft.azure.keyvault.cryptography.ICryptoTransform" data-throw-if-not-resolved="false">com.microsoft.azure.keyvault.cryptography.ICryptoTransform</xref> implementation </p>
     type: abstract <xref href="com.microsoft.azure.keyvault.cryptography.ICryptoTransform?alt=com.microsoft.azure.keyvault.cryptography.ICryptoTransform&text=ICryptoTransform" data-throw-if-not-resolved="False"/>
@@ -35,24 +35,24 @@ members:
   parameters:
   - description: <p>The key material to be used. </p>
     name: key
-    type: <xref href="byte+%5B%5D?alt=byte []&text=byte+%5B%5D" data-throw-if-not-resolved="False"/>
+    type: <xref href="byte []?alt=byte []&text=byte+%5B%5D" data-throw-if-not-resolved="False"/>
   - description: <p>The initialization vector to be used. </p>
     name: iv
-    type: <xref href="byte+%5B%5D?alt=byte []&text=byte+%5B%5D" data-throw-if-not-resolved="False"/>
+    type: <xref href="byte []?alt=byte []&text=byte+%5B%5D" data-throw-if-not-resolved="False"/>
   - description: <p>The authentication data to be used with authenticating encryption algorithms (ignored for non-authenticating algorithms) </p>
     name: authenticationData
-    type: <xref href="byte+%5B%5D?alt=byte []&text=byte+%5B%5D" data-throw-if-not-resolved="False"/>
+    type: <xref href="byte []?alt=byte []&text=byte+%5B%5D" data-throw-if-not-resolved="False"/>
   - description: <p>The authentication tag to verify when using authenticating encryption algorithms (ignored for non-authenticating algorithms) </p>
     name: authenticationTag
-    type: <xref href="byte+%5B%5D?alt=byte []&text=byte+%5B%5D" data-throw-if-not-resolved="False"/>
+    type: <xref href="byte []?alt=byte []&text=byte+%5B%5D" data-throw-if-not-resolved="False"/>
   - description: <p>The provider to use. </p>
     name: provider
     type: <xref href="Provider?alt=Provider&text=Provider" data-throw-if-not-resolved="False"/>
   exceptions:
-  - name: e333ca4f
-  - name: 456eb9d1
-  - name: 5ef34f89
-  - name: 2093b65f
+  - type: <xref href="InvalidKeyException?alt=InvalidKeyException&text=InvalidKeyException" data-throw-if-not-resolved="False"/>
+  - type: <xref href="NoSuchAlgorithmException?alt=NoSuchAlgorithmException&text=NoSuchAlgorithmException" data-throw-if-not-resolved="False"/>
+  - type: <xref href="NoSuchPaddingException?alt=NoSuchPaddingException&text=NoSuchPaddingException" data-throw-if-not-resolved="False"/>
+  - type: <xref href="InvalidAlgorithmParameterException?alt=InvalidAlgorithmParameterException&text=InvalidAlgorithmParameterException" data-throw-if-not-resolved="False"/>
   returns:
     description: <p>A <xref uid="com.microsoft.azure.keyvault.cryptography.ICryptoTransform" data-throw-if-not-resolved="false">com.microsoft.azure.keyvault.cryptography.ICryptoTransform</xref> implementation </p>
     type: abstract <xref href="com.microsoft.azure.keyvault.cryptography.ICryptoTransform?alt=com.microsoft.azure.keyvault.cryptography.ICryptoTransform&text=ICryptoTransform" data-throw-if-not-resolved="False"/>

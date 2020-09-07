@@ -10,7 +10,8 @@ members:
     name: symmetricKey
     type: <xref href="com.microsoft.azure.sdk.iot.service.auth.SymmetricKey?alt=com.microsoft.azure.sdk.iot.service.auth.SymmetricKey&text=SymmetricKey" data-throw-if-not-resolved="False"/>
   exceptions:
-  - name: 3c87bd19
+  - type: <xref href="IllegalArgumentException?alt=IllegalArgumentException&text=IllegalArgumentException" data-throw-if-not-resolved="False"/>
+    description: <p>if the provided symmetric key is null </p>
   summary: >-
     <p>Setter for SymmetricKey object</p>
 

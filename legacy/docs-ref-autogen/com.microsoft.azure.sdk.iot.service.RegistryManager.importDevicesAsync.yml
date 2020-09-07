@@ -10,9 +10,12 @@ members:
     name: importParameters
     type: <xref href="com.microsoft.azure.sdk.iot.service.JobProperties?alt=com.microsoft.azure.sdk.iot.service.JobProperties&text=JobProperties" data-throw-if-not-resolved="False"/>
   exceptions:
-  - name: 3c87bd19
-  - name: cbf33bbe
-  - name: 0d494ee6
+  - type: <xref href="IllegalArgumentException?alt=IllegalArgumentException&text=IllegalArgumentException" data-throw-if-not-resolved="False"/>
+    description: <p>This exception is thrown if the exportBlobContainerUri or excludeKeys parameters are null </p>
+  - type: <xref href="IOException?alt=IOException&text=IOException" data-throw-if-not-resolved="False"/>
+    description: <p>This exception is thrown if the IO operation failed </p>
+  - type: <xref href="IotHubException?alt=IotHubException&text=IotHubException" data-throw-if-not-resolved="False"/>
+    description: <p>This exception is thrown if the response verification failed </p>
   returns:
     description: <p>The future object for the requested operation</p>
     type: CompletableFuture&lt;<xref href="com.microsoft.azure.sdk.iot.service.JobProperties?alt=com.microsoft.azure.sdk.iot.service.JobProperties&text=JobProperties" data-throw-if-not-resolved="False"/>&gt;
@@ -33,9 +36,12 @@ members:
     name: outputBlobContainerUri
     type: <xref href="String?alt=String&text=String" data-throw-if-not-resolved="False"/>
   exceptions:
-  - name: 3c87bd19
-  - name: cbf33bbe
-  - name: 0d494ee6
+  - type: <xref href="IllegalArgumentException?alt=IllegalArgumentException&text=IllegalArgumentException" data-throw-if-not-resolved="False"/>
+    description: <p>This exception is thrown if the exportBlobContainerUri or excludeKeys parameters are null </p>
+  - type: <xref href="IOException?alt=IOException&text=IOException" data-throw-if-not-resolved="False"/>
+    description: <p>This exception is thrown if the IO operation failed </p>
+  - type: <xref href="IotHubException?alt=IotHubException&text=IotHubException" data-throw-if-not-resolved="False"/>
+    description: <p>This exception is thrown if the response verification failed </p>
   returns:
     description: <p>The future object for the requested operation</p>
     type: CompletableFuture&lt;<xref href="com.microsoft.azure.sdk.iot.service.JobProperties?alt=com.microsoft.azure.sdk.iot.service.JobProperties&text=JobProperties" data-throw-if-not-resolved="False"/>&gt;

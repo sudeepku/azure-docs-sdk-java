@@ -16,7 +16,8 @@ members:
     name: clientSecret
     type: <xref href="String?alt=String&text=String" data-throw-if-not-resolved="False"/>
   exceptions:
-  - name: 7f45ead7
+  - type: <xref href="MalformedURLException?alt=MalformedURLException&text=MalformedURLException" data-throw-if-not-resolved="False"/>
+    description: <p>if the authority URL is not well formed </p>
   returns:
     description: <p>an instance of Azure Active Directory token provider </p>
     type: <xref href="com.microsoft.azure.servicebus.security.TokenProvider?alt=com.microsoft.azure.servicebus.security.TokenProvider&text=TokenProvider" data-throw-if-not-resolved="False"/>
@@ -40,7 +41,8 @@ members:
     name: password
     type: <xref href="String?alt=String&text=String" data-throw-if-not-resolved="False"/>
   exceptions:
-  - name: 7f45ead7
+  - type: <xref href="MalformedURLException?alt=MalformedURLException&text=MalformedURLException" data-throw-if-not-resolved="False"/>
+    description: <p>if the authority URL is not well formed </p>
   returns:
     description: <p>an instance of Azure Active Directory token provider </p>
     type: <xref href="com.microsoft.azure.servicebus.security.TokenProvider?alt=com.microsoft.azure.servicebus.security.TokenProvider&text=TokenProvider" data-throw-if-not-resolved="False"/>

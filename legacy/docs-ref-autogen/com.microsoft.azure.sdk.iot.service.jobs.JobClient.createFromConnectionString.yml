@@ -10,8 +10,13 @@ members:
     name: connectionString
     type: <xref href="String?alt=String&text=String" data-throw-if-not-resolved="False"/>
   exceptions:
-  - name: cbf33bbe
-  - name: 3c87bd19
+  - type: <xref href="IOException?alt=IOException&text=IOException" data-throw-if-not-resolved="False"/>
+    description: <p>if the object creation failed </p>
+  - type: <xref href="IllegalArgumentException?alt=IllegalArgumentException&text=IllegalArgumentException" data-throw-if-not-resolved="False"/>
+    description: >-
+      <p>if the provided connectionString is<code>null 
+
+          </code> or empty </p>
   returns:
     description: <p>The instance of JobClient </p>
     type: <xref href="com.microsoft.azure.sdk.iot.service.jobs.JobClient?alt=com.microsoft.azure.sdk.iot.service.jobs.JobClient&text=JobClient" data-throw-if-not-resolved="False"/>

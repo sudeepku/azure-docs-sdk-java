@@ -6,10 +6,11 @@ members:
   name: readError()
   nameWithType: HttpsConnection.readError()
   exceptions:
-  - name: 848a9648
+  - type: <xref href="TransportException?alt=TransportException&text=TransportException" data-throw-if-not-resolved="False"/>
+    description: <p>if the input stream could not be accessed, for example if the server could not be reached. </p>
   returns:
     description: <p>the error reason.</p>
-    type: <xref href="byte+%5B%5D?alt=byte []&text=byte+%5B%5D" data-throw-if-not-resolved="False"/>
+    type: <xref href="byte []?alt=byte []&text=byte+%5B%5D" data-throw-if-not-resolved="False"/>
   summary: >-
     <p>Reads from the error stream and returns the error reason.</p>
 

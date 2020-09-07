@@ -9,7 +9,7 @@ members:
   parameters:
   - description: <p>The actor interface implemented by the remote actor object. The returned proxy object will implement this interface. </p>
     name: actorInterfaceType
-    type: <xref href="Class%3CT%3E?alt=Class<T>&text=Class%3CT%3E" data-throw-if-not-resolved="False"/>
+    type: <xref href="Class<T>?alt=Class<T>&text=Class%3CT%3E" data-throw-if-not-resolved="False"/>
   - description: <p>Actor Id of the proxy actor object. Methods called on this proxy will result in requests being sent to the actor with this id. </p>
     name: actorId
     type: <xref href="microsoft.servicefabric.actors.ActorId?alt=microsoft.servicefabric.actors.ActorId&text=ActorId" data-throw-if-not-resolved="False"/>
@@ -29,7 +29,7 @@ members:
   parameters:
   - description: <p>The actor interface implemented by the remote actor object. The returned proxy object will implement this interface. </p>
     name: actorInterfaceType
-    type: <xref href="Class%3CT%3E?alt=Class<T>&text=Class%3CT%3E" data-throw-if-not-resolved="False"/>
+    type: <xref href="Class<T>?alt=Class<T>&text=Class%3CT%3E" data-throw-if-not-resolved="False"/>
   - description: <p>Actor Id of the proxy actor object. Methods called on this proxy will result in requests being sent to the actor with this id. </p>
     name: actorId
     type: <xref href="microsoft.servicefabric.actors.ActorId?alt=microsoft.servicefabric.actors.ActorId&text=ActorId" data-throw-if-not-resolved="False"/>
@@ -43,7 +43,8 @@ members:
     name: listenerName
     type: <xref href="String?alt=String&text=String" data-throw-if-not-resolved="False"/>
   exceptions:
-  - name: "44102508"
+  - type: <xref href="URISyntaxException?alt=URISyntaxException&text=URISyntaxException" data-throw-if-not-resolved="False"/>
+    description: <p>Throws exception when invalid URI format is passed as applicationName </p>
   returns:
     description: <p>An actor proxy object that implements <xref uid="" data-throw-if-not-resolved="false">ActorProxy</xref> and Actor Interface. </p>
     type: '&lt;T extends <xref href="microsoft.servicefabric.actors.Actor?alt=microsoft.servicefabric.actors.Actor&text=Actor" data-throw-if-not-resolved="False"/>&gt; T'
@@ -60,7 +61,7 @@ members:
   parameters:
   - description: <p>The actor interface type implemented by the remote actor object. The returned proxy object will implement this interface. </p>
     name: actorInterfaceType
-    type: <xref href="Class%3CT%3E?alt=Class<T>&text=Class%3CT%3E" data-throw-if-not-resolved="False"/>
+    type: <xref href="Class<T>?alt=Class<T>&text=Class%3CT%3E" data-throw-if-not-resolved="False"/>
   - description: <p>Uri of the actor service. </p>
     name: serviceUri
     type: <xref href="URI?alt=URI&text=URI" data-throw-if-not-resolved="False"/>
@@ -83,7 +84,7 @@ members:
   parameters:
   - description: <p>The actor interface type implemented by the remote actor object. The returned proxy object will implement this interface. </p>
     name: actorInterfaceType
-    type: <xref href="Class%3CT%3E?alt=Class<T>&text=Class%3CT%3E" data-throw-if-not-resolved="False"/>
+    type: <xref href="Class<T>?alt=Class<T>&text=Class%3CT%3E" data-throw-if-not-resolved="False"/>
   - description: <p>Uri of the actor service. </p>
     name: serviceUri
     type: <xref href="URI?alt=URI&text=URI" data-throw-if-not-resolved="False"/>

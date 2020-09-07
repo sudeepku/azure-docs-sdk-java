@@ -10,7 +10,8 @@ members:
     name: protocol
     type: <xref href="com.microsoft.azure.sdk.iot.device.IotHubClientProtocol?alt=com.microsoft.azure.sdk.iot.device.IotHubClientProtocol&text=IotHubClientProtocol" data-throw-if-not-resolved="False"/>
   exceptions:
-  - name: 3c87bd19
+  - type: <xref href="IllegalArgumentException?alt=IllegalArgumentException&text=IllegalArgumentException" data-throw-if-not-resolved="False"/>
+    description: <p>if other protocol given. </p>
   summary: >-
     <p>Constructor that takes a protocol as an argument.</p>
 

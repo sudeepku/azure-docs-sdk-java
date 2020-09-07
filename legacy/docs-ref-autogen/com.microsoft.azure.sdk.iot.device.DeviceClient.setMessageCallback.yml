@@ -19,8 +19,13 @@ members:
     name: context
     type: <xref href="Object?alt=Object&text=Object" data-throw-if-not-resolved="False"/>
   exceptions:
-  - name: 3c87bd19
-  - name: 12fe80de
+  - type: <xref href="IllegalArgumentException?alt=IllegalArgumentException&text=IllegalArgumentException" data-throw-if-not-resolved="False"/>
+    description: >-
+      <p>if the callback is<code>null 
+
+          </code> but a context is passed in. </p>
+  - type: <xref href="IllegalStateException?alt=IllegalStateException&text=IllegalStateException" data-throw-if-not-resolved="False"/>
+    description: <p>if the callback is set after the client is closed. </p>
   returns:
     description: <p>itself, for fluent setting.</p>
     type: <xref href="com.microsoft.azure.sdk.iot.device.DeviceClient?alt=com.microsoft.azure.sdk.iot.device.DeviceClient&text=DeviceClient" data-throw-if-not-resolved="False"/>

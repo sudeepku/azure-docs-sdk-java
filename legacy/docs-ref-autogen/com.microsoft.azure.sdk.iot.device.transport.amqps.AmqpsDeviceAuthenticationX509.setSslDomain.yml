@@ -10,7 +10,8 @@ members:
     name: transport
     type: <xref href="Transport?alt=Transport&text=Transport" data-throw-if-not-resolved="False"/>
   exceptions:
-  - name: 848a9648
+  - type: <xref href="TransportException?alt=TransportException&text=TransportException" data-throw-if-not-resolved="False"/>
+    description: <p>if setSslDomain throws IOException </p>
   summary: >-
     <p>Set authentication mode to PLAIN for SAS.</p>
 

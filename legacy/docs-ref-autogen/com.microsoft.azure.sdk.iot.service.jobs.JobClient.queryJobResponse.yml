@@ -13,8 +13,10 @@ members:
     name: jobStatus
     type: <xref href="com.microsoft.azure.sdk.iot.service.jobs.JobStatus?alt=com.microsoft.azure.sdk.iot.service.jobs.JobStatus&text=JobStatus" data-throw-if-not-resolved="False"/>
   exceptions:
-  - name: cbf33bbe
-  - name: 0d494ee6
+  - type: <xref href="IOException?alt=IOException&text=IOException" data-throw-if-not-resolved="False"/>
+    description: <p>If any of the input parameters are incorrect </p>
+  - type: <xref href="IotHubException?alt=IotHubException&text=IotHubException" data-throw-if-not-resolved="False"/>
+    description: <p>If IotHub failed to respond </p>
   returns:
     description: <p>A query object on which to look for responses by </p>
     type: synchronized <xref href="com.microsoft.azure.sdk.iot.service.devicetwin.Query?alt=com.microsoft.azure.sdk.iot.service.devicetwin.Query&text=Query" data-throw-if-not-resolved="False"/>
@@ -35,8 +37,10 @@ members:
     name: pageSize
     type: <xref href="Integer?alt=Integer&text=Integer" data-throw-if-not-resolved="False"/>
   exceptions:
-  - name: cbf33bbe
-  - name: 0d494ee6
+  - type: <xref href="IOException?alt=IOException&text=IOException" data-throw-if-not-resolved="False"/>
+    description: <p>If any of the input parameters are incorrect </p>
+  - type: <xref href="IotHubException?alt=IotHubException&text=IotHubException" data-throw-if-not-resolved="False"/>
+    description: <p>If IotHub failed to respond </p>
   returns:
     description: <p>A query object on which to look for responses by </p>
     type: synchronized <xref href="com.microsoft.azure.sdk.iot.service.devicetwin.Query?alt=com.microsoft.azure.sdk.iot.service.devicetwin.Query&text=Query" data-throw-if-not-resolved="False"/>

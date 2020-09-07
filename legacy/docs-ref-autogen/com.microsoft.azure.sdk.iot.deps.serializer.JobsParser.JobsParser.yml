@@ -34,7 +34,8 @@ members:
     name: maxExecutionTimeInSeconds
     type: <xref href="long?alt=long&text=long" data-throw-if-not-resolved="False"/>
   exceptions:
-  - name: 3c87bd19
+  - type: <xref href="IllegalArgumentException?alt=IllegalArgumentException&text=IllegalArgumentException" data-throw-if-not-resolved="False"/>
+    description: <p>if one of the parameter is not valid. </p>
   summary: >-
     <p>CONSTRUCTOR</p>
 
@@ -73,7 +74,8 @@ members:
     name: maxExecutionTimeInSeconds
     type: <xref href="long?alt=long&text=long" data-throw-if-not-resolved="False"/>
   exceptions:
-  - name: 3c87bd19
+  - type: <xref href="IllegalArgumentException?alt=IllegalArgumentException&text=IllegalArgumentException" data-throw-if-not-resolved="False"/>
+    description: <p>if one of the parameter is not valid. </p>
   summary: >-
     <p>CONSTRUCTOR</p>
 
@@ -126,7 +128,8 @@ members:
     name: maxExecutionTimeInSeconds
     type: <xref href="long?alt=long&text=long" data-throw-if-not-resolved="False"/>
   exceptions:
-  - name: 3c87bd19
+  - type: <xref href="IllegalArgumentException?alt=IllegalArgumentException&text=IllegalArgumentException" data-throw-if-not-resolved="False"/>
+    description: <p>if one of the parameter is not valid. </p>
   summary: >-
     <p>CONSTRUCTOR</p>
 

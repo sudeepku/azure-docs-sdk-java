@@ -10,7 +10,8 @@ members:
     name: tags
     type: Set&lt;<xref href="com.microsoft.azure.sdk.iot.service.devicetwin.Pair?alt=com.microsoft.azure.sdk.iot.service.devicetwin.Pair&text=Pair" data-throw-if-not-resolved="False"/>&gt;
   exceptions:
-  - name: 3c87bd19
+  - type: <xref href="IllegalArgumentException?alt=IllegalArgumentException&text=IllegalArgumentException" data-throw-if-not-resolved="False"/>
+    description: <p>This exception is thrown if the set tags is null </p>
   summary: >-
     <p>Setter for the tags</p>
 

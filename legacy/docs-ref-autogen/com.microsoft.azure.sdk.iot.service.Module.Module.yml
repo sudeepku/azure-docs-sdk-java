@@ -16,7 +16,15 @@ members:
     name: symmetricKey
     type: <xref href="com.microsoft.azure.sdk.iot.service.auth.SymmetricKey?alt=com.microsoft.azure.sdk.iot.service.auth.SymmetricKey&text=SymmetricKey" data-throw-if-not-resolved="False"/>
   exceptions:
-  - name: 3c87bd19
+  - type: <xref href="IllegalArgumentException?alt=IllegalArgumentException&text=IllegalArgumentException" data-throw-if-not-resolved="False"/>
+    description: >-
+      <p>This exception is thrown if<code>deviceId 
+
+          </code> or<code>moduleId 
+
+          </code> is<code>null 
+
+          </code> or empty. </p>
   summary: >-
     <p>Create an Module instance using the given module name</p>
 

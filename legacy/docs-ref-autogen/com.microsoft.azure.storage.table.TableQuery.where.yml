@@ -8,7 +8,7 @@ members:
   parameters:
   - description: <p>A <code>String</code> which specifies the filter expression to apply to the table query. </p>
     name: filter
-    type: <xref href="final+String?alt=final String&text=final+String" data-throw-if-not-resolved="False"/>
+    type: <xref href="final String?alt=final String&text=final+String" data-throw-if-not-resolved="False"/>
   returns:
     description: <p>A reference to the <xref uid="com.microsoft.azure.storage.table.TableQuery" data-throw-if-not-resolved="false">TableQuery</xref> instance with the filter on entities to return set. </p>
     type: <xref href="com.microsoft.azure.storage.table.TableQuery?alt=com.microsoft.azure.storage.table.TableQuery&text=TableQuery" data-throw-if-not-resolved="False"/>&lt;T&gt;

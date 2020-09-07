@@ -6,8 +6,10 @@ members:
   name: receive()
   nameWithType: IMessageReceiver.receive()
   exceptions:
-  - name: 8256ba40
-  - name: 73fec9fb
+  - type: <xref href="InterruptedException?alt=InterruptedException&text=InterruptedException" data-throw-if-not-resolved="False"/>
+    description: <p>if the current thread was interrupted while waiting </p>
+  - type: <xref href="ServiceBusException?alt=ServiceBusException&text=ServiceBusException" data-throw-if-not-resolved="False"/>
+    description: <p>if receive failed </p>
   returns:
     description: <p>The received <xref uid="com.microsoft.azure.servicebus.Message" data-throw-if-not-resolved="false">Message</xref> or null if there is no message. </p>
     type: <xref href="com.microsoft.azure.servicebus.IMessage?alt=com.microsoft.azure.servicebus.IMessage&text=IMessage" data-throw-if-not-resolved="False"/>
@@ -25,8 +27,10 @@ members:
     name: serverWaitTime
     type: <xref href="Duration?alt=Duration&text=Duration" data-throw-if-not-resolved="False"/>
   exceptions:
-  - name: 8256ba40
-  - name: 73fec9fb
+  - type: <xref href="InterruptedException?alt=InterruptedException&text=InterruptedException" data-throw-if-not-resolved="False"/>
+    description: <p>if the current thread was interrupted while waiting </p>
+  - type: <xref href="ServiceBusException?alt=ServiceBusException&text=ServiceBusException" data-throw-if-not-resolved="False"/>
+    description: <p>if receive failed </p>
   returns:
     description: <p>The received <xref uid="com.microsoft.azure.servicebus.Message" data-throw-if-not-resolved="false">Message</xref> or null if there is no message. </p>
     type: <xref href="com.microsoft.azure.servicebus.IMessage?alt=com.microsoft.azure.servicebus.IMessage&text=IMessage" data-throw-if-not-resolved="False"/>

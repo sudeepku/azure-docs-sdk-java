@@ -6,13 +6,14 @@ members:
   name: exists()
   nameWithType: CloudFile.exists()
   exceptions:
-  - name: ca4f407a
+  - type: <xref href="StorageException?alt=StorageException&text=StorageException" data-throw-if-not-resolved="False"/>
+    description: <p>If a storage service error occurred. </p>
   returns:
     description: >-
       <p>
 
         <code>true</code> if the file exists, otherwise <code>false</code>.</p>
-    type: <xref href="final+boolean?alt=final boolean&text=final+boolean" data-throw-if-not-resolved="False"/>
+    type: <xref href="final boolean?alt=final boolean&text=final+boolean" data-throw-if-not-resolved="False"/>
   summary: >-
     <p>Checks to see if the file exists.</p>
 
@@ -33,13 +34,14 @@ members:
     name: opContext
     type: <xref href="com.microsoft.azure.storage.OperationContext?alt=com.microsoft.azure.storage.OperationContext&text=OperationContext" data-throw-if-not-resolved="False"/>
   exceptions:
-  - name: ca4f407a
+  - type: <xref href="StorageException?alt=StorageException&text=StorageException" data-throw-if-not-resolved="False"/>
+    description: <p>If a storage service error occurred. </p>
   returns:
     description: >-
       <p>
 
         <code>true</code> if the file exists, otherwise <code>false</code>.</p>
-    type: <xref href="final+boolean?alt=final boolean&text=final+boolean" data-throw-if-not-resolved="False"/>
+    type: <xref href="final boolean?alt=final boolean&text=final+boolean" data-throw-if-not-resolved="False"/>
   summary: >-
     <p>Checks to see if the file exists, using the specified access condition, request options and operation context.</p>
 

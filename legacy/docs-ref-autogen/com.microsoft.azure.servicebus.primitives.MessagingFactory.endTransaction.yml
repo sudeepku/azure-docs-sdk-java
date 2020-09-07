@@ -13,8 +13,10 @@ members:
     name: commit
     type: <xref href="boolean?alt=boolean&text=boolean" data-throw-if-not-resolved="False"/>
   exceptions:
-  - name: 73fec9fb
-  - name: 8256ba40
+  - type: <xref href="ServiceBusException?alt=ServiceBusException&text=ServiceBusException" data-throw-if-not-resolved="False"/>
+    description: <p>if transaction fails to end </p>
+  - type: <xref href="InterruptedException?alt=InterruptedException&text=InterruptedException" data-throw-if-not-resolved="False"/>
+    description: <p>if the current thread was interrupted while waiting </p>
   summary: <p>Ends a transaction that was initiated using <xref uid="com.microsoft.azure.servicebus.primitives.MessagingFactory.startTransactionAsync()" data-throw-if-not-resolved="false">MessagingFactory#startTransactionAsync()</xref>. </p>
   syntax: public void endTransaction(TransactionContext transaction, boolean commit)
   uid: com.microsoft.azure.servicebus.primitives.MessagingFactory.endTransaction(TransactionContext,boolean)

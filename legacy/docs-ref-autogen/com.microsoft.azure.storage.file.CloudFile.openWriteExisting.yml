@@ -6,8 +6,9 @@ members:
   name: openWriteExisting()
   nameWithType: CloudFile.openWriteExisting()
   exceptions:
-  - name: ca4f407a
-  - name: "44102508"
+  - type: <xref href="StorageException?alt=StorageException&text=StorageException" data-throw-if-not-resolved="False"/>
+    description: <p>If a storage service error occurred. </p>
+  - type: <xref href="URISyntaxException?alt=URISyntaxException&text=URISyntaxException" data-throw-if-not-resolved="False"/>
   returns:
     description: <p>A <xref uid="com.microsoft.azure.storage.file.FileOutputStream" data-throw-if-not-resolved="false">FileOutputStream</xref> object used to write data to the file.</p>
     type: <xref href="com.microsoft.azure.storage.file.FileOutputStream?alt=com.microsoft.azure.storage.file.FileOutputStream&text=FileOutputStream" data-throw-if-not-resolved="False"/>
@@ -31,8 +32,9 @@ members:
     name: opContext
     type: <xref href="com.microsoft.azure.storage.OperationContext?alt=com.microsoft.azure.storage.OperationContext&text=OperationContext" data-throw-if-not-resolved="False"/>
   exceptions:
-  - name: ca4f407a
-  - name: "44102508"
+  - type: <xref href="StorageException?alt=StorageException&text=StorageException" data-throw-if-not-resolved="False"/>
+    description: <p>If a storage service error occurred. </p>
+  - type: <xref href="URISyntaxException?alt=URISyntaxException&text=URISyntaxException" data-throw-if-not-resolved="False"/>
   returns:
     description: <p>A <xref uid="com.microsoft.azure.storage.file.FileOutputStream" data-throw-if-not-resolved="false">FileOutputStream</xref> object used to write data to the file.</p>
     type: <xref href="com.microsoft.azure.storage.file.FileOutputStream?alt=com.microsoft.azure.storage.file.FileOutputStream&text=FileOutputStream" data-throw-if-not-resolved="False"/>

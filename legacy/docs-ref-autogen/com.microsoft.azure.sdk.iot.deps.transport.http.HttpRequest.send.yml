@@ -6,7 +6,8 @@ members:
   name: send()
   nameWithType: HttpRequest.send()
   exceptions:
-  - name: cbf33bbe
+  - type: <xref href="IOException?alt=IOException&text=IOException" data-throw-if-not-resolved="False"/>
+    description: <p>This exception thrown if the connection could not be established, or the input/output streams could not be accessed. </p>
   returns:
     description: <p>The HTTPS response.</p>
     type: <xref href="com.microsoft.azure.sdk.iot.deps.transport.http.HttpResponse?alt=com.microsoft.azure.sdk.iot.deps.transport.http.HttpResponse&text=HttpResponse" data-throw-if-not-resolved="False"/>

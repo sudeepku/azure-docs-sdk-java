@@ -16,7 +16,8 @@ members:
     name: callbackContext
     type: <xref href="Object?alt=Object&text=Object" data-throw-if-not-resolved="False"/>
   exceptions:
-  - name: 3c87bd19
+  - type: <xref href="IllegalArgumentException?alt=IllegalArgumentException&text=IllegalArgumentException" data-throw-if-not-resolved="False"/>
+    description: <p>if provided callback is null </p>
   summary: >-
     <p>Registers a callback to be executed when the connection status of the device changes. The callback will be fired with a status and a reason why the device's status changed. When the callback is fired, the provided context will be provided alongside the status and reason.</p>
 

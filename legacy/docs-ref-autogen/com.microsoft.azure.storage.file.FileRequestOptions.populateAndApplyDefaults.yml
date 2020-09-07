@@ -32,7 +32,7 @@ members:
     type: final <xref href="com.microsoft.azure.storage.file.CloudFileClient?alt=com.microsoft.azure.storage.file.CloudFileClient&text=CloudFileClient" data-throw-if-not-resolved="False"/>
   - description: <p>whether to initialize the startTimeInMs field, or not </p>
     name: setStartTime
-    type: <xref href="final+boolean?alt=final boolean&text=final+boolean" data-throw-if-not-resolved="False"/>
+    type: <xref href="final boolean?alt=final boolean&text=final+boolean" data-throw-if-not-resolved="False"/>
   returns:
     type: final <xref href="com.microsoft.azure.storage.file.FileRequestOptions?alt=com.microsoft.azure.storage.file.FileRequestOptions&text=FileRequestOptions" data-throw-if-not-resolved="False"/>
   summary: >-

@@ -10,9 +10,10 @@ members:
     name: transport
     type: <xref href="Transport?alt=Transport&text=Transport" data-throw-if-not-resolved="False"/>
   exceptions:
-  - name: 848a9648
+  - type: <xref href="TransportException?alt=TransportException&text=TransportException" data-throw-if-not-resolved="False"/>
+    description: <p>if setting ssl domain fails </p>
   returns:
-    type: <xref href="abstract+void?alt=abstract void&text=abstract+void" data-throw-if-not-resolved="False"/>
+    type: <xref href="abstract void?alt=abstract void&text=abstract+void" data-throw-if-not-resolved="False"/>
   summary: >-
     <p>abstract function for set the SslDomain</p>
 

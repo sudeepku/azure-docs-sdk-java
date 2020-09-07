@@ -18,7 +18,8 @@ members:
     name: method
     type: <xref href="com.microsoft.azure.sdk.iot.device.transport.https.HttpsMethod?alt=com.microsoft.azure.sdk.iot.device.transport.https.HttpsMethod&text=HttpsMethod" data-throw-if-not-resolved="False"/>
   exceptions:
-  - name: 848a9648
+  - type: <xref href="TransportException?alt=TransportException&text=TransportException" data-throw-if-not-resolved="False"/>
+    description: <p>if the connection could not be opened. </p>
   summary: >-
     <p>Constructor. Opens a connection to the given URL. Can be HTTPS or HTTP</p>
 
@@ -39,7 +40,8 @@ members:
     name: proxySettings
     type: final <xref href="com.microsoft.azure.sdk.iot.device.ProxySettings?alt=com.microsoft.azure.sdk.iot.device.ProxySettings&text=ProxySettings" data-throw-if-not-resolved="False"/>
   exceptions:
-  - name: 848a9648
+  - type: <xref href="TransportException?alt=TransportException&text=TransportException" data-throw-if-not-resolved="False"/>
+    description: <p>if the connection could not be opened. </p>
   summary: >-
     <p>Constructor. Opens a connection to the given URL. Can be HTTPS or HTTP</p>
 

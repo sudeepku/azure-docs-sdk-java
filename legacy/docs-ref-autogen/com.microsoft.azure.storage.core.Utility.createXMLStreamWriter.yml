@@ -10,7 +10,7 @@ members:
     name: outWriter
     type: <xref href="StringWriter?alt=StringWriter&text=StringWriter" data-throw-if-not-resolved="False"/>
   exceptions:
-  - name: 33547caa
+  - type: <xref href="XMLStreamException?alt=XMLStreamException&text=XMLStreamException" data-throw-if-not-resolved="False"/>
   returns:
     description: <p>A <code>XMLStreamWriter</code> instance</p>
     type: <xref href="XMLStreamWriter?alt=XMLStreamWriter&text=XMLStreamWriter" data-throw-if-not-resolved="False"/>

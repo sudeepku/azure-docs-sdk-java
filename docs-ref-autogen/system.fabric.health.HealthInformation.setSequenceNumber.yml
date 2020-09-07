@@ -10,7 +10,8 @@ members:
     name: sequenceNumber
     type: <xref href="long?alt=long&text=long" data-throw-if-not-resolved="False"/>
   exceptions:
-  - name: 3c87bd19
+  - type: <xref href="IllegalArgumentException?alt=IllegalArgumentException&text=IllegalArgumentException" data-throw-if-not-resolved="False"/>
+    description: <p>if sequenceNumber is less or equals than unknownSequenceNumber </p>
   summary: >-
     <p>Sets the sequence number associated with the report. Must be greater than <xref uid="" data-throw-if-not-resolved="false">system.fabric.health.HealthInformation#unknownSequenceNumber</xref>.</p>
 

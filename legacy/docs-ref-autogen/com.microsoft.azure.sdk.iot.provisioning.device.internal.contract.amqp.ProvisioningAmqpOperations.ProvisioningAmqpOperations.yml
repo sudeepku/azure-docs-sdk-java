@@ -13,7 +13,8 @@ members:
     name: hostName
     type: <xref href="String?alt=String&text=String" data-throw-if-not-resolved="False"/>
   exceptions:
-  - name: 352f005b
+  - type: <xref href="ProvisioningDeviceClientException?alt=ProvisioningDeviceClientException&text=ProvisioningDeviceClientException" data-throw-if-not-resolved="False"/>
+    description: <p>Exception thrown if parameter is not provided </p>
   summary: <p>Constructor for ProvisioningAmqpOperation that handle the AMQP transport for provisioning </p>
   syntax: public ProvisioningAmqpOperations(String idScope, String hostName)
   uid: com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.amqp.ProvisioningAmqpOperations.ProvisioningAmqpOperations(String,String)

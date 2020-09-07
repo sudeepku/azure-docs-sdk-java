@@ -6,11 +6,13 @@ members:
   name: getQualifiedUri()
   nameWithType: CloudBlob.getQualifiedUri()
   exceptions:
-  - name: ca4f407a
-  - name: "44102508"
+  - type: <xref href="StorageException?alt=StorageException&text=StorageException" data-throw-if-not-resolved="False"/>
+    description: <p>If a storage service error occurred. </p>
+  - type: <xref href="URISyntaxException?alt=URISyntaxException&text=URISyntaxException" data-throw-if-not-resolved="False"/>
+    description: <p>If the resource URI is invalid. </p>
   returns:
     description: <p>A <code>java.net.URI</code> object that represents the snapshot or shared access signature.</p>
-    type: <xref href="final+URI?alt=final URI&text=final+URI" data-throw-if-not-resolved="False"/>
+    type: <xref href="final URI?alt=final URI&text=final+URI" data-throw-if-not-resolved="False"/>
   summary: >-
     <p>Returns the snapshot or shared access signature qualified URI for this blob.</p>
 

@@ -10,7 +10,8 @@ members:
     name: txn
     type: <xref href="microsoft.servicefabric.data.Transaction?alt=microsoft.servicefabric.data.Transaction&text=Transaction" data-throw-if-not-resolved="False"/>
   exceptions:
-  - name: 3c87bd19
+  - type: <xref href="IllegalArgumentException?alt=IllegalArgumentException&text=IllegalArgumentException" data-throw-if-not-resolved="False"/>
+    description: <p>if txn is null. </p>
   returns:
     description: >-
       <p>

@@ -13,7 +13,8 @@ members:
     name: autoScaleFormula
     type: <xref href="String?alt=String&text=String" data-throw-if-not-resolved="False"/>
   exceptions:
-  - name: 3c87bd19
+  - type: <xref href="IllegalArgumentException?alt=IllegalArgumentException&text=IllegalArgumentException" data-throw-if-not-resolved="False"/>
+    description: <p>thrown if parameters fail the validation </p>
   returns:
     description: <p>the observable to the AutoScaleRun object </p>
     type: Observable&lt;ServiceResponseWithHeaders&lt;<xref href="com.microsoft.azure.batch.protocol.models.AutoScaleRun?alt=com.microsoft.azure.batch.protocol.models.AutoScaleRun&text=AutoScaleRun" data-throw-if-not-resolved="False"/>, <xref href="com.microsoft.azure.batch.protocol.models.PoolEvaluateAutoScaleHeaders?alt=com.microsoft.azure.batch.protocol.models.PoolEvaluateAutoScaleHeaders&text=PoolEvaluateAutoScaleHeaders" data-throw-if-not-resolved="False"/>&gt;&gt;
@@ -37,7 +38,8 @@ members:
     name: poolEvaluateAutoScaleOptions
     type: <xref href="com.microsoft.azure.batch.protocol.models.PoolEvaluateAutoScaleOptions?alt=com.microsoft.azure.batch.protocol.models.PoolEvaluateAutoScaleOptions&text=PoolEvaluateAutoScaleOptions" data-throw-if-not-resolved="False"/>
   exceptions:
-  - name: 3c87bd19
+  - type: <xref href="IllegalArgumentException?alt=IllegalArgumentException&text=IllegalArgumentException" data-throw-if-not-resolved="False"/>
+    description: <p>thrown if parameters fail the validation </p>
   returns:
     description: <p>the observable to the AutoScaleRun object </p>
     type: Observable&lt;ServiceResponseWithHeaders&lt;<xref href="com.microsoft.azure.batch.protocol.models.AutoScaleRun?alt=com.microsoft.azure.batch.protocol.models.AutoScaleRun&text=AutoScaleRun" data-throw-if-not-resolved="False"/>, <xref href="com.microsoft.azure.batch.protocol.models.PoolEvaluateAutoScaleHeaders?alt=com.microsoft.azure.batch.protocol.models.PoolEvaluateAutoScaleHeaders&text=PoolEvaluateAutoScaleHeaders" data-throw-if-not-resolved="False"/>&gt;&gt;

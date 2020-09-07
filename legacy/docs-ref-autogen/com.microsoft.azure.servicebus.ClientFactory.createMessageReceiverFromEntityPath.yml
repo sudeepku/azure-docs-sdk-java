@@ -13,8 +13,10 @@ members:
     name: entityPath
     type: <xref href="String?alt=String&text=String" data-throw-if-not-resolved="False"/>
   exceptions:
-  - name: 8256ba40
-  - name: 73fec9fb
+  - type: <xref href="InterruptedException?alt=InterruptedException&text=InterruptedException" data-throw-if-not-resolved="False"/>
+    description: <p>if the current thread was interrupted while waiting </p>
+  - type: <xref href="ServiceBusException?alt=ServiceBusException&text=ServiceBusException" data-throw-if-not-resolved="False"/>
+    description: <p>if the receiver cannot be created </p>
   returns:
     description: <p>IMessageReceiver instance </p>
     type: <xref href="com.microsoft.azure.servicebus.IMessageReceiver?alt=com.microsoft.azure.servicebus.IMessageReceiver&text=IMessageReceiver" data-throw-if-not-resolved="False"/>
@@ -35,8 +37,10 @@ members:
     name: receiveMode
     type: <xref href="com.microsoft.azure.servicebus.ReceiveMode?alt=com.microsoft.azure.servicebus.ReceiveMode&text=ReceiveMode" data-throw-if-not-resolved="False"/>
   exceptions:
-  - name: 8256ba40
-  - name: 73fec9fb
+  - type: <xref href="InterruptedException?alt=InterruptedException&text=InterruptedException" data-throw-if-not-resolved="False"/>
+    description: <p>if the current thread was interrupted while waiting </p>
+  - type: <xref href="ServiceBusException?alt=ServiceBusException&text=ServiceBusException" data-throw-if-not-resolved="False"/>
+    description: <p>if the receiver cannot be created </p>
   returns:
     description: <p>IMessageReceiver instance </p>
     type: <xref href="com.microsoft.azure.servicebus.IMessageReceiver?alt=com.microsoft.azure.servicebus.IMessageReceiver&text=IMessageReceiver" data-throw-if-not-resolved="False"/>
@@ -57,8 +61,10 @@ members:
     name: clientSettings
     type: <xref href="com.microsoft.azure.servicebus.ClientSettings?alt=com.microsoft.azure.servicebus.ClientSettings&text=ClientSettings" data-throw-if-not-resolved="False"/>
   exceptions:
-  - name: 8256ba40
-  - name: 73fec9fb
+  - type: <xref href="InterruptedException?alt=InterruptedException&text=InterruptedException" data-throw-if-not-resolved="False"/>
+    description: <p>if the current thread was interrupted while waiting </p>
+  - type: <xref href="ServiceBusException?alt=ServiceBusException&text=ServiceBusException" data-throw-if-not-resolved="False"/>
+    description: <p>if the receiver cannot be created </p>
   returns:
     description: <p>IMessageReceiver instance </p>
     type: <xref href="com.microsoft.azure.servicebus.IMessageReceiver?alt=com.microsoft.azure.servicebus.IMessageReceiver&text=IMessageReceiver" data-throw-if-not-resolved="False"/>
@@ -82,8 +88,10 @@ members:
     name: receiveMode
     type: <xref href="com.microsoft.azure.servicebus.ReceiveMode?alt=com.microsoft.azure.servicebus.ReceiveMode&text=ReceiveMode" data-throw-if-not-resolved="False"/>
   exceptions:
-  - name: 8256ba40
-  - name: 73fec9fb
+  - type: <xref href="InterruptedException?alt=InterruptedException&text=InterruptedException" data-throw-if-not-resolved="False"/>
+    description: <p>if the current thread was interrupted while waiting </p>
+  - type: <xref href="ServiceBusException?alt=ServiceBusException&text=ServiceBusException" data-throw-if-not-resolved="False"/>
+    description: <p>if the receiver cannot be created </p>
   returns:
     description: <p>IMessageReceiver instance </p>
     type: <xref href="com.microsoft.azure.servicebus.IMessageReceiver?alt=com.microsoft.azure.servicebus.IMessageReceiver&text=IMessageReceiver" data-throw-if-not-resolved="False"/>
@@ -104,8 +112,10 @@ members:
     name: clientSettings
     type: <xref href="com.microsoft.azure.servicebus.ClientSettings?alt=com.microsoft.azure.servicebus.ClientSettings&text=ClientSettings" data-throw-if-not-resolved="False"/>
   exceptions:
-  - name: 8256ba40
-  - name: 73fec9fb
+  - type: <xref href="InterruptedException?alt=InterruptedException&text=InterruptedException" data-throw-if-not-resolved="False"/>
+    description: <p>if the current thread was interrupted while waiting </p>
+  - type: <xref href="ServiceBusException?alt=ServiceBusException&text=ServiceBusException" data-throw-if-not-resolved="False"/>
+    description: <p>if the receiver cannot be created </p>
   returns:
     description: <p>IMessageReceiver instance </p>
     type: <xref href="com.microsoft.azure.servicebus.IMessageReceiver?alt=com.microsoft.azure.servicebus.IMessageReceiver&text=IMessageReceiver" data-throw-if-not-resolved="False"/>
@@ -129,8 +139,10 @@ members:
     name: receiveMode
     type: <xref href="com.microsoft.azure.servicebus.ReceiveMode?alt=com.microsoft.azure.servicebus.ReceiveMode&text=ReceiveMode" data-throw-if-not-resolved="False"/>
   exceptions:
-  - name: 8256ba40
-  - name: 73fec9fb
+  - type: <xref href="InterruptedException?alt=InterruptedException&text=InterruptedException" data-throw-if-not-resolved="False"/>
+    description: <p>if the current thread was interrupted while waiting </p>
+  - type: <xref href="ServiceBusException?alt=ServiceBusException&text=ServiceBusException" data-throw-if-not-resolved="False"/>
+    description: <p>if the receiver cannot be created </p>
   returns:
     description: <p>IMessageReceiver instance </p>
     type: <xref href="com.microsoft.azure.servicebus.IMessageReceiver?alt=com.microsoft.azure.servicebus.IMessageReceiver&text=IMessageReceiver" data-throw-if-not-resolved="False"/>

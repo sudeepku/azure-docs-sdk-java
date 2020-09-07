@@ -7,11 +7,11 @@ members:
   nameWithType: HandleListHandler.getHandleList(final InputStream stream)
   parameters:
   - name: stream
-    type: <xref href="final+InputStream?alt=final InputStream&text=final+InputStream" data-throw-if-not-resolved="False"/>
+    type: <xref href="final InputStream?alt=final InputStream&text=final+InputStream" data-throw-if-not-resolved="False"/>
   exceptions:
-  - name: 3d34ae3a
-  - name: 38ec2a1f
-  - name: cbf33bbe
+  - type: <xref href="ParserConfigurationException?alt=ParserConfigurationException&text=ParserConfigurationException" data-throw-if-not-resolved="False"/>
+  - type: <xref href="SAXException?alt=SAXException&text=SAXException" data-throw-if-not-resolved="False"/>
+  - type: <xref href="IOException?alt=IOException&text=IOException" data-throw-if-not-resolved="False"/>
   returns:
     type: <xref href="com.microsoft.azure.storage.core.ListResponse?alt=com.microsoft.azure.storage.core.ListResponse&text=ListResponse" data-throw-if-not-resolved="False"/>&lt;<xref href="com.microsoft.azure.storage.file.FileHandle?alt=com.microsoft.azure.storage.file.FileHandle&text=FileHandle" data-throw-if-not-resolved="False"/>&gt;
   summary: >-

@@ -8,17 +8,19 @@ members:
   parameters:
   - description: <p>An <xref uid="" data-throw-if-not-resolved="false">InputStream</xref> object which represents the input stream to write to the file. </p>
     name: sourceStream
-    type: <xref href="final+InputStream?alt=final InputStream&text=final+InputStream" data-throw-if-not-resolved="False"/>
+    type: <xref href="final InputStream?alt=final InputStream&text=final+InputStream" data-throw-if-not-resolved="False"/>
   - description: <p>A <code>long</code> which represents the offset, in number of bytes, at which to begin writing the data. </p>
     name: offset
-    type: <xref href="final+long?alt=final long&text=final+long" data-throw-if-not-resolved="False"/>
+    type: <xref href="final long?alt=final long&text=final+long" data-throw-if-not-resolved="False"/>
   - description: <p>A <code>long</code> which represents the length, in bytes, of the data to write.</p>
     name: length
-    type: <xref href="final+long?alt=final long&text=final+long" data-throw-if-not-resolved="False"/>
+    type: <xref href="final long?alt=final long&text=final+long" data-throw-if-not-resolved="False"/>
   exceptions:
-  - name: cbf33bbe
-  - name: ca4f407a
-  - name: "44102508"
+  - type: <xref href="IOException?alt=IOException&text=IOException" data-throw-if-not-resolved="False"/>
+    description: <p>If an I/O exception occurred. </p>
+  - type: <xref href="StorageException?alt=StorageException&text=StorageException" data-throw-if-not-resolved="False"/>
+    description: <p>If a storage service error occurred. </p>
+  - type: <xref href="URISyntaxException?alt=URISyntaxException&text=URISyntaxException" data-throw-if-not-resolved="False"/>
   summary: >-
     <p>Uploads a range to a file.</p>
 
@@ -31,13 +33,13 @@ members:
   parameters:
   - description: <p>An <xref uid="" data-throw-if-not-resolved="false">InputStream</xref> object which represents the input stream to write to the file. </p>
     name: sourceStream
-    type: <xref href="final+InputStream?alt=final InputStream&text=final+InputStream" data-throw-if-not-resolved="False"/>
+    type: <xref href="final InputStream?alt=final InputStream&text=final+InputStream" data-throw-if-not-resolved="False"/>
   - description: <p>A <code>long</code> which represents the offset, in number of bytes, at which to begin writing the data. </p>
     name: offset
-    type: <xref href="final+long?alt=final long&text=final+long" data-throw-if-not-resolved="False"/>
+    type: <xref href="final long?alt=final long&text=final+long" data-throw-if-not-resolved="False"/>
   - description: <p>A <code>long</code> which represents the length, in bytes, of the data to write. </p>
     name: length
-    type: <xref href="final+long?alt=final long&text=final+long" data-throw-if-not-resolved="False"/>
+    type: <xref href="final long?alt=final long&text=final+long" data-throw-if-not-resolved="False"/>
   - description: <p>An <xref uid="com.microsoft.azure.storage.AccessCondition" data-throw-if-not-resolved="false">AccessCondition</xref> object which represents the access conditions for the file. </p>
     name: accessCondition
     type: final <xref href="com.microsoft.azure.storage.AccessCondition?alt=com.microsoft.azure.storage.AccessCondition&text=AccessCondition" data-throw-if-not-resolved="False"/>
@@ -48,9 +50,11 @@ members:
     name: opContext
     type: <xref href="com.microsoft.azure.storage.OperationContext?alt=com.microsoft.azure.storage.OperationContext&text=OperationContext" data-throw-if-not-resolved="False"/>
   exceptions:
-  - name: cbf33bbe
-  - name: ca4f407a
-  - name: "44102508"
+  - type: <xref href="IOException?alt=IOException&text=IOException" data-throw-if-not-resolved="False"/>
+    description: <p>If an I/O exception occurred. </p>
+  - type: <xref href="StorageException?alt=StorageException&text=StorageException" data-throw-if-not-resolved="False"/>
+    description: <p>If a storage service error occurred. </p>
+  - type: <xref href="URISyntaxException?alt=URISyntaxException&text=URISyntaxException" data-throw-if-not-resolved="False"/>
   summary: >-
     <p>Uploads a range to a file using the specified lease ID, request options, and operation context.</p>
 

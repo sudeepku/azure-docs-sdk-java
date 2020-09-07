@@ -6,7 +6,8 @@ members:
   name: createOrReplace()
   nameWithType: CloudAppendBlob.createOrReplace()
   exceptions:
-  - name: ca4f407a
+  - type: <xref href="StorageException?alt=StorageException&text=StorageException" data-throw-if-not-resolved="False"/>
+    description: <p>If a storage service error occurred. </p>
   summary: >-
     <p>Creates an empty append blob. If the blob already exists, this will replace it. </p>
 
@@ -29,7 +30,8 @@ members:
     name: opContext
     type: <xref href="com.microsoft.azure.storage.OperationContext?alt=com.microsoft.azure.storage.OperationContext&text=OperationContext" data-throw-if-not-resolved="False"/>
   exceptions:
-  - name: ca4f407a
+  - type: <xref href="StorageException?alt=StorageException&text=StorageException" data-throw-if-not-resolved="False"/>
+    description: <p>If a storage service error occurred. </p>
   summary: >-
     <p>Creates an append blob using the specified request options and operation context. If the blob already exists, this will replace it. </p>
 

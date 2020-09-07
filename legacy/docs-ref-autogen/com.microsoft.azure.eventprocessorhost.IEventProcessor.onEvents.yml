@@ -13,7 +13,8 @@ members:
     name: events
     type: Iterable&lt;<xref href="com.microsoft.azure.eventhubs.EventData?alt=com.microsoft.azure.eventhubs.EventData&text=EventData" data-throw-if-not-resolved="False"/>&gt;
   exceptions:
-  - name: 8a99d4b0
+  - type: <xref href="Exception?alt=Exception&text=Exception" data-throw-if-not-resolved="False"/>
+    description: <p>to indicate failure. </p>
   summary: >-
     <p>Called by the processor host when a batch of events has arrived. </p>
 

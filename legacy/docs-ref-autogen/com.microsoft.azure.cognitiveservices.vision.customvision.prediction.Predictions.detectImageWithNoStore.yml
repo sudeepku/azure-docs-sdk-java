@@ -26,14 +26,17 @@ members:
     type: <xref href="String?alt=String&text=String" data-throw-if-not-resolved="False"/>
   - description: <p>Binary image data. Supported formats are JPEG, GIF, PNG, and BMP. Supports images up to 0MB. </p>
     name: imageData
-    type: <xref href="byte+%5B%5D?alt=byte []&text=byte+%5B%5D" data-throw-if-not-resolved="False"/>
+    type: <xref href="byte []?alt=byte []&text=byte+%5B%5D" data-throw-if-not-resolved="False"/>
   - description: <p>the object representing the optional parameters to be set before calling this API </p>
     name: detectImageWithNoStoreOptionalParameter
     type: <xref href="com.microsoft.azure.cognitiveservices.vision.customvision.prediction.models.DetectImageWithNoStoreOptionalParameter?alt=com.microsoft.azure.cognitiveservices.vision.customvision.prediction.models.DetectImageWithNoStoreOptionalParameter&text=DetectImageWithNoStoreOptionalParameter" data-throw-if-not-resolved="False"/>
   exceptions:
-  - name: 3c87bd19
-  - name: d8f234c9
-  - name: 9b2a4515
+  - type: <xref href="IllegalArgumentException?alt=IllegalArgumentException&text=IllegalArgumentException" data-throw-if-not-resolved="False"/>
+    description: <p>thrown if parameters fail the validation </p>
+  - type: <xref href="CustomVisionErrorException?alt=CustomVisionErrorException&text=CustomVisionErrorException" data-throw-if-not-resolved="False"/>
+    description: <p>thrown if the request is rejected by server </p>
+  - type: <xref href="RuntimeException?alt=RuntimeException&text=RuntimeException" data-throw-if-not-resolved="False"/>
+    description: <p>all other wrapped checked exceptions if the request fails to be sent </p>
   returns:
     description: <p>the ImagePrediction object if successful. </p>
     type: <xref href="com.microsoft.azure.cognitiveservices.vision.customvision.prediction.models.ImagePrediction?alt=com.microsoft.azure.cognitiveservices.vision.customvision.prediction.models.ImagePrediction&text=ImagePrediction" data-throw-if-not-resolved="False"/>

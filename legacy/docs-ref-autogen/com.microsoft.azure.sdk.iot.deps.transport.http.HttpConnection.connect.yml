@@ -6,7 +6,8 @@ members:
   name: connect()
   nameWithType: HttpConnection.connect()
   exceptions:
-  - name: cbf33bbe
+  - type: <xref href="IOException?alt=IOException&text=IOException" data-throw-if-not-resolved="False"/>
+    description: <p>This exception thrown if the connection could not be established, or the server responded with a bad status code. </p>
   summary: >-
     <p>Sends the request to the URL given in the constructor.</p>
 

@@ -10,7 +10,8 @@ members:
     name: timeout
     type: <xref href="long?alt=long&text=long" data-throw-if-not-resolved="False"/>
   exceptions:
-  - name: 3c87bd19
+  - type: <xref href="IllegalArgumentException?alt=IllegalArgumentException&text=IllegalArgumentException" data-throw-if-not-resolved="False"/>
+    description: <p>if the provided timeout is 0 or negative </p>
   summary: <p>Set the length of time, in milliseconds, that any given operation will expire in. These operations include reconnecting upon a connection drop and sending a message. </p>
   syntax: public void setOperationTimeout(long timeout)
   uid: com.microsoft.azure.sdk.iot.device.InternalClient.setOperationTimeout(long)

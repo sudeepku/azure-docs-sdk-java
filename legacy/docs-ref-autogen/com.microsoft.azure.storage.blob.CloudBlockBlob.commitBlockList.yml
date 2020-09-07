@@ -10,7 +10,8 @@ members:
     name: blockList
     type: final Iterable&lt;<xref href="com.microsoft.azure.storage.blob.BlockEntry?alt=com.microsoft.azure.storage.blob.BlockEntry&text=BlockEntry" data-throw-if-not-resolved="False"/>&gt;
   exceptions:
-  - name: ca4f407a
+  - type: <xref href="StorageException?alt=StorageException&text=StorageException" data-throw-if-not-resolved="False"/>
+    description: <p>If a storage service error occurred. </p>
   summary: >-
     <p>Commits a block list to the storage service. In order to be written as part of a blob, a block must have been successfully written to the server in a prior uploadBlock operation.</p>
 
@@ -34,7 +35,8 @@ members:
     name: opContext
     type: <xref href="com.microsoft.azure.storage.OperationContext?alt=com.microsoft.azure.storage.OperationContext&text=OperationContext" data-throw-if-not-resolved="False"/>
   exceptions:
-  - name: ca4f407a
+  - type: <xref href="StorageException?alt=StorageException&text=StorageException" data-throw-if-not-resolved="False"/>
+    description: <p>If a storage service error occurred. </p>
   summary: >-
     <p>Commits a block list to the storage service using the specified lease ID, request options, and operation context. In order to be written as part of a blob, a block must have been successfully written to the server in a prior uploadBlock operation.</p>
 
@@ -60,7 +62,8 @@ members:
     name: opContext
     type: <xref href="com.microsoft.azure.storage.OperationContext?alt=com.microsoft.azure.storage.OperationContext&text=OperationContext" data-throw-if-not-resolved="False"/>
   exceptions:
-  - name: ca4f407a
+  - type: <xref href="StorageException?alt=StorageException&text=StorageException" data-throw-if-not-resolved="False"/>
+    description: <p>If a storage service error occurred. </p>
   summary: >-
     <p>Commits a block list to the storage service using the specified lease ID, request options, and operation context. In order to be written as part of a blob, a block must have been successfully written to the server in a prior uploadBlock operation.</p>
 

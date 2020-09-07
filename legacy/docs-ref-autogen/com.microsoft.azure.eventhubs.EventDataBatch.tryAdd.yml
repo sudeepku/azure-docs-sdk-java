@@ -10,7 +10,8 @@ members:
     name: eventData
     type: final <xref href="com.microsoft.azure.eventhubs.EventData?alt=com.microsoft.azure.eventhubs.EventData&text=EventData" data-throw-if-not-resolved="False"/>
   exceptions:
-  - name: 22fa3d6f
+  - type: <xref href="PayloadSizeExceededException?alt=PayloadSizeExceededException&text=PayloadSizeExceededException" data-throw-if-not-resolved="False"/>
+    description: <p>when a single <xref uid="com.microsoft.azure.eventhubs.EventData" data-throw-if-not-resolved="false">EventData</xref> instance exceeds maximum allowed size of the batch </p>
   returns:
     description: <p>A boolean value indicating if the <xref uid="com.microsoft.azure.eventhubs.EventData" data-throw-if-not-resolved="false">EventData</xref> addition to this batch/collection was successful or not. </p>
     type: <xref href="boolean?alt=boolean&text=boolean" data-throw-if-not-resolved="False"/>

@@ -8,10 +8,12 @@ members:
   parameters:
   - description: <p>buffer </p>
     name: buffer
-    type: <xref href="byte+%5B%5D?alt=byte []&text=byte+%5B%5D" data-throw-if-not-resolved="False"/>
+    type: <xref href="byte []?alt=byte []&text=byte+%5B%5D" data-throw-if-not-resolved="False"/>
   exceptions:
-  - name: cbf33bbe
-  - name: 7c9afd52
+  - type: <xref href="IOException?alt=IOException&text=IOException" data-throw-if-not-resolved="False"/>
+    description: <p>throws IOException </p>
+  - type: <xref href="ClassNotFoundException?alt=ClassNotFoundException&text=ClassNotFoundException" data-throw-if-not-resolved="False"/>
+    description: <p>throws ClassNotFoundException </p>
   returns:
     description: <p>De-serialized headers </p>
     type: <xref href="microsoft.servicefabric.services.remoting.ServiceRemotingMessageHeaders?alt=microsoft.servicefabric.services.remoting.ServiceRemotingMessageHeaders&text=ServiceRemotingMessageHeaders" data-throw-if-not-resolved="False"/>

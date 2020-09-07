@@ -13,10 +13,14 @@ members:
     name: protocol
     type: <xref href="com.microsoft.azure.sdk.iot.device.IotHubClientProtocol?alt=com.microsoft.azure.sdk.iot.device.IotHubClientProtocol&text=IotHubClientProtocol" data-throw-if-not-resolved="False"/>
   exceptions:
-  - name: 9fe91d4c
-  - name: b1c38b44
-  - name: 3c87bd19
-  - name: "44102508"
+  - type: <xref href="ModuleClientException?alt=ModuleClientException&text=ModuleClientException" data-throw-if-not-resolved="False"/>
+    description: <p>if an exception is encountered when parsing the connection string </p>
+  - type: <xref href="UnsupportedOperationException?alt=UnsupportedOperationException&text=UnsupportedOperationException" data-throw-if-not-resolved="False"/>
+    description: <p>if using any protocol besides MQTT, if the connection string is missing the "moduleId" field, or if the connection string uses x509 </p>
+  - type: <xref href="IllegalArgumentException?alt=IllegalArgumentException&text=IllegalArgumentException" data-throw-if-not-resolved="False"/>
+    description: <p>if the provided connection string is null or empty, or if the provided protocol is null </p>
+  - type: <xref href="URISyntaxException?alt=URISyntaxException&text=URISyntaxException" data-throw-if-not-resolved="False"/>
+    description: <p>if the connection string cannot be parsed for a valid hostname </p>
   summary: "<p>Constructor for a ModuleClient instance. \r\nor</p>\r\n<p>HostName=xxxx;DeviceId=xxxx;SharedAccessKey= xxxx;moduleId=xxxx;HostNameGateway=xxxx </p>"
   syntax: public ModuleClient(String connectionString, IotHubClientProtocol protocol)
   uid: com.microsoft.azure.sdk.iot.device.ModuleClient.ModuleClient(String,IotHubClientProtocol)
@@ -34,7 +38,8 @@ members:
     name: sslContext
     type: <xref href="SSLContext?alt=SSLContext&text=SSLContext" data-throw-if-not-resolved="False"/>
   exceptions:
-  - name: "44102508"
+  - type: <xref href="URISyntaxException?alt=URISyntaxException&text=URISyntaxException" data-throw-if-not-resolved="False"/>
+    description: <p>if the hostname in the connection string is not a valid URI </p>
   summary: >-
     <p>Create a module client instance that uses the provided SSLContext for SSL negotiation.</p>
 
@@ -64,8 +69,10 @@ members:
     name: isPrivateKeyPath
     type: <xref href="boolean?alt=boolean&text=boolean" data-throw-if-not-resolved="False"/>
   exceptions:
-  - name: "44102508"
-  - name: 9fe91d4c
+  - type: <xref href="URISyntaxException?alt=URISyntaxException&text=URISyntaxException" data-throw-if-not-resolved="False"/>
+    description: <p>If the connString cannot be parsed </p>
+  - type: <xref href="ModuleClientException?alt=ModuleClientException&text=ModuleClientException" data-throw-if-not-resolved="False"/>
+    description: <p>if any other exception occurs while building the module client </p>
   summary: >-
     <p>Create a module client instance that uses x509 authentication.</p>
 

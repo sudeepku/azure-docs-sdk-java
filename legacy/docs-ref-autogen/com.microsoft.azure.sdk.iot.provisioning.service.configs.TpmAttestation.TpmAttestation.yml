@@ -15,7 +15,11 @@ members:
     name: endorsementKey
     type: <xref href="String?alt=String&text=String" data-throw-if-not-resolved="False"/>
   exceptions:
-  - name: 3c87bd19
+  - type: <xref href="IllegalArgumentException?alt=IllegalArgumentException&text=IllegalArgumentException" data-throw-if-not-resolved="False"/>
+    description: >-
+      <p>If the endorsementKey is<code>null 
+
+          </code> or empty. </p>
   summary: >-
     <p>CONSTRUCTOR</p>
 
@@ -45,7 +49,11 @@ members:
     name: storageRootKey
     type: <xref href="String?alt=String&text=String" data-throw-if-not-resolved="False"/>
   exceptions:
-  - name: 3c87bd19
+  - type: <xref href="IllegalArgumentException?alt=IllegalArgumentException&text=IllegalArgumentException" data-throw-if-not-resolved="False"/>
+    description: >-
+      <p>If the endorsementKey is<code>null 
+
+          </code> or empty. </p>
   summary: >-
     <p>CONSTRUCTOR</p>
 
@@ -67,7 +75,11 @@ members:
     name: tpm
     type: <xref href="com.microsoft.azure.sdk.iot.provisioning.service.configs.TpmAttestation?alt=com.microsoft.azure.sdk.iot.provisioning.service.configs.TpmAttestation&text=TpmAttestation" data-throw-if-not-resolved="False"/>
   exceptions:
-  - name: 3c87bd19
+  - type: <xref href="IllegalArgumentException?alt=IllegalArgumentException&text=IllegalArgumentException" data-throw-if-not-resolved="False"/>
+    description: >-
+      <p>if the provided tpm is<code>null 
+
+          </code> . </p>
   summary: >-
     <p>CONSTRUCTOR (COPY)</p>
 

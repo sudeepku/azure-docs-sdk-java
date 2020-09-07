@@ -14,14 +14,17 @@ members:
     type: <xref href="String?alt=String&text=String" data-throw-if-not-resolved="False"/>
   - description: <p>is a list of pairs key values that contains optional parameters in the http header. </p>
     name: headerParameters
-    type: <xref href="Map%3CString%2C+String%3E?alt=Map<String, String>&text=Map%3CString%2C+String%3E" data-throw-if-not-resolved="False"/>
+    type: <xref href="Map<String, String>?alt=Map<String, String>&text=Map%3CString%2C+String%3E" data-throw-if-not-resolved="False"/>
   - description: <p>is the body of the message. </p>
     name: payload
     type: <xref href="String?alt=String&text=String" data-throw-if-not-resolved="False"/>
   exceptions:
-  - name: 637b6540
-  - name: 407b0ee3
-  - name: 3c87bd19
+  - type: <xref href="ProvisioningServiceClientTransportException?alt=ProvisioningServiceClientTransportException&text=ProvisioningServiceClientTransportException" data-throw-if-not-resolved="False"/>
+    description: <p>if the Service Client failed to exchange http messages with the Provisioning Service. </p>
+  - type: <xref href="ProvisioningServiceClientException?alt=ProvisioningServiceClientException&text=ProvisioningServiceClientException" data-throw-if-not-resolved="False"/>
+    description: <p>if the Provisioning Service response contains an error message. </p>
+  - type: <xref href="IllegalArgumentException?alt=IllegalArgumentException&text=IllegalArgumentException" data-throw-if-not-resolved="False"/>
+    description: <p>if the provided parameters are not correct. </p>
   returns:
     description: >-
       <p>the<code>HttpResponse 

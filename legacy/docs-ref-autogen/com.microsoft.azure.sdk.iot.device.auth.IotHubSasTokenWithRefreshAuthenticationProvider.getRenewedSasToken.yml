@@ -11,8 +11,10 @@ members:
   - name: forceRenewal
     type: <xref href="boolean?alt=boolean&text=boolean" data-throw-if-not-resolved="False"/>
   exceptions:
-  - name: cbf33bbe
-  - name: 848a9648
+  - type: <xref href="IOException?alt=IOException&text=IOException" data-throw-if-not-resolved="False"/>
+    description: <p>If an IOException is encountered while refreshing the sas token </p>
+  - type: <xref href="TransportException?alt=TransportException&text=TransportException" data-throw-if-not-resolved="False"/>
+    description: <p>If a TransportException is encountered while refreshing the sas token </p>
   returns:
     description: <p>the renewed token, or the old token if it did not need to be renewed </p>
     type: <xref href="String?alt=String&text=String" data-throw-if-not-resolved="False"/>

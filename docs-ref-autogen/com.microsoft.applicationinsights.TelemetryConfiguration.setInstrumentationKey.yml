@@ -10,7 +10,8 @@ members:
     name: key
     type: <xref href="String?alt=String&text=String" data-throw-if-not-resolved="False"/>
   exceptions:
-  - name: 3c87bd19
+  - type: <xref href="IllegalArgumentException?alt=IllegalArgumentException&text=IllegalArgumentException" data-throw-if-not-resolved="False"/>
+    description: <p>when the new value is null or empty </p>
   summary: >-
     <p>Gets or sets the default instrumentation key for the application.</p>
 

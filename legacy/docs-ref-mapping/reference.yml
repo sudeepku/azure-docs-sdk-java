@@ -514,7 +514,6 @@
       children:
       - system.fabric*
       - system.fabric.exception*
-  - name: SDK
     uid: azure.java.sdk.landingpage.services.sdk
     landingPageType: Service
     items:

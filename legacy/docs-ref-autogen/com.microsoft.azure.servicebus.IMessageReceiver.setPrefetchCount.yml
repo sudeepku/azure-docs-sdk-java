@@ -10,7 +10,8 @@ members:
     name: prefetchCount
     type: <xref href="int?alt=int&text=int" data-throw-if-not-resolved="False"/>
   exceptions:
-  - name: 73fec9fb
+  - type: <xref href="ServiceBusException?alt=ServiceBusException&text=ServiceBusException" data-throw-if-not-resolved="False"/>
+    description: <p>if sets the value failed </p>
   summary: >-
     <p>Set the prefetch count of the receiver. Prefetch speeds up the message flow by aiming to have a message readily available for local retrieval when and before the application asks for one using Receive. Setting a non-zero value prefetches PrefetchCount number of messages. Setting the value to zero turns prefetch off. For both PEEKLOCK mode and RECEIVEANDDELETE mode, the default value is 0. </p>
 

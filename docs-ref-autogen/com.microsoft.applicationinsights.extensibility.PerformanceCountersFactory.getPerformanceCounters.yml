@@ -7,7 +7,7 @@ members:
   nameWithType: PerformanceCountersFactory.getPerformanceCounters()
   returns:
     description: <p>A collection of <xref uid="" data-throw-if-not-resolved="false">com.microsoft.applicationinsights.internal.perfcounter.PerformanceCounter</xref></p>
-    type: <xref href="Collection%3CPerformanceCounter%3E?alt=Collection<PerformanceCounter>&text=Collection%3CPerformanceCounter%3E" data-throw-if-not-resolved="False"/>
+    type: <xref href="Collection<PerformanceCounter>?alt=Collection<PerformanceCounter>&text=Collection%3CPerformanceCounter%3E" data-throw-if-not-resolved="False"/>
   summary: >-
     <p>Creates the <xref uid="" data-throw-if-not-resolved="false">com.microsoft.applicationinsights.internal.perfcounter.PerformanceCounter</xref></p>
 

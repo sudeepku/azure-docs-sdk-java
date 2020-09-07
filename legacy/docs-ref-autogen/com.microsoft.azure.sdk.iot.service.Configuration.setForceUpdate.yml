@@ -10,7 +10,8 @@ members:
     name: forceUpdate
     type: <xref href="Boolean?alt=Boolean&text=Boolean" data-throw-if-not-resolved="False"/>
   exceptions:
-  - name: 3c87bd19
+  - type: <xref href="IllegalArgumentException?alt=IllegalArgumentException&text=IllegalArgumentException" data-throw-if-not-resolved="False"/>
+    description: <p>if the provided argument is null </p>
   summary: >-
     <p>Setter for force update boolean</p>
 

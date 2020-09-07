@@ -16,7 +16,8 @@ members:
     name: autoscaleSettingResource
     type: <xref href="com.microsoft.azure.management.monitor.AutoscaleSettingResourcePatch?alt=com.microsoft.azure.management.monitor.AutoscaleSettingResourcePatch&text=AutoscaleSettingResourcePatch" data-throw-if-not-resolved="False"/>
   exceptions:
-  - name: 3c87bd19
+  - type: <xref href="IllegalArgumentException?alt=IllegalArgumentException&text=IllegalArgumentException" data-throw-if-not-resolved="False"/>
+    description: <p>thrown if parameters fail the validation </p>
   returns:
     description: <p>the observable to the AutoscaleSettingResourceInner object </p>
     type: Observable&lt;ServiceResponse&lt;<xref href="com.microsoft.azure.management.monitor.implementation.AutoscaleSettingResourceInner?alt=com.microsoft.azure.management.monitor.implementation.AutoscaleSettingResourceInner&text=AutoscaleSettingResourceInner" data-throw-if-not-resolved="False"/>&gt;&gt;

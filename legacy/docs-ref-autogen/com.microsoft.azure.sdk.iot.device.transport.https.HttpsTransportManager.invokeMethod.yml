@@ -16,9 +16,12 @@ members:
     name: moduleId
     type: <xref href="String?alt=String&text=String" data-throw-if-not-resolved="False"/>
   exceptions:
-  - name: cbf33bbe
-  - name: "44102508"
-  - name: 848a9648
+  - type: <xref href="IOException?alt=IOException&text=IOException" data-throw-if-not-resolved="False"/>
+    description: <p>if the IotHub cannot be reached </p>
+  - type: <xref href="URISyntaxException?alt=URISyntaxException&text=URISyntaxException" data-throw-if-not-resolved="False"/>
+    description: <p>if the provided deviceId and/or moduleId cannot be encoded correctly </p>
+  - type: <xref href="TransportException?alt=TransportException&text=TransportException" data-throw-if-not-resolved="False"/>
+    description: <p>if any issues occur when sending the http request to its target </p>
   returns:
     description: <p>the result of that request </p>
     type: <xref href="com.microsoft.azure.sdk.iot.device.edge.MethodResult?alt=com.microsoft.azure.sdk.iot.device.edge.MethodResult&text=MethodResult" data-throw-if-not-resolved="False"/>

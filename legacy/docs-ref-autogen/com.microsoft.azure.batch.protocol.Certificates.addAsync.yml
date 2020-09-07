@@ -10,10 +10,11 @@ members:
     name: certificate
     type: <xref href="com.microsoft.azure.batch.protocol.models.CertificateAddParameter?alt=com.microsoft.azure.batch.protocol.models.CertificateAddParameter&text=CertificateAddParameter" data-throw-if-not-resolved="False"/>
   exceptions:
-  - name: 3c87bd19
+  - type: <xref href="IllegalArgumentException?alt=IllegalArgumentException&text=IllegalArgumentException" data-throw-if-not-resolved="False"/>
+    description: <p>thrown if parameters fail the validation </p>
   returns:
     description: <p>the <xref uid="" data-throw-if-not-resolved="false">ServiceResponseWithHeaders</xref> object if successful. </p>
-    type: <xref href="Observable%3CVoid%3E?alt=Observable<Void>&text=Observable%3CVoid%3E" data-throw-if-not-resolved="False"/>
+    type: <xref href="Observable<Void>?alt=Observable<Void>&text=Observable%3CVoid%3E" data-throw-if-not-resolved="False"/>
   summary: >-
     <p>Adds a certificate to the specified account.</p>
 
@@ -31,10 +32,11 @@ members:
     name: certificateAddOptions
     type: <xref href="com.microsoft.azure.batch.protocol.models.CertificateAddOptions?alt=com.microsoft.azure.batch.protocol.models.CertificateAddOptions&text=CertificateAddOptions" data-throw-if-not-resolved="False"/>
   exceptions:
-  - name: 3c87bd19
+  - type: <xref href="IllegalArgumentException?alt=IllegalArgumentException&text=IllegalArgumentException" data-throw-if-not-resolved="False"/>
+    description: <p>thrown if parameters fail the validation </p>
   returns:
     description: <p>the <xref uid="" data-throw-if-not-resolved="false">ServiceResponseWithHeaders</xref> object if successful. </p>
-    type: <xref href="Observable%3CVoid%3E?alt=Observable<Void>&text=Observable%3CVoid%3E" data-throw-if-not-resolved="False"/>
+    type: <xref href="Observable<Void>?alt=Observable<Void>&text=Observable%3CVoid%3E" data-throw-if-not-resolved="False"/>
   summary: >-
     <p>Adds a certificate to the specified account.</p>
 
@@ -53,12 +55,13 @@ members:
     type: <xref href="com.microsoft.azure.batch.protocol.models.CertificateAddOptions?alt=com.microsoft.azure.batch.protocol.models.CertificateAddOptions&text=CertificateAddOptions" data-throw-if-not-resolved="False"/>
   - description: <p>the async ServiceCallback to handle successful and failed responses. </p>
     name: serviceCallback
-    type: <xref href="final+ServiceCallback%3CVoid%3E?alt=final ServiceCallback<Void>&text=final+ServiceCallback%3CVoid%3E" data-throw-if-not-resolved="False"/>
+    type: <xref href="final ServiceCallback<Void>?alt=final ServiceCallback<Void>&text=final+ServiceCallback%3CVoid%3E" data-throw-if-not-resolved="False"/>
   exceptions:
-  - name: 3c87bd19
+  - type: <xref href="IllegalArgumentException?alt=IllegalArgumentException&text=IllegalArgumentException" data-throw-if-not-resolved="False"/>
+    description: <p>thrown if parameters fail the validation </p>
   returns:
     description: <p>the <xref uid="" data-throw-if-not-resolved="false">ServiceFuture</xref> object </p>
-    type: <xref href="ServiceFuture%3CVoid%3E?alt=ServiceFuture<Void>&text=ServiceFuture%3CVoid%3E" data-throw-if-not-resolved="False"/>
+    type: <xref href="ServiceFuture<Void>?alt=ServiceFuture<Void>&text=ServiceFuture%3CVoid%3E" data-throw-if-not-resolved="False"/>
   summary: >-
     <p>Adds a certificate to the specified account.</p>
 
@@ -74,12 +77,13 @@ members:
     type: <xref href="com.microsoft.azure.batch.protocol.models.CertificateAddParameter?alt=com.microsoft.azure.batch.protocol.models.CertificateAddParameter&text=CertificateAddParameter" data-throw-if-not-resolved="False"/>
   - description: <p>the async ServiceCallback to handle successful and failed responses. </p>
     name: serviceCallback
-    type: <xref href="final+ServiceCallback%3CVoid%3E?alt=final ServiceCallback<Void>&text=final+ServiceCallback%3CVoid%3E" data-throw-if-not-resolved="False"/>
+    type: <xref href="final ServiceCallback<Void>?alt=final ServiceCallback<Void>&text=final+ServiceCallback%3CVoid%3E" data-throw-if-not-resolved="False"/>
   exceptions:
-  - name: 3c87bd19
+  - type: <xref href="IllegalArgumentException?alt=IllegalArgumentException&text=IllegalArgumentException" data-throw-if-not-resolved="False"/>
+    description: <p>thrown if parameters fail the validation </p>
   returns:
     description: <p>the <xref uid="" data-throw-if-not-resolved="false">ServiceFuture</xref> object </p>
-    type: <xref href="ServiceFuture%3CVoid%3E?alt=ServiceFuture<Void>&text=ServiceFuture%3CVoid%3E" data-throw-if-not-resolved="False"/>
+    type: <xref href="ServiceFuture<Void>?alt=ServiceFuture<Void>&text=ServiceFuture%3CVoid%3E" data-throw-if-not-resolved="False"/>
   summary: >-
     <p>Adds a certificate to the specified account.</p>
 

@@ -6,8 +6,10 @@ members:
   name: cancel()
   nameWithType: Job.cancel()
   exceptions:
-  - name: cbf33bbe
-  - name: 0d494ee6
+  - type: <xref href="IOException?alt=IOException&text=IOException" data-throw-if-not-resolved="False"/>
+    description: <p>if the function failed to cancel the job with the current job information </p>
+  - type: <xref href="IotHubException?alt=IotHubException&text=IotHubException" data-throw-if-not-resolved="False"/>
+    description: <p>if the http request failed </p>
   returns:
     description: <p>a jobResult object with the current job status. </p>
     type: <xref href="com.microsoft.azure.sdk.iot.service.jobs.JobResult?alt=com.microsoft.azure.sdk.iot.service.jobs.JobResult&text=JobResult" data-throw-if-not-resolved="False"/>

@@ -6,7 +6,8 @@ members:
   name: getResponseStatus()
   nameWithType: HttpConnection.getResponseStatus()
   exceptions:
-  - name: cbf33bbe
+  - type: <xref href="IOException?alt=IOException&text=IOException" data-throw-if-not-resolved="False"/>
+    description: <p>This exception thrown if no response was received. </p>
   returns:
     description: <p>The response status code.</p>
     type: <xref href="int?alt=int&text=int" data-throw-if-not-resolved="False"/>

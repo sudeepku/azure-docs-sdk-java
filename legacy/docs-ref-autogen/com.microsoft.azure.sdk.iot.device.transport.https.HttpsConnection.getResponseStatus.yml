@@ -6,7 +6,8 @@ members:
   name: getResponseStatus()
   nameWithType: HttpsConnection.getResponseStatus()
   exceptions:
-  - name: 848a9648
+  - type: <xref href="TransportException?alt=TransportException&text=TransportException" data-throw-if-not-resolved="False"/>
+    description: <p>if no response was received. </p>
   returns:
     description: <p>the response status code.</p>
     type: <xref href="int?alt=int&text=int" data-throw-if-not-resolved="False"/>

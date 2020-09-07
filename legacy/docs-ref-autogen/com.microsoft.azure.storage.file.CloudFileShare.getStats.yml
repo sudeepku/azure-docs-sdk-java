@@ -6,7 +6,8 @@ members:
   name: getStats()
   nameWithType: CloudFileShare.getStats()
   exceptions:
-  - name: ca4f407a
+  - type: <xref href="StorageException?alt=StorageException&text=StorageException" data-throw-if-not-resolved="False"/>
+    description: <p>If a storage service error occurred. </p>
   returns:
     description: <p>A <xref uid="com.microsoft.azure.storage.file.ShareStats" data-throw-if-not-resolved="false">ShareStats</xref> object for the given storage service.</p>
     type: <xref href="com.microsoft.azure.storage.file.ShareStats?alt=com.microsoft.azure.storage.file.ShareStats&text=ShareStats" data-throw-if-not-resolved="False"/>
@@ -27,7 +28,8 @@ members:
     name: opContext
     type: <xref href="com.microsoft.azure.storage.OperationContext?alt=com.microsoft.azure.storage.OperationContext&text=OperationContext" data-throw-if-not-resolved="False"/>
   exceptions:
-  - name: ca4f407a
+  - type: <xref href="StorageException?alt=StorageException&text=StorageException" data-throw-if-not-resolved="False"/>
+    description: <p>If a storage service error occurred. </p>
   returns:
     description: <p>A <xref uid="com.microsoft.azure.storage.file.ShareStats" data-throw-if-not-resolved="false">ShareStats</xref> object for the given storage service.</p>
     type: <xref href="com.microsoft.azure.storage.file.ShareStats?alt=com.microsoft.azure.storage.file.ShareStats&text=ShareStats" data-throw-if-not-resolved="False"/>

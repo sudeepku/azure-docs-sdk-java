@@ -6,7 +6,8 @@ members:
   name: open()
   nameWithType: IotHubTransportManager.open()
   exceptions:
-  - name: cbf33bbe
+  - type: <xref href="IOException?alt=IOException&text=IOException" data-throw-if-not-resolved="False"/>
+    description: <p>if a communication channel cannot be established. </p>
   summary: >-
     <p>Establishes a communication channel with an IoT Hub. If a channel is already open, the function shall do nothing.</p>
 
@@ -19,9 +20,10 @@ members:
   parameters:
   - description: <p>is a list of topics to signed in. </p>
     name: topics
-    type: <xref href="String+%5B%5D?alt=String []&text=String+%5B%5D" data-throw-if-not-resolved="False"/>
+    type: <xref href="String []?alt=String []&text=String+%5B%5D" data-throw-if-not-resolved="False"/>
   exceptions:
-  - name: cbf33bbe
+  - type: <xref href="IOException?alt=IOException&text=IOException" data-throw-if-not-resolved="False"/>
+    description: <p>if a communication channel cannot be established. </p>
   summary: >-
     <p>Establishes a communication channel with an IoT Hub for a specific set of topics. If a channel is already open, the function shall do nothing.</p>
 

@@ -23,7 +23,8 @@ members:
     name: blobAbsoluteUri
     type: final <xref href="com.microsoft.azure.storage.StorageUri?alt=com.microsoft.azure.storage.StorageUri&text=StorageUri" data-throw-if-not-resolved="False"/>
   exceptions:
-  - name: ca4f407a
+  - type: <xref href="StorageException?alt=StorageException&text=StorageException" data-throw-if-not-resolved="False"/>
+    description: <p>If a storage service error occurred. </p>
   summary: >-
     <p>Creates an instance of the  class using the specified absolute URI and storage service client.</p>
 
@@ -41,7 +42,8 @@ members:
     name: credentials
     type: final <xref href="com.microsoft.azure.storage.StorageCredentials?alt=com.microsoft.azure.storage.StorageCredentials&text=StorageCredentials" data-throw-if-not-resolved="False"/>
   exceptions:
-  - name: ca4f407a
+  - type: <xref href="StorageException?alt=StorageException&text=StorageException" data-throw-if-not-resolved="False"/>
+    description: <p>If a storage service error occurred. </p>
   summary: >-
     <p>Creates an instance of the  class using the specified absolute StorageUri and credentials.</p>
 
@@ -57,12 +59,13 @@ members:
     type: final <xref href="com.microsoft.azure.storage.StorageUri?alt=com.microsoft.azure.storage.StorageUri&text=StorageUri" data-throw-if-not-resolved="False"/>
   - description: <p>A <code>String</code> that represents the snapshot version, if applicable. </p>
     name: snapshotID
-    type: <xref href="final+String?alt=final String&text=final+String" data-throw-if-not-resolved="False"/>
+    type: <xref href="final String?alt=final String&text=final+String" data-throw-if-not-resolved="False"/>
   - description: <p>A <xref uid="com.microsoft.azure.storage.StorageCredentials" data-throw-if-not-resolved="false">StorageCredentials</xref> object used to authenticate access. </p>
     name: credentials
     type: final <xref href="com.microsoft.azure.storage.StorageCredentials?alt=com.microsoft.azure.storage.StorageCredentials&text=StorageCredentials" data-throw-if-not-resolved="False"/>
   exceptions:
-  - name: ca4f407a
+  - type: <xref href="StorageException?alt=StorageException&text=StorageException" data-throw-if-not-resolved="False"/>
+    description: <p>If a storage service error occurred. </p>
   summary: >-
     <p>Creates an instance of the  class using the specified absolute StorageUri, snapshot ID, and credentials.</p>
 
@@ -75,9 +78,10 @@ members:
   parameters:
   - description: <p>A <code>java.net.URI</code> object which represents the absolute URI to the blob.</p>
     name: blobAbsoluteUri
-    type: <xref href="final+URI?alt=final URI&text=final+URI" data-throw-if-not-resolved="False"/>
+    type: <xref href="final URI?alt=final URI&text=final+URI" data-throw-if-not-resolved="False"/>
   exceptions:
-  - name: ca4f407a
+  - type: <xref href="StorageException?alt=StorageException&text=StorageException" data-throw-if-not-resolved="False"/>
+    description: <p>If a storage service error occurred. </p>
   summary: >-
     <p>Creates an instance of the  class using the specified absolute URI and storage service client.</p>
 
@@ -90,12 +94,13 @@ members:
   parameters:
   - description: <p>A <code>java.net.URI</code> object that represents the absolute URI to the blob. </p>
     name: blobAbsoluteUri
-    type: <xref href="final+URI?alt=final URI&text=final+URI" data-throw-if-not-resolved="False"/>
+    type: <xref href="final URI?alt=final URI&text=final+URI" data-throw-if-not-resolved="False"/>
   - description: <p>A <xref uid="com.microsoft.azure.storage.StorageCredentials" data-throw-if-not-resolved="false">StorageCredentials</xref> object used to authenticate access.</p>
     name: credentials
     type: final <xref href="com.microsoft.azure.storage.StorageCredentials?alt=com.microsoft.azure.storage.StorageCredentials&text=StorageCredentials" data-throw-if-not-resolved="False"/>
   exceptions:
-  - name: ca4f407a
+  - type: <xref href="StorageException?alt=StorageException&text=StorageException" data-throw-if-not-resolved="False"/>
+    description: <p>If a storage service error occurred. </p>
   summary: >-
     <p>Creates an instance of the  class using the specified absolute URI and credentials.</p>
 
@@ -108,15 +113,16 @@ members:
   parameters:
   - description: <p>A <code>java.net.URI</code> object that represents the absolute URI to the blob. </p>
     name: blobAbsoluteUri
-    type: <xref href="final+URI?alt=final URI&text=final+URI" data-throw-if-not-resolved="False"/>
+    type: <xref href="final URI?alt=final URI&text=final+URI" data-throw-if-not-resolved="False"/>
   - description: <p>A <code>String</code> that represents the snapshot version, if applicable. </p>
     name: snapshotID
-    type: <xref href="final+String?alt=final String&text=final+String" data-throw-if-not-resolved="False"/>
+    type: <xref href="final String?alt=final String&text=final+String" data-throw-if-not-resolved="False"/>
   - description: <p>A <xref uid="com.microsoft.azure.storage.StorageCredentials" data-throw-if-not-resolved="false">StorageCredentials</xref> object used to authenticate access. </p>
     name: credentials
     type: final <xref href="com.microsoft.azure.storage.StorageCredentials?alt=com.microsoft.azure.storage.StorageCredentials&text=StorageCredentials" data-throw-if-not-resolved="False"/>
   exceptions:
-  - name: ca4f407a
+  - type: <xref href="StorageException?alt=StorageException&text=StorageException" data-throw-if-not-resolved="False"/>
+    description: <p>If a storage service error occurred. </p>
   summary: >-
     <p>Creates an instance of the  class using the specified absolute URI, snapshot ID, and credentials.</p>
 
@@ -137,7 +143,8 @@ members:
     name: container
     type: <xref href="com.microsoft.azure.storage.blob.CloudBlobContainer?alt=com.microsoft.azure.storage.blob.CloudBlobContainer&text=CloudBlobContainer" data-throw-if-not-resolved="False"/>
   exceptions:
-  - name: "44102508"
+  - type: <xref href="URISyntaxException?alt=URISyntaxException&text=URISyntaxException" data-throw-if-not-resolved="False"/>
+    description: <p>If the resource URI is invalid. </p>
   summary: >-
     <p>Creates an instance of the  class using the specified type, name, snapshot ID, and container.</p>
 

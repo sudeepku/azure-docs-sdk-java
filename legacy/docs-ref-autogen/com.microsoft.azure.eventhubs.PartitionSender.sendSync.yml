@@ -10,10 +10,12 @@ members:
     name: data
     type: final <xref href="com.microsoft.azure.eventhubs.EventData?alt=com.microsoft.azure.eventhubs.EventData&text=EventData" data-throw-if-not-resolved="False"/>
   exceptions:
-  - name: 22fa3d6f
-  - name: ca207911
+  - type: <xref href="PayloadSizeExceededException?alt=PayloadSizeExceededException&text=PayloadSizeExceededException" data-throw-if-not-resolved="False"/>
+    description: <p>if the total size of the <xref uid="com.microsoft.azure.eventhubs.EventData" data-throw-if-not-resolved="false">EventData</xref> exceeds a pre-defined limit set by the service. Default is 256k bytes. </p>
+  - type: <xref href="EventHubException?alt=EventHubException&text=EventHubException" data-throw-if-not-resolved="False"/>
+    description: <p>if Service Bus service encountered problems during the operation. </p>
   returns:
-    type: <xref href="default+void?alt=default void&text=default+void" data-throw-if-not-resolved="False"/>
+    type: <xref href="default void?alt=default void&text=default+void" data-throw-if-not-resolved="False"/>
   summary: >-
     <p>Synchronous version of <xref uid="com.microsoft.azure.eventhubs.PartitionSender.send(EventData)" data-throw-if-not-resolved="false">send(EventData)</xref> Api.</p>
 
@@ -28,9 +30,10 @@ members:
     name: eventDatas
     type: final <xref href="com.microsoft.azure.eventhubs.EventDataBatch?alt=com.microsoft.azure.eventhubs.EventDataBatch&text=EventDataBatch" data-throw-if-not-resolved="False"/>
   exceptions:
-  - name: ca207911
+  - type: <xref href="EventHubException?alt=EventHubException&text=EventHubException" data-throw-if-not-resolved="False"/>
+    description: <p>if Service Bus service encountered problems during the operation. </p>
   returns:
-    type: <xref href="default+void?alt=default void&text=default+void" data-throw-if-not-resolved="False"/>
+    type: <xref href="default void?alt=default void&text=default+void" data-throw-if-not-resolved="False"/>
   summary: >-
     <p>Synchronous version of <xref uid="com.microsoft.azure.eventhubs.PartitionSender.send(EventDataBatch)" data-throw-if-not-resolved="false">send(EventDataBatch)</xref></p>
 
@@ -45,9 +48,10 @@ members:
     name: eventDatas
     type: final Iterable&lt;<xref href="com.microsoft.azure.eventhubs.EventData?alt=com.microsoft.azure.eventhubs.EventData&text=EventData" data-throw-if-not-resolved="False"/>&gt;
   exceptions:
-  - name: ca207911
+  - type: <xref href="EventHubException?alt=EventHubException&text=EventHubException" data-throw-if-not-resolved="False"/>
+    description: <p>if Service Bus service encountered problems during the operation. </p>
   returns:
-    type: <xref href="default+void?alt=default void&text=default+void" data-throw-if-not-resolved="False"/>
+    type: <xref href="default void?alt=default void&text=default+void" data-throw-if-not-resolved="False"/>
   summary: >-
     <p>Synchronous version of <xref uid="" data-throw-if-not-resolved="false">send(Iterable)</xref> .</p>
 

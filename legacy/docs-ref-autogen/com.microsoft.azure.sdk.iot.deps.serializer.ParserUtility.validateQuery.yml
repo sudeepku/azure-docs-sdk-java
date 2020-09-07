@@ -10,7 +10,8 @@ members:
     name: query
     type: <xref href="String?alt=String&text=String" data-throw-if-not-resolved="False"/>
   exceptions:
-  - name: 3c87bd19
+  - type: <xref href="IllegalArgumentException?alt=IllegalArgumentException&text=IllegalArgumentException" data-throw-if-not-resolved="False"/>
+    description: <p>if query does not contain "select" or "from" or is not a valid utf-8 string </p>
   summary: <p>Validates if query contains select and from keywords and also if it is a valid utf-8 string </p>
   syntax: public static void validateQuery(String query)
   uid: com.microsoft.azure.sdk.iot.deps.serializer.ParserUtility.validateQuery(String)

@@ -13,8 +13,10 @@ members:
     name: methodRequest
     type: <xref href="com.microsoft.azure.sdk.iot.device.edge.MethodRequest?alt=com.microsoft.azure.sdk.iot.device.edge.MethodRequest&text=MethodRequest" data-throw-if-not-resolved="False"/>
   exceptions:
-  - name: 9fe91d4c
-  - name: 3c87bd19
+  - type: <xref href="ModuleClientException?alt=ModuleClientException&text=ModuleClientException" data-throw-if-not-resolved="False"/>
+    description: <p>if the method cannot be invoked </p>
+  - type: <xref href="IllegalArgumentException?alt=IllegalArgumentException&text=IllegalArgumentException" data-throw-if-not-resolved="False"/>
+    description: <p>if deviceid is null or empty </p>
   returns:
     description: <p>the result of the method call </p>
     type: <xref href="com.microsoft.azure.sdk.iot.device.edge.MethodResult?alt=com.microsoft.azure.sdk.iot.device.edge.MethodResult&text=MethodResult" data-throw-if-not-resolved="False"/>
@@ -35,8 +37,10 @@ members:
     name: methodRequest
     type: <xref href="com.microsoft.azure.sdk.iot.device.edge.MethodRequest?alt=com.microsoft.azure.sdk.iot.device.edge.MethodRequest&text=MethodRequest" data-throw-if-not-resolved="False"/>
   exceptions:
-  - name: 9fe91d4c
-  - name: 3c87bd19
+  - type: <xref href="ModuleClientException?alt=ModuleClientException&text=ModuleClientException" data-throw-if-not-resolved="False"/>
+    description: <p>if the method cannot be invoked </p>
+  - type: <xref href="IllegalArgumentException?alt=IllegalArgumentException&text=IllegalArgumentException" data-throw-if-not-resolved="False"/>
+    description: <p>if deviceid is null or empty, or if moduleid is null or empty </p>
   returns:
     description: <p>the result of the method call </p>
     type: <xref href="com.microsoft.azure.sdk.iot.device.edge.MethodResult?alt=com.microsoft.azure.sdk.iot.device.edge.MethodResult&text=MethodResult" data-throw-if-not-resolved="False"/>

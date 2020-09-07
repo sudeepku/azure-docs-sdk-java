@@ -6,7 +6,8 @@ members:
   name: close()
   nameWithType: ProvisioningAmqpOperations.close()
   exceptions:
-  - name: cbf33bbe
+  - type: <xref href="IOException?alt=IOException&text=IOException" data-throw-if-not-resolved="False"/>
+    description: <p>if connection could not be closed. </p>
   summary: <p>Closes the AMQP connection </p>
   syntax: public void close()
   uid: com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.amqp.ProvisioningAmqpOperations.close()

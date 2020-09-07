@@ -10,7 +10,8 @@ members:
     name: newEndpoints
     type: <xref href="microsoft.servicefabric.services.communication.ServiceEndpointCollection?alt=microsoft.servicefabric.services.communication.ServiceEndpointCollection&text=ServiceEndpointCollection" data-throw-if-not-resolved="False"/>
   exceptions:
-  - name: 34616db9
+  - type: <xref href="FabricElementAlreadyExistsException?alt=FabricElementAlreadyExistsException&text=FabricElementAlreadyExistsException" data-throw-if-not-resolved="False"/>
+    description: <p>if fabric element already exists </p>
   summary: >-
     <p>Adds the endpoints in the input EndpointsCollection class to the EndpointsCollection.</p>
 

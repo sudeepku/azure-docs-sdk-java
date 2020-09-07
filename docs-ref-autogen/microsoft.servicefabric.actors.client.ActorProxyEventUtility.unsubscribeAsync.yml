@@ -13,7 +13,7 @@ members:
     name: subscriber
     type: <xref href="TEvent?alt=TEvent&text=TEvent" data-throw-if-not-resolved="False"/>
   exceptions:
-  - name: 6bd89211
+  - type: <xref href="java.lang.IllegalArgumentException?alt=java.lang.IllegalArgumentException&text=java.lang.IllegalArgumentException" data-throw-if-not-resolved="False"/>
   returns:
     description: <p>A task that represents the asynchronous operation of un-subscribing from a published actor event. </p>
     type: static&lt;TEvent extends <xref href="microsoft.servicefabric.actors.ActorEvents?alt=microsoft.servicefabric.actors.ActorEvents&text=ActorEvents" data-throw-if-not-resolved="False"/>&gt; CompletableFuture&lt;?&gt;

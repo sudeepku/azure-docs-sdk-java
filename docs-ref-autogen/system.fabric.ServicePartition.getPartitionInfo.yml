@@ -6,7 +6,8 @@ members:
   name: getPartitionInfo()
   nameWithType: ServicePartition.getPartitionInfo()
   exceptions:
-  - name: 4db6be3e
+  - type: <xref href="FabricObjectClosedException?alt=FabricObjectClosedException&text=FabricObjectClosedException" data-throw-if-not-resolved="False"/>
+    description: <p>This indicates that the partition object is closed. The replica/replicator/instance has either been closed or is about to be closed. </p>
   returns:
     description: <p>Returns <xref uid="system.fabric.ServicePartitionInformation" data-throw-if-not-resolved="false">system.fabric.ServicePartitionInformation</xref>. </p>
     type: <xref href="system.fabric.ServicePartitionInformation?alt=system.fabric.ServicePartitionInformation&text=ServicePartitionInformation" data-throw-if-not-resolved="False"/>

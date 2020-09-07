@@ -10,8 +10,10 @@ members:
     name: lockToken
     type: <xref href="UUID?alt=UUID&text=UUID" data-throw-if-not-resolved="False"/>
   exceptions:
-  - name: 8256ba40
-  - name: 73fec9fb
+  - type: <xref href="InterruptedException?alt=InterruptedException&text=InterruptedException" data-throw-if-not-resolved="False"/>
+    description: <p>if the current thread was interrupted while waiting </p>
+  - type: <xref href="ServiceBusException?alt=ServiceBusException&text=ServiceBusException" data-throw-if-not-resolved="False"/>
+    description: <p>if abandon failed </p>
   summary: >-
     <p>Abandon <xref uid="com.microsoft.azure.servicebus.Message" data-throw-if-not-resolved="false">Message</xref> with lock token. This will make the message available again for processing. Abandoning a message will increase the delivery count on the message</p>
 
@@ -27,10 +29,12 @@ members:
     type: <xref href="UUID?alt=UUID&text=UUID" data-throw-if-not-resolved="False"/>
   - description: <p>Message properties to modify. </p>
     name: propertiesToModify
-    type: <xref href="Map%3CString%2C+Object%3E?alt=Map<String, Object>&text=Map%3CString%2C+Object%3E" data-throw-if-not-resolved="False"/>
+    type: <xref href="Map<String, Object>?alt=Map<String, Object>&text=Map%3CString%2C+Object%3E" data-throw-if-not-resolved="False"/>
   exceptions:
-  - name: 8256ba40
-  - name: 73fec9fb
+  - type: <xref href="InterruptedException?alt=InterruptedException&text=InterruptedException" data-throw-if-not-resolved="False"/>
+    description: <p>if the current thread was interrupted while waiting </p>
+  - type: <xref href="ServiceBusException?alt=ServiceBusException&text=ServiceBusException" data-throw-if-not-resolved="False"/>
+    description: <p>if abandon failed </p>
   summary: >-
     <p>Abandon <xref uid="com.microsoft.azure.servicebus.Message" data-throw-if-not-resolved="false">Message</xref> with lock token and updated message property. This will make the message available again for processing. Abandoning a message will increase the delivery count on the message</p>
 
@@ -46,7 +50,7 @@ members:
     type: <xref href="UUID?alt=UUID&text=UUID" data-throw-if-not-resolved="False"/>
   - description: <p>Message properties to modify. </p>
     name: propertiesToModify
-    type: <xref href="Map%3CString%2C+Object%3E?alt=Map<String, Object>&text=Map%3CString%2C+Object%3E" data-throw-if-not-resolved="False"/>
+    type: <xref href="Map<String, Object>?alt=Map<String, Object>&text=Map%3CString%2C+Object%3E" data-throw-if-not-resolved="False"/>
   - description: >-
       <p>
 
@@ -54,8 +58,10 @@ members:
     name: transaction
     type: <xref href="com.microsoft.azure.servicebus.TransactionContext?alt=com.microsoft.azure.servicebus.TransactionContext&text=TransactionContext" data-throw-if-not-resolved="False"/>
   exceptions:
-  - name: 8256ba40
-  - name: 73fec9fb
+  - type: <xref href="InterruptedException?alt=InterruptedException&text=InterruptedException" data-throw-if-not-resolved="False"/>
+    description: <p>if the current thread was interrupted while waiting </p>
+  - type: <xref href="ServiceBusException?alt=ServiceBusException&text=ServiceBusException" data-throw-if-not-resolved="False"/>
+    description: <p>if abandon failed </p>
   summary: >-
     <p>Abandon <xref uid="com.microsoft.azure.servicebus.Message" data-throw-if-not-resolved="false">Message</xref> with lock token and updated message property. This will make the message available again for processing. Abandoning a message will increase the delivery count on the message</p>
 
@@ -76,8 +82,10 @@ members:
     name: transaction
     type: <xref href="com.microsoft.azure.servicebus.TransactionContext?alt=com.microsoft.azure.servicebus.TransactionContext&text=TransactionContext" data-throw-if-not-resolved="False"/>
   exceptions:
-  - name: 8256ba40
-  - name: 73fec9fb
+  - type: <xref href="InterruptedException?alt=InterruptedException&text=InterruptedException" data-throw-if-not-resolved="False"/>
+    description: <p>if the current thread was interrupted while waiting </p>
+  - type: <xref href="ServiceBusException?alt=ServiceBusException&text=ServiceBusException" data-throw-if-not-resolved="False"/>
+    description: <p>if abandon failed </p>
   summary: >-
     <p>Abandon <xref uid="com.microsoft.azure.servicebus.Message" data-throw-if-not-resolved="false">Message</xref> with lock token. This will make the message available again for processing. Abandoning a message will increase the delivery count on the message</p>
 

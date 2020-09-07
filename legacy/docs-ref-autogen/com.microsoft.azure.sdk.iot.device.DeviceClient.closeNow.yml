@@ -6,7 +6,8 @@ members:
   name: closeNow()
   nameWithType: DeviceClient.closeNow()
   exceptions:
-  - name: cbf33bbe
+  - type: <xref href="IOException?alt=IOException&text=IOException" data-throw-if-not-resolved="False"/>
+    description: <p>if the connection to an IoT Hub cannot be closed. </p>
   summary: >-
     <p>Closes the IoT Hub client by releasing any resources held by client. When closeNow is called all the messages that were in transit or pending to be sent will be informed to the user in the callbacks and any existing connection to IotHub will be closed. Must be called to terminate the background thread that is sending data to IoT Hub. After<code>closeNow() 
 

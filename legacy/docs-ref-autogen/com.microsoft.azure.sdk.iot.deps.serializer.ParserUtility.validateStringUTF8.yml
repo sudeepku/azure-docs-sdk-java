@@ -10,7 +10,8 @@ members:
     name: str
     type: <xref href="String?alt=String&text=String" data-throw-if-not-resolved="False"/>
   exceptions:
-  - name: 3c87bd19
+  - type: <xref href="IllegalArgumentException?alt=IllegalArgumentException&text=IllegalArgumentException" data-throw-if-not-resolved="False"/>
+    description: <p>if the string do not fit the criteria. </p>
   summary: >-
     <p>Helper to validate if the provided string is not null, empty, and all characters are UTF-8.</p>
 

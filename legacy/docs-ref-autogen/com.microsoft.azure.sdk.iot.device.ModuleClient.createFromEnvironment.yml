@@ -6,7 +6,8 @@ members:
   name: createFromEnvironment()
   nameWithType: ModuleClient.createFromEnvironment()
   exceptions:
-  - name: 9fe91d4c
+  - type: <xref href="ModuleClientException?alt=ModuleClientException&text=ModuleClientException" data-throw-if-not-resolved="False"/>
+    description: <p>if the module client cannot be created </p>
   returns:
     description: <p>the created module client instance </p>
     type: <xref href="com.microsoft.azure.sdk.iot.device.ModuleClient?alt=com.microsoft.azure.sdk.iot.device.ModuleClient&text=ModuleClient" data-throw-if-not-resolved="False"/>
@@ -21,7 +22,8 @@ members:
     name: protocol
     type: <xref href="com.microsoft.azure.sdk.iot.device.IotHubClientProtocol?alt=com.microsoft.azure.sdk.iot.device.IotHubClientProtocol&text=IotHubClientProtocol" data-throw-if-not-resolved="False"/>
   exceptions:
-  - name: 9fe91d4c
+  - type: <xref href="ModuleClientException?alt=ModuleClientException&text=ModuleClientException" data-throw-if-not-resolved="False"/>
+    description: <p>if the module client cannot be created </p>
   returns:
     description: <p>the created module client instance </p>
     type: <xref href="com.microsoft.azure.sdk.iot.device.ModuleClient?alt=com.microsoft.azure.sdk.iot.device.ModuleClient&text=ModuleClient" data-throw-if-not-resolved="False"/>

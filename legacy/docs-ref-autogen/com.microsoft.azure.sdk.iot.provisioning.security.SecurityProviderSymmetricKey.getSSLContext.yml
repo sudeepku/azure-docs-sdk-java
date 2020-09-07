@@ -6,7 +6,8 @@ members:
   name: getSSLContext()
   nameWithType: SecurityProviderSymmetricKey.getSSLContext()
   exceptions:
-  - name: f44c259f
+  - type: <xref href="SecurityProviderException?alt=SecurityProviderException&text=SecurityProviderException" data-throw-if-not-resolved="False"/>
+    description: <p>If ssl context could not be generated for any of the reason </p>
   returns:
     description: <p>The SSLContext relevant to the flow </p>
     type: <xref href="SSLContext?alt=SSLContext&text=SSLContext" data-throw-if-not-resolved="False"/>

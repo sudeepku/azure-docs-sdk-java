@@ -7,7 +7,8 @@ members:
   nameWithType: HttpsTransportManager.receive()
   overridden: com.microsoft.azure.sdk.iot.device.transport.IotHubTransportManager.receive()
   exceptions:
-  - name: cbf33bbe
+  - type: <xref href="IOException?alt=IOException&text=IOException" data-throw-if-not-resolved="False"/>
+    description: <p>if the IotHub communication failed. </p>
   returns:
     description: >-
       <p>New message from the IotHub. It can be<code>null 

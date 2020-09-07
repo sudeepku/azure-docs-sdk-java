@@ -6,7 +6,8 @@ members:
   name: receive()
   nameWithType: IotHubTransportManager.receive()
   exceptions:
-  - name: cbf33bbe
+  - type: <xref href="IOException?alt=IOException&text=IOException" data-throw-if-not-resolved="False"/>
+    description: <p>if an error occurs in receiving a message. </p>
   returns:
     description: <p>the received message. If there is no new message, it will return null. </p>
     type: <xref href="com.microsoft.azure.sdk.iot.device.Message?alt=com.microsoft.azure.sdk.iot.device.Message&text=Message" data-throw-if-not-resolved="False"/>

@@ -25,7 +25,8 @@ members:
     name: timeout
     type: <xref href="long?alt=long&text=long" data-throw-if-not-resolved="False"/>
   exceptions:
-  - name: 3c87bd19
+  - type: <xref href="IllegalArgumentException?alt=IllegalArgumentException&text=IllegalArgumentException" data-throw-if-not-resolved="False"/>
+    description: <p>if page size is 0 or negative, or if the query type is null or unknown, or if the provided connection string is null, or if the provided url is null, or if the provided http method is null </p>
   summary: >-
     <p>Constructor for non-sql based queries</p>
 
@@ -58,7 +59,8 @@ members:
     name: timeout
     type: <xref href="long?alt=long&text=long" data-throw-if-not-resolved="False"/>
   exceptions:
-  - name: 3c87bd19
+  - type: <xref href="IllegalArgumentException?alt=IllegalArgumentException&text=IllegalArgumentException" data-throw-if-not-resolved="False"/>
+    description: <p>if page size is 0 or negative, or if the query type is null or unknown, of if the query string is null or empty, or if the provided connection string is null, or if the provided url is null, or if the provided http method is null </p>
   summary: >-
     <p>Constructor for sql based queries</p>
 

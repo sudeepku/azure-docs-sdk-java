@@ -10,7 +10,8 @@ members:
     name: sqlQuery
     type: <xref href="String?alt=String&text=String" data-throw-if-not-resolved="False"/>
   exceptions:
-  - name: 7f45ead7
+  - type: <xref href="MalformedURLException?alt=MalformedURLException&text=MalformedURLException" data-throw-if-not-resolved="False"/>
+    description: <p>If twin query url is not correct </p>
   returns:
     description: <p>the created QueryCollection object that can be used to query the service </p>
     type: synchronized <xref href="com.microsoft.azure.sdk.iot.service.devicetwin.QueryCollection?alt=com.microsoft.azure.sdk.iot.service.devicetwin.QueryCollection&text=QueryCollection" data-throw-if-not-resolved="False"/>
@@ -31,7 +32,8 @@ members:
     name: pageSize
     type: <xref href="Integer?alt=Integer&text=Integer" data-throw-if-not-resolved="False"/>
   exceptions:
-  - name: 7f45ead7
+  - type: <xref href="MalformedURLException?alt=MalformedURLException&text=MalformedURLException" data-throw-if-not-resolved="False"/>
+    description: <p>If twin query url is not correct </p>
   returns:
     description: <p>the created QueryCollection object that can be used to query the service </p>
     type: synchronized <xref href="com.microsoft.azure.sdk.iot.service.devicetwin.QueryCollection?alt=com.microsoft.azure.sdk.iot.service.devicetwin.QueryCollection&text=QueryCollection" data-throw-if-not-resolved="False"/>

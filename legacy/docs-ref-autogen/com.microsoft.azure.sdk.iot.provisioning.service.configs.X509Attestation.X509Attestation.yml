@@ -10,7 +10,8 @@ members:
     name: x509Attestation
     type: <xref href="com.microsoft.azure.sdk.iot.provisioning.service.configs.X509Attestation?alt=com.microsoft.azure.sdk.iot.provisioning.service.configs.X509Attestation&text=X509Attestation" data-throw-if-not-resolved="False"/>
   exceptions:
-  - name: 3c87bd19
+  - type: <xref href="IllegalArgumentException?alt=IllegalArgumentException&text=IllegalArgumentException" data-throw-if-not-resolved="False"/>
+    description: <p>if the provided x509Attestation is null or do not contains a primary certificate. </p>
   summary: >-
     <p>Constructor [COPY]</p>
 

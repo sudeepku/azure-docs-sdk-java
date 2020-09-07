@@ -13,7 +13,8 @@ members:
     name: poolResizeParameter
     type: <xref href="com.microsoft.azure.batch.protocol.models.PoolResizeParameter?alt=com.microsoft.azure.batch.protocol.models.PoolResizeParameter&text=PoolResizeParameter" data-throw-if-not-resolved="False"/>
   exceptions:
-  - name: 3c87bd19
+  - type: <xref href="IllegalArgumentException?alt=IllegalArgumentException&text=IllegalArgumentException" data-throw-if-not-resolved="False"/>
+    description: <p>thrown if parameters fail the validation </p>
   returns:
     description: <p>the <xref uid="" data-throw-if-not-resolved="false">ServiceResponseWithHeaders</xref> object if successful. </p>
     type: Observable&lt;ServiceResponseWithHeaders&lt;Void, <xref href="com.microsoft.azure.batch.protocol.models.PoolResizeHeaders?alt=com.microsoft.azure.batch.protocol.models.PoolResizeHeaders&text=PoolResizeHeaders" data-throw-if-not-resolved="False"/>&gt;&gt;
@@ -37,7 +38,8 @@ members:
     name: poolResizeOptions
     type: <xref href="com.microsoft.azure.batch.protocol.models.PoolResizeOptions?alt=com.microsoft.azure.batch.protocol.models.PoolResizeOptions&text=PoolResizeOptions" data-throw-if-not-resolved="False"/>
   exceptions:
-  - name: 3c87bd19
+  - type: <xref href="IllegalArgumentException?alt=IllegalArgumentException&text=IllegalArgumentException" data-throw-if-not-resolved="False"/>
+    description: <p>thrown if parameters fail the validation </p>
   returns:
     description: <p>the <xref uid="" data-throw-if-not-resolved="false">ServiceResponseWithHeaders</xref> object if successful. </p>
     type: Observable&lt;ServiceResponseWithHeaders&lt;Void, <xref href="com.microsoft.azure.batch.protocol.models.PoolResizeHeaders?alt=com.microsoft.azure.batch.protocol.models.PoolResizeHeaders&text=PoolResizeHeaders" data-throw-if-not-resolved="False"/>&gt;&gt;

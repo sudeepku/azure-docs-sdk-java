@@ -13,7 +13,8 @@ members:
     name: metadata
     type: <xref href="Object?alt=Object&text=Object" data-throw-if-not-resolved="False"/>
   exceptions:
-  - name: 3c87bd19
+  - type: <xref href="IllegalArgumentException?alt=IllegalArgumentException&text=IllegalArgumentException" data-throw-if-not-resolved="False"/>
+    description: <p>If no valid parameter was provide and the class will be empty, or if the DateTime is invalid. </p>
   returns:
     description: >-
       <p>A valid TwinMetadata instance it the provided metadata<code>Object 

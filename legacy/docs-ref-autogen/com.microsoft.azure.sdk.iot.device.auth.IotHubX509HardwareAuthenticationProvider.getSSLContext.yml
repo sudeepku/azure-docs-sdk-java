@@ -6,7 +6,8 @@ members:
   name: getSSLContext()
   nameWithType: IotHubX509HardwareAuthenticationProvider.getSSLContext()
   exceptions:
-  - name: cbf33bbe
+  - type: <xref href="IOException?alt=IOException&text=IOException" data-throw-if-not-resolved="False"/>
+    description: <p>if an error occurs when generating the SSLContext </p>
   returns:
     description: <p>The value of IotHubSSLContext </p>
     type: <xref href="SSLContext?alt=SSLContext&text=SSLContext" data-throw-if-not-resolved="False"/>

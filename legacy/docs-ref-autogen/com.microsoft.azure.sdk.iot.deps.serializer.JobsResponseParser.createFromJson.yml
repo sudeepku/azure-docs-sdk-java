@@ -10,8 +10,13 @@ members:
     name: json
     type: <xref href="String?alt=String&text=String" data-throw-if-not-resolved="False"/>
   exceptions:
-  - name: 3c87bd19
-  - name: a667ba4c
+  - type: <xref href="IllegalArgumentException?alt=IllegalArgumentException&text=IllegalArgumentException" data-throw-if-not-resolved="False"/>
+    description: >-
+      <p>if the json is<code>null 
+
+          </code> or empty, or if any date is invalid </p>
+  - type: <xref href="JsonParseException?alt=JsonParseException&text=JsonParseException" data-throw-if-not-resolved="False"/>
+    description: <p>if the json is not valid </p>
   returns:
     description: <p>an instance of the JobsResponseParser </p>
     type: <xref href="com.microsoft.azure.sdk.iot.deps.serializer.JobsResponseParser?alt=com.microsoft.azure.sdk.iot.deps.serializer.JobsResponseParser&text=JobsResponseParser" data-throw-if-not-resolved="False"/>

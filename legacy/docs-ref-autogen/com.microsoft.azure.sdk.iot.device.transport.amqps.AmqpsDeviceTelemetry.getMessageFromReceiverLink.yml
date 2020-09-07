@@ -10,7 +10,8 @@ members:
     name: linkName
     type: <xref href="String?alt=String&text=String" data-throw-if-not-resolved="False"/>
   exceptions:
-  - name: 3c87bd19
+  - type: <xref href="IllegalArgumentException?alt=IllegalArgumentException&text=IllegalArgumentException" data-throw-if-not-resolved="False"/>
+    description: <p>if linkName argument is empty </p>
   returns:
     description: <p>the received message </p>
     type: <xref href="com.microsoft.azure.sdk.iot.device.transport.amqps.AmqpsMessage?alt=com.microsoft.azure.sdk.iot.device.transport.amqps.AmqpsMessage&text=AmqpsMessage" data-throw-if-not-resolved="False"/>

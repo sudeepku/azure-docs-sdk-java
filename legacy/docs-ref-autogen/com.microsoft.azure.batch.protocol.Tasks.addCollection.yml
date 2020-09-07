@@ -13,9 +13,12 @@ members:
     name: value
     type: List&lt;<xref href="com.microsoft.azure.batch.protocol.models.TaskAddParameter?alt=com.microsoft.azure.batch.protocol.models.TaskAddParameter&text=TaskAddParameter" data-throw-if-not-resolved="False"/>&gt;
   exceptions:
-  - name: 3c87bd19
-  - name: c8683d81
-  - name: 9b2a4515
+  - type: <xref href="IllegalArgumentException?alt=IllegalArgumentException&text=IllegalArgumentException" data-throw-if-not-resolved="False"/>
+    description: <p>thrown if parameters fail the validation </p>
+  - type: <xref href="BatchErrorException?alt=BatchErrorException&text=BatchErrorException" data-throw-if-not-resolved="False"/>
+    description: <p>thrown if the request is rejected by server </p>
+  - type: <xref href="RuntimeException?alt=RuntimeException&text=RuntimeException" data-throw-if-not-resolved="False"/>
+    description: <p>all other wrapped checked exceptions if the request fails to be sent </p>
   returns:
     description: <p>the TaskAddCollectionResult object if successful. </p>
     type: <xref href="com.microsoft.azure.batch.protocol.models.TaskAddCollectionResult?alt=com.microsoft.azure.batch.protocol.models.TaskAddCollectionResult&text=TaskAddCollectionResult" data-throw-if-not-resolved="False"/>
@@ -39,9 +42,12 @@ members:
     name: taskAddCollectionOptions
     type: <xref href="com.microsoft.azure.batch.protocol.models.TaskAddCollectionOptions?alt=com.microsoft.azure.batch.protocol.models.TaskAddCollectionOptions&text=TaskAddCollectionOptions" data-throw-if-not-resolved="False"/>
   exceptions:
-  - name: 3c87bd19
-  - name: c8683d81
-  - name: 9b2a4515
+  - type: <xref href="IllegalArgumentException?alt=IllegalArgumentException&text=IllegalArgumentException" data-throw-if-not-resolved="False"/>
+    description: <p>thrown if parameters fail the validation </p>
+  - type: <xref href="BatchErrorException?alt=BatchErrorException&text=BatchErrorException" data-throw-if-not-resolved="False"/>
+    description: <p>thrown if the request is rejected by server </p>
+  - type: <xref href="RuntimeException?alt=RuntimeException&text=RuntimeException" data-throw-if-not-resolved="False"/>
+    description: <p>all other wrapped checked exceptions if the request fails to be sent </p>
   returns:
     description: <p>the TaskAddCollectionResult object if successful. </p>
     type: <xref href="com.microsoft.azure.batch.protocol.models.TaskAddCollectionResult?alt=com.microsoft.azure.batch.protocol.models.TaskAddCollectionResult&text=TaskAddCollectionResult" data-throw-if-not-resolved="False"/>

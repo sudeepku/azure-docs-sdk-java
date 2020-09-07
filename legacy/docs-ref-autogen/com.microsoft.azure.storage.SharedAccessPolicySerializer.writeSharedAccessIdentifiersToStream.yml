@@ -8,12 +8,12 @@ members:
   parameters:
   - description: <p>A collection of shared access policies </p>
     name: sharedAccessPolicies
-    type: <xref href="final+HashMap%3CString%2C+T%3E?alt=final HashMap<String, T>&text=final+HashMap%3CString%2C+T%3E" data-throw-if-not-resolved="False"/>
+    type: <xref href="final HashMap<String, T>?alt=final HashMap<String, T>&text=final+HashMap%3CString%2C+T%3E" data-throw-if-not-resolved="False"/>
   - description: <p>an sink to write the output to. </p>
     name: outWriter
-    type: <xref href="final+StringWriter?alt=final StringWriter&text=final+StringWriter" data-throw-if-not-resolved="False"/>
+    type: <xref href="final StringWriter?alt=final StringWriter&text=final+StringWriter" data-throw-if-not-resolved="False"/>
   exceptions:
-  - name: 33547caa
+  - type: <xref href="XMLStreamException?alt=XMLStreamException&text=XMLStreamException" data-throw-if-not-resolved="False"/>
   returns:
     type: static&lt;T extends <xref href="com.microsoft.azure.storage.SharedAccessPolicy?alt=com.microsoft.azure.storage.SharedAccessPolicy&text=SharedAccessPolicy" data-throw-if-not-resolved="False"/>&gt; void
   summary: >-

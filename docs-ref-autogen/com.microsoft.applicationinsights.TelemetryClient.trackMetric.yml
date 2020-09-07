@@ -23,7 +23,8 @@ members:
     name: value
     type: <xref href="double?alt=double&text=double" data-throw-if-not-resolved="False"/>
   exceptions:
-  - name: 3c87bd19
+  - type: <xref href="IllegalArgumentException?alt=IllegalArgumentException&text=IllegalArgumentException" data-throw-if-not-resolved="False"/>
+    description: <p>if name is null or empty. </p>
   summary: <p>Sends a numeric metric to Application Insights. Appears in customMetrics in Analytics, and under Custom Metrics in Metric Explorer. </p>
   syntax: public void trackMetric(String name, double value)
   uid: com.microsoft.applicationinsights.TelemetryClient.trackMetric(String,double)
@@ -48,9 +49,10 @@ members:
     type: <xref href="double?alt=double&text=double" data-throw-if-not-resolved="False"/>
   - description: <p>Named string values you can use to search and classify trace messages. </p>
     name: properties
-    type: <xref href="Map%3CString%2C+String%3E?alt=Map<String, String>&text=Map%3CString%2C+String%3E" data-throw-if-not-resolved="False"/>
+    type: <xref href="Map<String, String>?alt=Map<String, String>&text=Map%3CString%2C+String%3E" data-throw-if-not-resolved="False"/>
   exceptions:
-  - name: 3c87bd19
+  - type: <xref href="IllegalArgumentException?alt=IllegalArgumentException&text=IllegalArgumentException" data-throw-if-not-resolved="False"/>
+    description: <p>if name is null or empty. </p>
   summary: <p>Sends a numeric metric to Application Insights. Appears in customMetrics in Analytics, and under Custom Metrics in Metric Explorer. <xrefsect id="deprecated_1_deprecated000024"><xreftitle>Deprecated</xreftitle><xrefdescription><p>Use <xref uid="" data-throw-if-not-resolved="false">trackMetric(String, double, Integer, Double, Double, Double, Map)</xref></p></xrefdescription></xrefsect></p>
   syntax: public void trackMetric(String name, double value, int sampleCount, double min, double max, Map<String, String> properties)
   uid: com.microsoft.applicationinsights.TelemetryClient.trackMetric(String,double,int,double,double,Map<String, String>)
@@ -78,9 +80,10 @@ members:
     type: <xref href="Double?alt=Double&text=Double" data-throw-if-not-resolved="False"/>
   - description: <p>Named string values you can use to search and classify trace messages. </p>
     name: properties
-    type: <xref href="Map%3CString%2C+String%3E?alt=Map<String, String>&text=Map%3CString%2C+String%3E" data-throw-if-not-resolved="False"/>
+    type: <xref href="Map<String, String>?alt=Map<String, String>&text=Map%3CString%2C+String%3E" data-throw-if-not-resolved="False"/>
   exceptions:
-  - name: 3c87bd19
+  - type: <xref href="IllegalArgumentException?alt=IllegalArgumentException&text=IllegalArgumentException" data-throw-if-not-resolved="False"/>
+    description: <p>if name is null or empty </p>
   summary: >-
     <p>Sends a numeric metric to Application Insights. Appears in customMetrics in Analytics, and under Custom Metrics in Metric Explorer.</p>
 

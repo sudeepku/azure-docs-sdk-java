@@ -10,7 +10,8 @@ members:
     name: batch
     type: final <xref href="com.microsoft.azure.storage.table.TableBatchOperation?alt=com.microsoft.azure.storage.table.TableBatchOperation&text=TableBatchOperation" data-throw-if-not-resolved="False"/>
   exceptions:
-  - name: ca4f407a
+  - type: <xref href="StorageException?alt=StorageException&text=StorageException" data-throw-if-not-resolved="False"/>
+    description: <p>if an error occurs accessing the storage service, or the operation fails. </p>
   returns:
     description: <p>A <code>java.util.ArrayList</code> of <xref uid="com.microsoft.azure.storage.table.TableResult" data-throw-if-not-resolved="false">TableResult</xref> that contains the results, in order, of each <xref uid="com.microsoft.azure.storage.table.TableOperation" data-throw-if-not-resolved="false">TableOperation</xref> in the <xref uid="com.microsoft.azure.storage.table.TableBatchOperation" data-throw-if-not-resolved="false">TableBatchOperation</xref> on the named table.</p>
     type: ArrayList&lt;<xref href="com.microsoft.azure.storage.table.TableResult?alt=com.microsoft.azure.storage.table.TableResult&text=TableResult" data-throw-if-not-resolved="False"/>&gt;
@@ -36,7 +37,8 @@ members:
     name: opContext
     type: <xref href="com.microsoft.azure.storage.OperationContext?alt=com.microsoft.azure.storage.OperationContext&text=OperationContext" data-throw-if-not-resolved="False"/>
   exceptions:
-  - name: ca4f407a
+  - type: <xref href="StorageException?alt=StorageException&text=StorageException" data-throw-if-not-resolved="False"/>
+    description: <p>if an error occurs accessing the storage service, or the operation fails. </p>
   returns:
     description: <p>A <code>java.util.ArrayList</code> of <xref uid="com.microsoft.azure.storage.table.TableResult" data-throw-if-not-resolved="false">TableResult</xref> that contains the results, in order, of each <xref uid="com.microsoft.azure.storage.table.TableOperation" data-throw-if-not-resolved="false">TableOperation</xref> in the <xref uid="com.microsoft.azure.storage.table.TableBatchOperation" data-throw-if-not-resolved="false">TableBatchOperation</xref> on the named table.</p>
     type: ArrayList&lt;<xref href="com.microsoft.azure.storage.table.TableResult?alt=com.microsoft.azure.storage.table.TableResult&text=TableResult" data-throw-if-not-resolved="False"/>&gt;
@@ -58,7 +60,8 @@ members:
     name: operation
     type: final <xref href="com.microsoft.azure.storage.table.TableOperation?alt=com.microsoft.azure.storage.table.TableOperation&text=TableOperation" data-throw-if-not-resolved="False"/>
   exceptions:
-  - name: ca4f407a
+  - type: <xref href="StorageException?alt=StorageException&text=StorageException" data-throw-if-not-resolved="False"/>
+    description: <p>if an error occurs accessing the storage service, or the operation fails. </p>
   returns:
     description: <p>A <xref uid="com.microsoft.azure.storage.table.TableResult" data-throw-if-not-resolved="false">TableResult</xref> containing the result of executing the <xref uid="com.microsoft.azure.storage.table.TableOperation" data-throw-if-not-resolved="false">TableOperation</xref> on the table.</p>
     type: <xref href="com.microsoft.azure.storage.table.TableResult?alt=com.microsoft.azure.storage.table.TableResult&text=TableResult" data-throw-if-not-resolved="False"/>
@@ -84,7 +87,8 @@ members:
     name: opContext
     type: final <xref href="com.microsoft.azure.storage.OperationContext?alt=com.microsoft.azure.storage.OperationContext&text=OperationContext" data-throw-if-not-resolved="False"/>
   exceptions:
-  - name: ca4f407a
+  - type: <xref href="StorageException?alt=StorageException&text=StorageException" data-throw-if-not-resolved="False"/>
+    description: <p>if an error occurs accessing the storage service, or the operation fails. </p>
   returns:
     description: <p>A <xref uid="com.microsoft.azure.storage.table.TableResult" data-throw-if-not-resolved="false">TableResult</xref> containing the result of executing the <xref uid="com.microsoft.azure.storage.table.TableOperation" data-throw-if-not-resolved="false">TableOperation</xref> on the table.</p>
     type: <xref href="com.microsoft.azure.storage.table.TableResult?alt=com.microsoft.azure.storage.table.TableResult&text=TableResult" data-throw-if-not-resolved="False"/>
@@ -110,7 +114,7 @@ members:
     type: final <xref href="com.microsoft.azure.storage.table.EntityResolver?alt=com.microsoft.azure.storage.table.EntityResolver&text=EntityResolver" data-throw-if-not-resolved="False"/>&lt;R&gt;
   returns:
     description: <p>A collection implementing the <code>Iterable</code> interface containing the projection into type <code>R</code> of the results of executing the query. </p>
-    type: <xref href="%3CR%3E+Iterable%3CR%3E?alt=<R> Iterable<R>&text=%3CR%3E+Iterable%3CR%3E" data-throw-if-not-resolved="False"/>
+    type: <xref href="<R> Iterable<R>?alt=<R> Iterable<R>&text=%3CR%3E+Iterable%3CR%3E" data-throw-if-not-resolved="False"/>
   summary: >-
     <p>Executes a query, applying the specified <xref uid="com.microsoft.azure.storage.table.EntityResolver" data-throw-if-not-resolved="false">EntityResolver</xref> to the result. </p>
 
@@ -137,7 +141,7 @@ members:
     type: final <xref href="com.microsoft.azure.storage.OperationContext?alt=com.microsoft.azure.storage.OperationContext&text=OperationContext" data-throw-if-not-resolved="False"/>
   returns:
     description: <p>A collection implementing the <code>Iterable</code> interface containing the projection into type <code>R</code> of the results of executing the query. </p>
-    type: <xref href="%3CR%3E+Iterable%3CR%3E?alt=<R> Iterable<R>&text=%3CR%3E+Iterable%3CR%3E" data-throw-if-not-resolved="False"/>
+    type: <xref href="<R> Iterable<R>?alt=<R> Iterable<R>&text=%3CR%3E+Iterable%3CR%3E" data-throw-if-not-resolved="False"/>
   summary: >-
     <p>Executes a query, applying the specified <xref uid="com.microsoft.azure.storage.table.EntityResolver" data-throw-if-not-resolved="false">EntityResolver</xref> to the result, using the specified <xref uid="com.microsoft.azure.storage.table.TableRequestOptions" data-throw-if-not-resolved="false">TableRequestOptions</xref> and <xref uid="com.microsoft.azure.storage.OperationContext" data-throw-if-not-resolved="false">OperationContext</xref>. </p>
 

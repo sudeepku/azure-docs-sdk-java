@@ -10,8 +10,8 @@ members:
     name: directoryAbsoluteUri
     type: final <xref href="com.microsoft.azure.storage.StorageUri?alt=com.microsoft.azure.storage.StorageUri&text=StorageUri" data-throw-if-not-resolved="False"/>
   exceptions:
-  - name: ca4f407a
-  - name: "44102508"
+  - type: <xref href="StorageException?alt=StorageException&text=StorageException" data-throw-if-not-resolved="False"/>
+  - type: <xref href="URISyntaxException?alt=URISyntaxException&text=URISyntaxException" data-throw-if-not-resolved="False"/>
   summary: >-
     <p>Creates an instance of the  class using an absolute URI to the directory.</p>
 
@@ -29,8 +29,8 @@ members:
     name: credentials
     type: final <xref href="com.microsoft.azure.storage.StorageCredentials?alt=com.microsoft.azure.storage.StorageCredentials&text=StorageCredentials" data-throw-if-not-resolved="False"/>
   exceptions:
-  - name: ca4f407a
-  - name: "44102508"
+  - type: <xref href="StorageException?alt=StorageException&text=StorageException" data-throw-if-not-resolved="False"/>
+  - type: <xref href="URISyntaxException?alt=URISyntaxException&text=URISyntaxException" data-throw-if-not-resolved="False"/>
   summary: >-
     <p>Creates an instance of the  class using an absolute URI to the directory and credentials.</p>
 
@@ -46,7 +46,7 @@ members:
     type: final <xref href="com.microsoft.azure.storage.StorageUri?alt=com.microsoft.azure.storage.StorageUri&text=StorageUri" data-throw-if-not-resolved="False"/>
   - description: <p>A <code>String</code> that represents the name of the directory. </p>
     name: directoryName
-    type: <xref href="final+String?alt=final String&text=final+String" data-throw-if-not-resolved="False"/>
+    type: <xref href="final String?alt=final String&text=final+String" data-throw-if-not-resolved="False"/>
   - description: <p>A <xref uid="com.microsoft.azure.storage.file.CloudFileShare" data-throw-if-not-resolved="false">CloudFileShare</xref> object that represents the associated file share. </p>
     name: share
     type: final <xref href="com.microsoft.azure.storage.file.CloudFileShare?alt=com.microsoft.azure.storage.file.CloudFileShare&text=CloudFileShare" data-throw-if-not-resolved="False"/>
@@ -62,10 +62,10 @@ members:
   parameters:
   - description: <p>A <xref uid="" data-throw-if-not-resolved="false">URI</xref> that represents the file directory's address. </p>
     name: directoryAbsoluteUri
-    type: <xref href="final+URI?alt=final URI&text=final+URI" data-throw-if-not-resolved="False"/>
+    type: <xref href="final URI?alt=final URI&text=final+URI" data-throw-if-not-resolved="False"/>
   exceptions:
-  - name: ca4f407a
-  - name: "44102508"
+  - type: <xref href="StorageException?alt=StorageException&text=StorageException" data-throw-if-not-resolved="False"/>
+  - type: <xref href="URISyntaxException?alt=URISyntaxException&text=URISyntaxException" data-throw-if-not-resolved="False"/>
   summary: >-
     <p>Creates an instance of the  class using an absolute URI to the directory.</p>
 
@@ -78,13 +78,13 @@ members:
   parameters:
   - description: <p>A <xref uid="" data-throw-if-not-resolved="false">URI</xref> that represents the file directory's address. </p>
     name: directoryAbsoluteUri
-    type: <xref href="final+URI?alt=final URI&text=final+URI" data-throw-if-not-resolved="False"/>
+    type: <xref href="final URI?alt=final URI&text=final+URI" data-throw-if-not-resolved="False"/>
   - description: <p>A <xref uid="com.microsoft.azure.storage.StorageCredentials" data-throw-if-not-resolved="false">StorageCredentials</xref> object used to authenticate access. </p>
     name: credentials
     type: final <xref href="com.microsoft.azure.storage.StorageCredentials?alt=com.microsoft.azure.storage.StorageCredentials&text=StorageCredentials" data-throw-if-not-resolved="False"/>
   exceptions:
-  - name: ca4f407a
-  - name: "44102508"
+  - type: <xref href="StorageException?alt=StorageException&text=StorageException" data-throw-if-not-resolved="False"/>
+  - type: <xref href="URISyntaxException?alt=URISyntaxException&text=URISyntaxException" data-throw-if-not-resolved="False"/>
   summary: >-
     <p>Creates an instance of the  class using an absolute URI to the directory and credentials.</p>
 

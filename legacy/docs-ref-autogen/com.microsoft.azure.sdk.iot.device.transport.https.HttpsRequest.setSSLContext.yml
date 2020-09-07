@@ -10,7 +10,8 @@ members:
     name: sslContext
     type: <xref href="SSLContext?alt=SSLContext&text=SSLContext" data-throw-if-not-resolved="False"/>
   exceptions:
-  - name: 3c87bd19
+  - type: <xref href="IllegalArgumentException?alt=IllegalArgumentException&text=IllegalArgumentException" data-throw-if-not-resolved="False"/>
+    description: <p>if sslContext is null </p>
   returns:
     description: <p>itself, for fluent setting. </p>
     type: <xref href="com.microsoft.azure.sdk.iot.device.transport.https.HttpsRequest?alt=com.microsoft.azure.sdk.iot.device.transport.https.HttpsRequest&text=HttpsRequest" data-throw-if-not-resolved="False"/>

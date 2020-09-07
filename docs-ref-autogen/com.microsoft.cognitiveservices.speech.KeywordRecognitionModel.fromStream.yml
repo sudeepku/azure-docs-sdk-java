@@ -16,8 +16,10 @@ members:
     name: isZipped
     type: <xref href="boolean?alt=boolean&text=boolean" data-throw-if-not-resolved="False"/>
   exceptions:
-  - name: 3c87bd19
-  - name: cbf33bbe
+  - type: <xref href="IllegalArgumentException?alt=IllegalArgumentException&text=IllegalArgumentException" data-throw-if-not-resolved="False"/>
+    description: <p>In case the kws.table file was not found or the temp directory could not be created. </p>
+  - type: <xref href="IOException?alt=IOException&text=IOException" data-throw-if-not-resolved="False"/>
+    description: <p>If the name of the kws contains an illegal separator char, or in case the temp path and/or names are not valid. </p>
   returns:
     description: <p>The keyword recognition model being created. </p>
     type: <xref href="com.microsoft.cognitiveservices.speech.KeywordRecognitionModel?alt=com.microsoft.cognitiveservices.speech.KeywordRecognitionModel&text=KeywordRecognitionModel" data-throw-if-not-resolved="False"/>

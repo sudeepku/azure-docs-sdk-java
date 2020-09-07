@@ -13,7 +13,8 @@ members:
     name: deviceMethodCallbackContext
     type: <xref href="Object?alt=Object&text=Object" data-throw-if-not-resolved="False"/>
   exceptions:
-  - name: 3c87bd19
+  - type: <xref href="IllegalArgumentException?alt=IllegalArgumentException&text=IllegalArgumentException" data-throw-if-not-resolved="False"/>
+    description: <p>This exception is thrown when deviceMethodCallback is provided null. </p>
   summary: <p>A method which subscribes to receive device method invocation for the user with the IotHub. </p>
   syntax: public void subscribeToDeviceMethod(DeviceMethodCallback deviceMethodCallback, Object deviceMethodCallbackContext)
   uid: com.microsoft.azure.sdk.iot.device.DeviceTwin.DeviceMethod.subscribeToDeviceMethod(DeviceMethodCallback,Object)

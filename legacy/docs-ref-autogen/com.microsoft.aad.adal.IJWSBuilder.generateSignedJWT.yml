@@ -22,7 +22,8 @@ members:
     name: x509Certificate
     type: <xref href="X509Certificate?alt=X509Certificate&text=X509Certificate" data-throw-if-not-resolved="False"/>
   exceptions:
-  - name: 405643ff
+  - type: <xref href="AuthenticationException?alt=AuthenticationException&text=AuthenticationException" data-throw-if-not-resolved="False"/>
+    description: <p>when errors happens for generating signed JWT. </p>
   returns:
     description: <p>Signed JWT </p>
     type: <xref href="String?alt=String&text=String" data-throw-if-not-resolved="False"/>

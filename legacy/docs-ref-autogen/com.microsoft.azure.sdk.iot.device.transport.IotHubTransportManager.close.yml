@@ -6,7 +6,8 @@ members:
   name: close()
   nameWithType: IotHubTransportManager.close()
   exceptions:
-  - name: cbf33bbe
+  - type: <xref href="IOException?alt=IOException&text=IOException" data-throw-if-not-resolved="False"/>
+    description: <p>if an error occurs in closing the transport. </p>
   summary: >-
     <p>Closes all resources used to communicate with an IoT Hub. Once<code>close() 
 

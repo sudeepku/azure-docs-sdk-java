@@ -10,11 +10,14 @@ members:
     name: data
     type: final <xref href="com.microsoft.azure.eventhubs.EventData?alt=com.microsoft.azure.eventhubs.EventData&text=EventData" data-throw-if-not-resolved="False"/>
   exceptions:
-  - name: 22fa3d6f
-  - name: ca207911
-  - name: c177b4f7
+  - type: <xref href="PayloadSizeExceededException?alt=PayloadSizeExceededException&text=PayloadSizeExceededException" data-throw-if-not-resolved="False"/>
+    description: <p>if the total size of the <xref uid="com.microsoft.azure.eventhubs.EventData" data-throw-if-not-resolved="false">EventData</xref> exceeds a predefined limit set by the service. Default is 256k bytes. </p>
+  - type: <xref href="EventHubException?alt=EventHubException&text=EventHubException" data-throw-if-not-resolved="False"/>
+    description: <p>if Service Bus service encountered problems during the operation. </p>
+  - type: <xref href="UnresolvedAddressException?alt=UnresolvedAddressException&text=UnresolvedAddressException" data-throw-if-not-resolved="False"/>
+    description: '<p>if there are Client to Service network connectivity issues, if the Azure DNS resolution of the ServiceBus Namespace fails (ex: namespace deleted etc.) </p>'
   returns:
-    type: <xref href="default+void?alt=default void&text=default+void" data-throw-if-not-resolved="False"/>
+    type: <xref href="default void?alt=default void&text=default+void" data-throw-if-not-resolved="False"/>
   summary: >-
     <p>Synchronous version of <xref uid="com.microsoft.azure.eventhubs.EventHubClient.send(final EventData)" data-throw-if-not-resolved="false">send(EventData)</xref>.</p>
 
@@ -30,12 +33,14 @@ members:
     type: final <xref href="com.microsoft.azure.eventhubs.EventData?alt=com.microsoft.azure.eventhubs.EventData&text=EventData" data-throw-if-not-resolved="False"/>
   - description: <p>the partitionKey will be hash'ed to determine the partitionId to send the eventData to. On the Received message this can be accessed at <xref uid="" data-throw-if-not-resolved="false">EventData.SystemProperties#getPartitionKey()</xref></p>
     name: partitionKey
-    type: <xref href="final+String?alt=final String&text=final+String" data-throw-if-not-resolved="False"/>
+    type: <xref href="final String?alt=final String&text=final+String" data-throw-if-not-resolved="False"/>
   exceptions:
-  - name: 22fa3d6f
-  - name: ca207911
+  - type: <xref href="PayloadSizeExceededException?alt=PayloadSizeExceededException&text=PayloadSizeExceededException" data-throw-if-not-resolved="False"/>
+    description: <p>if the total size of the <xref uid="com.microsoft.azure.eventhubs.EventData" data-throw-if-not-resolved="false">EventData</xref> exceeds a pre-defined limit set by the service. Default is 256k bytes. </p>
+  - type: <xref href="EventHubException?alt=EventHubException&text=EventHubException" data-throw-if-not-resolved="False"/>
+    description: <p>if Service Bus service encountered problems during the operation. </p>
   returns:
-    type: <xref href="default+void?alt=default void&text=default+void" data-throw-if-not-resolved="False"/>
+    type: <xref href="default void?alt=default void&text=default+void" data-throw-if-not-resolved="False"/>
   summary: >-
     <p>Synchronous version of <xref uid="com.microsoft.azure.eventhubs.EventHubClient.send(final EventData,final String)" data-throw-if-not-resolved="false">send(EventData, String)</xref>.</p>
 
@@ -50,9 +55,10 @@ members:
     name: eventDatas
     type: final <xref href="com.microsoft.azure.eventhubs.EventDataBatch?alt=com.microsoft.azure.eventhubs.EventDataBatch&text=EventDataBatch" data-throw-if-not-resolved="False"/>
   exceptions:
-  - name: ca207911
+  - type: <xref href="EventHubException?alt=EventHubException&text=EventHubException" data-throw-if-not-resolved="False"/>
+    description: <p>if Service Bus service encountered problems during the operation. </p>
   returns:
-    type: <xref href="default+void?alt=default void&text=default+void" data-throw-if-not-resolved="False"/>
+    type: <xref href="default void?alt=default void&text=default+void" data-throw-if-not-resolved="False"/>
   summary: >-
     <p>Synchronous version of <xref uid="com.microsoft.azure.eventhubs.EventHubClient.send(final EventDataBatch)" data-throw-if-not-resolved="false">send(EventDataBatch)</xref>.</p>
 
@@ -67,11 +73,14 @@ members:
     name: eventDatas
     type: final Iterable&lt;<xref href="com.microsoft.azure.eventhubs.EventData?alt=com.microsoft.azure.eventhubs.EventData&text=EventData" data-throw-if-not-resolved="False"/>&gt;
   exceptions:
-  - name: 22fa3d6f
-  - name: ca207911
-  - name: c177b4f7
+  - type: <xref href="PayloadSizeExceededException?alt=PayloadSizeExceededException&text=PayloadSizeExceededException" data-throw-if-not-resolved="False"/>
+    description: <p>if the total size of the <xref uid="com.microsoft.azure.eventhubs.EventData" data-throw-if-not-resolved="false">EventData</xref> exceeds a pre-defined limit set by the service. Default is 256k bytes. </p>
+  - type: <xref href="EventHubException?alt=EventHubException&text=EventHubException" data-throw-if-not-resolved="False"/>
+    description: <p>if Service Bus service encountered problems during the operation. </p>
+  - type: <xref href="UnresolvedAddressException?alt=UnresolvedAddressException&text=UnresolvedAddressException" data-throw-if-not-resolved="False"/>
+    description: '<p>if there are Client to Service network connectivity issues, if the Azure DNS resolution of the ServiceBus Namespace fails (ex: namespace deleted etc.) </p>'
   returns:
-    type: <xref href="default+void?alt=default void&text=default+void" data-throw-if-not-resolved="False"/>
+    type: <xref href="default void?alt=default void&text=default+void" data-throw-if-not-resolved="False"/>
   summary: >-
     <p>Synchronous version of <xref uid="" data-throw-if-not-resolved="false">send(Iterable)</xref>.</p>
 
@@ -87,13 +96,16 @@ members:
     type: final Iterable&lt;<xref href="com.microsoft.azure.eventhubs.EventData?alt=com.microsoft.azure.eventhubs.EventData&text=EventData" data-throw-if-not-resolved="False"/>&gt;
   - description: <p>the partitionKey will be hash'ed to determine the partitionId to send the eventData to. On the Received message this can be accessed at <xref uid="" data-throw-if-not-resolved="false">EventData.SystemProperties#getPartitionKey()</xref></p>
     name: partitionKey
-    type: <xref href="final+String?alt=final String&text=final+String" data-throw-if-not-resolved="False"/>
+    type: <xref href="final String?alt=final String&text=final+String" data-throw-if-not-resolved="False"/>
   exceptions:
-  - name: 22fa3d6f
-  - name: ca207911
-  - name: c177b4f7
+  - type: <xref href="PayloadSizeExceededException?alt=PayloadSizeExceededException&text=PayloadSizeExceededException" data-throw-if-not-resolved="False"/>
+    description: <p>if the total size of the <xref uid="com.microsoft.azure.eventhubs.EventData" data-throw-if-not-resolved="false">EventData</xref> exceeds a pre-defined limit set by the service. Default is 256k bytes. </p>
+  - type: <xref href="EventHubException?alt=EventHubException&text=EventHubException" data-throw-if-not-resolved="False"/>
+    description: <p>if Service Bus service encountered problems during the operation. </p>
+  - type: <xref href="UnresolvedAddressException?alt=UnresolvedAddressException&text=UnresolvedAddressException" data-throw-if-not-resolved="False"/>
+    description: '<p>if there are Client to Service network connectivity issues, if the Azure DNS resolution of the ServiceBus Namespace fails (ex: namespace deleted etc.) </p>'
   returns:
-    type: <xref href="default+void?alt=default void&text=default+void" data-throw-if-not-resolved="False"/>
+    type: <xref href="default void?alt=default void&text=default+void" data-throw-if-not-resolved="False"/>
   summary: >-
     <p>Synchronous version of <xref uid="" data-throw-if-not-resolved="false">send(Iterable, String)</xref>.</p>
 

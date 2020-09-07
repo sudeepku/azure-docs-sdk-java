@@ -11,7 +11,7 @@ members:
     type: final <xref href="com.microsoft.azure.eventhubs.EventData?alt=com.microsoft.azure.eventhubs.EventData&text=EventData" data-throw-if-not-resolved="False"/>
   returns:
     description: <p>a CompletableFuture that can be completed when the send operations is done.. </p>
-    type: <xref href="CompletableFuture%3CVoid%3E?alt=CompletableFuture<Void>&text=CompletableFuture%3CVoid%3E" data-throw-if-not-resolved="False"/>
+    type: <xref href="CompletableFuture<Void>?alt=CompletableFuture<Void>&text=CompletableFuture%3CVoid%3E" data-throw-if-not-resolved="False"/>
   summary: >-
     <p>Send <xref uid="com.microsoft.azure.eventhubs.EventData" data-throw-if-not-resolved="false">EventData</xref> to EventHub. The sent <xref uid="com.microsoft.azure.eventhubs.EventData" data-throw-if-not-resolved="false">EventData</xref> will land on any arbitrarily chosen EventHubs partition. </p>
 
@@ -47,10 +47,10 @@ members:
     type: final <xref href="com.microsoft.azure.eventhubs.EventData?alt=com.microsoft.azure.eventhubs.EventData&text=EventData" data-throw-if-not-resolved="False"/>
   - description: <p>the partitionKey will be hash'ed to determine the partitionId to send the eventData to. On the Received message this can be accessed at <xref uid="" data-throw-if-not-resolved="false">EventData.SystemProperties#getPartitionKey()</xref></p>
     name: partitionKey
-    type: <xref href="final+String?alt=final String&text=final+String" data-throw-if-not-resolved="False"/>
+    type: <xref href="final String?alt=final String&text=final+String" data-throw-if-not-resolved="False"/>
   returns:
     description: <p>a CompletableFuture that can be completed when the send operations is done.. </p>
-    type: <xref href="CompletableFuture%3CVoid%3E?alt=CompletableFuture<Void>&text=CompletableFuture%3CVoid%3E" data-throw-if-not-resolved="False"/>
+    type: <xref href="CompletableFuture<Void>?alt=CompletableFuture<Void>&text=CompletableFuture%3CVoid%3E" data-throw-if-not-resolved="False"/>
   summary: >-
     <p>Send an '<xref uid="com.microsoft.azure.eventhubs.EventData" data-throw-if-not-resolved="false">EventData</xref> with a partitionKey' to EventHub. All <xref uid="com.microsoft.azure.eventhubs.EventData" data-throw-if-not-resolved="false">EventData</xref>'s with a partitionKey are guaranteed to land on the same partition. This send pattern emphasize data correlation over general availability and latency. </p>
 
@@ -84,7 +84,7 @@ members:
     type: final <xref href="com.microsoft.azure.eventhubs.EventDataBatch?alt=com.microsoft.azure.eventhubs.EventDataBatch&text=EventDataBatch" data-throw-if-not-resolved="False"/>
   returns:
     description: <p>a CompleteableFuture that can be completed when the send operations are done </p>
-    type: <xref href="CompletableFuture%3CVoid%3E?alt=CompletableFuture<Void>&text=CompletableFuture%3CVoid%3E" data-throw-if-not-resolved="False"/>
+    type: <xref href="CompletableFuture<Void>?alt=CompletableFuture<Void>&text=CompletableFuture%3CVoid%3E" data-throw-if-not-resolved="False"/>
   summary: >-
     <p>Send <xref uid="com.microsoft.azure.eventhubs.EventDataBatch" data-throw-if-not-resolved="false">EventDataBatch</xref> to EventHub. The sent <xref uid="com.microsoft.azure.eventhubs.EventDataBatch" data-throw-if-not-resolved="false">EventDataBatch</xref> will land according the partition key set in the <xref uid="com.microsoft.azure.eventhubs.EventDataBatch" data-throw-if-not-resolved="false">EventDataBatch</xref>. If a partition key is not set, then we will Round-robin the <xref uid="com.microsoft.azure.eventhubs.EventData" data-throw-if-not-resolved="false">EventData</xref>'s to all EventHubs' partitions.</p>
 
@@ -100,7 +100,7 @@ members:
     type: final Iterable&lt;<xref href="com.microsoft.azure.eventhubs.EventData?alt=com.microsoft.azure.eventhubs.EventData&text=EventData" data-throw-if-not-resolved="False"/>&gt;
   returns:
     description: <p>a CompletableFuture that can be completed when the send operations is done.. </p>
-    type: <xref href="CompletableFuture%3CVoid%3E?alt=CompletableFuture<Void>&text=CompletableFuture%3CVoid%3E" data-throw-if-not-resolved="False"/>
+    type: <xref href="CompletableFuture<Void>?alt=CompletableFuture<Void>&text=CompletableFuture%3CVoid%3E" data-throw-if-not-resolved="False"/>
   summary: >-
     <p>Send a batch of <xref uid="com.microsoft.azure.eventhubs.EventData" data-throw-if-not-resolved="false">EventData</xref> to EventHub. The sent <xref uid="com.microsoft.azure.eventhubs.EventData" data-throw-if-not-resolved="false">EventData</xref> will land on any arbitrarily chosen EventHubs partition. This is the most recommended way to Send to EventHubs. </p>
 
@@ -172,10 +172,10 @@ members:
     type: final Iterable&lt;<xref href="com.microsoft.azure.eventhubs.EventData?alt=com.microsoft.azure.eventhubs.EventData&text=EventData" data-throw-if-not-resolved="False"/>&gt;
   - description: <p>the partitionKey will be hash'ed to determine the partitionId to send the eventData to. On the Received message this can be accessed at <xref uid="" data-throw-if-not-resolved="false">EventData.SystemProperties#getPartitionKey()</xref></p>
     name: partitionKey
-    type: <xref href="final+String?alt=final String&text=final+String" data-throw-if-not-resolved="False"/>
+    type: <xref href="final String?alt=final String&text=final+String" data-throw-if-not-resolved="False"/>
   returns:
     description: <p>a CompletableFuture that can be completed when the send operations is done.. </p>
-    type: <xref href="CompletableFuture%3CVoid%3E?alt=CompletableFuture<Void>&text=CompletableFuture%3CVoid%3E" data-throw-if-not-resolved="False"/>
+    type: <xref href="CompletableFuture<Void>?alt=CompletableFuture<Void>&text=CompletableFuture%3CVoid%3E" data-throw-if-not-resolved="False"/>
   summary: >-
     <p>Send a 'batch of <xref uid="com.microsoft.azure.eventhubs.EventData" data-throw-if-not-resolved="false">EventData</xref> with the same partitionKey' to EventHub. All <xref uid="com.microsoft.azure.eventhubs.EventData" data-throw-if-not-resolved="false">EventData</xref>'s with a partitionKey are guaranteed to land on the same partition. Multiple PartitionKey's will be mapped to one Partition. </p>
 

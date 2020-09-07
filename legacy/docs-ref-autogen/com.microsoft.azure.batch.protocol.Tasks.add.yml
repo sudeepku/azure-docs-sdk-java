@@ -13,9 +13,12 @@ members:
     name: task
     type: <xref href="com.microsoft.azure.batch.protocol.models.TaskAddParameter?alt=com.microsoft.azure.batch.protocol.models.TaskAddParameter&text=TaskAddParameter" data-throw-if-not-resolved="False"/>
   exceptions:
-  - name: 3c87bd19
-  - name: c8683d81
-  - name: 9b2a4515
+  - type: <xref href="IllegalArgumentException?alt=IllegalArgumentException&text=IllegalArgumentException" data-throw-if-not-resolved="False"/>
+    description: <p>thrown if parameters fail the validation </p>
+  - type: <xref href="BatchErrorException?alt=BatchErrorException&text=BatchErrorException" data-throw-if-not-resolved="False"/>
+    description: <p>thrown if the request is rejected by server </p>
+  - type: <xref href="RuntimeException?alt=RuntimeException&text=RuntimeException" data-throw-if-not-resolved="False"/>
+    description: <p>all other wrapped checked exceptions if the request fails to be sent </p>
   summary: >-
     <p>Adds a task to the specified job. The maximum lifetime of a task from addition to completion is 180 days. If a task has not completed within 180 days of being added it will be terminated by the Batch service and left in whatever state it was in at that time.</p>
 
@@ -36,9 +39,12 @@ members:
     name: taskAddOptions
     type: <xref href="com.microsoft.azure.batch.protocol.models.TaskAddOptions?alt=com.microsoft.azure.batch.protocol.models.TaskAddOptions&text=TaskAddOptions" data-throw-if-not-resolved="False"/>
   exceptions:
-  - name: 3c87bd19
-  - name: c8683d81
-  - name: 9b2a4515
+  - type: <xref href="IllegalArgumentException?alt=IllegalArgumentException&text=IllegalArgumentException" data-throw-if-not-resolved="False"/>
+    description: <p>thrown if parameters fail the validation </p>
+  - type: <xref href="BatchErrorException?alt=BatchErrorException&text=BatchErrorException" data-throw-if-not-resolved="False"/>
+    description: <p>thrown if the request is rejected by server </p>
+  - type: <xref href="RuntimeException?alt=RuntimeException&text=RuntimeException" data-throw-if-not-resolved="False"/>
+    description: <p>all other wrapped checked exceptions if the request fails to be sent </p>
   summary: >-
     <p>Adds a task to the specified job. The maximum lifetime of a task from addition to completion is 180 days. If a task has not completed within 180 days of being added it will be terminated by the Batch service and left in whatever state it was in at that time.</p>
 

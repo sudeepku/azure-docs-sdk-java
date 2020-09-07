@@ -25,7 +25,8 @@ members:
     name: sharedAccessToken
     type: <xref href="String?alt=String&text=String" data-throw-if-not-resolved="False"/>
   exceptions:
-  - name: 836e31af
+  - type: <xref href="SecurityException?alt=SecurityException&text=SecurityException" data-throw-if-not-resolved="False"/>
+    description: <p>if the provided sas token has expired </p>
   summary: <p>Constructor that takes a connection string containing a sas token or a device key and uses the default token valid seconds and timeBufferPercentage </p>
   syntax: public IotHubSasTokenSoftwareAuthenticationProvider(String hostname, String gatewayHostname, String deviceId, String moduleId, String deviceKey, String sharedAccessToken)
   uid: com.microsoft.azure.sdk.iot.device.auth.IotHubSasTokenSoftwareAuthenticationProvider.IotHubSasTokenSoftwareAuthenticationProvider(String,String,String,String,String,String)
@@ -58,7 +59,8 @@ members:
     name: timeBufferPercentage
     type: <xref href="int?alt=int&text=int" data-throw-if-not-resolved="False"/>
   exceptions:
-  - name: 836e31af
+  - type: <xref href="SecurityException?alt=SecurityException&text=SecurityException" data-throw-if-not-resolved="False"/>
+    description: <p>if the provided sas token has expired </p>
   summary: >-
     <p>Constructor that takes a connection string containing a sas token or a device key</p>
 
@@ -91,7 +93,8 @@ members:
     name: sslContext
     type: <xref href="SSLContext?alt=SSLContext&text=SSLContext" data-throw-if-not-resolved="False"/>
   exceptions:
-  - name: 836e31af
+  - type: <xref href="SecurityException?alt=SecurityException&text=SecurityException" data-throw-if-not-resolved="False"/>
+    description: <p>if the provided sas token has expired </p>
   summary: <p>Constructor that takes a connection string containing a sas token or a device key and uses the default token valid seconds and timeBufferPercentage </p>
   syntax: public IotHubSasTokenSoftwareAuthenticationProvider(String hostname, String gatewayHostname, String deviceId, String moduleId, String deviceKey, String sharedAccessToken, SSLContext sslContext)
   uid: com.microsoft.azure.sdk.iot.device.auth.IotHubSasTokenSoftwareAuthenticationProvider.IotHubSasTokenSoftwareAuthenticationProvider(String,String,String,String,String,String,SSLContext)

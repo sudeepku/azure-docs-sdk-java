@@ -28,12 +28,12 @@ syntax: public enum ResultTruncated extends Enum<ResultTruncated>
 fields:
 - uid: com.microsoft.azure.management.resourcegraph.v2019_04_01.ResultTruncated.FALSE
   fullName: com.microsoft.azure.management.resourcegraph.v2019_04_01.ResultTruncated.FALSE
-  name: FALSE
+  name: "FALSE"
   nameWithType: ResultTruncated.FALSE
   summary: Enum value false.
 - uid: com.microsoft.azure.management.resourcegraph.v2019_04_01.ResultTruncated.TRUE
   fullName: com.microsoft.azure.management.resourcegraph.v2019_04_01.ResultTruncated.TRUE
-  name: TRUE
+  name: "TRUE"
   nameWithType: ResultTruncated.TRUE
   summary: Enum value true.
 methods:

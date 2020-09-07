@@ -13,12 +13,18 @@ members:
     name: errorReason
     type: <xref href="String?alt=String&text=String" data-throw-if-not-resolved="False"/>
   exceptions:
-  - name: 69ef8ed6
-  - name: f784a0b4
-  - name: b43c35e0
-  - name: "87e82984"
-  - name: a6384dce
-  - name: 2bb5ddab
+  - type: <xref href="ProvisioningServiceClientBadFormatException?alt=ProvisioningServiceClientBadFormatException&text=ProvisioningServiceClientBadFormatException" data-throw-if-not-resolved="False"/>
+    description: <p>This exception is thrown if the response status equal 400 </p>
+  - type: <xref href="ProvisioningServiceClientUnathorizedException?alt=ProvisioningServiceClientUnathorizedException&text=ProvisioningServiceClientUnathorizedException" data-throw-if-not-resolved="False"/>
+    description: <p>This exception is thrown if the response status equal 401 </p>
+  - type: <xref href="ProvisioningServiceClientNotFoundException?alt=ProvisioningServiceClientNotFoundException&text=ProvisioningServiceClientNotFoundException" data-throw-if-not-resolved="False"/>
+    description: <p>This exception is thrown if the response status equal 404 </p>
+  - type: <xref href="ProvisioningServiceClientPreconditionFailedException?alt=ProvisioningServiceClientPreconditionFailedException&text=ProvisioningServiceClientPreconditionFailedException" data-throw-if-not-resolved="False"/>
+    description: <p>This exception is thrown if the response status equal 412 </p>
+  - type: <xref href="ProvisioningServiceClientInternalServerErrorException?alt=ProvisioningServiceClientInternalServerErrorException&text=ProvisioningServiceClientInternalServerErrorException" data-throw-if-not-resolved="False"/>
+    description: <p>This exception is thrown if the response status equal 500 </p>
+  - type: <xref href="ProvisioningServiceClientServiceException?alt=ProvisioningServiceClientServiceException&text=ProvisioningServiceClientServiceException" data-throw-if-not-resolved="False"/>
+    description: <p>This exception is thrown if the response status none of them above and greater then 300 </p>
   summary: >-
     <p>Verify response using response status</p>
 

@@ -13,7 +13,8 @@ members:
     name: onDesiredPropertyChange
     type: Map&lt;<xref href="com.microsoft.azure.sdk.iot.device.DeviceTwin.Property?alt=com.microsoft.azure.sdk.iot.device.DeviceTwin.Property&text=Property" data-throw-if-not-resolved="False"/>, <xref href="com.microsoft.azure.sdk.iot.device.DeviceTwin.Pair?alt=com.microsoft.azure.sdk.iot.device.DeviceTwin.Pair&text=Pair" data-throw-if-not-resolved="False"/>&lt;<xref href="com.microsoft.azure.sdk.iot.device.DeviceTwin.PropertyCallBack?alt=com.microsoft.azure.sdk.iot.device.DeviceTwin.PropertyCallBack&text=PropertyCallBack" data-throw-if-not-resolved="False"/>&lt;String, Object&gt;, Object&gt;&gt;
   exceptions:
-  - name: cbf33bbe
+  - type: <xref href="IOException?alt=IOException&text=IOException" data-throw-if-not-resolved="False"/>
+    description: <p>if called when client is not opened or called before starting twin. </p>
   summary: >-
     <p>Subscribes to desired properties</p>
 

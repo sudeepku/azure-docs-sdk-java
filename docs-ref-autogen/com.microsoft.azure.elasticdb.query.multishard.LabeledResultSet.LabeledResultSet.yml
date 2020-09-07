@@ -15,7 +15,8 @@ members:
     name: statement
     type: <xref href="Statement?alt=Statement&text=Statement" data-throw-if-not-resolved="False"/>
   exceptions:
-  - name: 3c87bd19
+  - type: <xref href="IllegalArgumentException?alt=IllegalArgumentException&text=IllegalArgumentException" data-throw-if-not-resolved="False"/>
+    description: <p>If either of the arguments is null. </p>
   summary: >-
     <p>Simple constructor to set up an immutable LabeledResultSet object.</p>
 
@@ -35,7 +36,8 @@ members:
     name: statement
     type: <xref href="Statement?alt=Statement&text=Statement" data-throw-if-not-resolved="False"/>
   exceptions:
-  - name: 3c87bd19
+  - type: <xref href="IllegalArgumentException?alt=IllegalArgumentException&text=IllegalArgumentException" data-throw-if-not-resolved="False"/>
+    description: <p>If either of the arguments is null. </p>
   summary: >-
     <p>Simple constructor to set up an immutable LabeledResultSet object.</p>
 
@@ -53,7 +55,8 @@ members:
     name: statement
     type: <xref href="Statement?alt=Statement&text=Statement" data-throw-if-not-resolved="False"/>
   exceptions:
-  - name: 3c87bd19
+  - type: <xref href="IllegalArgumentException?alt=IllegalArgumentException&text=IllegalArgumentException" data-throw-if-not-resolved="False"/>
+    description: <p>If either of the arguments is null. </p>
   summary: >-
     <p>Simple constructor to set up an immutable LabeledResultSet object.</p>
 

@@ -23,7 +23,8 @@ members:
     name: iotHubConnectionString
     type: <xref href="com.microsoft.azure.sdk.iot.device.IotHubConnectionString?alt=com.microsoft.azure.sdk.iot.device.IotHubConnectionString&text=IotHubConnectionString" data-throw-if-not-resolved="False"/>
   exceptions:
-  - name: 3c87bd19
+  - type: <xref href="IllegalArgumentException?alt=IllegalArgumentException&text=IllegalArgumentException" data-throw-if-not-resolved="False"/>
+    description: <p>if the IoT Hub hostname does not contain a valid IoT Hub name as its prefix. </p>
   summary: >-
     <p>Constructor</p>
 

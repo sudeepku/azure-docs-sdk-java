@@ -13,7 +13,8 @@ members:
     name: value
     type: <xref href="Object?alt=Object&text=Object" data-throw-if-not-resolved="False"/>
   exceptions:
-  - name: 3c87bd19
+  - type: <xref href="IllegalArgumentException?alt=IllegalArgumentException&text=IllegalArgumentException" data-throw-if-not-resolved="False"/>
+    description: <p>if the provided optionName is null </p>
   summary: >-
     <p>Sets a runtime option identified by parameter<code>optionName 
 

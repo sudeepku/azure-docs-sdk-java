@@ -10,8 +10,10 @@ members:
     name: maxCount
     type: <xref href="Integer?alt=Integer&text=Integer" data-throw-if-not-resolved="False"/>
   exceptions:
-  - name: 7f45ead7
-  - name: 3c87bd19
+  - type: <xref href="MalformedURLException?alt=MalformedURLException&text=MalformedURLException" data-throw-if-not-resolved="False"/>
+    description: <p>This exception is thrown if the URL creation failed due to malformed string </p>
+  - type: <xref href="IllegalArgumentException?alt=IllegalArgumentException&text=IllegalArgumentException" data-throw-if-not-resolved="False"/>
+    description: <p>This exception is thrown if maxCount is null or empty </p>
   returns:
     description: <p>URL string to get the device list from IotHub </p>
     type: <xref href="URL?alt=URL&text=URL" data-throw-if-not-resolved="False"/>

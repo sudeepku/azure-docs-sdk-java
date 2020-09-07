@@ -13,7 +13,8 @@ members:
     name: json
     type: <xref href="String?alt=String&text=String" data-throw-if-not-resolved="False"/>
   exceptions:
-  - name: 3c87bd19
+  - type: <xref href="IllegalArgumentException?alt=IllegalArgumentException&text=IllegalArgumentException" data-throw-if-not-resolved="False"/>
+    description: <p>If any of the input parameters are invalid </p>
   returns:
     description: <p>The object which contains parsed information `RegistrationOperationStatusParser` </p>
     type: <xref href="com.microsoft.azure.sdk.iot.provisioning.device.internal.parser.RegistrationOperationStatusParser?alt=com.microsoft.azure.sdk.iot.provisioning.device.internal.parser.RegistrationOperationStatusParser&text=RegistrationOperationStatusParser" data-throw-if-not-resolved="False"/>

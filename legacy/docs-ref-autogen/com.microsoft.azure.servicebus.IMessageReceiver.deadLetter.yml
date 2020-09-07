@@ -10,8 +10,10 @@ members:
     name: lockToken
     type: <xref href="UUID?alt=UUID&text=UUID" data-throw-if-not-resolved="False"/>
   exceptions:
-  - name: 8256ba40
-  - name: 73fec9fb
+  - type: <xref href="InterruptedException?alt=InterruptedException&text=InterruptedException" data-throw-if-not-resolved="False"/>
+    description: <p>if the current thread was interrupted while waiting </p>
+  - type: <xref href="ServiceBusException?alt=ServiceBusException&text=ServiceBusException" data-throw-if-not-resolved="False"/>
+    description: <p>if deadletter failed </p>
   summary: >-
     <p>Moves a <xref uid="com.microsoft.azure.servicebus.Message" data-throw-if-not-resolved="false">Message</xref> to the deadletter sub-queue.</p>
 
@@ -27,10 +29,12 @@ members:
     type: <xref href="UUID?alt=UUID&text=UUID" data-throw-if-not-resolved="False"/>
   - description: <p>Message properties to modify. </p>
     name: propertiesToModify
-    type: <xref href="Map%3CString%2C+Object%3E?alt=Map<String, Object>&text=Map%3CString%2C+Object%3E" data-throw-if-not-resolved="False"/>
+    type: <xref href="Map<String, Object>?alt=Map<String, Object>&text=Map%3CString%2C+Object%3E" data-throw-if-not-resolved="False"/>
   exceptions:
-  - name: 8256ba40
-  - name: 73fec9fb
+  - type: <xref href="InterruptedException?alt=InterruptedException&text=InterruptedException" data-throw-if-not-resolved="False"/>
+    description: <p>if the current thread was interrupted while waiting </p>
+  - type: <xref href="ServiceBusException?alt=ServiceBusException&text=ServiceBusException" data-throw-if-not-resolved="False"/>
+    description: <p>if deadletter failed </p>
   summary: >-
     <p>Moves a <xref uid="com.microsoft.azure.servicebus.Message" data-throw-if-not-resolved="false">Message</xref> to the deadletter sub-queue with modified message properties.</p>
 
@@ -46,7 +50,7 @@ members:
     type: <xref href="UUID?alt=UUID&text=UUID" data-throw-if-not-resolved="False"/>
   - description: <p>Message properties to modify. </p>
     name: propertiesToModify
-    type: <xref href="Map%3CString%2C+Object%3E?alt=Map<String, Object>&text=Map%3CString%2C+Object%3E" data-throw-if-not-resolved="False"/>
+    type: <xref href="Map<String, Object>?alt=Map<String, Object>&text=Map%3CString%2C+Object%3E" data-throw-if-not-resolved="False"/>
   - description: >-
       <p>
 
@@ -54,8 +58,10 @@ members:
     name: transaction
     type: <xref href="com.microsoft.azure.servicebus.TransactionContext?alt=com.microsoft.azure.servicebus.TransactionContext&text=TransactionContext" data-throw-if-not-resolved="False"/>
   exceptions:
-  - name: 8256ba40
-  - name: 73fec9fb
+  - type: <xref href="InterruptedException?alt=InterruptedException&text=InterruptedException" data-throw-if-not-resolved="False"/>
+    description: <p>if the current thread was interrupted while waiting </p>
+  - type: <xref href="ServiceBusException?alt=ServiceBusException&text=ServiceBusException" data-throw-if-not-resolved="False"/>
+    description: <p>if deadletter failed </p>
   summary: >-
     <p>Moves a <xref uid="com.microsoft.azure.servicebus.Message" data-throw-if-not-resolved="false">Message</xref> to the deadletter sub-queue with modified message properties.</p>
 
@@ -76,8 +82,10 @@ members:
     name: deadLetterErrorDescription
     type: <xref href="String?alt=String&text=String" data-throw-if-not-resolved="False"/>
   exceptions:
-  - name: 8256ba40
-  - name: 73fec9fb
+  - type: <xref href="InterruptedException?alt=InterruptedException&text=InterruptedException" data-throw-if-not-resolved="False"/>
+    description: <p>if the current thread was interrupted while waiting </p>
+  - type: <xref href="ServiceBusException?alt=ServiceBusException&text=ServiceBusException" data-throw-if-not-resolved="False"/>
+    description: <p>if deadletter failed </p>
   summary: >-
     <p>Moves a <xref uid="com.microsoft.azure.servicebus.Message" data-throw-if-not-resolved="false">Message</xref> to the deadletter sub-queue with deadletter reason and error description.</p>
 
@@ -99,10 +107,12 @@ members:
     type: <xref href="String?alt=String&text=String" data-throw-if-not-resolved="False"/>
   - description: <p>Message properties to modify. </p>
     name: propertiesToModify
-    type: <xref href="Map%3CString%2C+Object%3E?alt=Map<String, Object>&text=Map%3CString%2C+Object%3E" data-throw-if-not-resolved="False"/>
+    type: <xref href="Map<String, Object>?alt=Map<String, Object>&text=Map%3CString%2C+Object%3E" data-throw-if-not-resolved="False"/>
   exceptions:
-  - name: 8256ba40
-  - name: 73fec9fb
+  - type: <xref href="InterruptedException?alt=InterruptedException&text=InterruptedException" data-throw-if-not-resolved="False"/>
+    description: <p>if the current thread was interrupted while waiting </p>
+  - type: <xref href="ServiceBusException?alt=ServiceBusException&text=ServiceBusException" data-throw-if-not-resolved="False"/>
+    description: <p>if deadletter failed </p>
   summary: >-
     <p>Moves a <xref uid="com.microsoft.azure.servicebus.Message" data-throw-if-not-resolved="false">Message</xref> to the deadletter sub-queue with deadletter reason and error description and modified properties.</p>
 
@@ -124,7 +134,7 @@ members:
     type: <xref href="String?alt=String&text=String" data-throw-if-not-resolved="False"/>
   - description: <p>Message properties to modify. </p>
     name: propertiesToModify
-    type: <xref href="Map%3CString%2C+Object%3E?alt=Map<String, Object>&text=Map%3CString%2C+Object%3E" data-throw-if-not-resolved="False"/>
+    type: <xref href="Map<String, Object>?alt=Map<String, Object>&text=Map%3CString%2C+Object%3E" data-throw-if-not-resolved="False"/>
   - description: >-
       <p>
 
@@ -132,8 +142,10 @@ members:
     name: transaction
     type: <xref href="com.microsoft.azure.servicebus.TransactionContext?alt=com.microsoft.azure.servicebus.TransactionContext&text=TransactionContext" data-throw-if-not-resolved="False"/>
   exceptions:
-  - name: 8256ba40
-  - name: 73fec9fb
+  - type: <xref href="InterruptedException?alt=InterruptedException&text=InterruptedException" data-throw-if-not-resolved="False"/>
+    description: <p>if the current thread was interrupted while waiting </p>
+  - type: <xref href="ServiceBusException?alt=ServiceBusException&text=ServiceBusException" data-throw-if-not-resolved="False"/>
+    description: <p>if deadletter failed </p>
   summary: >-
     <p>Moves a <xref uid="com.microsoft.azure.servicebus.Message" data-throw-if-not-resolved="false">Message</xref> to the deadletter sub-queue with deadletter reason and error description and modified properties.</p>
 
@@ -160,8 +172,10 @@ members:
     name: transaction
     type: <xref href="com.microsoft.azure.servicebus.TransactionContext?alt=com.microsoft.azure.servicebus.TransactionContext&text=TransactionContext" data-throw-if-not-resolved="False"/>
   exceptions:
-  - name: 8256ba40
-  - name: 73fec9fb
+  - type: <xref href="InterruptedException?alt=InterruptedException&text=InterruptedException" data-throw-if-not-resolved="False"/>
+    description: <p>if the current thread was interrupted while waiting </p>
+  - type: <xref href="ServiceBusException?alt=ServiceBusException&text=ServiceBusException" data-throw-if-not-resolved="False"/>
+    description: <p>if deadletter failed </p>
   summary: >-
     <p>Moves a <xref uid="com.microsoft.azure.servicebus.Message" data-throw-if-not-resolved="false">Message</xref> to the deadletter sub-queue with deadletter reason and error description.</p>
 
@@ -182,8 +196,10 @@ members:
     name: transaction
     type: <xref href="com.microsoft.azure.servicebus.TransactionContext?alt=com.microsoft.azure.servicebus.TransactionContext&text=TransactionContext" data-throw-if-not-resolved="False"/>
   exceptions:
-  - name: 8256ba40
-  - name: 73fec9fb
+  - type: <xref href="InterruptedException?alt=InterruptedException&text=InterruptedException" data-throw-if-not-resolved="False"/>
+    description: <p>if the current thread was interrupted while waiting </p>
+  - type: <xref href="ServiceBusException?alt=ServiceBusException&text=ServiceBusException" data-throw-if-not-resolved="False"/>
+    description: <p>if deadletter failed </p>
   summary: >-
     <p>Moves a <xref uid="com.microsoft.azure.servicebus.Message" data-throw-if-not-resolved="false">Message</xref> to the deadletter sub-queue.</p>
 

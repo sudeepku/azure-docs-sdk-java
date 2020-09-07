@@ -19,7 +19,7 @@ members:
     type: <xref href="java.lang.Class?alt=java.lang.Class&text=Class" data-throw-if-not-resolved="False" />&lt;<xref href="V?alt=V&text=V" data-throw-if-not-resolved="False" />&gt;
   syntax: public V <V>getFileStoreAttributeView(Class<V> aClass)
   returns:
-    description: null
+    description: "null"
     type: <xref href="V?alt=V&text=V" data-throw-if-not-resolved="False" />
 type: method
 metadata: {}

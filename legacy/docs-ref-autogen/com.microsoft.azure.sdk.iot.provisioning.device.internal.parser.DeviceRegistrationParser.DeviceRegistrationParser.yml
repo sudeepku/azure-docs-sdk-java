@@ -19,7 +19,11 @@ members:
     name: customPayload
     type: <xref href="String?alt=String&text=String" data-throw-if-not-resolved="False"/>
   exceptions:
-  - name: 3c87bd19
+  - type: <xref href="IllegalArgumentException?alt=IllegalArgumentException&text=IllegalArgumentException" data-throw-if-not-resolved="False"/>
+    description: >-
+      <p>If the provided registration id was<code>null 
+
+          </code> or empty. </p>
   summary: <p>Constructor for Device Registration for X509 flow </p>
   syntax: public DeviceRegistrationParser(String registrationId, String customPayload)
   uid: com.microsoft.azure.sdk.iot.provisioning.device.internal.parser.DeviceRegistrationParser.DeviceRegistrationParser(String,String)
@@ -52,7 +56,8 @@ members:
     name: storageRootKey
     type: <xref href="String?alt=String&text=String" data-throw-if-not-resolved="False"/>
   exceptions:
-  - name: 3c87bd19
+  - type: <xref href="IllegalArgumentException?alt=IllegalArgumentException&text=IllegalArgumentException" data-throw-if-not-resolved="False"/>
+    description: <p>is thrown if any of the input parameters are invalid. </p>
   summary: <p>Constructor for Device Registration for TPM flow </p>
   syntax: public DeviceRegistrationParser(String registrationId, String customPayload, String endorsementKey, String storageRootKey)
   uid: com.microsoft.azure.sdk.iot.provisioning.device.internal.parser.DeviceRegistrationParser.DeviceRegistrationParser(String,String,String,String)

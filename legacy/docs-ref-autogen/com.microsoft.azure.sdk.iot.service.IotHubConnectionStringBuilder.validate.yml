@@ -10,7 +10,8 @@ members:
     name: iotHubConnectionString
     type: <xref href="com.microsoft.azure.sdk.iot.service.IotHubConnectionString?alt=com.microsoft.azure.sdk.iot.service.IotHubConnectionString&text=IotHubConnectionString" data-throw-if-not-resolved="False"/>
   exceptions:
-  - name: 3c87bd19
+  - type: <xref href="IllegalArgumentException?alt=IllegalArgumentException&text=IllegalArgumentException" data-throw-if-not-resolved="False"/>
+    description: <p>This exception is thrown if the input object is null </p>
   summary: >-
     <p>Validate IotHubConnectionString format</p>
 

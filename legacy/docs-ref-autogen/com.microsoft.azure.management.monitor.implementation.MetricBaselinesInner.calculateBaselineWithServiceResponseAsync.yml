@@ -13,7 +13,8 @@ members:
     name: timeSeriesInformation
     type: <xref href="com.microsoft.azure.management.monitor.TimeSeriesInformation?alt=com.microsoft.azure.management.monitor.TimeSeriesInformation&text=TimeSeriesInformation" data-throw-if-not-resolved="False"/>
   exceptions:
-  - name: 3c87bd19
+  - type: <xref href="IllegalArgumentException?alt=IllegalArgumentException&text=IllegalArgumentException" data-throw-if-not-resolved="False"/>
+    description: <p>thrown if parameters fail the validation </p>
   returns:
     description: <p>the observable to the CalculateBaselineResponseInner object </p>
     type: Observable&lt;ServiceResponse&lt;<xref href="com.microsoft.azure.management.monitor.implementation.CalculateBaselineResponseInner?alt=com.microsoft.azure.management.monitor.implementation.CalculateBaselineResponseInner&text=CalculateBaselineResponseInner" data-throw-if-not-resolved="False"/>&gt;&gt;
