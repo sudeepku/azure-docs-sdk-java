@@ -1,45 +1,45 @@
 ### YamlMime:JavaType
-uid: com.azure.resourcemanager.network.models.ApplicationRuleCondition
-fullName: com.azure.resourcemanager.network.models.ApplicationRuleCondition
-name: ApplicationRuleCondition
-nameWithType: ApplicationRuleCondition
-summary: The ApplicationRuleCondition model.
+uid: "com.azure.resourcemanager.network.models.ApplicationRuleCondition"
+fullName: "com.azure.resourcemanager.network.models.ApplicationRuleCondition"
+name: "ApplicationRuleCondition"
+nameWithType: "ApplicationRuleCondition"
+summary: "The ApplicationRuleCondition model."
 inheritances:
-- <xref href="java.lang.Object" data-throw-if-not-resolved="False" />
-- <xref href="com.azure.resourcemanager.network.models.FirewallPolicyRuleCondition" data-throw-if-not-resolved="False" />
+- "<xref href=\"java.lang.Object\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.azure.resourcemanager.network.models.FirewallPolicyRuleCondition\" data-throw-if-not-resolved=\"False\" />"
 inheritedMembers:
-- com.azure.resourcemanager.network.models.FirewallPolicyRuleCondition.description()
-- com.azure.resourcemanager.network.models.FirewallPolicyRuleCondition.name()
-- com.azure.resourcemanager.network.models.FirewallPolicyRuleCondition.validate()
-- com.azure.resourcemanager.network.models.FirewallPolicyRuleCondition.withDescription(java.lang.String)
-- com.azure.resourcemanager.network.models.FirewallPolicyRuleCondition.withName(java.lang.String)
-- java.lang.Object.clone()
-- java.lang.Object.equals(java.lang.Object)
-- java.lang.Object.finalize()
-- java.lang.Object.getClass()
-- java.lang.Object.hashCode()
-- java.lang.Object.notify()
-- java.lang.Object.notifyAll()
-- java.lang.Object.toString()
-- java.lang.Object.wait()
-- java.lang.Object.wait(long)
-- java.lang.Object.wait(long,int)
-syntax: public final class ApplicationRuleCondition extends FirewallPolicyRuleCondition
+- "com.azure.resourcemanager.network.models.FirewallPolicyRuleCondition.description()"
+- "com.azure.resourcemanager.network.models.FirewallPolicyRuleCondition.name()"
+- "com.azure.resourcemanager.network.models.FirewallPolicyRuleCondition.validate()"
+- "com.azure.resourcemanager.network.models.FirewallPolicyRuleCondition.withDescription(java.lang.String)"
+- "com.azure.resourcemanager.network.models.FirewallPolicyRuleCondition.withName(java.lang.String)"
+- "java.lang.Object.clone()"
+- "java.lang.Object.equals(java.lang.Object)"
+- "java.lang.Object.finalize()"
+- "java.lang.Object.getClass()"
+- "java.lang.Object.hashCode()"
+- "java.lang.Object.notify()"
+- "java.lang.Object.notifyAll()"
+- "java.lang.Object.toString()"
+- "java.lang.Object.wait()"
+- "java.lang.Object.wait(long)"
+- "java.lang.Object.wait(long,int)"
+syntax: "public final class ApplicationRuleCondition extends FirewallPolicyRuleCondition"
 constructors:
-- com.azure.resourcemanager.network.models.ApplicationRuleCondition.ApplicationRuleCondition()
+- "com.azure.resourcemanager.network.models.ApplicationRuleCondition.ApplicationRuleCondition()"
 methods:
-- com.azure.resourcemanager.network.models.ApplicationRuleCondition.destinationAddresses()
-- com.azure.resourcemanager.network.models.ApplicationRuleCondition.fqdnTags()
-- com.azure.resourcemanager.network.models.ApplicationRuleCondition.protocols()
-- com.azure.resourcemanager.network.models.ApplicationRuleCondition.sourceAddresses()
-- com.azure.resourcemanager.network.models.ApplicationRuleCondition.targetFqdns()
-- com.azure.resourcemanager.network.models.ApplicationRuleCondition.validate()
-- com.azure.resourcemanager.network.models.ApplicationRuleCondition.withDestinationAddresses(java.util.List<java.lang.String>)
-- com.azure.resourcemanager.network.models.ApplicationRuleCondition.withFqdnTags(java.util.List<java.lang.String>)
-- com.azure.resourcemanager.network.models.ApplicationRuleCondition.withProtocols(java.util.List<com.azure.resourcemanager.network.models.FirewallPolicyRuleConditionApplicationProtocol>)
-- com.azure.resourcemanager.network.models.ApplicationRuleCondition.withSourceAddresses(java.util.List<java.lang.String>)
-- com.azure.resourcemanager.network.models.ApplicationRuleCondition.withTargetFqdns(java.util.List<java.lang.String>)
-type: class
+- "com.azure.resourcemanager.network.models.ApplicationRuleCondition.destinationAddresses()"
+- "com.azure.resourcemanager.network.models.ApplicationRuleCondition.fqdnTags()"
+- "com.azure.resourcemanager.network.models.ApplicationRuleCondition.protocols()"
+- "com.azure.resourcemanager.network.models.ApplicationRuleCondition.sourceAddresses()"
+- "com.azure.resourcemanager.network.models.ApplicationRuleCondition.targetFqdns()"
+- "com.azure.resourcemanager.network.models.ApplicationRuleCondition.validate()"
+- "com.azure.resourcemanager.network.models.ApplicationRuleCondition.withDestinationAddresses(java.util.List<java.lang.String>)"
+- "com.azure.resourcemanager.network.models.ApplicationRuleCondition.withFqdnTags(java.util.List<java.lang.String>)"
+- "com.azure.resourcemanager.network.models.ApplicationRuleCondition.withProtocols(java.util.List<com.azure.resourcemanager.network.models.FirewallPolicyRuleConditionApplicationProtocol>)"
+- "com.azure.resourcemanager.network.models.ApplicationRuleCondition.withSourceAddresses(java.util.List<java.lang.String>)"
+- "com.azure.resourcemanager.network.models.ApplicationRuleCondition.withTargetFqdns(java.util.List<java.lang.String>)"
+type: "class"
 metadata: {}
-package: com.azure.resourcemanager.network.models
+package: "com.azure.resourcemanager.network.models"
 artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.0.0-beta.2

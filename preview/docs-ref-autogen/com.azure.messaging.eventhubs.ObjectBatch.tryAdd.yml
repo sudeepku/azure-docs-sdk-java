@@ -1,25 +1,23 @@
 ### YamlMime:JavaMember
-uid: com.azure.messaging.eventhubs.ObjectBatch.tryAdd*
-fullName: com.azure.messaging.eventhubs.ObjectBatch<T>.tryAdd
-name: tryAdd
-nameWithType: ObjectBatch<T>.tryAdd
+uid: "com.azure.messaging.eventhubs.ObjectBatch.tryAdd*"
+fullName: "com.azure.messaging.eventhubs.ObjectBatch<T>.tryAdd"
+name: "tryAdd"
+nameWithType: "ObjectBatch<T>.tryAdd"
 members:
-- uid: com.azure.messaging.eventhubs.ObjectBatch.tryAdd(T)
-  fullName: com.azure.messaging.eventhubs.ObjectBatch<T>.tryAdd(T object)
-  name: tryAdd(T object)
-  nameWithType: ObjectBatch<T>.tryAdd(T object)
-  summary: Tries to asynchronously serialize an object into an EventData payload and add the EventData to the batch.
+- uid: "com.azure.messaging.eventhubs.ObjectBatch.tryAdd(T)"
+  fullName: "com.azure.messaging.eventhubs.ObjectBatch<T>.tryAdd(T object)"
+  name: "tryAdd(T object)"
+  nameWithType: "ObjectBatch<T>.tryAdd(T object)"
+  summary: "Tries to asynchronously serialize an object into an EventData payload and add the EventData to the batch."
   parameters:
-  - description: The object to add to the batch.
-    name: object
-    type: <xref href="T?alt=T&text=T" data-throw-if-not-resolved="False" />
-  syntax: public Mono<Boolean> tryAdd(T object)
+  - description: "The object to add to the batch."
+    name: "object"
+    type: "<xref href=\"T?alt=T&text=T\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public Mono<Boolean> tryAdd(T object)"
   returns:
-    description: |-
-      <code>true</code> if the object could be added to the batch; <code>false</code> if the serialized
-       object was too large to fit in the batch.
-    type: <xref href="reactor.core.publisher.Mono?alt=reactor.core.publisher.Mono&text=Mono" data-throw-if-not-resolved="False" />&lt;<xref href="java.lang.Boolean?alt=java.lang.Boolean&text=Boolean" data-throw-if-not-resolved="False" />&gt;
-type: method
+    description: "<code>true</code> if the object could be added to the batch; <code>false</code> if the serialized\n object was too large to fit in the batch."
+    type: "<xref href=\"reactor.core.publisher.Mono?alt=reactor.core.publisher.Mono&text=Mono\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"java.lang.Boolean?alt=java.lang.Boolean&text=Boolean\" data-throw-if-not-resolved=\"False\" />&gt;"
+type: "method"
 metadata: {}
-package: com.azure.messaging.eventhubs
+package: "com.azure.messaging.eventhubs"
 artifact: com.azure:azure-messaging-eventhubs:5.2.0-beta.2

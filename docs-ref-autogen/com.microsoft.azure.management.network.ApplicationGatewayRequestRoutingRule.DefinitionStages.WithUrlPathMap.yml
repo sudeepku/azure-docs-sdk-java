@@ -1,14 +1,14 @@
 ### YamlMime:JavaType
-uid: com.microsoft.azure.management.network.ApplicationGatewayRequestRoutingRule.DefinitionStages.WithUrlPathMap
-fullName: com.microsoft.azure.management.network.ApplicationGatewayRequestRoutingRule.DefinitionStages.WithUrlPathMap<ParentT>
-name: ApplicationGatewayRequestRoutingRule.DefinitionStages.WithUrlPathMap<ParentT>
-nameWithType: ApplicationGatewayRequestRoutingRule.DefinitionStages.WithUrlPathMap<ParentT>
-syntax: public static interface ApplicationGatewayRequestRoutingRule.DefinitionStages.WithUrlPathMap<ParentT>
+uid: "com.microsoft.azure.management.network.ApplicationGatewayRequestRoutingRule.DefinitionStages.WithUrlPathMap"
+fullName: "com.microsoft.azure.management.network.ApplicationGatewayRequestRoutingRule.DefinitionStages.WithUrlPathMap<ParentT>"
+name: "ApplicationGatewayRequestRoutingRule.DefinitionStages.WithUrlPathMap<ParentT>"
+nameWithType: "ApplicationGatewayRequestRoutingRule.DefinitionStages.WithUrlPathMap<ParentT>"
+syntax: "public static interface ApplicationGatewayRequestRoutingRule.DefinitionStages.WithUrlPathMap<ParentT>"
 methods:
-- com.microsoft.azure.management.network.ApplicationGatewayRequestRoutingRule.DefinitionStages.WithUrlPathMap.withUrlPathMap(java.lang.String)
-type: interface
+- "com.microsoft.azure.management.network.ApplicationGatewayRequestRoutingRule.DefinitionStages.WithUrlPathMap.withUrlPathMap(java.lang.String)"
+type: "interface"
 typeParameters:
-- name: ParentT
+- name: "ParentT"
 metadata: {}
-package: com.microsoft.azure.management.network
-artifact: com.microsoft.azure:azure-mgmt-network:1.36.1
+package: "com.microsoft.azure.management.network"
+artifact: com.microsoft.azure:azure-mgmt-network:1.36.2

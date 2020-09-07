@@ -1,31 +1,31 @@
 ### YamlMime:JavaType
-uid: com.azure.resourcemanager.network.fluent.inner.AutoApprovedPrivateLinkServiceInner
-fullName: com.azure.resourcemanager.network.fluent.inner.AutoApprovedPrivateLinkServiceInner
-name: AutoApprovedPrivateLinkServiceInner
-nameWithType: AutoApprovedPrivateLinkServiceInner
-summary: The AutoApprovedPrivateLinkService model.
+uid: "com.azure.resourcemanager.network.fluent.inner.AutoApprovedPrivateLinkServiceInner"
+fullName: "com.azure.resourcemanager.network.fluent.inner.AutoApprovedPrivateLinkServiceInner"
+name: "AutoApprovedPrivateLinkServiceInner"
+nameWithType: "AutoApprovedPrivateLinkServiceInner"
+summary: "The AutoApprovedPrivateLinkService model."
 inheritances:
-- <xref href="java.lang.Object" data-throw-if-not-resolved="False" />
+- "<xref href=\"java.lang.Object\" data-throw-if-not-resolved=\"False\" />"
 inheritedMembers:
-- java.lang.Object.clone()
-- java.lang.Object.equals(java.lang.Object)
-- java.lang.Object.finalize()
-- java.lang.Object.getClass()
-- java.lang.Object.hashCode()
-- java.lang.Object.notify()
-- java.lang.Object.notifyAll()
-- java.lang.Object.toString()
-- java.lang.Object.wait()
-- java.lang.Object.wait(long)
-- java.lang.Object.wait(long,int)
-syntax: public final class AutoApprovedPrivateLinkServiceInner
+- "java.lang.Object.clone()"
+- "java.lang.Object.equals(java.lang.Object)"
+- "java.lang.Object.finalize()"
+- "java.lang.Object.getClass()"
+- "java.lang.Object.hashCode()"
+- "java.lang.Object.notify()"
+- "java.lang.Object.notifyAll()"
+- "java.lang.Object.toString()"
+- "java.lang.Object.wait()"
+- "java.lang.Object.wait(long)"
+- "java.lang.Object.wait(long,int)"
+syntax: "public final class AutoApprovedPrivateLinkServiceInner"
 constructors:
-- com.azure.resourcemanager.network.fluent.inner.AutoApprovedPrivateLinkServiceInner.AutoApprovedPrivateLinkServiceInner()
+- "com.azure.resourcemanager.network.fluent.inner.AutoApprovedPrivateLinkServiceInner.AutoApprovedPrivateLinkServiceInner()"
 methods:
-- com.azure.resourcemanager.network.fluent.inner.AutoApprovedPrivateLinkServiceInner.privateLinkService()
-- com.azure.resourcemanager.network.fluent.inner.AutoApprovedPrivateLinkServiceInner.validate()
-- com.azure.resourcemanager.network.fluent.inner.AutoApprovedPrivateLinkServiceInner.withPrivateLinkService(java.lang.String)
-type: class
+- "com.azure.resourcemanager.network.fluent.inner.AutoApprovedPrivateLinkServiceInner.privateLinkService()"
+- "com.azure.resourcemanager.network.fluent.inner.AutoApprovedPrivateLinkServiceInner.validate()"
+- "com.azure.resourcemanager.network.fluent.inner.AutoApprovedPrivateLinkServiceInner.withPrivateLinkService(java.lang.String)"
+type: "class"
 metadata: {}
-package: com.azure.resourcemanager.network.fluent.inner
+package: "com.azure.resourcemanager.network.fluent.inner"
 artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.0.0-beta.2

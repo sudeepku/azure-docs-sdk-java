@@ -1,46 +1,46 @@
 ### YamlMime:JavaType
-uid: com.azure.messaging.servicebus.models.AuthorizationRule
-fullName: com.azure.messaging.servicebus.models.AuthorizationRule
-name: AuthorizationRule
-nameWithType: AuthorizationRule
-summary: The AuthorizationRule model.
+uid: "com.azure.messaging.servicebus.models.AuthorizationRule"
+fullName: "com.azure.messaging.servicebus.models.AuthorizationRule"
+name: "AuthorizationRule"
+nameWithType: "AuthorizationRule"
+summary: "The AuthorizationRule model."
 inheritances:
-- <xref href="java.lang.Object" data-throw-if-not-resolved="False" />
+- "<xref href=\"java.lang.Object\" data-throw-if-not-resolved=\"False\" />"
 inheritedMembers:
-- java.lang.Object.clone()
-- java.lang.Object.equals(java.lang.Object)
-- java.lang.Object.finalize()
-- java.lang.Object.getClass()
-- java.lang.Object.hashCode()
-- java.lang.Object.notify()
-- java.lang.Object.notifyAll()
-- java.lang.Object.toString()
-- java.lang.Object.wait()
-- java.lang.Object.wait(long)
-- java.lang.Object.wait(long,int)
-syntax: public final class AuthorizationRule
+- "java.lang.Object.clone()"
+- "java.lang.Object.equals(java.lang.Object)"
+- "java.lang.Object.finalize()"
+- "java.lang.Object.getClass()"
+- "java.lang.Object.hashCode()"
+- "java.lang.Object.notify()"
+- "java.lang.Object.notifyAll()"
+- "java.lang.Object.toString()"
+- "java.lang.Object.wait()"
+- "java.lang.Object.wait(long)"
+- "java.lang.Object.wait(long,int)"
+syntax: "public final class AuthorizationRule"
 constructors:
-- com.azure.messaging.servicebus.models.AuthorizationRule.AuthorizationRule()
+- "com.azure.messaging.servicebus.models.AuthorizationRule.AuthorizationRule()"
 methods:
-- com.azure.messaging.servicebus.models.AuthorizationRule.getClaimType()
-- com.azure.messaging.servicebus.models.AuthorizationRule.getClaimValue()
-- com.azure.messaging.servicebus.models.AuthorizationRule.getCreatedTime()
-- com.azure.messaging.servicebus.models.AuthorizationRule.getKeyName()
-- com.azure.messaging.servicebus.models.AuthorizationRule.getModifiedTime()
-- com.azure.messaging.servicebus.models.AuthorizationRule.getPrimaryKey()
-- com.azure.messaging.servicebus.models.AuthorizationRule.getRights()
-- com.azure.messaging.servicebus.models.AuthorizationRule.getSecondaryKey()
-- com.azure.messaging.servicebus.models.AuthorizationRule.getType()
-- com.azure.messaging.servicebus.models.AuthorizationRule.setClaimType(java.lang.String)
-- com.azure.messaging.servicebus.models.AuthorizationRule.setClaimValue(java.lang.String)
-- com.azure.messaging.servicebus.models.AuthorizationRule.setCreatedTime(java.time.OffsetDateTime)
-- com.azure.messaging.servicebus.models.AuthorizationRule.setKeyName(java.lang.String)
-- com.azure.messaging.servicebus.models.AuthorizationRule.setModifiedTime(java.time.OffsetDateTime)
-- com.azure.messaging.servicebus.models.AuthorizationRule.setPrimaryKey(java.lang.String)
-- com.azure.messaging.servicebus.models.AuthorizationRule.setRights(java.util.List<java.lang.String>)
-- com.azure.messaging.servicebus.models.AuthorizationRule.setSecondaryKey(java.lang.String)
-- com.azure.messaging.servicebus.models.AuthorizationRule.setType(java.lang.String)
-type: class
+- "com.azure.messaging.servicebus.models.AuthorizationRule.getClaimType()"
+- "com.azure.messaging.servicebus.models.AuthorizationRule.getClaimValue()"
+- "com.azure.messaging.servicebus.models.AuthorizationRule.getCreatedTime()"
+- "com.azure.messaging.servicebus.models.AuthorizationRule.getKeyName()"
+- "com.azure.messaging.servicebus.models.AuthorizationRule.getModifiedTime()"
+- "com.azure.messaging.servicebus.models.AuthorizationRule.getPrimaryKey()"
+- "com.azure.messaging.servicebus.models.AuthorizationRule.getRights()"
+- "com.azure.messaging.servicebus.models.AuthorizationRule.getSecondaryKey()"
+- "com.azure.messaging.servicebus.models.AuthorizationRule.getType()"
+- "com.azure.messaging.servicebus.models.AuthorizationRule.setClaimType(java.lang.String)"
+- "com.azure.messaging.servicebus.models.AuthorizationRule.setClaimValue(java.lang.String)"
+- "com.azure.messaging.servicebus.models.AuthorizationRule.setCreatedTime(java.time.OffsetDateTime)"
+- "com.azure.messaging.servicebus.models.AuthorizationRule.setKeyName(java.lang.String)"
+- "com.azure.messaging.servicebus.models.AuthorizationRule.setModifiedTime(java.time.OffsetDateTime)"
+- "com.azure.messaging.servicebus.models.AuthorizationRule.setPrimaryKey(java.lang.String)"
+- "com.azure.messaging.servicebus.models.AuthorizationRule.setRights(java.util.List<java.lang.String>)"
+- "com.azure.messaging.servicebus.models.AuthorizationRule.setSecondaryKey(java.lang.String)"
+- "com.azure.messaging.servicebus.models.AuthorizationRule.setType(java.lang.String)"
+type: "class"
 metadata: {}
-package: com.azure.messaging.servicebus.models
+package: "com.azure.messaging.servicebus.models"
 artifact: com.azure:azure-messaging-servicebus:7.0.0-beta.5

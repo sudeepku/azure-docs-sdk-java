@@ -1,13 +1,13 @@
 ### YamlMime:JavaType
-uid: com.azure.resourcemanager.sql.models.SqlElasticPool.UpdateStages.WithDatabaseDtuMax
-fullName: com.azure.resourcemanager.sql.models.SqlElasticPool.UpdateStages.WithDatabaseDtuMax
-name: SqlElasticPool.UpdateStages.WithDatabaseDtuMax
-nameWithType: SqlElasticPool.UpdateStages.WithDatabaseDtuMax
-summary: The SQL Elastic Pool definition to set the maximum DTU for one database.
-syntax: public static interface SqlElasticPool.UpdateStages.WithDatabaseDtuMax
+uid: "com.azure.resourcemanager.sql.models.SqlElasticPool.UpdateStages.WithDatabaseDtuMax"
+fullName: "com.azure.resourcemanager.sql.models.SqlElasticPool.UpdateStages.WithDatabaseDtuMax"
+name: "SqlElasticPool.UpdateStages.WithDatabaseDtuMax"
+nameWithType: "SqlElasticPool.UpdateStages.WithDatabaseDtuMax"
+summary: "The SQL Elastic Pool definition to set the maximum DTU for one database."
+syntax: "public static interface SqlElasticPool.UpdateStages.WithDatabaseDtuMax"
 methods:
-- com.azure.resourcemanager.sql.models.SqlElasticPool.UpdateStages.WithDatabaseDtuMax.withDatabaseDtuMax(double)
-type: interface
+- "com.azure.resourcemanager.sql.models.SqlElasticPool.UpdateStages.WithDatabaseDtuMax.withDatabaseDtuMax(double)"
+type: "interface"
 metadata: {}
-package: com.azure.resourcemanager.sql.models
+package: "com.azure.resourcemanager.sql.models"
 artifact: com.azure.resourcemanager:azure-resourcemanager-sql:2.0.0-beta.2

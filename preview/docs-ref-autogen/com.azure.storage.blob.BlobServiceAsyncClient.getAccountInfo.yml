@@ -1,27 +1,19 @@
 ### YamlMime:JavaMember
-uid: com.azure.storage.blob.BlobServiceAsyncClient.getAccountInfo*
-fullName: com.azure.storage.blob.BlobServiceAsyncClient.getAccountInfo
-name: getAccountInfo
-nameWithType: BlobServiceAsyncClient.getAccountInfo
+uid: "com.azure.storage.blob.BlobServiceAsyncClient.getAccountInfo*"
+fullName: "com.azure.storage.blob.BlobServiceAsyncClient.getAccountInfo"
+name: "getAccountInfo"
+nameWithType: "BlobServiceAsyncClient.getAccountInfo"
 members:
-- uid: com.azure.storage.blob.BlobServiceAsyncClient.getAccountInfo()
-  fullName: com.azure.storage.blob.BlobServiceAsyncClient.getAccountInfo()
-  name: getAccountInfo()
-  nameWithType: BlobServiceAsyncClient.getAccountInfo()
-  summary: |-
-    Returns the sku name and account kind for the account. For more information, please see the
-     <a href="https://docs.microsoft.com/en-us/rest/api/storageservices/get-account-information">Azure Docs</a>.
-     <p><strong>Code Samples</strong></p>
-
-     <pre>
-     client.getAccountInfo&#40;&#41;.subscribe&#40;response -&gt;
-         System.out.printf&#40;&quot;Account kind: %s, SKU: %s%n&quot;, response.getAccountKind&#40;&#41;, response.getSkuName&#40;&#41;&#41;&#41;;
-     </pre>
-  syntax: public Mono<StorageAccountInfo> getAccountInfo()
+- uid: "com.azure.storage.blob.BlobServiceAsyncClient.getAccountInfo()"
+  fullName: "com.azure.storage.blob.BlobServiceAsyncClient.getAccountInfo()"
+  name: "getAccountInfo()"
+  nameWithType: "BlobServiceAsyncClient.getAccountInfo()"
+  summary: "Returns the sku name and account kind for the account. For more information, please see the\n <a href=\"https://docs.microsoft.com/en-us/rest/api/storageservices/get-account-information\">Azure Docs</a>.\n <p><strong>Code Samples</strong></p>\n\n <pre>\n client.getAccountInfo&#40;&#41;.subscribe&#40;response -&gt;\n     System.out.printf&#40;&quot;Account kind: %s, SKU: %s%n&quot;, response.getAccountKind&#40;&#41;, response.getSkuName&#40;&#41;&#41;&#41;;\n </pre>"
+  syntax: "public Mono<StorageAccountInfo> getAccountInfo()"
   returns:
-    description: A <xref uid="reactor.core.publisher.Mono" data-throw-if-not-resolved="false">Mono</xref> containing containing the storage account info.
-    type: <xref href="reactor.core.publisher.Mono?alt=reactor.core.publisher.Mono&text=Mono" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.storage.blob.models.StorageAccountInfo?alt=com.azure.storage.blob.models.StorageAccountInfo&text=StorageAccountInfo" data-throw-if-not-resolved="False" />&gt;
-type: method
+    description: "A <xref uid=\"reactor.core.publisher.Mono\" data-throw-if-not-resolved=\"false\">Mono</xref> containing containing the storage account info."
+    type: "<xref href=\"reactor.core.publisher.Mono?alt=reactor.core.publisher.Mono&text=Mono\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.storage.blob.models.StorageAccountInfo?alt=com.azure.storage.blob.models.StorageAccountInfo&text=StorageAccountInfo\" data-throw-if-not-resolved=\"False\" />&gt;"
+type: "method"
 metadata: {}
-package: com.azure.storage.blob
+package: "com.azure.storage.blob"
 artifact: com.azure:azure-storage-blob:12.8.0-beta.1

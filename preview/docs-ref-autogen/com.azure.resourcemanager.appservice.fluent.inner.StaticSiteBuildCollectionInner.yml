@@ -1,32 +1,32 @@
 ### YamlMime:JavaType
-uid: com.azure.resourcemanager.appservice.fluent.inner.StaticSiteBuildCollectionInner
-fullName: com.azure.resourcemanager.appservice.fluent.inner.StaticSiteBuildCollectionInner
-name: StaticSiteBuildCollectionInner
-nameWithType: StaticSiteBuildCollectionInner
-summary: The StaticSiteBuildCollection model.
+uid: "com.azure.resourcemanager.appservice.fluent.inner.StaticSiteBuildCollectionInner"
+fullName: "com.azure.resourcemanager.appservice.fluent.inner.StaticSiteBuildCollectionInner"
+name: "StaticSiteBuildCollectionInner"
+nameWithType: "StaticSiteBuildCollectionInner"
+summary: "The StaticSiteBuildCollection model."
 inheritances:
-- <xref href="java.lang.Object" data-throw-if-not-resolved="False" />
+- "<xref href=\"java.lang.Object\" data-throw-if-not-resolved=\"False\" />"
 inheritedMembers:
-- java.lang.Object.clone()
-- java.lang.Object.equals(java.lang.Object)
-- java.lang.Object.finalize()
-- java.lang.Object.getClass()
-- java.lang.Object.hashCode()
-- java.lang.Object.notify()
-- java.lang.Object.notifyAll()
-- java.lang.Object.toString()
-- java.lang.Object.wait()
-- java.lang.Object.wait(long)
-- java.lang.Object.wait(long,int)
-syntax: public final class StaticSiteBuildCollectionInner
+- "java.lang.Object.clone()"
+- "java.lang.Object.equals(java.lang.Object)"
+- "java.lang.Object.finalize()"
+- "java.lang.Object.getClass()"
+- "java.lang.Object.hashCode()"
+- "java.lang.Object.notify()"
+- "java.lang.Object.notifyAll()"
+- "java.lang.Object.toString()"
+- "java.lang.Object.wait()"
+- "java.lang.Object.wait(long)"
+- "java.lang.Object.wait(long,int)"
+syntax: "public final class StaticSiteBuildCollectionInner"
 constructors:
-- com.azure.resourcemanager.appservice.fluent.inner.StaticSiteBuildCollectionInner.StaticSiteBuildCollectionInner()
+- "com.azure.resourcemanager.appservice.fluent.inner.StaticSiteBuildCollectionInner.StaticSiteBuildCollectionInner()"
 methods:
-- com.azure.resourcemanager.appservice.fluent.inner.StaticSiteBuildCollectionInner.nextLink()
-- com.azure.resourcemanager.appservice.fluent.inner.StaticSiteBuildCollectionInner.validate()
-- com.azure.resourcemanager.appservice.fluent.inner.StaticSiteBuildCollectionInner.value()
-- com.azure.resourcemanager.appservice.fluent.inner.StaticSiteBuildCollectionInner.withValue(java.util.List<com.azure.resourcemanager.appservice.fluent.inner.StaticSiteBuildArmResourceInner>)
-type: class
+- "com.azure.resourcemanager.appservice.fluent.inner.StaticSiteBuildCollectionInner.nextLink()"
+- "com.azure.resourcemanager.appservice.fluent.inner.StaticSiteBuildCollectionInner.validate()"
+- "com.azure.resourcemanager.appservice.fluent.inner.StaticSiteBuildCollectionInner.value()"
+- "com.azure.resourcemanager.appservice.fluent.inner.StaticSiteBuildCollectionInner.withValue(java.util.List<com.azure.resourcemanager.appservice.fluent.inner.StaticSiteBuildArmResourceInner>)"
+type: "class"
 metadata: {}
-package: com.azure.resourcemanager.appservice.fluent.inner
+package: "com.azure.resourcemanager.appservice.fluent.inner"
 artifact: com.azure.resourcemanager:azure-resourcemanager-appservice:2.0.0-beta.2

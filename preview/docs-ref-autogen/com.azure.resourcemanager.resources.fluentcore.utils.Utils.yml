@@ -1,41 +1,41 @@
 ### YamlMime:JavaType
-uid: com.azure.resourcemanager.resources.fluentcore.utils.Utils
-fullName: com.azure.resourcemanager.resources.fluentcore.utils.Utils
-name: Utils
-nameWithType: Utils
-summary: Defines a few utilities.
+uid: "com.azure.resourcemanager.resources.fluentcore.utils.Utils"
+fullName: "com.azure.resourcemanager.resources.fluentcore.utils.Utils"
+name: "Utils"
+nameWithType: "Utils"
+summary: "Defines a few utilities."
 inheritances:
-- <xref href="java.lang.Object" data-throw-if-not-resolved="False" />
+- "<xref href=\"java.lang.Object\" data-throw-if-not-resolved=\"False\" />"
 inheritedMembers:
-- java.lang.Object.clone()
-- java.lang.Object.equals(java.lang.Object)
-- java.lang.Object.finalize()
-- java.lang.Object.getClass()
-- java.lang.Object.hashCode()
-- java.lang.Object.notify()
-- java.lang.Object.notifyAll()
-- java.lang.Object.toString()
-- java.lang.Object.wait()
-- java.lang.Object.wait(long)
-- java.lang.Object.wait(long,int)
-syntax: public final class Utils
+- "java.lang.Object.clone()"
+- "java.lang.Object.equals(java.lang.Object)"
+- "java.lang.Object.finalize()"
+- "java.lang.Object.getClass()"
+- "java.lang.Object.hashCode()"
+- "java.lang.Object.notify()"
+- "java.lang.Object.notifyAll()"
+- "java.lang.Object.toString()"
+- "java.lang.Object.wait()"
+- "java.lang.Object.wait(long)"
+- "java.lang.Object.wait(long,int)"
+syntax: "public final class Utils"
 methods:
-- com.azure.resourcemanager.resources.fluentcore.utils.Utils.<U>rootResource(reactor.core.publisher.Mono<com.azure.resourcemanager.resources.fluentcore.model.Indexable>)
-- com.azure.resourcemanager.resources.fluentcore.utils.Utils.addToListIfNotExists(java.util.List<java.lang.String>,java.lang.String)
-- com.azure.resourcemanager.resources.fluentcore.utils.Utils.createOdataFilterForTags(java.lang.String,java.lang.String)
-- com.azure.resourcemanager.resources.fluentcore.utils.Utils.defaultSubscription(com.azure.core.http.rest.PagedIterable<com.azure.resourcemanager.resources.models.Subscription>)
-- com.azure.resourcemanager.resources.fluentcore.utils.Utils.downloadFileAsync(java.lang.String,com.azure.core.http.HttpPipeline)
-- com.azure.resourcemanager.resources.fluentcore.utils.Utils.getDefaultScopeFromRequest(com.azure.core.http.HttpRequest,com.azure.core.management.AzureEnvironment)
-- com.azure.resourcemanager.resources.fluentcore.utils.Utils.getDefaultScopeFromUrl(java.lang.String,com.azure.core.management.AzureEnvironment)
-- com.azure.resourcemanager.resources.fluentcore.utils.Utils.getStorageConnectionString(java.lang.String,java.lang.String,com.azure.core.management.AzureEnvironment)
-- com.azure.resourcemanager.resources.fluentcore.utils.Utils.removeFromList(java.util.List<java.lang.String>,java.lang.String)
-- com.azure.resourcemanager.resources.fluentcore.utils.Utils.removeTrailingSlash(java.lang.String)
-- com.azure.resourcemanager.resources.fluentcore.utils.Utils.resourceGroupId(java.lang.String)
-- com.azure.resourcemanager.resources.fluentcore.utils.Utils.toPrimitiveBoolean(java.lang.Boolean)
-- com.azure.resourcemanager.resources.fluentcore.utils.Utils.toPrimitiveInt(java.lang.Integer)
-- com.azure.resourcemanager.resources.fluentcore.utils.Utils.toPrimitiveInt(java.lang.Long)
-- com.azure.resourcemanager.resources.fluentcore.utils.Utils.toPrimitiveLong(java.lang.Long)
-type: class
+- "com.azure.resourcemanager.resources.fluentcore.utils.Utils.<U>rootResource(reactor.core.publisher.Mono<com.azure.resourcemanager.resources.fluentcore.model.Indexable>)"
+- "com.azure.resourcemanager.resources.fluentcore.utils.Utils.addToListIfNotExists(java.util.List<java.lang.String>,java.lang.String)"
+- "com.azure.resourcemanager.resources.fluentcore.utils.Utils.createOdataFilterForTags(java.lang.String,java.lang.String)"
+- "com.azure.resourcemanager.resources.fluentcore.utils.Utils.defaultSubscription(com.azure.core.http.rest.PagedIterable<com.azure.resourcemanager.resources.models.Subscription>)"
+- "com.azure.resourcemanager.resources.fluentcore.utils.Utils.downloadFileAsync(java.lang.String,com.azure.core.http.HttpPipeline)"
+- "com.azure.resourcemanager.resources.fluentcore.utils.Utils.getDefaultScopeFromRequest(com.azure.core.http.HttpRequest,com.azure.core.management.AzureEnvironment)"
+- "com.azure.resourcemanager.resources.fluentcore.utils.Utils.getDefaultScopeFromUrl(java.lang.String,com.azure.core.management.AzureEnvironment)"
+- "com.azure.resourcemanager.resources.fluentcore.utils.Utils.getStorageConnectionString(java.lang.String,java.lang.String,com.azure.core.management.AzureEnvironment)"
+- "com.azure.resourcemanager.resources.fluentcore.utils.Utils.removeFromList(java.util.List<java.lang.String>,java.lang.String)"
+- "com.azure.resourcemanager.resources.fluentcore.utils.Utils.removeTrailingSlash(java.lang.String)"
+- "com.azure.resourcemanager.resources.fluentcore.utils.Utils.resourceGroupId(java.lang.String)"
+- "com.azure.resourcemanager.resources.fluentcore.utils.Utils.toPrimitiveBoolean(java.lang.Boolean)"
+- "com.azure.resourcemanager.resources.fluentcore.utils.Utils.toPrimitiveInt(java.lang.Integer)"
+- "com.azure.resourcemanager.resources.fluentcore.utils.Utils.toPrimitiveInt(java.lang.Long)"
+- "com.azure.resourcemanager.resources.fluentcore.utils.Utils.toPrimitiveLong(java.lang.Long)"
+type: "class"
 metadata: {}
-package: com.azure.resourcemanager.resources.fluentcore.utils
+package: "com.azure.resourcemanager.resources.fluentcore.utils"
 artifact: com.azure.resourcemanager:azure-resourcemanager-resources:2.0.0-beta.2

@@ -1,33 +1,33 @@
 ### YamlMime:JavaType
-uid: com.azure.resourcemanager.authorization.models.RoleAssignmentFilter
-fullName: com.azure.resourcemanager.authorization.models.RoleAssignmentFilter
-name: RoleAssignmentFilter
-nameWithType: RoleAssignmentFilter
-summary: The RoleAssignmentFilter model.
+uid: "com.azure.resourcemanager.authorization.models.RoleAssignmentFilter"
+fullName: "com.azure.resourcemanager.authorization.models.RoleAssignmentFilter"
+name: "RoleAssignmentFilter"
+nameWithType: "RoleAssignmentFilter"
+summary: "The RoleAssignmentFilter model."
 inheritances:
-- <xref href="java.lang.Object" data-throw-if-not-resolved="False" />
+- "<xref href=\"java.lang.Object\" data-throw-if-not-resolved=\"False\" />"
 inheritedMembers:
-- java.lang.Object.clone()
-- java.lang.Object.equals(java.lang.Object)
-- java.lang.Object.finalize()
-- java.lang.Object.getClass()
-- java.lang.Object.hashCode()
-- java.lang.Object.notify()
-- java.lang.Object.notifyAll()
-- java.lang.Object.toString()
-- java.lang.Object.wait()
-- java.lang.Object.wait(long)
-- java.lang.Object.wait(long,int)
-syntax: public final class RoleAssignmentFilter
+- "java.lang.Object.clone()"
+- "java.lang.Object.equals(java.lang.Object)"
+- "java.lang.Object.finalize()"
+- "java.lang.Object.getClass()"
+- "java.lang.Object.hashCode()"
+- "java.lang.Object.notify()"
+- "java.lang.Object.notifyAll()"
+- "java.lang.Object.toString()"
+- "java.lang.Object.wait()"
+- "java.lang.Object.wait(long)"
+- "java.lang.Object.wait(long,int)"
+syntax: "public final class RoleAssignmentFilter"
 constructors:
-- com.azure.resourcemanager.authorization.models.RoleAssignmentFilter.RoleAssignmentFilter()
+- "com.azure.resourcemanager.authorization.models.RoleAssignmentFilter.RoleAssignmentFilter()"
 methods:
-- com.azure.resourcemanager.authorization.models.RoleAssignmentFilter.canDelegate()
-- com.azure.resourcemanager.authorization.models.RoleAssignmentFilter.principalId()
-- com.azure.resourcemanager.authorization.models.RoleAssignmentFilter.validate()
-- com.azure.resourcemanager.authorization.models.RoleAssignmentFilter.withCanDelegate(java.lang.Boolean)
-- com.azure.resourcemanager.authorization.models.RoleAssignmentFilter.withPrincipalId(java.lang.String)
-type: class
+- "com.azure.resourcemanager.authorization.models.RoleAssignmentFilter.canDelegate()"
+- "com.azure.resourcemanager.authorization.models.RoleAssignmentFilter.principalId()"
+- "com.azure.resourcemanager.authorization.models.RoleAssignmentFilter.validate()"
+- "com.azure.resourcemanager.authorization.models.RoleAssignmentFilter.withCanDelegate(java.lang.Boolean)"
+- "com.azure.resourcemanager.authorization.models.RoleAssignmentFilter.withPrincipalId(java.lang.String)"
+type: "class"
 metadata: {}
-package: com.azure.resourcemanager.authorization.models
+package: "com.azure.resourcemanager.authorization.models"
 artifact: com.azure.resourcemanager:azure-resourcemanager-authorization:2.0.0-beta.2

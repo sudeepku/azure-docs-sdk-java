@@ -1,16 +1,14 @@
 ### YamlMime:JavaPackage
-uid: com.azure.resourcemanager.keyvault
-fullName: com.azure.resourcemanager.keyvault
-name: com.azure.resourcemanager.keyvault
-summary: |-
-  Package containing the classes for KeyVaultManagementClient. The Azure management API provides a RESTful set of web
-   services that interact with Azure Key Vault.
+uid: "com.azure.resourcemanager.keyvault"
+fullName: "com.azure.resourcemanager.keyvault"
+name: "com.azure.resourcemanager.keyvault"
+summary: "Package containing the classes for KeyVaultManagementClient. The Azure management API provides a RESTful set of web\n services that interact with Azure Key Vault."
 classes:
-- com.azure.resourcemanager.keyvault.KeyVaultManagementClient
-- com.azure.resourcemanager.keyvault.KeyVaultManagementClientBuilder
-- com.azure.resourcemanager.keyvault.KeyVaultManager
+- "com.azure.resourcemanager.keyvault.KeyVaultManagementClient"
+- "com.azure.resourcemanager.keyvault.KeyVaultManagementClientBuilder"
+- "com.azure.resourcemanager.keyvault.KeyVaultManager"
 interfaces:
-- com.azure.resourcemanager.keyvault.KeyVaultManager.Configurable
+- "com.azure.resourcemanager.keyvault.KeyVaultManager.Configurable"
 metadata: {}
-package: com.azure.resourcemanager.keyvault
+package: "com.azure.resourcemanager.keyvault"
 artifact: com.azure.resourcemanager:azure-resourcemanager-keyvault:2.0.0-beta.2

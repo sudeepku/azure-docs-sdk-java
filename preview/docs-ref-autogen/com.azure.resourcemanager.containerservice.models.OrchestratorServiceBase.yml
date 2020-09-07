@@ -1,11 +1,11 @@
 ### YamlMime:JavaType
-uid: com.azure.resourcemanager.containerservice.models.OrchestratorServiceBase
-fullName: com.azure.resourcemanager.containerservice.models.OrchestratorServiceBase
-name: OrchestratorServiceBase
-nameWithType: OrchestratorServiceBase
-summary: A common representation for Azure container services orchestrators.
-syntax: public interface OrchestratorServiceBase
-type: interface
+uid: "com.azure.resourcemanager.containerservice.models.OrchestratorServiceBase"
+fullName: "com.azure.resourcemanager.containerservice.models.OrchestratorServiceBase"
+name: "OrchestratorServiceBase"
+nameWithType: "OrchestratorServiceBase"
+summary: "A common representation for Azure container services orchestrators."
+syntax: "public interface OrchestratorServiceBase"
+type: "interface"
 metadata: {}
-package: com.azure.resourcemanager.containerservice.models
+package: "com.azure.resourcemanager.containerservice.models"
 artifact: com.azure.resourcemanager:azure-resourcemanager-containerservice:2.0.0-beta.2

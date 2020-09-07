@@ -1,59 +1,59 @@
 ### YamlMime:JavaType
-uid: com.azure.resourcemanager.network.fluent.inner.AzureFirewallInner
-fullName: com.azure.resourcemanager.network.fluent.inner.AzureFirewallInner
-name: AzureFirewallInner
-nameWithType: AzureFirewallInner
-summary: The AzureFirewall model.
+uid: "com.azure.resourcemanager.network.fluent.inner.AzureFirewallInner"
+fullName: "com.azure.resourcemanager.network.fluent.inner.AzureFirewallInner"
+name: "AzureFirewallInner"
+nameWithType: "AzureFirewallInner"
+summary: "The AzureFirewall model."
 inheritances:
-- <xref href="java.lang.Object" data-throw-if-not-resolved="False" />
-- <xref href="com.azure.core.management.ProxyResource" data-throw-if-not-resolved="False" />
-- <xref href="com.azure.core.management.Resource" data-throw-if-not-resolved="False" />
+- "<xref href=\"java.lang.Object\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.azure.core.management.ProxyResource\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.azure.core.management.Resource\" data-throw-if-not-resolved=\"False\" />"
 inheritedMembers:
-- com.azure.core.management.ProxyResource.id()
-- com.azure.core.management.ProxyResource.name()
-- com.azure.core.management.ProxyResource.type()
-- com.azure.core.management.Resource.location()
-- com.azure.core.management.Resource.tags()
-- com.azure.core.management.Resource.withLocation(java.lang.String)
-- com.azure.core.management.Resource.withTags(java.util.Map<java.lang.String,java.lang.String>)
-- java.lang.Object.clone()
-- java.lang.Object.equals(java.lang.Object)
-- java.lang.Object.finalize()
-- java.lang.Object.getClass()
-- java.lang.Object.hashCode()
-- java.lang.Object.notify()
-- java.lang.Object.notifyAll()
-- java.lang.Object.toString()
-- java.lang.Object.wait()
-- java.lang.Object.wait(long)
-- java.lang.Object.wait(long,int)
-syntax: public class AzureFirewallInner extends Resource
+- "com.azure.core.management.ProxyResource.id()"
+- "com.azure.core.management.ProxyResource.name()"
+- "com.azure.core.management.ProxyResource.type()"
+- "com.azure.core.management.Resource.location()"
+- "com.azure.core.management.Resource.tags()"
+- "com.azure.core.management.Resource.withLocation(java.lang.String)"
+- "com.azure.core.management.Resource.withTags(java.util.Map<java.lang.String,java.lang.String>)"
+- "java.lang.Object.clone()"
+- "java.lang.Object.equals(java.lang.Object)"
+- "java.lang.Object.finalize()"
+- "java.lang.Object.getClass()"
+- "java.lang.Object.hashCode()"
+- "java.lang.Object.notify()"
+- "java.lang.Object.notifyAll()"
+- "java.lang.Object.toString()"
+- "java.lang.Object.wait()"
+- "java.lang.Object.wait(long)"
+- "java.lang.Object.wait(long,int)"
+syntax: "public class AzureFirewallInner extends Resource"
 constructors:
-- com.azure.resourcemanager.network.fluent.inner.AzureFirewallInner.AzureFirewallInner()
+- "com.azure.resourcemanager.network.fluent.inner.AzureFirewallInner.AzureFirewallInner()"
 methods:
-- com.azure.resourcemanager.network.fluent.inner.AzureFirewallInner.applicationRuleCollections()
-- com.azure.resourcemanager.network.fluent.inner.AzureFirewallInner.etag()
-- com.azure.resourcemanager.network.fluent.inner.AzureFirewallInner.firewallPolicy()
-- com.azure.resourcemanager.network.fluent.inner.AzureFirewallInner.hubIpAddresses()
-- com.azure.resourcemanager.network.fluent.inner.AzureFirewallInner.id()
-- com.azure.resourcemanager.network.fluent.inner.AzureFirewallInner.ipConfigurations()
-- com.azure.resourcemanager.network.fluent.inner.AzureFirewallInner.natRuleCollections()
-- com.azure.resourcemanager.network.fluent.inner.AzureFirewallInner.networkRuleCollections()
-- com.azure.resourcemanager.network.fluent.inner.AzureFirewallInner.provisioningState()
-- com.azure.resourcemanager.network.fluent.inner.AzureFirewallInner.threatIntelMode()
-- com.azure.resourcemanager.network.fluent.inner.AzureFirewallInner.validate()
-- com.azure.resourcemanager.network.fluent.inner.AzureFirewallInner.virtualHub()
-- com.azure.resourcemanager.network.fluent.inner.AzureFirewallInner.withApplicationRuleCollections(java.util.List<com.azure.resourcemanager.network.models.AzureFirewallApplicationRuleCollection>)
-- com.azure.resourcemanager.network.fluent.inner.AzureFirewallInner.withFirewallPolicy(com.azure.core.management.SubResource)
-- com.azure.resourcemanager.network.fluent.inner.AzureFirewallInner.withId(java.lang.String)
-- com.azure.resourcemanager.network.fluent.inner.AzureFirewallInner.withIpConfigurations(java.util.List<com.azure.resourcemanager.network.models.AzureFirewallIpConfiguration>)
-- com.azure.resourcemanager.network.fluent.inner.AzureFirewallInner.withNatRuleCollections(java.util.List<com.azure.resourcemanager.network.models.AzureFirewallNatRuleCollection>)
-- com.azure.resourcemanager.network.fluent.inner.AzureFirewallInner.withNetworkRuleCollections(java.util.List<com.azure.resourcemanager.network.models.AzureFirewallNetworkRuleCollection>)
-- com.azure.resourcemanager.network.fluent.inner.AzureFirewallInner.withThreatIntelMode(com.azure.resourcemanager.network.models.AzureFirewallThreatIntelMode)
-- com.azure.resourcemanager.network.fluent.inner.AzureFirewallInner.withVirtualHub(com.azure.core.management.SubResource)
-- com.azure.resourcemanager.network.fluent.inner.AzureFirewallInner.withZones(java.util.List<java.lang.String>)
-- com.azure.resourcemanager.network.fluent.inner.AzureFirewallInner.zones()
-type: class
+- "com.azure.resourcemanager.network.fluent.inner.AzureFirewallInner.applicationRuleCollections()"
+- "com.azure.resourcemanager.network.fluent.inner.AzureFirewallInner.etag()"
+- "com.azure.resourcemanager.network.fluent.inner.AzureFirewallInner.firewallPolicy()"
+- "com.azure.resourcemanager.network.fluent.inner.AzureFirewallInner.hubIpAddresses()"
+- "com.azure.resourcemanager.network.fluent.inner.AzureFirewallInner.id()"
+- "com.azure.resourcemanager.network.fluent.inner.AzureFirewallInner.ipConfigurations()"
+- "com.azure.resourcemanager.network.fluent.inner.AzureFirewallInner.natRuleCollections()"
+- "com.azure.resourcemanager.network.fluent.inner.AzureFirewallInner.networkRuleCollections()"
+- "com.azure.resourcemanager.network.fluent.inner.AzureFirewallInner.provisioningState()"
+- "com.azure.resourcemanager.network.fluent.inner.AzureFirewallInner.threatIntelMode()"
+- "com.azure.resourcemanager.network.fluent.inner.AzureFirewallInner.validate()"
+- "com.azure.resourcemanager.network.fluent.inner.AzureFirewallInner.virtualHub()"
+- "com.azure.resourcemanager.network.fluent.inner.AzureFirewallInner.withApplicationRuleCollections(java.util.List<com.azure.resourcemanager.network.models.AzureFirewallApplicationRuleCollection>)"
+- "com.azure.resourcemanager.network.fluent.inner.AzureFirewallInner.withFirewallPolicy(com.azure.core.management.SubResource)"
+- "com.azure.resourcemanager.network.fluent.inner.AzureFirewallInner.withId(java.lang.String)"
+- "com.azure.resourcemanager.network.fluent.inner.AzureFirewallInner.withIpConfigurations(java.util.List<com.azure.resourcemanager.network.models.AzureFirewallIpConfiguration>)"
+- "com.azure.resourcemanager.network.fluent.inner.AzureFirewallInner.withNatRuleCollections(java.util.List<com.azure.resourcemanager.network.models.AzureFirewallNatRuleCollection>)"
+- "com.azure.resourcemanager.network.fluent.inner.AzureFirewallInner.withNetworkRuleCollections(java.util.List<com.azure.resourcemanager.network.models.AzureFirewallNetworkRuleCollection>)"
+- "com.azure.resourcemanager.network.fluent.inner.AzureFirewallInner.withThreatIntelMode(com.azure.resourcemanager.network.models.AzureFirewallThreatIntelMode)"
+- "com.azure.resourcemanager.network.fluent.inner.AzureFirewallInner.withVirtualHub(com.azure.core.management.SubResource)"
+- "com.azure.resourcemanager.network.fluent.inner.AzureFirewallInner.withZones(java.util.List<java.lang.String>)"
+- "com.azure.resourcemanager.network.fluent.inner.AzureFirewallInner.zones()"
+type: "class"
 metadata: {}
-package: com.azure.resourcemanager.network.fluent.inner
+package: "com.azure.resourcemanager.network.fluent.inner"
 artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.0.0-beta.2

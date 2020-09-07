@@ -1,35 +1,35 @@
 ### YamlMime:JavaType
-uid: com.azure.resourcemanager.appservice.fluent.inner.NetworkTraceInner
-fullName: com.azure.resourcemanager.appservice.fluent.inner.NetworkTraceInner
-name: NetworkTraceInner
-nameWithType: NetworkTraceInner
-summary: The NetworkTrace model.
+uid: "com.azure.resourcemanager.appservice.fluent.inner.NetworkTraceInner"
+fullName: "com.azure.resourcemanager.appservice.fluent.inner.NetworkTraceInner"
+name: "NetworkTraceInner"
+nameWithType: "NetworkTraceInner"
+summary: "The NetworkTrace model."
 inheritances:
-- <xref href="java.lang.Object" data-throw-if-not-resolved="False" />
+- "<xref href=\"java.lang.Object\" data-throw-if-not-resolved=\"False\" />"
 inheritedMembers:
-- java.lang.Object.clone()
-- java.lang.Object.equals(java.lang.Object)
-- java.lang.Object.finalize()
-- java.lang.Object.getClass()
-- java.lang.Object.hashCode()
-- java.lang.Object.notify()
-- java.lang.Object.notifyAll()
-- java.lang.Object.toString()
-- java.lang.Object.wait()
-- java.lang.Object.wait(long)
-- java.lang.Object.wait(long,int)
-syntax: public final class NetworkTraceInner
+- "java.lang.Object.clone()"
+- "java.lang.Object.equals(java.lang.Object)"
+- "java.lang.Object.finalize()"
+- "java.lang.Object.getClass()"
+- "java.lang.Object.hashCode()"
+- "java.lang.Object.notify()"
+- "java.lang.Object.notifyAll()"
+- "java.lang.Object.toString()"
+- "java.lang.Object.wait()"
+- "java.lang.Object.wait(long)"
+- "java.lang.Object.wait(long,int)"
+syntax: "public final class NetworkTraceInner"
 constructors:
-- com.azure.resourcemanager.appservice.fluent.inner.NetworkTraceInner.NetworkTraceInner()
+- "com.azure.resourcemanager.appservice.fluent.inner.NetworkTraceInner.NetworkTraceInner()"
 methods:
-- com.azure.resourcemanager.appservice.fluent.inner.NetworkTraceInner.message()
-- com.azure.resourcemanager.appservice.fluent.inner.NetworkTraceInner.path()
-- com.azure.resourcemanager.appservice.fluent.inner.NetworkTraceInner.status()
-- com.azure.resourcemanager.appservice.fluent.inner.NetworkTraceInner.validate()
-- com.azure.resourcemanager.appservice.fluent.inner.NetworkTraceInner.withMessage(java.lang.String)
-- com.azure.resourcemanager.appservice.fluent.inner.NetworkTraceInner.withPath(java.lang.String)
-- com.azure.resourcemanager.appservice.fluent.inner.NetworkTraceInner.withStatus(java.lang.String)
-type: class
+- "com.azure.resourcemanager.appservice.fluent.inner.NetworkTraceInner.message()"
+- "com.azure.resourcemanager.appservice.fluent.inner.NetworkTraceInner.path()"
+- "com.azure.resourcemanager.appservice.fluent.inner.NetworkTraceInner.status()"
+- "com.azure.resourcemanager.appservice.fluent.inner.NetworkTraceInner.validate()"
+- "com.azure.resourcemanager.appservice.fluent.inner.NetworkTraceInner.withMessage(java.lang.String)"
+- "com.azure.resourcemanager.appservice.fluent.inner.NetworkTraceInner.withPath(java.lang.String)"
+- "com.azure.resourcemanager.appservice.fluent.inner.NetworkTraceInner.withStatus(java.lang.String)"
+type: "class"
 metadata: {}
-package: com.azure.resourcemanager.appservice.fluent.inner
+package: "com.azure.resourcemanager.appservice.fluent.inner"
 artifact: com.azure.resourcemanager:azure-resourcemanager-appservice:2.0.0-beta.2

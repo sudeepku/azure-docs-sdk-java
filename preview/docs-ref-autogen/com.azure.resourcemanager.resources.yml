@@ -1,23 +1,21 @@
 ### YamlMime:JavaPackage
-uid: com.azure.resourcemanager.resources
-fullName: com.azure.resourcemanager.resources
-name: com.azure.resourcemanager.resources
-summary: |-
-  Package containing the classes for ResourceManagementClient. Provides operations for working with resources and
-   resource groups.
+uid: "com.azure.resourcemanager.resources"
+fullName: "com.azure.resourcemanager.resources"
+name: "com.azure.resourcemanager.resources"
+summary: "Package containing the classes for ResourceManagementClient. Provides operations for working with resources and\n resource groups."
 classes:
-- com.azure.resourcemanager.resources.FeatureClient
-- com.azure.resourcemanager.resources.FeatureClientBuilder
-- com.azure.resourcemanager.resources.PolicyClient
-- com.azure.resourcemanager.resources.PolicyClientBuilder
-- com.azure.resourcemanager.resources.ResourceManagementClient
-- com.azure.resourcemanager.resources.ResourceManagementClientBuilder
-- com.azure.resourcemanager.resources.ResourceManager
-- com.azure.resourcemanager.resources.SubscriptionClient
-- com.azure.resourcemanager.resources.SubscriptionClientBuilder
+- "com.azure.resourcemanager.resources.FeatureClient"
+- "com.azure.resourcemanager.resources.FeatureClientBuilder"
+- "com.azure.resourcemanager.resources.PolicyClient"
+- "com.azure.resourcemanager.resources.PolicyClientBuilder"
+- "com.azure.resourcemanager.resources.ResourceManagementClient"
+- "com.azure.resourcemanager.resources.ResourceManagementClientBuilder"
+- "com.azure.resourcemanager.resources.ResourceManager"
+- "com.azure.resourcemanager.resources.SubscriptionClient"
+- "com.azure.resourcemanager.resources.SubscriptionClientBuilder"
 interfaces:
-- com.azure.resourcemanager.resources.ResourceManager.Authenticated
-- com.azure.resourcemanager.resources.ResourceManager.Configurable
+- "com.azure.resourcemanager.resources.ResourceManager.Authenticated"
+- "com.azure.resourcemanager.resources.ResourceManager.Configurable"
 metadata: {}
-package: com.azure.resourcemanager.resources
+package: "com.azure.resourcemanager.resources"
 artifact: com.azure.resourcemanager:azure-resourcemanager-resources:2.0.0-beta.2

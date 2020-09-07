@@ -1,33 +1,33 @@
 ### YamlMime:JavaType
-uid: com.azure.resourcemanager.network.fluent.inner.RouteListResultInner
-fullName: com.azure.resourcemanager.network.fluent.inner.RouteListResultInner
-name: RouteListResultInner
-nameWithType: RouteListResultInner
-summary: The RouteListResult model.
+uid: "com.azure.resourcemanager.network.fluent.inner.RouteListResultInner"
+fullName: "com.azure.resourcemanager.network.fluent.inner.RouteListResultInner"
+name: "RouteListResultInner"
+nameWithType: "RouteListResultInner"
+summary: "The RouteListResult model."
 inheritances:
-- <xref href="java.lang.Object" data-throw-if-not-resolved="False" />
+- "<xref href=\"java.lang.Object\" data-throw-if-not-resolved=\"False\" />"
 inheritedMembers:
-- java.lang.Object.clone()
-- java.lang.Object.equals(java.lang.Object)
-- java.lang.Object.finalize()
-- java.lang.Object.getClass()
-- java.lang.Object.hashCode()
-- java.lang.Object.notify()
-- java.lang.Object.notifyAll()
-- java.lang.Object.toString()
-- java.lang.Object.wait()
-- java.lang.Object.wait(long)
-- java.lang.Object.wait(long,int)
-syntax: public final class RouteListResultInner
+- "java.lang.Object.clone()"
+- "java.lang.Object.equals(java.lang.Object)"
+- "java.lang.Object.finalize()"
+- "java.lang.Object.getClass()"
+- "java.lang.Object.hashCode()"
+- "java.lang.Object.notify()"
+- "java.lang.Object.notifyAll()"
+- "java.lang.Object.toString()"
+- "java.lang.Object.wait()"
+- "java.lang.Object.wait(long)"
+- "java.lang.Object.wait(long,int)"
+syntax: "public final class RouteListResultInner"
 constructors:
-- com.azure.resourcemanager.network.fluent.inner.RouteListResultInner.RouteListResultInner()
+- "com.azure.resourcemanager.network.fluent.inner.RouteListResultInner.RouteListResultInner()"
 methods:
-- com.azure.resourcemanager.network.fluent.inner.RouteListResultInner.nextLink()
-- com.azure.resourcemanager.network.fluent.inner.RouteListResultInner.validate()
-- com.azure.resourcemanager.network.fluent.inner.RouteListResultInner.value()
-- com.azure.resourcemanager.network.fluent.inner.RouteListResultInner.withNextLink(java.lang.String)
-- com.azure.resourcemanager.network.fluent.inner.RouteListResultInner.withValue(java.util.List<com.azure.resourcemanager.network.fluent.inner.RouteInner>)
-type: class
+- "com.azure.resourcemanager.network.fluent.inner.RouteListResultInner.nextLink()"
+- "com.azure.resourcemanager.network.fluent.inner.RouteListResultInner.validate()"
+- "com.azure.resourcemanager.network.fluent.inner.RouteListResultInner.value()"
+- "com.azure.resourcemanager.network.fluent.inner.RouteListResultInner.withNextLink(java.lang.String)"
+- "com.azure.resourcemanager.network.fluent.inner.RouteListResultInner.withValue(java.util.List<com.azure.resourcemanager.network.fluent.inner.RouteInner>)"
+type: "class"
 metadata: {}
-package: com.azure.resourcemanager.network.fluent.inner
+package: "com.azure.resourcemanager.network.fluent.inner"
 artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.0.0-beta.2

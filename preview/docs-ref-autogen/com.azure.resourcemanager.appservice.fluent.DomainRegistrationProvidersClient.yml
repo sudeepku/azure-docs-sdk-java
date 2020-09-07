@@ -1,36 +1,36 @@
 ### YamlMime:JavaType
-uid: com.azure.resourcemanager.appservice.fluent.DomainRegistrationProvidersClient
-fullName: com.azure.resourcemanager.appservice.fluent.DomainRegistrationProvidersClient
-name: DomainRegistrationProvidersClient
-nameWithType: DomainRegistrationProvidersClient
-summary: An instance of this class provides access to all the operations defined in DomainRegistrationProviders.
+uid: "com.azure.resourcemanager.appservice.fluent.DomainRegistrationProvidersClient"
+fullName: "com.azure.resourcemanager.appservice.fluent.DomainRegistrationProvidersClient"
+name: "DomainRegistrationProvidersClient"
+nameWithType: "DomainRegistrationProvidersClient"
+summary: "An instance of this class provides access to all the operations defined in DomainRegistrationProviders."
 inheritances:
-- <xref href="java.lang.Object" data-throw-if-not-resolved="False" />
+- "<xref href=\"java.lang.Object\" data-throw-if-not-resolved=\"False\" />"
 inheritedMembers:
-- java.lang.Object.clone()
-- java.lang.Object.equals(java.lang.Object)
-- java.lang.Object.finalize()
-- java.lang.Object.getClass()
-- java.lang.Object.hashCode()
-- java.lang.Object.notify()
-- java.lang.Object.notifyAll()
-- java.lang.Object.toString()
-- java.lang.Object.wait()
-- java.lang.Object.wait(long)
-- java.lang.Object.wait(long,int)
-syntax: public final class DomainRegistrationProvidersClient
+- "java.lang.Object.clone()"
+- "java.lang.Object.equals(java.lang.Object)"
+- "java.lang.Object.finalize()"
+- "java.lang.Object.getClass()"
+- "java.lang.Object.hashCode()"
+- "java.lang.Object.notify()"
+- "java.lang.Object.notifyAll()"
+- "java.lang.Object.toString()"
+- "java.lang.Object.wait()"
+- "java.lang.Object.wait(long)"
+- "java.lang.Object.wait(long,int)"
+syntax: "public final class DomainRegistrationProvidersClient"
 constructors:
-- com.azure.resourcemanager.appservice.fluent.DomainRegistrationProvidersClient.DomainRegistrationProvidersClient(com.azure.resourcemanager.appservice.WebSiteManagementClient)
+- "com.azure.resourcemanager.appservice.fluent.DomainRegistrationProvidersClient.DomainRegistrationProvidersClient(com.azure.resourcemanager.appservice.WebSiteManagementClient)"
 methods:
-- com.azure.resourcemanager.appservice.fluent.DomainRegistrationProvidersClient.listOperations()
-- com.azure.resourcemanager.appservice.fluent.DomainRegistrationProvidersClient.listOperations(com.azure.core.util.Context)
-- com.azure.resourcemanager.appservice.fluent.DomainRegistrationProvidersClient.listOperationsAsync()
-- com.azure.resourcemanager.appservice.fluent.DomainRegistrationProvidersClient.listOperationsAsync(com.azure.core.util.Context)
-- com.azure.resourcemanager.appservice.fluent.DomainRegistrationProvidersClient.listOperationsNextSinglePageAsync(java.lang.String)
-- com.azure.resourcemanager.appservice.fluent.DomainRegistrationProvidersClient.listOperationsNextSinglePageAsync(java.lang.String,com.azure.core.util.Context)
-- com.azure.resourcemanager.appservice.fluent.DomainRegistrationProvidersClient.listOperationsSinglePageAsync()
-- com.azure.resourcemanager.appservice.fluent.DomainRegistrationProvidersClient.listOperationsSinglePageAsync(com.azure.core.util.Context)
-type: class
+- "com.azure.resourcemanager.appservice.fluent.DomainRegistrationProvidersClient.listOperations()"
+- "com.azure.resourcemanager.appservice.fluent.DomainRegistrationProvidersClient.listOperations(com.azure.core.util.Context)"
+- "com.azure.resourcemanager.appservice.fluent.DomainRegistrationProvidersClient.listOperationsAsync()"
+- "com.azure.resourcemanager.appservice.fluent.DomainRegistrationProvidersClient.listOperationsAsync(com.azure.core.util.Context)"
+- "com.azure.resourcemanager.appservice.fluent.DomainRegistrationProvidersClient.listOperationsNextSinglePageAsync(java.lang.String)"
+- "com.azure.resourcemanager.appservice.fluent.DomainRegistrationProvidersClient.listOperationsNextSinglePageAsync(java.lang.String,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.appservice.fluent.DomainRegistrationProvidersClient.listOperationsSinglePageAsync()"
+- "com.azure.resourcemanager.appservice.fluent.DomainRegistrationProvidersClient.listOperationsSinglePageAsync(com.azure.core.util.Context)"
+type: "class"
 metadata: {}
-package: com.azure.resourcemanager.appservice.fluent
+package: "com.azure.resourcemanager.appservice.fluent"
 artifact: com.azure.resourcemanager:azure-resourcemanager-appservice:2.0.0-beta.2

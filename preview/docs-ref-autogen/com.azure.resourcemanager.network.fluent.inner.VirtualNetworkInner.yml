@@ -1,60 +1,60 @@
 ### YamlMime:JavaType
-uid: com.azure.resourcemanager.network.fluent.inner.VirtualNetworkInner
-fullName: com.azure.resourcemanager.network.fluent.inner.VirtualNetworkInner
-name: VirtualNetworkInner
-nameWithType: VirtualNetworkInner
-summary: The VirtualNetwork model.
+uid: "com.azure.resourcemanager.network.fluent.inner.VirtualNetworkInner"
+fullName: "com.azure.resourcemanager.network.fluent.inner.VirtualNetworkInner"
+name: "VirtualNetworkInner"
+nameWithType: "VirtualNetworkInner"
+summary: "The VirtualNetwork model."
 inheritances:
-- <xref href="java.lang.Object" data-throw-if-not-resolved="False" />
-- <xref href="com.azure.core.management.ProxyResource" data-throw-if-not-resolved="False" />
-- <xref href="com.azure.core.management.Resource" data-throw-if-not-resolved="False" />
+- "<xref href=\"java.lang.Object\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.azure.core.management.ProxyResource\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.azure.core.management.Resource\" data-throw-if-not-resolved=\"False\" />"
 inheritedMembers:
-- com.azure.core.management.ProxyResource.id()
-- com.azure.core.management.ProxyResource.name()
-- com.azure.core.management.ProxyResource.type()
-- com.azure.core.management.Resource.location()
-- com.azure.core.management.Resource.tags()
-- com.azure.core.management.Resource.withLocation(java.lang.String)
-- com.azure.core.management.Resource.withTags(java.util.Map<java.lang.String,java.lang.String>)
-- java.lang.Object.clone()
-- java.lang.Object.equals(java.lang.Object)
-- java.lang.Object.finalize()
-- java.lang.Object.getClass()
-- java.lang.Object.hashCode()
-- java.lang.Object.notify()
-- java.lang.Object.notifyAll()
-- java.lang.Object.toString()
-- java.lang.Object.wait()
-- java.lang.Object.wait(long)
-- java.lang.Object.wait(long,int)
-syntax: public class VirtualNetworkInner extends Resource
+- "com.azure.core.management.ProxyResource.id()"
+- "com.azure.core.management.ProxyResource.name()"
+- "com.azure.core.management.ProxyResource.type()"
+- "com.azure.core.management.Resource.location()"
+- "com.azure.core.management.Resource.tags()"
+- "com.azure.core.management.Resource.withLocation(java.lang.String)"
+- "com.azure.core.management.Resource.withTags(java.util.Map<java.lang.String,java.lang.String>)"
+- "java.lang.Object.clone()"
+- "java.lang.Object.equals(java.lang.Object)"
+- "java.lang.Object.finalize()"
+- "java.lang.Object.getClass()"
+- "java.lang.Object.hashCode()"
+- "java.lang.Object.notify()"
+- "java.lang.Object.notifyAll()"
+- "java.lang.Object.toString()"
+- "java.lang.Object.wait()"
+- "java.lang.Object.wait(long)"
+- "java.lang.Object.wait(long,int)"
+syntax: "public class VirtualNetworkInner extends Resource"
 constructors:
-- com.azure.resourcemanager.network.fluent.inner.VirtualNetworkInner.VirtualNetworkInner()
+- "com.azure.resourcemanager.network.fluent.inner.VirtualNetworkInner.VirtualNetworkInner()"
 methods:
-- com.azure.resourcemanager.network.fluent.inner.VirtualNetworkInner.addressSpace()
-- com.azure.resourcemanager.network.fluent.inner.VirtualNetworkInner.ddosProtectionPlan()
-- com.azure.resourcemanager.network.fluent.inner.VirtualNetworkInner.dhcpOptions()
-- com.azure.resourcemanager.network.fluent.inner.VirtualNetworkInner.enableDdosProtection()
-- com.azure.resourcemanager.network.fluent.inner.VirtualNetworkInner.enableVmProtection()
-- com.azure.resourcemanager.network.fluent.inner.VirtualNetworkInner.etag()
-- com.azure.resourcemanager.network.fluent.inner.VirtualNetworkInner.id()
-- com.azure.resourcemanager.network.fluent.inner.VirtualNetworkInner.provisioningState()
-- com.azure.resourcemanager.network.fluent.inner.VirtualNetworkInner.resourceGuid()
-- com.azure.resourcemanager.network.fluent.inner.VirtualNetworkInner.subnets()
-- com.azure.resourcemanager.network.fluent.inner.VirtualNetworkInner.validate()
-- com.azure.resourcemanager.network.fluent.inner.VirtualNetworkInner.virtualNetworkPeerings()
-- com.azure.resourcemanager.network.fluent.inner.VirtualNetworkInner.withAddressSpace(com.azure.resourcemanager.network.models.AddressSpace)
-- com.azure.resourcemanager.network.fluent.inner.VirtualNetworkInner.withDdosProtectionPlan(com.azure.core.management.SubResource)
-- com.azure.resourcemanager.network.fluent.inner.VirtualNetworkInner.withDhcpOptions(com.azure.resourcemanager.network.models.DhcpOptions)
-- com.azure.resourcemanager.network.fluent.inner.VirtualNetworkInner.withEnableDdosProtection(java.lang.Boolean)
-- com.azure.resourcemanager.network.fluent.inner.VirtualNetworkInner.withEnableVmProtection(java.lang.Boolean)
-- com.azure.resourcemanager.network.fluent.inner.VirtualNetworkInner.withEtag(java.lang.String)
-- com.azure.resourcemanager.network.fluent.inner.VirtualNetworkInner.withId(java.lang.String)
-- com.azure.resourcemanager.network.fluent.inner.VirtualNetworkInner.withProvisioningState(java.lang.String)
-- com.azure.resourcemanager.network.fluent.inner.VirtualNetworkInner.withResourceGuid(java.lang.String)
-- com.azure.resourcemanager.network.fluent.inner.VirtualNetworkInner.withSubnets(java.util.List<com.azure.resourcemanager.network.fluent.inner.SubnetInner>)
-- com.azure.resourcemanager.network.fluent.inner.VirtualNetworkInner.withVirtualNetworkPeerings(java.util.List<com.azure.resourcemanager.network.fluent.inner.VirtualNetworkPeeringInner>)
-type: class
+- "com.azure.resourcemanager.network.fluent.inner.VirtualNetworkInner.addressSpace()"
+- "com.azure.resourcemanager.network.fluent.inner.VirtualNetworkInner.ddosProtectionPlan()"
+- "com.azure.resourcemanager.network.fluent.inner.VirtualNetworkInner.dhcpOptions()"
+- "com.azure.resourcemanager.network.fluent.inner.VirtualNetworkInner.enableDdosProtection()"
+- "com.azure.resourcemanager.network.fluent.inner.VirtualNetworkInner.enableVmProtection()"
+- "com.azure.resourcemanager.network.fluent.inner.VirtualNetworkInner.etag()"
+- "com.azure.resourcemanager.network.fluent.inner.VirtualNetworkInner.id()"
+- "com.azure.resourcemanager.network.fluent.inner.VirtualNetworkInner.provisioningState()"
+- "com.azure.resourcemanager.network.fluent.inner.VirtualNetworkInner.resourceGuid()"
+- "com.azure.resourcemanager.network.fluent.inner.VirtualNetworkInner.subnets()"
+- "com.azure.resourcemanager.network.fluent.inner.VirtualNetworkInner.validate()"
+- "com.azure.resourcemanager.network.fluent.inner.VirtualNetworkInner.virtualNetworkPeerings()"
+- "com.azure.resourcemanager.network.fluent.inner.VirtualNetworkInner.withAddressSpace(com.azure.resourcemanager.network.models.AddressSpace)"
+- "com.azure.resourcemanager.network.fluent.inner.VirtualNetworkInner.withDdosProtectionPlan(com.azure.core.management.SubResource)"
+- "com.azure.resourcemanager.network.fluent.inner.VirtualNetworkInner.withDhcpOptions(com.azure.resourcemanager.network.models.DhcpOptions)"
+- "com.azure.resourcemanager.network.fluent.inner.VirtualNetworkInner.withEnableDdosProtection(java.lang.Boolean)"
+- "com.azure.resourcemanager.network.fluent.inner.VirtualNetworkInner.withEnableVmProtection(java.lang.Boolean)"
+- "com.azure.resourcemanager.network.fluent.inner.VirtualNetworkInner.withEtag(java.lang.String)"
+- "com.azure.resourcemanager.network.fluent.inner.VirtualNetworkInner.withId(java.lang.String)"
+- "com.azure.resourcemanager.network.fluent.inner.VirtualNetworkInner.withProvisioningState(java.lang.String)"
+- "com.azure.resourcemanager.network.fluent.inner.VirtualNetworkInner.withResourceGuid(java.lang.String)"
+- "com.azure.resourcemanager.network.fluent.inner.VirtualNetworkInner.withSubnets(java.util.List<com.azure.resourcemanager.network.fluent.inner.SubnetInner>)"
+- "com.azure.resourcemanager.network.fluent.inner.VirtualNetworkInner.withVirtualNetworkPeerings(java.util.List<com.azure.resourcemanager.network.fluent.inner.VirtualNetworkPeeringInner>)"
+type: "class"
 metadata: {}
-package: com.azure.resourcemanager.network.fluent.inner
+package: "com.azure.resourcemanager.network.fluent.inner"
 artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.0.0-beta.2

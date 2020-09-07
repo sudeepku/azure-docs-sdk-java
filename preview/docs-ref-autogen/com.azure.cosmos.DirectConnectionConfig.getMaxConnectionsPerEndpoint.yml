@@ -1,23 +1,19 @@
 ### YamlMime:JavaMember
-uid: com.azure.cosmos.DirectConnectionConfig.getMaxConnectionsPerEndpoint*
-fullName: com.azure.cosmos.DirectConnectionConfig.getMaxConnectionsPerEndpoint
-name: getMaxConnectionsPerEndpoint
-nameWithType: DirectConnectionConfig.getMaxConnectionsPerEndpoint
+uid: "com.azure.cosmos.DirectConnectionConfig.getMaxConnectionsPerEndpoint*"
+fullName: "com.azure.cosmos.DirectConnectionConfig.getMaxConnectionsPerEndpoint"
+name: "getMaxConnectionsPerEndpoint"
+nameWithType: "DirectConnectionConfig.getMaxConnectionsPerEndpoint"
 members:
-- uid: com.azure.cosmos.DirectConnectionConfig.getMaxConnectionsPerEndpoint()
-  fullName: com.azure.cosmos.DirectConnectionConfig.getMaxConnectionsPerEndpoint()
-  name: getMaxConnectionsPerEndpoint()
-  nameWithType: DirectConnectionConfig.getMaxConnectionsPerEndpoint()
-  summary: |-
-    Gets the max connections per endpoint
-     This represents the size of connection pool for a specific endpoint
-
-     Default value is 30
-  syntax: public int getMaxConnectionsPerEndpoint()
+- uid: "com.azure.cosmos.DirectConnectionConfig.getMaxConnectionsPerEndpoint()"
+  fullName: "com.azure.cosmos.DirectConnectionConfig.getMaxConnectionsPerEndpoint()"
+  name: "getMaxConnectionsPerEndpoint()"
+  nameWithType: "DirectConnectionConfig.getMaxConnectionsPerEndpoint()"
+  summary: "Gets the max connections per endpoint\n This represents the size of connection pool for a specific endpoint\n\n Default value is 30"
+  syntax: "public int getMaxConnectionsPerEndpoint()"
   returns:
-    description: the max connections per endpoint
-    type: <xref href="int?alt=int&text=int" data-throw-if-not-resolved="False" />
-type: method
+    description: "the max connections per endpoint"
+    type: "<xref href=\"int?alt=int&text=int\" data-throw-if-not-resolved=\"False\" />"
+type: "method"
 metadata: {}
-package: com.azure.cosmos
+package: "com.azure.cosmos"
 artifact: com.azure:azure-cosmos:4.3.2-beta.2

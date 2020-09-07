@@ -1,35 +1,35 @@
 ### YamlMime:JavaType
-uid: com.azure.search.documents.indexes.implementation.models.SoftDeleteColumnDeletionDetectionPolicy
-fullName: com.azure.search.documents.indexes.implementation.models.SoftDeleteColumnDeletionDetectionPolicy
-name: SoftDeleteColumnDeletionDetectionPolicy
-nameWithType: SoftDeleteColumnDeletionDetectionPolicy
-summary: The SoftDeleteColumnDeletionDetectionPolicy model.
+uid: "com.azure.search.documents.indexes.implementation.models.SoftDeleteColumnDeletionDetectionPolicy"
+fullName: "com.azure.search.documents.indexes.implementation.models.SoftDeleteColumnDeletionDetectionPolicy"
+name: "SoftDeleteColumnDeletionDetectionPolicy"
+nameWithType: "SoftDeleteColumnDeletionDetectionPolicy"
+summary: "The SoftDeleteColumnDeletionDetectionPolicy model."
 inheritances:
-- <xref href="java.lang.Object" data-throw-if-not-resolved="False" />
-- <xref href="com.azure.search.documents.indexes.implementation.models.DataDeletionDetectionPolicy" data-throw-if-not-resolved="False" />
+- "<xref href=\"java.lang.Object\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.azure.search.documents.indexes.implementation.models.DataDeletionDetectionPolicy\" data-throw-if-not-resolved=\"False\" />"
 inheritedMembers:
-- com.azure.search.documents.indexes.implementation.models.DataDeletionDetectionPolicy.validate()
-- java.lang.Object.clone()
-- java.lang.Object.equals(java.lang.Object)
-- java.lang.Object.finalize()
-- java.lang.Object.getClass()
-- java.lang.Object.hashCode()
-- java.lang.Object.notify()
-- java.lang.Object.notifyAll()
-- java.lang.Object.toString()
-- java.lang.Object.wait()
-- java.lang.Object.wait(long)
-- java.lang.Object.wait(long,int)
-syntax: public class SoftDeleteColumnDeletionDetectionPolicy extends DataDeletionDetectionPolicy
+- "com.azure.search.documents.indexes.implementation.models.DataDeletionDetectionPolicy.validate()"
+- "java.lang.Object.clone()"
+- "java.lang.Object.equals(java.lang.Object)"
+- "java.lang.Object.finalize()"
+- "java.lang.Object.getClass()"
+- "java.lang.Object.hashCode()"
+- "java.lang.Object.notify()"
+- "java.lang.Object.notifyAll()"
+- "java.lang.Object.toString()"
+- "java.lang.Object.wait()"
+- "java.lang.Object.wait(long)"
+- "java.lang.Object.wait(long,int)"
+syntax: "public class SoftDeleteColumnDeletionDetectionPolicy extends DataDeletionDetectionPolicy"
 constructors:
-- com.azure.search.documents.indexes.implementation.models.SoftDeleteColumnDeletionDetectionPolicy.SoftDeleteColumnDeletionDetectionPolicy()
+- "com.azure.search.documents.indexes.implementation.models.SoftDeleteColumnDeletionDetectionPolicy.SoftDeleteColumnDeletionDetectionPolicy()"
 methods:
-- com.azure.search.documents.indexes.implementation.models.SoftDeleteColumnDeletionDetectionPolicy.getSoftDeleteColumnName()
-- com.azure.search.documents.indexes.implementation.models.SoftDeleteColumnDeletionDetectionPolicy.getSoftDeleteMarkerValue()
-- com.azure.search.documents.indexes.implementation.models.SoftDeleteColumnDeletionDetectionPolicy.setSoftDeleteColumnName(java.lang.String)
-- com.azure.search.documents.indexes.implementation.models.SoftDeleteColumnDeletionDetectionPolicy.setSoftDeleteMarkerValue(java.lang.String)
-- com.azure.search.documents.indexes.implementation.models.SoftDeleteColumnDeletionDetectionPolicy.validate()
-type: class
+- "com.azure.search.documents.indexes.implementation.models.SoftDeleteColumnDeletionDetectionPolicy.getSoftDeleteColumnName()"
+- "com.azure.search.documents.indexes.implementation.models.SoftDeleteColumnDeletionDetectionPolicy.getSoftDeleteMarkerValue()"
+- "com.azure.search.documents.indexes.implementation.models.SoftDeleteColumnDeletionDetectionPolicy.setSoftDeleteColumnName(java.lang.String)"
+- "com.azure.search.documents.indexes.implementation.models.SoftDeleteColumnDeletionDetectionPolicy.setSoftDeleteMarkerValue(java.lang.String)"
+- "com.azure.search.documents.indexes.implementation.models.SoftDeleteColumnDeletionDetectionPolicy.validate()"
+type: "class"
 metadata: {}
-package: com.azure.search.documents.indexes.implementation.models
+package: "com.azure.search.documents.indexes.implementation.models"
 artifact: com.azure:azure-search-documents:11.0.0

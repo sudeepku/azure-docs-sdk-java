@@ -1,16 +1,16 @@
 ### YamlMime:JavaMember
-uid: com.azure.search.documents.indexes.implementation.models.SentimentSkillLanguage.DA
-fullName: com.azure.search.documents.indexes.implementation.models.SentimentSkillLanguage.DA
-name: DA
-nameWithType: SentimentSkillLanguage.DA
+uid: "com.azure.search.documents.indexes.implementation.models.SentimentSkillLanguage.DA"
+fullName: "com.azure.search.documents.indexes.implementation.models.SentimentSkillLanguage.DA"
+name: "DA"
+nameWithType: "SentimentSkillLanguage.DA"
 members:
-- uid: com.azure.search.documents.indexes.implementation.models.SentimentSkillLanguage.DA
-  fullName: com.azure.search.documents.indexes.implementation.models.SentimentSkillLanguage.DA
-  name: DA
-  nameWithType: SentimentSkillLanguage.DA
-  summary: Static value da for SentimentSkillLanguage.
-  syntax: public static final SentimentSkillLanguage DA
-type: field
+- uid: "com.azure.search.documents.indexes.implementation.models.SentimentSkillLanguage.DA"
+  fullName: "com.azure.search.documents.indexes.implementation.models.SentimentSkillLanguage.DA"
+  name: "DA"
+  nameWithType: "SentimentSkillLanguage.DA"
+  summary: "Static value da for SentimentSkillLanguage."
+  syntax: "public static final SentimentSkillLanguage DA"
+type: "field"
 metadata: {}
-package: com.azure.search.documents.indexes.implementation.models
+package: "com.azure.search.documents.indexes.implementation.models"
 artifact: com.azure:azure-search-documents:11.0.0

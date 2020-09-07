@@ -1,16 +1,16 @@
 ### YamlMime:JavaType
-uid: com.azure.resourcemanager.sql.models.SqlSyncFullSchemaProperty
-fullName: com.azure.resourcemanager.sql.models.SqlSyncFullSchemaProperty
-name: SqlSyncFullSchemaProperty
-nameWithType: SqlSyncFullSchemaProperty
-summary: An immutable client-side representation of an Azure SQL Server Sync Group.
-syntax: public interface SqlSyncFullSchemaProperty extends HasInner<SyncFullSchemaPropertiesInner>
+uid: "com.azure.resourcemanager.sql.models.SqlSyncFullSchemaProperty"
+fullName: "com.azure.resourcemanager.sql.models.SqlSyncFullSchemaProperty"
+name: "SqlSyncFullSchemaProperty"
+nameWithType: "SqlSyncFullSchemaProperty"
+summary: "An immutable client-side representation of an Azure SQL Server Sync Group."
+syntax: "public interface SqlSyncFullSchemaProperty extends HasInner<SyncFullSchemaPropertiesInner>"
 methods:
-- com.azure.resourcemanager.sql.models.SqlSyncFullSchemaProperty.lastUpdateTime()
-- com.azure.resourcemanager.sql.models.SqlSyncFullSchemaProperty.tables()
-type: interface
+- "com.azure.resourcemanager.sql.models.SqlSyncFullSchemaProperty.lastUpdateTime()"
+- "com.azure.resourcemanager.sql.models.SqlSyncFullSchemaProperty.tables()"
+type: "interface"
 implements:
-- <xref href="com.azure.resourcemanager.resources.fluentcore.model.HasInner?alt=com.azure.resourcemanager.resources.fluentcore.model.HasInner&text=HasInner" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.resourcemanager.sql.fluent.inner.SyncFullSchemaPropertiesInner?alt=com.azure.resourcemanager.sql.fluent.inner.SyncFullSchemaPropertiesInner&text=SyncFullSchemaPropertiesInner" data-throw-if-not-resolved="False" />&gt;
+- "<xref href=\"com.azure.resourcemanager.resources.fluentcore.model.HasInner?alt=com.azure.resourcemanager.resources.fluentcore.model.HasInner&text=HasInner\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.sql.fluent.inner.SyncFullSchemaPropertiesInner?alt=com.azure.resourcemanager.sql.fluent.inner.SyncFullSchemaPropertiesInner&text=SyncFullSchemaPropertiesInner\" data-throw-if-not-resolved=\"False\" />&gt;"
 metadata: {}
-package: com.azure.resourcemanager.sql.models
+package: "com.azure.resourcemanager.sql.models"
 artifact: com.azure.resourcemanager:azure-resourcemanager-sql:2.0.0-beta.2

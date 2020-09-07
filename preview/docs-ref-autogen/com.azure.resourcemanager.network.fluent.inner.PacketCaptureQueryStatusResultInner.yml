@@ -1,41 +1,41 @@
 ### YamlMime:JavaType
-uid: com.azure.resourcemanager.network.fluent.inner.PacketCaptureQueryStatusResultInner
-fullName: com.azure.resourcemanager.network.fluent.inner.PacketCaptureQueryStatusResultInner
-name: PacketCaptureQueryStatusResultInner
-nameWithType: PacketCaptureQueryStatusResultInner
-summary: The PacketCaptureQueryStatusResult model.
+uid: "com.azure.resourcemanager.network.fluent.inner.PacketCaptureQueryStatusResultInner"
+fullName: "com.azure.resourcemanager.network.fluent.inner.PacketCaptureQueryStatusResultInner"
+name: "PacketCaptureQueryStatusResultInner"
+nameWithType: "PacketCaptureQueryStatusResultInner"
+summary: "The PacketCaptureQueryStatusResult model."
 inheritances:
-- <xref href="java.lang.Object" data-throw-if-not-resolved="False" />
+- "<xref href=\"java.lang.Object\" data-throw-if-not-resolved=\"False\" />"
 inheritedMembers:
-- java.lang.Object.clone()
-- java.lang.Object.equals(java.lang.Object)
-- java.lang.Object.finalize()
-- java.lang.Object.getClass()
-- java.lang.Object.hashCode()
-- java.lang.Object.notify()
-- java.lang.Object.notifyAll()
-- java.lang.Object.toString()
-- java.lang.Object.wait()
-- java.lang.Object.wait(long)
-- java.lang.Object.wait(long,int)
-syntax: public final class PacketCaptureQueryStatusResultInner
+- "java.lang.Object.clone()"
+- "java.lang.Object.equals(java.lang.Object)"
+- "java.lang.Object.finalize()"
+- "java.lang.Object.getClass()"
+- "java.lang.Object.hashCode()"
+- "java.lang.Object.notify()"
+- "java.lang.Object.notifyAll()"
+- "java.lang.Object.toString()"
+- "java.lang.Object.wait()"
+- "java.lang.Object.wait(long)"
+- "java.lang.Object.wait(long,int)"
+syntax: "public final class PacketCaptureQueryStatusResultInner"
 constructors:
-- com.azure.resourcemanager.network.fluent.inner.PacketCaptureQueryStatusResultInner.PacketCaptureQueryStatusResultInner()
+- "com.azure.resourcemanager.network.fluent.inner.PacketCaptureQueryStatusResultInner.PacketCaptureQueryStatusResultInner()"
 methods:
-- com.azure.resourcemanager.network.fluent.inner.PacketCaptureQueryStatusResultInner.captureStartTime()
-- com.azure.resourcemanager.network.fluent.inner.PacketCaptureQueryStatusResultInner.id()
-- com.azure.resourcemanager.network.fluent.inner.PacketCaptureQueryStatusResultInner.name()
-- com.azure.resourcemanager.network.fluent.inner.PacketCaptureQueryStatusResultInner.packetCaptureError()
-- com.azure.resourcemanager.network.fluent.inner.PacketCaptureQueryStatusResultInner.packetCaptureStatus()
-- com.azure.resourcemanager.network.fluent.inner.PacketCaptureQueryStatusResultInner.stopReason()
-- com.azure.resourcemanager.network.fluent.inner.PacketCaptureQueryStatusResultInner.validate()
-- com.azure.resourcemanager.network.fluent.inner.PacketCaptureQueryStatusResultInner.withCaptureStartTime(java.time.OffsetDateTime)
-- com.azure.resourcemanager.network.fluent.inner.PacketCaptureQueryStatusResultInner.withId(java.lang.String)
-- com.azure.resourcemanager.network.fluent.inner.PacketCaptureQueryStatusResultInner.withName(java.lang.String)
-- com.azure.resourcemanager.network.fluent.inner.PacketCaptureQueryStatusResultInner.withPacketCaptureError(java.util.List<com.azure.resourcemanager.network.models.PcError>)
-- com.azure.resourcemanager.network.fluent.inner.PacketCaptureQueryStatusResultInner.withPacketCaptureStatus(com.azure.resourcemanager.network.models.PcStatus)
-- com.azure.resourcemanager.network.fluent.inner.PacketCaptureQueryStatusResultInner.withStopReason(java.lang.String)
-type: class
+- "com.azure.resourcemanager.network.fluent.inner.PacketCaptureQueryStatusResultInner.captureStartTime()"
+- "com.azure.resourcemanager.network.fluent.inner.PacketCaptureQueryStatusResultInner.id()"
+- "com.azure.resourcemanager.network.fluent.inner.PacketCaptureQueryStatusResultInner.name()"
+- "com.azure.resourcemanager.network.fluent.inner.PacketCaptureQueryStatusResultInner.packetCaptureError()"
+- "com.azure.resourcemanager.network.fluent.inner.PacketCaptureQueryStatusResultInner.packetCaptureStatus()"
+- "com.azure.resourcemanager.network.fluent.inner.PacketCaptureQueryStatusResultInner.stopReason()"
+- "com.azure.resourcemanager.network.fluent.inner.PacketCaptureQueryStatusResultInner.validate()"
+- "com.azure.resourcemanager.network.fluent.inner.PacketCaptureQueryStatusResultInner.withCaptureStartTime(java.time.OffsetDateTime)"
+- "com.azure.resourcemanager.network.fluent.inner.PacketCaptureQueryStatusResultInner.withId(java.lang.String)"
+- "com.azure.resourcemanager.network.fluent.inner.PacketCaptureQueryStatusResultInner.withName(java.lang.String)"
+- "com.azure.resourcemanager.network.fluent.inner.PacketCaptureQueryStatusResultInner.withPacketCaptureError(java.util.List<com.azure.resourcemanager.network.models.PcError>)"
+- "com.azure.resourcemanager.network.fluent.inner.PacketCaptureQueryStatusResultInner.withPacketCaptureStatus(com.azure.resourcemanager.network.models.PcStatus)"
+- "com.azure.resourcemanager.network.fluent.inner.PacketCaptureQueryStatusResultInner.withStopReason(java.lang.String)"
+type: "class"
 metadata: {}
-package: com.azure.resourcemanager.network.fluent.inner
+package: "com.azure.resourcemanager.network.fluent.inner"
 artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.0.0-beta.2

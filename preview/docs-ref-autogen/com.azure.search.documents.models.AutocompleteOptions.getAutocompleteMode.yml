@@ -1,24 +1,19 @@
 ### YamlMime:JavaMember
-uid: com.azure.search.documents.models.AutocompleteOptions.getAutocompleteMode*
-fullName: com.azure.search.documents.models.AutocompleteOptions.getAutocompleteMode
-name: getAutocompleteMode
-nameWithType: AutocompleteOptions.getAutocompleteMode
+uid: "com.azure.search.documents.models.AutocompleteOptions.getAutocompleteMode*"
+fullName: "com.azure.search.documents.models.AutocompleteOptions.getAutocompleteMode"
+name: "getAutocompleteMode"
+nameWithType: "AutocompleteOptions.getAutocompleteMode"
 members:
-- uid: com.azure.search.documents.models.AutocompleteOptions.getAutocompleteMode()
-  fullName: com.azure.search.documents.models.AutocompleteOptions.getAutocompleteMode()
-  name: getAutocompleteMode()
-  nameWithType: AutocompleteOptions.getAutocompleteMode()
-  summary: |-
-    Get the autocompleteMode property: Specifies the mode for Autocomplete.
-     The default is 'oneTerm'. Use 'twoTerms' to get shingles and
-     'oneTermWithContext' to use the current context while producing
-     auto-completed terms. Possible values include: 'OneTerm', 'TwoTerms',
-     'OneTermWithContext'.
-  syntax: public AutocompleteMode getAutocompleteMode()
+- uid: "com.azure.search.documents.models.AutocompleteOptions.getAutocompleteMode()"
+  fullName: "com.azure.search.documents.models.AutocompleteOptions.getAutocompleteMode()"
+  name: "getAutocompleteMode()"
+  nameWithType: "AutocompleteOptions.getAutocompleteMode()"
+  summary: "Get the autocompleteMode property: Specifies the mode for Autocomplete.\n The default is 'oneTerm'. Use 'twoTerms' to get shingles and\n 'oneTermWithContext' to use the current context while producing\n auto-completed terms. Possible values include: 'OneTerm', 'TwoTerms',\n 'OneTermWithContext'."
+  syntax: "public AutocompleteMode getAutocompleteMode()"
   returns:
-    description: the autocompleteMode value.
-    type: <xref href="com.azure.search.documents.models.AutocompleteMode?alt=com.azure.search.documents.models.AutocompleteMode&text=AutocompleteMode" data-throw-if-not-resolved="False" />
-type: method
+    description: "the autocompleteMode value."
+    type: "<xref href=\"com.azure.search.documents.models.AutocompleteMode?alt=com.azure.search.documents.models.AutocompleteMode&text=AutocompleteMode\" data-throw-if-not-resolved=\"False\" />"
+type: "method"
 metadata: {}
-package: com.azure.search.documents.models
+package: "com.azure.search.documents.models"
 artifact: com.azure:azure-search-documents:11.1.0-beta.1

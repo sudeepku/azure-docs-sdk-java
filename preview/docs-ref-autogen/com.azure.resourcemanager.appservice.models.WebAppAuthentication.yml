@@ -1,15 +1,15 @@
 ### YamlMime:JavaType
-uid: com.azure.resourcemanager.appservice.models.WebAppAuthentication
-fullName: com.azure.resourcemanager.appservice.models.WebAppAuthentication
-name: WebAppAuthentication
-nameWithType: WebAppAuthentication
-summary: A web app authentication configuration in a web app.
-syntax: public interface WebAppAuthentication extends HasInner<SiteAuthSettingsInner>, Indexable, HasParent<WebAppBase>
-type: interface
+uid: "com.azure.resourcemanager.appservice.models.WebAppAuthentication"
+fullName: "com.azure.resourcemanager.appservice.models.WebAppAuthentication"
+name: "WebAppAuthentication"
+nameWithType: "WebAppAuthentication"
+summary: "A web app authentication configuration in a web app."
+syntax: "public interface WebAppAuthentication extends HasInner<SiteAuthSettingsInner>, Indexable, HasParent<WebAppBase>"
+type: "interface"
 implements:
-- <xref href="com.azure.resourcemanager.resources.fluentcore.arm.models.HasParent?alt=com.azure.resourcemanager.resources.fluentcore.arm.models.HasParent&text=HasParent" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.resourcemanager.appservice.models.WebAppBase?alt=com.azure.resourcemanager.appservice.models.WebAppBase&text=WebAppBase" data-throw-if-not-resolved="False" />&gt;
-- <xref href="com.azure.resourcemanager.resources.fluentcore.model.HasInner?alt=com.azure.resourcemanager.resources.fluentcore.model.HasInner&text=HasInner" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.resourcemanager.appservice.fluent.inner.SiteAuthSettingsInner?alt=com.azure.resourcemanager.appservice.fluent.inner.SiteAuthSettingsInner&text=SiteAuthSettingsInner" data-throw-if-not-resolved="False" />&gt;
-- <xref href="com.azure.resourcemanager.resources.fluentcore.model.Indexable?alt=com.azure.resourcemanager.resources.fluentcore.model.Indexable&text=Indexable" data-throw-if-not-resolved="False" />
+- "<xref href=\"com.azure.resourcemanager.resources.fluentcore.arm.models.HasParent?alt=com.azure.resourcemanager.resources.fluentcore.arm.models.HasParent&text=HasParent\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.appservice.models.WebAppBase?alt=com.azure.resourcemanager.appservice.models.WebAppBase&text=WebAppBase\" data-throw-if-not-resolved=\"False\" />&gt;"
+- "<xref href=\"com.azure.resourcemanager.resources.fluentcore.model.HasInner?alt=com.azure.resourcemanager.resources.fluentcore.model.HasInner&text=HasInner\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.appservice.fluent.inner.SiteAuthSettingsInner?alt=com.azure.resourcemanager.appservice.fluent.inner.SiteAuthSettingsInner&text=SiteAuthSettingsInner\" data-throw-if-not-resolved=\"False\" />&gt;"
+- "<xref href=\"com.azure.resourcemanager.resources.fluentcore.model.Indexable?alt=com.azure.resourcemanager.resources.fluentcore.model.Indexable&text=Indexable\" data-throw-if-not-resolved=\"False\" />"
 metadata: {}
-package: com.azure.resourcemanager.appservice.models
+package: "com.azure.resourcemanager.appservice.models"
 artifact: com.azure.resourcemanager:azure-resourcemanager-appservice:2.0.0-beta.2

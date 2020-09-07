@@ -1,22 +1,22 @@
 ### YamlMime:JavaType
-uid: com.azure.resourcemanager.compute.models.VirtualMachineExtensionBase
-fullName: com.azure.resourcemanager.compute.models.VirtualMachineExtensionBase
-name: VirtualMachineExtensionBase
-nameWithType: VirtualMachineExtensionBase
-summary: An immutable client-side representation of an extension associated with virtual machine.
-syntax: public interface VirtualMachineExtensionBase extends HasInner<VirtualMachineExtensionInner>
+uid: "com.azure.resourcemanager.compute.models.VirtualMachineExtensionBase"
+fullName: "com.azure.resourcemanager.compute.models.VirtualMachineExtensionBase"
+name: "VirtualMachineExtensionBase"
+nameWithType: "VirtualMachineExtensionBase"
+summary: "An immutable client-side representation of an extension associated with virtual machine."
+syntax: "public interface VirtualMachineExtensionBase extends HasInner<VirtualMachineExtensionInner>"
 methods:
-- com.azure.resourcemanager.compute.models.VirtualMachineExtensionBase.autoUpgradeMinorVersionEnabled()
-- com.azure.resourcemanager.compute.models.VirtualMachineExtensionBase.provisioningState()
-- com.azure.resourcemanager.compute.models.VirtualMachineExtensionBase.publicSettings()
-- com.azure.resourcemanager.compute.models.VirtualMachineExtensionBase.publicSettingsAsJsonString()
-- com.azure.resourcemanager.compute.models.VirtualMachineExtensionBase.publisherName()
-- com.azure.resourcemanager.compute.models.VirtualMachineExtensionBase.tags()
-- com.azure.resourcemanager.compute.models.VirtualMachineExtensionBase.typeName()
-- com.azure.resourcemanager.compute.models.VirtualMachineExtensionBase.versionName()
-type: interface
+- "com.azure.resourcemanager.compute.models.VirtualMachineExtensionBase.autoUpgradeMinorVersionEnabled()"
+- "com.azure.resourcemanager.compute.models.VirtualMachineExtensionBase.provisioningState()"
+- "com.azure.resourcemanager.compute.models.VirtualMachineExtensionBase.publicSettings()"
+- "com.azure.resourcemanager.compute.models.VirtualMachineExtensionBase.publicSettingsAsJsonString()"
+- "com.azure.resourcemanager.compute.models.VirtualMachineExtensionBase.publisherName()"
+- "com.azure.resourcemanager.compute.models.VirtualMachineExtensionBase.tags()"
+- "com.azure.resourcemanager.compute.models.VirtualMachineExtensionBase.typeName()"
+- "com.azure.resourcemanager.compute.models.VirtualMachineExtensionBase.versionName()"
+type: "interface"
 implements:
-- <xref href="com.azure.resourcemanager.resources.fluentcore.model.HasInner?alt=com.azure.resourcemanager.resources.fluentcore.model.HasInner&text=HasInner" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.resourcemanager.compute.fluent.inner.VirtualMachineExtensionInner?alt=com.azure.resourcemanager.compute.fluent.inner.VirtualMachineExtensionInner&text=VirtualMachineExtensionInner" data-throw-if-not-resolved="False" />&gt;
+- "<xref href=\"com.azure.resourcemanager.resources.fluentcore.model.HasInner?alt=com.azure.resourcemanager.resources.fluentcore.model.HasInner&text=HasInner\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.compute.fluent.inner.VirtualMachineExtensionInner?alt=com.azure.resourcemanager.compute.fluent.inner.VirtualMachineExtensionInner&text=VirtualMachineExtensionInner\" data-throw-if-not-resolved=\"False\" />&gt;"
 metadata: {}
-package: com.azure.resourcemanager.compute.models
+package: "com.azure.resourcemanager.compute.models"
 artifact: com.azure.resourcemanager:azure-resourcemanager-compute:2.0.0-beta.2

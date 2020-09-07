@@ -1,46 +1,46 @@
 ### YamlMime:JavaType
-uid: com.azure.resourcemanager.authorization.fluent.ProviderOperationsMetadatasClient
-fullName: com.azure.resourcemanager.authorization.fluent.ProviderOperationsMetadatasClient
-name: ProviderOperationsMetadatasClient
-nameWithType: ProviderOperationsMetadatasClient
-summary: An instance of this class provides access to all the operations defined in ProviderOperationsMetadatas.
+uid: "com.azure.resourcemanager.authorization.fluent.ProviderOperationsMetadatasClient"
+fullName: "com.azure.resourcemanager.authorization.fluent.ProviderOperationsMetadatasClient"
+name: "ProviderOperationsMetadatasClient"
+nameWithType: "ProviderOperationsMetadatasClient"
+summary: "An instance of this class provides access to all the operations defined in ProviderOperationsMetadatas."
 inheritances:
-- <xref href="java.lang.Object" data-throw-if-not-resolved="False" />
+- "<xref href=\"java.lang.Object\" data-throw-if-not-resolved=\"False\" />"
 inheritedMembers:
-- java.lang.Object.clone()
-- java.lang.Object.equals(java.lang.Object)
-- java.lang.Object.finalize()
-- java.lang.Object.getClass()
-- java.lang.Object.hashCode()
-- java.lang.Object.notify()
-- java.lang.Object.notifyAll()
-- java.lang.Object.toString()
-- java.lang.Object.wait()
-- java.lang.Object.wait(long)
-- java.lang.Object.wait(long,int)
-syntax: public final class ProviderOperationsMetadatasClient
+- "java.lang.Object.clone()"
+- "java.lang.Object.equals(java.lang.Object)"
+- "java.lang.Object.finalize()"
+- "java.lang.Object.getClass()"
+- "java.lang.Object.hashCode()"
+- "java.lang.Object.notify()"
+- "java.lang.Object.notifyAll()"
+- "java.lang.Object.toString()"
+- "java.lang.Object.wait()"
+- "java.lang.Object.wait(long)"
+- "java.lang.Object.wait(long,int)"
+syntax: "public final class ProviderOperationsMetadatasClient"
 constructors:
-- com.azure.resourcemanager.authorization.fluent.ProviderOperationsMetadatasClient.ProviderOperationsMetadatasClient(com.azure.resourcemanager.authorization.AuthorizationManagementClient)
+- "com.azure.resourcemanager.authorization.fluent.ProviderOperationsMetadatasClient.ProviderOperationsMetadatasClient(com.azure.resourcemanager.authorization.AuthorizationManagementClient)"
 methods:
-- com.azure.resourcemanager.authorization.fluent.ProviderOperationsMetadatasClient.get(java.lang.String)
-- com.azure.resourcemanager.authorization.fluent.ProviderOperationsMetadatasClient.get(java.lang.String,java.lang.String)
-- com.azure.resourcemanager.authorization.fluent.ProviderOperationsMetadatasClient.get(java.lang.String,java.lang.String,com.azure.core.util.Context)
-- com.azure.resourcemanager.authorization.fluent.ProviderOperationsMetadatasClient.getAsync(java.lang.String)
-- com.azure.resourcemanager.authorization.fluent.ProviderOperationsMetadatasClient.getAsync(java.lang.String,java.lang.String)
-- com.azure.resourcemanager.authorization.fluent.ProviderOperationsMetadatasClient.getAsync(java.lang.String,java.lang.String,com.azure.core.util.Context)
-- com.azure.resourcemanager.authorization.fluent.ProviderOperationsMetadatasClient.getWithResponseAsync(java.lang.String,java.lang.String)
-- com.azure.resourcemanager.authorization.fluent.ProviderOperationsMetadatasClient.getWithResponseAsync(java.lang.String,java.lang.String,com.azure.core.util.Context)
-- com.azure.resourcemanager.authorization.fluent.ProviderOperationsMetadatasClient.list()
-- com.azure.resourcemanager.authorization.fluent.ProviderOperationsMetadatasClient.list(java.lang.String)
-- com.azure.resourcemanager.authorization.fluent.ProviderOperationsMetadatasClient.list(java.lang.String,com.azure.core.util.Context)
-- com.azure.resourcemanager.authorization.fluent.ProviderOperationsMetadatasClient.listAsync()
-- com.azure.resourcemanager.authorization.fluent.ProviderOperationsMetadatasClient.listAsync(java.lang.String)
-- com.azure.resourcemanager.authorization.fluent.ProviderOperationsMetadatasClient.listAsync(java.lang.String,com.azure.core.util.Context)
-- com.azure.resourcemanager.authorization.fluent.ProviderOperationsMetadatasClient.listNextSinglePageAsync(java.lang.String)
-- com.azure.resourcemanager.authorization.fluent.ProviderOperationsMetadatasClient.listNextSinglePageAsync(java.lang.String,com.azure.core.util.Context)
-- com.azure.resourcemanager.authorization.fluent.ProviderOperationsMetadatasClient.listSinglePageAsync(java.lang.String)
-- com.azure.resourcemanager.authorization.fluent.ProviderOperationsMetadatasClient.listSinglePageAsync(java.lang.String,com.azure.core.util.Context)
-type: class
+- "com.azure.resourcemanager.authorization.fluent.ProviderOperationsMetadatasClient.get(java.lang.String)"
+- "com.azure.resourcemanager.authorization.fluent.ProviderOperationsMetadatasClient.get(java.lang.String,java.lang.String)"
+- "com.azure.resourcemanager.authorization.fluent.ProviderOperationsMetadatasClient.get(java.lang.String,java.lang.String,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.authorization.fluent.ProviderOperationsMetadatasClient.getAsync(java.lang.String)"
+- "com.azure.resourcemanager.authorization.fluent.ProviderOperationsMetadatasClient.getAsync(java.lang.String,java.lang.String)"
+- "com.azure.resourcemanager.authorization.fluent.ProviderOperationsMetadatasClient.getAsync(java.lang.String,java.lang.String,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.authorization.fluent.ProviderOperationsMetadatasClient.getWithResponseAsync(java.lang.String,java.lang.String)"
+- "com.azure.resourcemanager.authorization.fluent.ProviderOperationsMetadatasClient.getWithResponseAsync(java.lang.String,java.lang.String,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.authorization.fluent.ProviderOperationsMetadatasClient.list()"
+- "com.azure.resourcemanager.authorization.fluent.ProviderOperationsMetadatasClient.list(java.lang.String)"
+- "com.azure.resourcemanager.authorization.fluent.ProviderOperationsMetadatasClient.list(java.lang.String,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.authorization.fluent.ProviderOperationsMetadatasClient.listAsync()"
+- "com.azure.resourcemanager.authorization.fluent.ProviderOperationsMetadatasClient.listAsync(java.lang.String)"
+- "com.azure.resourcemanager.authorization.fluent.ProviderOperationsMetadatasClient.listAsync(java.lang.String,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.authorization.fluent.ProviderOperationsMetadatasClient.listNextSinglePageAsync(java.lang.String)"
+- "com.azure.resourcemanager.authorization.fluent.ProviderOperationsMetadatasClient.listNextSinglePageAsync(java.lang.String,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.authorization.fluent.ProviderOperationsMetadatasClient.listSinglePageAsync(java.lang.String)"
+- "com.azure.resourcemanager.authorization.fluent.ProviderOperationsMetadatasClient.listSinglePageAsync(java.lang.String,com.azure.core.util.Context)"
+type: "class"
 metadata: {}
-package: com.azure.resourcemanager.authorization.fluent
+package: "com.azure.resourcemanager.authorization.fluent"
 artifact: com.azure.resourcemanager:azure-resourcemanager-authorization:2.0.0-beta.2

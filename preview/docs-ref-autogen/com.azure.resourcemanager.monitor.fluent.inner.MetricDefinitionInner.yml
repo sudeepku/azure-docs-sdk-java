@@ -1,49 +1,49 @@
 ### YamlMime:JavaType
-uid: com.azure.resourcemanager.monitor.fluent.inner.MetricDefinitionInner
-fullName: com.azure.resourcemanager.monitor.fluent.inner.MetricDefinitionInner
-name: MetricDefinitionInner
-nameWithType: MetricDefinitionInner
-summary: The MetricDefinition model.
+uid: "com.azure.resourcemanager.monitor.fluent.inner.MetricDefinitionInner"
+fullName: "com.azure.resourcemanager.monitor.fluent.inner.MetricDefinitionInner"
+name: "MetricDefinitionInner"
+nameWithType: "MetricDefinitionInner"
+summary: "The MetricDefinition model."
 inheritances:
-- <xref href="java.lang.Object" data-throw-if-not-resolved="False" />
+- "<xref href=\"java.lang.Object\" data-throw-if-not-resolved=\"False\" />"
 inheritedMembers:
-- java.lang.Object.clone()
-- java.lang.Object.equals(java.lang.Object)
-- java.lang.Object.finalize()
-- java.lang.Object.getClass()
-- java.lang.Object.hashCode()
-- java.lang.Object.notify()
-- java.lang.Object.notifyAll()
-- java.lang.Object.toString()
-- java.lang.Object.wait()
-- java.lang.Object.wait(long)
-- java.lang.Object.wait(long,int)
-syntax: public final class MetricDefinitionInner
+- "java.lang.Object.clone()"
+- "java.lang.Object.equals(java.lang.Object)"
+- "java.lang.Object.finalize()"
+- "java.lang.Object.getClass()"
+- "java.lang.Object.hashCode()"
+- "java.lang.Object.notify()"
+- "java.lang.Object.notifyAll()"
+- "java.lang.Object.toString()"
+- "java.lang.Object.wait()"
+- "java.lang.Object.wait(long)"
+- "java.lang.Object.wait(long,int)"
+syntax: "public final class MetricDefinitionInner"
 constructors:
-- com.azure.resourcemanager.monitor.fluent.inner.MetricDefinitionInner.MetricDefinitionInner()
+- "com.azure.resourcemanager.monitor.fluent.inner.MetricDefinitionInner.MetricDefinitionInner()"
 methods:
-- com.azure.resourcemanager.monitor.fluent.inner.MetricDefinitionInner.dimensions()
-- com.azure.resourcemanager.monitor.fluent.inner.MetricDefinitionInner.id()
-- com.azure.resourcemanager.monitor.fluent.inner.MetricDefinitionInner.isDimensionRequired()
-- com.azure.resourcemanager.monitor.fluent.inner.MetricDefinitionInner.metricAvailabilities()
-- com.azure.resourcemanager.monitor.fluent.inner.MetricDefinitionInner.name()
-- com.azure.resourcemanager.monitor.fluent.inner.MetricDefinitionInner.namespace()
-- com.azure.resourcemanager.monitor.fluent.inner.MetricDefinitionInner.primaryAggregationType()
-- com.azure.resourcemanager.monitor.fluent.inner.MetricDefinitionInner.resourceId()
-- com.azure.resourcemanager.monitor.fluent.inner.MetricDefinitionInner.supportedAggregationTypes()
-- com.azure.resourcemanager.monitor.fluent.inner.MetricDefinitionInner.unit()
-- com.azure.resourcemanager.monitor.fluent.inner.MetricDefinitionInner.validate()
-- com.azure.resourcemanager.monitor.fluent.inner.MetricDefinitionInner.withDimensions(java.util.List<com.azure.resourcemanager.monitor.fluent.inner.LocalizableStringInner>)
-- com.azure.resourcemanager.monitor.fluent.inner.MetricDefinitionInner.withId(java.lang.String)
-- com.azure.resourcemanager.monitor.fluent.inner.MetricDefinitionInner.withIsDimensionRequired(java.lang.Boolean)
-- com.azure.resourcemanager.monitor.fluent.inner.MetricDefinitionInner.withMetricAvailabilities(java.util.List<com.azure.resourcemanager.monitor.models.MetricAvailability>)
-- com.azure.resourcemanager.monitor.fluent.inner.MetricDefinitionInner.withName(com.azure.resourcemanager.monitor.fluent.inner.LocalizableStringInner)
-- com.azure.resourcemanager.monitor.fluent.inner.MetricDefinitionInner.withNamespace(java.lang.String)
-- com.azure.resourcemanager.monitor.fluent.inner.MetricDefinitionInner.withPrimaryAggregationType(com.azure.resourcemanager.monitor.models.AggregationType)
-- com.azure.resourcemanager.monitor.fluent.inner.MetricDefinitionInner.withResourceId(java.lang.String)
-- com.azure.resourcemanager.monitor.fluent.inner.MetricDefinitionInner.withSupportedAggregationTypes(java.util.List<com.azure.resourcemanager.monitor.models.AggregationType>)
-- com.azure.resourcemanager.monitor.fluent.inner.MetricDefinitionInner.withUnit(com.azure.resourcemanager.monitor.models.Unit)
-type: class
+- "com.azure.resourcemanager.monitor.fluent.inner.MetricDefinitionInner.dimensions()"
+- "com.azure.resourcemanager.monitor.fluent.inner.MetricDefinitionInner.id()"
+- "com.azure.resourcemanager.monitor.fluent.inner.MetricDefinitionInner.isDimensionRequired()"
+- "com.azure.resourcemanager.monitor.fluent.inner.MetricDefinitionInner.metricAvailabilities()"
+- "com.azure.resourcemanager.monitor.fluent.inner.MetricDefinitionInner.name()"
+- "com.azure.resourcemanager.monitor.fluent.inner.MetricDefinitionInner.namespace()"
+- "com.azure.resourcemanager.monitor.fluent.inner.MetricDefinitionInner.primaryAggregationType()"
+- "com.azure.resourcemanager.monitor.fluent.inner.MetricDefinitionInner.resourceId()"
+- "com.azure.resourcemanager.monitor.fluent.inner.MetricDefinitionInner.supportedAggregationTypes()"
+- "com.azure.resourcemanager.monitor.fluent.inner.MetricDefinitionInner.unit()"
+- "com.azure.resourcemanager.monitor.fluent.inner.MetricDefinitionInner.validate()"
+- "com.azure.resourcemanager.monitor.fluent.inner.MetricDefinitionInner.withDimensions(java.util.List<com.azure.resourcemanager.monitor.fluent.inner.LocalizableStringInner>)"
+- "com.azure.resourcemanager.monitor.fluent.inner.MetricDefinitionInner.withId(java.lang.String)"
+- "com.azure.resourcemanager.monitor.fluent.inner.MetricDefinitionInner.withIsDimensionRequired(java.lang.Boolean)"
+- "com.azure.resourcemanager.monitor.fluent.inner.MetricDefinitionInner.withMetricAvailabilities(java.util.List<com.azure.resourcemanager.monitor.models.MetricAvailability>)"
+- "com.azure.resourcemanager.monitor.fluent.inner.MetricDefinitionInner.withName(com.azure.resourcemanager.monitor.fluent.inner.LocalizableStringInner)"
+- "com.azure.resourcemanager.monitor.fluent.inner.MetricDefinitionInner.withNamespace(java.lang.String)"
+- "com.azure.resourcemanager.monitor.fluent.inner.MetricDefinitionInner.withPrimaryAggregationType(com.azure.resourcemanager.monitor.models.AggregationType)"
+- "com.azure.resourcemanager.monitor.fluent.inner.MetricDefinitionInner.withResourceId(java.lang.String)"
+- "com.azure.resourcemanager.monitor.fluent.inner.MetricDefinitionInner.withSupportedAggregationTypes(java.util.List<com.azure.resourcemanager.monitor.models.AggregationType>)"
+- "com.azure.resourcemanager.monitor.fluent.inner.MetricDefinitionInner.withUnit(com.azure.resourcemanager.monitor.models.Unit)"
+type: "class"
 metadata: {}
-package: com.azure.resourcemanager.monitor.fluent.inner
+package: "com.azure.resourcemanager.monitor.fluent.inner"
 artifact: com.azure.resourcemanager:azure-resourcemanager-monitor:2.0.0-beta.2

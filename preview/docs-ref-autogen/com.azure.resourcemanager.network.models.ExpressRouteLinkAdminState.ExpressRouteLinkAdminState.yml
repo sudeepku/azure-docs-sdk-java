@@ -1,15 +1,15 @@
 ### YamlMime:JavaMember
-uid: com.azure.resourcemanager.network.models.ExpressRouteLinkAdminState.ExpressRouteLinkAdminState*
-fullName: com.azure.resourcemanager.network.models.ExpressRouteLinkAdminState.ExpressRouteLinkAdminState
-name: ExpressRouteLinkAdminState
-nameWithType: ExpressRouteLinkAdminState.ExpressRouteLinkAdminState
+uid: "com.azure.resourcemanager.network.models.ExpressRouteLinkAdminState.ExpressRouteLinkAdminState*"
+fullName: "com.azure.resourcemanager.network.models.ExpressRouteLinkAdminState.ExpressRouteLinkAdminState"
+name: "ExpressRouteLinkAdminState"
+nameWithType: "ExpressRouteLinkAdminState.ExpressRouteLinkAdminState"
 members:
-- uid: com.azure.resourcemanager.network.models.ExpressRouteLinkAdminState.ExpressRouteLinkAdminState()
-  fullName: com.azure.resourcemanager.network.models.ExpressRouteLinkAdminState.ExpressRouteLinkAdminState()
-  name: ExpressRouteLinkAdminState()
-  nameWithType: ExpressRouteLinkAdminState.ExpressRouteLinkAdminState()
-  syntax: public ExpressRouteLinkAdminState()
-type: constructor
+- uid: "com.azure.resourcemanager.network.models.ExpressRouteLinkAdminState.ExpressRouteLinkAdminState()"
+  fullName: "com.azure.resourcemanager.network.models.ExpressRouteLinkAdminState.ExpressRouteLinkAdminState()"
+  name: "ExpressRouteLinkAdminState()"
+  nameWithType: "ExpressRouteLinkAdminState.ExpressRouteLinkAdminState()"
+  syntax: "public ExpressRouteLinkAdminState()"
+type: "constructor"
 metadata: {}
-package: com.azure.resourcemanager.network.models
+package: "com.azure.resourcemanager.network.models"
 artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.0.0-beta.2

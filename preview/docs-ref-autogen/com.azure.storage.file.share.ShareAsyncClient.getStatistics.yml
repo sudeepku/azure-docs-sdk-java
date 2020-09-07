@@ -1,32 +1,19 @@
 ### YamlMime:JavaMember
-uid: com.azure.storage.file.share.ShareAsyncClient.getStatistics*
-fullName: com.azure.storage.file.share.ShareAsyncClient.getStatistics
-name: getStatistics
-nameWithType: ShareAsyncClient.getStatistics
+uid: "com.azure.storage.file.share.ShareAsyncClient.getStatistics*"
+fullName: "com.azure.storage.file.share.ShareAsyncClient.getStatistics"
+name: "getStatistics"
+nameWithType: "ShareAsyncClient.getStatistics"
 members:
-- uid: com.azure.storage.file.share.ShareAsyncClient.getStatistics()
-  fullName: com.azure.storage.file.share.ShareAsyncClient.getStatistics()
-  name: getStatistics()
-  nameWithType: ShareAsyncClient.getStatistics()
-  summary: |-
-    Retrieves storage statistics about the share.
-
-     <p><strong>Code Samples</strong></p>
-
-     <p>Retrieve the storage statistics</p>
-
-     <pre>
-     shareAsyncClient.getStatistics&#40;&#41;.doOnSuccess&#40;response -&gt; System.out.printf&#40;&quot;The share is using %d GB&quot;,
-         response.getShareUsageInGB&#40;&#41;&#41;&#41;;
-     </pre>
-
-     <p>For more information, see the
-     <a href="https://docs.microsoft.com/en-us/rest/api/storageservices/get-share-stats">Azure Docs</a>.</p>
-  syntax: public Mono<ShareStatistics> getStatistics()
+- uid: "com.azure.storage.file.share.ShareAsyncClient.getStatistics()"
+  fullName: "com.azure.storage.file.share.ShareAsyncClient.getStatistics()"
+  name: "getStatistics()"
+  nameWithType: "ShareAsyncClient.getStatistics()"
+  summary: "Retrieves storage statistics about the share.\n\n <p><strong>Code Samples</strong></p>\n\n <p>Retrieve the storage statistics</p>\n\n <pre>\n shareAsyncClient.getStatistics&#40;&#41;.doOnSuccess&#40;response -&gt; System.out.printf&#40;&quot;The share is using %d GB&quot;,\n     response.getShareUsageInGB&#40;&#41;&#41;&#41;;\n </pre>\n\n <p>For more information, see the\n <a href=\"https://docs.microsoft.com/en-us/rest/api/storageservices/get-share-stats\">Azure Docs</a>.</p>"
+  syntax: "public Mono<ShareStatistics> getStatistics()"
   returns:
-    description: The storage <xref uid="com.azure.storage.file.share.models.ShareStatistics" data-throw-if-not-resolved="false">statistics of the share</xref>
-    type: <xref href="reactor.core.publisher.Mono?alt=reactor.core.publisher.Mono&text=Mono" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.storage.file.share.models.ShareStatistics?alt=com.azure.storage.file.share.models.ShareStatistics&text=ShareStatistics" data-throw-if-not-resolved="False" />&gt;
-type: method
+    description: "The storage <xref uid=\"com.azure.storage.file.share.models.ShareStatistics\" data-throw-if-not-resolved=\"false\">statistics of the share</xref>"
+    type: "<xref href=\"reactor.core.publisher.Mono?alt=reactor.core.publisher.Mono&text=Mono\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.storage.file.share.models.ShareStatistics?alt=com.azure.storage.file.share.models.ShareStatistics&text=ShareStatistics\" data-throw-if-not-resolved=\"False\" />&gt;"
+type: "method"
 metadata: {}
-package: com.azure.storage.file.share
+package: "com.azure.storage.file.share"
 artifact: com.azure:azure-storage-file-share:12.6.0-beta.1

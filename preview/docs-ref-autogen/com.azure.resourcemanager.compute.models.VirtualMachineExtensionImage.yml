@@ -1,28 +1,25 @@
 ### YamlMime:JavaType
-uid: com.azure.resourcemanager.compute.models.VirtualMachineExtensionImage
-fullName: com.azure.resourcemanager.compute.models.VirtualMachineExtensionImage
-name: VirtualMachineExtensionImage
-nameWithType: VirtualMachineExtensionImage
-summary: |-
-  An immutable client-side representation of an Azure virtual machine extension image.
-
-  Note: Azure virtual machine extension image is also referred as virtual machine extension handler.
-syntax: public interface VirtualMachineExtensionImage extends HasInner<VirtualMachineExtensionImageInner>
+uid: "com.azure.resourcemanager.compute.models.VirtualMachineExtensionImage"
+fullName: "com.azure.resourcemanager.compute.models.VirtualMachineExtensionImage"
+name: "VirtualMachineExtensionImage"
+nameWithType: "VirtualMachineExtensionImage"
+summary: "An immutable client-side representation of an Azure virtual machine extension image.\n\nNote: Azure virtual machine extension image is also referred as virtual machine extension handler."
+syntax: "public interface VirtualMachineExtensionImage extends HasInner<VirtualMachineExtensionImageInner>"
 methods:
-- com.azure.resourcemanager.compute.models.VirtualMachineExtensionImage.computeRole()
-- com.azure.resourcemanager.compute.models.VirtualMachineExtensionImage.handlerSchema()
-- com.azure.resourcemanager.compute.models.VirtualMachineExtensionImage.id()
-- com.azure.resourcemanager.compute.models.VirtualMachineExtensionImage.osType()
-- com.azure.resourcemanager.compute.models.VirtualMachineExtensionImage.publisherName()
-- com.azure.resourcemanager.compute.models.VirtualMachineExtensionImage.regionName()
-- com.azure.resourcemanager.compute.models.VirtualMachineExtensionImage.supportsMultipleExtensions()
-- com.azure.resourcemanager.compute.models.VirtualMachineExtensionImage.supportsVirtualMachineScaleSets()
-- com.azure.resourcemanager.compute.models.VirtualMachineExtensionImage.typeName()
-- com.azure.resourcemanager.compute.models.VirtualMachineExtensionImage.version()
-- com.azure.resourcemanager.compute.models.VirtualMachineExtensionImage.versionName()
-type: interface
+- "com.azure.resourcemanager.compute.models.VirtualMachineExtensionImage.computeRole()"
+- "com.azure.resourcemanager.compute.models.VirtualMachineExtensionImage.handlerSchema()"
+- "com.azure.resourcemanager.compute.models.VirtualMachineExtensionImage.id()"
+- "com.azure.resourcemanager.compute.models.VirtualMachineExtensionImage.osType()"
+- "com.azure.resourcemanager.compute.models.VirtualMachineExtensionImage.publisherName()"
+- "com.azure.resourcemanager.compute.models.VirtualMachineExtensionImage.regionName()"
+- "com.azure.resourcemanager.compute.models.VirtualMachineExtensionImage.supportsMultipleExtensions()"
+- "com.azure.resourcemanager.compute.models.VirtualMachineExtensionImage.supportsVirtualMachineScaleSets()"
+- "com.azure.resourcemanager.compute.models.VirtualMachineExtensionImage.typeName()"
+- "com.azure.resourcemanager.compute.models.VirtualMachineExtensionImage.version()"
+- "com.azure.resourcemanager.compute.models.VirtualMachineExtensionImage.versionName()"
+type: "interface"
 implements:
-- <xref href="com.azure.resourcemanager.resources.fluentcore.model.HasInner?alt=com.azure.resourcemanager.resources.fluentcore.model.HasInner&text=HasInner" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.resourcemanager.compute.fluent.inner.VirtualMachineExtensionImageInner?alt=com.azure.resourcemanager.compute.fluent.inner.VirtualMachineExtensionImageInner&text=VirtualMachineExtensionImageInner" data-throw-if-not-resolved="False" />&gt;
+- "<xref href=\"com.azure.resourcemanager.resources.fluentcore.model.HasInner?alt=com.azure.resourcemanager.resources.fluentcore.model.HasInner&text=HasInner\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.compute.fluent.inner.VirtualMachineExtensionImageInner?alt=com.azure.resourcemanager.compute.fluent.inner.VirtualMachineExtensionImageInner&text=VirtualMachineExtensionImageInner\" data-throw-if-not-resolved=\"False\" />&gt;"
 metadata: {}
-package: com.azure.resourcemanager.compute.models
+package: "com.azure.resourcemanager.compute.models"
 artifact: com.azure.resourcemanager:azure-resourcemanager-compute:2.0.0-beta.2

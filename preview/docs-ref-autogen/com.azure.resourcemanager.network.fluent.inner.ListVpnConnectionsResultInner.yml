@@ -1,33 +1,33 @@
 ### YamlMime:JavaType
-uid: com.azure.resourcemanager.network.fluent.inner.ListVpnConnectionsResultInner
-fullName: com.azure.resourcemanager.network.fluent.inner.ListVpnConnectionsResultInner
-name: ListVpnConnectionsResultInner
-nameWithType: ListVpnConnectionsResultInner
-summary: The ListVpnConnectionsResult model.
+uid: "com.azure.resourcemanager.network.fluent.inner.ListVpnConnectionsResultInner"
+fullName: "com.azure.resourcemanager.network.fluent.inner.ListVpnConnectionsResultInner"
+name: "ListVpnConnectionsResultInner"
+nameWithType: "ListVpnConnectionsResultInner"
+summary: "The ListVpnConnectionsResult model."
 inheritances:
-- <xref href="java.lang.Object" data-throw-if-not-resolved="False" />
+- "<xref href=\"java.lang.Object\" data-throw-if-not-resolved=\"False\" />"
 inheritedMembers:
-- java.lang.Object.clone()
-- java.lang.Object.equals(java.lang.Object)
-- java.lang.Object.finalize()
-- java.lang.Object.getClass()
-- java.lang.Object.hashCode()
-- java.lang.Object.notify()
-- java.lang.Object.notifyAll()
-- java.lang.Object.toString()
-- java.lang.Object.wait()
-- java.lang.Object.wait(long)
-- java.lang.Object.wait(long,int)
-syntax: public final class ListVpnConnectionsResultInner
+- "java.lang.Object.clone()"
+- "java.lang.Object.equals(java.lang.Object)"
+- "java.lang.Object.finalize()"
+- "java.lang.Object.getClass()"
+- "java.lang.Object.hashCode()"
+- "java.lang.Object.notify()"
+- "java.lang.Object.notifyAll()"
+- "java.lang.Object.toString()"
+- "java.lang.Object.wait()"
+- "java.lang.Object.wait(long)"
+- "java.lang.Object.wait(long,int)"
+syntax: "public final class ListVpnConnectionsResultInner"
 constructors:
-- com.azure.resourcemanager.network.fluent.inner.ListVpnConnectionsResultInner.ListVpnConnectionsResultInner()
+- "com.azure.resourcemanager.network.fluent.inner.ListVpnConnectionsResultInner.ListVpnConnectionsResultInner()"
 methods:
-- com.azure.resourcemanager.network.fluent.inner.ListVpnConnectionsResultInner.nextLink()
-- com.azure.resourcemanager.network.fluent.inner.ListVpnConnectionsResultInner.validate()
-- com.azure.resourcemanager.network.fluent.inner.ListVpnConnectionsResultInner.value()
-- com.azure.resourcemanager.network.fluent.inner.ListVpnConnectionsResultInner.withNextLink(java.lang.String)
-- com.azure.resourcemanager.network.fluent.inner.ListVpnConnectionsResultInner.withValue(java.util.List<com.azure.resourcemanager.network.fluent.inner.VpnConnectionInner>)
-type: class
+- "com.azure.resourcemanager.network.fluent.inner.ListVpnConnectionsResultInner.nextLink()"
+- "com.azure.resourcemanager.network.fluent.inner.ListVpnConnectionsResultInner.validate()"
+- "com.azure.resourcemanager.network.fluent.inner.ListVpnConnectionsResultInner.value()"
+- "com.azure.resourcemanager.network.fluent.inner.ListVpnConnectionsResultInner.withNextLink(java.lang.String)"
+- "com.azure.resourcemanager.network.fluent.inner.ListVpnConnectionsResultInner.withValue(java.util.List<com.azure.resourcemanager.network.fluent.inner.VpnConnectionInner>)"
+type: "class"
 metadata: {}
-package: com.azure.resourcemanager.network.fluent.inner
+package: "com.azure.resourcemanager.network.fluent.inner"
 artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.0.0-beta.2

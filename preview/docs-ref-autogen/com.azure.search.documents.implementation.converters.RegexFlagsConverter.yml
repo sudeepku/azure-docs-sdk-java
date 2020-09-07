@@ -1,28 +1,28 @@
 ### YamlMime:JavaType
-uid: com.azure.search.documents.implementation.converters.RegexFlagsConverter
-fullName: com.azure.search.documents.implementation.converters.RegexFlagsConverter
-name: RegexFlagsConverter
-nameWithType: RegexFlagsConverter
-summary: A converter between <xref uid="com.azure.search.documents.indexes.implementation.models.RegexFlags" data-throw-if-not-resolved="false">com.azure.search.documents.indexes.implementation.models.RegexFlags</xref> and <xref uid="com.azure.search.documents.indexes.models.RegexFlags" data-throw-if-not-resolved="false">RegexFlags</xref>.
+uid: "com.azure.search.documents.implementation.converters.RegexFlagsConverter"
+fullName: "com.azure.search.documents.implementation.converters.RegexFlagsConverter"
+name: "RegexFlagsConverter"
+nameWithType: "RegexFlagsConverter"
+summary: "A converter between <xref uid=\"com.azure.search.documents.indexes.implementation.models.RegexFlags\" data-throw-if-not-resolved=\"false\">com.azure.search.documents.indexes.implementation.models.RegexFlags</xref> and <xref uid=\"com.azure.search.documents.indexes.models.RegexFlags\" data-throw-if-not-resolved=\"false\">RegexFlags</xref>."
 inheritances:
-- <xref href="java.lang.Object" data-throw-if-not-resolved="False" />
+- "<xref href=\"java.lang.Object\" data-throw-if-not-resolved=\"False\" />"
 inheritedMembers:
-- java.lang.Object.clone()
-- java.lang.Object.equals(java.lang.Object)
-- java.lang.Object.finalize()
-- java.lang.Object.getClass()
-- java.lang.Object.hashCode()
-- java.lang.Object.notify()
-- java.lang.Object.notifyAll()
-- java.lang.Object.toString()
-- java.lang.Object.wait()
-- java.lang.Object.wait(long)
-- java.lang.Object.wait(long,int)
-syntax: public final class RegexFlagsConverter
+- "java.lang.Object.clone()"
+- "java.lang.Object.equals(java.lang.Object)"
+- "java.lang.Object.finalize()"
+- "java.lang.Object.getClass()"
+- "java.lang.Object.hashCode()"
+- "java.lang.Object.notify()"
+- "java.lang.Object.notifyAll()"
+- "java.lang.Object.toString()"
+- "java.lang.Object.wait()"
+- "java.lang.Object.wait(long)"
+- "java.lang.Object.wait(long,int)"
+syntax: "public final class RegexFlagsConverter"
 methods:
-- com.azure.search.documents.implementation.converters.RegexFlagsConverter.map(com.azure.search.documents.indexes.implementation.models.RegexFlags)
-- com.azure.search.documents.implementation.converters.RegexFlagsConverter.map(com.azure.search.documents.indexes.models.RegexFlags)
-type: class
+- "com.azure.search.documents.implementation.converters.RegexFlagsConverter.map(com.azure.search.documents.indexes.implementation.models.RegexFlags)"
+- "com.azure.search.documents.implementation.converters.RegexFlagsConverter.map(com.azure.search.documents.indexes.models.RegexFlags)"
+type: "class"
 metadata: {}
-package: com.azure.search.documents.implementation.converters
+package: "com.azure.search.documents.implementation.converters"
 artifact: com.azure:azure-search-documents:11.1.0-beta.1

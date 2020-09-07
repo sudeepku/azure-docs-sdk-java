@@ -1,36 +1,36 @@
 ### YamlMime:JavaType
-uid: com.azure.resourcemanager.authorization.fluent.ClassicAdministratorsClient
-fullName: com.azure.resourcemanager.authorization.fluent.ClassicAdministratorsClient
-name: ClassicAdministratorsClient
-nameWithType: ClassicAdministratorsClient
-summary: An instance of this class provides access to all the operations defined in ClassicAdministrators.
+uid: "com.azure.resourcemanager.authorization.fluent.ClassicAdministratorsClient"
+fullName: "com.azure.resourcemanager.authorization.fluent.ClassicAdministratorsClient"
+name: "ClassicAdministratorsClient"
+nameWithType: "ClassicAdministratorsClient"
+summary: "An instance of this class provides access to all the operations defined in ClassicAdministrators."
 inheritances:
-- <xref href="java.lang.Object" data-throw-if-not-resolved="False" />
+- "<xref href=\"java.lang.Object\" data-throw-if-not-resolved=\"False\" />"
 inheritedMembers:
-- java.lang.Object.clone()
-- java.lang.Object.equals(java.lang.Object)
-- java.lang.Object.finalize()
-- java.lang.Object.getClass()
-- java.lang.Object.hashCode()
-- java.lang.Object.notify()
-- java.lang.Object.notifyAll()
-- java.lang.Object.toString()
-- java.lang.Object.wait()
-- java.lang.Object.wait(long)
-- java.lang.Object.wait(long,int)
-syntax: public final class ClassicAdministratorsClient
+- "java.lang.Object.clone()"
+- "java.lang.Object.equals(java.lang.Object)"
+- "java.lang.Object.finalize()"
+- "java.lang.Object.getClass()"
+- "java.lang.Object.hashCode()"
+- "java.lang.Object.notify()"
+- "java.lang.Object.notifyAll()"
+- "java.lang.Object.toString()"
+- "java.lang.Object.wait()"
+- "java.lang.Object.wait(long)"
+- "java.lang.Object.wait(long,int)"
+syntax: "public final class ClassicAdministratorsClient"
 constructors:
-- com.azure.resourcemanager.authorization.fluent.ClassicAdministratorsClient.ClassicAdministratorsClient(com.azure.resourcemanager.authorization.AuthorizationManagementClient)
+- "com.azure.resourcemanager.authorization.fluent.ClassicAdministratorsClient.ClassicAdministratorsClient(com.azure.resourcemanager.authorization.AuthorizationManagementClient)"
 methods:
-- com.azure.resourcemanager.authorization.fluent.ClassicAdministratorsClient.list()
-- com.azure.resourcemanager.authorization.fluent.ClassicAdministratorsClient.list(com.azure.core.util.Context)
-- com.azure.resourcemanager.authorization.fluent.ClassicAdministratorsClient.listAsync()
-- com.azure.resourcemanager.authorization.fluent.ClassicAdministratorsClient.listAsync(com.azure.core.util.Context)
-- com.azure.resourcemanager.authorization.fluent.ClassicAdministratorsClient.listNextSinglePageAsync(java.lang.String)
-- com.azure.resourcemanager.authorization.fluent.ClassicAdministratorsClient.listNextSinglePageAsync(java.lang.String,com.azure.core.util.Context)
-- com.azure.resourcemanager.authorization.fluent.ClassicAdministratorsClient.listSinglePageAsync()
-- com.azure.resourcemanager.authorization.fluent.ClassicAdministratorsClient.listSinglePageAsync(com.azure.core.util.Context)
-type: class
+- "com.azure.resourcemanager.authorization.fluent.ClassicAdministratorsClient.list()"
+- "com.azure.resourcemanager.authorization.fluent.ClassicAdministratorsClient.list(com.azure.core.util.Context)"
+- "com.azure.resourcemanager.authorization.fluent.ClassicAdministratorsClient.listAsync()"
+- "com.azure.resourcemanager.authorization.fluent.ClassicAdministratorsClient.listAsync(com.azure.core.util.Context)"
+- "com.azure.resourcemanager.authorization.fluent.ClassicAdministratorsClient.listNextSinglePageAsync(java.lang.String)"
+- "com.azure.resourcemanager.authorization.fluent.ClassicAdministratorsClient.listNextSinglePageAsync(java.lang.String,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.authorization.fluent.ClassicAdministratorsClient.listSinglePageAsync()"
+- "com.azure.resourcemanager.authorization.fluent.ClassicAdministratorsClient.listSinglePageAsync(com.azure.core.util.Context)"
+type: "class"
 metadata: {}
-package: com.azure.resourcemanager.authorization.fluent
+package: "com.azure.resourcemanager.authorization.fluent"
 artifact: com.azure.resourcemanager:azure-resourcemanager-authorization:2.0.0-beta.2

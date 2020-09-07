@@ -1,23 +1,23 @@
 ### YamlMime:JavaMember
-uid: com.azure.data.schemaregistry.client.CachedSchemaRegistryClientBuilder.endpoint*
-fullName: com.azure.data.schemaregistry.client.CachedSchemaRegistryClientBuilder.endpoint
-name: endpoint
-nameWithType: CachedSchemaRegistryClientBuilder.endpoint
+uid: "com.azure.data.schemaregistry.client.CachedSchemaRegistryClientBuilder.endpoint*"
+fullName: "com.azure.data.schemaregistry.client.CachedSchemaRegistryClientBuilder.endpoint"
+name: "endpoint"
+nameWithType: "CachedSchemaRegistryClientBuilder.endpoint"
 members:
-- uid: com.azure.data.schemaregistry.client.CachedSchemaRegistryClientBuilder.endpoint(java.lang.String)
-  fullName: com.azure.data.schemaregistry.client.CachedSchemaRegistryClientBuilder.endpoint(String schemaRegistryUrl)
-  name: endpoint(String schemaRegistryUrl)
-  nameWithType: CachedSchemaRegistryClientBuilder.endpoint(String schemaRegistryUrl)
-  summary: Sets the service endpoint for the Azure Schema Registry instance.
+- uid: "com.azure.data.schemaregistry.client.CachedSchemaRegistryClientBuilder.endpoint(java.lang.String)"
+  fullName: "com.azure.data.schemaregistry.client.CachedSchemaRegistryClientBuilder.endpoint(String schemaRegistryUrl)"
+  name: "endpoint(String schemaRegistryUrl)"
+  nameWithType: "CachedSchemaRegistryClientBuilder.endpoint(String schemaRegistryUrl)"
+  summary: "Sets the service endpoint for the Azure Schema Registry instance."
   parameters:
-  - description: The URL of the Azure Schema Registry instance
-    name: schemaRegistryUrl
-    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
-  syntax: public CachedSchemaRegistryClientBuilder endpoint(String schemaRegistryUrl)
+  - description: "The URL of the Azure Schema Registry instance"
+    name: "schemaRegistryUrl"
+    type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public CachedSchemaRegistryClientBuilder endpoint(String schemaRegistryUrl)"
   returns:
-    description: The updated <xref uid="com.azure.data.schemaregistry.client.CachedSchemaRegistryClientBuilder" data-throw-if-not-resolved="false">CachedSchemaRegistryClientBuilder</xref> object.
-    type: <xref href="com.azure.data.schemaregistry.client.CachedSchemaRegistryClientBuilder?alt=com.azure.data.schemaregistry.client.CachedSchemaRegistryClientBuilder&text=CachedSchemaRegistryClientBuilder" data-throw-if-not-resolved="False" />
-type: method
+    description: "The updated <xref uid=\"com.azure.data.schemaregistry.client.CachedSchemaRegistryClientBuilder\" data-throw-if-not-resolved=\"false\">CachedSchemaRegistryClientBuilder</xref> object."
+    type: "<xref href=\"com.azure.data.schemaregistry.client.CachedSchemaRegistryClientBuilder?alt=com.azure.data.schemaregistry.client.CachedSchemaRegistryClientBuilder&text=CachedSchemaRegistryClientBuilder\" data-throw-if-not-resolved=\"False\" />"
+type: "method"
 metadata: {}
-package: com.azure.data.schemaregistry.client
+package: "com.azure.data.schemaregistry.client"
 artifact: com.azure:azure-data-schemaregistry:1.0.0-beta.1

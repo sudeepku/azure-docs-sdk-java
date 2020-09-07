@@ -1,56 +1,56 @@
 ### YamlMime:JavaType
-uid: com.azure.resourcemanager.compute.fluent.LogAnalyticsClient
-fullName: com.azure.resourcemanager.compute.fluent.LogAnalyticsClient
-name: LogAnalyticsClient
-nameWithType: LogAnalyticsClient
-summary: An instance of this class provides access to all the operations defined in LogAnalytics.
+uid: "com.azure.resourcemanager.compute.fluent.LogAnalyticsClient"
+fullName: "com.azure.resourcemanager.compute.fluent.LogAnalyticsClient"
+name: "LogAnalyticsClient"
+nameWithType: "LogAnalyticsClient"
+summary: "An instance of this class provides access to all the operations defined in LogAnalytics."
 inheritances:
-- <xref href="java.lang.Object" data-throw-if-not-resolved="False" />
+- "<xref href=\"java.lang.Object\" data-throw-if-not-resolved=\"False\" />"
 inheritedMembers:
-- java.lang.Object.clone()
-- java.lang.Object.equals(java.lang.Object)
-- java.lang.Object.finalize()
-- java.lang.Object.getClass()
-- java.lang.Object.hashCode()
-- java.lang.Object.notify()
-- java.lang.Object.notifyAll()
-- java.lang.Object.toString()
-- java.lang.Object.wait()
-- java.lang.Object.wait(long)
-- java.lang.Object.wait(long,int)
-syntax: public final class LogAnalyticsClient
+- "java.lang.Object.clone()"
+- "java.lang.Object.equals(java.lang.Object)"
+- "java.lang.Object.finalize()"
+- "java.lang.Object.getClass()"
+- "java.lang.Object.hashCode()"
+- "java.lang.Object.notify()"
+- "java.lang.Object.notifyAll()"
+- "java.lang.Object.toString()"
+- "java.lang.Object.wait()"
+- "java.lang.Object.wait(long)"
+- "java.lang.Object.wait(long,int)"
+syntax: "public final class LogAnalyticsClient"
 constructors:
-- com.azure.resourcemanager.compute.fluent.LogAnalyticsClient.LogAnalyticsClient(com.azure.resourcemanager.compute.ComputeManagementClient)
+- "com.azure.resourcemanager.compute.fluent.LogAnalyticsClient.LogAnalyticsClient(com.azure.resourcemanager.compute.ComputeManagementClient)"
 methods:
-- com.azure.resourcemanager.compute.fluent.LogAnalyticsClient.beginExportRequestRateByInterval(java.lang.String,com.azure.resourcemanager.compute.models.RequestRateByIntervalInput)
-- com.azure.resourcemanager.compute.fluent.LogAnalyticsClient.beginExportRequestRateByInterval(java.lang.String,com.azure.resourcemanager.compute.models.RequestRateByIntervalInput,com.azure.core.util.Context)
-- com.azure.resourcemanager.compute.fluent.LogAnalyticsClient.beginExportRequestRateByIntervalWithoutPolling(java.lang.String,com.azure.resourcemanager.compute.models.RequestRateByIntervalInput)
-- com.azure.resourcemanager.compute.fluent.LogAnalyticsClient.beginExportRequestRateByIntervalWithoutPolling(java.lang.String,com.azure.resourcemanager.compute.models.RequestRateByIntervalInput,com.azure.core.util.Context)
-- com.azure.resourcemanager.compute.fluent.LogAnalyticsClient.beginExportRequestRateByIntervalWithoutPollingAsync(java.lang.String,com.azure.resourcemanager.compute.models.RequestRateByIntervalInput)
-- com.azure.resourcemanager.compute.fluent.LogAnalyticsClient.beginExportRequestRateByIntervalWithoutPollingAsync(java.lang.String,com.azure.resourcemanager.compute.models.RequestRateByIntervalInput,com.azure.core.util.Context)
-- com.azure.resourcemanager.compute.fluent.LogAnalyticsClient.beginExportRequestRateByIntervalWithoutPollingWithResponseAsync(java.lang.String,com.azure.resourcemanager.compute.models.RequestRateByIntervalInput)
-- com.azure.resourcemanager.compute.fluent.LogAnalyticsClient.beginExportRequestRateByIntervalWithoutPollingWithResponseAsync(java.lang.String,com.azure.resourcemanager.compute.models.RequestRateByIntervalInput,com.azure.core.util.Context)
-- com.azure.resourcemanager.compute.fluent.LogAnalyticsClient.beginExportThrottledRequests(java.lang.String,com.azure.resourcemanager.compute.models.LogAnalyticsInputBase)
-- com.azure.resourcemanager.compute.fluent.LogAnalyticsClient.beginExportThrottledRequests(java.lang.String,com.azure.resourcemanager.compute.models.LogAnalyticsInputBase,com.azure.core.util.Context)
-- com.azure.resourcemanager.compute.fluent.LogAnalyticsClient.beginExportThrottledRequestsWithoutPolling(java.lang.String,com.azure.resourcemanager.compute.models.LogAnalyticsInputBase)
-- com.azure.resourcemanager.compute.fluent.LogAnalyticsClient.beginExportThrottledRequestsWithoutPolling(java.lang.String,com.azure.resourcemanager.compute.models.LogAnalyticsInputBase,com.azure.core.util.Context)
-- com.azure.resourcemanager.compute.fluent.LogAnalyticsClient.beginExportThrottledRequestsWithoutPollingAsync(java.lang.String,com.azure.resourcemanager.compute.models.LogAnalyticsInputBase)
-- com.azure.resourcemanager.compute.fluent.LogAnalyticsClient.beginExportThrottledRequestsWithoutPollingAsync(java.lang.String,com.azure.resourcemanager.compute.models.LogAnalyticsInputBase,com.azure.core.util.Context)
-- com.azure.resourcemanager.compute.fluent.LogAnalyticsClient.beginExportThrottledRequestsWithoutPollingWithResponseAsync(java.lang.String,com.azure.resourcemanager.compute.models.LogAnalyticsInputBase)
-- com.azure.resourcemanager.compute.fluent.LogAnalyticsClient.beginExportThrottledRequestsWithoutPollingWithResponseAsync(java.lang.String,com.azure.resourcemanager.compute.models.LogAnalyticsInputBase,com.azure.core.util.Context)
-- com.azure.resourcemanager.compute.fluent.LogAnalyticsClient.exportRequestRateByInterval(java.lang.String,com.azure.resourcemanager.compute.models.RequestRateByIntervalInput)
-- com.azure.resourcemanager.compute.fluent.LogAnalyticsClient.exportRequestRateByInterval(java.lang.String,com.azure.resourcemanager.compute.models.RequestRateByIntervalInput,com.azure.core.util.Context)
-- com.azure.resourcemanager.compute.fluent.LogAnalyticsClient.exportRequestRateByIntervalAsync(java.lang.String,com.azure.resourcemanager.compute.models.RequestRateByIntervalInput)
-- com.azure.resourcemanager.compute.fluent.LogAnalyticsClient.exportRequestRateByIntervalAsync(java.lang.String,com.azure.resourcemanager.compute.models.RequestRateByIntervalInput,com.azure.core.util.Context)
-- com.azure.resourcemanager.compute.fluent.LogAnalyticsClient.exportRequestRateByIntervalWithResponseAsync(java.lang.String,com.azure.resourcemanager.compute.models.RequestRateByIntervalInput)
-- com.azure.resourcemanager.compute.fluent.LogAnalyticsClient.exportRequestRateByIntervalWithResponseAsync(java.lang.String,com.azure.resourcemanager.compute.models.RequestRateByIntervalInput,com.azure.core.util.Context)
-- com.azure.resourcemanager.compute.fluent.LogAnalyticsClient.exportThrottledRequests(java.lang.String,com.azure.resourcemanager.compute.models.LogAnalyticsInputBase)
-- com.azure.resourcemanager.compute.fluent.LogAnalyticsClient.exportThrottledRequests(java.lang.String,com.azure.resourcemanager.compute.models.LogAnalyticsInputBase,com.azure.core.util.Context)
-- com.azure.resourcemanager.compute.fluent.LogAnalyticsClient.exportThrottledRequestsAsync(java.lang.String,com.azure.resourcemanager.compute.models.LogAnalyticsInputBase)
-- com.azure.resourcemanager.compute.fluent.LogAnalyticsClient.exportThrottledRequestsAsync(java.lang.String,com.azure.resourcemanager.compute.models.LogAnalyticsInputBase,com.azure.core.util.Context)
-- com.azure.resourcemanager.compute.fluent.LogAnalyticsClient.exportThrottledRequestsWithResponseAsync(java.lang.String,com.azure.resourcemanager.compute.models.LogAnalyticsInputBase)
-- com.azure.resourcemanager.compute.fluent.LogAnalyticsClient.exportThrottledRequestsWithResponseAsync(java.lang.String,com.azure.resourcemanager.compute.models.LogAnalyticsInputBase,com.azure.core.util.Context)
-type: class
+- "com.azure.resourcemanager.compute.fluent.LogAnalyticsClient.beginExportRequestRateByInterval(java.lang.String,com.azure.resourcemanager.compute.models.RequestRateByIntervalInput)"
+- "com.azure.resourcemanager.compute.fluent.LogAnalyticsClient.beginExportRequestRateByInterval(java.lang.String,com.azure.resourcemanager.compute.models.RequestRateByIntervalInput,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.compute.fluent.LogAnalyticsClient.beginExportRequestRateByIntervalWithoutPolling(java.lang.String,com.azure.resourcemanager.compute.models.RequestRateByIntervalInput)"
+- "com.azure.resourcemanager.compute.fluent.LogAnalyticsClient.beginExportRequestRateByIntervalWithoutPolling(java.lang.String,com.azure.resourcemanager.compute.models.RequestRateByIntervalInput,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.compute.fluent.LogAnalyticsClient.beginExportRequestRateByIntervalWithoutPollingAsync(java.lang.String,com.azure.resourcemanager.compute.models.RequestRateByIntervalInput)"
+- "com.azure.resourcemanager.compute.fluent.LogAnalyticsClient.beginExportRequestRateByIntervalWithoutPollingAsync(java.lang.String,com.azure.resourcemanager.compute.models.RequestRateByIntervalInput,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.compute.fluent.LogAnalyticsClient.beginExportRequestRateByIntervalWithoutPollingWithResponseAsync(java.lang.String,com.azure.resourcemanager.compute.models.RequestRateByIntervalInput)"
+- "com.azure.resourcemanager.compute.fluent.LogAnalyticsClient.beginExportRequestRateByIntervalWithoutPollingWithResponseAsync(java.lang.String,com.azure.resourcemanager.compute.models.RequestRateByIntervalInput,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.compute.fluent.LogAnalyticsClient.beginExportThrottledRequests(java.lang.String,com.azure.resourcemanager.compute.models.LogAnalyticsInputBase)"
+- "com.azure.resourcemanager.compute.fluent.LogAnalyticsClient.beginExportThrottledRequests(java.lang.String,com.azure.resourcemanager.compute.models.LogAnalyticsInputBase,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.compute.fluent.LogAnalyticsClient.beginExportThrottledRequestsWithoutPolling(java.lang.String,com.azure.resourcemanager.compute.models.LogAnalyticsInputBase)"
+- "com.azure.resourcemanager.compute.fluent.LogAnalyticsClient.beginExportThrottledRequestsWithoutPolling(java.lang.String,com.azure.resourcemanager.compute.models.LogAnalyticsInputBase,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.compute.fluent.LogAnalyticsClient.beginExportThrottledRequestsWithoutPollingAsync(java.lang.String,com.azure.resourcemanager.compute.models.LogAnalyticsInputBase)"
+- "com.azure.resourcemanager.compute.fluent.LogAnalyticsClient.beginExportThrottledRequestsWithoutPollingAsync(java.lang.String,com.azure.resourcemanager.compute.models.LogAnalyticsInputBase,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.compute.fluent.LogAnalyticsClient.beginExportThrottledRequestsWithoutPollingWithResponseAsync(java.lang.String,com.azure.resourcemanager.compute.models.LogAnalyticsInputBase)"
+- "com.azure.resourcemanager.compute.fluent.LogAnalyticsClient.beginExportThrottledRequestsWithoutPollingWithResponseAsync(java.lang.String,com.azure.resourcemanager.compute.models.LogAnalyticsInputBase,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.compute.fluent.LogAnalyticsClient.exportRequestRateByInterval(java.lang.String,com.azure.resourcemanager.compute.models.RequestRateByIntervalInput)"
+- "com.azure.resourcemanager.compute.fluent.LogAnalyticsClient.exportRequestRateByInterval(java.lang.String,com.azure.resourcemanager.compute.models.RequestRateByIntervalInput,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.compute.fluent.LogAnalyticsClient.exportRequestRateByIntervalAsync(java.lang.String,com.azure.resourcemanager.compute.models.RequestRateByIntervalInput)"
+- "com.azure.resourcemanager.compute.fluent.LogAnalyticsClient.exportRequestRateByIntervalAsync(java.lang.String,com.azure.resourcemanager.compute.models.RequestRateByIntervalInput,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.compute.fluent.LogAnalyticsClient.exportRequestRateByIntervalWithResponseAsync(java.lang.String,com.azure.resourcemanager.compute.models.RequestRateByIntervalInput)"
+- "com.azure.resourcemanager.compute.fluent.LogAnalyticsClient.exportRequestRateByIntervalWithResponseAsync(java.lang.String,com.azure.resourcemanager.compute.models.RequestRateByIntervalInput,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.compute.fluent.LogAnalyticsClient.exportThrottledRequests(java.lang.String,com.azure.resourcemanager.compute.models.LogAnalyticsInputBase)"
+- "com.azure.resourcemanager.compute.fluent.LogAnalyticsClient.exportThrottledRequests(java.lang.String,com.azure.resourcemanager.compute.models.LogAnalyticsInputBase,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.compute.fluent.LogAnalyticsClient.exportThrottledRequestsAsync(java.lang.String,com.azure.resourcemanager.compute.models.LogAnalyticsInputBase)"
+- "com.azure.resourcemanager.compute.fluent.LogAnalyticsClient.exportThrottledRequestsAsync(java.lang.String,com.azure.resourcemanager.compute.models.LogAnalyticsInputBase,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.compute.fluent.LogAnalyticsClient.exportThrottledRequestsWithResponseAsync(java.lang.String,com.azure.resourcemanager.compute.models.LogAnalyticsInputBase)"
+- "com.azure.resourcemanager.compute.fluent.LogAnalyticsClient.exportThrottledRequestsWithResponseAsync(java.lang.String,com.azure.resourcemanager.compute.models.LogAnalyticsInputBase,com.azure.core.util.Context)"
+type: "class"
 metadata: {}
-package: com.azure.resourcemanager.compute.fluent
+package: "com.azure.resourcemanager.compute.fluent"
 artifact: com.azure.resourcemanager:azure-resourcemanager-compute:2.0.0-beta.2

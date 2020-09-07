@@ -1,38 +1,38 @@
 ### YamlMime:JavaType
-uid: com.azure.data.schemaregistry.client.CachedSchemaRegistryClientBuilder
-fullName: com.azure.data.schemaregistry.client.CachedSchemaRegistryClientBuilder
-name: CachedSchemaRegistryClientBuilder
-nameWithType: CachedSchemaRegistryClientBuilder
-summary: Builder implementation for <xref uid="com.azure.data.schemaregistry.client.CachedSchemaRegistryClient" data-throw-if-not-resolved="false">CachedSchemaRegistryClient</xref>.
+uid: "com.azure.data.schemaregistry.client.CachedSchemaRegistryClientBuilder"
+fullName: "com.azure.data.schemaregistry.client.CachedSchemaRegistryClientBuilder"
+name: "CachedSchemaRegistryClientBuilder"
+nameWithType: "CachedSchemaRegistryClientBuilder"
+summary: "Builder implementation for <xref uid=\"com.azure.data.schemaregistry.client.CachedSchemaRegistryClient\" data-throw-if-not-resolved=\"false\">CachedSchemaRegistryClient</xref>."
 inheritances:
-- <xref href="java.lang.Object" data-throw-if-not-resolved="False" />
+- "<xref href=\"java.lang.Object\" data-throw-if-not-resolved=\"False\" />"
 inheritedMembers:
-- java.lang.Object.clone()
-- java.lang.Object.equals(java.lang.Object)
-- java.lang.Object.finalize()
-- java.lang.Object.getClass()
-- java.lang.Object.hashCode()
-- java.lang.Object.notify()
-- java.lang.Object.notifyAll()
-- java.lang.Object.toString()
-- java.lang.Object.wait()
-- java.lang.Object.wait(long)
-- java.lang.Object.wait(long,int)
-syntax: public class CachedSchemaRegistryClientBuilder
+- "java.lang.Object.clone()"
+- "java.lang.Object.equals(java.lang.Object)"
+- "java.lang.Object.finalize()"
+- "java.lang.Object.getClass()"
+- "java.lang.Object.hashCode()"
+- "java.lang.Object.notify()"
+- "java.lang.Object.notifyAll()"
+- "java.lang.Object.toString()"
+- "java.lang.Object.wait()"
+- "java.lang.Object.wait(long)"
+- "java.lang.Object.wait(long,int)"
+syntax: "public class CachedSchemaRegistryClientBuilder"
 constructors:
-- com.azure.data.schemaregistry.client.CachedSchemaRegistryClientBuilder.CachedSchemaRegistryClientBuilder()
+- "com.azure.data.schemaregistry.client.CachedSchemaRegistryClientBuilder.CachedSchemaRegistryClientBuilder()"
 methods:
-- com.azure.data.schemaregistry.client.CachedSchemaRegistryClientBuilder.addPolicy(com.azure.core.http.policy.HttpPipelinePolicy)
-- com.azure.data.schemaregistry.client.CachedSchemaRegistryClientBuilder.addSchemaParser(com.azure.data.schemaregistry.Codec)
-- com.azure.data.schemaregistry.client.CachedSchemaRegistryClientBuilder.buildClient()
-- com.azure.data.schemaregistry.client.CachedSchemaRegistryClientBuilder.credential(com.azure.core.credential.TokenCredential)
-- com.azure.data.schemaregistry.client.CachedSchemaRegistryClientBuilder.endpoint(java.lang.String)
-- com.azure.data.schemaregistry.client.CachedSchemaRegistryClientBuilder.httpClient(com.azure.core.http.HttpClient)
-- com.azure.data.schemaregistry.client.CachedSchemaRegistryClientBuilder.httpLogOptions(com.azure.core.http.policy.HttpLogOptions)
-- com.azure.data.schemaregistry.client.CachedSchemaRegistryClientBuilder.maxSchemaMapSize(int)
-- com.azure.data.schemaregistry.client.CachedSchemaRegistryClientBuilder.pipeline(com.azure.core.http.HttpPipeline)
-- com.azure.data.schemaregistry.client.CachedSchemaRegistryClientBuilder.retryPolicy(com.azure.core.http.policy.RetryPolicy)
-type: class
+- "com.azure.data.schemaregistry.client.CachedSchemaRegistryClientBuilder.addPolicy(com.azure.core.http.policy.HttpPipelinePolicy)"
+- "com.azure.data.schemaregistry.client.CachedSchemaRegistryClientBuilder.addSchemaParser(com.azure.data.schemaregistry.Codec)"
+- "com.azure.data.schemaregistry.client.CachedSchemaRegistryClientBuilder.buildClient()"
+- "com.azure.data.schemaregistry.client.CachedSchemaRegistryClientBuilder.credential(com.azure.core.credential.TokenCredential)"
+- "com.azure.data.schemaregistry.client.CachedSchemaRegistryClientBuilder.endpoint(java.lang.String)"
+- "com.azure.data.schemaregistry.client.CachedSchemaRegistryClientBuilder.httpClient(com.azure.core.http.HttpClient)"
+- "com.azure.data.schemaregistry.client.CachedSchemaRegistryClientBuilder.httpLogOptions(com.azure.core.http.policy.HttpLogOptions)"
+- "com.azure.data.schemaregistry.client.CachedSchemaRegistryClientBuilder.maxSchemaMapSize(int)"
+- "com.azure.data.schemaregistry.client.CachedSchemaRegistryClientBuilder.pipeline(com.azure.core.http.HttpPipeline)"
+- "com.azure.data.schemaregistry.client.CachedSchemaRegistryClientBuilder.retryPolicy(com.azure.core.http.policy.RetryPolicy)"
+type: "class"
 metadata: {}
-package: com.azure.data.schemaregistry.client
+package: "com.azure.data.schemaregistry.client"
 artifact: com.azure:azure-data-schemaregistry:1.0.0-beta.1

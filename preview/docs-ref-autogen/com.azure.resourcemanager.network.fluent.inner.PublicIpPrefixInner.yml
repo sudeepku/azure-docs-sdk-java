@@ -1,61 +1,61 @@
 ### YamlMime:JavaType
-uid: com.azure.resourcemanager.network.fluent.inner.PublicIpPrefixInner
-fullName: com.azure.resourcemanager.network.fluent.inner.PublicIpPrefixInner
-name: PublicIpPrefixInner
-nameWithType: PublicIpPrefixInner
-summary: The PublicIpPrefix model.
+uid: "com.azure.resourcemanager.network.fluent.inner.PublicIpPrefixInner"
+fullName: "com.azure.resourcemanager.network.fluent.inner.PublicIpPrefixInner"
+name: "PublicIpPrefixInner"
+nameWithType: "PublicIpPrefixInner"
+summary: "The PublicIpPrefix model."
 inheritances:
-- <xref href="java.lang.Object" data-throw-if-not-resolved="False" />
-- <xref href="com.azure.core.management.ProxyResource" data-throw-if-not-resolved="False" />
-- <xref href="com.azure.core.management.Resource" data-throw-if-not-resolved="False" />
+- "<xref href=\"java.lang.Object\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.azure.core.management.ProxyResource\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.azure.core.management.Resource\" data-throw-if-not-resolved=\"False\" />"
 inheritedMembers:
-- com.azure.core.management.ProxyResource.id()
-- com.azure.core.management.ProxyResource.name()
-- com.azure.core.management.ProxyResource.type()
-- com.azure.core.management.Resource.location()
-- com.azure.core.management.Resource.tags()
-- com.azure.core.management.Resource.withLocation(java.lang.String)
-- com.azure.core.management.Resource.withTags(java.util.Map<java.lang.String,java.lang.String>)
-- java.lang.Object.clone()
-- java.lang.Object.equals(java.lang.Object)
-- java.lang.Object.finalize()
-- java.lang.Object.getClass()
-- java.lang.Object.hashCode()
-- java.lang.Object.notify()
-- java.lang.Object.notifyAll()
-- java.lang.Object.toString()
-- java.lang.Object.wait()
-- java.lang.Object.wait(long)
-- java.lang.Object.wait(long,int)
-syntax: public class PublicIpPrefixInner extends Resource
+- "com.azure.core.management.ProxyResource.id()"
+- "com.azure.core.management.ProxyResource.name()"
+- "com.azure.core.management.ProxyResource.type()"
+- "com.azure.core.management.Resource.location()"
+- "com.azure.core.management.Resource.tags()"
+- "com.azure.core.management.Resource.withLocation(java.lang.String)"
+- "com.azure.core.management.Resource.withTags(java.util.Map<java.lang.String,java.lang.String>)"
+- "java.lang.Object.clone()"
+- "java.lang.Object.equals(java.lang.Object)"
+- "java.lang.Object.finalize()"
+- "java.lang.Object.getClass()"
+- "java.lang.Object.hashCode()"
+- "java.lang.Object.notify()"
+- "java.lang.Object.notifyAll()"
+- "java.lang.Object.toString()"
+- "java.lang.Object.wait()"
+- "java.lang.Object.wait(long)"
+- "java.lang.Object.wait(long,int)"
+syntax: "public class PublicIpPrefixInner extends Resource"
 constructors:
-- com.azure.resourcemanager.network.fluent.inner.PublicIpPrefixInner.PublicIpPrefixInner()
+- "com.azure.resourcemanager.network.fluent.inner.PublicIpPrefixInner.PublicIpPrefixInner()"
 methods:
-- com.azure.resourcemanager.network.fluent.inner.PublicIpPrefixInner.etag()
-- com.azure.resourcemanager.network.fluent.inner.PublicIpPrefixInner.id()
-- com.azure.resourcemanager.network.fluent.inner.PublicIpPrefixInner.ipPrefix()
-- com.azure.resourcemanager.network.fluent.inner.PublicIpPrefixInner.ipTags()
-- com.azure.resourcemanager.network.fluent.inner.PublicIpPrefixInner.loadBalancerFrontendIpConfiguration()
-- com.azure.resourcemanager.network.fluent.inner.PublicIpPrefixInner.prefixLength()
-- com.azure.resourcemanager.network.fluent.inner.PublicIpPrefixInner.provisioningState()
-- com.azure.resourcemanager.network.fluent.inner.PublicIpPrefixInner.publicIpAddressVersion()
-- com.azure.resourcemanager.network.fluent.inner.PublicIpPrefixInner.publicIpAddresses()
-- com.azure.resourcemanager.network.fluent.inner.PublicIpPrefixInner.resourceGuid()
-- com.azure.resourcemanager.network.fluent.inner.PublicIpPrefixInner.sku()
-- com.azure.resourcemanager.network.fluent.inner.PublicIpPrefixInner.validate()
-- com.azure.resourcemanager.network.fluent.inner.PublicIpPrefixInner.withEtag(java.lang.String)
-- com.azure.resourcemanager.network.fluent.inner.PublicIpPrefixInner.withId(java.lang.String)
-- com.azure.resourcemanager.network.fluent.inner.PublicIpPrefixInner.withIpPrefix(java.lang.String)
-- com.azure.resourcemanager.network.fluent.inner.PublicIpPrefixInner.withIpTags(java.util.List<com.azure.resourcemanager.network.models.IpTag>)
-- com.azure.resourcemanager.network.fluent.inner.PublicIpPrefixInner.withPrefixLength(java.lang.Integer)
-- com.azure.resourcemanager.network.fluent.inner.PublicIpPrefixInner.withProvisioningState(java.lang.String)
-- com.azure.resourcemanager.network.fluent.inner.PublicIpPrefixInner.withPublicIpAddressVersion(com.azure.resourcemanager.network.models.IpVersion)
-- com.azure.resourcemanager.network.fluent.inner.PublicIpPrefixInner.withPublicIpAddresses(java.util.List<com.azure.resourcemanager.network.models.ReferencedPublicIpAddress>)
-- com.azure.resourcemanager.network.fluent.inner.PublicIpPrefixInner.withResourceGuid(java.lang.String)
-- com.azure.resourcemanager.network.fluent.inner.PublicIpPrefixInner.withSku(com.azure.resourcemanager.network.models.PublicIpPrefixSku)
-- com.azure.resourcemanager.network.fluent.inner.PublicIpPrefixInner.withZones(java.util.List<java.lang.String>)
-- com.azure.resourcemanager.network.fluent.inner.PublicIpPrefixInner.zones()
-type: class
+- "com.azure.resourcemanager.network.fluent.inner.PublicIpPrefixInner.etag()"
+- "com.azure.resourcemanager.network.fluent.inner.PublicIpPrefixInner.id()"
+- "com.azure.resourcemanager.network.fluent.inner.PublicIpPrefixInner.ipPrefix()"
+- "com.azure.resourcemanager.network.fluent.inner.PublicIpPrefixInner.ipTags()"
+- "com.azure.resourcemanager.network.fluent.inner.PublicIpPrefixInner.loadBalancerFrontendIpConfiguration()"
+- "com.azure.resourcemanager.network.fluent.inner.PublicIpPrefixInner.prefixLength()"
+- "com.azure.resourcemanager.network.fluent.inner.PublicIpPrefixInner.provisioningState()"
+- "com.azure.resourcemanager.network.fluent.inner.PublicIpPrefixInner.publicIpAddressVersion()"
+- "com.azure.resourcemanager.network.fluent.inner.PublicIpPrefixInner.publicIpAddresses()"
+- "com.azure.resourcemanager.network.fluent.inner.PublicIpPrefixInner.resourceGuid()"
+- "com.azure.resourcemanager.network.fluent.inner.PublicIpPrefixInner.sku()"
+- "com.azure.resourcemanager.network.fluent.inner.PublicIpPrefixInner.validate()"
+- "com.azure.resourcemanager.network.fluent.inner.PublicIpPrefixInner.withEtag(java.lang.String)"
+- "com.azure.resourcemanager.network.fluent.inner.PublicIpPrefixInner.withId(java.lang.String)"
+- "com.azure.resourcemanager.network.fluent.inner.PublicIpPrefixInner.withIpPrefix(java.lang.String)"
+- "com.azure.resourcemanager.network.fluent.inner.PublicIpPrefixInner.withIpTags(java.util.List<com.azure.resourcemanager.network.models.IpTag>)"
+- "com.azure.resourcemanager.network.fluent.inner.PublicIpPrefixInner.withPrefixLength(java.lang.Integer)"
+- "com.azure.resourcemanager.network.fluent.inner.PublicIpPrefixInner.withProvisioningState(java.lang.String)"
+- "com.azure.resourcemanager.network.fluent.inner.PublicIpPrefixInner.withPublicIpAddressVersion(com.azure.resourcemanager.network.models.IpVersion)"
+- "com.azure.resourcemanager.network.fluent.inner.PublicIpPrefixInner.withPublicIpAddresses(java.util.List<com.azure.resourcemanager.network.models.ReferencedPublicIpAddress>)"
+- "com.azure.resourcemanager.network.fluent.inner.PublicIpPrefixInner.withResourceGuid(java.lang.String)"
+- "com.azure.resourcemanager.network.fluent.inner.PublicIpPrefixInner.withSku(com.azure.resourcemanager.network.models.PublicIpPrefixSku)"
+- "com.azure.resourcemanager.network.fluent.inner.PublicIpPrefixInner.withZones(java.util.List<java.lang.String>)"
+- "com.azure.resourcemanager.network.fluent.inner.PublicIpPrefixInner.zones()"
+type: "class"
 metadata: {}
-package: com.azure.resourcemanager.network.fluent.inner
+package: "com.azure.resourcemanager.network.fluent.inner"
 artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.0.0-beta.2

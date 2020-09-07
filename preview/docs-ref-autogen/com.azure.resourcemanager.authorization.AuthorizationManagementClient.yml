@@ -1,40 +1,40 @@
 ### YamlMime:JavaType
-uid: com.azure.resourcemanager.authorization.AuthorizationManagementClient
-fullName: com.azure.resourcemanager.authorization.AuthorizationManagementClient
-name: AuthorizationManagementClient
-nameWithType: AuthorizationManagementClient
-summary: Initializes a new instance of the AuthorizationManagementClient type.
+uid: "com.azure.resourcemanager.authorization.AuthorizationManagementClient"
+fullName: "com.azure.resourcemanager.authorization.AuthorizationManagementClient"
+name: "AuthorizationManagementClient"
+nameWithType: "AuthorizationManagementClient"
+summary: "Initializes a new instance of the AuthorizationManagementClient type."
 inheritances:
-- <xref href="java.lang.Object" data-throw-if-not-resolved="False" />
-- <xref href="com.azure.resourcemanager.AzureServiceClient" data-throw-if-not-resolved="False" />
+- "<xref href=\"java.lang.Object\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.azure.resourcemanager.AzureServiceClient\" data-throw-if-not-resolved=\"False\" />"
 inheritedMembers:
-- com.azure.resourcemanager.AzureServiceClient.<T,U>getLroResultAsync(reactor.core.publisher.Mono<? extends com.azure.core.http.rest.Response<reactor.core.publisher.Flux<java.nio.ByteBuffer>>>,com.azure.core.http.HttpPipeline,java.lang.reflect.Type,java.lang.reflect.Type)
-- com.azure.resourcemanager.AzureServiceClient.getContext()
-- com.azure.resourcemanager.AzureServiceClient.getSerializerAdapter()
-- com.azure.resourcemanager.AzureServiceClient.userAgent()
-- java.lang.Object.clone()
-- java.lang.Object.equals(java.lang.Object)
-- java.lang.Object.finalize()
-- java.lang.Object.getClass()
-- java.lang.Object.hashCode()
-- java.lang.Object.notify()
-- java.lang.Object.notifyAll()
-- java.lang.Object.toString()
-- java.lang.Object.wait()
-- java.lang.Object.wait(long)
-- java.lang.Object.wait(long,int)
-syntax: public final class AuthorizationManagementClient extends AzureServiceClient
+- "com.azure.resourcemanager.AzureServiceClient.<T,U>getLroResultAsync(reactor.core.publisher.Mono<? extends com.azure.core.http.rest.Response<reactor.core.publisher.Flux<java.nio.ByteBuffer>>>,com.azure.core.http.HttpPipeline,java.lang.reflect.Type,java.lang.reflect.Type)"
+- "com.azure.resourcemanager.AzureServiceClient.getContext()"
+- "com.azure.resourcemanager.AzureServiceClient.getSerializerAdapter()"
+- "com.azure.resourcemanager.AzureServiceClient.userAgent()"
+- "java.lang.Object.clone()"
+- "java.lang.Object.equals(java.lang.Object)"
+- "java.lang.Object.finalize()"
+- "java.lang.Object.getClass()"
+- "java.lang.Object.hashCode()"
+- "java.lang.Object.notify()"
+- "java.lang.Object.notifyAll()"
+- "java.lang.Object.toString()"
+- "java.lang.Object.wait()"
+- "java.lang.Object.wait(long)"
+- "java.lang.Object.wait(long,int)"
+syntax: "public final class AuthorizationManagementClient extends AzureServiceClient"
 methods:
-- com.azure.resourcemanager.authorization.AuthorizationManagementClient.getClassicAdministrators()
-- com.azure.resourcemanager.authorization.AuthorizationManagementClient.getEndpoint()
-- com.azure.resourcemanager.authorization.AuthorizationManagementClient.getGlobalAdministrators()
-- com.azure.resourcemanager.authorization.AuthorizationManagementClient.getHttpPipeline()
-- com.azure.resourcemanager.authorization.AuthorizationManagementClient.getPermissions()
-- com.azure.resourcemanager.authorization.AuthorizationManagementClient.getProviderOperationsMetadatas()
-- com.azure.resourcemanager.authorization.AuthorizationManagementClient.getRoleAssignments()
-- com.azure.resourcemanager.authorization.AuthorizationManagementClient.getRoleDefinitions()
-- com.azure.resourcemanager.authorization.AuthorizationManagementClient.getSubscriptionId()
-type: class
+- "com.azure.resourcemanager.authorization.AuthorizationManagementClient.getClassicAdministrators()"
+- "com.azure.resourcemanager.authorization.AuthorizationManagementClient.getEndpoint()"
+- "com.azure.resourcemanager.authorization.AuthorizationManagementClient.getGlobalAdministrators()"
+- "com.azure.resourcemanager.authorization.AuthorizationManagementClient.getHttpPipeline()"
+- "com.azure.resourcemanager.authorization.AuthorizationManagementClient.getPermissions()"
+- "com.azure.resourcemanager.authorization.AuthorizationManagementClient.getProviderOperationsMetadatas()"
+- "com.azure.resourcemanager.authorization.AuthorizationManagementClient.getRoleAssignments()"
+- "com.azure.resourcemanager.authorization.AuthorizationManagementClient.getRoleDefinitions()"
+- "com.azure.resourcemanager.authorization.AuthorizationManagementClient.getSubscriptionId()"
+type: "class"
 metadata: {}
-package: com.azure.resourcemanager.authorization
+package: "com.azure.resourcemanager.authorization"
 artifact: com.azure.resourcemanager:azure-resourcemanager-authorization:2.0.0-beta.2

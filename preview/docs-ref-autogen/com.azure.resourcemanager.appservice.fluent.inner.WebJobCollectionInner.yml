@@ -1,32 +1,32 @@
 ### YamlMime:JavaType
-uid: com.azure.resourcemanager.appservice.fluent.inner.WebJobCollectionInner
-fullName: com.azure.resourcemanager.appservice.fluent.inner.WebJobCollectionInner
-name: WebJobCollectionInner
-nameWithType: WebJobCollectionInner
-summary: The WebJobCollection model.
+uid: "com.azure.resourcemanager.appservice.fluent.inner.WebJobCollectionInner"
+fullName: "com.azure.resourcemanager.appservice.fluent.inner.WebJobCollectionInner"
+name: "WebJobCollectionInner"
+nameWithType: "WebJobCollectionInner"
+summary: "The WebJobCollection model."
 inheritances:
-- <xref href="java.lang.Object" data-throw-if-not-resolved="False" />
+- "<xref href=\"java.lang.Object\" data-throw-if-not-resolved=\"False\" />"
 inheritedMembers:
-- java.lang.Object.clone()
-- java.lang.Object.equals(java.lang.Object)
-- java.lang.Object.finalize()
-- java.lang.Object.getClass()
-- java.lang.Object.hashCode()
-- java.lang.Object.notify()
-- java.lang.Object.notifyAll()
-- java.lang.Object.toString()
-- java.lang.Object.wait()
-- java.lang.Object.wait(long)
-- java.lang.Object.wait(long,int)
-syntax: public final class WebJobCollectionInner
+- "java.lang.Object.clone()"
+- "java.lang.Object.equals(java.lang.Object)"
+- "java.lang.Object.finalize()"
+- "java.lang.Object.getClass()"
+- "java.lang.Object.hashCode()"
+- "java.lang.Object.notify()"
+- "java.lang.Object.notifyAll()"
+- "java.lang.Object.toString()"
+- "java.lang.Object.wait()"
+- "java.lang.Object.wait(long)"
+- "java.lang.Object.wait(long,int)"
+syntax: "public final class WebJobCollectionInner"
 constructors:
-- com.azure.resourcemanager.appservice.fluent.inner.WebJobCollectionInner.WebJobCollectionInner()
+- "com.azure.resourcemanager.appservice.fluent.inner.WebJobCollectionInner.WebJobCollectionInner()"
 methods:
-- com.azure.resourcemanager.appservice.fluent.inner.WebJobCollectionInner.nextLink()
-- com.azure.resourcemanager.appservice.fluent.inner.WebJobCollectionInner.validate()
-- com.azure.resourcemanager.appservice.fluent.inner.WebJobCollectionInner.value()
-- com.azure.resourcemanager.appservice.fluent.inner.WebJobCollectionInner.withValue(java.util.List<com.azure.resourcemanager.appservice.fluent.inner.WebJobInner>)
-type: class
+- "com.azure.resourcemanager.appservice.fluent.inner.WebJobCollectionInner.nextLink()"
+- "com.azure.resourcemanager.appservice.fluent.inner.WebJobCollectionInner.validate()"
+- "com.azure.resourcemanager.appservice.fluent.inner.WebJobCollectionInner.value()"
+- "com.azure.resourcemanager.appservice.fluent.inner.WebJobCollectionInner.withValue(java.util.List<com.azure.resourcemanager.appservice.fluent.inner.WebJobInner>)"
+type: "class"
 metadata: {}
-package: com.azure.resourcemanager.appservice.fluent.inner
+package: "com.azure.resourcemanager.appservice.fluent.inner"
 artifact: com.azure.resourcemanager:azure-resourcemanager-appservice:2.0.0-beta.2

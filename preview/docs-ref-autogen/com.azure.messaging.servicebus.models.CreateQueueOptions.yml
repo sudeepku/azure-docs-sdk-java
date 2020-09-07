@@ -1,60 +1,60 @@
 ### YamlMime:JavaType
-uid: com.azure.messaging.servicebus.models.CreateQueueOptions
-fullName: com.azure.messaging.servicebus.models.CreateQueueOptions
-name: CreateQueueOptions
-nameWithType: CreateQueueOptions
-summary: Represents the set of options that can be specified for the creation of a queue.
+uid: "com.azure.messaging.servicebus.models.CreateQueueOptions"
+fullName: "com.azure.messaging.servicebus.models.CreateQueueOptions"
+name: "CreateQueueOptions"
+nameWithType: "CreateQueueOptions"
+summary: "Represents the set of options that can be specified for the creation of a queue."
 inheritances:
-- <xref href="java.lang.Object" data-throw-if-not-resolved="False" />
+- "<xref href=\"java.lang.Object\" data-throw-if-not-resolved=\"False\" />"
 inheritedMembers:
-- java.lang.Object.clone()
-- java.lang.Object.equals(java.lang.Object)
-- java.lang.Object.finalize()
-- java.lang.Object.getClass()
-- java.lang.Object.hashCode()
-- java.lang.Object.notify()
-- java.lang.Object.notifyAll()
-- java.lang.Object.toString()
-- java.lang.Object.wait()
-- java.lang.Object.wait(long)
-- java.lang.Object.wait(long,int)
-syntax: public class CreateQueueOptions
+- "java.lang.Object.clone()"
+- "java.lang.Object.equals(java.lang.Object)"
+- "java.lang.Object.finalize()"
+- "java.lang.Object.getClass()"
+- "java.lang.Object.hashCode()"
+- "java.lang.Object.notify()"
+- "java.lang.Object.notifyAll()"
+- "java.lang.Object.toString()"
+- "java.lang.Object.wait()"
+- "java.lang.Object.wait(long)"
+- "java.lang.Object.wait(long,int)"
+syntax: "public class CreateQueueOptions"
 constructors:
-- com.azure.messaging.servicebus.models.CreateQueueOptions.CreateQueueOptions(com.azure.messaging.servicebus.models.QueueProperties)
-- com.azure.messaging.servicebus.models.CreateQueueOptions.CreateQueueOptions(java.lang.String)
+- "com.azure.messaging.servicebus.models.CreateQueueOptions.CreateQueueOptions(com.azure.messaging.servicebus.models.QueueProperties)"
+- "com.azure.messaging.servicebus.models.CreateQueueOptions.CreateQueueOptions(java.lang.String)"
 methods:
-- com.azure.messaging.servicebus.models.CreateQueueOptions.deadLetteringOnMessageExpiration()
-- com.azure.messaging.servicebus.models.CreateQueueOptions.enableBatchedOperations()
-- com.azure.messaging.servicebus.models.CreateQueueOptions.enablePartitioning()
-- com.azure.messaging.servicebus.models.CreateQueueOptions.getAutoDeleteOnIdle()
-- com.azure.messaging.servicebus.models.CreateQueueOptions.getDefaultMessageTimeToLive()
-- com.azure.messaging.servicebus.models.CreateQueueOptions.getDuplicateDetectionHistoryTimeWindow()
-- com.azure.messaging.servicebus.models.CreateQueueOptions.getForwardDeadLetteredMessagesTo()
-- com.azure.messaging.servicebus.models.CreateQueueOptions.getForwardTo()
-- com.azure.messaging.servicebus.models.CreateQueueOptions.getLockDuration()
-- com.azure.messaging.servicebus.models.CreateQueueOptions.getMaxDeliveryCount()
-- com.azure.messaging.servicebus.models.CreateQueueOptions.getMaxSizeInMegabytes()
-- com.azure.messaging.servicebus.models.CreateQueueOptions.getName()
-- com.azure.messaging.servicebus.models.CreateQueueOptions.getStatus()
-- com.azure.messaging.servicebus.models.CreateQueueOptions.getUserMetadata()
-- com.azure.messaging.servicebus.models.CreateQueueOptions.requiresDuplicateDetection()
-- com.azure.messaging.servicebus.models.CreateQueueOptions.requiresSession()
-- com.azure.messaging.servicebus.models.CreateQueueOptions.setAutoDeleteOnIdle(java.time.Duration)
-- com.azure.messaging.servicebus.models.CreateQueueOptions.setDeadLetteringOnMessageExpiration(boolean)
-- com.azure.messaging.servicebus.models.CreateQueueOptions.setDefaultMessageTimeToLive(java.time.Duration)
-- com.azure.messaging.servicebus.models.CreateQueueOptions.setDuplicateDetectionHistoryTimeWindow(java.time.Duration)
-- com.azure.messaging.servicebus.models.CreateQueueOptions.setEnableBatchedOperations(boolean)
-- com.azure.messaging.servicebus.models.CreateQueueOptions.setEnablePartitioning(boolean)
-- com.azure.messaging.servicebus.models.CreateQueueOptions.setForwardDeadLetteredMessagesTo(java.lang.String)
-- com.azure.messaging.servicebus.models.CreateQueueOptions.setForwardTo(java.lang.String)
-- com.azure.messaging.servicebus.models.CreateQueueOptions.setLockDuration(java.time.Duration)
-- com.azure.messaging.servicebus.models.CreateQueueOptions.setMaxDeliveryCount(int)
-- com.azure.messaging.servicebus.models.CreateQueueOptions.setMaxSizeInMegabytes(int)
-- com.azure.messaging.servicebus.models.CreateQueueOptions.setRequiresDuplicateDetection(boolean)
-- com.azure.messaging.servicebus.models.CreateQueueOptions.setRequiresSession(boolean)
-- com.azure.messaging.servicebus.models.CreateQueueOptions.setStatus(com.azure.messaging.servicebus.models.EntityStatus)
-- com.azure.messaging.servicebus.models.CreateQueueOptions.setUserMetadata(java.lang.String)
-type: class
+- "com.azure.messaging.servicebus.models.CreateQueueOptions.deadLetteringOnMessageExpiration()"
+- "com.azure.messaging.servicebus.models.CreateQueueOptions.enableBatchedOperations()"
+- "com.azure.messaging.servicebus.models.CreateQueueOptions.enablePartitioning()"
+- "com.azure.messaging.servicebus.models.CreateQueueOptions.getAutoDeleteOnIdle()"
+- "com.azure.messaging.servicebus.models.CreateQueueOptions.getDefaultMessageTimeToLive()"
+- "com.azure.messaging.servicebus.models.CreateQueueOptions.getDuplicateDetectionHistoryTimeWindow()"
+- "com.azure.messaging.servicebus.models.CreateQueueOptions.getForwardDeadLetteredMessagesTo()"
+- "com.azure.messaging.servicebus.models.CreateQueueOptions.getForwardTo()"
+- "com.azure.messaging.servicebus.models.CreateQueueOptions.getLockDuration()"
+- "com.azure.messaging.servicebus.models.CreateQueueOptions.getMaxDeliveryCount()"
+- "com.azure.messaging.servicebus.models.CreateQueueOptions.getMaxSizeInMegabytes()"
+- "com.azure.messaging.servicebus.models.CreateQueueOptions.getName()"
+- "com.azure.messaging.servicebus.models.CreateQueueOptions.getStatus()"
+- "com.azure.messaging.servicebus.models.CreateQueueOptions.getUserMetadata()"
+- "com.azure.messaging.servicebus.models.CreateQueueOptions.requiresDuplicateDetection()"
+- "com.azure.messaging.servicebus.models.CreateQueueOptions.requiresSession()"
+- "com.azure.messaging.servicebus.models.CreateQueueOptions.setAutoDeleteOnIdle(java.time.Duration)"
+- "com.azure.messaging.servicebus.models.CreateQueueOptions.setDeadLetteringOnMessageExpiration(boolean)"
+- "com.azure.messaging.servicebus.models.CreateQueueOptions.setDefaultMessageTimeToLive(java.time.Duration)"
+- "com.azure.messaging.servicebus.models.CreateQueueOptions.setDuplicateDetectionHistoryTimeWindow(java.time.Duration)"
+- "com.azure.messaging.servicebus.models.CreateQueueOptions.setEnableBatchedOperations(boolean)"
+- "com.azure.messaging.servicebus.models.CreateQueueOptions.setEnablePartitioning(boolean)"
+- "com.azure.messaging.servicebus.models.CreateQueueOptions.setForwardDeadLetteredMessagesTo(java.lang.String)"
+- "com.azure.messaging.servicebus.models.CreateQueueOptions.setForwardTo(java.lang.String)"
+- "com.azure.messaging.servicebus.models.CreateQueueOptions.setLockDuration(java.time.Duration)"
+- "com.azure.messaging.servicebus.models.CreateQueueOptions.setMaxDeliveryCount(int)"
+- "com.azure.messaging.servicebus.models.CreateQueueOptions.setMaxSizeInMegabytes(int)"
+- "com.azure.messaging.servicebus.models.CreateQueueOptions.setRequiresDuplicateDetection(boolean)"
+- "com.azure.messaging.servicebus.models.CreateQueueOptions.setRequiresSession(boolean)"
+- "com.azure.messaging.servicebus.models.CreateQueueOptions.setStatus(com.azure.messaging.servicebus.models.EntityStatus)"
+- "com.azure.messaging.servicebus.models.CreateQueueOptions.setUserMetadata(java.lang.String)"
+type: "class"
 metadata: {}
-package: com.azure.messaging.servicebus.models
+package: "com.azure.messaging.servicebus.models"
 artifact: com.azure:azure-messaging-servicebus:7.0.0-beta.5

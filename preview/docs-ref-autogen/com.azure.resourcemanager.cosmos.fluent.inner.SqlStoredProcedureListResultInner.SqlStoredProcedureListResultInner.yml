@@ -1,15 +1,15 @@
 ### YamlMime:JavaMember
-uid: com.azure.resourcemanager.cosmos.fluent.inner.SqlStoredProcedureListResultInner.SqlStoredProcedureListResultInner*
-fullName: com.azure.resourcemanager.cosmos.fluent.inner.SqlStoredProcedureListResultInner.SqlStoredProcedureListResultInner
-name: SqlStoredProcedureListResultInner
-nameWithType: SqlStoredProcedureListResultInner.SqlStoredProcedureListResultInner
+uid: "com.azure.resourcemanager.cosmos.fluent.inner.SqlStoredProcedureListResultInner.SqlStoredProcedureListResultInner*"
+fullName: "com.azure.resourcemanager.cosmos.fluent.inner.SqlStoredProcedureListResultInner.SqlStoredProcedureListResultInner"
+name: "SqlStoredProcedureListResultInner"
+nameWithType: "SqlStoredProcedureListResultInner.SqlStoredProcedureListResultInner"
 members:
-- uid: com.azure.resourcemanager.cosmos.fluent.inner.SqlStoredProcedureListResultInner.SqlStoredProcedureListResultInner()
-  fullName: com.azure.resourcemanager.cosmos.fluent.inner.SqlStoredProcedureListResultInner.SqlStoredProcedureListResultInner()
-  name: SqlStoredProcedureListResultInner()
-  nameWithType: SqlStoredProcedureListResultInner.SqlStoredProcedureListResultInner()
-  syntax: public SqlStoredProcedureListResultInner()
-type: constructor
+- uid: "com.azure.resourcemanager.cosmos.fluent.inner.SqlStoredProcedureListResultInner.SqlStoredProcedureListResultInner()"
+  fullName: "com.azure.resourcemanager.cosmos.fluent.inner.SqlStoredProcedureListResultInner.SqlStoredProcedureListResultInner()"
+  name: "SqlStoredProcedureListResultInner()"
+  nameWithType: "SqlStoredProcedureListResultInner.SqlStoredProcedureListResultInner()"
+  syntax: "public SqlStoredProcedureListResultInner()"
+type: "constructor"
 metadata: {}
-package: com.azure.resourcemanager.cosmos.fluent.inner
+package: "com.azure.resourcemanager.cosmos.fluent.inner"
 artifact: com.azure.resourcemanager:azure-resourcemanager-cosmos:2.0.0-beta.2

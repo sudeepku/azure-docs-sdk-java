@@ -1,69 +1,69 @@
 ### YamlMime:JavaType
-uid: com.azure.resourcemanager.compute.fluent.inner.VirtualMachineScaleSetVMInner
-fullName: com.azure.resourcemanager.compute.fluent.inner.VirtualMachineScaleSetVMInner
-name: VirtualMachineScaleSetVMInner
-nameWithType: VirtualMachineScaleSetVMInner
-summary: The VirtualMachineScaleSetVM model.
+uid: "com.azure.resourcemanager.compute.fluent.inner.VirtualMachineScaleSetVMInner"
+fullName: "com.azure.resourcemanager.compute.fluent.inner.VirtualMachineScaleSetVMInner"
+name: "VirtualMachineScaleSetVMInner"
+nameWithType: "VirtualMachineScaleSetVMInner"
+summary: "The VirtualMachineScaleSetVM model."
 inheritances:
-- <xref href="java.lang.Object" data-throw-if-not-resolved="False" />
-- <xref href="com.azure.core.management.ProxyResource" data-throw-if-not-resolved="False" />
-- <xref href="com.azure.core.management.Resource" data-throw-if-not-resolved="False" />
+- "<xref href=\"java.lang.Object\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.azure.core.management.ProxyResource\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.azure.core.management.Resource\" data-throw-if-not-resolved=\"False\" />"
 inheritedMembers:
-- com.azure.core.management.ProxyResource.id()
-- com.azure.core.management.ProxyResource.name()
-- com.azure.core.management.ProxyResource.type()
-- com.azure.core.management.Resource.location()
-- com.azure.core.management.Resource.tags()
-- com.azure.core.management.Resource.withLocation(java.lang.String)
-- com.azure.core.management.Resource.withTags(java.util.Map<java.lang.String,java.lang.String>)
-- java.lang.Object.clone()
-- java.lang.Object.equals(java.lang.Object)
-- java.lang.Object.finalize()
-- java.lang.Object.getClass()
-- java.lang.Object.hashCode()
-- java.lang.Object.notify()
-- java.lang.Object.notifyAll()
-- java.lang.Object.toString()
-- java.lang.Object.wait()
-- java.lang.Object.wait(long)
-- java.lang.Object.wait(long,int)
-syntax: public class VirtualMachineScaleSetVMInner extends Resource
+- "com.azure.core.management.ProxyResource.id()"
+- "com.azure.core.management.ProxyResource.name()"
+- "com.azure.core.management.ProxyResource.type()"
+- "com.azure.core.management.Resource.location()"
+- "com.azure.core.management.Resource.tags()"
+- "com.azure.core.management.Resource.withLocation(java.lang.String)"
+- "com.azure.core.management.Resource.withTags(java.util.Map<java.lang.String,java.lang.String>)"
+- "java.lang.Object.clone()"
+- "java.lang.Object.equals(java.lang.Object)"
+- "java.lang.Object.finalize()"
+- "java.lang.Object.getClass()"
+- "java.lang.Object.hashCode()"
+- "java.lang.Object.notify()"
+- "java.lang.Object.notifyAll()"
+- "java.lang.Object.toString()"
+- "java.lang.Object.wait()"
+- "java.lang.Object.wait(long)"
+- "java.lang.Object.wait(long,int)"
+syntax: "public class VirtualMachineScaleSetVMInner extends Resource"
 constructors:
-- com.azure.resourcemanager.compute.fluent.inner.VirtualMachineScaleSetVMInner.VirtualMachineScaleSetVMInner()
+- "com.azure.resourcemanager.compute.fluent.inner.VirtualMachineScaleSetVMInner.VirtualMachineScaleSetVMInner()"
 methods:
-- com.azure.resourcemanager.compute.fluent.inner.VirtualMachineScaleSetVMInner.additionalCapabilities()
-- com.azure.resourcemanager.compute.fluent.inner.VirtualMachineScaleSetVMInner.availabilitySet()
-- com.azure.resourcemanager.compute.fluent.inner.VirtualMachineScaleSetVMInner.diagnosticsProfile()
-- com.azure.resourcemanager.compute.fluent.inner.VirtualMachineScaleSetVMInner.hardwareProfile()
-- com.azure.resourcemanager.compute.fluent.inner.VirtualMachineScaleSetVMInner.instanceId()
-- com.azure.resourcemanager.compute.fluent.inner.VirtualMachineScaleSetVMInner.instanceView()
-- com.azure.resourcemanager.compute.fluent.inner.VirtualMachineScaleSetVMInner.latestModelApplied()
-- com.azure.resourcemanager.compute.fluent.inner.VirtualMachineScaleSetVMInner.licenseType()
-- com.azure.resourcemanager.compute.fluent.inner.VirtualMachineScaleSetVMInner.modelDefinitionApplied()
-- com.azure.resourcemanager.compute.fluent.inner.VirtualMachineScaleSetVMInner.networkProfile()
-- com.azure.resourcemanager.compute.fluent.inner.VirtualMachineScaleSetVMInner.networkProfileConfiguration()
-- com.azure.resourcemanager.compute.fluent.inner.VirtualMachineScaleSetVMInner.osProfile()
-- com.azure.resourcemanager.compute.fluent.inner.VirtualMachineScaleSetVMInner.plan()
-- com.azure.resourcemanager.compute.fluent.inner.VirtualMachineScaleSetVMInner.protectionPolicy()
-- com.azure.resourcemanager.compute.fluent.inner.VirtualMachineScaleSetVMInner.provisioningState()
-- com.azure.resourcemanager.compute.fluent.inner.VirtualMachineScaleSetVMInner.resources()
-- com.azure.resourcemanager.compute.fluent.inner.VirtualMachineScaleSetVMInner.sku()
-- com.azure.resourcemanager.compute.fluent.inner.VirtualMachineScaleSetVMInner.storageProfile()
-- com.azure.resourcemanager.compute.fluent.inner.VirtualMachineScaleSetVMInner.validate()
-- com.azure.resourcemanager.compute.fluent.inner.VirtualMachineScaleSetVMInner.vmId()
-- com.azure.resourcemanager.compute.fluent.inner.VirtualMachineScaleSetVMInner.withAdditionalCapabilities(com.azure.resourcemanager.compute.models.AdditionalCapabilities)
-- com.azure.resourcemanager.compute.fluent.inner.VirtualMachineScaleSetVMInner.withAvailabilitySet(com.azure.core.management.SubResource)
-- com.azure.resourcemanager.compute.fluent.inner.VirtualMachineScaleSetVMInner.withDiagnosticsProfile(com.azure.resourcemanager.compute.models.DiagnosticsProfile)
-- com.azure.resourcemanager.compute.fluent.inner.VirtualMachineScaleSetVMInner.withHardwareProfile(com.azure.resourcemanager.compute.models.HardwareProfile)
-- com.azure.resourcemanager.compute.fluent.inner.VirtualMachineScaleSetVMInner.withLicenseType(java.lang.String)
-- com.azure.resourcemanager.compute.fluent.inner.VirtualMachineScaleSetVMInner.withNetworkProfile(com.azure.resourcemanager.compute.models.NetworkProfile)
-- com.azure.resourcemanager.compute.fluent.inner.VirtualMachineScaleSetVMInner.withNetworkProfileConfiguration(com.azure.resourcemanager.compute.models.VirtualMachineScaleSetVMNetworkProfileConfiguration)
-- com.azure.resourcemanager.compute.fluent.inner.VirtualMachineScaleSetVMInner.withOsProfile(com.azure.resourcemanager.compute.models.OSProfile)
-- com.azure.resourcemanager.compute.fluent.inner.VirtualMachineScaleSetVMInner.withPlan(com.azure.resourcemanager.compute.models.Plan)
-- com.azure.resourcemanager.compute.fluent.inner.VirtualMachineScaleSetVMInner.withProtectionPolicy(com.azure.resourcemanager.compute.models.VirtualMachineScaleSetVMProtectionPolicy)
-- com.azure.resourcemanager.compute.fluent.inner.VirtualMachineScaleSetVMInner.withStorageProfile(com.azure.resourcemanager.compute.models.StorageProfile)
-- com.azure.resourcemanager.compute.fluent.inner.VirtualMachineScaleSetVMInner.zones()
-type: class
+- "com.azure.resourcemanager.compute.fluent.inner.VirtualMachineScaleSetVMInner.additionalCapabilities()"
+- "com.azure.resourcemanager.compute.fluent.inner.VirtualMachineScaleSetVMInner.availabilitySet()"
+- "com.azure.resourcemanager.compute.fluent.inner.VirtualMachineScaleSetVMInner.diagnosticsProfile()"
+- "com.azure.resourcemanager.compute.fluent.inner.VirtualMachineScaleSetVMInner.hardwareProfile()"
+- "com.azure.resourcemanager.compute.fluent.inner.VirtualMachineScaleSetVMInner.instanceId()"
+- "com.azure.resourcemanager.compute.fluent.inner.VirtualMachineScaleSetVMInner.instanceView()"
+- "com.azure.resourcemanager.compute.fluent.inner.VirtualMachineScaleSetVMInner.latestModelApplied()"
+- "com.azure.resourcemanager.compute.fluent.inner.VirtualMachineScaleSetVMInner.licenseType()"
+- "com.azure.resourcemanager.compute.fluent.inner.VirtualMachineScaleSetVMInner.modelDefinitionApplied()"
+- "com.azure.resourcemanager.compute.fluent.inner.VirtualMachineScaleSetVMInner.networkProfile()"
+- "com.azure.resourcemanager.compute.fluent.inner.VirtualMachineScaleSetVMInner.networkProfileConfiguration()"
+- "com.azure.resourcemanager.compute.fluent.inner.VirtualMachineScaleSetVMInner.osProfile()"
+- "com.azure.resourcemanager.compute.fluent.inner.VirtualMachineScaleSetVMInner.plan()"
+- "com.azure.resourcemanager.compute.fluent.inner.VirtualMachineScaleSetVMInner.protectionPolicy()"
+- "com.azure.resourcemanager.compute.fluent.inner.VirtualMachineScaleSetVMInner.provisioningState()"
+- "com.azure.resourcemanager.compute.fluent.inner.VirtualMachineScaleSetVMInner.resources()"
+- "com.azure.resourcemanager.compute.fluent.inner.VirtualMachineScaleSetVMInner.sku()"
+- "com.azure.resourcemanager.compute.fluent.inner.VirtualMachineScaleSetVMInner.storageProfile()"
+- "com.azure.resourcemanager.compute.fluent.inner.VirtualMachineScaleSetVMInner.validate()"
+- "com.azure.resourcemanager.compute.fluent.inner.VirtualMachineScaleSetVMInner.vmId()"
+- "com.azure.resourcemanager.compute.fluent.inner.VirtualMachineScaleSetVMInner.withAdditionalCapabilities(com.azure.resourcemanager.compute.models.AdditionalCapabilities)"
+- "com.azure.resourcemanager.compute.fluent.inner.VirtualMachineScaleSetVMInner.withAvailabilitySet(com.azure.core.management.SubResource)"
+- "com.azure.resourcemanager.compute.fluent.inner.VirtualMachineScaleSetVMInner.withDiagnosticsProfile(com.azure.resourcemanager.compute.models.DiagnosticsProfile)"
+- "com.azure.resourcemanager.compute.fluent.inner.VirtualMachineScaleSetVMInner.withHardwareProfile(com.azure.resourcemanager.compute.models.HardwareProfile)"
+- "com.azure.resourcemanager.compute.fluent.inner.VirtualMachineScaleSetVMInner.withLicenseType(java.lang.String)"
+- "com.azure.resourcemanager.compute.fluent.inner.VirtualMachineScaleSetVMInner.withNetworkProfile(com.azure.resourcemanager.compute.models.NetworkProfile)"
+- "com.azure.resourcemanager.compute.fluent.inner.VirtualMachineScaleSetVMInner.withNetworkProfileConfiguration(com.azure.resourcemanager.compute.models.VirtualMachineScaleSetVMNetworkProfileConfiguration)"
+- "com.azure.resourcemanager.compute.fluent.inner.VirtualMachineScaleSetVMInner.withOsProfile(com.azure.resourcemanager.compute.models.OSProfile)"
+- "com.azure.resourcemanager.compute.fluent.inner.VirtualMachineScaleSetVMInner.withPlan(com.azure.resourcemanager.compute.models.Plan)"
+- "com.azure.resourcemanager.compute.fluent.inner.VirtualMachineScaleSetVMInner.withProtectionPolicy(com.azure.resourcemanager.compute.models.VirtualMachineScaleSetVMProtectionPolicy)"
+- "com.azure.resourcemanager.compute.fluent.inner.VirtualMachineScaleSetVMInner.withStorageProfile(com.azure.resourcemanager.compute.models.StorageProfile)"
+- "com.azure.resourcemanager.compute.fluent.inner.VirtualMachineScaleSetVMInner.zones()"
+type: "class"
 metadata: {}
-package: com.azure.resourcemanager.compute.fluent.inner
+package: "com.azure.resourcemanager.compute.fluent.inner"
 artifact: com.azure.resourcemanager:azure-resourcemanager-compute:2.0.0-beta.2

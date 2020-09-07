@@ -1,41 +1,41 @@
 ### YamlMime:JavaType
-uid: com.azure.search.documents.indexes.implementation.models.DictionaryDecompounderTokenFilter
-fullName: com.azure.search.documents.indexes.implementation.models.DictionaryDecompounderTokenFilter
-name: DictionaryDecompounderTokenFilter
-nameWithType: DictionaryDecompounderTokenFilter
-summary: The DictionaryDecompounderTokenFilter model.
+uid: "com.azure.search.documents.indexes.implementation.models.DictionaryDecompounderTokenFilter"
+fullName: "com.azure.search.documents.indexes.implementation.models.DictionaryDecompounderTokenFilter"
+name: "DictionaryDecompounderTokenFilter"
+nameWithType: "DictionaryDecompounderTokenFilter"
+summary: "The DictionaryDecompounderTokenFilter model."
 inheritances:
-- <xref href="java.lang.Object" data-throw-if-not-resolved="False" />
-- <xref href="com.azure.search.documents.indexes.implementation.models.TokenFilter" data-throw-if-not-resolved="False" />
+- "<xref href=\"java.lang.Object\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.azure.search.documents.indexes.implementation.models.TokenFilter\" data-throw-if-not-resolved=\"False\" />"
 inheritedMembers:
-- com.azure.search.documents.indexes.implementation.models.TokenFilter.getName()
-- com.azure.search.documents.indexes.implementation.models.TokenFilter.validate()
-- java.lang.Object.clone()
-- java.lang.Object.equals(java.lang.Object)
-- java.lang.Object.finalize()
-- java.lang.Object.getClass()
-- java.lang.Object.hashCode()
-- java.lang.Object.notify()
-- java.lang.Object.notifyAll()
-- java.lang.Object.toString()
-- java.lang.Object.wait()
-- java.lang.Object.wait(long)
-- java.lang.Object.wait(long,int)
-syntax: public class DictionaryDecompounderTokenFilter extends TokenFilter
+- "com.azure.search.documents.indexes.implementation.models.TokenFilter.getName()"
+- "com.azure.search.documents.indexes.implementation.models.TokenFilter.validate()"
+- "java.lang.Object.clone()"
+- "java.lang.Object.equals(java.lang.Object)"
+- "java.lang.Object.finalize()"
+- "java.lang.Object.getClass()"
+- "java.lang.Object.hashCode()"
+- "java.lang.Object.notify()"
+- "java.lang.Object.notifyAll()"
+- "java.lang.Object.toString()"
+- "java.lang.Object.wait()"
+- "java.lang.Object.wait(long)"
+- "java.lang.Object.wait(long,int)"
+syntax: "public class DictionaryDecompounderTokenFilter extends TokenFilter"
 constructors:
-- com.azure.search.documents.indexes.implementation.models.DictionaryDecompounderTokenFilter.DictionaryDecompounderTokenFilter(java.lang.String,java.util.List<java.lang.String>)
+- "com.azure.search.documents.indexes.implementation.models.DictionaryDecompounderTokenFilter.DictionaryDecompounderTokenFilter(java.lang.String,java.util.List<java.lang.String>)"
 methods:
-- com.azure.search.documents.indexes.implementation.models.DictionaryDecompounderTokenFilter.getMaxSubwordSize()
-- com.azure.search.documents.indexes.implementation.models.DictionaryDecompounderTokenFilter.getMinSubwordSize()
-- com.azure.search.documents.indexes.implementation.models.DictionaryDecompounderTokenFilter.getMinWordSize()
-- com.azure.search.documents.indexes.implementation.models.DictionaryDecompounderTokenFilter.getWordList()
-- com.azure.search.documents.indexes.implementation.models.DictionaryDecompounderTokenFilter.isOnlyLongestMatch()
-- com.azure.search.documents.indexes.implementation.models.DictionaryDecompounderTokenFilter.setMaxSubwordSize(java.lang.Integer)
-- com.azure.search.documents.indexes.implementation.models.DictionaryDecompounderTokenFilter.setMinSubwordSize(java.lang.Integer)
-- com.azure.search.documents.indexes.implementation.models.DictionaryDecompounderTokenFilter.setMinWordSize(java.lang.Integer)
-- com.azure.search.documents.indexes.implementation.models.DictionaryDecompounderTokenFilter.setOnlyLongestMatch(java.lang.Boolean)
-- com.azure.search.documents.indexes.implementation.models.DictionaryDecompounderTokenFilter.validate()
-type: class
+- "com.azure.search.documents.indexes.implementation.models.DictionaryDecompounderTokenFilter.getMaxSubwordSize()"
+- "com.azure.search.documents.indexes.implementation.models.DictionaryDecompounderTokenFilter.getMinSubwordSize()"
+- "com.azure.search.documents.indexes.implementation.models.DictionaryDecompounderTokenFilter.getMinWordSize()"
+- "com.azure.search.documents.indexes.implementation.models.DictionaryDecompounderTokenFilter.getWordList()"
+- "com.azure.search.documents.indexes.implementation.models.DictionaryDecompounderTokenFilter.isOnlyLongestMatch()"
+- "com.azure.search.documents.indexes.implementation.models.DictionaryDecompounderTokenFilter.setMaxSubwordSize(java.lang.Integer)"
+- "com.azure.search.documents.indexes.implementation.models.DictionaryDecompounderTokenFilter.setMinSubwordSize(java.lang.Integer)"
+- "com.azure.search.documents.indexes.implementation.models.DictionaryDecompounderTokenFilter.setMinWordSize(java.lang.Integer)"
+- "com.azure.search.documents.indexes.implementation.models.DictionaryDecompounderTokenFilter.setOnlyLongestMatch(java.lang.Boolean)"
+- "com.azure.search.documents.indexes.implementation.models.DictionaryDecompounderTokenFilter.validate()"
+type: "class"
 metadata: {}
-package: com.azure.search.documents.indexes.implementation.models
+package: "com.azure.search.documents.indexes.implementation.models"
 artifact: com.azure:azure-search-documents:11.0.0

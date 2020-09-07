@@ -1,32 +1,32 @@
 ### YamlMime:JavaType
-uid: com.azure.resourcemanager.appservice.fluent.inner.HostnameBindingCollectionInner
-fullName: com.azure.resourcemanager.appservice.fluent.inner.HostnameBindingCollectionInner
-name: HostnameBindingCollectionInner
-nameWithType: HostnameBindingCollectionInner
-summary: The HostnameBindingCollection model.
+uid: "com.azure.resourcemanager.appservice.fluent.inner.HostnameBindingCollectionInner"
+fullName: "com.azure.resourcemanager.appservice.fluent.inner.HostnameBindingCollectionInner"
+name: "HostnameBindingCollectionInner"
+nameWithType: "HostnameBindingCollectionInner"
+summary: "The HostnameBindingCollection model."
 inheritances:
-- <xref href="java.lang.Object" data-throw-if-not-resolved="False" />
+- "<xref href=\"java.lang.Object\" data-throw-if-not-resolved=\"False\" />"
 inheritedMembers:
-- java.lang.Object.clone()
-- java.lang.Object.equals(java.lang.Object)
-- java.lang.Object.finalize()
-- java.lang.Object.getClass()
-- java.lang.Object.hashCode()
-- java.lang.Object.notify()
-- java.lang.Object.notifyAll()
-- java.lang.Object.toString()
-- java.lang.Object.wait()
-- java.lang.Object.wait(long)
-- java.lang.Object.wait(long,int)
-syntax: public final class HostnameBindingCollectionInner
+- "java.lang.Object.clone()"
+- "java.lang.Object.equals(java.lang.Object)"
+- "java.lang.Object.finalize()"
+- "java.lang.Object.getClass()"
+- "java.lang.Object.hashCode()"
+- "java.lang.Object.notify()"
+- "java.lang.Object.notifyAll()"
+- "java.lang.Object.toString()"
+- "java.lang.Object.wait()"
+- "java.lang.Object.wait(long)"
+- "java.lang.Object.wait(long,int)"
+syntax: "public final class HostnameBindingCollectionInner"
 constructors:
-- com.azure.resourcemanager.appservice.fluent.inner.HostnameBindingCollectionInner.HostnameBindingCollectionInner()
+- "com.azure.resourcemanager.appservice.fluent.inner.HostnameBindingCollectionInner.HostnameBindingCollectionInner()"
 methods:
-- com.azure.resourcemanager.appservice.fluent.inner.HostnameBindingCollectionInner.nextLink()
-- com.azure.resourcemanager.appservice.fluent.inner.HostnameBindingCollectionInner.validate()
-- com.azure.resourcemanager.appservice.fluent.inner.HostnameBindingCollectionInner.value()
-- com.azure.resourcemanager.appservice.fluent.inner.HostnameBindingCollectionInner.withValue(java.util.List<com.azure.resourcemanager.appservice.fluent.inner.HostnameBindingInner>)
-type: class
+- "com.azure.resourcemanager.appservice.fluent.inner.HostnameBindingCollectionInner.nextLink()"
+- "com.azure.resourcemanager.appservice.fluent.inner.HostnameBindingCollectionInner.validate()"
+- "com.azure.resourcemanager.appservice.fluent.inner.HostnameBindingCollectionInner.value()"
+- "com.azure.resourcemanager.appservice.fluent.inner.HostnameBindingCollectionInner.withValue(java.util.List<com.azure.resourcemanager.appservice.fluent.inner.HostnameBindingInner>)"
+type: "class"
 metadata: {}
-package: com.azure.resourcemanager.appservice.fluent.inner
+package: "com.azure.resourcemanager.appservice.fluent.inner"
 artifact: com.azure.resourcemanager:azure-resourcemanager-appservice:2.0.0-beta.2

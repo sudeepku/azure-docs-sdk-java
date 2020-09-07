@@ -1,96 +1,96 @@
 ### YamlMime:JavaType
-uid: com.azure.resourcemanager.network.fluent.VirtualNetworkTapsClient
-fullName: com.azure.resourcemanager.network.fluent.VirtualNetworkTapsClient
-name: VirtualNetworkTapsClient
-nameWithType: VirtualNetworkTapsClient
-summary: An instance of this class provides access to all the operations defined in VirtualNetworkTaps.
+uid: "com.azure.resourcemanager.network.fluent.VirtualNetworkTapsClient"
+fullName: "com.azure.resourcemanager.network.fluent.VirtualNetworkTapsClient"
+name: "VirtualNetworkTapsClient"
+nameWithType: "VirtualNetworkTapsClient"
+summary: "An instance of this class provides access to all the operations defined in VirtualNetworkTaps."
 inheritances:
-- <xref href="java.lang.Object" data-throw-if-not-resolved="False" />
+- "<xref href=\"java.lang.Object\" data-throw-if-not-resolved=\"False\" />"
 inheritedMembers:
-- java.lang.Object.clone()
-- java.lang.Object.equals(java.lang.Object)
-- java.lang.Object.finalize()
-- java.lang.Object.getClass()
-- java.lang.Object.hashCode()
-- java.lang.Object.notify()
-- java.lang.Object.notifyAll()
-- java.lang.Object.toString()
-- java.lang.Object.wait()
-- java.lang.Object.wait(long)
-- java.lang.Object.wait(long,int)
-syntax: public final class VirtualNetworkTapsClient implements InnerSupportsGet<VirtualNetworkTapInner>, InnerSupportsListing<VirtualNetworkTapInner>, InnerSupportsDelete<Void>
+- "java.lang.Object.clone()"
+- "java.lang.Object.equals(java.lang.Object)"
+- "java.lang.Object.finalize()"
+- "java.lang.Object.getClass()"
+- "java.lang.Object.hashCode()"
+- "java.lang.Object.notify()"
+- "java.lang.Object.notifyAll()"
+- "java.lang.Object.toString()"
+- "java.lang.Object.wait()"
+- "java.lang.Object.wait(long)"
+- "java.lang.Object.wait(long,int)"
+syntax: "public final class VirtualNetworkTapsClient implements InnerSupportsGet<VirtualNetworkTapInner>, InnerSupportsListing<VirtualNetworkTapInner>, InnerSupportsDelete<Void>"
 constructors:
-- com.azure.resourcemanager.network.fluent.VirtualNetworkTapsClient.VirtualNetworkTapsClient(com.azure.resourcemanager.network.NetworkManagementClient)
+- "com.azure.resourcemanager.network.fluent.VirtualNetworkTapsClient.VirtualNetworkTapsClient(com.azure.resourcemanager.network.NetworkManagementClient)"
 methods:
-- com.azure.resourcemanager.network.fluent.VirtualNetworkTapsClient.beginCreateOrUpdate(java.lang.String,java.lang.String,com.azure.resourcemanager.network.fluent.inner.VirtualNetworkTapInner)
-- com.azure.resourcemanager.network.fluent.VirtualNetworkTapsClient.beginCreateOrUpdate(java.lang.String,java.lang.String,com.azure.resourcemanager.network.fluent.inner.VirtualNetworkTapInner,com.azure.core.util.Context)
-- com.azure.resourcemanager.network.fluent.VirtualNetworkTapsClient.beginCreateOrUpdateWithoutPolling(java.lang.String,java.lang.String,com.azure.resourcemanager.network.fluent.inner.VirtualNetworkTapInner)
-- com.azure.resourcemanager.network.fluent.VirtualNetworkTapsClient.beginCreateOrUpdateWithoutPolling(java.lang.String,java.lang.String,com.azure.resourcemanager.network.fluent.inner.VirtualNetworkTapInner,com.azure.core.util.Context)
-- com.azure.resourcemanager.network.fluent.VirtualNetworkTapsClient.beginCreateOrUpdateWithoutPollingAsync(java.lang.String,java.lang.String,com.azure.resourcemanager.network.fluent.inner.VirtualNetworkTapInner)
-- com.azure.resourcemanager.network.fluent.VirtualNetworkTapsClient.beginCreateOrUpdateWithoutPollingAsync(java.lang.String,java.lang.String,com.azure.resourcemanager.network.fluent.inner.VirtualNetworkTapInner,com.azure.core.util.Context)
-- com.azure.resourcemanager.network.fluent.VirtualNetworkTapsClient.beginCreateOrUpdateWithoutPollingWithResponseAsync(java.lang.String,java.lang.String,com.azure.resourcemanager.network.fluent.inner.VirtualNetworkTapInner)
-- com.azure.resourcemanager.network.fluent.VirtualNetworkTapsClient.beginCreateOrUpdateWithoutPollingWithResponseAsync(java.lang.String,java.lang.String,com.azure.resourcemanager.network.fluent.inner.VirtualNetworkTapInner,com.azure.core.util.Context)
-- com.azure.resourcemanager.network.fluent.VirtualNetworkTapsClient.beginDelete(java.lang.String,java.lang.String)
-- com.azure.resourcemanager.network.fluent.VirtualNetworkTapsClient.beginDelete(java.lang.String,java.lang.String,com.azure.core.util.Context)
-- com.azure.resourcemanager.network.fluent.VirtualNetworkTapsClient.beginDeleteWithoutPolling(java.lang.String,java.lang.String)
-- com.azure.resourcemanager.network.fluent.VirtualNetworkTapsClient.beginDeleteWithoutPolling(java.lang.String,java.lang.String,com.azure.core.util.Context)
-- com.azure.resourcemanager.network.fluent.VirtualNetworkTapsClient.beginDeleteWithoutPollingAsync(java.lang.String,java.lang.String)
-- com.azure.resourcemanager.network.fluent.VirtualNetworkTapsClient.beginDeleteWithoutPollingAsync(java.lang.String,java.lang.String,com.azure.core.util.Context)
-- com.azure.resourcemanager.network.fluent.VirtualNetworkTapsClient.beginDeleteWithoutPollingWithResponseAsync(java.lang.String,java.lang.String)
-- com.azure.resourcemanager.network.fluent.VirtualNetworkTapsClient.beginDeleteWithoutPollingWithResponseAsync(java.lang.String,java.lang.String,com.azure.core.util.Context)
-- com.azure.resourcemanager.network.fluent.VirtualNetworkTapsClient.beginUpdateTags(java.lang.String,java.lang.String,java.util.Map<java.lang.String,java.lang.String>)
-- com.azure.resourcemanager.network.fluent.VirtualNetworkTapsClient.beginUpdateTags(java.lang.String,java.lang.String,java.util.Map<java.lang.String,java.lang.String>,com.azure.core.util.Context)
-- com.azure.resourcemanager.network.fluent.VirtualNetworkTapsClient.beginUpdateTagsWithoutPolling(java.lang.String,java.lang.String,java.util.Map<java.lang.String,java.lang.String>)
-- com.azure.resourcemanager.network.fluent.VirtualNetworkTapsClient.beginUpdateTagsWithoutPolling(java.lang.String,java.lang.String,java.util.Map<java.lang.String,java.lang.String>,com.azure.core.util.Context)
-- com.azure.resourcemanager.network.fluent.VirtualNetworkTapsClient.beginUpdateTagsWithoutPollingAsync(java.lang.String,java.lang.String,java.util.Map<java.lang.String,java.lang.String>)
-- com.azure.resourcemanager.network.fluent.VirtualNetworkTapsClient.beginUpdateTagsWithoutPollingAsync(java.lang.String,java.lang.String,java.util.Map<java.lang.String,java.lang.String>,com.azure.core.util.Context)
-- com.azure.resourcemanager.network.fluent.VirtualNetworkTapsClient.beginUpdateTagsWithoutPollingWithResponseAsync(java.lang.String,java.lang.String,java.util.Map<java.lang.String,java.lang.String>)
-- com.azure.resourcemanager.network.fluent.VirtualNetworkTapsClient.beginUpdateTagsWithoutPollingWithResponseAsync(java.lang.String,java.lang.String,java.util.Map<java.lang.String,java.lang.String>,com.azure.core.util.Context)
-- com.azure.resourcemanager.network.fluent.VirtualNetworkTapsClient.createOrUpdate(java.lang.String,java.lang.String,com.azure.resourcemanager.network.fluent.inner.VirtualNetworkTapInner)
-- com.azure.resourcemanager.network.fluent.VirtualNetworkTapsClient.createOrUpdate(java.lang.String,java.lang.String,com.azure.resourcemanager.network.fluent.inner.VirtualNetworkTapInner,com.azure.core.util.Context)
-- com.azure.resourcemanager.network.fluent.VirtualNetworkTapsClient.createOrUpdateAsync(java.lang.String,java.lang.String,com.azure.resourcemanager.network.fluent.inner.VirtualNetworkTapInner)
-- com.azure.resourcemanager.network.fluent.VirtualNetworkTapsClient.createOrUpdateAsync(java.lang.String,java.lang.String,com.azure.resourcemanager.network.fluent.inner.VirtualNetworkTapInner,com.azure.core.util.Context)
-- com.azure.resourcemanager.network.fluent.VirtualNetworkTapsClient.createOrUpdateWithResponseAsync(java.lang.String,java.lang.String,com.azure.resourcemanager.network.fluent.inner.VirtualNetworkTapInner)
-- com.azure.resourcemanager.network.fluent.VirtualNetworkTapsClient.createOrUpdateWithResponseAsync(java.lang.String,java.lang.String,com.azure.resourcemanager.network.fluent.inner.VirtualNetworkTapInner,com.azure.core.util.Context)
-- com.azure.resourcemanager.network.fluent.VirtualNetworkTapsClient.delete(java.lang.String,java.lang.String)
-- com.azure.resourcemanager.network.fluent.VirtualNetworkTapsClient.delete(java.lang.String,java.lang.String,com.azure.core.util.Context)
-- com.azure.resourcemanager.network.fluent.VirtualNetworkTapsClient.deleteAsync(java.lang.String,java.lang.String)
-- com.azure.resourcemanager.network.fluent.VirtualNetworkTapsClient.deleteAsync(java.lang.String,java.lang.String,com.azure.core.util.Context)
-- com.azure.resourcemanager.network.fluent.VirtualNetworkTapsClient.deleteWithResponseAsync(java.lang.String,java.lang.String)
-- com.azure.resourcemanager.network.fluent.VirtualNetworkTapsClient.deleteWithResponseAsync(java.lang.String,java.lang.String,com.azure.core.util.Context)
-- com.azure.resourcemanager.network.fluent.VirtualNetworkTapsClient.getByResourceGroup(java.lang.String,java.lang.String)
-- com.azure.resourcemanager.network.fluent.VirtualNetworkTapsClient.getByResourceGroup(java.lang.String,java.lang.String,com.azure.core.util.Context)
-- com.azure.resourcemanager.network.fluent.VirtualNetworkTapsClient.getByResourceGroupAsync(java.lang.String,java.lang.String)
-- com.azure.resourcemanager.network.fluent.VirtualNetworkTapsClient.getByResourceGroupAsync(java.lang.String,java.lang.String,com.azure.core.util.Context)
-- com.azure.resourcemanager.network.fluent.VirtualNetworkTapsClient.getByResourceGroupWithResponseAsync(java.lang.String,java.lang.String)
-- com.azure.resourcemanager.network.fluent.VirtualNetworkTapsClient.getByResourceGroupWithResponseAsync(java.lang.String,java.lang.String,com.azure.core.util.Context)
-- com.azure.resourcemanager.network.fluent.VirtualNetworkTapsClient.list()
-- com.azure.resourcemanager.network.fluent.VirtualNetworkTapsClient.list(com.azure.core.util.Context)
-- com.azure.resourcemanager.network.fluent.VirtualNetworkTapsClient.listAllNextSinglePageAsync(java.lang.String)
-- com.azure.resourcemanager.network.fluent.VirtualNetworkTapsClient.listAllNextSinglePageAsync(java.lang.String,com.azure.core.util.Context)
-- com.azure.resourcemanager.network.fluent.VirtualNetworkTapsClient.listAsync()
-- com.azure.resourcemanager.network.fluent.VirtualNetworkTapsClient.listAsync(com.azure.core.util.Context)
-- com.azure.resourcemanager.network.fluent.VirtualNetworkTapsClient.listByResourceGroup(java.lang.String)
-- com.azure.resourcemanager.network.fluent.VirtualNetworkTapsClient.listByResourceGroup(java.lang.String,com.azure.core.util.Context)
-- com.azure.resourcemanager.network.fluent.VirtualNetworkTapsClient.listByResourceGroupAsync(java.lang.String)
-- com.azure.resourcemanager.network.fluent.VirtualNetworkTapsClient.listByResourceGroupAsync(java.lang.String,com.azure.core.util.Context)
-- com.azure.resourcemanager.network.fluent.VirtualNetworkTapsClient.listByResourceGroupNextSinglePageAsync(java.lang.String)
-- com.azure.resourcemanager.network.fluent.VirtualNetworkTapsClient.listByResourceGroupNextSinglePageAsync(java.lang.String,com.azure.core.util.Context)
-- com.azure.resourcemanager.network.fluent.VirtualNetworkTapsClient.listByResourceGroupSinglePageAsync(java.lang.String)
-- com.azure.resourcemanager.network.fluent.VirtualNetworkTapsClient.listByResourceGroupSinglePageAsync(java.lang.String,com.azure.core.util.Context)
-- com.azure.resourcemanager.network.fluent.VirtualNetworkTapsClient.listSinglePageAsync()
-- com.azure.resourcemanager.network.fluent.VirtualNetworkTapsClient.listSinglePageAsync(com.azure.core.util.Context)
-- com.azure.resourcemanager.network.fluent.VirtualNetworkTapsClient.updateTags(java.lang.String,java.lang.String,java.util.Map<java.lang.String,java.lang.String>)
-- com.azure.resourcemanager.network.fluent.VirtualNetworkTapsClient.updateTags(java.lang.String,java.lang.String,java.util.Map<java.lang.String,java.lang.String>,com.azure.core.util.Context)
-- com.azure.resourcemanager.network.fluent.VirtualNetworkTapsClient.updateTagsAsync(java.lang.String,java.lang.String,java.util.Map<java.lang.String,java.lang.String>)
-- com.azure.resourcemanager.network.fluent.VirtualNetworkTapsClient.updateTagsAsync(java.lang.String,java.lang.String,java.util.Map<java.lang.String,java.lang.String>,com.azure.core.util.Context)
-- com.azure.resourcemanager.network.fluent.VirtualNetworkTapsClient.updateTagsWithResponseAsync(java.lang.String,java.lang.String,java.util.Map<java.lang.String,java.lang.String>)
-- com.azure.resourcemanager.network.fluent.VirtualNetworkTapsClient.updateTagsWithResponseAsync(java.lang.String,java.lang.String,java.util.Map<java.lang.String,java.lang.String>,com.azure.core.util.Context)
-type: class
+- "com.azure.resourcemanager.network.fluent.VirtualNetworkTapsClient.beginCreateOrUpdate(java.lang.String,java.lang.String,com.azure.resourcemanager.network.fluent.inner.VirtualNetworkTapInner)"
+- "com.azure.resourcemanager.network.fluent.VirtualNetworkTapsClient.beginCreateOrUpdate(java.lang.String,java.lang.String,com.azure.resourcemanager.network.fluent.inner.VirtualNetworkTapInner,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.network.fluent.VirtualNetworkTapsClient.beginCreateOrUpdateWithoutPolling(java.lang.String,java.lang.String,com.azure.resourcemanager.network.fluent.inner.VirtualNetworkTapInner)"
+- "com.azure.resourcemanager.network.fluent.VirtualNetworkTapsClient.beginCreateOrUpdateWithoutPolling(java.lang.String,java.lang.String,com.azure.resourcemanager.network.fluent.inner.VirtualNetworkTapInner,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.network.fluent.VirtualNetworkTapsClient.beginCreateOrUpdateWithoutPollingAsync(java.lang.String,java.lang.String,com.azure.resourcemanager.network.fluent.inner.VirtualNetworkTapInner)"
+- "com.azure.resourcemanager.network.fluent.VirtualNetworkTapsClient.beginCreateOrUpdateWithoutPollingAsync(java.lang.String,java.lang.String,com.azure.resourcemanager.network.fluent.inner.VirtualNetworkTapInner,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.network.fluent.VirtualNetworkTapsClient.beginCreateOrUpdateWithoutPollingWithResponseAsync(java.lang.String,java.lang.String,com.azure.resourcemanager.network.fluent.inner.VirtualNetworkTapInner)"
+- "com.azure.resourcemanager.network.fluent.VirtualNetworkTapsClient.beginCreateOrUpdateWithoutPollingWithResponseAsync(java.lang.String,java.lang.String,com.azure.resourcemanager.network.fluent.inner.VirtualNetworkTapInner,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.network.fluent.VirtualNetworkTapsClient.beginDelete(java.lang.String,java.lang.String)"
+- "com.azure.resourcemanager.network.fluent.VirtualNetworkTapsClient.beginDelete(java.lang.String,java.lang.String,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.network.fluent.VirtualNetworkTapsClient.beginDeleteWithoutPolling(java.lang.String,java.lang.String)"
+- "com.azure.resourcemanager.network.fluent.VirtualNetworkTapsClient.beginDeleteWithoutPolling(java.lang.String,java.lang.String,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.network.fluent.VirtualNetworkTapsClient.beginDeleteWithoutPollingAsync(java.lang.String,java.lang.String)"
+- "com.azure.resourcemanager.network.fluent.VirtualNetworkTapsClient.beginDeleteWithoutPollingAsync(java.lang.String,java.lang.String,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.network.fluent.VirtualNetworkTapsClient.beginDeleteWithoutPollingWithResponseAsync(java.lang.String,java.lang.String)"
+- "com.azure.resourcemanager.network.fluent.VirtualNetworkTapsClient.beginDeleteWithoutPollingWithResponseAsync(java.lang.String,java.lang.String,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.network.fluent.VirtualNetworkTapsClient.beginUpdateTags(java.lang.String,java.lang.String,java.util.Map<java.lang.String,java.lang.String>)"
+- "com.azure.resourcemanager.network.fluent.VirtualNetworkTapsClient.beginUpdateTags(java.lang.String,java.lang.String,java.util.Map<java.lang.String,java.lang.String>,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.network.fluent.VirtualNetworkTapsClient.beginUpdateTagsWithoutPolling(java.lang.String,java.lang.String,java.util.Map<java.lang.String,java.lang.String>)"
+- "com.azure.resourcemanager.network.fluent.VirtualNetworkTapsClient.beginUpdateTagsWithoutPolling(java.lang.String,java.lang.String,java.util.Map<java.lang.String,java.lang.String>,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.network.fluent.VirtualNetworkTapsClient.beginUpdateTagsWithoutPollingAsync(java.lang.String,java.lang.String,java.util.Map<java.lang.String,java.lang.String>)"
+- "com.azure.resourcemanager.network.fluent.VirtualNetworkTapsClient.beginUpdateTagsWithoutPollingAsync(java.lang.String,java.lang.String,java.util.Map<java.lang.String,java.lang.String>,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.network.fluent.VirtualNetworkTapsClient.beginUpdateTagsWithoutPollingWithResponseAsync(java.lang.String,java.lang.String,java.util.Map<java.lang.String,java.lang.String>)"
+- "com.azure.resourcemanager.network.fluent.VirtualNetworkTapsClient.beginUpdateTagsWithoutPollingWithResponseAsync(java.lang.String,java.lang.String,java.util.Map<java.lang.String,java.lang.String>,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.network.fluent.VirtualNetworkTapsClient.createOrUpdate(java.lang.String,java.lang.String,com.azure.resourcemanager.network.fluent.inner.VirtualNetworkTapInner)"
+- "com.azure.resourcemanager.network.fluent.VirtualNetworkTapsClient.createOrUpdate(java.lang.String,java.lang.String,com.azure.resourcemanager.network.fluent.inner.VirtualNetworkTapInner,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.network.fluent.VirtualNetworkTapsClient.createOrUpdateAsync(java.lang.String,java.lang.String,com.azure.resourcemanager.network.fluent.inner.VirtualNetworkTapInner)"
+- "com.azure.resourcemanager.network.fluent.VirtualNetworkTapsClient.createOrUpdateAsync(java.lang.String,java.lang.String,com.azure.resourcemanager.network.fluent.inner.VirtualNetworkTapInner,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.network.fluent.VirtualNetworkTapsClient.createOrUpdateWithResponseAsync(java.lang.String,java.lang.String,com.azure.resourcemanager.network.fluent.inner.VirtualNetworkTapInner)"
+- "com.azure.resourcemanager.network.fluent.VirtualNetworkTapsClient.createOrUpdateWithResponseAsync(java.lang.String,java.lang.String,com.azure.resourcemanager.network.fluent.inner.VirtualNetworkTapInner,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.network.fluent.VirtualNetworkTapsClient.delete(java.lang.String,java.lang.String)"
+- "com.azure.resourcemanager.network.fluent.VirtualNetworkTapsClient.delete(java.lang.String,java.lang.String,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.network.fluent.VirtualNetworkTapsClient.deleteAsync(java.lang.String,java.lang.String)"
+- "com.azure.resourcemanager.network.fluent.VirtualNetworkTapsClient.deleteAsync(java.lang.String,java.lang.String,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.network.fluent.VirtualNetworkTapsClient.deleteWithResponseAsync(java.lang.String,java.lang.String)"
+- "com.azure.resourcemanager.network.fluent.VirtualNetworkTapsClient.deleteWithResponseAsync(java.lang.String,java.lang.String,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.network.fluent.VirtualNetworkTapsClient.getByResourceGroup(java.lang.String,java.lang.String)"
+- "com.azure.resourcemanager.network.fluent.VirtualNetworkTapsClient.getByResourceGroup(java.lang.String,java.lang.String,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.network.fluent.VirtualNetworkTapsClient.getByResourceGroupAsync(java.lang.String,java.lang.String)"
+- "com.azure.resourcemanager.network.fluent.VirtualNetworkTapsClient.getByResourceGroupAsync(java.lang.String,java.lang.String,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.network.fluent.VirtualNetworkTapsClient.getByResourceGroupWithResponseAsync(java.lang.String,java.lang.String)"
+- "com.azure.resourcemanager.network.fluent.VirtualNetworkTapsClient.getByResourceGroupWithResponseAsync(java.lang.String,java.lang.String,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.network.fluent.VirtualNetworkTapsClient.list()"
+- "com.azure.resourcemanager.network.fluent.VirtualNetworkTapsClient.list(com.azure.core.util.Context)"
+- "com.azure.resourcemanager.network.fluent.VirtualNetworkTapsClient.listAllNextSinglePageAsync(java.lang.String)"
+- "com.azure.resourcemanager.network.fluent.VirtualNetworkTapsClient.listAllNextSinglePageAsync(java.lang.String,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.network.fluent.VirtualNetworkTapsClient.listAsync()"
+- "com.azure.resourcemanager.network.fluent.VirtualNetworkTapsClient.listAsync(com.azure.core.util.Context)"
+- "com.azure.resourcemanager.network.fluent.VirtualNetworkTapsClient.listByResourceGroup(java.lang.String)"
+- "com.azure.resourcemanager.network.fluent.VirtualNetworkTapsClient.listByResourceGroup(java.lang.String,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.network.fluent.VirtualNetworkTapsClient.listByResourceGroupAsync(java.lang.String)"
+- "com.azure.resourcemanager.network.fluent.VirtualNetworkTapsClient.listByResourceGroupAsync(java.lang.String,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.network.fluent.VirtualNetworkTapsClient.listByResourceGroupNextSinglePageAsync(java.lang.String)"
+- "com.azure.resourcemanager.network.fluent.VirtualNetworkTapsClient.listByResourceGroupNextSinglePageAsync(java.lang.String,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.network.fluent.VirtualNetworkTapsClient.listByResourceGroupSinglePageAsync(java.lang.String)"
+- "com.azure.resourcemanager.network.fluent.VirtualNetworkTapsClient.listByResourceGroupSinglePageAsync(java.lang.String,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.network.fluent.VirtualNetworkTapsClient.listSinglePageAsync()"
+- "com.azure.resourcemanager.network.fluent.VirtualNetworkTapsClient.listSinglePageAsync(com.azure.core.util.Context)"
+- "com.azure.resourcemanager.network.fluent.VirtualNetworkTapsClient.updateTags(java.lang.String,java.lang.String,java.util.Map<java.lang.String,java.lang.String>)"
+- "com.azure.resourcemanager.network.fluent.VirtualNetworkTapsClient.updateTags(java.lang.String,java.lang.String,java.util.Map<java.lang.String,java.lang.String>,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.network.fluent.VirtualNetworkTapsClient.updateTagsAsync(java.lang.String,java.lang.String,java.util.Map<java.lang.String,java.lang.String>)"
+- "com.azure.resourcemanager.network.fluent.VirtualNetworkTapsClient.updateTagsAsync(java.lang.String,java.lang.String,java.util.Map<java.lang.String,java.lang.String>,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.network.fluent.VirtualNetworkTapsClient.updateTagsWithResponseAsync(java.lang.String,java.lang.String,java.util.Map<java.lang.String,java.lang.String>)"
+- "com.azure.resourcemanager.network.fluent.VirtualNetworkTapsClient.updateTagsWithResponseAsync(java.lang.String,java.lang.String,java.util.Map<java.lang.String,java.lang.String>,com.azure.core.util.Context)"
+type: "class"
 implements:
-- <xref href="com.azure.resourcemanager.resources.fluentcore.collection.InnerSupportsDelete?alt=com.azure.resourcemanager.resources.fluentcore.collection.InnerSupportsDelete&text=InnerSupportsDelete" data-throw-if-not-resolved="False" />&lt;<xref href="java.lang.Void?alt=java.lang.Void&text=Void" data-throw-if-not-resolved="False" />&gt;
-- <xref href="com.azure.resourcemanager.resources.fluentcore.collection.InnerSupportsGet?alt=com.azure.resourcemanager.resources.fluentcore.collection.InnerSupportsGet&text=InnerSupportsGet" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.resourcemanager.network.fluent.inner.VirtualNetworkTapInner?alt=com.azure.resourcemanager.network.fluent.inner.VirtualNetworkTapInner&text=VirtualNetworkTapInner" data-throw-if-not-resolved="False" />&gt;
-- <xref href="com.azure.resourcemanager.resources.fluentcore.collection.InnerSupportsListing?alt=com.azure.resourcemanager.resources.fluentcore.collection.InnerSupportsListing&text=InnerSupportsListing" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.resourcemanager.network.fluent.inner.VirtualNetworkTapInner?alt=com.azure.resourcemanager.network.fluent.inner.VirtualNetworkTapInner&text=VirtualNetworkTapInner" data-throw-if-not-resolved="False" />&gt;
+- "<xref href=\"com.azure.resourcemanager.resources.fluentcore.collection.InnerSupportsDelete?alt=com.azure.resourcemanager.resources.fluentcore.collection.InnerSupportsDelete&text=InnerSupportsDelete\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"java.lang.Void?alt=java.lang.Void&text=Void\" data-throw-if-not-resolved=\"False\" />&gt;"
+- "<xref href=\"com.azure.resourcemanager.resources.fluentcore.collection.InnerSupportsGet?alt=com.azure.resourcemanager.resources.fluentcore.collection.InnerSupportsGet&text=InnerSupportsGet\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.network.fluent.inner.VirtualNetworkTapInner?alt=com.azure.resourcemanager.network.fluent.inner.VirtualNetworkTapInner&text=VirtualNetworkTapInner\" data-throw-if-not-resolved=\"False\" />&gt;"
+- "<xref href=\"com.azure.resourcemanager.resources.fluentcore.collection.InnerSupportsListing?alt=com.azure.resourcemanager.resources.fluentcore.collection.InnerSupportsListing&text=InnerSupportsListing\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.network.fluent.inner.VirtualNetworkTapInner?alt=com.azure.resourcemanager.network.fluent.inner.VirtualNetworkTapInner&text=VirtualNetworkTapInner\" data-throw-if-not-resolved=\"False\" />&gt;"
 metadata: {}
-package: com.azure.resourcemanager.network.fluent
+package: "com.azure.resourcemanager.network.fluent"
 artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.0.0-beta.2

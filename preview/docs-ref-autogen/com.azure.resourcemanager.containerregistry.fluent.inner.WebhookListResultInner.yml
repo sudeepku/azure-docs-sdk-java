@@ -1,33 +1,33 @@
 ### YamlMime:JavaType
-uid: com.azure.resourcemanager.containerregistry.fluent.inner.WebhookListResultInner
-fullName: com.azure.resourcemanager.containerregistry.fluent.inner.WebhookListResultInner
-name: WebhookListResultInner
-nameWithType: WebhookListResultInner
-summary: The WebhookListResult model.
+uid: "com.azure.resourcemanager.containerregistry.fluent.inner.WebhookListResultInner"
+fullName: "com.azure.resourcemanager.containerregistry.fluent.inner.WebhookListResultInner"
+name: "WebhookListResultInner"
+nameWithType: "WebhookListResultInner"
+summary: "The WebhookListResult model."
 inheritances:
-- <xref href="java.lang.Object" data-throw-if-not-resolved="False" />
+- "<xref href=\"java.lang.Object\" data-throw-if-not-resolved=\"False\" />"
 inheritedMembers:
-- java.lang.Object.clone()
-- java.lang.Object.equals(java.lang.Object)
-- java.lang.Object.finalize()
-- java.lang.Object.getClass()
-- java.lang.Object.hashCode()
-- java.lang.Object.notify()
-- java.lang.Object.notifyAll()
-- java.lang.Object.toString()
-- java.lang.Object.wait()
-- java.lang.Object.wait(long)
-- java.lang.Object.wait(long,int)
-syntax: public final class WebhookListResultInner
+- "java.lang.Object.clone()"
+- "java.lang.Object.equals(java.lang.Object)"
+- "java.lang.Object.finalize()"
+- "java.lang.Object.getClass()"
+- "java.lang.Object.hashCode()"
+- "java.lang.Object.notify()"
+- "java.lang.Object.notifyAll()"
+- "java.lang.Object.toString()"
+- "java.lang.Object.wait()"
+- "java.lang.Object.wait(long)"
+- "java.lang.Object.wait(long,int)"
+syntax: "public final class WebhookListResultInner"
 constructors:
-- com.azure.resourcemanager.containerregistry.fluent.inner.WebhookListResultInner.WebhookListResultInner()
+- "com.azure.resourcemanager.containerregistry.fluent.inner.WebhookListResultInner.WebhookListResultInner()"
 methods:
-- com.azure.resourcemanager.containerregistry.fluent.inner.WebhookListResultInner.nextLink()
-- com.azure.resourcemanager.containerregistry.fluent.inner.WebhookListResultInner.validate()
-- com.azure.resourcemanager.containerregistry.fluent.inner.WebhookListResultInner.value()
-- com.azure.resourcemanager.containerregistry.fluent.inner.WebhookListResultInner.withNextLink(java.lang.String)
-- com.azure.resourcemanager.containerregistry.fluent.inner.WebhookListResultInner.withValue(java.util.List<com.azure.resourcemanager.containerregistry.fluent.inner.WebhookInner>)
-type: class
+- "com.azure.resourcemanager.containerregistry.fluent.inner.WebhookListResultInner.nextLink()"
+- "com.azure.resourcemanager.containerregistry.fluent.inner.WebhookListResultInner.validate()"
+- "com.azure.resourcemanager.containerregistry.fluent.inner.WebhookListResultInner.value()"
+- "com.azure.resourcemanager.containerregistry.fluent.inner.WebhookListResultInner.withNextLink(java.lang.String)"
+- "com.azure.resourcemanager.containerregistry.fluent.inner.WebhookListResultInner.withValue(java.util.List<com.azure.resourcemanager.containerregistry.fluent.inner.WebhookInner>)"
+type: "class"
 metadata: {}
-package: com.azure.resourcemanager.containerregistry.fluent.inner
+package: "com.azure.resourcemanager.containerregistry.fluent.inner"
 artifact: com.azure.resourcemanager:azure-resourcemanager-containerregistry:2.0.0-beta.2

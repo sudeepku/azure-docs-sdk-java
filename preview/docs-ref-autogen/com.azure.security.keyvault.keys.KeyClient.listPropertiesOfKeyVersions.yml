@@ -1,101 +1,39 @@
 ### YamlMime:JavaMember
-uid: com.azure.security.keyvault.keys.KeyClient.listPropertiesOfKeyVersions*
-fullName: com.azure.security.keyvault.keys.KeyClient.listPropertiesOfKeyVersions
-name: listPropertiesOfKeyVersions
-nameWithType: KeyClient.listPropertiesOfKeyVersions
+uid: "com.azure.security.keyvault.keys.KeyClient.listPropertiesOfKeyVersions*"
+fullName: "com.azure.security.keyvault.keys.KeyClient.listPropertiesOfKeyVersions"
+name: "listPropertiesOfKeyVersions"
+nameWithType: "KeyClient.listPropertiesOfKeyVersions"
 members:
-- uid: com.azure.security.keyvault.keys.KeyClient.listPropertiesOfKeyVersions(java.lang.String)
-  fullName: com.azure.security.keyvault.keys.KeyClient.listPropertiesOfKeyVersions(String name)
-  name: listPropertiesOfKeyVersions(String name)
-  nameWithType: KeyClient.listPropertiesOfKeyVersions(String name)
-  summary: |-
-    List all versions of the specified key. The individual key response in the flux is represented by <xref uid="KeyProperties" data-throw-if-not-resolved="false">KeyProperties</xref>
-     as only the key identifier, attributes and tags are provided in the response. The key material values are
-     not provided in the response. This operation requires the <code>keys/list</code> permission.
-
-     <p>It is possible to get full keys with key material for each version from this information. Loop over the
-     <xref uid="KeyProperties" data-throw-if-not-resolved="false">key</xref> and call <xref uid="KeyClient#getKey(String, String)" data-throw-if-not-resolved="false">KeyClient#getKey(String, String)</xref>. This will return the <xref uid="KeyVaultKey" data-throw-if-not-resolved="false">keys</xref>
-     with key material included of the specified versions.</p>
-     <pre>
-     for &#40;KeyProperties key : keyClient.listPropertiesOfKeyVersions&#40;&quot;keyName&quot;&#41;&#41; &#123;
-         KeyVaultKey keyWithMaterial  = keyClient.getKey&#40;key.getName&#40;&#41;, key.getVersion&#40;&#41;&#41;;
-         System.out.printf&#40;&quot;Received key's version with name %s, type %s and version %s&quot;,
-             keyWithMaterial.getName&#40;&#41;,
-                 keyWithMaterial.getKeyType&#40;&#41;, keyWithMaterial.getProperties&#40;&#41;.getVersion&#40;&#41;&#41;;
-     &#125;
-     </pre>
-
-     <p><strong>Code Samples to iterate over key versions by page</strong></p>
-     <p>It is possible to get full keys with key material for each version from this information. Iterate over all
-     the <xref uid="KeyProperties" data-throw-if-not-resolved="false">key</xref> by page and call <xref uid="KeyClient#getKey(String, String)" data-throw-if-not-resolved="false">KeyClient#getKey(String, String)</xref>. This will return the <xref uid="KeyVaultKey" data-throw-if-not-resolved="false">keys</xref> with key material included of the specified versions.</p>
-     <pre>
-     keyClient.listPropertiesOfKeyVersions&#40;&quot;keyName&quot;&#41;.iterableByPage&#40;&#41;.forEach&#40;resp -&gt; &#123;
-         System.out.printf&#40;&quot;Got response headers . Url: %s, Status code: %d %n&quot;,
-             resp.getRequest&#40;&#41;.getUrl&#40;&#41;, resp.getStatusCode&#40;&#41;&#41;;
-         resp.getItems&#40;&#41;.forEach&#40;value -&gt; &#123;
-             System.out.printf&#40;&quot;Key name: %s, Key version: %s %n&quot;, value.getName&#40;&#41;, value.getVersion&#40;&#41;&#41;;
-         &#125;&#41;;
-     &#125;&#41;;
-     </pre>
+- uid: "com.azure.security.keyvault.keys.KeyClient.listPropertiesOfKeyVersions(java.lang.String)"
+  fullName: "com.azure.security.keyvault.keys.KeyClient.listPropertiesOfKeyVersions(String name)"
+  name: "listPropertiesOfKeyVersions(String name)"
+  nameWithType: "KeyClient.listPropertiesOfKeyVersions(String name)"
+  summary: "List all versions of the specified key. The individual key response in the flux is represented by <xref uid=\"KeyProperties\" data-throw-if-not-resolved=\"false\">KeyProperties</xref>\n as only the key identifier, attributes and tags are provided in the response. The key material values are\n not provided in the response. This operation requires the <code>keys/list</code> permission.\n\n <p>It is possible to get full keys with key material for each version from this information. Loop over the\n <xref uid=\"KeyProperties\" data-throw-if-not-resolved=\"false\">key</xref> and call <xref uid=\"KeyClient#getKey(String, String)\" data-throw-if-not-resolved=\"false\">KeyClient#getKey(String, String)</xref>. This will return the <xref uid=\"KeyVaultKey\" data-throw-if-not-resolved=\"false\">keys</xref>\n with key material included of the specified versions.</p>\n <pre>\n for &#40;KeyProperties key : keyClient.listPropertiesOfKeyVersions&#40;&quot;keyName&quot;&#41;&#41; &#123;\n     KeyVaultKey keyWithMaterial  = keyClient.getKey&#40;key.getName&#40;&#41;, key.getVersion&#40;&#41;&#41;;\n     System.out.printf&#40;&quot;Received key's version with name %s, type %s and version %s&quot;,\n         keyWithMaterial.getName&#40;&#41;,\n             keyWithMaterial.getKeyType&#40;&#41;, keyWithMaterial.getProperties&#40;&#41;.getVersion&#40;&#41;&#41;;\n &#125;\n </pre>\n\n <p><strong>Code Samples to iterate over key versions by page</strong></p>\n <p>It is possible to get full keys with key material for each version from this information. Iterate over all\n the <xref uid=\"KeyProperties\" data-throw-if-not-resolved=\"false\">key</xref> by page and call <xref uid=\"KeyClient#getKey(String, String)\" data-throw-if-not-resolved=\"false\">KeyClient#getKey(String, String)</xref>. This will return the <xref uid=\"KeyVaultKey\" data-throw-if-not-resolved=\"false\">keys</xref> with key material included of the specified versions.</p>\n <pre>\n keyClient.listPropertiesOfKeyVersions&#40;&quot;keyName&quot;&#41;.iterableByPage&#40;&#41;.forEach&#40;resp -&gt; &#123;\n     System.out.printf&#40;&quot;Got response headers . Url: %s, Status code: %d %n&quot;,\n         resp.getRequest&#40;&#41;.getUrl&#40;&#41;, resp.getStatusCode&#40;&#41;&#41;;\n     resp.getItems&#40;&#41;.forEach&#40;value -&gt; &#123;\n         System.out.printf&#40;&quot;Key name: %s, Key version: %s %n&quot;, value.getName&#40;&#41;, value.getVersion&#40;&#41;&#41;;\n     &#125;&#41;;\n &#125;&#41;;\n </pre>"
   parameters:
-  - description: The name of the key.
-    name: name
-    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
-  syntax: public PagedIterable<KeyProperties> listPropertiesOfKeyVersions(String name)
+  - description: "The name of the key."
+    name: "name"
+    type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public PagedIterable<KeyProperties> listPropertiesOfKeyVersions(String name)"
   returns:
-    description: |-
-      <xref uid="com.azure.core.http.rest.PagedIterable" data-throw-if-not-resolved="false">PagedIterable</xref> of <xref uid="com.azure.security.keyvault.keys.models.KeyProperties" data-throw-if-not-resolved="false">key</xref> of all the versions of the specified key in the vault. List
-           is empty if key with <code>name</code> does not exist in key vault.
-    type: <xref href="com.azure.core.http.rest.PagedIterable?alt=com.azure.core.http.rest.PagedIterable&text=PagedIterable" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.security.keyvault.keys.models.KeyProperties?alt=com.azure.security.keyvault.keys.models.KeyProperties&text=KeyProperties" data-throw-if-not-resolved="False" />&gt;
-- uid: com.azure.security.keyvault.keys.KeyClient.listPropertiesOfKeyVersions(java.lang.String,com.azure.core.util.Context)
-  fullName: com.azure.security.keyvault.keys.KeyClient.listPropertiesOfKeyVersions(String name, Context context)
-  name: listPropertiesOfKeyVersions(String name, Context context)
-  nameWithType: KeyClient.listPropertiesOfKeyVersions(String name, Context context)
-  summary: |-
-    List all versions of the specified key. The individual key response in the flux is represented by <xref uid="KeyProperties" data-throw-if-not-resolved="false">KeyProperties</xref>
-     as only the key identifier, attributes and tags are provided in the response. The key material values are
-     not provided in the response. This operation requires the <code>keys/list</code> permission.
-
-     <p>It is possible to get full keys with key material for each version from this information. Loop over the
-     <xref uid="KeyProperties" data-throw-if-not-resolved="false">key</xref> and call <xref uid="KeyClient#getKey(String, String)" data-throw-if-not-resolved="false">KeyClient#getKey(String, String)</xref>. This will return the <xref uid="KeyVaultKey" data-throw-if-not-resolved="false">keys</xref>
-     with key material included of the specified versions.</p>
-     <pre>
-     for &#40;KeyProperties key : keyClient.listPropertiesOfKeyVersions&#40;&quot;keyName&quot;&#41;&#41; &#123;
-         KeyVaultKey keyWithMaterial  = keyClient.getKey&#40;key.getName&#40;&#41;, key.getVersion&#40;&#41;&#41;;
-         System.out.printf&#40;&quot;Received key's version with name %s, type %s and version %s&quot;,
-             keyWithMaterial.getName&#40;&#41;,
-                 keyWithMaterial.getKeyType&#40;&#41;, keyWithMaterial.getProperties&#40;&#41;.getVersion&#40;&#41;&#41;;
-     &#125;
-     </pre>
-
-     <p><strong>Code Samples to iterate over key versions by page</strong></p>
-     <p>It is possible to get full keys with key material for each version from this information. Iterate over all
-     the <xref uid="KeyProperties" data-throw-if-not-resolved="false">key</xref> by page and call <xref uid="KeyClient#getKey(String, String)" data-throw-if-not-resolved="false">KeyClient#getKey(String, String)</xref>. This will return the
-     <xref uid="KeyVaultKey" data-throw-if-not-resolved="false">keys</xref> with key material included of the specified versions.</p>
-
-     <pre>
-     keyClient.listPropertiesOfKeyVersions&#40;&quot;keyName&quot;&#41;.iterableByPage&#40;&#41;.forEach&#40;resp -&gt; &#123;
-         System.out.printf&#40;&quot;Got response headers . Url: %s, Status code: %d %n&quot;,
-             resp.getRequest&#40;&#41;.getUrl&#40;&#41;, resp.getStatusCode&#40;&#41;&#41;;
-         resp.getItems&#40;&#41;.forEach&#40;value -&gt; &#123;
-             System.out.printf&#40;&quot;Key name: %s, Key version: %s %n&quot;, value.getName&#40;&#41;, value.getVersion&#40;&#41;&#41;;
-         &#125;&#41;;
-     &#125;&#41;;
-     </pre>
+    description: "<xref uid=\"com.azure.core.http.rest.PagedIterable\" data-throw-if-not-resolved=\"false\">PagedIterable</xref> of <xref uid=\"com.azure.security.keyvault.keys.models.KeyProperties\" data-throw-if-not-resolved=\"false\">key</xref> of all the versions of the specified key in the vault. List\n     is empty if key with <code>name</code> does not exist in key vault."
+    type: "<xref href=\"com.azure.core.http.rest.PagedIterable?alt=com.azure.core.http.rest.PagedIterable&text=PagedIterable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.security.keyvault.keys.models.KeyProperties?alt=com.azure.security.keyvault.keys.models.KeyProperties&text=KeyProperties\" data-throw-if-not-resolved=\"False\" />&gt;"
+- uid: "com.azure.security.keyvault.keys.KeyClient.listPropertiesOfKeyVersions(java.lang.String,com.azure.core.util.Context)"
+  fullName: "com.azure.security.keyvault.keys.KeyClient.listPropertiesOfKeyVersions(String name, Context context)"
+  name: "listPropertiesOfKeyVersions(String name, Context context)"
+  nameWithType: "KeyClient.listPropertiesOfKeyVersions(String name, Context context)"
+  summary: "List all versions of the specified key. The individual key response in the flux is represented by <xref uid=\"KeyProperties\" data-throw-if-not-resolved=\"false\">KeyProperties</xref>\n as only the key identifier, attributes and tags are provided in the response. The key material values are\n not provided in the response. This operation requires the <code>keys/list</code> permission.\n\n <p>It is possible to get full keys with key material for each version from this information. Loop over the\n <xref uid=\"KeyProperties\" data-throw-if-not-resolved=\"false\">key</xref> and call <xref uid=\"KeyClient#getKey(String, String)\" data-throw-if-not-resolved=\"false\">KeyClient#getKey(String, String)</xref>. This will return the <xref uid=\"KeyVaultKey\" data-throw-if-not-resolved=\"false\">keys</xref>\n with key material included of the specified versions.</p>\n <pre>\n for &#40;KeyProperties key : keyClient.listPropertiesOfKeyVersions&#40;&quot;keyName&quot;&#41;&#41; &#123;\n     KeyVaultKey keyWithMaterial  = keyClient.getKey&#40;key.getName&#40;&#41;, key.getVersion&#40;&#41;&#41;;\n     System.out.printf&#40;&quot;Received key's version with name %s, type %s and version %s&quot;,\n         keyWithMaterial.getName&#40;&#41;,\n             keyWithMaterial.getKeyType&#40;&#41;, keyWithMaterial.getProperties&#40;&#41;.getVersion&#40;&#41;&#41;;\n &#125;\n </pre>\n\n <p><strong>Code Samples to iterate over key versions by page</strong></p>\n <p>It is possible to get full keys with key material for each version from this information. Iterate over all\n the <xref uid=\"KeyProperties\" data-throw-if-not-resolved=\"false\">key</xref> by page and call <xref uid=\"KeyClient#getKey(String, String)\" data-throw-if-not-resolved=\"false\">KeyClient#getKey(String, String)</xref>. This will return the\n <xref uid=\"KeyVaultKey\" data-throw-if-not-resolved=\"false\">keys</xref> with key material included of the specified versions.</p>\n\n <pre>\n keyClient.listPropertiesOfKeyVersions&#40;&quot;keyName&quot;&#41;.iterableByPage&#40;&#41;.forEach&#40;resp -&gt; &#123;\n     System.out.printf&#40;&quot;Got response headers . Url: %s, Status code: %d %n&quot;,\n         resp.getRequest&#40;&#41;.getUrl&#40;&#41;, resp.getStatusCode&#40;&#41;&#41;;\n     resp.getItems&#40;&#41;.forEach&#40;value -&gt; &#123;\n         System.out.printf&#40;&quot;Key name: %s, Key version: %s %n&quot;, value.getName&#40;&#41;, value.getVersion&#40;&#41;&#41;;\n     &#125;&#41;;\n &#125;&#41;;\n </pre>"
   parameters:
-  - description: The name of the key.
-    name: name
-    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
-  - description: Additional context that is passed through the Http pipeline during the service call.
-    name: context
-    type: <xref href="com.azure.core.util.Context?alt=com.azure.core.util.Context&text=Context" data-throw-if-not-resolved="False" />
-  syntax: public PagedIterable<KeyProperties> listPropertiesOfKeyVersions(String name, Context context)
+  - description: "The name of the key."
+    name: "name"
+    type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
+  - description: "Additional context that is passed through the Http pipeline during the service call."
+    name: "context"
+    type: "<xref href=\"com.azure.core.util.Context?alt=com.azure.core.util.Context&text=Context\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public PagedIterable<KeyProperties> listPropertiesOfKeyVersions(String name, Context context)"
   returns:
-    description: |-
-      <xref uid="com.azure.core.http.rest.PagedIterable" data-throw-if-not-resolved="false">PagedIterable</xref> of <xref uid="com.azure.security.keyvault.keys.models.KeyProperties" data-throw-if-not-resolved="false">key</xref> of all the versions of the specified key in the vault. List
-           is empty if key with <code>name</code> does not exist in key vault.
-    type: <xref href="com.azure.core.http.rest.PagedIterable?alt=com.azure.core.http.rest.PagedIterable&text=PagedIterable" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.security.keyvault.keys.models.KeyProperties?alt=com.azure.security.keyvault.keys.models.KeyProperties&text=KeyProperties" data-throw-if-not-resolved="False" />&gt;
-type: method
+    description: "<xref uid=\"com.azure.core.http.rest.PagedIterable\" data-throw-if-not-resolved=\"false\">PagedIterable</xref> of <xref uid=\"com.azure.security.keyvault.keys.models.KeyProperties\" data-throw-if-not-resolved=\"false\">key</xref> of all the versions of the specified key in the vault. List\n     is empty if key with <code>name</code> does not exist in key vault."
+    type: "<xref href=\"com.azure.core.http.rest.PagedIterable?alt=com.azure.core.http.rest.PagedIterable&text=PagedIterable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.security.keyvault.keys.models.KeyProperties?alt=com.azure.security.keyvault.keys.models.KeyProperties&text=KeyProperties\" data-throw-if-not-resolved=\"False\" />&gt;"
+type: "method"
 metadata: {}
-package: com.azure.security.keyvault.keys
+package: "com.azure.security.keyvault.keys"
 artifact: com.azure:azure-security-keyvault-keys:4.2.0-beta.4

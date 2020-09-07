@@ -1,42 +1,42 @@
 ### YamlMime:JavaType
-uid: com.azure.resourcemanager.network.fluent.LoadBalancerFrontendIpConfigurationsClient
-fullName: com.azure.resourcemanager.network.fluent.LoadBalancerFrontendIpConfigurationsClient
-name: LoadBalancerFrontendIpConfigurationsClient
-nameWithType: LoadBalancerFrontendIpConfigurationsClient
-summary: An instance of this class provides access to all the operations defined in LoadBalancerFrontendIpConfigurations.
+uid: "com.azure.resourcemanager.network.fluent.LoadBalancerFrontendIpConfigurationsClient"
+fullName: "com.azure.resourcemanager.network.fluent.LoadBalancerFrontendIpConfigurationsClient"
+name: "LoadBalancerFrontendIpConfigurationsClient"
+nameWithType: "LoadBalancerFrontendIpConfigurationsClient"
+summary: "An instance of this class provides access to all the operations defined in LoadBalancerFrontendIpConfigurations."
 inheritances:
-- <xref href="java.lang.Object" data-throw-if-not-resolved="False" />
+- "<xref href=\"java.lang.Object\" data-throw-if-not-resolved=\"False\" />"
 inheritedMembers:
-- java.lang.Object.clone()
-- java.lang.Object.equals(java.lang.Object)
-- java.lang.Object.finalize()
-- java.lang.Object.getClass()
-- java.lang.Object.hashCode()
-- java.lang.Object.notify()
-- java.lang.Object.notifyAll()
-- java.lang.Object.toString()
-- java.lang.Object.wait()
-- java.lang.Object.wait(long)
-- java.lang.Object.wait(long,int)
-syntax: public final class LoadBalancerFrontendIpConfigurationsClient
+- "java.lang.Object.clone()"
+- "java.lang.Object.equals(java.lang.Object)"
+- "java.lang.Object.finalize()"
+- "java.lang.Object.getClass()"
+- "java.lang.Object.hashCode()"
+- "java.lang.Object.notify()"
+- "java.lang.Object.notifyAll()"
+- "java.lang.Object.toString()"
+- "java.lang.Object.wait()"
+- "java.lang.Object.wait(long)"
+- "java.lang.Object.wait(long,int)"
+syntax: "public final class LoadBalancerFrontendIpConfigurationsClient"
 constructors:
-- com.azure.resourcemanager.network.fluent.LoadBalancerFrontendIpConfigurationsClient.LoadBalancerFrontendIpConfigurationsClient(com.azure.resourcemanager.network.NetworkManagementClient)
+- "com.azure.resourcemanager.network.fluent.LoadBalancerFrontendIpConfigurationsClient.LoadBalancerFrontendIpConfigurationsClient(com.azure.resourcemanager.network.NetworkManagementClient)"
 methods:
-- com.azure.resourcemanager.network.fluent.LoadBalancerFrontendIpConfigurationsClient.get(java.lang.String,java.lang.String,java.lang.String)
-- com.azure.resourcemanager.network.fluent.LoadBalancerFrontendIpConfigurationsClient.get(java.lang.String,java.lang.String,java.lang.String,com.azure.core.util.Context)
-- com.azure.resourcemanager.network.fluent.LoadBalancerFrontendIpConfigurationsClient.getAsync(java.lang.String,java.lang.String,java.lang.String)
-- com.azure.resourcemanager.network.fluent.LoadBalancerFrontendIpConfigurationsClient.getAsync(java.lang.String,java.lang.String,java.lang.String,com.azure.core.util.Context)
-- com.azure.resourcemanager.network.fluent.LoadBalancerFrontendIpConfigurationsClient.getWithResponseAsync(java.lang.String,java.lang.String,java.lang.String)
-- com.azure.resourcemanager.network.fluent.LoadBalancerFrontendIpConfigurationsClient.getWithResponseAsync(java.lang.String,java.lang.String,java.lang.String,com.azure.core.util.Context)
-- com.azure.resourcemanager.network.fluent.LoadBalancerFrontendIpConfigurationsClient.list(java.lang.String,java.lang.String)
-- com.azure.resourcemanager.network.fluent.LoadBalancerFrontendIpConfigurationsClient.list(java.lang.String,java.lang.String,com.azure.core.util.Context)
-- com.azure.resourcemanager.network.fluent.LoadBalancerFrontendIpConfigurationsClient.listAsync(java.lang.String,java.lang.String)
-- com.azure.resourcemanager.network.fluent.LoadBalancerFrontendIpConfigurationsClient.listAsync(java.lang.String,java.lang.String,com.azure.core.util.Context)
-- com.azure.resourcemanager.network.fluent.LoadBalancerFrontendIpConfigurationsClient.listNextSinglePageAsync(java.lang.String)
-- com.azure.resourcemanager.network.fluent.LoadBalancerFrontendIpConfigurationsClient.listNextSinglePageAsync(java.lang.String,com.azure.core.util.Context)
-- com.azure.resourcemanager.network.fluent.LoadBalancerFrontendIpConfigurationsClient.listSinglePageAsync(java.lang.String,java.lang.String)
-- com.azure.resourcemanager.network.fluent.LoadBalancerFrontendIpConfigurationsClient.listSinglePageAsync(java.lang.String,java.lang.String,com.azure.core.util.Context)
-type: class
+- "com.azure.resourcemanager.network.fluent.LoadBalancerFrontendIpConfigurationsClient.get(java.lang.String,java.lang.String,java.lang.String)"
+- "com.azure.resourcemanager.network.fluent.LoadBalancerFrontendIpConfigurationsClient.get(java.lang.String,java.lang.String,java.lang.String,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.network.fluent.LoadBalancerFrontendIpConfigurationsClient.getAsync(java.lang.String,java.lang.String,java.lang.String)"
+- "com.azure.resourcemanager.network.fluent.LoadBalancerFrontendIpConfigurationsClient.getAsync(java.lang.String,java.lang.String,java.lang.String,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.network.fluent.LoadBalancerFrontendIpConfigurationsClient.getWithResponseAsync(java.lang.String,java.lang.String,java.lang.String)"
+- "com.azure.resourcemanager.network.fluent.LoadBalancerFrontendIpConfigurationsClient.getWithResponseAsync(java.lang.String,java.lang.String,java.lang.String,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.network.fluent.LoadBalancerFrontendIpConfigurationsClient.list(java.lang.String,java.lang.String)"
+- "com.azure.resourcemanager.network.fluent.LoadBalancerFrontendIpConfigurationsClient.list(java.lang.String,java.lang.String,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.network.fluent.LoadBalancerFrontendIpConfigurationsClient.listAsync(java.lang.String,java.lang.String)"
+- "com.azure.resourcemanager.network.fluent.LoadBalancerFrontendIpConfigurationsClient.listAsync(java.lang.String,java.lang.String,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.network.fluent.LoadBalancerFrontendIpConfigurationsClient.listNextSinglePageAsync(java.lang.String)"
+- "com.azure.resourcemanager.network.fluent.LoadBalancerFrontendIpConfigurationsClient.listNextSinglePageAsync(java.lang.String,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.network.fluent.LoadBalancerFrontendIpConfigurationsClient.listSinglePageAsync(java.lang.String,java.lang.String)"
+- "com.azure.resourcemanager.network.fluent.LoadBalancerFrontendIpConfigurationsClient.listSinglePageAsync(java.lang.String,java.lang.String,com.azure.core.util.Context)"
+type: "class"
 metadata: {}
-package: com.azure.resourcemanager.network.fluent
+package: "com.azure.resourcemanager.network.fluent"
 artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.0.0-beta.2

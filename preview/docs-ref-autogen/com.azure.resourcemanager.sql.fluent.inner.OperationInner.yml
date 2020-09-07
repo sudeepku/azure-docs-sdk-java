@@ -1,33 +1,33 @@
 ### YamlMime:JavaType
-uid: com.azure.resourcemanager.sql.fluent.inner.OperationInner
-fullName: com.azure.resourcemanager.sql.fluent.inner.OperationInner
-name: OperationInner
-nameWithType: OperationInner
-summary: The Operation model.
+uid: "com.azure.resourcemanager.sql.fluent.inner.OperationInner"
+fullName: "com.azure.resourcemanager.sql.fluent.inner.OperationInner"
+name: "OperationInner"
+nameWithType: "OperationInner"
+summary: "The Operation model."
 inheritances:
-- <xref href="java.lang.Object" data-throw-if-not-resolved="False" />
+- "<xref href=\"java.lang.Object\" data-throw-if-not-resolved=\"False\" />"
 inheritedMembers:
-- java.lang.Object.clone()
-- java.lang.Object.equals(java.lang.Object)
-- java.lang.Object.finalize()
-- java.lang.Object.getClass()
-- java.lang.Object.hashCode()
-- java.lang.Object.notify()
-- java.lang.Object.notifyAll()
-- java.lang.Object.toString()
-- java.lang.Object.wait()
-- java.lang.Object.wait(long)
-- java.lang.Object.wait(long,int)
-syntax: public final class OperationInner
+- "java.lang.Object.clone()"
+- "java.lang.Object.equals(java.lang.Object)"
+- "java.lang.Object.finalize()"
+- "java.lang.Object.getClass()"
+- "java.lang.Object.hashCode()"
+- "java.lang.Object.notify()"
+- "java.lang.Object.notifyAll()"
+- "java.lang.Object.toString()"
+- "java.lang.Object.wait()"
+- "java.lang.Object.wait(long)"
+- "java.lang.Object.wait(long,int)"
+syntax: "public final class OperationInner"
 constructors:
-- com.azure.resourcemanager.sql.fluent.inner.OperationInner.OperationInner()
+- "com.azure.resourcemanager.sql.fluent.inner.OperationInner.OperationInner()"
 methods:
-- com.azure.resourcemanager.sql.fluent.inner.OperationInner.display()
-- com.azure.resourcemanager.sql.fluent.inner.OperationInner.name()
-- com.azure.resourcemanager.sql.fluent.inner.OperationInner.origin()
-- com.azure.resourcemanager.sql.fluent.inner.OperationInner.properties()
-- com.azure.resourcemanager.sql.fluent.inner.OperationInner.validate()
-type: class
+- "com.azure.resourcemanager.sql.fluent.inner.OperationInner.display()"
+- "com.azure.resourcemanager.sql.fluent.inner.OperationInner.name()"
+- "com.azure.resourcemanager.sql.fluent.inner.OperationInner.origin()"
+- "com.azure.resourcemanager.sql.fluent.inner.OperationInner.properties()"
+- "com.azure.resourcemanager.sql.fluent.inner.OperationInner.validate()"
+type: "class"
 metadata: {}
-package: com.azure.resourcemanager.sql.fluent.inner
+package: "com.azure.resourcemanager.sql.fluent.inner"
 artifact: com.azure.resourcemanager:azure-resourcemanager-sql:2.0.0-beta.2

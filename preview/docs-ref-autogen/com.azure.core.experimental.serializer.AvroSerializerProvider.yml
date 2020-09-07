@@ -1,13 +1,13 @@
 ### YamlMime:JavaType
-uid: com.azure.core.experimental.serializer.AvroSerializerProvider
-fullName: com.azure.core.experimental.serializer.AvroSerializerProvider
-name: AvroSerializerProvider
-nameWithType: AvroSerializerProvider
-summary: An interface to be implemented by any azure-core plugin that wishes to provide an Avro <xref uid="com.azure.core.util.serializer.ObjectSerializer" data-throw-if-not-resolved="false">ObjectSerializer</xref> implementation.
-syntax: public interface AvroSerializerProvider
+uid: "com.azure.core.experimental.serializer.AvroSerializerProvider"
+fullName: "com.azure.core.experimental.serializer.AvroSerializerProvider"
+name: "AvroSerializerProvider"
+nameWithType: "AvroSerializerProvider"
+summary: "An interface to be implemented by any azure-core plugin that wishes to provide an Avro <xref uid=\"com.azure.core.util.serializer.ObjectSerializer\" data-throw-if-not-resolved=\"false\">ObjectSerializer</xref> implementation."
+syntax: "public interface AvroSerializerProvider"
 methods:
-- com.azure.core.experimental.serializer.AvroSerializerProvider.createInstance(java.lang.String)
-type: interface
+- "com.azure.core.experimental.serializer.AvroSerializerProvider.createInstance(java.lang.String)"
+type: "interface"
 metadata: {}
-package: com.azure.core.experimental.serializer
+package: "com.azure.core.experimental.serializer"
 artifact: com.azure:azure-core-experimental:1.0.0-beta.2

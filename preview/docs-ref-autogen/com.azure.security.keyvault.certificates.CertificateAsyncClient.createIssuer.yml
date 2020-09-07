@@ -1,41 +1,23 @@
 ### YamlMime:JavaMember
-uid: com.azure.security.keyvault.certificates.CertificateAsyncClient.createIssuer*
-fullName: com.azure.security.keyvault.certificates.CertificateAsyncClient.createIssuer
-name: createIssuer
-nameWithType: CertificateAsyncClient.createIssuer
+uid: "com.azure.security.keyvault.certificates.CertificateAsyncClient.createIssuer*"
+fullName: "com.azure.security.keyvault.certificates.CertificateAsyncClient.createIssuer"
+name: "createIssuer"
+nameWithType: "CertificateAsyncClient.createIssuer"
 members:
-- uid: com.azure.security.keyvault.certificates.CertificateAsyncClient.createIssuer(com.azure.security.keyvault.certificates.models.CertificateIssuer)
-  fullName: com.azure.security.keyvault.certificates.CertificateAsyncClient.createIssuer(CertificateIssuer issuer)
-  name: createIssuer(CertificateIssuer issuer)
-  nameWithType: CertificateAsyncClient.createIssuer(CertificateIssuer issuer)
-  summary: |-
-    Creates the specified certificate issuer. The SetCertificateIssuer operation updates the specified certificate issuer if it
-     already exists or adds it if doesn't exist. This operation requires the certificates/setissuers permission.
-
-     <p><strong>Code Samples</strong></p>
-     <p>Creates a new certificate issuer in the key vault. Prints out the created certificate
-     issuer details when a response has been received.</p>
-
-     <pre>
-     CertificateIssuer issuer = new CertificateIssuer&#40;&quot;issuerName&quot;, &quot;providerName&quot;&#41;
-         .setAccountId&#40;&quot;keyvaultuser&quot;&#41;
-         .setPassword&#40;&quot;temp2&quot;&#41;;
-     certificateAsyncClient.createIssuer&#40;issuer&#41;
-         .subscriberContext&#40;Context.of&#40;key1, value1, key2, value2&#41;&#41;
-         .subscribe&#40;issuerResponse -&gt; &#123;
-             System.out.printf&#40;&quot;Issuer created with %s and %s&quot;, issuerResponse.getName&#40;&#41;,
-                 issuerResponse.getProvider&#40;&#41;&#41;;
-         &#125;&#41;;
-     </pre>
+- uid: "com.azure.security.keyvault.certificates.CertificateAsyncClient.createIssuer(com.azure.security.keyvault.certificates.models.CertificateIssuer)"
+  fullName: "com.azure.security.keyvault.certificates.CertificateAsyncClient.createIssuer(CertificateIssuer issuer)"
+  name: "createIssuer(CertificateIssuer issuer)"
+  nameWithType: "CertificateAsyncClient.createIssuer(CertificateIssuer issuer)"
+  summary: "Creates the specified certificate issuer. The SetCertificateIssuer operation updates the specified certificate issuer if it\n already exists or adds it if doesn't exist. This operation requires the certificates/setissuers permission.\n\n <p><strong>Code Samples</strong></p>\n <p>Creates a new certificate issuer in the key vault. Prints out the created certificate\n issuer details when a response has been received.</p>\n\n <pre>\n CertificateIssuer issuer = new CertificateIssuer&#40;&quot;issuerName&quot;, &quot;providerName&quot;&#41;\n     .setAccountId&#40;&quot;keyvaultuser&quot;&#41;\n     .setPassword&#40;&quot;temp2&quot;&#41;;\n certificateAsyncClient.createIssuer&#40;issuer&#41;\n     .subscriberContext&#40;Context.of&#40;key1, value1, key2, value2&#41;&#41;\n     .subscribe&#40;issuerResponse -&gt; &#123;\n         System.out.printf&#40;&quot;Issuer created with %s and %s&quot;, issuerResponse.getName&#40;&#41;,\n             issuerResponse.getProvider&#40;&#41;&#41;;\n     &#125;&#41;;\n </pre>"
   parameters:
-  - description: The configuration of the certificate issuer to be created.
-    name: issuer
-    type: <xref href="com.azure.security.keyvault.certificates.models.CertificateIssuer?alt=com.azure.security.keyvault.certificates.models.CertificateIssuer&text=CertificateIssuer" data-throw-if-not-resolved="False" />
-  syntax: public Mono<CertificateIssuer> createIssuer(CertificateIssuer issuer)
+  - description: "The configuration of the certificate issuer to be created."
+    name: "issuer"
+    type: "<xref href=\"com.azure.security.keyvault.certificates.models.CertificateIssuer?alt=com.azure.security.keyvault.certificates.models.CertificateIssuer&text=CertificateIssuer\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public Mono<CertificateIssuer> createIssuer(CertificateIssuer issuer)"
   returns:
-    description: A <xref uid="reactor.core.publisher.Mono" data-throw-if-not-resolved="false">Mono</xref> containing the created <xref uid="com.azure.security.keyvault.certificates.models.CertificateIssuer" data-throw-if-not-resolved="false">certificate issuer</xref>.
-    type: <xref href="reactor.core.publisher.Mono?alt=reactor.core.publisher.Mono&text=Mono" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.security.keyvault.certificates.models.CertificateIssuer?alt=com.azure.security.keyvault.certificates.models.CertificateIssuer&text=CertificateIssuer" data-throw-if-not-resolved="False" />&gt;
-type: method
+    description: "A <xref uid=\"reactor.core.publisher.Mono\" data-throw-if-not-resolved=\"false\">Mono</xref> containing the created <xref uid=\"com.azure.security.keyvault.certificates.models.CertificateIssuer\" data-throw-if-not-resolved=\"false\">certificate issuer</xref>."
+    type: "<xref href=\"reactor.core.publisher.Mono?alt=reactor.core.publisher.Mono&text=Mono\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.security.keyvault.certificates.models.CertificateIssuer?alt=com.azure.security.keyvault.certificates.models.CertificateIssuer&text=CertificateIssuer\" data-throw-if-not-resolved=\"False\" />&gt;"
+type: "method"
 metadata: {}
-package: com.azure.security.keyvault.certificates
+package: "com.azure.security.keyvault.certificates"
 artifact: com.azure:azure-security-keyvault-certificates:4.1.0-beta.3

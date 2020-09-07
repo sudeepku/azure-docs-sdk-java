@@ -1,63 +1,63 @@
 ### YamlMime:JavaType
-uid: com.azure.resourcemanager.appservice.fluent.inner.FunctionEnvelopeInner
-fullName: com.azure.resourcemanager.appservice.fluent.inner.FunctionEnvelopeInner
-name: FunctionEnvelopeInner
-nameWithType: FunctionEnvelopeInner
-summary: The FunctionEnvelope model.
+uid: "com.azure.resourcemanager.appservice.fluent.inner.FunctionEnvelopeInner"
+fullName: "com.azure.resourcemanager.appservice.fluent.inner.FunctionEnvelopeInner"
+name: "FunctionEnvelopeInner"
+nameWithType: "FunctionEnvelopeInner"
+summary: "The FunctionEnvelope model."
 inheritances:
-- <xref href="java.lang.Object" data-throw-if-not-resolved="False" />
-- <xref href="com.azure.core.management.ProxyResource" data-throw-if-not-resolved="False" />
-- <xref href="com.azure.resourcemanager.appservice.models.ProxyOnlyResource" data-throw-if-not-resolved="False" />
+- "<xref href=\"java.lang.Object\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.azure.core.management.ProxyResource\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.azure.resourcemanager.appservice.models.ProxyOnlyResource\" data-throw-if-not-resolved=\"False\" />"
 inheritedMembers:
-- com.azure.core.management.ProxyResource.id()
-- com.azure.core.management.ProxyResource.name()
-- com.azure.core.management.ProxyResource.type()
-- com.azure.resourcemanager.appservice.models.ProxyOnlyResource.kind()
-- com.azure.resourcemanager.appservice.models.ProxyOnlyResource.validate()
-- com.azure.resourcemanager.appservice.models.ProxyOnlyResource.withKind(java.lang.String)
-- java.lang.Object.clone()
-- java.lang.Object.equals(java.lang.Object)
-- java.lang.Object.finalize()
-- java.lang.Object.getClass()
-- java.lang.Object.hashCode()
-- java.lang.Object.notify()
-- java.lang.Object.notifyAll()
-- java.lang.Object.toString()
-- java.lang.Object.wait()
-- java.lang.Object.wait(long)
-- java.lang.Object.wait(long,int)
-syntax: public class FunctionEnvelopeInner extends ProxyOnlyResource
+- "com.azure.core.management.ProxyResource.id()"
+- "com.azure.core.management.ProxyResource.name()"
+- "com.azure.core.management.ProxyResource.type()"
+- "com.azure.resourcemanager.appservice.models.ProxyOnlyResource.kind()"
+- "com.azure.resourcemanager.appservice.models.ProxyOnlyResource.validate()"
+- "com.azure.resourcemanager.appservice.models.ProxyOnlyResource.withKind(java.lang.String)"
+- "java.lang.Object.clone()"
+- "java.lang.Object.equals(java.lang.Object)"
+- "java.lang.Object.finalize()"
+- "java.lang.Object.getClass()"
+- "java.lang.Object.hashCode()"
+- "java.lang.Object.notify()"
+- "java.lang.Object.notifyAll()"
+- "java.lang.Object.toString()"
+- "java.lang.Object.wait()"
+- "java.lang.Object.wait(long)"
+- "java.lang.Object.wait(long,int)"
+syntax: "public class FunctionEnvelopeInner extends ProxyOnlyResource"
 constructors:
-- com.azure.resourcemanager.appservice.fluent.inner.FunctionEnvelopeInner.FunctionEnvelopeInner()
+- "com.azure.resourcemanager.appservice.fluent.inner.FunctionEnvelopeInner.FunctionEnvelopeInner()"
 methods:
-- com.azure.resourcemanager.appservice.fluent.inner.FunctionEnvelopeInner.config()
-- com.azure.resourcemanager.appservice.fluent.inner.FunctionEnvelopeInner.configHref()
-- com.azure.resourcemanager.appservice.fluent.inner.FunctionEnvelopeInner.files()
-- com.azure.resourcemanager.appservice.fluent.inner.FunctionEnvelopeInner.functionAppId()
-- com.azure.resourcemanager.appservice.fluent.inner.FunctionEnvelopeInner.href()
-- com.azure.resourcemanager.appservice.fluent.inner.FunctionEnvelopeInner.invokeUrlTemplate()
-- com.azure.resourcemanager.appservice.fluent.inner.FunctionEnvelopeInner.isDisabled()
-- com.azure.resourcemanager.appservice.fluent.inner.FunctionEnvelopeInner.language()
-- com.azure.resourcemanager.appservice.fluent.inner.FunctionEnvelopeInner.scriptHref()
-- com.azure.resourcemanager.appservice.fluent.inner.FunctionEnvelopeInner.scriptRootPathHref()
-- com.azure.resourcemanager.appservice.fluent.inner.FunctionEnvelopeInner.secretsFileHref()
-- com.azure.resourcemanager.appservice.fluent.inner.FunctionEnvelopeInner.testData()
-- com.azure.resourcemanager.appservice.fluent.inner.FunctionEnvelopeInner.testDataHref()
-- com.azure.resourcemanager.appservice.fluent.inner.FunctionEnvelopeInner.validate()
-- com.azure.resourcemanager.appservice.fluent.inner.FunctionEnvelopeInner.withConfig(java.lang.Object)
-- com.azure.resourcemanager.appservice.fluent.inner.FunctionEnvelopeInner.withConfigHref(java.lang.String)
-- com.azure.resourcemanager.appservice.fluent.inner.FunctionEnvelopeInner.withFiles(java.util.Map<java.lang.String,java.lang.String>)
-- com.azure.resourcemanager.appservice.fluent.inner.FunctionEnvelopeInner.withFunctionAppId(java.lang.String)
-- com.azure.resourcemanager.appservice.fluent.inner.FunctionEnvelopeInner.withHref(java.lang.String)
-- com.azure.resourcemanager.appservice.fluent.inner.FunctionEnvelopeInner.withInvokeUrlTemplate(java.lang.String)
-- com.azure.resourcemanager.appservice.fluent.inner.FunctionEnvelopeInner.withIsDisabled(java.lang.Boolean)
-- com.azure.resourcemanager.appservice.fluent.inner.FunctionEnvelopeInner.withLanguage(java.lang.String)
-- com.azure.resourcemanager.appservice.fluent.inner.FunctionEnvelopeInner.withScriptHref(java.lang.String)
-- com.azure.resourcemanager.appservice.fluent.inner.FunctionEnvelopeInner.withScriptRootPathHref(java.lang.String)
-- com.azure.resourcemanager.appservice.fluent.inner.FunctionEnvelopeInner.withSecretsFileHref(java.lang.String)
-- com.azure.resourcemanager.appservice.fluent.inner.FunctionEnvelopeInner.withTestData(java.lang.String)
-- com.azure.resourcemanager.appservice.fluent.inner.FunctionEnvelopeInner.withTestDataHref(java.lang.String)
-type: class
+- "com.azure.resourcemanager.appservice.fluent.inner.FunctionEnvelopeInner.config()"
+- "com.azure.resourcemanager.appservice.fluent.inner.FunctionEnvelopeInner.configHref()"
+- "com.azure.resourcemanager.appservice.fluent.inner.FunctionEnvelopeInner.files()"
+- "com.azure.resourcemanager.appservice.fluent.inner.FunctionEnvelopeInner.functionAppId()"
+- "com.azure.resourcemanager.appservice.fluent.inner.FunctionEnvelopeInner.href()"
+- "com.azure.resourcemanager.appservice.fluent.inner.FunctionEnvelopeInner.invokeUrlTemplate()"
+- "com.azure.resourcemanager.appservice.fluent.inner.FunctionEnvelopeInner.isDisabled()"
+- "com.azure.resourcemanager.appservice.fluent.inner.FunctionEnvelopeInner.language()"
+- "com.azure.resourcemanager.appservice.fluent.inner.FunctionEnvelopeInner.scriptHref()"
+- "com.azure.resourcemanager.appservice.fluent.inner.FunctionEnvelopeInner.scriptRootPathHref()"
+- "com.azure.resourcemanager.appservice.fluent.inner.FunctionEnvelopeInner.secretsFileHref()"
+- "com.azure.resourcemanager.appservice.fluent.inner.FunctionEnvelopeInner.testData()"
+- "com.azure.resourcemanager.appservice.fluent.inner.FunctionEnvelopeInner.testDataHref()"
+- "com.azure.resourcemanager.appservice.fluent.inner.FunctionEnvelopeInner.validate()"
+- "com.azure.resourcemanager.appservice.fluent.inner.FunctionEnvelopeInner.withConfig(java.lang.Object)"
+- "com.azure.resourcemanager.appservice.fluent.inner.FunctionEnvelopeInner.withConfigHref(java.lang.String)"
+- "com.azure.resourcemanager.appservice.fluent.inner.FunctionEnvelopeInner.withFiles(java.util.Map<java.lang.String,java.lang.String>)"
+- "com.azure.resourcemanager.appservice.fluent.inner.FunctionEnvelopeInner.withFunctionAppId(java.lang.String)"
+- "com.azure.resourcemanager.appservice.fluent.inner.FunctionEnvelopeInner.withHref(java.lang.String)"
+- "com.azure.resourcemanager.appservice.fluent.inner.FunctionEnvelopeInner.withInvokeUrlTemplate(java.lang.String)"
+- "com.azure.resourcemanager.appservice.fluent.inner.FunctionEnvelopeInner.withIsDisabled(java.lang.Boolean)"
+- "com.azure.resourcemanager.appservice.fluent.inner.FunctionEnvelopeInner.withLanguage(java.lang.String)"
+- "com.azure.resourcemanager.appservice.fluent.inner.FunctionEnvelopeInner.withScriptHref(java.lang.String)"
+- "com.azure.resourcemanager.appservice.fluent.inner.FunctionEnvelopeInner.withScriptRootPathHref(java.lang.String)"
+- "com.azure.resourcemanager.appservice.fluent.inner.FunctionEnvelopeInner.withSecretsFileHref(java.lang.String)"
+- "com.azure.resourcemanager.appservice.fluent.inner.FunctionEnvelopeInner.withTestData(java.lang.String)"
+- "com.azure.resourcemanager.appservice.fluent.inner.FunctionEnvelopeInner.withTestDataHref(java.lang.String)"
+type: "class"
 metadata: {}
-package: com.azure.resourcemanager.appservice.fluent.inner
+package: "com.azure.resourcemanager.appservice.fluent.inner"
 artifact: com.azure.resourcemanager:azure-resourcemanager-appservice:2.0.0-beta.2

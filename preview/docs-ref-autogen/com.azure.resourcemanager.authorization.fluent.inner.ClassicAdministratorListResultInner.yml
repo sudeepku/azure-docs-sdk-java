@@ -1,33 +1,33 @@
 ### YamlMime:JavaType
-uid: com.azure.resourcemanager.authorization.fluent.inner.ClassicAdministratorListResultInner
-fullName: com.azure.resourcemanager.authorization.fluent.inner.ClassicAdministratorListResultInner
-name: ClassicAdministratorListResultInner
-nameWithType: ClassicAdministratorListResultInner
-summary: The ClassicAdministratorListResult model.
+uid: "com.azure.resourcemanager.authorization.fluent.inner.ClassicAdministratorListResultInner"
+fullName: "com.azure.resourcemanager.authorization.fluent.inner.ClassicAdministratorListResultInner"
+name: "ClassicAdministratorListResultInner"
+nameWithType: "ClassicAdministratorListResultInner"
+summary: "The ClassicAdministratorListResult model."
 inheritances:
-- <xref href="java.lang.Object" data-throw-if-not-resolved="False" />
+- "<xref href=\"java.lang.Object\" data-throw-if-not-resolved=\"False\" />"
 inheritedMembers:
-- java.lang.Object.clone()
-- java.lang.Object.equals(java.lang.Object)
-- java.lang.Object.finalize()
-- java.lang.Object.getClass()
-- java.lang.Object.hashCode()
-- java.lang.Object.notify()
-- java.lang.Object.notifyAll()
-- java.lang.Object.toString()
-- java.lang.Object.wait()
-- java.lang.Object.wait(long)
-- java.lang.Object.wait(long,int)
-syntax: public final class ClassicAdministratorListResultInner
+- "java.lang.Object.clone()"
+- "java.lang.Object.equals(java.lang.Object)"
+- "java.lang.Object.finalize()"
+- "java.lang.Object.getClass()"
+- "java.lang.Object.hashCode()"
+- "java.lang.Object.notify()"
+- "java.lang.Object.notifyAll()"
+- "java.lang.Object.toString()"
+- "java.lang.Object.wait()"
+- "java.lang.Object.wait(long)"
+- "java.lang.Object.wait(long,int)"
+syntax: "public final class ClassicAdministratorListResultInner"
 constructors:
-- com.azure.resourcemanager.authorization.fluent.inner.ClassicAdministratorListResultInner.ClassicAdministratorListResultInner()
+- "com.azure.resourcemanager.authorization.fluent.inner.ClassicAdministratorListResultInner.ClassicAdministratorListResultInner()"
 methods:
-- com.azure.resourcemanager.authorization.fluent.inner.ClassicAdministratorListResultInner.nextLink()
-- com.azure.resourcemanager.authorization.fluent.inner.ClassicAdministratorListResultInner.validate()
-- com.azure.resourcemanager.authorization.fluent.inner.ClassicAdministratorListResultInner.value()
-- com.azure.resourcemanager.authorization.fluent.inner.ClassicAdministratorListResultInner.withNextLink(java.lang.String)
-- com.azure.resourcemanager.authorization.fluent.inner.ClassicAdministratorListResultInner.withValue(java.util.List<com.azure.resourcemanager.authorization.fluent.inner.ClassicAdministratorInner>)
-type: class
+- "com.azure.resourcemanager.authorization.fluent.inner.ClassicAdministratorListResultInner.nextLink()"
+- "com.azure.resourcemanager.authorization.fluent.inner.ClassicAdministratorListResultInner.validate()"
+- "com.azure.resourcemanager.authorization.fluent.inner.ClassicAdministratorListResultInner.value()"
+- "com.azure.resourcemanager.authorization.fluent.inner.ClassicAdministratorListResultInner.withNextLink(java.lang.String)"
+- "com.azure.resourcemanager.authorization.fluent.inner.ClassicAdministratorListResultInner.withValue(java.util.List<com.azure.resourcemanager.authorization.fluent.inner.ClassicAdministratorInner>)"
+type: "class"
 metadata: {}
-package: com.azure.resourcemanager.authorization.fluent.inner
+package: "com.azure.resourcemanager.authorization.fluent.inner"
 artifact: com.azure.resourcemanager:azure-resourcemanager-authorization:2.0.0-beta.2

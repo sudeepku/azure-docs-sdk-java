@@ -1,59 +1,59 @@
 ### YamlMime:JavaType
-uid: com.azure.resourcemanager.resources.fluentcore.utils.PagedList
-fullName: com.azure.resourcemanager.resources.fluentcore.utils.PagedList<E>
-name: PagedList<E>
-nameWithType: PagedList<E>
-summary: Defines a list response from a paging operation. The pages are lazy initialized when an instance of this class is iterated.
+uid: "com.azure.resourcemanager.resources.fluentcore.utils.PagedList"
+fullName: "com.azure.resourcemanager.resources.fluentcore.utils.PagedList<E>"
+name: "PagedList<E>"
+nameWithType: "PagedList<E>"
+summary: "Defines a list response from a paging operation. The pages are lazy initialized when an instance of this class is iterated."
 inheritances:
-- <xref href="java.lang.Object" data-throw-if-not-resolved="False" />
+- "<xref href=\"java.lang.Object\" data-throw-if-not-resolved=\"False\" />"
 inheritedMembers:
-- java.lang.Object.clone()
-- java.lang.Object.equals(java.lang.Object)
-- java.lang.Object.finalize()
-- java.lang.Object.getClass()
-- java.lang.Object.hashCode()
-- java.lang.Object.notify()
-- java.lang.Object.notifyAll()
-- java.lang.Object.toString()
-- java.lang.Object.wait()
-- java.lang.Object.wait(long)
-- java.lang.Object.wait(long,int)
-syntax: public final class PagedList<E> implements List<E>
+- "java.lang.Object.clone()"
+- "java.lang.Object.equals(java.lang.Object)"
+- "java.lang.Object.finalize()"
+- "java.lang.Object.getClass()"
+- "java.lang.Object.hashCode()"
+- "java.lang.Object.notify()"
+- "java.lang.Object.notifyAll()"
+- "java.lang.Object.toString()"
+- "java.lang.Object.wait()"
+- "java.lang.Object.wait(long)"
+- "java.lang.Object.wait(long,int)"
+syntax: "public final class PagedList<E> implements List<E>"
 constructors:
-- com.azure.resourcemanager.resources.fluentcore.utils.PagedList.PagedList()
-- com.azure.resourcemanager.resources.fluentcore.utils.PagedList.PagedList(com.azure.core.http.rest.PagedIterable<E>)
+- "com.azure.resourcemanager.resources.fluentcore.utils.PagedList.PagedList()"
+- "com.azure.resourcemanager.resources.fluentcore.utils.PagedList.PagedList(com.azure.core.http.rest.PagedIterable<E>)"
 methods:
-- com.azure.resourcemanager.resources.fluentcore.utils.PagedList.<T>toArray(T[])
-- com.azure.resourcemanager.resources.fluentcore.utils.PagedList.add(E)
-- com.azure.resourcemanager.resources.fluentcore.utils.PagedList.add(int,E)
-- com.azure.resourcemanager.resources.fluentcore.utils.PagedList.addAll(int,java.util.Collection<? extends E>)
-- com.azure.resourcemanager.resources.fluentcore.utils.PagedList.addAll(java.util.Collection<? extends E>)
-- com.azure.resourcemanager.resources.fluentcore.utils.PagedList.clear()
-- com.azure.resourcemanager.resources.fluentcore.utils.PagedList.contains(java.lang.Object)
-- com.azure.resourcemanager.resources.fluentcore.utils.PagedList.containsAll(java.util.Collection<?>)
-- com.azure.resourcemanager.resources.fluentcore.utils.PagedList.get(int)
-- com.azure.resourcemanager.resources.fluentcore.utils.PagedList.hasNextPage()
-- com.azure.resourcemanager.resources.fluentcore.utils.PagedList.indexOf(java.lang.Object)
-- com.azure.resourcemanager.resources.fluentcore.utils.PagedList.isEmpty()
-- com.azure.resourcemanager.resources.fluentcore.utils.PagedList.iterator()
-- com.azure.resourcemanager.resources.fluentcore.utils.PagedList.lastIndexOf(java.lang.Object)
-- com.azure.resourcemanager.resources.fluentcore.utils.PagedList.listIterator()
-- com.azure.resourcemanager.resources.fluentcore.utils.PagedList.listIterator(int)
-- com.azure.resourcemanager.resources.fluentcore.utils.PagedList.loadAll()
-- com.azure.resourcemanager.resources.fluentcore.utils.PagedList.loadNextPage()
-- com.azure.resourcemanager.resources.fluentcore.utils.PagedList.remove(int)
-- com.azure.resourcemanager.resources.fluentcore.utils.PagedList.remove(java.lang.Object)
-- com.azure.resourcemanager.resources.fluentcore.utils.PagedList.removeAll(java.util.Collection<?>)
-- com.azure.resourcemanager.resources.fluentcore.utils.PagedList.retainAll(java.util.Collection<?>)
-- com.azure.resourcemanager.resources.fluentcore.utils.PagedList.set(int,E)
-- com.azure.resourcemanager.resources.fluentcore.utils.PagedList.size()
-- com.azure.resourcemanager.resources.fluentcore.utils.PagedList.subList(int,int)
-- com.azure.resourcemanager.resources.fluentcore.utils.PagedList.toArray()
-type: class
+- "com.azure.resourcemanager.resources.fluentcore.utils.PagedList.<T>toArray(T[])"
+- "com.azure.resourcemanager.resources.fluentcore.utils.PagedList.add(E)"
+- "com.azure.resourcemanager.resources.fluentcore.utils.PagedList.add(int,E)"
+- "com.azure.resourcemanager.resources.fluentcore.utils.PagedList.addAll(int,java.util.Collection<? extends E>)"
+- "com.azure.resourcemanager.resources.fluentcore.utils.PagedList.addAll(java.util.Collection<? extends E>)"
+- "com.azure.resourcemanager.resources.fluentcore.utils.PagedList.clear()"
+- "com.azure.resourcemanager.resources.fluentcore.utils.PagedList.contains(java.lang.Object)"
+- "com.azure.resourcemanager.resources.fluentcore.utils.PagedList.containsAll(java.util.Collection<?>)"
+- "com.azure.resourcemanager.resources.fluentcore.utils.PagedList.get(int)"
+- "com.azure.resourcemanager.resources.fluentcore.utils.PagedList.hasNextPage()"
+- "com.azure.resourcemanager.resources.fluentcore.utils.PagedList.indexOf(java.lang.Object)"
+- "com.azure.resourcemanager.resources.fluentcore.utils.PagedList.isEmpty()"
+- "com.azure.resourcemanager.resources.fluentcore.utils.PagedList.iterator()"
+- "com.azure.resourcemanager.resources.fluentcore.utils.PagedList.lastIndexOf(java.lang.Object)"
+- "com.azure.resourcemanager.resources.fluentcore.utils.PagedList.listIterator()"
+- "com.azure.resourcemanager.resources.fluentcore.utils.PagedList.listIterator(int)"
+- "com.azure.resourcemanager.resources.fluentcore.utils.PagedList.loadAll()"
+- "com.azure.resourcemanager.resources.fluentcore.utils.PagedList.loadNextPage()"
+- "com.azure.resourcemanager.resources.fluentcore.utils.PagedList.remove(int)"
+- "com.azure.resourcemanager.resources.fluentcore.utils.PagedList.remove(java.lang.Object)"
+- "com.azure.resourcemanager.resources.fluentcore.utils.PagedList.removeAll(java.util.Collection<?>)"
+- "com.azure.resourcemanager.resources.fluentcore.utils.PagedList.retainAll(java.util.Collection<?>)"
+- "com.azure.resourcemanager.resources.fluentcore.utils.PagedList.set(int,E)"
+- "com.azure.resourcemanager.resources.fluentcore.utils.PagedList.size()"
+- "com.azure.resourcemanager.resources.fluentcore.utils.PagedList.subList(int,int)"
+- "com.azure.resourcemanager.resources.fluentcore.utils.PagedList.toArray()"
+type: "class"
 typeParameters:
-- name: E
+- name: "E"
 implements:
-- <xref href="java.util.List?alt=java.util.List&text=List" data-throw-if-not-resolved="False" />&lt;<xref href="E?alt=E&text=E" data-throw-if-not-resolved="False" />&gt;
+- "<xref href=\"java.util.List?alt=java.util.List&text=List\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"E?alt=E&text=E\" data-throw-if-not-resolved=\"False\" />&gt;"
 metadata: {}
-package: com.azure.resourcemanager.resources.fluentcore.utils
+package: "com.azure.resourcemanager.resources.fluentcore.utils"
 artifact: com.azure.resourcemanager:azure-resourcemanager-resources:2.0.0-beta.2

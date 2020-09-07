@@ -1,30 +1,30 @@
 ### YamlMime:JavaType
-uid: com.azure.search.documents.implementation.util.PrivateFieldAccessHelper
-fullName: com.azure.search.documents.implementation.util.PrivateFieldAccessHelper
-name: PrivateFieldAccessHelper
-nameWithType: PrivateFieldAccessHelper
-summary: The helper class for getter only models converters.
+uid: "com.azure.search.documents.implementation.util.PrivateFieldAccessHelper"
+fullName: "com.azure.search.documents.implementation.util.PrivateFieldAccessHelper"
+name: "PrivateFieldAccessHelper"
+nameWithType: "PrivateFieldAccessHelper"
+summary: "The helper class for getter only models converters."
 inheritances:
-- <xref href="java.lang.Object" data-throw-if-not-resolved="False" />
+- "<xref href=\"java.lang.Object\" data-throw-if-not-resolved=\"False\" />"
 inheritedMembers:
-- java.lang.Object.clone()
-- java.lang.Object.equals(java.lang.Object)
-- java.lang.Object.finalize()
-- java.lang.Object.getClass()
-- java.lang.Object.hashCode()
-- java.lang.Object.notify()
-- java.lang.Object.notifyAll()
-- java.lang.Object.toString()
-- java.lang.Object.wait()
-- java.lang.Object.wait(long)
-- java.lang.Object.wait(long,int)
-syntax: public class PrivateFieldAccessHelper
+- "java.lang.Object.clone()"
+- "java.lang.Object.equals(java.lang.Object)"
+- "java.lang.Object.finalize()"
+- "java.lang.Object.getClass()"
+- "java.lang.Object.hashCode()"
+- "java.lang.Object.notify()"
+- "java.lang.Object.notifyAll()"
+- "java.lang.Object.toString()"
+- "java.lang.Object.wait()"
+- "java.lang.Object.wait(long)"
+- "java.lang.Object.wait(long,int)"
+syntax: "public class PrivateFieldAccessHelper"
 constructors:
-- com.azure.search.documents.implementation.util.PrivateFieldAccessHelper.PrivateFieldAccessHelper()
+- "com.azure.search.documents.implementation.util.PrivateFieldAccessHelper.PrivateFieldAccessHelper()"
 methods:
-- com.azure.search.documents.implementation.util.PrivateFieldAccessHelper.<T,I>get(T,java.lang.String,java.lang.Class<I>)
-- com.azure.search.documents.implementation.util.PrivateFieldAccessHelper.<T>set(T,java.lang.String,java.lang.Object)
-type: class
+- "com.azure.search.documents.implementation.util.PrivateFieldAccessHelper.<T,I>get(T,java.lang.String,java.lang.Class<I>)"
+- "com.azure.search.documents.implementation.util.PrivateFieldAccessHelper.<T>set(T,java.lang.String,java.lang.Object)"
+type: "class"
 metadata: {}
-package: com.azure.search.documents.implementation.util
+package: "com.azure.search.documents.implementation.util"
 artifact: com.azure:azure-search-documents:11.0.0

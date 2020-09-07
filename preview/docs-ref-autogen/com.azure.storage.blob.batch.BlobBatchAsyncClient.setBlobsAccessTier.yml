@@ -1,26 +1,26 @@
 ### YamlMime:JavaMember
-uid: com.azure.storage.blob.batch.BlobBatchAsyncClient.setBlobsAccessTier*
-fullName: com.azure.storage.blob.batch.BlobBatchAsyncClient.setBlobsAccessTier
-name: setBlobsAccessTier
-nameWithType: BlobBatchAsyncClient.setBlobsAccessTier
+uid: "com.azure.storage.blob.batch.BlobBatchAsyncClient.setBlobsAccessTier*"
+fullName: "com.azure.storage.blob.batch.BlobBatchAsyncClient.setBlobsAccessTier"
+name: "setBlobsAccessTier"
+nameWithType: "BlobBatchAsyncClient.setBlobsAccessTier"
 members:
-- uid: com.azure.storage.blob.batch.BlobBatchAsyncClient.setBlobsAccessTier(java.util.List<java.lang.String>,com.azure.storage.blob.models.AccessTier)
-  fullName: com.azure.storage.blob.batch.BlobBatchAsyncClient.setBlobsAccessTier(List<String> blobUrls, AccessTier accessTier)
-  name: setBlobsAccessTier(List<String> blobUrls, AccessTier accessTier)
-  nameWithType: BlobBatchAsyncClient.setBlobsAccessTier(List<String> blobUrls, AccessTier accessTier)
+- uid: "com.azure.storage.blob.batch.BlobBatchAsyncClient.setBlobsAccessTier(java.util.List<java.lang.String>,com.azure.storage.blob.models.AccessTier)"
+  fullName: "com.azure.storage.blob.batch.BlobBatchAsyncClient.setBlobsAccessTier(List<String> blobUrls, AccessTier accessTier)"
+  name: "setBlobsAccessTier(List<String> blobUrls, AccessTier accessTier)"
+  nameWithType: "BlobBatchAsyncClient.setBlobsAccessTier(List<String> blobUrls, AccessTier accessTier)"
   summary: "Set access tier on multiple blobs in a single request to the service.\n\n <p><strong>Code samples</strong></p>\n\n <pre>\n List&lt;String&gt; blobUrls = new ArrayList&lt;&gt;&#40;&#41;;\n blobUrls.add&#40;blobClient1.getBlobUrl&#40;&#41;&#41;;\n blobUrls.add&#40;blobClient2.getBlobUrl&#40;&#41;&#41;;\n blobUrls.add&#40;blobClient3.getBlobUrl&#40;&#41;&#41;;\n \n batchAsyncClient.setBlobsAccessTier&#40;blobUrls, AccessTier.HOT&#41;.subscribe&#40;response -&gt;\n         System.out.printf&#40;&quot;Setting blob access tier with URL %s completed with status code %d%n&quot;,\n             response.getRequest&#40;&#41;.getUrl&#40;&#41;, response.getStatusCode&#40;&#41;&#41;,\n     error -&gt; System.err.printf&#40;&quot;Setting blob access tier failed with exception: %s%n&quot;, error.getMessage&#40;&#41;&#41;&#41;;\n </pre>"
   parameters:
-  - description: Urls of the blobs to set their access tier. Blob names must be encoded to UTF-8.
-    name: blobUrls
-    type: <xref href="java.util.List?alt=java.util.List&text=List" data-throw-if-not-resolved="False" />&lt;<xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />&gt;
-  - description: <xref uid="com.azure.storage.blob.models.AccessTier" data-throw-if-not-resolved="false">AccessTier</xref> to set on each blob.
-    name: accessTier
-    type: <xref href="com.azure.storage.blob.models.AccessTier?alt=com.azure.storage.blob.models.AccessTier&text=AccessTier" data-throw-if-not-resolved="False" />
-  syntax: public PagedFlux<Response<Void>> setBlobsAccessTier(List<String> blobUrls, AccessTier accessTier)
+  - description: "Urls of the blobs to set their access tier. Blob names must be encoded to UTF-8."
+    name: "blobUrls"
+    type: "<xref href=\"java.util.List?alt=java.util.List&text=List\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />&gt;"
+  - description: "<xref uid=\"com.azure.storage.blob.models.AccessTier\" data-throw-if-not-resolved=\"false\">AccessTier</xref> to set on each blob."
+    name: "accessTier"
+    type: "<xref href=\"com.azure.storage.blob.models.AccessTier?alt=com.azure.storage.blob.models.AccessTier&text=AccessTier\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public PagedFlux<Response<Void>> setBlobsAccessTier(List<String> blobUrls, AccessTier accessTier)"
   returns:
-    description: The status of each set tier operation.
-    type: <xref href="com.azure.core.http.rest.PagedFlux?alt=com.azure.core.http.rest.PagedFlux&text=PagedFlux" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.core.http.rest.Response?alt=com.azure.core.http.rest.Response&text=Response" data-throw-if-not-resolved="False" />&lt;<xref href="java.lang.Void?alt=java.lang.Void&text=Void" data-throw-if-not-resolved="False" />&gt;&gt;
-type: method
+    description: "The status of each set tier operation."
+    type: "<xref href=\"com.azure.core.http.rest.PagedFlux?alt=com.azure.core.http.rest.PagedFlux&text=PagedFlux\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.core.http.rest.Response?alt=com.azure.core.http.rest.Response&text=Response\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"java.lang.Void?alt=java.lang.Void&text=Void\" data-throw-if-not-resolved=\"False\" />&gt;&gt;"
+type: "method"
 metadata: {}
-package: com.azure.storage.blob.batch
+package: "com.azure.storage.blob.batch"
 artifact: com.azure:azure-storage-blob-batch:12.6.0-beta.1

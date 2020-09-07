@@ -1,29 +1,19 @@
 ### YamlMime:JavaMember
-uid: com.azure.storage.file.datalake.DataLakePathClientBuilder.buildDirectoryClient*
-fullName: com.azure.storage.file.datalake.DataLakePathClientBuilder.buildDirectoryClient
-name: buildDirectoryClient
-nameWithType: DataLakePathClientBuilder.buildDirectoryClient
+uid: "com.azure.storage.file.datalake.DataLakePathClientBuilder.buildDirectoryClient*"
+fullName: "com.azure.storage.file.datalake.DataLakePathClientBuilder.buildDirectoryClient"
+name: "buildDirectoryClient"
+nameWithType: "DataLakePathClientBuilder.buildDirectoryClient"
 members:
-- uid: com.azure.storage.file.datalake.DataLakePathClientBuilder.buildDirectoryClient()
-  fullName: com.azure.storage.file.datalake.DataLakePathClientBuilder.buildDirectoryClient()
-  name: buildDirectoryClient()
-  nameWithType: DataLakePathClientBuilder.buildDirectoryClient()
-  summary: |-
-    Creates a <xref uid="DataLakeDirectoryClient" data-throw-if-not-resolved="false">DataLakeDirectoryClient</xref> based on options set in the builder.
-
-     <p><strong>Code Samples</strong></p>
-
-     <pre>
-     DataLakeDirectoryClient client = new DataLakePathClientBuilder&#40;&#41;
-         .endpoint&#40;endpoint&#41;
-         .credential&#40;storageSharedKeyCredential&#41;
-         .buildDirectoryClient&#40;&#41;;
-     </pre>
-  syntax: public DataLakeDirectoryClient buildDirectoryClient()
+- uid: "com.azure.storage.file.datalake.DataLakePathClientBuilder.buildDirectoryClient()"
+  fullName: "com.azure.storage.file.datalake.DataLakePathClientBuilder.buildDirectoryClient()"
+  name: "buildDirectoryClient()"
+  nameWithType: "DataLakePathClientBuilder.buildDirectoryClient()"
+  summary: "Creates a <xref uid=\"DataLakeDirectoryClient\" data-throw-if-not-resolved=\"false\">DataLakeDirectoryClient</xref> based on options set in the builder.\n\n <p><strong>Code Samples</strong></p>\n\n <pre>\n DataLakeDirectoryClient client = new DataLakePathClientBuilder&#40;&#41;\n     .endpoint&#40;endpoint&#41;\n     .credential&#40;storageSharedKeyCredential&#41;\n     .buildDirectoryClient&#40;&#41;;\n </pre>"
+  syntax: "public DataLakeDirectoryClient buildDirectoryClient()"
   returns:
-    description: a <xref uid="com.azure.storage.file.datalake.DataLakeDirectoryClient" data-throw-if-not-resolved="false">DataLakeDirectoryClient</xref> created from the configurations in this builder.
-    type: <xref href="com.azure.storage.file.datalake.DataLakeDirectoryClient?alt=com.azure.storage.file.datalake.DataLakeDirectoryClient&text=DataLakeDirectoryClient" data-throw-if-not-resolved="False" />
-type: method
+    description: "a <xref uid=\"com.azure.storage.file.datalake.DataLakeDirectoryClient\" data-throw-if-not-resolved=\"false\">DataLakeDirectoryClient</xref> created from the configurations in this builder."
+    type: "<xref href=\"com.azure.storage.file.datalake.DataLakeDirectoryClient?alt=com.azure.storage.file.datalake.DataLakeDirectoryClient&text=DataLakeDirectoryClient\" data-throw-if-not-resolved=\"False\" />"
+type: "method"
 metadata: {}
-package: com.azure.storage.file.datalake
+package: "com.azure.storage.file.datalake"
 artifact: com.azure:azure-storage-file-datalake:12.2.0

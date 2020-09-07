@@ -1,62 +1,39 @@
 ### YamlMime:JavaType
-uid: com.azure.storage.blob.specialized.BlobLeaseAsyncClient
-fullName: com.azure.storage.blob.specialized.BlobLeaseAsyncClient
-name: BlobLeaseAsyncClient
-nameWithType: BlobLeaseAsyncClient
-summary: |-
-  This class provides a client that contains all the leasing operations for <xref uid="com.azure.storage.blob.BlobContainerAsyncClient" data-throw-if-not-resolved="false">containers</xref> and <xref uid="com.azure.storage.blob.BlobAsyncClient" data-throw-if-not-resolved="false">blobs</xref>. This client acts as a supplement to those clients and only handles leasing operations.
-
-  **Instantiating a BlobLeaseAsyncClient**
-
-  ```java
-  BlobLeaseAsyncClient blobLeaseAsyncClient = new BlobLeaseClientBuilder()
-       .blobAsyncClient(blobAsyncClient)
-       .buildAsyncClient();
-  ```
-
-  ```java
-  BlobLeaseAsyncClient blobLeaseAsyncClient = new BlobLeaseClientBuilder()
-       .containerAsyncClient(blobContainerAsyncClient)
-       .buildAsyncClient();
-  ```
-
-  View <xref uid="com.azure.storage.blob.specialized.BlobLeaseClientBuilder" data-throw-if-not-resolved="false">this</xref> for additional ways to construct the client.
-
-  For more information about leasing see the [container leasing][] or [blob leasing][] documentation.
-
-
-  [container leasing]: https://docs.microsoft.com/en-us/rest/api/storageservices/lease-container
-  [blob leasing]: https://docs.microsoft.com/en-us/rest/api/storageservices/lease-blob
+uid: "com.azure.storage.blob.specialized.BlobLeaseAsyncClient"
+fullName: "com.azure.storage.blob.specialized.BlobLeaseAsyncClient"
+name: "BlobLeaseAsyncClient"
+nameWithType: "BlobLeaseAsyncClient"
+summary: "This class provides a client that contains all the leasing operations for <xref uid=\"com.azure.storage.blob.BlobContainerAsyncClient\" data-throw-if-not-resolved=\"false\">containers</xref> and <xref uid=\"com.azure.storage.blob.BlobAsyncClient\" data-throw-if-not-resolved=\"false\">blobs</xref>. This client acts as a supplement to those clients and only handles leasing operations.\n\n**Instantiating a BlobLeaseAsyncClient**\n\n```java\nBlobLeaseAsyncClient blobLeaseAsyncClient = new BlobLeaseClientBuilder()\n     .blobAsyncClient(blobAsyncClient)\n     .buildAsyncClient();\n```\n\n```java\nBlobLeaseAsyncClient blobLeaseAsyncClient = new BlobLeaseClientBuilder()\n     .containerAsyncClient(blobContainerAsyncClient)\n     .buildAsyncClient();\n```\n\nView <xref uid=\"com.azure.storage.blob.specialized.BlobLeaseClientBuilder\" data-throw-if-not-resolved=\"false\">this</xref> for additional ways to construct the client.\n\nFor more information about leasing see the [container leasing][] or [blob leasing][] documentation.\n\n\n[container leasing]: https://docs.microsoft.com/en-us/rest/api/storageservices/lease-container\n[blob leasing]: https://docs.microsoft.com/en-us/rest/api/storageservices/lease-blob"
 inheritances:
-- <xref href="java.lang.Object" data-throw-if-not-resolved="False" />
+- "<xref href=\"java.lang.Object\" data-throw-if-not-resolved=\"False\" />"
 inheritedMembers:
-- java.lang.Object.clone()
-- java.lang.Object.equals(java.lang.Object)
-- java.lang.Object.finalize()
-- java.lang.Object.getClass()
-- java.lang.Object.hashCode()
-- java.lang.Object.notify()
-- java.lang.Object.notifyAll()
-- java.lang.Object.toString()
-- java.lang.Object.wait()
-- java.lang.Object.wait(long)
-- java.lang.Object.wait(long,int)
-syntax: public final class BlobLeaseAsyncClient
+- "java.lang.Object.clone()"
+- "java.lang.Object.equals(java.lang.Object)"
+- "java.lang.Object.finalize()"
+- "java.lang.Object.getClass()"
+- "java.lang.Object.hashCode()"
+- "java.lang.Object.notify()"
+- "java.lang.Object.notifyAll()"
+- "java.lang.Object.toString()"
+- "java.lang.Object.wait()"
+- "java.lang.Object.wait(long)"
+- "java.lang.Object.wait(long,int)"
+syntax: "public final class BlobLeaseAsyncClient"
 methods:
-- com.azure.storage.blob.specialized.BlobLeaseAsyncClient.acquireLease(int)
-- com.azure.storage.blob.specialized.BlobLeaseAsyncClient.acquireLeaseWithResponse(int,com.azure.core.http.RequestConditions)
-- com.azure.storage.blob.specialized.BlobLeaseAsyncClient.breakLease()
-- com.azure.storage.blob.specialized.BlobLeaseAsyncClient.breakLeaseWithResponse(java.lang.Integer,com.azure.core.http.RequestConditions)
-- com.azure.storage.blob.specialized.BlobLeaseAsyncClient.changeLease(java.lang.String)
-- com.azure.storage.blob.specialized.BlobLeaseAsyncClient.changeLeaseWithResponse(java.lang.String,com.azure.core.http.RequestConditions)
-- com.azure.storage.blob.specialized.BlobLeaseAsyncClient.getAccountName()
-- com.azure.storage.blob.specialized.BlobLeaseAsyncClient.getLeaseId()
-- com.azure.storage.blob.specialized.BlobLeaseAsyncClient.getResourceUrl()
-- com.azure.storage.blob.specialized.BlobLeaseAsyncClient.releaseLease()
-- com.azure.storage.blob.specialized.BlobLeaseAsyncClient.releaseLeaseWithResponse(com.azure.core.http.RequestConditions)
-- com.azure.storage.blob.specialized.BlobLeaseAsyncClient.renewLease()
-- com.azure.storage.blob.specialized.BlobLeaseAsyncClient.renewLeaseWithResponse(com.azure.core.http.RequestConditions)
-type: class
+- "com.azure.storage.blob.specialized.BlobLeaseAsyncClient.acquireLease(int)"
+- "com.azure.storage.blob.specialized.BlobLeaseAsyncClient.acquireLeaseWithResponse(int,com.azure.core.http.RequestConditions)"
+- "com.azure.storage.blob.specialized.BlobLeaseAsyncClient.breakLease()"
+- "com.azure.storage.blob.specialized.BlobLeaseAsyncClient.breakLeaseWithResponse(java.lang.Integer,com.azure.core.http.RequestConditions)"
+- "com.azure.storage.blob.specialized.BlobLeaseAsyncClient.changeLease(java.lang.String)"
+- "com.azure.storage.blob.specialized.BlobLeaseAsyncClient.changeLeaseWithResponse(java.lang.String,com.azure.core.http.RequestConditions)"
+- "com.azure.storage.blob.specialized.BlobLeaseAsyncClient.getAccountName()"
+- "com.azure.storage.blob.specialized.BlobLeaseAsyncClient.getLeaseId()"
+- "com.azure.storage.blob.specialized.BlobLeaseAsyncClient.getResourceUrl()"
+- "com.azure.storage.blob.specialized.BlobLeaseAsyncClient.releaseLease()"
+- "com.azure.storage.blob.specialized.BlobLeaseAsyncClient.releaseLeaseWithResponse(com.azure.core.http.RequestConditions)"
+- "com.azure.storage.blob.specialized.BlobLeaseAsyncClient.renewLease()"
+- "com.azure.storage.blob.specialized.BlobLeaseAsyncClient.renewLeaseWithResponse(com.azure.core.http.RequestConditions)"
+type: "class"
 metadata: {}
-package: com.azure.storage.blob.specialized
+package: "com.azure.storage.blob.specialized"
 artifact: com.azure:azure-storage-blob:12.8.0-beta.1

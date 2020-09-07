@@ -1,49 +1,23 @@
 ### YamlMime:JavaMember
-uid: com.azure.storage.file.share.ShareAsyncClient.setMetadataWithResponse*
-fullName: com.azure.storage.file.share.ShareAsyncClient.setMetadataWithResponse
-name: setMetadataWithResponse
-nameWithType: ShareAsyncClient.setMetadataWithResponse
+uid: "com.azure.storage.file.share.ShareAsyncClient.setMetadataWithResponse*"
+fullName: "com.azure.storage.file.share.ShareAsyncClient.setMetadataWithResponse"
+name: "setMetadataWithResponse"
+nameWithType: "ShareAsyncClient.setMetadataWithResponse"
 members:
-- uid: com.azure.storage.file.share.ShareAsyncClient.setMetadataWithResponse(java.util.Map<java.lang.String,java.lang.String>)
-  fullName: com.azure.storage.file.share.ShareAsyncClient.setMetadataWithResponse(Map<String,String> metadata)
-  name: setMetadataWithResponse(Map<String,String> metadata)
-  nameWithType: ShareAsyncClient.setMetadataWithResponse(Map<String,String> metadata)
-  summary: |-
-    Sets the user-defined metadata to associate to the share.
-
-     <p>If <code>null</code> is passed for the metadata it will clear the metadata associated to the share.</p>
-
-     <p><strong>Code Samples</strong></p>
-
-     <p>Set the metadata to "share:updatedMetadata"</p>
-
-     <pre>
-     shareAsyncClient.setMetadata&#40;Collections.singletonMap&#40;&quot;share&quot;, &quot;updatedMetadata&quot;&#41;&#41;.doOnSuccess&#40;response -&gt;
-         System.out.println&#40;&quot;Setting the share metadata completed.&quot;&#41;
-     &#41;;
-     </pre>
-
-     <p>Clear the metadata of the share</p>
-
-     <pre>
-     shareAsyncClient.setMetadata&#40;null&#41;.doOnSuccess&#40;response -&gt;
-         System.out.println&#40;&quot;Setting the share metadata completed.&quot;&#41;
-     &#41;;
-     </pre>
-
-     <p>For more information, see the
-     <a href="https://docs.microsoft.com/en-us/rest/api/storageservices/set-share-metadata">Azure Docs</a>.</p>
+- uid: "com.azure.storage.file.share.ShareAsyncClient.setMetadataWithResponse(java.util.Map<java.lang.String,java.lang.String>)"
+  fullName: "com.azure.storage.file.share.ShareAsyncClient.setMetadataWithResponse(Map<String,String> metadata)"
+  name: "setMetadataWithResponse(Map<String,String> metadata)"
+  nameWithType: "ShareAsyncClient.setMetadataWithResponse(Map<String,String> metadata)"
+  summary: "Sets the user-defined metadata to associate to the share.\n\n <p>If <code>null</code> is passed for the metadata it will clear the metadata associated to the share.</p>\n\n <p><strong>Code Samples</strong></p>\n\n <p>Set the metadata to \"share:updatedMetadata\"</p>\n\n <pre>\n shareAsyncClient.setMetadata&#40;Collections.singletonMap&#40;&quot;share&quot;, &quot;updatedMetadata&quot;&#41;&#41;.doOnSuccess&#40;response -&gt;\n     System.out.println&#40;&quot;Setting the share metadata completed.&quot;&#41;\n &#41;;\n </pre>\n\n <p>Clear the metadata of the share</p>\n\n <pre>\n shareAsyncClient.setMetadata&#40;null&#41;.doOnSuccess&#40;response -&gt;\n     System.out.println&#40;&quot;Setting the share metadata completed.&quot;&#41;\n &#41;;\n </pre>\n\n <p>For more information, see the\n <a href=\"https://docs.microsoft.com/en-us/rest/api/storageservices/set-share-metadata\">Azure Docs</a>.</p>"
   parameters:
-  - description: Metadata to set on the share, if null is passed the metadata for the share is cleared
-    name: metadata
-    type: <xref href="java.util.Map?alt=java.util.Map&text=Map" data-throw-if-not-resolved="False" />&lt;<xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />,<xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />&gt;
-  syntax: public Mono<Response<ShareInfo>> setMetadataWithResponse(Map<String,String> metadata)
+  - description: "Metadata to set on the share, if null is passed the metadata for the share is cleared"
+    name: "metadata"
+    type: "<xref href=\"java.util.Map?alt=java.util.Map&text=Map\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />,<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />&gt;"
+  syntax: "public Mono<Response<ShareInfo>> setMetadataWithResponse(Map<String,String> metadata)"
   returns:
-    description: |-
-      A response containing the <xref uid="com.azure.storage.file.share.models.ShareInfo" data-throw-if-not-resolved="false">information about the share</xref> with headers and response status
-       code
-    type: <xref href="reactor.core.publisher.Mono?alt=reactor.core.publisher.Mono&text=Mono" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.core.http.rest.Response?alt=com.azure.core.http.rest.Response&text=Response" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.storage.file.share.models.ShareInfo?alt=com.azure.storage.file.share.models.ShareInfo&text=ShareInfo" data-throw-if-not-resolved="False" />&gt;&gt;
-type: method
+    description: "A response containing the <xref uid=\"com.azure.storage.file.share.models.ShareInfo\" data-throw-if-not-resolved=\"false\">information about the share</xref> with headers and response status\n code"
+    type: "<xref href=\"reactor.core.publisher.Mono?alt=reactor.core.publisher.Mono&text=Mono\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.core.http.rest.Response?alt=com.azure.core.http.rest.Response&text=Response\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.storage.file.share.models.ShareInfo?alt=com.azure.storage.file.share.models.ShareInfo&text=ShareInfo\" data-throw-if-not-resolved=\"False\" />&gt;&gt;"
+type: "method"
 metadata: {}
-package: com.azure.storage.file.share
+package: "com.azure.storage.file.share"
 artifact: com.azure:azure-storage-file-share:12.6.0

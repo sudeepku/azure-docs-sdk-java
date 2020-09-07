@@ -1,37 +1,37 @@
 ### YamlMime:JavaType
-uid: com.azure.core.experimental.spatial.GeometryBoundingBox
-fullName: com.azure.core.experimental.spatial.GeometryBoundingBox
-name: GeometryBoundingBox
-nameWithType: GeometryBoundingBox
-summary: Represents a geometric bounding box.
+uid: "com.azure.core.experimental.spatial.GeometryBoundingBox"
+fullName: "com.azure.core.experimental.spatial.GeometryBoundingBox"
+name: "GeometryBoundingBox"
+nameWithType: "GeometryBoundingBox"
+summary: "Represents a geometric bounding box."
 inheritances:
-- <xref href="java.lang.Object" data-throw-if-not-resolved="False" />
+- "<xref href=\"java.lang.Object\" data-throw-if-not-resolved=\"False\" />"
 inheritedMembers:
-- java.lang.Object.clone()
-- java.lang.Object.equals(java.lang.Object)
-- java.lang.Object.finalize()
-- java.lang.Object.getClass()
-- java.lang.Object.hashCode()
-- java.lang.Object.notify()
-- java.lang.Object.notifyAll()
-- java.lang.Object.toString()
-- java.lang.Object.wait()
-- java.lang.Object.wait(long)
-- java.lang.Object.wait(long,int)
-syntax: public final class GeometryBoundingBox
+- "java.lang.Object.clone()"
+- "java.lang.Object.equals(java.lang.Object)"
+- "java.lang.Object.finalize()"
+- "java.lang.Object.getClass()"
+- "java.lang.Object.hashCode()"
+- "java.lang.Object.notify()"
+- "java.lang.Object.notifyAll()"
+- "java.lang.Object.toString()"
+- "java.lang.Object.wait()"
+- "java.lang.Object.wait(long)"
+- "java.lang.Object.wait(long,int)"
+syntax: "public final class GeometryBoundingBox"
 constructors:
-- com.azure.core.experimental.spatial.GeometryBoundingBox.GeometryBoundingBox(double,double,double,double)
-- com.azure.core.experimental.spatial.GeometryBoundingBox.GeometryBoundingBox(double,double,double,double,java.lang.Double,java.lang.Double)
+- "com.azure.core.experimental.spatial.GeometryBoundingBox.GeometryBoundingBox(double,double,double,double)"
+- "com.azure.core.experimental.spatial.GeometryBoundingBox.GeometryBoundingBox(double,double,double,double,java.lang.Double,java.lang.Double)"
 methods:
-- com.azure.core.experimental.spatial.GeometryBoundingBox.equals(java.lang.Object)
-- com.azure.core.experimental.spatial.GeometryBoundingBox.getEast()
-- com.azure.core.experimental.spatial.GeometryBoundingBox.getMaxAltitude()
-- com.azure.core.experimental.spatial.GeometryBoundingBox.getMinAltitude()
-- com.azure.core.experimental.spatial.GeometryBoundingBox.getNorth()
-- com.azure.core.experimental.spatial.GeometryBoundingBox.getSouth()
-- com.azure.core.experimental.spatial.GeometryBoundingBox.getWest()
-- com.azure.core.experimental.spatial.GeometryBoundingBox.hashCode()
-type: class
+- "com.azure.core.experimental.spatial.GeometryBoundingBox.equals(java.lang.Object)"
+- "com.azure.core.experimental.spatial.GeometryBoundingBox.getEast()"
+- "com.azure.core.experimental.spatial.GeometryBoundingBox.getMaxAltitude()"
+- "com.azure.core.experimental.spatial.GeometryBoundingBox.getMinAltitude()"
+- "com.azure.core.experimental.spatial.GeometryBoundingBox.getNorth()"
+- "com.azure.core.experimental.spatial.GeometryBoundingBox.getSouth()"
+- "com.azure.core.experimental.spatial.GeometryBoundingBox.getWest()"
+- "com.azure.core.experimental.spatial.GeometryBoundingBox.hashCode()"
+type: "class"
 metadata: {}
-package: com.azure.core.experimental.spatial
+package: "com.azure.core.experimental.spatial"
 artifact: com.azure:azure-core-experimental:1.0.0-beta.2

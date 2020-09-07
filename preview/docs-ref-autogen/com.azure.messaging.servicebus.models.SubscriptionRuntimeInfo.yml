@@ -1,39 +1,39 @@
 ### YamlMime:JavaType
-uid: com.azure.messaging.servicebus.models.SubscriptionRuntimeInfo
-fullName: com.azure.messaging.servicebus.models.SubscriptionRuntimeInfo
-name: SubscriptionRuntimeInfo
-nameWithType: SubscriptionRuntimeInfo
-summary: Runtime information about a subscription.
+uid: "com.azure.messaging.servicebus.models.SubscriptionRuntimeInfo"
+fullName: "com.azure.messaging.servicebus.models.SubscriptionRuntimeInfo"
+name: "SubscriptionRuntimeInfo"
+nameWithType: "SubscriptionRuntimeInfo"
+summary: "Runtime information about a subscription."
 inheritances:
-- <xref href="java.lang.Object" data-throw-if-not-resolved="False" />
+- "<xref href=\"java.lang.Object\" data-throw-if-not-resolved=\"False\" />"
 inheritedMembers:
-- java.lang.Object.clone()
-- java.lang.Object.equals(java.lang.Object)
-- java.lang.Object.finalize()
-- java.lang.Object.getClass()
-- java.lang.Object.hashCode()
-- java.lang.Object.notify()
-- java.lang.Object.notifyAll()
-- java.lang.Object.toString()
-- java.lang.Object.wait()
-- java.lang.Object.wait(long)
-- java.lang.Object.wait(long,int)
-syntax: public class SubscriptionRuntimeInfo
+- "java.lang.Object.clone()"
+- "java.lang.Object.equals(java.lang.Object)"
+- "java.lang.Object.finalize()"
+- "java.lang.Object.getClass()"
+- "java.lang.Object.hashCode()"
+- "java.lang.Object.notify()"
+- "java.lang.Object.notifyAll()"
+- "java.lang.Object.toString()"
+- "java.lang.Object.wait()"
+- "java.lang.Object.wait(long)"
+- "java.lang.Object.wait(long,int)"
+syntax: "public class SubscriptionRuntimeInfo"
 constructors:
-- com.azure.messaging.servicebus.models.SubscriptionRuntimeInfo.SubscriptionRuntimeInfo(com.azure.messaging.servicebus.models.SubscriptionProperties)
+- "com.azure.messaging.servicebus.models.SubscriptionRuntimeInfo.SubscriptionRuntimeInfo(com.azure.messaging.servicebus.models.SubscriptionProperties)"
 methods:
-- com.azure.messaging.servicebus.models.SubscriptionRuntimeInfo.getAccessedAt()
-- com.azure.messaging.servicebus.models.SubscriptionRuntimeInfo.getActiveMessageCount()
-- com.azure.messaging.servicebus.models.SubscriptionRuntimeInfo.getCreatedAt()
-- com.azure.messaging.servicebus.models.SubscriptionRuntimeInfo.getDeadLetterMessageCount()
-- com.azure.messaging.servicebus.models.SubscriptionRuntimeInfo.getScheduledMessageCount()
-- com.azure.messaging.servicebus.models.SubscriptionRuntimeInfo.getSubscriptionName()
-- com.azure.messaging.servicebus.models.SubscriptionRuntimeInfo.getTopicName()
-- com.azure.messaging.servicebus.models.SubscriptionRuntimeInfo.getTotalMessageCount()
-- com.azure.messaging.servicebus.models.SubscriptionRuntimeInfo.getTransferDeadLetterMessageCount()
-- com.azure.messaging.servicebus.models.SubscriptionRuntimeInfo.getTransferMessageCount()
-- com.azure.messaging.servicebus.models.SubscriptionRuntimeInfo.getUpdatedAt()
-type: class
+- "com.azure.messaging.servicebus.models.SubscriptionRuntimeInfo.getAccessedAt()"
+- "com.azure.messaging.servicebus.models.SubscriptionRuntimeInfo.getActiveMessageCount()"
+- "com.azure.messaging.servicebus.models.SubscriptionRuntimeInfo.getCreatedAt()"
+- "com.azure.messaging.servicebus.models.SubscriptionRuntimeInfo.getDeadLetterMessageCount()"
+- "com.azure.messaging.servicebus.models.SubscriptionRuntimeInfo.getScheduledMessageCount()"
+- "com.azure.messaging.servicebus.models.SubscriptionRuntimeInfo.getSubscriptionName()"
+- "com.azure.messaging.servicebus.models.SubscriptionRuntimeInfo.getTopicName()"
+- "com.azure.messaging.servicebus.models.SubscriptionRuntimeInfo.getTotalMessageCount()"
+- "com.azure.messaging.servicebus.models.SubscriptionRuntimeInfo.getTransferDeadLetterMessageCount()"
+- "com.azure.messaging.servicebus.models.SubscriptionRuntimeInfo.getTransferMessageCount()"
+- "com.azure.messaging.servicebus.models.SubscriptionRuntimeInfo.getUpdatedAt()"
+type: "class"
 metadata: {}
-package: com.azure.messaging.servicebus.models
+package: "com.azure.messaging.servicebus.models"
 artifact: com.azure:azure-messaging-servicebus:7.0.0-beta.5

@@ -1,69 +1,54 @@
 ### YamlMime:JavaMember
-uid: com.azure.storage.blob.BlobContainerClient.listBlobs*
-fullName: com.azure.storage.blob.BlobContainerClient.listBlobs
-name: listBlobs
-nameWithType: BlobContainerClient.listBlobs
+uid: "com.azure.storage.blob.BlobContainerClient.listBlobs*"
+fullName: "com.azure.storage.blob.BlobContainerClient.listBlobs"
+name: "listBlobs"
+nameWithType: "BlobContainerClient.listBlobs"
 members:
-- uid: com.azure.storage.blob.BlobContainerClient.listBlobs()
-  fullName: com.azure.storage.blob.BlobContainerClient.listBlobs()
-  name: listBlobs()
-  nameWithType: BlobContainerClient.listBlobs()
-  summary: |-
-    Returns a lazy loaded list of blobs in this container, with folder structures flattened. The returned <xref uid="PagedIterable" data-throw-if-not-resolved="false">PagedIterable</xref> can be consumed through while new items are automatically retrieved as needed.
-
-     <p>
-     Blob names are returned in lexicographic order.
-
-     <p>
-     For more information, see the
-     <a href="https://docs.microsoft.com/rest/api/storageservices/list-blobs">Azure Docs</a>.
-
-     <p><strong>Code Samples</strong></p>
-
-     <pre>
-     client.listBlobs&#40;&#41;.forEach&#40;blob -&gt;
-         System.out.printf&#40;&quot;Name: %s, Directory? %b%n&quot;, blob.getName&#40;&#41;, blob.isPrefix&#40;&#41;&#41;&#41;;
-     </pre>
-  syntax: public PagedIterable<BlobItem> listBlobs()
+- uid: "com.azure.storage.blob.BlobContainerClient.listBlobs()"
+  fullName: "com.azure.storage.blob.BlobContainerClient.listBlobs()"
+  name: "listBlobs()"
+  nameWithType: "BlobContainerClient.listBlobs()"
+  summary: "Returns a lazy loaded list of blobs in this container, with folder structures flattened. The returned <xref uid=\"PagedIterable\" data-throw-if-not-resolved=\"false\">PagedIterable</xref> can be consumed through while new items are automatically retrieved as needed.\n\n <p>\n Blob names are returned in lexicographic order.\n\n <p>\n For more information, see the\n <a href=\"https://docs.microsoft.com/rest/api/storageservices/list-blobs\">Azure Docs</a>.\n\n <p><strong>Code Samples</strong></p>\n\n <pre>\n client.listBlobs&#40;&#41;.forEach&#40;blob -&gt;\n     System.out.printf&#40;&quot;Name: %s, Directory? %b%n&quot;, blob.getName&#40;&#41;, blob.isPrefix&#40;&#41;&#41;&#41;;\n </pre>"
+  syntax: "public PagedIterable<BlobItem> listBlobs()"
   returns:
-    description: The listed blobs, flattened.
-    type: <xref href="com.azure.core.http.rest.PagedIterable?alt=com.azure.core.http.rest.PagedIterable&text=PagedIterable" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.storage.blob.models.BlobItem?alt=com.azure.storage.blob.models.BlobItem&text=BlobItem" data-throw-if-not-resolved="False" />&gt;
-- uid: com.azure.storage.blob.BlobContainerClient.listBlobs(com.azure.storage.blob.models.ListBlobsOptions,java.lang.String,java.time.Duration)
-  fullName: com.azure.storage.blob.BlobContainerClient.listBlobs(ListBlobsOptions options, String continuationToken, Duration timeout)
-  name: listBlobs(ListBlobsOptions options, String continuationToken, Duration timeout)
-  nameWithType: BlobContainerClient.listBlobs(ListBlobsOptions options, String continuationToken, Duration timeout)
+    description: "The listed blobs, flattened."
+    type: "<xref href=\"com.azure.core.http.rest.PagedIterable?alt=com.azure.core.http.rest.PagedIterable&text=PagedIterable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.storage.blob.models.BlobItem?alt=com.azure.storage.blob.models.BlobItem&text=BlobItem\" data-throw-if-not-resolved=\"False\" />&gt;"
+- uid: "com.azure.storage.blob.BlobContainerClient.listBlobs(com.azure.storage.blob.models.ListBlobsOptions,java.lang.String,java.time.Duration)"
+  fullName: "com.azure.storage.blob.BlobContainerClient.listBlobs(ListBlobsOptions options, String continuationToken, Duration timeout)"
+  name: "listBlobs(ListBlobsOptions options, String continuationToken, Duration timeout)"
+  nameWithType: "BlobContainerClient.listBlobs(ListBlobsOptions options, String continuationToken, Duration timeout)"
   summary: "Returns a lazy loaded list of blobs in this container, with folder structures flattened. The returned <xref uid=\"PagedIterable\" data-throw-if-not-resolved=\"false\">PagedIterable</xref> can be consumed through while new items are automatically retrieved as needed.\n\n <p>\n Blob names are returned in lexicographic order.\n\n <p>\n For more information, see the\n <a href=\"https://docs.microsoft.com/rest/api/storageservices/list-blobs\">Azure Docs</a>.\n\n <p><strong>Code Samples</strong></p>\n\n <pre>\n ListBlobsOptions options = new ListBlobsOptions&#40;&#41;\n     .setPrefix&#40;&quot;prefixToMatch&quot;&#41;\n     .setDetails&#40;new BlobListDetails&#40;&#41;\n         .setRetrieveDeletedBlobs&#40;true&#41;\n         .setRetrieveSnapshots&#40;true&#41;&#41;;\n \n String continuationToken = &quot;continuationToken&quot;;\n \n client.listBlobs&#40;options, continuationToken, timeout&#41;.forEach&#40;blob -&gt;\n     System.out.printf&#40;&quot;Name: %s, Directory? %b, Deleted? %b, Snapshot ID: %s%n&quot;,\n         blob.getName&#40;&#41;,\n         blob.isPrefix&#40;&#41;,\n         blob.isDeleted&#40;&#41;,\n         blob.getSnapshot&#40;&#41;&#41;&#41;;\n </pre>"
   parameters:
-  - description: <xref uid="com.azure.storage.blob.models.ListBlobsOptions" data-throw-if-not-resolved="false">ListBlobsOptions</xref>
-    name: options
-    type: <xref href="com.azure.storage.blob.models.ListBlobsOptions?alt=com.azure.storage.blob.models.ListBlobsOptions&text=ListBlobsOptions" data-throw-if-not-resolved="False" />
-  - description: Identifies the portion of the list to be returned with the next list operation.
-    name: continuationToken
-    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
-  - description: An optional timeout value beyond which a <xref uid="" data-throw-if-not-resolved="false">RuntimeException</xref> will be raised.
-    name: timeout
-    type: <xref href="java.time.Duration?alt=java.time.Duration&text=Duration" data-throw-if-not-resolved="False" />
-  syntax: public PagedIterable<BlobItem> listBlobs(ListBlobsOptions options, String continuationToken, Duration timeout)
+  - description: "<xref uid=\"com.azure.storage.blob.models.ListBlobsOptions\" data-throw-if-not-resolved=\"false\">ListBlobsOptions</xref>"
+    name: "options"
+    type: "<xref href=\"com.azure.storage.blob.models.ListBlobsOptions?alt=com.azure.storage.blob.models.ListBlobsOptions&text=ListBlobsOptions\" data-throw-if-not-resolved=\"False\" />"
+  - description: "Identifies the portion of the list to be returned with the next list operation."
+    name: "continuationToken"
+    type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
+  - description: "An optional timeout value beyond which a <xref uid=\"\" data-throw-if-not-resolved=\"false\">RuntimeException</xref> will be raised."
+    name: "timeout"
+    type: "<xref href=\"java.time.Duration?alt=java.time.Duration&text=Duration\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public PagedIterable<BlobItem> listBlobs(ListBlobsOptions options, String continuationToken, Duration timeout)"
   returns:
-    description: The listed blobs, flattened.
-    type: <xref href="com.azure.core.http.rest.PagedIterable?alt=com.azure.core.http.rest.PagedIterable&text=PagedIterable" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.storage.blob.models.BlobItem?alt=com.azure.storage.blob.models.BlobItem&text=BlobItem" data-throw-if-not-resolved="False" />&gt;
-- uid: com.azure.storage.blob.BlobContainerClient.listBlobs(com.azure.storage.blob.models.ListBlobsOptions,java.time.Duration)
-  fullName: com.azure.storage.blob.BlobContainerClient.listBlobs(ListBlobsOptions options, Duration timeout)
-  name: listBlobs(ListBlobsOptions options, Duration timeout)
-  nameWithType: BlobContainerClient.listBlobs(ListBlobsOptions options, Duration timeout)
+    description: "The listed blobs, flattened."
+    type: "<xref href=\"com.azure.core.http.rest.PagedIterable?alt=com.azure.core.http.rest.PagedIterable&text=PagedIterable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.storage.blob.models.BlobItem?alt=com.azure.storage.blob.models.BlobItem&text=BlobItem\" data-throw-if-not-resolved=\"False\" />&gt;"
+- uid: "com.azure.storage.blob.BlobContainerClient.listBlobs(com.azure.storage.blob.models.ListBlobsOptions,java.time.Duration)"
+  fullName: "com.azure.storage.blob.BlobContainerClient.listBlobs(ListBlobsOptions options, Duration timeout)"
+  name: "listBlobs(ListBlobsOptions options, Duration timeout)"
+  nameWithType: "BlobContainerClient.listBlobs(ListBlobsOptions options, Duration timeout)"
   summary: "Returns a lazy loaded list of blobs in this container, with folder structures flattened. The returned <xref uid=\"PagedIterable\" data-throw-if-not-resolved=\"false\">PagedIterable</xref> can be consumed through while new items are automatically retrieved as needed.\n\n <p>\n Blob names are returned in lexicographic order.\n\n <p>\n For more information, see the\n <a href=\"https://docs.microsoft.com/rest/api/storageservices/list-blobs\">Azure Docs</a>.\n\n <p><strong>Code Samples</strong></p>\n\n <pre>\n ListBlobsOptions options = new ListBlobsOptions&#40;&#41;\n     .setPrefix&#40;&quot;prefixToMatch&quot;&#41;\n     .setDetails&#40;new BlobListDetails&#40;&#41;\n         .setRetrieveDeletedBlobs&#40;true&#41;\n         .setRetrieveSnapshots&#40;true&#41;&#41;;\n \n client.listBlobs&#40;options, timeout&#41;.forEach&#40;blob -&gt;\n     System.out.printf&#40;&quot;Name: %s, Directory? %b, Deleted? %b, Snapshot ID: %s%n&quot;,\n         blob.getName&#40;&#41;,\n         blob.isPrefix&#40;&#41;,\n         blob.isDeleted&#40;&#41;,\n         blob.getSnapshot&#40;&#41;&#41;&#41;;\n </pre>"
   parameters:
-  - description: <xref uid="com.azure.storage.blob.models.ListBlobsOptions" data-throw-if-not-resolved="false">ListBlobsOptions</xref>
-    name: options
-    type: <xref href="com.azure.storage.blob.models.ListBlobsOptions?alt=com.azure.storage.blob.models.ListBlobsOptions&text=ListBlobsOptions" data-throw-if-not-resolved="False" />
-  - description: An optional timeout value beyond which a <xref uid="" data-throw-if-not-resolved="false">RuntimeException</xref> will be raised.
-    name: timeout
-    type: <xref href="java.time.Duration?alt=java.time.Duration&text=Duration" data-throw-if-not-resolved="False" />
-  syntax: public PagedIterable<BlobItem> listBlobs(ListBlobsOptions options, Duration timeout)
+  - description: "<xref uid=\"com.azure.storage.blob.models.ListBlobsOptions\" data-throw-if-not-resolved=\"false\">ListBlobsOptions</xref>"
+    name: "options"
+    type: "<xref href=\"com.azure.storage.blob.models.ListBlobsOptions?alt=com.azure.storage.blob.models.ListBlobsOptions&text=ListBlobsOptions\" data-throw-if-not-resolved=\"False\" />"
+  - description: "An optional timeout value beyond which a <xref uid=\"\" data-throw-if-not-resolved=\"false\">RuntimeException</xref> will be raised."
+    name: "timeout"
+    type: "<xref href=\"java.time.Duration?alt=java.time.Duration&text=Duration\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public PagedIterable<BlobItem> listBlobs(ListBlobsOptions options, Duration timeout)"
   returns:
-    description: The listed blobs, flattened.
-    type: <xref href="com.azure.core.http.rest.PagedIterable?alt=com.azure.core.http.rest.PagedIterable&text=PagedIterable" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.storage.blob.models.BlobItem?alt=com.azure.storage.blob.models.BlobItem&text=BlobItem" data-throw-if-not-resolved="False" />&gt;
-type: method
+    description: "The listed blobs, flattened."
+    type: "<xref href=\"com.azure.core.http.rest.PagedIterable?alt=com.azure.core.http.rest.PagedIterable&text=PagedIterable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.storage.blob.models.BlobItem?alt=com.azure.storage.blob.models.BlobItem&text=BlobItem\" data-throw-if-not-resolved=\"False\" />&gt;"
+type: "method"
 metadata: {}
-package: com.azure.storage.blob
+package: "com.azure.storage.blob"
 artifact: com.azure:azure-storage-blob:12.8.0

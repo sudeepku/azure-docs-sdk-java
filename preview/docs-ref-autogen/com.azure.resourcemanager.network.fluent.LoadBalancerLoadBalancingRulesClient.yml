@@ -1,42 +1,42 @@
 ### YamlMime:JavaType
-uid: com.azure.resourcemanager.network.fluent.LoadBalancerLoadBalancingRulesClient
-fullName: com.azure.resourcemanager.network.fluent.LoadBalancerLoadBalancingRulesClient
-name: LoadBalancerLoadBalancingRulesClient
-nameWithType: LoadBalancerLoadBalancingRulesClient
-summary: An instance of this class provides access to all the operations defined in LoadBalancerLoadBalancingRules.
+uid: "com.azure.resourcemanager.network.fluent.LoadBalancerLoadBalancingRulesClient"
+fullName: "com.azure.resourcemanager.network.fluent.LoadBalancerLoadBalancingRulesClient"
+name: "LoadBalancerLoadBalancingRulesClient"
+nameWithType: "LoadBalancerLoadBalancingRulesClient"
+summary: "An instance of this class provides access to all the operations defined in LoadBalancerLoadBalancingRules."
 inheritances:
-- <xref href="java.lang.Object" data-throw-if-not-resolved="False" />
+- "<xref href=\"java.lang.Object\" data-throw-if-not-resolved=\"False\" />"
 inheritedMembers:
-- java.lang.Object.clone()
-- java.lang.Object.equals(java.lang.Object)
-- java.lang.Object.finalize()
-- java.lang.Object.getClass()
-- java.lang.Object.hashCode()
-- java.lang.Object.notify()
-- java.lang.Object.notifyAll()
-- java.lang.Object.toString()
-- java.lang.Object.wait()
-- java.lang.Object.wait(long)
-- java.lang.Object.wait(long,int)
-syntax: public final class LoadBalancerLoadBalancingRulesClient
+- "java.lang.Object.clone()"
+- "java.lang.Object.equals(java.lang.Object)"
+- "java.lang.Object.finalize()"
+- "java.lang.Object.getClass()"
+- "java.lang.Object.hashCode()"
+- "java.lang.Object.notify()"
+- "java.lang.Object.notifyAll()"
+- "java.lang.Object.toString()"
+- "java.lang.Object.wait()"
+- "java.lang.Object.wait(long)"
+- "java.lang.Object.wait(long,int)"
+syntax: "public final class LoadBalancerLoadBalancingRulesClient"
 constructors:
-- com.azure.resourcemanager.network.fluent.LoadBalancerLoadBalancingRulesClient.LoadBalancerLoadBalancingRulesClient(com.azure.resourcemanager.network.NetworkManagementClient)
+- "com.azure.resourcemanager.network.fluent.LoadBalancerLoadBalancingRulesClient.LoadBalancerLoadBalancingRulesClient(com.azure.resourcemanager.network.NetworkManagementClient)"
 methods:
-- com.azure.resourcemanager.network.fluent.LoadBalancerLoadBalancingRulesClient.get(java.lang.String,java.lang.String,java.lang.String)
-- com.azure.resourcemanager.network.fluent.LoadBalancerLoadBalancingRulesClient.get(java.lang.String,java.lang.String,java.lang.String,com.azure.core.util.Context)
-- com.azure.resourcemanager.network.fluent.LoadBalancerLoadBalancingRulesClient.getAsync(java.lang.String,java.lang.String,java.lang.String)
-- com.azure.resourcemanager.network.fluent.LoadBalancerLoadBalancingRulesClient.getAsync(java.lang.String,java.lang.String,java.lang.String,com.azure.core.util.Context)
-- com.azure.resourcemanager.network.fluent.LoadBalancerLoadBalancingRulesClient.getWithResponseAsync(java.lang.String,java.lang.String,java.lang.String)
-- com.azure.resourcemanager.network.fluent.LoadBalancerLoadBalancingRulesClient.getWithResponseAsync(java.lang.String,java.lang.String,java.lang.String,com.azure.core.util.Context)
-- com.azure.resourcemanager.network.fluent.LoadBalancerLoadBalancingRulesClient.list(java.lang.String,java.lang.String)
-- com.azure.resourcemanager.network.fluent.LoadBalancerLoadBalancingRulesClient.list(java.lang.String,java.lang.String,com.azure.core.util.Context)
-- com.azure.resourcemanager.network.fluent.LoadBalancerLoadBalancingRulesClient.listAsync(java.lang.String,java.lang.String)
-- com.azure.resourcemanager.network.fluent.LoadBalancerLoadBalancingRulesClient.listAsync(java.lang.String,java.lang.String,com.azure.core.util.Context)
-- com.azure.resourcemanager.network.fluent.LoadBalancerLoadBalancingRulesClient.listNextSinglePageAsync(java.lang.String)
-- com.azure.resourcemanager.network.fluent.LoadBalancerLoadBalancingRulesClient.listNextSinglePageAsync(java.lang.String,com.azure.core.util.Context)
-- com.azure.resourcemanager.network.fluent.LoadBalancerLoadBalancingRulesClient.listSinglePageAsync(java.lang.String,java.lang.String)
-- com.azure.resourcemanager.network.fluent.LoadBalancerLoadBalancingRulesClient.listSinglePageAsync(java.lang.String,java.lang.String,com.azure.core.util.Context)
-type: class
+- "com.azure.resourcemanager.network.fluent.LoadBalancerLoadBalancingRulesClient.get(java.lang.String,java.lang.String,java.lang.String)"
+- "com.azure.resourcemanager.network.fluent.LoadBalancerLoadBalancingRulesClient.get(java.lang.String,java.lang.String,java.lang.String,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.network.fluent.LoadBalancerLoadBalancingRulesClient.getAsync(java.lang.String,java.lang.String,java.lang.String)"
+- "com.azure.resourcemanager.network.fluent.LoadBalancerLoadBalancingRulesClient.getAsync(java.lang.String,java.lang.String,java.lang.String,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.network.fluent.LoadBalancerLoadBalancingRulesClient.getWithResponseAsync(java.lang.String,java.lang.String,java.lang.String)"
+- "com.azure.resourcemanager.network.fluent.LoadBalancerLoadBalancingRulesClient.getWithResponseAsync(java.lang.String,java.lang.String,java.lang.String,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.network.fluent.LoadBalancerLoadBalancingRulesClient.list(java.lang.String,java.lang.String)"
+- "com.azure.resourcemanager.network.fluent.LoadBalancerLoadBalancingRulesClient.list(java.lang.String,java.lang.String,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.network.fluent.LoadBalancerLoadBalancingRulesClient.listAsync(java.lang.String,java.lang.String)"
+- "com.azure.resourcemanager.network.fluent.LoadBalancerLoadBalancingRulesClient.listAsync(java.lang.String,java.lang.String,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.network.fluent.LoadBalancerLoadBalancingRulesClient.listNextSinglePageAsync(java.lang.String)"
+- "com.azure.resourcemanager.network.fluent.LoadBalancerLoadBalancingRulesClient.listNextSinglePageAsync(java.lang.String,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.network.fluent.LoadBalancerLoadBalancingRulesClient.listSinglePageAsync(java.lang.String,java.lang.String)"
+- "com.azure.resourcemanager.network.fluent.LoadBalancerLoadBalancingRulesClient.listSinglePageAsync(java.lang.String,java.lang.String,com.azure.core.util.Context)"
+type: "class"
 metadata: {}
-package: com.azure.resourcemanager.network.fluent
+package: "com.azure.resourcemanager.network.fluent"
 artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.0.0-beta.2

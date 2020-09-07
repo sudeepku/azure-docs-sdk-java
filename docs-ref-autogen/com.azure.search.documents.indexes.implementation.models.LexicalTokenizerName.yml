@@ -1,47 +1,47 @@
 ### YamlMime:JavaType
-uid: com.azure.search.documents.indexes.implementation.models.LexicalTokenizerName
-fullName: com.azure.search.documents.indexes.implementation.models.LexicalTokenizerName
-name: LexicalTokenizerName
-nameWithType: LexicalTokenizerName
-summary: Defines values for LexicalTokenizerName.
+uid: "com.azure.search.documents.indexes.implementation.models.LexicalTokenizerName"
+fullName: "com.azure.search.documents.indexes.implementation.models.LexicalTokenizerName"
+name: "LexicalTokenizerName"
+nameWithType: "LexicalTokenizerName"
+summary: "Defines values for LexicalTokenizerName."
 inheritances:
-- <xref href="java.lang.Object" data-throw-if-not-resolved="False" />
-- <xref href="com.azure.core.util.ExpandableStringEnum" data-throw-if-not-resolved="False" />
+- "<xref href=\"java.lang.Object\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.azure.core.util.ExpandableStringEnum\" data-throw-if-not-resolved=\"False\" />"
 inheritedMembers:
-- com.azure.core.util.ExpandableStringEnum.<T>fromString(java.lang.String,java.lang.Class<T>)
-- com.azure.core.util.ExpandableStringEnum.<T>values(java.lang.Class<T>)
-- com.azure.core.util.ExpandableStringEnum.equals(java.lang.Object)
-- com.azure.core.util.ExpandableStringEnum.hashCode()
-- com.azure.core.util.ExpandableStringEnum.toString()
-- java.lang.Object.clone()
-- java.lang.Object.finalize()
-- java.lang.Object.getClass()
-- java.lang.Object.notify()
-- java.lang.Object.notifyAll()
-- java.lang.Object.wait()
-- java.lang.Object.wait(long)
-- java.lang.Object.wait(long,int)
-syntax: public final class LexicalTokenizerName extends ExpandableStringEnum<LexicalTokenizerName>
+- "com.azure.core.util.ExpandableStringEnum.<T>fromString(java.lang.String,java.lang.Class<T>)"
+- "com.azure.core.util.ExpandableStringEnum.<T>values(java.lang.Class<T>)"
+- "com.azure.core.util.ExpandableStringEnum.equals(java.lang.Object)"
+- "com.azure.core.util.ExpandableStringEnum.hashCode()"
+- "com.azure.core.util.ExpandableStringEnum.toString()"
+- "java.lang.Object.clone()"
+- "java.lang.Object.finalize()"
+- "java.lang.Object.getClass()"
+- "java.lang.Object.notify()"
+- "java.lang.Object.notifyAll()"
+- "java.lang.Object.wait()"
+- "java.lang.Object.wait(long)"
+- "java.lang.Object.wait(long,int)"
+syntax: "public final class LexicalTokenizerName extends ExpandableStringEnum<LexicalTokenizerName>"
 constructors:
-- com.azure.search.documents.indexes.implementation.models.LexicalTokenizerName.LexicalTokenizerName()
+- "com.azure.search.documents.indexes.implementation.models.LexicalTokenizerName.LexicalTokenizerName()"
 fields:
-- com.azure.search.documents.indexes.implementation.models.LexicalTokenizerName.CLASSIC
-- com.azure.search.documents.indexes.implementation.models.LexicalTokenizerName.EDGE_NGRAM
-- com.azure.search.documents.indexes.implementation.models.LexicalTokenizerName.KEYWORD_V2
-- com.azure.search.documents.indexes.implementation.models.LexicalTokenizerName.LETTER
-- com.azure.search.documents.indexes.implementation.models.LexicalTokenizerName.LOWERCASE
-- com.azure.search.documents.indexes.implementation.models.LexicalTokenizerName.MICROSOFT_LANGUAGE_STEMMING_TOKENIZER
-- com.azure.search.documents.indexes.implementation.models.LexicalTokenizerName.MICROSOFT_LANGUAGE_TOKENIZER
-- com.azure.search.documents.indexes.implementation.models.LexicalTokenizerName.N_GRAM
-- com.azure.search.documents.indexes.implementation.models.LexicalTokenizerName.PATH_HIERARCHY_V2
-- com.azure.search.documents.indexes.implementation.models.LexicalTokenizerName.PATTERN
-- com.azure.search.documents.indexes.implementation.models.LexicalTokenizerName.STANDARD_V2
-- com.azure.search.documents.indexes.implementation.models.LexicalTokenizerName.UAX_URL_EMAIL
-- com.azure.search.documents.indexes.implementation.models.LexicalTokenizerName.WHITESPACE
+- "com.azure.search.documents.indexes.implementation.models.LexicalTokenizerName.CLASSIC"
+- "com.azure.search.documents.indexes.implementation.models.LexicalTokenizerName.EDGE_NGRAM"
+- "com.azure.search.documents.indexes.implementation.models.LexicalTokenizerName.KEYWORD_V2"
+- "com.azure.search.documents.indexes.implementation.models.LexicalTokenizerName.LETTER"
+- "com.azure.search.documents.indexes.implementation.models.LexicalTokenizerName.LOWERCASE"
+- "com.azure.search.documents.indexes.implementation.models.LexicalTokenizerName.MICROSOFT_LANGUAGE_STEMMING_TOKENIZER"
+- "com.azure.search.documents.indexes.implementation.models.LexicalTokenizerName.MICROSOFT_LANGUAGE_TOKENIZER"
+- "com.azure.search.documents.indexes.implementation.models.LexicalTokenizerName.N_GRAM"
+- "com.azure.search.documents.indexes.implementation.models.LexicalTokenizerName.PATH_HIERARCHY_V2"
+- "com.azure.search.documents.indexes.implementation.models.LexicalTokenizerName.PATTERN"
+- "com.azure.search.documents.indexes.implementation.models.LexicalTokenizerName.STANDARD_V2"
+- "com.azure.search.documents.indexes.implementation.models.LexicalTokenizerName.UAX_URL_EMAIL"
+- "com.azure.search.documents.indexes.implementation.models.LexicalTokenizerName.WHITESPACE"
 methods:
-- com.azure.search.documents.indexes.implementation.models.LexicalTokenizerName.fromString(java.lang.String)
-- com.azure.search.documents.indexes.implementation.models.LexicalTokenizerName.values()
-type: class
+- "com.azure.search.documents.indexes.implementation.models.LexicalTokenizerName.fromString(java.lang.String)"
+- "com.azure.search.documents.indexes.implementation.models.LexicalTokenizerName.values()"
+type: "class"
 metadata: {}
-package: com.azure.search.documents.indexes.implementation.models
+package: "com.azure.search.documents.indexes.implementation.models"
 artifact: com.azure:azure-search-documents:11.0.0

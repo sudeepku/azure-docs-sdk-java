@@ -1,89 +1,38 @@
 ### YamlMime:JavaMember
-uid: com.azure.storage.file.share.ShareServiceClient.listShares*
-fullName: com.azure.storage.file.share.ShareServiceClient.listShares
-name: listShares
-nameWithType: ShareServiceClient.listShares
+uid: "com.azure.storage.file.share.ShareServiceClient.listShares*"
+fullName: "com.azure.storage.file.share.ShareServiceClient.listShares"
+name: "listShares"
+nameWithType: "ShareServiceClient.listShares"
 members:
-- uid: com.azure.storage.file.share.ShareServiceClient.listShares()
-  fullName: com.azure.storage.file.share.ShareServiceClient.listShares()
-  name: listShares()
-  nameWithType: ShareServiceClient.listShares()
-  summary: |-
-    Lists all shares in the storage account without their metadata or snapshots.
-
-     <p><strong>Code Samples</strong></p>
-
-     <p>List all shares in the account</p>
-
-     <pre>
-     fileServiceClient.listShares&#40;&#41;.forEach&#40;
-         shareItem -&gt; System.out.printf&#40;&quot;Share %s exists in the account&quot;, shareItem.getName&#40;&#41;&#41;
-     &#41;;
-     </pre>
-
-     <p>For more information, see the
-     <a href="https://docs.microsoft.com/en-us/rest/api/storageservices/list-shares">Azure Docs</a>.</p>
-  syntax: public PagedIterable<ShareItem> listShares()
+- uid: "com.azure.storage.file.share.ShareServiceClient.listShares()"
+  fullName: "com.azure.storage.file.share.ShareServiceClient.listShares()"
+  name: "listShares()"
+  nameWithType: "ShareServiceClient.listShares()"
+  summary: "Lists all shares in the storage account without their metadata or snapshots.\n\n <p><strong>Code Samples</strong></p>\n\n <p>List all shares in the account</p>\n\n <pre>\n fileServiceClient.listShares&#40;&#41;.forEach&#40;\n     shareItem -&gt; System.out.printf&#40;&quot;Share %s exists in the account&quot;, shareItem.getName&#40;&#41;&#41;\n &#41;;\n </pre>\n\n <p>For more information, see the\n <a href=\"https://docs.microsoft.com/en-us/rest/api/storageservices/list-shares\">Azure Docs</a>.</p>"
+  syntax: "public PagedIterable<ShareItem> listShares()"
   returns:
-    description: <xref uid="com.azure.storage.file.share.models.ShareItem" data-throw-if-not-resolved="false">Shares</xref> in the storage account without their metadata or snapshots
-    type: <xref href="com.azure.core.http.rest.PagedIterable?alt=com.azure.core.http.rest.PagedIterable&text=PagedIterable" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.storage.file.share.models.ShareItem?alt=com.azure.storage.file.share.models.ShareItem&text=ShareItem" data-throw-if-not-resolved="False" />&gt;
-- uid: com.azure.storage.file.share.ShareServiceClient.listShares(com.azure.storage.file.share.models.ListSharesOptions,java.time.Duration,com.azure.core.util.Context)
-  fullName: com.azure.storage.file.share.ShareServiceClient.listShares(ListSharesOptions options, Duration timeout, Context context)
-  name: listShares(ListSharesOptions options, Duration timeout, Context context)
-  nameWithType: ShareServiceClient.listShares(ListSharesOptions options, Duration timeout, Context context)
-  summary: |-
-    Lists the shares in the Storage account that pass the options filter.
-
-     <p>Set starts with name filter using <xref uid="ListSharesOptions#setPrefix(String)" data-throw-if-not-resolved="false">prefix</xref> to filter shares that
-     are
-     listed.</p>
-
-     <p>Pass true to <xref uid="ListSharesOptions#setIncludeMetadata(boolean)" data-throw-if-not-resolved="false">includeMetadata</xref> to have metadata returned
-     for
-     the shares.</p>
-
-     <p>Pass true to <xref uid="ListSharesOptions#setIncludeSnapshots(boolean)" data-throw-if-not-resolved="false">includeSnapshots</xref> to have snapshots of the
-     shares listed.</p>
-
-     <p><strong>Code Samples</strong></p>
-
-     <p>List all shares that begin with "azure"</p>
-
-     <pre>
-     fileServiceClient.listShares&#40;new ListSharesOptions&#40;&#41;.setPrefix&#40;&quot;azure&quot;&#41;, Duration.ofSeconds&#40;1&#41;,
-         new Context&#40;key1, value1&#41;&#41;.forEach&#40;
-             shareItem -&gt; System.out.printf&#40;&quot;Share %s exists in the account&quot;, shareItem.getName&#40;&#41;&#41;
-     &#41;;
-     </pre>
-
-     <p>List all shares including their snapshots and metadata</p>
-
-     <pre>
-     fileServiceClient.listShares&#40;new ListSharesOptions&#40;&#41;.setIncludeMetadata&#40;true&#41;
-         .setIncludeSnapshots&#40;true&#41;, Duration.ofSeconds&#40;1&#41;, new Context&#40;key1, value1&#41;&#41;.forEach&#40;
-             shareItem -&gt; System.out.printf&#40;&quot;Share %s exists in the account&quot;, shareItem.getName&#40;&#41;&#41;
-     &#41;;
-     </pre>
-
-     <p>For more information, see the
-     <a href="https://docs.microsoft.com/en-us/rest/api/storageservices/list-shares">Azure Docs</a>.</p>
+    description: "<xref uid=\"com.azure.storage.file.share.models.ShareItem\" data-throw-if-not-resolved=\"false\">Shares</xref> in the storage account without their metadata or snapshots"
+    type: "<xref href=\"com.azure.core.http.rest.PagedIterable?alt=com.azure.core.http.rest.PagedIterable&text=PagedIterable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.storage.file.share.models.ShareItem?alt=com.azure.storage.file.share.models.ShareItem&text=ShareItem\" data-throw-if-not-resolved=\"False\" />&gt;"
+- uid: "com.azure.storage.file.share.ShareServiceClient.listShares(com.azure.storage.file.share.models.ListSharesOptions,java.time.Duration,com.azure.core.util.Context)"
+  fullName: "com.azure.storage.file.share.ShareServiceClient.listShares(ListSharesOptions options, Duration timeout, Context context)"
+  name: "listShares(ListSharesOptions options, Duration timeout, Context context)"
+  nameWithType: "ShareServiceClient.listShares(ListSharesOptions options, Duration timeout, Context context)"
+  summary: "Lists the shares in the Storage account that pass the options filter.\n\n <p>Set starts with name filter using <xref uid=\"ListSharesOptions#setPrefix(String)\" data-throw-if-not-resolved=\"false\">prefix</xref> to filter shares that\n are\n listed.</p>\n\n <p>Pass true to <xref uid=\"ListSharesOptions#setIncludeMetadata(boolean)\" data-throw-if-not-resolved=\"false\">includeMetadata</xref> to have metadata returned\n for\n the shares.</p>\n\n <p>Pass true to <xref uid=\"ListSharesOptions#setIncludeSnapshots(boolean)\" data-throw-if-not-resolved=\"false\">includeSnapshots</xref> to have snapshots of the\n shares listed.</p>\n\n <p><strong>Code Samples</strong></p>\n\n <p>List all shares that begin with \"azure\"</p>\n\n <pre>\n fileServiceClient.listShares&#40;new ListSharesOptions&#40;&#41;.setPrefix&#40;&quot;azure&quot;&#41;, Duration.ofSeconds&#40;1&#41;,\n     new Context&#40;key1, value1&#41;&#41;.forEach&#40;\n         shareItem -&gt; System.out.printf&#40;&quot;Share %s exists in the account&quot;, shareItem.getName&#40;&#41;&#41;\n &#41;;\n </pre>\n\n <p>List all shares including their snapshots and metadata</p>\n\n <pre>\n fileServiceClient.listShares&#40;new ListSharesOptions&#40;&#41;.setIncludeMetadata&#40;true&#41;\n     .setIncludeSnapshots&#40;true&#41;, Duration.ofSeconds&#40;1&#41;, new Context&#40;key1, value1&#41;&#41;.forEach&#40;\n         shareItem -&gt; System.out.printf&#40;&quot;Share %s exists in the account&quot;, shareItem.getName&#40;&#41;&#41;\n &#41;;\n </pre>\n\n <p>For more information, see the\n <a href=\"https://docs.microsoft.com/en-us/rest/api/storageservices/list-shares\">Azure Docs</a>.</p>"
   parameters:
-  - description: Options for listing shares
-    name: options
-    type: <xref href="com.azure.storage.file.share.models.ListSharesOptions?alt=com.azure.storage.file.share.models.ListSharesOptions&text=ListSharesOptions" data-throw-if-not-resolved="False" />
-  - description: |-
-      An optional timeout applied to the operation. If a response is not returned before the timeout
-       concludes a <xref uid="" data-throw-if-not-resolved="false">RuntimeException</xref> will be thrown.
-    name: timeout
-    type: <xref href="java.time.Duration?alt=java.time.Duration&text=Duration" data-throw-if-not-resolved="False" />
-  - description: Additional context that is passed through the Http pipeline during the service call.
-    name: context
-    type: <xref href="com.azure.core.util.Context?alt=com.azure.core.util.Context&text=Context" data-throw-if-not-resolved="False" />
-  syntax: public PagedIterable<ShareItem> listShares(ListSharesOptions options, Duration timeout, Context context)
+  - description: "Options for listing shares"
+    name: "options"
+    type: "<xref href=\"com.azure.storage.file.share.models.ListSharesOptions?alt=com.azure.storage.file.share.models.ListSharesOptions&text=ListSharesOptions\" data-throw-if-not-resolved=\"False\" />"
+  - description: "An optional timeout applied to the operation. If a response is not returned before the timeout\n concludes a <xref uid=\"\" data-throw-if-not-resolved=\"false\">RuntimeException</xref> will be thrown."
+    name: "timeout"
+    type: "<xref href=\"java.time.Duration?alt=java.time.Duration&text=Duration\" data-throw-if-not-resolved=\"False\" />"
+  - description: "Additional context that is passed through the Http pipeline during the service call."
+    name: "context"
+    type: "<xref href=\"com.azure.core.util.Context?alt=com.azure.core.util.Context&text=Context\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public PagedIterable<ShareItem> listShares(ListSharesOptions options, Duration timeout, Context context)"
   returns:
-    description: <xref uid="com.azure.storage.file.share.models.ShareItem" data-throw-if-not-resolved="false">Shares</xref> in the storage account that satisfy the filter requirements
-    type: <xref href="com.azure.core.http.rest.PagedIterable?alt=com.azure.core.http.rest.PagedIterable&text=PagedIterable" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.storage.file.share.models.ShareItem?alt=com.azure.storage.file.share.models.ShareItem&text=ShareItem" data-throw-if-not-resolved="False" />&gt;
-type: method
+    description: "<xref uid=\"com.azure.storage.file.share.models.ShareItem\" data-throw-if-not-resolved=\"false\">Shares</xref> in the storage account that satisfy the filter requirements"
+    type: "<xref href=\"com.azure.core.http.rest.PagedIterable?alt=com.azure.core.http.rest.PagedIterable&text=PagedIterable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.storage.file.share.models.ShareItem?alt=com.azure.storage.file.share.models.ShareItem&text=ShareItem\" data-throw-if-not-resolved=\"False\" />&gt;"
+type: "method"
 metadata: {}
-package: com.azure.storage.file.share
+package: "com.azure.storage.file.share"
 artifact: com.azure:azure-storage-file-share:12.6.0-beta.1

@@ -1,39 +1,39 @@
 ### YamlMime:JavaType
-uid: com.azure.resourcemanager.containerservice.ContainerServiceManagementClient
-fullName: com.azure.resourcemanager.containerservice.ContainerServiceManagementClient
-name: ContainerServiceManagementClient
-nameWithType: ContainerServiceManagementClient
-summary: Initializes a new instance of the ContainerServiceManagementClient type.
+uid: "com.azure.resourcemanager.containerservice.ContainerServiceManagementClient"
+fullName: "com.azure.resourcemanager.containerservice.ContainerServiceManagementClient"
+name: "ContainerServiceManagementClient"
+nameWithType: "ContainerServiceManagementClient"
+summary: "Initializes a new instance of the ContainerServiceManagementClient type."
 inheritances:
-- <xref href="java.lang.Object" data-throw-if-not-resolved="False" />
-- <xref href="com.azure.resourcemanager.AzureServiceClient" data-throw-if-not-resolved="False" />
+- "<xref href=\"java.lang.Object\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.azure.resourcemanager.AzureServiceClient\" data-throw-if-not-resolved=\"False\" />"
 inheritedMembers:
-- com.azure.resourcemanager.AzureServiceClient.<T,U>getLroResultAsync(reactor.core.publisher.Mono<? extends com.azure.core.http.rest.Response<reactor.core.publisher.Flux<java.nio.ByteBuffer>>>,com.azure.core.http.HttpPipeline,java.lang.reflect.Type,java.lang.reflect.Type)
-- com.azure.resourcemanager.AzureServiceClient.getContext()
-- com.azure.resourcemanager.AzureServiceClient.getSerializerAdapter()
-- com.azure.resourcemanager.AzureServiceClient.userAgent()
-- java.lang.Object.clone()
-- java.lang.Object.equals(java.lang.Object)
-- java.lang.Object.finalize()
-- java.lang.Object.getClass()
-- java.lang.Object.hashCode()
-- java.lang.Object.notify()
-- java.lang.Object.notifyAll()
-- java.lang.Object.toString()
-- java.lang.Object.wait()
-- java.lang.Object.wait(long)
-- java.lang.Object.wait(long,int)
-syntax: public final class ContainerServiceManagementClient extends AzureServiceClient
+- "com.azure.resourcemanager.AzureServiceClient.<T,U>getLroResultAsync(reactor.core.publisher.Mono<? extends com.azure.core.http.rest.Response<reactor.core.publisher.Flux<java.nio.ByteBuffer>>>,com.azure.core.http.HttpPipeline,java.lang.reflect.Type,java.lang.reflect.Type)"
+- "com.azure.resourcemanager.AzureServiceClient.getContext()"
+- "com.azure.resourcemanager.AzureServiceClient.getSerializerAdapter()"
+- "com.azure.resourcemanager.AzureServiceClient.userAgent()"
+- "java.lang.Object.clone()"
+- "java.lang.Object.equals(java.lang.Object)"
+- "java.lang.Object.finalize()"
+- "java.lang.Object.getClass()"
+- "java.lang.Object.hashCode()"
+- "java.lang.Object.notify()"
+- "java.lang.Object.notifyAll()"
+- "java.lang.Object.toString()"
+- "java.lang.Object.wait()"
+- "java.lang.Object.wait(long)"
+- "java.lang.Object.wait(long,int)"
+syntax: "public final class ContainerServiceManagementClient extends AzureServiceClient"
 methods:
-- com.azure.resourcemanager.containerservice.ContainerServiceManagementClient.getAgentPools()
-- com.azure.resourcemanager.containerservice.ContainerServiceManagementClient.getContainerServices()
-- com.azure.resourcemanager.containerservice.ContainerServiceManagementClient.getEndpoint()
-- com.azure.resourcemanager.containerservice.ContainerServiceManagementClient.getHttpPipeline()
-- com.azure.resourcemanager.containerservice.ContainerServiceManagementClient.getManagedClusters()
-- com.azure.resourcemanager.containerservice.ContainerServiceManagementClient.getOpenShiftManagedClusters()
-- com.azure.resourcemanager.containerservice.ContainerServiceManagementClient.getOperations()
-- com.azure.resourcemanager.containerservice.ContainerServiceManagementClient.getSubscriptionId()
-type: class
+- "com.azure.resourcemanager.containerservice.ContainerServiceManagementClient.getAgentPools()"
+- "com.azure.resourcemanager.containerservice.ContainerServiceManagementClient.getContainerServices()"
+- "com.azure.resourcemanager.containerservice.ContainerServiceManagementClient.getEndpoint()"
+- "com.azure.resourcemanager.containerservice.ContainerServiceManagementClient.getHttpPipeline()"
+- "com.azure.resourcemanager.containerservice.ContainerServiceManagementClient.getManagedClusters()"
+- "com.azure.resourcemanager.containerservice.ContainerServiceManagementClient.getOpenShiftManagedClusters()"
+- "com.azure.resourcemanager.containerservice.ContainerServiceManagementClient.getOperations()"
+- "com.azure.resourcemanager.containerservice.ContainerServiceManagementClient.getSubscriptionId()"
+type: "class"
 metadata: {}
-package: com.azure.resourcemanager.containerservice
+package: "com.azure.resourcemanager.containerservice"
 artifact: com.azure.resourcemanager:azure-resourcemanager-containerservice:2.0.0-beta.2

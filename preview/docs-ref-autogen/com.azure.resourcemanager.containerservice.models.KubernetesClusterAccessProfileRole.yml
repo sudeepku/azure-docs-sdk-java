@@ -1,36 +1,36 @@
 ### YamlMime:JavaType
-uid: com.azure.resourcemanager.containerservice.models.KubernetesClusterAccessProfileRole
-fullName: com.azure.resourcemanager.containerservice.models.KubernetesClusterAccessProfileRole
-name: KubernetesClusterAccessProfileRole
-nameWithType: KubernetesClusterAccessProfileRole
-summary: Defines values for Kubernetes cluster access profile roles.
+uid: "com.azure.resourcemanager.containerservice.models.KubernetesClusterAccessProfileRole"
+fullName: "com.azure.resourcemanager.containerservice.models.KubernetesClusterAccessProfileRole"
+name: "KubernetesClusterAccessProfileRole"
+nameWithType: "KubernetesClusterAccessProfileRole"
+summary: "Defines values for Kubernetes cluster access profile roles."
 inheritances:
-- <xref href="java.lang.Object" data-throw-if-not-resolved="False" />
-- <xref href="com.azure.core.util.ExpandableStringEnum" data-throw-if-not-resolved="False" />
+- "<xref href=\"java.lang.Object\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.azure.core.util.ExpandableStringEnum\" data-throw-if-not-resolved=\"False\" />"
 inheritedMembers:
-- com.azure.core.util.ExpandableStringEnum.<T>fromString(java.lang.String,java.lang.Class<T>)
-- com.azure.core.util.ExpandableStringEnum.<T>values(java.lang.Class<T>)
-- com.azure.core.util.ExpandableStringEnum.equals(java.lang.Object)
-- com.azure.core.util.ExpandableStringEnum.hashCode()
-- com.azure.core.util.ExpandableStringEnum.toString()
-- java.lang.Object.clone()
-- java.lang.Object.finalize()
-- java.lang.Object.getClass()
-- java.lang.Object.notify()
-- java.lang.Object.notifyAll()
-- java.lang.Object.wait()
-- java.lang.Object.wait(long)
-- java.lang.Object.wait(long,int)
-syntax: public final class KubernetesClusterAccessProfileRole extends ExpandableStringEnum<KubernetesClusterAccessProfileRole>
+- "com.azure.core.util.ExpandableStringEnum.<T>fromString(java.lang.String,java.lang.Class<T>)"
+- "com.azure.core.util.ExpandableStringEnum.<T>values(java.lang.Class<T>)"
+- "com.azure.core.util.ExpandableStringEnum.equals(java.lang.Object)"
+- "com.azure.core.util.ExpandableStringEnum.hashCode()"
+- "com.azure.core.util.ExpandableStringEnum.toString()"
+- "java.lang.Object.clone()"
+- "java.lang.Object.finalize()"
+- "java.lang.Object.getClass()"
+- "java.lang.Object.notify()"
+- "java.lang.Object.notifyAll()"
+- "java.lang.Object.wait()"
+- "java.lang.Object.wait(long)"
+- "java.lang.Object.wait(long,int)"
+syntax: "public final class KubernetesClusterAccessProfileRole extends ExpandableStringEnum<KubernetesClusterAccessProfileRole>"
 constructors:
-- com.azure.resourcemanager.containerservice.models.KubernetesClusterAccessProfileRole.KubernetesClusterAccessProfileRole()
+- "com.azure.resourcemanager.containerservice.models.KubernetesClusterAccessProfileRole.KubernetesClusterAccessProfileRole()"
 fields:
-- com.azure.resourcemanager.containerservice.models.KubernetesClusterAccessProfileRole.ADMIN
-- com.azure.resourcemanager.containerservice.models.KubernetesClusterAccessProfileRole.USER
+- "com.azure.resourcemanager.containerservice.models.KubernetesClusterAccessProfileRole.ADMIN"
+- "com.azure.resourcemanager.containerservice.models.KubernetesClusterAccessProfileRole.USER"
 methods:
-- com.azure.resourcemanager.containerservice.models.KubernetesClusterAccessProfileRole.fromString(java.lang.String)
-- com.azure.resourcemanager.containerservice.models.KubernetesClusterAccessProfileRole.values()
-type: class
+- "com.azure.resourcemanager.containerservice.models.KubernetesClusterAccessProfileRole.fromString(java.lang.String)"
+- "com.azure.resourcemanager.containerservice.models.KubernetesClusterAccessProfileRole.values()"
+type: "class"
 metadata: {}
-package: com.azure.resourcemanager.containerservice.models
+package: "com.azure.resourcemanager.containerservice.models"
 artifact: com.azure.resourcemanager:azure-resourcemanager-containerservice:2.0.0-beta.2

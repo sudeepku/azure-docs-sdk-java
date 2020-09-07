@@ -1,33 +1,23 @@
 ### YamlMime:JavaMember
-uid: com.azure.search.documents.indexes.SearchIndexAsyncClient.deleteSynonymMap*
-fullName: com.azure.search.documents.indexes.SearchIndexAsyncClient.deleteSynonymMap
-name: deleteSynonymMap
-nameWithType: SearchIndexAsyncClient.deleteSynonymMap
+uid: "com.azure.search.documents.indexes.SearchIndexAsyncClient.deleteSynonymMap*"
+fullName: "com.azure.search.documents.indexes.SearchIndexAsyncClient.deleteSynonymMap"
+name: "deleteSynonymMap"
+nameWithType: "SearchIndexAsyncClient.deleteSynonymMap"
 members:
-- uid: com.azure.search.documents.indexes.SearchIndexAsyncClient.deleteSynonymMap(java.lang.String)
-  fullName: com.azure.search.documents.indexes.SearchIndexAsyncClient.deleteSynonymMap(String synonymMapName)
-  name: deleteSynonymMap(String synonymMapName)
-  nameWithType: SearchIndexAsyncClient.deleteSynonymMap(String synonymMapName)
-  summary: |-
-    Deletes an Azure Cognitive Search synonym map.
-
-     <p><strong>Code Sample</strong></p>
-
-     <p> Delete synonym map with name "synonymMap". </p>
-
-     <pre>
-     searchIndexAsyncClient.deleteSynonymMap&#40;&quot;synonymMap&quot;&#41;
-         .subscribe&#40;&#41;;
-     </pre>
+- uid: "com.azure.search.documents.indexes.SearchIndexAsyncClient.deleteSynonymMap(java.lang.String)"
+  fullName: "com.azure.search.documents.indexes.SearchIndexAsyncClient.deleteSynonymMap(String synonymMapName)"
+  name: "deleteSynonymMap(String synonymMapName)"
+  nameWithType: "SearchIndexAsyncClient.deleteSynonymMap(String synonymMapName)"
+  summary: "Deletes an Azure Cognitive Search synonym map.\n\n <p><strong>Code Sample</strong></p>\n\n <p> Delete synonym map with name \"synonymMap\". </p>\n\n <pre>\n searchIndexAsyncClient.deleteSynonymMap&#40;&quot;synonymMap&quot;&#41;\n     .subscribe&#40;&#41;;\n </pre>"
   parameters:
-  - description: the name of the <xref uid="com.azure.search.documents.indexes.models.SynonymMap" data-throw-if-not-resolved="false">SynonymMap</xref> to delete
-    name: synonymMapName
-    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
-  syntax: public Mono<Void> deleteSynonymMap(String synonymMapName)
+  - description: "the name of the <xref uid=\"com.azure.search.documents.indexes.models.SynonymMap\" data-throw-if-not-resolved=\"false\">SynonymMap</xref> to delete"
+    name: "synonymMapName"
+    type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public Mono<Void> deleteSynonymMap(String synonymMapName)"
   returns:
-    description: a response signalling completion.
-    type: <xref href="reactor.core.publisher.Mono?alt=reactor.core.publisher.Mono&text=Mono" data-throw-if-not-resolved="False" />&lt;<xref href="java.lang.Void?alt=java.lang.Void&text=Void" data-throw-if-not-resolved="False" />&gt;
-type: method
+    description: "a response signalling completion."
+    type: "<xref href=\"reactor.core.publisher.Mono?alt=reactor.core.publisher.Mono&text=Mono\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"java.lang.Void?alt=java.lang.Void&text=Void\" data-throw-if-not-resolved=\"False\" />&gt;"
+type: "method"
 metadata: {}
-package: com.azure.search.documents.indexes
+package: "com.azure.search.documents.indexes"
 artifact: com.azure:azure-search-documents:11.1.0-beta.1

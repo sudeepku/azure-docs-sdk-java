@@ -1,40 +1,40 @@
 ### YamlMime:JavaType
-uid: com.azure.resourcemanager.sql.fluent.RestorableDroppedDatabasesClient
-fullName: com.azure.resourcemanager.sql.fluent.RestorableDroppedDatabasesClient
-name: RestorableDroppedDatabasesClient
-nameWithType: RestorableDroppedDatabasesClient
-summary: An instance of this class provides access to all the operations defined in RestorableDroppedDatabases.
+uid: "com.azure.resourcemanager.sql.fluent.RestorableDroppedDatabasesClient"
+fullName: "com.azure.resourcemanager.sql.fluent.RestorableDroppedDatabasesClient"
+name: "RestorableDroppedDatabasesClient"
+nameWithType: "RestorableDroppedDatabasesClient"
+summary: "An instance of this class provides access to all the operations defined in RestorableDroppedDatabases."
 inheritances:
-- <xref href="java.lang.Object" data-throw-if-not-resolved="False" />
+- "<xref href=\"java.lang.Object\" data-throw-if-not-resolved=\"False\" />"
 inheritedMembers:
-- java.lang.Object.clone()
-- java.lang.Object.equals(java.lang.Object)
-- java.lang.Object.finalize()
-- java.lang.Object.getClass()
-- java.lang.Object.hashCode()
-- java.lang.Object.notify()
-- java.lang.Object.notifyAll()
-- java.lang.Object.toString()
-- java.lang.Object.wait()
-- java.lang.Object.wait(long)
-- java.lang.Object.wait(long,int)
-syntax: public final class RestorableDroppedDatabasesClient
+- "java.lang.Object.clone()"
+- "java.lang.Object.equals(java.lang.Object)"
+- "java.lang.Object.finalize()"
+- "java.lang.Object.getClass()"
+- "java.lang.Object.hashCode()"
+- "java.lang.Object.notify()"
+- "java.lang.Object.notifyAll()"
+- "java.lang.Object.toString()"
+- "java.lang.Object.wait()"
+- "java.lang.Object.wait(long)"
+- "java.lang.Object.wait(long,int)"
+syntax: "public final class RestorableDroppedDatabasesClient"
 constructors:
-- com.azure.resourcemanager.sql.fluent.RestorableDroppedDatabasesClient.RestorableDroppedDatabasesClient(com.azure.resourcemanager.sql.SqlManagementClient)
+- "com.azure.resourcemanager.sql.fluent.RestorableDroppedDatabasesClient.RestorableDroppedDatabasesClient(com.azure.resourcemanager.sql.SqlManagementClient)"
 methods:
-- com.azure.resourcemanager.sql.fluent.RestorableDroppedDatabasesClient.get(java.lang.String,java.lang.String,java.lang.String)
-- com.azure.resourcemanager.sql.fluent.RestorableDroppedDatabasesClient.get(java.lang.String,java.lang.String,java.lang.String,com.azure.core.util.Context)
-- com.azure.resourcemanager.sql.fluent.RestorableDroppedDatabasesClient.getAsync(java.lang.String,java.lang.String,java.lang.String)
-- com.azure.resourcemanager.sql.fluent.RestorableDroppedDatabasesClient.getAsync(java.lang.String,java.lang.String,java.lang.String,com.azure.core.util.Context)
-- com.azure.resourcemanager.sql.fluent.RestorableDroppedDatabasesClient.getWithResponseAsync(java.lang.String,java.lang.String,java.lang.String)
-- com.azure.resourcemanager.sql.fluent.RestorableDroppedDatabasesClient.getWithResponseAsync(java.lang.String,java.lang.String,java.lang.String,com.azure.core.util.Context)
-- com.azure.resourcemanager.sql.fluent.RestorableDroppedDatabasesClient.listByServer(java.lang.String,java.lang.String)
-- com.azure.resourcemanager.sql.fluent.RestorableDroppedDatabasesClient.listByServer(java.lang.String,java.lang.String,com.azure.core.util.Context)
-- com.azure.resourcemanager.sql.fluent.RestorableDroppedDatabasesClient.listByServerAsync(java.lang.String,java.lang.String)
-- com.azure.resourcemanager.sql.fluent.RestorableDroppedDatabasesClient.listByServerAsync(java.lang.String,java.lang.String,com.azure.core.util.Context)
-- com.azure.resourcemanager.sql.fluent.RestorableDroppedDatabasesClient.listByServerSinglePageAsync(java.lang.String,java.lang.String)
-- com.azure.resourcemanager.sql.fluent.RestorableDroppedDatabasesClient.listByServerSinglePageAsync(java.lang.String,java.lang.String,com.azure.core.util.Context)
-type: class
+- "com.azure.resourcemanager.sql.fluent.RestorableDroppedDatabasesClient.get(java.lang.String,java.lang.String,java.lang.String)"
+- "com.azure.resourcemanager.sql.fluent.RestorableDroppedDatabasesClient.get(java.lang.String,java.lang.String,java.lang.String,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.sql.fluent.RestorableDroppedDatabasesClient.getAsync(java.lang.String,java.lang.String,java.lang.String)"
+- "com.azure.resourcemanager.sql.fluent.RestorableDroppedDatabasesClient.getAsync(java.lang.String,java.lang.String,java.lang.String,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.sql.fluent.RestorableDroppedDatabasesClient.getWithResponseAsync(java.lang.String,java.lang.String,java.lang.String)"
+- "com.azure.resourcemanager.sql.fluent.RestorableDroppedDatabasesClient.getWithResponseAsync(java.lang.String,java.lang.String,java.lang.String,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.sql.fluent.RestorableDroppedDatabasesClient.listByServer(java.lang.String,java.lang.String)"
+- "com.azure.resourcemanager.sql.fluent.RestorableDroppedDatabasesClient.listByServer(java.lang.String,java.lang.String,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.sql.fluent.RestorableDroppedDatabasesClient.listByServerAsync(java.lang.String,java.lang.String)"
+- "com.azure.resourcemanager.sql.fluent.RestorableDroppedDatabasesClient.listByServerAsync(java.lang.String,java.lang.String,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.sql.fluent.RestorableDroppedDatabasesClient.listByServerSinglePageAsync(java.lang.String,java.lang.String)"
+- "com.azure.resourcemanager.sql.fluent.RestorableDroppedDatabasesClient.listByServerSinglePageAsync(java.lang.String,java.lang.String,com.azure.core.util.Context)"
+type: "class"
 metadata: {}
-package: com.azure.resourcemanager.sql.fluent
+package: "com.azure.resourcemanager.sql.fluent"
 artifact: com.azure.resourcemanager:azure-resourcemanager-sql:2.0.0-beta.2

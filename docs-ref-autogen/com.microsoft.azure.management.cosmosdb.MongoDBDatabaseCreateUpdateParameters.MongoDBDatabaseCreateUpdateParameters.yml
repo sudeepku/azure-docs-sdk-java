@@ -1,15 +1,15 @@
 ### YamlMime:JavaMember
-uid: com.microsoft.azure.management.cosmosdb.MongoDBDatabaseCreateUpdateParameters.MongoDBDatabaseCreateUpdateParameters*
-fullName: com.microsoft.azure.management.cosmosdb.MongoDBDatabaseCreateUpdateParameters.MongoDBDatabaseCreateUpdateParameters
-name: MongoDBDatabaseCreateUpdateParameters
-nameWithType: MongoDBDatabaseCreateUpdateParameters.MongoDBDatabaseCreateUpdateParameters
+uid: "com.microsoft.azure.management.cosmosdb.MongoDBDatabaseCreateUpdateParameters.MongoDBDatabaseCreateUpdateParameters*"
+fullName: "com.microsoft.azure.management.cosmosdb.MongoDBDatabaseCreateUpdateParameters.MongoDBDatabaseCreateUpdateParameters"
+name: "MongoDBDatabaseCreateUpdateParameters"
+nameWithType: "MongoDBDatabaseCreateUpdateParameters.MongoDBDatabaseCreateUpdateParameters"
 members:
-- uid: com.microsoft.azure.management.cosmosdb.MongoDBDatabaseCreateUpdateParameters.MongoDBDatabaseCreateUpdateParameters()
-  fullName: com.microsoft.azure.management.cosmosdb.MongoDBDatabaseCreateUpdateParameters.MongoDBDatabaseCreateUpdateParameters()
-  name: MongoDBDatabaseCreateUpdateParameters()
-  nameWithType: MongoDBDatabaseCreateUpdateParameters.MongoDBDatabaseCreateUpdateParameters()
-  syntax: public MongoDBDatabaseCreateUpdateParameters()
-type: constructor
+- uid: "com.microsoft.azure.management.cosmosdb.MongoDBDatabaseCreateUpdateParameters.MongoDBDatabaseCreateUpdateParameters()"
+  fullName: "com.microsoft.azure.management.cosmosdb.MongoDBDatabaseCreateUpdateParameters.MongoDBDatabaseCreateUpdateParameters()"
+  name: "MongoDBDatabaseCreateUpdateParameters()"
+  nameWithType: "MongoDBDatabaseCreateUpdateParameters.MongoDBDatabaseCreateUpdateParameters()"
+  syntax: "public MongoDBDatabaseCreateUpdateParameters()"
+type: "constructor"
 metadata: {}
-package: com.microsoft.azure.management.cosmosdb
-artifact: com.microsoft.azure:azure-mgmt-cosmosdb:1.36.1
+package: "com.microsoft.azure.management.cosmosdb"
+artifact: com.microsoft.azure:azure-mgmt-cosmosdb:1.36.2

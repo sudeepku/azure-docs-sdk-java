@@ -1,54 +1,54 @@
 ### YamlMime:JavaType
-uid: com.azure.resourcemanager.sql.fluent.JobTargetExecutionsClient
-fullName: com.azure.resourcemanager.sql.fluent.JobTargetExecutionsClient
-name: JobTargetExecutionsClient
-nameWithType: JobTargetExecutionsClient
-summary: An instance of this class provides access to all the operations defined in JobTargetExecutions.
+uid: "com.azure.resourcemanager.sql.fluent.JobTargetExecutionsClient"
+fullName: "com.azure.resourcemanager.sql.fluent.JobTargetExecutionsClient"
+name: "JobTargetExecutionsClient"
+nameWithType: "JobTargetExecutionsClient"
+summary: "An instance of this class provides access to all the operations defined in JobTargetExecutions."
 inheritances:
-- <xref href="java.lang.Object" data-throw-if-not-resolved="False" />
+- "<xref href=\"java.lang.Object\" data-throw-if-not-resolved=\"False\" />"
 inheritedMembers:
-- java.lang.Object.clone()
-- java.lang.Object.equals(java.lang.Object)
-- java.lang.Object.finalize()
-- java.lang.Object.getClass()
-- java.lang.Object.hashCode()
-- java.lang.Object.notify()
-- java.lang.Object.notifyAll()
-- java.lang.Object.toString()
-- java.lang.Object.wait()
-- java.lang.Object.wait(long)
-- java.lang.Object.wait(long,int)
-syntax: public final class JobTargetExecutionsClient
+- "java.lang.Object.clone()"
+- "java.lang.Object.equals(java.lang.Object)"
+- "java.lang.Object.finalize()"
+- "java.lang.Object.getClass()"
+- "java.lang.Object.hashCode()"
+- "java.lang.Object.notify()"
+- "java.lang.Object.notifyAll()"
+- "java.lang.Object.toString()"
+- "java.lang.Object.wait()"
+- "java.lang.Object.wait(long)"
+- "java.lang.Object.wait(long,int)"
+syntax: "public final class JobTargetExecutionsClient"
 constructors:
-- com.azure.resourcemanager.sql.fluent.JobTargetExecutionsClient.JobTargetExecutionsClient(com.azure.resourcemanager.sql.SqlManagementClient)
+- "com.azure.resourcemanager.sql.fluent.JobTargetExecutionsClient.JobTargetExecutionsClient(com.azure.resourcemanager.sql.SqlManagementClient)"
 methods:
-- com.azure.resourcemanager.sql.fluent.JobTargetExecutionsClient.get(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.util.UUID,java.lang.String,java.util.UUID)
-- com.azure.resourcemanager.sql.fluent.JobTargetExecutionsClient.get(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.util.UUID,java.lang.String,java.util.UUID,com.azure.core.util.Context)
-- com.azure.resourcemanager.sql.fluent.JobTargetExecutionsClient.getAsync(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.util.UUID,java.lang.String,java.util.UUID)
-- com.azure.resourcemanager.sql.fluent.JobTargetExecutionsClient.getAsync(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.util.UUID,java.lang.String,java.util.UUID,com.azure.core.util.Context)
-- com.azure.resourcemanager.sql.fluent.JobTargetExecutionsClient.getWithResponseAsync(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.util.UUID,java.lang.String,java.util.UUID)
-- com.azure.resourcemanager.sql.fluent.JobTargetExecutionsClient.getWithResponseAsync(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.util.UUID,java.lang.String,java.util.UUID,com.azure.core.util.Context)
-- com.azure.resourcemanager.sql.fluent.JobTargetExecutionsClient.listByJobExecution(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.util.UUID)
-- com.azure.resourcemanager.sql.fluent.JobTargetExecutionsClient.listByJobExecution(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.util.UUID,java.time.OffsetDateTime,java.time.OffsetDateTime,java.time.OffsetDateTime,java.time.OffsetDateTime,java.lang.Boolean,java.lang.Integer,java.lang.Integer)
-- com.azure.resourcemanager.sql.fluent.JobTargetExecutionsClient.listByJobExecution(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.util.UUID,java.time.OffsetDateTime,java.time.OffsetDateTime,java.time.OffsetDateTime,java.time.OffsetDateTime,java.lang.Boolean,java.lang.Integer,java.lang.Integer,com.azure.core.util.Context)
-- com.azure.resourcemanager.sql.fluent.JobTargetExecutionsClient.listByJobExecutionAsync(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.util.UUID)
-- com.azure.resourcemanager.sql.fluent.JobTargetExecutionsClient.listByJobExecutionAsync(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.util.UUID,java.time.OffsetDateTime,java.time.OffsetDateTime,java.time.OffsetDateTime,java.time.OffsetDateTime,java.lang.Boolean,java.lang.Integer,java.lang.Integer)
-- com.azure.resourcemanager.sql.fluent.JobTargetExecutionsClient.listByJobExecutionAsync(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.util.UUID,java.time.OffsetDateTime,java.time.OffsetDateTime,java.time.OffsetDateTime,java.time.OffsetDateTime,java.lang.Boolean,java.lang.Integer,java.lang.Integer,com.azure.core.util.Context)
-- com.azure.resourcemanager.sql.fluent.JobTargetExecutionsClient.listByJobExecutionNextSinglePageAsync(java.lang.String)
-- com.azure.resourcemanager.sql.fluent.JobTargetExecutionsClient.listByJobExecutionNextSinglePageAsync(java.lang.String,com.azure.core.util.Context)
-- com.azure.resourcemanager.sql.fluent.JobTargetExecutionsClient.listByJobExecutionSinglePageAsync(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.util.UUID,java.time.OffsetDateTime,java.time.OffsetDateTime,java.time.OffsetDateTime,java.time.OffsetDateTime,java.lang.Boolean,java.lang.Integer,java.lang.Integer)
-- com.azure.resourcemanager.sql.fluent.JobTargetExecutionsClient.listByJobExecutionSinglePageAsync(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.util.UUID,java.time.OffsetDateTime,java.time.OffsetDateTime,java.time.OffsetDateTime,java.time.OffsetDateTime,java.lang.Boolean,java.lang.Integer,java.lang.Integer,com.azure.core.util.Context)
-- com.azure.resourcemanager.sql.fluent.JobTargetExecutionsClient.listByStep(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.util.UUID,java.lang.String)
-- com.azure.resourcemanager.sql.fluent.JobTargetExecutionsClient.listByStep(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.util.UUID,java.lang.String,java.time.OffsetDateTime,java.time.OffsetDateTime,java.time.OffsetDateTime,java.time.OffsetDateTime,java.lang.Boolean,java.lang.Integer,java.lang.Integer)
-- com.azure.resourcemanager.sql.fluent.JobTargetExecutionsClient.listByStep(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.util.UUID,java.lang.String,java.time.OffsetDateTime,java.time.OffsetDateTime,java.time.OffsetDateTime,java.time.OffsetDateTime,java.lang.Boolean,java.lang.Integer,java.lang.Integer,com.azure.core.util.Context)
-- com.azure.resourcemanager.sql.fluent.JobTargetExecutionsClient.listByStepAsync(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.util.UUID,java.lang.String)
-- com.azure.resourcemanager.sql.fluent.JobTargetExecutionsClient.listByStepAsync(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.util.UUID,java.lang.String,java.time.OffsetDateTime,java.time.OffsetDateTime,java.time.OffsetDateTime,java.time.OffsetDateTime,java.lang.Boolean,java.lang.Integer,java.lang.Integer)
-- com.azure.resourcemanager.sql.fluent.JobTargetExecutionsClient.listByStepAsync(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.util.UUID,java.lang.String,java.time.OffsetDateTime,java.time.OffsetDateTime,java.time.OffsetDateTime,java.time.OffsetDateTime,java.lang.Boolean,java.lang.Integer,java.lang.Integer,com.azure.core.util.Context)
-- com.azure.resourcemanager.sql.fluent.JobTargetExecutionsClient.listByStepNextSinglePageAsync(java.lang.String)
-- com.azure.resourcemanager.sql.fluent.JobTargetExecutionsClient.listByStepNextSinglePageAsync(java.lang.String,com.azure.core.util.Context)
-- com.azure.resourcemanager.sql.fluent.JobTargetExecutionsClient.listByStepSinglePageAsync(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.util.UUID,java.lang.String,java.time.OffsetDateTime,java.time.OffsetDateTime,java.time.OffsetDateTime,java.time.OffsetDateTime,java.lang.Boolean,java.lang.Integer,java.lang.Integer)
-- com.azure.resourcemanager.sql.fluent.JobTargetExecutionsClient.listByStepSinglePageAsync(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.util.UUID,java.lang.String,java.time.OffsetDateTime,java.time.OffsetDateTime,java.time.OffsetDateTime,java.time.OffsetDateTime,java.lang.Boolean,java.lang.Integer,java.lang.Integer,com.azure.core.util.Context)
-type: class
+- "com.azure.resourcemanager.sql.fluent.JobTargetExecutionsClient.get(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.util.UUID,java.lang.String,java.util.UUID)"
+- "com.azure.resourcemanager.sql.fluent.JobTargetExecutionsClient.get(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.util.UUID,java.lang.String,java.util.UUID,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.sql.fluent.JobTargetExecutionsClient.getAsync(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.util.UUID,java.lang.String,java.util.UUID)"
+- "com.azure.resourcemanager.sql.fluent.JobTargetExecutionsClient.getAsync(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.util.UUID,java.lang.String,java.util.UUID,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.sql.fluent.JobTargetExecutionsClient.getWithResponseAsync(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.util.UUID,java.lang.String,java.util.UUID)"
+- "com.azure.resourcemanager.sql.fluent.JobTargetExecutionsClient.getWithResponseAsync(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.util.UUID,java.lang.String,java.util.UUID,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.sql.fluent.JobTargetExecutionsClient.listByJobExecution(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.util.UUID)"
+- "com.azure.resourcemanager.sql.fluent.JobTargetExecutionsClient.listByJobExecution(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.util.UUID,java.time.OffsetDateTime,java.time.OffsetDateTime,java.time.OffsetDateTime,java.time.OffsetDateTime,java.lang.Boolean,java.lang.Integer,java.lang.Integer)"
+- "com.azure.resourcemanager.sql.fluent.JobTargetExecutionsClient.listByJobExecution(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.util.UUID,java.time.OffsetDateTime,java.time.OffsetDateTime,java.time.OffsetDateTime,java.time.OffsetDateTime,java.lang.Boolean,java.lang.Integer,java.lang.Integer,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.sql.fluent.JobTargetExecutionsClient.listByJobExecutionAsync(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.util.UUID)"
+- "com.azure.resourcemanager.sql.fluent.JobTargetExecutionsClient.listByJobExecutionAsync(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.util.UUID,java.time.OffsetDateTime,java.time.OffsetDateTime,java.time.OffsetDateTime,java.time.OffsetDateTime,java.lang.Boolean,java.lang.Integer,java.lang.Integer)"
+- "com.azure.resourcemanager.sql.fluent.JobTargetExecutionsClient.listByJobExecutionAsync(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.util.UUID,java.time.OffsetDateTime,java.time.OffsetDateTime,java.time.OffsetDateTime,java.time.OffsetDateTime,java.lang.Boolean,java.lang.Integer,java.lang.Integer,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.sql.fluent.JobTargetExecutionsClient.listByJobExecutionNextSinglePageAsync(java.lang.String)"
+- "com.azure.resourcemanager.sql.fluent.JobTargetExecutionsClient.listByJobExecutionNextSinglePageAsync(java.lang.String,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.sql.fluent.JobTargetExecutionsClient.listByJobExecutionSinglePageAsync(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.util.UUID,java.time.OffsetDateTime,java.time.OffsetDateTime,java.time.OffsetDateTime,java.time.OffsetDateTime,java.lang.Boolean,java.lang.Integer,java.lang.Integer)"
+- "com.azure.resourcemanager.sql.fluent.JobTargetExecutionsClient.listByJobExecutionSinglePageAsync(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.util.UUID,java.time.OffsetDateTime,java.time.OffsetDateTime,java.time.OffsetDateTime,java.time.OffsetDateTime,java.lang.Boolean,java.lang.Integer,java.lang.Integer,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.sql.fluent.JobTargetExecutionsClient.listByStep(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.util.UUID,java.lang.String)"
+- "com.azure.resourcemanager.sql.fluent.JobTargetExecutionsClient.listByStep(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.util.UUID,java.lang.String,java.time.OffsetDateTime,java.time.OffsetDateTime,java.time.OffsetDateTime,java.time.OffsetDateTime,java.lang.Boolean,java.lang.Integer,java.lang.Integer)"
+- "com.azure.resourcemanager.sql.fluent.JobTargetExecutionsClient.listByStep(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.util.UUID,java.lang.String,java.time.OffsetDateTime,java.time.OffsetDateTime,java.time.OffsetDateTime,java.time.OffsetDateTime,java.lang.Boolean,java.lang.Integer,java.lang.Integer,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.sql.fluent.JobTargetExecutionsClient.listByStepAsync(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.util.UUID,java.lang.String)"
+- "com.azure.resourcemanager.sql.fluent.JobTargetExecutionsClient.listByStepAsync(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.util.UUID,java.lang.String,java.time.OffsetDateTime,java.time.OffsetDateTime,java.time.OffsetDateTime,java.time.OffsetDateTime,java.lang.Boolean,java.lang.Integer,java.lang.Integer)"
+- "com.azure.resourcemanager.sql.fluent.JobTargetExecutionsClient.listByStepAsync(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.util.UUID,java.lang.String,java.time.OffsetDateTime,java.time.OffsetDateTime,java.time.OffsetDateTime,java.time.OffsetDateTime,java.lang.Boolean,java.lang.Integer,java.lang.Integer,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.sql.fluent.JobTargetExecutionsClient.listByStepNextSinglePageAsync(java.lang.String)"
+- "com.azure.resourcemanager.sql.fluent.JobTargetExecutionsClient.listByStepNextSinglePageAsync(java.lang.String,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.sql.fluent.JobTargetExecutionsClient.listByStepSinglePageAsync(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.util.UUID,java.lang.String,java.time.OffsetDateTime,java.time.OffsetDateTime,java.time.OffsetDateTime,java.time.OffsetDateTime,java.lang.Boolean,java.lang.Integer,java.lang.Integer)"
+- "com.azure.resourcemanager.sql.fluent.JobTargetExecutionsClient.listByStepSinglePageAsync(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.util.UUID,java.lang.String,java.time.OffsetDateTime,java.time.OffsetDateTime,java.time.OffsetDateTime,java.time.OffsetDateTime,java.lang.Boolean,java.lang.Integer,java.lang.Integer,com.azure.core.util.Context)"
+type: "class"
 metadata: {}
-package: com.azure.resourcemanager.sql.fluent
+package: "com.azure.resourcemanager.sql.fluent"
 artifact: com.azure.resourcemanager:azure-resourcemanager-sql:2.0.0-beta.2

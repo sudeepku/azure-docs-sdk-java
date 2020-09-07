@@ -1,62 +1,62 @@
 ### YamlMime:JavaType
-uid: com.azure.resourcemanager.monitor.fluent.inner.ActionGroupResourceInner
-fullName: com.azure.resourcemanager.monitor.fluent.inner.ActionGroupResourceInner
-name: ActionGroupResourceInner
-nameWithType: ActionGroupResourceInner
-summary: The ActionGroupResource model.
+uid: "com.azure.resourcemanager.monitor.fluent.inner.ActionGroupResourceInner"
+fullName: "com.azure.resourcemanager.monitor.fluent.inner.ActionGroupResourceInner"
+name: "ActionGroupResourceInner"
+nameWithType: "ActionGroupResourceInner"
+summary: "The ActionGroupResource model."
 inheritances:
-- <xref href="java.lang.Object" data-throw-if-not-resolved="False" />
-- <xref href="com.azure.core.management.ProxyResource" data-throw-if-not-resolved="False" />
-- <xref href="com.azure.core.management.Resource" data-throw-if-not-resolved="False" />
+- "<xref href=\"java.lang.Object\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.azure.core.management.ProxyResource\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.azure.core.management.Resource\" data-throw-if-not-resolved=\"False\" />"
 inheritedMembers:
-- com.azure.core.management.ProxyResource.id()
-- com.azure.core.management.ProxyResource.name()
-- com.azure.core.management.ProxyResource.type()
-- com.azure.core.management.Resource.location()
-- com.azure.core.management.Resource.tags()
-- com.azure.core.management.Resource.withLocation(java.lang.String)
-- com.azure.core.management.Resource.withTags(java.util.Map<java.lang.String,java.lang.String>)
-- java.lang.Object.clone()
-- java.lang.Object.equals(java.lang.Object)
-- java.lang.Object.finalize()
-- java.lang.Object.getClass()
-- java.lang.Object.hashCode()
-- java.lang.Object.notify()
-- java.lang.Object.notifyAll()
-- java.lang.Object.toString()
-- java.lang.Object.wait()
-- java.lang.Object.wait(long)
-- java.lang.Object.wait(long,int)
-syntax: public class ActionGroupResourceInner extends Resource
+- "com.azure.core.management.ProxyResource.id()"
+- "com.azure.core.management.ProxyResource.name()"
+- "com.azure.core.management.ProxyResource.type()"
+- "com.azure.core.management.Resource.location()"
+- "com.azure.core.management.Resource.tags()"
+- "com.azure.core.management.Resource.withLocation(java.lang.String)"
+- "com.azure.core.management.Resource.withTags(java.util.Map<java.lang.String,java.lang.String>)"
+- "java.lang.Object.clone()"
+- "java.lang.Object.equals(java.lang.Object)"
+- "java.lang.Object.finalize()"
+- "java.lang.Object.getClass()"
+- "java.lang.Object.hashCode()"
+- "java.lang.Object.notify()"
+- "java.lang.Object.notifyAll()"
+- "java.lang.Object.toString()"
+- "java.lang.Object.wait()"
+- "java.lang.Object.wait(long)"
+- "java.lang.Object.wait(long,int)"
+syntax: "public class ActionGroupResourceInner extends Resource"
 constructors:
-- com.azure.resourcemanager.monitor.fluent.inner.ActionGroupResourceInner.ActionGroupResourceInner()
+- "com.azure.resourcemanager.monitor.fluent.inner.ActionGroupResourceInner.ActionGroupResourceInner()"
 methods:
-- com.azure.resourcemanager.monitor.fluent.inner.ActionGroupResourceInner.armRoleReceivers()
-- com.azure.resourcemanager.monitor.fluent.inner.ActionGroupResourceInner.automationRunbookReceivers()
-- com.azure.resourcemanager.monitor.fluent.inner.ActionGroupResourceInner.azureAppPushReceivers()
-- com.azure.resourcemanager.monitor.fluent.inner.ActionGroupResourceInner.azureFunctionReceivers()
-- com.azure.resourcemanager.monitor.fluent.inner.ActionGroupResourceInner.emailReceivers()
-- com.azure.resourcemanager.monitor.fluent.inner.ActionGroupResourceInner.enabled()
-- com.azure.resourcemanager.monitor.fluent.inner.ActionGroupResourceInner.groupShortName()
-- com.azure.resourcemanager.monitor.fluent.inner.ActionGroupResourceInner.itsmReceivers()
-- com.azure.resourcemanager.monitor.fluent.inner.ActionGroupResourceInner.logicAppReceivers()
-- com.azure.resourcemanager.monitor.fluent.inner.ActionGroupResourceInner.smsReceivers()
-- com.azure.resourcemanager.monitor.fluent.inner.ActionGroupResourceInner.validate()
-- com.azure.resourcemanager.monitor.fluent.inner.ActionGroupResourceInner.voiceReceivers()
-- com.azure.resourcemanager.monitor.fluent.inner.ActionGroupResourceInner.webhookReceivers()
-- com.azure.resourcemanager.monitor.fluent.inner.ActionGroupResourceInner.withArmRoleReceivers(java.util.List<com.azure.resourcemanager.monitor.models.ArmRoleReceiver>)
-- com.azure.resourcemanager.monitor.fluent.inner.ActionGroupResourceInner.withAutomationRunbookReceivers(java.util.List<com.azure.resourcemanager.monitor.models.AutomationRunbookReceiver>)
-- com.azure.resourcemanager.monitor.fluent.inner.ActionGroupResourceInner.withAzureAppPushReceivers(java.util.List<com.azure.resourcemanager.monitor.models.AzureAppPushReceiver>)
-- com.azure.resourcemanager.monitor.fluent.inner.ActionGroupResourceInner.withAzureFunctionReceivers(java.util.List<com.azure.resourcemanager.monitor.models.AzureFunctionReceiver>)
-- com.azure.resourcemanager.monitor.fluent.inner.ActionGroupResourceInner.withEmailReceivers(java.util.List<com.azure.resourcemanager.monitor.models.EmailReceiver>)
-- com.azure.resourcemanager.monitor.fluent.inner.ActionGroupResourceInner.withEnabled(java.lang.Boolean)
-- com.azure.resourcemanager.monitor.fluent.inner.ActionGroupResourceInner.withGroupShortName(java.lang.String)
-- com.azure.resourcemanager.monitor.fluent.inner.ActionGroupResourceInner.withItsmReceivers(java.util.List<com.azure.resourcemanager.monitor.models.ItsmReceiver>)
-- com.azure.resourcemanager.monitor.fluent.inner.ActionGroupResourceInner.withLogicAppReceivers(java.util.List<com.azure.resourcemanager.monitor.models.LogicAppReceiver>)
-- com.azure.resourcemanager.monitor.fluent.inner.ActionGroupResourceInner.withSmsReceivers(java.util.List<com.azure.resourcemanager.monitor.models.SmsReceiver>)
-- com.azure.resourcemanager.monitor.fluent.inner.ActionGroupResourceInner.withVoiceReceivers(java.util.List<com.azure.resourcemanager.monitor.models.VoiceReceiver>)
-- com.azure.resourcemanager.monitor.fluent.inner.ActionGroupResourceInner.withWebhookReceivers(java.util.List<com.azure.resourcemanager.monitor.models.WebhookReceiver>)
-type: class
+- "com.azure.resourcemanager.monitor.fluent.inner.ActionGroupResourceInner.armRoleReceivers()"
+- "com.azure.resourcemanager.monitor.fluent.inner.ActionGroupResourceInner.automationRunbookReceivers()"
+- "com.azure.resourcemanager.monitor.fluent.inner.ActionGroupResourceInner.azureAppPushReceivers()"
+- "com.azure.resourcemanager.monitor.fluent.inner.ActionGroupResourceInner.azureFunctionReceivers()"
+- "com.azure.resourcemanager.monitor.fluent.inner.ActionGroupResourceInner.emailReceivers()"
+- "com.azure.resourcemanager.monitor.fluent.inner.ActionGroupResourceInner.enabled()"
+- "com.azure.resourcemanager.monitor.fluent.inner.ActionGroupResourceInner.groupShortName()"
+- "com.azure.resourcemanager.monitor.fluent.inner.ActionGroupResourceInner.itsmReceivers()"
+- "com.azure.resourcemanager.monitor.fluent.inner.ActionGroupResourceInner.logicAppReceivers()"
+- "com.azure.resourcemanager.monitor.fluent.inner.ActionGroupResourceInner.smsReceivers()"
+- "com.azure.resourcemanager.monitor.fluent.inner.ActionGroupResourceInner.validate()"
+- "com.azure.resourcemanager.monitor.fluent.inner.ActionGroupResourceInner.voiceReceivers()"
+- "com.azure.resourcemanager.monitor.fluent.inner.ActionGroupResourceInner.webhookReceivers()"
+- "com.azure.resourcemanager.monitor.fluent.inner.ActionGroupResourceInner.withArmRoleReceivers(java.util.List<com.azure.resourcemanager.monitor.models.ArmRoleReceiver>)"
+- "com.azure.resourcemanager.monitor.fluent.inner.ActionGroupResourceInner.withAutomationRunbookReceivers(java.util.List<com.azure.resourcemanager.monitor.models.AutomationRunbookReceiver>)"
+- "com.azure.resourcemanager.monitor.fluent.inner.ActionGroupResourceInner.withAzureAppPushReceivers(java.util.List<com.azure.resourcemanager.monitor.models.AzureAppPushReceiver>)"
+- "com.azure.resourcemanager.monitor.fluent.inner.ActionGroupResourceInner.withAzureFunctionReceivers(java.util.List<com.azure.resourcemanager.monitor.models.AzureFunctionReceiver>)"
+- "com.azure.resourcemanager.monitor.fluent.inner.ActionGroupResourceInner.withEmailReceivers(java.util.List<com.azure.resourcemanager.monitor.models.EmailReceiver>)"
+- "com.azure.resourcemanager.monitor.fluent.inner.ActionGroupResourceInner.withEnabled(java.lang.Boolean)"
+- "com.azure.resourcemanager.monitor.fluent.inner.ActionGroupResourceInner.withGroupShortName(java.lang.String)"
+- "com.azure.resourcemanager.monitor.fluent.inner.ActionGroupResourceInner.withItsmReceivers(java.util.List<com.azure.resourcemanager.monitor.models.ItsmReceiver>)"
+- "com.azure.resourcemanager.monitor.fluent.inner.ActionGroupResourceInner.withLogicAppReceivers(java.util.List<com.azure.resourcemanager.monitor.models.LogicAppReceiver>)"
+- "com.azure.resourcemanager.monitor.fluent.inner.ActionGroupResourceInner.withSmsReceivers(java.util.List<com.azure.resourcemanager.monitor.models.SmsReceiver>)"
+- "com.azure.resourcemanager.monitor.fluent.inner.ActionGroupResourceInner.withVoiceReceivers(java.util.List<com.azure.resourcemanager.monitor.models.VoiceReceiver>)"
+- "com.azure.resourcemanager.monitor.fluent.inner.ActionGroupResourceInner.withWebhookReceivers(java.util.List<com.azure.resourcemanager.monitor.models.WebhookReceiver>)"
+type: "class"
 metadata: {}
-package: com.azure.resourcemanager.monitor.fluent.inner
+package: "com.azure.resourcemanager.monitor.fluent.inner"
 artifact: com.azure.resourcemanager:azure-resourcemanager-monitor:2.0.0-beta.2

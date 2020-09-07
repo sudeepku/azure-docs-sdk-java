@@ -1,36 +1,36 @@
 ### YamlMime:JavaType
-uid: com.azure.resourcemanager.authorization.fluent.ObjectsClient
-fullName: com.azure.resourcemanager.authorization.fluent.ObjectsClient
-name: ObjectsClient
-nameWithType: ObjectsClient
-summary: An instance of this class provides access to all the operations defined in Objects.
+uid: "com.azure.resourcemanager.authorization.fluent.ObjectsClient"
+fullName: "com.azure.resourcemanager.authorization.fluent.ObjectsClient"
+name: "ObjectsClient"
+nameWithType: "ObjectsClient"
+summary: "An instance of this class provides access to all the operations defined in Objects."
 inheritances:
-- <xref href="java.lang.Object" data-throw-if-not-resolved="False" />
+- "<xref href=\"java.lang.Object\" data-throw-if-not-resolved=\"False\" />"
 inheritedMembers:
-- java.lang.Object.clone()
-- java.lang.Object.equals(java.lang.Object)
-- java.lang.Object.finalize()
-- java.lang.Object.getClass()
-- java.lang.Object.hashCode()
-- java.lang.Object.notify()
-- java.lang.Object.notifyAll()
-- java.lang.Object.toString()
-- java.lang.Object.wait()
-- java.lang.Object.wait(long)
-- java.lang.Object.wait(long,int)
-syntax: public final class ObjectsClient
+- "java.lang.Object.clone()"
+- "java.lang.Object.equals(java.lang.Object)"
+- "java.lang.Object.finalize()"
+- "java.lang.Object.getClass()"
+- "java.lang.Object.hashCode()"
+- "java.lang.Object.notify()"
+- "java.lang.Object.notifyAll()"
+- "java.lang.Object.toString()"
+- "java.lang.Object.wait()"
+- "java.lang.Object.wait(long)"
+- "java.lang.Object.wait(long,int)"
+syntax: "public final class ObjectsClient"
 constructors:
-- com.azure.resourcemanager.authorization.fluent.ObjectsClient.ObjectsClient(com.azure.resourcemanager.authorization.GraphRbacManagementClient)
+- "com.azure.resourcemanager.authorization.fluent.ObjectsClient.ObjectsClient(com.azure.resourcemanager.authorization.GraphRbacManagementClient)"
 methods:
-- com.azure.resourcemanager.authorization.fluent.ObjectsClient.getObjectsByObjectIds(com.azure.resourcemanager.authorization.models.GetObjectsParameters)
-- com.azure.resourcemanager.authorization.fluent.ObjectsClient.getObjectsByObjectIds(com.azure.resourcemanager.authorization.models.GetObjectsParameters,com.azure.core.util.Context)
-- com.azure.resourcemanager.authorization.fluent.ObjectsClient.getObjectsByObjectIdsAsync(com.azure.resourcemanager.authorization.models.GetObjectsParameters)
-- com.azure.resourcemanager.authorization.fluent.ObjectsClient.getObjectsByObjectIdsAsync(com.azure.resourcemanager.authorization.models.GetObjectsParameters,com.azure.core.util.Context)
-- com.azure.resourcemanager.authorization.fluent.ObjectsClient.getObjectsByObjectIdsNextSinglePageAsync(java.lang.String)
-- com.azure.resourcemanager.authorization.fluent.ObjectsClient.getObjectsByObjectIdsNextSinglePageAsync(java.lang.String,com.azure.core.util.Context)
-- com.azure.resourcemanager.authorization.fluent.ObjectsClient.getObjectsByObjectIdsSinglePageAsync(com.azure.resourcemanager.authorization.models.GetObjectsParameters)
-- com.azure.resourcemanager.authorization.fluent.ObjectsClient.getObjectsByObjectIdsSinglePageAsync(com.azure.resourcemanager.authorization.models.GetObjectsParameters,com.azure.core.util.Context)
-type: class
+- "com.azure.resourcemanager.authorization.fluent.ObjectsClient.getObjectsByObjectIds(com.azure.resourcemanager.authorization.models.GetObjectsParameters)"
+- "com.azure.resourcemanager.authorization.fluent.ObjectsClient.getObjectsByObjectIds(com.azure.resourcemanager.authorization.models.GetObjectsParameters,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.authorization.fluent.ObjectsClient.getObjectsByObjectIdsAsync(com.azure.resourcemanager.authorization.models.GetObjectsParameters)"
+- "com.azure.resourcemanager.authorization.fluent.ObjectsClient.getObjectsByObjectIdsAsync(com.azure.resourcemanager.authorization.models.GetObjectsParameters,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.authorization.fluent.ObjectsClient.getObjectsByObjectIdsNextSinglePageAsync(java.lang.String)"
+- "com.azure.resourcemanager.authorization.fluent.ObjectsClient.getObjectsByObjectIdsNextSinglePageAsync(java.lang.String,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.authorization.fluent.ObjectsClient.getObjectsByObjectIdsSinglePageAsync(com.azure.resourcemanager.authorization.models.GetObjectsParameters)"
+- "com.azure.resourcemanager.authorization.fluent.ObjectsClient.getObjectsByObjectIdsSinglePageAsync(com.azure.resourcemanager.authorization.models.GetObjectsParameters,com.azure.core.util.Context)"
+type: "class"
 metadata: {}
-package: com.azure.resourcemanager.authorization.fluent
+package: "com.azure.resourcemanager.authorization.fluent"
 artifact: com.azure.resourcemanager:azure-resourcemanager-authorization:2.0.0-beta.2

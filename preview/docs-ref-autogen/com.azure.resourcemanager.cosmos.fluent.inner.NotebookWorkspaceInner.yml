@@ -1,37 +1,37 @@
 ### YamlMime:JavaType
-uid: com.azure.resourcemanager.cosmos.fluent.inner.NotebookWorkspaceInner
-fullName: com.azure.resourcemanager.cosmos.fluent.inner.NotebookWorkspaceInner
-name: NotebookWorkspaceInner
-nameWithType: NotebookWorkspaceInner
-summary: The NotebookWorkspace model.
+uid: "com.azure.resourcemanager.cosmos.fluent.inner.NotebookWorkspaceInner"
+fullName: "com.azure.resourcemanager.cosmos.fluent.inner.NotebookWorkspaceInner"
+name: "NotebookWorkspaceInner"
+nameWithType: "NotebookWorkspaceInner"
+summary: "The NotebookWorkspace model."
 inheritances:
-- <xref href="java.lang.Object" data-throw-if-not-resolved="False" />
-- <xref href="com.azure.core.management.ProxyResource" data-throw-if-not-resolved="False" />
-- <xref href="com.azure.resourcemanager.cosmos.models.ArmProxyResource" data-throw-if-not-resolved="False" />
+- "<xref href=\"java.lang.Object\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.azure.core.management.ProxyResource\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.azure.resourcemanager.cosmos.models.ArmProxyResource\" data-throw-if-not-resolved=\"False\" />"
 inheritedMembers:
-- com.azure.core.management.ProxyResource.id()
-- com.azure.core.management.ProxyResource.name()
-- com.azure.core.management.ProxyResource.type()
-- com.azure.resourcemanager.cosmos.models.ArmProxyResource.validate()
-- java.lang.Object.clone()
-- java.lang.Object.equals(java.lang.Object)
-- java.lang.Object.finalize()
-- java.lang.Object.getClass()
-- java.lang.Object.hashCode()
-- java.lang.Object.notify()
-- java.lang.Object.notifyAll()
-- java.lang.Object.toString()
-- java.lang.Object.wait()
-- java.lang.Object.wait(long)
-- java.lang.Object.wait(long,int)
-syntax: public class NotebookWorkspaceInner extends ArmProxyResource
+- "com.azure.core.management.ProxyResource.id()"
+- "com.azure.core.management.ProxyResource.name()"
+- "com.azure.core.management.ProxyResource.type()"
+- "com.azure.resourcemanager.cosmos.models.ArmProxyResource.validate()"
+- "java.lang.Object.clone()"
+- "java.lang.Object.equals(java.lang.Object)"
+- "java.lang.Object.finalize()"
+- "java.lang.Object.getClass()"
+- "java.lang.Object.hashCode()"
+- "java.lang.Object.notify()"
+- "java.lang.Object.notifyAll()"
+- "java.lang.Object.toString()"
+- "java.lang.Object.wait()"
+- "java.lang.Object.wait(long)"
+- "java.lang.Object.wait(long,int)"
+syntax: "public class NotebookWorkspaceInner extends ArmProxyResource"
 constructors:
-- com.azure.resourcemanager.cosmos.fluent.inner.NotebookWorkspaceInner.NotebookWorkspaceInner()
+- "com.azure.resourcemanager.cosmos.fluent.inner.NotebookWorkspaceInner.NotebookWorkspaceInner()"
 methods:
-- com.azure.resourcemanager.cosmos.fluent.inner.NotebookWorkspaceInner.notebookServerEndpoint()
-- com.azure.resourcemanager.cosmos.fluent.inner.NotebookWorkspaceInner.status()
-- com.azure.resourcemanager.cosmos.fluent.inner.NotebookWorkspaceInner.validate()
-type: class
+- "com.azure.resourcemanager.cosmos.fluent.inner.NotebookWorkspaceInner.notebookServerEndpoint()"
+- "com.azure.resourcemanager.cosmos.fluent.inner.NotebookWorkspaceInner.status()"
+- "com.azure.resourcemanager.cosmos.fluent.inner.NotebookWorkspaceInner.validate()"
+type: "class"
 metadata: {}
-package: com.azure.resourcemanager.cosmos.fluent.inner
+package: "com.azure.resourcemanager.cosmos.fluent.inner"
 artifact: com.azure.resourcemanager:azure-resourcemanager-cosmos:2.0.0-beta.2

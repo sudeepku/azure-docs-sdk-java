@@ -1,25 +1,23 @@
 ### YamlMime:JavaMember
-uid: com.azure.storage.file.share.ShareAsyncClient.setAccessPolicyWithResponse*
-fullName: com.azure.storage.file.share.ShareAsyncClient.setAccessPolicyWithResponse
-name: setAccessPolicyWithResponse
-nameWithType: ShareAsyncClient.setAccessPolicyWithResponse
+uid: "com.azure.storage.file.share.ShareAsyncClient.setAccessPolicyWithResponse*"
+fullName: "com.azure.storage.file.share.ShareAsyncClient.setAccessPolicyWithResponse"
+name: "setAccessPolicyWithResponse"
+nameWithType: "ShareAsyncClient.setAccessPolicyWithResponse"
 members:
-- uid: com.azure.storage.file.share.ShareAsyncClient.setAccessPolicyWithResponse(java.util.List<com.azure.storage.file.share.models.ShareSignedIdentifier>)
-  fullName: com.azure.storage.file.share.ShareAsyncClient.setAccessPolicyWithResponse(List<ShareSignedIdentifier> permissions)
-  name: setAccessPolicyWithResponse(List<ShareSignedIdentifier> permissions)
-  nameWithType: ShareAsyncClient.setAccessPolicyWithResponse(List<ShareSignedIdentifier> permissions)
+- uid: "com.azure.storage.file.share.ShareAsyncClient.setAccessPolicyWithResponse(java.util.List<com.azure.storage.file.share.models.ShareSignedIdentifier>)"
+  fullName: "com.azure.storage.file.share.ShareAsyncClient.setAccessPolicyWithResponse(List<ShareSignedIdentifier> permissions)"
+  name: "setAccessPolicyWithResponse(List<ShareSignedIdentifier> permissions)"
+  nameWithType: "ShareAsyncClient.setAccessPolicyWithResponse(List<ShareSignedIdentifier> permissions)"
   summary: "Sets stored access policies for the share.\n\n <p><strong>Code Samples</strong></p>\n\n <p>Set a read only stored access policy</p>\n\n <pre>\n ShareAccessPolicy accessPolicy = new ShareAccessPolicy&#40;&#41;.setPermissions&#40;&quot;r&quot;&#41;\n     .setStartsOn&#40;OffsetDateTime.now&#40;ZoneOffset.UTC&#41;&#41;\n     .setExpiresOn&#40;OffsetDateTime.now&#40;ZoneOffset.UTC&#41;.plusDays&#40;10&#41;&#41;;\n \n ShareSignedIdentifier permission = new ShareSignedIdentifier&#40;&#41;.setId&#40;&quot;mypolicy&quot;&#41;.setAccessPolicy&#40;accessPolicy&#41;;\n shareAsyncClient.setAccessPolicyWithResponse&#40;Collections.singletonList&#40;permission&#41;&#41;\n     .subscribe&#40;response -&gt; System.out.printf&#40;&quot;Setting access policies completed completed with status code %d&quot;,\n         response.getStatusCode&#40;&#41;&#41;&#41;;\n </pre>\n\n <p>For more information, see the\n <a href=\"https://docs.microsoft.com/en-us/rest/api/storageservices/set-share-acl\">Azure Docs</a>.</p>"
   parameters:
-  - description: Access policies to set on the queue
-    name: permissions
-    type: <xref href="java.util.List?alt=java.util.List&text=List" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.storage.file.share.models.ShareSignedIdentifier?alt=com.azure.storage.file.share.models.ShareSignedIdentifier&text=ShareSignedIdentifier" data-throw-if-not-resolved="False" />&gt;
-  syntax: public Mono<Response<ShareInfo>> setAccessPolicyWithResponse(List<ShareSignedIdentifier> permissions)
+  - description: "Access policies to set on the queue"
+    name: "permissions"
+    type: "<xref href=\"java.util.List?alt=java.util.List&text=List\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.storage.file.share.models.ShareSignedIdentifier?alt=com.azure.storage.file.share.models.ShareSignedIdentifier&text=ShareSignedIdentifier\" data-throw-if-not-resolved=\"False\" />&gt;"
+  syntax: "public Mono<Response<ShareInfo>> setAccessPolicyWithResponse(List<ShareSignedIdentifier> permissions)"
   returns:
-    description: |-
-      A response containing the <xref uid="com.azure.storage.file.share.models.ShareInfo" data-throw-if-not-resolved="false">information about the share</xref> with headers and response status
-       code
-    type: <xref href="reactor.core.publisher.Mono?alt=reactor.core.publisher.Mono&text=Mono" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.core.http.rest.Response?alt=com.azure.core.http.rest.Response&text=Response" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.storage.file.share.models.ShareInfo?alt=com.azure.storage.file.share.models.ShareInfo&text=ShareInfo" data-throw-if-not-resolved="False" />&gt;&gt;
-type: method
+    description: "A response containing the <xref uid=\"com.azure.storage.file.share.models.ShareInfo\" data-throw-if-not-resolved=\"false\">information about the share</xref> with headers and response status\n code"
+    type: "<xref href=\"reactor.core.publisher.Mono?alt=reactor.core.publisher.Mono&text=Mono\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.core.http.rest.Response?alt=com.azure.core.http.rest.Response&text=Response\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.storage.file.share.models.ShareInfo?alt=com.azure.storage.file.share.models.ShareInfo&text=ShareInfo\" data-throw-if-not-resolved=\"False\" />&gt;&gt;"
+type: "method"
 metadata: {}
-package: com.azure.storage.file.share
+package: "com.azure.storage.file.share"
 artifact: com.azure:azure-storage-file-share:12.6.0-beta.1

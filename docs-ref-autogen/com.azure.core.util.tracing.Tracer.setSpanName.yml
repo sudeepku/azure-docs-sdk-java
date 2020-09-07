@@ -1,37 +1,26 @@
 ### YamlMime:JavaMember
-uid: com.azure.core.util.tracing.Tracer.setSpanName*
-fullName: com.azure.core.util.tracing.Tracer.setSpanName
-name: setSpanName
-nameWithType: Tracer.setSpanName
+uid: "com.azure.core.util.tracing.Tracer.setSpanName*"
+fullName: "com.azure.core.util.tracing.Tracer.setSpanName"
+name: "setSpanName"
+nameWithType: "Tracer.setSpanName"
 members:
-- uid: com.azure.core.util.tracing.Tracer.setSpanName(java.lang.String,com.azure.core.util.Context)
-  fullName: com.azure.core.util.tracing.Tracer.setSpanName(String spanName, Context context)
-  name: setSpanName(String spanName, Context context)
-  nameWithType: Tracer.setSpanName(String spanName, Context context)
-  summary: |-
-    Sets the name for spans that are created.
-
-     <p><strong>Code samples</strong></p>
-
-     <p>Retrieve the span name of the returned span</p>
-     <pre>
-     &#47;&#47; Sets the span name of the returned span on the context object, with key PARENT_SPAN_KEY
-     String openTelemetrySpanKey = &quot;openTelemetry-span&quot;;
-     Context context = tracer.setSpanName&#40;&quot;test-span-method&quot;, Context.NONE&#41;;
-     System.out.printf&#40;&quot;Span name: %s%n&quot;, context.getData&#40;PARENT_SPAN_KEY&#41;.get&#40;&#41;.toString&#40;&#41;&#41;;
-     </pre>
+- uid: "com.azure.core.util.tracing.Tracer.setSpanName(java.lang.String,com.azure.core.util.Context)"
+  fullName: "com.azure.core.util.tracing.Tracer.setSpanName(String spanName, Context context)"
+  name: "setSpanName(String spanName, Context context)"
+  nameWithType: "Tracer.setSpanName(String spanName, Context context)"
+  summary: "Sets the name for spans that are created.\n\n <p><strong>Code samples</strong></p>\n\n <p>Retrieve the span name of the returned span</p>\n <pre>\n &#47;&#47; Sets the span name of the returned span on the context object, with key PARENT_SPAN_KEY\n String openTelemetrySpanKey = &quot;openTelemetry-span&quot;;\n Context context = tracer.setSpanName&#40;&quot;test-span-method&quot;, Context.NONE&#41;;\n System.out.printf&#40;&quot;Span name: %s%n&quot;, context.getData&#40;PARENT_SPAN_KEY&#41;.get&#40;&#41;.toString&#40;&#41;&#41;;\n </pre>"
   parameters:
-  - description: Name to give the next span.
-    name: spanName
-    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
-  - description: Additional metadata that is passed through the call stack.
-    name: context
-    type: <xref href="com.azure.core.util.Context?alt=com.azure.core.util.Context&text=Context" data-throw-if-not-resolved="False" />
-  syntax: public abstract Context setSpanName(String spanName, Context context)
+  - description: "Name to give the next span."
+    name: "spanName"
+    type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
+  - description: "Additional metadata that is passed through the call stack."
+    name: "context"
+    type: "<xref href=\"com.azure.core.util.Context?alt=com.azure.core.util.Context&text=Context\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public abstract Context setSpanName(String spanName, Context context)"
   returns:
-    description: The updated <xref uid="com.azure.core.util.Context" data-throw-if-not-resolved="false">Context</xref> object containing the name of the returned span.
-    type: <xref href="com.azure.core.util.Context?alt=com.azure.core.util.Context&text=Context" data-throw-if-not-resolved="False" />
-type: method
+    description: "The updated <xref uid=\"com.azure.core.util.Context\" data-throw-if-not-resolved=\"false\">Context</xref> object containing the name of the returned span."
+    type: "<xref href=\"com.azure.core.util.Context?alt=com.azure.core.util.Context&text=Context\" data-throw-if-not-resolved=\"False\" />"
+type: "method"
 metadata: {}
-package: com.azure.core.util.tracing
+package: "com.azure.core.util.tracing"
 artifact: com.azure:azure-core:1.7.0

@@ -1,33 +1,19 @@
 ### YamlMime:JavaMember
-uid: com.azure.storage.blob.BlobContainerAsyncClient.getProperties*
-fullName: com.azure.storage.blob.BlobContainerAsyncClient.getProperties
-name: getProperties
-nameWithType: BlobContainerAsyncClient.getProperties
+uid: "com.azure.storage.blob.BlobContainerAsyncClient.getProperties*"
+fullName: "com.azure.storage.blob.BlobContainerAsyncClient.getProperties"
+name: "getProperties"
+nameWithType: "BlobContainerAsyncClient.getProperties"
 members:
-- uid: com.azure.storage.blob.BlobContainerAsyncClient.getProperties()
-  fullName: com.azure.storage.blob.BlobContainerAsyncClient.getProperties()
-  name: getProperties()
-  nameWithType: BlobContainerAsyncClient.getProperties()
-  summary: |-
-    Returns the container's metadata and system properties. For more information, see the
-     <a href="https://docs.microsoft.com/rest/api/storageservices/get-container-metadata">Azure Docs</a>.
-
-     <p><strong>Code Samples</strong></p>
-
-     <pre>
-     client.getProperties&#40;&#41;.subscribe&#40;response -&gt;
-         System.out.printf&#40;&quot;Public Access Type: %s, Legal Hold? %b, Immutable? %b%n&quot;,
-             response.getBlobPublicAccess&#40;&#41;,
-             response.hasLegalHold&#40;&#41;,
-             response.hasImmutabilityPolicy&#40;&#41;&#41;&#41;;
-     </pre>
-  syntax: public Mono<BlobContainerProperties> getProperties()
+- uid: "com.azure.storage.blob.BlobContainerAsyncClient.getProperties()"
+  fullName: "com.azure.storage.blob.BlobContainerAsyncClient.getProperties()"
+  name: "getProperties()"
+  nameWithType: "BlobContainerAsyncClient.getProperties()"
+  summary: "Returns the container's metadata and system properties. For more information, see the\n <a href=\"https://docs.microsoft.com/rest/api/storageservices/get-container-metadata\">Azure Docs</a>.\n\n <p><strong>Code Samples</strong></p>\n\n <pre>\n client.getProperties&#40;&#41;.subscribe&#40;response -&gt;\n     System.out.printf&#40;&quot;Public Access Type: %s, Legal Hold? %b, Immutable? %b%n&quot;,\n         response.getBlobPublicAccess&#40;&#41;,\n         response.hasLegalHold&#40;&#41;,\n         response.hasImmutabilityPolicy&#40;&#41;&#41;&#41;;\n </pre>"
+  syntax: "public Mono<BlobContainerProperties> getProperties()"
   returns:
-    description: |-
-      A <xref uid="reactor.core.publisher.Mono" data-throw-if-not-resolved="false">Mono</xref> containing a <xref uid="com.azure.core.http.rest.Response" data-throw-if-not-resolved="false">Response</xref> whose <xref uid="com.azure.core.http.rest.Response.getValue*" data-throw-if-not-resolved="false">value</xref> containing the
-       container properties.
-    type: <xref href="reactor.core.publisher.Mono?alt=reactor.core.publisher.Mono&text=Mono" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.storage.blob.models.BlobContainerProperties?alt=com.azure.storage.blob.models.BlobContainerProperties&text=BlobContainerProperties" data-throw-if-not-resolved="False" />&gt;
-type: method
+    description: "A <xref uid=\"reactor.core.publisher.Mono\" data-throw-if-not-resolved=\"false\">Mono</xref> containing a <xref uid=\"com.azure.core.http.rest.Response\" data-throw-if-not-resolved=\"false\">Response</xref> whose <xref uid=\"com.azure.core.http.rest.Response.getValue*\" data-throw-if-not-resolved=\"false\">value</xref> containing the\n container properties."
+    type: "<xref href=\"reactor.core.publisher.Mono?alt=reactor.core.publisher.Mono&text=Mono\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.storage.blob.models.BlobContainerProperties?alt=com.azure.storage.blob.models.BlobContainerProperties&text=BlobContainerProperties\" data-throw-if-not-resolved=\"False\" />&gt;"
+type: "method"
 metadata: {}
-package: com.azure.storage.blob
+package: "com.azure.storage.blob"
 artifact: com.azure:azure-storage-blob:12.8.0

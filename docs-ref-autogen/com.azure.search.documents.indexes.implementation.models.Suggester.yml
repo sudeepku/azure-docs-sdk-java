@@ -1,32 +1,32 @@
 ### YamlMime:JavaType
-uid: com.azure.search.documents.indexes.implementation.models.Suggester
-fullName: com.azure.search.documents.indexes.implementation.models.Suggester
-name: Suggester
-nameWithType: Suggester
-summary: The Suggester model.
+uid: "com.azure.search.documents.indexes.implementation.models.Suggester"
+fullName: "com.azure.search.documents.indexes.implementation.models.Suggester"
+name: "Suggester"
+nameWithType: "Suggester"
+summary: "The Suggester model."
 inheritances:
-- <xref href="java.lang.Object" data-throw-if-not-resolved="False" />
+- "<xref href=\"java.lang.Object\" data-throw-if-not-resolved=\"False\" />"
 inheritedMembers:
-- java.lang.Object.clone()
-- java.lang.Object.equals(java.lang.Object)
-- java.lang.Object.finalize()
-- java.lang.Object.getClass()
-- java.lang.Object.hashCode()
-- java.lang.Object.notify()
-- java.lang.Object.notifyAll()
-- java.lang.Object.toString()
-- java.lang.Object.wait()
-- java.lang.Object.wait(long)
-- java.lang.Object.wait(long,int)
-syntax: public final class Suggester
+- "java.lang.Object.clone()"
+- "java.lang.Object.equals(java.lang.Object)"
+- "java.lang.Object.finalize()"
+- "java.lang.Object.getClass()"
+- "java.lang.Object.hashCode()"
+- "java.lang.Object.notify()"
+- "java.lang.Object.notifyAll()"
+- "java.lang.Object.toString()"
+- "java.lang.Object.wait()"
+- "java.lang.Object.wait(long)"
+- "java.lang.Object.wait(long,int)"
+syntax: "public final class Suggester"
 constructors:
-- com.azure.search.documents.indexes.implementation.models.Suggester.Suggester(java.lang.String,java.lang.String,java.util.List<java.lang.String>)
+- "com.azure.search.documents.indexes.implementation.models.Suggester.Suggester(java.lang.String,java.lang.String,java.util.List<java.lang.String>)"
 methods:
-- com.azure.search.documents.indexes.implementation.models.Suggester.getName()
-- com.azure.search.documents.indexes.implementation.models.Suggester.getSearchMode()
-- com.azure.search.documents.indexes.implementation.models.Suggester.getSourceFields()
-- com.azure.search.documents.indexes.implementation.models.Suggester.validate()
-type: class
+- "com.azure.search.documents.indexes.implementation.models.Suggester.getName()"
+- "com.azure.search.documents.indexes.implementation.models.Suggester.getSearchMode()"
+- "com.azure.search.documents.indexes.implementation.models.Suggester.getSourceFields()"
+- "com.azure.search.documents.indexes.implementation.models.Suggester.validate()"
+type: "class"
 metadata: {}
-package: com.azure.search.documents.indexes.implementation.models
+package: "com.azure.search.documents.indexes.implementation.models"
 artifact: com.azure:azure-search-documents:11.0.0

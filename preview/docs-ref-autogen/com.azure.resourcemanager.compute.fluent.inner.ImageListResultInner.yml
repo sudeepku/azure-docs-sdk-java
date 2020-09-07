@@ -1,33 +1,33 @@
 ### YamlMime:JavaType
-uid: com.azure.resourcemanager.compute.fluent.inner.ImageListResultInner
-fullName: com.azure.resourcemanager.compute.fluent.inner.ImageListResultInner
-name: ImageListResultInner
-nameWithType: ImageListResultInner
-summary: The ImageListResult model.
+uid: "com.azure.resourcemanager.compute.fluent.inner.ImageListResultInner"
+fullName: "com.azure.resourcemanager.compute.fluent.inner.ImageListResultInner"
+name: "ImageListResultInner"
+nameWithType: "ImageListResultInner"
+summary: "The ImageListResult model."
 inheritances:
-- <xref href="java.lang.Object" data-throw-if-not-resolved="False" />
+- "<xref href=\"java.lang.Object\" data-throw-if-not-resolved=\"False\" />"
 inheritedMembers:
-- java.lang.Object.clone()
-- java.lang.Object.equals(java.lang.Object)
-- java.lang.Object.finalize()
-- java.lang.Object.getClass()
-- java.lang.Object.hashCode()
-- java.lang.Object.notify()
-- java.lang.Object.notifyAll()
-- java.lang.Object.toString()
-- java.lang.Object.wait()
-- java.lang.Object.wait(long)
-- java.lang.Object.wait(long,int)
-syntax: public final class ImageListResultInner
+- "java.lang.Object.clone()"
+- "java.lang.Object.equals(java.lang.Object)"
+- "java.lang.Object.finalize()"
+- "java.lang.Object.getClass()"
+- "java.lang.Object.hashCode()"
+- "java.lang.Object.notify()"
+- "java.lang.Object.notifyAll()"
+- "java.lang.Object.toString()"
+- "java.lang.Object.wait()"
+- "java.lang.Object.wait(long)"
+- "java.lang.Object.wait(long,int)"
+syntax: "public final class ImageListResultInner"
 constructors:
-- com.azure.resourcemanager.compute.fluent.inner.ImageListResultInner.ImageListResultInner()
+- "com.azure.resourcemanager.compute.fluent.inner.ImageListResultInner.ImageListResultInner()"
 methods:
-- com.azure.resourcemanager.compute.fluent.inner.ImageListResultInner.nextLink()
-- com.azure.resourcemanager.compute.fluent.inner.ImageListResultInner.validate()
-- com.azure.resourcemanager.compute.fluent.inner.ImageListResultInner.value()
-- com.azure.resourcemanager.compute.fluent.inner.ImageListResultInner.withNextLink(java.lang.String)
-- com.azure.resourcemanager.compute.fluent.inner.ImageListResultInner.withValue(java.util.List<com.azure.resourcemanager.compute.fluent.inner.ImageInner>)
-type: class
+- "com.azure.resourcemanager.compute.fluent.inner.ImageListResultInner.nextLink()"
+- "com.azure.resourcemanager.compute.fluent.inner.ImageListResultInner.validate()"
+- "com.azure.resourcemanager.compute.fluent.inner.ImageListResultInner.value()"
+- "com.azure.resourcemanager.compute.fluent.inner.ImageListResultInner.withNextLink(java.lang.String)"
+- "com.azure.resourcemanager.compute.fluent.inner.ImageListResultInner.withValue(java.util.List<com.azure.resourcemanager.compute.fluent.inner.ImageInner>)"
+type: "class"
 metadata: {}
-package: com.azure.resourcemanager.compute.fluent.inner
+package: "com.azure.resourcemanager.compute.fluent.inner"
 artifact: com.azure.resourcemanager:azure-resourcemanager-compute:2.0.0-beta.2

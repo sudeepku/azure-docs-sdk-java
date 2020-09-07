@@ -1,82 +1,82 @@
 ### YamlMime:JavaType
-uid: com.azure.resourcemanager.sql.fluent.VirtualClustersClient
-fullName: com.azure.resourcemanager.sql.fluent.VirtualClustersClient
-name: VirtualClustersClient
-nameWithType: VirtualClustersClient
-summary: An instance of this class provides access to all the operations defined in VirtualClusters.
+uid: "com.azure.resourcemanager.sql.fluent.VirtualClustersClient"
+fullName: "com.azure.resourcemanager.sql.fluent.VirtualClustersClient"
+name: "VirtualClustersClient"
+nameWithType: "VirtualClustersClient"
+summary: "An instance of this class provides access to all the operations defined in VirtualClusters."
 inheritances:
-- <xref href="java.lang.Object" data-throw-if-not-resolved="False" />
+- "<xref href=\"java.lang.Object\" data-throw-if-not-resolved=\"False\" />"
 inheritedMembers:
-- java.lang.Object.clone()
-- java.lang.Object.equals(java.lang.Object)
-- java.lang.Object.finalize()
-- java.lang.Object.getClass()
-- java.lang.Object.hashCode()
-- java.lang.Object.notify()
-- java.lang.Object.notifyAll()
-- java.lang.Object.toString()
-- java.lang.Object.wait()
-- java.lang.Object.wait(long)
-- java.lang.Object.wait(long,int)
-syntax: public final class VirtualClustersClient implements InnerSupportsGet<VirtualClusterInner>, InnerSupportsListing<VirtualClusterInner>, InnerSupportsDelete<Void>
+- "java.lang.Object.clone()"
+- "java.lang.Object.equals(java.lang.Object)"
+- "java.lang.Object.finalize()"
+- "java.lang.Object.getClass()"
+- "java.lang.Object.hashCode()"
+- "java.lang.Object.notify()"
+- "java.lang.Object.notifyAll()"
+- "java.lang.Object.toString()"
+- "java.lang.Object.wait()"
+- "java.lang.Object.wait(long)"
+- "java.lang.Object.wait(long,int)"
+syntax: "public final class VirtualClustersClient implements InnerSupportsGet<VirtualClusterInner>, InnerSupportsListing<VirtualClusterInner>, InnerSupportsDelete<Void>"
 constructors:
-- com.azure.resourcemanager.sql.fluent.VirtualClustersClient.VirtualClustersClient(com.azure.resourcemanager.sql.SqlManagementClient)
+- "com.azure.resourcemanager.sql.fluent.VirtualClustersClient.VirtualClustersClient(com.azure.resourcemanager.sql.SqlManagementClient)"
 methods:
-- com.azure.resourcemanager.sql.fluent.VirtualClustersClient.beginDelete(java.lang.String,java.lang.String)
-- com.azure.resourcemanager.sql.fluent.VirtualClustersClient.beginDelete(java.lang.String,java.lang.String,com.azure.core.util.Context)
-- com.azure.resourcemanager.sql.fluent.VirtualClustersClient.beginDeleteWithoutPolling(java.lang.String,java.lang.String)
-- com.azure.resourcemanager.sql.fluent.VirtualClustersClient.beginDeleteWithoutPolling(java.lang.String,java.lang.String,com.azure.core.util.Context)
-- com.azure.resourcemanager.sql.fluent.VirtualClustersClient.beginDeleteWithoutPollingAsync(java.lang.String,java.lang.String)
-- com.azure.resourcemanager.sql.fluent.VirtualClustersClient.beginDeleteWithoutPollingAsync(java.lang.String,java.lang.String,com.azure.core.util.Context)
-- com.azure.resourcemanager.sql.fluent.VirtualClustersClient.beginDeleteWithoutPollingWithResponseAsync(java.lang.String,java.lang.String)
-- com.azure.resourcemanager.sql.fluent.VirtualClustersClient.beginDeleteWithoutPollingWithResponseAsync(java.lang.String,java.lang.String,com.azure.core.util.Context)
-- com.azure.resourcemanager.sql.fluent.VirtualClustersClient.beginUpdate(java.lang.String,java.lang.String,com.azure.resourcemanager.sql.models.VirtualClusterUpdate)
-- com.azure.resourcemanager.sql.fluent.VirtualClustersClient.beginUpdate(java.lang.String,java.lang.String,com.azure.resourcemanager.sql.models.VirtualClusterUpdate,com.azure.core.util.Context)
-- com.azure.resourcemanager.sql.fluent.VirtualClustersClient.beginUpdateWithoutPolling(java.lang.String,java.lang.String,com.azure.resourcemanager.sql.models.VirtualClusterUpdate)
-- com.azure.resourcemanager.sql.fluent.VirtualClustersClient.beginUpdateWithoutPolling(java.lang.String,java.lang.String,com.azure.resourcemanager.sql.models.VirtualClusterUpdate,com.azure.core.util.Context)
-- com.azure.resourcemanager.sql.fluent.VirtualClustersClient.beginUpdateWithoutPollingAsync(java.lang.String,java.lang.String,com.azure.resourcemanager.sql.models.VirtualClusterUpdate)
-- com.azure.resourcemanager.sql.fluent.VirtualClustersClient.beginUpdateWithoutPollingAsync(java.lang.String,java.lang.String,com.azure.resourcemanager.sql.models.VirtualClusterUpdate,com.azure.core.util.Context)
-- com.azure.resourcemanager.sql.fluent.VirtualClustersClient.beginUpdateWithoutPollingWithResponseAsync(java.lang.String,java.lang.String,com.azure.resourcemanager.sql.models.VirtualClusterUpdate)
-- com.azure.resourcemanager.sql.fluent.VirtualClustersClient.beginUpdateWithoutPollingWithResponseAsync(java.lang.String,java.lang.String,com.azure.resourcemanager.sql.models.VirtualClusterUpdate,com.azure.core.util.Context)
-- com.azure.resourcemanager.sql.fluent.VirtualClustersClient.delete(java.lang.String,java.lang.String)
-- com.azure.resourcemanager.sql.fluent.VirtualClustersClient.delete(java.lang.String,java.lang.String,com.azure.core.util.Context)
-- com.azure.resourcemanager.sql.fluent.VirtualClustersClient.deleteAsync(java.lang.String,java.lang.String)
-- com.azure.resourcemanager.sql.fluent.VirtualClustersClient.deleteAsync(java.lang.String,java.lang.String,com.azure.core.util.Context)
-- com.azure.resourcemanager.sql.fluent.VirtualClustersClient.deleteWithResponseAsync(java.lang.String,java.lang.String)
-- com.azure.resourcemanager.sql.fluent.VirtualClustersClient.deleteWithResponseAsync(java.lang.String,java.lang.String,com.azure.core.util.Context)
-- com.azure.resourcemanager.sql.fluent.VirtualClustersClient.getByResourceGroup(java.lang.String,java.lang.String)
-- com.azure.resourcemanager.sql.fluent.VirtualClustersClient.getByResourceGroup(java.lang.String,java.lang.String,com.azure.core.util.Context)
-- com.azure.resourcemanager.sql.fluent.VirtualClustersClient.getByResourceGroupAsync(java.lang.String,java.lang.String)
-- com.azure.resourcemanager.sql.fluent.VirtualClustersClient.getByResourceGroupAsync(java.lang.String,java.lang.String,com.azure.core.util.Context)
-- com.azure.resourcemanager.sql.fluent.VirtualClustersClient.getByResourceGroupWithResponseAsync(java.lang.String,java.lang.String)
-- com.azure.resourcemanager.sql.fluent.VirtualClustersClient.getByResourceGroupWithResponseAsync(java.lang.String,java.lang.String,com.azure.core.util.Context)
-- com.azure.resourcemanager.sql.fluent.VirtualClustersClient.list()
-- com.azure.resourcemanager.sql.fluent.VirtualClustersClient.list(com.azure.core.util.Context)
-- com.azure.resourcemanager.sql.fluent.VirtualClustersClient.listAsync()
-- com.azure.resourcemanager.sql.fluent.VirtualClustersClient.listAsync(com.azure.core.util.Context)
-- com.azure.resourcemanager.sql.fluent.VirtualClustersClient.listByResourceGroup(java.lang.String)
-- com.azure.resourcemanager.sql.fluent.VirtualClustersClient.listByResourceGroup(java.lang.String,com.azure.core.util.Context)
-- com.azure.resourcemanager.sql.fluent.VirtualClustersClient.listByResourceGroupAsync(java.lang.String)
-- com.azure.resourcemanager.sql.fluent.VirtualClustersClient.listByResourceGroupAsync(java.lang.String,com.azure.core.util.Context)
-- com.azure.resourcemanager.sql.fluent.VirtualClustersClient.listByResourceGroupNextSinglePageAsync(java.lang.String)
-- com.azure.resourcemanager.sql.fluent.VirtualClustersClient.listByResourceGroupNextSinglePageAsync(java.lang.String,com.azure.core.util.Context)
-- com.azure.resourcemanager.sql.fluent.VirtualClustersClient.listByResourceGroupSinglePageAsync(java.lang.String)
-- com.azure.resourcemanager.sql.fluent.VirtualClustersClient.listByResourceGroupSinglePageAsync(java.lang.String,com.azure.core.util.Context)
-- com.azure.resourcemanager.sql.fluent.VirtualClustersClient.listNextSinglePageAsync(java.lang.String)
-- com.azure.resourcemanager.sql.fluent.VirtualClustersClient.listNextSinglePageAsync(java.lang.String,com.azure.core.util.Context)
-- com.azure.resourcemanager.sql.fluent.VirtualClustersClient.listSinglePageAsync()
-- com.azure.resourcemanager.sql.fluent.VirtualClustersClient.listSinglePageAsync(com.azure.core.util.Context)
-- com.azure.resourcemanager.sql.fluent.VirtualClustersClient.update(java.lang.String,java.lang.String,com.azure.resourcemanager.sql.models.VirtualClusterUpdate)
-- com.azure.resourcemanager.sql.fluent.VirtualClustersClient.update(java.lang.String,java.lang.String,com.azure.resourcemanager.sql.models.VirtualClusterUpdate,com.azure.core.util.Context)
-- com.azure.resourcemanager.sql.fluent.VirtualClustersClient.updateAsync(java.lang.String,java.lang.String,com.azure.resourcemanager.sql.models.VirtualClusterUpdate)
-- com.azure.resourcemanager.sql.fluent.VirtualClustersClient.updateAsync(java.lang.String,java.lang.String,com.azure.resourcemanager.sql.models.VirtualClusterUpdate,com.azure.core.util.Context)
-- com.azure.resourcemanager.sql.fluent.VirtualClustersClient.updateWithResponseAsync(java.lang.String,java.lang.String,com.azure.resourcemanager.sql.models.VirtualClusterUpdate)
-- com.azure.resourcemanager.sql.fluent.VirtualClustersClient.updateWithResponseAsync(java.lang.String,java.lang.String,com.azure.resourcemanager.sql.models.VirtualClusterUpdate,com.azure.core.util.Context)
-type: class
+- "com.azure.resourcemanager.sql.fluent.VirtualClustersClient.beginDelete(java.lang.String,java.lang.String)"
+- "com.azure.resourcemanager.sql.fluent.VirtualClustersClient.beginDelete(java.lang.String,java.lang.String,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.sql.fluent.VirtualClustersClient.beginDeleteWithoutPolling(java.lang.String,java.lang.String)"
+- "com.azure.resourcemanager.sql.fluent.VirtualClustersClient.beginDeleteWithoutPolling(java.lang.String,java.lang.String,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.sql.fluent.VirtualClustersClient.beginDeleteWithoutPollingAsync(java.lang.String,java.lang.String)"
+- "com.azure.resourcemanager.sql.fluent.VirtualClustersClient.beginDeleteWithoutPollingAsync(java.lang.String,java.lang.String,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.sql.fluent.VirtualClustersClient.beginDeleteWithoutPollingWithResponseAsync(java.lang.String,java.lang.String)"
+- "com.azure.resourcemanager.sql.fluent.VirtualClustersClient.beginDeleteWithoutPollingWithResponseAsync(java.lang.String,java.lang.String,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.sql.fluent.VirtualClustersClient.beginUpdate(java.lang.String,java.lang.String,com.azure.resourcemanager.sql.models.VirtualClusterUpdate)"
+- "com.azure.resourcemanager.sql.fluent.VirtualClustersClient.beginUpdate(java.lang.String,java.lang.String,com.azure.resourcemanager.sql.models.VirtualClusterUpdate,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.sql.fluent.VirtualClustersClient.beginUpdateWithoutPolling(java.lang.String,java.lang.String,com.azure.resourcemanager.sql.models.VirtualClusterUpdate)"
+- "com.azure.resourcemanager.sql.fluent.VirtualClustersClient.beginUpdateWithoutPolling(java.lang.String,java.lang.String,com.azure.resourcemanager.sql.models.VirtualClusterUpdate,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.sql.fluent.VirtualClustersClient.beginUpdateWithoutPollingAsync(java.lang.String,java.lang.String,com.azure.resourcemanager.sql.models.VirtualClusterUpdate)"
+- "com.azure.resourcemanager.sql.fluent.VirtualClustersClient.beginUpdateWithoutPollingAsync(java.lang.String,java.lang.String,com.azure.resourcemanager.sql.models.VirtualClusterUpdate,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.sql.fluent.VirtualClustersClient.beginUpdateWithoutPollingWithResponseAsync(java.lang.String,java.lang.String,com.azure.resourcemanager.sql.models.VirtualClusterUpdate)"
+- "com.azure.resourcemanager.sql.fluent.VirtualClustersClient.beginUpdateWithoutPollingWithResponseAsync(java.lang.String,java.lang.String,com.azure.resourcemanager.sql.models.VirtualClusterUpdate,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.sql.fluent.VirtualClustersClient.delete(java.lang.String,java.lang.String)"
+- "com.azure.resourcemanager.sql.fluent.VirtualClustersClient.delete(java.lang.String,java.lang.String,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.sql.fluent.VirtualClustersClient.deleteAsync(java.lang.String,java.lang.String)"
+- "com.azure.resourcemanager.sql.fluent.VirtualClustersClient.deleteAsync(java.lang.String,java.lang.String,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.sql.fluent.VirtualClustersClient.deleteWithResponseAsync(java.lang.String,java.lang.String)"
+- "com.azure.resourcemanager.sql.fluent.VirtualClustersClient.deleteWithResponseAsync(java.lang.String,java.lang.String,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.sql.fluent.VirtualClustersClient.getByResourceGroup(java.lang.String,java.lang.String)"
+- "com.azure.resourcemanager.sql.fluent.VirtualClustersClient.getByResourceGroup(java.lang.String,java.lang.String,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.sql.fluent.VirtualClustersClient.getByResourceGroupAsync(java.lang.String,java.lang.String)"
+- "com.azure.resourcemanager.sql.fluent.VirtualClustersClient.getByResourceGroupAsync(java.lang.String,java.lang.String,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.sql.fluent.VirtualClustersClient.getByResourceGroupWithResponseAsync(java.lang.String,java.lang.String)"
+- "com.azure.resourcemanager.sql.fluent.VirtualClustersClient.getByResourceGroupWithResponseAsync(java.lang.String,java.lang.String,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.sql.fluent.VirtualClustersClient.list()"
+- "com.azure.resourcemanager.sql.fluent.VirtualClustersClient.list(com.azure.core.util.Context)"
+- "com.azure.resourcemanager.sql.fluent.VirtualClustersClient.listAsync()"
+- "com.azure.resourcemanager.sql.fluent.VirtualClustersClient.listAsync(com.azure.core.util.Context)"
+- "com.azure.resourcemanager.sql.fluent.VirtualClustersClient.listByResourceGroup(java.lang.String)"
+- "com.azure.resourcemanager.sql.fluent.VirtualClustersClient.listByResourceGroup(java.lang.String,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.sql.fluent.VirtualClustersClient.listByResourceGroupAsync(java.lang.String)"
+- "com.azure.resourcemanager.sql.fluent.VirtualClustersClient.listByResourceGroupAsync(java.lang.String,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.sql.fluent.VirtualClustersClient.listByResourceGroupNextSinglePageAsync(java.lang.String)"
+- "com.azure.resourcemanager.sql.fluent.VirtualClustersClient.listByResourceGroupNextSinglePageAsync(java.lang.String,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.sql.fluent.VirtualClustersClient.listByResourceGroupSinglePageAsync(java.lang.String)"
+- "com.azure.resourcemanager.sql.fluent.VirtualClustersClient.listByResourceGroupSinglePageAsync(java.lang.String,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.sql.fluent.VirtualClustersClient.listNextSinglePageAsync(java.lang.String)"
+- "com.azure.resourcemanager.sql.fluent.VirtualClustersClient.listNextSinglePageAsync(java.lang.String,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.sql.fluent.VirtualClustersClient.listSinglePageAsync()"
+- "com.azure.resourcemanager.sql.fluent.VirtualClustersClient.listSinglePageAsync(com.azure.core.util.Context)"
+- "com.azure.resourcemanager.sql.fluent.VirtualClustersClient.update(java.lang.String,java.lang.String,com.azure.resourcemanager.sql.models.VirtualClusterUpdate)"
+- "com.azure.resourcemanager.sql.fluent.VirtualClustersClient.update(java.lang.String,java.lang.String,com.azure.resourcemanager.sql.models.VirtualClusterUpdate,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.sql.fluent.VirtualClustersClient.updateAsync(java.lang.String,java.lang.String,com.azure.resourcemanager.sql.models.VirtualClusterUpdate)"
+- "com.azure.resourcemanager.sql.fluent.VirtualClustersClient.updateAsync(java.lang.String,java.lang.String,com.azure.resourcemanager.sql.models.VirtualClusterUpdate,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.sql.fluent.VirtualClustersClient.updateWithResponseAsync(java.lang.String,java.lang.String,com.azure.resourcemanager.sql.models.VirtualClusterUpdate)"
+- "com.azure.resourcemanager.sql.fluent.VirtualClustersClient.updateWithResponseAsync(java.lang.String,java.lang.String,com.azure.resourcemanager.sql.models.VirtualClusterUpdate,com.azure.core.util.Context)"
+type: "class"
 implements:
-- <xref href="com.azure.resourcemanager.resources.fluentcore.collection.InnerSupportsDelete?alt=com.azure.resourcemanager.resources.fluentcore.collection.InnerSupportsDelete&text=InnerSupportsDelete" data-throw-if-not-resolved="False" />&lt;<xref href="java.lang.Void?alt=java.lang.Void&text=Void" data-throw-if-not-resolved="False" />&gt;
-- <xref href="com.azure.resourcemanager.resources.fluentcore.collection.InnerSupportsGet?alt=com.azure.resourcemanager.resources.fluentcore.collection.InnerSupportsGet&text=InnerSupportsGet" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.resourcemanager.sql.fluent.inner.VirtualClusterInner?alt=com.azure.resourcemanager.sql.fluent.inner.VirtualClusterInner&text=VirtualClusterInner" data-throw-if-not-resolved="False" />&gt;
-- <xref href="com.azure.resourcemanager.resources.fluentcore.collection.InnerSupportsListing?alt=com.azure.resourcemanager.resources.fluentcore.collection.InnerSupportsListing&text=InnerSupportsListing" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.resourcemanager.sql.fluent.inner.VirtualClusterInner?alt=com.azure.resourcemanager.sql.fluent.inner.VirtualClusterInner&text=VirtualClusterInner" data-throw-if-not-resolved="False" />&gt;
+- "<xref href=\"com.azure.resourcemanager.resources.fluentcore.collection.InnerSupportsDelete?alt=com.azure.resourcemanager.resources.fluentcore.collection.InnerSupportsDelete&text=InnerSupportsDelete\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"java.lang.Void?alt=java.lang.Void&text=Void\" data-throw-if-not-resolved=\"False\" />&gt;"
+- "<xref href=\"com.azure.resourcemanager.resources.fluentcore.collection.InnerSupportsGet?alt=com.azure.resourcemanager.resources.fluentcore.collection.InnerSupportsGet&text=InnerSupportsGet\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.sql.fluent.inner.VirtualClusterInner?alt=com.azure.resourcemanager.sql.fluent.inner.VirtualClusterInner&text=VirtualClusterInner\" data-throw-if-not-resolved=\"False\" />&gt;"
+- "<xref href=\"com.azure.resourcemanager.resources.fluentcore.collection.InnerSupportsListing?alt=com.azure.resourcemanager.resources.fluentcore.collection.InnerSupportsListing&text=InnerSupportsListing\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.sql.fluent.inner.VirtualClusterInner?alt=com.azure.resourcemanager.sql.fluent.inner.VirtualClusterInner&text=VirtualClusterInner\" data-throw-if-not-resolved=\"False\" />&gt;"
 metadata: {}
-package: com.azure.resourcemanager.sql.fluent
+package: "com.azure.resourcemanager.sql.fluent"
 artifact: com.azure.resourcemanager:azure-resourcemanager-sql:2.0.0-beta.2

@@ -1,30 +1,30 @@
 ### YamlMime:JavaType
-uid: com.azure.resourcemanager.cosmos.fluent.inner.GremlinGraphListResultInner
-fullName: com.azure.resourcemanager.cosmos.fluent.inner.GremlinGraphListResultInner
-name: GremlinGraphListResultInner
-nameWithType: GremlinGraphListResultInner
-summary: The GremlinGraphListResult model.
+uid: "com.azure.resourcemanager.cosmos.fluent.inner.GremlinGraphListResultInner"
+fullName: "com.azure.resourcemanager.cosmos.fluent.inner.GremlinGraphListResultInner"
+name: "GremlinGraphListResultInner"
+nameWithType: "GremlinGraphListResultInner"
+summary: "The GremlinGraphListResult model."
 inheritances:
-- <xref href="java.lang.Object" data-throw-if-not-resolved="False" />
+- "<xref href=\"java.lang.Object\" data-throw-if-not-resolved=\"False\" />"
 inheritedMembers:
-- java.lang.Object.clone()
-- java.lang.Object.equals(java.lang.Object)
-- java.lang.Object.finalize()
-- java.lang.Object.getClass()
-- java.lang.Object.hashCode()
-- java.lang.Object.notify()
-- java.lang.Object.notifyAll()
-- java.lang.Object.toString()
-- java.lang.Object.wait()
-- java.lang.Object.wait(long)
-- java.lang.Object.wait(long,int)
-syntax: public final class GremlinGraphListResultInner
+- "java.lang.Object.clone()"
+- "java.lang.Object.equals(java.lang.Object)"
+- "java.lang.Object.finalize()"
+- "java.lang.Object.getClass()"
+- "java.lang.Object.hashCode()"
+- "java.lang.Object.notify()"
+- "java.lang.Object.notifyAll()"
+- "java.lang.Object.toString()"
+- "java.lang.Object.wait()"
+- "java.lang.Object.wait(long)"
+- "java.lang.Object.wait(long,int)"
+syntax: "public final class GremlinGraphListResultInner"
 constructors:
-- com.azure.resourcemanager.cosmos.fluent.inner.GremlinGraphListResultInner.GremlinGraphListResultInner()
+- "com.azure.resourcemanager.cosmos.fluent.inner.GremlinGraphListResultInner.GremlinGraphListResultInner()"
 methods:
-- com.azure.resourcemanager.cosmos.fluent.inner.GremlinGraphListResultInner.validate()
-- com.azure.resourcemanager.cosmos.fluent.inner.GremlinGraphListResultInner.value()
-type: class
+- "com.azure.resourcemanager.cosmos.fluent.inner.GremlinGraphListResultInner.validate()"
+- "com.azure.resourcemanager.cosmos.fluent.inner.GremlinGraphListResultInner.value()"
+type: "class"
 metadata: {}
-package: com.azure.resourcemanager.cosmos.fluent.inner
+package: "com.azure.resourcemanager.cosmos.fluent.inner"
 artifact: com.azure.resourcemanager:azure-resourcemanager-cosmos:2.0.0-beta.2

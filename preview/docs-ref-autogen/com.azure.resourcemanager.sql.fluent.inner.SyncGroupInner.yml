@@ -1,49 +1,49 @@
 ### YamlMime:JavaType
-uid: com.azure.resourcemanager.sql.fluent.inner.SyncGroupInner
-fullName: com.azure.resourcemanager.sql.fluent.inner.SyncGroupInner
-name: SyncGroupInner
-nameWithType: SyncGroupInner
-summary: The SyncGroup model.
+uid: "com.azure.resourcemanager.sql.fluent.inner.SyncGroupInner"
+fullName: "com.azure.resourcemanager.sql.fluent.inner.SyncGroupInner"
+name: "SyncGroupInner"
+nameWithType: "SyncGroupInner"
+summary: "The SyncGroup model."
 inheritances:
-- <xref href="java.lang.Object" data-throw-if-not-resolved="False" />
-- <xref href="com.azure.core.management.ProxyResource" data-throw-if-not-resolved="False" />
+- "<xref href=\"java.lang.Object\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.azure.core.management.ProxyResource\" data-throw-if-not-resolved=\"False\" />"
 inheritedMembers:
-- com.azure.core.management.ProxyResource.id()
-- com.azure.core.management.ProxyResource.name()
-- com.azure.core.management.ProxyResource.type()
-- java.lang.Object.clone()
-- java.lang.Object.equals(java.lang.Object)
-- java.lang.Object.finalize()
-- java.lang.Object.getClass()
-- java.lang.Object.hashCode()
-- java.lang.Object.notify()
-- java.lang.Object.notifyAll()
-- java.lang.Object.toString()
-- java.lang.Object.wait()
-- java.lang.Object.wait(long)
-- java.lang.Object.wait(long,int)
-syntax: public class SyncGroupInner extends ProxyResource
+- "com.azure.core.management.ProxyResource.id()"
+- "com.azure.core.management.ProxyResource.name()"
+- "com.azure.core.management.ProxyResource.type()"
+- "java.lang.Object.clone()"
+- "java.lang.Object.equals(java.lang.Object)"
+- "java.lang.Object.finalize()"
+- "java.lang.Object.getClass()"
+- "java.lang.Object.hashCode()"
+- "java.lang.Object.notify()"
+- "java.lang.Object.notifyAll()"
+- "java.lang.Object.toString()"
+- "java.lang.Object.wait()"
+- "java.lang.Object.wait(long)"
+- "java.lang.Object.wait(long,int)"
+syntax: "public class SyncGroupInner extends ProxyResource"
 constructors:
-- com.azure.resourcemanager.sql.fluent.inner.SyncGroupInner.SyncGroupInner()
+- "com.azure.resourcemanager.sql.fluent.inner.SyncGroupInner.SyncGroupInner()"
 methods:
-- com.azure.resourcemanager.sql.fluent.inner.SyncGroupInner.conflictResolutionPolicy()
-- com.azure.resourcemanager.sql.fluent.inner.SyncGroupInner.hubDatabasePassword()
-- com.azure.resourcemanager.sql.fluent.inner.SyncGroupInner.hubDatabaseUsername()
-- com.azure.resourcemanager.sql.fluent.inner.SyncGroupInner.interval()
-- com.azure.resourcemanager.sql.fluent.inner.SyncGroupInner.lastSyncTime()
-- com.azure.resourcemanager.sql.fluent.inner.SyncGroupInner.schema()
-- com.azure.resourcemanager.sql.fluent.inner.SyncGroupInner.syncDatabaseId()
-- com.azure.resourcemanager.sql.fluent.inner.SyncGroupInner.syncState()
-- com.azure.resourcemanager.sql.fluent.inner.SyncGroupInner.usePrivateLinkConnection()
-- com.azure.resourcemanager.sql.fluent.inner.SyncGroupInner.validate()
-- com.azure.resourcemanager.sql.fluent.inner.SyncGroupInner.withConflictResolutionPolicy(com.azure.resourcemanager.sql.models.SyncConflictResolutionPolicy)
-- com.azure.resourcemanager.sql.fluent.inner.SyncGroupInner.withHubDatabasePassword(java.lang.String)
-- com.azure.resourcemanager.sql.fluent.inner.SyncGroupInner.withHubDatabaseUsername(java.lang.String)
-- com.azure.resourcemanager.sql.fluent.inner.SyncGroupInner.withInterval(java.lang.Integer)
-- com.azure.resourcemanager.sql.fluent.inner.SyncGroupInner.withSchema(com.azure.resourcemanager.sql.models.SyncGroupSchema)
-- com.azure.resourcemanager.sql.fluent.inner.SyncGroupInner.withSyncDatabaseId(java.lang.String)
-- com.azure.resourcemanager.sql.fluent.inner.SyncGroupInner.withUsePrivateLinkConnection(java.lang.Boolean)
-type: class
+- "com.azure.resourcemanager.sql.fluent.inner.SyncGroupInner.conflictResolutionPolicy()"
+- "com.azure.resourcemanager.sql.fluent.inner.SyncGroupInner.hubDatabasePassword()"
+- "com.azure.resourcemanager.sql.fluent.inner.SyncGroupInner.hubDatabaseUsername()"
+- "com.azure.resourcemanager.sql.fluent.inner.SyncGroupInner.interval()"
+- "com.azure.resourcemanager.sql.fluent.inner.SyncGroupInner.lastSyncTime()"
+- "com.azure.resourcemanager.sql.fluent.inner.SyncGroupInner.schema()"
+- "com.azure.resourcemanager.sql.fluent.inner.SyncGroupInner.syncDatabaseId()"
+- "com.azure.resourcemanager.sql.fluent.inner.SyncGroupInner.syncState()"
+- "com.azure.resourcemanager.sql.fluent.inner.SyncGroupInner.usePrivateLinkConnection()"
+- "com.azure.resourcemanager.sql.fluent.inner.SyncGroupInner.validate()"
+- "com.azure.resourcemanager.sql.fluent.inner.SyncGroupInner.withConflictResolutionPolicy(com.azure.resourcemanager.sql.models.SyncConflictResolutionPolicy)"
+- "com.azure.resourcemanager.sql.fluent.inner.SyncGroupInner.withHubDatabasePassword(java.lang.String)"
+- "com.azure.resourcemanager.sql.fluent.inner.SyncGroupInner.withHubDatabaseUsername(java.lang.String)"
+- "com.azure.resourcemanager.sql.fluent.inner.SyncGroupInner.withInterval(java.lang.Integer)"
+- "com.azure.resourcemanager.sql.fluent.inner.SyncGroupInner.withSchema(com.azure.resourcemanager.sql.models.SyncGroupSchema)"
+- "com.azure.resourcemanager.sql.fluent.inner.SyncGroupInner.withSyncDatabaseId(java.lang.String)"
+- "com.azure.resourcemanager.sql.fluent.inner.SyncGroupInner.withUsePrivateLinkConnection(java.lang.Boolean)"
+type: "class"
 metadata: {}
-package: com.azure.resourcemanager.sql.fluent.inner
+package: "com.azure.resourcemanager.sql.fluent.inner"
 artifact: com.azure.resourcemanager:azure-resourcemanager-sql:2.0.0-beta.2

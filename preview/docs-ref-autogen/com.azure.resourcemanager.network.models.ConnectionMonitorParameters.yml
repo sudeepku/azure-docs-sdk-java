@@ -1,37 +1,37 @@
 ### YamlMime:JavaType
-uid: com.azure.resourcemanager.network.models.ConnectionMonitorParameters
-fullName: com.azure.resourcemanager.network.models.ConnectionMonitorParameters
-name: ConnectionMonitorParameters
-nameWithType: ConnectionMonitorParameters
-summary: The ConnectionMonitorParameters model.
+uid: "com.azure.resourcemanager.network.models.ConnectionMonitorParameters"
+fullName: "com.azure.resourcemanager.network.models.ConnectionMonitorParameters"
+name: "ConnectionMonitorParameters"
+nameWithType: "ConnectionMonitorParameters"
+summary: "The ConnectionMonitorParameters model."
 inheritances:
-- <xref href="java.lang.Object" data-throw-if-not-resolved="False" />
+- "<xref href=\"java.lang.Object\" data-throw-if-not-resolved=\"False\" />"
 inheritedMembers:
-- java.lang.Object.clone()
-- java.lang.Object.equals(java.lang.Object)
-- java.lang.Object.finalize()
-- java.lang.Object.getClass()
-- java.lang.Object.hashCode()
-- java.lang.Object.notify()
-- java.lang.Object.notifyAll()
-- java.lang.Object.toString()
-- java.lang.Object.wait()
-- java.lang.Object.wait(long)
-- java.lang.Object.wait(long,int)
-syntax: public class ConnectionMonitorParameters
+- "java.lang.Object.clone()"
+- "java.lang.Object.equals(java.lang.Object)"
+- "java.lang.Object.finalize()"
+- "java.lang.Object.getClass()"
+- "java.lang.Object.hashCode()"
+- "java.lang.Object.notify()"
+- "java.lang.Object.notifyAll()"
+- "java.lang.Object.toString()"
+- "java.lang.Object.wait()"
+- "java.lang.Object.wait(long)"
+- "java.lang.Object.wait(long,int)"
+syntax: "public class ConnectionMonitorParameters"
 constructors:
-- com.azure.resourcemanager.network.models.ConnectionMonitorParameters.ConnectionMonitorParameters()
+- "com.azure.resourcemanager.network.models.ConnectionMonitorParameters.ConnectionMonitorParameters()"
 methods:
-- com.azure.resourcemanager.network.models.ConnectionMonitorParameters.autoStart()
-- com.azure.resourcemanager.network.models.ConnectionMonitorParameters.destination()
-- com.azure.resourcemanager.network.models.ConnectionMonitorParameters.monitoringIntervalInSeconds()
-- com.azure.resourcemanager.network.models.ConnectionMonitorParameters.source()
-- com.azure.resourcemanager.network.models.ConnectionMonitorParameters.validate()
-- com.azure.resourcemanager.network.models.ConnectionMonitorParameters.withAutoStart(java.lang.Boolean)
-- com.azure.resourcemanager.network.models.ConnectionMonitorParameters.withDestination(com.azure.resourcemanager.network.models.ConnectionMonitorDestination)
-- com.azure.resourcemanager.network.models.ConnectionMonitorParameters.withMonitoringIntervalInSeconds(java.lang.Integer)
-- com.azure.resourcemanager.network.models.ConnectionMonitorParameters.withSource(com.azure.resourcemanager.network.models.ConnectionMonitorSource)
-type: class
+- "com.azure.resourcemanager.network.models.ConnectionMonitorParameters.autoStart()"
+- "com.azure.resourcemanager.network.models.ConnectionMonitorParameters.destination()"
+- "com.azure.resourcemanager.network.models.ConnectionMonitorParameters.monitoringIntervalInSeconds()"
+- "com.azure.resourcemanager.network.models.ConnectionMonitorParameters.source()"
+- "com.azure.resourcemanager.network.models.ConnectionMonitorParameters.validate()"
+- "com.azure.resourcemanager.network.models.ConnectionMonitorParameters.withAutoStart(java.lang.Boolean)"
+- "com.azure.resourcemanager.network.models.ConnectionMonitorParameters.withDestination(com.azure.resourcemanager.network.models.ConnectionMonitorDestination)"
+- "com.azure.resourcemanager.network.models.ConnectionMonitorParameters.withMonitoringIntervalInSeconds(java.lang.Integer)"
+- "com.azure.resourcemanager.network.models.ConnectionMonitorParameters.withSource(com.azure.resourcemanager.network.models.ConnectionMonitorSource)"
+type: "class"
 metadata: {}
-package: com.azure.resourcemanager.network.models
+package: "com.azure.resourcemanager.network.models"
 artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.0.0-beta.2

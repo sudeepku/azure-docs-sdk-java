@@ -1,50 +1,50 @@
 ### YamlMime:JavaType
-uid: com.azure.resourcemanager.appservice.fluent.DeletedWebAppsClient
-fullName: com.azure.resourcemanager.appservice.fluent.DeletedWebAppsClient
-name: DeletedWebAppsClient
-nameWithType: DeletedWebAppsClient
-summary: An instance of this class provides access to all the operations defined in DeletedWebApps.
+uid: "com.azure.resourcemanager.appservice.fluent.DeletedWebAppsClient"
+fullName: "com.azure.resourcemanager.appservice.fluent.DeletedWebAppsClient"
+name: "DeletedWebAppsClient"
+nameWithType: "DeletedWebAppsClient"
+summary: "An instance of this class provides access to all the operations defined in DeletedWebApps."
 inheritances:
-- <xref href="java.lang.Object" data-throw-if-not-resolved="False" />
+- "<xref href=\"java.lang.Object\" data-throw-if-not-resolved=\"False\" />"
 inheritedMembers:
-- java.lang.Object.clone()
-- java.lang.Object.equals(java.lang.Object)
-- java.lang.Object.finalize()
-- java.lang.Object.getClass()
-- java.lang.Object.hashCode()
-- java.lang.Object.notify()
-- java.lang.Object.notifyAll()
-- java.lang.Object.toString()
-- java.lang.Object.wait()
-- java.lang.Object.wait(long)
-- java.lang.Object.wait(long,int)
-syntax: public final class DeletedWebAppsClient
+- "java.lang.Object.clone()"
+- "java.lang.Object.equals(java.lang.Object)"
+- "java.lang.Object.finalize()"
+- "java.lang.Object.getClass()"
+- "java.lang.Object.hashCode()"
+- "java.lang.Object.notify()"
+- "java.lang.Object.notifyAll()"
+- "java.lang.Object.toString()"
+- "java.lang.Object.wait()"
+- "java.lang.Object.wait(long)"
+- "java.lang.Object.wait(long,int)"
+syntax: "public final class DeletedWebAppsClient"
 constructors:
-- com.azure.resourcemanager.appservice.fluent.DeletedWebAppsClient.DeletedWebAppsClient(com.azure.resourcemanager.appservice.WebSiteManagementClient)
+- "com.azure.resourcemanager.appservice.fluent.DeletedWebAppsClient.DeletedWebAppsClient(com.azure.resourcemanager.appservice.WebSiteManagementClient)"
 methods:
-- com.azure.resourcemanager.appservice.fluent.DeletedWebAppsClient.getDeletedWebAppByLocation(java.lang.String,java.lang.String)
-- com.azure.resourcemanager.appservice.fluent.DeletedWebAppsClient.getDeletedWebAppByLocation(java.lang.String,java.lang.String,com.azure.core.util.Context)
-- com.azure.resourcemanager.appservice.fluent.DeletedWebAppsClient.getDeletedWebAppByLocationAsync(java.lang.String,java.lang.String)
-- com.azure.resourcemanager.appservice.fluent.DeletedWebAppsClient.getDeletedWebAppByLocationAsync(java.lang.String,java.lang.String,com.azure.core.util.Context)
-- com.azure.resourcemanager.appservice.fluent.DeletedWebAppsClient.getDeletedWebAppByLocationWithResponseAsync(java.lang.String,java.lang.String)
-- com.azure.resourcemanager.appservice.fluent.DeletedWebAppsClient.getDeletedWebAppByLocationWithResponseAsync(java.lang.String,java.lang.String,com.azure.core.util.Context)
-- com.azure.resourcemanager.appservice.fluent.DeletedWebAppsClient.list()
-- com.azure.resourcemanager.appservice.fluent.DeletedWebAppsClient.list(com.azure.core.util.Context)
-- com.azure.resourcemanager.appservice.fluent.DeletedWebAppsClient.listAsync()
-- com.azure.resourcemanager.appservice.fluent.DeletedWebAppsClient.listAsync(com.azure.core.util.Context)
-- com.azure.resourcemanager.appservice.fluent.DeletedWebAppsClient.listByLocation(java.lang.String)
-- com.azure.resourcemanager.appservice.fluent.DeletedWebAppsClient.listByLocation(java.lang.String,com.azure.core.util.Context)
-- com.azure.resourcemanager.appservice.fluent.DeletedWebAppsClient.listByLocationAsync(java.lang.String)
-- com.azure.resourcemanager.appservice.fluent.DeletedWebAppsClient.listByLocationAsync(java.lang.String,com.azure.core.util.Context)
-- com.azure.resourcemanager.appservice.fluent.DeletedWebAppsClient.listByLocationNextSinglePageAsync(java.lang.String)
-- com.azure.resourcemanager.appservice.fluent.DeletedWebAppsClient.listByLocationNextSinglePageAsync(java.lang.String,com.azure.core.util.Context)
-- com.azure.resourcemanager.appservice.fluent.DeletedWebAppsClient.listByLocationSinglePageAsync(java.lang.String)
-- com.azure.resourcemanager.appservice.fluent.DeletedWebAppsClient.listByLocationSinglePageAsync(java.lang.String,com.azure.core.util.Context)
-- com.azure.resourcemanager.appservice.fluent.DeletedWebAppsClient.listNextSinglePageAsync(java.lang.String)
-- com.azure.resourcemanager.appservice.fluent.DeletedWebAppsClient.listNextSinglePageAsync(java.lang.String,com.azure.core.util.Context)
-- com.azure.resourcemanager.appservice.fluent.DeletedWebAppsClient.listSinglePageAsync()
-- com.azure.resourcemanager.appservice.fluent.DeletedWebAppsClient.listSinglePageAsync(com.azure.core.util.Context)
-type: class
+- "com.azure.resourcemanager.appservice.fluent.DeletedWebAppsClient.getDeletedWebAppByLocation(java.lang.String,java.lang.String)"
+- "com.azure.resourcemanager.appservice.fluent.DeletedWebAppsClient.getDeletedWebAppByLocation(java.lang.String,java.lang.String,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.appservice.fluent.DeletedWebAppsClient.getDeletedWebAppByLocationAsync(java.lang.String,java.lang.String)"
+- "com.azure.resourcemanager.appservice.fluent.DeletedWebAppsClient.getDeletedWebAppByLocationAsync(java.lang.String,java.lang.String,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.appservice.fluent.DeletedWebAppsClient.getDeletedWebAppByLocationWithResponseAsync(java.lang.String,java.lang.String)"
+- "com.azure.resourcemanager.appservice.fluent.DeletedWebAppsClient.getDeletedWebAppByLocationWithResponseAsync(java.lang.String,java.lang.String,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.appservice.fluent.DeletedWebAppsClient.list()"
+- "com.azure.resourcemanager.appservice.fluent.DeletedWebAppsClient.list(com.azure.core.util.Context)"
+- "com.azure.resourcemanager.appservice.fluent.DeletedWebAppsClient.listAsync()"
+- "com.azure.resourcemanager.appservice.fluent.DeletedWebAppsClient.listAsync(com.azure.core.util.Context)"
+- "com.azure.resourcemanager.appservice.fluent.DeletedWebAppsClient.listByLocation(java.lang.String)"
+- "com.azure.resourcemanager.appservice.fluent.DeletedWebAppsClient.listByLocation(java.lang.String,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.appservice.fluent.DeletedWebAppsClient.listByLocationAsync(java.lang.String)"
+- "com.azure.resourcemanager.appservice.fluent.DeletedWebAppsClient.listByLocationAsync(java.lang.String,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.appservice.fluent.DeletedWebAppsClient.listByLocationNextSinglePageAsync(java.lang.String)"
+- "com.azure.resourcemanager.appservice.fluent.DeletedWebAppsClient.listByLocationNextSinglePageAsync(java.lang.String,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.appservice.fluent.DeletedWebAppsClient.listByLocationSinglePageAsync(java.lang.String)"
+- "com.azure.resourcemanager.appservice.fluent.DeletedWebAppsClient.listByLocationSinglePageAsync(java.lang.String,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.appservice.fluent.DeletedWebAppsClient.listNextSinglePageAsync(java.lang.String)"
+- "com.azure.resourcemanager.appservice.fluent.DeletedWebAppsClient.listNextSinglePageAsync(java.lang.String,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.appservice.fluent.DeletedWebAppsClient.listSinglePageAsync()"
+- "com.azure.resourcemanager.appservice.fluent.DeletedWebAppsClient.listSinglePageAsync(com.azure.core.util.Context)"
+type: "class"
 metadata: {}
-package: com.azure.resourcemanager.appservice.fluent
+package: "com.azure.resourcemanager.appservice.fluent"
 artifact: com.azure.resourcemanager:azure-resourcemanager-appservice:2.0.0-beta.2

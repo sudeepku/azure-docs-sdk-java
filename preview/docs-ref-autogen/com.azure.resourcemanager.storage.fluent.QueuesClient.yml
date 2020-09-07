@@ -1,62 +1,62 @@
 ### YamlMime:JavaType
-uid: com.azure.resourcemanager.storage.fluent.QueuesClient
-fullName: com.azure.resourcemanager.storage.fluent.QueuesClient
-name: QueuesClient
-nameWithType: QueuesClient
-summary: An instance of this class provides access to all the operations defined in Queues.
+uid: "com.azure.resourcemanager.storage.fluent.QueuesClient"
+fullName: "com.azure.resourcemanager.storage.fluent.QueuesClient"
+name: "QueuesClient"
+nameWithType: "QueuesClient"
+summary: "An instance of this class provides access to all the operations defined in Queues."
 inheritances:
-- <xref href="java.lang.Object" data-throw-if-not-resolved="False" />
+- "<xref href=\"java.lang.Object\" data-throw-if-not-resolved=\"False\" />"
 inheritedMembers:
-- java.lang.Object.clone()
-- java.lang.Object.equals(java.lang.Object)
-- java.lang.Object.finalize()
-- java.lang.Object.getClass()
-- java.lang.Object.hashCode()
-- java.lang.Object.notify()
-- java.lang.Object.notifyAll()
-- java.lang.Object.toString()
-- java.lang.Object.wait()
-- java.lang.Object.wait(long)
-- java.lang.Object.wait(long,int)
-syntax: public final class QueuesClient
+- "java.lang.Object.clone()"
+- "java.lang.Object.equals(java.lang.Object)"
+- "java.lang.Object.finalize()"
+- "java.lang.Object.getClass()"
+- "java.lang.Object.hashCode()"
+- "java.lang.Object.notify()"
+- "java.lang.Object.notifyAll()"
+- "java.lang.Object.toString()"
+- "java.lang.Object.wait()"
+- "java.lang.Object.wait(long)"
+- "java.lang.Object.wait(long,int)"
+syntax: "public final class QueuesClient"
 constructors:
-- com.azure.resourcemanager.storage.fluent.QueuesClient.QueuesClient(com.azure.resourcemanager.storage.StorageManagementClient)
+- "com.azure.resourcemanager.storage.fluent.QueuesClient.QueuesClient(com.azure.resourcemanager.storage.StorageManagementClient)"
 methods:
-- com.azure.resourcemanager.storage.fluent.QueuesClient.create(java.lang.String,java.lang.String,java.lang.String,java.util.Map<java.lang.String,java.lang.String>)
-- com.azure.resourcemanager.storage.fluent.QueuesClient.create(java.lang.String,java.lang.String,java.lang.String,java.util.Map<java.lang.String,java.lang.String>,com.azure.core.util.Context)
-- com.azure.resourcemanager.storage.fluent.QueuesClient.createAsync(java.lang.String,java.lang.String,java.lang.String,java.util.Map<java.lang.String,java.lang.String>)
-- com.azure.resourcemanager.storage.fluent.QueuesClient.createAsync(java.lang.String,java.lang.String,java.lang.String,java.util.Map<java.lang.String,java.lang.String>,com.azure.core.util.Context)
-- com.azure.resourcemanager.storage.fluent.QueuesClient.createWithResponseAsync(java.lang.String,java.lang.String,java.lang.String,java.util.Map<java.lang.String,java.lang.String>)
-- com.azure.resourcemanager.storage.fluent.QueuesClient.createWithResponseAsync(java.lang.String,java.lang.String,java.lang.String,java.util.Map<java.lang.String,java.lang.String>,com.azure.core.util.Context)
-- com.azure.resourcemanager.storage.fluent.QueuesClient.delete(java.lang.String,java.lang.String,java.lang.String)
-- com.azure.resourcemanager.storage.fluent.QueuesClient.delete(java.lang.String,java.lang.String,java.lang.String,com.azure.core.util.Context)
-- com.azure.resourcemanager.storage.fluent.QueuesClient.deleteAsync(java.lang.String,java.lang.String,java.lang.String)
-- com.azure.resourcemanager.storage.fluent.QueuesClient.deleteAsync(java.lang.String,java.lang.String,java.lang.String,com.azure.core.util.Context)
-- com.azure.resourcemanager.storage.fluent.QueuesClient.deleteWithResponseAsync(java.lang.String,java.lang.String,java.lang.String)
-- com.azure.resourcemanager.storage.fluent.QueuesClient.deleteWithResponseAsync(java.lang.String,java.lang.String,java.lang.String,com.azure.core.util.Context)
-- com.azure.resourcemanager.storage.fluent.QueuesClient.get(java.lang.String,java.lang.String,java.lang.String)
-- com.azure.resourcemanager.storage.fluent.QueuesClient.get(java.lang.String,java.lang.String,java.lang.String,com.azure.core.util.Context)
-- com.azure.resourcemanager.storage.fluent.QueuesClient.getAsync(java.lang.String,java.lang.String,java.lang.String)
-- com.azure.resourcemanager.storage.fluent.QueuesClient.getAsync(java.lang.String,java.lang.String,java.lang.String,com.azure.core.util.Context)
-- com.azure.resourcemanager.storage.fluent.QueuesClient.getWithResponseAsync(java.lang.String,java.lang.String,java.lang.String)
-- com.azure.resourcemanager.storage.fluent.QueuesClient.getWithResponseAsync(java.lang.String,java.lang.String,java.lang.String,com.azure.core.util.Context)
-- com.azure.resourcemanager.storage.fluent.QueuesClient.list(java.lang.String,java.lang.String)
-- com.azure.resourcemanager.storage.fluent.QueuesClient.list(java.lang.String,java.lang.String,java.lang.String,java.lang.String)
-- com.azure.resourcemanager.storage.fluent.QueuesClient.list(java.lang.String,java.lang.String,java.lang.String,java.lang.String,com.azure.core.util.Context)
-- com.azure.resourcemanager.storage.fluent.QueuesClient.listAsync(java.lang.String,java.lang.String)
-- com.azure.resourcemanager.storage.fluent.QueuesClient.listAsync(java.lang.String,java.lang.String,java.lang.String,java.lang.String)
-- com.azure.resourcemanager.storage.fluent.QueuesClient.listAsync(java.lang.String,java.lang.String,java.lang.String,java.lang.String,com.azure.core.util.Context)
-- com.azure.resourcemanager.storage.fluent.QueuesClient.listNextSinglePageAsync(java.lang.String)
-- com.azure.resourcemanager.storage.fluent.QueuesClient.listNextSinglePageAsync(java.lang.String,com.azure.core.util.Context)
-- com.azure.resourcemanager.storage.fluent.QueuesClient.listSinglePageAsync(java.lang.String,java.lang.String,java.lang.String,java.lang.String)
-- com.azure.resourcemanager.storage.fluent.QueuesClient.listSinglePageAsync(java.lang.String,java.lang.String,java.lang.String,java.lang.String,com.azure.core.util.Context)
-- com.azure.resourcemanager.storage.fluent.QueuesClient.update(java.lang.String,java.lang.String,java.lang.String,java.util.Map<java.lang.String,java.lang.String>)
-- com.azure.resourcemanager.storage.fluent.QueuesClient.update(java.lang.String,java.lang.String,java.lang.String,java.util.Map<java.lang.String,java.lang.String>,com.azure.core.util.Context)
-- com.azure.resourcemanager.storage.fluent.QueuesClient.updateAsync(java.lang.String,java.lang.String,java.lang.String,java.util.Map<java.lang.String,java.lang.String>)
-- com.azure.resourcemanager.storage.fluent.QueuesClient.updateAsync(java.lang.String,java.lang.String,java.lang.String,java.util.Map<java.lang.String,java.lang.String>,com.azure.core.util.Context)
-- com.azure.resourcemanager.storage.fluent.QueuesClient.updateWithResponseAsync(java.lang.String,java.lang.String,java.lang.String,java.util.Map<java.lang.String,java.lang.String>)
-- com.azure.resourcemanager.storage.fluent.QueuesClient.updateWithResponseAsync(java.lang.String,java.lang.String,java.lang.String,java.util.Map<java.lang.String,java.lang.String>,com.azure.core.util.Context)
-type: class
+- "com.azure.resourcemanager.storage.fluent.QueuesClient.create(java.lang.String,java.lang.String,java.lang.String,java.util.Map<java.lang.String,java.lang.String>)"
+- "com.azure.resourcemanager.storage.fluent.QueuesClient.create(java.lang.String,java.lang.String,java.lang.String,java.util.Map<java.lang.String,java.lang.String>,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.storage.fluent.QueuesClient.createAsync(java.lang.String,java.lang.String,java.lang.String,java.util.Map<java.lang.String,java.lang.String>)"
+- "com.azure.resourcemanager.storage.fluent.QueuesClient.createAsync(java.lang.String,java.lang.String,java.lang.String,java.util.Map<java.lang.String,java.lang.String>,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.storage.fluent.QueuesClient.createWithResponseAsync(java.lang.String,java.lang.String,java.lang.String,java.util.Map<java.lang.String,java.lang.String>)"
+- "com.azure.resourcemanager.storage.fluent.QueuesClient.createWithResponseAsync(java.lang.String,java.lang.String,java.lang.String,java.util.Map<java.lang.String,java.lang.String>,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.storage.fluent.QueuesClient.delete(java.lang.String,java.lang.String,java.lang.String)"
+- "com.azure.resourcemanager.storage.fluent.QueuesClient.delete(java.lang.String,java.lang.String,java.lang.String,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.storage.fluent.QueuesClient.deleteAsync(java.lang.String,java.lang.String,java.lang.String)"
+- "com.azure.resourcemanager.storage.fluent.QueuesClient.deleteAsync(java.lang.String,java.lang.String,java.lang.String,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.storage.fluent.QueuesClient.deleteWithResponseAsync(java.lang.String,java.lang.String,java.lang.String)"
+- "com.azure.resourcemanager.storage.fluent.QueuesClient.deleteWithResponseAsync(java.lang.String,java.lang.String,java.lang.String,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.storage.fluent.QueuesClient.get(java.lang.String,java.lang.String,java.lang.String)"
+- "com.azure.resourcemanager.storage.fluent.QueuesClient.get(java.lang.String,java.lang.String,java.lang.String,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.storage.fluent.QueuesClient.getAsync(java.lang.String,java.lang.String,java.lang.String)"
+- "com.azure.resourcemanager.storage.fluent.QueuesClient.getAsync(java.lang.String,java.lang.String,java.lang.String,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.storage.fluent.QueuesClient.getWithResponseAsync(java.lang.String,java.lang.String,java.lang.String)"
+- "com.azure.resourcemanager.storage.fluent.QueuesClient.getWithResponseAsync(java.lang.String,java.lang.String,java.lang.String,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.storage.fluent.QueuesClient.list(java.lang.String,java.lang.String)"
+- "com.azure.resourcemanager.storage.fluent.QueuesClient.list(java.lang.String,java.lang.String,java.lang.String,java.lang.String)"
+- "com.azure.resourcemanager.storage.fluent.QueuesClient.list(java.lang.String,java.lang.String,java.lang.String,java.lang.String,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.storage.fluent.QueuesClient.listAsync(java.lang.String,java.lang.String)"
+- "com.azure.resourcemanager.storage.fluent.QueuesClient.listAsync(java.lang.String,java.lang.String,java.lang.String,java.lang.String)"
+- "com.azure.resourcemanager.storage.fluent.QueuesClient.listAsync(java.lang.String,java.lang.String,java.lang.String,java.lang.String,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.storage.fluent.QueuesClient.listNextSinglePageAsync(java.lang.String)"
+- "com.azure.resourcemanager.storage.fluent.QueuesClient.listNextSinglePageAsync(java.lang.String,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.storage.fluent.QueuesClient.listSinglePageAsync(java.lang.String,java.lang.String,java.lang.String,java.lang.String)"
+- "com.azure.resourcemanager.storage.fluent.QueuesClient.listSinglePageAsync(java.lang.String,java.lang.String,java.lang.String,java.lang.String,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.storage.fluent.QueuesClient.update(java.lang.String,java.lang.String,java.lang.String,java.util.Map<java.lang.String,java.lang.String>)"
+- "com.azure.resourcemanager.storage.fluent.QueuesClient.update(java.lang.String,java.lang.String,java.lang.String,java.util.Map<java.lang.String,java.lang.String>,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.storage.fluent.QueuesClient.updateAsync(java.lang.String,java.lang.String,java.lang.String,java.util.Map<java.lang.String,java.lang.String>)"
+- "com.azure.resourcemanager.storage.fluent.QueuesClient.updateAsync(java.lang.String,java.lang.String,java.lang.String,java.util.Map<java.lang.String,java.lang.String>,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.storage.fluent.QueuesClient.updateWithResponseAsync(java.lang.String,java.lang.String,java.lang.String,java.util.Map<java.lang.String,java.lang.String>)"
+- "com.azure.resourcemanager.storage.fluent.QueuesClient.updateWithResponseAsync(java.lang.String,java.lang.String,java.lang.String,java.util.Map<java.lang.String,java.lang.String>,com.azure.core.util.Context)"
+type: "class"
 metadata: {}
-package: com.azure.resourcemanager.storage.fluent
+package: "com.azure.resourcemanager.storage.fluent"
 artifact: com.azure.resourcemanager:azure-resourcemanager-storage:2.0.0-beta.2

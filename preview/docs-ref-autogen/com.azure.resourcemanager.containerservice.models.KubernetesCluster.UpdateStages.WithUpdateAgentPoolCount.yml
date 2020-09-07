@@ -1,14 +1,14 @@
 ### YamlMime:JavaType
-uid: com.azure.resourcemanager.containerservice.models.KubernetesCluster.UpdateStages.WithUpdateAgentPoolCount
-fullName: com.azure.resourcemanager.containerservice.models.KubernetesCluster.UpdateStages.WithUpdateAgentPoolCount
-name: KubernetesCluster.UpdateStages.WithUpdateAgentPoolCount
-nameWithType: KubernetesCluster.UpdateStages.WithUpdateAgentPoolCount
-summary: The stage of the Kubernetes cluster update definition allowing to specify the number of agents in the specified pool.
-syntax: public static interface KubernetesCluster.UpdateStages.WithUpdateAgentPoolCount
+uid: "com.azure.resourcemanager.containerservice.models.KubernetesCluster.UpdateStages.WithUpdateAgentPoolCount"
+fullName: "com.azure.resourcemanager.containerservice.models.KubernetesCluster.UpdateStages.WithUpdateAgentPoolCount"
+name: "KubernetesCluster.UpdateStages.WithUpdateAgentPoolCount"
+nameWithType: "KubernetesCluster.UpdateStages.WithUpdateAgentPoolCount"
+summary: "The stage of the Kubernetes cluster update definition allowing to specify the number of agents in the specified pool."
+syntax: "public static interface KubernetesCluster.UpdateStages.WithUpdateAgentPoolCount"
 methods:
-- com.azure.resourcemanager.containerservice.models.KubernetesCluster.UpdateStages.WithUpdateAgentPoolCount.withAgentPoolVirtualMachineCount(int)
-- com.azure.resourcemanager.containerservice.models.KubernetesCluster.UpdateStages.WithUpdateAgentPoolCount.withAgentPoolVirtualMachineCount(java.lang.String,int)
-type: interface
+- "com.azure.resourcemanager.containerservice.models.KubernetesCluster.UpdateStages.WithUpdateAgentPoolCount.withAgentPoolVirtualMachineCount(int)"
+- "com.azure.resourcemanager.containerservice.models.KubernetesCluster.UpdateStages.WithUpdateAgentPoolCount.withAgentPoolVirtualMachineCount(java.lang.String,int)"
+type: "interface"
 metadata: {}
-package: com.azure.resourcemanager.containerservice.models
+package: "com.azure.resourcemanager.containerservice.models"
 artifact: com.azure.resourcemanager:azure-resourcemanager-containerservice:2.0.0-beta.2

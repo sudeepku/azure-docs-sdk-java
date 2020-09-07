@@ -1,21 +1,19 @@
 ### YamlMime:JavaMember
-uid: com.azure.ai.textanalytics.util.TextAnalyticsPagedIterable.streamByPage*
-fullName: com.azure.ai.textanalytics.util.TextAnalyticsPagedIterable<T>.streamByPage
-name: streamByPage
-nameWithType: TextAnalyticsPagedIterable<T>.streamByPage
+uid: "com.azure.ai.textanalytics.util.TextAnalyticsPagedIterable.streamByPage*"
+fullName: "com.azure.ai.textanalytics.util.TextAnalyticsPagedIterable<T>.streamByPage"
+name: "streamByPage"
+nameWithType: "TextAnalyticsPagedIterable<T>.streamByPage"
 members:
-- uid: com.azure.ai.textanalytics.util.TextAnalyticsPagedIterable.streamByPage()
-  fullName: com.azure.ai.textanalytics.util.TextAnalyticsPagedIterable<T>.streamByPage()
-  name: streamByPage()
-  nameWithType: TextAnalyticsPagedIterable<T>.streamByPage()
-  summary: |-
-    Retrieve the <xref uid="Stream" data-throw-if-not-resolved="false">Stream</xref>, one page at a time, starting from the next page associated with the given
-     continuation token. To start from first page, use <xref uid="#streamByPage()" data-throw-if-not-resolved="false">#streamByPage()</xref> instead.
-  syntax: public Stream<TextAnalyticsPagedResponse<T>> streamByPage()
+- uid: "com.azure.ai.textanalytics.util.TextAnalyticsPagedIterable.streamByPage()"
+  fullName: "com.azure.ai.textanalytics.util.TextAnalyticsPagedIterable<T>.streamByPage()"
+  name: "streamByPage()"
+  nameWithType: "TextAnalyticsPagedIterable<T>.streamByPage()"
+  summary: "Retrieve the <xref uid=\"Stream\" data-throw-if-not-resolved=\"false\">Stream</xref>, one page at a time, starting from the next page associated with the given\n continuation token. To start from first page, use <xref uid=\"#streamByPage()\" data-throw-if-not-resolved=\"false\">#streamByPage()</xref> instead."
+  syntax: "public Stream<TextAnalyticsPagedResponse<T>> streamByPage()"
   returns:
-    description: <xref uid="java.util.stream.Stream" data-throw-if-not-resolved="false">Stream</xref> of a <xref uid="com.azure.ai.textanalytics.util.TextAnalyticsPagedResponse" data-throw-if-not-resolved="false">TextAnalyticsPagedResponse</xref> of <code>T</code>.
-    type: <xref href="java.util.stream.Stream?alt=java.util.stream.Stream&text=Stream" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.ai.textanalytics.util.TextAnalyticsPagedResponse?alt=com.azure.ai.textanalytics.util.TextAnalyticsPagedResponse&text=TextAnalyticsPagedResponse" data-throw-if-not-resolved="False" />&lt;<xref href="T?alt=T&text=T" data-throw-if-not-resolved="False" />&gt;&gt;
-type: method
+    description: "<xref uid=\"java.util.stream.Stream\" data-throw-if-not-resolved=\"false\">Stream</xref> of a <xref uid=\"com.azure.ai.textanalytics.util.TextAnalyticsPagedResponse\" data-throw-if-not-resolved=\"false\">TextAnalyticsPagedResponse</xref> of <code>T</code>."
+    type: "<xref href=\"java.util.stream.Stream?alt=java.util.stream.Stream&text=Stream\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.ai.textanalytics.util.TextAnalyticsPagedResponse?alt=com.azure.ai.textanalytics.util.TextAnalyticsPagedResponse&text=TextAnalyticsPagedResponse\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"T?alt=T&text=T\" data-throw-if-not-resolved=\"False\" />&gt;&gt;"
+type: "method"
 metadata: {}
-package: com.azure.ai.textanalytics.util
+package: "com.azure.ai.textanalytics.util"
 artifact: com.azure:azure-ai-textanalytics:1.0.0-beta.4

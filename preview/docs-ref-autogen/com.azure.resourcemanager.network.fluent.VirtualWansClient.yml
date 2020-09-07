@@ -1,96 +1,96 @@
 ### YamlMime:JavaType
-uid: com.azure.resourcemanager.network.fluent.VirtualWansClient
-fullName: com.azure.resourcemanager.network.fluent.VirtualWansClient
-name: VirtualWansClient
-nameWithType: VirtualWansClient
-summary: An instance of this class provides access to all the operations defined in VirtualWans.
+uid: "com.azure.resourcemanager.network.fluent.VirtualWansClient"
+fullName: "com.azure.resourcemanager.network.fluent.VirtualWansClient"
+name: "VirtualWansClient"
+nameWithType: "VirtualWansClient"
+summary: "An instance of this class provides access to all the operations defined in VirtualWans."
 inheritances:
-- <xref href="java.lang.Object" data-throw-if-not-resolved="False" />
+- "<xref href=\"java.lang.Object\" data-throw-if-not-resolved=\"False\" />"
 inheritedMembers:
-- java.lang.Object.clone()
-- java.lang.Object.equals(java.lang.Object)
-- java.lang.Object.finalize()
-- java.lang.Object.getClass()
-- java.lang.Object.hashCode()
-- java.lang.Object.notify()
-- java.lang.Object.notifyAll()
-- java.lang.Object.toString()
-- java.lang.Object.wait()
-- java.lang.Object.wait(long)
-- java.lang.Object.wait(long,int)
-syntax: public final class VirtualWansClient implements InnerSupportsGet<VirtualWanInner>, InnerSupportsListing<VirtualWanInner>, InnerSupportsDelete<Void>
+- "java.lang.Object.clone()"
+- "java.lang.Object.equals(java.lang.Object)"
+- "java.lang.Object.finalize()"
+- "java.lang.Object.getClass()"
+- "java.lang.Object.hashCode()"
+- "java.lang.Object.notify()"
+- "java.lang.Object.notifyAll()"
+- "java.lang.Object.toString()"
+- "java.lang.Object.wait()"
+- "java.lang.Object.wait(long)"
+- "java.lang.Object.wait(long,int)"
+syntax: "public final class VirtualWansClient implements InnerSupportsGet<VirtualWanInner>, InnerSupportsListing<VirtualWanInner>, InnerSupportsDelete<Void>"
 constructors:
-- com.azure.resourcemanager.network.fluent.VirtualWansClient.VirtualWansClient(com.azure.resourcemanager.network.NetworkManagementClient)
+- "com.azure.resourcemanager.network.fluent.VirtualWansClient.VirtualWansClient(com.azure.resourcemanager.network.NetworkManagementClient)"
 methods:
-- com.azure.resourcemanager.network.fluent.VirtualWansClient.beginCreateOrUpdate(java.lang.String,java.lang.String,com.azure.resourcemanager.network.fluent.inner.VirtualWanInner)
-- com.azure.resourcemanager.network.fluent.VirtualWansClient.beginCreateOrUpdate(java.lang.String,java.lang.String,com.azure.resourcemanager.network.fluent.inner.VirtualWanInner,com.azure.core.util.Context)
-- com.azure.resourcemanager.network.fluent.VirtualWansClient.beginCreateOrUpdateWithoutPolling(java.lang.String,java.lang.String,com.azure.resourcemanager.network.fluent.inner.VirtualWanInner)
-- com.azure.resourcemanager.network.fluent.VirtualWansClient.beginCreateOrUpdateWithoutPolling(java.lang.String,java.lang.String,com.azure.resourcemanager.network.fluent.inner.VirtualWanInner,com.azure.core.util.Context)
-- com.azure.resourcemanager.network.fluent.VirtualWansClient.beginCreateOrUpdateWithoutPollingAsync(java.lang.String,java.lang.String,com.azure.resourcemanager.network.fluent.inner.VirtualWanInner)
-- com.azure.resourcemanager.network.fluent.VirtualWansClient.beginCreateOrUpdateWithoutPollingAsync(java.lang.String,java.lang.String,com.azure.resourcemanager.network.fluent.inner.VirtualWanInner,com.azure.core.util.Context)
-- com.azure.resourcemanager.network.fluent.VirtualWansClient.beginCreateOrUpdateWithoutPollingWithResponseAsync(java.lang.String,java.lang.String,com.azure.resourcemanager.network.fluent.inner.VirtualWanInner)
-- com.azure.resourcemanager.network.fluent.VirtualWansClient.beginCreateOrUpdateWithoutPollingWithResponseAsync(java.lang.String,java.lang.String,com.azure.resourcemanager.network.fluent.inner.VirtualWanInner,com.azure.core.util.Context)
-- com.azure.resourcemanager.network.fluent.VirtualWansClient.beginDelete(java.lang.String,java.lang.String)
-- com.azure.resourcemanager.network.fluent.VirtualWansClient.beginDelete(java.lang.String,java.lang.String,com.azure.core.util.Context)
-- com.azure.resourcemanager.network.fluent.VirtualWansClient.beginDeleteWithoutPolling(java.lang.String,java.lang.String)
-- com.azure.resourcemanager.network.fluent.VirtualWansClient.beginDeleteWithoutPolling(java.lang.String,java.lang.String,com.azure.core.util.Context)
-- com.azure.resourcemanager.network.fluent.VirtualWansClient.beginDeleteWithoutPollingAsync(java.lang.String,java.lang.String)
-- com.azure.resourcemanager.network.fluent.VirtualWansClient.beginDeleteWithoutPollingAsync(java.lang.String,java.lang.String,com.azure.core.util.Context)
-- com.azure.resourcemanager.network.fluent.VirtualWansClient.beginDeleteWithoutPollingWithResponseAsync(java.lang.String,java.lang.String)
-- com.azure.resourcemanager.network.fluent.VirtualWansClient.beginDeleteWithoutPollingWithResponseAsync(java.lang.String,java.lang.String,com.azure.core.util.Context)
-- com.azure.resourcemanager.network.fluent.VirtualWansClient.beginUpdateTags(java.lang.String,java.lang.String,java.util.Map<java.lang.String,java.lang.String>)
-- com.azure.resourcemanager.network.fluent.VirtualWansClient.beginUpdateTags(java.lang.String,java.lang.String,java.util.Map<java.lang.String,java.lang.String>,com.azure.core.util.Context)
-- com.azure.resourcemanager.network.fluent.VirtualWansClient.beginUpdateTagsWithoutPolling(java.lang.String,java.lang.String,java.util.Map<java.lang.String,java.lang.String>)
-- com.azure.resourcemanager.network.fluent.VirtualWansClient.beginUpdateTagsWithoutPolling(java.lang.String,java.lang.String,java.util.Map<java.lang.String,java.lang.String>,com.azure.core.util.Context)
-- com.azure.resourcemanager.network.fluent.VirtualWansClient.beginUpdateTagsWithoutPollingAsync(java.lang.String,java.lang.String,java.util.Map<java.lang.String,java.lang.String>)
-- com.azure.resourcemanager.network.fluent.VirtualWansClient.beginUpdateTagsWithoutPollingAsync(java.lang.String,java.lang.String,java.util.Map<java.lang.String,java.lang.String>,com.azure.core.util.Context)
-- com.azure.resourcemanager.network.fluent.VirtualWansClient.beginUpdateTagsWithoutPollingWithResponseAsync(java.lang.String,java.lang.String,java.util.Map<java.lang.String,java.lang.String>)
-- com.azure.resourcemanager.network.fluent.VirtualWansClient.beginUpdateTagsWithoutPollingWithResponseAsync(java.lang.String,java.lang.String,java.util.Map<java.lang.String,java.lang.String>,com.azure.core.util.Context)
-- com.azure.resourcemanager.network.fluent.VirtualWansClient.createOrUpdate(java.lang.String,java.lang.String,com.azure.resourcemanager.network.fluent.inner.VirtualWanInner)
-- com.azure.resourcemanager.network.fluent.VirtualWansClient.createOrUpdate(java.lang.String,java.lang.String,com.azure.resourcemanager.network.fluent.inner.VirtualWanInner,com.azure.core.util.Context)
-- com.azure.resourcemanager.network.fluent.VirtualWansClient.createOrUpdateAsync(java.lang.String,java.lang.String,com.azure.resourcemanager.network.fluent.inner.VirtualWanInner)
-- com.azure.resourcemanager.network.fluent.VirtualWansClient.createOrUpdateAsync(java.lang.String,java.lang.String,com.azure.resourcemanager.network.fluent.inner.VirtualWanInner,com.azure.core.util.Context)
-- com.azure.resourcemanager.network.fluent.VirtualWansClient.createOrUpdateWithResponseAsync(java.lang.String,java.lang.String,com.azure.resourcemanager.network.fluent.inner.VirtualWanInner)
-- com.azure.resourcemanager.network.fluent.VirtualWansClient.createOrUpdateWithResponseAsync(java.lang.String,java.lang.String,com.azure.resourcemanager.network.fluent.inner.VirtualWanInner,com.azure.core.util.Context)
-- com.azure.resourcemanager.network.fluent.VirtualWansClient.delete(java.lang.String,java.lang.String)
-- com.azure.resourcemanager.network.fluent.VirtualWansClient.delete(java.lang.String,java.lang.String,com.azure.core.util.Context)
-- com.azure.resourcemanager.network.fluent.VirtualWansClient.deleteAsync(java.lang.String,java.lang.String)
-- com.azure.resourcemanager.network.fluent.VirtualWansClient.deleteAsync(java.lang.String,java.lang.String,com.azure.core.util.Context)
-- com.azure.resourcemanager.network.fluent.VirtualWansClient.deleteWithResponseAsync(java.lang.String,java.lang.String)
-- com.azure.resourcemanager.network.fluent.VirtualWansClient.deleteWithResponseAsync(java.lang.String,java.lang.String,com.azure.core.util.Context)
-- com.azure.resourcemanager.network.fluent.VirtualWansClient.getByResourceGroup(java.lang.String,java.lang.String)
-- com.azure.resourcemanager.network.fluent.VirtualWansClient.getByResourceGroup(java.lang.String,java.lang.String,com.azure.core.util.Context)
-- com.azure.resourcemanager.network.fluent.VirtualWansClient.getByResourceGroupAsync(java.lang.String,java.lang.String)
-- com.azure.resourcemanager.network.fluent.VirtualWansClient.getByResourceGroupAsync(java.lang.String,java.lang.String,com.azure.core.util.Context)
-- com.azure.resourcemanager.network.fluent.VirtualWansClient.getByResourceGroupWithResponseAsync(java.lang.String,java.lang.String)
-- com.azure.resourcemanager.network.fluent.VirtualWansClient.getByResourceGroupWithResponseAsync(java.lang.String,java.lang.String,com.azure.core.util.Context)
-- com.azure.resourcemanager.network.fluent.VirtualWansClient.list()
-- com.azure.resourcemanager.network.fluent.VirtualWansClient.list(com.azure.core.util.Context)
-- com.azure.resourcemanager.network.fluent.VirtualWansClient.listAsync()
-- com.azure.resourcemanager.network.fluent.VirtualWansClient.listAsync(com.azure.core.util.Context)
-- com.azure.resourcemanager.network.fluent.VirtualWansClient.listByResourceGroup(java.lang.String)
-- com.azure.resourcemanager.network.fluent.VirtualWansClient.listByResourceGroup(java.lang.String,com.azure.core.util.Context)
-- com.azure.resourcemanager.network.fluent.VirtualWansClient.listByResourceGroupAsync(java.lang.String)
-- com.azure.resourcemanager.network.fluent.VirtualWansClient.listByResourceGroupAsync(java.lang.String,com.azure.core.util.Context)
-- com.azure.resourcemanager.network.fluent.VirtualWansClient.listByResourceGroupNextSinglePageAsync(java.lang.String)
-- com.azure.resourcemanager.network.fluent.VirtualWansClient.listByResourceGroupNextSinglePageAsync(java.lang.String,com.azure.core.util.Context)
-- com.azure.resourcemanager.network.fluent.VirtualWansClient.listByResourceGroupSinglePageAsync(java.lang.String)
-- com.azure.resourcemanager.network.fluent.VirtualWansClient.listByResourceGroupSinglePageAsync(java.lang.String,com.azure.core.util.Context)
-- com.azure.resourcemanager.network.fluent.VirtualWansClient.listNextSinglePageAsync(java.lang.String)
-- com.azure.resourcemanager.network.fluent.VirtualWansClient.listNextSinglePageAsync(java.lang.String,com.azure.core.util.Context)
-- com.azure.resourcemanager.network.fluent.VirtualWansClient.listSinglePageAsync()
-- com.azure.resourcemanager.network.fluent.VirtualWansClient.listSinglePageAsync(com.azure.core.util.Context)
-- com.azure.resourcemanager.network.fluent.VirtualWansClient.updateTags(java.lang.String,java.lang.String,java.util.Map<java.lang.String,java.lang.String>)
-- com.azure.resourcemanager.network.fluent.VirtualWansClient.updateTags(java.lang.String,java.lang.String,java.util.Map<java.lang.String,java.lang.String>,com.azure.core.util.Context)
-- com.azure.resourcemanager.network.fluent.VirtualWansClient.updateTagsAsync(java.lang.String,java.lang.String,java.util.Map<java.lang.String,java.lang.String>)
-- com.azure.resourcemanager.network.fluent.VirtualWansClient.updateTagsAsync(java.lang.String,java.lang.String,java.util.Map<java.lang.String,java.lang.String>,com.azure.core.util.Context)
-- com.azure.resourcemanager.network.fluent.VirtualWansClient.updateTagsWithResponseAsync(java.lang.String,java.lang.String,java.util.Map<java.lang.String,java.lang.String>)
-- com.azure.resourcemanager.network.fluent.VirtualWansClient.updateTagsWithResponseAsync(java.lang.String,java.lang.String,java.util.Map<java.lang.String,java.lang.String>,com.azure.core.util.Context)
-type: class
+- "com.azure.resourcemanager.network.fluent.VirtualWansClient.beginCreateOrUpdate(java.lang.String,java.lang.String,com.azure.resourcemanager.network.fluent.inner.VirtualWanInner)"
+- "com.azure.resourcemanager.network.fluent.VirtualWansClient.beginCreateOrUpdate(java.lang.String,java.lang.String,com.azure.resourcemanager.network.fluent.inner.VirtualWanInner,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.network.fluent.VirtualWansClient.beginCreateOrUpdateWithoutPolling(java.lang.String,java.lang.String,com.azure.resourcemanager.network.fluent.inner.VirtualWanInner)"
+- "com.azure.resourcemanager.network.fluent.VirtualWansClient.beginCreateOrUpdateWithoutPolling(java.lang.String,java.lang.String,com.azure.resourcemanager.network.fluent.inner.VirtualWanInner,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.network.fluent.VirtualWansClient.beginCreateOrUpdateWithoutPollingAsync(java.lang.String,java.lang.String,com.azure.resourcemanager.network.fluent.inner.VirtualWanInner)"
+- "com.azure.resourcemanager.network.fluent.VirtualWansClient.beginCreateOrUpdateWithoutPollingAsync(java.lang.String,java.lang.String,com.azure.resourcemanager.network.fluent.inner.VirtualWanInner,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.network.fluent.VirtualWansClient.beginCreateOrUpdateWithoutPollingWithResponseAsync(java.lang.String,java.lang.String,com.azure.resourcemanager.network.fluent.inner.VirtualWanInner)"
+- "com.azure.resourcemanager.network.fluent.VirtualWansClient.beginCreateOrUpdateWithoutPollingWithResponseAsync(java.lang.String,java.lang.String,com.azure.resourcemanager.network.fluent.inner.VirtualWanInner,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.network.fluent.VirtualWansClient.beginDelete(java.lang.String,java.lang.String)"
+- "com.azure.resourcemanager.network.fluent.VirtualWansClient.beginDelete(java.lang.String,java.lang.String,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.network.fluent.VirtualWansClient.beginDeleteWithoutPolling(java.lang.String,java.lang.String)"
+- "com.azure.resourcemanager.network.fluent.VirtualWansClient.beginDeleteWithoutPolling(java.lang.String,java.lang.String,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.network.fluent.VirtualWansClient.beginDeleteWithoutPollingAsync(java.lang.String,java.lang.String)"
+- "com.azure.resourcemanager.network.fluent.VirtualWansClient.beginDeleteWithoutPollingAsync(java.lang.String,java.lang.String,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.network.fluent.VirtualWansClient.beginDeleteWithoutPollingWithResponseAsync(java.lang.String,java.lang.String)"
+- "com.azure.resourcemanager.network.fluent.VirtualWansClient.beginDeleteWithoutPollingWithResponseAsync(java.lang.String,java.lang.String,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.network.fluent.VirtualWansClient.beginUpdateTags(java.lang.String,java.lang.String,java.util.Map<java.lang.String,java.lang.String>)"
+- "com.azure.resourcemanager.network.fluent.VirtualWansClient.beginUpdateTags(java.lang.String,java.lang.String,java.util.Map<java.lang.String,java.lang.String>,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.network.fluent.VirtualWansClient.beginUpdateTagsWithoutPolling(java.lang.String,java.lang.String,java.util.Map<java.lang.String,java.lang.String>)"
+- "com.azure.resourcemanager.network.fluent.VirtualWansClient.beginUpdateTagsWithoutPolling(java.lang.String,java.lang.String,java.util.Map<java.lang.String,java.lang.String>,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.network.fluent.VirtualWansClient.beginUpdateTagsWithoutPollingAsync(java.lang.String,java.lang.String,java.util.Map<java.lang.String,java.lang.String>)"
+- "com.azure.resourcemanager.network.fluent.VirtualWansClient.beginUpdateTagsWithoutPollingAsync(java.lang.String,java.lang.String,java.util.Map<java.lang.String,java.lang.String>,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.network.fluent.VirtualWansClient.beginUpdateTagsWithoutPollingWithResponseAsync(java.lang.String,java.lang.String,java.util.Map<java.lang.String,java.lang.String>)"
+- "com.azure.resourcemanager.network.fluent.VirtualWansClient.beginUpdateTagsWithoutPollingWithResponseAsync(java.lang.String,java.lang.String,java.util.Map<java.lang.String,java.lang.String>,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.network.fluent.VirtualWansClient.createOrUpdate(java.lang.String,java.lang.String,com.azure.resourcemanager.network.fluent.inner.VirtualWanInner)"
+- "com.azure.resourcemanager.network.fluent.VirtualWansClient.createOrUpdate(java.lang.String,java.lang.String,com.azure.resourcemanager.network.fluent.inner.VirtualWanInner,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.network.fluent.VirtualWansClient.createOrUpdateAsync(java.lang.String,java.lang.String,com.azure.resourcemanager.network.fluent.inner.VirtualWanInner)"
+- "com.azure.resourcemanager.network.fluent.VirtualWansClient.createOrUpdateAsync(java.lang.String,java.lang.String,com.azure.resourcemanager.network.fluent.inner.VirtualWanInner,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.network.fluent.VirtualWansClient.createOrUpdateWithResponseAsync(java.lang.String,java.lang.String,com.azure.resourcemanager.network.fluent.inner.VirtualWanInner)"
+- "com.azure.resourcemanager.network.fluent.VirtualWansClient.createOrUpdateWithResponseAsync(java.lang.String,java.lang.String,com.azure.resourcemanager.network.fluent.inner.VirtualWanInner,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.network.fluent.VirtualWansClient.delete(java.lang.String,java.lang.String)"
+- "com.azure.resourcemanager.network.fluent.VirtualWansClient.delete(java.lang.String,java.lang.String,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.network.fluent.VirtualWansClient.deleteAsync(java.lang.String,java.lang.String)"
+- "com.azure.resourcemanager.network.fluent.VirtualWansClient.deleteAsync(java.lang.String,java.lang.String,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.network.fluent.VirtualWansClient.deleteWithResponseAsync(java.lang.String,java.lang.String)"
+- "com.azure.resourcemanager.network.fluent.VirtualWansClient.deleteWithResponseAsync(java.lang.String,java.lang.String,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.network.fluent.VirtualWansClient.getByResourceGroup(java.lang.String,java.lang.String)"
+- "com.azure.resourcemanager.network.fluent.VirtualWansClient.getByResourceGroup(java.lang.String,java.lang.String,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.network.fluent.VirtualWansClient.getByResourceGroupAsync(java.lang.String,java.lang.String)"
+- "com.azure.resourcemanager.network.fluent.VirtualWansClient.getByResourceGroupAsync(java.lang.String,java.lang.String,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.network.fluent.VirtualWansClient.getByResourceGroupWithResponseAsync(java.lang.String,java.lang.String)"
+- "com.azure.resourcemanager.network.fluent.VirtualWansClient.getByResourceGroupWithResponseAsync(java.lang.String,java.lang.String,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.network.fluent.VirtualWansClient.list()"
+- "com.azure.resourcemanager.network.fluent.VirtualWansClient.list(com.azure.core.util.Context)"
+- "com.azure.resourcemanager.network.fluent.VirtualWansClient.listAsync()"
+- "com.azure.resourcemanager.network.fluent.VirtualWansClient.listAsync(com.azure.core.util.Context)"
+- "com.azure.resourcemanager.network.fluent.VirtualWansClient.listByResourceGroup(java.lang.String)"
+- "com.azure.resourcemanager.network.fluent.VirtualWansClient.listByResourceGroup(java.lang.String,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.network.fluent.VirtualWansClient.listByResourceGroupAsync(java.lang.String)"
+- "com.azure.resourcemanager.network.fluent.VirtualWansClient.listByResourceGroupAsync(java.lang.String,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.network.fluent.VirtualWansClient.listByResourceGroupNextSinglePageAsync(java.lang.String)"
+- "com.azure.resourcemanager.network.fluent.VirtualWansClient.listByResourceGroupNextSinglePageAsync(java.lang.String,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.network.fluent.VirtualWansClient.listByResourceGroupSinglePageAsync(java.lang.String)"
+- "com.azure.resourcemanager.network.fluent.VirtualWansClient.listByResourceGroupSinglePageAsync(java.lang.String,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.network.fluent.VirtualWansClient.listNextSinglePageAsync(java.lang.String)"
+- "com.azure.resourcemanager.network.fluent.VirtualWansClient.listNextSinglePageAsync(java.lang.String,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.network.fluent.VirtualWansClient.listSinglePageAsync()"
+- "com.azure.resourcemanager.network.fluent.VirtualWansClient.listSinglePageAsync(com.azure.core.util.Context)"
+- "com.azure.resourcemanager.network.fluent.VirtualWansClient.updateTags(java.lang.String,java.lang.String,java.util.Map<java.lang.String,java.lang.String>)"
+- "com.azure.resourcemanager.network.fluent.VirtualWansClient.updateTags(java.lang.String,java.lang.String,java.util.Map<java.lang.String,java.lang.String>,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.network.fluent.VirtualWansClient.updateTagsAsync(java.lang.String,java.lang.String,java.util.Map<java.lang.String,java.lang.String>)"
+- "com.azure.resourcemanager.network.fluent.VirtualWansClient.updateTagsAsync(java.lang.String,java.lang.String,java.util.Map<java.lang.String,java.lang.String>,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.network.fluent.VirtualWansClient.updateTagsWithResponseAsync(java.lang.String,java.lang.String,java.util.Map<java.lang.String,java.lang.String>)"
+- "com.azure.resourcemanager.network.fluent.VirtualWansClient.updateTagsWithResponseAsync(java.lang.String,java.lang.String,java.util.Map<java.lang.String,java.lang.String>,com.azure.core.util.Context)"
+type: "class"
 implements:
-- <xref href="com.azure.resourcemanager.resources.fluentcore.collection.InnerSupportsDelete?alt=com.azure.resourcemanager.resources.fluentcore.collection.InnerSupportsDelete&text=InnerSupportsDelete" data-throw-if-not-resolved="False" />&lt;<xref href="java.lang.Void?alt=java.lang.Void&text=Void" data-throw-if-not-resolved="False" />&gt;
-- <xref href="com.azure.resourcemanager.resources.fluentcore.collection.InnerSupportsGet?alt=com.azure.resourcemanager.resources.fluentcore.collection.InnerSupportsGet&text=InnerSupportsGet" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.resourcemanager.network.fluent.inner.VirtualWanInner?alt=com.azure.resourcemanager.network.fluent.inner.VirtualWanInner&text=VirtualWanInner" data-throw-if-not-resolved="False" />&gt;
-- <xref href="com.azure.resourcemanager.resources.fluentcore.collection.InnerSupportsListing?alt=com.azure.resourcemanager.resources.fluentcore.collection.InnerSupportsListing&text=InnerSupportsListing" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.resourcemanager.network.fluent.inner.VirtualWanInner?alt=com.azure.resourcemanager.network.fluent.inner.VirtualWanInner&text=VirtualWanInner" data-throw-if-not-resolved="False" />&gt;
+- "<xref href=\"com.azure.resourcemanager.resources.fluentcore.collection.InnerSupportsDelete?alt=com.azure.resourcemanager.resources.fluentcore.collection.InnerSupportsDelete&text=InnerSupportsDelete\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"java.lang.Void?alt=java.lang.Void&text=Void\" data-throw-if-not-resolved=\"False\" />&gt;"
+- "<xref href=\"com.azure.resourcemanager.resources.fluentcore.collection.InnerSupportsGet?alt=com.azure.resourcemanager.resources.fluentcore.collection.InnerSupportsGet&text=InnerSupportsGet\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.network.fluent.inner.VirtualWanInner?alt=com.azure.resourcemanager.network.fluent.inner.VirtualWanInner&text=VirtualWanInner\" data-throw-if-not-resolved=\"False\" />&gt;"
+- "<xref href=\"com.azure.resourcemanager.resources.fluentcore.collection.InnerSupportsListing?alt=com.azure.resourcemanager.resources.fluentcore.collection.InnerSupportsListing&text=InnerSupportsListing\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.network.fluent.inner.VirtualWanInner?alt=com.azure.resourcemanager.network.fluent.inner.VirtualWanInner&text=VirtualWanInner\" data-throw-if-not-resolved=\"False\" />&gt;"
 metadata: {}
-package: com.azure.resourcemanager.network.fluent
+package: "com.azure.resourcemanager.network.fluent"
 artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.0.0-beta.2

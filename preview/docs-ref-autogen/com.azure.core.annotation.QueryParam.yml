@@ -1,49 +1,16 @@
 ### YamlMime:JavaType
-uid: com.azure.core.annotation.QueryParam
-fullName: com.azure.core.annotation.QueryParam
-name: QueryParam
-nameWithType: QueryParam
-summary: |-
-  Annotation for query parameters to be appended to a REST API Request URI.
-
-  **Example 1:**
-
-  ```java
-  @GET("subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/resources")
-   Single> listByResourceGroup(@PathParam("resourceGroupName") String
-   resourceGroupName, @PathParam("subscriptionId") String subscriptionId, @QueryParam("$filter") String
-   filter, @QueryParam("$expand") String expand, @QueryParam("$top") Integer top, @QueryParam("api-version") String
-   apiVersion);
-  ```
-
-  The value of parameters filter, expand, top, apiVersion will be encoded and encoded value will be used to replace the corresponding path segment \{$filter\}, \{$expand\}, \{$top\}, \{api-version\} respectively.
-
-  **Example 2:** (A use case where PathParam.encoded=true will be used)
-
-  It is possible that, a path segment variable can be used to represent sub path:
-
-  ```java
-  @GET("http://wq.com/foo/{subpath}/values")
-    String getValues(@PathParam("subpath") String param, @QueryParam("connectionString") String connectionString);
-  ```
-
-  In this case, if consumer pass "a=b" as the value for query then the resolved url looks like: "`http://wq.com/foo/paramblah/values?connectionString=a%3Db`"
-
-  For such cases the encoded attribute can be used:
-
-  ```java
-  @GET("http://wq.com/foo/{subpath}/values")
-    String getValues(@PathParam("subpath") String param, @QueryParam("query", encoded = true) String query);
-  ```
-
-  In this case, if consumer pass "a=b" as the value for param1 then the resolved url looks as expected: "`http://wq.com/foo/paramblah/values?connectionString=a=b`"
-syntax: public interface QueryParam implements Annotation
+uid: "com.azure.core.annotation.QueryParam"
+fullName: "com.azure.core.annotation.QueryParam"
+name: "QueryParam"
+nameWithType: "QueryParam"
+summary: "Annotation for query parameters to be appended to a REST API Request URI.\n\n**Example 1:**\n\n```java\n@GET(\"subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/resources\")\n Single> listByResourceGroup(@PathParam(\"resourceGroupName\") String\n resourceGroupName, @PathParam(\"subscriptionId\") String subscriptionId, @QueryParam(\"$filter\") String\n filter, @QueryParam(\"$expand\") String expand, @QueryParam(\"$top\") Integer top, @QueryParam(\"api-version\") String\n apiVersion);\n```\n\nThe value of parameters filter, expand, top, apiVersion will be encoded and encoded value will be used to replace the corresponding path segment \\{$filter\\}, \\{$expand\\}, \\{$top\\}, \\{api-version\\} respectively.\n\n**Example 2:** (A use case where PathParam.encoded=true will be used)\n\nIt is possible that, a path segment variable can be used to represent sub path:\n\n```java\n@GET(\"http://wq.com/foo/{subpath}/values\")\n  String getValues(@PathParam(\"subpath\") String param, @QueryParam(\"connectionString\") String connectionString);\n```\n\nIn this case, if consumer pass \"a=b\" as the value for query then the resolved url looks like: \"`http://wq.com/foo/paramblah/values?connectionString=a%3Db`\"\n\nFor such cases the encoded attribute can be used:\n\n```java\n@GET(\"http://wq.com/foo/{subpath}/values\")\n  String getValues(@PathParam(\"subpath\") String param, @QueryParam(\"query\", encoded = true) String query);\n```\n\nIn this case, if consumer pass \"a=b\" as the value for param1 then the resolved url looks as expected: \"`http://wq.com/foo/paramblah/values?connectionString=a=b`\""
+syntax: "public interface QueryParam implements Annotation"
 methods:
-- com.azure.core.annotation.QueryParam.encoded()
-- com.azure.core.annotation.QueryParam.value()
-type: interface
+- "com.azure.core.annotation.QueryParam.encoded()"
+- "com.azure.core.annotation.QueryParam.value()"
+type: "interface"
 implements:
-- <xref href="java.lang.annotation.Annotation?alt=java.lang.annotation.Annotation&text=Annotation" data-throw-if-not-resolved="False" />
+- "<xref href=\"java.lang.annotation.Annotation?alt=java.lang.annotation.Annotation&text=Annotation\" data-throw-if-not-resolved=\"False\" />"
 metadata: {}
-package: com.azure.core.annotation
+package: "com.azure.core.annotation"
 artifact: com.azure:azure-core:1.3.0-beta.1

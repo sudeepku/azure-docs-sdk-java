@@ -1,31 +1,31 @@
 ### YamlMime:JavaType
-uid: com.azure.data.schemaregistry.AbstractDataSerDe
-fullName: com.azure.data.schemaregistry.AbstractDataSerDe
-name: AbstractDataSerDe
-nameWithType: AbstractDataSerDe
-summary: Common fields and helper methods for both the serializer and the deserializer.
+uid: "com.azure.data.schemaregistry.AbstractDataSerDe"
+fullName: "com.azure.data.schemaregistry.AbstractDataSerDe"
+name: "AbstractDataSerDe"
+nameWithType: "AbstractDataSerDe"
+summary: "Common fields and helper methods for both the serializer and the deserializer."
 inheritances:
-- <xref href="java.lang.Object" data-throw-if-not-resolved="False" />
+- "<xref href=\"java.lang.Object\" data-throw-if-not-resolved=\"False\" />"
 inheritedMembers:
-- java.lang.Object.clone()
-- java.lang.Object.equals(java.lang.Object)
-- java.lang.Object.finalize()
-- java.lang.Object.getClass()
-- java.lang.Object.hashCode()
-- java.lang.Object.notify()
-- java.lang.Object.notifyAll()
-- java.lang.Object.toString()
-- java.lang.Object.wait()
-- java.lang.Object.wait(long)
-- java.lang.Object.wait(long,int)
-syntax: public abstract class AbstractDataSerDe
+- "java.lang.Object.clone()"
+- "java.lang.Object.equals(java.lang.Object)"
+- "java.lang.Object.finalize()"
+- "java.lang.Object.getClass()"
+- "java.lang.Object.hashCode()"
+- "java.lang.Object.notify()"
+- "java.lang.Object.notifyAll()"
+- "java.lang.Object.toString()"
+- "java.lang.Object.wait()"
+- "java.lang.Object.wait(long)"
+- "java.lang.Object.wait(long,int)"
+syntax: "public abstract class AbstractDataSerDe"
 constructors:
-- com.azure.data.schemaregistry.AbstractDataSerDe.AbstractDataSerDe()
-- com.azure.data.schemaregistry.AbstractDataSerDe.AbstractDataSerDe(com.azure.data.schemaregistry.client.SchemaRegistryClient)
+- "com.azure.data.schemaregistry.AbstractDataSerDe.AbstractDataSerDe()"
+- "com.azure.data.schemaregistry.AbstractDataSerDe.AbstractDataSerDe(com.azure.data.schemaregistry.client.SchemaRegistryClient)"
 fields:
-- com.azure.data.schemaregistry.AbstractDataSerDe.SCHEMA_ID_SIZE
-- com.azure.data.schemaregistry.AbstractDataSerDe.schemaRegistryClient
-type: class
+- "com.azure.data.schemaregistry.AbstractDataSerDe.SCHEMA_ID_SIZE"
+- "com.azure.data.schemaregistry.AbstractDataSerDe.schemaRegistryClient"
+type: "class"
 metadata: {}
-package: com.azure.data.schemaregistry
+package: "com.azure.data.schemaregistry"
 artifact: com.azure:azure-data-schemaregistry:1.0.0-beta.1

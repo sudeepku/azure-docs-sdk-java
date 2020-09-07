@@ -1,31 +1,31 @@
 ### YamlMime:JavaType
-uid: com.azure.resourcemanager.network.models.FirewallPolicyFilterRuleAction
-fullName: com.azure.resourcemanager.network.models.FirewallPolicyFilterRuleAction
-name: FirewallPolicyFilterRuleAction
-nameWithType: FirewallPolicyFilterRuleAction
-summary: The FirewallPolicyFilterRuleAction model.
+uid: "com.azure.resourcemanager.network.models.FirewallPolicyFilterRuleAction"
+fullName: "com.azure.resourcemanager.network.models.FirewallPolicyFilterRuleAction"
+name: "FirewallPolicyFilterRuleAction"
+nameWithType: "FirewallPolicyFilterRuleAction"
+summary: "The FirewallPolicyFilterRuleAction model."
 inheritances:
-- <xref href="java.lang.Object" data-throw-if-not-resolved="False" />
+- "<xref href=\"java.lang.Object\" data-throw-if-not-resolved=\"False\" />"
 inheritedMembers:
-- java.lang.Object.clone()
-- java.lang.Object.equals(java.lang.Object)
-- java.lang.Object.finalize()
-- java.lang.Object.getClass()
-- java.lang.Object.hashCode()
-- java.lang.Object.notify()
-- java.lang.Object.notifyAll()
-- java.lang.Object.toString()
-- java.lang.Object.wait()
-- java.lang.Object.wait(long)
-- java.lang.Object.wait(long,int)
-syntax: public final class FirewallPolicyFilterRuleAction
+- "java.lang.Object.clone()"
+- "java.lang.Object.equals(java.lang.Object)"
+- "java.lang.Object.finalize()"
+- "java.lang.Object.getClass()"
+- "java.lang.Object.hashCode()"
+- "java.lang.Object.notify()"
+- "java.lang.Object.notifyAll()"
+- "java.lang.Object.toString()"
+- "java.lang.Object.wait()"
+- "java.lang.Object.wait(long)"
+- "java.lang.Object.wait(long,int)"
+syntax: "public final class FirewallPolicyFilterRuleAction"
 constructors:
-- com.azure.resourcemanager.network.models.FirewallPolicyFilterRuleAction.FirewallPolicyFilterRuleAction()
+- "com.azure.resourcemanager.network.models.FirewallPolicyFilterRuleAction.FirewallPolicyFilterRuleAction()"
 methods:
-- com.azure.resourcemanager.network.models.FirewallPolicyFilterRuleAction.type()
-- com.azure.resourcemanager.network.models.FirewallPolicyFilterRuleAction.validate()
-- com.azure.resourcemanager.network.models.FirewallPolicyFilterRuleAction.withType(com.azure.resourcemanager.network.models.FirewallPolicyFilterRuleActionType)
-type: class
+- "com.azure.resourcemanager.network.models.FirewallPolicyFilterRuleAction.type()"
+- "com.azure.resourcemanager.network.models.FirewallPolicyFilterRuleAction.validate()"
+- "com.azure.resourcemanager.network.models.FirewallPolicyFilterRuleAction.withType(com.azure.resourcemanager.network.models.FirewallPolicyFilterRuleActionType)"
+type: "class"
 metadata: {}
-package: com.azure.resourcemanager.network.models
+package: "com.azure.resourcemanager.network.models"
 artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.0.0-beta.2

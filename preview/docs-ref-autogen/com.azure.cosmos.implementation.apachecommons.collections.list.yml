@@ -1,13 +1,13 @@
 ### YamlMime:JavaPackage
-uid: com.azure.cosmos.implementation.apachecommons.collections.list
-fullName: com.azure.cosmos.implementation.apachecommons.collections.list
-name: com.azure.cosmos.implementation.apachecommons.collections.list
+uid: "com.azure.cosmos.implementation.apachecommons.collections.list"
+fullName: "com.azure.cosmos.implementation.apachecommons.collections.list"
+name: "com.azure.cosmos.implementation.apachecommons.collections.list"
 classes:
-- com.azure.cosmos.implementation.apachecommons.collections.list.AbstractListDecorator
-- com.azure.cosmos.implementation.apachecommons.collections.list.AbstractSerializableListDecorator
-- com.azure.cosmos.implementation.apachecommons.collections.list.UnmodifiableList
+- "com.azure.cosmos.implementation.apachecommons.collections.list.AbstractListDecorator"
+- "com.azure.cosmos.implementation.apachecommons.collections.list.AbstractSerializableListDecorator"
+- "com.azure.cosmos.implementation.apachecommons.collections.list.UnmodifiableList"
 interfaces:
-- com.azure.cosmos.implementation.apachecommons.collections.list.Unmodifiable
+- "com.azure.cosmos.implementation.apachecommons.collections.list.Unmodifiable"
 metadata: {}
-package: com.azure.cosmos.implementation.apachecommons.collections.list
+package: "com.azure.cosmos.implementation.apachecommons.collections.list"
 artifact: com.azure:azure-cosmos:4.3.2-beta.2

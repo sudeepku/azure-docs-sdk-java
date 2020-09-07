@@ -1,33 +1,33 @@
 ### YamlMime:JavaType
-uid: com.azure.resourcemanager.network.models.ApplicationGatewayRewriteRuleActionSet
-fullName: com.azure.resourcemanager.network.models.ApplicationGatewayRewriteRuleActionSet
-name: ApplicationGatewayRewriteRuleActionSet
-nameWithType: ApplicationGatewayRewriteRuleActionSet
-summary: The ApplicationGatewayRewriteRuleActionSet model.
+uid: "com.azure.resourcemanager.network.models.ApplicationGatewayRewriteRuleActionSet"
+fullName: "com.azure.resourcemanager.network.models.ApplicationGatewayRewriteRuleActionSet"
+name: "ApplicationGatewayRewriteRuleActionSet"
+nameWithType: "ApplicationGatewayRewriteRuleActionSet"
+summary: "The ApplicationGatewayRewriteRuleActionSet model."
 inheritances:
-- <xref href="java.lang.Object" data-throw-if-not-resolved="False" />
+- "<xref href=\"java.lang.Object\" data-throw-if-not-resolved=\"False\" />"
 inheritedMembers:
-- java.lang.Object.clone()
-- java.lang.Object.equals(java.lang.Object)
-- java.lang.Object.finalize()
-- java.lang.Object.getClass()
-- java.lang.Object.hashCode()
-- java.lang.Object.notify()
-- java.lang.Object.notifyAll()
-- java.lang.Object.toString()
-- java.lang.Object.wait()
-- java.lang.Object.wait(long)
-- java.lang.Object.wait(long,int)
-syntax: public final class ApplicationGatewayRewriteRuleActionSet
+- "java.lang.Object.clone()"
+- "java.lang.Object.equals(java.lang.Object)"
+- "java.lang.Object.finalize()"
+- "java.lang.Object.getClass()"
+- "java.lang.Object.hashCode()"
+- "java.lang.Object.notify()"
+- "java.lang.Object.notifyAll()"
+- "java.lang.Object.toString()"
+- "java.lang.Object.wait()"
+- "java.lang.Object.wait(long)"
+- "java.lang.Object.wait(long,int)"
+syntax: "public final class ApplicationGatewayRewriteRuleActionSet"
 constructors:
-- com.azure.resourcemanager.network.models.ApplicationGatewayRewriteRuleActionSet.ApplicationGatewayRewriteRuleActionSet()
+- "com.azure.resourcemanager.network.models.ApplicationGatewayRewriteRuleActionSet.ApplicationGatewayRewriteRuleActionSet()"
 methods:
-- com.azure.resourcemanager.network.models.ApplicationGatewayRewriteRuleActionSet.requestHeaderConfigurations()
-- com.azure.resourcemanager.network.models.ApplicationGatewayRewriteRuleActionSet.responseHeaderConfigurations()
-- com.azure.resourcemanager.network.models.ApplicationGatewayRewriteRuleActionSet.validate()
-- com.azure.resourcemanager.network.models.ApplicationGatewayRewriteRuleActionSet.withRequestHeaderConfigurations(java.util.List<com.azure.resourcemanager.network.models.ApplicationGatewayHeaderConfiguration>)
-- com.azure.resourcemanager.network.models.ApplicationGatewayRewriteRuleActionSet.withResponseHeaderConfigurations(java.util.List<com.azure.resourcemanager.network.models.ApplicationGatewayHeaderConfiguration>)
-type: class
+- "com.azure.resourcemanager.network.models.ApplicationGatewayRewriteRuleActionSet.requestHeaderConfigurations()"
+- "com.azure.resourcemanager.network.models.ApplicationGatewayRewriteRuleActionSet.responseHeaderConfigurations()"
+- "com.azure.resourcemanager.network.models.ApplicationGatewayRewriteRuleActionSet.validate()"
+- "com.azure.resourcemanager.network.models.ApplicationGatewayRewriteRuleActionSet.withRequestHeaderConfigurations(java.util.List<com.azure.resourcemanager.network.models.ApplicationGatewayHeaderConfiguration>)"
+- "com.azure.resourcemanager.network.models.ApplicationGatewayRewriteRuleActionSet.withResponseHeaderConfigurations(java.util.List<com.azure.resourcemanager.network.models.ApplicationGatewayHeaderConfiguration>)"
+type: "class"
 metadata: {}
-package: com.azure.resourcemanager.network.models
+package: "com.azure.resourcemanager.network.models"
 artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.0.0-beta.2

@@ -1,55 +1,55 @@
 ### YamlMime:JavaType
-uid: com.azure.resourcemanager.monitor.MonitorClient
-fullName: com.azure.resourcemanager.monitor.MonitorClient
-name: MonitorClient
-nameWithType: MonitorClient
-summary: Initializes a new instance of the MonitorClient type.
+uid: "com.azure.resourcemanager.monitor.MonitorClient"
+fullName: "com.azure.resourcemanager.monitor.MonitorClient"
+name: "MonitorClient"
+nameWithType: "MonitorClient"
+summary: "Initializes a new instance of the MonitorClient type."
 inheritances:
-- <xref href="java.lang.Object" data-throw-if-not-resolved="False" />
-- <xref href="com.azure.resourcemanager.AzureServiceClient" data-throw-if-not-resolved="False" />
+- "<xref href=\"java.lang.Object\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.azure.resourcemanager.AzureServiceClient\" data-throw-if-not-resolved=\"False\" />"
 inheritedMembers:
-- com.azure.resourcemanager.AzureServiceClient.<T,U>getLroResultAsync(reactor.core.publisher.Mono<? extends com.azure.core.http.rest.Response<reactor.core.publisher.Flux<java.nio.ByteBuffer>>>,com.azure.core.http.HttpPipeline,java.lang.reflect.Type,java.lang.reflect.Type)
-- com.azure.resourcemanager.AzureServiceClient.getContext()
-- com.azure.resourcemanager.AzureServiceClient.getSerializerAdapter()
-- com.azure.resourcemanager.AzureServiceClient.userAgent()
-- java.lang.Object.clone()
-- java.lang.Object.equals(java.lang.Object)
-- java.lang.Object.finalize()
-- java.lang.Object.getClass()
-- java.lang.Object.hashCode()
-- java.lang.Object.notify()
-- java.lang.Object.notifyAll()
-- java.lang.Object.toString()
-- java.lang.Object.wait()
-- java.lang.Object.wait(long)
-- java.lang.Object.wait(long,int)
-syntax: public final class MonitorClient extends AzureServiceClient
+- "com.azure.resourcemanager.AzureServiceClient.<T,U>getLroResultAsync(reactor.core.publisher.Mono<? extends com.azure.core.http.rest.Response<reactor.core.publisher.Flux<java.nio.ByteBuffer>>>,com.azure.core.http.HttpPipeline,java.lang.reflect.Type,java.lang.reflect.Type)"
+- "com.azure.resourcemanager.AzureServiceClient.getContext()"
+- "com.azure.resourcemanager.AzureServiceClient.getSerializerAdapter()"
+- "com.azure.resourcemanager.AzureServiceClient.userAgent()"
+- "java.lang.Object.clone()"
+- "java.lang.Object.equals(java.lang.Object)"
+- "java.lang.Object.finalize()"
+- "java.lang.Object.getClass()"
+- "java.lang.Object.hashCode()"
+- "java.lang.Object.notify()"
+- "java.lang.Object.notifyAll()"
+- "java.lang.Object.toString()"
+- "java.lang.Object.wait()"
+- "java.lang.Object.wait(long)"
+- "java.lang.Object.wait(long,int)"
+syntax: "public final class MonitorClient extends AzureServiceClient"
 methods:
-- com.azure.resourcemanager.monitor.MonitorClient.getActionGroups()
-- com.azure.resourcemanager.monitor.MonitorClient.getActivityLogAlerts()
-- com.azure.resourcemanager.monitor.MonitorClient.getActivityLogs()
-- com.azure.resourcemanager.monitor.MonitorClient.getAlertRuleIncidents()
-- com.azure.resourcemanager.monitor.MonitorClient.getAlertRules()
-- com.azure.resourcemanager.monitor.MonitorClient.getAutoscaleSettings()
-- com.azure.resourcemanager.monitor.MonitorClient.getBaselines()
-- com.azure.resourcemanager.monitor.MonitorClient.getDiagnosticSettings()
-- com.azure.resourcemanager.monitor.MonitorClient.getDiagnosticSettingsCategorys()
-- com.azure.resourcemanager.monitor.MonitorClient.getEndpoint()
-- com.azure.resourcemanager.monitor.MonitorClient.getEventCategories()
-- com.azure.resourcemanager.monitor.MonitorClient.getHttpPipeline()
-- com.azure.resourcemanager.monitor.MonitorClient.getLogProfiles()
-- com.azure.resourcemanager.monitor.MonitorClient.getMetricAlerts()
-- com.azure.resourcemanager.monitor.MonitorClient.getMetricAlertsStatus()
-- com.azure.resourcemanager.monitor.MonitorClient.getMetricBaselines()
-- com.azure.resourcemanager.monitor.MonitorClient.getMetricDefinitions()
-- com.azure.resourcemanager.monitor.MonitorClient.getMetricNamespaces()
-- com.azure.resourcemanager.monitor.MonitorClient.getMetrics()
-- com.azure.resourcemanager.monitor.MonitorClient.getOperations()
-- com.azure.resourcemanager.monitor.MonitorClient.getScheduledQueryRules()
-- com.azure.resourcemanager.monitor.MonitorClient.getSubscriptionId()
-- com.azure.resourcemanager.monitor.MonitorClient.getTenantActivityLogs()
-- com.azure.resourcemanager.monitor.MonitorClient.getVMInsights()
-type: class
+- "com.azure.resourcemanager.monitor.MonitorClient.getActionGroups()"
+- "com.azure.resourcemanager.monitor.MonitorClient.getActivityLogAlerts()"
+- "com.azure.resourcemanager.monitor.MonitorClient.getActivityLogs()"
+- "com.azure.resourcemanager.monitor.MonitorClient.getAlertRuleIncidents()"
+- "com.azure.resourcemanager.monitor.MonitorClient.getAlertRules()"
+- "com.azure.resourcemanager.monitor.MonitorClient.getAutoscaleSettings()"
+- "com.azure.resourcemanager.monitor.MonitorClient.getBaselines()"
+- "com.azure.resourcemanager.monitor.MonitorClient.getDiagnosticSettings()"
+- "com.azure.resourcemanager.monitor.MonitorClient.getDiagnosticSettingsCategorys()"
+- "com.azure.resourcemanager.monitor.MonitorClient.getEndpoint()"
+- "com.azure.resourcemanager.monitor.MonitorClient.getEventCategories()"
+- "com.azure.resourcemanager.monitor.MonitorClient.getHttpPipeline()"
+- "com.azure.resourcemanager.monitor.MonitorClient.getLogProfiles()"
+- "com.azure.resourcemanager.monitor.MonitorClient.getMetricAlerts()"
+- "com.azure.resourcemanager.monitor.MonitorClient.getMetricAlertsStatus()"
+- "com.azure.resourcemanager.monitor.MonitorClient.getMetricBaselines()"
+- "com.azure.resourcemanager.monitor.MonitorClient.getMetricDefinitions()"
+- "com.azure.resourcemanager.monitor.MonitorClient.getMetricNamespaces()"
+- "com.azure.resourcemanager.monitor.MonitorClient.getMetrics()"
+- "com.azure.resourcemanager.monitor.MonitorClient.getOperations()"
+- "com.azure.resourcemanager.monitor.MonitorClient.getScheduledQueryRules()"
+- "com.azure.resourcemanager.monitor.MonitorClient.getSubscriptionId()"
+- "com.azure.resourcemanager.monitor.MonitorClient.getTenantActivityLogs()"
+- "com.azure.resourcemanager.monitor.MonitorClient.getVMInsights()"
+type: "class"
 metadata: {}
-package: com.azure.resourcemanager.monitor
+package: "com.azure.resourcemanager.monitor"
 artifact: com.azure.resourcemanager:azure-resourcemanager-monitor:2.0.0-beta.2

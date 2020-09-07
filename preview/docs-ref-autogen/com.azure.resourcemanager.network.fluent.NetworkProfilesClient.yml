@@ -1,82 +1,82 @@
 ### YamlMime:JavaType
-uid: com.azure.resourcemanager.network.fluent.NetworkProfilesClient
-fullName: com.azure.resourcemanager.network.fluent.NetworkProfilesClient
-name: NetworkProfilesClient
-nameWithType: NetworkProfilesClient
-summary: An instance of this class provides access to all the operations defined in NetworkProfiles.
+uid: "com.azure.resourcemanager.network.fluent.NetworkProfilesClient"
+fullName: "com.azure.resourcemanager.network.fluent.NetworkProfilesClient"
+name: "NetworkProfilesClient"
+nameWithType: "NetworkProfilesClient"
+summary: "An instance of this class provides access to all the operations defined in NetworkProfiles."
 inheritances:
-- <xref href="java.lang.Object" data-throw-if-not-resolved="False" />
+- "<xref href=\"java.lang.Object\" data-throw-if-not-resolved=\"False\" />"
 inheritedMembers:
-- java.lang.Object.clone()
-- java.lang.Object.equals(java.lang.Object)
-- java.lang.Object.finalize()
-- java.lang.Object.getClass()
-- java.lang.Object.hashCode()
-- java.lang.Object.notify()
-- java.lang.Object.notifyAll()
-- java.lang.Object.toString()
-- java.lang.Object.wait()
-- java.lang.Object.wait(long)
-- java.lang.Object.wait(long,int)
-syntax: public final class NetworkProfilesClient implements InnerSupportsGet<NetworkProfileInner>, InnerSupportsListing<NetworkProfileInner>, InnerSupportsDelete<Void>
+- "java.lang.Object.clone()"
+- "java.lang.Object.equals(java.lang.Object)"
+- "java.lang.Object.finalize()"
+- "java.lang.Object.getClass()"
+- "java.lang.Object.hashCode()"
+- "java.lang.Object.notify()"
+- "java.lang.Object.notifyAll()"
+- "java.lang.Object.toString()"
+- "java.lang.Object.wait()"
+- "java.lang.Object.wait(long)"
+- "java.lang.Object.wait(long,int)"
+syntax: "public final class NetworkProfilesClient implements InnerSupportsGet<NetworkProfileInner>, InnerSupportsListing<NetworkProfileInner>, InnerSupportsDelete<Void>"
 constructors:
-- com.azure.resourcemanager.network.fluent.NetworkProfilesClient.NetworkProfilesClient(com.azure.resourcemanager.network.NetworkManagementClient)
+- "com.azure.resourcemanager.network.fluent.NetworkProfilesClient.NetworkProfilesClient(com.azure.resourcemanager.network.NetworkManagementClient)"
 methods:
-- com.azure.resourcemanager.network.fluent.NetworkProfilesClient.beginDelete(java.lang.String,java.lang.String)
-- com.azure.resourcemanager.network.fluent.NetworkProfilesClient.beginDelete(java.lang.String,java.lang.String,com.azure.core.util.Context)
-- com.azure.resourcemanager.network.fluent.NetworkProfilesClient.beginDeleteWithoutPolling(java.lang.String,java.lang.String)
-- com.azure.resourcemanager.network.fluent.NetworkProfilesClient.beginDeleteWithoutPolling(java.lang.String,java.lang.String,com.azure.core.util.Context)
-- com.azure.resourcemanager.network.fluent.NetworkProfilesClient.beginDeleteWithoutPollingAsync(java.lang.String,java.lang.String)
-- com.azure.resourcemanager.network.fluent.NetworkProfilesClient.beginDeleteWithoutPollingAsync(java.lang.String,java.lang.String,com.azure.core.util.Context)
-- com.azure.resourcemanager.network.fluent.NetworkProfilesClient.beginDeleteWithoutPollingWithResponseAsync(java.lang.String,java.lang.String)
-- com.azure.resourcemanager.network.fluent.NetworkProfilesClient.beginDeleteWithoutPollingWithResponseAsync(java.lang.String,java.lang.String,com.azure.core.util.Context)
-- com.azure.resourcemanager.network.fluent.NetworkProfilesClient.createOrUpdate(java.lang.String,java.lang.String,com.azure.resourcemanager.network.fluent.inner.NetworkProfileInner)
-- com.azure.resourcemanager.network.fluent.NetworkProfilesClient.createOrUpdate(java.lang.String,java.lang.String,com.azure.resourcemanager.network.fluent.inner.NetworkProfileInner,com.azure.core.util.Context)
-- com.azure.resourcemanager.network.fluent.NetworkProfilesClient.createOrUpdateAsync(java.lang.String,java.lang.String,com.azure.resourcemanager.network.fluent.inner.NetworkProfileInner)
-- com.azure.resourcemanager.network.fluent.NetworkProfilesClient.createOrUpdateAsync(java.lang.String,java.lang.String,com.azure.resourcemanager.network.fluent.inner.NetworkProfileInner,com.azure.core.util.Context)
-- com.azure.resourcemanager.network.fluent.NetworkProfilesClient.createOrUpdateWithResponseAsync(java.lang.String,java.lang.String,com.azure.resourcemanager.network.fluent.inner.NetworkProfileInner)
-- com.azure.resourcemanager.network.fluent.NetworkProfilesClient.createOrUpdateWithResponseAsync(java.lang.String,java.lang.String,com.azure.resourcemanager.network.fluent.inner.NetworkProfileInner,com.azure.core.util.Context)
-- com.azure.resourcemanager.network.fluent.NetworkProfilesClient.delete(java.lang.String,java.lang.String)
-- com.azure.resourcemanager.network.fluent.NetworkProfilesClient.delete(java.lang.String,java.lang.String,com.azure.core.util.Context)
-- com.azure.resourcemanager.network.fluent.NetworkProfilesClient.deleteAsync(java.lang.String,java.lang.String)
-- com.azure.resourcemanager.network.fluent.NetworkProfilesClient.deleteAsync(java.lang.String,java.lang.String,com.azure.core.util.Context)
-- com.azure.resourcemanager.network.fluent.NetworkProfilesClient.deleteWithResponseAsync(java.lang.String,java.lang.String)
-- com.azure.resourcemanager.network.fluent.NetworkProfilesClient.deleteWithResponseAsync(java.lang.String,java.lang.String,com.azure.core.util.Context)
-- com.azure.resourcemanager.network.fluent.NetworkProfilesClient.getByResourceGroup(java.lang.String,java.lang.String)
-- com.azure.resourcemanager.network.fluent.NetworkProfilesClient.getByResourceGroup(java.lang.String,java.lang.String,java.lang.String)
-- com.azure.resourcemanager.network.fluent.NetworkProfilesClient.getByResourceGroup(java.lang.String,java.lang.String,java.lang.String,com.azure.core.util.Context)
-- com.azure.resourcemanager.network.fluent.NetworkProfilesClient.getByResourceGroupAsync(java.lang.String,java.lang.String)
-- com.azure.resourcemanager.network.fluent.NetworkProfilesClient.getByResourceGroupAsync(java.lang.String,java.lang.String,java.lang.String)
-- com.azure.resourcemanager.network.fluent.NetworkProfilesClient.getByResourceGroupAsync(java.lang.String,java.lang.String,java.lang.String,com.azure.core.util.Context)
-- com.azure.resourcemanager.network.fluent.NetworkProfilesClient.getByResourceGroupWithResponseAsync(java.lang.String,java.lang.String,java.lang.String)
-- com.azure.resourcemanager.network.fluent.NetworkProfilesClient.getByResourceGroupWithResponseAsync(java.lang.String,java.lang.String,java.lang.String,com.azure.core.util.Context)
-- com.azure.resourcemanager.network.fluent.NetworkProfilesClient.list()
-- com.azure.resourcemanager.network.fluent.NetworkProfilesClient.list(com.azure.core.util.Context)
-- com.azure.resourcemanager.network.fluent.NetworkProfilesClient.listAllNextSinglePageAsync(java.lang.String)
-- com.azure.resourcemanager.network.fluent.NetworkProfilesClient.listAllNextSinglePageAsync(java.lang.String,com.azure.core.util.Context)
-- com.azure.resourcemanager.network.fluent.NetworkProfilesClient.listAsync()
-- com.azure.resourcemanager.network.fluent.NetworkProfilesClient.listAsync(com.azure.core.util.Context)
-- com.azure.resourcemanager.network.fluent.NetworkProfilesClient.listByResourceGroup(java.lang.String)
-- com.azure.resourcemanager.network.fluent.NetworkProfilesClient.listByResourceGroup(java.lang.String,com.azure.core.util.Context)
-- com.azure.resourcemanager.network.fluent.NetworkProfilesClient.listByResourceGroupAsync(java.lang.String)
-- com.azure.resourcemanager.network.fluent.NetworkProfilesClient.listByResourceGroupAsync(java.lang.String,com.azure.core.util.Context)
-- com.azure.resourcemanager.network.fluent.NetworkProfilesClient.listByResourceGroupSinglePageAsync(java.lang.String)
-- com.azure.resourcemanager.network.fluent.NetworkProfilesClient.listByResourceGroupSinglePageAsync(java.lang.String,com.azure.core.util.Context)
-- com.azure.resourcemanager.network.fluent.NetworkProfilesClient.listNextSinglePageAsync(java.lang.String)
-- com.azure.resourcemanager.network.fluent.NetworkProfilesClient.listNextSinglePageAsync(java.lang.String,com.azure.core.util.Context)
-- com.azure.resourcemanager.network.fluent.NetworkProfilesClient.listSinglePageAsync()
-- com.azure.resourcemanager.network.fluent.NetworkProfilesClient.listSinglePageAsync(com.azure.core.util.Context)
-- com.azure.resourcemanager.network.fluent.NetworkProfilesClient.updateTags(java.lang.String,java.lang.String,java.util.Map<java.lang.String,java.lang.String>)
-- com.azure.resourcemanager.network.fluent.NetworkProfilesClient.updateTags(java.lang.String,java.lang.String,java.util.Map<java.lang.String,java.lang.String>,com.azure.core.util.Context)
-- com.azure.resourcemanager.network.fluent.NetworkProfilesClient.updateTagsAsync(java.lang.String,java.lang.String,java.util.Map<java.lang.String,java.lang.String>)
-- com.azure.resourcemanager.network.fluent.NetworkProfilesClient.updateTagsAsync(java.lang.String,java.lang.String,java.util.Map<java.lang.String,java.lang.String>,com.azure.core.util.Context)
-- com.azure.resourcemanager.network.fluent.NetworkProfilesClient.updateTagsWithResponseAsync(java.lang.String,java.lang.String,java.util.Map<java.lang.String,java.lang.String>)
-- com.azure.resourcemanager.network.fluent.NetworkProfilesClient.updateTagsWithResponseAsync(java.lang.String,java.lang.String,java.util.Map<java.lang.String,java.lang.String>,com.azure.core.util.Context)
-type: class
+- "com.azure.resourcemanager.network.fluent.NetworkProfilesClient.beginDelete(java.lang.String,java.lang.String)"
+- "com.azure.resourcemanager.network.fluent.NetworkProfilesClient.beginDelete(java.lang.String,java.lang.String,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.network.fluent.NetworkProfilesClient.beginDeleteWithoutPolling(java.lang.String,java.lang.String)"
+- "com.azure.resourcemanager.network.fluent.NetworkProfilesClient.beginDeleteWithoutPolling(java.lang.String,java.lang.String,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.network.fluent.NetworkProfilesClient.beginDeleteWithoutPollingAsync(java.lang.String,java.lang.String)"
+- "com.azure.resourcemanager.network.fluent.NetworkProfilesClient.beginDeleteWithoutPollingAsync(java.lang.String,java.lang.String,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.network.fluent.NetworkProfilesClient.beginDeleteWithoutPollingWithResponseAsync(java.lang.String,java.lang.String)"
+- "com.azure.resourcemanager.network.fluent.NetworkProfilesClient.beginDeleteWithoutPollingWithResponseAsync(java.lang.String,java.lang.String,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.network.fluent.NetworkProfilesClient.createOrUpdate(java.lang.String,java.lang.String,com.azure.resourcemanager.network.fluent.inner.NetworkProfileInner)"
+- "com.azure.resourcemanager.network.fluent.NetworkProfilesClient.createOrUpdate(java.lang.String,java.lang.String,com.azure.resourcemanager.network.fluent.inner.NetworkProfileInner,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.network.fluent.NetworkProfilesClient.createOrUpdateAsync(java.lang.String,java.lang.String,com.azure.resourcemanager.network.fluent.inner.NetworkProfileInner)"
+- "com.azure.resourcemanager.network.fluent.NetworkProfilesClient.createOrUpdateAsync(java.lang.String,java.lang.String,com.azure.resourcemanager.network.fluent.inner.NetworkProfileInner,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.network.fluent.NetworkProfilesClient.createOrUpdateWithResponseAsync(java.lang.String,java.lang.String,com.azure.resourcemanager.network.fluent.inner.NetworkProfileInner)"
+- "com.azure.resourcemanager.network.fluent.NetworkProfilesClient.createOrUpdateWithResponseAsync(java.lang.String,java.lang.String,com.azure.resourcemanager.network.fluent.inner.NetworkProfileInner,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.network.fluent.NetworkProfilesClient.delete(java.lang.String,java.lang.String)"
+- "com.azure.resourcemanager.network.fluent.NetworkProfilesClient.delete(java.lang.String,java.lang.String,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.network.fluent.NetworkProfilesClient.deleteAsync(java.lang.String,java.lang.String)"
+- "com.azure.resourcemanager.network.fluent.NetworkProfilesClient.deleteAsync(java.lang.String,java.lang.String,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.network.fluent.NetworkProfilesClient.deleteWithResponseAsync(java.lang.String,java.lang.String)"
+- "com.azure.resourcemanager.network.fluent.NetworkProfilesClient.deleteWithResponseAsync(java.lang.String,java.lang.String,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.network.fluent.NetworkProfilesClient.getByResourceGroup(java.lang.String,java.lang.String)"
+- "com.azure.resourcemanager.network.fluent.NetworkProfilesClient.getByResourceGroup(java.lang.String,java.lang.String,java.lang.String)"
+- "com.azure.resourcemanager.network.fluent.NetworkProfilesClient.getByResourceGroup(java.lang.String,java.lang.String,java.lang.String,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.network.fluent.NetworkProfilesClient.getByResourceGroupAsync(java.lang.String,java.lang.String)"
+- "com.azure.resourcemanager.network.fluent.NetworkProfilesClient.getByResourceGroupAsync(java.lang.String,java.lang.String,java.lang.String)"
+- "com.azure.resourcemanager.network.fluent.NetworkProfilesClient.getByResourceGroupAsync(java.lang.String,java.lang.String,java.lang.String,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.network.fluent.NetworkProfilesClient.getByResourceGroupWithResponseAsync(java.lang.String,java.lang.String,java.lang.String)"
+- "com.azure.resourcemanager.network.fluent.NetworkProfilesClient.getByResourceGroupWithResponseAsync(java.lang.String,java.lang.String,java.lang.String,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.network.fluent.NetworkProfilesClient.list()"
+- "com.azure.resourcemanager.network.fluent.NetworkProfilesClient.list(com.azure.core.util.Context)"
+- "com.azure.resourcemanager.network.fluent.NetworkProfilesClient.listAllNextSinglePageAsync(java.lang.String)"
+- "com.azure.resourcemanager.network.fluent.NetworkProfilesClient.listAllNextSinglePageAsync(java.lang.String,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.network.fluent.NetworkProfilesClient.listAsync()"
+- "com.azure.resourcemanager.network.fluent.NetworkProfilesClient.listAsync(com.azure.core.util.Context)"
+- "com.azure.resourcemanager.network.fluent.NetworkProfilesClient.listByResourceGroup(java.lang.String)"
+- "com.azure.resourcemanager.network.fluent.NetworkProfilesClient.listByResourceGroup(java.lang.String,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.network.fluent.NetworkProfilesClient.listByResourceGroupAsync(java.lang.String)"
+- "com.azure.resourcemanager.network.fluent.NetworkProfilesClient.listByResourceGroupAsync(java.lang.String,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.network.fluent.NetworkProfilesClient.listByResourceGroupSinglePageAsync(java.lang.String)"
+- "com.azure.resourcemanager.network.fluent.NetworkProfilesClient.listByResourceGroupSinglePageAsync(java.lang.String,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.network.fluent.NetworkProfilesClient.listNextSinglePageAsync(java.lang.String)"
+- "com.azure.resourcemanager.network.fluent.NetworkProfilesClient.listNextSinglePageAsync(java.lang.String,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.network.fluent.NetworkProfilesClient.listSinglePageAsync()"
+- "com.azure.resourcemanager.network.fluent.NetworkProfilesClient.listSinglePageAsync(com.azure.core.util.Context)"
+- "com.azure.resourcemanager.network.fluent.NetworkProfilesClient.updateTags(java.lang.String,java.lang.String,java.util.Map<java.lang.String,java.lang.String>)"
+- "com.azure.resourcemanager.network.fluent.NetworkProfilesClient.updateTags(java.lang.String,java.lang.String,java.util.Map<java.lang.String,java.lang.String>,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.network.fluent.NetworkProfilesClient.updateTagsAsync(java.lang.String,java.lang.String,java.util.Map<java.lang.String,java.lang.String>)"
+- "com.azure.resourcemanager.network.fluent.NetworkProfilesClient.updateTagsAsync(java.lang.String,java.lang.String,java.util.Map<java.lang.String,java.lang.String>,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.network.fluent.NetworkProfilesClient.updateTagsWithResponseAsync(java.lang.String,java.lang.String,java.util.Map<java.lang.String,java.lang.String>)"
+- "com.azure.resourcemanager.network.fluent.NetworkProfilesClient.updateTagsWithResponseAsync(java.lang.String,java.lang.String,java.util.Map<java.lang.String,java.lang.String>,com.azure.core.util.Context)"
+type: "class"
 implements:
-- <xref href="com.azure.resourcemanager.resources.fluentcore.collection.InnerSupportsDelete?alt=com.azure.resourcemanager.resources.fluentcore.collection.InnerSupportsDelete&text=InnerSupportsDelete" data-throw-if-not-resolved="False" />&lt;<xref href="java.lang.Void?alt=java.lang.Void&text=Void" data-throw-if-not-resolved="False" />&gt;
-- <xref href="com.azure.resourcemanager.resources.fluentcore.collection.InnerSupportsGet?alt=com.azure.resourcemanager.resources.fluentcore.collection.InnerSupportsGet&text=InnerSupportsGet" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.resourcemanager.network.fluent.inner.NetworkProfileInner?alt=com.azure.resourcemanager.network.fluent.inner.NetworkProfileInner&text=NetworkProfileInner" data-throw-if-not-resolved="False" />&gt;
-- <xref href="com.azure.resourcemanager.resources.fluentcore.collection.InnerSupportsListing?alt=com.azure.resourcemanager.resources.fluentcore.collection.InnerSupportsListing&text=InnerSupportsListing" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.resourcemanager.network.fluent.inner.NetworkProfileInner?alt=com.azure.resourcemanager.network.fluent.inner.NetworkProfileInner&text=NetworkProfileInner" data-throw-if-not-resolved="False" />&gt;
+- "<xref href=\"com.azure.resourcemanager.resources.fluentcore.collection.InnerSupportsDelete?alt=com.azure.resourcemanager.resources.fluentcore.collection.InnerSupportsDelete&text=InnerSupportsDelete\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"java.lang.Void?alt=java.lang.Void&text=Void\" data-throw-if-not-resolved=\"False\" />&gt;"
+- "<xref href=\"com.azure.resourcemanager.resources.fluentcore.collection.InnerSupportsGet?alt=com.azure.resourcemanager.resources.fluentcore.collection.InnerSupportsGet&text=InnerSupportsGet\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.network.fluent.inner.NetworkProfileInner?alt=com.azure.resourcemanager.network.fluent.inner.NetworkProfileInner&text=NetworkProfileInner\" data-throw-if-not-resolved=\"False\" />&gt;"
+- "<xref href=\"com.azure.resourcemanager.resources.fluentcore.collection.InnerSupportsListing?alt=com.azure.resourcemanager.resources.fluentcore.collection.InnerSupportsListing&text=InnerSupportsListing\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.network.fluent.inner.NetworkProfileInner?alt=com.azure.resourcemanager.network.fluent.inner.NetworkProfileInner&text=NetworkProfileInner\" data-throw-if-not-resolved=\"False\" />&gt;"
 metadata: {}
-package: com.azure.resourcemanager.network.fluent
+package: "com.azure.resourcemanager.network.fluent"
 artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.0.0-beta.2

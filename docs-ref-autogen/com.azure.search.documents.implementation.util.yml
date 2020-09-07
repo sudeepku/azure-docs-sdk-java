@@ -1,14 +1,14 @@
 ### YamlMime:JavaPackage
-uid: com.azure.search.documents.implementation.util
-fullName: com.azure.search.documents.implementation.util
-name: com.azure.search.documents.implementation.util
-summary: Package containing Search internal utility classes.
+uid: "com.azure.search.documents.implementation.util"
+fullName: "com.azure.search.documents.implementation.util"
+name: "com.azure.search.documents.implementation.util"
+summary: "Package containing Search internal utility classes."
 classes:
-- com.azure.search.documents.implementation.util.Constants
-- com.azure.search.documents.implementation.util.DocumentResponseConversions
-- com.azure.search.documents.implementation.util.MappingUtils
-- com.azure.search.documents.implementation.util.PrivateFieldAccessHelper
-- com.azure.search.documents.implementation.util.SuggestOptionsHandler
+- "com.azure.search.documents.implementation.util.Constants"
+- "com.azure.search.documents.implementation.util.DocumentResponseConversions"
+- "com.azure.search.documents.implementation.util.MappingUtils"
+- "com.azure.search.documents.implementation.util.PrivateFieldAccessHelper"
+- "com.azure.search.documents.implementation.util.SuggestOptionsHandler"
 metadata: {}
-package: com.azure.search.documents.implementation.util
+package: "com.azure.search.documents.implementation.util"
 artifact: com.azure:azure-search-documents:11.0.0

@@ -1,56 +1,56 @@
 ### YamlMime:JavaType
-uid: com.azure.resourcemanager.containerservice.fluent.inner.OpenShiftManagedClusterInner
-fullName: com.azure.resourcemanager.containerservice.fluent.inner.OpenShiftManagedClusterInner
-name: OpenShiftManagedClusterInner
-nameWithType: OpenShiftManagedClusterInner
-summary: The OpenShiftManagedCluster model.
+uid: "com.azure.resourcemanager.containerservice.fluent.inner.OpenShiftManagedClusterInner"
+fullName: "com.azure.resourcemanager.containerservice.fluent.inner.OpenShiftManagedClusterInner"
+name: "OpenShiftManagedClusterInner"
+nameWithType: "OpenShiftManagedClusterInner"
+summary: "The OpenShiftManagedCluster model."
 inheritances:
-- <xref href="java.lang.Object" data-throw-if-not-resolved="False" />
-- <xref href="com.azure.core.management.ProxyResource" data-throw-if-not-resolved="False" />
-- <xref href="com.azure.core.management.Resource" data-throw-if-not-resolved="False" />
+- "<xref href=\"java.lang.Object\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.azure.core.management.ProxyResource\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.azure.core.management.Resource\" data-throw-if-not-resolved=\"False\" />"
 inheritedMembers:
-- com.azure.core.management.ProxyResource.id()
-- com.azure.core.management.ProxyResource.name()
-- com.azure.core.management.ProxyResource.type()
-- com.azure.core.management.Resource.location()
-- com.azure.core.management.Resource.tags()
-- com.azure.core.management.Resource.withLocation(java.lang.String)
-- com.azure.core.management.Resource.withTags(java.util.Map<java.lang.String,java.lang.String>)
-- java.lang.Object.clone()
-- java.lang.Object.equals(java.lang.Object)
-- java.lang.Object.finalize()
-- java.lang.Object.getClass()
-- java.lang.Object.hashCode()
-- java.lang.Object.notify()
-- java.lang.Object.notifyAll()
-- java.lang.Object.toString()
-- java.lang.Object.wait()
-- java.lang.Object.wait(long)
-- java.lang.Object.wait(long,int)
-syntax: public class OpenShiftManagedClusterInner extends Resource
+- "com.azure.core.management.ProxyResource.id()"
+- "com.azure.core.management.ProxyResource.name()"
+- "com.azure.core.management.ProxyResource.type()"
+- "com.azure.core.management.Resource.location()"
+- "com.azure.core.management.Resource.tags()"
+- "com.azure.core.management.Resource.withLocation(java.lang.String)"
+- "com.azure.core.management.Resource.withTags(java.util.Map<java.lang.String,java.lang.String>)"
+- "java.lang.Object.clone()"
+- "java.lang.Object.equals(java.lang.Object)"
+- "java.lang.Object.finalize()"
+- "java.lang.Object.getClass()"
+- "java.lang.Object.hashCode()"
+- "java.lang.Object.notify()"
+- "java.lang.Object.notifyAll()"
+- "java.lang.Object.toString()"
+- "java.lang.Object.wait()"
+- "java.lang.Object.wait(long)"
+- "java.lang.Object.wait(long,int)"
+syntax: "public class OpenShiftManagedClusterInner extends Resource"
 constructors:
-- com.azure.resourcemanager.containerservice.fluent.inner.OpenShiftManagedClusterInner.OpenShiftManagedClusterInner()
+- "com.azure.resourcemanager.containerservice.fluent.inner.OpenShiftManagedClusterInner.OpenShiftManagedClusterInner()"
 methods:
-- com.azure.resourcemanager.containerservice.fluent.inner.OpenShiftManagedClusterInner.agentPoolProfiles()
-- com.azure.resourcemanager.containerservice.fluent.inner.OpenShiftManagedClusterInner.authProfile()
-- com.azure.resourcemanager.containerservice.fluent.inner.OpenShiftManagedClusterInner.clusterVersion()
-- com.azure.resourcemanager.containerservice.fluent.inner.OpenShiftManagedClusterInner.fqdn()
-- com.azure.resourcemanager.containerservice.fluent.inner.OpenShiftManagedClusterInner.masterPoolProfile()
-- com.azure.resourcemanager.containerservice.fluent.inner.OpenShiftManagedClusterInner.networkProfile()
-- com.azure.resourcemanager.containerservice.fluent.inner.OpenShiftManagedClusterInner.openShiftVersion()
-- com.azure.resourcemanager.containerservice.fluent.inner.OpenShiftManagedClusterInner.plan()
-- com.azure.resourcemanager.containerservice.fluent.inner.OpenShiftManagedClusterInner.provisioningState()
-- com.azure.resourcemanager.containerservice.fluent.inner.OpenShiftManagedClusterInner.publicHostname()
-- com.azure.resourcemanager.containerservice.fluent.inner.OpenShiftManagedClusterInner.routerProfiles()
-- com.azure.resourcemanager.containerservice.fluent.inner.OpenShiftManagedClusterInner.validate()
-- com.azure.resourcemanager.containerservice.fluent.inner.OpenShiftManagedClusterInner.withAgentPoolProfiles(java.util.List<com.azure.resourcemanager.containerservice.models.OpenShiftManagedClusterAgentPoolProfile>)
-- com.azure.resourcemanager.containerservice.fluent.inner.OpenShiftManagedClusterInner.withAuthProfile(com.azure.resourcemanager.containerservice.models.OpenShiftManagedClusterAuthProfile)
-- com.azure.resourcemanager.containerservice.fluent.inner.OpenShiftManagedClusterInner.withMasterPoolProfile(com.azure.resourcemanager.containerservice.models.OpenShiftManagedClusterMasterPoolProfile)
-- com.azure.resourcemanager.containerservice.fluent.inner.OpenShiftManagedClusterInner.withNetworkProfile(com.azure.resourcemanager.containerservice.models.NetworkProfile)
-- com.azure.resourcemanager.containerservice.fluent.inner.OpenShiftManagedClusterInner.withOpenShiftVersion(java.lang.String)
-- com.azure.resourcemanager.containerservice.fluent.inner.OpenShiftManagedClusterInner.withPlan(com.azure.resourcemanager.containerservice.models.PurchasePlan)
-- com.azure.resourcemanager.containerservice.fluent.inner.OpenShiftManagedClusterInner.withRouterProfiles(java.util.List<com.azure.resourcemanager.containerservice.models.OpenShiftRouterProfile>)
-type: class
+- "com.azure.resourcemanager.containerservice.fluent.inner.OpenShiftManagedClusterInner.agentPoolProfiles()"
+- "com.azure.resourcemanager.containerservice.fluent.inner.OpenShiftManagedClusterInner.authProfile()"
+- "com.azure.resourcemanager.containerservice.fluent.inner.OpenShiftManagedClusterInner.clusterVersion()"
+- "com.azure.resourcemanager.containerservice.fluent.inner.OpenShiftManagedClusterInner.fqdn()"
+- "com.azure.resourcemanager.containerservice.fluent.inner.OpenShiftManagedClusterInner.masterPoolProfile()"
+- "com.azure.resourcemanager.containerservice.fluent.inner.OpenShiftManagedClusterInner.networkProfile()"
+- "com.azure.resourcemanager.containerservice.fluent.inner.OpenShiftManagedClusterInner.openShiftVersion()"
+- "com.azure.resourcemanager.containerservice.fluent.inner.OpenShiftManagedClusterInner.plan()"
+- "com.azure.resourcemanager.containerservice.fluent.inner.OpenShiftManagedClusterInner.provisioningState()"
+- "com.azure.resourcemanager.containerservice.fluent.inner.OpenShiftManagedClusterInner.publicHostname()"
+- "com.azure.resourcemanager.containerservice.fluent.inner.OpenShiftManagedClusterInner.routerProfiles()"
+- "com.azure.resourcemanager.containerservice.fluent.inner.OpenShiftManagedClusterInner.validate()"
+- "com.azure.resourcemanager.containerservice.fluent.inner.OpenShiftManagedClusterInner.withAgentPoolProfiles(java.util.List<com.azure.resourcemanager.containerservice.models.OpenShiftManagedClusterAgentPoolProfile>)"
+- "com.azure.resourcemanager.containerservice.fluent.inner.OpenShiftManagedClusterInner.withAuthProfile(com.azure.resourcemanager.containerservice.models.OpenShiftManagedClusterAuthProfile)"
+- "com.azure.resourcemanager.containerservice.fluent.inner.OpenShiftManagedClusterInner.withMasterPoolProfile(com.azure.resourcemanager.containerservice.models.OpenShiftManagedClusterMasterPoolProfile)"
+- "com.azure.resourcemanager.containerservice.fluent.inner.OpenShiftManagedClusterInner.withNetworkProfile(com.azure.resourcemanager.containerservice.models.NetworkProfile)"
+- "com.azure.resourcemanager.containerservice.fluent.inner.OpenShiftManagedClusterInner.withOpenShiftVersion(java.lang.String)"
+- "com.azure.resourcemanager.containerservice.fluent.inner.OpenShiftManagedClusterInner.withPlan(com.azure.resourcemanager.containerservice.models.PurchasePlan)"
+- "com.azure.resourcemanager.containerservice.fluent.inner.OpenShiftManagedClusterInner.withRouterProfiles(java.util.List<com.azure.resourcemanager.containerservice.models.OpenShiftRouterProfile>)"
+type: "class"
 metadata: {}
-package: com.azure.resourcemanager.containerservice.fluent.inner
+package: "com.azure.resourcemanager.containerservice.fluent.inner"
 artifact: com.azure.resourcemanager:azure-resourcemanager-containerservice:2.0.0-beta.2

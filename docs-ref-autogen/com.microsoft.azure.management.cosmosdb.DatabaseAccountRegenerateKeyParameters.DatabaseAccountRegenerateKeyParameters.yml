@@ -1,15 +1,15 @@
 ### YamlMime:JavaMember
-uid: com.microsoft.azure.management.cosmosdb.DatabaseAccountRegenerateKeyParameters.DatabaseAccountRegenerateKeyParameters*
-fullName: com.microsoft.azure.management.cosmosdb.DatabaseAccountRegenerateKeyParameters.DatabaseAccountRegenerateKeyParameters
-name: DatabaseAccountRegenerateKeyParameters
-nameWithType: DatabaseAccountRegenerateKeyParameters.DatabaseAccountRegenerateKeyParameters
+uid: "com.microsoft.azure.management.cosmosdb.DatabaseAccountRegenerateKeyParameters.DatabaseAccountRegenerateKeyParameters*"
+fullName: "com.microsoft.azure.management.cosmosdb.DatabaseAccountRegenerateKeyParameters.DatabaseAccountRegenerateKeyParameters"
+name: "DatabaseAccountRegenerateKeyParameters"
+nameWithType: "DatabaseAccountRegenerateKeyParameters.DatabaseAccountRegenerateKeyParameters"
 members:
-- uid: com.microsoft.azure.management.cosmosdb.DatabaseAccountRegenerateKeyParameters.DatabaseAccountRegenerateKeyParameters()
-  fullName: com.microsoft.azure.management.cosmosdb.DatabaseAccountRegenerateKeyParameters.DatabaseAccountRegenerateKeyParameters()
-  name: DatabaseAccountRegenerateKeyParameters()
-  nameWithType: DatabaseAccountRegenerateKeyParameters.DatabaseAccountRegenerateKeyParameters()
-  syntax: public DatabaseAccountRegenerateKeyParameters()
-type: constructor
+- uid: "com.microsoft.azure.management.cosmosdb.DatabaseAccountRegenerateKeyParameters.DatabaseAccountRegenerateKeyParameters()"
+  fullName: "com.microsoft.azure.management.cosmosdb.DatabaseAccountRegenerateKeyParameters.DatabaseAccountRegenerateKeyParameters()"
+  name: "DatabaseAccountRegenerateKeyParameters()"
+  nameWithType: "DatabaseAccountRegenerateKeyParameters.DatabaseAccountRegenerateKeyParameters()"
+  syntax: "public DatabaseAccountRegenerateKeyParameters()"
+type: "constructor"
 metadata: {}
-package: com.microsoft.azure.management.cosmosdb
-artifact: com.microsoft.azure:azure-mgmt-cosmosdb:1.36.1
+package: "com.microsoft.azure.management.cosmosdb"
+artifact: com.microsoft.azure:azure-mgmt-cosmosdb:1.36.2

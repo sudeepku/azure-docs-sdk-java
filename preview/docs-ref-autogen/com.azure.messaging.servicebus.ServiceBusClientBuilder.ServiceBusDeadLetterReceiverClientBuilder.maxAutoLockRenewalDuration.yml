@@ -1,25 +1,23 @@
 ### YamlMime:JavaMember
-uid: com.azure.messaging.servicebus.ServiceBusClientBuilder.ServiceBusDeadLetterReceiverClientBuilder.maxAutoLockRenewalDuration*
-fullName: com.azure.messaging.servicebus.ServiceBusClientBuilder.ServiceBusDeadLetterReceiverClientBuilder.maxAutoLockRenewalDuration
-name: maxAutoLockRenewalDuration
-nameWithType: ServiceBusClientBuilder.ServiceBusDeadLetterReceiverClientBuilder.maxAutoLockRenewalDuration
+uid: "com.azure.messaging.servicebus.ServiceBusClientBuilder.ServiceBusDeadLetterReceiverClientBuilder.maxAutoLockRenewalDuration*"
+fullName: "com.azure.messaging.servicebus.ServiceBusClientBuilder.ServiceBusDeadLetterReceiverClientBuilder.maxAutoLockRenewalDuration"
+name: "maxAutoLockRenewalDuration"
+nameWithType: "ServiceBusClientBuilder.ServiceBusDeadLetterReceiverClientBuilder.maxAutoLockRenewalDuration"
 members:
-- uid: com.azure.messaging.servicebus.ServiceBusClientBuilder.ServiceBusDeadLetterReceiverClientBuilder.maxAutoLockRenewalDuration(java.time.Duration)
-  fullName: com.azure.messaging.servicebus.ServiceBusClientBuilder.ServiceBusDeadLetterReceiverClientBuilder.maxAutoLockRenewalDuration(Duration maxAutoLockRenewalDuration)
-  name: maxAutoLockRenewalDuration(Duration maxAutoLockRenewalDuration)
-  nameWithType: ServiceBusClientBuilder.ServiceBusDeadLetterReceiverClientBuilder.maxAutoLockRenewalDuration(Duration maxAutoLockRenewalDuration)
-  summary: |-
-    Enables auto-lock renewal by renewing each message lock renewal until the <code>maxAutoLockRenewalDuration</code>
-     has elapsed.
+- uid: "com.azure.messaging.servicebus.ServiceBusClientBuilder.ServiceBusDeadLetterReceiverClientBuilder.maxAutoLockRenewalDuration(java.time.Duration)"
+  fullName: "com.azure.messaging.servicebus.ServiceBusClientBuilder.ServiceBusDeadLetterReceiverClientBuilder.maxAutoLockRenewalDuration(Duration maxAutoLockRenewalDuration)"
+  name: "maxAutoLockRenewalDuration(Duration maxAutoLockRenewalDuration)"
+  nameWithType: "ServiceBusClientBuilder.ServiceBusDeadLetterReceiverClientBuilder.maxAutoLockRenewalDuration(Duration maxAutoLockRenewalDuration)"
+  summary: "Enables auto-lock renewal by renewing each message lock renewal until the <code>maxAutoLockRenewalDuration</code>\n has elapsed."
   parameters:
-  - description: Maximum amount of time to renew the session lock.
-    name: maxAutoLockRenewalDuration
-    type: <xref href="java.time.Duration?alt=java.time.Duration&text=Duration" data-throw-if-not-resolved="False" />
-  syntax: public ServiceBusClientBuilder.ServiceBusDeadLetterReceiverClientBuilder maxAutoLockRenewalDuration(Duration maxAutoLockRenewalDuration)
+  - description: "Maximum amount of time to renew the session lock."
+    name: "maxAutoLockRenewalDuration"
+    type: "<xref href=\"java.time.Duration?alt=java.time.Duration&text=Duration\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public ServiceBusClientBuilder.ServiceBusDeadLetterReceiverClientBuilder maxAutoLockRenewalDuration(Duration maxAutoLockRenewalDuration)"
   returns:
-    description: The modified <xref uid="" data-throw-if-not-resolved="false">ServiceBusDeadLetterReceiverClientBuilder</xref> object.
-    type: <xref href="com.azure.messaging.servicebus.ServiceBusClientBuilder.ServiceBusDeadLetterReceiverClientBuilder?alt=com.azure.messaging.servicebus.ServiceBusClientBuilder.ServiceBusDeadLetterReceiverClientBuilder&text=ServiceBusDeadLetterReceiverClientBuilder" data-throw-if-not-resolved="False" />
-type: method
+    description: "The modified <xref uid=\"\" data-throw-if-not-resolved=\"false\">ServiceBusDeadLetterReceiverClientBuilder</xref> object."
+    type: "<xref href=\"com.azure.messaging.servicebus.ServiceBusClientBuilder.ServiceBusDeadLetterReceiverClientBuilder?alt=com.azure.messaging.servicebus.ServiceBusClientBuilder.ServiceBusDeadLetterReceiverClientBuilder&text=ServiceBusDeadLetterReceiverClientBuilder\" data-throw-if-not-resolved=\"False\" />"
+type: "method"
 metadata: {}
-package: com.azure.messaging.servicebus
+package: "com.azure.messaging.servicebus"
 artifact: com.azure:azure-messaging-servicebus:7.0.0-beta.5

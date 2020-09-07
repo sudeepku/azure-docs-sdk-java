@@ -1,64 +1,64 @@
 ### YamlMime:JavaType
-uid: com.azure.resourcemanager.compute.fluent.inner.DiskInner
-fullName: com.azure.resourcemanager.compute.fluent.inner.DiskInner
-name: DiskInner
-nameWithType: DiskInner
-summary: The Disk model.
+uid: "com.azure.resourcemanager.compute.fluent.inner.DiskInner"
+fullName: "com.azure.resourcemanager.compute.fluent.inner.DiskInner"
+name: "DiskInner"
+nameWithType: "DiskInner"
+summary: "The Disk model."
 inheritances:
-- <xref href="java.lang.Object" data-throw-if-not-resolved="False" />
-- <xref href="com.azure.core.management.ProxyResource" data-throw-if-not-resolved="False" />
-- <xref href="com.azure.core.management.Resource" data-throw-if-not-resolved="False" />
+- "<xref href=\"java.lang.Object\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.azure.core.management.ProxyResource\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.azure.core.management.Resource\" data-throw-if-not-resolved=\"False\" />"
 inheritedMembers:
-- com.azure.core.management.ProxyResource.id()
-- com.azure.core.management.ProxyResource.name()
-- com.azure.core.management.ProxyResource.type()
-- com.azure.core.management.Resource.location()
-- com.azure.core.management.Resource.tags()
-- com.azure.core.management.Resource.withLocation(java.lang.String)
-- com.azure.core.management.Resource.withTags(java.util.Map<java.lang.String,java.lang.String>)
-- java.lang.Object.clone()
-- java.lang.Object.equals(java.lang.Object)
-- java.lang.Object.finalize()
-- java.lang.Object.getClass()
-- java.lang.Object.hashCode()
-- java.lang.Object.notify()
-- java.lang.Object.notifyAll()
-- java.lang.Object.toString()
-- java.lang.Object.wait()
-- java.lang.Object.wait(long)
-- java.lang.Object.wait(long,int)
-syntax: public class DiskInner extends Resource
+- "com.azure.core.management.ProxyResource.id()"
+- "com.azure.core.management.ProxyResource.name()"
+- "com.azure.core.management.ProxyResource.type()"
+- "com.azure.core.management.Resource.location()"
+- "com.azure.core.management.Resource.tags()"
+- "com.azure.core.management.Resource.withLocation(java.lang.String)"
+- "com.azure.core.management.Resource.withTags(java.util.Map<java.lang.String,java.lang.String>)"
+- "java.lang.Object.clone()"
+- "java.lang.Object.equals(java.lang.Object)"
+- "java.lang.Object.finalize()"
+- "java.lang.Object.getClass()"
+- "java.lang.Object.hashCode()"
+- "java.lang.Object.notify()"
+- "java.lang.Object.notifyAll()"
+- "java.lang.Object.toString()"
+- "java.lang.Object.wait()"
+- "java.lang.Object.wait(long)"
+- "java.lang.Object.wait(long,int)"
+syntax: "public class DiskInner extends Resource"
 constructors:
-- com.azure.resourcemanager.compute.fluent.inner.DiskInner.DiskInner()
+- "com.azure.resourcemanager.compute.fluent.inner.DiskInner.DiskInner()"
 methods:
-- com.azure.resourcemanager.compute.fluent.inner.DiskInner.creationData()
-- com.azure.resourcemanager.compute.fluent.inner.DiskInner.diskIopsReadWrite()
-- com.azure.resourcemanager.compute.fluent.inner.DiskInner.diskMBpsReadWrite()
-- com.azure.resourcemanager.compute.fluent.inner.DiskInner.diskSizeBytes()
-- com.azure.resourcemanager.compute.fluent.inner.DiskInner.diskSizeGB()
-- com.azure.resourcemanager.compute.fluent.inner.DiskInner.diskState()
-- com.azure.resourcemanager.compute.fluent.inner.DiskInner.encryption()
-- com.azure.resourcemanager.compute.fluent.inner.DiskInner.encryptionSettingsCollection()
-- com.azure.resourcemanager.compute.fluent.inner.DiskInner.hyperVGeneration()
-- com.azure.resourcemanager.compute.fluent.inner.DiskInner.managedBy()
-- com.azure.resourcemanager.compute.fluent.inner.DiskInner.osType()
-- com.azure.resourcemanager.compute.fluent.inner.DiskInner.provisioningState()
-- com.azure.resourcemanager.compute.fluent.inner.DiskInner.sku()
-- com.azure.resourcemanager.compute.fluent.inner.DiskInner.timeCreated()
-- com.azure.resourcemanager.compute.fluent.inner.DiskInner.uniqueId()
-- com.azure.resourcemanager.compute.fluent.inner.DiskInner.validate()
-- com.azure.resourcemanager.compute.fluent.inner.DiskInner.withCreationData(com.azure.resourcemanager.compute.models.CreationData)
-- com.azure.resourcemanager.compute.fluent.inner.DiskInner.withDiskIopsReadWrite(java.lang.Long)
-- com.azure.resourcemanager.compute.fluent.inner.DiskInner.withDiskMBpsReadWrite(java.lang.Integer)
-- com.azure.resourcemanager.compute.fluent.inner.DiskInner.withDiskSizeGB(java.lang.Integer)
-- com.azure.resourcemanager.compute.fluent.inner.DiskInner.withEncryption(com.azure.resourcemanager.compute.models.Encryption)
-- com.azure.resourcemanager.compute.fluent.inner.DiskInner.withEncryptionSettingsCollection(com.azure.resourcemanager.compute.models.EncryptionSettingsCollection)
-- com.azure.resourcemanager.compute.fluent.inner.DiskInner.withHyperVGeneration(com.azure.resourcemanager.compute.models.HyperVGeneration)
-- com.azure.resourcemanager.compute.fluent.inner.DiskInner.withOsType(com.azure.resourcemanager.compute.models.OperatingSystemTypes)
-- com.azure.resourcemanager.compute.fluent.inner.DiskInner.withSku(com.azure.resourcemanager.compute.models.DiskSku)
-- com.azure.resourcemanager.compute.fluent.inner.DiskInner.withZones(java.util.List<java.lang.String>)
-- com.azure.resourcemanager.compute.fluent.inner.DiskInner.zones()
-type: class
+- "com.azure.resourcemanager.compute.fluent.inner.DiskInner.creationData()"
+- "com.azure.resourcemanager.compute.fluent.inner.DiskInner.diskIopsReadWrite()"
+- "com.azure.resourcemanager.compute.fluent.inner.DiskInner.diskMBpsReadWrite()"
+- "com.azure.resourcemanager.compute.fluent.inner.DiskInner.diskSizeBytes()"
+- "com.azure.resourcemanager.compute.fluent.inner.DiskInner.diskSizeGB()"
+- "com.azure.resourcemanager.compute.fluent.inner.DiskInner.diskState()"
+- "com.azure.resourcemanager.compute.fluent.inner.DiskInner.encryption()"
+- "com.azure.resourcemanager.compute.fluent.inner.DiskInner.encryptionSettingsCollection()"
+- "com.azure.resourcemanager.compute.fluent.inner.DiskInner.hyperVGeneration()"
+- "com.azure.resourcemanager.compute.fluent.inner.DiskInner.managedBy()"
+- "com.azure.resourcemanager.compute.fluent.inner.DiskInner.osType()"
+- "com.azure.resourcemanager.compute.fluent.inner.DiskInner.provisioningState()"
+- "com.azure.resourcemanager.compute.fluent.inner.DiskInner.sku()"
+- "com.azure.resourcemanager.compute.fluent.inner.DiskInner.timeCreated()"
+- "com.azure.resourcemanager.compute.fluent.inner.DiskInner.uniqueId()"
+- "com.azure.resourcemanager.compute.fluent.inner.DiskInner.validate()"
+- "com.azure.resourcemanager.compute.fluent.inner.DiskInner.withCreationData(com.azure.resourcemanager.compute.models.CreationData)"
+- "com.azure.resourcemanager.compute.fluent.inner.DiskInner.withDiskIopsReadWrite(java.lang.Long)"
+- "com.azure.resourcemanager.compute.fluent.inner.DiskInner.withDiskMBpsReadWrite(java.lang.Integer)"
+- "com.azure.resourcemanager.compute.fluent.inner.DiskInner.withDiskSizeGB(java.lang.Integer)"
+- "com.azure.resourcemanager.compute.fluent.inner.DiskInner.withEncryption(com.azure.resourcemanager.compute.models.Encryption)"
+- "com.azure.resourcemanager.compute.fluent.inner.DiskInner.withEncryptionSettingsCollection(com.azure.resourcemanager.compute.models.EncryptionSettingsCollection)"
+- "com.azure.resourcemanager.compute.fluent.inner.DiskInner.withHyperVGeneration(com.azure.resourcemanager.compute.models.HyperVGeneration)"
+- "com.azure.resourcemanager.compute.fluent.inner.DiskInner.withOsType(com.azure.resourcemanager.compute.models.OperatingSystemTypes)"
+- "com.azure.resourcemanager.compute.fluent.inner.DiskInner.withSku(com.azure.resourcemanager.compute.models.DiskSku)"
+- "com.azure.resourcemanager.compute.fluent.inner.DiskInner.withZones(java.util.List<java.lang.String>)"
+- "com.azure.resourcemanager.compute.fluent.inner.DiskInner.zones()"
+type: "class"
 metadata: {}
-package: com.azure.resourcemanager.compute.fluent.inner
+package: "com.azure.resourcemanager.compute.fluent.inner"
 artifact: com.azure.resourcemanager:azure-resourcemanager-compute:2.0.0-beta.2

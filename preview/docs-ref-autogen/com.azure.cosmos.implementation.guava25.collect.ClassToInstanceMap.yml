@@ -1,29 +1,18 @@
 ### YamlMime:JavaType
-uid: com.azure.cosmos.implementation.guava25.collect.ClassToInstanceMap
-fullName: com.azure.cosmos.implementation.guava25.collect.ClassToInstanceMap<B>
-name: ClassToInstanceMap<B>
-nameWithType: ClassToInstanceMap<B>
-summary: |-
-  A map, each entry of which maps a Java [raw type][] to an instance of that type. In addition to implementing `Map`, the additional type-safe operations <xref uid="com.azure.cosmos.implementation.guava25.collect.ClassToInstanceMap.putInstance" data-throw-if-not-resolved="false">#putInstance</xref> and <xref uid="com.azure.cosmos.implementation.guava25.collect.ClassToInstanceMap.getInstance" data-throw-if-not-resolved="false">#getInstance</xref> are available.
-
-  Like any other `Map`, this map may contain entries for primitive types, and a primitive type and its corresponding wrapper type may map to different values.
-
-  See the Guava User Guide article on [ `ClassToInstanceMap`][_ClassToInstanceMap].
-
-  To map a generic type to an instance of that type, use <xref uid="" data-throw-if-not-resolved="false">com.azure.cosmos.reflect.TypeToInstanceMap</xref> instead.
-
-
-  [raw type]: http://tinyurl.com/2cmwkz
-  [_ClassToInstanceMap]: https://github.com/google/guava/wiki/NewCollectionTypesExplained#classtoinstancemap
-syntax: public interface ClassToInstanceMap<B> extends Map<Class<? extends B>,B>
+uid: "com.azure.cosmos.implementation.guava25.collect.ClassToInstanceMap"
+fullName: "com.azure.cosmos.implementation.guava25.collect.ClassToInstanceMap<B>"
+name: "ClassToInstanceMap<B>"
+nameWithType: "ClassToInstanceMap<B>"
+summary: "A map, each entry of which maps a Java [raw type][] to an instance of that type. In addition to implementing `Map`, the additional type-safe operations <xref uid=\"com.azure.cosmos.implementation.guava25.collect.ClassToInstanceMap.putInstance\" data-throw-if-not-resolved=\"false\">#putInstance</xref> and <xref uid=\"com.azure.cosmos.implementation.guava25.collect.ClassToInstanceMap.getInstance\" data-throw-if-not-resolved=\"false\">#getInstance</xref> are available.\n\nLike any other `Map`, this map may contain entries for primitive types, and a primitive type and its corresponding wrapper type may map to different values.\n\nSee the Guava User Guide article on [ `ClassToInstanceMap`][_ClassToInstanceMap].\n\nTo map a generic type to an instance of that type, use <xref uid=\"\" data-throw-if-not-resolved=\"false\">com.azure.cosmos.reflect.TypeToInstanceMap</xref> instead.\n\n\n[raw type]: http://tinyurl.com/2cmwkz\n[_ClassToInstanceMap]: https://github.com/google/guava/wiki/NewCollectionTypesExplained#classtoinstancemap"
+syntax: "public interface ClassToInstanceMap<B> extends Map<Class<? extends B>,B>"
 methods:
-- com.azure.cosmos.implementation.guava25.collect.ClassToInstanceMap.<T>getInstance(java.lang.Class<T>)
-- com.azure.cosmos.implementation.guava25.collect.ClassToInstanceMap.<T>putInstance(java.lang.Class<T>,T)
-type: interface
+- "com.azure.cosmos.implementation.guava25.collect.ClassToInstanceMap.<T>getInstance(java.lang.Class<T>)"
+- "com.azure.cosmos.implementation.guava25.collect.ClassToInstanceMap.<T>putInstance(java.lang.Class<T>,T)"
+type: "interface"
 typeParameters:
-- name: B
+- name: "B"
 implements:
-- <xref href="java.util.Map?alt=java.util.Map&text=Map" data-throw-if-not-resolved="False" />&lt;<xref href="java.lang.Class?alt=java.lang.Class&text=Class" data-throw-if-not-resolved="False" />&lt;<xref href="? extends B?alt=? extends B&text=? extends B" data-throw-if-not-resolved="False" />&gt;,<xref href="B?alt=B&text=B" data-throw-if-not-resolved="False" />&gt;
+- "<xref href=\"java.util.Map?alt=java.util.Map&text=Map\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"java.lang.Class?alt=java.lang.Class&text=Class\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"? extends B?alt=? extends B&text=? extends B\" data-throw-if-not-resolved=\"False\" />&gt;,<xref href=\"B?alt=B&text=B\" data-throw-if-not-resolved=\"False\" />&gt;"
 metadata: {}
-package: com.azure.cosmos.implementation.guava25.collect
+package: "com.azure.cosmos.implementation.guava25.collect"
 artifact: com.azure:azure-cosmos:4.3.2-beta.2

@@ -1,39 +1,39 @@
 ### YamlMime:JavaType
-uid: com.azure.resourcemanager.network.models.P2SVpnServerConfigVpnClientRevokedCertificate
-fullName: com.azure.resourcemanager.network.models.P2SVpnServerConfigVpnClientRevokedCertificate
-name: P2SVpnServerConfigVpnClientRevokedCertificate
-nameWithType: P2SVpnServerConfigVpnClientRevokedCertificate
-summary: The P2SVpnServerConfigVpnClientRevokedCertificate model.
+uid: "com.azure.resourcemanager.network.models.P2SVpnServerConfigVpnClientRevokedCertificate"
+fullName: "com.azure.resourcemanager.network.models.P2SVpnServerConfigVpnClientRevokedCertificate"
+name: "P2SVpnServerConfigVpnClientRevokedCertificate"
+nameWithType: "P2SVpnServerConfigVpnClientRevokedCertificate"
+summary: "The P2SVpnServerConfigVpnClientRevokedCertificate model."
 inheritances:
-- <xref href="java.lang.Object" data-throw-if-not-resolved="False" />
-- <xref href="com.azure.core.management.SubResource" data-throw-if-not-resolved="False" />
+- "<xref href=\"java.lang.Object\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.azure.core.management.SubResource\" data-throw-if-not-resolved=\"False\" />"
 inheritedMembers:
-- com.azure.core.management.SubResource.id()
-- com.azure.core.management.SubResource.withId(java.lang.String)
-- java.lang.Object.clone()
-- java.lang.Object.equals(java.lang.Object)
-- java.lang.Object.finalize()
-- java.lang.Object.getClass()
-- java.lang.Object.hashCode()
-- java.lang.Object.notify()
-- java.lang.Object.notifyAll()
-- java.lang.Object.toString()
-- java.lang.Object.wait()
-- java.lang.Object.wait(long)
-- java.lang.Object.wait(long,int)
-syntax: public class P2SVpnServerConfigVpnClientRevokedCertificate extends SubResource
+- "com.azure.core.management.SubResource.id()"
+- "com.azure.core.management.SubResource.withId(java.lang.String)"
+- "java.lang.Object.clone()"
+- "java.lang.Object.equals(java.lang.Object)"
+- "java.lang.Object.finalize()"
+- "java.lang.Object.getClass()"
+- "java.lang.Object.hashCode()"
+- "java.lang.Object.notify()"
+- "java.lang.Object.notifyAll()"
+- "java.lang.Object.toString()"
+- "java.lang.Object.wait()"
+- "java.lang.Object.wait(long)"
+- "java.lang.Object.wait(long,int)"
+syntax: "public class P2SVpnServerConfigVpnClientRevokedCertificate extends SubResource"
 constructors:
-- com.azure.resourcemanager.network.models.P2SVpnServerConfigVpnClientRevokedCertificate.P2SVpnServerConfigVpnClientRevokedCertificate()
+- "com.azure.resourcemanager.network.models.P2SVpnServerConfigVpnClientRevokedCertificate.P2SVpnServerConfigVpnClientRevokedCertificate()"
 methods:
-- com.azure.resourcemanager.network.models.P2SVpnServerConfigVpnClientRevokedCertificate.etag()
-- com.azure.resourcemanager.network.models.P2SVpnServerConfigVpnClientRevokedCertificate.name()
-- com.azure.resourcemanager.network.models.P2SVpnServerConfigVpnClientRevokedCertificate.provisioningState()
-- com.azure.resourcemanager.network.models.P2SVpnServerConfigVpnClientRevokedCertificate.thumbprint()
-- com.azure.resourcemanager.network.models.P2SVpnServerConfigVpnClientRevokedCertificate.validate()
-- com.azure.resourcemanager.network.models.P2SVpnServerConfigVpnClientRevokedCertificate.withEtag(java.lang.String)
-- com.azure.resourcemanager.network.models.P2SVpnServerConfigVpnClientRevokedCertificate.withName(java.lang.String)
-- com.azure.resourcemanager.network.models.P2SVpnServerConfigVpnClientRevokedCertificate.withThumbprint(java.lang.String)
-type: class
+- "com.azure.resourcemanager.network.models.P2SVpnServerConfigVpnClientRevokedCertificate.etag()"
+- "com.azure.resourcemanager.network.models.P2SVpnServerConfigVpnClientRevokedCertificate.name()"
+- "com.azure.resourcemanager.network.models.P2SVpnServerConfigVpnClientRevokedCertificate.provisioningState()"
+- "com.azure.resourcemanager.network.models.P2SVpnServerConfigVpnClientRevokedCertificate.thumbprint()"
+- "com.azure.resourcemanager.network.models.P2SVpnServerConfigVpnClientRevokedCertificate.validate()"
+- "com.azure.resourcemanager.network.models.P2SVpnServerConfigVpnClientRevokedCertificate.withEtag(java.lang.String)"
+- "com.azure.resourcemanager.network.models.P2SVpnServerConfigVpnClientRevokedCertificate.withName(java.lang.String)"
+- "com.azure.resourcemanager.network.models.P2SVpnServerConfigVpnClientRevokedCertificate.withThumbprint(java.lang.String)"
+type: "class"
 metadata: {}
-package: com.azure.resourcemanager.network.models
+package: "com.azure.resourcemanager.network.models"
 artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.0.0-beta.2

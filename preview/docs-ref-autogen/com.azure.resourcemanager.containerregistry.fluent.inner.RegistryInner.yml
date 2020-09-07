@@ -1,50 +1,50 @@
 ### YamlMime:JavaType
-uid: com.azure.resourcemanager.containerregistry.fluent.inner.RegistryInner
-fullName: com.azure.resourcemanager.containerregistry.fluent.inner.RegistryInner
-name: RegistryInner
-nameWithType: RegistryInner
-summary: The Registry model.
+uid: "com.azure.resourcemanager.containerregistry.fluent.inner.RegistryInner"
+fullName: "com.azure.resourcemanager.containerregistry.fluent.inner.RegistryInner"
+name: "RegistryInner"
+nameWithType: "RegistryInner"
+summary: "The Registry model."
 inheritances:
-- <xref href="java.lang.Object" data-throw-if-not-resolved="False" />
-- <xref href="com.azure.core.management.ProxyResource" data-throw-if-not-resolved="False" />
-- <xref href="com.azure.core.management.Resource" data-throw-if-not-resolved="False" />
+- "<xref href=\"java.lang.Object\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.azure.core.management.ProxyResource\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.azure.core.management.Resource\" data-throw-if-not-resolved=\"False\" />"
 inheritedMembers:
-- com.azure.core.management.ProxyResource.id()
-- com.azure.core.management.ProxyResource.name()
-- com.azure.core.management.ProxyResource.type()
-- com.azure.core.management.Resource.location()
-- com.azure.core.management.Resource.tags()
-- com.azure.core.management.Resource.withLocation(java.lang.String)
-- com.azure.core.management.Resource.withTags(java.util.Map<java.lang.String,java.lang.String>)
-- java.lang.Object.clone()
-- java.lang.Object.equals(java.lang.Object)
-- java.lang.Object.finalize()
-- java.lang.Object.getClass()
-- java.lang.Object.hashCode()
-- java.lang.Object.notify()
-- java.lang.Object.notifyAll()
-- java.lang.Object.toString()
-- java.lang.Object.wait()
-- java.lang.Object.wait(long)
-- java.lang.Object.wait(long,int)
-syntax: public class RegistryInner extends Resource
+- "com.azure.core.management.ProxyResource.id()"
+- "com.azure.core.management.ProxyResource.name()"
+- "com.azure.core.management.ProxyResource.type()"
+- "com.azure.core.management.Resource.location()"
+- "com.azure.core.management.Resource.tags()"
+- "com.azure.core.management.Resource.withLocation(java.lang.String)"
+- "com.azure.core.management.Resource.withTags(java.util.Map<java.lang.String,java.lang.String>)"
+- "java.lang.Object.clone()"
+- "java.lang.Object.equals(java.lang.Object)"
+- "java.lang.Object.finalize()"
+- "java.lang.Object.getClass()"
+- "java.lang.Object.hashCode()"
+- "java.lang.Object.notify()"
+- "java.lang.Object.notifyAll()"
+- "java.lang.Object.toString()"
+- "java.lang.Object.wait()"
+- "java.lang.Object.wait(long)"
+- "java.lang.Object.wait(long,int)"
+syntax: "public class RegistryInner extends Resource"
 constructors:
-- com.azure.resourcemanager.containerregistry.fluent.inner.RegistryInner.RegistryInner()
+- "com.azure.resourcemanager.containerregistry.fluent.inner.RegistryInner.RegistryInner()"
 methods:
-- com.azure.resourcemanager.containerregistry.fluent.inner.RegistryInner.adminUserEnabled()
-- com.azure.resourcemanager.containerregistry.fluent.inner.RegistryInner.creationDate()
-- com.azure.resourcemanager.containerregistry.fluent.inner.RegistryInner.loginServer()
-- com.azure.resourcemanager.containerregistry.fluent.inner.RegistryInner.networkRuleSet()
-- com.azure.resourcemanager.containerregistry.fluent.inner.RegistryInner.provisioningState()
-- com.azure.resourcemanager.containerregistry.fluent.inner.RegistryInner.sku()
-- com.azure.resourcemanager.containerregistry.fluent.inner.RegistryInner.status()
-- com.azure.resourcemanager.containerregistry.fluent.inner.RegistryInner.storageAccount()
-- com.azure.resourcemanager.containerregistry.fluent.inner.RegistryInner.validate()
-- com.azure.resourcemanager.containerregistry.fluent.inner.RegistryInner.withAdminUserEnabled(java.lang.Boolean)
-- com.azure.resourcemanager.containerregistry.fluent.inner.RegistryInner.withNetworkRuleSet(com.azure.resourcemanager.containerregistry.models.NetworkRuleSet)
-- com.azure.resourcemanager.containerregistry.fluent.inner.RegistryInner.withSku(com.azure.resourcemanager.containerregistry.models.Sku)
-- com.azure.resourcemanager.containerregistry.fluent.inner.RegistryInner.withStorageAccount(com.azure.resourcemanager.containerregistry.models.StorageAccountProperties)
-type: class
+- "com.azure.resourcemanager.containerregistry.fluent.inner.RegistryInner.adminUserEnabled()"
+- "com.azure.resourcemanager.containerregistry.fluent.inner.RegistryInner.creationDate()"
+- "com.azure.resourcemanager.containerregistry.fluent.inner.RegistryInner.loginServer()"
+- "com.azure.resourcemanager.containerregistry.fluent.inner.RegistryInner.networkRuleSet()"
+- "com.azure.resourcemanager.containerregistry.fluent.inner.RegistryInner.provisioningState()"
+- "com.azure.resourcemanager.containerregistry.fluent.inner.RegistryInner.sku()"
+- "com.azure.resourcemanager.containerregistry.fluent.inner.RegistryInner.status()"
+- "com.azure.resourcemanager.containerregistry.fluent.inner.RegistryInner.storageAccount()"
+- "com.azure.resourcemanager.containerregistry.fluent.inner.RegistryInner.validate()"
+- "com.azure.resourcemanager.containerregistry.fluent.inner.RegistryInner.withAdminUserEnabled(java.lang.Boolean)"
+- "com.azure.resourcemanager.containerregistry.fluent.inner.RegistryInner.withNetworkRuleSet(com.azure.resourcemanager.containerregistry.models.NetworkRuleSet)"
+- "com.azure.resourcemanager.containerregistry.fluent.inner.RegistryInner.withSku(com.azure.resourcemanager.containerregistry.models.Sku)"
+- "com.azure.resourcemanager.containerregistry.fluent.inner.RegistryInner.withStorageAccount(com.azure.resourcemanager.containerregistry.models.StorageAccountProperties)"
+type: "class"
 metadata: {}
-package: com.azure.resourcemanager.containerregistry.fluent.inner
+package: "com.azure.resourcemanager.containerregistry.fluent.inner"
 artifact: com.azure.resourcemanager:azure-resourcemanager-containerregistry:2.0.0-beta.2

@@ -1,39 +1,39 @@
 ### YamlMime:JavaType
-uid: com.azure.messaging.servicebus.models.QueueRuntimeInfo
-fullName: com.azure.messaging.servicebus.models.QueueRuntimeInfo
-name: QueueRuntimeInfo
-nameWithType: QueueRuntimeInfo
-summary: Runtime information about the queue.
+uid: "com.azure.messaging.servicebus.models.QueueRuntimeInfo"
+fullName: "com.azure.messaging.servicebus.models.QueueRuntimeInfo"
+name: "QueueRuntimeInfo"
+nameWithType: "QueueRuntimeInfo"
+summary: "Runtime information about the queue."
 inheritances:
-- <xref href="java.lang.Object" data-throw-if-not-resolved="False" />
+- "<xref href=\"java.lang.Object\" data-throw-if-not-resolved=\"False\" />"
 inheritedMembers:
-- java.lang.Object.clone()
-- java.lang.Object.equals(java.lang.Object)
-- java.lang.Object.finalize()
-- java.lang.Object.getClass()
-- java.lang.Object.hashCode()
-- java.lang.Object.notify()
-- java.lang.Object.notifyAll()
-- java.lang.Object.toString()
-- java.lang.Object.wait()
-- java.lang.Object.wait(long)
-- java.lang.Object.wait(long,int)
-syntax: public class QueueRuntimeInfo
+- "java.lang.Object.clone()"
+- "java.lang.Object.equals(java.lang.Object)"
+- "java.lang.Object.finalize()"
+- "java.lang.Object.getClass()"
+- "java.lang.Object.hashCode()"
+- "java.lang.Object.notify()"
+- "java.lang.Object.notifyAll()"
+- "java.lang.Object.toString()"
+- "java.lang.Object.wait()"
+- "java.lang.Object.wait(long)"
+- "java.lang.Object.wait(long,int)"
+syntax: "public class QueueRuntimeInfo"
 constructors:
-- com.azure.messaging.servicebus.models.QueueRuntimeInfo.QueueRuntimeInfo(com.azure.messaging.servicebus.models.QueueProperties)
+- "com.azure.messaging.servicebus.models.QueueRuntimeInfo.QueueRuntimeInfo(com.azure.messaging.servicebus.models.QueueProperties)"
 methods:
-- com.azure.messaging.servicebus.models.QueueRuntimeInfo.getAccessedAt()
-- com.azure.messaging.servicebus.models.QueueRuntimeInfo.getActiveMessageCount()
-- com.azure.messaging.servicebus.models.QueueRuntimeInfo.getCreatedAt()
-- com.azure.messaging.servicebus.models.QueueRuntimeInfo.getDeadLetterMessageCount()
-- com.azure.messaging.servicebus.models.QueueRuntimeInfo.getName()
-- com.azure.messaging.servicebus.models.QueueRuntimeInfo.getScheduledMessageCount()
-- com.azure.messaging.servicebus.models.QueueRuntimeInfo.getSizeInBytes()
-- com.azure.messaging.servicebus.models.QueueRuntimeInfo.getTotalMessageCount()
-- com.azure.messaging.servicebus.models.QueueRuntimeInfo.getTransferDeadLetterMessageCount()
-- com.azure.messaging.servicebus.models.QueueRuntimeInfo.getTransferMessageCount()
-- com.azure.messaging.servicebus.models.QueueRuntimeInfo.getUpdatedAt()
-type: class
+- "com.azure.messaging.servicebus.models.QueueRuntimeInfo.getAccessedAt()"
+- "com.azure.messaging.servicebus.models.QueueRuntimeInfo.getActiveMessageCount()"
+- "com.azure.messaging.servicebus.models.QueueRuntimeInfo.getCreatedAt()"
+- "com.azure.messaging.servicebus.models.QueueRuntimeInfo.getDeadLetterMessageCount()"
+- "com.azure.messaging.servicebus.models.QueueRuntimeInfo.getName()"
+- "com.azure.messaging.servicebus.models.QueueRuntimeInfo.getScheduledMessageCount()"
+- "com.azure.messaging.servicebus.models.QueueRuntimeInfo.getSizeInBytes()"
+- "com.azure.messaging.servicebus.models.QueueRuntimeInfo.getTotalMessageCount()"
+- "com.azure.messaging.servicebus.models.QueueRuntimeInfo.getTransferDeadLetterMessageCount()"
+- "com.azure.messaging.servicebus.models.QueueRuntimeInfo.getTransferMessageCount()"
+- "com.azure.messaging.servicebus.models.QueueRuntimeInfo.getUpdatedAt()"
+type: "class"
 metadata: {}
-package: com.azure.messaging.servicebus.models
+package: "com.azure.messaging.servicebus.models"
 artifact: com.azure:azure-messaging-servicebus:7.0.0-beta.5

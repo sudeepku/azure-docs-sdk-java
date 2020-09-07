@@ -1,39 +1,39 @@
 ### YamlMime:JavaType
-uid: com.azure.resourcemanager.appservice.fluent.inner.AnalysisDataInner
-fullName: com.azure.resourcemanager.appservice.fluent.inner.AnalysisDataInner
-name: AnalysisDataInner
-nameWithType: AnalysisDataInner
-summary: The AnalysisData model.
+uid: "com.azure.resourcemanager.appservice.fluent.inner.AnalysisDataInner"
+fullName: "com.azure.resourcemanager.appservice.fluent.inner.AnalysisDataInner"
+name: "AnalysisDataInner"
+nameWithType: "AnalysisDataInner"
+summary: "The AnalysisData model."
 inheritances:
-- <xref href="java.lang.Object" data-throw-if-not-resolved="False" />
+- "<xref href=\"java.lang.Object\" data-throw-if-not-resolved=\"False\" />"
 inheritedMembers:
-- java.lang.Object.clone()
-- java.lang.Object.equals(java.lang.Object)
-- java.lang.Object.finalize()
-- java.lang.Object.getClass()
-- java.lang.Object.hashCode()
-- java.lang.Object.notify()
-- java.lang.Object.notifyAll()
-- java.lang.Object.toString()
-- java.lang.Object.wait()
-- java.lang.Object.wait(long)
-- java.lang.Object.wait(long,int)
-syntax: public final class AnalysisDataInner
+- "java.lang.Object.clone()"
+- "java.lang.Object.equals(java.lang.Object)"
+- "java.lang.Object.finalize()"
+- "java.lang.Object.getClass()"
+- "java.lang.Object.hashCode()"
+- "java.lang.Object.notify()"
+- "java.lang.Object.notifyAll()"
+- "java.lang.Object.toString()"
+- "java.lang.Object.wait()"
+- "java.lang.Object.wait(long)"
+- "java.lang.Object.wait(long,int)"
+syntax: "public final class AnalysisDataInner"
 constructors:
-- com.azure.resourcemanager.appservice.fluent.inner.AnalysisDataInner.AnalysisDataInner()
+- "com.azure.resourcemanager.appservice.fluent.inner.AnalysisDataInner.AnalysisDataInner()"
 methods:
-- com.azure.resourcemanager.appservice.fluent.inner.AnalysisDataInner.data()
-- com.azure.resourcemanager.appservice.fluent.inner.AnalysisDataInner.detectorDefinition()
-- com.azure.resourcemanager.appservice.fluent.inner.AnalysisDataInner.detectorMetadata()
-- com.azure.resourcemanager.appservice.fluent.inner.AnalysisDataInner.metrics()
-- com.azure.resourcemanager.appservice.fluent.inner.AnalysisDataInner.source()
-- com.azure.resourcemanager.appservice.fluent.inner.AnalysisDataInner.validate()
-- com.azure.resourcemanager.appservice.fluent.inner.AnalysisDataInner.withData(java.util.List<java.util.List<com.azure.resourcemanager.appservice.models.NameValuePair>>)
-- com.azure.resourcemanager.appservice.fluent.inner.AnalysisDataInner.withDetectorDefinition(com.azure.resourcemanager.appservice.fluent.inner.DetectorDefinitionInner)
-- com.azure.resourcemanager.appservice.fluent.inner.AnalysisDataInner.withDetectorMetadata(com.azure.resourcemanager.appservice.models.ResponseMetadata)
-- com.azure.resourcemanager.appservice.fluent.inner.AnalysisDataInner.withMetrics(java.util.List<com.azure.resourcemanager.appservice.models.DiagnosticMetricSet>)
-- com.azure.resourcemanager.appservice.fluent.inner.AnalysisDataInner.withSource(java.lang.String)
-type: class
+- "com.azure.resourcemanager.appservice.fluent.inner.AnalysisDataInner.data()"
+- "com.azure.resourcemanager.appservice.fluent.inner.AnalysisDataInner.detectorDefinition()"
+- "com.azure.resourcemanager.appservice.fluent.inner.AnalysisDataInner.detectorMetadata()"
+- "com.azure.resourcemanager.appservice.fluent.inner.AnalysisDataInner.metrics()"
+- "com.azure.resourcemanager.appservice.fluent.inner.AnalysisDataInner.source()"
+- "com.azure.resourcemanager.appservice.fluent.inner.AnalysisDataInner.validate()"
+- "com.azure.resourcemanager.appservice.fluent.inner.AnalysisDataInner.withData(java.util.List<java.util.List<com.azure.resourcemanager.appservice.models.NameValuePair>>)"
+- "com.azure.resourcemanager.appservice.fluent.inner.AnalysisDataInner.withDetectorDefinition(com.azure.resourcemanager.appservice.fluent.inner.DetectorDefinitionInner)"
+- "com.azure.resourcemanager.appservice.fluent.inner.AnalysisDataInner.withDetectorMetadata(com.azure.resourcemanager.appservice.models.ResponseMetadata)"
+- "com.azure.resourcemanager.appservice.fluent.inner.AnalysisDataInner.withMetrics(java.util.List<com.azure.resourcemanager.appservice.models.DiagnosticMetricSet>)"
+- "com.azure.resourcemanager.appservice.fluent.inner.AnalysisDataInner.withSource(java.lang.String)"
+type: "class"
 metadata: {}
-package: com.azure.resourcemanager.appservice.fluent.inner
+package: "com.azure.resourcemanager.appservice.fluent.inner"
 artifact: com.azure.resourcemanager:azure-resourcemanager-appservice:2.0.0-beta.2

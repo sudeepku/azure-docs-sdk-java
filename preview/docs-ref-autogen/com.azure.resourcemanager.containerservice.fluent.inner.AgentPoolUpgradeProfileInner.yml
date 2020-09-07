@@ -1,38 +1,38 @@
 ### YamlMime:JavaType
-uid: com.azure.resourcemanager.containerservice.fluent.inner.AgentPoolUpgradeProfileInner
-fullName: com.azure.resourcemanager.containerservice.fluent.inner.AgentPoolUpgradeProfileInner
-name: AgentPoolUpgradeProfileInner
-nameWithType: AgentPoolUpgradeProfileInner
-summary: The AgentPoolUpgradeProfile model.
+uid: "com.azure.resourcemanager.containerservice.fluent.inner.AgentPoolUpgradeProfileInner"
+fullName: "com.azure.resourcemanager.containerservice.fluent.inner.AgentPoolUpgradeProfileInner"
+name: "AgentPoolUpgradeProfileInner"
+nameWithType: "AgentPoolUpgradeProfileInner"
+summary: "The AgentPoolUpgradeProfile model."
 inheritances:
-- <xref href="java.lang.Object" data-throw-if-not-resolved="False" />
+- "<xref href=\"java.lang.Object\" data-throw-if-not-resolved=\"False\" />"
 inheritedMembers:
-- java.lang.Object.clone()
-- java.lang.Object.equals(java.lang.Object)
-- java.lang.Object.finalize()
-- java.lang.Object.getClass()
-- java.lang.Object.hashCode()
-- java.lang.Object.notify()
-- java.lang.Object.notifyAll()
-- java.lang.Object.toString()
-- java.lang.Object.wait()
-- java.lang.Object.wait(long)
-- java.lang.Object.wait(long,int)
-syntax: public class AgentPoolUpgradeProfileInner
+- "java.lang.Object.clone()"
+- "java.lang.Object.equals(java.lang.Object)"
+- "java.lang.Object.finalize()"
+- "java.lang.Object.getClass()"
+- "java.lang.Object.hashCode()"
+- "java.lang.Object.notify()"
+- "java.lang.Object.notifyAll()"
+- "java.lang.Object.toString()"
+- "java.lang.Object.wait()"
+- "java.lang.Object.wait(long)"
+- "java.lang.Object.wait(long,int)"
+syntax: "public class AgentPoolUpgradeProfileInner"
 constructors:
-- com.azure.resourcemanager.containerservice.fluent.inner.AgentPoolUpgradeProfileInner.AgentPoolUpgradeProfileInner()
+- "com.azure.resourcemanager.containerservice.fluent.inner.AgentPoolUpgradeProfileInner.AgentPoolUpgradeProfileInner()"
 methods:
-- com.azure.resourcemanager.containerservice.fluent.inner.AgentPoolUpgradeProfileInner.id()
-- com.azure.resourcemanager.containerservice.fluent.inner.AgentPoolUpgradeProfileInner.kubernetesVersion()
-- com.azure.resourcemanager.containerservice.fluent.inner.AgentPoolUpgradeProfileInner.name()
-- com.azure.resourcemanager.containerservice.fluent.inner.AgentPoolUpgradeProfileInner.osType()
-- com.azure.resourcemanager.containerservice.fluent.inner.AgentPoolUpgradeProfileInner.type()
-- com.azure.resourcemanager.containerservice.fluent.inner.AgentPoolUpgradeProfileInner.upgrades()
-- com.azure.resourcemanager.containerservice.fluent.inner.AgentPoolUpgradeProfileInner.validate()
-- com.azure.resourcemanager.containerservice.fluent.inner.AgentPoolUpgradeProfileInner.withKubernetesVersion(java.lang.String)
-- com.azure.resourcemanager.containerservice.fluent.inner.AgentPoolUpgradeProfileInner.withOsType(com.azure.resourcemanager.containerservice.models.OSType)
-- com.azure.resourcemanager.containerservice.fluent.inner.AgentPoolUpgradeProfileInner.withUpgrades(java.util.List<com.azure.resourcemanager.containerservice.models.AgentPoolUpgradeProfilePropertiesUpgradesItem>)
-type: class
+- "com.azure.resourcemanager.containerservice.fluent.inner.AgentPoolUpgradeProfileInner.id()"
+- "com.azure.resourcemanager.containerservice.fluent.inner.AgentPoolUpgradeProfileInner.kubernetesVersion()"
+- "com.azure.resourcemanager.containerservice.fluent.inner.AgentPoolUpgradeProfileInner.name()"
+- "com.azure.resourcemanager.containerservice.fluent.inner.AgentPoolUpgradeProfileInner.osType()"
+- "com.azure.resourcemanager.containerservice.fluent.inner.AgentPoolUpgradeProfileInner.type()"
+- "com.azure.resourcemanager.containerservice.fluent.inner.AgentPoolUpgradeProfileInner.upgrades()"
+- "com.azure.resourcemanager.containerservice.fluent.inner.AgentPoolUpgradeProfileInner.validate()"
+- "com.azure.resourcemanager.containerservice.fluent.inner.AgentPoolUpgradeProfileInner.withKubernetesVersion(java.lang.String)"
+- "com.azure.resourcemanager.containerservice.fluent.inner.AgentPoolUpgradeProfileInner.withOsType(com.azure.resourcemanager.containerservice.models.OSType)"
+- "com.azure.resourcemanager.containerservice.fluent.inner.AgentPoolUpgradeProfileInner.withUpgrades(java.util.List<com.azure.resourcemanager.containerservice.models.AgentPoolUpgradeProfilePropertiesUpgradesItem>)"
+type: "class"
 metadata: {}
-package: com.azure.resourcemanager.containerservice.fluent.inner
+package: "com.azure.resourcemanager.containerservice.fluent.inner"
 artifact: com.azure.resourcemanager:azure-resourcemanager-containerservice:2.0.0-beta.2

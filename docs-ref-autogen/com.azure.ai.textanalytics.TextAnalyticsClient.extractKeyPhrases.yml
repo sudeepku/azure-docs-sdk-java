@@ -1,71 +1,39 @@
 ### YamlMime:JavaMember
-uid: com.azure.ai.textanalytics.TextAnalyticsClient.extractKeyPhrases*
-fullName: com.azure.ai.textanalytics.TextAnalyticsClient.extractKeyPhrases
-name: extractKeyPhrases
-nameWithType: TextAnalyticsClient.extractKeyPhrases
+uid: "com.azure.ai.textanalytics.TextAnalyticsClient.extractKeyPhrases*"
+fullName: "com.azure.ai.textanalytics.TextAnalyticsClient.extractKeyPhrases"
+name: "extractKeyPhrases"
+nameWithType: "TextAnalyticsClient.extractKeyPhrases"
 members:
-- uid: com.azure.ai.textanalytics.TextAnalyticsClient.extractKeyPhrases(java.lang.String)
-  fullName: com.azure.ai.textanalytics.TextAnalyticsClient.extractKeyPhrases(String document)
-  name: extractKeyPhrases(String document)
-  nameWithType: TextAnalyticsClient.extractKeyPhrases(String document)
-  summary: |-
-    Returns a list of strings denoting the key phrases in the document.
-
-     This method will use the default language that sets up in
-     <xref uid="TextAnalyticsClientBuilder#defaultLanguage(String)" data-throw-if-not-resolved="false">TextAnalyticsClientBuilder#defaultLanguage(String)</xref>. If none is specified, service will use 'en' as
-     the language.
-
-     <p><strong>Code Sample</strong></p>
-     <p>Extracts key phrases of documents</p>
-     <pre>
-     System.out.println&#40;&quot;Extracted phrases:&quot;&#41;;
-     for &#40;String keyPhrase : textAnalyticsClient.extractKeyPhrases&#40;&quot;My cat might need to see a veterinarian.&quot;&#41;&#41; &#123;
-         System.out.printf&#40;&quot;%s.%n&quot;, keyPhrase&#41;;
-     &#125;
-     </pre>
+- uid: "com.azure.ai.textanalytics.TextAnalyticsClient.extractKeyPhrases(java.lang.String)"
+  fullName: "com.azure.ai.textanalytics.TextAnalyticsClient.extractKeyPhrases(String document)"
+  name: "extractKeyPhrases(String document)"
+  nameWithType: "TextAnalyticsClient.extractKeyPhrases(String document)"
+  summary: "Returns a list of strings denoting the key phrases in the document.\n\n This method will use the default language that sets up in\n <xref uid=\"TextAnalyticsClientBuilder#defaultLanguage(String)\" data-throw-if-not-resolved=\"false\">TextAnalyticsClientBuilder#defaultLanguage(String)</xref>. If none is specified, service will use 'en' as\n the language.\n\n <p><strong>Code Sample</strong></p>\n <p>Extracts key phrases of documents</p>\n <pre>\n System.out.println&#40;&quot;Extracted phrases:&quot;&#41;;\n for &#40;String keyPhrase : textAnalyticsClient.extractKeyPhrases&#40;&quot;My cat might need to see a veterinarian.&quot;&#41;&#41; &#123;\n     System.out.printf&#40;&quot;%s.%n&quot;, keyPhrase&#41;;\n &#125;\n </pre>"
   parameters:
-  - description: |-
-      The document to be analyzed.
-       For text length limits, maximum batch size, and supported text encoding, see
-       <a href="https://docs.microsoft.com/azure/cognitive-services/text-analytics/overview#data-limits">data limits</a>.
-    name: document
-    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
-  syntax: public KeyPhrasesCollection extractKeyPhrases(String document)
+  - description: "The document to be analyzed.\n For text length limits, maximum batch size, and supported text encoding, see\n <a href=\"https://docs.microsoft.com/azure/cognitive-services/text-analytics/overview#data-limits\">data limits</a>."
+    name: "document"
+    type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public KeyPhrasesCollection extractKeyPhrases(String document)"
   returns:
-    description: A <xref uid="com.azure.ai.textanalytics.models.KeyPhrasesCollection" data-throw-if-not-resolved="false">KeyPhrasesCollection</xref> contains a list of extracted key phrases.
-    type: <xref href="com.azure.ai.textanalytics.models.KeyPhrasesCollection?alt=com.azure.ai.textanalytics.models.KeyPhrasesCollection&text=KeyPhrasesCollection" data-throw-if-not-resolved="False" />
-- uid: com.azure.ai.textanalytics.TextAnalyticsClient.extractKeyPhrases(java.lang.String,java.lang.String)
-  fullName: com.azure.ai.textanalytics.TextAnalyticsClient.extractKeyPhrases(String document, String language)
-  name: extractKeyPhrases(String document, String language)
-  nameWithType: TextAnalyticsClient.extractKeyPhrases(String document, String language)
-  summary: |-
-    Returns a list of strings denoting the key phrases in the document.
-     See <a href="https://aka.ms/talangs">this</a> for the list of enabled languages.
-
-     <p><strong>Code Sample</strong></p>
-     <p>Extracts key phrases in a document with a provided language representation.</p>
-     <pre>
-     System.out.println&#40;&quot;Extracted phrases:&quot;&#41;;
-     textAnalyticsClient.extractKeyPhrases&#40;&quot;My cat might need to see a veterinarian.&quot;, &quot;en&quot;&#41;
-         .forEach&#40;kegPhrase -&gt; System.out.printf&#40;&quot;%s.%n&quot;, kegPhrase&#41;&#41;;
-     </pre>
+    description: "A <xref uid=\"com.azure.ai.textanalytics.models.KeyPhrasesCollection\" data-throw-if-not-resolved=\"false\">KeyPhrasesCollection</xref> contains a list of extracted key phrases."
+    type: "<xref href=\"com.azure.ai.textanalytics.models.KeyPhrasesCollection?alt=com.azure.ai.textanalytics.models.KeyPhrasesCollection&text=KeyPhrasesCollection\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.ai.textanalytics.TextAnalyticsClient.extractKeyPhrases(java.lang.String,java.lang.String)"
+  fullName: "com.azure.ai.textanalytics.TextAnalyticsClient.extractKeyPhrases(String document, String language)"
+  name: "extractKeyPhrases(String document, String language)"
+  nameWithType: "TextAnalyticsClient.extractKeyPhrases(String document, String language)"
+  summary: "Returns a list of strings denoting the key phrases in the document.\n See <a href=\"https://aka.ms/talangs\">this</a> for the list of enabled languages.\n\n <p><strong>Code Sample</strong></p>\n <p>Extracts key phrases in a document with a provided language representation.</p>\n <pre>\n System.out.println&#40;&quot;Extracted phrases:&quot;&#41;;\n textAnalyticsClient.extractKeyPhrases&#40;&quot;My cat might need to see a veterinarian.&quot;, &quot;en&quot;&#41;\n     .forEach&#40;kegPhrase -&gt; System.out.printf&#40;&quot;%s.%n&quot;, kegPhrase&#41;&#41;;\n </pre>"
   parameters:
-  - description: |-
-      The document to be analyzed.
-       For text length limits, maximum batch size, and supported text encoding, see
-       <a href="https://docs.microsoft.com/azure/cognitive-services/text-analytics/overview#data-limits">data limits</a>.
-    name: document
-    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
-  - description: |-
-      The 2 letter ISO 639-1 representation of language for the document. If not set, uses "en" for
-       English as default.
-    name: language
-    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
-  syntax: public KeyPhrasesCollection extractKeyPhrases(String document, String language)
+  - description: "The document to be analyzed.\n For text length limits, maximum batch size, and supported text encoding, see\n <a href=\"https://docs.microsoft.com/azure/cognitive-services/text-analytics/overview#data-limits\">data limits</a>."
+    name: "document"
+    type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
+  - description: "The 2 letter ISO 639-1 representation of language for the document. If not set, uses \"en\" for\n English as default."
+    name: "language"
+    type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public KeyPhrasesCollection extractKeyPhrases(String document, String language)"
   returns:
-    description: A <xref uid="com.azure.ai.textanalytics.models.KeyPhrasesCollection" data-throw-if-not-resolved="false">KeyPhrasesCollection</xref> contains a list of extracted key phrases.
-    type: <xref href="com.azure.ai.textanalytics.models.KeyPhrasesCollection?alt=com.azure.ai.textanalytics.models.KeyPhrasesCollection&text=KeyPhrasesCollection" data-throw-if-not-resolved="False" />
-type: method
+    description: "A <xref uid=\"com.azure.ai.textanalytics.models.KeyPhrasesCollection\" data-throw-if-not-resolved=\"false\">KeyPhrasesCollection</xref> contains a list of extracted key phrases."
+    type: "<xref href=\"com.azure.ai.textanalytics.models.KeyPhrasesCollection?alt=com.azure.ai.textanalytics.models.KeyPhrasesCollection&text=KeyPhrasesCollection\" data-throw-if-not-resolved=\"False\" />"
+type: "method"
 metadata: {}
-package: com.azure.ai.textanalytics
+package: "com.azure.ai.textanalytics"
 artifact: com.azure:azure-ai-textanalytics:1.0.1

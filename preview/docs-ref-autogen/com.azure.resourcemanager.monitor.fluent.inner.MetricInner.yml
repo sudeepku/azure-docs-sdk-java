@@ -1,39 +1,39 @@
 ### YamlMime:JavaType
-uid: com.azure.resourcemanager.monitor.fluent.inner.MetricInner
-fullName: com.azure.resourcemanager.monitor.fluent.inner.MetricInner
-name: MetricInner
-nameWithType: MetricInner
-summary: The Metric model.
+uid: "com.azure.resourcemanager.monitor.fluent.inner.MetricInner"
+fullName: "com.azure.resourcemanager.monitor.fluent.inner.MetricInner"
+name: "MetricInner"
+nameWithType: "MetricInner"
+summary: "The Metric model."
 inheritances:
-- <xref href="java.lang.Object" data-throw-if-not-resolved="False" />
+- "<xref href=\"java.lang.Object\" data-throw-if-not-resolved=\"False\" />"
 inheritedMembers:
-- java.lang.Object.clone()
-- java.lang.Object.equals(java.lang.Object)
-- java.lang.Object.finalize()
-- java.lang.Object.getClass()
-- java.lang.Object.hashCode()
-- java.lang.Object.notify()
-- java.lang.Object.notifyAll()
-- java.lang.Object.toString()
-- java.lang.Object.wait()
-- java.lang.Object.wait(long)
-- java.lang.Object.wait(long,int)
-syntax: public final class MetricInner
+- "java.lang.Object.clone()"
+- "java.lang.Object.equals(java.lang.Object)"
+- "java.lang.Object.finalize()"
+- "java.lang.Object.getClass()"
+- "java.lang.Object.hashCode()"
+- "java.lang.Object.notify()"
+- "java.lang.Object.notifyAll()"
+- "java.lang.Object.toString()"
+- "java.lang.Object.wait()"
+- "java.lang.Object.wait(long)"
+- "java.lang.Object.wait(long,int)"
+syntax: "public final class MetricInner"
 constructors:
-- com.azure.resourcemanager.monitor.fluent.inner.MetricInner.MetricInner()
+- "com.azure.resourcemanager.monitor.fluent.inner.MetricInner.MetricInner()"
 methods:
-- com.azure.resourcemanager.monitor.fluent.inner.MetricInner.id()
-- com.azure.resourcemanager.monitor.fluent.inner.MetricInner.name()
-- com.azure.resourcemanager.monitor.fluent.inner.MetricInner.timeseries()
-- com.azure.resourcemanager.monitor.fluent.inner.MetricInner.type()
-- com.azure.resourcemanager.monitor.fluent.inner.MetricInner.unit()
-- com.azure.resourcemanager.monitor.fluent.inner.MetricInner.validate()
-- com.azure.resourcemanager.monitor.fluent.inner.MetricInner.withId(java.lang.String)
-- com.azure.resourcemanager.monitor.fluent.inner.MetricInner.withName(com.azure.resourcemanager.monitor.fluent.inner.LocalizableStringInner)
-- com.azure.resourcemanager.monitor.fluent.inner.MetricInner.withTimeseries(java.util.List<com.azure.resourcemanager.monitor.models.TimeSeriesElement>)
-- com.azure.resourcemanager.monitor.fluent.inner.MetricInner.withType(java.lang.String)
-- com.azure.resourcemanager.monitor.fluent.inner.MetricInner.withUnit(com.azure.resourcemanager.monitor.models.Unit)
-type: class
+- "com.azure.resourcemanager.monitor.fluent.inner.MetricInner.id()"
+- "com.azure.resourcemanager.monitor.fluent.inner.MetricInner.name()"
+- "com.azure.resourcemanager.monitor.fluent.inner.MetricInner.timeseries()"
+- "com.azure.resourcemanager.monitor.fluent.inner.MetricInner.type()"
+- "com.azure.resourcemanager.monitor.fluent.inner.MetricInner.unit()"
+- "com.azure.resourcemanager.monitor.fluent.inner.MetricInner.validate()"
+- "com.azure.resourcemanager.monitor.fluent.inner.MetricInner.withId(java.lang.String)"
+- "com.azure.resourcemanager.monitor.fluent.inner.MetricInner.withName(com.azure.resourcemanager.monitor.fluent.inner.LocalizableStringInner)"
+- "com.azure.resourcemanager.monitor.fluent.inner.MetricInner.withTimeseries(java.util.List<com.azure.resourcemanager.monitor.models.TimeSeriesElement>)"
+- "com.azure.resourcemanager.monitor.fluent.inner.MetricInner.withType(java.lang.String)"
+- "com.azure.resourcemanager.monitor.fluent.inner.MetricInner.withUnit(com.azure.resourcemanager.monitor.models.Unit)"
+type: "class"
 metadata: {}
-package: com.azure.resourcemanager.monitor.fluent.inner
+package: "com.azure.resourcemanager.monitor.fluent.inner"
 artifact: com.azure.resourcemanager:azure-resourcemanager-monitor:2.0.0-beta.2

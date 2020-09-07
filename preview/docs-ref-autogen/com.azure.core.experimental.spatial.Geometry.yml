@@ -1,32 +1,32 @@
 ### YamlMime:JavaType
-uid: com.azure.core.experimental.spatial.Geometry
-fullName: com.azure.core.experimental.spatial.Geometry
-name: Geometry
-nameWithType: Geometry
-summary: An abstract representation of a geometry.
+uid: "com.azure.core.experimental.spatial.Geometry"
+fullName: "com.azure.core.experimental.spatial.Geometry"
+name: "Geometry"
+nameWithType: "Geometry"
+summary: "An abstract representation of a geometry."
 inheritances:
-- <xref href="java.lang.Object" data-throw-if-not-resolved="False" />
+- "<xref href=\"java.lang.Object\" data-throw-if-not-resolved=\"False\" />"
 inheritedMembers:
-- java.lang.Object.clone()
-- java.lang.Object.equals(java.lang.Object)
-- java.lang.Object.finalize()
-- java.lang.Object.getClass()
-- java.lang.Object.hashCode()
-- java.lang.Object.notify()
-- java.lang.Object.notifyAll()
-- java.lang.Object.toString()
-- java.lang.Object.wait()
-- java.lang.Object.wait(long)
-- java.lang.Object.wait(long,int)
-syntax: public abstract class Geometry
+- "java.lang.Object.clone()"
+- "java.lang.Object.equals(java.lang.Object)"
+- "java.lang.Object.finalize()"
+- "java.lang.Object.getClass()"
+- "java.lang.Object.hashCode()"
+- "java.lang.Object.notify()"
+- "java.lang.Object.notifyAll()"
+- "java.lang.Object.toString()"
+- "java.lang.Object.wait()"
+- "java.lang.Object.wait(long)"
+- "java.lang.Object.wait(long,int)"
+syntax: "public abstract class Geometry"
 constructors:
-- com.azure.core.experimental.spatial.Geometry.Geometry(com.azure.core.experimental.spatial.GeometryBoundingBox,java.util.Map<java.lang.String,java.lang.Object>)
+- "com.azure.core.experimental.spatial.Geometry.Geometry(com.azure.core.experimental.spatial.GeometryBoundingBox,java.util.Map<java.lang.String,java.lang.Object>)"
 methods:
-- com.azure.core.experimental.spatial.Geometry.equals(java.lang.Object)
-- com.azure.core.experimental.spatial.Geometry.getBoundingBox()
-- com.azure.core.experimental.spatial.Geometry.getProperties()
-- com.azure.core.experimental.spatial.Geometry.hashCode()
-type: class
+- "com.azure.core.experimental.spatial.Geometry.equals(java.lang.Object)"
+- "com.azure.core.experimental.spatial.Geometry.getBoundingBox()"
+- "com.azure.core.experimental.spatial.Geometry.getProperties()"
+- "com.azure.core.experimental.spatial.Geometry.hashCode()"
+type: "class"
 metadata: {}
-package: com.azure.core.experimental.spatial
+package: "com.azure.core.experimental.spatial"
 artifact: com.azure:azure-core-experimental:1.0.0-beta.2

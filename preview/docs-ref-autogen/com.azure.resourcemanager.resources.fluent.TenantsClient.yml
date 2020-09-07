@@ -1,36 +1,36 @@
 ### YamlMime:JavaType
-uid: com.azure.resourcemanager.resources.fluent.TenantsClient
-fullName: com.azure.resourcemanager.resources.fluent.TenantsClient
-name: TenantsClient
-nameWithType: TenantsClient
-summary: An instance of this class provides access to all the operations defined in Tenants.
+uid: "com.azure.resourcemanager.resources.fluent.TenantsClient"
+fullName: "com.azure.resourcemanager.resources.fluent.TenantsClient"
+name: "TenantsClient"
+nameWithType: "TenantsClient"
+summary: "An instance of this class provides access to all the operations defined in Tenants."
 inheritances:
-- <xref href="java.lang.Object" data-throw-if-not-resolved="False" />
+- "<xref href=\"java.lang.Object\" data-throw-if-not-resolved=\"False\" />"
 inheritedMembers:
-- java.lang.Object.clone()
-- java.lang.Object.equals(java.lang.Object)
-- java.lang.Object.finalize()
-- java.lang.Object.getClass()
-- java.lang.Object.hashCode()
-- java.lang.Object.notify()
-- java.lang.Object.notifyAll()
-- java.lang.Object.toString()
-- java.lang.Object.wait()
-- java.lang.Object.wait(long)
-- java.lang.Object.wait(long,int)
-syntax: public final class TenantsClient
+- "java.lang.Object.clone()"
+- "java.lang.Object.equals(java.lang.Object)"
+- "java.lang.Object.finalize()"
+- "java.lang.Object.getClass()"
+- "java.lang.Object.hashCode()"
+- "java.lang.Object.notify()"
+- "java.lang.Object.notifyAll()"
+- "java.lang.Object.toString()"
+- "java.lang.Object.wait()"
+- "java.lang.Object.wait(long)"
+- "java.lang.Object.wait(long,int)"
+syntax: "public final class TenantsClient"
 constructors:
-- com.azure.resourcemanager.resources.fluent.TenantsClient.TenantsClient(com.azure.resourcemanager.resources.SubscriptionClient)
+- "com.azure.resourcemanager.resources.fluent.TenantsClient.TenantsClient(com.azure.resourcemanager.resources.SubscriptionClient)"
 methods:
-- com.azure.resourcemanager.resources.fluent.TenantsClient.list()
-- com.azure.resourcemanager.resources.fluent.TenantsClient.list(com.azure.core.util.Context)
-- com.azure.resourcemanager.resources.fluent.TenantsClient.listAsync()
-- com.azure.resourcemanager.resources.fluent.TenantsClient.listAsync(com.azure.core.util.Context)
-- com.azure.resourcemanager.resources.fluent.TenantsClient.listNextSinglePageAsync(java.lang.String)
-- com.azure.resourcemanager.resources.fluent.TenantsClient.listNextSinglePageAsync(java.lang.String,com.azure.core.util.Context)
-- com.azure.resourcemanager.resources.fluent.TenantsClient.listSinglePageAsync()
-- com.azure.resourcemanager.resources.fluent.TenantsClient.listSinglePageAsync(com.azure.core.util.Context)
-type: class
+- "com.azure.resourcemanager.resources.fluent.TenantsClient.list()"
+- "com.azure.resourcemanager.resources.fluent.TenantsClient.list(com.azure.core.util.Context)"
+- "com.azure.resourcemanager.resources.fluent.TenantsClient.listAsync()"
+- "com.azure.resourcemanager.resources.fluent.TenantsClient.listAsync(com.azure.core.util.Context)"
+- "com.azure.resourcemanager.resources.fluent.TenantsClient.listNextSinglePageAsync(java.lang.String)"
+- "com.azure.resourcemanager.resources.fluent.TenantsClient.listNextSinglePageAsync(java.lang.String,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.resources.fluent.TenantsClient.listSinglePageAsync()"
+- "com.azure.resourcemanager.resources.fluent.TenantsClient.listSinglePageAsync(com.azure.core.util.Context)"
+type: "class"
 metadata: {}
-package: com.azure.resourcemanager.resources.fluent
+package: "com.azure.resourcemanager.resources.fluent"
 artifact: com.azure.resourcemanager:azure-resourcemanager-resources:2.0.0-beta.2

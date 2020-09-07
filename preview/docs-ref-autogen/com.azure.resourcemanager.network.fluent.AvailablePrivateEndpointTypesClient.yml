@@ -1,44 +1,44 @@
 ### YamlMime:JavaType
-uid: com.azure.resourcemanager.network.fluent.AvailablePrivateEndpointTypesClient
-fullName: com.azure.resourcemanager.network.fluent.AvailablePrivateEndpointTypesClient
-name: AvailablePrivateEndpointTypesClient
-nameWithType: AvailablePrivateEndpointTypesClient
-summary: An instance of this class provides access to all the operations defined in AvailablePrivateEndpointTypes.
+uid: "com.azure.resourcemanager.network.fluent.AvailablePrivateEndpointTypesClient"
+fullName: "com.azure.resourcemanager.network.fluent.AvailablePrivateEndpointTypesClient"
+name: "AvailablePrivateEndpointTypesClient"
+nameWithType: "AvailablePrivateEndpointTypesClient"
+summary: "An instance of this class provides access to all the operations defined in AvailablePrivateEndpointTypes."
 inheritances:
-- <xref href="java.lang.Object" data-throw-if-not-resolved="False" />
+- "<xref href=\"java.lang.Object\" data-throw-if-not-resolved=\"False\" />"
 inheritedMembers:
-- java.lang.Object.clone()
-- java.lang.Object.equals(java.lang.Object)
-- java.lang.Object.finalize()
-- java.lang.Object.getClass()
-- java.lang.Object.hashCode()
-- java.lang.Object.notify()
-- java.lang.Object.notifyAll()
-- java.lang.Object.toString()
-- java.lang.Object.wait()
-- java.lang.Object.wait(long)
-- java.lang.Object.wait(long,int)
-syntax: public final class AvailablePrivateEndpointTypesClient
+- "java.lang.Object.clone()"
+- "java.lang.Object.equals(java.lang.Object)"
+- "java.lang.Object.finalize()"
+- "java.lang.Object.getClass()"
+- "java.lang.Object.hashCode()"
+- "java.lang.Object.notify()"
+- "java.lang.Object.notifyAll()"
+- "java.lang.Object.toString()"
+- "java.lang.Object.wait()"
+- "java.lang.Object.wait(long)"
+- "java.lang.Object.wait(long,int)"
+syntax: "public final class AvailablePrivateEndpointTypesClient"
 constructors:
-- com.azure.resourcemanager.network.fluent.AvailablePrivateEndpointTypesClient.AvailablePrivateEndpointTypesClient(com.azure.resourcemanager.network.NetworkManagementClient)
+- "com.azure.resourcemanager.network.fluent.AvailablePrivateEndpointTypesClient.AvailablePrivateEndpointTypesClient(com.azure.resourcemanager.network.NetworkManagementClient)"
 methods:
-- com.azure.resourcemanager.network.fluent.AvailablePrivateEndpointTypesClient.list(java.lang.String)
-- com.azure.resourcemanager.network.fluent.AvailablePrivateEndpointTypesClient.list(java.lang.String,com.azure.core.util.Context)
-- com.azure.resourcemanager.network.fluent.AvailablePrivateEndpointTypesClient.listAsync(java.lang.String)
-- com.azure.resourcemanager.network.fluent.AvailablePrivateEndpointTypesClient.listAsync(java.lang.String,com.azure.core.util.Context)
-- com.azure.resourcemanager.network.fluent.AvailablePrivateEndpointTypesClient.listByResourceGroup(java.lang.String,java.lang.String)
-- com.azure.resourcemanager.network.fluent.AvailablePrivateEndpointTypesClient.listByResourceGroup(java.lang.String,java.lang.String,com.azure.core.util.Context)
-- com.azure.resourcemanager.network.fluent.AvailablePrivateEndpointTypesClient.listByResourceGroupAsync(java.lang.String,java.lang.String)
-- com.azure.resourcemanager.network.fluent.AvailablePrivateEndpointTypesClient.listByResourceGroupAsync(java.lang.String,java.lang.String,com.azure.core.util.Context)
-- com.azure.resourcemanager.network.fluent.AvailablePrivateEndpointTypesClient.listByResourceGroupNextSinglePageAsync(java.lang.String)
-- com.azure.resourcemanager.network.fluent.AvailablePrivateEndpointTypesClient.listByResourceGroupNextSinglePageAsync(java.lang.String,com.azure.core.util.Context)
-- com.azure.resourcemanager.network.fluent.AvailablePrivateEndpointTypesClient.listByResourceGroupSinglePageAsync(java.lang.String,java.lang.String)
-- com.azure.resourcemanager.network.fluent.AvailablePrivateEndpointTypesClient.listByResourceGroupSinglePageAsync(java.lang.String,java.lang.String,com.azure.core.util.Context)
-- com.azure.resourcemanager.network.fluent.AvailablePrivateEndpointTypesClient.listNextSinglePageAsync(java.lang.String)
-- com.azure.resourcemanager.network.fluent.AvailablePrivateEndpointTypesClient.listNextSinglePageAsync(java.lang.String,com.azure.core.util.Context)
-- com.azure.resourcemanager.network.fluent.AvailablePrivateEndpointTypesClient.listSinglePageAsync(java.lang.String)
-- com.azure.resourcemanager.network.fluent.AvailablePrivateEndpointTypesClient.listSinglePageAsync(java.lang.String,com.azure.core.util.Context)
-type: class
+- "com.azure.resourcemanager.network.fluent.AvailablePrivateEndpointTypesClient.list(java.lang.String)"
+- "com.azure.resourcemanager.network.fluent.AvailablePrivateEndpointTypesClient.list(java.lang.String,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.network.fluent.AvailablePrivateEndpointTypesClient.listAsync(java.lang.String)"
+- "com.azure.resourcemanager.network.fluent.AvailablePrivateEndpointTypesClient.listAsync(java.lang.String,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.network.fluent.AvailablePrivateEndpointTypesClient.listByResourceGroup(java.lang.String,java.lang.String)"
+- "com.azure.resourcemanager.network.fluent.AvailablePrivateEndpointTypesClient.listByResourceGroup(java.lang.String,java.lang.String,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.network.fluent.AvailablePrivateEndpointTypesClient.listByResourceGroupAsync(java.lang.String,java.lang.String)"
+- "com.azure.resourcemanager.network.fluent.AvailablePrivateEndpointTypesClient.listByResourceGroupAsync(java.lang.String,java.lang.String,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.network.fluent.AvailablePrivateEndpointTypesClient.listByResourceGroupNextSinglePageAsync(java.lang.String)"
+- "com.azure.resourcemanager.network.fluent.AvailablePrivateEndpointTypesClient.listByResourceGroupNextSinglePageAsync(java.lang.String,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.network.fluent.AvailablePrivateEndpointTypesClient.listByResourceGroupSinglePageAsync(java.lang.String,java.lang.String)"
+- "com.azure.resourcemanager.network.fluent.AvailablePrivateEndpointTypesClient.listByResourceGroupSinglePageAsync(java.lang.String,java.lang.String,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.network.fluent.AvailablePrivateEndpointTypesClient.listNextSinglePageAsync(java.lang.String)"
+- "com.azure.resourcemanager.network.fluent.AvailablePrivateEndpointTypesClient.listNextSinglePageAsync(java.lang.String,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.network.fluent.AvailablePrivateEndpointTypesClient.listSinglePageAsync(java.lang.String)"
+- "com.azure.resourcemanager.network.fluent.AvailablePrivateEndpointTypesClient.listSinglePageAsync(java.lang.String,com.azure.core.util.Context)"
+type: "class"
 metadata: {}
-package: com.azure.resourcemanager.network.fluent
+package: "com.azure.resourcemanager.network.fluent"
 artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.0.0-beta.2

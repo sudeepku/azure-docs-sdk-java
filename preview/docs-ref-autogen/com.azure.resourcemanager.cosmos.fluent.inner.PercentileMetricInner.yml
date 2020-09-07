@@ -1,35 +1,35 @@
 ### YamlMime:JavaType
-uid: com.azure.resourcemanager.cosmos.fluent.inner.PercentileMetricInner
-fullName: com.azure.resourcemanager.cosmos.fluent.inner.PercentileMetricInner
-name: PercentileMetricInner
-nameWithType: PercentileMetricInner
-summary: The PercentileMetric model.
+uid: "com.azure.resourcemanager.cosmos.fluent.inner.PercentileMetricInner"
+fullName: "com.azure.resourcemanager.cosmos.fluent.inner.PercentileMetricInner"
+name: "PercentileMetricInner"
+nameWithType: "PercentileMetricInner"
+summary: "The PercentileMetric model."
 inheritances:
-- <xref href="java.lang.Object" data-throw-if-not-resolved="False" />
+- "<xref href=\"java.lang.Object\" data-throw-if-not-resolved=\"False\" />"
 inheritedMembers:
-- java.lang.Object.clone()
-- java.lang.Object.equals(java.lang.Object)
-- java.lang.Object.finalize()
-- java.lang.Object.getClass()
-- java.lang.Object.hashCode()
-- java.lang.Object.notify()
-- java.lang.Object.notifyAll()
-- java.lang.Object.toString()
-- java.lang.Object.wait()
-- java.lang.Object.wait(long)
-- java.lang.Object.wait(long,int)
-syntax: public final class PercentileMetricInner
+- "java.lang.Object.clone()"
+- "java.lang.Object.equals(java.lang.Object)"
+- "java.lang.Object.finalize()"
+- "java.lang.Object.getClass()"
+- "java.lang.Object.hashCode()"
+- "java.lang.Object.notify()"
+- "java.lang.Object.notifyAll()"
+- "java.lang.Object.toString()"
+- "java.lang.Object.wait()"
+- "java.lang.Object.wait(long)"
+- "java.lang.Object.wait(long,int)"
+syntax: "public final class PercentileMetricInner"
 constructors:
-- com.azure.resourcemanager.cosmos.fluent.inner.PercentileMetricInner.PercentileMetricInner()
+- "com.azure.resourcemanager.cosmos.fluent.inner.PercentileMetricInner.PercentileMetricInner()"
 methods:
-- com.azure.resourcemanager.cosmos.fluent.inner.PercentileMetricInner.endTime()
-- com.azure.resourcemanager.cosmos.fluent.inner.PercentileMetricInner.metricValues()
-- com.azure.resourcemanager.cosmos.fluent.inner.PercentileMetricInner.name()
-- com.azure.resourcemanager.cosmos.fluent.inner.PercentileMetricInner.startTime()
-- com.azure.resourcemanager.cosmos.fluent.inner.PercentileMetricInner.timeGrain()
-- com.azure.resourcemanager.cosmos.fluent.inner.PercentileMetricInner.unit()
-- com.azure.resourcemanager.cosmos.fluent.inner.PercentileMetricInner.validate()
-type: class
+- "com.azure.resourcemanager.cosmos.fluent.inner.PercentileMetricInner.endTime()"
+- "com.azure.resourcemanager.cosmos.fluent.inner.PercentileMetricInner.metricValues()"
+- "com.azure.resourcemanager.cosmos.fluent.inner.PercentileMetricInner.name()"
+- "com.azure.resourcemanager.cosmos.fluent.inner.PercentileMetricInner.startTime()"
+- "com.azure.resourcemanager.cosmos.fluent.inner.PercentileMetricInner.timeGrain()"
+- "com.azure.resourcemanager.cosmos.fluent.inner.PercentileMetricInner.unit()"
+- "com.azure.resourcemanager.cosmos.fluent.inner.PercentileMetricInner.validate()"
+type: "class"
 metadata: {}
-package: com.azure.resourcemanager.cosmos.fluent.inner
+package: "com.azure.resourcemanager.cosmos.fluent.inner"
 artifact: com.azure.resourcemanager:azure-resourcemanager-cosmos:2.0.0-beta.2

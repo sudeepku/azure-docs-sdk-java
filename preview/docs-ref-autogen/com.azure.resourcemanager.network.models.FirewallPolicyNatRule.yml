@@ -1,43 +1,43 @@
 ### YamlMime:JavaType
-uid: com.azure.resourcemanager.network.models.FirewallPolicyNatRule
-fullName: com.azure.resourcemanager.network.models.FirewallPolicyNatRule
-name: FirewallPolicyNatRule
-nameWithType: FirewallPolicyNatRule
-summary: The FirewallPolicyNatRule model.
+uid: "com.azure.resourcemanager.network.models.FirewallPolicyNatRule"
+fullName: "com.azure.resourcemanager.network.models.FirewallPolicyNatRule"
+name: "FirewallPolicyNatRule"
+nameWithType: "FirewallPolicyNatRule"
+summary: "The FirewallPolicyNatRule model."
 inheritances:
-- <xref href="java.lang.Object" data-throw-if-not-resolved="False" />
-- <xref href="com.azure.resourcemanager.network.models.FirewallPolicyRule" data-throw-if-not-resolved="False" />
+- "<xref href=\"java.lang.Object\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.azure.resourcemanager.network.models.FirewallPolicyRule\" data-throw-if-not-resolved=\"False\" />"
 inheritedMembers:
-- com.azure.resourcemanager.network.models.FirewallPolicyRule.name()
-- com.azure.resourcemanager.network.models.FirewallPolicyRule.priority()
-- com.azure.resourcemanager.network.models.FirewallPolicyRule.validate()
-- com.azure.resourcemanager.network.models.FirewallPolicyRule.withName(java.lang.String)
-- com.azure.resourcemanager.network.models.FirewallPolicyRule.withPriority(java.lang.Integer)
-- java.lang.Object.clone()
-- java.lang.Object.equals(java.lang.Object)
-- java.lang.Object.finalize()
-- java.lang.Object.getClass()
-- java.lang.Object.hashCode()
-- java.lang.Object.notify()
-- java.lang.Object.notifyAll()
-- java.lang.Object.toString()
-- java.lang.Object.wait()
-- java.lang.Object.wait(long)
-- java.lang.Object.wait(long,int)
-syntax: public final class FirewallPolicyNatRule extends FirewallPolicyRule
+- "com.azure.resourcemanager.network.models.FirewallPolicyRule.name()"
+- "com.azure.resourcemanager.network.models.FirewallPolicyRule.priority()"
+- "com.azure.resourcemanager.network.models.FirewallPolicyRule.validate()"
+- "com.azure.resourcemanager.network.models.FirewallPolicyRule.withName(java.lang.String)"
+- "com.azure.resourcemanager.network.models.FirewallPolicyRule.withPriority(java.lang.Integer)"
+- "java.lang.Object.clone()"
+- "java.lang.Object.equals(java.lang.Object)"
+- "java.lang.Object.finalize()"
+- "java.lang.Object.getClass()"
+- "java.lang.Object.hashCode()"
+- "java.lang.Object.notify()"
+- "java.lang.Object.notifyAll()"
+- "java.lang.Object.toString()"
+- "java.lang.Object.wait()"
+- "java.lang.Object.wait(long)"
+- "java.lang.Object.wait(long,int)"
+syntax: "public final class FirewallPolicyNatRule extends FirewallPolicyRule"
 constructors:
-- com.azure.resourcemanager.network.models.FirewallPolicyNatRule.FirewallPolicyNatRule()
+- "com.azure.resourcemanager.network.models.FirewallPolicyNatRule.FirewallPolicyNatRule()"
 methods:
-- com.azure.resourcemanager.network.models.FirewallPolicyNatRule.action()
-- com.azure.resourcemanager.network.models.FirewallPolicyNatRule.ruleCondition()
-- com.azure.resourcemanager.network.models.FirewallPolicyNatRule.translatedAddress()
-- com.azure.resourcemanager.network.models.FirewallPolicyNatRule.translatedPort()
-- com.azure.resourcemanager.network.models.FirewallPolicyNatRule.validate()
-- com.azure.resourcemanager.network.models.FirewallPolicyNatRule.withAction(com.azure.resourcemanager.network.models.FirewallPolicyNatRuleAction)
-- com.azure.resourcemanager.network.models.FirewallPolicyNatRule.withRuleCondition(com.azure.resourcemanager.network.models.FirewallPolicyRuleCondition)
-- com.azure.resourcemanager.network.models.FirewallPolicyNatRule.withTranslatedAddress(java.lang.String)
-- com.azure.resourcemanager.network.models.FirewallPolicyNatRule.withTranslatedPort(java.lang.String)
-type: class
+- "com.azure.resourcemanager.network.models.FirewallPolicyNatRule.action()"
+- "com.azure.resourcemanager.network.models.FirewallPolicyNatRule.ruleCondition()"
+- "com.azure.resourcemanager.network.models.FirewallPolicyNatRule.translatedAddress()"
+- "com.azure.resourcemanager.network.models.FirewallPolicyNatRule.translatedPort()"
+- "com.azure.resourcemanager.network.models.FirewallPolicyNatRule.validate()"
+- "com.azure.resourcemanager.network.models.FirewallPolicyNatRule.withAction(com.azure.resourcemanager.network.models.FirewallPolicyNatRuleAction)"
+- "com.azure.resourcemanager.network.models.FirewallPolicyNatRule.withRuleCondition(com.azure.resourcemanager.network.models.FirewallPolicyRuleCondition)"
+- "com.azure.resourcemanager.network.models.FirewallPolicyNatRule.withTranslatedAddress(java.lang.String)"
+- "com.azure.resourcemanager.network.models.FirewallPolicyNatRule.withTranslatedPort(java.lang.String)"
+type: "class"
 metadata: {}
-package: com.azure.resourcemanager.network.models
+package: "com.azure.resourcemanager.network.models"
 artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.0.0-beta.2

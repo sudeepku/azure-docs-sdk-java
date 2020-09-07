@@ -1,42 +1,26 @@
 ### YamlMime:JavaMember
-uid: com.azure.storage.file.datalake.DataLakeFileClient.rename*
-fullName: com.azure.storage.file.datalake.DataLakeFileClient.rename
-name: rename
-nameWithType: DataLakeFileClient.rename
+uid: "com.azure.storage.file.datalake.DataLakeFileClient.rename*"
+fullName: "com.azure.storage.file.datalake.DataLakeFileClient.rename"
+name: "rename"
+nameWithType: "DataLakeFileClient.rename"
 members:
-- uid: com.azure.storage.file.datalake.DataLakeFileClient.rename(java.lang.String,java.lang.String)
-  fullName: com.azure.storage.file.datalake.DataLakeFileClient.rename(String destinationFileSystem, String destinationPath)
-  name: rename(String destinationFileSystem, String destinationPath)
-  nameWithType: DataLakeFileClient.rename(String destinationFileSystem, String destinationPath)
-  summary: |-
-    Moves the file to another location within the file system.
-     For more information see the
-     <a href="https://docs.microsoft.com/en-us/rest/api/storageservices/datalakestoragegen2/path/create">Azure
-     Docs</a>.
-
-     <p><strong>Code Samples</strong></p>
-
-     <pre>
-     DataLakeDirectoryAsyncClient renamedClient = client.rename&#40;fileSystemName, destinationPath&#41;.block&#40;&#41;;
-     System.out.println&#40;&quot;Directory Client has been renamed&quot;&#41;;
-     </pre>
+- uid: "com.azure.storage.file.datalake.DataLakeFileClient.rename(java.lang.String,java.lang.String)"
+  fullName: "com.azure.storage.file.datalake.DataLakeFileClient.rename(String destinationFileSystem, String destinationPath)"
+  name: "rename(String destinationFileSystem, String destinationPath)"
+  nameWithType: "DataLakeFileClient.rename(String destinationFileSystem, String destinationPath)"
+  summary: "Moves the file to another location within the file system.\n For more information see the\n <a href=\"https://docs.microsoft.com/en-us/rest/api/storageservices/datalakestoragegen2/path/create\">Azure\n Docs</a>.\n\n <p><strong>Code Samples</strong></p>\n\n <pre>\n DataLakeDirectoryAsyncClient renamedClient = client.rename&#40;fileSystemName, destinationPath&#41;.block&#40;&#41;;\n System.out.println&#40;&quot;Directory Client has been renamed&quot;&#41;;\n </pre>"
   parameters:
-  - description: |-
-      The file system of the destination within the account.
-       <code>null</code> for the current file system.
-    name: destinationFileSystem
-    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
-  - description: |-
-      Relative path from the file system to rename the file to, excludes the file system name.
-       For example if you want to move a file with fileSystem = "myfilesystem", path = "mydir/hello.txt" to another path
-       in myfilesystem (ex: newdir/hi.txt) then set the destinationPath = "newdir/hi.txt"
-    name: destinationPath
-    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
-  syntax: public DataLakeFileClient rename(String destinationFileSystem, String destinationPath)
+  - description: "The file system of the destination within the account.\n <code>null</code> for the current file system."
+    name: "destinationFileSystem"
+    type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
+  - description: "Relative path from the file system to rename the file to, excludes the file system name.\n For example if you want to move a file with fileSystem = \"myfilesystem\", path = \"mydir/hello.txt\" to another path\n in myfilesystem (ex: newdir/hi.txt) then set the destinationPath = \"newdir/hi.txt\""
+    name: "destinationPath"
+    type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public DataLakeFileClient rename(String destinationFileSystem, String destinationPath)"
   returns:
-    description: A <xref uid="com.azure.storage.file.datalake.DataLakeFileClient" data-throw-if-not-resolved="false">DataLakeFileClient</xref> used to interact with the new file created.
-    type: <xref href="com.azure.storage.file.datalake.DataLakeFileClient?alt=com.azure.storage.file.datalake.DataLakeFileClient&text=DataLakeFileClient" data-throw-if-not-resolved="False" />
-type: method
+    description: "A <xref uid=\"com.azure.storage.file.datalake.DataLakeFileClient\" data-throw-if-not-resolved=\"false\">DataLakeFileClient</xref> used to interact with the new file created."
+    type: "<xref href=\"com.azure.storage.file.datalake.DataLakeFileClient?alt=com.azure.storage.file.datalake.DataLakeFileClient&text=DataLakeFileClient\" data-throw-if-not-resolved=\"False\" />"
+type: "method"
 metadata: {}
-package: com.azure.storage.file.datalake
+package: "com.azure.storage.file.datalake"
 artifact: com.azure:azure-storage-file-datalake:12.2.0

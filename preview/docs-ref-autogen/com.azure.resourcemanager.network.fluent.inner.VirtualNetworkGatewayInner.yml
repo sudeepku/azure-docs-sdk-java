@@ -1,65 +1,65 @@
 ### YamlMime:JavaType
-uid: com.azure.resourcemanager.network.fluent.inner.VirtualNetworkGatewayInner
-fullName: com.azure.resourcemanager.network.fluent.inner.VirtualNetworkGatewayInner
-name: VirtualNetworkGatewayInner
-nameWithType: VirtualNetworkGatewayInner
-summary: The VirtualNetworkGateway model.
+uid: "com.azure.resourcemanager.network.fluent.inner.VirtualNetworkGatewayInner"
+fullName: "com.azure.resourcemanager.network.fluent.inner.VirtualNetworkGatewayInner"
+name: "VirtualNetworkGatewayInner"
+nameWithType: "VirtualNetworkGatewayInner"
+summary: "The VirtualNetworkGateway model."
 inheritances:
-- <xref href="java.lang.Object" data-throw-if-not-resolved="False" />
-- <xref href="com.azure.core.management.ProxyResource" data-throw-if-not-resolved="False" />
-- <xref href="com.azure.core.management.Resource" data-throw-if-not-resolved="False" />
+- "<xref href=\"java.lang.Object\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.azure.core.management.ProxyResource\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.azure.core.management.Resource\" data-throw-if-not-resolved=\"False\" />"
 inheritedMembers:
-- com.azure.core.management.ProxyResource.id()
-- com.azure.core.management.ProxyResource.name()
-- com.azure.core.management.ProxyResource.type()
-- com.azure.core.management.Resource.location()
-- com.azure.core.management.Resource.tags()
-- com.azure.core.management.Resource.withLocation(java.lang.String)
-- com.azure.core.management.Resource.withTags(java.util.Map<java.lang.String,java.lang.String>)
-- java.lang.Object.clone()
-- java.lang.Object.equals(java.lang.Object)
-- java.lang.Object.finalize()
-- java.lang.Object.getClass()
-- java.lang.Object.hashCode()
-- java.lang.Object.notify()
-- java.lang.Object.notifyAll()
-- java.lang.Object.toString()
-- java.lang.Object.wait()
-- java.lang.Object.wait(long)
-- java.lang.Object.wait(long,int)
-syntax: public class VirtualNetworkGatewayInner extends Resource
+- "com.azure.core.management.ProxyResource.id()"
+- "com.azure.core.management.ProxyResource.name()"
+- "com.azure.core.management.ProxyResource.type()"
+- "com.azure.core.management.Resource.location()"
+- "com.azure.core.management.Resource.tags()"
+- "com.azure.core.management.Resource.withLocation(java.lang.String)"
+- "com.azure.core.management.Resource.withTags(java.util.Map<java.lang.String,java.lang.String>)"
+- "java.lang.Object.clone()"
+- "java.lang.Object.equals(java.lang.Object)"
+- "java.lang.Object.finalize()"
+- "java.lang.Object.getClass()"
+- "java.lang.Object.hashCode()"
+- "java.lang.Object.notify()"
+- "java.lang.Object.notifyAll()"
+- "java.lang.Object.toString()"
+- "java.lang.Object.wait()"
+- "java.lang.Object.wait(long)"
+- "java.lang.Object.wait(long,int)"
+syntax: "public class VirtualNetworkGatewayInner extends Resource"
 constructors:
-- com.azure.resourcemanager.network.fluent.inner.VirtualNetworkGatewayInner.VirtualNetworkGatewayInner()
+- "com.azure.resourcemanager.network.fluent.inner.VirtualNetworkGatewayInner.VirtualNetworkGatewayInner()"
 methods:
-- com.azure.resourcemanager.network.fluent.inner.VirtualNetworkGatewayInner.active()
-- com.azure.resourcemanager.network.fluent.inner.VirtualNetworkGatewayInner.bgpSettings()
-- com.azure.resourcemanager.network.fluent.inner.VirtualNetworkGatewayInner.customRoutes()
-- com.azure.resourcemanager.network.fluent.inner.VirtualNetworkGatewayInner.enableBgp()
-- com.azure.resourcemanager.network.fluent.inner.VirtualNetworkGatewayInner.etag()
-- com.azure.resourcemanager.network.fluent.inner.VirtualNetworkGatewayInner.gatewayDefaultSite()
-- com.azure.resourcemanager.network.fluent.inner.VirtualNetworkGatewayInner.gatewayType()
-- com.azure.resourcemanager.network.fluent.inner.VirtualNetworkGatewayInner.id()
-- com.azure.resourcemanager.network.fluent.inner.VirtualNetworkGatewayInner.ipConfigurations()
-- com.azure.resourcemanager.network.fluent.inner.VirtualNetworkGatewayInner.provisioningState()
-- com.azure.resourcemanager.network.fluent.inner.VirtualNetworkGatewayInner.resourceGuid()
-- com.azure.resourcemanager.network.fluent.inner.VirtualNetworkGatewayInner.sku()
-- com.azure.resourcemanager.network.fluent.inner.VirtualNetworkGatewayInner.validate()
-- com.azure.resourcemanager.network.fluent.inner.VirtualNetworkGatewayInner.vpnClientConfiguration()
-- com.azure.resourcemanager.network.fluent.inner.VirtualNetworkGatewayInner.vpnType()
-- com.azure.resourcemanager.network.fluent.inner.VirtualNetworkGatewayInner.withActive(java.lang.Boolean)
-- com.azure.resourcemanager.network.fluent.inner.VirtualNetworkGatewayInner.withBgpSettings(com.azure.resourcemanager.network.models.BgpSettings)
-- com.azure.resourcemanager.network.fluent.inner.VirtualNetworkGatewayInner.withCustomRoutes(com.azure.resourcemanager.network.models.AddressSpace)
-- com.azure.resourcemanager.network.fluent.inner.VirtualNetworkGatewayInner.withEnableBgp(java.lang.Boolean)
-- com.azure.resourcemanager.network.fluent.inner.VirtualNetworkGatewayInner.withEtag(java.lang.String)
-- com.azure.resourcemanager.network.fluent.inner.VirtualNetworkGatewayInner.withGatewayDefaultSite(com.azure.core.management.SubResource)
-- com.azure.resourcemanager.network.fluent.inner.VirtualNetworkGatewayInner.withGatewayType(com.azure.resourcemanager.network.models.VirtualNetworkGatewayType)
-- com.azure.resourcemanager.network.fluent.inner.VirtualNetworkGatewayInner.withId(java.lang.String)
-- com.azure.resourcemanager.network.fluent.inner.VirtualNetworkGatewayInner.withIpConfigurations(java.util.List<com.azure.resourcemanager.network.fluent.inner.VirtualNetworkGatewayIpConfigurationInner>)
-- com.azure.resourcemanager.network.fluent.inner.VirtualNetworkGatewayInner.withResourceGuid(java.lang.String)
-- com.azure.resourcemanager.network.fluent.inner.VirtualNetworkGatewayInner.withSku(com.azure.resourcemanager.network.models.VirtualNetworkGatewaySku)
-- com.azure.resourcemanager.network.fluent.inner.VirtualNetworkGatewayInner.withVpnClientConfiguration(com.azure.resourcemanager.network.models.VpnClientConfiguration)
-- com.azure.resourcemanager.network.fluent.inner.VirtualNetworkGatewayInner.withVpnType(com.azure.resourcemanager.network.models.VpnType)
-type: class
+- "com.azure.resourcemanager.network.fluent.inner.VirtualNetworkGatewayInner.active()"
+- "com.azure.resourcemanager.network.fluent.inner.VirtualNetworkGatewayInner.bgpSettings()"
+- "com.azure.resourcemanager.network.fluent.inner.VirtualNetworkGatewayInner.customRoutes()"
+- "com.azure.resourcemanager.network.fluent.inner.VirtualNetworkGatewayInner.enableBgp()"
+- "com.azure.resourcemanager.network.fluent.inner.VirtualNetworkGatewayInner.etag()"
+- "com.azure.resourcemanager.network.fluent.inner.VirtualNetworkGatewayInner.gatewayDefaultSite()"
+- "com.azure.resourcemanager.network.fluent.inner.VirtualNetworkGatewayInner.gatewayType()"
+- "com.azure.resourcemanager.network.fluent.inner.VirtualNetworkGatewayInner.id()"
+- "com.azure.resourcemanager.network.fluent.inner.VirtualNetworkGatewayInner.ipConfigurations()"
+- "com.azure.resourcemanager.network.fluent.inner.VirtualNetworkGatewayInner.provisioningState()"
+- "com.azure.resourcemanager.network.fluent.inner.VirtualNetworkGatewayInner.resourceGuid()"
+- "com.azure.resourcemanager.network.fluent.inner.VirtualNetworkGatewayInner.sku()"
+- "com.azure.resourcemanager.network.fluent.inner.VirtualNetworkGatewayInner.validate()"
+- "com.azure.resourcemanager.network.fluent.inner.VirtualNetworkGatewayInner.vpnClientConfiguration()"
+- "com.azure.resourcemanager.network.fluent.inner.VirtualNetworkGatewayInner.vpnType()"
+- "com.azure.resourcemanager.network.fluent.inner.VirtualNetworkGatewayInner.withActive(java.lang.Boolean)"
+- "com.azure.resourcemanager.network.fluent.inner.VirtualNetworkGatewayInner.withBgpSettings(com.azure.resourcemanager.network.models.BgpSettings)"
+- "com.azure.resourcemanager.network.fluent.inner.VirtualNetworkGatewayInner.withCustomRoutes(com.azure.resourcemanager.network.models.AddressSpace)"
+- "com.azure.resourcemanager.network.fluent.inner.VirtualNetworkGatewayInner.withEnableBgp(java.lang.Boolean)"
+- "com.azure.resourcemanager.network.fluent.inner.VirtualNetworkGatewayInner.withEtag(java.lang.String)"
+- "com.azure.resourcemanager.network.fluent.inner.VirtualNetworkGatewayInner.withGatewayDefaultSite(com.azure.core.management.SubResource)"
+- "com.azure.resourcemanager.network.fluent.inner.VirtualNetworkGatewayInner.withGatewayType(com.azure.resourcemanager.network.models.VirtualNetworkGatewayType)"
+- "com.azure.resourcemanager.network.fluent.inner.VirtualNetworkGatewayInner.withId(java.lang.String)"
+- "com.azure.resourcemanager.network.fluent.inner.VirtualNetworkGatewayInner.withIpConfigurations(java.util.List<com.azure.resourcemanager.network.fluent.inner.VirtualNetworkGatewayIpConfigurationInner>)"
+- "com.azure.resourcemanager.network.fluent.inner.VirtualNetworkGatewayInner.withResourceGuid(java.lang.String)"
+- "com.azure.resourcemanager.network.fluent.inner.VirtualNetworkGatewayInner.withSku(com.azure.resourcemanager.network.models.VirtualNetworkGatewaySku)"
+- "com.azure.resourcemanager.network.fluent.inner.VirtualNetworkGatewayInner.withVpnClientConfiguration(com.azure.resourcemanager.network.models.VpnClientConfiguration)"
+- "com.azure.resourcemanager.network.fluent.inner.VirtualNetworkGatewayInner.withVpnType(com.azure.resourcemanager.network.models.VpnType)"
+type: "class"
 metadata: {}
-package: com.azure.resourcemanager.network.fluent.inner
+package: "com.azure.resourcemanager.network.fluent.inner"
 artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.0.0-beta.2

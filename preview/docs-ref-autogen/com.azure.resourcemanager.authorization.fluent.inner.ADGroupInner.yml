@@ -1,45 +1,45 @@
 ### YamlMime:JavaType
-uid: com.azure.resourcemanager.authorization.fluent.inner.ADGroupInner
-fullName: com.azure.resourcemanager.authorization.fluent.inner.ADGroupInner
-name: ADGroupInner
-nameWithType: ADGroupInner
-summary: The ADGroup model.
+uid: "com.azure.resourcemanager.authorization.fluent.inner.ADGroupInner"
+fullName: "com.azure.resourcemanager.authorization.fluent.inner.ADGroupInner"
+name: "ADGroupInner"
+nameWithType: "ADGroupInner"
+summary: "The ADGroup model."
 inheritances:
-- <xref href="java.lang.Object" data-throw-if-not-resolved="False" />
-- <xref href="com.azure.resourcemanager.authorization.fluent.inner.DirectoryObjectInner" data-throw-if-not-resolved="False" />
+- "<xref href=\"java.lang.Object\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.azure.resourcemanager.authorization.fluent.inner.DirectoryObjectInner\" data-throw-if-not-resolved=\"False\" />"
 inheritedMembers:
-- com.azure.resourcemanager.authorization.fluent.inner.DirectoryObjectInner.additionalProperties()
-- com.azure.resourcemanager.authorization.fluent.inner.DirectoryObjectInner.deletionTimestamp()
-- com.azure.resourcemanager.authorization.fluent.inner.DirectoryObjectInner.objectId()
-- com.azure.resourcemanager.authorization.fluent.inner.DirectoryObjectInner.validate()
-- com.azure.resourcemanager.authorization.fluent.inner.DirectoryObjectInner.withAdditionalProperties(java.util.Map<java.lang.String,java.lang.Object>)
-- java.lang.Object.clone()
-- java.lang.Object.equals(java.lang.Object)
-- java.lang.Object.finalize()
-- java.lang.Object.getClass()
-- java.lang.Object.hashCode()
-- java.lang.Object.notify()
-- java.lang.Object.notifyAll()
-- java.lang.Object.toString()
-- java.lang.Object.wait()
-- java.lang.Object.wait(long)
-- java.lang.Object.wait(long,int)
-syntax: public final class ADGroupInner extends DirectoryObjectInner
+- "com.azure.resourcemanager.authorization.fluent.inner.DirectoryObjectInner.additionalProperties()"
+- "com.azure.resourcemanager.authorization.fluent.inner.DirectoryObjectInner.deletionTimestamp()"
+- "com.azure.resourcemanager.authorization.fluent.inner.DirectoryObjectInner.objectId()"
+- "com.azure.resourcemanager.authorization.fluent.inner.DirectoryObjectInner.validate()"
+- "com.azure.resourcemanager.authorization.fluent.inner.DirectoryObjectInner.withAdditionalProperties(java.util.Map<java.lang.String,java.lang.Object>)"
+- "java.lang.Object.clone()"
+- "java.lang.Object.equals(java.lang.Object)"
+- "java.lang.Object.finalize()"
+- "java.lang.Object.getClass()"
+- "java.lang.Object.hashCode()"
+- "java.lang.Object.notify()"
+- "java.lang.Object.notifyAll()"
+- "java.lang.Object.toString()"
+- "java.lang.Object.wait()"
+- "java.lang.Object.wait(long)"
+- "java.lang.Object.wait(long,int)"
+syntax: "public final class ADGroupInner extends DirectoryObjectInner"
 constructors:
-- com.azure.resourcemanager.authorization.fluent.inner.ADGroupInner.ADGroupInner()
+- "com.azure.resourcemanager.authorization.fluent.inner.ADGroupInner.ADGroupInner()"
 methods:
-- com.azure.resourcemanager.authorization.fluent.inner.ADGroupInner.displayName()
-- com.azure.resourcemanager.authorization.fluent.inner.ADGroupInner.mail()
-- com.azure.resourcemanager.authorization.fluent.inner.ADGroupInner.mailEnabled()
-- com.azure.resourcemanager.authorization.fluent.inner.ADGroupInner.mailNickname()
-- com.azure.resourcemanager.authorization.fluent.inner.ADGroupInner.securityEnabled()
-- com.azure.resourcemanager.authorization.fluent.inner.ADGroupInner.validate()
-- com.azure.resourcemanager.authorization.fluent.inner.ADGroupInner.withDisplayName(java.lang.String)
-- com.azure.resourcemanager.authorization.fluent.inner.ADGroupInner.withMail(java.lang.String)
-- com.azure.resourcemanager.authorization.fluent.inner.ADGroupInner.withMailEnabled(java.lang.Boolean)
-- com.azure.resourcemanager.authorization.fluent.inner.ADGroupInner.withMailNickname(java.lang.String)
-- com.azure.resourcemanager.authorization.fluent.inner.ADGroupInner.withSecurityEnabled(java.lang.Boolean)
-type: class
+- "com.azure.resourcemanager.authorization.fluent.inner.ADGroupInner.displayName()"
+- "com.azure.resourcemanager.authorization.fluent.inner.ADGroupInner.mail()"
+- "com.azure.resourcemanager.authorization.fluent.inner.ADGroupInner.mailEnabled()"
+- "com.azure.resourcemanager.authorization.fluent.inner.ADGroupInner.mailNickname()"
+- "com.azure.resourcemanager.authorization.fluent.inner.ADGroupInner.securityEnabled()"
+- "com.azure.resourcemanager.authorization.fluent.inner.ADGroupInner.validate()"
+- "com.azure.resourcemanager.authorization.fluent.inner.ADGroupInner.withDisplayName(java.lang.String)"
+- "com.azure.resourcemanager.authorization.fluent.inner.ADGroupInner.withMail(java.lang.String)"
+- "com.azure.resourcemanager.authorization.fluent.inner.ADGroupInner.withMailEnabled(java.lang.Boolean)"
+- "com.azure.resourcemanager.authorization.fluent.inner.ADGroupInner.withMailNickname(java.lang.String)"
+- "com.azure.resourcemanager.authorization.fluent.inner.ADGroupInner.withSecurityEnabled(java.lang.Boolean)"
+type: "class"
 metadata: {}
-package: com.azure.resourcemanager.authorization.fluent.inner
+package: "com.azure.resourcemanager.authorization.fluent.inner"
 artifact: com.azure.resourcemanager:azure-resourcemanager-authorization:2.0.0-beta.2

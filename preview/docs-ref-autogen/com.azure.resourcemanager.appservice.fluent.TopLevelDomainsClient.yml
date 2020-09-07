@@ -1,50 +1,50 @@
 ### YamlMime:JavaType
-uid: com.azure.resourcemanager.appservice.fluent.TopLevelDomainsClient
-fullName: com.azure.resourcemanager.appservice.fluent.TopLevelDomainsClient
-name: TopLevelDomainsClient
-nameWithType: TopLevelDomainsClient
-summary: An instance of this class provides access to all the operations defined in TopLevelDomains.
+uid: "com.azure.resourcemanager.appservice.fluent.TopLevelDomainsClient"
+fullName: "com.azure.resourcemanager.appservice.fluent.TopLevelDomainsClient"
+name: "TopLevelDomainsClient"
+nameWithType: "TopLevelDomainsClient"
+summary: "An instance of this class provides access to all the operations defined in TopLevelDomains."
 inheritances:
-- <xref href="java.lang.Object" data-throw-if-not-resolved="False" />
+- "<xref href=\"java.lang.Object\" data-throw-if-not-resolved=\"False\" />"
 inheritedMembers:
-- java.lang.Object.clone()
-- java.lang.Object.equals(java.lang.Object)
-- java.lang.Object.finalize()
-- java.lang.Object.getClass()
-- java.lang.Object.hashCode()
-- java.lang.Object.notify()
-- java.lang.Object.notifyAll()
-- java.lang.Object.toString()
-- java.lang.Object.wait()
-- java.lang.Object.wait(long)
-- java.lang.Object.wait(long,int)
-syntax: public final class TopLevelDomainsClient
+- "java.lang.Object.clone()"
+- "java.lang.Object.equals(java.lang.Object)"
+- "java.lang.Object.finalize()"
+- "java.lang.Object.getClass()"
+- "java.lang.Object.hashCode()"
+- "java.lang.Object.notify()"
+- "java.lang.Object.notifyAll()"
+- "java.lang.Object.toString()"
+- "java.lang.Object.wait()"
+- "java.lang.Object.wait(long)"
+- "java.lang.Object.wait(long,int)"
+syntax: "public final class TopLevelDomainsClient"
 constructors:
-- com.azure.resourcemanager.appservice.fluent.TopLevelDomainsClient.TopLevelDomainsClient(com.azure.resourcemanager.appservice.WebSiteManagementClient)
+- "com.azure.resourcemanager.appservice.fluent.TopLevelDomainsClient.TopLevelDomainsClient(com.azure.resourcemanager.appservice.WebSiteManagementClient)"
 methods:
-- com.azure.resourcemanager.appservice.fluent.TopLevelDomainsClient.get(java.lang.String)
-- com.azure.resourcemanager.appservice.fluent.TopLevelDomainsClient.get(java.lang.String,com.azure.core.util.Context)
-- com.azure.resourcemanager.appservice.fluent.TopLevelDomainsClient.getAsync(java.lang.String)
-- com.azure.resourcemanager.appservice.fluent.TopLevelDomainsClient.getAsync(java.lang.String,com.azure.core.util.Context)
-- com.azure.resourcemanager.appservice.fluent.TopLevelDomainsClient.getWithResponseAsync(java.lang.String)
-- com.azure.resourcemanager.appservice.fluent.TopLevelDomainsClient.getWithResponseAsync(java.lang.String,com.azure.core.util.Context)
-- com.azure.resourcemanager.appservice.fluent.TopLevelDomainsClient.list()
-- com.azure.resourcemanager.appservice.fluent.TopLevelDomainsClient.list(com.azure.core.util.Context)
-- com.azure.resourcemanager.appservice.fluent.TopLevelDomainsClient.listAgreements(java.lang.String,com.azure.resourcemanager.appservice.models.TopLevelDomainAgreementOption)
-- com.azure.resourcemanager.appservice.fluent.TopLevelDomainsClient.listAgreements(java.lang.String,com.azure.resourcemanager.appservice.models.TopLevelDomainAgreementOption,com.azure.core.util.Context)
-- com.azure.resourcemanager.appservice.fluent.TopLevelDomainsClient.listAgreementsAsync(java.lang.String,com.azure.resourcemanager.appservice.models.TopLevelDomainAgreementOption)
-- com.azure.resourcemanager.appservice.fluent.TopLevelDomainsClient.listAgreementsAsync(java.lang.String,com.azure.resourcemanager.appservice.models.TopLevelDomainAgreementOption,com.azure.core.util.Context)
-- com.azure.resourcemanager.appservice.fluent.TopLevelDomainsClient.listAgreementsNextSinglePageAsync(java.lang.String)
-- com.azure.resourcemanager.appservice.fluent.TopLevelDomainsClient.listAgreementsNextSinglePageAsync(java.lang.String,com.azure.core.util.Context)
-- com.azure.resourcemanager.appservice.fluent.TopLevelDomainsClient.listAgreementsSinglePageAsync(java.lang.String,com.azure.resourcemanager.appservice.models.TopLevelDomainAgreementOption)
-- com.azure.resourcemanager.appservice.fluent.TopLevelDomainsClient.listAgreementsSinglePageAsync(java.lang.String,com.azure.resourcemanager.appservice.models.TopLevelDomainAgreementOption,com.azure.core.util.Context)
-- com.azure.resourcemanager.appservice.fluent.TopLevelDomainsClient.listAsync()
-- com.azure.resourcemanager.appservice.fluent.TopLevelDomainsClient.listAsync(com.azure.core.util.Context)
-- com.azure.resourcemanager.appservice.fluent.TopLevelDomainsClient.listNextSinglePageAsync(java.lang.String)
-- com.azure.resourcemanager.appservice.fluent.TopLevelDomainsClient.listNextSinglePageAsync(java.lang.String,com.azure.core.util.Context)
-- com.azure.resourcemanager.appservice.fluent.TopLevelDomainsClient.listSinglePageAsync()
-- com.azure.resourcemanager.appservice.fluent.TopLevelDomainsClient.listSinglePageAsync(com.azure.core.util.Context)
-type: class
+- "com.azure.resourcemanager.appservice.fluent.TopLevelDomainsClient.get(java.lang.String)"
+- "com.azure.resourcemanager.appservice.fluent.TopLevelDomainsClient.get(java.lang.String,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.appservice.fluent.TopLevelDomainsClient.getAsync(java.lang.String)"
+- "com.azure.resourcemanager.appservice.fluent.TopLevelDomainsClient.getAsync(java.lang.String,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.appservice.fluent.TopLevelDomainsClient.getWithResponseAsync(java.lang.String)"
+- "com.azure.resourcemanager.appservice.fluent.TopLevelDomainsClient.getWithResponseAsync(java.lang.String,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.appservice.fluent.TopLevelDomainsClient.list()"
+- "com.azure.resourcemanager.appservice.fluent.TopLevelDomainsClient.list(com.azure.core.util.Context)"
+- "com.azure.resourcemanager.appservice.fluent.TopLevelDomainsClient.listAgreements(java.lang.String,com.azure.resourcemanager.appservice.models.TopLevelDomainAgreementOption)"
+- "com.azure.resourcemanager.appservice.fluent.TopLevelDomainsClient.listAgreements(java.lang.String,com.azure.resourcemanager.appservice.models.TopLevelDomainAgreementOption,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.appservice.fluent.TopLevelDomainsClient.listAgreementsAsync(java.lang.String,com.azure.resourcemanager.appservice.models.TopLevelDomainAgreementOption)"
+- "com.azure.resourcemanager.appservice.fluent.TopLevelDomainsClient.listAgreementsAsync(java.lang.String,com.azure.resourcemanager.appservice.models.TopLevelDomainAgreementOption,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.appservice.fluent.TopLevelDomainsClient.listAgreementsNextSinglePageAsync(java.lang.String)"
+- "com.azure.resourcemanager.appservice.fluent.TopLevelDomainsClient.listAgreementsNextSinglePageAsync(java.lang.String,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.appservice.fluent.TopLevelDomainsClient.listAgreementsSinglePageAsync(java.lang.String,com.azure.resourcemanager.appservice.models.TopLevelDomainAgreementOption)"
+- "com.azure.resourcemanager.appservice.fluent.TopLevelDomainsClient.listAgreementsSinglePageAsync(java.lang.String,com.azure.resourcemanager.appservice.models.TopLevelDomainAgreementOption,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.appservice.fluent.TopLevelDomainsClient.listAsync()"
+- "com.azure.resourcemanager.appservice.fluent.TopLevelDomainsClient.listAsync(com.azure.core.util.Context)"
+- "com.azure.resourcemanager.appservice.fluent.TopLevelDomainsClient.listNextSinglePageAsync(java.lang.String)"
+- "com.azure.resourcemanager.appservice.fluent.TopLevelDomainsClient.listNextSinglePageAsync(java.lang.String,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.appservice.fluent.TopLevelDomainsClient.listSinglePageAsync()"
+- "com.azure.resourcemanager.appservice.fluent.TopLevelDomainsClient.listSinglePageAsync(com.azure.core.util.Context)"
+type: "class"
 metadata: {}
-package: com.azure.resourcemanager.appservice.fluent
+package: "com.azure.resourcemanager.appservice.fluent"
 artifact: com.azure.resourcemanager:azure-resourcemanager-appservice:2.0.0-beta.2

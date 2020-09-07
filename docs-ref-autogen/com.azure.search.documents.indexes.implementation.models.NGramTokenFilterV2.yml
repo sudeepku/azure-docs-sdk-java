@@ -1,36 +1,36 @@
 ### YamlMime:JavaType
-uid: com.azure.search.documents.indexes.implementation.models.NGramTokenFilterV2
-fullName: com.azure.search.documents.indexes.implementation.models.NGramTokenFilterV2
-name: NGramTokenFilterV2
-nameWithType: NGramTokenFilterV2
-summary: The NGramTokenFilterV2 model.
+uid: "com.azure.search.documents.indexes.implementation.models.NGramTokenFilterV2"
+fullName: "com.azure.search.documents.indexes.implementation.models.NGramTokenFilterV2"
+name: "NGramTokenFilterV2"
+nameWithType: "NGramTokenFilterV2"
+summary: "The NGramTokenFilterV2 model."
 inheritances:
-- <xref href="java.lang.Object" data-throw-if-not-resolved="False" />
-- <xref href="com.azure.search.documents.indexes.implementation.models.TokenFilter" data-throw-if-not-resolved="False" />
+- "<xref href=\"java.lang.Object\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.azure.search.documents.indexes.implementation.models.TokenFilter\" data-throw-if-not-resolved=\"False\" />"
 inheritedMembers:
-- com.azure.search.documents.indexes.implementation.models.TokenFilter.getName()
-- com.azure.search.documents.indexes.implementation.models.TokenFilter.validate()
-- java.lang.Object.clone()
-- java.lang.Object.equals(java.lang.Object)
-- java.lang.Object.finalize()
-- java.lang.Object.getClass()
-- java.lang.Object.hashCode()
-- java.lang.Object.notify()
-- java.lang.Object.notifyAll()
-- java.lang.Object.toString()
-- java.lang.Object.wait()
-- java.lang.Object.wait(long)
-- java.lang.Object.wait(long,int)
-syntax: public class NGramTokenFilterV2 extends TokenFilter
+- "com.azure.search.documents.indexes.implementation.models.TokenFilter.getName()"
+- "com.azure.search.documents.indexes.implementation.models.TokenFilter.validate()"
+- "java.lang.Object.clone()"
+- "java.lang.Object.equals(java.lang.Object)"
+- "java.lang.Object.finalize()"
+- "java.lang.Object.getClass()"
+- "java.lang.Object.hashCode()"
+- "java.lang.Object.notify()"
+- "java.lang.Object.notifyAll()"
+- "java.lang.Object.toString()"
+- "java.lang.Object.wait()"
+- "java.lang.Object.wait(long)"
+- "java.lang.Object.wait(long,int)"
+syntax: "public class NGramTokenFilterV2 extends TokenFilter"
 constructors:
-- com.azure.search.documents.indexes.implementation.models.NGramTokenFilterV2.NGramTokenFilterV2(java.lang.String)
+- "com.azure.search.documents.indexes.implementation.models.NGramTokenFilterV2.NGramTokenFilterV2(java.lang.String)"
 methods:
-- com.azure.search.documents.indexes.implementation.models.NGramTokenFilterV2.getMaxGram()
-- com.azure.search.documents.indexes.implementation.models.NGramTokenFilterV2.getMinGram()
-- com.azure.search.documents.indexes.implementation.models.NGramTokenFilterV2.setMaxGram(java.lang.Integer)
-- com.azure.search.documents.indexes.implementation.models.NGramTokenFilterV2.setMinGram(java.lang.Integer)
-- com.azure.search.documents.indexes.implementation.models.NGramTokenFilterV2.validate()
-type: class
+- "com.azure.search.documents.indexes.implementation.models.NGramTokenFilterV2.getMaxGram()"
+- "com.azure.search.documents.indexes.implementation.models.NGramTokenFilterV2.getMinGram()"
+- "com.azure.search.documents.indexes.implementation.models.NGramTokenFilterV2.setMaxGram(java.lang.Integer)"
+- "com.azure.search.documents.indexes.implementation.models.NGramTokenFilterV2.setMinGram(java.lang.Integer)"
+- "com.azure.search.documents.indexes.implementation.models.NGramTokenFilterV2.validate()"
+type: "class"
 metadata: {}
-package: com.azure.search.documents.indexes.implementation.models
+package: "com.azure.search.documents.indexes.implementation.models"
 artifact: com.azure:azure-search-documents:11.0.0

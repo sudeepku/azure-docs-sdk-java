@@ -1,48 +1,48 @@
 ### YamlMime:JavaType
-uid: com.azure.resourcemanager.cosmos.fluent.DatabasesClient
-fullName: com.azure.resourcemanager.cosmos.fluent.DatabasesClient
-name: DatabasesClient
-nameWithType: DatabasesClient
-summary: An instance of this class provides access to all the operations defined in Databases.
+uid: "com.azure.resourcemanager.cosmos.fluent.DatabasesClient"
+fullName: "com.azure.resourcemanager.cosmos.fluent.DatabasesClient"
+name: "DatabasesClient"
+nameWithType: "DatabasesClient"
+summary: "An instance of this class provides access to all the operations defined in Databases."
 inheritances:
-- <xref href="java.lang.Object" data-throw-if-not-resolved="False" />
+- "<xref href=\"java.lang.Object\" data-throw-if-not-resolved=\"False\" />"
 inheritedMembers:
-- java.lang.Object.clone()
-- java.lang.Object.equals(java.lang.Object)
-- java.lang.Object.finalize()
-- java.lang.Object.getClass()
-- java.lang.Object.hashCode()
-- java.lang.Object.notify()
-- java.lang.Object.notifyAll()
-- java.lang.Object.toString()
-- java.lang.Object.wait()
-- java.lang.Object.wait(long)
-- java.lang.Object.wait(long,int)
-syntax: public final class DatabasesClient
+- "java.lang.Object.clone()"
+- "java.lang.Object.equals(java.lang.Object)"
+- "java.lang.Object.finalize()"
+- "java.lang.Object.getClass()"
+- "java.lang.Object.hashCode()"
+- "java.lang.Object.notify()"
+- "java.lang.Object.notifyAll()"
+- "java.lang.Object.toString()"
+- "java.lang.Object.wait()"
+- "java.lang.Object.wait(long)"
+- "java.lang.Object.wait(long,int)"
+syntax: "public final class DatabasesClient"
 constructors:
-- com.azure.resourcemanager.cosmos.fluent.DatabasesClient.DatabasesClient(com.azure.resourcemanager.cosmos.CosmosDBManagementClient)
+- "com.azure.resourcemanager.cosmos.fluent.DatabasesClient.DatabasesClient(com.azure.resourcemanager.cosmos.CosmosDBManagementClient)"
 methods:
-- com.azure.resourcemanager.cosmos.fluent.DatabasesClient.listMetricDefinitions(java.lang.String,java.lang.String,java.lang.String)
-- com.azure.resourcemanager.cosmos.fluent.DatabasesClient.listMetricDefinitions(java.lang.String,java.lang.String,java.lang.String,com.azure.core.util.Context)
-- com.azure.resourcemanager.cosmos.fluent.DatabasesClient.listMetricDefinitionsAsync(java.lang.String,java.lang.String,java.lang.String)
-- com.azure.resourcemanager.cosmos.fluent.DatabasesClient.listMetricDefinitionsAsync(java.lang.String,java.lang.String,java.lang.String,com.azure.core.util.Context)
-- com.azure.resourcemanager.cosmos.fluent.DatabasesClient.listMetricDefinitionsSinglePageAsync(java.lang.String,java.lang.String,java.lang.String)
-- com.azure.resourcemanager.cosmos.fluent.DatabasesClient.listMetricDefinitionsSinglePageAsync(java.lang.String,java.lang.String,java.lang.String,com.azure.core.util.Context)
-- com.azure.resourcemanager.cosmos.fluent.DatabasesClient.listMetrics(java.lang.String,java.lang.String,java.lang.String,java.lang.String)
-- com.azure.resourcemanager.cosmos.fluent.DatabasesClient.listMetrics(java.lang.String,java.lang.String,java.lang.String,java.lang.String,com.azure.core.util.Context)
-- com.azure.resourcemanager.cosmos.fluent.DatabasesClient.listMetricsAsync(java.lang.String,java.lang.String,java.lang.String,java.lang.String)
-- com.azure.resourcemanager.cosmos.fluent.DatabasesClient.listMetricsAsync(java.lang.String,java.lang.String,java.lang.String,java.lang.String,com.azure.core.util.Context)
-- com.azure.resourcemanager.cosmos.fluent.DatabasesClient.listMetricsSinglePageAsync(java.lang.String,java.lang.String,java.lang.String,java.lang.String)
-- com.azure.resourcemanager.cosmos.fluent.DatabasesClient.listMetricsSinglePageAsync(java.lang.String,java.lang.String,java.lang.String,java.lang.String,com.azure.core.util.Context)
-- com.azure.resourcemanager.cosmos.fluent.DatabasesClient.listUsages(java.lang.String,java.lang.String,java.lang.String)
-- com.azure.resourcemanager.cosmos.fluent.DatabasesClient.listUsages(java.lang.String,java.lang.String,java.lang.String,java.lang.String)
-- com.azure.resourcemanager.cosmos.fluent.DatabasesClient.listUsages(java.lang.String,java.lang.String,java.lang.String,java.lang.String,com.azure.core.util.Context)
-- com.azure.resourcemanager.cosmos.fluent.DatabasesClient.listUsagesAsync(java.lang.String,java.lang.String,java.lang.String)
-- com.azure.resourcemanager.cosmos.fluent.DatabasesClient.listUsagesAsync(java.lang.String,java.lang.String,java.lang.String,java.lang.String)
-- com.azure.resourcemanager.cosmos.fluent.DatabasesClient.listUsagesAsync(java.lang.String,java.lang.String,java.lang.String,java.lang.String,com.azure.core.util.Context)
-- com.azure.resourcemanager.cosmos.fluent.DatabasesClient.listUsagesSinglePageAsync(java.lang.String,java.lang.String,java.lang.String,java.lang.String)
-- com.azure.resourcemanager.cosmos.fluent.DatabasesClient.listUsagesSinglePageAsync(java.lang.String,java.lang.String,java.lang.String,java.lang.String,com.azure.core.util.Context)
-type: class
+- "com.azure.resourcemanager.cosmos.fluent.DatabasesClient.listMetricDefinitions(java.lang.String,java.lang.String,java.lang.String)"
+- "com.azure.resourcemanager.cosmos.fluent.DatabasesClient.listMetricDefinitions(java.lang.String,java.lang.String,java.lang.String,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.cosmos.fluent.DatabasesClient.listMetricDefinitionsAsync(java.lang.String,java.lang.String,java.lang.String)"
+- "com.azure.resourcemanager.cosmos.fluent.DatabasesClient.listMetricDefinitionsAsync(java.lang.String,java.lang.String,java.lang.String,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.cosmos.fluent.DatabasesClient.listMetricDefinitionsSinglePageAsync(java.lang.String,java.lang.String,java.lang.String)"
+- "com.azure.resourcemanager.cosmos.fluent.DatabasesClient.listMetricDefinitionsSinglePageAsync(java.lang.String,java.lang.String,java.lang.String,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.cosmos.fluent.DatabasesClient.listMetrics(java.lang.String,java.lang.String,java.lang.String,java.lang.String)"
+- "com.azure.resourcemanager.cosmos.fluent.DatabasesClient.listMetrics(java.lang.String,java.lang.String,java.lang.String,java.lang.String,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.cosmos.fluent.DatabasesClient.listMetricsAsync(java.lang.String,java.lang.String,java.lang.String,java.lang.String)"
+- "com.azure.resourcemanager.cosmos.fluent.DatabasesClient.listMetricsAsync(java.lang.String,java.lang.String,java.lang.String,java.lang.String,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.cosmos.fluent.DatabasesClient.listMetricsSinglePageAsync(java.lang.String,java.lang.String,java.lang.String,java.lang.String)"
+- "com.azure.resourcemanager.cosmos.fluent.DatabasesClient.listMetricsSinglePageAsync(java.lang.String,java.lang.String,java.lang.String,java.lang.String,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.cosmos.fluent.DatabasesClient.listUsages(java.lang.String,java.lang.String,java.lang.String)"
+- "com.azure.resourcemanager.cosmos.fluent.DatabasesClient.listUsages(java.lang.String,java.lang.String,java.lang.String,java.lang.String)"
+- "com.azure.resourcemanager.cosmos.fluent.DatabasesClient.listUsages(java.lang.String,java.lang.String,java.lang.String,java.lang.String,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.cosmos.fluent.DatabasesClient.listUsagesAsync(java.lang.String,java.lang.String,java.lang.String)"
+- "com.azure.resourcemanager.cosmos.fluent.DatabasesClient.listUsagesAsync(java.lang.String,java.lang.String,java.lang.String,java.lang.String)"
+- "com.azure.resourcemanager.cosmos.fluent.DatabasesClient.listUsagesAsync(java.lang.String,java.lang.String,java.lang.String,java.lang.String,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.cosmos.fluent.DatabasesClient.listUsagesSinglePageAsync(java.lang.String,java.lang.String,java.lang.String,java.lang.String)"
+- "com.azure.resourcemanager.cosmos.fluent.DatabasesClient.listUsagesSinglePageAsync(java.lang.String,java.lang.String,java.lang.String,java.lang.String,com.azure.core.util.Context)"
+type: "class"
 metadata: {}
-package: com.azure.resourcemanager.cosmos.fluent
+package: "com.azure.resourcemanager.cosmos.fluent"
 artifact: com.azure.resourcemanager:azure-resourcemanager-cosmos:2.0.0-beta.2

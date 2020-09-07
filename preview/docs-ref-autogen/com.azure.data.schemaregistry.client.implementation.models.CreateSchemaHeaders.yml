@@ -1,39 +1,39 @@
 ### YamlMime:JavaType
-uid: com.azure.data.schemaregistry.client.implementation.models.CreateSchemaHeaders
-fullName: com.azure.data.schemaregistry.client.implementation.models.CreateSchemaHeaders
-name: CreateSchemaHeaders
-nameWithType: CreateSchemaHeaders
-summary: The CreateSchemaHeaders model.
+uid: "com.azure.data.schemaregistry.client.implementation.models.CreateSchemaHeaders"
+fullName: "com.azure.data.schemaregistry.client.implementation.models.CreateSchemaHeaders"
+name: "CreateSchemaHeaders"
+nameWithType: "CreateSchemaHeaders"
+summary: "The CreateSchemaHeaders model."
 inheritances:
-- <xref href="java.lang.Object" data-throw-if-not-resolved="False" />
+- "<xref href=\"java.lang.Object\" data-throw-if-not-resolved=\"False\" />"
 inheritedMembers:
-- java.lang.Object.clone()
-- java.lang.Object.equals(java.lang.Object)
-- java.lang.Object.finalize()
-- java.lang.Object.getClass()
-- java.lang.Object.hashCode()
-- java.lang.Object.notify()
-- java.lang.Object.notifyAll()
-- java.lang.Object.toString()
-- java.lang.Object.wait()
-- java.lang.Object.wait(long)
-- java.lang.Object.wait(long,int)
-syntax: public final class CreateSchemaHeaders
+- "java.lang.Object.clone()"
+- "java.lang.Object.equals(java.lang.Object)"
+- "java.lang.Object.finalize()"
+- "java.lang.Object.getClass()"
+- "java.lang.Object.hashCode()"
+- "java.lang.Object.notify()"
+- "java.lang.Object.notifyAll()"
+- "java.lang.Object.toString()"
+- "java.lang.Object.wait()"
+- "java.lang.Object.wait(long)"
+- "java.lang.Object.wait(long,int)"
+syntax: "public final class CreateSchemaHeaders"
 constructors:
-- com.azure.data.schemaregistry.client.implementation.models.CreateSchemaHeaders.CreateSchemaHeaders()
+- "com.azure.data.schemaregistry.client.implementation.models.CreateSchemaHeaders.CreateSchemaHeaders()"
 methods:
-- com.azure.data.schemaregistry.client.implementation.models.CreateSchemaHeaders.getLocation()
-- com.azure.data.schemaregistry.client.implementation.models.CreateSchemaHeaders.getXSchemaId()
-- com.azure.data.schemaregistry.client.implementation.models.CreateSchemaHeaders.getXSchemaIdLocation()
-- com.azure.data.schemaregistry.client.implementation.models.CreateSchemaHeaders.getXSchemaType()
-- com.azure.data.schemaregistry.client.implementation.models.CreateSchemaHeaders.getXSchemaVersion()
-- com.azure.data.schemaregistry.client.implementation.models.CreateSchemaHeaders.setLocation(java.lang.String)
-- com.azure.data.schemaregistry.client.implementation.models.CreateSchemaHeaders.setXSchemaId(java.lang.String)
-- com.azure.data.schemaregistry.client.implementation.models.CreateSchemaHeaders.setXSchemaIdLocation(java.net.URL)
-- com.azure.data.schemaregistry.client.implementation.models.CreateSchemaHeaders.setXSchemaType(java.lang.String)
-- com.azure.data.schemaregistry.client.implementation.models.CreateSchemaHeaders.setXSchemaVersion(java.lang.Integer)
-- com.azure.data.schemaregistry.client.implementation.models.CreateSchemaHeaders.validate()
-type: class
+- "com.azure.data.schemaregistry.client.implementation.models.CreateSchemaHeaders.getLocation()"
+- "com.azure.data.schemaregistry.client.implementation.models.CreateSchemaHeaders.getXSchemaId()"
+- "com.azure.data.schemaregistry.client.implementation.models.CreateSchemaHeaders.getXSchemaIdLocation()"
+- "com.azure.data.schemaregistry.client.implementation.models.CreateSchemaHeaders.getXSchemaType()"
+- "com.azure.data.schemaregistry.client.implementation.models.CreateSchemaHeaders.getXSchemaVersion()"
+- "com.azure.data.schemaregistry.client.implementation.models.CreateSchemaHeaders.setLocation(java.lang.String)"
+- "com.azure.data.schemaregistry.client.implementation.models.CreateSchemaHeaders.setXSchemaId(java.lang.String)"
+- "com.azure.data.schemaregistry.client.implementation.models.CreateSchemaHeaders.setXSchemaIdLocation(java.net.URL)"
+- "com.azure.data.schemaregistry.client.implementation.models.CreateSchemaHeaders.setXSchemaType(java.lang.String)"
+- "com.azure.data.schemaregistry.client.implementation.models.CreateSchemaHeaders.setXSchemaVersion(java.lang.Integer)"
+- "com.azure.data.schemaregistry.client.implementation.models.CreateSchemaHeaders.validate()"
+type: "class"
 metadata: {}
-package: com.azure.data.schemaregistry.client.implementation.models
+package: "com.azure.data.schemaregistry.client.implementation.models"
 artifact: com.azure:azure-data-schemaregistry:1.0.0-beta.1

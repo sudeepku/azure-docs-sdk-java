@@ -1,48 +1,34 @@
 ### YamlMime:JavaType
-uid: com.azure.cosmos.implementation.guava25.base.Equivalence.Wrapper
-fullName: com.azure.cosmos.implementation.guava25.base.Equivalence.Wrapper<T>
-name: Equivalence.Wrapper<T>
-nameWithType: Equivalence.Wrapper<T>
-summary: |-
-  Wraps an object so that <xref uid="com.azure.cosmos.implementation.guava25.base.Equivalence.Wrapper.equals(java.lang.Object)" data-throw-if-not-resolved="false">#equals(Object)</xref> and <xref uid="com.azure.cosmos.implementation.guava25.base.Equivalence.Wrapper.hashCode()" data-throw-if-not-resolved="false">#hashCode()</xref> delegate to an <xref uid="com.azure.cosmos.implementation.guava25.base.Equivalence" data-throw-if-not-resolved="false">Equivalence</xref>.
-
-  For example, given an <xref uid="com.azure.cosmos.implementation.guava25.base.Equivalence" data-throw-if-not-resolved="false">Equivalence</xref> for <xref uid="java.lang.String" data-throw-if-not-resolved="false">strings</xref> named `equiv` that tests equivalence using their lengths:
-
-  ```java
-  equiv.wrap("a").equals(equiv.wrap("b")) // true
-   equiv.wrap("a").equals(equiv.wrap("hello")) // false
-  ```
-
-  Note in particular that an equivalence wrapper is never equal to the object it wraps.
-
-  ```java
-  equiv.wrap(obj).equals(obj) // always false
-  ```
+uid: "com.azure.cosmos.implementation.guava25.base.Equivalence.Wrapper"
+fullName: "com.azure.cosmos.implementation.guava25.base.Equivalence.Wrapper<T>"
+name: "Equivalence.Wrapper<T>"
+nameWithType: "Equivalence.Wrapper<T>"
+summary: "Wraps an object so that <xref uid=\"com.azure.cosmos.implementation.guava25.base.Equivalence.Wrapper.equals(java.lang.Object)\" data-throw-if-not-resolved=\"false\">#equals(Object)</xref> and <xref uid=\"com.azure.cosmos.implementation.guava25.base.Equivalence.Wrapper.hashCode()\" data-throw-if-not-resolved=\"false\">#hashCode()</xref> delegate to an <xref uid=\"com.azure.cosmos.implementation.guava25.base.Equivalence\" data-throw-if-not-resolved=\"false\">Equivalence</xref>.\n\nFor example, given an <xref uid=\"com.azure.cosmos.implementation.guava25.base.Equivalence\" data-throw-if-not-resolved=\"false\">Equivalence</xref> for <xref uid=\"java.lang.String\" data-throw-if-not-resolved=\"false\">strings</xref> named `equiv` that tests equivalence using their lengths:\n\n```java\nequiv.wrap(\"a\").equals(equiv.wrap(\"b\")) // true\n equiv.wrap(\"a\").equals(equiv.wrap(\"hello\")) // false\n```\n\nNote in particular that an equivalence wrapper is never equal to the object it wraps.\n\n```java\nequiv.wrap(obj).equals(obj) // always false\n```"
 inheritances:
-- <xref href="java.lang.Object" data-throw-if-not-resolved="False" />
+- "<xref href=\"java.lang.Object\" data-throw-if-not-resolved=\"False\" />"
 inheritedMembers:
-- java.lang.Object.clone()
-- java.lang.Object.equals(java.lang.Object)
-- java.lang.Object.finalize()
-- java.lang.Object.getClass()
-- java.lang.Object.hashCode()
-- java.lang.Object.notify()
-- java.lang.Object.notifyAll()
-- java.lang.Object.toString()
-- java.lang.Object.wait()
-- java.lang.Object.wait(long)
-- java.lang.Object.wait(long,int)
-syntax: public static final class Equivalence.Wrapper<T> implements Serializable
+- "java.lang.Object.clone()"
+- "java.lang.Object.equals(java.lang.Object)"
+- "java.lang.Object.finalize()"
+- "java.lang.Object.getClass()"
+- "java.lang.Object.hashCode()"
+- "java.lang.Object.notify()"
+- "java.lang.Object.notifyAll()"
+- "java.lang.Object.toString()"
+- "java.lang.Object.wait()"
+- "java.lang.Object.wait(long)"
+- "java.lang.Object.wait(long,int)"
+syntax: "public static final class Equivalence.Wrapper<T> implements Serializable"
 methods:
-- com.azure.cosmos.implementation.guava25.base.Equivalence.Wrapper.equals(java.lang.Object)
-- com.azure.cosmos.implementation.guava25.base.Equivalence.Wrapper.get()
-- com.azure.cosmos.implementation.guava25.base.Equivalence.Wrapper.hashCode()
-- com.azure.cosmos.implementation.guava25.base.Equivalence.Wrapper.toString()
-type: class
+- "com.azure.cosmos.implementation.guava25.base.Equivalence.Wrapper.equals(java.lang.Object)"
+- "com.azure.cosmos.implementation.guava25.base.Equivalence.Wrapper.get()"
+- "com.azure.cosmos.implementation.guava25.base.Equivalence.Wrapper.hashCode()"
+- "com.azure.cosmos.implementation.guava25.base.Equivalence.Wrapper.toString()"
+type: "class"
 typeParameters:
-- name: T
+- name: "T"
 implements:
-- <xref href="java.io.Serializable?alt=java.io.Serializable&text=Serializable" data-throw-if-not-resolved="False" />
+- "<xref href=\"java.io.Serializable?alt=java.io.Serializable&text=Serializable\" data-throw-if-not-resolved=\"False\" />"
 metadata: {}
-package: com.azure.cosmos.implementation.guava25.base
+package: "com.azure.cosmos.implementation.guava25.base"
 artifact: com.azure:azure-cosmos:4.3.2-beta.2

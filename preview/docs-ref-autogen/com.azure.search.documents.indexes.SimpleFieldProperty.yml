@@ -1,19 +1,19 @@
 ### YamlMime:JavaType
-uid: com.azure.search.documents.indexes.SimpleFieldProperty
-fullName: com.azure.search.documents.indexes.SimpleFieldProperty
-name: SimpleFieldProperty
-nameWithType: SimpleFieldProperty
-summary: The annotation is to indicate whether the field is a simple field. This annotation can only set boolean field of <xref uid="com.azure.search.documents.indexes.models.SearchField" data-throw-if-not-resolved="false">SearchField</xref>. `isSearchable` will set to `false`.
-syntax: public interface SimpleFieldProperty implements Annotation
+uid: "com.azure.search.documents.indexes.SimpleFieldProperty"
+fullName: "com.azure.search.documents.indexes.SimpleFieldProperty"
+name: "SimpleFieldProperty"
+nameWithType: "SimpleFieldProperty"
+summary: "The annotation is to indicate whether the field is a simple field. This annotation can only set boolean field of <xref uid=\"com.azure.search.documents.indexes.models.SearchField\" data-throw-if-not-resolved=\"false\">SearchField</xref>. `isSearchable` will set to `false`."
+syntax: "public interface SimpleFieldProperty implements Annotation"
 methods:
-- com.azure.search.documents.indexes.SimpleFieldProperty.isFacetable()
-- com.azure.search.documents.indexes.SimpleFieldProperty.isFilterable()
-- com.azure.search.documents.indexes.SimpleFieldProperty.isHidden()
-- com.azure.search.documents.indexes.SimpleFieldProperty.isKey()
-- com.azure.search.documents.indexes.SimpleFieldProperty.isSortable()
-type: interface
+- "com.azure.search.documents.indexes.SimpleFieldProperty.isFacetable()"
+- "com.azure.search.documents.indexes.SimpleFieldProperty.isFilterable()"
+- "com.azure.search.documents.indexes.SimpleFieldProperty.isHidden()"
+- "com.azure.search.documents.indexes.SimpleFieldProperty.isKey()"
+- "com.azure.search.documents.indexes.SimpleFieldProperty.isSortable()"
+type: "interface"
 implements:
-- <xref href="java.lang.annotation.Annotation?alt=java.lang.annotation.Annotation&text=Annotation" data-throw-if-not-resolved="False" />
+- "<xref href=\"java.lang.annotation.Annotation?alt=java.lang.annotation.Annotation&text=Annotation\" data-throw-if-not-resolved=\"False\" />"
 metadata: {}
-package: com.azure.search.documents.indexes
+package: "com.azure.search.documents.indexes"
 artifact: com.azure:azure-search-documents:11.1.0-beta.1

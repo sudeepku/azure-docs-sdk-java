@@ -1,19 +1,19 @@
 ### YamlMime:JavaMember
-uid: com.azure.ai.textanalytics.models.DocumentResult.getStatistics*
-fullName: com.azure.ai.textanalytics.models.DocumentResult.getStatistics
-name: getStatistics
-nameWithType: DocumentResult.getStatistics
+uid: "com.azure.ai.textanalytics.models.DocumentResult.getStatistics*"
+fullName: "com.azure.ai.textanalytics.models.DocumentResult.getStatistics"
+name: "getStatistics"
+nameWithType: "DocumentResult.getStatistics"
 members:
-- uid: com.azure.ai.textanalytics.models.DocumentResult.getStatistics()
-  fullName: com.azure.ai.textanalytics.models.DocumentResult.getStatistics()
-  name: getStatistics()
-  nameWithType: DocumentResult.getStatistics()
-  summary: Get the statistics of the text document.
-  syntax: public TextDocumentStatistics getStatistics()
+- uid: "com.azure.ai.textanalytics.models.DocumentResult.getStatistics()"
+  fullName: "com.azure.ai.textanalytics.models.DocumentResult.getStatistics()"
+  name: "getStatistics()"
+  nameWithType: "DocumentResult.getStatistics()"
+  summary: "Get the statistics of the text document."
+  syntax: "public TextDocumentStatistics getStatistics()"
   returns:
-    description: The <xref uid="com.azure.ai.textanalytics.models.TextDocumentStatistics" data-throw-if-not-resolved="false">TextDocumentStatistics</xref> statistics of the text document.
-    type: <xref href="com.azure.ai.textanalytics.models.TextDocumentStatistics?alt=com.azure.ai.textanalytics.models.TextDocumentStatistics&text=TextDocumentStatistics" data-throw-if-not-resolved="False" />
-type: method
+    description: "The <xref uid=\"com.azure.ai.textanalytics.models.TextDocumentStatistics\" data-throw-if-not-resolved=\"false\">TextDocumentStatistics</xref> statistics of the text document."
+    type: "<xref href=\"com.azure.ai.textanalytics.models.TextDocumentStatistics?alt=com.azure.ai.textanalytics.models.TextDocumentStatistics&text=TextDocumentStatistics\" data-throw-if-not-resolved=\"False\" />"
+type: "method"
 metadata: {}
-package: com.azure.ai.textanalytics.models
+package: "com.azure.ai.textanalytics.models"
 artifact: com.azure:azure-ai-textanalytics:1.0.0-beta.4

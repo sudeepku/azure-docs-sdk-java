@@ -1,33 +1,33 @@
 ### YamlMime:JavaType
-uid: com.azure.resourcemanager.monitor.fluent.inner.ActionGroupListInner
-fullName: com.azure.resourcemanager.monitor.fluent.inner.ActionGroupListInner
-name: ActionGroupListInner
-nameWithType: ActionGroupListInner
-summary: The ActionGroupList model.
+uid: "com.azure.resourcemanager.monitor.fluent.inner.ActionGroupListInner"
+fullName: "com.azure.resourcemanager.monitor.fluent.inner.ActionGroupListInner"
+name: "ActionGroupListInner"
+nameWithType: "ActionGroupListInner"
+summary: "The ActionGroupList model."
 inheritances:
-- <xref href="java.lang.Object" data-throw-if-not-resolved="False" />
+- "<xref href=\"java.lang.Object\" data-throw-if-not-resolved=\"False\" />"
 inheritedMembers:
-- java.lang.Object.clone()
-- java.lang.Object.equals(java.lang.Object)
-- java.lang.Object.finalize()
-- java.lang.Object.getClass()
-- java.lang.Object.hashCode()
-- java.lang.Object.notify()
-- java.lang.Object.notifyAll()
-- java.lang.Object.toString()
-- java.lang.Object.wait()
-- java.lang.Object.wait(long)
-- java.lang.Object.wait(long,int)
-syntax: public final class ActionGroupListInner
+- "java.lang.Object.clone()"
+- "java.lang.Object.equals(java.lang.Object)"
+- "java.lang.Object.finalize()"
+- "java.lang.Object.getClass()"
+- "java.lang.Object.hashCode()"
+- "java.lang.Object.notify()"
+- "java.lang.Object.notifyAll()"
+- "java.lang.Object.toString()"
+- "java.lang.Object.wait()"
+- "java.lang.Object.wait(long)"
+- "java.lang.Object.wait(long,int)"
+syntax: "public final class ActionGroupListInner"
 constructors:
-- com.azure.resourcemanager.monitor.fluent.inner.ActionGroupListInner.ActionGroupListInner()
+- "com.azure.resourcemanager.monitor.fluent.inner.ActionGroupListInner.ActionGroupListInner()"
 methods:
-- com.azure.resourcemanager.monitor.fluent.inner.ActionGroupListInner.nextLink()
-- com.azure.resourcemanager.monitor.fluent.inner.ActionGroupListInner.validate()
-- com.azure.resourcemanager.monitor.fluent.inner.ActionGroupListInner.value()
-- com.azure.resourcemanager.monitor.fluent.inner.ActionGroupListInner.withNextLink(java.lang.String)
-- com.azure.resourcemanager.monitor.fluent.inner.ActionGroupListInner.withValue(java.util.List<com.azure.resourcemanager.monitor.fluent.inner.ActionGroupResourceInner>)
-type: class
+- "com.azure.resourcemanager.monitor.fluent.inner.ActionGroupListInner.nextLink()"
+- "com.azure.resourcemanager.monitor.fluent.inner.ActionGroupListInner.validate()"
+- "com.azure.resourcemanager.monitor.fluent.inner.ActionGroupListInner.value()"
+- "com.azure.resourcemanager.monitor.fluent.inner.ActionGroupListInner.withNextLink(java.lang.String)"
+- "com.azure.resourcemanager.monitor.fluent.inner.ActionGroupListInner.withValue(java.util.List<com.azure.resourcemanager.monitor.fluent.inner.ActionGroupResourceInner>)"
+type: "class"
 metadata: {}
-package: com.azure.resourcemanager.monitor.fluent.inner
+package: "com.azure.resourcemanager.monitor.fluent.inner"
 artifact: com.azure.resourcemanager:azure-resourcemanager-monitor:2.0.0-beta.2

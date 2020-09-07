@@ -1,91 +1,52 @@
 ### YamlMime:JavaMember
-uid: com.azure.messaging.eventhubs.EventHubProducerAsyncClient.send*
-fullName: com.azure.messaging.eventhubs.EventHubProducerAsyncClient.send
-name: send
-nameWithType: EventHubProducerAsyncClient.send
+uid: "com.azure.messaging.eventhubs.EventHubProducerAsyncClient.send*"
+fullName: "com.azure.messaging.eventhubs.EventHubProducerAsyncClient.send"
+name: "send"
+nameWithType: "EventHubProducerAsyncClient.send"
 members:
-- uid: com.azure.messaging.eventhubs.EventHubProducerAsyncClient.send(com.azure.messaging.eventhubs.EventDataBatch)
-  fullName: com.azure.messaging.eventhubs.EventHubProducerAsyncClient.send(EventDataBatch batch)
-  name: send(EventDataBatch batch)
-  nameWithType: EventHubProducerAsyncClient.send(EventDataBatch batch)
-  summary: Sends the batch to the associated Event Hub.
+- uid: "com.azure.messaging.eventhubs.EventHubProducerAsyncClient.send(com.azure.messaging.eventhubs.EventDataBatch)"
+  fullName: "com.azure.messaging.eventhubs.EventHubProducerAsyncClient.send(EventDataBatch batch)"
+  name: "send(EventDataBatch batch)"
+  nameWithType: "EventHubProducerAsyncClient.send(EventDataBatch batch)"
+  summary: "Sends the batch to the associated Event Hub."
   parameters:
-  - description: The batch to send to the service.
-    name: batch
-    type: <xref href="com.azure.messaging.eventhubs.EventDataBatch?alt=com.azure.messaging.eventhubs.EventDataBatch&text=EventDataBatch" data-throw-if-not-resolved="False" />
-  syntax: public Mono<Void> send(EventDataBatch batch)
+  - description: "The batch to send to the service."
+    name: "batch"
+    type: "<xref href=\"com.azure.messaging.eventhubs.EventDataBatch?alt=com.azure.messaging.eventhubs.EventDataBatch&text=EventDataBatch\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public Mono<Void> send(EventDataBatch batch)"
   returns:
-    description: A <xref uid="reactor.core.publisher.Mono" data-throw-if-not-resolved="false">Mono</xref> that completes when the batch is pushed to the service.
-    type: <xref href="reactor.core.publisher.Mono?alt=reactor.core.publisher.Mono&text=Mono" data-throw-if-not-resolved="False" />&lt;<xref href="java.lang.Void?alt=java.lang.Void&text=Void" data-throw-if-not-resolved="False" />&gt;
-- uid: com.azure.messaging.eventhubs.EventHubProducerAsyncClient.send(java.lang.Iterable<com.azure.messaging.eventhubs.EventData>)
-  fullName: com.azure.messaging.eventhubs.EventHubProducerAsyncClient.send(Iterable<EventData> events)
-  name: send(Iterable<EventData> events)
-  nameWithType: EventHubProducerAsyncClient.send(Iterable<EventData> events)
-  summary: |-
-    Sends a set of events to the associated Event Hub using a batched approach. If the size of events exceed the
-     maximum size of a single batch, an exception will be triggered and the send will fail. By default, the message
-     size is the max amount allowed on the link.
-
-     <pre>
-     List&lt;EventData&gt; events = Arrays.asList&#40;new EventData&#40;&quot;maple&quot;&#41;, new EventData&#40;&quot;aspen&quot;&#41;,
-         new EventData&#40;&quot;oak&quot;&#41;&#41;;
-     producer
-         .send&#40;events&#41;
-         .subscribe&#40;unused -&gt; &#123; &#125;,
-             error -&gt; System.err.println&#40;&quot;Error occurred while sending events:&quot; + error&#41;,
-             &#40;&#41; -&gt; System.out.println&#40;&quot;Send complete.&quot;&#41;&#41;;
-     </pre>
-
-     <p>
-     For more information regarding the maximum event size allowed, see
-     <a href="https://docs.microsoft.com/azure/event-hubs/event-hubs-quotas">Azure Event Hubs Quotas and
-     Limits</a>.
-     </p>
+    description: "A <xref uid=\"reactor.core.publisher.Mono\" data-throw-if-not-resolved=\"false\">Mono</xref> that completes when the batch is pushed to the service."
+    type: "<xref href=\"reactor.core.publisher.Mono?alt=reactor.core.publisher.Mono&text=Mono\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"java.lang.Void?alt=java.lang.Void&text=Void\" data-throw-if-not-resolved=\"False\" />&gt;"
+- uid: "com.azure.messaging.eventhubs.EventHubProducerAsyncClient.send(java.lang.Iterable<com.azure.messaging.eventhubs.EventData>)"
+  fullName: "com.azure.messaging.eventhubs.EventHubProducerAsyncClient.send(Iterable<EventData> events)"
+  name: "send(Iterable<EventData> events)"
+  nameWithType: "EventHubProducerAsyncClient.send(Iterable<EventData> events)"
+  summary: "Sends a set of events to the associated Event Hub using a batched approach. If the size of events exceed the\n maximum size of a single batch, an exception will be triggered and the send will fail. By default, the message\n size is the max amount allowed on the link.\n\n <pre>\n List&lt;EventData&gt; events = Arrays.asList&#40;new EventData&#40;&quot;maple&quot;&#41;, new EventData&#40;&quot;aspen&quot;&#41;,\n     new EventData&#40;&quot;oak&quot;&#41;&#41;;\n producer\n     .send&#40;events&#41;\n     .subscribe&#40;unused -&gt; &#123; &#125;,\n         error -&gt; System.err.println&#40;&quot;Error occurred while sending events:&quot; + error&#41;,\n         &#40;&#41; -&gt; System.out.println&#40;&quot;Send complete.&quot;&#41;&#41;;\n </pre>\n\n <p>\n For more information regarding the maximum event size allowed, see\n <a href=\"https://docs.microsoft.com/azure/event-hubs/event-hubs-quotas\">Azure Event Hubs Quotas and\n Limits</a>.\n </p>"
   parameters:
-  - description: Events to send to the service.
-    name: events
-    type: <xref href="java.lang.Iterable?alt=java.lang.Iterable&text=Iterable" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.messaging.eventhubs.EventData?alt=com.azure.messaging.eventhubs.EventData&text=EventData" data-throw-if-not-resolved="False" />&gt;
-  syntax: public Mono<Void> send(Iterable<EventData> events)
+  - description: "Events to send to the service."
+    name: "events"
+    type: "<xref href=\"java.lang.Iterable?alt=java.lang.Iterable&text=Iterable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.messaging.eventhubs.EventData?alt=com.azure.messaging.eventhubs.EventData&text=EventData\" data-throw-if-not-resolved=\"False\" />&gt;"
+  syntax: "public Mono<Void> send(Iterable<EventData> events)"
   returns:
-    description: A <xref uid="reactor.core.publisher.Mono" data-throw-if-not-resolved="false">Mono</xref> that completes when all events are pushed to the service.
-    type: <xref href="reactor.core.publisher.Mono?alt=reactor.core.publisher.Mono&text=Mono" data-throw-if-not-resolved="False" />&lt;<xref href="java.lang.Void?alt=java.lang.Void&text=Void" data-throw-if-not-resolved="False" />&gt;
-- uid: com.azure.messaging.eventhubs.EventHubProducerAsyncClient.send(java.lang.Iterable<com.azure.messaging.eventhubs.EventData>,com.azure.messaging.eventhubs.models.SendOptions)
-  fullName: com.azure.messaging.eventhubs.EventHubProducerAsyncClient.send(Iterable<EventData> events, SendOptions options)
-  name: send(Iterable<EventData> events, SendOptions options)
-  nameWithType: EventHubProducerAsyncClient.send(Iterable<EventData> events, SendOptions options)
-  summary: |-
-    Sends a set of events to the associated Event Hub using a batched approach. If the size of events exceed the
-     maximum size of a single batch, an exception will be triggered and the send will fail. By default, the message
-     size is the max amount allowed on the link.
-
-     <pre>
-     List&lt;EventData&gt; events = Arrays.asList&#40;new EventData&#40;&quot;Melbourne&quot;&#41;, new EventData&#40;&quot;London&quot;&#41;,
-         new EventData&#40;&quot;New York&quot;&#41;&#41;;
-     SendOptions sendOptions = new SendOptions&#40;&#41;.setPartitionKey&#40;&quot;cities&quot;&#41;;
-     producer
-         .send&#40;events, sendOptions&#41;
-         .subscribe&#40;unused -&gt; &#123; &#125;,
-             error -&gt; System.err.println&#40;&quot;Error occurred while sending events:&quot; + error&#41;,
-             &#40;&#41; -&gt; System.out.println&#40;&quot;Send complete.&quot;&#41;&#41;;
-     </pre>
-
-     <p>
-     For more information regarding the maximum event size allowed, see
-     <a href="https://docs.microsoft.com/azure/event-hubs/event-hubs-quotas">Azure Event Hubs Quotas and
-     Limits</a>.
-     </p>
+    description: "A <xref uid=\"reactor.core.publisher.Mono\" data-throw-if-not-resolved=\"false\">Mono</xref> that completes when all events are pushed to the service."
+    type: "<xref href=\"reactor.core.publisher.Mono?alt=reactor.core.publisher.Mono&text=Mono\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"java.lang.Void?alt=java.lang.Void&text=Void\" data-throw-if-not-resolved=\"False\" />&gt;"
+- uid: "com.azure.messaging.eventhubs.EventHubProducerAsyncClient.send(java.lang.Iterable<com.azure.messaging.eventhubs.EventData>,com.azure.messaging.eventhubs.models.SendOptions)"
+  fullName: "com.azure.messaging.eventhubs.EventHubProducerAsyncClient.send(Iterable<EventData> events, SendOptions options)"
+  name: "send(Iterable<EventData> events, SendOptions options)"
+  nameWithType: "EventHubProducerAsyncClient.send(Iterable<EventData> events, SendOptions options)"
+  summary: "Sends a set of events to the associated Event Hub using a batched approach. If the size of events exceed the\n maximum size of a single batch, an exception will be triggered and the send will fail. By default, the message\n size is the max amount allowed on the link.\n\n <pre>\n List&lt;EventData&gt; events = Arrays.asList&#40;new EventData&#40;&quot;Melbourne&quot;&#41;, new EventData&#40;&quot;London&quot;&#41;,\n     new EventData&#40;&quot;New York&quot;&#41;&#41;;\n SendOptions sendOptions = new SendOptions&#40;&#41;.setPartitionKey&#40;&quot;cities&quot;&#41;;\n producer\n     .send&#40;events, sendOptions&#41;\n     .subscribe&#40;unused -&gt; &#123; &#125;,\n         error -&gt; System.err.println&#40;&quot;Error occurred while sending events:&quot; + error&#41;,\n         &#40;&#41; -&gt; System.out.println&#40;&quot;Send complete.&quot;&#41;&#41;;\n </pre>\n\n <p>\n For more information regarding the maximum event size allowed, see\n <a href=\"https://docs.microsoft.com/azure/event-hubs/event-hubs-quotas\">Azure Event Hubs Quotas and\n Limits</a>.\n </p>"
   parameters:
-  - description: Events to send to the service.
-    name: events
-    type: <xref href="java.lang.Iterable?alt=java.lang.Iterable&text=Iterable" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.messaging.eventhubs.EventData?alt=com.azure.messaging.eventhubs.EventData&text=EventData" data-throw-if-not-resolved="False" />&gt;
-  - description: The set of options to consider when sending this batch.
-    name: options
-    type: <xref href="com.azure.messaging.eventhubs.models.SendOptions?alt=com.azure.messaging.eventhubs.models.SendOptions&text=SendOptions" data-throw-if-not-resolved="False" />
-  syntax: public Mono<Void> send(Iterable<EventData> events, SendOptions options)
+  - description: "Events to send to the service."
+    name: "events"
+    type: "<xref href=\"java.lang.Iterable?alt=java.lang.Iterable&text=Iterable\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.messaging.eventhubs.EventData?alt=com.azure.messaging.eventhubs.EventData&text=EventData\" data-throw-if-not-resolved=\"False\" />&gt;"
+  - description: "The set of options to consider when sending this batch."
+    name: "options"
+    type: "<xref href=\"com.azure.messaging.eventhubs.models.SendOptions?alt=com.azure.messaging.eventhubs.models.SendOptions&text=SendOptions\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public Mono<Void> send(Iterable<EventData> events, SendOptions options)"
   returns:
-    description: A <xref uid="reactor.core.publisher.Mono" data-throw-if-not-resolved="false">Mono</xref> that completes when all events are pushed to the service.
-    type: <xref href="reactor.core.publisher.Mono?alt=reactor.core.publisher.Mono&text=Mono" data-throw-if-not-resolved="False" />&lt;<xref href="java.lang.Void?alt=java.lang.Void&text=Void" data-throw-if-not-resolved="False" />&gt;
-type: method
+    description: "A <xref uid=\"reactor.core.publisher.Mono\" data-throw-if-not-resolved=\"false\">Mono</xref> that completes when all events are pushed to the service."
+    type: "<xref href=\"reactor.core.publisher.Mono?alt=reactor.core.publisher.Mono&text=Mono\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"java.lang.Void?alt=java.lang.Void&text=Void\" data-throw-if-not-resolved=\"False\" />&gt;"
+type: "method"
 metadata: {}
-package: com.azure.messaging.eventhubs
+package: "com.azure.messaging.eventhubs"
 artifact: com.azure:azure-messaging-eventhubs:5.2.0-beta.2

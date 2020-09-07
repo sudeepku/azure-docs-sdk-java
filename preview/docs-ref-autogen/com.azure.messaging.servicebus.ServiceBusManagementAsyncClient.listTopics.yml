@@ -1,19 +1,19 @@
 ### YamlMime:JavaMember
-uid: com.azure.messaging.servicebus.ServiceBusManagementAsyncClient.listTopics*
-fullName: com.azure.messaging.servicebus.ServiceBusManagementAsyncClient.listTopics
-name: listTopics
-nameWithType: ServiceBusManagementAsyncClient.listTopics
+uid: "com.azure.messaging.servicebus.ServiceBusManagementAsyncClient.listTopics*"
+fullName: "com.azure.messaging.servicebus.ServiceBusManagementAsyncClient.listTopics"
+name: "listTopics"
+nameWithType: "ServiceBusManagementAsyncClient.listTopics"
 members:
-- uid: com.azure.messaging.servicebus.ServiceBusManagementAsyncClient.listTopics()
-  fullName: com.azure.messaging.servicebus.ServiceBusManagementAsyncClient.listTopics()
-  name: listTopics()
-  nameWithType: ServiceBusManagementAsyncClient.listTopics()
-  summary: Fetches all the topics in the Service Bus namespace.
-  syntax: public PagedFlux<TopicProperties> listTopics()
+- uid: "com.azure.messaging.servicebus.ServiceBusManagementAsyncClient.listTopics()"
+  fullName: "com.azure.messaging.servicebus.ServiceBusManagementAsyncClient.listTopics()"
+  name: "listTopics()"
+  nameWithType: "ServiceBusManagementAsyncClient.listTopics()"
+  summary: "Fetches all the topics in the Service Bus namespace."
+  syntax: "public PagedFlux<TopicProperties> listTopics()"
   returns:
-    description: A Flux of <xref uid="com.azure.messaging.servicebus.models.TopicProperties" data-throw-if-not-resolved="false">topics</xref> in the Service Bus namespace.
-    type: <xref href="com.azure.core.http.rest.PagedFlux?alt=com.azure.core.http.rest.PagedFlux&text=PagedFlux" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.messaging.servicebus.models.TopicProperties?alt=com.azure.messaging.servicebus.models.TopicProperties&text=TopicProperties" data-throw-if-not-resolved="False" />&gt;
-type: method
+    description: "A Flux of <xref uid=\"com.azure.messaging.servicebus.models.TopicProperties\" data-throw-if-not-resolved=\"false\">topics</xref> in the Service Bus namespace."
+    type: "<xref href=\"com.azure.core.http.rest.PagedFlux?alt=com.azure.core.http.rest.PagedFlux&text=PagedFlux\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.messaging.servicebus.models.TopicProperties?alt=com.azure.messaging.servicebus.models.TopicProperties&text=TopicProperties\" data-throw-if-not-resolved=\"False\" />&gt;"
+type: "method"
 metadata: {}
-package: com.azure.messaging.servicebus
+package: "com.azure.messaging.servicebus"
 artifact: com.azure:azure-messaging-servicebus:7.0.0-beta.5

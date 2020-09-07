@@ -1,64 +1,64 @@
 ### YamlMime:JavaType
-uid: com.azure.resourcemanager.authorization.fluent.RoleDefinitionsClient
-fullName: com.azure.resourcemanager.authorization.fluent.RoleDefinitionsClient
-name: RoleDefinitionsClient
-nameWithType: RoleDefinitionsClient
-summary: An instance of this class provides access to all the operations defined in RoleDefinitions.
+uid: "com.azure.resourcemanager.authorization.fluent.RoleDefinitionsClient"
+fullName: "com.azure.resourcemanager.authorization.fluent.RoleDefinitionsClient"
+name: "RoleDefinitionsClient"
+nameWithType: "RoleDefinitionsClient"
+summary: "An instance of this class provides access to all the operations defined in RoleDefinitions."
 inheritances:
-- <xref href="java.lang.Object" data-throw-if-not-resolved="False" />
+- "<xref href=\"java.lang.Object\" data-throw-if-not-resolved=\"False\" />"
 inheritedMembers:
-- java.lang.Object.clone()
-- java.lang.Object.equals(java.lang.Object)
-- java.lang.Object.finalize()
-- java.lang.Object.getClass()
-- java.lang.Object.hashCode()
-- java.lang.Object.notify()
-- java.lang.Object.notifyAll()
-- java.lang.Object.toString()
-- java.lang.Object.wait()
-- java.lang.Object.wait(long)
-- java.lang.Object.wait(long,int)
-syntax: public final class RoleDefinitionsClient implements InnerSupportsDelete<RoleDefinitionInner>
+- "java.lang.Object.clone()"
+- "java.lang.Object.equals(java.lang.Object)"
+- "java.lang.Object.finalize()"
+- "java.lang.Object.getClass()"
+- "java.lang.Object.hashCode()"
+- "java.lang.Object.notify()"
+- "java.lang.Object.notifyAll()"
+- "java.lang.Object.toString()"
+- "java.lang.Object.wait()"
+- "java.lang.Object.wait(long)"
+- "java.lang.Object.wait(long,int)"
+syntax: "public final class RoleDefinitionsClient implements InnerSupportsDelete<RoleDefinitionInner>"
 constructors:
-- com.azure.resourcemanager.authorization.fluent.RoleDefinitionsClient.RoleDefinitionsClient(com.azure.resourcemanager.authorization.AuthorizationManagementClient)
+- "com.azure.resourcemanager.authorization.fluent.RoleDefinitionsClient.RoleDefinitionsClient(com.azure.resourcemanager.authorization.AuthorizationManagementClient)"
 methods:
-- com.azure.resourcemanager.authorization.fluent.RoleDefinitionsClient.createOrUpdate(java.lang.String,java.lang.String,com.azure.resourcemanager.authorization.fluent.inner.RoleDefinitionInner)
-- com.azure.resourcemanager.authorization.fluent.RoleDefinitionsClient.createOrUpdate(java.lang.String,java.lang.String,com.azure.resourcemanager.authorization.fluent.inner.RoleDefinitionInner,com.azure.core.util.Context)
-- com.azure.resourcemanager.authorization.fluent.RoleDefinitionsClient.createOrUpdateAsync(java.lang.String,java.lang.String,com.azure.resourcemanager.authorization.fluent.inner.RoleDefinitionInner)
-- com.azure.resourcemanager.authorization.fluent.RoleDefinitionsClient.createOrUpdateAsync(java.lang.String,java.lang.String,com.azure.resourcemanager.authorization.fluent.inner.RoleDefinitionInner,com.azure.core.util.Context)
-- com.azure.resourcemanager.authorization.fluent.RoleDefinitionsClient.createOrUpdateWithResponseAsync(java.lang.String,java.lang.String,com.azure.resourcemanager.authorization.fluent.inner.RoleDefinitionInner)
-- com.azure.resourcemanager.authorization.fluent.RoleDefinitionsClient.createOrUpdateWithResponseAsync(java.lang.String,java.lang.String,com.azure.resourcemanager.authorization.fluent.inner.RoleDefinitionInner,com.azure.core.util.Context)
-- com.azure.resourcemanager.authorization.fluent.RoleDefinitionsClient.delete(java.lang.String,java.lang.String)
-- com.azure.resourcemanager.authorization.fluent.RoleDefinitionsClient.delete(java.lang.String,java.lang.String,com.azure.core.util.Context)
-- com.azure.resourcemanager.authorization.fluent.RoleDefinitionsClient.deleteAsync(java.lang.String,java.lang.String)
-- com.azure.resourcemanager.authorization.fluent.RoleDefinitionsClient.deleteAsync(java.lang.String,java.lang.String,com.azure.core.util.Context)
-- com.azure.resourcemanager.authorization.fluent.RoleDefinitionsClient.deleteWithResponseAsync(java.lang.String,java.lang.String)
-- com.azure.resourcemanager.authorization.fluent.RoleDefinitionsClient.deleteWithResponseAsync(java.lang.String,java.lang.String,com.azure.core.util.Context)
-- com.azure.resourcemanager.authorization.fluent.RoleDefinitionsClient.get(java.lang.String,java.lang.String)
-- com.azure.resourcemanager.authorization.fluent.RoleDefinitionsClient.get(java.lang.String,java.lang.String,com.azure.core.util.Context)
-- com.azure.resourcemanager.authorization.fluent.RoleDefinitionsClient.getAsync(java.lang.String,java.lang.String)
-- com.azure.resourcemanager.authorization.fluent.RoleDefinitionsClient.getAsync(java.lang.String,java.lang.String,com.azure.core.util.Context)
-- com.azure.resourcemanager.authorization.fluent.RoleDefinitionsClient.getById(java.lang.String)
-- com.azure.resourcemanager.authorization.fluent.RoleDefinitionsClient.getById(java.lang.String,com.azure.core.util.Context)
-- com.azure.resourcemanager.authorization.fluent.RoleDefinitionsClient.getByIdAsync(java.lang.String)
-- com.azure.resourcemanager.authorization.fluent.RoleDefinitionsClient.getByIdAsync(java.lang.String,com.azure.core.util.Context)
-- com.azure.resourcemanager.authorization.fluent.RoleDefinitionsClient.getByIdWithResponseAsync(java.lang.String)
-- com.azure.resourcemanager.authorization.fluent.RoleDefinitionsClient.getByIdWithResponseAsync(java.lang.String,com.azure.core.util.Context)
-- com.azure.resourcemanager.authorization.fluent.RoleDefinitionsClient.getWithResponseAsync(java.lang.String,java.lang.String)
-- com.azure.resourcemanager.authorization.fluent.RoleDefinitionsClient.getWithResponseAsync(java.lang.String,java.lang.String,com.azure.core.util.Context)
-- com.azure.resourcemanager.authorization.fluent.RoleDefinitionsClient.list(java.lang.String)
-- com.azure.resourcemanager.authorization.fluent.RoleDefinitionsClient.list(java.lang.String,java.lang.String)
-- com.azure.resourcemanager.authorization.fluent.RoleDefinitionsClient.list(java.lang.String,java.lang.String,com.azure.core.util.Context)
-- com.azure.resourcemanager.authorization.fluent.RoleDefinitionsClient.listAsync(java.lang.String)
-- com.azure.resourcemanager.authorization.fluent.RoleDefinitionsClient.listAsync(java.lang.String,java.lang.String)
-- com.azure.resourcemanager.authorization.fluent.RoleDefinitionsClient.listAsync(java.lang.String,java.lang.String,com.azure.core.util.Context)
-- com.azure.resourcemanager.authorization.fluent.RoleDefinitionsClient.listNextSinglePageAsync(java.lang.String)
-- com.azure.resourcemanager.authorization.fluent.RoleDefinitionsClient.listNextSinglePageAsync(java.lang.String,com.azure.core.util.Context)
-- com.azure.resourcemanager.authorization.fluent.RoleDefinitionsClient.listSinglePageAsync(java.lang.String,java.lang.String)
-- com.azure.resourcemanager.authorization.fluent.RoleDefinitionsClient.listSinglePageAsync(java.lang.String,java.lang.String,com.azure.core.util.Context)
-type: class
+- "com.azure.resourcemanager.authorization.fluent.RoleDefinitionsClient.createOrUpdate(java.lang.String,java.lang.String,com.azure.resourcemanager.authorization.fluent.inner.RoleDefinitionInner)"
+- "com.azure.resourcemanager.authorization.fluent.RoleDefinitionsClient.createOrUpdate(java.lang.String,java.lang.String,com.azure.resourcemanager.authorization.fluent.inner.RoleDefinitionInner,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.authorization.fluent.RoleDefinitionsClient.createOrUpdateAsync(java.lang.String,java.lang.String,com.azure.resourcemanager.authorization.fluent.inner.RoleDefinitionInner)"
+- "com.azure.resourcemanager.authorization.fluent.RoleDefinitionsClient.createOrUpdateAsync(java.lang.String,java.lang.String,com.azure.resourcemanager.authorization.fluent.inner.RoleDefinitionInner,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.authorization.fluent.RoleDefinitionsClient.createOrUpdateWithResponseAsync(java.lang.String,java.lang.String,com.azure.resourcemanager.authorization.fluent.inner.RoleDefinitionInner)"
+- "com.azure.resourcemanager.authorization.fluent.RoleDefinitionsClient.createOrUpdateWithResponseAsync(java.lang.String,java.lang.String,com.azure.resourcemanager.authorization.fluent.inner.RoleDefinitionInner,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.authorization.fluent.RoleDefinitionsClient.delete(java.lang.String,java.lang.String)"
+- "com.azure.resourcemanager.authorization.fluent.RoleDefinitionsClient.delete(java.lang.String,java.lang.String,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.authorization.fluent.RoleDefinitionsClient.deleteAsync(java.lang.String,java.lang.String)"
+- "com.azure.resourcemanager.authorization.fluent.RoleDefinitionsClient.deleteAsync(java.lang.String,java.lang.String,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.authorization.fluent.RoleDefinitionsClient.deleteWithResponseAsync(java.lang.String,java.lang.String)"
+- "com.azure.resourcemanager.authorization.fluent.RoleDefinitionsClient.deleteWithResponseAsync(java.lang.String,java.lang.String,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.authorization.fluent.RoleDefinitionsClient.get(java.lang.String,java.lang.String)"
+- "com.azure.resourcemanager.authorization.fluent.RoleDefinitionsClient.get(java.lang.String,java.lang.String,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.authorization.fluent.RoleDefinitionsClient.getAsync(java.lang.String,java.lang.String)"
+- "com.azure.resourcemanager.authorization.fluent.RoleDefinitionsClient.getAsync(java.lang.String,java.lang.String,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.authorization.fluent.RoleDefinitionsClient.getById(java.lang.String)"
+- "com.azure.resourcemanager.authorization.fluent.RoleDefinitionsClient.getById(java.lang.String,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.authorization.fluent.RoleDefinitionsClient.getByIdAsync(java.lang.String)"
+- "com.azure.resourcemanager.authorization.fluent.RoleDefinitionsClient.getByIdAsync(java.lang.String,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.authorization.fluent.RoleDefinitionsClient.getByIdWithResponseAsync(java.lang.String)"
+- "com.azure.resourcemanager.authorization.fluent.RoleDefinitionsClient.getByIdWithResponseAsync(java.lang.String,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.authorization.fluent.RoleDefinitionsClient.getWithResponseAsync(java.lang.String,java.lang.String)"
+- "com.azure.resourcemanager.authorization.fluent.RoleDefinitionsClient.getWithResponseAsync(java.lang.String,java.lang.String,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.authorization.fluent.RoleDefinitionsClient.list(java.lang.String)"
+- "com.azure.resourcemanager.authorization.fluent.RoleDefinitionsClient.list(java.lang.String,java.lang.String)"
+- "com.azure.resourcemanager.authorization.fluent.RoleDefinitionsClient.list(java.lang.String,java.lang.String,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.authorization.fluent.RoleDefinitionsClient.listAsync(java.lang.String)"
+- "com.azure.resourcemanager.authorization.fluent.RoleDefinitionsClient.listAsync(java.lang.String,java.lang.String)"
+- "com.azure.resourcemanager.authorization.fluent.RoleDefinitionsClient.listAsync(java.lang.String,java.lang.String,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.authorization.fluent.RoleDefinitionsClient.listNextSinglePageAsync(java.lang.String)"
+- "com.azure.resourcemanager.authorization.fluent.RoleDefinitionsClient.listNextSinglePageAsync(java.lang.String,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.authorization.fluent.RoleDefinitionsClient.listSinglePageAsync(java.lang.String,java.lang.String)"
+- "com.azure.resourcemanager.authorization.fluent.RoleDefinitionsClient.listSinglePageAsync(java.lang.String,java.lang.String,com.azure.core.util.Context)"
+type: "class"
 implements:
-- <xref href="com.azure.resourcemanager.resources.fluentcore.collection.InnerSupportsDelete?alt=com.azure.resourcemanager.resources.fluentcore.collection.InnerSupportsDelete&text=InnerSupportsDelete" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.resourcemanager.authorization.fluent.inner.RoleDefinitionInner?alt=com.azure.resourcemanager.authorization.fluent.inner.RoleDefinitionInner&text=RoleDefinitionInner" data-throw-if-not-resolved="False" />&gt;
+- "<xref href=\"com.azure.resourcemanager.resources.fluentcore.collection.InnerSupportsDelete?alt=com.azure.resourcemanager.resources.fluentcore.collection.InnerSupportsDelete&text=InnerSupportsDelete\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.authorization.fluent.inner.RoleDefinitionInner?alt=com.azure.resourcemanager.authorization.fluent.inner.RoleDefinitionInner&text=RoleDefinitionInner\" data-throw-if-not-resolved=\"False\" />&gt;"
 metadata: {}
-package: com.azure.resourcemanager.authorization.fluent
+package: "com.azure.resourcemanager.authorization.fluent"
 artifact: com.azure.resourcemanager:azure-resourcemanager-authorization:2.0.0-beta.2

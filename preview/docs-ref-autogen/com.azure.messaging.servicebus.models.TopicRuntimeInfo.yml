@@ -1,34 +1,34 @@
 ### YamlMime:JavaType
-uid: com.azure.messaging.servicebus.models.TopicRuntimeInfo
-fullName: com.azure.messaging.servicebus.models.TopicRuntimeInfo
-name: TopicRuntimeInfo
-nameWithType: TopicRuntimeInfo
-summary: Runtime information about the topic.
+uid: "com.azure.messaging.servicebus.models.TopicRuntimeInfo"
+fullName: "com.azure.messaging.servicebus.models.TopicRuntimeInfo"
+name: "TopicRuntimeInfo"
+nameWithType: "TopicRuntimeInfo"
+summary: "Runtime information about the topic."
 inheritances:
-- <xref href="java.lang.Object" data-throw-if-not-resolved="False" />
+- "<xref href=\"java.lang.Object\" data-throw-if-not-resolved=\"False\" />"
 inheritedMembers:
-- java.lang.Object.clone()
-- java.lang.Object.equals(java.lang.Object)
-- java.lang.Object.finalize()
-- java.lang.Object.getClass()
-- java.lang.Object.hashCode()
-- java.lang.Object.notify()
-- java.lang.Object.notifyAll()
-- java.lang.Object.toString()
-- java.lang.Object.wait()
-- java.lang.Object.wait(long)
-- java.lang.Object.wait(long,int)
-syntax: public class TopicRuntimeInfo
+- "java.lang.Object.clone()"
+- "java.lang.Object.equals(java.lang.Object)"
+- "java.lang.Object.finalize()"
+- "java.lang.Object.getClass()"
+- "java.lang.Object.hashCode()"
+- "java.lang.Object.notify()"
+- "java.lang.Object.notifyAll()"
+- "java.lang.Object.toString()"
+- "java.lang.Object.wait()"
+- "java.lang.Object.wait(long)"
+- "java.lang.Object.wait(long,int)"
+syntax: "public class TopicRuntimeInfo"
 constructors:
-- com.azure.messaging.servicebus.models.TopicRuntimeInfo.TopicRuntimeInfo(com.azure.messaging.servicebus.models.TopicProperties)
+- "com.azure.messaging.servicebus.models.TopicRuntimeInfo.TopicRuntimeInfo(com.azure.messaging.servicebus.models.TopicProperties)"
 methods:
-- com.azure.messaging.servicebus.models.TopicRuntimeInfo.getAccessedAt()
-- com.azure.messaging.servicebus.models.TopicRuntimeInfo.getCreatedAt()
-- com.azure.messaging.servicebus.models.TopicRuntimeInfo.getName()
-- com.azure.messaging.servicebus.models.TopicRuntimeInfo.getSizeInBytes()
-- com.azure.messaging.servicebus.models.TopicRuntimeInfo.getSubscriptionCount()
-- com.azure.messaging.servicebus.models.TopicRuntimeInfo.getUpdatedAt()
-type: class
+- "com.azure.messaging.servicebus.models.TopicRuntimeInfo.getAccessedAt()"
+- "com.azure.messaging.servicebus.models.TopicRuntimeInfo.getCreatedAt()"
+- "com.azure.messaging.servicebus.models.TopicRuntimeInfo.getName()"
+- "com.azure.messaging.servicebus.models.TopicRuntimeInfo.getSizeInBytes()"
+- "com.azure.messaging.servicebus.models.TopicRuntimeInfo.getSubscriptionCount()"
+- "com.azure.messaging.servicebus.models.TopicRuntimeInfo.getUpdatedAt()"
+type: "class"
 metadata: {}
-package: com.azure.messaging.servicebus.models
+package: "com.azure.messaging.servicebus.models"
 artifact: com.azure:azure-messaging-servicebus:7.0.0-beta.5

@@ -1,42 +1,42 @@
 ### YamlMime:JavaType
-uid: com.azure.resourcemanager.resources.fluent.inner.SubscriptionInner
-fullName: com.azure.resourcemanager.resources.fluent.inner.SubscriptionInner
-name: SubscriptionInner
-nameWithType: SubscriptionInner
-summary: The Subscription model.
+uid: "com.azure.resourcemanager.resources.fluent.inner.SubscriptionInner"
+fullName: "com.azure.resourcemanager.resources.fluent.inner.SubscriptionInner"
+name: "SubscriptionInner"
+nameWithType: "SubscriptionInner"
+summary: "The Subscription model."
 inheritances:
-- <xref href="java.lang.Object" data-throw-if-not-resolved="False" />
+- "<xref href=\"java.lang.Object\" data-throw-if-not-resolved=\"False\" />"
 inheritedMembers:
-- java.lang.Object.clone()
-- java.lang.Object.equals(java.lang.Object)
-- java.lang.Object.finalize()
-- java.lang.Object.getClass()
-- java.lang.Object.hashCode()
-- java.lang.Object.notify()
-- java.lang.Object.notifyAll()
-- java.lang.Object.toString()
-- java.lang.Object.wait()
-- java.lang.Object.wait(long)
-- java.lang.Object.wait(long,int)
-syntax: public final class SubscriptionInner
+- "java.lang.Object.clone()"
+- "java.lang.Object.equals(java.lang.Object)"
+- "java.lang.Object.finalize()"
+- "java.lang.Object.getClass()"
+- "java.lang.Object.hashCode()"
+- "java.lang.Object.notify()"
+- "java.lang.Object.notifyAll()"
+- "java.lang.Object.toString()"
+- "java.lang.Object.wait()"
+- "java.lang.Object.wait(long)"
+- "java.lang.Object.wait(long,int)"
+syntax: "public final class SubscriptionInner"
 constructors:
-- com.azure.resourcemanager.resources.fluent.inner.SubscriptionInner.SubscriptionInner()
+- "com.azure.resourcemanager.resources.fluent.inner.SubscriptionInner.SubscriptionInner()"
 methods:
-- com.azure.resourcemanager.resources.fluent.inner.SubscriptionInner.authorizationSource()
-- com.azure.resourcemanager.resources.fluent.inner.SubscriptionInner.displayName()
-- com.azure.resourcemanager.resources.fluent.inner.SubscriptionInner.id()
-- com.azure.resourcemanager.resources.fluent.inner.SubscriptionInner.managedByTenants()
-- com.azure.resourcemanager.resources.fluent.inner.SubscriptionInner.state()
-- com.azure.resourcemanager.resources.fluent.inner.SubscriptionInner.subscriptionId()
-- com.azure.resourcemanager.resources.fluent.inner.SubscriptionInner.subscriptionPolicies()
-- com.azure.resourcemanager.resources.fluent.inner.SubscriptionInner.tags()
-- com.azure.resourcemanager.resources.fluent.inner.SubscriptionInner.tenantId()
-- com.azure.resourcemanager.resources.fluent.inner.SubscriptionInner.validate()
-- com.azure.resourcemanager.resources.fluent.inner.SubscriptionInner.withAuthorizationSource(java.lang.String)
-- com.azure.resourcemanager.resources.fluent.inner.SubscriptionInner.withManagedByTenants(java.util.List<com.azure.resourcemanager.resources.models.ManagedByTenant>)
-- com.azure.resourcemanager.resources.fluent.inner.SubscriptionInner.withSubscriptionPolicies(com.azure.resourcemanager.resources.models.SubscriptionPolicies)
-- com.azure.resourcemanager.resources.fluent.inner.SubscriptionInner.withTags(java.util.Map<java.lang.String,java.lang.String>)
-type: class
+- "com.azure.resourcemanager.resources.fluent.inner.SubscriptionInner.authorizationSource()"
+- "com.azure.resourcemanager.resources.fluent.inner.SubscriptionInner.displayName()"
+- "com.azure.resourcemanager.resources.fluent.inner.SubscriptionInner.id()"
+- "com.azure.resourcemanager.resources.fluent.inner.SubscriptionInner.managedByTenants()"
+- "com.azure.resourcemanager.resources.fluent.inner.SubscriptionInner.state()"
+- "com.azure.resourcemanager.resources.fluent.inner.SubscriptionInner.subscriptionId()"
+- "com.azure.resourcemanager.resources.fluent.inner.SubscriptionInner.subscriptionPolicies()"
+- "com.azure.resourcemanager.resources.fluent.inner.SubscriptionInner.tags()"
+- "com.azure.resourcemanager.resources.fluent.inner.SubscriptionInner.tenantId()"
+- "com.azure.resourcemanager.resources.fluent.inner.SubscriptionInner.validate()"
+- "com.azure.resourcemanager.resources.fluent.inner.SubscriptionInner.withAuthorizationSource(java.lang.String)"
+- "com.azure.resourcemanager.resources.fluent.inner.SubscriptionInner.withManagedByTenants(java.util.List<com.azure.resourcemanager.resources.models.ManagedByTenant>)"
+- "com.azure.resourcemanager.resources.fluent.inner.SubscriptionInner.withSubscriptionPolicies(com.azure.resourcemanager.resources.models.SubscriptionPolicies)"
+- "com.azure.resourcemanager.resources.fluent.inner.SubscriptionInner.withTags(java.util.Map<java.lang.String,java.lang.String>)"
+type: "class"
 metadata: {}
-package: com.azure.resourcemanager.resources.fluent.inner
+package: "com.azure.resourcemanager.resources.fluent.inner"
 artifact: com.azure.resourcemanager:azure-resourcemanager-resources:2.0.0-beta.2

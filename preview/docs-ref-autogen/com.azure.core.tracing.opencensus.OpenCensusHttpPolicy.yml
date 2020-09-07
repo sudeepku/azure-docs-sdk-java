@@ -1,33 +1,33 @@
 ### YamlMime:JavaType
-uid: com.azure.core.tracing.opencensus.OpenCensusHttpPolicy
-fullName: com.azure.core.tracing.opencensus.OpenCensusHttpPolicy
-name: OpenCensusHttpPolicy
-nameWithType: OpenCensusHttpPolicy
-summary: Pipeline policy that creates an OpenCensus span which traces the service request.
+uid: "com.azure.core.tracing.opencensus.OpenCensusHttpPolicy"
+fullName: "com.azure.core.tracing.opencensus.OpenCensusHttpPolicy"
+name: "OpenCensusHttpPolicy"
+nameWithType: "OpenCensusHttpPolicy"
+summary: "Pipeline policy that creates an OpenCensus span which traces the service request."
 inheritances:
-- <xref href="java.lang.Object" data-throw-if-not-resolved="False" />
+- "<xref href=\"java.lang.Object\" data-throw-if-not-resolved=\"False\" />"
 inheritedMembers:
-- java.lang.Object.clone()
-- java.lang.Object.equals(java.lang.Object)
-- java.lang.Object.finalize()
-- java.lang.Object.getClass()
-- java.lang.Object.hashCode()
-- java.lang.Object.notify()
-- java.lang.Object.notifyAll()
-- java.lang.Object.toString()
-- java.lang.Object.wait()
-- java.lang.Object.wait(long)
-- java.lang.Object.wait(long,int)
-syntax: public class OpenCensusHttpPolicy implements AfterRetryPolicyProvider, HttpPipelinePolicy
+- "java.lang.Object.clone()"
+- "java.lang.Object.equals(java.lang.Object)"
+- "java.lang.Object.finalize()"
+- "java.lang.Object.getClass()"
+- "java.lang.Object.hashCode()"
+- "java.lang.Object.notify()"
+- "java.lang.Object.notifyAll()"
+- "java.lang.Object.toString()"
+- "java.lang.Object.wait()"
+- "java.lang.Object.wait(long)"
+- "java.lang.Object.wait(long,int)"
+syntax: "public class OpenCensusHttpPolicy implements AfterRetryPolicyProvider, HttpPipelinePolicy"
 constructors:
-- com.azure.core.tracing.opencensus.OpenCensusHttpPolicy.OpenCensusHttpPolicy()
+- "com.azure.core.tracing.opencensus.OpenCensusHttpPolicy.OpenCensusHttpPolicy()"
 methods:
-- com.azure.core.tracing.opencensus.OpenCensusHttpPolicy.create()
-- com.azure.core.tracing.opencensus.OpenCensusHttpPolicy.process(com.azure.core.http.HttpPipelineCallContext,com.azure.core.http.HttpPipelineNextPolicy)
-type: class
+- "com.azure.core.tracing.opencensus.OpenCensusHttpPolicy.create()"
+- "com.azure.core.tracing.opencensus.OpenCensusHttpPolicy.process(com.azure.core.http.HttpPipelineCallContext,com.azure.core.http.HttpPipelineNextPolicy)"
+type: "class"
 implements:
-- <xref href="com.azure.core.http.policy.AfterRetryPolicyProvider?alt=com.azure.core.http.policy.AfterRetryPolicyProvider&text=AfterRetryPolicyProvider" data-throw-if-not-resolved="False" />
-- <xref href="com.azure.core.http.policy.HttpPipelinePolicy?alt=com.azure.core.http.policy.HttpPipelinePolicy&text=HttpPipelinePolicy" data-throw-if-not-resolved="False" />
+- "<xref href=\"com.azure.core.http.policy.AfterRetryPolicyProvider?alt=com.azure.core.http.policy.AfterRetryPolicyProvider&text=AfterRetryPolicyProvider\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.azure.core.http.policy.HttpPipelinePolicy?alt=com.azure.core.http.policy.HttpPipelinePolicy&text=HttpPipelinePolicy\" data-throw-if-not-resolved=\"False\" />"
 metadata: {}
-package: com.azure.core.tracing.opencensus
+package: "com.azure.core.tracing.opencensus"
 artifact: com.azure:azure-core-tracing-opencensus:1.0.0-beta.6

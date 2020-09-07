@@ -1,28 +1,19 @@
 ### YamlMime:JavaMember
-uid: com.azure.search.documents.indexes.models.MicrosoftLanguageTokenizer.getLanguage*
-fullName: com.azure.search.documents.indexes.models.MicrosoftLanguageTokenizer.getLanguage
-name: getLanguage
-nameWithType: MicrosoftLanguageTokenizer.getLanguage
+uid: "com.azure.search.documents.indexes.models.MicrosoftLanguageTokenizer.getLanguage*"
+fullName: "com.azure.search.documents.indexes.models.MicrosoftLanguageTokenizer.getLanguage"
+name: "getLanguage"
+nameWithType: "MicrosoftLanguageTokenizer.getLanguage"
 members:
-- uid: com.azure.search.documents.indexes.models.MicrosoftLanguageTokenizer.getLanguage()
-  fullName: com.azure.search.documents.indexes.models.MicrosoftLanguageTokenizer.getLanguage()
-  name: getLanguage()
-  nameWithType: MicrosoftLanguageTokenizer.getLanguage()
-  summary: |-
-    Get the language property: The language to use. The default is English.
-     Possible values include: 'Bangla', 'Bulgarian', 'Catalan',
-     'ChineseSimplified', 'ChineseTraditional', 'Croatian', 'Czech',
-     'Danish', 'Dutch', 'English', 'French', 'German', 'Greek', 'Gujarati',
-     'Hindi', 'Icelandic', 'Indonesian', 'Italian', 'Japanese', 'Kannada',
-     'Korean', 'Malay', 'Malayalam', 'Marathi', 'NorwegianBokmaal', 'Polish',
-     'Portuguese', 'PortugueseBrazilian', 'Punjabi', 'Romanian', 'Russian',
-     'SerbianCyrillic', 'SerbianLatin', 'Slovenian', 'Spanish', 'Swedish',
-     'Tamil', 'Telugu', 'Thai', 'Ukrainian', 'Urdu', 'Vietnamese'.
-  syntax: public MicrosoftTokenizerLanguage getLanguage()
+- uid: "com.azure.search.documents.indexes.models.MicrosoftLanguageTokenizer.getLanguage()"
+  fullName: "com.azure.search.documents.indexes.models.MicrosoftLanguageTokenizer.getLanguage()"
+  name: "getLanguage()"
+  nameWithType: "MicrosoftLanguageTokenizer.getLanguage()"
+  summary: "Get the language property: The language to use. The default is English.\n Possible values include: 'Bangla', 'Bulgarian', 'Catalan',\n 'ChineseSimplified', 'ChineseTraditional', 'Croatian', 'Czech',\n 'Danish', 'Dutch', 'English', 'French', 'German', 'Greek', 'Gujarati',\n 'Hindi', 'Icelandic', 'Indonesian', 'Italian', 'Japanese', 'Kannada',\n 'Korean', 'Malay', 'Malayalam', 'Marathi', 'NorwegianBokmaal', 'Polish',\n 'Portuguese', 'PortugueseBrazilian', 'Punjabi', 'Romanian', 'Russian',\n 'SerbianCyrillic', 'SerbianLatin', 'Slovenian', 'Spanish', 'Swedish',\n 'Tamil', 'Telugu', 'Thai', 'Ukrainian', 'Urdu', 'Vietnamese'."
+  syntax: "public MicrosoftTokenizerLanguage getLanguage()"
   returns:
-    description: the language value.
-    type: <xref href="com.azure.search.documents.indexes.models.MicrosoftTokenizerLanguage?alt=com.azure.search.documents.indexes.models.MicrosoftTokenizerLanguage&text=MicrosoftTokenizerLanguage" data-throw-if-not-resolved="False" />
-type: method
+    description: "the language value."
+    type: "<xref href=\"com.azure.search.documents.indexes.models.MicrosoftTokenizerLanguage?alt=com.azure.search.documents.indexes.models.MicrosoftTokenizerLanguage&text=MicrosoftTokenizerLanguage\" data-throw-if-not-resolved=\"False\" />"
+type: "method"
 metadata: {}
-package: com.azure.search.documents.indexes.models
+package: "com.azure.search.documents.indexes.models"
 artifact: com.azure:azure-search-documents:11.0.0

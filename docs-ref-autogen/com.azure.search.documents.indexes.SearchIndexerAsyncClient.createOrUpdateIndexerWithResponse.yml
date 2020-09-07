@@ -1,47 +1,26 @@
 ### YamlMime:JavaMember
-uid: com.azure.search.documents.indexes.SearchIndexerAsyncClient.createOrUpdateIndexerWithResponse*
-fullName: com.azure.search.documents.indexes.SearchIndexerAsyncClient.createOrUpdateIndexerWithResponse
-name: createOrUpdateIndexerWithResponse
-nameWithType: SearchIndexerAsyncClient.createOrUpdateIndexerWithResponse
+uid: "com.azure.search.documents.indexes.SearchIndexerAsyncClient.createOrUpdateIndexerWithResponse*"
+fullName: "com.azure.search.documents.indexes.SearchIndexerAsyncClient.createOrUpdateIndexerWithResponse"
+name: "createOrUpdateIndexerWithResponse"
+nameWithType: "SearchIndexerAsyncClient.createOrUpdateIndexerWithResponse"
 members:
-- uid: com.azure.search.documents.indexes.SearchIndexerAsyncClient.createOrUpdateIndexerWithResponse(com.azure.search.documents.indexes.models.SearchIndexer,boolean)
-  fullName: com.azure.search.documents.indexes.SearchIndexerAsyncClient.createOrUpdateIndexerWithResponse(SearchIndexer indexer, boolean onlyIfUnchanged)
-  name: createOrUpdateIndexerWithResponse(SearchIndexer indexer, boolean onlyIfUnchanged)
-  nameWithType: SearchIndexerAsyncClient.createOrUpdateIndexerWithResponse(SearchIndexer indexer, boolean onlyIfUnchanged)
-  summary: |-
-    Creates a new Azure Cognitive Search indexer or updates an indexer if it already exists.
-
-     <p><strong>Code Sample</strong></p>
-
-     <p> Create or update search indexer named "searchIndexer". </p>
-
-     <pre>
-     searchIndexerAsyncClient.getIndexer&#40;&quot;searchIndexer&quot;&#41;
-         .flatMap&#40;searchIndexerFromService -&gt; &#123;
-             searchIndexerFromService.setFieldMappings&#40;Collections.singletonList&#40;
-                 new FieldMapping&#40;&quot;hotelName&quot;&#41;.setTargetFieldName&#40;&quot;HotelName&quot;&#41;&#41;&#41;;
-             return searchIndexerAsyncClient.createOrUpdateIndexerWithResponse&#40;searchIndexerFromService, true&#41;;
-         &#125;&#41;
-         .subscribe&#40;indexerFromService -&gt;
-             System.out.printf&#40;&quot;The status code of the response is %s.%nThe indexer name is %s. &quot;
-                 + &quot;The target field name of indexer is %s.%n&quot;, indexerFromService.getStatusCode&#40;&#41;,
-             indexerFromService.getValue&#40;&#41;.getName&#40;&#41;,
-             indexerFromService.getValue&#40;&#41;.getFieldMappings&#40;&#41;.get&#40;0&#41;.getTargetFieldName&#40;&#41;&#41;&#41;;
-     </pre>
+- uid: "com.azure.search.documents.indexes.SearchIndexerAsyncClient.createOrUpdateIndexerWithResponse(com.azure.search.documents.indexes.models.SearchIndexer,boolean)"
+  fullName: "com.azure.search.documents.indexes.SearchIndexerAsyncClient.createOrUpdateIndexerWithResponse(SearchIndexer indexer, boolean onlyIfUnchanged)"
+  name: "createOrUpdateIndexerWithResponse(SearchIndexer indexer, boolean onlyIfUnchanged)"
+  nameWithType: "SearchIndexerAsyncClient.createOrUpdateIndexerWithResponse(SearchIndexer indexer, boolean onlyIfUnchanged)"
+  summary: "Creates a new Azure Cognitive Search indexer or updates an indexer if it already exists.\n\n <p><strong>Code Sample</strong></p>\n\n <p> Create or update search indexer named \"searchIndexer\". </p>\n\n <pre>\n searchIndexerAsyncClient.getIndexer&#40;&quot;searchIndexer&quot;&#41;\n     .flatMap&#40;searchIndexerFromService -&gt; &#123;\n         searchIndexerFromService.setFieldMappings&#40;Collections.singletonList&#40;\n             new FieldMapping&#40;&quot;hotelName&quot;&#41;.setTargetFieldName&#40;&quot;HotelName&quot;&#41;&#41;&#41;;\n         return searchIndexerAsyncClient.createOrUpdateIndexerWithResponse&#40;searchIndexerFromService, true&#41;;\n     &#125;&#41;\n     .subscribe&#40;indexerFromService -&gt;\n         System.out.printf&#40;&quot;The status code of the response is %s.%nThe indexer name is %s. &quot;\n             + &quot;The target field name of indexer is %s.%n&quot;, indexerFromService.getStatusCode&#40;&#41;,\n         indexerFromService.getValue&#40;&#41;.getName&#40;&#41;,\n         indexerFromService.getValue&#40;&#41;.getFieldMappings&#40;&#41;.get&#40;0&#41;.getTargetFieldName&#40;&#41;&#41;&#41;;\n </pre>"
   parameters:
-  - description: the definition of the <xref uid="com.azure.search.documents.indexes.models.SearchIndexer" data-throw-if-not-resolved="false">SearchIndexer</xref> to create or update
-    name: indexer
-    type: <xref href="com.azure.search.documents.indexes.models.SearchIndexer?alt=com.azure.search.documents.indexes.models.SearchIndexer&text=SearchIndexer" data-throw-if-not-resolved="False" />
-  - description: |-
-      <code>true</code> to update if the <code>indexer</code> is the same as the current service value.
-       <code>false</code> to always update existing value.
-    name: onlyIfUnchanged
-    type: <xref href="boolean?alt=boolean&text=boolean" data-throw-if-not-resolved="False" />
-  syntax: public Mono<Response<SearchIndexer>> createOrUpdateIndexerWithResponse(SearchIndexer indexer, boolean onlyIfUnchanged)
+  - description: "the definition of the <xref uid=\"com.azure.search.documents.indexes.models.SearchIndexer\" data-throw-if-not-resolved=\"false\">SearchIndexer</xref> to create or update"
+    name: "indexer"
+    type: "<xref href=\"com.azure.search.documents.indexes.models.SearchIndexer?alt=com.azure.search.documents.indexes.models.SearchIndexer&text=SearchIndexer\" data-throw-if-not-resolved=\"False\" />"
+  - description: "<code>true</code> to update if the <code>indexer</code> is the same as the current service value.\n <code>false</code> to always update existing value."
+    name: "onlyIfUnchanged"
+    type: "<xref href=\"boolean?alt=boolean&text=boolean\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public Mono<Response<SearchIndexer>> createOrUpdateIndexerWithResponse(SearchIndexer indexer, boolean onlyIfUnchanged)"
   returns:
-    description: a response containing the created Indexer.
-    type: <xref href="reactor.core.publisher.Mono?alt=reactor.core.publisher.Mono&text=Mono" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.core.http.rest.Response?alt=com.azure.core.http.rest.Response&text=Response" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.search.documents.indexes.models.SearchIndexer?alt=com.azure.search.documents.indexes.models.SearchIndexer&text=SearchIndexer" data-throw-if-not-resolved="False" />&gt;&gt;
-type: method
+    description: "a response containing the created Indexer."
+    type: "<xref href=\"reactor.core.publisher.Mono?alt=reactor.core.publisher.Mono&text=Mono\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.core.http.rest.Response?alt=com.azure.core.http.rest.Response&text=Response\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.search.documents.indexes.models.SearchIndexer?alt=com.azure.search.documents.indexes.models.SearchIndexer&text=SearchIndexer\" data-throw-if-not-resolved=\"False\" />&gt;&gt;"
+type: "method"
 metadata: {}
-package: com.azure.search.documents.indexes
+package: "com.azure.search.documents.indexes"
 artifact: com.azure:azure-search-documents:11.0.0

@@ -1,35 +1,26 @@
 ### YamlMime:JavaMember
-uid: com.azure.storage.file.datalake.DataLakeServiceAsyncClient.getUserDelegationKey*
-fullName: com.azure.storage.file.datalake.DataLakeServiceAsyncClient.getUserDelegationKey
-name: getUserDelegationKey
-nameWithType: DataLakeServiceAsyncClient.getUserDelegationKey
+uid: "com.azure.storage.file.datalake.DataLakeServiceAsyncClient.getUserDelegationKey*"
+fullName: "com.azure.storage.file.datalake.DataLakeServiceAsyncClient.getUserDelegationKey"
+name: "getUserDelegationKey"
+nameWithType: "DataLakeServiceAsyncClient.getUserDelegationKey"
 members:
-- uid: com.azure.storage.file.datalake.DataLakeServiceAsyncClient.getUserDelegationKey(java.time.OffsetDateTime,java.time.OffsetDateTime)
-  fullName: com.azure.storage.file.datalake.DataLakeServiceAsyncClient.getUserDelegationKey(OffsetDateTime start, OffsetDateTime expiry)
-  name: getUserDelegationKey(OffsetDateTime start, OffsetDateTime expiry)
-  nameWithType: DataLakeServiceAsyncClient.getUserDelegationKey(OffsetDateTime start, OffsetDateTime expiry)
-  summary: |-
-    Gets a user delegation key for use with this account's data lake storage. Note: This method call is only valid
-     when using <xref uid="TokenCredential" data-throw-if-not-resolved="false">TokenCredential</xref> in this object's <xref uid="HttpPipeline" data-throw-if-not-resolved="false">HttpPipeline</xref>.
-
-     <p><strong>Code Samples</strong></p>
-
-     <pre>
-     client.getUserDelegationKey&#40;delegationKeyStartTime, delegationKeyExpiryTime&#41;.subscribe&#40;response -&gt;
-         System.out.printf&#40;&quot;User delegation key: %s%n&quot;, response.getValue&#40;&#41;&#41;&#41;;
-     </pre>
+- uid: "com.azure.storage.file.datalake.DataLakeServiceAsyncClient.getUserDelegationKey(java.time.OffsetDateTime,java.time.OffsetDateTime)"
+  fullName: "com.azure.storage.file.datalake.DataLakeServiceAsyncClient.getUserDelegationKey(OffsetDateTime start, OffsetDateTime expiry)"
+  name: "getUserDelegationKey(OffsetDateTime start, OffsetDateTime expiry)"
+  nameWithType: "DataLakeServiceAsyncClient.getUserDelegationKey(OffsetDateTime start, OffsetDateTime expiry)"
+  summary: "Gets a user delegation key for use with this account's data lake storage. Note: This method call is only valid\n when using <xref uid=\"TokenCredential\" data-throw-if-not-resolved=\"false\">TokenCredential</xref> in this object's <xref uid=\"HttpPipeline\" data-throw-if-not-resolved=\"false\">HttpPipeline</xref>.\n\n <p><strong>Code Samples</strong></p>\n\n <pre>\n client.getUserDelegationKey&#40;delegationKeyStartTime, delegationKeyExpiryTime&#41;.subscribe&#40;response -&gt;\n     System.out.printf&#40;&quot;User delegation key: %s%n&quot;, response.getValue&#40;&#41;&#41;&#41;;\n </pre>"
   parameters:
-  - description: Start time for the key's validity. Null indicates immediate start.
-    name: start
-    type: <xref href="java.time.OffsetDateTime?alt=java.time.OffsetDateTime&text=OffsetDateTime" data-throw-if-not-resolved="False" />
-  - description: Expiration of the key's validity.
-    name: expiry
-    type: <xref href="java.time.OffsetDateTime?alt=java.time.OffsetDateTime&text=OffsetDateTime" data-throw-if-not-resolved="False" />
-  syntax: public Mono<UserDelegationKey> getUserDelegationKey(OffsetDateTime start, OffsetDateTime expiry)
+  - description: "Start time for the key's validity. Null indicates immediate start."
+    name: "start"
+    type: "<xref href=\"java.time.OffsetDateTime?alt=java.time.OffsetDateTime&text=OffsetDateTime\" data-throw-if-not-resolved=\"False\" />"
+  - description: "Expiration of the key's validity."
+    name: "expiry"
+    type: "<xref href=\"java.time.OffsetDateTime?alt=java.time.OffsetDateTime&text=OffsetDateTime\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public Mono<UserDelegationKey> getUserDelegationKey(OffsetDateTime start, OffsetDateTime expiry)"
   returns:
-    description: A <xref uid="reactor.core.publisher.Mono" data-throw-if-not-resolved="false">Mono</xref> containing the user delegation key.
-    type: <xref href="reactor.core.publisher.Mono?alt=reactor.core.publisher.Mono&text=Mono" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.storage.file.datalake.models.UserDelegationKey?alt=com.azure.storage.file.datalake.models.UserDelegationKey&text=UserDelegationKey" data-throw-if-not-resolved="False" />&gt;
-type: method
+    description: "A <xref uid=\"reactor.core.publisher.Mono\" data-throw-if-not-resolved=\"false\">Mono</xref> containing the user delegation key."
+    type: "<xref href=\"reactor.core.publisher.Mono?alt=reactor.core.publisher.Mono&text=Mono\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.storage.file.datalake.models.UserDelegationKey?alt=com.azure.storage.file.datalake.models.UserDelegationKey&text=UserDelegationKey\" data-throw-if-not-resolved=\"False\" />&gt;"
+type: "method"
 metadata: {}
-package: com.azure.storage.file.datalake
+package: "com.azure.storage.file.datalake"
 artifact: com.azure:azure-storage-file-datalake:12.2.0-beta.1

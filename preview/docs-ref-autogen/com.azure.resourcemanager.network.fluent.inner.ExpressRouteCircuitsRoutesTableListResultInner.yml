@@ -1,33 +1,33 @@
 ### YamlMime:JavaType
-uid: com.azure.resourcemanager.network.fluent.inner.ExpressRouteCircuitsRoutesTableListResultInner
-fullName: com.azure.resourcemanager.network.fluent.inner.ExpressRouteCircuitsRoutesTableListResultInner
-name: ExpressRouteCircuitsRoutesTableListResultInner
-nameWithType: ExpressRouteCircuitsRoutesTableListResultInner
-summary: The ExpressRouteCircuitsRoutesTableListResult model.
+uid: "com.azure.resourcemanager.network.fluent.inner.ExpressRouteCircuitsRoutesTableListResultInner"
+fullName: "com.azure.resourcemanager.network.fluent.inner.ExpressRouteCircuitsRoutesTableListResultInner"
+name: "ExpressRouteCircuitsRoutesTableListResultInner"
+nameWithType: "ExpressRouteCircuitsRoutesTableListResultInner"
+summary: "The ExpressRouteCircuitsRoutesTableListResult model."
 inheritances:
-- <xref href="java.lang.Object" data-throw-if-not-resolved="False" />
+- "<xref href=\"java.lang.Object\" data-throw-if-not-resolved=\"False\" />"
 inheritedMembers:
-- java.lang.Object.clone()
-- java.lang.Object.equals(java.lang.Object)
-- java.lang.Object.finalize()
-- java.lang.Object.getClass()
-- java.lang.Object.hashCode()
-- java.lang.Object.notify()
-- java.lang.Object.notifyAll()
-- java.lang.Object.toString()
-- java.lang.Object.wait()
-- java.lang.Object.wait(long)
-- java.lang.Object.wait(long,int)
-syntax: public final class ExpressRouteCircuitsRoutesTableListResultInner
+- "java.lang.Object.clone()"
+- "java.lang.Object.equals(java.lang.Object)"
+- "java.lang.Object.finalize()"
+- "java.lang.Object.getClass()"
+- "java.lang.Object.hashCode()"
+- "java.lang.Object.notify()"
+- "java.lang.Object.notifyAll()"
+- "java.lang.Object.toString()"
+- "java.lang.Object.wait()"
+- "java.lang.Object.wait(long)"
+- "java.lang.Object.wait(long,int)"
+syntax: "public final class ExpressRouteCircuitsRoutesTableListResultInner"
 constructors:
-- com.azure.resourcemanager.network.fluent.inner.ExpressRouteCircuitsRoutesTableListResultInner.ExpressRouteCircuitsRoutesTableListResultInner()
+- "com.azure.resourcemanager.network.fluent.inner.ExpressRouteCircuitsRoutesTableListResultInner.ExpressRouteCircuitsRoutesTableListResultInner()"
 methods:
-- com.azure.resourcemanager.network.fluent.inner.ExpressRouteCircuitsRoutesTableListResultInner.nextLink()
-- com.azure.resourcemanager.network.fluent.inner.ExpressRouteCircuitsRoutesTableListResultInner.validate()
-- com.azure.resourcemanager.network.fluent.inner.ExpressRouteCircuitsRoutesTableListResultInner.value()
-- com.azure.resourcemanager.network.fluent.inner.ExpressRouteCircuitsRoutesTableListResultInner.withNextLink(java.lang.String)
-- com.azure.resourcemanager.network.fluent.inner.ExpressRouteCircuitsRoutesTableListResultInner.withValue(java.util.List<com.azure.resourcemanager.network.models.ExpressRouteCircuitRoutesTable>)
-type: class
+- "com.azure.resourcemanager.network.fluent.inner.ExpressRouteCircuitsRoutesTableListResultInner.nextLink()"
+- "com.azure.resourcemanager.network.fluent.inner.ExpressRouteCircuitsRoutesTableListResultInner.validate()"
+- "com.azure.resourcemanager.network.fluent.inner.ExpressRouteCircuitsRoutesTableListResultInner.value()"
+- "com.azure.resourcemanager.network.fluent.inner.ExpressRouteCircuitsRoutesTableListResultInner.withNextLink(java.lang.String)"
+- "com.azure.resourcemanager.network.fluent.inner.ExpressRouteCircuitsRoutesTableListResultInner.withValue(java.util.List<com.azure.resourcemanager.network.models.ExpressRouteCircuitRoutesTable>)"
+type: "class"
 metadata: {}
-package: com.azure.resourcemanager.network.fluent.inner
+package: "com.azure.resourcemanager.network.fluent.inner"
 artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.0.0-beta.2

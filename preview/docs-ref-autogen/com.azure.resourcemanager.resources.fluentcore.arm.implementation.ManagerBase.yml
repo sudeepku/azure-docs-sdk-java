@@ -1,36 +1,36 @@
 ### YamlMime:JavaType
-uid: com.azure.resourcemanager.resources.fluentcore.arm.implementation.ManagerBase
-fullName: com.azure.resourcemanager.resources.fluentcore.arm.implementation.ManagerBase
-name: ManagerBase
-nameWithType: ManagerBase
-summary: Base class for Azure resource managers.
+uid: "com.azure.resourcemanager.resources.fluentcore.arm.implementation.ManagerBase"
+fullName: "com.azure.resourcemanager.resources.fluentcore.arm.implementation.ManagerBase"
+name: "ManagerBase"
+nameWithType: "ManagerBase"
+summary: "Base class for Azure resource managers."
 inheritances:
-- <xref href="java.lang.Object" data-throw-if-not-resolved="False" />
+- "<xref href=\"java.lang.Object\" data-throw-if-not-resolved=\"False\" />"
 inheritedMembers:
-- java.lang.Object.clone()
-- java.lang.Object.equals(java.lang.Object)
-- java.lang.Object.finalize()
-- java.lang.Object.getClass()
-- java.lang.Object.hashCode()
-- java.lang.Object.notify()
-- java.lang.Object.notifyAll()
-- java.lang.Object.toString()
-- java.lang.Object.wait()
-- java.lang.Object.wait(long)
-- java.lang.Object.wait(long,int)
-syntax: public abstract class ManagerBase
+- "java.lang.Object.clone()"
+- "java.lang.Object.equals(java.lang.Object)"
+- "java.lang.Object.finalize()"
+- "java.lang.Object.getClass()"
+- "java.lang.Object.hashCode()"
+- "java.lang.Object.notify()"
+- "java.lang.Object.notifyAll()"
+- "java.lang.Object.toString()"
+- "java.lang.Object.wait()"
+- "java.lang.Object.wait(long)"
+- "java.lang.Object.wait(long,int)"
+syntax: "public abstract class ManagerBase"
 constructors:
-- com.azure.resourcemanager.resources.fluentcore.arm.implementation.ManagerBase.ManagerBase(com.azure.core.http.HttpPipeline,com.azure.resourcemanager.resources.fluentcore.profile.AzureProfile,com.azure.resourcemanager.resources.fluentcore.utils.SdkContext)
+- "com.azure.resourcemanager.resources.fluentcore.arm.implementation.ManagerBase.ManagerBase(com.azure.core.http.HttpPipeline,com.azure.resourcemanager.resources.fluentcore.profile.AzureProfile,com.azure.resourcemanager.resources.fluentcore.utils.SdkContext)"
 fields:
-- com.azure.resourcemanager.resources.fluentcore.arm.implementation.ManagerBase.httpPipeline
+- "com.azure.resourcemanager.resources.fluentcore.arm.implementation.ManagerBase.httpPipeline"
 methods:
-- com.azure.resourcemanager.resources.fluentcore.arm.implementation.ManagerBase.environment()
-- com.azure.resourcemanager.resources.fluentcore.arm.implementation.ManagerBase.httpPipeline()
-- com.azure.resourcemanager.resources.fluentcore.arm.implementation.ManagerBase.resourceManager()
-- com.azure.resourcemanager.resources.fluentcore.arm.implementation.ManagerBase.sdkContext()
-- com.azure.resourcemanager.resources.fluentcore.arm.implementation.ManagerBase.subscriptionId()
-- com.azure.resourcemanager.resources.fluentcore.arm.implementation.ManagerBase.withResourceManager(com.azure.resourcemanager.resources.ResourceManager)
-type: class
+- "com.azure.resourcemanager.resources.fluentcore.arm.implementation.ManagerBase.environment()"
+- "com.azure.resourcemanager.resources.fluentcore.arm.implementation.ManagerBase.httpPipeline()"
+- "com.azure.resourcemanager.resources.fluentcore.arm.implementation.ManagerBase.resourceManager()"
+- "com.azure.resourcemanager.resources.fluentcore.arm.implementation.ManagerBase.sdkContext()"
+- "com.azure.resourcemanager.resources.fluentcore.arm.implementation.ManagerBase.subscriptionId()"
+- "com.azure.resourcemanager.resources.fluentcore.arm.implementation.ManagerBase.withResourceManager(com.azure.resourcemanager.resources.ResourceManager)"
+type: "class"
 metadata: {}
-package: com.azure.resourcemanager.resources.fluentcore.arm.implementation
+package: "com.azure.resourcemanager.resources.fluentcore.arm.implementation"
 artifact: com.azure.resourcemanager:azure-resourcemanager-resources:2.0.0-beta.2

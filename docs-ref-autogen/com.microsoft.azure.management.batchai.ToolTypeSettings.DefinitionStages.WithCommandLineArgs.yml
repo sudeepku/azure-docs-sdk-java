@@ -1,15 +1,15 @@
 ### YamlMime:JavaType
-uid: com.microsoft.azure.management.batchai.ToolTypeSettings.DefinitionStages.WithCommandLineArgs
-fullName: com.microsoft.azure.management.batchai.ToolTypeSettings.DefinitionStages.WithCommandLineArgs<ReturnT>
-name: ToolTypeSettings.DefinitionStages.WithCommandLineArgs<ReturnT>
-nameWithType: ToolTypeSettings.DefinitionStages.WithCommandLineArgs<ReturnT>
-summary: Specifies command line arguments for the job.
-syntax: public static interface ToolTypeSettings.DefinitionStages.WithCommandLineArgs<ReturnT>
+uid: "com.microsoft.azure.management.batchai.ToolTypeSettings.DefinitionStages.WithCommandLineArgs"
+fullName: "com.microsoft.azure.management.batchai.ToolTypeSettings.DefinitionStages.WithCommandLineArgs<ReturnT>"
+name: "ToolTypeSettings.DefinitionStages.WithCommandLineArgs<ReturnT>"
+nameWithType: "ToolTypeSettings.DefinitionStages.WithCommandLineArgs<ReturnT>"
+summary: "Specifies command line arguments for the job."
+syntax: "public static interface ToolTypeSettings.DefinitionStages.WithCommandLineArgs<ReturnT>"
 methods:
-- com.microsoft.azure.management.batchai.ToolTypeSettings.DefinitionStages.WithCommandLineArgs.withCommandLineArgs(java.lang.String)
-type: interface
+- "com.microsoft.azure.management.batchai.ToolTypeSettings.DefinitionStages.WithCommandLineArgs.withCommandLineArgs(java.lang.String)"
+type: "interface"
 typeParameters:
-- name: ReturnT
+- name: "ReturnT"
 metadata: {}
-package: com.microsoft.azure.management.batchai
-artifact: com.microsoft.azure:azure-mgmt-batchai:1.36.1
+package: "com.microsoft.azure.management.batchai"
+artifact: com.microsoft.azure:azure-mgmt-batchai:1.36.2

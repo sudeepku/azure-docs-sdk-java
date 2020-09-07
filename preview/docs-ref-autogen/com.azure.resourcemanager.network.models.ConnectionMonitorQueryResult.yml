@@ -1,16 +1,16 @@
 ### YamlMime:JavaType
-uid: com.azure.resourcemanager.network.models.ConnectionMonitorQueryResult
-fullName: com.azure.resourcemanager.network.models.ConnectionMonitorQueryResult
-name: ConnectionMonitorQueryResult
-nameWithType: ConnectionMonitorQueryResult
-summary: List of connection states snaphots.
-syntax: public interface ConnectionMonitorQueryResult extends HasInner<ConnectionMonitorQueryResultInner>
+uid: "com.azure.resourcemanager.network.models.ConnectionMonitorQueryResult"
+fullName: "com.azure.resourcemanager.network.models.ConnectionMonitorQueryResult"
+name: "ConnectionMonitorQueryResult"
+nameWithType: "ConnectionMonitorQueryResult"
+summary: "List of connection states snaphots."
+syntax: "public interface ConnectionMonitorQueryResult extends HasInner<ConnectionMonitorQueryResultInner>"
 methods:
-- com.azure.resourcemanager.network.models.ConnectionMonitorQueryResult.sourceStatus()
-- com.azure.resourcemanager.network.models.ConnectionMonitorQueryResult.states()
-type: interface
+- "com.azure.resourcemanager.network.models.ConnectionMonitorQueryResult.sourceStatus()"
+- "com.azure.resourcemanager.network.models.ConnectionMonitorQueryResult.states()"
+type: "interface"
 implements:
-- <xref href="com.azure.resourcemanager.resources.fluentcore.model.HasInner?alt=com.azure.resourcemanager.resources.fluentcore.model.HasInner&text=HasInner" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.resourcemanager.network.fluent.inner.ConnectionMonitorQueryResultInner?alt=com.azure.resourcemanager.network.fluent.inner.ConnectionMonitorQueryResultInner&text=ConnectionMonitorQueryResultInner" data-throw-if-not-resolved="False" />&gt;
+- "<xref href=\"com.azure.resourcemanager.resources.fluentcore.model.HasInner?alt=com.azure.resourcemanager.resources.fluentcore.model.HasInner&text=HasInner\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.network.fluent.inner.ConnectionMonitorQueryResultInner?alt=com.azure.resourcemanager.network.fluent.inner.ConnectionMonitorQueryResultInner&text=ConnectionMonitorQueryResultInner\" data-throw-if-not-resolved=\"False\" />&gt;"
 metadata: {}
-package: com.azure.resourcemanager.network.models
+package: "com.azure.resourcemanager.network.models"
 artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.0.0-beta.2

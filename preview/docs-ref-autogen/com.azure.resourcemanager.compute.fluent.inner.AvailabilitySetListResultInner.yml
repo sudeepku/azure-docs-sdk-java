@@ -1,33 +1,33 @@
 ### YamlMime:JavaType
-uid: com.azure.resourcemanager.compute.fluent.inner.AvailabilitySetListResultInner
-fullName: com.azure.resourcemanager.compute.fluent.inner.AvailabilitySetListResultInner
-name: AvailabilitySetListResultInner
-nameWithType: AvailabilitySetListResultInner
-summary: The AvailabilitySetListResult model.
+uid: "com.azure.resourcemanager.compute.fluent.inner.AvailabilitySetListResultInner"
+fullName: "com.azure.resourcemanager.compute.fluent.inner.AvailabilitySetListResultInner"
+name: "AvailabilitySetListResultInner"
+nameWithType: "AvailabilitySetListResultInner"
+summary: "The AvailabilitySetListResult model."
 inheritances:
-- <xref href="java.lang.Object" data-throw-if-not-resolved="False" />
+- "<xref href=\"java.lang.Object\" data-throw-if-not-resolved=\"False\" />"
 inheritedMembers:
-- java.lang.Object.clone()
-- java.lang.Object.equals(java.lang.Object)
-- java.lang.Object.finalize()
-- java.lang.Object.getClass()
-- java.lang.Object.hashCode()
-- java.lang.Object.notify()
-- java.lang.Object.notifyAll()
-- java.lang.Object.toString()
-- java.lang.Object.wait()
-- java.lang.Object.wait(long)
-- java.lang.Object.wait(long,int)
-syntax: public final class AvailabilitySetListResultInner
+- "java.lang.Object.clone()"
+- "java.lang.Object.equals(java.lang.Object)"
+- "java.lang.Object.finalize()"
+- "java.lang.Object.getClass()"
+- "java.lang.Object.hashCode()"
+- "java.lang.Object.notify()"
+- "java.lang.Object.notifyAll()"
+- "java.lang.Object.toString()"
+- "java.lang.Object.wait()"
+- "java.lang.Object.wait(long)"
+- "java.lang.Object.wait(long,int)"
+syntax: "public final class AvailabilitySetListResultInner"
 constructors:
-- com.azure.resourcemanager.compute.fluent.inner.AvailabilitySetListResultInner.AvailabilitySetListResultInner()
+- "com.azure.resourcemanager.compute.fluent.inner.AvailabilitySetListResultInner.AvailabilitySetListResultInner()"
 methods:
-- com.azure.resourcemanager.compute.fluent.inner.AvailabilitySetListResultInner.nextLink()
-- com.azure.resourcemanager.compute.fluent.inner.AvailabilitySetListResultInner.validate()
-- com.azure.resourcemanager.compute.fluent.inner.AvailabilitySetListResultInner.value()
-- com.azure.resourcemanager.compute.fluent.inner.AvailabilitySetListResultInner.withNextLink(java.lang.String)
-- com.azure.resourcemanager.compute.fluent.inner.AvailabilitySetListResultInner.withValue(java.util.List<com.azure.resourcemanager.compute.fluent.inner.AvailabilitySetInner>)
-type: class
+- "com.azure.resourcemanager.compute.fluent.inner.AvailabilitySetListResultInner.nextLink()"
+- "com.azure.resourcemanager.compute.fluent.inner.AvailabilitySetListResultInner.validate()"
+- "com.azure.resourcemanager.compute.fluent.inner.AvailabilitySetListResultInner.value()"
+- "com.azure.resourcemanager.compute.fluent.inner.AvailabilitySetListResultInner.withNextLink(java.lang.String)"
+- "com.azure.resourcemanager.compute.fluent.inner.AvailabilitySetListResultInner.withValue(java.util.List<com.azure.resourcemanager.compute.fluent.inner.AvailabilitySetInner>)"
+type: "class"
 metadata: {}
-package: com.azure.resourcemanager.compute.fluent.inner
+package: "com.azure.resourcemanager.compute.fluent.inner"
 artifact: com.azure.resourcemanager:azure-resourcemanager-compute:2.0.0-beta.2

@@ -1,48 +1,48 @@
 ### YamlMime:JavaType
-uid: com.azure.resourcemanager.sql.fluent.ManagedDatabaseSecurityAlertPoliciesClient
-fullName: com.azure.resourcemanager.sql.fluent.ManagedDatabaseSecurityAlertPoliciesClient
-name: ManagedDatabaseSecurityAlertPoliciesClient
-nameWithType: ManagedDatabaseSecurityAlertPoliciesClient
-summary: An instance of this class provides access to all the operations defined in ManagedDatabaseSecurityAlertPolicies.
+uid: "com.azure.resourcemanager.sql.fluent.ManagedDatabaseSecurityAlertPoliciesClient"
+fullName: "com.azure.resourcemanager.sql.fluent.ManagedDatabaseSecurityAlertPoliciesClient"
+name: "ManagedDatabaseSecurityAlertPoliciesClient"
+nameWithType: "ManagedDatabaseSecurityAlertPoliciesClient"
+summary: "An instance of this class provides access to all the operations defined in ManagedDatabaseSecurityAlertPolicies."
 inheritances:
-- <xref href="java.lang.Object" data-throw-if-not-resolved="False" />
+- "<xref href=\"java.lang.Object\" data-throw-if-not-resolved=\"False\" />"
 inheritedMembers:
-- java.lang.Object.clone()
-- java.lang.Object.equals(java.lang.Object)
-- java.lang.Object.finalize()
-- java.lang.Object.getClass()
-- java.lang.Object.hashCode()
-- java.lang.Object.notify()
-- java.lang.Object.notifyAll()
-- java.lang.Object.toString()
-- java.lang.Object.wait()
-- java.lang.Object.wait(long)
-- java.lang.Object.wait(long,int)
-syntax: public final class ManagedDatabaseSecurityAlertPoliciesClient
+- "java.lang.Object.clone()"
+- "java.lang.Object.equals(java.lang.Object)"
+- "java.lang.Object.finalize()"
+- "java.lang.Object.getClass()"
+- "java.lang.Object.hashCode()"
+- "java.lang.Object.notify()"
+- "java.lang.Object.notifyAll()"
+- "java.lang.Object.toString()"
+- "java.lang.Object.wait()"
+- "java.lang.Object.wait(long)"
+- "java.lang.Object.wait(long,int)"
+syntax: "public final class ManagedDatabaseSecurityAlertPoliciesClient"
 constructors:
-- com.azure.resourcemanager.sql.fluent.ManagedDatabaseSecurityAlertPoliciesClient.ManagedDatabaseSecurityAlertPoliciesClient(com.azure.resourcemanager.sql.SqlManagementClient)
+- "com.azure.resourcemanager.sql.fluent.ManagedDatabaseSecurityAlertPoliciesClient.ManagedDatabaseSecurityAlertPoliciesClient(com.azure.resourcemanager.sql.SqlManagementClient)"
 methods:
-- com.azure.resourcemanager.sql.fluent.ManagedDatabaseSecurityAlertPoliciesClient.createOrUpdate(java.lang.String,java.lang.String,java.lang.String,com.azure.resourcemanager.sql.fluent.inner.ManagedDatabaseSecurityAlertPolicyInner)
-- com.azure.resourcemanager.sql.fluent.ManagedDatabaseSecurityAlertPoliciesClient.createOrUpdate(java.lang.String,java.lang.String,java.lang.String,com.azure.resourcemanager.sql.fluent.inner.ManagedDatabaseSecurityAlertPolicyInner,com.azure.core.util.Context)
-- com.azure.resourcemanager.sql.fluent.ManagedDatabaseSecurityAlertPoliciesClient.createOrUpdateAsync(java.lang.String,java.lang.String,java.lang.String,com.azure.resourcemanager.sql.fluent.inner.ManagedDatabaseSecurityAlertPolicyInner)
-- com.azure.resourcemanager.sql.fluent.ManagedDatabaseSecurityAlertPoliciesClient.createOrUpdateAsync(java.lang.String,java.lang.String,java.lang.String,com.azure.resourcemanager.sql.fluent.inner.ManagedDatabaseSecurityAlertPolicyInner,com.azure.core.util.Context)
-- com.azure.resourcemanager.sql.fluent.ManagedDatabaseSecurityAlertPoliciesClient.createOrUpdateWithResponseAsync(java.lang.String,java.lang.String,java.lang.String,com.azure.resourcemanager.sql.fluent.inner.ManagedDatabaseSecurityAlertPolicyInner)
-- com.azure.resourcemanager.sql.fluent.ManagedDatabaseSecurityAlertPoliciesClient.createOrUpdateWithResponseAsync(java.lang.String,java.lang.String,java.lang.String,com.azure.resourcemanager.sql.fluent.inner.ManagedDatabaseSecurityAlertPolicyInner,com.azure.core.util.Context)
-- com.azure.resourcemanager.sql.fluent.ManagedDatabaseSecurityAlertPoliciesClient.get(java.lang.String,java.lang.String,java.lang.String)
-- com.azure.resourcemanager.sql.fluent.ManagedDatabaseSecurityAlertPoliciesClient.get(java.lang.String,java.lang.String,java.lang.String,com.azure.core.util.Context)
-- com.azure.resourcemanager.sql.fluent.ManagedDatabaseSecurityAlertPoliciesClient.getAsync(java.lang.String,java.lang.String,java.lang.String)
-- com.azure.resourcemanager.sql.fluent.ManagedDatabaseSecurityAlertPoliciesClient.getAsync(java.lang.String,java.lang.String,java.lang.String,com.azure.core.util.Context)
-- com.azure.resourcemanager.sql.fluent.ManagedDatabaseSecurityAlertPoliciesClient.getWithResponseAsync(java.lang.String,java.lang.String,java.lang.String)
-- com.azure.resourcemanager.sql.fluent.ManagedDatabaseSecurityAlertPoliciesClient.getWithResponseAsync(java.lang.String,java.lang.String,java.lang.String,com.azure.core.util.Context)
-- com.azure.resourcemanager.sql.fluent.ManagedDatabaseSecurityAlertPoliciesClient.listByDatabase(java.lang.String,java.lang.String,java.lang.String)
-- com.azure.resourcemanager.sql.fluent.ManagedDatabaseSecurityAlertPoliciesClient.listByDatabase(java.lang.String,java.lang.String,java.lang.String,com.azure.core.util.Context)
-- com.azure.resourcemanager.sql.fluent.ManagedDatabaseSecurityAlertPoliciesClient.listByDatabaseAsync(java.lang.String,java.lang.String,java.lang.String)
-- com.azure.resourcemanager.sql.fluent.ManagedDatabaseSecurityAlertPoliciesClient.listByDatabaseAsync(java.lang.String,java.lang.String,java.lang.String,com.azure.core.util.Context)
-- com.azure.resourcemanager.sql.fluent.ManagedDatabaseSecurityAlertPoliciesClient.listByDatabaseNextSinglePageAsync(java.lang.String)
-- com.azure.resourcemanager.sql.fluent.ManagedDatabaseSecurityAlertPoliciesClient.listByDatabaseNextSinglePageAsync(java.lang.String,com.azure.core.util.Context)
-- com.azure.resourcemanager.sql.fluent.ManagedDatabaseSecurityAlertPoliciesClient.listByDatabaseSinglePageAsync(java.lang.String,java.lang.String,java.lang.String)
-- com.azure.resourcemanager.sql.fluent.ManagedDatabaseSecurityAlertPoliciesClient.listByDatabaseSinglePageAsync(java.lang.String,java.lang.String,java.lang.String,com.azure.core.util.Context)
-type: class
+- "com.azure.resourcemanager.sql.fluent.ManagedDatabaseSecurityAlertPoliciesClient.createOrUpdate(java.lang.String,java.lang.String,java.lang.String,com.azure.resourcemanager.sql.fluent.inner.ManagedDatabaseSecurityAlertPolicyInner)"
+- "com.azure.resourcemanager.sql.fluent.ManagedDatabaseSecurityAlertPoliciesClient.createOrUpdate(java.lang.String,java.lang.String,java.lang.String,com.azure.resourcemanager.sql.fluent.inner.ManagedDatabaseSecurityAlertPolicyInner,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.sql.fluent.ManagedDatabaseSecurityAlertPoliciesClient.createOrUpdateAsync(java.lang.String,java.lang.String,java.lang.String,com.azure.resourcemanager.sql.fluent.inner.ManagedDatabaseSecurityAlertPolicyInner)"
+- "com.azure.resourcemanager.sql.fluent.ManagedDatabaseSecurityAlertPoliciesClient.createOrUpdateAsync(java.lang.String,java.lang.String,java.lang.String,com.azure.resourcemanager.sql.fluent.inner.ManagedDatabaseSecurityAlertPolicyInner,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.sql.fluent.ManagedDatabaseSecurityAlertPoliciesClient.createOrUpdateWithResponseAsync(java.lang.String,java.lang.String,java.lang.String,com.azure.resourcemanager.sql.fluent.inner.ManagedDatabaseSecurityAlertPolicyInner)"
+- "com.azure.resourcemanager.sql.fluent.ManagedDatabaseSecurityAlertPoliciesClient.createOrUpdateWithResponseAsync(java.lang.String,java.lang.String,java.lang.String,com.azure.resourcemanager.sql.fluent.inner.ManagedDatabaseSecurityAlertPolicyInner,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.sql.fluent.ManagedDatabaseSecurityAlertPoliciesClient.get(java.lang.String,java.lang.String,java.lang.String)"
+- "com.azure.resourcemanager.sql.fluent.ManagedDatabaseSecurityAlertPoliciesClient.get(java.lang.String,java.lang.String,java.lang.String,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.sql.fluent.ManagedDatabaseSecurityAlertPoliciesClient.getAsync(java.lang.String,java.lang.String,java.lang.String)"
+- "com.azure.resourcemanager.sql.fluent.ManagedDatabaseSecurityAlertPoliciesClient.getAsync(java.lang.String,java.lang.String,java.lang.String,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.sql.fluent.ManagedDatabaseSecurityAlertPoliciesClient.getWithResponseAsync(java.lang.String,java.lang.String,java.lang.String)"
+- "com.azure.resourcemanager.sql.fluent.ManagedDatabaseSecurityAlertPoliciesClient.getWithResponseAsync(java.lang.String,java.lang.String,java.lang.String,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.sql.fluent.ManagedDatabaseSecurityAlertPoliciesClient.listByDatabase(java.lang.String,java.lang.String,java.lang.String)"
+- "com.azure.resourcemanager.sql.fluent.ManagedDatabaseSecurityAlertPoliciesClient.listByDatabase(java.lang.String,java.lang.String,java.lang.String,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.sql.fluent.ManagedDatabaseSecurityAlertPoliciesClient.listByDatabaseAsync(java.lang.String,java.lang.String,java.lang.String)"
+- "com.azure.resourcemanager.sql.fluent.ManagedDatabaseSecurityAlertPoliciesClient.listByDatabaseAsync(java.lang.String,java.lang.String,java.lang.String,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.sql.fluent.ManagedDatabaseSecurityAlertPoliciesClient.listByDatabaseNextSinglePageAsync(java.lang.String)"
+- "com.azure.resourcemanager.sql.fluent.ManagedDatabaseSecurityAlertPoliciesClient.listByDatabaseNextSinglePageAsync(java.lang.String,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.sql.fluent.ManagedDatabaseSecurityAlertPoliciesClient.listByDatabaseSinglePageAsync(java.lang.String,java.lang.String,java.lang.String)"
+- "com.azure.resourcemanager.sql.fluent.ManagedDatabaseSecurityAlertPoliciesClient.listByDatabaseSinglePageAsync(java.lang.String,java.lang.String,java.lang.String,com.azure.core.util.Context)"
+type: "class"
 metadata: {}
-package: com.azure.resourcemanager.sql.fluent
+package: "com.azure.resourcemanager.sql.fluent"
 artifact: com.azure.resourcemanager:azure-resourcemanager-sql:2.0.0-beta.2

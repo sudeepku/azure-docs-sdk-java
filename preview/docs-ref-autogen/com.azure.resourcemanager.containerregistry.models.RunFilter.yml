@@ -1,45 +1,45 @@
 ### YamlMime:JavaType
-uid: com.azure.resourcemanager.containerregistry.models.RunFilter
-fullName: com.azure.resourcemanager.containerregistry.models.RunFilter
-name: RunFilter
-nameWithType: RunFilter
-summary: The RunFilter model.
+uid: "com.azure.resourcemanager.containerregistry.models.RunFilter"
+fullName: "com.azure.resourcemanager.containerregistry.models.RunFilter"
+name: "RunFilter"
+nameWithType: "RunFilter"
+summary: "The RunFilter model."
 inheritances:
-- <xref href="java.lang.Object" data-throw-if-not-resolved="False" />
+- "<xref href=\"java.lang.Object\" data-throw-if-not-resolved=\"False\" />"
 inheritedMembers:
-- java.lang.Object.clone()
-- java.lang.Object.equals(java.lang.Object)
-- java.lang.Object.finalize()
-- java.lang.Object.getClass()
-- java.lang.Object.hashCode()
-- java.lang.Object.notify()
-- java.lang.Object.notifyAll()
-- java.lang.Object.toString()
-- java.lang.Object.wait()
-- java.lang.Object.wait(long)
-- java.lang.Object.wait(long,int)
-syntax: public final class RunFilter
+- "java.lang.Object.clone()"
+- "java.lang.Object.equals(java.lang.Object)"
+- "java.lang.Object.finalize()"
+- "java.lang.Object.getClass()"
+- "java.lang.Object.hashCode()"
+- "java.lang.Object.notify()"
+- "java.lang.Object.notifyAll()"
+- "java.lang.Object.toString()"
+- "java.lang.Object.wait()"
+- "java.lang.Object.wait(long)"
+- "java.lang.Object.wait(long,int)"
+syntax: "public final class RunFilter"
 constructors:
-- com.azure.resourcemanager.containerregistry.models.RunFilter.RunFilter()
+- "com.azure.resourcemanager.containerregistry.models.RunFilter.RunFilter()"
 methods:
-- com.azure.resourcemanager.containerregistry.models.RunFilter.createTime()
-- com.azure.resourcemanager.containerregistry.models.RunFilter.finishTime()
-- com.azure.resourcemanager.containerregistry.models.RunFilter.isArchiveEnabled()
-- com.azure.resourcemanager.containerregistry.models.RunFilter.outputImageManifests()
-- com.azure.resourcemanager.containerregistry.models.RunFilter.runId()
-- com.azure.resourcemanager.containerregistry.models.RunFilter.runType()
-- com.azure.resourcemanager.containerregistry.models.RunFilter.status()
-- com.azure.resourcemanager.containerregistry.models.RunFilter.taskName()
-- com.azure.resourcemanager.containerregistry.models.RunFilter.validate()
-- com.azure.resourcemanager.containerregistry.models.RunFilter.withCreateTime(java.time.OffsetDateTime)
-- com.azure.resourcemanager.containerregistry.models.RunFilter.withFinishTime(java.time.OffsetDateTime)
-- com.azure.resourcemanager.containerregistry.models.RunFilter.withIsArchiveEnabled(java.lang.Boolean)
-- com.azure.resourcemanager.containerregistry.models.RunFilter.withOutputImageManifests(java.lang.String)
-- com.azure.resourcemanager.containerregistry.models.RunFilter.withRunId(java.lang.String)
-- com.azure.resourcemanager.containerregistry.models.RunFilter.withRunType(com.azure.resourcemanager.containerregistry.models.RunType)
-- com.azure.resourcemanager.containerregistry.models.RunFilter.withStatus(com.azure.resourcemanager.containerregistry.models.RunStatus)
-- com.azure.resourcemanager.containerregistry.models.RunFilter.withTaskName(java.lang.String)
-type: class
+- "com.azure.resourcemanager.containerregistry.models.RunFilter.createTime()"
+- "com.azure.resourcemanager.containerregistry.models.RunFilter.finishTime()"
+- "com.azure.resourcemanager.containerregistry.models.RunFilter.isArchiveEnabled()"
+- "com.azure.resourcemanager.containerregistry.models.RunFilter.outputImageManifests()"
+- "com.azure.resourcemanager.containerregistry.models.RunFilter.runId()"
+- "com.azure.resourcemanager.containerregistry.models.RunFilter.runType()"
+- "com.azure.resourcemanager.containerregistry.models.RunFilter.status()"
+- "com.azure.resourcemanager.containerregistry.models.RunFilter.taskName()"
+- "com.azure.resourcemanager.containerregistry.models.RunFilter.validate()"
+- "com.azure.resourcemanager.containerregistry.models.RunFilter.withCreateTime(java.time.OffsetDateTime)"
+- "com.azure.resourcemanager.containerregistry.models.RunFilter.withFinishTime(java.time.OffsetDateTime)"
+- "com.azure.resourcemanager.containerregistry.models.RunFilter.withIsArchiveEnabled(java.lang.Boolean)"
+- "com.azure.resourcemanager.containerregistry.models.RunFilter.withOutputImageManifests(java.lang.String)"
+- "com.azure.resourcemanager.containerregistry.models.RunFilter.withRunId(java.lang.String)"
+- "com.azure.resourcemanager.containerregistry.models.RunFilter.withRunType(com.azure.resourcemanager.containerregistry.models.RunType)"
+- "com.azure.resourcemanager.containerregistry.models.RunFilter.withStatus(com.azure.resourcemanager.containerregistry.models.RunStatus)"
+- "com.azure.resourcemanager.containerregistry.models.RunFilter.withTaskName(java.lang.String)"
+type: "class"
 metadata: {}
-package: com.azure.resourcemanager.containerregistry.models
+package: "com.azure.resourcemanager.containerregistry.models"
 artifact: com.azure.resourcemanager:azure-resourcemanager-containerregistry:2.0.0-beta.2

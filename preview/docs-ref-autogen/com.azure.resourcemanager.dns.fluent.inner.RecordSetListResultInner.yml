@@ -1,32 +1,32 @@
 ### YamlMime:JavaType
-uid: com.azure.resourcemanager.dns.fluent.inner.RecordSetListResultInner
-fullName: com.azure.resourcemanager.dns.fluent.inner.RecordSetListResultInner
-name: RecordSetListResultInner
-nameWithType: RecordSetListResultInner
-summary: The RecordSetListResult model.
+uid: "com.azure.resourcemanager.dns.fluent.inner.RecordSetListResultInner"
+fullName: "com.azure.resourcemanager.dns.fluent.inner.RecordSetListResultInner"
+name: "RecordSetListResultInner"
+nameWithType: "RecordSetListResultInner"
+summary: "The RecordSetListResult model."
 inheritances:
-- <xref href="java.lang.Object" data-throw-if-not-resolved="False" />
+- "<xref href=\"java.lang.Object\" data-throw-if-not-resolved=\"False\" />"
 inheritedMembers:
-- java.lang.Object.clone()
-- java.lang.Object.equals(java.lang.Object)
-- java.lang.Object.finalize()
-- java.lang.Object.getClass()
-- java.lang.Object.hashCode()
-- java.lang.Object.notify()
-- java.lang.Object.notifyAll()
-- java.lang.Object.toString()
-- java.lang.Object.wait()
-- java.lang.Object.wait(long)
-- java.lang.Object.wait(long,int)
-syntax: public final class RecordSetListResultInner
+- "java.lang.Object.clone()"
+- "java.lang.Object.equals(java.lang.Object)"
+- "java.lang.Object.finalize()"
+- "java.lang.Object.getClass()"
+- "java.lang.Object.hashCode()"
+- "java.lang.Object.notify()"
+- "java.lang.Object.notifyAll()"
+- "java.lang.Object.toString()"
+- "java.lang.Object.wait()"
+- "java.lang.Object.wait(long)"
+- "java.lang.Object.wait(long,int)"
+syntax: "public final class RecordSetListResultInner"
 constructors:
-- com.azure.resourcemanager.dns.fluent.inner.RecordSetListResultInner.RecordSetListResultInner()
+- "com.azure.resourcemanager.dns.fluent.inner.RecordSetListResultInner.RecordSetListResultInner()"
 methods:
-- com.azure.resourcemanager.dns.fluent.inner.RecordSetListResultInner.nextLink()
-- com.azure.resourcemanager.dns.fluent.inner.RecordSetListResultInner.validate()
-- com.azure.resourcemanager.dns.fluent.inner.RecordSetListResultInner.value()
-- com.azure.resourcemanager.dns.fluent.inner.RecordSetListResultInner.withValue(java.util.List<com.azure.resourcemanager.dns.fluent.inner.RecordSetInner>)
-type: class
+- "com.azure.resourcemanager.dns.fluent.inner.RecordSetListResultInner.nextLink()"
+- "com.azure.resourcemanager.dns.fluent.inner.RecordSetListResultInner.validate()"
+- "com.azure.resourcemanager.dns.fluent.inner.RecordSetListResultInner.value()"
+- "com.azure.resourcemanager.dns.fluent.inner.RecordSetListResultInner.withValue(java.util.List<com.azure.resourcemanager.dns.fluent.inner.RecordSetInner>)"
+type: "class"
 metadata: {}
-package: com.azure.resourcemanager.dns.fluent.inner
+package: "com.azure.resourcemanager.dns.fluent.inner"
 artifact: com.azure.resourcemanager:azure-resourcemanager-dns:2.0.0-beta.2

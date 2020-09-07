@@ -1,30 +1,23 @@
 ### YamlMime:JavaMember
-uid: com.azure.cosmos.CosmosAsyncConflict.delete*
-fullName: com.azure.cosmos.CosmosAsyncConflict.delete
-name: delete
-nameWithType: CosmosAsyncConflict.delete
+uid: "com.azure.cosmos.CosmosAsyncConflict.delete*"
+fullName: "com.azure.cosmos.CosmosAsyncConflict.delete"
+name: "delete"
+nameWithType: "CosmosAsyncConflict.delete"
 members:
-- uid: com.azure.cosmos.CosmosAsyncConflict.delete(com.azure.cosmos.models.CosmosConflictRequestOptions)
-  fullName: com.azure.cosmos.CosmosAsyncConflict.delete(CosmosConflictRequestOptions options)
-  name: delete(CosmosConflictRequestOptions options)
-  nameWithType: CosmosAsyncConflict.delete(CosmosConflictRequestOptions options)
-  summary: |-
-    Reads all conflicts in a container.
-     <p>
-     After subscription the operation will be performed. The <xref uid="Mono" data-throw-if-not-resolved="false">Mono</xref> will
-     contain one or several feed response pages of the read conflicts. In case of
-     failure the <xref uid="Mono" data-throw-if-not-resolved="false">Mono</xref> will error.
+- uid: "com.azure.cosmos.CosmosAsyncConflict.delete(com.azure.cosmos.models.CosmosConflictRequestOptions)"
+  fullName: "com.azure.cosmos.CosmosAsyncConflict.delete(CosmosConflictRequestOptions options)"
+  name: "delete(CosmosConflictRequestOptions options)"
+  nameWithType: "CosmosAsyncConflict.delete(CosmosConflictRequestOptions options)"
+  summary: "Reads all conflicts in a container.\n <p>\n After subscription the operation will be performed. The <xref uid=\"Mono\" data-throw-if-not-resolved=\"false\">Mono</xref> will\n contain one or several feed response pages of the read conflicts. In case of\n failure the <xref uid=\"Mono\" data-throw-if-not-resolved=\"false\">Mono</xref> will error."
   parameters:
-  - description: the feed options.
-    name: options
-    type: <xref href="com.azure.cosmos.models.CosmosConflictRequestOptions?alt=com.azure.cosmos.models.CosmosConflictRequestOptions&text=CosmosConflictRequestOptions" data-throw-if-not-resolved="False" />
-  syntax: public Mono<CosmosConflictResponse> delete(CosmosConflictRequestOptions options)
+  - description: "the feed options."
+    name: "options"
+    type: "<xref href=\"com.azure.cosmos.models.CosmosConflictRequestOptions?alt=com.azure.cosmos.models.CosmosConflictRequestOptions&text=CosmosConflictRequestOptions\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public Mono<CosmosConflictResponse> delete(CosmosConflictRequestOptions options)"
   returns:
-    description: |-
-      a <xref uid="reactor.core.publisher.Mono" data-throw-if-not-resolved="false">Mono</xref> containing one or several feed response pages of the
-       read conflicts or an error.
-    type: <xref href="reactor.core.publisher.Mono?alt=reactor.core.publisher.Mono&text=Mono" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.cosmos.models.CosmosConflictResponse?alt=com.azure.cosmos.models.CosmosConflictResponse&text=CosmosConflictResponse" data-throw-if-not-resolved="False" />&gt;
-type: method
+    description: "a <xref uid=\"reactor.core.publisher.Mono\" data-throw-if-not-resolved=\"false\">Mono</xref> containing one or several feed response pages of the\n read conflicts or an error."
+    type: "<xref href=\"reactor.core.publisher.Mono?alt=reactor.core.publisher.Mono&text=Mono\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.cosmos.models.CosmosConflictResponse?alt=com.azure.cosmos.models.CosmosConflictResponse&text=CosmosConflictResponse\" data-throw-if-not-resolved=\"False\" />&gt;"
+type: "method"
 metadata: {}
-package: com.azure.cosmos
+package: "com.azure.cosmos"
 artifact: com.azure:azure-cosmos:4.3.2-beta.2

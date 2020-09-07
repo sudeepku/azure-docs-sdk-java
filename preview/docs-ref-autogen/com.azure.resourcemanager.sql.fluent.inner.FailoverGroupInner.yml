@@ -1,46 +1,46 @@
 ### YamlMime:JavaType
-uid: com.azure.resourcemanager.sql.fluent.inner.FailoverGroupInner
-fullName: com.azure.resourcemanager.sql.fluent.inner.FailoverGroupInner
-name: FailoverGroupInner
-nameWithType: FailoverGroupInner
-summary: The FailoverGroup model.
+uid: "com.azure.resourcemanager.sql.fluent.inner.FailoverGroupInner"
+fullName: "com.azure.resourcemanager.sql.fluent.inner.FailoverGroupInner"
+name: "FailoverGroupInner"
+nameWithType: "FailoverGroupInner"
+summary: "The FailoverGroup model."
 inheritances:
-- <xref href="java.lang.Object" data-throw-if-not-resolved="False" />
-- <xref href="com.azure.core.management.ProxyResource" data-throw-if-not-resolved="False" />
+- "<xref href=\"java.lang.Object\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.azure.core.management.ProxyResource\" data-throw-if-not-resolved=\"False\" />"
 inheritedMembers:
-- com.azure.core.management.ProxyResource.id()
-- com.azure.core.management.ProxyResource.name()
-- com.azure.core.management.ProxyResource.type()
-- java.lang.Object.clone()
-- java.lang.Object.equals(java.lang.Object)
-- java.lang.Object.finalize()
-- java.lang.Object.getClass()
-- java.lang.Object.hashCode()
-- java.lang.Object.notify()
-- java.lang.Object.notifyAll()
-- java.lang.Object.toString()
-- java.lang.Object.wait()
-- java.lang.Object.wait(long)
-- java.lang.Object.wait(long,int)
-syntax: public class FailoverGroupInner extends ProxyResource
+- "com.azure.core.management.ProxyResource.id()"
+- "com.azure.core.management.ProxyResource.name()"
+- "com.azure.core.management.ProxyResource.type()"
+- "java.lang.Object.clone()"
+- "java.lang.Object.equals(java.lang.Object)"
+- "java.lang.Object.finalize()"
+- "java.lang.Object.getClass()"
+- "java.lang.Object.hashCode()"
+- "java.lang.Object.notify()"
+- "java.lang.Object.notifyAll()"
+- "java.lang.Object.toString()"
+- "java.lang.Object.wait()"
+- "java.lang.Object.wait(long)"
+- "java.lang.Object.wait(long,int)"
+syntax: "public class FailoverGroupInner extends ProxyResource"
 constructors:
-- com.azure.resourcemanager.sql.fluent.inner.FailoverGroupInner.FailoverGroupInner()
+- "com.azure.resourcemanager.sql.fluent.inner.FailoverGroupInner.FailoverGroupInner()"
 methods:
-- com.azure.resourcemanager.sql.fluent.inner.FailoverGroupInner.databases()
-- com.azure.resourcemanager.sql.fluent.inner.FailoverGroupInner.location()
-- com.azure.resourcemanager.sql.fluent.inner.FailoverGroupInner.partnerServers()
-- com.azure.resourcemanager.sql.fluent.inner.FailoverGroupInner.readOnlyEndpoint()
-- com.azure.resourcemanager.sql.fluent.inner.FailoverGroupInner.readWriteEndpoint()
-- com.azure.resourcemanager.sql.fluent.inner.FailoverGroupInner.replicationRole()
-- com.azure.resourcemanager.sql.fluent.inner.FailoverGroupInner.replicationState()
-- com.azure.resourcemanager.sql.fluent.inner.FailoverGroupInner.tags()
-- com.azure.resourcemanager.sql.fluent.inner.FailoverGroupInner.validate()
-- com.azure.resourcemanager.sql.fluent.inner.FailoverGroupInner.withDatabases(java.util.List<java.lang.String>)
-- com.azure.resourcemanager.sql.fluent.inner.FailoverGroupInner.withPartnerServers(java.util.List<com.azure.resourcemanager.sql.models.PartnerInfo>)
-- com.azure.resourcemanager.sql.fluent.inner.FailoverGroupInner.withReadOnlyEndpoint(com.azure.resourcemanager.sql.models.FailoverGroupReadOnlyEndpoint)
-- com.azure.resourcemanager.sql.fluent.inner.FailoverGroupInner.withReadWriteEndpoint(com.azure.resourcemanager.sql.models.FailoverGroupReadWriteEndpoint)
-- com.azure.resourcemanager.sql.fluent.inner.FailoverGroupInner.withTags(java.util.Map<java.lang.String,java.lang.String>)
-type: class
+- "com.azure.resourcemanager.sql.fluent.inner.FailoverGroupInner.databases()"
+- "com.azure.resourcemanager.sql.fluent.inner.FailoverGroupInner.location()"
+- "com.azure.resourcemanager.sql.fluent.inner.FailoverGroupInner.partnerServers()"
+- "com.azure.resourcemanager.sql.fluent.inner.FailoverGroupInner.readOnlyEndpoint()"
+- "com.azure.resourcemanager.sql.fluent.inner.FailoverGroupInner.readWriteEndpoint()"
+- "com.azure.resourcemanager.sql.fluent.inner.FailoverGroupInner.replicationRole()"
+- "com.azure.resourcemanager.sql.fluent.inner.FailoverGroupInner.replicationState()"
+- "com.azure.resourcemanager.sql.fluent.inner.FailoverGroupInner.tags()"
+- "com.azure.resourcemanager.sql.fluent.inner.FailoverGroupInner.validate()"
+- "com.azure.resourcemanager.sql.fluent.inner.FailoverGroupInner.withDatabases(java.util.List<java.lang.String>)"
+- "com.azure.resourcemanager.sql.fluent.inner.FailoverGroupInner.withPartnerServers(java.util.List<com.azure.resourcemanager.sql.models.PartnerInfo>)"
+- "com.azure.resourcemanager.sql.fluent.inner.FailoverGroupInner.withReadOnlyEndpoint(com.azure.resourcemanager.sql.models.FailoverGroupReadOnlyEndpoint)"
+- "com.azure.resourcemanager.sql.fluent.inner.FailoverGroupInner.withReadWriteEndpoint(com.azure.resourcemanager.sql.models.FailoverGroupReadWriteEndpoint)"
+- "com.azure.resourcemanager.sql.fluent.inner.FailoverGroupInner.withTags(java.util.Map<java.lang.String,java.lang.String>)"
+type: "class"
 metadata: {}
-package: com.azure.resourcemanager.sql.fluent.inner
+package: "com.azure.resourcemanager.sql.fluent.inner"
 artifact: com.azure.resourcemanager:azure-resourcemanager-sql:2.0.0-beta.2

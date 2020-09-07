@@ -1,16 +1,16 @@
 ### YamlMime:JavaType
-uid: com.azure.resourcemanager.resources.models.DeploymentExportResult
-fullName: com.azure.resourcemanager.resources.models.DeploymentExportResult
-name: DeploymentExportResult
-nameWithType: DeploymentExportResult
-summary: An immutable client-side representation of an Azure deployment template export result.
-syntax: public interface DeploymentExportResult extends HasInner<DeploymentExportResultInner>
+uid: "com.azure.resourcemanager.resources.models.DeploymentExportResult"
+fullName: "com.azure.resourcemanager.resources.models.DeploymentExportResult"
+name: "DeploymentExportResult"
+nameWithType: "DeploymentExportResult"
+summary: "An immutable client-side representation of an Azure deployment template export result."
+syntax: "public interface DeploymentExportResult extends HasInner<DeploymentExportResultInner>"
 methods:
-- com.azure.resourcemanager.resources.models.DeploymentExportResult.template()
-- com.azure.resourcemanager.resources.models.DeploymentExportResult.templateAsJson()
-type: interface
+- "com.azure.resourcemanager.resources.models.DeploymentExportResult.template()"
+- "com.azure.resourcemanager.resources.models.DeploymentExportResult.templateAsJson()"
+type: "interface"
 implements:
-- <xref href="com.azure.resourcemanager.resources.fluentcore.model.HasInner?alt=com.azure.resourcemanager.resources.fluentcore.model.HasInner&text=HasInner" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.resourcemanager.resources.fluent.inner.DeploymentExportResultInner?alt=com.azure.resourcemanager.resources.fluent.inner.DeploymentExportResultInner&text=DeploymentExportResultInner" data-throw-if-not-resolved="False" />&gt;
+- "<xref href=\"com.azure.resourcemanager.resources.fluentcore.model.HasInner?alt=com.azure.resourcemanager.resources.fluentcore.model.HasInner&text=HasInner\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.resources.fluent.inner.DeploymentExportResultInner?alt=com.azure.resourcemanager.resources.fluent.inner.DeploymentExportResultInner&text=DeploymentExportResultInner\" data-throw-if-not-resolved=\"False\" />&gt;"
 metadata: {}
-package: com.azure.resourcemanager.resources.models
+package: "com.azure.resourcemanager.resources.models"
 artifact: com.azure.resourcemanager:azure-resourcemanager-resources:2.0.0-beta.2

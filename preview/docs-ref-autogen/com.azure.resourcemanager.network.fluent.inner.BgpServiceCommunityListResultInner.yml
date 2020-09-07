@@ -1,33 +1,33 @@
 ### YamlMime:JavaType
-uid: com.azure.resourcemanager.network.fluent.inner.BgpServiceCommunityListResultInner
-fullName: com.azure.resourcemanager.network.fluent.inner.BgpServiceCommunityListResultInner
-name: BgpServiceCommunityListResultInner
-nameWithType: BgpServiceCommunityListResultInner
-summary: The BgpServiceCommunityListResult model.
+uid: "com.azure.resourcemanager.network.fluent.inner.BgpServiceCommunityListResultInner"
+fullName: "com.azure.resourcemanager.network.fluent.inner.BgpServiceCommunityListResultInner"
+name: "BgpServiceCommunityListResultInner"
+nameWithType: "BgpServiceCommunityListResultInner"
+summary: "The BgpServiceCommunityListResult model."
 inheritances:
-- <xref href="java.lang.Object" data-throw-if-not-resolved="False" />
+- "<xref href=\"java.lang.Object\" data-throw-if-not-resolved=\"False\" />"
 inheritedMembers:
-- java.lang.Object.clone()
-- java.lang.Object.equals(java.lang.Object)
-- java.lang.Object.finalize()
-- java.lang.Object.getClass()
-- java.lang.Object.hashCode()
-- java.lang.Object.notify()
-- java.lang.Object.notifyAll()
-- java.lang.Object.toString()
-- java.lang.Object.wait()
-- java.lang.Object.wait(long)
-- java.lang.Object.wait(long,int)
-syntax: public final class BgpServiceCommunityListResultInner
+- "java.lang.Object.clone()"
+- "java.lang.Object.equals(java.lang.Object)"
+- "java.lang.Object.finalize()"
+- "java.lang.Object.getClass()"
+- "java.lang.Object.hashCode()"
+- "java.lang.Object.notify()"
+- "java.lang.Object.notifyAll()"
+- "java.lang.Object.toString()"
+- "java.lang.Object.wait()"
+- "java.lang.Object.wait(long)"
+- "java.lang.Object.wait(long,int)"
+syntax: "public final class BgpServiceCommunityListResultInner"
 constructors:
-- com.azure.resourcemanager.network.fluent.inner.BgpServiceCommunityListResultInner.BgpServiceCommunityListResultInner()
+- "com.azure.resourcemanager.network.fluent.inner.BgpServiceCommunityListResultInner.BgpServiceCommunityListResultInner()"
 methods:
-- com.azure.resourcemanager.network.fluent.inner.BgpServiceCommunityListResultInner.nextLink()
-- com.azure.resourcemanager.network.fluent.inner.BgpServiceCommunityListResultInner.validate()
-- com.azure.resourcemanager.network.fluent.inner.BgpServiceCommunityListResultInner.value()
-- com.azure.resourcemanager.network.fluent.inner.BgpServiceCommunityListResultInner.withNextLink(java.lang.String)
-- com.azure.resourcemanager.network.fluent.inner.BgpServiceCommunityListResultInner.withValue(java.util.List<com.azure.resourcemanager.network.fluent.inner.BgpServiceCommunityInner>)
-type: class
+- "com.azure.resourcemanager.network.fluent.inner.BgpServiceCommunityListResultInner.nextLink()"
+- "com.azure.resourcemanager.network.fluent.inner.BgpServiceCommunityListResultInner.validate()"
+- "com.azure.resourcemanager.network.fluent.inner.BgpServiceCommunityListResultInner.value()"
+- "com.azure.resourcemanager.network.fluent.inner.BgpServiceCommunityListResultInner.withNextLink(java.lang.String)"
+- "com.azure.resourcemanager.network.fluent.inner.BgpServiceCommunityListResultInner.withValue(java.util.List<com.azure.resourcemanager.network.fluent.inner.BgpServiceCommunityInner>)"
+type: "class"
 metadata: {}
-package: com.azure.resourcemanager.network.fluent.inner
+package: "com.azure.resourcemanager.network.fluent.inner"
 artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.0.0-beta.2

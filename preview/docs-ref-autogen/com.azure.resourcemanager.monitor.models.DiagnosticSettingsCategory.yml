@@ -1,16 +1,16 @@
 ### YamlMime:JavaType
-uid: com.azure.resourcemanager.monitor.models.DiagnosticSettingsCategory
-fullName: com.azure.resourcemanager.monitor.models.DiagnosticSettingsCategory
-name: DiagnosticSettingsCategory
-nameWithType: DiagnosticSettingsCategory
-summary: The Azure event log entries are of type DiagnosticSettingsCategory.
-syntax: public interface DiagnosticSettingsCategory extends HasInner<DiagnosticSettingsCategoryResourceInner>
+uid: "com.azure.resourcemanager.monitor.models.DiagnosticSettingsCategory"
+fullName: "com.azure.resourcemanager.monitor.models.DiagnosticSettingsCategory"
+name: "DiagnosticSettingsCategory"
+nameWithType: "DiagnosticSettingsCategory"
+summary: "The Azure event log entries are of type DiagnosticSettingsCategory."
+syntax: "public interface DiagnosticSettingsCategory extends HasInner<DiagnosticSettingsCategoryResourceInner>"
 methods:
-- com.azure.resourcemanager.monitor.models.DiagnosticSettingsCategory.name()
-- com.azure.resourcemanager.monitor.models.DiagnosticSettingsCategory.type()
-type: interface
+- "com.azure.resourcemanager.monitor.models.DiagnosticSettingsCategory.name()"
+- "com.azure.resourcemanager.monitor.models.DiagnosticSettingsCategory.type()"
+type: "interface"
 implements:
-- <xref href="com.azure.resourcemanager.resources.fluentcore.model.HasInner?alt=com.azure.resourcemanager.resources.fluentcore.model.HasInner&text=HasInner" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.resourcemanager.monitor.fluent.inner.DiagnosticSettingsCategoryResourceInner?alt=com.azure.resourcemanager.monitor.fluent.inner.DiagnosticSettingsCategoryResourceInner&text=DiagnosticSettingsCategoryResourceInner" data-throw-if-not-resolved="False" />&gt;
+- "<xref href=\"com.azure.resourcemanager.resources.fluentcore.model.HasInner?alt=com.azure.resourcemanager.resources.fluentcore.model.HasInner&text=HasInner\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.monitor.fluent.inner.DiagnosticSettingsCategoryResourceInner?alt=com.azure.resourcemanager.monitor.fluent.inner.DiagnosticSettingsCategoryResourceInner&text=DiagnosticSettingsCategoryResourceInner\" data-throw-if-not-resolved=\"False\" />&gt;"
 metadata: {}
-package: com.azure.resourcemanager.monitor.models
+package: "com.azure.resourcemanager.monitor.models"
 artifact: com.azure.resourcemanager:azure-resourcemanager-monitor:2.0.0-beta.2

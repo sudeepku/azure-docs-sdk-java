@@ -1,40 +1,40 @@
 ### YamlMime:JavaType
-uid: com.azure.resourcemanager.containerregistry.ContainerRegistryManagementClient
-fullName: com.azure.resourcemanager.containerregistry.ContainerRegistryManagementClient
-name: ContainerRegistryManagementClient
-nameWithType: ContainerRegistryManagementClient
-summary: Initializes a new instance of the ContainerRegistryManagementClient type.
+uid: "com.azure.resourcemanager.containerregistry.ContainerRegistryManagementClient"
+fullName: "com.azure.resourcemanager.containerregistry.ContainerRegistryManagementClient"
+name: "ContainerRegistryManagementClient"
+nameWithType: "ContainerRegistryManagementClient"
+summary: "Initializes a new instance of the ContainerRegistryManagementClient type."
 inheritances:
-- <xref href="java.lang.Object" data-throw-if-not-resolved="False" />
-- <xref href="com.azure.resourcemanager.AzureServiceClient" data-throw-if-not-resolved="False" />
+- "<xref href=\"java.lang.Object\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.azure.resourcemanager.AzureServiceClient\" data-throw-if-not-resolved=\"False\" />"
 inheritedMembers:
-- com.azure.resourcemanager.AzureServiceClient.<T,U>getLroResultAsync(reactor.core.publisher.Mono<? extends com.azure.core.http.rest.Response<reactor.core.publisher.Flux<java.nio.ByteBuffer>>>,com.azure.core.http.HttpPipeline,java.lang.reflect.Type,java.lang.reflect.Type)
-- com.azure.resourcemanager.AzureServiceClient.getContext()
-- com.azure.resourcemanager.AzureServiceClient.getSerializerAdapter()
-- com.azure.resourcemanager.AzureServiceClient.userAgent()
-- java.lang.Object.clone()
-- java.lang.Object.equals(java.lang.Object)
-- java.lang.Object.finalize()
-- java.lang.Object.getClass()
-- java.lang.Object.hashCode()
-- java.lang.Object.notify()
-- java.lang.Object.notifyAll()
-- java.lang.Object.toString()
-- java.lang.Object.wait()
-- java.lang.Object.wait(long)
-- java.lang.Object.wait(long,int)
-syntax: public final class ContainerRegistryManagementClient extends AzureServiceClient
+- "com.azure.resourcemanager.AzureServiceClient.<T,U>getLroResultAsync(reactor.core.publisher.Mono<? extends com.azure.core.http.rest.Response<reactor.core.publisher.Flux<java.nio.ByteBuffer>>>,com.azure.core.http.HttpPipeline,java.lang.reflect.Type,java.lang.reflect.Type)"
+- "com.azure.resourcemanager.AzureServiceClient.getContext()"
+- "com.azure.resourcemanager.AzureServiceClient.getSerializerAdapter()"
+- "com.azure.resourcemanager.AzureServiceClient.userAgent()"
+- "java.lang.Object.clone()"
+- "java.lang.Object.equals(java.lang.Object)"
+- "java.lang.Object.finalize()"
+- "java.lang.Object.getClass()"
+- "java.lang.Object.hashCode()"
+- "java.lang.Object.notify()"
+- "java.lang.Object.notifyAll()"
+- "java.lang.Object.toString()"
+- "java.lang.Object.wait()"
+- "java.lang.Object.wait(long)"
+- "java.lang.Object.wait(long,int)"
+syntax: "public final class ContainerRegistryManagementClient extends AzureServiceClient"
 methods:
-- com.azure.resourcemanager.containerregistry.ContainerRegistryManagementClient.getEndpoint()
-- com.azure.resourcemanager.containerregistry.ContainerRegistryManagementClient.getHttpPipeline()
-- com.azure.resourcemanager.containerregistry.ContainerRegistryManagementClient.getOperations()
-- com.azure.resourcemanager.containerregistry.ContainerRegistryManagementClient.getRegistries()
-- com.azure.resourcemanager.containerregistry.ContainerRegistryManagementClient.getReplications()
-- com.azure.resourcemanager.containerregistry.ContainerRegistryManagementClient.getRuns()
-- com.azure.resourcemanager.containerregistry.ContainerRegistryManagementClient.getSubscriptionId()
-- com.azure.resourcemanager.containerregistry.ContainerRegistryManagementClient.getTasks()
-- com.azure.resourcemanager.containerregistry.ContainerRegistryManagementClient.getWebhooks()
-type: class
+- "com.azure.resourcemanager.containerregistry.ContainerRegistryManagementClient.getEndpoint()"
+- "com.azure.resourcemanager.containerregistry.ContainerRegistryManagementClient.getHttpPipeline()"
+- "com.azure.resourcemanager.containerregistry.ContainerRegistryManagementClient.getOperations()"
+- "com.azure.resourcemanager.containerregistry.ContainerRegistryManagementClient.getRegistries()"
+- "com.azure.resourcemanager.containerregistry.ContainerRegistryManagementClient.getReplications()"
+- "com.azure.resourcemanager.containerregistry.ContainerRegistryManagementClient.getRuns()"
+- "com.azure.resourcemanager.containerregistry.ContainerRegistryManagementClient.getSubscriptionId()"
+- "com.azure.resourcemanager.containerregistry.ContainerRegistryManagementClient.getTasks()"
+- "com.azure.resourcemanager.containerregistry.ContainerRegistryManagementClient.getWebhooks()"
+type: "class"
 metadata: {}
-package: com.azure.resourcemanager.containerregistry
+package: "com.azure.resourcemanager.containerregistry"
 artifact: com.azure.resourcemanager:azure-resourcemanager-containerregistry:2.0.0-beta.2

@@ -1,38 +1,38 @@
 ### YamlMime:JavaType
-uid: com.azure.resourcemanager.monitor.fluent.TenantActivityLogsClient
-fullName: com.azure.resourcemanager.monitor.fluent.TenantActivityLogsClient
-name: TenantActivityLogsClient
-nameWithType: TenantActivityLogsClient
-summary: An instance of this class provides access to all the operations defined in TenantActivityLogs.
+uid: "com.azure.resourcemanager.monitor.fluent.TenantActivityLogsClient"
+fullName: "com.azure.resourcemanager.monitor.fluent.TenantActivityLogsClient"
+name: "TenantActivityLogsClient"
+nameWithType: "TenantActivityLogsClient"
+summary: "An instance of this class provides access to all the operations defined in TenantActivityLogs."
 inheritances:
-- <xref href="java.lang.Object" data-throw-if-not-resolved="False" />
+- "<xref href=\"java.lang.Object\" data-throw-if-not-resolved=\"False\" />"
 inheritedMembers:
-- java.lang.Object.clone()
-- java.lang.Object.equals(java.lang.Object)
-- java.lang.Object.finalize()
-- java.lang.Object.getClass()
-- java.lang.Object.hashCode()
-- java.lang.Object.notify()
-- java.lang.Object.notifyAll()
-- java.lang.Object.toString()
-- java.lang.Object.wait()
-- java.lang.Object.wait(long)
-- java.lang.Object.wait(long,int)
-syntax: public final class TenantActivityLogsClient
+- "java.lang.Object.clone()"
+- "java.lang.Object.equals(java.lang.Object)"
+- "java.lang.Object.finalize()"
+- "java.lang.Object.getClass()"
+- "java.lang.Object.hashCode()"
+- "java.lang.Object.notify()"
+- "java.lang.Object.notifyAll()"
+- "java.lang.Object.toString()"
+- "java.lang.Object.wait()"
+- "java.lang.Object.wait(long)"
+- "java.lang.Object.wait(long,int)"
+syntax: "public final class TenantActivityLogsClient"
 constructors:
-- com.azure.resourcemanager.monitor.fluent.TenantActivityLogsClient.TenantActivityLogsClient(com.azure.resourcemanager.monitor.MonitorClient)
+- "com.azure.resourcemanager.monitor.fluent.TenantActivityLogsClient.TenantActivityLogsClient(com.azure.resourcemanager.monitor.MonitorClient)"
 methods:
-- com.azure.resourcemanager.monitor.fluent.TenantActivityLogsClient.list()
-- com.azure.resourcemanager.monitor.fluent.TenantActivityLogsClient.list(java.lang.String,java.lang.String)
-- com.azure.resourcemanager.monitor.fluent.TenantActivityLogsClient.list(java.lang.String,java.lang.String,com.azure.core.util.Context)
-- com.azure.resourcemanager.monitor.fluent.TenantActivityLogsClient.listAsync()
-- com.azure.resourcemanager.monitor.fluent.TenantActivityLogsClient.listAsync(java.lang.String,java.lang.String)
-- com.azure.resourcemanager.monitor.fluent.TenantActivityLogsClient.listAsync(java.lang.String,java.lang.String,com.azure.core.util.Context)
-- com.azure.resourcemanager.monitor.fluent.TenantActivityLogsClient.listNextSinglePageAsync(java.lang.String)
-- com.azure.resourcemanager.monitor.fluent.TenantActivityLogsClient.listNextSinglePageAsync(java.lang.String,com.azure.core.util.Context)
-- com.azure.resourcemanager.monitor.fluent.TenantActivityLogsClient.listSinglePageAsync(java.lang.String,java.lang.String)
-- com.azure.resourcemanager.monitor.fluent.TenantActivityLogsClient.listSinglePageAsync(java.lang.String,java.lang.String,com.azure.core.util.Context)
-type: class
+- "com.azure.resourcemanager.monitor.fluent.TenantActivityLogsClient.list()"
+- "com.azure.resourcemanager.monitor.fluent.TenantActivityLogsClient.list(java.lang.String,java.lang.String)"
+- "com.azure.resourcemanager.monitor.fluent.TenantActivityLogsClient.list(java.lang.String,java.lang.String,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.monitor.fluent.TenantActivityLogsClient.listAsync()"
+- "com.azure.resourcemanager.monitor.fluent.TenantActivityLogsClient.listAsync(java.lang.String,java.lang.String)"
+- "com.azure.resourcemanager.monitor.fluent.TenantActivityLogsClient.listAsync(java.lang.String,java.lang.String,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.monitor.fluent.TenantActivityLogsClient.listNextSinglePageAsync(java.lang.String)"
+- "com.azure.resourcemanager.monitor.fluent.TenantActivityLogsClient.listNextSinglePageAsync(java.lang.String,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.monitor.fluent.TenantActivityLogsClient.listSinglePageAsync(java.lang.String,java.lang.String)"
+- "com.azure.resourcemanager.monitor.fluent.TenantActivityLogsClient.listSinglePageAsync(java.lang.String,java.lang.String,com.azure.core.util.Context)"
+type: "class"
 metadata: {}
-package: com.azure.resourcemanager.monitor.fluent
+package: "com.azure.resourcemanager.monitor.fluent"
 artifact: com.azure.resourcemanager:azure-resourcemanager-monitor:2.0.0-beta.2

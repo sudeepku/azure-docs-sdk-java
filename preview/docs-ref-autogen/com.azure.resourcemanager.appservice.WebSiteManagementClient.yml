@@ -1,51 +1,51 @@
 ### YamlMime:JavaType
-uid: com.azure.resourcemanager.appservice.WebSiteManagementClient
-fullName: com.azure.resourcemanager.appservice.WebSiteManagementClient
-name: WebSiteManagementClient
-nameWithType: WebSiteManagementClient
-summary: Initializes a new instance of the WebSiteManagementClient type.
+uid: "com.azure.resourcemanager.appservice.WebSiteManagementClient"
+fullName: "com.azure.resourcemanager.appservice.WebSiteManagementClient"
+name: "WebSiteManagementClient"
+nameWithType: "WebSiteManagementClient"
+summary: "Initializes a new instance of the WebSiteManagementClient type."
 inheritances:
-- <xref href="java.lang.Object" data-throw-if-not-resolved="False" />
-- <xref href="com.azure.resourcemanager.AzureServiceClient" data-throw-if-not-resolved="False" />
+- "<xref href=\"java.lang.Object\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.azure.resourcemanager.AzureServiceClient\" data-throw-if-not-resolved=\"False\" />"
 inheritedMembers:
-- com.azure.resourcemanager.AzureServiceClient.<T,U>getLroResultAsync(reactor.core.publisher.Mono<? extends com.azure.core.http.rest.Response<reactor.core.publisher.Flux<java.nio.ByteBuffer>>>,com.azure.core.http.HttpPipeline,java.lang.reflect.Type,java.lang.reflect.Type)
-- com.azure.resourcemanager.AzureServiceClient.getContext()
-- com.azure.resourcemanager.AzureServiceClient.getSerializerAdapter()
-- com.azure.resourcemanager.AzureServiceClient.userAgent()
-- java.lang.Object.clone()
-- java.lang.Object.equals(java.lang.Object)
-- java.lang.Object.finalize()
-- java.lang.Object.getClass()
-- java.lang.Object.hashCode()
-- java.lang.Object.notify()
-- java.lang.Object.notifyAll()
-- java.lang.Object.toString()
-- java.lang.Object.wait()
-- java.lang.Object.wait(long)
-- java.lang.Object.wait(long,int)
-syntax: public final class WebSiteManagementClient extends AzureServiceClient
+- "com.azure.resourcemanager.AzureServiceClient.<T,U>getLroResultAsync(reactor.core.publisher.Mono<? extends com.azure.core.http.rest.Response<reactor.core.publisher.Flux<java.nio.ByteBuffer>>>,com.azure.core.http.HttpPipeline,java.lang.reflect.Type,java.lang.reflect.Type)"
+- "com.azure.resourcemanager.AzureServiceClient.getContext()"
+- "com.azure.resourcemanager.AzureServiceClient.getSerializerAdapter()"
+- "com.azure.resourcemanager.AzureServiceClient.userAgent()"
+- "java.lang.Object.clone()"
+- "java.lang.Object.equals(java.lang.Object)"
+- "java.lang.Object.finalize()"
+- "java.lang.Object.getClass()"
+- "java.lang.Object.hashCode()"
+- "java.lang.Object.notify()"
+- "java.lang.Object.notifyAll()"
+- "java.lang.Object.toString()"
+- "java.lang.Object.wait()"
+- "java.lang.Object.wait(long)"
+- "java.lang.Object.wait(long,int)"
+syntax: "public final class WebSiteManagementClient extends AzureServiceClient"
 methods:
-- com.azure.resourcemanager.appservice.WebSiteManagementClient.getApiVersion()
-- com.azure.resourcemanager.appservice.WebSiteManagementClient.getAppServiceCertificateOrders()
-- com.azure.resourcemanager.appservice.WebSiteManagementClient.getAppServiceEnvironments()
-- com.azure.resourcemanager.appservice.WebSiteManagementClient.getAppServicePlans()
-- com.azure.resourcemanager.appservice.WebSiteManagementClient.getCertificateRegistrationProviders()
-- com.azure.resourcemanager.appservice.WebSiteManagementClient.getCertificates()
-- com.azure.resourcemanager.appservice.WebSiteManagementClient.getDeletedWebApps()
-- com.azure.resourcemanager.appservice.WebSiteManagementClient.getDiagnostics()
-- com.azure.resourcemanager.appservice.WebSiteManagementClient.getDomainRegistrationProviders()
-- com.azure.resourcemanager.appservice.WebSiteManagementClient.getDomains()
-- com.azure.resourcemanager.appservice.WebSiteManagementClient.getEndpoint()
-- com.azure.resourcemanager.appservice.WebSiteManagementClient.getHttpPipeline()
-- com.azure.resourcemanager.appservice.WebSiteManagementClient.getProviders()
-- com.azure.resourcemanager.appservice.WebSiteManagementClient.getRecommendations()
-- com.azure.resourcemanager.appservice.WebSiteManagementClient.getResourceHealthMetadatas()
-- com.azure.resourcemanager.appservice.WebSiteManagementClient.getResourceProviders()
-- com.azure.resourcemanager.appservice.WebSiteManagementClient.getStaticSites()
-- com.azure.resourcemanager.appservice.WebSiteManagementClient.getSubscriptionId()
-- com.azure.resourcemanager.appservice.WebSiteManagementClient.getTopLevelDomains()
-- com.azure.resourcemanager.appservice.WebSiteManagementClient.getWebApps()
-type: class
+- "com.azure.resourcemanager.appservice.WebSiteManagementClient.getApiVersion()"
+- "com.azure.resourcemanager.appservice.WebSiteManagementClient.getAppServiceCertificateOrders()"
+- "com.azure.resourcemanager.appservice.WebSiteManagementClient.getAppServiceEnvironments()"
+- "com.azure.resourcemanager.appservice.WebSiteManagementClient.getAppServicePlans()"
+- "com.azure.resourcemanager.appservice.WebSiteManagementClient.getCertificateRegistrationProviders()"
+- "com.azure.resourcemanager.appservice.WebSiteManagementClient.getCertificates()"
+- "com.azure.resourcemanager.appservice.WebSiteManagementClient.getDeletedWebApps()"
+- "com.azure.resourcemanager.appservice.WebSiteManagementClient.getDiagnostics()"
+- "com.azure.resourcemanager.appservice.WebSiteManagementClient.getDomainRegistrationProviders()"
+- "com.azure.resourcemanager.appservice.WebSiteManagementClient.getDomains()"
+- "com.azure.resourcemanager.appservice.WebSiteManagementClient.getEndpoint()"
+- "com.azure.resourcemanager.appservice.WebSiteManagementClient.getHttpPipeline()"
+- "com.azure.resourcemanager.appservice.WebSiteManagementClient.getProviders()"
+- "com.azure.resourcemanager.appservice.WebSiteManagementClient.getRecommendations()"
+- "com.azure.resourcemanager.appservice.WebSiteManagementClient.getResourceHealthMetadatas()"
+- "com.azure.resourcemanager.appservice.WebSiteManagementClient.getResourceProviders()"
+- "com.azure.resourcemanager.appservice.WebSiteManagementClient.getStaticSites()"
+- "com.azure.resourcemanager.appservice.WebSiteManagementClient.getSubscriptionId()"
+- "com.azure.resourcemanager.appservice.WebSiteManagementClient.getTopLevelDomains()"
+- "com.azure.resourcemanager.appservice.WebSiteManagementClient.getWebApps()"
+type: "class"
 metadata: {}
-package: com.azure.resourcemanager.appservice
+package: "com.azure.resourcemanager.appservice"
 artifact: com.azure.resourcemanager:azure-resourcemanager-appservice:2.0.0-beta.2

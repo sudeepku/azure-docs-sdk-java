@@ -1,12 +1,12 @@
 ### YamlMime:JavaPackage
-uid: com.azure.resourcemanager.resources.fluentcore.arm.implementation
-fullName: com.azure.resourcemanager.resources.fluentcore.arm.implementation
-name: com.azure.resourcemanager.resources.fluentcore.arm.implementation
-summary: This package contains the implementations for ARM base classes.
+uid: "com.azure.resourcemanager.resources.fluentcore.arm.implementation"
+fullName: "com.azure.resourcemanager.resources.fluentcore.arm.implementation"
+name: "com.azure.resourcemanager.resources.fluentcore.arm.implementation"
+summary: "This package contains the implementations for ARM base classes."
 classes:
-- com.azure.resourcemanager.resources.fluentcore.arm.implementation.AzureConfigurableImpl
-- com.azure.resourcemanager.resources.fluentcore.arm.implementation.Manager
-- com.azure.resourcemanager.resources.fluentcore.arm.implementation.ManagerBase
+- "com.azure.resourcemanager.resources.fluentcore.arm.implementation.AzureConfigurableImpl"
+- "com.azure.resourcemanager.resources.fluentcore.arm.implementation.Manager"
+- "com.azure.resourcemanager.resources.fluentcore.arm.implementation.ManagerBase"
 metadata: {}
-package: com.azure.resourcemanager.resources.fluentcore.arm.implementation
+package: "com.azure.resourcemanager.resources.fluentcore.arm.implementation"
 artifact: com.azure.resourcemanager:azure-resourcemanager-resources:2.0.0-beta.2

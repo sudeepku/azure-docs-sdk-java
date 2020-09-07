@@ -1,33 +1,33 @@
 ### YamlMime:JavaType
-uid: com.azure.resourcemanager.resources.fluent.inner.TenantListResultInner
-fullName: com.azure.resourcemanager.resources.fluent.inner.TenantListResultInner
-name: TenantListResultInner
-nameWithType: TenantListResultInner
-summary: The TenantListResult model.
+uid: "com.azure.resourcemanager.resources.fluent.inner.TenantListResultInner"
+fullName: "com.azure.resourcemanager.resources.fluent.inner.TenantListResultInner"
+name: "TenantListResultInner"
+nameWithType: "TenantListResultInner"
+summary: "The TenantListResult model."
 inheritances:
-- <xref href="java.lang.Object" data-throw-if-not-resolved="False" />
+- "<xref href=\"java.lang.Object\" data-throw-if-not-resolved=\"False\" />"
 inheritedMembers:
-- java.lang.Object.clone()
-- java.lang.Object.equals(java.lang.Object)
-- java.lang.Object.finalize()
-- java.lang.Object.getClass()
-- java.lang.Object.hashCode()
-- java.lang.Object.notify()
-- java.lang.Object.notifyAll()
-- java.lang.Object.toString()
-- java.lang.Object.wait()
-- java.lang.Object.wait(long)
-- java.lang.Object.wait(long,int)
-syntax: public final class TenantListResultInner
+- "java.lang.Object.clone()"
+- "java.lang.Object.equals(java.lang.Object)"
+- "java.lang.Object.finalize()"
+- "java.lang.Object.getClass()"
+- "java.lang.Object.hashCode()"
+- "java.lang.Object.notify()"
+- "java.lang.Object.notifyAll()"
+- "java.lang.Object.toString()"
+- "java.lang.Object.wait()"
+- "java.lang.Object.wait(long)"
+- "java.lang.Object.wait(long,int)"
+syntax: "public final class TenantListResultInner"
 constructors:
-- com.azure.resourcemanager.resources.fluent.inner.TenantListResultInner.TenantListResultInner()
+- "com.azure.resourcemanager.resources.fluent.inner.TenantListResultInner.TenantListResultInner()"
 methods:
-- com.azure.resourcemanager.resources.fluent.inner.TenantListResultInner.nextLink()
-- com.azure.resourcemanager.resources.fluent.inner.TenantListResultInner.validate()
-- com.azure.resourcemanager.resources.fluent.inner.TenantListResultInner.value()
-- com.azure.resourcemanager.resources.fluent.inner.TenantListResultInner.withNextLink(java.lang.String)
-- com.azure.resourcemanager.resources.fluent.inner.TenantListResultInner.withValue(java.util.List<com.azure.resourcemanager.resources.fluent.inner.TenantIdDescriptionInner>)
-type: class
+- "com.azure.resourcemanager.resources.fluent.inner.TenantListResultInner.nextLink()"
+- "com.azure.resourcemanager.resources.fluent.inner.TenantListResultInner.validate()"
+- "com.azure.resourcemanager.resources.fluent.inner.TenantListResultInner.value()"
+- "com.azure.resourcemanager.resources.fluent.inner.TenantListResultInner.withNextLink(java.lang.String)"
+- "com.azure.resourcemanager.resources.fluent.inner.TenantListResultInner.withValue(java.util.List<com.azure.resourcemanager.resources.fluent.inner.TenantIdDescriptionInner>)"
+type: "class"
 metadata: {}
-package: com.azure.resourcemanager.resources.fluent.inner
+package: "com.azure.resourcemanager.resources.fluent.inner"
 artifact: com.azure.resourcemanager:azure-resourcemanager-resources:2.0.0-beta.2

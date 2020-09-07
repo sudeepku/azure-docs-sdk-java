@@ -1,60 +1,60 @@
 ### YamlMime:JavaType
-uid: com.azure.resourcemanager.resources.fluent.TagsClient
-fullName: com.azure.resourcemanager.resources.fluent.TagsClient
-name: TagsClient
-nameWithType: TagsClient
-summary: An instance of this class provides access to all the operations defined in Tags.
+uid: "com.azure.resourcemanager.resources.fluent.TagsClient"
+fullName: "com.azure.resourcemanager.resources.fluent.TagsClient"
+name: "TagsClient"
+nameWithType: "TagsClient"
+summary: "An instance of this class provides access to all the operations defined in Tags."
 inheritances:
-- <xref href="java.lang.Object" data-throw-if-not-resolved="False" />
+- "<xref href=\"java.lang.Object\" data-throw-if-not-resolved=\"False\" />"
 inheritedMembers:
-- java.lang.Object.clone()
-- java.lang.Object.equals(java.lang.Object)
-- java.lang.Object.finalize()
-- java.lang.Object.getClass()
-- java.lang.Object.hashCode()
-- java.lang.Object.notify()
-- java.lang.Object.notifyAll()
-- java.lang.Object.toString()
-- java.lang.Object.wait()
-- java.lang.Object.wait(long)
-- java.lang.Object.wait(long,int)
-syntax: public final class TagsClient
+- "java.lang.Object.clone()"
+- "java.lang.Object.equals(java.lang.Object)"
+- "java.lang.Object.finalize()"
+- "java.lang.Object.getClass()"
+- "java.lang.Object.hashCode()"
+- "java.lang.Object.notify()"
+- "java.lang.Object.notifyAll()"
+- "java.lang.Object.toString()"
+- "java.lang.Object.wait()"
+- "java.lang.Object.wait(long)"
+- "java.lang.Object.wait(long,int)"
+syntax: "public final class TagsClient"
 constructors:
-- com.azure.resourcemanager.resources.fluent.TagsClient.TagsClient(com.azure.resourcemanager.resources.ResourceManagementClient)
+- "com.azure.resourcemanager.resources.fluent.TagsClient.TagsClient(com.azure.resourcemanager.resources.ResourceManagementClient)"
 methods:
-- com.azure.resourcemanager.resources.fluent.TagsClient.createOrUpdate(java.lang.String)
-- com.azure.resourcemanager.resources.fluent.TagsClient.createOrUpdate(java.lang.String,com.azure.core.util.Context)
-- com.azure.resourcemanager.resources.fluent.TagsClient.createOrUpdateAsync(java.lang.String)
-- com.azure.resourcemanager.resources.fluent.TagsClient.createOrUpdateAsync(java.lang.String,com.azure.core.util.Context)
-- com.azure.resourcemanager.resources.fluent.TagsClient.createOrUpdateValue(java.lang.String,java.lang.String)
-- com.azure.resourcemanager.resources.fluent.TagsClient.createOrUpdateValue(java.lang.String,java.lang.String,com.azure.core.util.Context)
-- com.azure.resourcemanager.resources.fluent.TagsClient.createOrUpdateValueAsync(java.lang.String,java.lang.String)
-- com.azure.resourcemanager.resources.fluent.TagsClient.createOrUpdateValueAsync(java.lang.String,java.lang.String,com.azure.core.util.Context)
-- com.azure.resourcemanager.resources.fluent.TagsClient.createOrUpdateValueWithResponseAsync(java.lang.String,java.lang.String)
-- com.azure.resourcemanager.resources.fluent.TagsClient.createOrUpdateValueWithResponseAsync(java.lang.String,java.lang.String,com.azure.core.util.Context)
-- com.azure.resourcemanager.resources.fluent.TagsClient.createOrUpdateWithResponseAsync(java.lang.String)
-- com.azure.resourcemanager.resources.fluent.TagsClient.createOrUpdateWithResponseAsync(java.lang.String,com.azure.core.util.Context)
-- com.azure.resourcemanager.resources.fluent.TagsClient.delete(java.lang.String)
-- com.azure.resourcemanager.resources.fluent.TagsClient.delete(java.lang.String,com.azure.core.util.Context)
-- com.azure.resourcemanager.resources.fluent.TagsClient.deleteAsync(java.lang.String)
-- com.azure.resourcemanager.resources.fluent.TagsClient.deleteAsync(java.lang.String,com.azure.core.util.Context)
-- com.azure.resourcemanager.resources.fluent.TagsClient.deleteValue(java.lang.String,java.lang.String)
-- com.azure.resourcemanager.resources.fluent.TagsClient.deleteValue(java.lang.String,java.lang.String,com.azure.core.util.Context)
-- com.azure.resourcemanager.resources.fluent.TagsClient.deleteValueAsync(java.lang.String,java.lang.String)
-- com.azure.resourcemanager.resources.fluent.TagsClient.deleteValueAsync(java.lang.String,java.lang.String,com.azure.core.util.Context)
-- com.azure.resourcemanager.resources.fluent.TagsClient.deleteValueWithResponseAsync(java.lang.String,java.lang.String)
-- com.azure.resourcemanager.resources.fluent.TagsClient.deleteValueWithResponseAsync(java.lang.String,java.lang.String,com.azure.core.util.Context)
-- com.azure.resourcemanager.resources.fluent.TagsClient.deleteWithResponseAsync(java.lang.String)
-- com.azure.resourcemanager.resources.fluent.TagsClient.deleteWithResponseAsync(java.lang.String,com.azure.core.util.Context)
-- com.azure.resourcemanager.resources.fluent.TagsClient.list()
-- com.azure.resourcemanager.resources.fluent.TagsClient.list(com.azure.core.util.Context)
-- com.azure.resourcemanager.resources.fluent.TagsClient.listAsync()
-- com.azure.resourcemanager.resources.fluent.TagsClient.listAsync(com.azure.core.util.Context)
-- com.azure.resourcemanager.resources.fluent.TagsClient.listNextSinglePageAsync(java.lang.String)
-- com.azure.resourcemanager.resources.fluent.TagsClient.listNextSinglePageAsync(java.lang.String,com.azure.core.util.Context)
-- com.azure.resourcemanager.resources.fluent.TagsClient.listSinglePageAsync()
-- com.azure.resourcemanager.resources.fluent.TagsClient.listSinglePageAsync(com.azure.core.util.Context)
-type: class
+- "com.azure.resourcemanager.resources.fluent.TagsClient.createOrUpdate(java.lang.String)"
+- "com.azure.resourcemanager.resources.fluent.TagsClient.createOrUpdate(java.lang.String,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.resources.fluent.TagsClient.createOrUpdateAsync(java.lang.String)"
+- "com.azure.resourcemanager.resources.fluent.TagsClient.createOrUpdateAsync(java.lang.String,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.resources.fluent.TagsClient.createOrUpdateValue(java.lang.String,java.lang.String)"
+- "com.azure.resourcemanager.resources.fluent.TagsClient.createOrUpdateValue(java.lang.String,java.lang.String,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.resources.fluent.TagsClient.createOrUpdateValueAsync(java.lang.String,java.lang.String)"
+- "com.azure.resourcemanager.resources.fluent.TagsClient.createOrUpdateValueAsync(java.lang.String,java.lang.String,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.resources.fluent.TagsClient.createOrUpdateValueWithResponseAsync(java.lang.String,java.lang.String)"
+- "com.azure.resourcemanager.resources.fluent.TagsClient.createOrUpdateValueWithResponseAsync(java.lang.String,java.lang.String,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.resources.fluent.TagsClient.createOrUpdateWithResponseAsync(java.lang.String)"
+- "com.azure.resourcemanager.resources.fluent.TagsClient.createOrUpdateWithResponseAsync(java.lang.String,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.resources.fluent.TagsClient.delete(java.lang.String)"
+- "com.azure.resourcemanager.resources.fluent.TagsClient.delete(java.lang.String,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.resources.fluent.TagsClient.deleteAsync(java.lang.String)"
+- "com.azure.resourcemanager.resources.fluent.TagsClient.deleteAsync(java.lang.String,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.resources.fluent.TagsClient.deleteValue(java.lang.String,java.lang.String)"
+- "com.azure.resourcemanager.resources.fluent.TagsClient.deleteValue(java.lang.String,java.lang.String,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.resources.fluent.TagsClient.deleteValueAsync(java.lang.String,java.lang.String)"
+- "com.azure.resourcemanager.resources.fluent.TagsClient.deleteValueAsync(java.lang.String,java.lang.String,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.resources.fluent.TagsClient.deleteValueWithResponseAsync(java.lang.String,java.lang.String)"
+- "com.azure.resourcemanager.resources.fluent.TagsClient.deleteValueWithResponseAsync(java.lang.String,java.lang.String,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.resources.fluent.TagsClient.deleteWithResponseAsync(java.lang.String)"
+- "com.azure.resourcemanager.resources.fluent.TagsClient.deleteWithResponseAsync(java.lang.String,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.resources.fluent.TagsClient.list()"
+- "com.azure.resourcemanager.resources.fluent.TagsClient.list(com.azure.core.util.Context)"
+- "com.azure.resourcemanager.resources.fluent.TagsClient.listAsync()"
+- "com.azure.resourcemanager.resources.fluent.TagsClient.listAsync(com.azure.core.util.Context)"
+- "com.azure.resourcemanager.resources.fluent.TagsClient.listNextSinglePageAsync(java.lang.String)"
+- "com.azure.resourcemanager.resources.fluent.TagsClient.listNextSinglePageAsync(java.lang.String,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.resources.fluent.TagsClient.listSinglePageAsync()"
+- "com.azure.resourcemanager.resources.fluent.TagsClient.listSinglePageAsync(com.azure.core.util.Context)"
+type: "class"
 metadata: {}
-package: com.azure.resourcemanager.resources.fluent
+package: "com.azure.resourcemanager.resources.fluent"
 artifact: com.azure.resourcemanager:azure-resourcemanager-resources:2.0.0-beta.2

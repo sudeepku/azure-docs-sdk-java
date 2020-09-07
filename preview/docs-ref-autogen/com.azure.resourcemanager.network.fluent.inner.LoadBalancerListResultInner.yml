@@ -1,32 +1,32 @@
 ### YamlMime:JavaType
-uid: com.azure.resourcemanager.network.fluent.inner.LoadBalancerListResultInner
-fullName: com.azure.resourcemanager.network.fluent.inner.LoadBalancerListResultInner
-name: LoadBalancerListResultInner
-nameWithType: LoadBalancerListResultInner
-summary: The LoadBalancerListResult model.
+uid: "com.azure.resourcemanager.network.fluent.inner.LoadBalancerListResultInner"
+fullName: "com.azure.resourcemanager.network.fluent.inner.LoadBalancerListResultInner"
+name: "LoadBalancerListResultInner"
+nameWithType: "LoadBalancerListResultInner"
+summary: "The LoadBalancerListResult model."
 inheritances:
-- <xref href="java.lang.Object" data-throw-if-not-resolved="False" />
+- "<xref href=\"java.lang.Object\" data-throw-if-not-resolved=\"False\" />"
 inheritedMembers:
-- java.lang.Object.clone()
-- java.lang.Object.equals(java.lang.Object)
-- java.lang.Object.finalize()
-- java.lang.Object.getClass()
-- java.lang.Object.hashCode()
-- java.lang.Object.notify()
-- java.lang.Object.notifyAll()
-- java.lang.Object.toString()
-- java.lang.Object.wait()
-- java.lang.Object.wait(long)
-- java.lang.Object.wait(long,int)
-syntax: public final class LoadBalancerListResultInner
+- "java.lang.Object.clone()"
+- "java.lang.Object.equals(java.lang.Object)"
+- "java.lang.Object.finalize()"
+- "java.lang.Object.getClass()"
+- "java.lang.Object.hashCode()"
+- "java.lang.Object.notify()"
+- "java.lang.Object.notifyAll()"
+- "java.lang.Object.toString()"
+- "java.lang.Object.wait()"
+- "java.lang.Object.wait(long)"
+- "java.lang.Object.wait(long,int)"
+syntax: "public final class LoadBalancerListResultInner"
 constructors:
-- com.azure.resourcemanager.network.fluent.inner.LoadBalancerListResultInner.LoadBalancerListResultInner()
+- "com.azure.resourcemanager.network.fluent.inner.LoadBalancerListResultInner.LoadBalancerListResultInner()"
 methods:
-- com.azure.resourcemanager.network.fluent.inner.LoadBalancerListResultInner.nextLink()
-- com.azure.resourcemanager.network.fluent.inner.LoadBalancerListResultInner.validate()
-- com.azure.resourcemanager.network.fluent.inner.LoadBalancerListResultInner.value()
-- com.azure.resourcemanager.network.fluent.inner.LoadBalancerListResultInner.withValue(java.util.List<com.azure.resourcemanager.network.fluent.inner.LoadBalancerInner>)
-type: class
+- "com.azure.resourcemanager.network.fluent.inner.LoadBalancerListResultInner.nextLink()"
+- "com.azure.resourcemanager.network.fluent.inner.LoadBalancerListResultInner.validate()"
+- "com.azure.resourcemanager.network.fluent.inner.LoadBalancerListResultInner.value()"
+- "com.azure.resourcemanager.network.fluent.inner.LoadBalancerListResultInner.withValue(java.util.List<com.azure.resourcemanager.network.fluent.inner.LoadBalancerInner>)"
+type: "class"
 metadata: {}
-package: com.azure.resourcemanager.network.fluent.inner
+package: "com.azure.resourcemanager.network.fluent.inner"
 artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.0.0-beta.2

@@ -1,15 +1,15 @@
 ### YamlMime:JavaMember
-uid: com.azure.resourcemanager.resources.fluentcore.arm.CountryPhoneCode.ALBANIA
-fullName: com.azure.resourcemanager.resources.fluentcore.arm.CountryPhoneCode.ALBANIA
-name: ALBANIA
-nameWithType: CountryPhoneCode.ALBANIA
+uid: "com.azure.resourcemanager.resources.fluentcore.arm.CountryPhoneCode.ALBANIA"
+fullName: "com.azure.resourcemanager.resources.fluentcore.arm.CountryPhoneCode.ALBANIA"
+name: "ALBANIA"
+nameWithType: "CountryPhoneCode.ALBANIA"
 members:
-- uid: com.azure.resourcemanager.resources.fluentcore.arm.CountryPhoneCode.ALBANIA
-  fullName: com.azure.resourcemanager.resources.fluentcore.arm.CountryPhoneCode.ALBANIA
-  name: ALBANIA
-  nameWithType: CountryPhoneCode.ALBANIA
-  syntax: public static final CountryPhoneCode ALBANIA
-type: field
+- uid: "com.azure.resourcemanager.resources.fluentcore.arm.CountryPhoneCode.ALBANIA"
+  fullName: "com.azure.resourcemanager.resources.fluentcore.arm.CountryPhoneCode.ALBANIA"
+  name: "ALBANIA"
+  nameWithType: "CountryPhoneCode.ALBANIA"
+  syntax: "public static final CountryPhoneCode ALBANIA"
+type: "field"
 metadata: {}
-package: com.azure.resourcemanager.resources.fluentcore.arm
+package: "com.azure.resourcemanager.resources.fluentcore.arm"
 artifact: com.azure.resourcemanager:azure-resourcemanager-resources:2.0.0-beta.2

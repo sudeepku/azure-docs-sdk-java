@@ -1,33 +1,33 @@
 ### YamlMime:JavaType
-uid: com.azure.resourcemanager.containerregistry.fluent.inner.TaskListResultInner
-fullName: com.azure.resourcemanager.containerregistry.fluent.inner.TaskListResultInner
-name: TaskListResultInner
-nameWithType: TaskListResultInner
-summary: The TaskListResult model.
+uid: "com.azure.resourcemanager.containerregistry.fluent.inner.TaskListResultInner"
+fullName: "com.azure.resourcemanager.containerregistry.fluent.inner.TaskListResultInner"
+name: "TaskListResultInner"
+nameWithType: "TaskListResultInner"
+summary: "The TaskListResult model."
 inheritances:
-- <xref href="java.lang.Object" data-throw-if-not-resolved="False" />
+- "<xref href=\"java.lang.Object\" data-throw-if-not-resolved=\"False\" />"
 inheritedMembers:
-- java.lang.Object.clone()
-- java.lang.Object.equals(java.lang.Object)
-- java.lang.Object.finalize()
-- java.lang.Object.getClass()
-- java.lang.Object.hashCode()
-- java.lang.Object.notify()
-- java.lang.Object.notifyAll()
-- java.lang.Object.toString()
-- java.lang.Object.wait()
-- java.lang.Object.wait(long)
-- java.lang.Object.wait(long,int)
-syntax: public final class TaskListResultInner
+- "java.lang.Object.clone()"
+- "java.lang.Object.equals(java.lang.Object)"
+- "java.lang.Object.finalize()"
+- "java.lang.Object.getClass()"
+- "java.lang.Object.hashCode()"
+- "java.lang.Object.notify()"
+- "java.lang.Object.notifyAll()"
+- "java.lang.Object.toString()"
+- "java.lang.Object.wait()"
+- "java.lang.Object.wait(long)"
+- "java.lang.Object.wait(long,int)"
+syntax: "public final class TaskListResultInner"
 constructors:
-- com.azure.resourcemanager.containerregistry.fluent.inner.TaskListResultInner.TaskListResultInner()
+- "com.azure.resourcemanager.containerregistry.fluent.inner.TaskListResultInner.TaskListResultInner()"
 methods:
-- com.azure.resourcemanager.containerregistry.fluent.inner.TaskListResultInner.nextLink()
-- com.azure.resourcemanager.containerregistry.fluent.inner.TaskListResultInner.validate()
-- com.azure.resourcemanager.containerregistry.fluent.inner.TaskListResultInner.value()
-- com.azure.resourcemanager.containerregistry.fluent.inner.TaskListResultInner.withNextLink(java.lang.String)
-- com.azure.resourcemanager.containerregistry.fluent.inner.TaskListResultInner.withValue(java.util.List<com.azure.resourcemanager.containerregistry.fluent.inner.TaskInner>)
-type: class
+- "com.azure.resourcemanager.containerregistry.fluent.inner.TaskListResultInner.nextLink()"
+- "com.azure.resourcemanager.containerregistry.fluent.inner.TaskListResultInner.validate()"
+- "com.azure.resourcemanager.containerregistry.fluent.inner.TaskListResultInner.value()"
+- "com.azure.resourcemanager.containerregistry.fluent.inner.TaskListResultInner.withNextLink(java.lang.String)"
+- "com.azure.resourcemanager.containerregistry.fluent.inner.TaskListResultInner.withValue(java.util.List<com.azure.resourcemanager.containerregistry.fluent.inner.TaskInner>)"
+type: "class"
 metadata: {}
-package: com.azure.resourcemanager.containerregistry.fluent.inner
+package: "com.azure.resourcemanager.containerregistry.fluent.inner"
 artifact: com.azure.resourcemanager:azure-resourcemanager-containerregistry:2.0.0-beta.2

@@ -1,54 +1,54 @@
 ### YamlMime:JavaType
-uid: com.azure.resourcemanager.storage.fluent.EncryptionScopesClient
-fullName: com.azure.resourcemanager.storage.fluent.EncryptionScopesClient
-name: EncryptionScopesClient
-nameWithType: EncryptionScopesClient
-summary: An instance of this class provides access to all the operations defined in EncryptionScopes.
+uid: "com.azure.resourcemanager.storage.fluent.EncryptionScopesClient"
+fullName: "com.azure.resourcemanager.storage.fluent.EncryptionScopesClient"
+name: "EncryptionScopesClient"
+nameWithType: "EncryptionScopesClient"
+summary: "An instance of this class provides access to all the operations defined in EncryptionScopes."
 inheritances:
-- <xref href="java.lang.Object" data-throw-if-not-resolved="False" />
+- "<xref href=\"java.lang.Object\" data-throw-if-not-resolved=\"False\" />"
 inheritedMembers:
-- java.lang.Object.clone()
-- java.lang.Object.equals(java.lang.Object)
-- java.lang.Object.finalize()
-- java.lang.Object.getClass()
-- java.lang.Object.hashCode()
-- java.lang.Object.notify()
-- java.lang.Object.notifyAll()
-- java.lang.Object.toString()
-- java.lang.Object.wait()
-- java.lang.Object.wait(long)
-- java.lang.Object.wait(long,int)
-syntax: public final class EncryptionScopesClient
+- "java.lang.Object.clone()"
+- "java.lang.Object.equals(java.lang.Object)"
+- "java.lang.Object.finalize()"
+- "java.lang.Object.getClass()"
+- "java.lang.Object.hashCode()"
+- "java.lang.Object.notify()"
+- "java.lang.Object.notifyAll()"
+- "java.lang.Object.toString()"
+- "java.lang.Object.wait()"
+- "java.lang.Object.wait(long)"
+- "java.lang.Object.wait(long,int)"
+syntax: "public final class EncryptionScopesClient"
 constructors:
-- com.azure.resourcemanager.storage.fluent.EncryptionScopesClient.EncryptionScopesClient(com.azure.resourcemanager.storage.StorageManagementClient)
+- "com.azure.resourcemanager.storage.fluent.EncryptionScopesClient.EncryptionScopesClient(com.azure.resourcemanager.storage.StorageManagementClient)"
 methods:
-- com.azure.resourcemanager.storage.fluent.EncryptionScopesClient.get(java.lang.String,java.lang.String,java.lang.String)
-- com.azure.resourcemanager.storage.fluent.EncryptionScopesClient.get(java.lang.String,java.lang.String,java.lang.String,com.azure.core.util.Context)
-- com.azure.resourcemanager.storage.fluent.EncryptionScopesClient.getAsync(java.lang.String,java.lang.String,java.lang.String)
-- com.azure.resourcemanager.storage.fluent.EncryptionScopesClient.getAsync(java.lang.String,java.lang.String,java.lang.String,com.azure.core.util.Context)
-- com.azure.resourcemanager.storage.fluent.EncryptionScopesClient.getWithResponseAsync(java.lang.String,java.lang.String,java.lang.String)
-- com.azure.resourcemanager.storage.fluent.EncryptionScopesClient.getWithResponseAsync(java.lang.String,java.lang.String,java.lang.String,com.azure.core.util.Context)
-- com.azure.resourcemanager.storage.fluent.EncryptionScopesClient.list(java.lang.String,java.lang.String)
-- com.azure.resourcemanager.storage.fluent.EncryptionScopesClient.list(java.lang.String,java.lang.String,com.azure.core.util.Context)
-- com.azure.resourcemanager.storage.fluent.EncryptionScopesClient.listAsync(java.lang.String,java.lang.String)
-- com.azure.resourcemanager.storage.fluent.EncryptionScopesClient.listAsync(java.lang.String,java.lang.String,com.azure.core.util.Context)
-- com.azure.resourcemanager.storage.fluent.EncryptionScopesClient.listNextSinglePageAsync(java.lang.String)
-- com.azure.resourcemanager.storage.fluent.EncryptionScopesClient.listNextSinglePageAsync(java.lang.String,com.azure.core.util.Context)
-- com.azure.resourcemanager.storage.fluent.EncryptionScopesClient.listSinglePageAsync(java.lang.String,java.lang.String)
-- com.azure.resourcemanager.storage.fluent.EncryptionScopesClient.listSinglePageAsync(java.lang.String,java.lang.String,com.azure.core.util.Context)
-- com.azure.resourcemanager.storage.fluent.EncryptionScopesClient.patch(java.lang.String,java.lang.String,java.lang.String,com.azure.resourcemanager.storage.fluent.inner.EncryptionScopeInner)
-- com.azure.resourcemanager.storage.fluent.EncryptionScopesClient.patch(java.lang.String,java.lang.String,java.lang.String,com.azure.resourcemanager.storage.fluent.inner.EncryptionScopeInner,com.azure.core.util.Context)
-- com.azure.resourcemanager.storage.fluent.EncryptionScopesClient.patchAsync(java.lang.String,java.lang.String,java.lang.String,com.azure.resourcemanager.storage.fluent.inner.EncryptionScopeInner)
-- com.azure.resourcemanager.storage.fluent.EncryptionScopesClient.patchAsync(java.lang.String,java.lang.String,java.lang.String,com.azure.resourcemanager.storage.fluent.inner.EncryptionScopeInner,com.azure.core.util.Context)
-- com.azure.resourcemanager.storage.fluent.EncryptionScopesClient.patchWithResponseAsync(java.lang.String,java.lang.String,java.lang.String,com.azure.resourcemanager.storage.fluent.inner.EncryptionScopeInner)
-- com.azure.resourcemanager.storage.fluent.EncryptionScopesClient.patchWithResponseAsync(java.lang.String,java.lang.String,java.lang.String,com.azure.resourcemanager.storage.fluent.inner.EncryptionScopeInner,com.azure.core.util.Context)
-- com.azure.resourcemanager.storage.fluent.EncryptionScopesClient.put(java.lang.String,java.lang.String,java.lang.String,com.azure.resourcemanager.storage.fluent.inner.EncryptionScopeInner)
-- com.azure.resourcemanager.storage.fluent.EncryptionScopesClient.put(java.lang.String,java.lang.String,java.lang.String,com.azure.resourcemanager.storage.fluent.inner.EncryptionScopeInner,com.azure.core.util.Context)
-- com.azure.resourcemanager.storage.fluent.EncryptionScopesClient.putAsync(java.lang.String,java.lang.String,java.lang.String,com.azure.resourcemanager.storage.fluent.inner.EncryptionScopeInner)
-- com.azure.resourcemanager.storage.fluent.EncryptionScopesClient.putAsync(java.lang.String,java.lang.String,java.lang.String,com.azure.resourcemanager.storage.fluent.inner.EncryptionScopeInner,com.azure.core.util.Context)
-- com.azure.resourcemanager.storage.fluent.EncryptionScopesClient.putWithResponseAsync(java.lang.String,java.lang.String,java.lang.String,com.azure.resourcemanager.storage.fluent.inner.EncryptionScopeInner)
-- com.azure.resourcemanager.storage.fluent.EncryptionScopesClient.putWithResponseAsync(java.lang.String,java.lang.String,java.lang.String,com.azure.resourcemanager.storage.fluent.inner.EncryptionScopeInner,com.azure.core.util.Context)
-type: class
+- "com.azure.resourcemanager.storage.fluent.EncryptionScopesClient.get(java.lang.String,java.lang.String,java.lang.String)"
+- "com.azure.resourcemanager.storage.fluent.EncryptionScopesClient.get(java.lang.String,java.lang.String,java.lang.String,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.storage.fluent.EncryptionScopesClient.getAsync(java.lang.String,java.lang.String,java.lang.String)"
+- "com.azure.resourcemanager.storage.fluent.EncryptionScopesClient.getAsync(java.lang.String,java.lang.String,java.lang.String,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.storage.fluent.EncryptionScopesClient.getWithResponseAsync(java.lang.String,java.lang.String,java.lang.String)"
+- "com.azure.resourcemanager.storage.fluent.EncryptionScopesClient.getWithResponseAsync(java.lang.String,java.lang.String,java.lang.String,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.storage.fluent.EncryptionScopesClient.list(java.lang.String,java.lang.String)"
+- "com.azure.resourcemanager.storage.fluent.EncryptionScopesClient.list(java.lang.String,java.lang.String,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.storage.fluent.EncryptionScopesClient.listAsync(java.lang.String,java.lang.String)"
+- "com.azure.resourcemanager.storage.fluent.EncryptionScopesClient.listAsync(java.lang.String,java.lang.String,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.storage.fluent.EncryptionScopesClient.listNextSinglePageAsync(java.lang.String)"
+- "com.azure.resourcemanager.storage.fluent.EncryptionScopesClient.listNextSinglePageAsync(java.lang.String,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.storage.fluent.EncryptionScopesClient.listSinglePageAsync(java.lang.String,java.lang.String)"
+- "com.azure.resourcemanager.storage.fluent.EncryptionScopesClient.listSinglePageAsync(java.lang.String,java.lang.String,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.storage.fluent.EncryptionScopesClient.patch(java.lang.String,java.lang.String,java.lang.String,com.azure.resourcemanager.storage.fluent.inner.EncryptionScopeInner)"
+- "com.azure.resourcemanager.storage.fluent.EncryptionScopesClient.patch(java.lang.String,java.lang.String,java.lang.String,com.azure.resourcemanager.storage.fluent.inner.EncryptionScopeInner,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.storage.fluent.EncryptionScopesClient.patchAsync(java.lang.String,java.lang.String,java.lang.String,com.azure.resourcemanager.storage.fluent.inner.EncryptionScopeInner)"
+- "com.azure.resourcemanager.storage.fluent.EncryptionScopesClient.patchAsync(java.lang.String,java.lang.String,java.lang.String,com.azure.resourcemanager.storage.fluent.inner.EncryptionScopeInner,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.storage.fluent.EncryptionScopesClient.patchWithResponseAsync(java.lang.String,java.lang.String,java.lang.String,com.azure.resourcemanager.storage.fluent.inner.EncryptionScopeInner)"
+- "com.azure.resourcemanager.storage.fluent.EncryptionScopesClient.patchWithResponseAsync(java.lang.String,java.lang.String,java.lang.String,com.azure.resourcemanager.storage.fluent.inner.EncryptionScopeInner,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.storage.fluent.EncryptionScopesClient.put(java.lang.String,java.lang.String,java.lang.String,com.azure.resourcemanager.storage.fluent.inner.EncryptionScopeInner)"
+- "com.azure.resourcemanager.storage.fluent.EncryptionScopesClient.put(java.lang.String,java.lang.String,java.lang.String,com.azure.resourcemanager.storage.fluent.inner.EncryptionScopeInner,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.storage.fluent.EncryptionScopesClient.putAsync(java.lang.String,java.lang.String,java.lang.String,com.azure.resourcemanager.storage.fluent.inner.EncryptionScopeInner)"
+- "com.azure.resourcemanager.storage.fluent.EncryptionScopesClient.putAsync(java.lang.String,java.lang.String,java.lang.String,com.azure.resourcemanager.storage.fluent.inner.EncryptionScopeInner,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.storage.fluent.EncryptionScopesClient.putWithResponseAsync(java.lang.String,java.lang.String,java.lang.String,com.azure.resourcemanager.storage.fluent.inner.EncryptionScopeInner)"
+- "com.azure.resourcemanager.storage.fluent.EncryptionScopesClient.putWithResponseAsync(java.lang.String,java.lang.String,java.lang.String,com.azure.resourcemanager.storage.fluent.inner.EncryptionScopeInner,com.azure.core.util.Context)"
+type: "class"
 metadata: {}
-package: com.azure.resourcemanager.storage.fluent
+package: "com.azure.resourcemanager.storage.fluent"
 artifact: com.azure.resourcemanager:azure-resourcemanager-storage:2.0.0-beta.2

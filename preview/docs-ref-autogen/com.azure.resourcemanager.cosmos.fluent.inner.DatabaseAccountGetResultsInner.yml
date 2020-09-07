@@ -1,69 +1,69 @@
 ### YamlMime:JavaType
-uid: com.azure.resourcemanager.cosmos.fluent.inner.DatabaseAccountGetResultsInner
-fullName: com.azure.resourcemanager.cosmos.fluent.inner.DatabaseAccountGetResultsInner
-name: DatabaseAccountGetResultsInner
-nameWithType: DatabaseAccountGetResultsInner
-summary: The DatabaseAccountGetResults model.
+uid: "com.azure.resourcemanager.cosmos.fluent.inner.DatabaseAccountGetResultsInner"
+fullName: "com.azure.resourcemanager.cosmos.fluent.inner.DatabaseAccountGetResultsInner"
+name: "DatabaseAccountGetResultsInner"
+nameWithType: "DatabaseAccountGetResultsInner"
+summary: "The DatabaseAccountGetResults model."
 inheritances:
-- <xref href="java.lang.Object" data-throw-if-not-resolved="False" />
-- <xref href="com.azure.core.management.ProxyResource" data-throw-if-not-resolved="False" />
-- <xref href="com.azure.core.management.Resource" data-throw-if-not-resolved="False" />
-- <xref href="com.azure.resourcemanager.cosmos.models.ArmResourceProperties" data-throw-if-not-resolved="False" />
+- "<xref href=\"java.lang.Object\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.azure.core.management.ProxyResource\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.azure.core.management.Resource\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.azure.resourcemanager.cosmos.models.ArmResourceProperties\" data-throw-if-not-resolved=\"False\" />"
 inheritedMembers:
-- com.azure.core.management.ProxyResource.id()
-- com.azure.core.management.ProxyResource.name()
-- com.azure.core.management.ProxyResource.type()
-- com.azure.core.management.Resource.location()
-- com.azure.core.management.Resource.tags()
-- com.azure.core.management.Resource.withLocation(java.lang.String)
-- com.azure.core.management.Resource.withTags(java.util.Map<java.lang.String,java.lang.String>)
-- com.azure.resourcemanager.cosmos.models.ArmResourceProperties.validate()
-- java.lang.Object.clone()
-- java.lang.Object.equals(java.lang.Object)
-- java.lang.Object.finalize()
-- java.lang.Object.getClass()
-- java.lang.Object.hashCode()
-- java.lang.Object.notify()
-- java.lang.Object.notifyAll()
-- java.lang.Object.toString()
-- java.lang.Object.wait()
-- java.lang.Object.wait(long)
-- java.lang.Object.wait(long,int)
-syntax: public class DatabaseAccountGetResultsInner extends ArmResourceProperties
+- "com.azure.core.management.ProxyResource.id()"
+- "com.azure.core.management.ProxyResource.name()"
+- "com.azure.core.management.ProxyResource.type()"
+- "com.azure.core.management.Resource.location()"
+- "com.azure.core.management.Resource.tags()"
+- "com.azure.core.management.Resource.withLocation(java.lang.String)"
+- "com.azure.core.management.Resource.withTags(java.util.Map<java.lang.String,java.lang.String>)"
+- "com.azure.resourcemanager.cosmos.models.ArmResourceProperties.validate()"
+- "java.lang.Object.clone()"
+- "java.lang.Object.equals(java.lang.Object)"
+- "java.lang.Object.finalize()"
+- "java.lang.Object.getClass()"
+- "java.lang.Object.hashCode()"
+- "java.lang.Object.notify()"
+- "java.lang.Object.notifyAll()"
+- "java.lang.Object.toString()"
+- "java.lang.Object.wait()"
+- "java.lang.Object.wait(long)"
+- "java.lang.Object.wait(long,int)"
+syntax: "public class DatabaseAccountGetResultsInner extends ArmResourceProperties"
 constructors:
-- com.azure.resourcemanager.cosmos.fluent.inner.DatabaseAccountGetResultsInner.DatabaseAccountGetResultsInner()
+- "com.azure.resourcemanager.cosmos.fluent.inner.DatabaseAccountGetResultsInner.DatabaseAccountGetResultsInner()"
 methods:
-- com.azure.resourcemanager.cosmos.fluent.inner.DatabaseAccountGetResultsInner.capabilities()
-- com.azure.resourcemanager.cosmos.fluent.inner.DatabaseAccountGetResultsInner.connectorOffer()
-- com.azure.resourcemanager.cosmos.fluent.inner.DatabaseAccountGetResultsInner.consistencyPolicy()
-- com.azure.resourcemanager.cosmos.fluent.inner.DatabaseAccountGetResultsInner.databaseAccountOfferType()
-- com.azure.resourcemanager.cosmos.fluent.inner.DatabaseAccountGetResultsInner.disableKeyBasedMetadataWriteAccess()
-- com.azure.resourcemanager.cosmos.fluent.inner.DatabaseAccountGetResultsInner.documentEndpoint()
-- com.azure.resourcemanager.cosmos.fluent.inner.DatabaseAccountGetResultsInner.enableAutomaticFailover()
-- com.azure.resourcemanager.cosmos.fluent.inner.DatabaseAccountGetResultsInner.enableCassandraConnector()
-- com.azure.resourcemanager.cosmos.fluent.inner.DatabaseAccountGetResultsInner.enableMultipleWriteLocations()
-- com.azure.resourcemanager.cosmos.fluent.inner.DatabaseAccountGetResultsInner.failoverPolicies()
-- com.azure.resourcemanager.cosmos.fluent.inner.DatabaseAccountGetResultsInner.ipRangeFilter()
-- com.azure.resourcemanager.cosmos.fluent.inner.DatabaseAccountGetResultsInner.isVirtualNetworkFilterEnabled()
-- com.azure.resourcemanager.cosmos.fluent.inner.DatabaseAccountGetResultsInner.kind()
-- com.azure.resourcemanager.cosmos.fluent.inner.DatabaseAccountGetResultsInner.locations()
-- com.azure.resourcemanager.cosmos.fluent.inner.DatabaseAccountGetResultsInner.provisioningState()
-- com.azure.resourcemanager.cosmos.fluent.inner.DatabaseAccountGetResultsInner.readLocations()
-- com.azure.resourcemanager.cosmos.fluent.inner.DatabaseAccountGetResultsInner.validate()
-- com.azure.resourcemanager.cosmos.fluent.inner.DatabaseAccountGetResultsInner.virtualNetworkRules()
-- com.azure.resourcemanager.cosmos.fluent.inner.DatabaseAccountGetResultsInner.withCapabilities(java.util.List<com.azure.resourcemanager.cosmos.models.Capability>)
-- com.azure.resourcemanager.cosmos.fluent.inner.DatabaseAccountGetResultsInner.withConnectorOffer(com.azure.resourcemanager.cosmos.models.ConnectorOffer)
-- com.azure.resourcemanager.cosmos.fluent.inner.DatabaseAccountGetResultsInner.withConsistencyPolicy(com.azure.resourcemanager.cosmos.models.ConsistencyPolicy)
-- com.azure.resourcemanager.cosmos.fluent.inner.DatabaseAccountGetResultsInner.withDisableKeyBasedMetadataWriteAccess(java.lang.Boolean)
-- com.azure.resourcemanager.cosmos.fluent.inner.DatabaseAccountGetResultsInner.withEnableAutomaticFailover(java.lang.Boolean)
-- com.azure.resourcemanager.cosmos.fluent.inner.DatabaseAccountGetResultsInner.withEnableCassandraConnector(java.lang.Boolean)
-- com.azure.resourcemanager.cosmos.fluent.inner.DatabaseAccountGetResultsInner.withEnableMultipleWriteLocations(java.lang.Boolean)
-- com.azure.resourcemanager.cosmos.fluent.inner.DatabaseAccountGetResultsInner.withIpRangeFilter(java.lang.String)
-- com.azure.resourcemanager.cosmos.fluent.inner.DatabaseAccountGetResultsInner.withIsVirtualNetworkFilterEnabled(java.lang.Boolean)
-- com.azure.resourcemanager.cosmos.fluent.inner.DatabaseAccountGetResultsInner.withKind(com.azure.resourcemanager.cosmos.models.DatabaseAccountKind)
-- com.azure.resourcemanager.cosmos.fluent.inner.DatabaseAccountGetResultsInner.withVirtualNetworkRules(java.util.List<com.azure.resourcemanager.cosmos.models.VirtualNetworkRule>)
-- com.azure.resourcemanager.cosmos.fluent.inner.DatabaseAccountGetResultsInner.writeLocations()
-type: class
+- "com.azure.resourcemanager.cosmos.fluent.inner.DatabaseAccountGetResultsInner.capabilities()"
+- "com.azure.resourcemanager.cosmos.fluent.inner.DatabaseAccountGetResultsInner.connectorOffer()"
+- "com.azure.resourcemanager.cosmos.fluent.inner.DatabaseAccountGetResultsInner.consistencyPolicy()"
+- "com.azure.resourcemanager.cosmos.fluent.inner.DatabaseAccountGetResultsInner.databaseAccountOfferType()"
+- "com.azure.resourcemanager.cosmos.fluent.inner.DatabaseAccountGetResultsInner.disableKeyBasedMetadataWriteAccess()"
+- "com.azure.resourcemanager.cosmos.fluent.inner.DatabaseAccountGetResultsInner.documentEndpoint()"
+- "com.azure.resourcemanager.cosmos.fluent.inner.DatabaseAccountGetResultsInner.enableAutomaticFailover()"
+- "com.azure.resourcemanager.cosmos.fluent.inner.DatabaseAccountGetResultsInner.enableCassandraConnector()"
+- "com.azure.resourcemanager.cosmos.fluent.inner.DatabaseAccountGetResultsInner.enableMultipleWriteLocations()"
+- "com.azure.resourcemanager.cosmos.fluent.inner.DatabaseAccountGetResultsInner.failoverPolicies()"
+- "com.azure.resourcemanager.cosmos.fluent.inner.DatabaseAccountGetResultsInner.ipRangeFilter()"
+- "com.azure.resourcemanager.cosmos.fluent.inner.DatabaseAccountGetResultsInner.isVirtualNetworkFilterEnabled()"
+- "com.azure.resourcemanager.cosmos.fluent.inner.DatabaseAccountGetResultsInner.kind()"
+- "com.azure.resourcemanager.cosmos.fluent.inner.DatabaseAccountGetResultsInner.locations()"
+- "com.azure.resourcemanager.cosmos.fluent.inner.DatabaseAccountGetResultsInner.provisioningState()"
+- "com.azure.resourcemanager.cosmos.fluent.inner.DatabaseAccountGetResultsInner.readLocations()"
+- "com.azure.resourcemanager.cosmos.fluent.inner.DatabaseAccountGetResultsInner.validate()"
+- "com.azure.resourcemanager.cosmos.fluent.inner.DatabaseAccountGetResultsInner.virtualNetworkRules()"
+- "com.azure.resourcemanager.cosmos.fluent.inner.DatabaseAccountGetResultsInner.withCapabilities(java.util.List<com.azure.resourcemanager.cosmos.models.Capability>)"
+- "com.azure.resourcemanager.cosmos.fluent.inner.DatabaseAccountGetResultsInner.withConnectorOffer(com.azure.resourcemanager.cosmos.models.ConnectorOffer)"
+- "com.azure.resourcemanager.cosmos.fluent.inner.DatabaseAccountGetResultsInner.withConsistencyPolicy(com.azure.resourcemanager.cosmos.models.ConsistencyPolicy)"
+- "com.azure.resourcemanager.cosmos.fluent.inner.DatabaseAccountGetResultsInner.withDisableKeyBasedMetadataWriteAccess(java.lang.Boolean)"
+- "com.azure.resourcemanager.cosmos.fluent.inner.DatabaseAccountGetResultsInner.withEnableAutomaticFailover(java.lang.Boolean)"
+- "com.azure.resourcemanager.cosmos.fluent.inner.DatabaseAccountGetResultsInner.withEnableCassandraConnector(java.lang.Boolean)"
+- "com.azure.resourcemanager.cosmos.fluent.inner.DatabaseAccountGetResultsInner.withEnableMultipleWriteLocations(java.lang.Boolean)"
+- "com.azure.resourcemanager.cosmos.fluent.inner.DatabaseAccountGetResultsInner.withIpRangeFilter(java.lang.String)"
+- "com.azure.resourcemanager.cosmos.fluent.inner.DatabaseAccountGetResultsInner.withIsVirtualNetworkFilterEnabled(java.lang.Boolean)"
+- "com.azure.resourcemanager.cosmos.fluent.inner.DatabaseAccountGetResultsInner.withKind(com.azure.resourcemanager.cosmos.models.DatabaseAccountKind)"
+- "com.azure.resourcemanager.cosmos.fluent.inner.DatabaseAccountGetResultsInner.withVirtualNetworkRules(java.util.List<com.azure.resourcemanager.cosmos.models.VirtualNetworkRule>)"
+- "com.azure.resourcemanager.cosmos.fluent.inner.DatabaseAccountGetResultsInner.writeLocations()"
+type: "class"
 metadata: {}
-package: com.azure.resourcemanager.cosmos.fluent.inner
+package: "com.azure.resourcemanager.cosmos.fluent.inner"
 artifact: com.azure.resourcemanager:azure-resourcemanager-cosmos:2.0.0-beta.2

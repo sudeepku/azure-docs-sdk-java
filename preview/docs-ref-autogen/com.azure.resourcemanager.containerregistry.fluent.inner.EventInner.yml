@@ -1,37 +1,37 @@
 ### YamlMime:JavaType
-uid: com.azure.resourcemanager.containerregistry.fluent.inner.EventInner
-fullName: com.azure.resourcemanager.containerregistry.fluent.inner.EventInner
-name: EventInner
-nameWithType: EventInner
-summary: The Event model.
+uid: "com.azure.resourcemanager.containerregistry.fluent.inner.EventInner"
+fullName: "com.azure.resourcemanager.containerregistry.fluent.inner.EventInner"
+name: "EventInner"
+nameWithType: "EventInner"
+summary: "The Event model."
 inheritances:
-- <xref href="java.lang.Object" data-throw-if-not-resolved="False" />
-- <xref href="com.azure.resourcemanager.containerregistry.fluent.inner.EventInfoInner" data-throw-if-not-resolved="False" />
+- "<xref href=\"java.lang.Object\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.azure.resourcemanager.containerregistry.fluent.inner.EventInfoInner\" data-throw-if-not-resolved=\"False\" />"
 inheritedMembers:
-- com.azure.resourcemanager.containerregistry.fluent.inner.EventInfoInner.id()
-- com.azure.resourcemanager.containerregistry.fluent.inner.EventInfoInner.validate()
-- com.azure.resourcemanager.containerregistry.fluent.inner.EventInfoInner.withId(java.lang.String)
-- java.lang.Object.clone()
-- java.lang.Object.equals(java.lang.Object)
-- java.lang.Object.finalize()
-- java.lang.Object.getClass()
-- java.lang.Object.hashCode()
-- java.lang.Object.notify()
-- java.lang.Object.notifyAll()
-- java.lang.Object.toString()
-- java.lang.Object.wait()
-- java.lang.Object.wait(long)
-- java.lang.Object.wait(long,int)
-syntax: public final class EventInner extends EventInfoInner
+- "com.azure.resourcemanager.containerregistry.fluent.inner.EventInfoInner.id()"
+- "com.azure.resourcemanager.containerregistry.fluent.inner.EventInfoInner.validate()"
+- "com.azure.resourcemanager.containerregistry.fluent.inner.EventInfoInner.withId(java.lang.String)"
+- "java.lang.Object.clone()"
+- "java.lang.Object.equals(java.lang.Object)"
+- "java.lang.Object.finalize()"
+- "java.lang.Object.getClass()"
+- "java.lang.Object.hashCode()"
+- "java.lang.Object.notify()"
+- "java.lang.Object.notifyAll()"
+- "java.lang.Object.toString()"
+- "java.lang.Object.wait()"
+- "java.lang.Object.wait(long)"
+- "java.lang.Object.wait(long,int)"
+syntax: "public final class EventInner extends EventInfoInner"
 constructors:
-- com.azure.resourcemanager.containerregistry.fluent.inner.EventInner.EventInner()
+- "com.azure.resourcemanager.containerregistry.fluent.inner.EventInner.EventInner()"
 methods:
-- com.azure.resourcemanager.containerregistry.fluent.inner.EventInner.eventRequestMessage()
-- com.azure.resourcemanager.containerregistry.fluent.inner.EventInner.eventResponseMessage()
-- com.azure.resourcemanager.containerregistry.fluent.inner.EventInner.validate()
-- com.azure.resourcemanager.containerregistry.fluent.inner.EventInner.withEventRequestMessage(com.azure.resourcemanager.containerregistry.models.EventRequestMessage)
-- com.azure.resourcemanager.containerregistry.fluent.inner.EventInner.withEventResponseMessage(com.azure.resourcemanager.containerregistry.models.EventResponseMessage)
-type: class
+- "com.azure.resourcemanager.containerregistry.fluent.inner.EventInner.eventRequestMessage()"
+- "com.azure.resourcemanager.containerregistry.fluent.inner.EventInner.eventResponseMessage()"
+- "com.azure.resourcemanager.containerregistry.fluent.inner.EventInner.validate()"
+- "com.azure.resourcemanager.containerregistry.fluent.inner.EventInner.withEventRequestMessage(com.azure.resourcemanager.containerregistry.models.EventRequestMessage)"
+- "com.azure.resourcemanager.containerregistry.fluent.inner.EventInner.withEventResponseMessage(com.azure.resourcemanager.containerregistry.models.EventResponseMessage)"
+type: "class"
 metadata: {}
-package: com.azure.resourcemanager.containerregistry.fluent.inner
+package: "com.azure.resourcemanager.containerregistry.fluent.inner"
 artifact: com.azure.resourcemanager:azure-resourcemanager-containerregistry:2.0.0-beta.2

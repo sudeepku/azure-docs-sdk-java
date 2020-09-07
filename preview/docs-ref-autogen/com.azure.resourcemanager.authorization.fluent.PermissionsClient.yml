@@ -1,44 +1,44 @@
 ### YamlMime:JavaType
-uid: com.azure.resourcemanager.authorization.fluent.PermissionsClient
-fullName: com.azure.resourcemanager.authorization.fluent.PermissionsClient
-name: PermissionsClient
-nameWithType: PermissionsClient
-summary: An instance of this class provides access to all the operations defined in Permissions.
+uid: "com.azure.resourcemanager.authorization.fluent.PermissionsClient"
+fullName: "com.azure.resourcemanager.authorization.fluent.PermissionsClient"
+name: "PermissionsClient"
+nameWithType: "PermissionsClient"
+summary: "An instance of this class provides access to all the operations defined in Permissions."
 inheritances:
-- <xref href="java.lang.Object" data-throw-if-not-resolved="False" />
+- "<xref href=\"java.lang.Object\" data-throw-if-not-resolved=\"False\" />"
 inheritedMembers:
-- java.lang.Object.clone()
-- java.lang.Object.equals(java.lang.Object)
-- java.lang.Object.finalize()
-- java.lang.Object.getClass()
-- java.lang.Object.hashCode()
-- java.lang.Object.notify()
-- java.lang.Object.notifyAll()
-- java.lang.Object.toString()
-- java.lang.Object.wait()
-- java.lang.Object.wait(long)
-- java.lang.Object.wait(long,int)
-syntax: public final class PermissionsClient
+- "java.lang.Object.clone()"
+- "java.lang.Object.equals(java.lang.Object)"
+- "java.lang.Object.finalize()"
+- "java.lang.Object.getClass()"
+- "java.lang.Object.hashCode()"
+- "java.lang.Object.notify()"
+- "java.lang.Object.notifyAll()"
+- "java.lang.Object.toString()"
+- "java.lang.Object.wait()"
+- "java.lang.Object.wait(long)"
+- "java.lang.Object.wait(long,int)"
+syntax: "public final class PermissionsClient"
 constructors:
-- com.azure.resourcemanager.authorization.fluent.PermissionsClient.PermissionsClient(com.azure.resourcemanager.authorization.AuthorizationManagementClient)
+- "com.azure.resourcemanager.authorization.fluent.PermissionsClient.PermissionsClient(com.azure.resourcemanager.authorization.AuthorizationManagementClient)"
 methods:
-- com.azure.resourcemanager.authorization.fluent.PermissionsClient.listByResourceGroup(java.lang.String)
-- com.azure.resourcemanager.authorization.fluent.PermissionsClient.listByResourceGroup(java.lang.String,com.azure.core.util.Context)
-- com.azure.resourcemanager.authorization.fluent.PermissionsClient.listByResourceGroupAsync(java.lang.String)
-- com.azure.resourcemanager.authorization.fluent.PermissionsClient.listByResourceGroupAsync(java.lang.String,com.azure.core.util.Context)
-- com.azure.resourcemanager.authorization.fluent.PermissionsClient.listByResourceGroupSinglePageAsync(java.lang.String)
-- com.azure.resourcemanager.authorization.fluent.PermissionsClient.listByResourceGroupSinglePageAsync(java.lang.String,com.azure.core.util.Context)
-- com.azure.resourcemanager.authorization.fluent.PermissionsClient.listForResource(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)
-- com.azure.resourcemanager.authorization.fluent.PermissionsClient.listForResource(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,com.azure.core.util.Context)
-- com.azure.resourcemanager.authorization.fluent.PermissionsClient.listForResourceAsync(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)
-- com.azure.resourcemanager.authorization.fluent.PermissionsClient.listForResourceAsync(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,com.azure.core.util.Context)
-- com.azure.resourcemanager.authorization.fluent.PermissionsClient.listForResourceGroupNextSinglePageAsync(java.lang.String)
-- com.azure.resourcemanager.authorization.fluent.PermissionsClient.listForResourceGroupNextSinglePageAsync(java.lang.String,com.azure.core.util.Context)
-- com.azure.resourcemanager.authorization.fluent.PermissionsClient.listForResourceNextSinglePageAsync(java.lang.String)
-- com.azure.resourcemanager.authorization.fluent.PermissionsClient.listForResourceNextSinglePageAsync(java.lang.String,com.azure.core.util.Context)
-- com.azure.resourcemanager.authorization.fluent.PermissionsClient.listForResourceSinglePageAsync(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)
-- com.azure.resourcemanager.authorization.fluent.PermissionsClient.listForResourceSinglePageAsync(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,com.azure.core.util.Context)
-type: class
+- "com.azure.resourcemanager.authorization.fluent.PermissionsClient.listByResourceGroup(java.lang.String)"
+- "com.azure.resourcemanager.authorization.fluent.PermissionsClient.listByResourceGroup(java.lang.String,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.authorization.fluent.PermissionsClient.listByResourceGroupAsync(java.lang.String)"
+- "com.azure.resourcemanager.authorization.fluent.PermissionsClient.listByResourceGroupAsync(java.lang.String,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.authorization.fluent.PermissionsClient.listByResourceGroupSinglePageAsync(java.lang.String)"
+- "com.azure.resourcemanager.authorization.fluent.PermissionsClient.listByResourceGroupSinglePageAsync(java.lang.String,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.authorization.fluent.PermissionsClient.listForResource(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)"
+- "com.azure.resourcemanager.authorization.fluent.PermissionsClient.listForResource(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.authorization.fluent.PermissionsClient.listForResourceAsync(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)"
+- "com.azure.resourcemanager.authorization.fluent.PermissionsClient.listForResourceAsync(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.authorization.fluent.PermissionsClient.listForResourceGroupNextSinglePageAsync(java.lang.String)"
+- "com.azure.resourcemanager.authorization.fluent.PermissionsClient.listForResourceGroupNextSinglePageAsync(java.lang.String,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.authorization.fluent.PermissionsClient.listForResourceNextSinglePageAsync(java.lang.String)"
+- "com.azure.resourcemanager.authorization.fluent.PermissionsClient.listForResourceNextSinglePageAsync(java.lang.String,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.authorization.fluent.PermissionsClient.listForResourceSinglePageAsync(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)"
+- "com.azure.resourcemanager.authorization.fluent.PermissionsClient.listForResourceSinglePageAsync(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,com.azure.core.util.Context)"
+type: "class"
 metadata: {}
-package: com.azure.resourcemanager.authorization.fluent
+package: "com.azure.resourcemanager.authorization.fluent"
 artifact: com.azure.resourcemanager:azure-resourcemanager-authorization:2.0.0-beta.2

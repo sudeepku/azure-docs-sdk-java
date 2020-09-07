@@ -1,96 +1,96 @@
 ### YamlMime:JavaType
-uid: com.azure.resourcemanager.network.fluent.VpnSitesClient
-fullName: com.azure.resourcemanager.network.fluent.VpnSitesClient
-name: VpnSitesClient
-nameWithType: VpnSitesClient
-summary: An instance of this class provides access to all the operations defined in VpnSites.
+uid: "com.azure.resourcemanager.network.fluent.VpnSitesClient"
+fullName: "com.azure.resourcemanager.network.fluent.VpnSitesClient"
+name: "VpnSitesClient"
+nameWithType: "VpnSitesClient"
+summary: "An instance of this class provides access to all the operations defined in VpnSites."
 inheritances:
-- <xref href="java.lang.Object" data-throw-if-not-resolved="False" />
+- "<xref href=\"java.lang.Object\" data-throw-if-not-resolved=\"False\" />"
 inheritedMembers:
-- java.lang.Object.clone()
-- java.lang.Object.equals(java.lang.Object)
-- java.lang.Object.finalize()
-- java.lang.Object.getClass()
-- java.lang.Object.hashCode()
-- java.lang.Object.notify()
-- java.lang.Object.notifyAll()
-- java.lang.Object.toString()
-- java.lang.Object.wait()
-- java.lang.Object.wait(long)
-- java.lang.Object.wait(long,int)
-syntax: public final class VpnSitesClient implements InnerSupportsGet<VpnSiteInner>, InnerSupportsListing<VpnSiteInner>, InnerSupportsDelete<Void>
+- "java.lang.Object.clone()"
+- "java.lang.Object.equals(java.lang.Object)"
+- "java.lang.Object.finalize()"
+- "java.lang.Object.getClass()"
+- "java.lang.Object.hashCode()"
+- "java.lang.Object.notify()"
+- "java.lang.Object.notifyAll()"
+- "java.lang.Object.toString()"
+- "java.lang.Object.wait()"
+- "java.lang.Object.wait(long)"
+- "java.lang.Object.wait(long,int)"
+syntax: "public final class VpnSitesClient implements InnerSupportsGet<VpnSiteInner>, InnerSupportsListing<VpnSiteInner>, InnerSupportsDelete<Void>"
 constructors:
-- com.azure.resourcemanager.network.fluent.VpnSitesClient.VpnSitesClient(com.azure.resourcemanager.network.NetworkManagementClient)
+- "com.azure.resourcemanager.network.fluent.VpnSitesClient.VpnSitesClient(com.azure.resourcemanager.network.NetworkManagementClient)"
 methods:
-- com.azure.resourcemanager.network.fluent.VpnSitesClient.beginCreateOrUpdate(java.lang.String,java.lang.String,com.azure.resourcemanager.network.fluent.inner.VpnSiteInner)
-- com.azure.resourcemanager.network.fluent.VpnSitesClient.beginCreateOrUpdate(java.lang.String,java.lang.String,com.azure.resourcemanager.network.fluent.inner.VpnSiteInner,com.azure.core.util.Context)
-- com.azure.resourcemanager.network.fluent.VpnSitesClient.beginCreateOrUpdateWithoutPolling(java.lang.String,java.lang.String,com.azure.resourcemanager.network.fluent.inner.VpnSiteInner)
-- com.azure.resourcemanager.network.fluent.VpnSitesClient.beginCreateOrUpdateWithoutPolling(java.lang.String,java.lang.String,com.azure.resourcemanager.network.fluent.inner.VpnSiteInner,com.azure.core.util.Context)
-- com.azure.resourcemanager.network.fluent.VpnSitesClient.beginCreateOrUpdateWithoutPollingAsync(java.lang.String,java.lang.String,com.azure.resourcemanager.network.fluent.inner.VpnSiteInner)
-- com.azure.resourcemanager.network.fluent.VpnSitesClient.beginCreateOrUpdateWithoutPollingAsync(java.lang.String,java.lang.String,com.azure.resourcemanager.network.fluent.inner.VpnSiteInner,com.azure.core.util.Context)
-- com.azure.resourcemanager.network.fluent.VpnSitesClient.beginCreateOrUpdateWithoutPollingWithResponseAsync(java.lang.String,java.lang.String,com.azure.resourcemanager.network.fluent.inner.VpnSiteInner)
-- com.azure.resourcemanager.network.fluent.VpnSitesClient.beginCreateOrUpdateWithoutPollingWithResponseAsync(java.lang.String,java.lang.String,com.azure.resourcemanager.network.fluent.inner.VpnSiteInner,com.azure.core.util.Context)
-- com.azure.resourcemanager.network.fluent.VpnSitesClient.beginDelete(java.lang.String,java.lang.String)
-- com.azure.resourcemanager.network.fluent.VpnSitesClient.beginDelete(java.lang.String,java.lang.String,com.azure.core.util.Context)
-- com.azure.resourcemanager.network.fluent.VpnSitesClient.beginDeleteWithoutPolling(java.lang.String,java.lang.String)
-- com.azure.resourcemanager.network.fluent.VpnSitesClient.beginDeleteWithoutPolling(java.lang.String,java.lang.String,com.azure.core.util.Context)
-- com.azure.resourcemanager.network.fluent.VpnSitesClient.beginDeleteWithoutPollingAsync(java.lang.String,java.lang.String)
-- com.azure.resourcemanager.network.fluent.VpnSitesClient.beginDeleteWithoutPollingAsync(java.lang.String,java.lang.String,com.azure.core.util.Context)
-- com.azure.resourcemanager.network.fluent.VpnSitesClient.beginDeleteWithoutPollingWithResponseAsync(java.lang.String,java.lang.String)
-- com.azure.resourcemanager.network.fluent.VpnSitesClient.beginDeleteWithoutPollingWithResponseAsync(java.lang.String,java.lang.String,com.azure.core.util.Context)
-- com.azure.resourcemanager.network.fluent.VpnSitesClient.beginUpdateTags(java.lang.String,java.lang.String,java.util.Map<java.lang.String,java.lang.String>)
-- com.azure.resourcemanager.network.fluent.VpnSitesClient.beginUpdateTags(java.lang.String,java.lang.String,java.util.Map<java.lang.String,java.lang.String>,com.azure.core.util.Context)
-- com.azure.resourcemanager.network.fluent.VpnSitesClient.beginUpdateTagsWithoutPolling(java.lang.String,java.lang.String,java.util.Map<java.lang.String,java.lang.String>)
-- com.azure.resourcemanager.network.fluent.VpnSitesClient.beginUpdateTagsWithoutPolling(java.lang.String,java.lang.String,java.util.Map<java.lang.String,java.lang.String>,com.azure.core.util.Context)
-- com.azure.resourcemanager.network.fluent.VpnSitesClient.beginUpdateTagsWithoutPollingAsync(java.lang.String,java.lang.String,java.util.Map<java.lang.String,java.lang.String>)
-- com.azure.resourcemanager.network.fluent.VpnSitesClient.beginUpdateTagsWithoutPollingAsync(java.lang.String,java.lang.String,java.util.Map<java.lang.String,java.lang.String>,com.azure.core.util.Context)
-- com.azure.resourcemanager.network.fluent.VpnSitesClient.beginUpdateTagsWithoutPollingWithResponseAsync(java.lang.String,java.lang.String,java.util.Map<java.lang.String,java.lang.String>)
-- com.azure.resourcemanager.network.fluent.VpnSitesClient.beginUpdateTagsWithoutPollingWithResponseAsync(java.lang.String,java.lang.String,java.util.Map<java.lang.String,java.lang.String>,com.azure.core.util.Context)
-- com.azure.resourcemanager.network.fluent.VpnSitesClient.createOrUpdate(java.lang.String,java.lang.String,com.azure.resourcemanager.network.fluent.inner.VpnSiteInner)
-- com.azure.resourcemanager.network.fluent.VpnSitesClient.createOrUpdate(java.lang.String,java.lang.String,com.azure.resourcemanager.network.fluent.inner.VpnSiteInner,com.azure.core.util.Context)
-- com.azure.resourcemanager.network.fluent.VpnSitesClient.createOrUpdateAsync(java.lang.String,java.lang.String,com.azure.resourcemanager.network.fluent.inner.VpnSiteInner)
-- com.azure.resourcemanager.network.fluent.VpnSitesClient.createOrUpdateAsync(java.lang.String,java.lang.String,com.azure.resourcemanager.network.fluent.inner.VpnSiteInner,com.azure.core.util.Context)
-- com.azure.resourcemanager.network.fluent.VpnSitesClient.createOrUpdateWithResponseAsync(java.lang.String,java.lang.String,com.azure.resourcemanager.network.fluent.inner.VpnSiteInner)
-- com.azure.resourcemanager.network.fluent.VpnSitesClient.createOrUpdateWithResponseAsync(java.lang.String,java.lang.String,com.azure.resourcemanager.network.fluent.inner.VpnSiteInner,com.azure.core.util.Context)
-- com.azure.resourcemanager.network.fluent.VpnSitesClient.delete(java.lang.String,java.lang.String)
-- com.azure.resourcemanager.network.fluent.VpnSitesClient.delete(java.lang.String,java.lang.String,com.azure.core.util.Context)
-- com.azure.resourcemanager.network.fluent.VpnSitesClient.deleteAsync(java.lang.String,java.lang.String)
-- com.azure.resourcemanager.network.fluent.VpnSitesClient.deleteAsync(java.lang.String,java.lang.String,com.azure.core.util.Context)
-- com.azure.resourcemanager.network.fluent.VpnSitesClient.deleteWithResponseAsync(java.lang.String,java.lang.String)
-- com.azure.resourcemanager.network.fluent.VpnSitesClient.deleteWithResponseAsync(java.lang.String,java.lang.String,com.azure.core.util.Context)
-- com.azure.resourcemanager.network.fluent.VpnSitesClient.getByResourceGroup(java.lang.String,java.lang.String)
-- com.azure.resourcemanager.network.fluent.VpnSitesClient.getByResourceGroup(java.lang.String,java.lang.String,com.azure.core.util.Context)
-- com.azure.resourcemanager.network.fluent.VpnSitesClient.getByResourceGroupAsync(java.lang.String,java.lang.String)
-- com.azure.resourcemanager.network.fluent.VpnSitesClient.getByResourceGroupAsync(java.lang.String,java.lang.String,com.azure.core.util.Context)
-- com.azure.resourcemanager.network.fluent.VpnSitesClient.getByResourceGroupWithResponseAsync(java.lang.String,java.lang.String)
-- com.azure.resourcemanager.network.fluent.VpnSitesClient.getByResourceGroupWithResponseAsync(java.lang.String,java.lang.String,com.azure.core.util.Context)
-- com.azure.resourcemanager.network.fluent.VpnSitesClient.list()
-- com.azure.resourcemanager.network.fluent.VpnSitesClient.list(com.azure.core.util.Context)
-- com.azure.resourcemanager.network.fluent.VpnSitesClient.listAsync()
-- com.azure.resourcemanager.network.fluent.VpnSitesClient.listAsync(com.azure.core.util.Context)
-- com.azure.resourcemanager.network.fluent.VpnSitesClient.listByResourceGroup(java.lang.String)
-- com.azure.resourcemanager.network.fluent.VpnSitesClient.listByResourceGroup(java.lang.String,com.azure.core.util.Context)
-- com.azure.resourcemanager.network.fluent.VpnSitesClient.listByResourceGroupAsync(java.lang.String)
-- com.azure.resourcemanager.network.fluent.VpnSitesClient.listByResourceGroupAsync(java.lang.String,com.azure.core.util.Context)
-- com.azure.resourcemanager.network.fluent.VpnSitesClient.listByResourceGroupNextSinglePageAsync(java.lang.String)
-- com.azure.resourcemanager.network.fluent.VpnSitesClient.listByResourceGroupNextSinglePageAsync(java.lang.String,com.azure.core.util.Context)
-- com.azure.resourcemanager.network.fluent.VpnSitesClient.listByResourceGroupSinglePageAsync(java.lang.String)
-- com.azure.resourcemanager.network.fluent.VpnSitesClient.listByResourceGroupSinglePageAsync(java.lang.String,com.azure.core.util.Context)
-- com.azure.resourcemanager.network.fluent.VpnSitesClient.listNextSinglePageAsync(java.lang.String)
-- com.azure.resourcemanager.network.fluent.VpnSitesClient.listNextSinglePageAsync(java.lang.String,com.azure.core.util.Context)
-- com.azure.resourcemanager.network.fluent.VpnSitesClient.listSinglePageAsync()
-- com.azure.resourcemanager.network.fluent.VpnSitesClient.listSinglePageAsync(com.azure.core.util.Context)
-- com.azure.resourcemanager.network.fluent.VpnSitesClient.updateTags(java.lang.String,java.lang.String,java.util.Map<java.lang.String,java.lang.String>)
-- com.azure.resourcemanager.network.fluent.VpnSitesClient.updateTags(java.lang.String,java.lang.String,java.util.Map<java.lang.String,java.lang.String>,com.azure.core.util.Context)
-- com.azure.resourcemanager.network.fluent.VpnSitesClient.updateTagsAsync(java.lang.String,java.lang.String,java.util.Map<java.lang.String,java.lang.String>)
-- com.azure.resourcemanager.network.fluent.VpnSitesClient.updateTagsAsync(java.lang.String,java.lang.String,java.util.Map<java.lang.String,java.lang.String>,com.azure.core.util.Context)
-- com.azure.resourcemanager.network.fluent.VpnSitesClient.updateTagsWithResponseAsync(java.lang.String,java.lang.String,java.util.Map<java.lang.String,java.lang.String>)
-- com.azure.resourcemanager.network.fluent.VpnSitesClient.updateTagsWithResponseAsync(java.lang.String,java.lang.String,java.util.Map<java.lang.String,java.lang.String>,com.azure.core.util.Context)
-type: class
+- "com.azure.resourcemanager.network.fluent.VpnSitesClient.beginCreateOrUpdate(java.lang.String,java.lang.String,com.azure.resourcemanager.network.fluent.inner.VpnSiteInner)"
+- "com.azure.resourcemanager.network.fluent.VpnSitesClient.beginCreateOrUpdate(java.lang.String,java.lang.String,com.azure.resourcemanager.network.fluent.inner.VpnSiteInner,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.network.fluent.VpnSitesClient.beginCreateOrUpdateWithoutPolling(java.lang.String,java.lang.String,com.azure.resourcemanager.network.fluent.inner.VpnSiteInner)"
+- "com.azure.resourcemanager.network.fluent.VpnSitesClient.beginCreateOrUpdateWithoutPolling(java.lang.String,java.lang.String,com.azure.resourcemanager.network.fluent.inner.VpnSiteInner,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.network.fluent.VpnSitesClient.beginCreateOrUpdateWithoutPollingAsync(java.lang.String,java.lang.String,com.azure.resourcemanager.network.fluent.inner.VpnSiteInner)"
+- "com.azure.resourcemanager.network.fluent.VpnSitesClient.beginCreateOrUpdateWithoutPollingAsync(java.lang.String,java.lang.String,com.azure.resourcemanager.network.fluent.inner.VpnSiteInner,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.network.fluent.VpnSitesClient.beginCreateOrUpdateWithoutPollingWithResponseAsync(java.lang.String,java.lang.String,com.azure.resourcemanager.network.fluent.inner.VpnSiteInner)"
+- "com.azure.resourcemanager.network.fluent.VpnSitesClient.beginCreateOrUpdateWithoutPollingWithResponseAsync(java.lang.String,java.lang.String,com.azure.resourcemanager.network.fluent.inner.VpnSiteInner,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.network.fluent.VpnSitesClient.beginDelete(java.lang.String,java.lang.String)"
+- "com.azure.resourcemanager.network.fluent.VpnSitesClient.beginDelete(java.lang.String,java.lang.String,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.network.fluent.VpnSitesClient.beginDeleteWithoutPolling(java.lang.String,java.lang.String)"
+- "com.azure.resourcemanager.network.fluent.VpnSitesClient.beginDeleteWithoutPolling(java.lang.String,java.lang.String,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.network.fluent.VpnSitesClient.beginDeleteWithoutPollingAsync(java.lang.String,java.lang.String)"
+- "com.azure.resourcemanager.network.fluent.VpnSitesClient.beginDeleteWithoutPollingAsync(java.lang.String,java.lang.String,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.network.fluent.VpnSitesClient.beginDeleteWithoutPollingWithResponseAsync(java.lang.String,java.lang.String)"
+- "com.azure.resourcemanager.network.fluent.VpnSitesClient.beginDeleteWithoutPollingWithResponseAsync(java.lang.String,java.lang.String,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.network.fluent.VpnSitesClient.beginUpdateTags(java.lang.String,java.lang.String,java.util.Map<java.lang.String,java.lang.String>)"
+- "com.azure.resourcemanager.network.fluent.VpnSitesClient.beginUpdateTags(java.lang.String,java.lang.String,java.util.Map<java.lang.String,java.lang.String>,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.network.fluent.VpnSitesClient.beginUpdateTagsWithoutPolling(java.lang.String,java.lang.String,java.util.Map<java.lang.String,java.lang.String>)"
+- "com.azure.resourcemanager.network.fluent.VpnSitesClient.beginUpdateTagsWithoutPolling(java.lang.String,java.lang.String,java.util.Map<java.lang.String,java.lang.String>,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.network.fluent.VpnSitesClient.beginUpdateTagsWithoutPollingAsync(java.lang.String,java.lang.String,java.util.Map<java.lang.String,java.lang.String>)"
+- "com.azure.resourcemanager.network.fluent.VpnSitesClient.beginUpdateTagsWithoutPollingAsync(java.lang.String,java.lang.String,java.util.Map<java.lang.String,java.lang.String>,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.network.fluent.VpnSitesClient.beginUpdateTagsWithoutPollingWithResponseAsync(java.lang.String,java.lang.String,java.util.Map<java.lang.String,java.lang.String>)"
+- "com.azure.resourcemanager.network.fluent.VpnSitesClient.beginUpdateTagsWithoutPollingWithResponseAsync(java.lang.String,java.lang.String,java.util.Map<java.lang.String,java.lang.String>,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.network.fluent.VpnSitesClient.createOrUpdate(java.lang.String,java.lang.String,com.azure.resourcemanager.network.fluent.inner.VpnSiteInner)"
+- "com.azure.resourcemanager.network.fluent.VpnSitesClient.createOrUpdate(java.lang.String,java.lang.String,com.azure.resourcemanager.network.fluent.inner.VpnSiteInner,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.network.fluent.VpnSitesClient.createOrUpdateAsync(java.lang.String,java.lang.String,com.azure.resourcemanager.network.fluent.inner.VpnSiteInner)"
+- "com.azure.resourcemanager.network.fluent.VpnSitesClient.createOrUpdateAsync(java.lang.String,java.lang.String,com.azure.resourcemanager.network.fluent.inner.VpnSiteInner,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.network.fluent.VpnSitesClient.createOrUpdateWithResponseAsync(java.lang.String,java.lang.String,com.azure.resourcemanager.network.fluent.inner.VpnSiteInner)"
+- "com.azure.resourcemanager.network.fluent.VpnSitesClient.createOrUpdateWithResponseAsync(java.lang.String,java.lang.String,com.azure.resourcemanager.network.fluent.inner.VpnSiteInner,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.network.fluent.VpnSitesClient.delete(java.lang.String,java.lang.String)"
+- "com.azure.resourcemanager.network.fluent.VpnSitesClient.delete(java.lang.String,java.lang.String,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.network.fluent.VpnSitesClient.deleteAsync(java.lang.String,java.lang.String)"
+- "com.azure.resourcemanager.network.fluent.VpnSitesClient.deleteAsync(java.lang.String,java.lang.String,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.network.fluent.VpnSitesClient.deleteWithResponseAsync(java.lang.String,java.lang.String)"
+- "com.azure.resourcemanager.network.fluent.VpnSitesClient.deleteWithResponseAsync(java.lang.String,java.lang.String,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.network.fluent.VpnSitesClient.getByResourceGroup(java.lang.String,java.lang.String)"
+- "com.azure.resourcemanager.network.fluent.VpnSitesClient.getByResourceGroup(java.lang.String,java.lang.String,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.network.fluent.VpnSitesClient.getByResourceGroupAsync(java.lang.String,java.lang.String)"
+- "com.azure.resourcemanager.network.fluent.VpnSitesClient.getByResourceGroupAsync(java.lang.String,java.lang.String,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.network.fluent.VpnSitesClient.getByResourceGroupWithResponseAsync(java.lang.String,java.lang.String)"
+- "com.azure.resourcemanager.network.fluent.VpnSitesClient.getByResourceGroupWithResponseAsync(java.lang.String,java.lang.String,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.network.fluent.VpnSitesClient.list()"
+- "com.azure.resourcemanager.network.fluent.VpnSitesClient.list(com.azure.core.util.Context)"
+- "com.azure.resourcemanager.network.fluent.VpnSitesClient.listAsync()"
+- "com.azure.resourcemanager.network.fluent.VpnSitesClient.listAsync(com.azure.core.util.Context)"
+- "com.azure.resourcemanager.network.fluent.VpnSitesClient.listByResourceGroup(java.lang.String)"
+- "com.azure.resourcemanager.network.fluent.VpnSitesClient.listByResourceGroup(java.lang.String,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.network.fluent.VpnSitesClient.listByResourceGroupAsync(java.lang.String)"
+- "com.azure.resourcemanager.network.fluent.VpnSitesClient.listByResourceGroupAsync(java.lang.String,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.network.fluent.VpnSitesClient.listByResourceGroupNextSinglePageAsync(java.lang.String)"
+- "com.azure.resourcemanager.network.fluent.VpnSitesClient.listByResourceGroupNextSinglePageAsync(java.lang.String,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.network.fluent.VpnSitesClient.listByResourceGroupSinglePageAsync(java.lang.String)"
+- "com.azure.resourcemanager.network.fluent.VpnSitesClient.listByResourceGroupSinglePageAsync(java.lang.String,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.network.fluent.VpnSitesClient.listNextSinglePageAsync(java.lang.String)"
+- "com.azure.resourcemanager.network.fluent.VpnSitesClient.listNextSinglePageAsync(java.lang.String,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.network.fluent.VpnSitesClient.listSinglePageAsync()"
+- "com.azure.resourcemanager.network.fluent.VpnSitesClient.listSinglePageAsync(com.azure.core.util.Context)"
+- "com.azure.resourcemanager.network.fluent.VpnSitesClient.updateTags(java.lang.String,java.lang.String,java.util.Map<java.lang.String,java.lang.String>)"
+- "com.azure.resourcemanager.network.fluent.VpnSitesClient.updateTags(java.lang.String,java.lang.String,java.util.Map<java.lang.String,java.lang.String>,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.network.fluent.VpnSitesClient.updateTagsAsync(java.lang.String,java.lang.String,java.util.Map<java.lang.String,java.lang.String>)"
+- "com.azure.resourcemanager.network.fluent.VpnSitesClient.updateTagsAsync(java.lang.String,java.lang.String,java.util.Map<java.lang.String,java.lang.String>,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.network.fluent.VpnSitesClient.updateTagsWithResponseAsync(java.lang.String,java.lang.String,java.util.Map<java.lang.String,java.lang.String>)"
+- "com.azure.resourcemanager.network.fluent.VpnSitesClient.updateTagsWithResponseAsync(java.lang.String,java.lang.String,java.util.Map<java.lang.String,java.lang.String>,com.azure.core.util.Context)"
+type: "class"
 implements:
-- <xref href="com.azure.resourcemanager.resources.fluentcore.collection.InnerSupportsDelete?alt=com.azure.resourcemanager.resources.fluentcore.collection.InnerSupportsDelete&text=InnerSupportsDelete" data-throw-if-not-resolved="False" />&lt;<xref href="java.lang.Void?alt=java.lang.Void&text=Void" data-throw-if-not-resolved="False" />&gt;
-- <xref href="com.azure.resourcemanager.resources.fluentcore.collection.InnerSupportsGet?alt=com.azure.resourcemanager.resources.fluentcore.collection.InnerSupportsGet&text=InnerSupportsGet" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.resourcemanager.network.fluent.inner.VpnSiteInner?alt=com.azure.resourcemanager.network.fluent.inner.VpnSiteInner&text=VpnSiteInner" data-throw-if-not-resolved="False" />&gt;
-- <xref href="com.azure.resourcemanager.resources.fluentcore.collection.InnerSupportsListing?alt=com.azure.resourcemanager.resources.fluentcore.collection.InnerSupportsListing&text=InnerSupportsListing" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.resourcemanager.network.fluent.inner.VpnSiteInner?alt=com.azure.resourcemanager.network.fluent.inner.VpnSiteInner&text=VpnSiteInner" data-throw-if-not-resolved="False" />&gt;
+- "<xref href=\"com.azure.resourcemanager.resources.fluentcore.collection.InnerSupportsDelete?alt=com.azure.resourcemanager.resources.fluentcore.collection.InnerSupportsDelete&text=InnerSupportsDelete\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"java.lang.Void?alt=java.lang.Void&text=Void\" data-throw-if-not-resolved=\"False\" />&gt;"
+- "<xref href=\"com.azure.resourcemanager.resources.fluentcore.collection.InnerSupportsGet?alt=com.azure.resourcemanager.resources.fluentcore.collection.InnerSupportsGet&text=InnerSupportsGet\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.network.fluent.inner.VpnSiteInner?alt=com.azure.resourcemanager.network.fluent.inner.VpnSiteInner&text=VpnSiteInner\" data-throw-if-not-resolved=\"False\" />&gt;"
+- "<xref href=\"com.azure.resourcemanager.resources.fluentcore.collection.InnerSupportsListing?alt=com.azure.resourcemanager.resources.fluentcore.collection.InnerSupportsListing&text=InnerSupportsListing\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.network.fluent.inner.VpnSiteInner?alt=com.azure.resourcemanager.network.fluent.inner.VpnSiteInner&text=VpnSiteInner\" data-throw-if-not-resolved=\"False\" />&gt;"
 metadata: {}
-package: com.azure.resourcemanager.network.fluent
+package: "com.azure.resourcemanager.network.fluent"
 artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.0.0-beta.2

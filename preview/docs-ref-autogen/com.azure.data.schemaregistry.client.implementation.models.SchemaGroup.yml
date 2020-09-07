@@ -1,41 +1,41 @@
 ### YamlMime:JavaType
-uid: com.azure.data.schemaregistry.client.implementation.models.SchemaGroup
-fullName: com.azure.data.schemaregistry.client.implementation.models.SchemaGroup
-name: SchemaGroup
-nameWithType: SchemaGroup
-summary: The SchemaGroup model.
+uid: "com.azure.data.schemaregistry.client.implementation.models.SchemaGroup"
+fullName: "com.azure.data.schemaregistry.client.implementation.models.SchemaGroup"
+name: "SchemaGroup"
+nameWithType: "SchemaGroup"
+summary: "The SchemaGroup model."
 inheritances:
-- <xref href="java.lang.Object" data-throw-if-not-resolved="False" />
+- "<xref href=\"java.lang.Object\" data-throw-if-not-resolved=\"False\" />"
 inheritedMembers:
-- java.lang.Object.clone()
-- java.lang.Object.equals(java.lang.Object)
-- java.lang.Object.finalize()
-- java.lang.Object.getClass()
-- java.lang.Object.hashCode()
-- java.lang.Object.notify()
-- java.lang.Object.notifyAll()
-- java.lang.Object.toString()
-- java.lang.Object.wait()
-- java.lang.Object.wait(long)
-- java.lang.Object.wait(long,int)
-syntax: public final class SchemaGroup
+- "java.lang.Object.clone()"
+- "java.lang.Object.equals(java.lang.Object)"
+- "java.lang.Object.finalize()"
+- "java.lang.Object.getClass()"
+- "java.lang.Object.hashCode()"
+- "java.lang.Object.notify()"
+- "java.lang.Object.notifyAll()"
+- "java.lang.Object.toString()"
+- "java.lang.Object.wait()"
+- "java.lang.Object.wait(long)"
+- "java.lang.Object.wait(long,int)"
+syntax: "public final class SchemaGroup"
 constructors:
-- com.azure.data.schemaregistry.client.implementation.models.SchemaGroup.SchemaGroup()
+- "com.azure.data.schemaregistry.client.implementation.models.SchemaGroup.SchemaGroup()"
 methods:
-- com.azure.data.schemaregistry.client.implementation.models.SchemaGroup.getCreatedTimeUtc()
-- com.azure.data.schemaregistry.client.implementation.models.SchemaGroup.getGroupProperties()
-- com.azure.data.schemaregistry.client.implementation.models.SchemaGroup.getName()
-- com.azure.data.schemaregistry.client.implementation.models.SchemaGroup.getSchemaCompatibility()
-- com.azure.data.schemaregistry.client.implementation.models.SchemaGroup.getSchemaType()
-- com.azure.data.schemaregistry.client.implementation.models.SchemaGroup.getUpdatedTimeUtc()
-- com.azure.data.schemaregistry.client.implementation.models.SchemaGroup.setCreatedTimeUtc(java.time.OffsetDateTime)
-- com.azure.data.schemaregistry.client.implementation.models.SchemaGroup.setGroupProperties(java.util.Map<java.lang.String,java.lang.String>)
-- com.azure.data.schemaregistry.client.implementation.models.SchemaGroup.setName(java.lang.String)
-- com.azure.data.schemaregistry.client.implementation.models.SchemaGroup.setSchemaCompatibility(java.lang.Integer)
-- com.azure.data.schemaregistry.client.implementation.models.SchemaGroup.setSchemaType(java.lang.String)
-- com.azure.data.schemaregistry.client.implementation.models.SchemaGroup.setUpdatedTimeUtc(java.time.OffsetDateTime)
-- com.azure.data.schemaregistry.client.implementation.models.SchemaGroup.validate()
-type: class
+- "com.azure.data.schemaregistry.client.implementation.models.SchemaGroup.getCreatedTimeUtc()"
+- "com.azure.data.schemaregistry.client.implementation.models.SchemaGroup.getGroupProperties()"
+- "com.azure.data.schemaregistry.client.implementation.models.SchemaGroup.getName()"
+- "com.azure.data.schemaregistry.client.implementation.models.SchemaGroup.getSchemaCompatibility()"
+- "com.azure.data.schemaregistry.client.implementation.models.SchemaGroup.getSchemaType()"
+- "com.azure.data.schemaregistry.client.implementation.models.SchemaGroup.getUpdatedTimeUtc()"
+- "com.azure.data.schemaregistry.client.implementation.models.SchemaGroup.setCreatedTimeUtc(java.time.OffsetDateTime)"
+- "com.azure.data.schemaregistry.client.implementation.models.SchemaGroup.setGroupProperties(java.util.Map<java.lang.String,java.lang.String>)"
+- "com.azure.data.schemaregistry.client.implementation.models.SchemaGroup.setName(java.lang.String)"
+- "com.azure.data.schemaregistry.client.implementation.models.SchemaGroup.setSchemaCompatibility(java.lang.Integer)"
+- "com.azure.data.schemaregistry.client.implementation.models.SchemaGroup.setSchemaType(java.lang.String)"
+- "com.azure.data.schemaregistry.client.implementation.models.SchemaGroup.setUpdatedTimeUtc(java.time.OffsetDateTime)"
+- "com.azure.data.schemaregistry.client.implementation.models.SchemaGroup.validate()"
+type: "class"
 metadata: {}
-package: com.azure.data.schemaregistry.client.implementation.models
+package: "com.azure.data.schemaregistry.client.implementation.models"
 artifact: com.azure:azure-data-schemaregistry:1.0.0-beta.1

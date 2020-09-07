@@ -1,40 +1,40 @@
 ### YamlMime:JavaType
-uid: com.azure.resourcemanager.monitor.fluent.AlertRuleIncidentsClient
-fullName: com.azure.resourcemanager.monitor.fluent.AlertRuleIncidentsClient
-name: AlertRuleIncidentsClient
-nameWithType: AlertRuleIncidentsClient
-summary: An instance of this class provides access to all the operations defined in AlertRuleIncidents.
+uid: "com.azure.resourcemanager.monitor.fluent.AlertRuleIncidentsClient"
+fullName: "com.azure.resourcemanager.monitor.fluent.AlertRuleIncidentsClient"
+name: "AlertRuleIncidentsClient"
+nameWithType: "AlertRuleIncidentsClient"
+summary: "An instance of this class provides access to all the operations defined in AlertRuleIncidents."
 inheritances:
-- <xref href="java.lang.Object" data-throw-if-not-resolved="False" />
+- "<xref href=\"java.lang.Object\" data-throw-if-not-resolved=\"False\" />"
 inheritedMembers:
-- java.lang.Object.clone()
-- java.lang.Object.equals(java.lang.Object)
-- java.lang.Object.finalize()
-- java.lang.Object.getClass()
-- java.lang.Object.hashCode()
-- java.lang.Object.notify()
-- java.lang.Object.notifyAll()
-- java.lang.Object.toString()
-- java.lang.Object.wait()
-- java.lang.Object.wait(long)
-- java.lang.Object.wait(long,int)
-syntax: public final class AlertRuleIncidentsClient
+- "java.lang.Object.clone()"
+- "java.lang.Object.equals(java.lang.Object)"
+- "java.lang.Object.finalize()"
+- "java.lang.Object.getClass()"
+- "java.lang.Object.hashCode()"
+- "java.lang.Object.notify()"
+- "java.lang.Object.notifyAll()"
+- "java.lang.Object.toString()"
+- "java.lang.Object.wait()"
+- "java.lang.Object.wait(long)"
+- "java.lang.Object.wait(long,int)"
+syntax: "public final class AlertRuleIncidentsClient"
 constructors:
-- com.azure.resourcemanager.monitor.fluent.AlertRuleIncidentsClient.AlertRuleIncidentsClient(com.azure.resourcemanager.monitor.MonitorClient)
+- "com.azure.resourcemanager.monitor.fluent.AlertRuleIncidentsClient.AlertRuleIncidentsClient(com.azure.resourcemanager.monitor.MonitorClient)"
 methods:
-- com.azure.resourcemanager.monitor.fluent.AlertRuleIncidentsClient.get(java.lang.String,java.lang.String,java.lang.String)
-- com.azure.resourcemanager.monitor.fluent.AlertRuleIncidentsClient.get(java.lang.String,java.lang.String,java.lang.String,com.azure.core.util.Context)
-- com.azure.resourcemanager.monitor.fluent.AlertRuleIncidentsClient.getAsync(java.lang.String,java.lang.String,java.lang.String)
-- com.azure.resourcemanager.monitor.fluent.AlertRuleIncidentsClient.getAsync(java.lang.String,java.lang.String,java.lang.String,com.azure.core.util.Context)
-- com.azure.resourcemanager.monitor.fluent.AlertRuleIncidentsClient.getWithResponseAsync(java.lang.String,java.lang.String,java.lang.String)
-- com.azure.resourcemanager.monitor.fluent.AlertRuleIncidentsClient.getWithResponseAsync(java.lang.String,java.lang.String,java.lang.String,com.azure.core.util.Context)
-- com.azure.resourcemanager.monitor.fluent.AlertRuleIncidentsClient.listByAlertRule(java.lang.String,java.lang.String)
-- com.azure.resourcemanager.monitor.fluent.AlertRuleIncidentsClient.listByAlertRule(java.lang.String,java.lang.String,com.azure.core.util.Context)
-- com.azure.resourcemanager.monitor.fluent.AlertRuleIncidentsClient.listByAlertRuleAsync(java.lang.String,java.lang.String)
-- com.azure.resourcemanager.monitor.fluent.AlertRuleIncidentsClient.listByAlertRuleAsync(java.lang.String,java.lang.String,com.azure.core.util.Context)
-- com.azure.resourcemanager.monitor.fluent.AlertRuleIncidentsClient.listByAlertRuleSinglePageAsync(java.lang.String,java.lang.String)
-- com.azure.resourcemanager.monitor.fluent.AlertRuleIncidentsClient.listByAlertRuleSinglePageAsync(java.lang.String,java.lang.String,com.azure.core.util.Context)
-type: class
+- "com.azure.resourcemanager.monitor.fluent.AlertRuleIncidentsClient.get(java.lang.String,java.lang.String,java.lang.String)"
+- "com.azure.resourcemanager.monitor.fluent.AlertRuleIncidentsClient.get(java.lang.String,java.lang.String,java.lang.String,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.monitor.fluent.AlertRuleIncidentsClient.getAsync(java.lang.String,java.lang.String,java.lang.String)"
+- "com.azure.resourcemanager.monitor.fluent.AlertRuleIncidentsClient.getAsync(java.lang.String,java.lang.String,java.lang.String,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.monitor.fluent.AlertRuleIncidentsClient.getWithResponseAsync(java.lang.String,java.lang.String,java.lang.String)"
+- "com.azure.resourcemanager.monitor.fluent.AlertRuleIncidentsClient.getWithResponseAsync(java.lang.String,java.lang.String,java.lang.String,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.monitor.fluent.AlertRuleIncidentsClient.listByAlertRule(java.lang.String,java.lang.String)"
+- "com.azure.resourcemanager.monitor.fluent.AlertRuleIncidentsClient.listByAlertRule(java.lang.String,java.lang.String,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.monitor.fluent.AlertRuleIncidentsClient.listByAlertRuleAsync(java.lang.String,java.lang.String)"
+- "com.azure.resourcemanager.monitor.fluent.AlertRuleIncidentsClient.listByAlertRuleAsync(java.lang.String,java.lang.String,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.monitor.fluent.AlertRuleIncidentsClient.listByAlertRuleSinglePageAsync(java.lang.String,java.lang.String)"
+- "com.azure.resourcemanager.monitor.fluent.AlertRuleIncidentsClient.listByAlertRuleSinglePageAsync(java.lang.String,java.lang.String,com.azure.core.util.Context)"
+type: "class"
 metadata: {}
-package: com.azure.resourcemanager.monitor.fluent
+package: "com.azure.resourcemanager.monitor.fluent"
 artifact: com.azure.resourcemanager:azure-resourcemanager-monitor:2.0.0-beta.2

@@ -1,17 +1,17 @@
 ### YamlMime:JavaType
-uid: com.azure.core.http.policy.RetryStrategy
-fullName: com.azure.core.http.policy.RetryStrategy
-name: RetryStrategy
-nameWithType: RetryStrategy
-summary: The interface for determining the retry strategy used in <xref uid="com.azure.core.http.policy.RetryPolicy" data-throw-if-not-resolved="false">RetryPolicy</xref>.
-syntax: public interface RetryStrategy
+uid: "com.azure.core.http.policy.RetryStrategy"
+fullName: "com.azure.core.http.policy.RetryStrategy"
+name: "RetryStrategy"
+nameWithType: "RetryStrategy"
+summary: "The interface for determining the retry strategy used in <xref uid=\"com.azure.core.http.policy.RetryPolicy\" data-throw-if-not-resolved=\"false\">RetryPolicy</xref>."
+syntax: "public interface RetryStrategy"
 fields:
-- com.azure.core.http.policy.RetryStrategy.HTTP_STATUS_TOO_MANY_REQUESTS
+- "com.azure.core.http.policy.RetryStrategy.HTTP_STATUS_TOO_MANY_REQUESTS"
 methods:
-- com.azure.core.http.policy.RetryStrategy.calculateRetryDelay(int)
-- com.azure.core.http.policy.RetryStrategy.getMaxRetries()
-- com.azure.core.http.policy.RetryStrategy.shouldRetry(com.azure.core.http.HttpResponse)
-type: interface
+- "com.azure.core.http.policy.RetryStrategy.calculateRetryDelay(int)"
+- "com.azure.core.http.policy.RetryStrategy.getMaxRetries()"
+- "com.azure.core.http.policy.RetryStrategy.shouldRetry(com.azure.core.http.HttpResponse)"
+type: "interface"
 metadata: {}
-package: com.azure.core.http.policy
+package: "com.azure.core.http.policy"
 artifact: com.azure:azure-core:1.7.0

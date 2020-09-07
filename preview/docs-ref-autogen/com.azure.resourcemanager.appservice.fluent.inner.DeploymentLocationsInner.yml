@@ -1,35 +1,35 @@
 ### YamlMime:JavaType
-uid: com.azure.resourcemanager.appservice.fluent.inner.DeploymentLocationsInner
-fullName: com.azure.resourcemanager.appservice.fluent.inner.DeploymentLocationsInner
-name: DeploymentLocationsInner
-nameWithType: DeploymentLocationsInner
-summary: The DeploymentLocations model.
+uid: "com.azure.resourcemanager.appservice.fluent.inner.DeploymentLocationsInner"
+fullName: "com.azure.resourcemanager.appservice.fluent.inner.DeploymentLocationsInner"
+name: "DeploymentLocationsInner"
+nameWithType: "DeploymentLocationsInner"
+summary: "The DeploymentLocations model."
 inheritances:
-- <xref href="java.lang.Object" data-throw-if-not-resolved="False" />
+- "<xref href=\"java.lang.Object\" data-throw-if-not-resolved=\"False\" />"
 inheritedMembers:
-- java.lang.Object.clone()
-- java.lang.Object.equals(java.lang.Object)
-- java.lang.Object.finalize()
-- java.lang.Object.getClass()
-- java.lang.Object.hashCode()
-- java.lang.Object.notify()
-- java.lang.Object.notifyAll()
-- java.lang.Object.toString()
-- java.lang.Object.wait()
-- java.lang.Object.wait(long)
-- java.lang.Object.wait(long,int)
-syntax: public final class DeploymentLocationsInner
+- "java.lang.Object.clone()"
+- "java.lang.Object.equals(java.lang.Object)"
+- "java.lang.Object.finalize()"
+- "java.lang.Object.getClass()"
+- "java.lang.Object.hashCode()"
+- "java.lang.Object.notify()"
+- "java.lang.Object.notifyAll()"
+- "java.lang.Object.toString()"
+- "java.lang.Object.wait()"
+- "java.lang.Object.wait(long)"
+- "java.lang.Object.wait(long,int)"
+syntax: "public final class DeploymentLocationsInner"
 constructors:
-- com.azure.resourcemanager.appservice.fluent.inner.DeploymentLocationsInner.DeploymentLocationsInner()
+- "com.azure.resourcemanager.appservice.fluent.inner.DeploymentLocationsInner.DeploymentLocationsInner()"
 methods:
-- com.azure.resourcemanager.appservice.fluent.inner.DeploymentLocationsInner.hostingEnvironmentDeploymentInfos()
-- com.azure.resourcemanager.appservice.fluent.inner.DeploymentLocationsInner.hostingEnvironments()
-- com.azure.resourcemanager.appservice.fluent.inner.DeploymentLocationsInner.locations()
-- com.azure.resourcemanager.appservice.fluent.inner.DeploymentLocationsInner.validate()
-- com.azure.resourcemanager.appservice.fluent.inner.DeploymentLocationsInner.withHostingEnvironmentDeploymentInfos(java.util.List<com.azure.resourcemanager.appservice.models.HostingEnvironmentDeploymentInfo>)
-- com.azure.resourcemanager.appservice.fluent.inner.DeploymentLocationsInner.withHostingEnvironments(java.util.List<com.azure.resourcemanager.appservice.models.AppServiceEnvironment>)
-- com.azure.resourcemanager.appservice.fluent.inner.DeploymentLocationsInner.withLocations(java.util.List<com.azure.resourcemanager.appservice.fluent.inner.GeoRegionInner>)
-type: class
+- "com.azure.resourcemanager.appservice.fluent.inner.DeploymentLocationsInner.hostingEnvironmentDeploymentInfos()"
+- "com.azure.resourcemanager.appservice.fluent.inner.DeploymentLocationsInner.hostingEnvironments()"
+- "com.azure.resourcemanager.appservice.fluent.inner.DeploymentLocationsInner.locations()"
+- "com.azure.resourcemanager.appservice.fluent.inner.DeploymentLocationsInner.validate()"
+- "com.azure.resourcemanager.appservice.fluent.inner.DeploymentLocationsInner.withHostingEnvironmentDeploymentInfos(java.util.List<com.azure.resourcemanager.appservice.models.HostingEnvironmentDeploymentInfo>)"
+- "com.azure.resourcemanager.appservice.fluent.inner.DeploymentLocationsInner.withHostingEnvironments(java.util.List<com.azure.resourcemanager.appservice.models.AppServiceEnvironment>)"
+- "com.azure.resourcemanager.appservice.fluent.inner.DeploymentLocationsInner.withLocations(java.util.List<com.azure.resourcemanager.appservice.fluent.inner.GeoRegionInner>)"
+type: "class"
 metadata: {}
-package: com.azure.resourcemanager.appservice.fluent.inner
+package: "com.azure.resourcemanager.appservice.fluent.inner"
 artifact: com.azure.resourcemanager:azure-resourcemanager-appservice:2.0.0-beta.2

@@ -1,62 +1,62 @@
 ### YamlMime:JavaType
-uid: com.azure.resourcemanager.appservice.fluent.inner.RecommendationRuleInner
-fullName: com.azure.resourcemanager.appservice.fluent.inner.RecommendationRuleInner
-name: RecommendationRuleInner
-nameWithType: RecommendationRuleInner
-summary: The RecommendationRule model.
+uid: "com.azure.resourcemanager.appservice.fluent.inner.RecommendationRuleInner"
+fullName: "com.azure.resourcemanager.appservice.fluent.inner.RecommendationRuleInner"
+name: "RecommendationRuleInner"
+nameWithType: "RecommendationRuleInner"
+summary: "The RecommendationRule model."
 inheritances:
-- <xref href="java.lang.Object" data-throw-if-not-resolved="False" />
-- <xref href="com.azure.core.management.ProxyResource" data-throw-if-not-resolved="False" />
-- <xref href="com.azure.resourcemanager.appservice.models.ProxyOnlyResource" data-throw-if-not-resolved="False" />
+- "<xref href=\"java.lang.Object\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.azure.core.management.ProxyResource\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.azure.resourcemanager.appservice.models.ProxyOnlyResource\" data-throw-if-not-resolved=\"False\" />"
 inheritedMembers:
-- com.azure.core.management.ProxyResource.id()
-- com.azure.core.management.ProxyResource.name()
-- com.azure.core.management.ProxyResource.type()
-- com.azure.resourcemanager.appservice.models.ProxyOnlyResource.kind()
-- com.azure.resourcemanager.appservice.models.ProxyOnlyResource.validate()
-- com.azure.resourcemanager.appservice.models.ProxyOnlyResource.withKind(java.lang.String)
-- java.lang.Object.clone()
-- java.lang.Object.equals(java.lang.Object)
-- java.lang.Object.finalize()
-- java.lang.Object.getClass()
-- java.lang.Object.hashCode()
-- java.lang.Object.notify()
-- java.lang.Object.notifyAll()
-- java.lang.Object.toString()
-- java.lang.Object.wait()
-- java.lang.Object.wait(long)
-- java.lang.Object.wait(long,int)
-syntax: public class RecommendationRuleInner extends ProxyOnlyResource
+- "com.azure.core.management.ProxyResource.id()"
+- "com.azure.core.management.ProxyResource.name()"
+- "com.azure.core.management.ProxyResource.type()"
+- "com.azure.resourcemanager.appservice.models.ProxyOnlyResource.kind()"
+- "com.azure.resourcemanager.appservice.models.ProxyOnlyResource.validate()"
+- "com.azure.resourcemanager.appservice.models.ProxyOnlyResource.withKind(java.lang.String)"
+- "java.lang.Object.clone()"
+- "java.lang.Object.equals(java.lang.Object)"
+- "java.lang.Object.finalize()"
+- "java.lang.Object.getClass()"
+- "java.lang.Object.hashCode()"
+- "java.lang.Object.notify()"
+- "java.lang.Object.notifyAll()"
+- "java.lang.Object.toString()"
+- "java.lang.Object.wait()"
+- "java.lang.Object.wait(long)"
+- "java.lang.Object.wait(long,int)"
+syntax: "public class RecommendationRuleInner extends ProxyOnlyResource"
 constructors:
-- com.azure.resourcemanager.appservice.fluent.inner.RecommendationRuleInner.RecommendationRuleInner()
+- "com.azure.resourcemanager.appservice.fluent.inner.RecommendationRuleInner.RecommendationRuleInner()"
 methods:
-- com.azure.resourcemanager.appservice.fluent.inner.RecommendationRuleInner.actionName()
-- com.azure.resourcemanager.appservice.fluent.inner.RecommendationRuleInner.bladeName()
-- com.azure.resourcemanager.appservice.fluent.inner.RecommendationRuleInner.categoryTags()
-- com.azure.resourcemanager.appservice.fluent.inner.RecommendationRuleInner.channels()
-- com.azure.resourcemanager.appservice.fluent.inner.RecommendationRuleInner.description()
-- com.azure.resourcemanager.appservice.fluent.inner.RecommendationRuleInner.displayName()
-- com.azure.resourcemanager.appservice.fluent.inner.RecommendationRuleInner.extensionName()
-- com.azure.resourcemanager.appservice.fluent.inner.RecommendationRuleInner.forwardLink()
-- com.azure.resourcemanager.appservice.fluent.inner.RecommendationRuleInner.isDynamic()
-- com.azure.resourcemanager.appservice.fluent.inner.RecommendationRuleInner.level()
-- com.azure.resourcemanager.appservice.fluent.inner.RecommendationRuleInner.message()
-- com.azure.resourcemanager.appservice.fluent.inner.RecommendationRuleInner.recommendationId()
-- com.azure.resourcemanager.appservice.fluent.inner.RecommendationRuleInner.recommendationName()
-- com.azure.resourcemanager.appservice.fluent.inner.RecommendationRuleInner.validate()
-- com.azure.resourcemanager.appservice.fluent.inner.RecommendationRuleInner.withActionName(java.lang.String)
-- com.azure.resourcemanager.appservice.fluent.inner.RecommendationRuleInner.withBladeName(java.lang.String)
-- com.azure.resourcemanager.appservice.fluent.inner.RecommendationRuleInner.withChannels(com.azure.resourcemanager.appservice.models.Channels)
-- com.azure.resourcemanager.appservice.fluent.inner.RecommendationRuleInner.withDescription(java.lang.String)
-- com.azure.resourcemanager.appservice.fluent.inner.RecommendationRuleInner.withDisplayName(java.lang.String)
-- com.azure.resourcemanager.appservice.fluent.inner.RecommendationRuleInner.withExtensionName(java.lang.String)
-- com.azure.resourcemanager.appservice.fluent.inner.RecommendationRuleInner.withForwardLink(java.lang.String)
-- com.azure.resourcemanager.appservice.fluent.inner.RecommendationRuleInner.withIsDynamic(java.lang.Boolean)
-- com.azure.resourcemanager.appservice.fluent.inner.RecommendationRuleInner.withLevel(com.azure.resourcemanager.appservice.models.NotificationLevel)
-- com.azure.resourcemanager.appservice.fluent.inner.RecommendationRuleInner.withMessage(java.lang.String)
-- com.azure.resourcemanager.appservice.fluent.inner.RecommendationRuleInner.withRecommendationId(java.util.UUID)
-- com.azure.resourcemanager.appservice.fluent.inner.RecommendationRuleInner.withRecommendationName(java.lang.String)
-type: class
+- "com.azure.resourcemanager.appservice.fluent.inner.RecommendationRuleInner.actionName()"
+- "com.azure.resourcemanager.appservice.fluent.inner.RecommendationRuleInner.bladeName()"
+- "com.azure.resourcemanager.appservice.fluent.inner.RecommendationRuleInner.categoryTags()"
+- "com.azure.resourcemanager.appservice.fluent.inner.RecommendationRuleInner.channels()"
+- "com.azure.resourcemanager.appservice.fluent.inner.RecommendationRuleInner.description()"
+- "com.azure.resourcemanager.appservice.fluent.inner.RecommendationRuleInner.displayName()"
+- "com.azure.resourcemanager.appservice.fluent.inner.RecommendationRuleInner.extensionName()"
+- "com.azure.resourcemanager.appservice.fluent.inner.RecommendationRuleInner.forwardLink()"
+- "com.azure.resourcemanager.appservice.fluent.inner.RecommendationRuleInner.isDynamic()"
+- "com.azure.resourcemanager.appservice.fluent.inner.RecommendationRuleInner.level()"
+- "com.azure.resourcemanager.appservice.fluent.inner.RecommendationRuleInner.message()"
+- "com.azure.resourcemanager.appservice.fluent.inner.RecommendationRuleInner.recommendationId()"
+- "com.azure.resourcemanager.appservice.fluent.inner.RecommendationRuleInner.recommendationName()"
+- "com.azure.resourcemanager.appservice.fluent.inner.RecommendationRuleInner.validate()"
+- "com.azure.resourcemanager.appservice.fluent.inner.RecommendationRuleInner.withActionName(java.lang.String)"
+- "com.azure.resourcemanager.appservice.fluent.inner.RecommendationRuleInner.withBladeName(java.lang.String)"
+- "com.azure.resourcemanager.appservice.fluent.inner.RecommendationRuleInner.withChannels(com.azure.resourcemanager.appservice.models.Channels)"
+- "com.azure.resourcemanager.appservice.fluent.inner.RecommendationRuleInner.withDescription(java.lang.String)"
+- "com.azure.resourcemanager.appservice.fluent.inner.RecommendationRuleInner.withDisplayName(java.lang.String)"
+- "com.azure.resourcemanager.appservice.fluent.inner.RecommendationRuleInner.withExtensionName(java.lang.String)"
+- "com.azure.resourcemanager.appservice.fluent.inner.RecommendationRuleInner.withForwardLink(java.lang.String)"
+- "com.azure.resourcemanager.appservice.fluent.inner.RecommendationRuleInner.withIsDynamic(java.lang.Boolean)"
+- "com.azure.resourcemanager.appservice.fluent.inner.RecommendationRuleInner.withLevel(com.azure.resourcemanager.appservice.models.NotificationLevel)"
+- "com.azure.resourcemanager.appservice.fluent.inner.RecommendationRuleInner.withMessage(java.lang.String)"
+- "com.azure.resourcemanager.appservice.fluent.inner.RecommendationRuleInner.withRecommendationId(java.util.UUID)"
+- "com.azure.resourcemanager.appservice.fluent.inner.RecommendationRuleInner.withRecommendationName(java.lang.String)"
+type: "class"
 metadata: {}
-package: com.azure.resourcemanager.appservice.fluent.inner
+package: "com.azure.resourcemanager.appservice.fluent.inner"
 artifact: com.azure.resourcemanager:azure-resourcemanager-appservice:2.0.0-beta.2

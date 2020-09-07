@@ -1,52 +1,52 @@
 ### YamlMime:JavaType
-uid: com.azure.resourcemanager.storage.StorageManagementClient
-fullName: com.azure.resourcemanager.storage.StorageManagementClient
-name: StorageManagementClient
-nameWithType: StorageManagementClient
-summary: Initializes a new instance of the StorageManagementClient type.
+uid: "com.azure.resourcemanager.storage.StorageManagementClient"
+fullName: "com.azure.resourcemanager.storage.StorageManagementClient"
+name: "StorageManagementClient"
+nameWithType: "StorageManagementClient"
+summary: "Initializes a new instance of the StorageManagementClient type."
 inheritances:
-- <xref href="java.lang.Object" data-throw-if-not-resolved="False" />
-- <xref href="com.azure.resourcemanager.AzureServiceClient" data-throw-if-not-resolved="False" />
+- "<xref href=\"java.lang.Object\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.azure.resourcemanager.AzureServiceClient\" data-throw-if-not-resolved=\"False\" />"
 inheritedMembers:
-- com.azure.resourcemanager.AzureServiceClient.<T,U>getLroResultAsync(reactor.core.publisher.Mono<? extends com.azure.core.http.rest.Response<reactor.core.publisher.Flux<java.nio.ByteBuffer>>>,com.azure.core.http.HttpPipeline,java.lang.reflect.Type,java.lang.reflect.Type)
-- com.azure.resourcemanager.AzureServiceClient.getContext()
-- com.azure.resourcemanager.AzureServiceClient.getSerializerAdapter()
-- com.azure.resourcemanager.AzureServiceClient.userAgent()
-- java.lang.Object.clone()
-- java.lang.Object.equals(java.lang.Object)
-- java.lang.Object.finalize()
-- java.lang.Object.getClass()
-- java.lang.Object.hashCode()
-- java.lang.Object.notify()
-- java.lang.Object.notifyAll()
-- java.lang.Object.toString()
-- java.lang.Object.wait()
-- java.lang.Object.wait(long)
-- java.lang.Object.wait(long,int)
-syntax: public final class StorageManagementClient extends AzureServiceClient
+- "com.azure.resourcemanager.AzureServiceClient.<T,U>getLroResultAsync(reactor.core.publisher.Mono<? extends com.azure.core.http.rest.Response<reactor.core.publisher.Flux<java.nio.ByteBuffer>>>,com.azure.core.http.HttpPipeline,java.lang.reflect.Type,java.lang.reflect.Type)"
+- "com.azure.resourcemanager.AzureServiceClient.getContext()"
+- "com.azure.resourcemanager.AzureServiceClient.getSerializerAdapter()"
+- "com.azure.resourcemanager.AzureServiceClient.userAgent()"
+- "java.lang.Object.clone()"
+- "java.lang.Object.equals(java.lang.Object)"
+- "java.lang.Object.finalize()"
+- "java.lang.Object.getClass()"
+- "java.lang.Object.hashCode()"
+- "java.lang.Object.notify()"
+- "java.lang.Object.notifyAll()"
+- "java.lang.Object.toString()"
+- "java.lang.Object.wait()"
+- "java.lang.Object.wait(long)"
+- "java.lang.Object.wait(long,int)"
+syntax: "public final class StorageManagementClient extends AzureServiceClient"
 methods:
-- com.azure.resourcemanager.storage.StorageManagementClient.getApiVersion()
-- com.azure.resourcemanager.storage.StorageManagementClient.getBlobContainers()
-- com.azure.resourcemanager.storage.StorageManagementClient.getBlobServices()
-- com.azure.resourcemanager.storage.StorageManagementClient.getEncryptionScopes()
-- com.azure.resourcemanager.storage.StorageManagementClient.getEndpoint()
-- com.azure.resourcemanager.storage.StorageManagementClient.getFileServices()
-- com.azure.resourcemanager.storage.StorageManagementClient.getFileShares()
-- com.azure.resourcemanager.storage.StorageManagementClient.getHttpPipeline()
-- com.azure.resourcemanager.storage.StorageManagementClient.getManagementPolicies()
-- com.azure.resourcemanager.storage.StorageManagementClient.getObjectReplicationPoliciesOperations()
-- com.azure.resourcemanager.storage.StorageManagementClient.getOperations()
-- com.azure.resourcemanager.storage.StorageManagementClient.getPrivateEndpointConnections()
-- com.azure.resourcemanager.storage.StorageManagementClient.getPrivateLinkResources()
-- com.azure.resourcemanager.storage.StorageManagementClient.getQueueServices()
-- com.azure.resourcemanager.storage.StorageManagementClient.getQueues()
-- com.azure.resourcemanager.storage.StorageManagementClient.getSkus()
-- com.azure.resourcemanager.storage.StorageManagementClient.getStorageAccounts()
-- com.azure.resourcemanager.storage.StorageManagementClient.getSubscriptionId()
-- com.azure.resourcemanager.storage.StorageManagementClient.getTableServices()
-- com.azure.resourcemanager.storage.StorageManagementClient.getTables()
-- com.azure.resourcemanager.storage.StorageManagementClient.getUsages()
-type: class
+- "com.azure.resourcemanager.storage.StorageManagementClient.getApiVersion()"
+- "com.azure.resourcemanager.storage.StorageManagementClient.getBlobContainers()"
+- "com.azure.resourcemanager.storage.StorageManagementClient.getBlobServices()"
+- "com.azure.resourcemanager.storage.StorageManagementClient.getEncryptionScopes()"
+- "com.azure.resourcemanager.storage.StorageManagementClient.getEndpoint()"
+- "com.azure.resourcemanager.storage.StorageManagementClient.getFileServices()"
+- "com.azure.resourcemanager.storage.StorageManagementClient.getFileShares()"
+- "com.azure.resourcemanager.storage.StorageManagementClient.getHttpPipeline()"
+- "com.azure.resourcemanager.storage.StorageManagementClient.getManagementPolicies()"
+- "com.azure.resourcemanager.storage.StorageManagementClient.getObjectReplicationPoliciesOperations()"
+- "com.azure.resourcemanager.storage.StorageManagementClient.getOperations()"
+- "com.azure.resourcemanager.storage.StorageManagementClient.getPrivateEndpointConnections()"
+- "com.azure.resourcemanager.storage.StorageManagementClient.getPrivateLinkResources()"
+- "com.azure.resourcemanager.storage.StorageManagementClient.getQueueServices()"
+- "com.azure.resourcemanager.storage.StorageManagementClient.getQueues()"
+- "com.azure.resourcemanager.storage.StorageManagementClient.getSkus()"
+- "com.azure.resourcemanager.storage.StorageManagementClient.getStorageAccounts()"
+- "com.azure.resourcemanager.storage.StorageManagementClient.getSubscriptionId()"
+- "com.azure.resourcemanager.storage.StorageManagementClient.getTableServices()"
+- "com.azure.resourcemanager.storage.StorageManagementClient.getTables()"
+- "com.azure.resourcemanager.storage.StorageManagementClient.getUsages()"
+type: "class"
 metadata: {}
-package: com.azure.resourcemanager.storage
+package: "com.azure.resourcemanager.storage"
 artifact: com.azure.resourcemanager:azure-resourcemanager-storage:2.0.0-beta.2

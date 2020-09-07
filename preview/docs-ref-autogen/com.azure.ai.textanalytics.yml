@@ -1,16 +1,14 @@
 ### YamlMime:JavaPackage
-uid: com.azure.ai.textanalytics
-fullName: com.azure.ai.textanalytics
-name: com.azure.ai.textanalytics
-summary: |-
-  Package containing classes for creating a <xref uid="com.azure.ai.textanalytics.TextAnalyticsClient" data-throw-if-not-resolved="false">com.azure.ai.textanalytics.TextAnalyticsClient</xref> to
-   perform operations on Azure Text Analytics
+uid: "com.azure.ai.textanalytics"
+fullName: "com.azure.ai.textanalytics"
+name: "com.azure.ai.textanalytics"
+summary: "Package containing classes for creating a <xref uid=\"com.azure.ai.textanalytics.TextAnalyticsClient\" data-throw-if-not-resolved=\"false\">com.azure.ai.textanalytics.TextAnalyticsClient</xref> to\n perform operations on Azure Text Analytics"
 classes:
-- com.azure.ai.textanalytics.TextAnalyticsAsyncClient
-- com.azure.ai.textanalytics.TextAnalyticsClient
-- com.azure.ai.textanalytics.TextAnalyticsClientBuilder
+- "com.azure.ai.textanalytics.TextAnalyticsAsyncClient"
+- "com.azure.ai.textanalytics.TextAnalyticsClient"
+- "com.azure.ai.textanalytics.TextAnalyticsClientBuilder"
 enums:
-- com.azure.ai.textanalytics.TextAnalyticsServiceVersion
+- "com.azure.ai.textanalytics.TextAnalyticsServiceVersion"
 metadata: {}
-package: com.azure.ai.textanalytics
+package: "com.azure.ai.textanalytics"
 artifact: com.azure:azure-ai-textanalytics:1.0.0-beta.4

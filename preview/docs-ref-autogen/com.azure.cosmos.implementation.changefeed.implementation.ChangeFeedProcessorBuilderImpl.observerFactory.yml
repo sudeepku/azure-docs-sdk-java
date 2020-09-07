@@ -1,23 +1,23 @@
 ### YamlMime:JavaMember
-uid: com.azure.cosmos.implementation.changefeed.implementation.ChangeFeedProcessorBuilderImpl.observerFactory*
-fullName: com.azure.cosmos.implementation.changefeed.implementation.ChangeFeedProcessorBuilderImpl.observerFactory
-name: observerFactory
-nameWithType: ChangeFeedProcessorBuilderImpl.observerFactory
+uid: "com.azure.cosmos.implementation.changefeed.implementation.ChangeFeedProcessorBuilderImpl.observerFactory*"
+fullName: "com.azure.cosmos.implementation.changefeed.implementation.ChangeFeedProcessorBuilderImpl.observerFactory"
+name: "observerFactory"
+nameWithType: "ChangeFeedProcessorBuilderImpl.observerFactory"
 members:
-- uid: com.azure.cosmos.implementation.changefeed.implementation.ChangeFeedProcessorBuilderImpl.observerFactory(com.azure.cosmos.implementation.changefeed.ChangeFeedObserverFactory)
-  fullName: com.azure.cosmos.implementation.changefeed.implementation.ChangeFeedProcessorBuilderImpl.observerFactory(ChangeFeedObserverFactory observerFactory)
-  name: observerFactory(ChangeFeedObserverFactory observerFactory)
-  nameWithType: ChangeFeedProcessorBuilderImpl.observerFactory(ChangeFeedObserverFactory observerFactory)
-  summary: Sets the <xref uid="ChangeFeedObserverFactory" data-throw-if-not-resolved="false">ChangeFeedObserverFactory</xref> to be used to generate <xref uid="ChangeFeedObserver" data-throw-if-not-resolved="false">ChangeFeedObserver</xref>
+- uid: "com.azure.cosmos.implementation.changefeed.implementation.ChangeFeedProcessorBuilderImpl.observerFactory(com.azure.cosmos.implementation.changefeed.ChangeFeedObserverFactory)"
+  fullName: "com.azure.cosmos.implementation.changefeed.implementation.ChangeFeedProcessorBuilderImpl.observerFactory(ChangeFeedObserverFactory observerFactory)"
+  name: "observerFactory(ChangeFeedObserverFactory observerFactory)"
+  nameWithType: "ChangeFeedProcessorBuilderImpl.observerFactory(ChangeFeedObserverFactory observerFactory)"
+  summary: "Sets the <xref uid=\"ChangeFeedObserverFactory\" data-throw-if-not-resolved=\"false\">ChangeFeedObserverFactory</xref> to be used to generate <xref uid=\"ChangeFeedObserver\" data-throw-if-not-resolved=\"false\">ChangeFeedObserver</xref>"
   parameters:
-  - description: The instance of <xref uid="com.azure.cosmos.implementation.changefeed.ChangeFeedObserverFactory" data-throw-if-not-resolved="false">ChangeFeedObserverFactory</xref> to use.
-    name: observerFactory
-    type: <xref href="com.azure.cosmos.implementation.changefeed.ChangeFeedObserverFactory?alt=com.azure.cosmos.implementation.changefeed.ChangeFeedObserverFactory&text=ChangeFeedObserverFactory" data-throw-if-not-resolved="False" />
-  syntax: public ChangeFeedProcessorBuilderImpl observerFactory(ChangeFeedObserverFactory observerFactory)
+  - description: "The instance of <xref uid=\"com.azure.cosmos.implementation.changefeed.ChangeFeedObserverFactory\" data-throw-if-not-resolved=\"false\">ChangeFeedObserverFactory</xref> to use."
+    name: "observerFactory"
+    type: "<xref href=\"com.azure.cosmos.implementation.changefeed.ChangeFeedObserverFactory?alt=com.azure.cosmos.implementation.changefeed.ChangeFeedObserverFactory&text=ChangeFeedObserverFactory\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public ChangeFeedProcessorBuilderImpl observerFactory(ChangeFeedObserverFactory observerFactory)"
   returns:
-    description: current Builder.
-    type: <xref href="com.azure.cosmos.implementation.changefeed.implementation.ChangeFeedProcessorBuilderImpl?alt=com.azure.cosmos.implementation.changefeed.implementation.ChangeFeedProcessorBuilderImpl&text=ChangeFeedProcessorBuilderImpl" data-throw-if-not-resolved="False" />
-type: method
+    description: "current Builder."
+    type: "<xref href=\"com.azure.cosmos.implementation.changefeed.implementation.ChangeFeedProcessorBuilderImpl?alt=com.azure.cosmos.implementation.changefeed.implementation.ChangeFeedProcessorBuilderImpl&text=ChangeFeedProcessorBuilderImpl\" data-throw-if-not-resolved=\"False\" />"
+type: "method"
 metadata: {}
-package: com.azure.cosmos.implementation.changefeed.implementation
+package: "com.azure.cosmos.implementation.changefeed.implementation"
 artifact: com.azure:azure-cosmos:4.3.2-beta.2

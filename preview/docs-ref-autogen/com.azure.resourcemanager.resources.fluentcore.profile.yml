@@ -1,10 +1,10 @@
 ### YamlMime:JavaPackage
-uid: com.azure.resourcemanager.resources.fluentcore.profile
-fullName: com.azure.resourcemanager.resources.fluentcore.profile
-name: com.azure.resourcemanager.resources.fluentcore.profile
-summary: This package contains the base classes for resources azure profile.
+uid: "com.azure.resourcemanager.resources.fluentcore.profile"
+fullName: "com.azure.resourcemanager.resources.fluentcore.profile"
+name: "com.azure.resourcemanager.resources.fluentcore.profile"
+summary: "This package contains the base classes for resources azure profile."
 classes:
-- com.azure.resourcemanager.resources.fluentcore.profile.AzureProfile
+- "com.azure.resourcemanager.resources.fluentcore.profile.AzureProfile"
 metadata: {}
-package: com.azure.resourcemanager.resources.fluentcore.profile
+package: "com.azure.resourcemanager.resources.fluentcore.profile"
 artifact: com.azure.resourcemanager:azure-resourcemanager-resources:2.0.0-beta.2

@@ -1,34 +1,23 @@
 ### YamlMime:JavaMember
-uid: com.azure.security.keyvault.certificates.CertificateClient.getCertificate*
-fullName: com.azure.security.keyvault.certificates.CertificateClient.getCertificate
-name: getCertificate
-nameWithType: CertificateClient.getCertificate
+uid: "com.azure.security.keyvault.certificates.CertificateClient.getCertificate*"
+fullName: "com.azure.security.keyvault.certificates.CertificateClient.getCertificate"
+name: "getCertificate"
+nameWithType: "CertificateClient.getCertificate"
 members:
-- uid: com.azure.security.keyvault.certificates.CertificateClient.getCertificate(java.lang.String)
-  fullName: com.azure.security.keyvault.certificates.CertificateClient.getCertificate(String certificateName)
-  name: getCertificate(String certificateName)
-  nameWithType: CertificateClient.getCertificate(String certificateName)
-  summary: |-
-    Gets information about the latest version of the specified certificate. This operation requires the certificates/get permission.
-
-     <p><strong>Code Samples</strong></p>
-     <p>Gets a specific version of the certificate in the key vault. Prints out the returned certificate details when a response has been received.</p>
-
-     <pre>
-     KeyVaultCertificateWithPolicy certificate = certificateClient.getCertificate&#40;&quot;certificateName&quot;&#41;;
-     System.out.printf&#40;&quot;Received certificate with name %s and version %s and secret id&quot;,
-         certificate.getProperties&#40;&#41;.getName&#40;&#41;,
-         certificate.getProperties&#40;&#41;.getVersion&#40;&#41;, certificate.getSecretId&#40;&#41;&#41;;
-     </pre>
+- uid: "com.azure.security.keyvault.certificates.CertificateClient.getCertificate(java.lang.String)"
+  fullName: "com.azure.security.keyvault.certificates.CertificateClient.getCertificate(String certificateName)"
+  name: "getCertificate(String certificateName)"
+  nameWithType: "CertificateClient.getCertificate(String certificateName)"
+  summary: "Gets information about the latest version of the specified certificate. This operation requires the certificates/get permission.\n\n <p><strong>Code Samples</strong></p>\n <p>Gets a specific version of the certificate in the key vault. Prints out the returned certificate details when a response has been received.</p>\n\n <pre>\n KeyVaultCertificateWithPolicy certificate = certificateClient.getCertificate&#40;&quot;certificateName&quot;&#41;;\n System.out.printf&#40;&quot;Received certificate with name %s and version %s and secret id&quot;,\n     certificate.getProperties&#40;&#41;.getName&#40;&#41;,\n     certificate.getProperties&#40;&#41;.getVersion&#40;&#41;, certificate.getSecretId&#40;&#41;&#41;;\n </pre>"
   parameters:
-  - description: The name of the certificate to retrieve, cannot be null
-    name: certificateName
-    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
-  syntax: public KeyVaultCertificateWithPolicy getCertificate(String certificateName)
+  - description: "The name of the certificate to retrieve, cannot be null"
+    name: "certificateName"
+    type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public KeyVaultCertificateWithPolicy getCertificate(String certificateName)"
   returns:
-    description: The requested <xref uid="com.azure.security.keyvault.certificates.models.KeyVaultCertificateWithPolicy" data-throw-if-not-resolved="false">certificate</xref>.
-    type: <xref href="com.azure.security.keyvault.certificates.models.KeyVaultCertificateWithPolicy?alt=com.azure.security.keyvault.certificates.models.KeyVaultCertificateWithPolicy&text=KeyVaultCertificateWithPolicy" data-throw-if-not-resolved="False" />
-type: method
+    description: "The requested <xref uid=\"com.azure.security.keyvault.certificates.models.KeyVaultCertificateWithPolicy\" data-throw-if-not-resolved=\"false\">certificate</xref>."
+    type: "<xref href=\"com.azure.security.keyvault.certificates.models.KeyVaultCertificateWithPolicy?alt=com.azure.security.keyvault.certificates.models.KeyVaultCertificateWithPolicy&text=KeyVaultCertificateWithPolicy\" data-throw-if-not-resolved=\"False\" />"
+type: "method"
 metadata: {}
-package: com.azure.security.keyvault.certificates
+package: "com.azure.security.keyvault.certificates"
 artifact: com.azure:azure-security-keyvault-certificates:4.1.0-beta.3

@@ -1,49 +1,26 @@
 ### YamlMime:JavaMember
-uid: com.azure.security.keyvault.keys.KeyAsyncClient.updateKeyProperties*
-fullName: com.azure.security.keyvault.keys.KeyAsyncClient.updateKeyProperties
-name: updateKeyProperties
-nameWithType: KeyAsyncClient.updateKeyProperties
+uid: "com.azure.security.keyvault.keys.KeyAsyncClient.updateKeyProperties*"
+fullName: "com.azure.security.keyvault.keys.KeyAsyncClient.updateKeyProperties"
+name: "updateKeyProperties"
+nameWithType: "KeyAsyncClient.updateKeyProperties"
 members:
-- uid: com.azure.security.keyvault.keys.KeyAsyncClient.updateKeyProperties(com.azure.security.keyvault.keys.models.KeyProperties,com.azure.security.keyvault.keys.models.KeyOperation...)
-  fullName: com.azure.security.keyvault.keys.KeyAsyncClient.updateKeyProperties(KeyProperties keyProperties, KeyOperation[] keyOperations)
-  name: updateKeyProperties(KeyProperties keyProperties, KeyOperation[] keyOperations)
-  nameWithType: KeyAsyncClient.updateKeyProperties(KeyProperties keyProperties, KeyOperation[] keyOperations)
-  summary: |-
-    Updates the attributes and key operations associated with the specified key, but not the cryptographic key
-     material of the specified key in the key vault. The update operation changes specified attributes of an existing
-     stored key and attributes that are not specified in the request are left unchanged. The cryptographic key
-     material of a key itself cannot be changed. This operation requires the <code>keys/set</code> permission.
-
-     <p><strong>Code Samples</strong></p>
-     <p>Gets latest version of the key, changes its notBefore time and then updates it in the Azure Key Vault.
-     Subscribes to the call asynchronously and prints out the returned key details when a response has been received.
-     </p>
-
-     <pre>
-     keyAsyncClient.getKey&#40;&quot;keyName&quot;&#41;
-          .subscribe&#40;keyResponse  -&gt; &#123;
-              &#47;&#47;Update the not before time of the key.
-              keyResponse.getProperties&#40;&#41;.setNotBefore&#40;OffsetDateTime.now&#40;&#41;.plusDays&#40;50&#41;&#41;;
-              keyAsyncClient.updateKeyProperties&#40;keyResponse.getProperties&#40;&#41;, KeyOperation.ENCRYPT,
-                  KeyOperation.DECRYPT&#41;
-                  .subscriberContext&#40;Context.of&#40;key1, value1, key2, value2&#41;&#41;
-                  .subscribe&#40;updatedKeyResponse  -&gt;
-                      System.out.printf&#40;&quot;Key's updated not before time %s %n&quot;,
-                          updatedKeyResponse.getProperties&#40;&#41;.getNotBefore&#40;&#41;.toString&#40;&#41;&#41;&#41;;
-          &#125;&#41;;
-     </pre>
+- uid: "com.azure.security.keyvault.keys.KeyAsyncClient.updateKeyProperties(com.azure.security.keyvault.keys.models.KeyProperties,com.azure.security.keyvault.keys.models.KeyOperation...)"
+  fullName: "com.azure.security.keyvault.keys.KeyAsyncClient.updateKeyProperties(KeyProperties keyProperties, KeyOperation[] keyOperations)"
+  name: "updateKeyProperties(KeyProperties keyProperties, KeyOperation[] keyOperations)"
+  nameWithType: "KeyAsyncClient.updateKeyProperties(KeyProperties keyProperties, KeyOperation[] keyOperations)"
+  summary: "Updates the attributes and key operations associated with the specified key, but not the cryptographic key\n material of the specified key in the key vault. The update operation changes specified attributes of an existing\n stored key and attributes that are not specified in the request are left unchanged. The cryptographic key\n material of a key itself cannot be changed. This operation requires the <code>keys/set</code> permission.\n\n <p><strong>Code Samples</strong></p>\n <p>Gets latest version of the key, changes its notBefore time and then updates it in the Azure Key Vault.\n Subscribes to the call asynchronously and prints out the returned key details when a response has been received.\n </p>\n\n <pre>\n keyAsyncClient.getKey&#40;&quot;keyName&quot;&#41;\n      .subscribe&#40;keyResponse  -&gt; &#123;\n          &#47;&#47;Update the not before time of the key.\n          keyResponse.getProperties&#40;&#41;.setNotBefore&#40;OffsetDateTime.now&#40;&#41;.plusDays&#40;50&#41;&#41;;\n          keyAsyncClient.updateKeyProperties&#40;keyResponse.getProperties&#40;&#41;, KeyOperation.ENCRYPT,\n              KeyOperation.DECRYPT&#41;\n              .subscriberContext&#40;Context.of&#40;key1, value1, key2, value2&#41;&#41;\n              .subscribe&#40;updatedKeyResponse  -&gt;\n                  System.out.printf&#40;&quot;Key's updated not before time %s %n&quot;,\n                      updatedKeyResponse.getProperties&#40;&#41;.getNotBefore&#40;&#41;.toString&#40;&#41;&#41;&#41;;\n      &#125;&#41;;\n </pre>"
   parameters:
-  - description: The <xref uid="com.azure.security.keyvault.keys.models.KeyProperties" data-throw-if-not-resolved="false">key properties</xref> object with updated properties.
-    name: keyProperties
-    type: <xref href="com.azure.security.keyvault.keys.models.KeyProperties?alt=com.azure.security.keyvault.keys.models.KeyProperties&text=KeyProperties" data-throw-if-not-resolved="False" />
-  - description: The updated key operations to associate with the key.
-    name: keyOperations
-    type: <xref href="com.azure.security.keyvault.keys.models.KeyOperation?alt=com.azure.security.keyvault.keys.models.KeyOperation&text=KeyOperation" data-throw-if-not-resolved="False" />[]
-  syntax: public Mono<KeyVaultKey> updateKeyProperties(KeyProperties keyProperties, KeyOperation[] keyOperations)
+  - description: "The <xref uid=\"com.azure.security.keyvault.keys.models.KeyProperties\" data-throw-if-not-resolved=\"false\">key properties</xref> object with updated properties."
+    name: "keyProperties"
+    type: "<xref href=\"com.azure.security.keyvault.keys.models.KeyProperties?alt=com.azure.security.keyvault.keys.models.KeyProperties&text=KeyProperties\" data-throw-if-not-resolved=\"False\" />"
+  - description: "The updated key operations to associate with the key."
+    name: "keyOperations"
+    type: "<xref href=\"com.azure.security.keyvault.keys.models.KeyOperation?alt=com.azure.security.keyvault.keys.models.KeyOperation&text=KeyOperation\" data-throw-if-not-resolved=\"False\" />[]"
+  syntax: "public Mono<KeyVaultKey> updateKeyProperties(KeyProperties keyProperties, KeyOperation[] keyOperations)"
   returns:
-    description: A <xref uid="reactor.core.publisher.Mono" data-throw-if-not-resolved="false">Mono</xref> containing the <xref uid="com.azure.security.keyvault.keys.models.KeyVaultKey" data-throw-if-not-resolved="false">updated key</xref>.
-    type: <xref href="reactor.core.publisher.Mono?alt=reactor.core.publisher.Mono&text=Mono" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.security.keyvault.keys.models.KeyVaultKey?alt=com.azure.security.keyvault.keys.models.KeyVaultKey&text=KeyVaultKey" data-throw-if-not-resolved="False" />&gt;
-type: method
+    description: "A <xref uid=\"reactor.core.publisher.Mono\" data-throw-if-not-resolved=\"false\">Mono</xref> containing the <xref uid=\"com.azure.security.keyvault.keys.models.KeyVaultKey\" data-throw-if-not-resolved=\"false\">updated key</xref>."
+    type: "<xref href=\"reactor.core.publisher.Mono?alt=reactor.core.publisher.Mono&text=Mono\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.security.keyvault.keys.models.KeyVaultKey?alt=com.azure.security.keyvault.keys.models.KeyVaultKey&text=KeyVaultKey\" data-throw-if-not-resolved=\"False\" />&gt;"
+type: "method"
 metadata: {}
-package: com.azure.security.keyvault.keys
+package: "com.azure.security.keyvault.keys"
 artifact: com.azure:azure-security-keyvault-keys:4.2.0

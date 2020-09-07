@@ -1,30 +1,30 @@
 ### YamlMime:JavaType
-uid: com.azure.search.documents.indexes.implementation.models.TextWeights
-fullName: com.azure.search.documents.indexes.implementation.models.TextWeights
-name: TextWeights
-nameWithType: TextWeights
-summary: The TextWeights model.
+uid: "com.azure.search.documents.indexes.implementation.models.TextWeights"
+fullName: "com.azure.search.documents.indexes.implementation.models.TextWeights"
+name: "TextWeights"
+nameWithType: "TextWeights"
+summary: "The TextWeights model."
 inheritances:
-- <xref href="java.lang.Object" data-throw-if-not-resolved="False" />
+- "<xref href=\"java.lang.Object\" data-throw-if-not-resolved=\"False\" />"
 inheritedMembers:
-- java.lang.Object.clone()
-- java.lang.Object.equals(java.lang.Object)
-- java.lang.Object.finalize()
-- java.lang.Object.getClass()
-- java.lang.Object.hashCode()
-- java.lang.Object.notify()
-- java.lang.Object.notifyAll()
-- java.lang.Object.toString()
-- java.lang.Object.wait()
-- java.lang.Object.wait(long)
-- java.lang.Object.wait(long,int)
-syntax: public final class TextWeights
+- "java.lang.Object.clone()"
+- "java.lang.Object.equals(java.lang.Object)"
+- "java.lang.Object.finalize()"
+- "java.lang.Object.getClass()"
+- "java.lang.Object.hashCode()"
+- "java.lang.Object.notify()"
+- "java.lang.Object.notifyAll()"
+- "java.lang.Object.toString()"
+- "java.lang.Object.wait()"
+- "java.lang.Object.wait(long)"
+- "java.lang.Object.wait(long,int)"
+syntax: "public final class TextWeights"
 constructors:
-- com.azure.search.documents.indexes.implementation.models.TextWeights.TextWeights(java.util.Map<java.lang.String,java.lang.Double>)
+- "com.azure.search.documents.indexes.implementation.models.TextWeights.TextWeights(java.util.Map<java.lang.String,java.lang.Double>)"
 methods:
-- com.azure.search.documents.indexes.implementation.models.TextWeights.getWeights()
-- com.azure.search.documents.indexes.implementation.models.TextWeights.validate()
-type: class
+- "com.azure.search.documents.indexes.implementation.models.TextWeights.getWeights()"
+- "com.azure.search.documents.indexes.implementation.models.TextWeights.validate()"
+type: "class"
 metadata: {}
-package: com.azure.search.documents.indexes.implementation.models
+package: "com.azure.search.documents.indexes.implementation.models"
 artifact: com.azure:azure-search-documents:11.1.0-beta.1

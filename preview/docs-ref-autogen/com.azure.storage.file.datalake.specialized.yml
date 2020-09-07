@@ -1,12 +1,12 @@
 ### YamlMime:JavaPackage
-uid: com.azure.storage.file.datalake.specialized
-fullName: com.azure.storage.file.datalake.specialized
-name: com.azure.storage.file.datalake.specialized
-summary: Package containing specialized lease clients for Azure Storage File Data Lake.
+uid: "com.azure.storage.file.datalake.specialized"
+fullName: "com.azure.storage.file.datalake.specialized"
+name: "com.azure.storage.file.datalake.specialized"
+summary: "Package containing specialized lease clients for Azure Storage File Data Lake."
 classes:
-- com.azure.storage.file.datalake.specialized.DataLakeLeaseAsyncClient
-- com.azure.storage.file.datalake.specialized.DataLakeLeaseClient
-- com.azure.storage.file.datalake.specialized.DataLakeLeaseClientBuilder
+- "com.azure.storage.file.datalake.specialized.DataLakeLeaseAsyncClient"
+- "com.azure.storage.file.datalake.specialized.DataLakeLeaseClient"
+- "com.azure.storage.file.datalake.specialized.DataLakeLeaseClientBuilder"
 metadata: {}
-package: com.azure.storage.file.datalake.specialized
+package: "com.azure.storage.file.datalake.specialized"
 artifact: com.azure:azure-storage-file-datalake:12.2.0-beta.1

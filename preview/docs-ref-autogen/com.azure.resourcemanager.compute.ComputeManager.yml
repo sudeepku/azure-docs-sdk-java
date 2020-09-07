@@ -1,52 +1,52 @@
 ### YamlMime:JavaType
-uid: com.azure.resourcemanager.compute.ComputeManager
-fullName: com.azure.resourcemanager.compute.ComputeManager
-name: ComputeManager
-nameWithType: ComputeManager
-summary: Entry point to Azure compute resource management.
+uid: "com.azure.resourcemanager.compute.ComputeManager"
+fullName: "com.azure.resourcemanager.compute.ComputeManager"
+name: "ComputeManager"
+nameWithType: "ComputeManager"
+summary: "Entry point to Azure compute resource management."
 inheritances:
-- <xref href="java.lang.Object" data-throw-if-not-resolved="False" />
-- <xref href="com.azure.resourcemanager.resources.fluentcore.arm.implementation.ManagerBase" data-throw-if-not-resolved="False" />
-- <xref href="com.azure.resourcemanager.resources.fluentcore.arm.implementation.Manager" data-throw-if-not-resolved="False" />
+- "<xref href=\"java.lang.Object\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.azure.resourcemanager.resources.fluentcore.arm.implementation.ManagerBase\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.azure.resourcemanager.resources.fluentcore.arm.implementation.Manager\" data-throw-if-not-resolved=\"False\" />"
 inheritedMembers:
-- com.azure.resourcemanager.resources.fluentcore.arm.implementation.Manager.inner()
-- com.azure.resourcemanager.resources.fluentcore.arm.implementation.ManagerBase.environment()
-- com.azure.resourcemanager.resources.fluentcore.arm.implementation.ManagerBase.httpPipeline()
-- com.azure.resourcemanager.resources.fluentcore.arm.implementation.ManagerBase.resourceManager()
-- com.azure.resourcemanager.resources.fluentcore.arm.implementation.ManagerBase.sdkContext()
-- com.azure.resourcemanager.resources.fluentcore.arm.implementation.ManagerBase.subscriptionId()
-- com.azure.resourcemanager.resources.fluentcore.arm.implementation.ManagerBase.withResourceManager(com.azure.resourcemanager.resources.ResourceManager)
-- java.lang.Object.clone()
-- java.lang.Object.equals(java.lang.Object)
-- java.lang.Object.finalize()
-- java.lang.Object.getClass()
-- java.lang.Object.hashCode()
-- java.lang.Object.notify()
-- java.lang.Object.notifyAll()
-- java.lang.Object.toString()
-- java.lang.Object.wait()
-- java.lang.Object.wait(long)
-- java.lang.Object.wait(long,int)
-syntax: public final class ComputeManager extends Manager<ComputeManager,ComputeManagementClient>
+- "com.azure.resourcemanager.resources.fluentcore.arm.implementation.Manager.inner()"
+- "com.azure.resourcemanager.resources.fluentcore.arm.implementation.ManagerBase.environment()"
+- "com.azure.resourcemanager.resources.fluentcore.arm.implementation.ManagerBase.httpPipeline()"
+- "com.azure.resourcemanager.resources.fluentcore.arm.implementation.ManagerBase.resourceManager()"
+- "com.azure.resourcemanager.resources.fluentcore.arm.implementation.ManagerBase.sdkContext()"
+- "com.azure.resourcemanager.resources.fluentcore.arm.implementation.ManagerBase.subscriptionId()"
+- "com.azure.resourcemanager.resources.fluentcore.arm.implementation.ManagerBase.withResourceManager(com.azure.resourcemanager.resources.ResourceManager)"
+- "java.lang.Object.clone()"
+- "java.lang.Object.equals(java.lang.Object)"
+- "java.lang.Object.finalize()"
+- "java.lang.Object.getClass()"
+- "java.lang.Object.hashCode()"
+- "java.lang.Object.notify()"
+- "java.lang.Object.notifyAll()"
+- "java.lang.Object.toString()"
+- "java.lang.Object.wait()"
+- "java.lang.Object.wait(long)"
+- "java.lang.Object.wait(long,int)"
+syntax: "public final class ComputeManager extends Manager<ComputeManager,ComputeManagementClient>"
 methods:
-- com.azure.resourcemanager.compute.ComputeManager.authenticate(com.azure.core.credential.TokenCredential,com.azure.resourcemanager.resources.fluentcore.profile.AzureProfile)
-- com.azure.resourcemanager.compute.ComputeManager.authenticate(com.azure.core.http.HttpPipeline,com.azure.resourcemanager.resources.fluentcore.profile.AzureProfile)
-- com.azure.resourcemanager.compute.ComputeManager.authenticate(com.azure.core.http.HttpPipeline,com.azure.resourcemanager.resources.fluentcore.profile.AzureProfile,com.azure.resourcemanager.resources.fluentcore.utils.SdkContext)
-- com.azure.resourcemanager.compute.ComputeManager.availabilitySets()
-- com.azure.resourcemanager.compute.ComputeManager.computeSkus()
-- com.azure.resourcemanager.compute.ComputeManager.configure()
-- com.azure.resourcemanager.compute.ComputeManager.disks()
-- com.azure.resourcemanager.compute.ComputeManager.galleries()
-- com.azure.resourcemanager.compute.ComputeManager.galleryImageVersions()
-- com.azure.resourcemanager.compute.ComputeManager.galleryImages()
-- com.azure.resourcemanager.compute.ComputeManager.snapshots()
-- com.azure.resourcemanager.compute.ComputeManager.usages()
-- com.azure.resourcemanager.compute.ComputeManager.virtualMachineCustomImages()
-- com.azure.resourcemanager.compute.ComputeManager.virtualMachineExtensionImages()
-- com.azure.resourcemanager.compute.ComputeManager.virtualMachineImages()
-- com.azure.resourcemanager.compute.ComputeManager.virtualMachineScaleSets()
-- com.azure.resourcemanager.compute.ComputeManager.virtualMachines()
-type: class
+- "com.azure.resourcemanager.compute.ComputeManager.authenticate(com.azure.core.credential.TokenCredential,com.azure.resourcemanager.resources.fluentcore.profile.AzureProfile)"
+- "com.azure.resourcemanager.compute.ComputeManager.authenticate(com.azure.core.http.HttpPipeline,com.azure.resourcemanager.resources.fluentcore.profile.AzureProfile)"
+- "com.azure.resourcemanager.compute.ComputeManager.authenticate(com.azure.core.http.HttpPipeline,com.azure.resourcemanager.resources.fluentcore.profile.AzureProfile,com.azure.resourcemanager.resources.fluentcore.utils.SdkContext)"
+- "com.azure.resourcemanager.compute.ComputeManager.availabilitySets()"
+- "com.azure.resourcemanager.compute.ComputeManager.computeSkus()"
+- "com.azure.resourcemanager.compute.ComputeManager.configure()"
+- "com.azure.resourcemanager.compute.ComputeManager.disks()"
+- "com.azure.resourcemanager.compute.ComputeManager.galleries()"
+- "com.azure.resourcemanager.compute.ComputeManager.galleryImageVersions()"
+- "com.azure.resourcemanager.compute.ComputeManager.galleryImages()"
+- "com.azure.resourcemanager.compute.ComputeManager.snapshots()"
+- "com.azure.resourcemanager.compute.ComputeManager.usages()"
+- "com.azure.resourcemanager.compute.ComputeManager.virtualMachineCustomImages()"
+- "com.azure.resourcemanager.compute.ComputeManager.virtualMachineExtensionImages()"
+- "com.azure.resourcemanager.compute.ComputeManager.virtualMachineImages()"
+- "com.azure.resourcemanager.compute.ComputeManager.virtualMachineScaleSets()"
+- "com.azure.resourcemanager.compute.ComputeManager.virtualMachines()"
+type: "class"
 metadata: {}
-package: com.azure.resourcemanager.compute
+package: "com.azure.resourcemanager.compute"
 artifact: com.azure.resourcemanager:azure-resourcemanager-compute:2.0.0-beta.2

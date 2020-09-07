@@ -1,32 +1,32 @@
 ### YamlMime:JavaType
-uid: com.azure.resourcemanager.network.fluent.inner.NetworkInterfaceTapConfigurationListResultInner
-fullName: com.azure.resourcemanager.network.fluent.inner.NetworkInterfaceTapConfigurationListResultInner
-name: NetworkInterfaceTapConfigurationListResultInner
-nameWithType: NetworkInterfaceTapConfigurationListResultInner
-summary: The NetworkInterfaceTapConfigurationListResult model.
+uid: "com.azure.resourcemanager.network.fluent.inner.NetworkInterfaceTapConfigurationListResultInner"
+fullName: "com.azure.resourcemanager.network.fluent.inner.NetworkInterfaceTapConfigurationListResultInner"
+name: "NetworkInterfaceTapConfigurationListResultInner"
+nameWithType: "NetworkInterfaceTapConfigurationListResultInner"
+summary: "The NetworkInterfaceTapConfigurationListResult model."
 inheritances:
-- <xref href="java.lang.Object" data-throw-if-not-resolved="False" />
+- "<xref href=\"java.lang.Object\" data-throw-if-not-resolved=\"False\" />"
 inheritedMembers:
-- java.lang.Object.clone()
-- java.lang.Object.equals(java.lang.Object)
-- java.lang.Object.finalize()
-- java.lang.Object.getClass()
-- java.lang.Object.hashCode()
-- java.lang.Object.notify()
-- java.lang.Object.notifyAll()
-- java.lang.Object.toString()
-- java.lang.Object.wait()
-- java.lang.Object.wait(long)
-- java.lang.Object.wait(long,int)
-syntax: public final class NetworkInterfaceTapConfigurationListResultInner
+- "java.lang.Object.clone()"
+- "java.lang.Object.equals(java.lang.Object)"
+- "java.lang.Object.finalize()"
+- "java.lang.Object.getClass()"
+- "java.lang.Object.hashCode()"
+- "java.lang.Object.notify()"
+- "java.lang.Object.notifyAll()"
+- "java.lang.Object.toString()"
+- "java.lang.Object.wait()"
+- "java.lang.Object.wait(long)"
+- "java.lang.Object.wait(long,int)"
+syntax: "public final class NetworkInterfaceTapConfigurationListResultInner"
 constructors:
-- com.azure.resourcemanager.network.fluent.inner.NetworkInterfaceTapConfigurationListResultInner.NetworkInterfaceTapConfigurationListResultInner()
+- "com.azure.resourcemanager.network.fluent.inner.NetworkInterfaceTapConfigurationListResultInner.NetworkInterfaceTapConfigurationListResultInner()"
 methods:
-- com.azure.resourcemanager.network.fluent.inner.NetworkInterfaceTapConfigurationListResultInner.nextLink()
-- com.azure.resourcemanager.network.fluent.inner.NetworkInterfaceTapConfigurationListResultInner.validate()
-- com.azure.resourcemanager.network.fluent.inner.NetworkInterfaceTapConfigurationListResultInner.value()
-- com.azure.resourcemanager.network.fluent.inner.NetworkInterfaceTapConfigurationListResultInner.withValue(java.util.List<com.azure.resourcemanager.network.fluent.inner.NetworkInterfaceTapConfigurationInner>)
-type: class
+- "com.azure.resourcemanager.network.fluent.inner.NetworkInterfaceTapConfigurationListResultInner.nextLink()"
+- "com.azure.resourcemanager.network.fluent.inner.NetworkInterfaceTapConfigurationListResultInner.validate()"
+- "com.azure.resourcemanager.network.fluent.inner.NetworkInterfaceTapConfigurationListResultInner.value()"
+- "com.azure.resourcemanager.network.fluent.inner.NetworkInterfaceTapConfigurationListResultInner.withValue(java.util.List<com.azure.resourcemanager.network.fluent.inner.NetworkInterfaceTapConfigurationInner>)"
+type: "class"
 metadata: {}
-package: com.azure.resourcemanager.network.fluent.inner
+package: "com.azure.resourcemanager.network.fluent.inner"
 artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.0.0-beta.2

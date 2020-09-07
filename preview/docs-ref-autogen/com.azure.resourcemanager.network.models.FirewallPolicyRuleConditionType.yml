@@ -1,36 +1,36 @@
 ### YamlMime:JavaType
-uid: com.azure.resourcemanager.network.models.FirewallPolicyRuleConditionType
-fullName: com.azure.resourcemanager.network.models.FirewallPolicyRuleConditionType
-name: FirewallPolicyRuleConditionType
-nameWithType: FirewallPolicyRuleConditionType
-summary: Defines values for FirewallPolicyRuleConditionType.
+uid: "com.azure.resourcemanager.network.models.FirewallPolicyRuleConditionType"
+fullName: "com.azure.resourcemanager.network.models.FirewallPolicyRuleConditionType"
+name: "FirewallPolicyRuleConditionType"
+nameWithType: "FirewallPolicyRuleConditionType"
+summary: "Defines values for FirewallPolicyRuleConditionType."
 inheritances:
-- <xref href="java.lang.Object" data-throw-if-not-resolved="False" />
-- <xref href="com.azure.core.util.ExpandableStringEnum" data-throw-if-not-resolved="False" />
+- "<xref href=\"java.lang.Object\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.azure.core.util.ExpandableStringEnum\" data-throw-if-not-resolved=\"False\" />"
 inheritedMembers:
-- com.azure.core.util.ExpandableStringEnum.<T>fromString(java.lang.String,java.lang.Class<T>)
-- com.azure.core.util.ExpandableStringEnum.<T>values(java.lang.Class<T>)
-- com.azure.core.util.ExpandableStringEnum.equals(java.lang.Object)
-- com.azure.core.util.ExpandableStringEnum.hashCode()
-- com.azure.core.util.ExpandableStringEnum.toString()
-- java.lang.Object.clone()
-- java.lang.Object.finalize()
-- java.lang.Object.getClass()
-- java.lang.Object.notify()
-- java.lang.Object.notifyAll()
-- java.lang.Object.wait()
-- java.lang.Object.wait(long)
-- java.lang.Object.wait(long,int)
-syntax: public final class FirewallPolicyRuleConditionType extends ExpandableStringEnum<FirewallPolicyRuleConditionType>
+- "com.azure.core.util.ExpandableStringEnum.<T>fromString(java.lang.String,java.lang.Class<T>)"
+- "com.azure.core.util.ExpandableStringEnum.<T>values(java.lang.Class<T>)"
+- "com.azure.core.util.ExpandableStringEnum.equals(java.lang.Object)"
+- "com.azure.core.util.ExpandableStringEnum.hashCode()"
+- "com.azure.core.util.ExpandableStringEnum.toString()"
+- "java.lang.Object.clone()"
+- "java.lang.Object.finalize()"
+- "java.lang.Object.getClass()"
+- "java.lang.Object.notify()"
+- "java.lang.Object.notifyAll()"
+- "java.lang.Object.wait()"
+- "java.lang.Object.wait(long)"
+- "java.lang.Object.wait(long,int)"
+syntax: "public final class FirewallPolicyRuleConditionType extends ExpandableStringEnum<FirewallPolicyRuleConditionType>"
 constructors:
-- com.azure.resourcemanager.network.models.FirewallPolicyRuleConditionType.FirewallPolicyRuleConditionType()
+- "com.azure.resourcemanager.network.models.FirewallPolicyRuleConditionType.FirewallPolicyRuleConditionType()"
 fields:
-- com.azure.resourcemanager.network.models.FirewallPolicyRuleConditionType.APPLICATION_RULE_CONDITION
-- com.azure.resourcemanager.network.models.FirewallPolicyRuleConditionType.NETWORK_RULE_CONDITION
+- "com.azure.resourcemanager.network.models.FirewallPolicyRuleConditionType.APPLICATION_RULE_CONDITION"
+- "com.azure.resourcemanager.network.models.FirewallPolicyRuleConditionType.NETWORK_RULE_CONDITION"
 methods:
-- com.azure.resourcemanager.network.models.FirewallPolicyRuleConditionType.fromString(java.lang.String)
-- com.azure.resourcemanager.network.models.FirewallPolicyRuleConditionType.values()
-type: class
+- "com.azure.resourcemanager.network.models.FirewallPolicyRuleConditionType.fromString(java.lang.String)"
+- "com.azure.resourcemanager.network.models.FirewallPolicyRuleConditionType.values()"
+type: "class"
 metadata: {}
-package: com.azure.resourcemanager.network.models
+package: "com.azure.resourcemanager.network.models"
 artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.0.0-beta.2

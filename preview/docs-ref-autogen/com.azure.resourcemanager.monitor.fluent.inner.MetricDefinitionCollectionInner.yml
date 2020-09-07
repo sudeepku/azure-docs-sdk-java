@@ -1,31 +1,31 @@
 ### YamlMime:JavaType
-uid: com.azure.resourcemanager.monitor.fluent.inner.MetricDefinitionCollectionInner
-fullName: com.azure.resourcemanager.monitor.fluent.inner.MetricDefinitionCollectionInner
-name: MetricDefinitionCollectionInner
-nameWithType: MetricDefinitionCollectionInner
-summary: The MetricDefinitionCollection model.
+uid: "com.azure.resourcemanager.monitor.fluent.inner.MetricDefinitionCollectionInner"
+fullName: "com.azure.resourcemanager.monitor.fluent.inner.MetricDefinitionCollectionInner"
+name: "MetricDefinitionCollectionInner"
+nameWithType: "MetricDefinitionCollectionInner"
+summary: "The MetricDefinitionCollection model."
 inheritances:
-- <xref href="java.lang.Object" data-throw-if-not-resolved="False" />
+- "<xref href=\"java.lang.Object\" data-throw-if-not-resolved=\"False\" />"
 inheritedMembers:
-- java.lang.Object.clone()
-- java.lang.Object.equals(java.lang.Object)
-- java.lang.Object.finalize()
-- java.lang.Object.getClass()
-- java.lang.Object.hashCode()
-- java.lang.Object.notify()
-- java.lang.Object.notifyAll()
-- java.lang.Object.toString()
-- java.lang.Object.wait()
-- java.lang.Object.wait(long)
-- java.lang.Object.wait(long,int)
-syntax: public final class MetricDefinitionCollectionInner
+- "java.lang.Object.clone()"
+- "java.lang.Object.equals(java.lang.Object)"
+- "java.lang.Object.finalize()"
+- "java.lang.Object.getClass()"
+- "java.lang.Object.hashCode()"
+- "java.lang.Object.notify()"
+- "java.lang.Object.notifyAll()"
+- "java.lang.Object.toString()"
+- "java.lang.Object.wait()"
+- "java.lang.Object.wait(long)"
+- "java.lang.Object.wait(long,int)"
+syntax: "public final class MetricDefinitionCollectionInner"
 constructors:
-- com.azure.resourcemanager.monitor.fluent.inner.MetricDefinitionCollectionInner.MetricDefinitionCollectionInner()
+- "com.azure.resourcemanager.monitor.fluent.inner.MetricDefinitionCollectionInner.MetricDefinitionCollectionInner()"
 methods:
-- com.azure.resourcemanager.monitor.fluent.inner.MetricDefinitionCollectionInner.validate()
-- com.azure.resourcemanager.monitor.fluent.inner.MetricDefinitionCollectionInner.value()
-- com.azure.resourcemanager.monitor.fluent.inner.MetricDefinitionCollectionInner.withValue(java.util.List<com.azure.resourcemanager.monitor.fluent.inner.MetricDefinitionInner>)
-type: class
+- "com.azure.resourcemanager.monitor.fluent.inner.MetricDefinitionCollectionInner.validate()"
+- "com.azure.resourcemanager.monitor.fluent.inner.MetricDefinitionCollectionInner.value()"
+- "com.azure.resourcemanager.monitor.fluent.inner.MetricDefinitionCollectionInner.withValue(java.util.List<com.azure.resourcemanager.monitor.fluent.inner.MetricDefinitionInner>)"
+type: "class"
 metadata: {}
-package: com.azure.resourcemanager.monitor.fluent.inner
+package: "com.azure.resourcemanager.monitor.fluent.inner"
 artifact: com.azure.resourcemanager:azure-resourcemanager-monitor:2.0.0-beta.2

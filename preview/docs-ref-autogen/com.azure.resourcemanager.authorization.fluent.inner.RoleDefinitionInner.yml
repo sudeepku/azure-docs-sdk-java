@@ -1,42 +1,42 @@
 ### YamlMime:JavaType
-uid: com.azure.resourcemanager.authorization.fluent.inner.RoleDefinitionInner
-fullName: com.azure.resourcemanager.authorization.fluent.inner.RoleDefinitionInner
-name: RoleDefinitionInner
-nameWithType: RoleDefinitionInner
-summary: The RoleDefinition model.
+uid: "com.azure.resourcemanager.authorization.fluent.inner.RoleDefinitionInner"
+fullName: "com.azure.resourcemanager.authorization.fluent.inner.RoleDefinitionInner"
+name: "RoleDefinitionInner"
+nameWithType: "RoleDefinitionInner"
+summary: "The RoleDefinition model."
 inheritances:
-- <xref href="java.lang.Object" data-throw-if-not-resolved="False" />
+- "<xref href=\"java.lang.Object\" data-throw-if-not-resolved=\"False\" />"
 inheritedMembers:
-- java.lang.Object.clone()
-- java.lang.Object.equals(java.lang.Object)
-- java.lang.Object.finalize()
-- java.lang.Object.getClass()
-- java.lang.Object.hashCode()
-- java.lang.Object.notify()
-- java.lang.Object.notifyAll()
-- java.lang.Object.toString()
-- java.lang.Object.wait()
-- java.lang.Object.wait(long)
-- java.lang.Object.wait(long,int)
-syntax: public class RoleDefinitionInner
+- "java.lang.Object.clone()"
+- "java.lang.Object.equals(java.lang.Object)"
+- "java.lang.Object.finalize()"
+- "java.lang.Object.getClass()"
+- "java.lang.Object.hashCode()"
+- "java.lang.Object.notify()"
+- "java.lang.Object.notifyAll()"
+- "java.lang.Object.toString()"
+- "java.lang.Object.wait()"
+- "java.lang.Object.wait(long)"
+- "java.lang.Object.wait(long,int)"
+syntax: "public class RoleDefinitionInner"
 constructors:
-- com.azure.resourcemanager.authorization.fluent.inner.RoleDefinitionInner.RoleDefinitionInner()
+- "com.azure.resourcemanager.authorization.fluent.inner.RoleDefinitionInner.RoleDefinitionInner()"
 methods:
-- com.azure.resourcemanager.authorization.fluent.inner.RoleDefinitionInner.assignableScopes()
-- com.azure.resourcemanager.authorization.fluent.inner.RoleDefinitionInner.description()
-- com.azure.resourcemanager.authorization.fluent.inner.RoleDefinitionInner.id()
-- com.azure.resourcemanager.authorization.fluent.inner.RoleDefinitionInner.name()
-- com.azure.resourcemanager.authorization.fluent.inner.RoleDefinitionInner.permissions()
-- com.azure.resourcemanager.authorization.fluent.inner.RoleDefinitionInner.roleName()
-- com.azure.resourcemanager.authorization.fluent.inner.RoleDefinitionInner.roleType()
-- com.azure.resourcemanager.authorization.fluent.inner.RoleDefinitionInner.type()
-- com.azure.resourcemanager.authorization.fluent.inner.RoleDefinitionInner.validate()
-- com.azure.resourcemanager.authorization.fluent.inner.RoleDefinitionInner.withAssignableScopes(java.util.List<java.lang.String>)
-- com.azure.resourcemanager.authorization.fluent.inner.RoleDefinitionInner.withDescription(java.lang.String)
-- com.azure.resourcemanager.authorization.fluent.inner.RoleDefinitionInner.withPermissions(java.util.List<com.azure.resourcemanager.authorization.fluent.inner.PermissionInner>)
-- com.azure.resourcemanager.authorization.fluent.inner.RoleDefinitionInner.withRoleName(java.lang.String)
-- com.azure.resourcemanager.authorization.fluent.inner.RoleDefinitionInner.withRoleType(java.lang.String)
-type: class
+- "com.azure.resourcemanager.authorization.fluent.inner.RoleDefinitionInner.assignableScopes()"
+- "com.azure.resourcemanager.authorization.fluent.inner.RoleDefinitionInner.description()"
+- "com.azure.resourcemanager.authorization.fluent.inner.RoleDefinitionInner.id()"
+- "com.azure.resourcemanager.authorization.fluent.inner.RoleDefinitionInner.name()"
+- "com.azure.resourcemanager.authorization.fluent.inner.RoleDefinitionInner.permissions()"
+- "com.azure.resourcemanager.authorization.fluent.inner.RoleDefinitionInner.roleName()"
+- "com.azure.resourcemanager.authorization.fluent.inner.RoleDefinitionInner.roleType()"
+- "com.azure.resourcemanager.authorization.fluent.inner.RoleDefinitionInner.type()"
+- "com.azure.resourcemanager.authorization.fluent.inner.RoleDefinitionInner.validate()"
+- "com.azure.resourcemanager.authorization.fluent.inner.RoleDefinitionInner.withAssignableScopes(java.util.List<java.lang.String>)"
+- "com.azure.resourcemanager.authorization.fluent.inner.RoleDefinitionInner.withDescription(java.lang.String)"
+- "com.azure.resourcemanager.authorization.fluent.inner.RoleDefinitionInner.withPermissions(java.util.List<com.azure.resourcemanager.authorization.fluent.inner.PermissionInner>)"
+- "com.azure.resourcemanager.authorization.fluent.inner.RoleDefinitionInner.withRoleName(java.lang.String)"
+- "com.azure.resourcemanager.authorization.fluent.inner.RoleDefinitionInner.withRoleType(java.lang.String)"
+type: "class"
 metadata: {}
-package: com.azure.resourcemanager.authorization.fluent.inner
+package: "com.azure.resourcemanager.authorization.fluent.inner"
 artifact: com.azure.resourcemanager:azure-resourcemanager-authorization:2.0.0-beta.2

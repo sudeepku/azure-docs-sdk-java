@@ -1,23 +1,23 @@
 ### YamlMime:JavaMember
-uid: com.azure.messaging.servicebus.ServiceBusMessage.setScheduledEnqueueTime*
-fullName: com.azure.messaging.servicebus.ServiceBusMessage.setScheduledEnqueueTime
-name: setScheduledEnqueueTime
-nameWithType: ServiceBusMessage.setScheduledEnqueueTime
+uid: "com.azure.messaging.servicebus.ServiceBusMessage.setScheduledEnqueueTime*"
+fullName: "com.azure.messaging.servicebus.ServiceBusMessage.setScheduledEnqueueTime"
+name: "setScheduledEnqueueTime"
+nameWithType: "ServiceBusMessage.setScheduledEnqueueTime"
 members:
-- uid: com.azure.messaging.servicebus.ServiceBusMessage.setScheduledEnqueueTime(java.time.Instant)
-  fullName: com.azure.messaging.servicebus.ServiceBusMessage.setScheduledEnqueueTime(Instant scheduledEnqueueTime)
-  name: setScheduledEnqueueTime(Instant scheduledEnqueueTime)
-  nameWithType: ServiceBusMessage.setScheduledEnqueueTime(Instant scheduledEnqueueTime)
-  summary: Sets the scheduled enqueue time of this message.
+- uid: "com.azure.messaging.servicebus.ServiceBusMessage.setScheduledEnqueueTime(java.time.Instant)"
+  fullName: "com.azure.messaging.servicebus.ServiceBusMessage.setScheduledEnqueueTime(Instant scheduledEnqueueTime)"
+  name: "setScheduledEnqueueTime(Instant scheduledEnqueueTime)"
+  nameWithType: "ServiceBusMessage.setScheduledEnqueueTime(Instant scheduledEnqueueTime)"
+  summary: "Sets the scheduled enqueue time of this message."
   parameters:
-  - description: the instant at which this message should be enqueued in Azure Service Bus.
-    name: scheduledEnqueueTime
-    type: <xref href="java.time.Instant?alt=java.time.Instant&text=Instant" data-throw-if-not-resolved="False" />
-  syntax: public ServiceBusMessage setScheduledEnqueueTime(Instant scheduledEnqueueTime)
+  - description: "the instant at which this message should be enqueued in Azure Service Bus."
+    name: "scheduledEnqueueTime"
+    type: "<xref href=\"java.time.Instant?alt=java.time.Instant&text=Instant\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public ServiceBusMessage setScheduledEnqueueTime(Instant scheduledEnqueueTime)"
   returns:
-    description: The updated <xref uid="com.azure.messaging.servicebus.ServiceBusMessage" data-throw-if-not-resolved="false">ServiceBusMessage</xref>.
-    type: <xref href="com.azure.messaging.servicebus.ServiceBusMessage?alt=com.azure.messaging.servicebus.ServiceBusMessage&text=ServiceBusMessage" data-throw-if-not-resolved="False" />
-type: method
+    description: "The updated <xref uid=\"com.azure.messaging.servicebus.ServiceBusMessage\" data-throw-if-not-resolved=\"false\">ServiceBusMessage</xref>."
+    type: "<xref href=\"com.azure.messaging.servicebus.ServiceBusMessage?alt=com.azure.messaging.servicebus.ServiceBusMessage&text=ServiceBusMessage\" data-throw-if-not-resolved=\"False\" />"
+type: "method"
 metadata: {}
-package: com.azure.messaging.servicebus
+package: "com.azure.messaging.servicebus"
 artifact: com.azure:azure-messaging-servicebus:7.0.0-beta.5

@@ -1,47 +1,47 @@
 ### YamlMime:JavaType
-uid: com.azure.messaging.servicebus.implementation.models.CorrelationFilter
-fullName: com.azure.messaging.servicebus.implementation.models.CorrelationFilter
-name: CorrelationFilter
-nameWithType: CorrelationFilter
-summary: The CorrelationFilter model.
+uid: "com.azure.messaging.servicebus.implementation.models.CorrelationFilter"
+fullName: "com.azure.messaging.servicebus.implementation.models.CorrelationFilter"
+name: "CorrelationFilter"
+nameWithType: "CorrelationFilter"
+summary: "The CorrelationFilter model."
 inheritances:
-- <xref href="java.lang.Object" data-throw-if-not-resolved="False" />
-- <xref href="com.azure.messaging.servicebus.implementation.models.RuleFilter" data-throw-if-not-resolved="False" />
+- "<xref href=\"java.lang.Object\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.azure.messaging.servicebus.implementation.models.RuleFilter\" data-throw-if-not-resolved=\"False\" />"
 inheritedMembers:
-- java.lang.Object.clone()
-- java.lang.Object.equals(java.lang.Object)
-- java.lang.Object.finalize()
-- java.lang.Object.getClass()
-- java.lang.Object.hashCode()
-- java.lang.Object.notify()
-- java.lang.Object.notifyAll()
-- java.lang.Object.toString()
-- java.lang.Object.wait()
-- java.lang.Object.wait(long)
-- java.lang.Object.wait(long,int)
-syntax: public final class CorrelationFilter extends RuleFilter
+- "java.lang.Object.clone()"
+- "java.lang.Object.equals(java.lang.Object)"
+- "java.lang.Object.finalize()"
+- "java.lang.Object.getClass()"
+- "java.lang.Object.hashCode()"
+- "java.lang.Object.notify()"
+- "java.lang.Object.notifyAll()"
+- "java.lang.Object.toString()"
+- "java.lang.Object.wait()"
+- "java.lang.Object.wait(long)"
+- "java.lang.Object.wait(long,int)"
+syntax: "public final class CorrelationFilter extends RuleFilter"
 constructors:
-- com.azure.messaging.servicebus.implementation.models.CorrelationFilter.CorrelationFilter()
+- "com.azure.messaging.servicebus.implementation.models.CorrelationFilter.CorrelationFilter()"
 methods:
-- com.azure.messaging.servicebus.implementation.models.CorrelationFilter.getContentType()
-- com.azure.messaging.servicebus.implementation.models.CorrelationFilter.getCorrelationId()
-- com.azure.messaging.servicebus.implementation.models.CorrelationFilter.getLabel()
-- com.azure.messaging.servicebus.implementation.models.CorrelationFilter.getMessageId()
-- com.azure.messaging.servicebus.implementation.models.CorrelationFilter.getProperties()
-- com.azure.messaging.servicebus.implementation.models.CorrelationFilter.getReplyTo()
-- com.azure.messaging.servicebus.implementation.models.CorrelationFilter.getReplyToSessionId()
-- com.azure.messaging.servicebus.implementation.models.CorrelationFilter.getSessionId()
-- com.azure.messaging.servicebus.implementation.models.CorrelationFilter.getTo()
-- com.azure.messaging.servicebus.implementation.models.CorrelationFilter.setContentType(java.lang.String)
-- com.azure.messaging.servicebus.implementation.models.CorrelationFilter.setCorrelationId(java.lang.String)
-- com.azure.messaging.servicebus.implementation.models.CorrelationFilter.setLabel(java.lang.String)
-- com.azure.messaging.servicebus.implementation.models.CorrelationFilter.setMessageId(java.lang.String)
-- com.azure.messaging.servicebus.implementation.models.CorrelationFilter.setProperties(java.util.List<com.azure.messaging.servicebus.implementation.models.KeyValue>)
-- com.azure.messaging.servicebus.implementation.models.CorrelationFilter.setReplyTo(java.lang.String)
-- com.azure.messaging.servicebus.implementation.models.CorrelationFilter.setReplyToSessionId(java.lang.String)
-- com.azure.messaging.servicebus.implementation.models.CorrelationFilter.setSessionId(java.lang.String)
-- com.azure.messaging.servicebus.implementation.models.CorrelationFilter.setTo(java.lang.String)
-type: class
+- "com.azure.messaging.servicebus.implementation.models.CorrelationFilter.getContentType()"
+- "com.azure.messaging.servicebus.implementation.models.CorrelationFilter.getCorrelationId()"
+- "com.azure.messaging.servicebus.implementation.models.CorrelationFilter.getLabel()"
+- "com.azure.messaging.servicebus.implementation.models.CorrelationFilter.getMessageId()"
+- "com.azure.messaging.servicebus.implementation.models.CorrelationFilter.getProperties()"
+- "com.azure.messaging.servicebus.implementation.models.CorrelationFilter.getReplyTo()"
+- "com.azure.messaging.servicebus.implementation.models.CorrelationFilter.getReplyToSessionId()"
+- "com.azure.messaging.servicebus.implementation.models.CorrelationFilter.getSessionId()"
+- "com.azure.messaging.servicebus.implementation.models.CorrelationFilter.getTo()"
+- "com.azure.messaging.servicebus.implementation.models.CorrelationFilter.setContentType(java.lang.String)"
+- "com.azure.messaging.servicebus.implementation.models.CorrelationFilter.setCorrelationId(java.lang.String)"
+- "com.azure.messaging.servicebus.implementation.models.CorrelationFilter.setLabel(java.lang.String)"
+- "com.azure.messaging.servicebus.implementation.models.CorrelationFilter.setMessageId(java.lang.String)"
+- "com.azure.messaging.servicebus.implementation.models.CorrelationFilter.setProperties(java.util.List<com.azure.messaging.servicebus.implementation.models.KeyValue>)"
+- "com.azure.messaging.servicebus.implementation.models.CorrelationFilter.setReplyTo(java.lang.String)"
+- "com.azure.messaging.servicebus.implementation.models.CorrelationFilter.setReplyToSessionId(java.lang.String)"
+- "com.azure.messaging.servicebus.implementation.models.CorrelationFilter.setSessionId(java.lang.String)"
+- "com.azure.messaging.servicebus.implementation.models.CorrelationFilter.setTo(java.lang.String)"
+type: "class"
 metadata: {}
-package: com.azure.messaging.servicebus.implementation.models
+package: "com.azure.messaging.servicebus.implementation.models"
 artifact: com.azure:azure-messaging-servicebus:7.0.0-beta.5

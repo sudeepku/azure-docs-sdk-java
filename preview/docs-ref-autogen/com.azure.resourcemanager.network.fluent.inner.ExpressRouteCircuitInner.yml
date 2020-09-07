@@ -1,70 +1,70 @@
 ### YamlMime:JavaType
-uid: com.azure.resourcemanager.network.fluent.inner.ExpressRouteCircuitInner
-fullName: com.azure.resourcemanager.network.fluent.inner.ExpressRouteCircuitInner
-name: ExpressRouteCircuitInner
-nameWithType: ExpressRouteCircuitInner
-summary: The ExpressRouteCircuit model.
+uid: "com.azure.resourcemanager.network.fluent.inner.ExpressRouteCircuitInner"
+fullName: "com.azure.resourcemanager.network.fluent.inner.ExpressRouteCircuitInner"
+name: "ExpressRouteCircuitInner"
+nameWithType: "ExpressRouteCircuitInner"
+summary: "The ExpressRouteCircuit model."
 inheritances:
-- <xref href="java.lang.Object" data-throw-if-not-resolved="False" />
-- <xref href="com.azure.core.management.ProxyResource" data-throw-if-not-resolved="False" />
-- <xref href="com.azure.core.management.Resource" data-throw-if-not-resolved="False" />
+- "<xref href=\"java.lang.Object\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.azure.core.management.ProxyResource\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.azure.core.management.Resource\" data-throw-if-not-resolved=\"False\" />"
 inheritedMembers:
-- com.azure.core.management.ProxyResource.id()
-- com.azure.core.management.ProxyResource.name()
-- com.azure.core.management.ProxyResource.type()
-- com.azure.core.management.Resource.location()
-- com.azure.core.management.Resource.tags()
-- com.azure.core.management.Resource.withLocation(java.lang.String)
-- com.azure.core.management.Resource.withTags(java.util.Map<java.lang.String,java.lang.String>)
-- java.lang.Object.clone()
-- java.lang.Object.equals(java.lang.Object)
-- java.lang.Object.finalize()
-- java.lang.Object.getClass()
-- java.lang.Object.hashCode()
-- java.lang.Object.notify()
-- java.lang.Object.notifyAll()
-- java.lang.Object.toString()
-- java.lang.Object.wait()
-- java.lang.Object.wait(long)
-- java.lang.Object.wait(long,int)
-syntax: public class ExpressRouteCircuitInner extends Resource
+- "com.azure.core.management.ProxyResource.id()"
+- "com.azure.core.management.ProxyResource.name()"
+- "com.azure.core.management.ProxyResource.type()"
+- "com.azure.core.management.Resource.location()"
+- "com.azure.core.management.Resource.tags()"
+- "com.azure.core.management.Resource.withLocation(java.lang.String)"
+- "com.azure.core.management.Resource.withTags(java.util.Map<java.lang.String,java.lang.String>)"
+- "java.lang.Object.clone()"
+- "java.lang.Object.equals(java.lang.Object)"
+- "java.lang.Object.finalize()"
+- "java.lang.Object.getClass()"
+- "java.lang.Object.hashCode()"
+- "java.lang.Object.notify()"
+- "java.lang.Object.notifyAll()"
+- "java.lang.Object.toString()"
+- "java.lang.Object.wait()"
+- "java.lang.Object.wait(long)"
+- "java.lang.Object.wait(long,int)"
+syntax: "public class ExpressRouteCircuitInner extends Resource"
 constructors:
-- com.azure.resourcemanager.network.fluent.inner.ExpressRouteCircuitInner.ExpressRouteCircuitInner()
+- "com.azure.resourcemanager.network.fluent.inner.ExpressRouteCircuitInner.ExpressRouteCircuitInner()"
 methods:
-- com.azure.resourcemanager.network.fluent.inner.ExpressRouteCircuitInner.allowClassicOperations()
-- com.azure.resourcemanager.network.fluent.inner.ExpressRouteCircuitInner.authorizations()
-- com.azure.resourcemanager.network.fluent.inner.ExpressRouteCircuitInner.bandwidthInGbps()
-- com.azure.resourcemanager.network.fluent.inner.ExpressRouteCircuitInner.circuitProvisioningState()
-- com.azure.resourcemanager.network.fluent.inner.ExpressRouteCircuitInner.etag()
-- com.azure.resourcemanager.network.fluent.inner.ExpressRouteCircuitInner.expressRoutePort()
-- com.azure.resourcemanager.network.fluent.inner.ExpressRouteCircuitInner.gatewayManagerEtag()
-- com.azure.resourcemanager.network.fluent.inner.ExpressRouteCircuitInner.globalReachEnabled()
-- com.azure.resourcemanager.network.fluent.inner.ExpressRouteCircuitInner.id()
-- com.azure.resourcemanager.network.fluent.inner.ExpressRouteCircuitInner.peerings()
-- com.azure.resourcemanager.network.fluent.inner.ExpressRouteCircuitInner.provisioningState()
-- com.azure.resourcemanager.network.fluent.inner.ExpressRouteCircuitInner.serviceKey()
-- com.azure.resourcemanager.network.fluent.inner.ExpressRouteCircuitInner.serviceProviderNotes()
-- com.azure.resourcemanager.network.fluent.inner.ExpressRouteCircuitInner.serviceProviderProperties()
-- com.azure.resourcemanager.network.fluent.inner.ExpressRouteCircuitInner.serviceProviderProvisioningState()
-- com.azure.resourcemanager.network.fluent.inner.ExpressRouteCircuitInner.sku()
-- com.azure.resourcemanager.network.fluent.inner.ExpressRouteCircuitInner.stag()
-- com.azure.resourcemanager.network.fluent.inner.ExpressRouteCircuitInner.validate()
-- com.azure.resourcemanager.network.fluent.inner.ExpressRouteCircuitInner.withAllowClassicOperations(java.lang.Boolean)
-- com.azure.resourcemanager.network.fluent.inner.ExpressRouteCircuitInner.withAuthorizations(java.util.List<com.azure.resourcemanager.network.fluent.inner.ExpressRouteCircuitAuthorizationInner>)
-- com.azure.resourcemanager.network.fluent.inner.ExpressRouteCircuitInner.withBandwidthInGbps(java.lang.Float)
-- com.azure.resourcemanager.network.fluent.inner.ExpressRouteCircuitInner.withCircuitProvisioningState(java.lang.String)
-- com.azure.resourcemanager.network.fluent.inner.ExpressRouteCircuitInner.withExpressRoutePort(com.azure.core.management.SubResource)
-- com.azure.resourcemanager.network.fluent.inner.ExpressRouteCircuitInner.withGatewayManagerEtag(java.lang.String)
-- com.azure.resourcemanager.network.fluent.inner.ExpressRouteCircuitInner.withGlobalReachEnabled(java.lang.Boolean)
-- com.azure.resourcemanager.network.fluent.inner.ExpressRouteCircuitInner.withId(java.lang.String)
-- com.azure.resourcemanager.network.fluent.inner.ExpressRouteCircuitInner.withPeerings(java.util.List<com.azure.resourcemanager.network.fluent.inner.ExpressRouteCircuitPeeringInner>)
-- com.azure.resourcemanager.network.fluent.inner.ExpressRouteCircuitInner.withProvisioningState(java.lang.String)
-- com.azure.resourcemanager.network.fluent.inner.ExpressRouteCircuitInner.withServiceKey(java.lang.String)
-- com.azure.resourcemanager.network.fluent.inner.ExpressRouteCircuitInner.withServiceProviderNotes(java.lang.String)
-- com.azure.resourcemanager.network.fluent.inner.ExpressRouteCircuitInner.withServiceProviderProperties(com.azure.resourcemanager.network.models.ExpressRouteCircuitServiceProviderProperties)
-- com.azure.resourcemanager.network.fluent.inner.ExpressRouteCircuitInner.withServiceProviderProvisioningState(com.azure.resourcemanager.network.models.ServiceProviderProvisioningState)
-- com.azure.resourcemanager.network.fluent.inner.ExpressRouteCircuitInner.withSku(com.azure.resourcemanager.network.models.ExpressRouteCircuitSku)
-type: class
+- "com.azure.resourcemanager.network.fluent.inner.ExpressRouteCircuitInner.allowClassicOperations()"
+- "com.azure.resourcemanager.network.fluent.inner.ExpressRouteCircuitInner.authorizations()"
+- "com.azure.resourcemanager.network.fluent.inner.ExpressRouteCircuitInner.bandwidthInGbps()"
+- "com.azure.resourcemanager.network.fluent.inner.ExpressRouteCircuitInner.circuitProvisioningState()"
+- "com.azure.resourcemanager.network.fluent.inner.ExpressRouteCircuitInner.etag()"
+- "com.azure.resourcemanager.network.fluent.inner.ExpressRouteCircuitInner.expressRoutePort()"
+- "com.azure.resourcemanager.network.fluent.inner.ExpressRouteCircuitInner.gatewayManagerEtag()"
+- "com.azure.resourcemanager.network.fluent.inner.ExpressRouteCircuitInner.globalReachEnabled()"
+- "com.azure.resourcemanager.network.fluent.inner.ExpressRouteCircuitInner.id()"
+- "com.azure.resourcemanager.network.fluent.inner.ExpressRouteCircuitInner.peerings()"
+- "com.azure.resourcemanager.network.fluent.inner.ExpressRouteCircuitInner.provisioningState()"
+- "com.azure.resourcemanager.network.fluent.inner.ExpressRouteCircuitInner.serviceKey()"
+- "com.azure.resourcemanager.network.fluent.inner.ExpressRouteCircuitInner.serviceProviderNotes()"
+- "com.azure.resourcemanager.network.fluent.inner.ExpressRouteCircuitInner.serviceProviderProperties()"
+- "com.azure.resourcemanager.network.fluent.inner.ExpressRouteCircuitInner.serviceProviderProvisioningState()"
+- "com.azure.resourcemanager.network.fluent.inner.ExpressRouteCircuitInner.sku()"
+- "com.azure.resourcemanager.network.fluent.inner.ExpressRouteCircuitInner.stag()"
+- "com.azure.resourcemanager.network.fluent.inner.ExpressRouteCircuitInner.validate()"
+- "com.azure.resourcemanager.network.fluent.inner.ExpressRouteCircuitInner.withAllowClassicOperations(java.lang.Boolean)"
+- "com.azure.resourcemanager.network.fluent.inner.ExpressRouteCircuitInner.withAuthorizations(java.util.List<com.azure.resourcemanager.network.fluent.inner.ExpressRouteCircuitAuthorizationInner>)"
+- "com.azure.resourcemanager.network.fluent.inner.ExpressRouteCircuitInner.withBandwidthInGbps(java.lang.Float)"
+- "com.azure.resourcemanager.network.fluent.inner.ExpressRouteCircuitInner.withCircuitProvisioningState(java.lang.String)"
+- "com.azure.resourcemanager.network.fluent.inner.ExpressRouteCircuitInner.withExpressRoutePort(com.azure.core.management.SubResource)"
+- "com.azure.resourcemanager.network.fluent.inner.ExpressRouteCircuitInner.withGatewayManagerEtag(java.lang.String)"
+- "com.azure.resourcemanager.network.fluent.inner.ExpressRouteCircuitInner.withGlobalReachEnabled(java.lang.Boolean)"
+- "com.azure.resourcemanager.network.fluent.inner.ExpressRouteCircuitInner.withId(java.lang.String)"
+- "com.azure.resourcemanager.network.fluent.inner.ExpressRouteCircuitInner.withPeerings(java.util.List<com.azure.resourcemanager.network.fluent.inner.ExpressRouteCircuitPeeringInner>)"
+- "com.azure.resourcemanager.network.fluent.inner.ExpressRouteCircuitInner.withProvisioningState(java.lang.String)"
+- "com.azure.resourcemanager.network.fluent.inner.ExpressRouteCircuitInner.withServiceKey(java.lang.String)"
+- "com.azure.resourcemanager.network.fluent.inner.ExpressRouteCircuitInner.withServiceProviderNotes(java.lang.String)"
+- "com.azure.resourcemanager.network.fluent.inner.ExpressRouteCircuitInner.withServiceProviderProperties(com.azure.resourcemanager.network.models.ExpressRouteCircuitServiceProviderProperties)"
+- "com.azure.resourcemanager.network.fluent.inner.ExpressRouteCircuitInner.withServiceProviderProvisioningState(com.azure.resourcemanager.network.models.ServiceProviderProvisioningState)"
+- "com.azure.resourcemanager.network.fluent.inner.ExpressRouteCircuitInner.withSku(com.azure.resourcemanager.network.models.ExpressRouteCircuitSku)"
+type: "class"
 metadata: {}
-package: com.azure.resourcemanager.network.fluent.inner
+package: "com.azure.resourcemanager.network.fluent.inner"
 artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.0.0-beta.2

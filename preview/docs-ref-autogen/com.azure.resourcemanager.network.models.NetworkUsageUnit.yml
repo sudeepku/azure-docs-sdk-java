@@ -1,40 +1,40 @@
 ### YamlMime:JavaType
-uid: com.azure.resourcemanager.network.models.NetworkUsageUnit
-fullName: com.azure.resourcemanager.network.models.NetworkUsageUnit
-name: NetworkUsageUnit
-nameWithType: NetworkUsageUnit
-summary: Network usage units.
+uid: "com.azure.resourcemanager.network.models.NetworkUsageUnit"
+fullName: "com.azure.resourcemanager.network.models.NetworkUsageUnit"
+name: "NetworkUsageUnit"
+nameWithType: "NetworkUsageUnit"
+summary: "Network usage units."
 inheritances:
-- <xref href="java.lang.Object" data-throw-if-not-resolved="False" />
-- <xref href="com.azure.core.util.ExpandableStringEnum" data-throw-if-not-resolved="False" />
+- "<xref href=\"java.lang.Object\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.azure.core.util.ExpandableStringEnum\" data-throw-if-not-resolved=\"False\" />"
 inheritedMembers:
-- com.azure.core.util.ExpandableStringEnum.<T>fromString(java.lang.String,java.lang.Class<T>)
-- com.azure.core.util.ExpandableStringEnum.<T>values(java.lang.Class<T>)
-- com.azure.core.util.ExpandableStringEnum.equals(java.lang.Object)
-- com.azure.core.util.ExpandableStringEnum.hashCode()
-- com.azure.core.util.ExpandableStringEnum.toString()
-- java.lang.Object.clone()
-- java.lang.Object.finalize()
-- java.lang.Object.getClass()
-- java.lang.Object.notify()
-- java.lang.Object.notifyAll()
-- java.lang.Object.wait()
-- java.lang.Object.wait(long)
-- java.lang.Object.wait(long,int)
-syntax: public class NetworkUsageUnit extends ExpandableStringEnum<NetworkUsageUnit>
+- "com.azure.core.util.ExpandableStringEnum.<T>fromString(java.lang.String,java.lang.Class<T>)"
+- "com.azure.core.util.ExpandableStringEnum.<T>values(java.lang.Class<T>)"
+- "com.azure.core.util.ExpandableStringEnum.equals(java.lang.Object)"
+- "com.azure.core.util.ExpandableStringEnum.hashCode()"
+- "com.azure.core.util.ExpandableStringEnum.toString()"
+- "java.lang.Object.clone()"
+- "java.lang.Object.finalize()"
+- "java.lang.Object.getClass()"
+- "java.lang.Object.notify()"
+- "java.lang.Object.notifyAll()"
+- "java.lang.Object.wait()"
+- "java.lang.Object.wait(long)"
+- "java.lang.Object.wait(long,int)"
+syntax: "public class NetworkUsageUnit extends ExpandableStringEnum<NetworkUsageUnit>"
 constructors:
-- com.azure.resourcemanager.network.models.NetworkUsageUnit.NetworkUsageUnit()
+- "com.azure.resourcemanager.network.models.NetworkUsageUnit.NetworkUsageUnit()"
 fields:
-- com.azure.resourcemanager.network.models.NetworkUsageUnit.BYTES
-- com.azure.resourcemanager.network.models.NetworkUsageUnit.BYTES_PER_SECOND
-- com.azure.resourcemanager.network.models.NetworkUsageUnit.COUNT
-- com.azure.resourcemanager.network.models.NetworkUsageUnit.COUNTS_PER_SECOND
-- com.azure.resourcemanager.network.models.NetworkUsageUnit.PERCENT
-- com.azure.resourcemanager.network.models.NetworkUsageUnit.SECONDS
+- "com.azure.resourcemanager.network.models.NetworkUsageUnit.BYTES"
+- "com.azure.resourcemanager.network.models.NetworkUsageUnit.BYTES_PER_SECOND"
+- "com.azure.resourcemanager.network.models.NetworkUsageUnit.COUNT"
+- "com.azure.resourcemanager.network.models.NetworkUsageUnit.COUNTS_PER_SECOND"
+- "com.azure.resourcemanager.network.models.NetworkUsageUnit.PERCENT"
+- "com.azure.resourcemanager.network.models.NetworkUsageUnit.SECONDS"
 methods:
-- com.azure.resourcemanager.network.models.NetworkUsageUnit.fromString(java.lang.String)
-- com.azure.resourcemanager.network.models.NetworkUsageUnit.values()
-type: class
+- "com.azure.resourcemanager.network.models.NetworkUsageUnit.fromString(java.lang.String)"
+- "com.azure.resourcemanager.network.models.NetworkUsageUnit.values()"
+type: "class"
 metadata: {}
-package: com.azure.resourcemanager.network.models
+package: "com.azure.resourcemanager.network.models"
 artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.0.0-beta.2

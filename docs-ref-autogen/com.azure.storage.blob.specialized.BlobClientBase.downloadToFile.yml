@@ -1,68 +1,39 @@
 ### YamlMime:JavaMember
-uid: com.azure.storage.blob.specialized.BlobClientBase.downloadToFile*
-fullName: com.azure.storage.blob.specialized.BlobClientBase.downloadToFile
-name: downloadToFile
-nameWithType: BlobClientBase.downloadToFile
+uid: "com.azure.storage.blob.specialized.BlobClientBase.downloadToFile*"
+fullName: "com.azure.storage.blob.specialized.BlobClientBase.downloadToFile"
+name: "downloadToFile"
+nameWithType: "BlobClientBase.downloadToFile"
 members:
-- uid: com.azure.storage.blob.specialized.BlobClientBase.downloadToFile(java.lang.String)
-  fullName: com.azure.storage.blob.specialized.BlobClientBase.downloadToFile(String filePath)
-  name: downloadToFile(String filePath)
-  nameWithType: BlobClientBase.downloadToFile(String filePath)
-  summary: |-
-    Downloads the entire blob into a file specified by the path.
-
-     <p>The file will be created and must not exist, if the file already exists a <xref uid="FileAlreadyExistsException" data-throw-if-not-resolved="false">FileAlreadyExistsException</xref>
-     will be thrown.</p>
-
-     <p><strong>Code Samples</strong></p>
-
-     <pre>
-     client.downloadToFile&#40;file&#41;;
-     System.out.println&#40;&quot;Completed download to file&quot;&#41;;
-     </pre>
-
-     <p>For more information, see the
-     <a href="https://docs.microsoft.com/en-us/rest/api/storageservices/get-blob">Azure Docs</a></p>
+- uid: "com.azure.storage.blob.specialized.BlobClientBase.downloadToFile(java.lang.String)"
+  fullName: "com.azure.storage.blob.specialized.BlobClientBase.downloadToFile(String filePath)"
+  name: "downloadToFile(String filePath)"
+  nameWithType: "BlobClientBase.downloadToFile(String filePath)"
+  summary: "Downloads the entire blob into a file specified by the path.\n\n <p>The file will be created and must not exist, if the file already exists a <xref uid=\"FileAlreadyExistsException\" data-throw-if-not-resolved=\"false\">FileAlreadyExistsException</xref>\n will be thrown.</p>\n\n <p><strong>Code Samples</strong></p>\n\n <pre>\n client.downloadToFile&#40;file&#41;;\n System.out.println&#40;&quot;Completed download to file&quot;&#41;;\n </pre>\n\n <p>For more information, see the\n <a href=\"https://docs.microsoft.com/en-us/rest/api/storageservices/get-blob\">Azure Docs</a></p>"
   parameters:
-  - description: A <xref uid="java.lang.String" data-throw-if-not-resolved="false">String</xref> representing the filePath where the downloaded data will be written.
-    name: filePath
-    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
-  syntax: public BlobProperties downloadToFile(String filePath)
+  - description: "A <xref uid=\"java.lang.String\" data-throw-if-not-resolved=\"false\">String</xref> representing the filePath where the downloaded data will be written."
+    name: "filePath"
+    type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public BlobProperties downloadToFile(String filePath)"
   returns:
-    description: The blob properties and metadata.
-    type: <xref href="com.azure.storage.blob.models.BlobProperties?alt=com.azure.storage.blob.models.BlobProperties&text=BlobProperties" data-throw-if-not-resolved="False" />
-- uid: com.azure.storage.blob.specialized.BlobClientBase.downloadToFile(java.lang.String,boolean)
-  fullName: com.azure.storage.blob.specialized.BlobClientBase.downloadToFile(String filePath, boolean overwrite)
-  name: downloadToFile(String filePath, boolean overwrite)
-  nameWithType: BlobClientBase.downloadToFile(String filePath, boolean overwrite)
-  summary: |-
-    Downloads the entire blob into a file specified by the path.
-
-     <p>If overwrite is set to false, the file will be created and must not exist, if the file already exists a
-     <xref uid="FileAlreadyExistsException" data-throw-if-not-resolved="false">FileAlreadyExistsException</xref> will be thrown.</p>
-
-     <p><strong>Code Samples</strong></p>
-
-     <pre>
-     boolean overwrite = false; &#47;&#47; Default value
-     client.downloadToFile&#40;file, overwrite&#41;;
-     System.out.println&#40;&quot;Completed download to file&quot;&#41;;
-     </pre>
-
-     <p>For more information, see the
-     <a href="https://docs.microsoft.com/en-us/rest/api/storageservices/get-blob">Azure Docs</a></p>
+    description: "The blob properties and metadata."
+    type: "<xref href=\"com.azure.storage.blob.models.BlobProperties?alt=com.azure.storage.blob.models.BlobProperties&text=BlobProperties\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.storage.blob.specialized.BlobClientBase.downloadToFile(java.lang.String,boolean)"
+  fullName: "com.azure.storage.blob.specialized.BlobClientBase.downloadToFile(String filePath, boolean overwrite)"
+  name: "downloadToFile(String filePath, boolean overwrite)"
+  nameWithType: "BlobClientBase.downloadToFile(String filePath, boolean overwrite)"
+  summary: "Downloads the entire blob into a file specified by the path.\n\n <p>If overwrite is set to false, the file will be created and must not exist, if the file already exists a\n <xref uid=\"FileAlreadyExistsException\" data-throw-if-not-resolved=\"false\">FileAlreadyExistsException</xref> will be thrown.</p>\n\n <p><strong>Code Samples</strong></p>\n\n <pre>\n boolean overwrite = false; &#47;&#47; Default value\n client.downloadToFile&#40;file, overwrite&#41;;\n System.out.println&#40;&quot;Completed download to file&quot;&#41;;\n </pre>\n\n <p>For more information, see the\n <a href=\"https://docs.microsoft.com/en-us/rest/api/storageservices/get-blob\">Azure Docs</a></p>"
   parameters:
-  - description: A <xref uid="java.lang.String" data-throw-if-not-resolved="false">String</xref> representing the filePath where the downloaded data will be written.
-    name: filePath
-    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
-  - description: Whether or not to overwrite the file, should the file exist.
-    name: overwrite
-    type: <xref href="boolean?alt=boolean&text=boolean" data-throw-if-not-resolved="False" />
-  syntax: public BlobProperties downloadToFile(String filePath, boolean overwrite)
+  - description: "A <xref uid=\"java.lang.String\" data-throw-if-not-resolved=\"false\">String</xref> representing the filePath where the downloaded data will be written."
+    name: "filePath"
+    type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
+  - description: "Whether or not to overwrite the file, should the file exist."
+    name: "overwrite"
+    type: "<xref href=\"boolean?alt=boolean&text=boolean\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public BlobProperties downloadToFile(String filePath, boolean overwrite)"
   returns:
-    description: The blob properties and metadata.
-    type: <xref href="com.azure.storage.blob.models.BlobProperties?alt=com.azure.storage.blob.models.BlobProperties&text=BlobProperties" data-throw-if-not-resolved="False" />
-type: method
+    description: "The blob properties and metadata."
+    type: "<xref href=\"com.azure.storage.blob.models.BlobProperties?alt=com.azure.storage.blob.models.BlobProperties&text=BlobProperties\" data-throw-if-not-resolved=\"False\" />"
+type: "method"
 metadata: {}
-package: com.azure.storage.blob.specialized
+package: "com.azure.storage.blob.specialized"
 artifact: com.azure:azure-storage-blob:12.8.0

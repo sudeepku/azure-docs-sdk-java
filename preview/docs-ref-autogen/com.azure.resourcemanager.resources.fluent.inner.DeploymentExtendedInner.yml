@@ -1,37 +1,37 @@
 ### YamlMime:JavaType
-uid: com.azure.resourcemanager.resources.fluent.inner.DeploymentExtendedInner
-fullName: com.azure.resourcemanager.resources.fluent.inner.DeploymentExtendedInner
-name: DeploymentExtendedInner
-nameWithType: DeploymentExtendedInner
-summary: The DeploymentExtended model.
+uid: "com.azure.resourcemanager.resources.fluent.inner.DeploymentExtendedInner"
+fullName: "com.azure.resourcemanager.resources.fluent.inner.DeploymentExtendedInner"
+name: "DeploymentExtendedInner"
+nameWithType: "DeploymentExtendedInner"
+summary: "The DeploymentExtended model."
 inheritances:
-- <xref href="java.lang.Object" data-throw-if-not-resolved="False" />
-- <xref href="com.azure.core.management.ProxyResource" data-throw-if-not-resolved="False" />
+- "<xref href=\"java.lang.Object\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.azure.core.management.ProxyResource\" data-throw-if-not-resolved=\"False\" />"
 inheritedMembers:
-- com.azure.core.management.ProxyResource.id()
-- com.azure.core.management.ProxyResource.name()
-- com.azure.core.management.ProxyResource.type()
-- java.lang.Object.clone()
-- java.lang.Object.equals(java.lang.Object)
-- java.lang.Object.finalize()
-- java.lang.Object.getClass()
-- java.lang.Object.hashCode()
-- java.lang.Object.notify()
-- java.lang.Object.notifyAll()
-- java.lang.Object.toString()
-- java.lang.Object.wait()
-- java.lang.Object.wait(long)
-- java.lang.Object.wait(long,int)
-syntax: public final class DeploymentExtendedInner extends ProxyResource
+- "com.azure.core.management.ProxyResource.id()"
+- "com.azure.core.management.ProxyResource.name()"
+- "com.azure.core.management.ProxyResource.type()"
+- "java.lang.Object.clone()"
+- "java.lang.Object.equals(java.lang.Object)"
+- "java.lang.Object.finalize()"
+- "java.lang.Object.getClass()"
+- "java.lang.Object.hashCode()"
+- "java.lang.Object.notify()"
+- "java.lang.Object.notifyAll()"
+- "java.lang.Object.toString()"
+- "java.lang.Object.wait()"
+- "java.lang.Object.wait(long)"
+- "java.lang.Object.wait(long,int)"
+syntax: "public final class DeploymentExtendedInner extends ProxyResource"
 constructors:
-- com.azure.resourcemanager.resources.fluent.inner.DeploymentExtendedInner.DeploymentExtendedInner()
+- "com.azure.resourcemanager.resources.fluent.inner.DeploymentExtendedInner.DeploymentExtendedInner()"
 methods:
-- com.azure.resourcemanager.resources.fluent.inner.DeploymentExtendedInner.location()
-- com.azure.resourcemanager.resources.fluent.inner.DeploymentExtendedInner.properties()
-- com.azure.resourcemanager.resources.fluent.inner.DeploymentExtendedInner.validate()
-- com.azure.resourcemanager.resources.fluent.inner.DeploymentExtendedInner.withLocation(java.lang.String)
-- com.azure.resourcemanager.resources.fluent.inner.DeploymentExtendedInner.withProperties(com.azure.resourcemanager.resources.models.DeploymentPropertiesExtended)
-type: class
+- "com.azure.resourcemanager.resources.fluent.inner.DeploymentExtendedInner.location()"
+- "com.azure.resourcemanager.resources.fluent.inner.DeploymentExtendedInner.properties()"
+- "com.azure.resourcemanager.resources.fluent.inner.DeploymentExtendedInner.validate()"
+- "com.azure.resourcemanager.resources.fluent.inner.DeploymentExtendedInner.withLocation(java.lang.String)"
+- "com.azure.resourcemanager.resources.fluent.inner.DeploymentExtendedInner.withProperties(com.azure.resourcemanager.resources.models.DeploymentPropertiesExtended)"
+type: "class"
 metadata: {}
-package: com.azure.resourcemanager.resources.fluent.inner
+package: "com.azure.resourcemanager.resources.fluent.inner"
 artifact: com.azure.resourcemanager:azure-resourcemanager-resources:2.0.0-beta.2

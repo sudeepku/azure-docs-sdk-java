@@ -1,17 +1,17 @@
 ### YamlMime:JavaMember
-uid: com.microsoft.azure.servicebus.management.MessageCountDetails.getActiveMessageCount*
-fullName: com.microsoft.azure.servicebus.management.MessageCountDetails.getActiveMessageCount
-name: getActiveMessageCount
-nameWithType: MessageCountDetails.getActiveMessageCount
+uid: "com.microsoft.azure.servicebus.management.MessageCountDetails.getActiveMessageCount*"
+fullName: "com.microsoft.azure.servicebus.management.MessageCountDetails.getActiveMessageCount"
+name: "getActiveMessageCount"
+nameWithType: "MessageCountDetails.getActiveMessageCount"
 members:
-- uid: com.microsoft.azure.servicebus.management.MessageCountDetails.getActiveMessageCount()
-  fullName: com.microsoft.azure.servicebus.management.MessageCountDetails.getActiveMessageCount()
-  name: getActiveMessageCount()
-  nameWithType: MessageCountDetails.getActiveMessageCount()
-  syntax: public long getActiveMessageCount()
+- uid: "com.microsoft.azure.servicebus.management.MessageCountDetails.getActiveMessageCount()"
+  fullName: "com.microsoft.azure.servicebus.management.MessageCountDetails.getActiveMessageCount()"
+  name: "getActiveMessageCount()"
+  nameWithType: "MessageCountDetails.getActiveMessageCount()"
+  syntax: "public long getActiveMessageCount()"
   returns:
-    type: <xref href="long?alt=long&text=long" data-throw-if-not-resolved="False" />
-type: method
+    type: "<xref href=\"long?alt=long&text=long\" data-throw-if-not-resolved=\"False\" />"
+type: "method"
 metadata: {}
-package: com.microsoft.azure.servicebus.management
+package: "com.microsoft.azure.servicebus.management"
 artifact: com.microsoft.azure:azure-servicebus:3.4.0

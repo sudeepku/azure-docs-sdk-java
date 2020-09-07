@@ -1,30 +1,30 @@
 ### YamlMime:JavaType
-uid: com.azure.resourcemanager.cosmos.fluent.inner.PercentileMetricListResultInner
-fullName: com.azure.resourcemanager.cosmos.fluent.inner.PercentileMetricListResultInner
-name: PercentileMetricListResultInner
-nameWithType: PercentileMetricListResultInner
-summary: The PercentileMetricListResult model.
+uid: "com.azure.resourcemanager.cosmos.fluent.inner.PercentileMetricListResultInner"
+fullName: "com.azure.resourcemanager.cosmos.fluent.inner.PercentileMetricListResultInner"
+name: "PercentileMetricListResultInner"
+nameWithType: "PercentileMetricListResultInner"
+summary: "The PercentileMetricListResult model."
 inheritances:
-- <xref href="java.lang.Object" data-throw-if-not-resolved="False" />
+- "<xref href=\"java.lang.Object\" data-throw-if-not-resolved=\"False\" />"
 inheritedMembers:
-- java.lang.Object.clone()
-- java.lang.Object.equals(java.lang.Object)
-- java.lang.Object.finalize()
-- java.lang.Object.getClass()
-- java.lang.Object.hashCode()
-- java.lang.Object.notify()
-- java.lang.Object.notifyAll()
-- java.lang.Object.toString()
-- java.lang.Object.wait()
-- java.lang.Object.wait(long)
-- java.lang.Object.wait(long,int)
-syntax: public final class PercentileMetricListResultInner
+- "java.lang.Object.clone()"
+- "java.lang.Object.equals(java.lang.Object)"
+- "java.lang.Object.finalize()"
+- "java.lang.Object.getClass()"
+- "java.lang.Object.hashCode()"
+- "java.lang.Object.notify()"
+- "java.lang.Object.notifyAll()"
+- "java.lang.Object.toString()"
+- "java.lang.Object.wait()"
+- "java.lang.Object.wait(long)"
+- "java.lang.Object.wait(long,int)"
+syntax: "public final class PercentileMetricListResultInner"
 constructors:
-- com.azure.resourcemanager.cosmos.fluent.inner.PercentileMetricListResultInner.PercentileMetricListResultInner()
+- "com.azure.resourcemanager.cosmos.fluent.inner.PercentileMetricListResultInner.PercentileMetricListResultInner()"
 methods:
-- com.azure.resourcemanager.cosmos.fluent.inner.PercentileMetricListResultInner.validate()
-- com.azure.resourcemanager.cosmos.fluent.inner.PercentileMetricListResultInner.value()
-type: class
+- "com.azure.resourcemanager.cosmos.fluent.inner.PercentileMetricListResultInner.validate()"
+- "com.azure.resourcemanager.cosmos.fluent.inner.PercentileMetricListResultInner.value()"
+type: "class"
 metadata: {}
-package: com.azure.resourcemanager.cosmos.fluent.inner
+package: "com.azure.resourcemanager.cosmos.fluent.inner"
 artifact: com.azure.resourcemanager:azure-resourcemanager-cosmos:2.0.0-beta.2

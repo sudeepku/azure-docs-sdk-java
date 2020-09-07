@@ -1,51 +1,51 @@
 ### YamlMime:JavaType
-uid: com.azure.resourcemanager.appservice.fluent.inner.StampCapacityInner
-fullName: com.azure.resourcemanager.appservice.fluent.inner.StampCapacityInner
-name: StampCapacityInner
-nameWithType: StampCapacityInner
-summary: The StampCapacity model.
+uid: "com.azure.resourcemanager.appservice.fluent.inner.StampCapacityInner"
+fullName: "com.azure.resourcemanager.appservice.fluent.inner.StampCapacityInner"
+name: "StampCapacityInner"
+nameWithType: "StampCapacityInner"
+summary: "The StampCapacity model."
 inheritances:
-- <xref href="java.lang.Object" data-throw-if-not-resolved="False" />
+- "<xref href=\"java.lang.Object\" data-throw-if-not-resolved=\"False\" />"
 inheritedMembers:
-- java.lang.Object.clone()
-- java.lang.Object.equals(java.lang.Object)
-- java.lang.Object.finalize()
-- java.lang.Object.getClass()
-- java.lang.Object.hashCode()
-- java.lang.Object.notify()
-- java.lang.Object.notifyAll()
-- java.lang.Object.toString()
-- java.lang.Object.wait()
-- java.lang.Object.wait(long)
-- java.lang.Object.wait(long,int)
-syntax: public final class StampCapacityInner
+- "java.lang.Object.clone()"
+- "java.lang.Object.equals(java.lang.Object)"
+- "java.lang.Object.finalize()"
+- "java.lang.Object.getClass()"
+- "java.lang.Object.hashCode()"
+- "java.lang.Object.notify()"
+- "java.lang.Object.notifyAll()"
+- "java.lang.Object.toString()"
+- "java.lang.Object.wait()"
+- "java.lang.Object.wait(long)"
+- "java.lang.Object.wait(long,int)"
+syntax: "public final class StampCapacityInner"
 constructors:
-- com.azure.resourcemanager.appservice.fluent.inner.StampCapacityInner.StampCapacityInner()
+- "com.azure.resourcemanager.appservice.fluent.inner.StampCapacityInner.StampCapacityInner()"
 methods:
-- com.azure.resourcemanager.appservice.fluent.inner.StampCapacityInner.availableCapacity()
-- com.azure.resourcemanager.appservice.fluent.inner.StampCapacityInner.computeMode()
-- com.azure.resourcemanager.appservice.fluent.inner.StampCapacityInner.excludeFromCapacityAllocation()
-- com.azure.resourcemanager.appservice.fluent.inner.StampCapacityInner.isApplicableForAllComputeModes()
-- com.azure.resourcemanager.appservice.fluent.inner.StampCapacityInner.isLinux()
-- com.azure.resourcemanager.appservice.fluent.inner.StampCapacityInner.name()
-- com.azure.resourcemanager.appservice.fluent.inner.StampCapacityInner.siteMode()
-- com.azure.resourcemanager.appservice.fluent.inner.StampCapacityInner.totalCapacity()
-- com.azure.resourcemanager.appservice.fluent.inner.StampCapacityInner.unit()
-- com.azure.resourcemanager.appservice.fluent.inner.StampCapacityInner.validate()
-- com.azure.resourcemanager.appservice.fluent.inner.StampCapacityInner.withAvailableCapacity(java.lang.Long)
-- com.azure.resourcemanager.appservice.fluent.inner.StampCapacityInner.withComputeMode(com.azure.resourcemanager.appservice.models.ComputeModeOptions)
-- com.azure.resourcemanager.appservice.fluent.inner.StampCapacityInner.withExcludeFromCapacityAllocation(java.lang.Boolean)
-- com.azure.resourcemanager.appservice.fluent.inner.StampCapacityInner.withIsApplicableForAllComputeModes(java.lang.Boolean)
-- com.azure.resourcemanager.appservice.fluent.inner.StampCapacityInner.withIsLinux(java.lang.Boolean)
-- com.azure.resourcemanager.appservice.fluent.inner.StampCapacityInner.withName(java.lang.String)
-- com.azure.resourcemanager.appservice.fluent.inner.StampCapacityInner.withSiteMode(java.lang.String)
-- com.azure.resourcemanager.appservice.fluent.inner.StampCapacityInner.withTotalCapacity(java.lang.Long)
-- com.azure.resourcemanager.appservice.fluent.inner.StampCapacityInner.withUnit(java.lang.String)
-- com.azure.resourcemanager.appservice.fluent.inner.StampCapacityInner.withWorkerSize(com.azure.resourcemanager.appservice.models.WorkerSizeOptions)
-- com.azure.resourcemanager.appservice.fluent.inner.StampCapacityInner.withWorkerSizeId(java.lang.Integer)
-- com.azure.resourcemanager.appservice.fluent.inner.StampCapacityInner.workerSize()
-- com.azure.resourcemanager.appservice.fluent.inner.StampCapacityInner.workerSizeId()
-type: class
+- "com.azure.resourcemanager.appservice.fluent.inner.StampCapacityInner.availableCapacity()"
+- "com.azure.resourcemanager.appservice.fluent.inner.StampCapacityInner.computeMode()"
+- "com.azure.resourcemanager.appservice.fluent.inner.StampCapacityInner.excludeFromCapacityAllocation()"
+- "com.azure.resourcemanager.appservice.fluent.inner.StampCapacityInner.isApplicableForAllComputeModes()"
+- "com.azure.resourcemanager.appservice.fluent.inner.StampCapacityInner.isLinux()"
+- "com.azure.resourcemanager.appservice.fluent.inner.StampCapacityInner.name()"
+- "com.azure.resourcemanager.appservice.fluent.inner.StampCapacityInner.siteMode()"
+- "com.azure.resourcemanager.appservice.fluent.inner.StampCapacityInner.totalCapacity()"
+- "com.azure.resourcemanager.appservice.fluent.inner.StampCapacityInner.unit()"
+- "com.azure.resourcemanager.appservice.fluent.inner.StampCapacityInner.validate()"
+- "com.azure.resourcemanager.appservice.fluent.inner.StampCapacityInner.withAvailableCapacity(java.lang.Long)"
+- "com.azure.resourcemanager.appservice.fluent.inner.StampCapacityInner.withComputeMode(com.azure.resourcemanager.appservice.models.ComputeModeOptions)"
+- "com.azure.resourcemanager.appservice.fluent.inner.StampCapacityInner.withExcludeFromCapacityAllocation(java.lang.Boolean)"
+- "com.azure.resourcemanager.appservice.fluent.inner.StampCapacityInner.withIsApplicableForAllComputeModes(java.lang.Boolean)"
+- "com.azure.resourcemanager.appservice.fluent.inner.StampCapacityInner.withIsLinux(java.lang.Boolean)"
+- "com.azure.resourcemanager.appservice.fluent.inner.StampCapacityInner.withName(java.lang.String)"
+- "com.azure.resourcemanager.appservice.fluent.inner.StampCapacityInner.withSiteMode(java.lang.String)"
+- "com.azure.resourcemanager.appservice.fluent.inner.StampCapacityInner.withTotalCapacity(java.lang.Long)"
+- "com.azure.resourcemanager.appservice.fluent.inner.StampCapacityInner.withUnit(java.lang.String)"
+- "com.azure.resourcemanager.appservice.fluent.inner.StampCapacityInner.withWorkerSize(com.azure.resourcemanager.appservice.models.WorkerSizeOptions)"
+- "com.azure.resourcemanager.appservice.fluent.inner.StampCapacityInner.withWorkerSizeId(java.lang.Integer)"
+- "com.azure.resourcemanager.appservice.fluent.inner.StampCapacityInner.workerSize()"
+- "com.azure.resourcemanager.appservice.fluent.inner.StampCapacityInner.workerSizeId()"
+type: "class"
 metadata: {}
-package: com.azure.resourcemanager.appservice.fluent.inner
+package: "com.azure.resourcemanager.appservice.fluent.inner"
 artifact: com.azure.resourcemanager:azure-resourcemanager-appservice:2.0.0-beta.2

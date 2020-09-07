@@ -1,55 +1,55 @@
 ### YamlMime:JavaType
-uid: com.azure.resourcemanager.appservice.fluent.inner.DeploymentInner
-fullName: com.azure.resourcemanager.appservice.fluent.inner.DeploymentInner
-name: DeploymentInner
-nameWithType: DeploymentInner
-summary: The Deployment model.
+uid: "com.azure.resourcemanager.appservice.fluent.inner.DeploymentInner"
+fullName: "com.azure.resourcemanager.appservice.fluent.inner.DeploymentInner"
+name: "DeploymentInner"
+nameWithType: "DeploymentInner"
+summary: "The Deployment model."
 inheritances:
-- <xref href="java.lang.Object" data-throw-if-not-resolved="False" />
-- <xref href="com.azure.core.management.ProxyResource" data-throw-if-not-resolved="False" />
-- <xref href="com.azure.resourcemanager.appservice.models.ProxyOnlyResource" data-throw-if-not-resolved="False" />
+- "<xref href=\"java.lang.Object\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.azure.core.management.ProxyResource\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.azure.resourcemanager.appservice.models.ProxyOnlyResource\" data-throw-if-not-resolved=\"False\" />"
 inheritedMembers:
-- com.azure.core.management.ProxyResource.id()
-- com.azure.core.management.ProxyResource.name()
-- com.azure.core.management.ProxyResource.type()
-- com.azure.resourcemanager.appservice.models.ProxyOnlyResource.kind()
-- com.azure.resourcemanager.appservice.models.ProxyOnlyResource.validate()
-- com.azure.resourcemanager.appservice.models.ProxyOnlyResource.withKind(java.lang.String)
-- java.lang.Object.clone()
-- java.lang.Object.equals(java.lang.Object)
-- java.lang.Object.finalize()
-- java.lang.Object.getClass()
-- java.lang.Object.hashCode()
-- java.lang.Object.notify()
-- java.lang.Object.notifyAll()
-- java.lang.Object.toString()
-- java.lang.Object.wait()
-- java.lang.Object.wait(long)
-- java.lang.Object.wait(long,int)
-syntax: public class DeploymentInner extends ProxyOnlyResource
+- "com.azure.core.management.ProxyResource.id()"
+- "com.azure.core.management.ProxyResource.name()"
+- "com.azure.core.management.ProxyResource.type()"
+- "com.azure.resourcemanager.appservice.models.ProxyOnlyResource.kind()"
+- "com.azure.resourcemanager.appservice.models.ProxyOnlyResource.validate()"
+- "com.azure.resourcemanager.appservice.models.ProxyOnlyResource.withKind(java.lang.String)"
+- "java.lang.Object.clone()"
+- "java.lang.Object.equals(java.lang.Object)"
+- "java.lang.Object.finalize()"
+- "java.lang.Object.getClass()"
+- "java.lang.Object.hashCode()"
+- "java.lang.Object.notify()"
+- "java.lang.Object.notifyAll()"
+- "java.lang.Object.toString()"
+- "java.lang.Object.wait()"
+- "java.lang.Object.wait(long)"
+- "java.lang.Object.wait(long,int)"
+syntax: "public class DeploymentInner extends ProxyOnlyResource"
 constructors:
-- com.azure.resourcemanager.appservice.fluent.inner.DeploymentInner.DeploymentInner()
+- "com.azure.resourcemanager.appservice.fluent.inner.DeploymentInner.DeploymentInner()"
 methods:
-- com.azure.resourcemanager.appservice.fluent.inner.DeploymentInner.active()
-- com.azure.resourcemanager.appservice.fluent.inner.DeploymentInner.author()
-- com.azure.resourcemanager.appservice.fluent.inner.DeploymentInner.authorEmail()
-- com.azure.resourcemanager.appservice.fluent.inner.DeploymentInner.deployer()
-- com.azure.resourcemanager.appservice.fluent.inner.DeploymentInner.details()
-- com.azure.resourcemanager.appservice.fluent.inner.DeploymentInner.endTime()
-- com.azure.resourcemanager.appservice.fluent.inner.DeploymentInner.message()
-- com.azure.resourcemanager.appservice.fluent.inner.DeploymentInner.startTime()
-- com.azure.resourcemanager.appservice.fluent.inner.DeploymentInner.status()
-- com.azure.resourcemanager.appservice.fluent.inner.DeploymentInner.validate()
-- com.azure.resourcemanager.appservice.fluent.inner.DeploymentInner.withActive(java.lang.Boolean)
-- com.azure.resourcemanager.appservice.fluent.inner.DeploymentInner.withAuthor(java.lang.String)
-- com.azure.resourcemanager.appservice.fluent.inner.DeploymentInner.withAuthorEmail(java.lang.String)
-- com.azure.resourcemanager.appservice.fluent.inner.DeploymentInner.withDeployer(java.lang.String)
-- com.azure.resourcemanager.appservice.fluent.inner.DeploymentInner.withDetails(java.lang.String)
-- com.azure.resourcemanager.appservice.fluent.inner.DeploymentInner.withEndTime(java.time.OffsetDateTime)
-- com.azure.resourcemanager.appservice.fluent.inner.DeploymentInner.withMessage(java.lang.String)
-- com.azure.resourcemanager.appservice.fluent.inner.DeploymentInner.withStartTime(java.time.OffsetDateTime)
-- com.azure.resourcemanager.appservice.fluent.inner.DeploymentInner.withStatus(java.lang.Integer)
-type: class
+- "com.azure.resourcemanager.appservice.fluent.inner.DeploymentInner.active()"
+- "com.azure.resourcemanager.appservice.fluent.inner.DeploymentInner.author()"
+- "com.azure.resourcemanager.appservice.fluent.inner.DeploymentInner.authorEmail()"
+- "com.azure.resourcemanager.appservice.fluent.inner.DeploymentInner.deployer()"
+- "com.azure.resourcemanager.appservice.fluent.inner.DeploymentInner.details()"
+- "com.azure.resourcemanager.appservice.fluent.inner.DeploymentInner.endTime()"
+- "com.azure.resourcemanager.appservice.fluent.inner.DeploymentInner.message()"
+- "com.azure.resourcemanager.appservice.fluent.inner.DeploymentInner.startTime()"
+- "com.azure.resourcemanager.appservice.fluent.inner.DeploymentInner.status()"
+- "com.azure.resourcemanager.appservice.fluent.inner.DeploymentInner.validate()"
+- "com.azure.resourcemanager.appservice.fluent.inner.DeploymentInner.withActive(java.lang.Boolean)"
+- "com.azure.resourcemanager.appservice.fluent.inner.DeploymentInner.withAuthor(java.lang.String)"
+- "com.azure.resourcemanager.appservice.fluent.inner.DeploymentInner.withAuthorEmail(java.lang.String)"
+- "com.azure.resourcemanager.appservice.fluent.inner.DeploymentInner.withDeployer(java.lang.String)"
+- "com.azure.resourcemanager.appservice.fluent.inner.DeploymentInner.withDetails(java.lang.String)"
+- "com.azure.resourcemanager.appservice.fluent.inner.DeploymentInner.withEndTime(java.time.OffsetDateTime)"
+- "com.azure.resourcemanager.appservice.fluent.inner.DeploymentInner.withMessage(java.lang.String)"
+- "com.azure.resourcemanager.appservice.fluent.inner.DeploymentInner.withStartTime(java.time.OffsetDateTime)"
+- "com.azure.resourcemanager.appservice.fluent.inner.DeploymentInner.withStatus(java.lang.Integer)"
+type: "class"
 metadata: {}
-package: com.azure.resourcemanager.appservice.fluent.inner
+package: "com.azure.resourcemanager.appservice.fluent.inner"
 artifact: com.azure.resourcemanager:azure-resourcemanager-appservice:2.0.0-beta.2

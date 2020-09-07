@@ -1,32 +1,32 @@
 ### YamlMime:JavaType
-uid: com.azure.resourcemanager.compute.models.SnapshotSku
-fullName: com.azure.resourcemanager.compute.models.SnapshotSku
-name: SnapshotSku
-nameWithType: SnapshotSku
-summary: The SnapshotSku model.
+uid: "com.azure.resourcemanager.compute.models.SnapshotSku"
+fullName: "com.azure.resourcemanager.compute.models.SnapshotSku"
+name: "SnapshotSku"
+nameWithType: "SnapshotSku"
+summary: "The SnapshotSku model."
 inheritances:
-- <xref href="java.lang.Object" data-throw-if-not-resolved="False" />
+- "<xref href=\"java.lang.Object\" data-throw-if-not-resolved=\"False\" />"
 inheritedMembers:
-- java.lang.Object.clone()
-- java.lang.Object.equals(java.lang.Object)
-- java.lang.Object.finalize()
-- java.lang.Object.getClass()
-- java.lang.Object.hashCode()
-- java.lang.Object.notify()
-- java.lang.Object.notifyAll()
-- java.lang.Object.toString()
-- java.lang.Object.wait()
-- java.lang.Object.wait(long)
-- java.lang.Object.wait(long,int)
-syntax: public final class SnapshotSku
+- "java.lang.Object.clone()"
+- "java.lang.Object.equals(java.lang.Object)"
+- "java.lang.Object.finalize()"
+- "java.lang.Object.getClass()"
+- "java.lang.Object.hashCode()"
+- "java.lang.Object.notify()"
+- "java.lang.Object.notifyAll()"
+- "java.lang.Object.toString()"
+- "java.lang.Object.wait()"
+- "java.lang.Object.wait(long)"
+- "java.lang.Object.wait(long,int)"
+syntax: "public final class SnapshotSku"
 constructors:
-- com.azure.resourcemanager.compute.models.SnapshotSku.SnapshotSku()
+- "com.azure.resourcemanager.compute.models.SnapshotSku.SnapshotSku()"
 methods:
-- com.azure.resourcemanager.compute.models.SnapshotSku.name()
-- com.azure.resourcemanager.compute.models.SnapshotSku.tier()
-- com.azure.resourcemanager.compute.models.SnapshotSku.validate()
-- com.azure.resourcemanager.compute.models.SnapshotSku.withName(com.azure.resourcemanager.compute.models.SnapshotStorageAccountTypes)
-type: class
+- "com.azure.resourcemanager.compute.models.SnapshotSku.name()"
+- "com.azure.resourcemanager.compute.models.SnapshotSku.tier()"
+- "com.azure.resourcemanager.compute.models.SnapshotSku.validate()"
+- "com.azure.resourcemanager.compute.models.SnapshotSku.withName(com.azure.resourcemanager.compute.models.SnapshotStorageAccountTypes)"
+type: "class"
 metadata: {}
-package: com.azure.resourcemanager.compute.models
+package: "com.azure.resourcemanager.compute.models"
 artifact: com.azure.resourcemanager:azure-resourcemanager-compute:2.0.0-beta.2

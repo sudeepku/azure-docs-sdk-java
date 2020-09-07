@@ -1,33 +1,33 @@
 ### YamlMime:JavaType
-uid: com.azure.resourcemanager.resources.fluent.inner.PolicySetDefinitionListResultInner
-fullName: com.azure.resourcemanager.resources.fluent.inner.PolicySetDefinitionListResultInner
-name: PolicySetDefinitionListResultInner
-nameWithType: PolicySetDefinitionListResultInner
-summary: The PolicySetDefinitionListResult model.
+uid: "com.azure.resourcemanager.resources.fluent.inner.PolicySetDefinitionListResultInner"
+fullName: "com.azure.resourcemanager.resources.fluent.inner.PolicySetDefinitionListResultInner"
+name: "PolicySetDefinitionListResultInner"
+nameWithType: "PolicySetDefinitionListResultInner"
+summary: "The PolicySetDefinitionListResult model."
 inheritances:
-- <xref href="java.lang.Object" data-throw-if-not-resolved="False" />
+- "<xref href=\"java.lang.Object\" data-throw-if-not-resolved=\"False\" />"
 inheritedMembers:
-- java.lang.Object.clone()
-- java.lang.Object.equals(java.lang.Object)
-- java.lang.Object.finalize()
-- java.lang.Object.getClass()
-- java.lang.Object.hashCode()
-- java.lang.Object.notify()
-- java.lang.Object.notifyAll()
-- java.lang.Object.toString()
-- java.lang.Object.wait()
-- java.lang.Object.wait(long)
-- java.lang.Object.wait(long,int)
-syntax: public final class PolicySetDefinitionListResultInner
+- "java.lang.Object.clone()"
+- "java.lang.Object.equals(java.lang.Object)"
+- "java.lang.Object.finalize()"
+- "java.lang.Object.getClass()"
+- "java.lang.Object.hashCode()"
+- "java.lang.Object.notify()"
+- "java.lang.Object.notifyAll()"
+- "java.lang.Object.toString()"
+- "java.lang.Object.wait()"
+- "java.lang.Object.wait(long)"
+- "java.lang.Object.wait(long,int)"
+syntax: "public final class PolicySetDefinitionListResultInner"
 constructors:
-- com.azure.resourcemanager.resources.fluent.inner.PolicySetDefinitionListResultInner.PolicySetDefinitionListResultInner()
+- "com.azure.resourcemanager.resources.fluent.inner.PolicySetDefinitionListResultInner.PolicySetDefinitionListResultInner()"
 methods:
-- com.azure.resourcemanager.resources.fluent.inner.PolicySetDefinitionListResultInner.nextLink()
-- com.azure.resourcemanager.resources.fluent.inner.PolicySetDefinitionListResultInner.validate()
-- com.azure.resourcemanager.resources.fluent.inner.PolicySetDefinitionListResultInner.value()
-- com.azure.resourcemanager.resources.fluent.inner.PolicySetDefinitionListResultInner.withNextLink(java.lang.String)
-- com.azure.resourcemanager.resources.fluent.inner.PolicySetDefinitionListResultInner.withValue(java.util.List<com.azure.resourcemanager.resources.fluent.inner.PolicySetDefinitionInner>)
-type: class
+- "com.azure.resourcemanager.resources.fluent.inner.PolicySetDefinitionListResultInner.nextLink()"
+- "com.azure.resourcemanager.resources.fluent.inner.PolicySetDefinitionListResultInner.validate()"
+- "com.azure.resourcemanager.resources.fluent.inner.PolicySetDefinitionListResultInner.value()"
+- "com.azure.resourcemanager.resources.fluent.inner.PolicySetDefinitionListResultInner.withNextLink(java.lang.String)"
+- "com.azure.resourcemanager.resources.fluent.inner.PolicySetDefinitionListResultInner.withValue(java.util.List<com.azure.resourcemanager.resources.fluent.inner.PolicySetDefinitionInner>)"
+type: "class"
 metadata: {}
-package: com.azure.resourcemanager.resources.fluent.inner
+package: "com.azure.resourcemanager.resources.fluent.inner"
 artifact: com.azure.resourcemanager:azure-resourcemanager-resources:2.0.0-beta.2

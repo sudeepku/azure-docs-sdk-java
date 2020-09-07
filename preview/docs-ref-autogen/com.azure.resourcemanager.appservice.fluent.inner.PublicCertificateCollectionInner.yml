@@ -1,32 +1,32 @@
 ### YamlMime:JavaType
-uid: com.azure.resourcemanager.appservice.fluent.inner.PublicCertificateCollectionInner
-fullName: com.azure.resourcemanager.appservice.fluent.inner.PublicCertificateCollectionInner
-name: PublicCertificateCollectionInner
-nameWithType: PublicCertificateCollectionInner
-summary: The PublicCertificateCollection model.
+uid: "com.azure.resourcemanager.appservice.fluent.inner.PublicCertificateCollectionInner"
+fullName: "com.azure.resourcemanager.appservice.fluent.inner.PublicCertificateCollectionInner"
+name: "PublicCertificateCollectionInner"
+nameWithType: "PublicCertificateCollectionInner"
+summary: "The PublicCertificateCollection model."
 inheritances:
-- <xref href="java.lang.Object" data-throw-if-not-resolved="False" />
+- "<xref href=\"java.lang.Object\" data-throw-if-not-resolved=\"False\" />"
 inheritedMembers:
-- java.lang.Object.clone()
-- java.lang.Object.equals(java.lang.Object)
-- java.lang.Object.finalize()
-- java.lang.Object.getClass()
-- java.lang.Object.hashCode()
-- java.lang.Object.notify()
-- java.lang.Object.notifyAll()
-- java.lang.Object.toString()
-- java.lang.Object.wait()
-- java.lang.Object.wait(long)
-- java.lang.Object.wait(long,int)
-syntax: public final class PublicCertificateCollectionInner
+- "java.lang.Object.clone()"
+- "java.lang.Object.equals(java.lang.Object)"
+- "java.lang.Object.finalize()"
+- "java.lang.Object.getClass()"
+- "java.lang.Object.hashCode()"
+- "java.lang.Object.notify()"
+- "java.lang.Object.notifyAll()"
+- "java.lang.Object.toString()"
+- "java.lang.Object.wait()"
+- "java.lang.Object.wait(long)"
+- "java.lang.Object.wait(long,int)"
+syntax: "public final class PublicCertificateCollectionInner"
 constructors:
-- com.azure.resourcemanager.appservice.fluent.inner.PublicCertificateCollectionInner.PublicCertificateCollectionInner()
+- "com.azure.resourcemanager.appservice.fluent.inner.PublicCertificateCollectionInner.PublicCertificateCollectionInner()"
 methods:
-- com.azure.resourcemanager.appservice.fluent.inner.PublicCertificateCollectionInner.nextLink()
-- com.azure.resourcemanager.appservice.fluent.inner.PublicCertificateCollectionInner.validate()
-- com.azure.resourcemanager.appservice.fluent.inner.PublicCertificateCollectionInner.value()
-- com.azure.resourcemanager.appservice.fluent.inner.PublicCertificateCollectionInner.withValue(java.util.List<com.azure.resourcemanager.appservice.fluent.inner.PublicCertificateInner>)
-type: class
+- "com.azure.resourcemanager.appservice.fluent.inner.PublicCertificateCollectionInner.nextLink()"
+- "com.azure.resourcemanager.appservice.fluent.inner.PublicCertificateCollectionInner.validate()"
+- "com.azure.resourcemanager.appservice.fluent.inner.PublicCertificateCollectionInner.value()"
+- "com.azure.resourcemanager.appservice.fluent.inner.PublicCertificateCollectionInner.withValue(java.util.List<com.azure.resourcemanager.appservice.fluent.inner.PublicCertificateInner>)"
+type: "class"
 metadata: {}
-package: com.azure.resourcemanager.appservice.fluent.inner
+package: "com.azure.resourcemanager.appservice.fluent.inner"
 artifact: com.azure.resourcemanager:azure-resourcemanager-appservice:2.0.0-beta.2

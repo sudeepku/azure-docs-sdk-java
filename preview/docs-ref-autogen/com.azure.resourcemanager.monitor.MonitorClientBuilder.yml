@@ -1,33 +1,33 @@
 ### YamlMime:JavaType
-uid: com.azure.resourcemanager.monitor.MonitorClientBuilder
-fullName: com.azure.resourcemanager.monitor.MonitorClientBuilder
-name: MonitorClientBuilder
-nameWithType: MonitorClientBuilder
-summary: A builder for creating a new instance of the MonitorClient type.
+uid: "com.azure.resourcemanager.monitor.MonitorClientBuilder"
+fullName: "com.azure.resourcemanager.monitor.MonitorClientBuilder"
+name: "MonitorClientBuilder"
+nameWithType: "MonitorClientBuilder"
+summary: "A builder for creating a new instance of the MonitorClient type."
 inheritances:
-- <xref href="java.lang.Object" data-throw-if-not-resolved="False" />
+- "<xref href=\"java.lang.Object\" data-throw-if-not-resolved=\"False\" />"
 inheritedMembers:
-- java.lang.Object.clone()
-- java.lang.Object.equals(java.lang.Object)
-- java.lang.Object.finalize()
-- java.lang.Object.getClass()
-- java.lang.Object.hashCode()
-- java.lang.Object.notify()
-- java.lang.Object.notifyAll()
-- java.lang.Object.toString()
-- java.lang.Object.wait()
-- java.lang.Object.wait(long)
-- java.lang.Object.wait(long,int)
-syntax: public final class MonitorClientBuilder
+- "java.lang.Object.clone()"
+- "java.lang.Object.equals(java.lang.Object)"
+- "java.lang.Object.finalize()"
+- "java.lang.Object.getClass()"
+- "java.lang.Object.hashCode()"
+- "java.lang.Object.notify()"
+- "java.lang.Object.notifyAll()"
+- "java.lang.Object.toString()"
+- "java.lang.Object.wait()"
+- "java.lang.Object.wait(long)"
+- "java.lang.Object.wait(long,int)"
+syntax: "public final class MonitorClientBuilder"
 constructors:
-- com.azure.resourcemanager.monitor.MonitorClientBuilder.MonitorClientBuilder()
+- "com.azure.resourcemanager.monitor.MonitorClientBuilder.MonitorClientBuilder()"
 methods:
-- com.azure.resourcemanager.monitor.MonitorClientBuilder.buildClient()
-- com.azure.resourcemanager.monitor.MonitorClientBuilder.endpoint(java.lang.String)
-- com.azure.resourcemanager.monitor.MonitorClientBuilder.environment(com.azure.core.management.AzureEnvironment)
-- com.azure.resourcemanager.monitor.MonitorClientBuilder.pipeline(com.azure.core.http.HttpPipeline)
-- com.azure.resourcemanager.monitor.MonitorClientBuilder.subscriptionId(java.lang.String)
-type: class
+- "com.azure.resourcemanager.monitor.MonitorClientBuilder.buildClient()"
+- "com.azure.resourcemanager.monitor.MonitorClientBuilder.endpoint(java.lang.String)"
+- "com.azure.resourcemanager.monitor.MonitorClientBuilder.environment(com.azure.core.management.AzureEnvironment)"
+- "com.azure.resourcemanager.monitor.MonitorClientBuilder.pipeline(com.azure.core.http.HttpPipeline)"
+- "com.azure.resourcemanager.monitor.MonitorClientBuilder.subscriptionId(java.lang.String)"
+type: "class"
 metadata: {}
-package: com.azure.resourcemanager.monitor
+package: "com.azure.resourcemanager.monitor"
 artifact: com.azure.resourcemanager:azure-resourcemanager-monitor:2.0.0-beta.2

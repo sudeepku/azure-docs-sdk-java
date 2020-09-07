@@ -1,37 +1,23 @@
 ### YamlMime:JavaMember
-uid: com.azure.security.keyvault.certificates.CertificateAsyncClient.mergeCertificate*
-fullName: com.azure.security.keyvault.certificates.CertificateAsyncClient.mergeCertificate
-name: mergeCertificate
-nameWithType: CertificateAsyncClient.mergeCertificate
+uid: "com.azure.security.keyvault.certificates.CertificateAsyncClient.mergeCertificate*"
+fullName: "com.azure.security.keyvault.certificates.CertificateAsyncClient.mergeCertificate"
+name: "mergeCertificate"
+nameWithType: "CertificateAsyncClient.mergeCertificate"
 members:
-- uid: com.azure.security.keyvault.certificates.CertificateAsyncClient.mergeCertificate(com.azure.security.keyvault.certificates.models.MergeCertificateOptions)
-  fullName: com.azure.security.keyvault.certificates.CertificateAsyncClient.mergeCertificate(MergeCertificateOptions mergeCertificateOptions)
-  name: mergeCertificate(MergeCertificateOptions mergeCertificateOptions)
-  nameWithType: CertificateAsyncClient.mergeCertificate(MergeCertificateOptions mergeCertificateOptions)
-  summary: |-
-    Merges a certificate or a certificate chain with a key pair currently available in the service. This operation requires
-     the <code>certificates/create</code> permission.
-
-     <p><strong>Code Samples</strong></p>
-     <p> Merges a certificate with a kay pair available in the service.</p>
-
-     <pre>
-     List&lt;byte[]&gt; x509CertificatesToMerge = new ArrayList&lt;&gt;&#40;&#41;;
-     MergeCertificateOptions config =
-         new MergeCertificateOptions&#40;&quot;certificateName&quot;, x509CertificatesToMerge&#41;.setEnabled&#40;false&#41;;
-     certificateAsyncClient.mergeCertificate&#40;config&#41;
-         .subscribe&#40;certificate -&gt; System.out.printf&#40;&quot;Received Certificate with name %s and key id %s&quot;,
-             certificate.getProperties&#40;&#41;.getName&#40;&#41;, certificate.getKeyId&#40;&#41;&#41;&#41;;
-     </pre>
+- uid: "com.azure.security.keyvault.certificates.CertificateAsyncClient.mergeCertificate(com.azure.security.keyvault.certificates.models.MergeCertificateOptions)"
+  fullName: "com.azure.security.keyvault.certificates.CertificateAsyncClient.mergeCertificate(MergeCertificateOptions mergeCertificateOptions)"
+  name: "mergeCertificate(MergeCertificateOptions mergeCertificateOptions)"
+  nameWithType: "CertificateAsyncClient.mergeCertificate(MergeCertificateOptions mergeCertificateOptions)"
+  summary: "Merges a certificate or a certificate chain with a key pair currently available in the service. This operation requires\n the <code>certificates/create</code> permission.\n\n <p><strong>Code Samples</strong></p>\n <p> Merges a certificate with a kay pair available in the service.</p>\n\n <pre>\n List&lt;byte[]&gt; x509CertificatesToMerge = new ArrayList&lt;&gt;&#40;&#41;;\n MergeCertificateOptions config =\n     new MergeCertificateOptions&#40;&quot;certificateName&quot;, x509CertificatesToMerge&#41;.setEnabled&#40;false&#41;;\n certificateAsyncClient.mergeCertificate&#40;config&#41;\n     .subscribe&#40;certificate -&gt; System.out.printf&#40;&quot;Received Certificate with name %s and key id %s&quot;,\n         certificate.getProperties&#40;&#41;.getName&#40;&#41;, certificate.getKeyId&#40;&#41;&#41;&#41;;\n </pre>"
   parameters:
-  - description: the merge certificate options holding the x509 certificates.
-    name: mergeCertificateOptions
-    type: <xref href="com.azure.security.keyvault.certificates.models.MergeCertificateOptions?alt=com.azure.security.keyvault.certificates.models.MergeCertificateOptions&text=MergeCertificateOptions" data-throw-if-not-resolved="False" />
-  syntax: public Mono<KeyVaultCertificate> mergeCertificate(MergeCertificateOptions mergeCertificateOptions)
+  - description: "the merge certificate options holding the x509 certificates."
+    name: "mergeCertificateOptions"
+    type: "<xref href=\"com.azure.security.keyvault.certificates.models.MergeCertificateOptions?alt=com.azure.security.keyvault.certificates.models.MergeCertificateOptions&text=MergeCertificateOptions\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public Mono<KeyVaultCertificate> mergeCertificate(MergeCertificateOptions mergeCertificateOptions)"
   returns:
-    description: A <xref uid="reactor.core.publisher.Mono" data-throw-if-not-resolved="false">Mono</xref> containing the merged certificate.
-    type: <xref href="reactor.core.publisher.Mono?alt=reactor.core.publisher.Mono&text=Mono" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.security.keyvault.certificates.models.KeyVaultCertificate?alt=com.azure.security.keyvault.certificates.models.KeyVaultCertificate&text=KeyVaultCertificate" data-throw-if-not-resolved="False" />&gt;
-type: method
+    description: "A <xref uid=\"reactor.core.publisher.Mono\" data-throw-if-not-resolved=\"false\">Mono</xref> containing the merged certificate."
+    type: "<xref href=\"reactor.core.publisher.Mono?alt=reactor.core.publisher.Mono&text=Mono\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.security.keyvault.certificates.models.KeyVaultCertificate?alt=com.azure.security.keyvault.certificates.models.KeyVaultCertificate&text=KeyVaultCertificate\" data-throw-if-not-resolved=\"False\" />&gt;"
+type: "method"
 metadata: {}
-package: com.azure.security.keyvault.certificates
+package: "com.azure.security.keyvault.certificates"
 artifact: com.azure:azure-security-keyvault-certificates:4.1.0-beta.3

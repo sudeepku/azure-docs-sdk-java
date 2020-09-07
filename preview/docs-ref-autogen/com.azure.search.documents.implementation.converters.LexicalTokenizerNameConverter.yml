@@ -1,28 +1,28 @@
 ### YamlMime:JavaType
-uid: com.azure.search.documents.implementation.converters.LexicalTokenizerNameConverter
-fullName: com.azure.search.documents.implementation.converters.LexicalTokenizerNameConverter
-name: LexicalTokenizerNameConverter
-nameWithType: LexicalTokenizerNameConverter
-summary: A converter between <xref uid="com.azure.search.documents.indexes.implementation.models.LexicalTokenizerName" data-throw-if-not-resolved="false">com.azure.search.documents.indexes.implementation.models.LexicalTokenizerName</xref> and <xref uid="com.azure.search.documents.indexes.models.LexicalTokenizerName" data-throw-if-not-resolved="false">LexicalTokenizerName</xref>.
+uid: "com.azure.search.documents.implementation.converters.LexicalTokenizerNameConverter"
+fullName: "com.azure.search.documents.implementation.converters.LexicalTokenizerNameConverter"
+name: "LexicalTokenizerNameConverter"
+nameWithType: "LexicalTokenizerNameConverter"
+summary: "A converter between <xref uid=\"com.azure.search.documents.indexes.implementation.models.LexicalTokenizerName\" data-throw-if-not-resolved=\"false\">com.azure.search.documents.indexes.implementation.models.LexicalTokenizerName</xref> and <xref uid=\"com.azure.search.documents.indexes.models.LexicalTokenizerName\" data-throw-if-not-resolved=\"false\">LexicalTokenizerName</xref>."
 inheritances:
-- <xref href="java.lang.Object" data-throw-if-not-resolved="False" />
+- "<xref href=\"java.lang.Object\" data-throw-if-not-resolved=\"False\" />"
 inheritedMembers:
-- java.lang.Object.clone()
-- java.lang.Object.equals(java.lang.Object)
-- java.lang.Object.finalize()
-- java.lang.Object.getClass()
-- java.lang.Object.hashCode()
-- java.lang.Object.notify()
-- java.lang.Object.notifyAll()
-- java.lang.Object.toString()
-- java.lang.Object.wait()
-- java.lang.Object.wait(long)
-- java.lang.Object.wait(long,int)
-syntax: public final class LexicalTokenizerNameConverter
+- "java.lang.Object.clone()"
+- "java.lang.Object.equals(java.lang.Object)"
+- "java.lang.Object.finalize()"
+- "java.lang.Object.getClass()"
+- "java.lang.Object.hashCode()"
+- "java.lang.Object.notify()"
+- "java.lang.Object.notifyAll()"
+- "java.lang.Object.toString()"
+- "java.lang.Object.wait()"
+- "java.lang.Object.wait(long)"
+- "java.lang.Object.wait(long,int)"
+syntax: "public final class LexicalTokenizerNameConverter"
 methods:
-- com.azure.search.documents.implementation.converters.LexicalTokenizerNameConverter.map(com.azure.search.documents.indexes.implementation.models.LexicalTokenizerName)
-- com.azure.search.documents.implementation.converters.LexicalTokenizerNameConverter.map(com.azure.search.documents.indexes.models.LexicalTokenizerName)
-type: class
+- "com.azure.search.documents.implementation.converters.LexicalTokenizerNameConverter.map(com.azure.search.documents.indexes.implementation.models.LexicalTokenizerName)"
+- "com.azure.search.documents.implementation.converters.LexicalTokenizerNameConverter.map(com.azure.search.documents.indexes.models.LexicalTokenizerName)"
+type: "class"
 metadata: {}
-package: com.azure.search.documents.implementation.converters
+package: "com.azure.search.documents.implementation.converters"
 artifact: com.azure:azure-search-documents:11.1.0-beta.1

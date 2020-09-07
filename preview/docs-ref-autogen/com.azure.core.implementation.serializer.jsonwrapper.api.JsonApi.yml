@@ -1,18 +1,18 @@
 ### YamlMime:JavaType
-uid: com.azure.core.implementation.serializer.jsonwrapper.api.JsonApi
-fullName: com.azure.core.implementation.serializer.jsonwrapper.api.JsonApi
-name: JsonApi
-nameWithType: JsonApi
-syntax: public interface JsonApi
+uid: "com.azure.core.implementation.serializer.jsonwrapper.api.JsonApi"
+fullName: "com.azure.core.implementation.serializer.jsonwrapper.api.JsonApi"
+name: "JsonApi"
+nameWithType: "JsonApi"
+syntax: "public interface JsonApi"
 methods:
-- com.azure.core.implementation.serializer.jsonwrapper.api.JsonApi.<T>convertObjectToType(java.lang.Object,java.lang.Class<T>)
-- com.azure.core.implementation.serializer.jsonwrapper.api.JsonApi.<T>readString(java.lang.String,com.azure.core.implementation.serializer.jsonwrapper.api.Type<T>)
-- com.azure.core.implementation.serializer.jsonwrapper.api.JsonApi.<T>readString(java.lang.String,java.lang.Class<? extends T>)
-- com.azure.core.implementation.serializer.jsonwrapper.api.JsonApi.<T>readStringToList(java.lang.String,com.azure.core.implementation.serializer.jsonwrapper.api.Type<java.util.List<T>>)
-- com.azure.core.implementation.serializer.jsonwrapper.api.JsonApi.<T>registerCustomDeserializer(com.azure.core.implementation.serializer.jsonwrapper.api.Deserializer<T>)
-- com.azure.core.implementation.serializer.jsonwrapper.api.JsonApi.configure(com.azure.core.implementation.serializer.jsonwrapper.api.Config,boolean)
-- com.azure.core.implementation.serializer.jsonwrapper.api.JsonApi.configureTimezone()
-type: interface
+- "com.azure.core.implementation.serializer.jsonwrapper.api.JsonApi.<T>convertObjectToType(java.lang.Object,java.lang.Class<T>)"
+- "com.azure.core.implementation.serializer.jsonwrapper.api.JsonApi.<T>readString(java.lang.String,com.azure.core.implementation.serializer.jsonwrapper.api.Type<T>)"
+- "com.azure.core.implementation.serializer.jsonwrapper.api.JsonApi.<T>readString(java.lang.String,java.lang.Class<? extends T>)"
+- "com.azure.core.implementation.serializer.jsonwrapper.api.JsonApi.<T>readStringToList(java.lang.String,com.azure.core.implementation.serializer.jsonwrapper.api.Type<java.util.List<T>>)"
+- "com.azure.core.implementation.serializer.jsonwrapper.api.JsonApi.<T>registerCustomDeserializer(com.azure.core.implementation.serializer.jsonwrapper.api.Deserializer<T>)"
+- "com.azure.core.implementation.serializer.jsonwrapper.api.JsonApi.configure(com.azure.core.implementation.serializer.jsonwrapper.api.Config,boolean)"
+- "com.azure.core.implementation.serializer.jsonwrapper.api.JsonApi.configureTimezone()"
+type: "interface"
 metadata: {}
-package: com.azure.core.implementation.serializer.jsonwrapper.api
+package: "com.azure.core.implementation.serializer.jsonwrapper.api"
 artifact: com.azure:azure-core:1.3.0-beta.1

@@ -1,38 +1,38 @@
 ### YamlMime:JavaType
-uid: com.azure.tracing.opentelemetry.OpenTelemetryTracer
-fullName: com.azure.tracing.opentelemetry.OpenTelemetryTracer
-name: OpenTelemetryTracer
-nameWithType: OpenTelemetryTracer
-summary: OpenTelemetry span
+uid: "com.azure.tracing.opentelemetry.OpenTelemetryTracer"
+fullName: "com.azure.tracing.opentelemetry.OpenTelemetryTracer"
+name: "OpenTelemetryTracer"
+nameWithType: "OpenTelemetryTracer"
+summary: "OpenTelemetry span"
 inheritances:
-- <xref href="java.lang.Object" data-throw-if-not-resolved="False" />
+- "<xref href=\"java.lang.Object\" data-throw-if-not-resolved=\"False\" />"
 inheritedMembers:
-- java.lang.Object.clone()
-- java.lang.Object.equals(java.lang.Object)
-- java.lang.Object.finalize()
-- java.lang.Object.getClass()
-- java.lang.Object.hashCode()
-- java.lang.Object.notify()
-- java.lang.Object.notifyAll()
-- java.lang.Object.toString()
-- java.lang.Object.wait()
-- java.lang.Object.wait(long)
-- java.lang.Object.wait(long,int)
-syntax: public class OpenTelemetryTracer implements Tracer
+- "java.lang.Object.clone()"
+- "java.lang.Object.equals(java.lang.Object)"
+- "java.lang.Object.finalize()"
+- "java.lang.Object.getClass()"
+- "java.lang.Object.hashCode()"
+- "java.lang.Object.notify()"
+- "java.lang.Object.notifyAll()"
+- "java.lang.Object.toString()"
+- "java.lang.Object.wait()"
+- "java.lang.Object.wait(long)"
+- "java.lang.Object.wait(long,int)"
+syntax: "public class OpenTelemetryTracer implements Tracer"
 constructors:
-- com.azure.tracing.opentelemetry.OpenTelemetryTracer.OpenTelemetryTracer()
+- "com.azure.tracing.opentelemetry.OpenTelemetryTracer.OpenTelemetryTracer()"
 methods:
-- com.azure.tracing.opentelemetry.OpenTelemetryTracer.addLink(com.azure.core.util.Context)
-- com.azure.tracing.opentelemetry.OpenTelemetryTracer.end(int,java.lang.Throwable,com.azure.core.util.Context)
-- com.azure.tracing.opentelemetry.OpenTelemetryTracer.end(java.lang.String,java.lang.Throwable,com.azure.core.util.Context)
-- com.azure.tracing.opentelemetry.OpenTelemetryTracer.extractContext(java.lang.String,com.azure.core.util.Context)
-- com.azure.tracing.opentelemetry.OpenTelemetryTracer.setAttribute(java.lang.String,java.lang.String,com.azure.core.util.Context)
-- com.azure.tracing.opentelemetry.OpenTelemetryTracer.setSpanName(java.lang.String,com.azure.core.util.Context)
-- com.azure.tracing.opentelemetry.OpenTelemetryTracer.start(java.lang.String,com.azure.core.util.Context)
-- com.azure.tracing.opentelemetry.OpenTelemetryTracer.start(java.lang.String,com.azure.core.util.Context,com.azure.core.implementation.tracing.ProcessKind)
-type: class
+- "com.azure.tracing.opentelemetry.OpenTelemetryTracer.addLink(com.azure.core.util.Context)"
+- "com.azure.tracing.opentelemetry.OpenTelemetryTracer.end(int,java.lang.Throwable,com.azure.core.util.Context)"
+- "com.azure.tracing.opentelemetry.OpenTelemetryTracer.end(java.lang.String,java.lang.Throwable,com.azure.core.util.Context)"
+- "com.azure.tracing.opentelemetry.OpenTelemetryTracer.extractContext(java.lang.String,com.azure.core.util.Context)"
+- "com.azure.tracing.opentelemetry.OpenTelemetryTracer.setAttribute(java.lang.String,java.lang.String,com.azure.core.util.Context)"
+- "com.azure.tracing.opentelemetry.OpenTelemetryTracer.setSpanName(java.lang.String,com.azure.core.util.Context)"
+- "com.azure.tracing.opentelemetry.OpenTelemetryTracer.start(java.lang.String,com.azure.core.util.Context)"
+- "com.azure.tracing.opentelemetry.OpenTelemetryTracer.start(java.lang.String,com.azure.core.util.Context,com.azure.core.implementation.tracing.ProcessKind)"
+type: "class"
 implements:
-- <xref href="com.azure.core.implementation.tracing.Tracer?alt=com.azure.core.implementation.tracing.Tracer&text=Tracer" data-throw-if-not-resolved="False" />
+- "<xref href=\"com.azure.core.implementation.tracing.Tracer?alt=com.azure.core.implementation.tracing.Tracer&text=Tracer\" data-throw-if-not-resolved=\"False\" />"
 metadata: {}
-package: com.azure.tracing.opentelemetry
+package: "com.azure.tracing.opentelemetry"
 artifact: com.azure:tracing-opentelemetry:1.0.0-preview.2

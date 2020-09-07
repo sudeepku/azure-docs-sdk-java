@@ -1,15 +1,15 @@
 ### YamlMime:JavaType
-uid: com.azure.resourcemanager.sql.models.SqlElasticPool.DefinitionStages.WithDatabaseDtuMax
-fullName: com.azure.resourcemanager.sql.models.SqlElasticPool.DefinitionStages.WithDatabaseDtuMax<ParentT>
-name: SqlElasticPool.DefinitionStages.WithDatabaseDtuMax<ParentT>
-nameWithType: SqlElasticPool.DefinitionStages.WithDatabaseDtuMax<ParentT>
-summary: The SQL Elastic Pool definition to set the maximum DTU for one database.
-syntax: public static interface SqlElasticPool.DefinitionStages.WithDatabaseDtuMax<ParentT>
+uid: "com.azure.resourcemanager.sql.models.SqlElasticPool.DefinitionStages.WithDatabaseDtuMax"
+fullName: "com.azure.resourcemanager.sql.models.SqlElasticPool.DefinitionStages.WithDatabaseDtuMax<ParentT>"
+name: "SqlElasticPool.DefinitionStages.WithDatabaseDtuMax<ParentT>"
+nameWithType: "SqlElasticPool.DefinitionStages.WithDatabaseDtuMax<ParentT>"
+summary: "The SQL Elastic Pool definition to set the maximum DTU for one database."
+syntax: "public static interface SqlElasticPool.DefinitionStages.WithDatabaseDtuMax<ParentT>"
 methods:
-- com.azure.resourcemanager.sql.models.SqlElasticPool.DefinitionStages.WithDatabaseDtuMax.withDatabaseDtuMax(double)
-type: interface
+- "com.azure.resourcemanager.sql.models.SqlElasticPool.DefinitionStages.WithDatabaseDtuMax.withDatabaseDtuMax(double)"
+type: "interface"
 typeParameters:
-- name: ParentT
+- name: "ParentT"
 metadata: {}
-package: com.azure.resourcemanager.sql.models
+package: "com.azure.resourcemanager.sql.models"
 artifact: com.azure.resourcemanager:azure-resourcemanager-sql:2.0.0-beta.2

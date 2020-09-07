@@ -1,35 +1,35 @@
 ### YamlMime:JavaType
-uid: com.azure.resourcemanager.monitor.models.MetricAlertMultipleResourceMultipleMetricCriteria
-fullName: com.azure.resourcemanager.monitor.models.MetricAlertMultipleResourceMultipleMetricCriteria
-name: MetricAlertMultipleResourceMultipleMetricCriteria
-nameWithType: MetricAlertMultipleResourceMultipleMetricCriteria
-summary: The MetricAlertMultipleResourceMultipleMetricCriteria model.
+uid: "com.azure.resourcemanager.monitor.models.MetricAlertMultipleResourceMultipleMetricCriteria"
+fullName: "com.azure.resourcemanager.monitor.models.MetricAlertMultipleResourceMultipleMetricCriteria"
+name: "MetricAlertMultipleResourceMultipleMetricCriteria"
+nameWithType: "MetricAlertMultipleResourceMultipleMetricCriteria"
+summary: "The MetricAlertMultipleResourceMultipleMetricCriteria model."
 inheritances:
-- <xref href="java.lang.Object" data-throw-if-not-resolved="False" />
-- <xref href="com.azure.resourcemanager.monitor.models.MetricAlertCriteria" data-throw-if-not-resolved="False" />
+- "<xref href=\"java.lang.Object\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.azure.resourcemanager.monitor.models.MetricAlertCriteria\" data-throw-if-not-resolved=\"False\" />"
 inheritedMembers:
-- com.azure.resourcemanager.monitor.models.MetricAlertCriteria.additionalProperties()
-- com.azure.resourcemanager.monitor.models.MetricAlertCriteria.validate()
-- com.azure.resourcemanager.monitor.models.MetricAlertCriteria.withAdditionalProperties(java.util.Map<java.lang.String,java.lang.Object>)
-- java.lang.Object.clone()
-- java.lang.Object.equals(java.lang.Object)
-- java.lang.Object.finalize()
-- java.lang.Object.getClass()
-- java.lang.Object.hashCode()
-- java.lang.Object.notify()
-- java.lang.Object.notifyAll()
-- java.lang.Object.toString()
-- java.lang.Object.wait()
-- java.lang.Object.wait(long)
-- java.lang.Object.wait(long,int)
-syntax: public class MetricAlertMultipleResourceMultipleMetricCriteria extends MetricAlertCriteria
+- "com.azure.resourcemanager.monitor.models.MetricAlertCriteria.additionalProperties()"
+- "com.azure.resourcemanager.monitor.models.MetricAlertCriteria.validate()"
+- "com.azure.resourcemanager.monitor.models.MetricAlertCriteria.withAdditionalProperties(java.util.Map<java.lang.String,java.lang.Object>)"
+- "java.lang.Object.clone()"
+- "java.lang.Object.equals(java.lang.Object)"
+- "java.lang.Object.finalize()"
+- "java.lang.Object.getClass()"
+- "java.lang.Object.hashCode()"
+- "java.lang.Object.notify()"
+- "java.lang.Object.notifyAll()"
+- "java.lang.Object.toString()"
+- "java.lang.Object.wait()"
+- "java.lang.Object.wait(long)"
+- "java.lang.Object.wait(long,int)"
+syntax: "public class MetricAlertMultipleResourceMultipleMetricCriteria extends MetricAlertCriteria"
 constructors:
-- com.azure.resourcemanager.monitor.models.MetricAlertMultipleResourceMultipleMetricCriteria.MetricAlertMultipleResourceMultipleMetricCriteria()
+- "com.azure.resourcemanager.monitor.models.MetricAlertMultipleResourceMultipleMetricCriteria.MetricAlertMultipleResourceMultipleMetricCriteria()"
 methods:
-- com.azure.resourcemanager.monitor.models.MetricAlertMultipleResourceMultipleMetricCriteria.allOf()
-- com.azure.resourcemanager.monitor.models.MetricAlertMultipleResourceMultipleMetricCriteria.validate()
-- com.azure.resourcemanager.monitor.models.MetricAlertMultipleResourceMultipleMetricCriteria.withAllOf(java.util.List<com.azure.resourcemanager.monitor.models.MultiMetricCriteria>)
-type: class
+- "com.azure.resourcemanager.monitor.models.MetricAlertMultipleResourceMultipleMetricCriteria.allOf()"
+- "com.azure.resourcemanager.monitor.models.MetricAlertMultipleResourceMultipleMetricCriteria.validate()"
+- "com.azure.resourcemanager.monitor.models.MetricAlertMultipleResourceMultipleMetricCriteria.withAllOf(java.util.List<com.azure.resourcemanager.monitor.models.MultiMetricCriteria>)"
+type: "class"
 metadata: {}
-package: com.azure.resourcemanager.monitor.models
+package: "com.azure.resourcemanager.monitor.models"
 artifact: com.azure.resourcemanager:azure-resourcemanager-monitor:2.0.0-beta.2

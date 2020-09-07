@@ -1,33 +1,33 @@
 ### YamlMime:JavaType
-uid: com.azure.resourcemanager.keyvault.fluent.inner.DeletedVaultListResultInner
-fullName: com.azure.resourcemanager.keyvault.fluent.inner.DeletedVaultListResultInner
-name: DeletedVaultListResultInner
-nameWithType: DeletedVaultListResultInner
-summary: The DeletedVaultListResult model.
+uid: "com.azure.resourcemanager.keyvault.fluent.inner.DeletedVaultListResultInner"
+fullName: "com.azure.resourcemanager.keyvault.fluent.inner.DeletedVaultListResultInner"
+name: "DeletedVaultListResultInner"
+nameWithType: "DeletedVaultListResultInner"
+summary: "The DeletedVaultListResult model."
 inheritances:
-- <xref href="java.lang.Object" data-throw-if-not-resolved="False" />
+- "<xref href=\"java.lang.Object\" data-throw-if-not-resolved=\"False\" />"
 inheritedMembers:
-- java.lang.Object.clone()
-- java.lang.Object.equals(java.lang.Object)
-- java.lang.Object.finalize()
-- java.lang.Object.getClass()
-- java.lang.Object.hashCode()
-- java.lang.Object.notify()
-- java.lang.Object.notifyAll()
-- java.lang.Object.toString()
-- java.lang.Object.wait()
-- java.lang.Object.wait(long)
-- java.lang.Object.wait(long,int)
-syntax: public final class DeletedVaultListResultInner
+- "java.lang.Object.clone()"
+- "java.lang.Object.equals(java.lang.Object)"
+- "java.lang.Object.finalize()"
+- "java.lang.Object.getClass()"
+- "java.lang.Object.hashCode()"
+- "java.lang.Object.notify()"
+- "java.lang.Object.notifyAll()"
+- "java.lang.Object.toString()"
+- "java.lang.Object.wait()"
+- "java.lang.Object.wait(long)"
+- "java.lang.Object.wait(long,int)"
+syntax: "public final class DeletedVaultListResultInner"
 constructors:
-- com.azure.resourcemanager.keyvault.fluent.inner.DeletedVaultListResultInner.DeletedVaultListResultInner()
+- "com.azure.resourcemanager.keyvault.fluent.inner.DeletedVaultListResultInner.DeletedVaultListResultInner()"
 methods:
-- com.azure.resourcemanager.keyvault.fluent.inner.DeletedVaultListResultInner.nextLink()
-- com.azure.resourcemanager.keyvault.fluent.inner.DeletedVaultListResultInner.validate()
-- com.azure.resourcemanager.keyvault.fluent.inner.DeletedVaultListResultInner.value()
-- com.azure.resourcemanager.keyvault.fluent.inner.DeletedVaultListResultInner.withNextLink(java.lang.String)
-- com.azure.resourcemanager.keyvault.fluent.inner.DeletedVaultListResultInner.withValue(java.util.List<com.azure.resourcemanager.keyvault.fluent.inner.DeletedVaultInner>)
-type: class
+- "com.azure.resourcemanager.keyvault.fluent.inner.DeletedVaultListResultInner.nextLink()"
+- "com.azure.resourcemanager.keyvault.fluent.inner.DeletedVaultListResultInner.validate()"
+- "com.azure.resourcemanager.keyvault.fluent.inner.DeletedVaultListResultInner.value()"
+- "com.azure.resourcemanager.keyvault.fluent.inner.DeletedVaultListResultInner.withNextLink(java.lang.String)"
+- "com.azure.resourcemanager.keyvault.fluent.inner.DeletedVaultListResultInner.withValue(java.util.List<com.azure.resourcemanager.keyvault.fluent.inner.DeletedVaultInner>)"
+type: "class"
 metadata: {}
-package: com.azure.resourcemanager.keyvault.fluent.inner
+package: "com.azure.resourcemanager.keyvault.fluent.inner"
 artifact: com.azure.resourcemanager:azure-resourcemanager-keyvault:2.0.0-beta.2

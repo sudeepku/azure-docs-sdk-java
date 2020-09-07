@@ -1,46 +1,46 @@
 ### YamlMime:JavaType
-uid: com.azure.resourcemanager.network.fluent.inner.DdosCustomPolicyInner
-fullName: com.azure.resourcemanager.network.fluent.inner.DdosCustomPolicyInner
-name: DdosCustomPolicyInner
-nameWithType: DdosCustomPolicyInner
-summary: The DdosCustomPolicy model.
+uid: "com.azure.resourcemanager.network.fluent.inner.DdosCustomPolicyInner"
+fullName: "com.azure.resourcemanager.network.fluent.inner.DdosCustomPolicyInner"
+name: "DdosCustomPolicyInner"
+nameWithType: "DdosCustomPolicyInner"
+summary: "The DdosCustomPolicy model."
 inheritances:
-- <xref href="java.lang.Object" data-throw-if-not-resolved="False" />
-- <xref href="com.azure.core.management.ProxyResource" data-throw-if-not-resolved="False" />
-- <xref href="com.azure.core.management.Resource" data-throw-if-not-resolved="False" />
+- "<xref href=\"java.lang.Object\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.azure.core.management.ProxyResource\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.azure.core.management.Resource\" data-throw-if-not-resolved=\"False\" />"
 inheritedMembers:
-- com.azure.core.management.ProxyResource.id()
-- com.azure.core.management.ProxyResource.name()
-- com.azure.core.management.ProxyResource.type()
-- com.azure.core.management.Resource.location()
-- com.azure.core.management.Resource.tags()
-- com.azure.core.management.Resource.withLocation(java.lang.String)
-- com.azure.core.management.Resource.withTags(java.util.Map<java.lang.String,java.lang.String>)
-- java.lang.Object.clone()
-- java.lang.Object.equals(java.lang.Object)
-- java.lang.Object.finalize()
-- java.lang.Object.getClass()
-- java.lang.Object.hashCode()
-- java.lang.Object.notify()
-- java.lang.Object.notifyAll()
-- java.lang.Object.toString()
-- java.lang.Object.wait()
-- java.lang.Object.wait(long)
-- java.lang.Object.wait(long,int)
-syntax: public class DdosCustomPolicyInner extends Resource
+- "com.azure.core.management.ProxyResource.id()"
+- "com.azure.core.management.ProxyResource.name()"
+- "com.azure.core.management.ProxyResource.type()"
+- "com.azure.core.management.Resource.location()"
+- "com.azure.core.management.Resource.tags()"
+- "com.azure.core.management.Resource.withLocation(java.lang.String)"
+- "com.azure.core.management.Resource.withTags(java.util.Map<java.lang.String,java.lang.String>)"
+- "java.lang.Object.clone()"
+- "java.lang.Object.equals(java.lang.Object)"
+- "java.lang.Object.finalize()"
+- "java.lang.Object.getClass()"
+- "java.lang.Object.hashCode()"
+- "java.lang.Object.notify()"
+- "java.lang.Object.notifyAll()"
+- "java.lang.Object.toString()"
+- "java.lang.Object.wait()"
+- "java.lang.Object.wait(long)"
+- "java.lang.Object.wait(long,int)"
+syntax: "public class DdosCustomPolicyInner extends Resource"
 constructors:
-- com.azure.resourcemanager.network.fluent.inner.DdosCustomPolicyInner.DdosCustomPolicyInner()
+- "com.azure.resourcemanager.network.fluent.inner.DdosCustomPolicyInner.DdosCustomPolicyInner()"
 methods:
-- com.azure.resourcemanager.network.fluent.inner.DdosCustomPolicyInner.etag()
-- com.azure.resourcemanager.network.fluent.inner.DdosCustomPolicyInner.id()
-- com.azure.resourcemanager.network.fluent.inner.DdosCustomPolicyInner.protocolCustomSettings()
-- com.azure.resourcemanager.network.fluent.inner.DdosCustomPolicyInner.provisioningState()
-- com.azure.resourcemanager.network.fluent.inner.DdosCustomPolicyInner.publicIpAddresses()
-- com.azure.resourcemanager.network.fluent.inner.DdosCustomPolicyInner.resourceGuid()
-- com.azure.resourcemanager.network.fluent.inner.DdosCustomPolicyInner.validate()
-- com.azure.resourcemanager.network.fluent.inner.DdosCustomPolicyInner.withId(java.lang.String)
-- com.azure.resourcemanager.network.fluent.inner.DdosCustomPolicyInner.withProtocolCustomSettings(java.util.List<com.azure.resourcemanager.network.models.ProtocolCustomSettingsFormat>)
-type: class
+- "com.azure.resourcemanager.network.fluent.inner.DdosCustomPolicyInner.etag()"
+- "com.azure.resourcemanager.network.fluent.inner.DdosCustomPolicyInner.id()"
+- "com.azure.resourcemanager.network.fluent.inner.DdosCustomPolicyInner.protocolCustomSettings()"
+- "com.azure.resourcemanager.network.fluent.inner.DdosCustomPolicyInner.provisioningState()"
+- "com.azure.resourcemanager.network.fluent.inner.DdosCustomPolicyInner.publicIpAddresses()"
+- "com.azure.resourcemanager.network.fluent.inner.DdosCustomPolicyInner.resourceGuid()"
+- "com.azure.resourcemanager.network.fluent.inner.DdosCustomPolicyInner.validate()"
+- "com.azure.resourcemanager.network.fluent.inner.DdosCustomPolicyInner.withId(java.lang.String)"
+- "com.azure.resourcemanager.network.fluent.inner.DdosCustomPolicyInner.withProtocolCustomSettings(java.util.List<com.azure.resourcemanager.network.models.ProtocolCustomSettingsFormat>)"
+type: "class"
 metadata: {}
-package: com.azure.resourcemanager.network.fluent.inner
+package: "com.azure.resourcemanager.network.fluent.inner"
 artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.0.0-beta.2

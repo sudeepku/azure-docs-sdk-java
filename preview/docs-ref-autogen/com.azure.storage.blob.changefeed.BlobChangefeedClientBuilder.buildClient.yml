@@ -1,27 +1,19 @@
 ### YamlMime:JavaMember
-uid: com.azure.storage.blob.changefeed.BlobChangefeedClientBuilder.buildClient*
-fullName: com.azure.storage.blob.changefeed.BlobChangefeedClientBuilder.buildClient
-name: buildClient
-nameWithType: BlobChangefeedClientBuilder.buildClient
+uid: "com.azure.storage.blob.changefeed.BlobChangefeedClientBuilder.buildClient*"
+fullName: "com.azure.storage.blob.changefeed.BlobChangefeedClientBuilder.buildClient"
+name: "buildClient"
+nameWithType: "BlobChangefeedClientBuilder.buildClient"
 members:
-- uid: com.azure.storage.blob.changefeed.BlobChangefeedClientBuilder.buildClient()
-  fullName: com.azure.storage.blob.changefeed.BlobChangefeedClientBuilder.buildClient()
-  name: buildClient()
-  nameWithType: BlobChangefeedClientBuilder.buildClient()
-  summary: |-
-    Creates a <xref uid="BlobChangefeedClient" data-throw-if-not-resolved="false">BlobChangefeedClient</xref>.
-
-     <p><strong>Code sample</strong></p>
-
-     <pre>
-     BlobChangefeedClient changefeedClient = new BlobChangefeedClientBuilder&#40;blobServiceClient&#41;.buildClient&#40;&#41;;
-     </pre>
-    F
-  syntax: public BlobChangefeedClient buildClient()
+- uid: "com.azure.storage.blob.changefeed.BlobChangefeedClientBuilder.buildClient()"
+  fullName: "com.azure.storage.blob.changefeed.BlobChangefeedClientBuilder.buildClient()"
+  name: "buildClient()"
+  nameWithType: "BlobChangefeedClientBuilder.buildClient()"
+  summary: "Creates a <xref uid=\"BlobChangefeedClient\" data-throw-if-not-resolved=\"false\">BlobChangefeedClient</xref>.\n\n <p><strong>Code sample</strong></p>\n\n <pre>\n BlobChangefeedClient changefeedClient = new BlobChangefeedClientBuilder&#40;blobServiceClient&#41;.buildClient&#40;&#41;;\n </pre>\nF"
+  syntax: "public BlobChangefeedClient buildClient()"
   returns:
-    description: a <xref uid="com.azure.storage.blob.changefeed.BlobChangefeedClient" data-throw-if-not-resolved="false">BlobChangefeedClient</xref> created from the configurations in this builder.
-    type: <xref href="com.azure.storage.blob.changefeed.BlobChangefeedClient?alt=com.azure.storage.blob.changefeed.BlobChangefeedClient&text=BlobChangefeedClient" data-throw-if-not-resolved="False" />
-type: method
+    description: "a <xref uid=\"com.azure.storage.blob.changefeed.BlobChangefeedClient\" data-throw-if-not-resolved=\"false\">BlobChangefeedClient</xref> created from the configurations in this builder."
+    type: "<xref href=\"com.azure.storage.blob.changefeed.BlobChangefeedClient?alt=com.azure.storage.blob.changefeed.BlobChangefeedClient&text=BlobChangefeedClient\" data-throw-if-not-resolved=\"False\" />"
+type: "method"
 metadata: {}
-package: com.azure.storage.blob.changefeed
+package: "com.azure.storage.blob.changefeed"
 artifact: com.azure:azure-storage-blob-changefeed:12.0.0-beta.2

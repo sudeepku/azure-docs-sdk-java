@@ -1,33 +1,33 @@
 ### YamlMime:JavaType
-uid: com.azure.resourcemanager.keyvault.KeyVaultManagementClientBuilder
-fullName: com.azure.resourcemanager.keyvault.KeyVaultManagementClientBuilder
-name: KeyVaultManagementClientBuilder
-nameWithType: KeyVaultManagementClientBuilder
-summary: A builder for creating a new instance of the KeyVaultManagementClient type.
+uid: "com.azure.resourcemanager.keyvault.KeyVaultManagementClientBuilder"
+fullName: "com.azure.resourcemanager.keyvault.KeyVaultManagementClientBuilder"
+name: "KeyVaultManagementClientBuilder"
+nameWithType: "KeyVaultManagementClientBuilder"
+summary: "A builder for creating a new instance of the KeyVaultManagementClient type."
 inheritances:
-- <xref href="java.lang.Object" data-throw-if-not-resolved="False" />
+- "<xref href=\"java.lang.Object\" data-throw-if-not-resolved=\"False\" />"
 inheritedMembers:
-- java.lang.Object.clone()
-- java.lang.Object.equals(java.lang.Object)
-- java.lang.Object.finalize()
-- java.lang.Object.getClass()
-- java.lang.Object.hashCode()
-- java.lang.Object.notify()
-- java.lang.Object.notifyAll()
-- java.lang.Object.toString()
-- java.lang.Object.wait()
-- java.lang.Object.wait(long)
-- java.lang.Object.wait(long,int)
-syntax: public final class KeyVaultManagementClientBuilder
+- "java.lang.Object.clone()"
+- "java.lang.Object.equals(java.lang.Object)"
+- "java.lang.Object.finalize()"
+- "java.lang.Object.getClass()"
+- "java.lang.Object.hashCode()"
+- "java.lang.Object.notify()"
+- "java.lang.Object.notifyAll()"
+- "java.lang.Object.toString()"
+- "java.lang.Object.wait()"
+- "java.lang.Object.wait(long)"
+- "java.lang.Object.wait(long,int)"
+syntax: "public final class KeyVaultManagementClientBuilder"
 constructors:
-- com.azure.resourcemanager.keyvault.KeyVaultManagementClientBuilder.KeyVaultManagementClientBuilder()
+- "com.azure.resourcemanager.keyvault.KeyVaultManagementClientBuilder.KeyVaultManagementClientBuilder()"
 methods:
-- com.azure.resourcemanager.keyvault.KeyVaultManagementClientBuilder.buildClient()
-- com.azure.resourcemanager.keyvault.KeyVaultManagementClientBuilder.endpoint(java.lang.String)
-- com.azure.resourcemanager.keyvault.KeyVaultManagementClientBuilder.environment(com.azure.core.management.AzureEnvironment)
-- com.azure.resourcemanager.keyvault.KeyVaultManagementClientBuilder.pipeline(com.azure.core.http.HttpPipeline)
-- com.azure.resourcemanager.keyvault.KeyVaultManagementClientBuilder.subscriptionId(java.lang.String)
-type: class
+- "com.azure.resourcemanager.keyvault.KeyVaultManagementClientBuilder.buildClient()"
+- "com.azure.resourcemanager.keyvault.KeyVaultManagementClientBuilder.endpoint(java.lang.String)"
+- "com.azure.resourcemanager.keyvault.KeyVaultManagementClientBuilder.environment(com.azure.core.management.AzureEnvironment)"
+- "com.azure.resourcemanager.keyvault.KeyVaultManagementClientBuilder.pipeline(com.azure.core.http.HttpPipeline)"
+- "com.azure.resourcemanager.keyvault.KeyVaultManagementClientBuilder.subscriptionId(java.lang.String)"
+type: "class"
 metadata: {}
-package: com.azure.resourcemanager.keyvault
+package: "com.azure.resourcemanager.keyvault"
 artifact: com.azure.resourcemanager:azure-resourcemanager-keyvault:2.0.0-beta.2

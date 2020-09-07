@@ -1,48 +1,48 @@
 ### YamlMime:JavaType
-uid: com.azure.resourcemanager.compute.fluent.inner.VirtualMachineExtensionImageInner
-fullName: com.azure.resourcemanager.compute.fluent.inner.VirtualMachineExtensionImageInner
-name: VirtualMachineExtensionImageInner
-nameWithType: VirtualMachineExtensionImageInner
-summary: The VirtualMachineExtensionImage model.
+uid: "com.azure.resourcemanager.compute.fluent.inner.VirtualMachineExtensionImageInner"
+fullName: "com.azure.resourcemanager.compute.fluent.inner.VirtualMachineExtensionImageInner"
+name: "VirtualMachineExtensionImageInner"
+nameWithType: "VirtualMachineExtensionImageInner"
+summary: "The VirtualMachineExtensionImage model."
 inheritances:
-- <xref href="java.lang.Object" data-throw-if-not-resolved="False" />
-- <xref href="com.azure.core.management.ProxyResource" data-throw-if-not-resolved="False" />
-- <xref href="com.azure.core.management.Resource" data-throw-if-not-resolved="False" />
+- "<xref href=\"java.lang.Object\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.azure.core.management.ProxyResource\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.azure.core.management.Resource\" data-throw-if-not-resolved=\"False\" />"
 inheritedMembers:
-- com.azure.core.management.ProxyResource.id()
-- com.azure.core.management.ProxyResource.name()
-- com.azure.core.management.ProxyResource.type()
-- com.azure.core.management.Resource.location()
-- com.azure.core.management.Resource.tags()
-- com.azure.core.management.Resource.withLocation(java.lang.String)
-- com.azure.core.management.Resource.withTags(java.util.Map<java.lang.String,java.lang.String>)
-- java.lang.Object.clone()
-- java.lang.Object.equals(java.lang.Object)
-- java.lang.Object.finalize()
-- java.lang.Object.getClass()
-- java.lang.Object.hashCode()
-- java.lang.Object.notify()
-- java.lang.Object.notifyAll()
-- java.lang.Object.toString()
-- java.lang.Object.wait()
-- java.lang.Object.wait(long)
-- java.lang.Object.wait(long,int)
-syntax: public class VirtualMachineExtensionImageInner extends Resource
+- "com.azure.core.management.ProxyResource.id()"
+- "com.azure.core.management.ProxyResource.name()"
+- "com.azure.core.management.ProxyResource.type()"
+- "com.azure.core.management.Resource.location()"
+- "com.azure.core.management.Resource.tags()"
+- "com.azure.core.management.Resource.withLocation(java.lang.String)"
+- "com.azure.core.management.Resource.withTags(java.util.Map<java.lang.String,java.lang.String>)"
+- "java.lang.Object.clone()"
+- "java.lang.Object.equals(java.lang.Object)"
+- "java.lang.Object.finalize()"
+- "java.lang.Object.getClass()"
+- "java.lang.Object.hashCode()"
+- "java.lang.Object.notify()"
+- "java.lang.Object.notifyAll()"
+- "java.lang.Object.toString()"
+- "java.lang.Object.wait()"
+- "java.lang.Object.wait(long)"
+- "java.lang.Object.wait(long,int)"
+syntax: "public class VirtualMachineExtensionImageInner extends Resource"
 constructors:
-- com.azure.resourcemanager.compute.fluent.inner.VirtualMachineExtensionImageInner.VirtualMachineExtensionImageInner()
+- "com.azure.resourcemanager.compute.fluent.inner.VirtualMachineExtensionImageInner.VirtualMachineExtensionImageInner()"
 methods:
-- com.azure.resourcemanager.compute.fluent.inner.VirtualMachineExtensionImageInner.computeRole()
-- com.azure.resourcemanager.compute.fluent.inner.VirtualMachineExtensionImageInner.handlerSchema()
-- com.azure.resourcemanager.compute.fluent.inner.VirtualMachineExtensionImageInner.operatingSystem()
-- com.azure.resourcemanager.compute.fluent.inner.VirtualMachineExtensionImageInner.supportsMultipleExtensions()
-- com.azure.resourcemanager.compute.fluent.inner.VirtualMachineExtensionImageInner.validate()
-- com.azure.resourcemanager.compute.fluent.inner.VirtualMachineExtensionImageInner.vmScaleSetEnabled()
-- com.azure.resourcemanager.compute.fluent.inner.VirtualMachineExtensionImageInner.withComputeRole(java.lang.String)
-- com.azure.resourcemanager.compute.fluent.inner.VirtualMachineExtensionImageInner.withHandlerSchema(java.lang.String)
-- com.azure.resourcemanager.compute.fluent.inner.VirtualMachineExtensionImageInner.withOperatingSystem(java.lang.String)
-- com.azure.resourcemanager.compute.fluent.inner.VirtualMachineExtensionImageInner.withSupportsMultipleExtensions(java.lang.Boolean)
-- com.azure.resourcemanager.compute.fluent.inner.VirtualMachineExtensionImageInner.withVmScaleSetEnabled(java.lang.Boolean)
-type: class
+- "com.azure.resourcemanager.compute.fluent.inner.VirtualMachineExtensionImageInner.computeRole()"
+- "com.azure.resourcemanager.compute.fluent.inner.VirtualMachineExtensionImageInner.handlerSchema()"
+- "com.azure.resourcemanager.compute.fluent.inner.VirtualMachineExtensionImageInner.operatingSystem()"
+- "com.azure.resourcemanager.compute.fluent.inner.VirtualMachineExtensionImageInner.supportsMultipleExtensions()"
+- "com.azure.resourcemanager.compute.fluent.inner.VirtualMachineExtensionImageInner.validate()"
+- "com.azure.resourcemanager.compute.fluent.inner.VirtualMachineExtensionImageInner.vmScaleSetEnabled()"
+- "com.azure.resourcemanager.compute.fluent.inner.VirtualMachineExtensionImageInner.withComputeRole(java.lang.String)"
+- "com.azure.resourcemanager.compute.fluent.inner.VirtualMachineExtensionImageInner.withHandlerSchema(java.lang.String)"
+- "com.azure.resourcemanager.compute.fluent.inner.VirtualMachineExtensionImageInner.withOperatingSystem(java.lang.String)"
+- "com.azure.resourcemanager.compute.fluent.inner.VirtualMachineExtensionImageInner.withSupportsMultipleExtensions(java.lang.Boolean)"
+- "com.azure.resourcemanager.compute.fluent.inner.VirtualMachineExtensionImageInner.withVmScaleSetEnabled(java.lang.Boolean)"
+type: "class"
 metadata: {}
-package: com.azure.resourcemanager.compute.fluent.inner
+package: "com.azure.resourcemanager.compute.fluent.inner"
 artifact: com.azure.resourcemanager:azure-resourcemanager-compute:2.0.0-beta.2

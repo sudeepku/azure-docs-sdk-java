@@ -1,14 +1,14 @@
 ### YamlMime:JavaPackage
-uid: com.azure.cosmos.implementation.caches
-fullName: com.azure.cosmos.implementation.caches
-name: com.azure.cosmos.implementation.caches
+uid: "com.azure.cosmos.implementation.caches"
+fullName: "com.azure.cosmos.implementation.caches"
+name: "com.azure.cosmos.implementation.caches"
 classes:
-- com.azure.cosmos.implementation.caches.AsyncCache
-- com.azure.cosmos.implementation.caches.RxClientCollectionCache
-- com.azure.cosmos.implementation.caches.RxCollectionCache
-- com.azure.cosmos.implementation.caches.RxPartitionKeyRangeCache
+- "com.azure.cosmos.implementation.caches.AsyncCache"
+- "com.azure.cosmos.implementation.caches.RxClientCollectionCache"
+- "com.azure.cosmos.implementation.caches.RxCollectionCache"
+- "com.azure.cosmos.implementation.caches.RxPartitionKeyRangeCache"
 interfaces:
-- com.azure.cosmos.implementation.caches.IPartitionKeyRangeCache
+- "com.azure.cosmos.implementation.caches.IPartitionKeyRangeCache"
 metadata: {}
-package: com.azure.cosmos.implementation.caches
+package: "com.azure.cosmos.implementation.caches"
 artifact: com.azure:azure-cosmos:4.3.2-beta.2

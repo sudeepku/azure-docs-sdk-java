@@ -1,28 +1,28 @@
 ### YamlMime:JavaType
-uid: com.azure.search.documents.implementation.converters.SearchIndexerDataContainerConverter
-fullName: com.azure.search.documents.implementation.converters.SearchIndexerDataContainerConverter
-name: SearchIndexerDataContainerConverter
-nameWithType: SearchIndexerDataContainerConverter
-summary: A converter between <xref uid="com.azure.search.documents.indexes.implementation.models.SearchIndexerDataContainer" data-throw-if-not-resolved="false">com.azure.search.documents.indexes.implementation.models.SearchIndexerDataContainer</xref> and <xref uid="com.azure.search.documents.indexes.models.SearchIndexerDataContainer" data-throw-if-not-resolved="false">SearchIndexerDataContainer</xref>.
+uid: "com.azure.search.documents.implementation.converters.SearchIndexerDataContainerConverter"
+fullName: "com.azure.search.documents.implementation.converters.SearchIndexerDataContainerConverter"
+name: "SearchIndexerDataContainerConverter"
+nameWithType: "SearchIndexerDataContainerConverter"
+summary: "A converter between <xref uid=\"com.azure.search.documents.indexes.implementation.models.SearchIndexerDataContainer\" data-throw-if-not-resolved=\"false\">com.azure.search.documents.indexes.implementation.models.SearchIndexerDataContainer</xref> and <xref uid=\"com.azure.search.documents.indexes.models.SearchIndexerDataContainer\" data-throw-if-not-resolved=\"false\">SearchIndexerDataContainer</xref>."
 inheritances:
-- <xref href="java.lang.Object" data-throw-if-not-resolved="False" />
+- "<xref href=\"java.lang.Object\" data-throw-if-not-resolved=\"False\" />"
 inheritedMembers:
-- java.lang.Object.clone()
-- java.lang.Object.equals(java.lang.Object)
-- java.lang.Object.finalize()
-- java.lang.Object.getClass()
-- java.lang.Object.hashCode()
-- java.lang.Object.notify()
-- java.lang.Object.notifyAll()
-- java.lang.Object.toString()
-- java.lang.Object.wait()
-- java.lang.Object.wait(long)
-- java.lang.Object.wait(long,int)
-syntax: public final class SearchIndexerDataContainerConverter
+- "java.lang.Object.clone()"
+- "java.lang.Object.equals(java.lang.Object)"
+- "java.lang.Object.finalize()"
+- "java.lang.Object.getClass()"
+- "java.lang.Object.hashCode()"
+- "java.lang.Object.notify()"
+- "java.lang.Object.notifyAll()"
+- "java.lang.Object.toString()"
+- "java.lang.Object.wait()"
+- "java.lang.Object.wait(long)"
+- "java.lang.Object.wait(long,int)"
+syntax: "public final class SearchIndexerDataContainerConverter"
 methods:
-- com.azure.search.documents.implementation.converters.SearchIndexerDataContainerConverter.map(com.azure.search.documents.indexes.implementation.models.SearchIndexerDataContainer)
-- com.azure.search.documents.implementation.converters.SearchIndexerDataContainerConverter.map(com.azure.search.documents.indexes.models.SearchIndexerDataContainer)
-type: class
+- "com.azure.search.documents.implementation.converters.SearchIndexerDataContainerConverter.map(com.azure.search.documents.indexes.implementation.models.SearchIndexerDataContainer)"
+- "com.azure.search.documents.implementation.converters.SearchIndexerDataContainerConverter.map(com.azure.search.documents.indexes.models.SearchIndexerDataContainer)"
+type: "class"
 metadata: {}
-package: com.azure.search.documents.implementation.converters
+package: "com.azure.search.documents.implementation.converters"
 artifact: com.azure:azure-search-documents:11.0.0

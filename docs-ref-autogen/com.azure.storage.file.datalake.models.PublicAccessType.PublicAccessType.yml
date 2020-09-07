@@ -1,15 +1,15 @@
 ### YamlMime:JavaMember
-uid: com.azure.storage.file.datalake.models.PublicAccessType.PublicAccessType*
-fullName: com.azure.storage.file.datalake.models.PublicAccessType.PublicAccessType
-name: PublicAccessType
-nameWithType: PublicAccessType.PublicAccessType
+uid: "com.azure.storage.file.datalake.models.PublicAccessType.PublicAccessType*"
+fullName: "com.azure.storage.file.datalake.models.PublicAccessType.PublicAccessType"
+name: "PublicAccessType"
+nameWithType: "PublicAccessType.PublicAccessType"
 members:
-- uid: com.azure.storage.file.datalake.models.PublicAccessType.PublicAccessType()
-  fullName: com.azure.storage.file.datalake.models.PublicAccessType.PublicAccessType()
-  name: PublicAccessType()
-  nameWithType: PublicAccessType.PublicAccessType()
-  syntax: public PublicAccessType()
-type: constructor
+- uid: "com.azure.storage.file.datalake.models.PublicAccessType.PublicAccessType()"
+  fullName: "com.azure.storage.file.datalake.models.PublicAccessType.PublicAccessType()"
+  name: "PublicAccessType()"
+  nameWithType: "PublicAccessType.PublicAccessType()"
+  syntax: "public PublicAccessType()"
+type: "constructor"
 metadata: {}
-package: com.azure.storage.file.datalake.models
+package: "com.azure.storage.file.datalake.models"
 artifact: com.azure:azure-storage-file-datalake:12.2.0

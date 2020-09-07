@@ -1,15 +1,15 @@
 ### YamlMime:JavaType
-uid: com.azure.resourcemanager.resources.fluentcore.model.HasInner
-fullName: com.azure.resourcemanager.resources.fluentcore.model.HasInner<T>
-name: HasInner<T>
-nameWithType: HasInner<T>
-summary: The wrapper around an inner object providing extended functionalities.
-syntax: public interface HasInner<T>
+uid: "com.azure.resourcemanager.resources.fluentcore.model.HasInner"
+fullName: "com.azure.resourcemanager.resources.fluentcore.model.HasInner<T>"
+name: "HasInner<T>"
+nameWithType: "HasInner<T>"
+summary: "The wrapper around an inner object providing extended functionalities."
+syntax: "public interface HasInner<T>"
 methods:
-- com.azure.resourcemanager.resources.fluentcore.model.HasInner.inner()
-type: interface
+- "com.azure.resourcemanager.resources.fluentcore.model.HasInner.inner()"
+type: "interface"
 typeParameters:
-- name: T
+- name: "T"
 metadata: {}
-package: com.azure.resourcemanager.resources.fluentcore.model
+package: "com.azure.resourcemanager.resources.fluentcore.model"
 artifact: com.azure.resourcemanager:azure-resourcemanager-resources:2.0.0-beta.2

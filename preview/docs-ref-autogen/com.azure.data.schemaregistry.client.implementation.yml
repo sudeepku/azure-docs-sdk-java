@@ -1,11 +1,11 @@
 ### YamlMime:JavaPackage
-uid: com.azure.data.schemaregistry.client.implementation
-fullName: com.azure.data.schemaregistry.client.implementation
-name: com.azure.data.schemaregistry.client.implementation
-summary: Package containing the classes for AzureSchemaRegistryRestService. null.
+uid: "com.azure.data.schemaregistry.client.implementation"
+fullName: "com.azure.data.schemaregistry.client.implementation"
+name: "com.azure.data.schemaregistry.client.implementation"
+summary: "Package containing the classes for AzureSchemaRegistryRestService. null."
 classes:
-- com.azure.data.schemaregistry.client.implementation.AzureSchemaRegistryRestService
-- com.azure.data.schemaregistry.client.implementation.AzureSchemaRegistryRestServiceClientBuilder
+- "com.azure.data.schemaregistry.client.implementation.AzureSchemaRegistryRestService"
+- "com.azure.data.schemaregistry.client.implementation.AzureSchemaRegistryRestServiceClientBuilder"
 metadata: {}
-package: com.azure.data.schemaregistry.client.implementation
+package: "com.azure.data.schemaregistry.client.implementation"
 artifact: com.azure:azure-data-schemaregistry:1.0.0-beta.1

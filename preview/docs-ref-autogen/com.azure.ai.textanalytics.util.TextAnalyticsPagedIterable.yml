@@ -1,76 +1,36 @@
 ### YamlMime:JavaType
-uid: com.azure.ai.textanalytics.util.TextAnalyticsPagedIterable
-fullName: com.azure.ai.textanalytics.util.TextAnalyticsPagedIterable<T>
-name: TextAnalyticsPagedIterable<T>
-nameWithType: TextAnalyticsPagedIterable<T>
-summary: |-
-  This class provides utility to iterate over <xref uid="" data-throw-if-not-resolved="false">PagedResponse</xref> using <xref uid="java.util.stream.Stream" data-throw-if-not-resolved="false">Stream</xref> and <xref uid="java.lang.Iterable" data-throw-if-not-resolved="false">Iterable</xref> interfaces.
-
-  **Code sample using <xref uid="java.util.stream.Stream" data-throw-if-not-resolved="false">Stream</xref>**
-
-  ```java
-  pagedIterable.stream().forEach(item -> System.out.println("Processing item" + item));
-  ```
-
-  **Code sample using <xref uid="java.util.stream.Stream" data-throw-if-not-resolved="false">Stream</xref> by page**
-
-  ```java
-  pagedIterable.streamByPage().forEach(resp -> {
-       if (resp.getStatusCode() == HttpURLConnection.HTTP_OK) {
-           System.out.printf("Response headers are %s. Url %s%n", resp.getDeserializedHeaders(),
-               resp.getRequest().getUrl());
-           resp.getElements().forEach(value -> System.out.printf("Response value is %s%n", value));
-       }
-   });
-  ```
-
-  **Code sample using <xref uid="java.lang.Iterable" data-throw-if-not-resolved="false">Iterable</xref>**
-
-  ```java
-  Iterator<LinkedEntity> iterator = pagedIterable.iterator();
-   while (iterator.hasNext()) {
-       System.out.println("Processing item" + iterator.next());
-   }
-  ```
-
-  **Code sample using <xref uid="java.lang.Iterable" data-throw-if-not-resolved="false">Iterable</xref> by page**
-
-  ```java
-  pagedIterable.iterableByPage().forEach(resp -> {
-       if (resp.getStatusCode() == HttpURLConnection.HTTP_OK) {
-           System.out.printf("Response headers are %s. Url %s%n", resp.getDeserializedHeaders(),
-               resp.getRequest().getUrl());
-           resp.getElements().forEach(value -> System.out.printf("Response value is %s%n", value));
-       }
-   });
-  ```
+uid: "com.azure.ai.textanalytics.util.TextAnalyticsPagedIterable"
+fullName: "com.azure.ai.textanalytics.util.TextAnalyticsPagedIterable<T>"
+name: "TextAnalyticsPagedIterable<T>"
+nameWithType: "TextAnalyticsPagedIterable<T>"
+summary: "This class provides utility to iterate over <xref uid=\"\" data-throw-if-not-resolved=\"false\">PagedResponse</xref> using <xref uid=\"java.util.stream.Stream\" data-throw-if-not-resolved=\"false\">Stream</xref> and <xref uid=\"java.lang.Iterable\" data-throw-if-not-resolved=\"false\">Iterable</xref> interfaces.\n\n**Code sample using <xref uid=\"java.util.stream.Stream\" data-throw-if-not-resolved=\"false\">Stream</xref>**\n\n```java\npagedIterable.stream().forEach(item -> System.out.println(\"Processing item\" + item));\n```\n\n**Code sample using <xref uid=\"java.util.stream.Stream\" data-throw-if-not-resolved=\"false\">Stream</xref> by page**\n\n```java\npagedIterable.streamByPage().forEach(resp -> {\n     if (resp.getStatusCode() == HttpURLConnection.HTTP_OK) {\n         System.out.printf(\"Response headers are %s. Url %s%n\", resp.getDeserializedHeaders(),\n             resp.getRequest().getUrl());\n         resp.getElements().forEach(value -> System.out.printf(\"Response value is %s%n\", value));\n     }\n });\n```\n\n**Code sample using <xref uid=\"java.lang.Iterable\" data-throw-if-not-resolved=\"false\">Iterable</xref>**\n\n```java\nIterator<LinkedEntity> iterator = pagedIterable.iterator();\n while (iterator.hasNext()) {\n     System.out.println(\"Processing item\" + iterator.next());\n }\n```\n\n**Code sample using <xref uid=\"java.lang.Iterable\" data-throw-if-not-resolved=\"false\">Iterable</xref> by page**\n\n```java\npagedIterable.iterableByPage().forEach(resp -> {\n     if (resp.getStatusCode() == HttpURLConnection.HTTP_OK) {\n         System.out.printf(\"Response headers are %s. Url %s%n\", resp.getDeserializedHeaders(),\n             resp.getRequest().getUrl());\n         resp.getElements().forEach(value -> System.out.printf(\"Response value is %s%n\", value));\n     }\n });\n```"
 inheritances:
-- <xref href="java.lang.Object" data-throw-if-not-resolved="False" />
-- <xref href="com.azure.core.util.IterableStream" data-throw-if-not-resolved="False" />
+- "<xref href=\"java.lang.Object\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.azure.core.util.IterableStream\" data-throw-if-not-resolved=\"False\" />"
 inheritedMembers:
-- com.azure.core.util.IterableStream.<T>of(java.lang.Iterable<T>)
-- com.azure.core.util.IterableStream.iterator()
-- com.azure.core.util.IterableStream.stream()
-- java.lang.Object.clone()
-- java.lang.Object.equals(java.lang.Object)
-- java.lang.Object.finalize()
-- java.lang.Object.getClass()
-- java.lang.Object.hashCode()
-- java.lang.Object.notify()
-- java.lang.Object.notifyAll()
-- java.lang.Object.toString()
-- java.lang.Object.wait()
-- java.lang.Object.wait(long)
-- java.lang.Object.wait(long,int)
-syntax: public final class TextAnalyticsPagedIterable<T> extends IterableStream<T>
+- "com.azure.core.util.IterableStream.<T>of(java.lang.Iterable<T>)"
+- "com.azure.core.util.IterableStream.iterator()"
+- "com.azure.core.util.IterableStream.stream()"
+- "java.lang.Object.clone()"
+- "java.lang.Object.equals(java.lang.Object)"
+- "java.lang.Object.finalize()"
+- "java.lang.Object.getClass()"
+- "java.lang.Object.hashCode()"
+- "java.lang.Object.notify()"
+- "java.lang.Object.notifyAll()"
+- "java.lang.Object.toString()"
+- "java.lang.Object.wait()"
+- "java.lang.Object.wait(long)"
+- "java.lang.Object.wait(long,int)"
+syntax: "public final class TextAnalyticsPagedIterable<T> extends IterableStream<T>"
 constructors:
-- com.azure.ai.textanalytics.util.TextAnalyticsPagedIterable.TextAnalyticsPagedIterable(com.azure.ai.textanalytics.util.TextAnalyticsPagedFlux<T>)
+- "com.azure.ai.textanalytics.util.TextAnalyticsPagedIterable.TextAnalyticsPagedIterable(com.azure.ai.textanalytics.util.TextAnalyticsPagedFlux<T>)"
 methods:
-- com.azure.ai.textanalytics.util.TextAnalyticsPagedIterable.iterableByPage()
-- com.azure.ai.textanalytics.util.TextAnalyticsPagedIterable.streamByPage()
-type: class
+- "com.azure.ai.textanalytics.util.TextAnalyticsPagedIterable.iterableByPage()"
+- "com.azure.ai.textanalytics.util.TextAnalyticsPagedIterable.streamByPage()"
+type: "class"
 typeParameters:
-- name: T
+- name: "T"
 metadata: {}
-package: com.azure.ai.textanalytics.util
+package: "com.azure.ai.textanalytics.util"
 artifact: com.azure:azure-ai-textanalytics:1.0.0-beta.4

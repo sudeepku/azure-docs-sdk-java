@@ -1,113 +1,97 @@
 ### YamlMime:JavaMember
-uid: com.azure.messaging.servicebus.ServiceBusReceiverClient.defer*
-fullName: com.azure.messaging.servicebus.ServiceBusReceiverClient.defer
-name: defer
-nameWithType: ServiceBusReceiverClient.defer
+uid: "com.azure.messaging.servicebus.ServiceBusReceiverClient.defer*"
+fullName: "com.azure.messaging.servicebus.ServiceBusReceiverClient.defer"
+name: "defer"
+nameWithType: "ServiceBusReceiverClient.defer"
 members:
-- uid: com.azure.messaging.servicebus.ServiceBusReceiverClient.defer(java.lang.String)
-  fullName: com.azure.messaging.servicebus.ServiceBusReceiverClient.defer(String lockToken)
-  name: defer(String lockToken)
-  nameWithType: ServiceBusReceiverClient.defer(String lockToken)
-  summary: |-
-    Defers a <xref uid="ServiceBusReceivedMessage" data-throw-if-not-resolved="false">message</xref> using its lock token. This will move message into the deferred
-     subqueue.
+- uid: "com.azure.messaging.servicebus.ServiceBusReceiverClient.defer(java.lang.String)"
+  fullName: "com.azure.messaging.servicebus.ServiceBusReceiverClient.defer(String lockToken)"
+  name: "defer(String lockToken)"
+  nameWithType: "ServiceBusReceiverClient.defer(String lockToken)"
+  summary: "Defers a <xref uid=\"ServiceBusReceivedMessage\" data-throw-if-not-resolved=\"false\">message</xref> using its lock token. This will move message into the deferred\n subqueue."
   parameters:
-  - description: Lock token of the message.
-    name: lockToken
-    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
-  syntax: public void defer(String lockToken)
-- uid: com.azure.messaging.servicebus.ServiceBusReceiverClient.defer(java.lang.String,java.lang.String)
-  fullName: com.azure.messaging.servicebus.ServiceBusReceiverClient.defer(String lockToken, String sessionId)
-  name: defer(String lockToken, String sessionId)
-  nameWithType: ServiceBusReceiverClient.defer(String lockToken, String sessionId)
-  summary: |-
-    Defers a <xref uid="ServiceBusReceivedMessage" data-throw-if-not-resolved="false">message</xref> using its lock token. This will move message into the deferred
-     subqueue.
+  - description: "Lock token of the message."
+    name: "lockToken"
+    type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public void defer(String lockToken)"
+- uid: "com.azure.messaging.servicebus.ServiceBusReceiverClient.defer(java.lang.String,java.lang.String)"
+  fullName: "com.azure.messaging.servicebus.ServiceBusReceiverClient.defer(String lockToken, String sessionId)"
+  name: "defer(String lockToken, String sessionId)"
+  nameWithType: "ServiceBusReceiverClient.defer(String lockToken, String sessionId)"
+  summary: "Defers a <xref uid=\"ServiceBusReceivedMessage\" data-throw-if-not-resolved=\"false\">message</xref> using its lock token. This will move message into the deferred\n subqueue."
   parameters:
-  - description: Lock token of the message.
-    name: lockToken
-    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
-  - description: Session id of the message to defer. <code>null</code> if there is no session.
-    name: sessionId
-    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
-  syntax: public void defer(String lockToken, String sessionId)
-- uid: com.azure.messaging.servicebus.ServiceBusReceiverClient.defer(java.lang.String,java.util.Map<java.lang.String,java.lang.Object>)
-  fullName: com.azure.messaging.servicebus.ServiceBusReceiverClient.defer(String lockToken, Map<String,Object> propertiesToModify)
-  name: defer(String lockToken, Map<String,Object> propertiesToModify)
-  nameWithType: ServiceBusReceiverClient.defer(String lockToken, Map<String,Object> propertiesToModify)
-  summary: |-
-    Defers a <xref uid="ServiceBusReceivedMessage" data-throw-if-not-resolved="false">message</xref> using its lock token with modified message property. This will
-     move message into the deferred subqueue.
+  - description: "Lock token of the message."
+    name: "lockToken"
+    type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
+  - description: "Session id of the message to defer. <code>null</code> if there is no session."
+    name: "sessionId"
+    type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public void defer(String lockToken, String sessionId)"
+- uid: "com.azure.messaging.servicebus.ServiceBusReceiverClient.defer(java.lang.String,java.util.Map<java.lang.String,java.lang.Object>)"
+  fullName: "com.azure.messaging.servicebus.ServiceBusReceiverClient.defer(String lockToken, Map<String,Object> propertiesToModify)"
+  name: "defer(String lockToken, Map<String,Object> propertiesToModify)"
+  nameWithType: "ServiceBusReceiverClient.defer(String lockToken, Map<String,Object> propertiesToModify)"
+  summary: "Defers a <xref uid=\"ServiceBusReceivedMessage\" data-throw-if-not-resolved=\"false\">message</xref> using its lock token with modified message property. This will\n move message into the deferred subqueue."
   parameters:
-  - description: Lock token of the message.
-    name: lockToken
-    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
-  - description: Message properties to modify.
-    name: propertiesToModify
-    type: <xref href="java.util.Map?alt=java.util.Map&text=Map" data-throw-if-not-resolved="False" />&lt;<xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />,<xref href="java.lang.Object?alt=java.lang.Object&text=Object" data-throw-if-not-resolved="False" />&gt;
-  syntax: public void defer(String lockToken, Map<String,Object> propertiesToModify)
-- uid: com.azure.messaging.servicebus.ServiceBusReceiverClient.defer(java.lang.String,java.util.Map<java.lang.String,java.lang.Object>,com.azure.messaging.servicebus.ServiceBusTransactionContext)
-  fullName: com.azure.messaging.servicebus.ServiceBusReceiverClient.defer(String lockToken, Map<String,Object> propertiesToModify, ServiceBusTransactionContext transactionContext)
-  name: defer(String lockToken, Map<String,Object> propertiesToModify, ServiceBusTransactionContext transactionContext)
-  nameWithType: ServiceBusReceiverClient.defer(String lockToken, Map<String,Object> propertiesToModify, ServiceBusTransactionContext transactionContext)
-  summary: |-
-    Defers a <xref uid="ServiceBusReceivedMessage" data-throw-if-not-resolved="false">message</xref> using its lock token with modified message property. This will
-     move message into the deferred subqueue.
+  - description: "Lock token of the message."
+    name: "lockToken"
+    type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
+  - description: "Message properties to modify."
+    name: "propertiesToModify"
+    type: "<xref href=\"java.util.Map?alt=java.util.Map&text=Map\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />,<xref href=\"java.lang.Object?alt=java.lang.Object&text=Object\" data-throw-if-not-resolved=\"False\" />&gt;"
+  syntax: "public void defer(String lockToken, Map<String,Object> propertiesToModify)"
+- uid: "com.azure.messaging.servicebus.ServiceBusReceiverClient.defer(java.lang.String,java.util.Map<java.lang.String,java.lang.Object>,com.azure.messaging.servicebus.ServiceBusTransactionContext)"
+  fullName: "com.azure.messaging.servicebus.ServiceBusReceiverClient.defer(String lockToken, Map<String,Object> propertiesToModify, ServiceBusTransactionContext transactionContext)"
+  name: "defer(String lockToken, Map<String,Object> propertiesToModify, ServiceBusTransactionContext transactionContext)"
+  nameWithType: "ServiceBusReceiverClient.defer(String lockToken, Map<String,Object> propertiesToModify, ServiceBusTransactionContext transactionContext)"
+  summary: "Defers a <xref uid=\"ServiceBusReceivedMessage\" data-throw-if-not-resolved=\"false\">message</xref> using its lock token with modified message property. This will\n move message into the deferred subqueue."
   parameters:
-  - description: Lock token of the message.
-    name: lockToken
-    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
-  - description: Message properties to modify.
-    name: propertiesToModify
-    type: <xref href="java.util.Map?alt=java.util.Map&text=Map" data-throw-if-not-resolved="False" />&lt;<xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />,<xref href="java.lang.Object?alt=java.lang.Object&text=Object" data-throw-if-not-resolved="False" />&gt;
-  - description: |-
-      in which this operation is taking part in. The transaction should be created first by
-       <xref uid="com.azure.messaging.servicebus.ServiceBusReceiverClient.createTransaction()" data-throw-if-not-resolved="false">ServiceBusReceiverClient#createTransaction()</xref> or <xref uid="com.azure.messaging.servicebus.ServiceBusSenderClient.createTransaction()" data-throw-if-not-resolved="false">ServiceBusSenderClient#createTransaction()</xref>.
-    name: transactionContext
-    type: <xref href="com.azure.messaging.servicebus.ServiceBusTransactionContext?alt=com.azure.messaging.servicebus.ServiceBusTransactionContext&text=ServiceBusTransactionContext" data-throw-if-not-resolved="False" />
-  syntax: public void defer(String lockToken, Map<String,Object> propertiesToModify, ServiceBusTransactionContext transactionContext)
-- uid: com.azure.messaging.servicebus.ServiceBusReceiverClient.defer(java.lang.String,java.util.Map<java.lang.String,java.lang.Object>,java.lang.String)
-  fullName: com.azure.messaging.servicebus.ServiceBusReceiverClient.defer(String lockToken, Map<String,Object> propertiesToModify, String sessionId)
-  name: defer(String lockToken, Map<String,Object> propertiesToModify, String sessionId)
-  nameWithType: ServiceBusReceiverClient.defer(String lockToken, Map<String,Object> propertiesToModify, String sessionId)
-  summary: |-
-    Defers a <xref uid="ServiceBusReceivedMessage" data-throw-if-not-resolved="false">message</xref> using its lock token with modified message property. This will
-     move message into the deferred subqueue.
+  - description: "Lock token of the message."
+    name: "lockToken"
+    type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
+  - description: "Message properties to modify."
+    name: "propertiesToModify"
+    type: "<xref href=\"java.util.Map?alt=java.util.Map&text=Map\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />,<xref href=\"java.lang.Object?alt=java.lang.Object&text=Object\" data-throw-if-not-resolved=\"False\" />&gt;"
+  - description: "in which this operation is taking part in. The transaction should be created first by\n <xref uid=\"com.azure.messaging.servicebus.ServiceBusReceiverClient.createTransaction()\" data-throw-if-not-resolved=\"false\">ServiceBusReceiverClient#createTransaction()</xref> or <xref uid=\"com.azure.messaging.servicebus.ServiceBusSenderClient.createTransaction()\" data-throw-if-not-resolved=\"false\">ServiceBusSenderClient#createTransaction()</xref>."
+    name: "transactionContext"
+    type: "<xref href=\"com.azure.messaging.servicebus.ServiceBusTransactionContext?alt=com.azure.messaging.servicebus.ServiceBusTransactionContext&text=ServiceBusTransactionContext\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public void defer(String lockToken, Map<String,Object> propertiesToModify, ServiceBusTransactionContext transactionContext)"
+- uid: "com.azure.messaging.servicebus.ServiceBusReceiverClient.defer(java.lang.String,java.util.Map<java.lang.String,java.lang.Object>,java.lang.String)"
+  fullName: "com.azure.messaging.servicebus.ServiceBusReceiverClient.defer(String lockToken, Map<String,Object> propertiesToModify, String sessionId)"
+  name: "defer(String lockToken, Map<String,Object> propertiesToModify, String sessionId)"
+  nameWithType: "ServiceBusReceiverClient.defer(String lockToken, Map<String,Object> propertiesToModify, String sessionId)"
+  summary: "Defers a <xref uid=\"ServiceBusReceivedMessage\" data-throw-if-not-resolved=\"false\">message</xref> using its lock token with modified message property. This will\n move message into the deferred subqueue."
   parameters:
-  - description: Lock token of the message.
-    name: lockToken
-    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
-  - description: Message properties to modify.
-    name: propertiesToModify
-    type: <xref href="java.util.Map?alt=java.util.Map&text=Map" data-throw-if-not-resolved="False" />&lt;<xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />,<xref href="java.lang.Object?alt=java.lang.Object&text=Object" data-throw-if-not-resolved="False" />&gt;
-  - description: Session id of the message to defer. <code>null</code> if there is no session.
-    name: sessionId
-    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
-  syntax: public void defer(String lockToken, Map<String,Object> propertiesToModify, String sessionId)
-- uid: com.azure.messaging.servicebus.ServiceBusReceiverClient.defer(java.lang.String,java.util.Map<java.lang.String,java.lang.Object>,java.lang.String,com.azure.messaging.servicebus.ServiceBusTransactionContext)
-  fullName: com.azure.messaging.servicebus.ServiceBusReceiverClient.defer(String lockToken, Map<String,Object> propertiesToModify, String sessionId, ServiceBusTransactionContext transactionContext)
-  name: defer(String lockToken, Map<String,Object> propertiesToModify, String sessionId, ServiceBusTransactionContext transactionContext)
-  nameWithType: ServiceBusReceiverClient.defer(String lockToken, Map<String,Object> propertiesToModify, String sessionId, ServiceBusTransactionContext transactionContext)
-  summary: |-
-    Defers a <xref uid="ServiceBusReceivedMessage" data-throw-if-not-resolved="false">message</xref> using its lock token with modified message property. This will
-     move message into the deferred subqueue.
+  - description: "Lock token of the message."
+    name: "lockToken"
+    type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
+  - description: "Message properties to modify."
+    name: "propertiesToModify"
+    type: "<xref href=\"java.util.Map?alt=java.util.Map&text=Map\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />,<xref href=\"java.lang.Object?alt=java.lang.Object&text=Object\" data-throw-if-not-resolved=\"False\" />&gt;"
+  - description: "Session id of the message to defer. <code>null</code> if there is no session."
+    name: "sessionId"
+    type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public void defer(String lockToken, Map<String,Object> propertiesToModify, String sessionId)"
+- uid: "com.azure.messaging.servicebus.ServiceBusReceiverClient.defer(java.lang.String,java.util.Map<java.lang.String,java.lang.Object>,java.lang.String,com.azure.messaging.servicebus.ServiceBusTransactionContext)"
+  fullName: "com.azure.messaging.servicebus.ServiceBusReceiverClient.defer(String lockToken, Map<String,Object> propertiesToModify, String sessionId, ServiceBusTransactionContext transactionContext)"
+  name: "defer(String lockToken, Map<String,Object> propertiesToModify, String sessionId, ServiceBusTransactionContext transactionContext)"
+  nameWithType: "ServiceBusReceiverClient.defer(String lockToken, Map<String,Object> propertiesToModify, String sessionId, ServiceBusTransactionContext transactionContext)"
+  summary: "Defers a <xref uid=\"ServiceBusReceivedMessage\" data-throw-if-not-resolved=\"false\">message</xref> using its lock token with modified message property. This will\n move message into the deferred subqueue."
   parameters:
-  - description: Lock token of the message.
-    name: lockToken
-    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
-  - description: Message properties to modify.
-    name: propertiesToModify
-    type: <xref href="java.util.Map?alt=java.util.Map&text=Map" data-throw-if-not-resolved="False" />&lt;<xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />,<xref href="java.lang.Object?alt=java.lang.Object&text=Object" data-throw-if-not-resolved="False" />&gt;
-  - description: Session id of the message to defer. <code>null</code> if there is no session.
-    name: sessionId
-    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
-  - description: |-
-      in which this operation is taking part in. The transaction should be created first by
-       <xref uid="com.azure.messaging.servicebus.ServiceBusReceiverClient.createTransaction()" data-throw-if-not-resolved="false">ServiceBusReceiverClient#createTransaction()</xref> or <xref uid="com.azure.messaging.servicebus.ServiceBusSenderClient.createTransaction()" data-throw-if-not-resolved="false">ServiceBusSenderClient#createTransaction()</xref>.
-    name: transactionContext
-    type: <xref href="com.azure.messaging.servicebus.ServiceBusTransactionContext?alt=com.azure.messaging.servicebus.ServiceBusTransactionContext&text=ServiceBusTransactionContext" data-throw-if-not-resolved="False" />
-  syntax: public void defer(String lockToken, Map<String,Object> propertiesToModify, String sessionId, ServiceBusTransactionContext transactionContext)
-type: method
+  - description: "Lock token of the message."
+    name: "lockToken"
+    type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
+  - description: "Message properties to modify."
+    name: "propertiesToModify"
+    type: "<xref href=\"java.util.Map?alt=java.util.Map&text=Map\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />,<xref href=\"java.lang.Object?alt=java.lang.Object&text=Object\" data-throw-if-not-resolved=\"False\" />&gt;"
+  - description: "Session id of the message to defer. <code>null</code> if there is no session."
+    name: "sessionId"
+    type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
+  - description: "in which this operation is taking part in. The transaction should be created first by\n <xref uid=\"com.azure.messaging.servicebus.ServiceBusReceiverClient.createTransaction()\" data-throw-if-not-resolved=\"false\">ServiceBusReceiverClient#createTransaction()</xref> or <xref uid=\"com.azure.messaging.servicebus.ServiceBusSenderClient.createTransaction()\" data-throw-if-not-resolved=\"false\">ServiceBusSenderClient#createTransaction()</xref>."
+    name: "transactionContext"
+    type: "<xref href=\"com.azure.messaging.servicebus.ServiceBusTransactionContext?alt=com.azure.messaging.servicebus.ServiceBusTransactionContext&text=ServiceBusTransactionContext\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public void defer(String lockToken, Map<String,Object> propertiesToModify, String sessionId, ServiceBusTransactionContext transactionContext)"
+type: "method"
 metadata: {}
-package: com.azure.messaging.servicebus
+package: "com.azure.messaging.servicebus"
 artifact: com.azure:azure-messaging-servicebus:7.0.0-beta.5

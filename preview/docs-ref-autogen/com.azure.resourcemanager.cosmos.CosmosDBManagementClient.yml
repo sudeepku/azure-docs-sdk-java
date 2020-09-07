@@ -1,55 +1,55 @@
 ### YamlMime:JavaType
-uid: com.azure.resourcemanager.cosmos.CosmosDBManagementClient
-fullName: com.azure.resourcemanager.cosmos.CosmosDBManagementClient
-name: CosmosDBManagementClient
-nameWithType: CosmosDBManagementClient
-summary: Initializes a new instance of the CosmosDBManagementClient type.
+uid: "com.azure.resourcemanager.cosmos.CosmosDBManagementClient"
+fullName: "com.azure.resourcemanager.cosmos.CosmosDBManagementClient"
+name: "CosmosDBManagementClient"
+nameWithType: "CosmosDBManagementClient"
+summary: "Initializes a new instance of the CosmosDBManagementClient type."
 inheritances:
-- <xref href="java.lang.Object" data-throw-if-not-resolved="False" />
-- <xref href="com.azure.resourcemanager.AzureServiceClient" data-throw-if-not-resolved="False" />
+- "<xref href=\"java.lang.Object\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.azure.resourcemanager.AzureServiceClient\" data-throw-if-not-resolved=\"False\" />"
 inheritedMembers:
-- com.azure.resourcemanager.AzureServiceClient.<T,U>getLroResultAsync(reactor.core.publisher.Mono<? extends com.azure.core.http.rest.Response<reactor.core.publisher.Flux<java.nio.ByteBuffer>>>,com.azure.core.http.HttpPipeline,java.lang.reflect.Type,java.lang.reflect.Type)
-- com.azure.resourcemanager.AzureServiceClient.getContext()
-- com.azure.resourcemanager.AzureServiceClient.getSerializerAdapter()
-- com.azure.resourcemanager.AzureServiceClient.userAgent()
-- java.lang.Object.clone()
-- java.lang.Object.equals(java.lang.Object)
-- java.lang.Object.finalize()
-- java.lang.Object.getClass()
-- java.lang.Object.hashCode()
-- java.lang.Object.notify()
-- java.lang.Object.notifyAll()
-- java.lang.Object.toString()
-- java.lang.Object.wait()
-- java.lang.Object.wait(long)
-- java.lang.Object.wait(long,int)
-syntax: public final class CosmosDBManagementClient extends AzureServiceClient
+- "com.azure.resourcemanager.AzureServiceClient.<T,U>getLroResultAsync(reactor.core.publisher.Mono<? extends com.azure.core.http.rest.Response<reactor.core.publisher.Flux<java.nio.ByteBuffer>>>,com.azure.core.http.HttpPipeline,java.lang.reflect.Type,java.lang.reflect.Type)"
+- "com.azure.resourcemanager.AzureServiceClient.getContext()"
+- "com.azure.resourcemanager.AzureServiceClient.getSerializerAdapter()"
+- "com.azure.resourcemanager.AzureServiceClient.userAgent()"
+- "java.lang.Object.clone()"
+- "java.lang.Object.equals(java.lang.Object)"
+- "java.lang.Object.finalize()"
+- "java.lang.Object.getClass()"
+- "java.lang.Object.hashCode()"
+- "java.lang.Object.notify()"
+- "java.lang.Object.notifyAll()"
+- "java.lang.Object.toString()"
+- "java.lang.Object.wait()"
+- "java.lang.Object.wait(long)"
+- "java.lang.Object.wait(long,int)"
+syntax: "public final class CosmosDBManagementClient extends AzureServiceClient"
 methods:
-- com.azure.resourcemanager.cosmos.CosmosDBManagementClient.getCassandraResources()
-- com.azure.resourcemanager.cosmos.CosmosDBManagementClient.getCollectionPartitionRegions()
-- com.azure.resourcemanager.cosmos.CosmosDBManagementClient.getCollectionPartitions()
-- com.azure.resourcemanager.cosmos.CosmosDBManagementClient.getCollectionRegions()
-- com.azure.resourcemanager.cosmos.CosmosDBManagementClient.getCollections()
-- com.azure.resourcemanager.cosmos.CosmosDBManagementClient.getDatabaseAccountRegions()
-- com.azure.resourcemanager.cosmos.CosmosDBManagementClient.getDatabaseAccounts()
-- com.azure.resourcemanager.cosmos.CosmosDBManagementClient.getDatabases()
-- com.azure.resourcemanager.cosmos.CosmosDBManagementClient.getEndpoint()
-- com.azure.resourcemanager.cosmos.CosmosDBManagementClient.getGremlinResources()
-- com.azure.resourcemanager.cosmos.CosmosDBManagementClient.getHttpPipeline()
-- com.azure.resourcemanager.cosmos.CosmosDBManagementClient.getMongoDBResources()
-- com.azure.resourcemanager.cosmos.CosmosDBManagementClient.getNotebookWorkspaces()
-- com.azure.resourcemanager.cosmos.CosmosDBManagementClient.getOperations()
-- com.azure.resourcemanager.cosmos.CosmosDBManagementClient.getPartitionKeyRangeIdRegions()
-- com.azure.resourcemanager.cosmos.CosmosDBManagementClient.getPartitionKeyRangeIds()
-- com.azure.resourcemanager.cosmos.CosmosDBManagementClient.getPercentileSourceTargets()
-- com.azure.resourcemanager.cosmos.CosmosDBManagementClient.getPercentileTargets()
-- com.azure.resourcemanager.cosmos.CosmosDBManagementClient.getPercentiles()
-- com.azure.resourcemanager.cosmos.CosmosDBManagementClient.getPrivateEndpointConnections()
-- com.azure.resourcemanager.cosmos.CosmosDBManagementClient.getPrivateLinkResources()
-- com.azure.resourcemanager.cosmos.CosmosDBManagementClient.getSqlResources()
-- com.azure.resourcemanager.cosmos.CosmosDBManagementClient.getSubscriptionId()
-- com.azure.resourcemanager.cosmos.CosmosDBManagementClient.getTableResources()
-type: class
+- "com.azure.resourcemanager.cosmos.CosmosDBManagementClient.getCassandraResources()"
+- "com.azure.resourcemanager.cosmos.CosmosDBManagementClient.getCollectionPartitionRegions()"
+- "com.azure.resourcemanager.cosmos.CosmosDBManagementClient.getCollectionPartitions()"
+- "com.azure.resourcemanager.cosmos.CosmosDBManagementClient.getCollectionRegions()"
+- "com.azure.resourcemanager.cosmos.CosmosDBManagementClient.getCollections()"
+- "com.azure.resourcemanager.cosmos.CosmosDBManagementClient.getDatabaseAccountRegions()"
+- "com.azure.resourcemanager.cosmos.CosmosDBManagementClient.getDatabaseAccounts()"
+- "com.azure.resourcemanager.cosmos.CosmosDBManagementClient.getDatabases()"
+- "com.azure.resourcemanager.cosmos.CosmosDBManagementClient.getEndpoint()"
+- "com.azure.resourcemanager.cosmos.CosmosDBManagementClient.getGremlinResources()"
+- "com.azure.resourcemanager.cosmos.CosmosDBManagementClient.getHttpPipeline()"
+- "com.azure.resourcemanager.cosmos.CosmosDBManagementClient.getMongoDBResources()"
+- "com.azure.resourcemanager.cosmos.CosmosDBManagementClient.getNotebookWorkspaces()"
+- "com.azure.resourcemanager.cosmos.CosmosDBManagementClient.getOperations()"
+- "com.azure.resourcemanager.cosmos.CosmosDBManagementClient.getPartitionKeyRangeIdRegions()"
+- "com.azure.resourcemanager.cosmos.CosmosDBManagementClient.getPartitionKeyRangeIds()"
+- "com.azure.resourcemanager.cosmos.CosmosDBManagementClient.getPercentileSourceTargets()"
+- "com.azure.resourcemanager.cosmos.CosmosDBManagementClient.getPercentileTargets()"
+- "com.azure.resourcemanager.cosmos.CosmosDBManagementClient.getPercentiles()"
+- "com.azure.resourcemanager.cosmos.CosmosDBManagementClient.getPrivateEndpointConnections()"
+- "com.azure.resourcemanager.cosmos.CosmosDBManagementClient.getPrivateLinkResources()"
+- "com.azure.resourcemanager.cosmos.CosmosDBManagementClient.getSqlResources()"
+- "com.azure.resourcemanager.cosmos.CosmosDBManagementClient.getSubscriptionId()"
+- "com.azure.resourcemanager.cosmos.CosmosDBManagementClient.getTableResources()"
+type: "class"
 metadata: {}
-package: com.azure.resourcemanager.cosmos
+package: "com.azure.resourcemanager.cosmos"
 artifact: com.azure.resourcemanager:azure-resourcemanager-cosmos:2.0.0-beta.2

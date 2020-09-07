@@ -1,35 +1,35 @@
 ### YamlMime:JavaType
-uid: com.azure.core.experimental.spatial.PointGeometry
-fullName: com.azure.core.experimental.spatial.PointGeometry
-name: PointGeometry
-nameWithType: PointGeometry
-summary: Represents a geometric point.
+uid: "com.azure.core.experimental.spatial.PointGeometry"
+fullName: "com.azure.core.experimental.spatial.PointGeometry"
+name: "PointGeometry"
+nameWithType: "PointGeometry"
+summary: "Represents a geometric point."
 inheritances:
-- <xref href="java.lang.Object" data-throw-if-not-resolved="False" />
-- <xref href="com.azure.core.experimental.spatial.Geometry" data-throw-if-not-resolved="False" />
+- "<xref href=\"java.lang.Object\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.azure.core.experimental.spatial.Geometry\" data-throw-if-not-resolved=\"False\" />"
 inheritedMembers:
-- com.azure.core.experimental.spatial.Geometry.equals(java.lang.Object)
-- com.azure.core.experimental.spatial.Geometry.getBoundingBox()
-- com.azure.core.experimental.spatial.Geometry.getProperties()
-- com.azure.core.experimental.spatial.Geometry.hashCode()
-- java.lang.Object.clone()
-- java.lang.Object.finalize()
-- java.lang.Object.getClass()
-- java.lang.Object.notify()
-- java.lang.Object.notifyAll()
-- java.lang.Object.toString()
-- java.lang.Object.wait()
-- java.lang.Object.wait(long)
-- java.lang.Object.wait(long,int)
-syntax: public final class PointGeometry extends Geometry
+- "com.azure.core.experimental.spatial.Geometry.equals(java.lang.Object)"
+- "com.azure.core.experimental.spatial.Geometry.getBoundingBox()"
+- "com.azure.core.experimental.spatial.Geometry.getProperties()"
+- "com.azure.core.experimental.spatial.Geometry.hashCode()"
+- "java.lang.Object.clone()"
+- "java.lang.Object.finalize()"
+- "java.lang.Object.getClass()"
+- "java.lang.Object.notify()"
+- "java.lang.Object.notifyAll()"
+- "java.lang.Object.toString()"
+- "java.lang.Object.wait()"
+- "java.lang.Object.wait(long)"
+- "java.lang.Object.wait(long,int)"
+syntax: "public final class PointGeometry extends Geometry"
 constructors:
-- com.azure.core.experimental.spatial.PointGeometry.PointGeometry(com.azure.core.experimental.spatial.GeometryPosition)
-- com.azure.core.experimental.spatial.PointGeometry.PointGeometry(com.azure.core.experimental.spatial.GeometryPosition,com.azure.core.experimental.spatial.GeometryBoundingBox,java.util.Map<java.lang.String,java.lang.Object>)
+- "com.azure.core.experimental.spatial.PointGeometry.PointGeometry(com.azure.core.experimental.spatial.GeometryPosition)"
+- "com.azure.core.experimental.spatial.PointGeometry.PointGeometry(com.azure.core.experimental.spatial.GeometryPosition,com.azure.core.experimental.spatial.GeometryBoundingBox,java.util.Map<java.lang.String,java.lang.Object>)"
 methods:
-- com.azure.core.experimental.spatial.PointGeometry.equals(java.lang.Object)
-- com.azure.core.experimental.spatial.PointGeometry.getPosition()
-- com.azure.core.experimental.spatial.PointGeometry.hashCode()
-type: class
+- "com.azure.core.experimental.spatial.PointGeometry.equals(java.lang.Object)"
+- "com.azure.core.experimental.spatial.PointGeometry.getPosition()"
+- "com.azure.core.experimental.spatial.PointGeometry.hashCode()"
+type: "class"
 metadata: {}
-package: com.azure.core.experimental.spatial
+package: "com.azure.core.experimental.spatial"
 artifact: com.azure:azure-core-experimental:1.0.0-beta.2

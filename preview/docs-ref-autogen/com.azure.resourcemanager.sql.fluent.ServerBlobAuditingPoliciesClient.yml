@@ -1,56 +1,56 @@
 ### YamlMime:JavaType
-uid: com.azure.resourcemanager.sql.fluent.ServerBlobAuditingPoliciesClient
-fullName: com.azure.resourcemanager.sql.fluent.ServerBlobAuditingPoliciesClient
-name: ServerBlobAuditingPoliciesClient
-nameWithType: ServerBlobAuditingPoliciesClient
-summary: An instance of this class provides access to all the operations defined in ServerBlobAuditingPolicies.
+uid: "com.azure.resourcemanager.sql.fluent.ServerBlobAuditingPoliciesClient"
+fullName: "com.azure.resourcemanager.sql.fluent.ServerBlobAuditingPoliciesClient"
+name: "ServerBlobAuditingPoliciesClient"
+nameWithType: "ServerBlobAuditingPoliciesClient"
+summary: "An instance of this class provides access to all the operations defined in ServerBlobAuditingPolicies."
 inheritances:
-- <xref href="java.lang.Object" data-throw-if-not-resolved="False" />
+- "<xref href=\"java.lang.Object\" data-throw-if-not-resolved=\"False\" />"
 inheritedMembers:
-- java.lang.Object.clone()
-- java.lang.Object.equals(java.lang.Object)
-- java.lang.Object.finalize()
-- java.lang.Object.getClass()
-- java.lang.Object.hashCode()
-- java.lang.Object.notify()
-- java.lang.Object.notifyAll()
-- java.lang.Object.toString()
-- java.lang.Object.wait()
-- java.lang.Object.wait(long)
-- java.lang.Object.wait(long,int)
-syntax: public final class ServerBlobAuditingPoliciesClient
+- "java.lang.Object.clone()"
+- "java.lang.Object.equals(java.lang.Object)"
+- "java.lang.Object.finalize()"
+- "java.lang.Object.getClass()"
+- "java.lang.Object.hashCode()"
+- "java.lang.Object.notify()"
+- "java.lang.Object.notifyAll()"
+- "java.lang.Object.toString()"
+- "java.lang.Object.wait()"
+- "java.lang.Object.wait(long)"
+- "java.lang.Object.wait(long,int)"
+syntax: "public final class ServerBlobAuditingPoliciesClient"
 constructors:
-- com.azure.resourcemanager.sql.fluent.ServerBlobAuditingPoliciesClient.ServerBlobAuditingPoliciesClient(com.azure.resourcemanager.sql.SqlManagementClient)
+- "com.azure.resourcemanager.sql.fluent.ServerBlobAuditingPoliciesClient.ServerBlobAuditingPoliciesClient(com.azure.resourcemanager.sql.SqlManagementClient)"
 methods:
-- com.azure.resourcemanager.sql.fluent.ServerBlobAuditingPoliciesClient.beginCreateOrUpdate(java.lang.String,java.lang.String,com.azure.resourcemanager.sql.fluent.inner.ServerBlobAuditingPolicyInner)
-- com.azure.resourcemanager.sql.fluent.ServerBlobAuditingPoliciesClient.beginCreateOrUpdate(java.lang.String,java.lang.String,com.azure.resourcemanager.sql.fluent.inner.ServerBlobAuditingPolicyInner,com.azure.core.util.Context)
-- com.azure.resourcemanager.sql.fluent.ServerBlobAuditingPoliciesClient.beginCreateOrUpdateWithoutPolling(java.lang.String,java.lang.String,com.azure.resourcemanager.sql.fluent.inner.ServerBlobAuditingPolicyInner)
-- com.azure.resourcemanager.sql.fluent.ServerBlobAuditingPoliciesClient.beginCreateOrUpdateWithoutPolling(java.lang.String,java.lang.String,com.azure.resourcemanager.sql.fluent.inner.ServerBlobAuditingPolicyInner,com.azure.core.util.Context)
-- com.azure.resourcemanager.sql.fluent.ServerBlobAuditingPoliciesClient.beginCreateOrUpdateWithoutPollingAsync(java.lang.String,java.lang.String,com.azure.resourcemanager.sql.fluent.inner.ServerBlobAuditingPolicyInner)
-- com.azure.resourcemanager.sql.fluent.ServerBlobAuditingPoliciesClient.beginCreateOrUpdateWithoutPollingAsync(java.lang.String,java.lang.String,com.azure.resourcemanager.sql.fluent.inner.ServerBlobAuditingPolicyInner,com.azure.core.util.Context)
-- com.azure.resourcemanager.sql.fluent.ServerBlobAuditingPoliciesClient.beginCreateOrUpdateWithoutPollingWithResponseAsync(java.lang.String,java.lang.String,com.azure.resourcemanager.sql.fluent.inner.ServerBlobAuditingPolicyInner)
-- com.azure.resourcemanager.sql.fluent.ServerBlobAuditingPoliciesClient.beginCreateOrUpdateWithoutPollingWithResponseAsync(java.lang.String,java.lang.String,com.azure.resourcemanager.sql.fluent.inner.ServerBlobAuditingPolicyInner,com.azure.core.util.Context)
-- com.azure.resourcemanager.sql.fluent.ServerBlobAuditingPoliciesClient.createOrUpdate(java.lang.String,java.lang.String,com.azure.resourcemanager.sql.fluent.inner.ServerBlobAuditingPolicyInner)
-- com.azure.resourcemanager.sql.fluent.ServerBlobAuditingPoliciesClient.createOrUpdate(java.lang.String,java.lang.String,com.azure.resourcemanager.sql.fluent.inner.ServerBlobAuditingPolicyInner,com.azure.core.util.Context)
-- com.azure.resourcemanager.sql.fluent.ServerBlobAuditingPoliciesClient.createOrUpdateAsync(java.lang.String,java.lang.String,com.azure.resourcemanager.sql.fluent.inner.ServerBlobAuditingPolicyInner)
-- com.azure.resourcemanager.sql.fluent.ServerBlobAuditingPoliciesClient.createOrUpdateAsync(java.lang.String,java.lang.String,com.azure.resourcemanager.sql.fluent.inner.ServerBlobAuditingPolicyInner,com.azure.core.util.Context)
-- com.azure.resourcemanager.sql.fluent.ServerBlobAuditingPoliciesClient.createOrUpdateWithResponseAsync(java.lang.String,java.lang.String,com.azure.resourcemanager.sql.fluent.inner.ServerBlobAuditingPolicyInner)
-- com.azure.resourcemanager.sql.fluent.ServerBlobAuditingPoliciesClient.createOrUpdateWithResponseAsync(java.lang.String,java.lang.String,com.azure.resourcemanager.sql.fluent.inner.ServerBlobAuditingPolicyInner,com.azure.core.util.Context)
-- com.azure.resourcemanager.sql.fluent.ServerBlobAuditingPoliciesClient.get(java.lang.String,java.lang.String)
-- com.azure.resourcemanager.sql.fluent.ServerBlobAuditingPoliciesClient.get(java.lang.String,java.lang.String,com.azure.core.util.Context)
-- com.azure.resourcemanager.sql.fluent.ServerBlobAuditingPoliciesClient.getAsync(java.lang.String,java.lang.String)
-- com.azure.resourcemanager.sql.fluent.ServerBlobAuditingPoliciesClient.getAsync(java.lang.String,java.lang.String,com.azure.core.util.Context)
-- com.azure.resourcemanager.sql.fluent.ServerBlobAuditingPoliciesClient.getWithResponseAsync(java.lang.String,java.lang.String)
-- com.azure.resourcemanager.sql.fluent.ServerBlobAuditingPoliciesClient.getWithResponseAsync(java.lang.String,java.lang.String,com.azure.core.util.Context)
-- com.azure.resourcemanager.sql.fluent.ServerBlobAuditingPoliciesClient.listByServer(java.lang.String,java.lang.String)
-- com.azure.resourcemanager.sql.fluent.ServerBlobAuditingPoliciesClient.listByServer(java.lang.String,java.lang.String,com.azure.core.util.Context)
-- com.azure.resourcemanager.sql.fluent.ServerBlobAuditingPoliciesClient.listByServerAsync(java.lang.String,java.lang.String)
-- com.azure.resourcemanager.sql.fluent.ServerBlobAuditingPoliciesClient.listByServerAsync(java.lang.String,java.lang.String,com.azure.core.util.Context)
-- com.azure.resourcemanager.sql.fluent.ServerBlobAuditingPoliciesClient.listByServerNextSinglePageAsync(java.lang.String)
-- com.azure.resourcemanager.sql.fluent.ServerBlobAuditingPoliciesClient.listByServerNextSinglePageAsync(java.lang.String,com.azure.core.util.Context)
-- com.azure.resourcemanager.sql.fluent.ServerBlobAuditingPoliciesClient.listByServerSinglePageAsync(java.lang.String,java.lang.String)
-- com.azure.resourcemanager.sql.fluent.ServerBlobAuditingPoliciesClient.listByServerSinglePageAsync(java.lang.String,java.lang.String,com.azure.core.util.Context)
-type: class
+- "com.azure.resourcemanager.sql.fluent.ServerBlobAuditingPoliciesClient.beginCreateOrUpdate(java.lang.String,java.lang.String,com.azure.resourcemanager.sql.fluent.inner.ServerBlobAuditingPolicyInner)"
+- "com.azure.resourcemanager.sql.fluent.ServerBlobAuditingPoliciesClient.beginCreateOrUpdate(java.lang.String,java.lang.String,com.azure.resourcemanager.sql.fluent.inner.ServerBlobAuditingPolicyInner,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.sql.fluent.ServerBlobAuditingPoliciesClient.beginCreateOrUpdateWithoutPolling(java.lang.String,java.lang.String,com.azure.resourcemanager.sql.fluent.inner.ServerBlobAuditingPolicyInner)"
+- "com.azure.resourcemanager.sql.fluent.ServerBlobAuditingPoliciesClient.beginCreateOrUpdateWithoutPolling(java.lang.String,java.lang.String,com.azure.resourcemanager.sql.fluent.inner.ServerBlobAuditingPolicyInner,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.sql.fluent.ServerBlobAuditingPoliciesClient.beginCreateOrUpdateWithoutPollingAsync(java.lang.String,java.lang.String,com.azure.resourcemanager.sql.fluent.inner.ServerBlobAuditingPolicyInner)"
+- "com.azure.resourcemanager.sql.fluent.ServerBlobAuditingPoliciesClient.beginCreateOrUpdateWithoutPollingAsync(java.lang.String,java.lang.String,com.azure.resourcemanager.sql.fluent.inner.ServerBlobAuditingPolicyInner,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.sql.fluent.ServerBlobAuditingPoliciesClient.beginCreateOrUpdateWithoutPollingWithResponseAsync(java.lang.String,java.lang.String,com.azure.resourcemanager.sql.fluent.inner.ServerBlobAuditingPolicyInner)"
+- "com.azure.resourcemanager.sql.fluent.ServerBlobAuditingPoliciesClient.beginCreateOrUpdateWithoutPollingWithResponseAsync(java.lang.String,java.lang.String,com.azure.resourcemanager.sql.fluent.inner.ServerBlobAuditingPolicyInner,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.sql.fluent.ServerBlobAuditingPoliciesClient.createOrUpdate(java.lang.String,java.lang.String,com.azure.resourcemanager.sql.fluent.inner.ServerBlobAuditingPolicyInner)"
+- "com.azure.resourcemanager.sql.fluent.ServerBlobAuditingPoliciesClient.createOrUpdate(java.lang.String,java.lang.String,com.azure.resourcemanager.sql.fluent.inner.ServerBlobAuditingPolicyInner,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.sql.fluent.ServerBlobAuditingPoliciesClient.createOrUpdateAsync(java.lang.String,java.lang.String,com.azure.resourcemanager.sql.fluent.inner.ServerBlobAuditingPolicyInner)"
+- "com.azure.resourcemanager.sql.fluent.ServerBlobAuditingPoliciesClient.createOrUpdateAsync(java.lang.String,java.lang.String,com.azure.resourcemanager.sql.fluent.inner.ServerBlobAuditingPolicyInner,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.sql.fluent.ServerBlobAuditingPoliciesClient.createOrUpdateWithResponseAsync(java.lang.String,java.lang.String,com.azure.resourcemanager.sql.fluent.inner.ServerBlobAuditingPolicyInner)"
+- "com.azure.resourcemanager.sql.fluent.ServerBlobAuditingPoliciesClient.createOrUpdateWithResponseAsync(java.lang.String,java.lang.String,com.azure.resourcemanager.sql.fluent.inner.ServerBlobAuditingPolicyInner,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.sql.fluent.ServerBlobAuditingPoliciesClient.get(java.lang.String,java.lang.String)"
+- "com.azure.resourcemanager.sql.fluent.ServerBlobAuditingPoliciesClient.get(java.lang.String,java.lang.String,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.sql.fluent.ServerBlobAuditingPoliciesClient.getAsync(java.lang.String,java.lang.String)"
+- "com.azure.resourcemanager.sql.fluent.ServerBlobAuditingPoliciesClient.getAsync(java.lang.String,java.lang.String,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.sql.fluent.ServerBlobAuditingPoliciesClient.getWithResponseAsync(java.lang.String,java.lang.String)"
+- "com.azure.resourcemanager.sql.fluent.ServerBlobAuditingPoliciesClient.getWithResponseAsync(java.lang.String,java.lang.String,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.sql.fluent.ServerBlobAuditingPoliciesClient.listByServer(java.lang.String,java.lang.String)"
+- "com.azure.resourcemanager.sql.fluent.ServerBlobAuditingPoliciesClient.listByServer(java.lang.String,java.lang.String,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.sql.fluent.ServerBlobAuditingPoliciesClient.listByServerAsync(java.lang.String,java.lang.String)"
+- "com.azure.resourcemanager.sql.fluent.ServerBlobAuditingPoliciesClient.listByServerAsync(java.lang.String,java.lang.String,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.sql.fluent.ServerBlobAuditingPoliciesClient.listByServerNextSinglePageAsync(java.lang.String)"
+- "com.azure.resourcemanager.sql.fluent.ServerBlobAuditingPoliciesClient.listByServerNextSinglePageAsync(java.lang.String,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.sql.fluent.ServerBlobAuditingPoliciesClient.listByServerSinglePageAsync(java.lang.String,java.lang.String)"
+- "com.azure.resourcemanager.sql.fluent.ServerBlobAuditingPoliciesClient.listByServerSinglePageAsync(java.lang.String,java.lang.String,com.azure.core.util.Context)"
+type: "class"
 metadata: {}
-package: com.azure.resourcemanager.sql.fluent
+package: "com.azure.resourcemanager.sql.fluent"
 artifact: com.azure.resourcemanager:azure-resourcemanager-sql:2.0.0-beta.2

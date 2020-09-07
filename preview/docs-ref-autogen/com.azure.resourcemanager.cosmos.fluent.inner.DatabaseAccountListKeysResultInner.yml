@@ -1,35 +1,35 @@
 ### YamlMime:JavaType
-uid: com.azure.resourcemanager.cosmos.fluent.inner.DatabaseAccountListKeysResultInner
-fullName: com.azure.resourcemanager.cosmos.fluent.inner.DatabaseAccountListKeysResultInner
-name: DatabaseAccountListKeysResultInner
-nameWithType: DatabaseAccountListKeysResultInner
-summary: The DatabaseAccountListKeysResult model.
+uid: "com.azure.resourcemanager.cosmos.fluent.inner.DatabaseAccountListKeysResultInner"
+fullName: "com.azure.resourcemanager.cosmos.fluent.inner.DatabaseAccountListKeysResultInner"
+name: "DatabaseAccountListKeysResultInner"
+nameWithType: "DatabaseAccountListKeysResultInner"
+summary: "The DatabaseAccountListKeysResult model."
 inheritances:
-- <xref href="java.lang.Object" data-throw-if-not-resolved="False" />
-- <xref href="com.azure.resourcemanager.cosmos.fluent.inner.DatabaseAccountListReadOnlyKeysResultInner" data-throw-if-not-resolved="False" />
+- "<xref href=\"java.lang.Object\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.azure.resourcemanager.cosmos.fluent.inner.DatabaseAccountListReadOnlyKeysResultInner\" data-throw-if-not-resolved=\"False\" />"
 inheritedMembers:
-- com.azure.resourcemanager.cosmos.fluent.inner.DatabaseAccountListReadOnlyKeysResultInner.primaryReadonlyMasterKey()
-- com.azure.resourcemanager.cosmos.fluent.inner.DatabaseAccountListReadOnlyKeysResultInner.secondaryReadonlyMasterKey()
-- com.azure.resourcemanager.cosmos.fluent.inner.DatabaseAccountListReadOnlyKeysResultInner.validate()
-- java.lang.Object.clone()
-- java.lang.Object.equals(java.lang.Object)
-- java.lang.Object.finalize()
-- java.lang.Object.getClass()
-- java.lang.Object.hashCode()
-- java.lang.Object.notify()
-- java.lang.Object.notifyAll()
-- java.lang.Object.toString()
-- java.lang.Object.wait()
-- java.lang.Object.wait(long)
-- java.lang.Object.wait(long,int)
-syntax: public final class DatabaseAccountListKeysResultInner extends DatabaseAccountListReadOnlyKeysResultInner
+- "com.azure.resourcemanager.cosmos.fluent.inner.DatabaseAccountListReadOnlyKeysResultInner.primaryReadonlyMasterKey()"
+- "com.azure.resourcemanager.cosmos.fluent.inner.DatabaseAccountListReadOnlyKeysResultInner.secondaryReadonlyMasterKey()"
+- "com.azure.resourcemanager.cosmos.fluent.inner.DatabaseAccountListReadOnlyKeysResultInner.validate()"
+- "java.lang.Object.clone()"
+- "java.lang.Object.equals(java.lang.Object)"
+- "java.lang.Object.finalize()"
+- "java.lang.Object.getClass()"
+- "java.lang.Object.hashCode()"
+- "java.lang.Object.notify()"
+- "java.lang.Object.notifyAll()"
+- "java.lang.Object.toString()"
+- "java.lang.Object.wait()"
+- "java.lang.Object.wait(long)"
+- "java.lang.Object.wait(long,int)"
+syntax: "public final class DatabaseAccountListKeysResultInner extends DatabaseAccountListReadOnlyKeysResultInner"
 constructors:
-- com.azure.resourcemanager.cosmos.fluent.inner.DatabaseAccountListKeysResultInner.DatabaseAccountListKeysResultInner()
+- "com.azure.resourcemanager.cosmos.fluent.inner.DatabaseAccountListKeysResultInner.DatabaseAccountListKeysResultInner()"
 methods:
-- com.azure.resourcemanager.cosmos.fluent.inner.DatabaseAccountListKeysResultInner.primaryMasterKey()
-- com.azure.resourcemanager.cosmos.fluent.inner.DatabaseAccountListKeysResultInner.secondaryMasterKey()
-- com.azure.resourcemanager.cosmos.fluent.inner.DatabaseAccountListKeysResultInner.validate()
-type: class
+- "com.azure.resourcemanager.cosmos.fluent.inner.DatabaseAccountListKeysResultInner.primaryMasterKey()"
+- "com.azure.resourcemanager.cosmos.fluent.inner.DatabaseAccountListKeysResultInner.secondaryMasterKey()"
+- "com.azure.resourcemanager.cosmos.fluent.inner.DatabaseAccountListKeysResultInner.validate()"
+type: "class"
 metadata: {}
-package: com.azure.resourcemanager.cosmos.fluent.inner
+package: "com.azure.resourcemanager.cosmos.fluent.inner"
 artifact: com.azure.resourcemanager:azure-resourcemanager-cosmos:2.0.0-beta.2

@@ -1,32 +1,32 @@
 ### YamlMime:JavaType
-uid: com.microsoft.azure.management.containerservice.ManagedClusterWindowsProfile
-fullName: com.microsoft.azure.management.containerservice.ManagedClusterWindowsProfile
-name: ManagedClusterWindowsProfile
-nameWithType: ManagedClusterWindowsProfile
-summary: Profile for Windows VMs in the container service cluster.
+uid: "com.microsoft.azure.management.containerservice.ManagedClusterWindowsProfile"
+fullName: "com.microsoft.azure.management.containerservice.ManagedClusterWindowsProfile"
+name: "ManagedClusterWindowsProfile"
+nameWithType: "ManagedClusterWindowsProfile"
+summary: "Profile for Windows VMs in the container service cluster."
 inheritances:
-- <xref href="java.lang.Object" data-throw-if-not-resolved="False" />
+- "<xref href=\"java.lang.Object\" data-throw-if-not-resolved=\"False\" />"
 inheritedMembers:
-- java.lang.Object.clone()
-- java.lang.Object.equals(java.lang.Object)
-- java.lang.Object.finalize()
-- java.lang.Object.getClass()
-- java.lang.Object.hashCode()
-- java.lang.Object.notify()
-- java.lang.Object.notifyAll()
-- java.lang.Object.toString()
-- java.lang.Object.wait()
-- java.lang.Object.wait(long)
-- java.lang.Object.wait(long,int)
-syntax: public class ManagedClusterWindowsProfile
+- "java.lang.Object.clone()"
+- "java.lang.Object.equals(java.lang.Object)"
+- "java.lang.Object.finalize()"
+- "java.lang.Object.getClass()"
+- "java.lang.Object.hashCode()"
+- "java.lang.Object.notify()"
+- "java.lang.Object.notifyAll()"
+- "java.lang.Object.toString()"
+- "java.lang.Object.wait()"
+- "java.lang.Object.wait(long)"
+- "java.lang.Object.wait(long,int)"
+syntax: "public class ManagedClusterWindowsProfile"
 constructors:
-- com.microsoft.azure.management.containerservice.ManagedClusterWindowsProfile.ManagedClusterWindowsProfile()
+- "com.microsoft.azure.management.containerservice.ManagedClusterWindowsProfile.ManagedClusterWindowsProfile()"
 methods:
-- com.microsoft.azure.management.containerservice.ManagedClusterWindowsProfile.adminPassword()
-- com.microsoft.azure.management.containerservice.ManagedClusterWindowsProfile.adminUsername()
-- com.microsoft.azure.management.containerservice.ManagedClusterWindowsProfile.withAdminPassword(java.lang.String)
-- com.microsoft.azure.management.containerservice.ManagedClusterWindowsProfile.withAdminUsername(java.lang.String)
-type: class
+- "com.microsoft.azure.management.containerservice.ManagedClusterWindowsProfile.adminPassword()"
+- "com.microsoft.azure.management.containerservice.ManagedClusterWindowsProfile.adminUsername()"
+- "com.microsoft.azure.management.containerservice.ManagedClusterWindowsProfile.withAdminPassword(java.lang.String)"
+- "com.microsoft.azure.management.containerservice.ManagedClusterWindowsProfile.withAdminUsername(java.lang.String)"
+type: "class"
 metadata: {}
-package: com.microsoft.azure.management.containerservice
-artifact: com.microsoft.azure:azure-mgmt-containerservice:1.36.1
+package: "com.microsoft.azure.management.containerservice"
+artifact: com.microsoft.azure:azure-mgmt-containerservice:1.36.2

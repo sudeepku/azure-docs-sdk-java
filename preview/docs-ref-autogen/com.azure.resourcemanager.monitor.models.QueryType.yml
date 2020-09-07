@@ -1,75 +1,75 @@
 ### YamlMime:JavaEnum
-uid: com.azure.resourcemanager.monitor.models.QueryType
-fullName: com.azure.resourcemanager.monitor.models.QueryType
-name: QueryType
-nameWithType: QueryType
-summary: Defines values for QueryType.
+uid: "com.azure.resourcemanager.monitor.models.QueryType"
+fullName: "com.azure.resourcemanager.monitor.models.QueryType"
+name: "QueryType"
+nameWithType: "QueryType"
+summary: "Defines values for QueryType."
 inheritances:
-- <xref href="java.lang.Object" data-throw-if-not-resolved="False" />
-- <xref href="java.lang.Enum" data-throw-if-not-resolved="False" />
+- "<xref href=\"java.lang.Object\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"java.lang.Enum\" data-throw-if-not-resolved=\"False\" />"
 inheritedMembers:
-- java.lang.Enum.<T>valueOf(java.lang.Class<T>,java.lang.String)
-- java.lang.Enum.clone()
-- java.lang.Enum.compareTo(E)
-- java.lang.Enum.equals(java.lang.Object)
-- java.lang.Enum.finalize()
-- java.lang.Enum.getDeclaringClass()
-- java.lang.Enum.hashCode()
-- java.lang.Enum.name()
-- java.lang.Enum.ordinal()
-- java.lang.Enum.toString()
-- java.lang.Object.getClass()
-- java.lang.Object.notify()
-- java.lang.Object.notifyAll()
-- java.lang.Object.wait()
-- java.lang.Object.wait(long)
-- java.lang.Object.wait(long,int)
-syntax: public enum QueryType extends Enum<QueryType>
+- "java.lang.Enum.<T>valueOf(java.lang.Class<T>,java.lang.String)"
+- "java.lang.Enum.clone()"
+- "java.lang.Enum.compareTo(E)"
+- "java.lang.Enum.equals(java.lang.Object)"
+- "java.lang.Enum.finalize()"
+- "java.lang.Enum.getDeclaringClass()"
+- "java.lang.Enum.hashCode()"
+- "java.lang.Enum.name()"
+- "java.lang.Enum.ordinal()"
+- "java.lang.Enum.toString()"
+- "java.lang.Object.getClass()"
+- "java.lang.Object.notify()"
+- "java.lang.Object.notifyAll()"
+- "java.lang.Object.wait()"
+- "java.lang.Object.wait(long)"
+- "java.lang.Object.wait(long,int)"
+syntax: "public enum QueryType extends Enum<QueryType>"
 fields:
-- uid: com.azure.resourcemanager.monitor.models.QueryType.RESULT_COUNT
-  fullName: com.azure.resourcemanager.monitor.models.QueryType.RESULT_COUNT
-  name: RESULT_COUNT
-  nameWithType: QueryType.RESULT_COUNT
-  summary: Enum value ResultCount.
+- uid: "com.azure.resourcemanager.monitor.models.QueryType.RESULT_COUNT"
+  fullName: "com.azure.resourcemanager.monitor.models.QueryType.RESULT_COUNT"
+  name: "RESULT_COUNT"
+  nameWithType: "QueryType.RESULT_COUNT"
+  summary: "Enum value ResultCount."
 methods:
-- uid: com.azure.resourcemanager.monitor.models.QueryType.fromString(java.lang.String)
-  fullName: com.azure.resourcemanager.monitor.models.QueryType.fromString(String value)
-  name: fromString(String value)
-  nameWithType: QueryType.fromString(String value)
-  summary: Parses a serialized value to a QueryType instance.
+- uid: "com.azure.resourcemanager.monitor.models.QueryType.fromString(java.lang.String)"
+  fullName: "com.azure.resourcemanager.monitor.models.QueryType.fromString(String value)"
+  name: "fromString(String value)"
+  nameWithType: "QueryType.fromString(String value)"
+  summary: "Parses a serialized value to a QueryType instance."
   parameters:
-  - description: the serialized value to parse.
-    name: value
-    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
-  syntax: public static QueryType fromString(String value)
+  - description: "the serialized value to parse."
+    name: "value"
+    type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static QueryType fromString(String value)"
   returns:
-    description: the parsed QueryType object, or null if unable to parse.
-    type: <xref href="com.azure.resourcemanager.monitor.models.QueryType?alt=com.azure.resourcemanager.monitor.models.QueryType&text=QueryType" data-throw-if-not-resolved="False" />
-- uid: com.azure.resourcemanager.monitor.models.QueryType.toString()
-  fullName: com.azure.resourcemanager.monitor.models.QueryType.toString()
-  name: toString()
-  nameWithType: QueryType.toString()
-  overridden: java.lang.Enum.toString()
-  syntax: public String toString()
+    description: "the parsed QueryType object, or null if unable to parse."
+    type: "<xref href=\"com.azure.resourcemanager.monitor.models.QueryType?alt=com.azure.resourcemanager.monitor.models.QueryType&text=QueryType\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.monitor.models.QueryType.toString()"
+  fullName: "com.azure.resourcemanager.monitor.models.QueryType.toString()"
+  name: "toString()"
+  nameWithType: "QueryType.toString()"
+  overridden: "java.lang.Enum.toString()"
+  syntax: "public String toString()"
   returns:
-    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
-- uid: com.azure.resourcemanager.monitor.models.QueryType.valueOf(java.lang.String)
-  fullName: com.azure.resourcemanager.monitor.models.QueryType.valueOf(String name)
-  name: valueOf(String name)
-  nameWithType: QueryType.valueOf(String name)
+    type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.monitor.models.QueryType.valueOf(java.lang.String)"
+  fullName: "com.azure.resourcemanager.monitor.models.QueryType.valueOf(String name)"
+  name: "valueOf(String name)"
+  nameWithType: "QueryType.valueOf(String name)"
   parameters:
-  - name: name
-    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
-  syntax: public static QueryType valueOf(String name)
+  - name: "name"
+    type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static QueryType valueOf(String name)"
   returns:
-    type: <xref href="com.azure.resourcemanager.monitor.models.QueryType?alt=com.azure.resourcemanager.monitor.models.QueryType&text=QueryType" data-throw-if-not-resolved="False" />
-- uid: com.azure.resourcemanager.monitor.models.QueryType.values()
-  fullName: com.azure.resourcemanager.monitor.models.QueryType.values()
-  name: values()
-  nameWithType: QueryType.values()
-  syntax: public static QueryType[] values()
+    type: "<xref href=\"com.azure.resourcemanager.monitor.models.QueryType?alt=com.azure.resourcemanager.monitor.models.QueryType&text=QueryType\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.monitor.models.QueryType.values()"
+  fullName: "com.azure.resourcemanager.monitor.models.QueryType.values()"
+  name: "values()"
+  nameWithType: "QueryType.values()"
+  syntax: "public static QueryType[] values()"
   returns:
-    type: <xref href="com.azure.resourcemanager.monitor.models.QueryType?alt=com.azure.resourcemanager.monitor.models.QueryType&text=QueryType" data-throw-if-not-resolved="False" />[]
+    type: "<xref href=\"com.azure.resourcemanager.monitor.models.QueryType?alt=com.azure.resourcemanager.monitor.models.QueryType&text=QueryType\" data-throw-if-not-resolved=\"False\" />[]"
 metadata: {}
-package: com.azure.resourcemanager.monitor.models
+package: "com.azure.resourcemanager.monitor.models"
 artifact: com.azure.resourcemanager:azure-resourcemanager-monitor:2.0.0-beta.2

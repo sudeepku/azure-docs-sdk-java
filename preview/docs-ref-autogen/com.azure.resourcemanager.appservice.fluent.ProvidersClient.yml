@@ -1,56 +1,56 @@
 ### YamlMime:JavaType
-uid: com.azure.resourcemanager.appservice.fluent.ProvidersClient
-fullName: com.azure.resourcemanager.appservice.fluent.ProvidersClient
-name: ProvidersClient
-nameWithType: ProvidersClient
-summary: An instance of this class provides access to all the operations defined in Providers.
+uid: "com.azure.resourcemanager.appservice.fluent.ProvidersClient"
+fullName: "com.azure.resourcemanager.appservice.fluent.ProvidersClient"
+name: "ProvidersClient"
+nameWithType: "ProvidersClient"
+summary: "An instance of this class provides access to all the operations defined in Providers."
 inheritances:
-- <xref href="java.lang.Object" data-throw-if-not-resolved="False" />
+- "<xref href=\"java.lang.Object\" data-throw-if-not-resolved=\"False\" />"
 inheritedMembers:
-- java.lang.Object.clone()
-- java.lang.Object.equals(java.lang.Object)
-- java.lang.Object.finalize()
-- java.lang.Object.getClass()
-- java.lang.Object.hashCode()
-- java.lang.Object.notify()
-- java.lang.Object.notifyAll()
-- java.lang.Object.toString()
-- java.lang.Object.wait()
-- java.lang.Object.wait(long)
-- java.lang.Object.wait(long,int)
-syntax: public final class ProvidersClient
+- "java.lang.Object.clone()"
+- "java.lang.Object.equals(java.lang.Object)"
+- "java.lang.Object.finalize()"
+- "java.lang.Object.getClass()"
+- "java.lang.Object.hashCode()"
+- "java.lang.Object.notify()"
+- "java.lang.Object.notifyAll()"
+- "java.lang.Object.toString()"
+- "java.lang.Object.wait()"
+- "java.lang.Object.wait(long)"
+- "java.lang.Object.wait(long,int)"
+syntax: "public final class ProvidersClient"
 constructors:
-- com.azure.resourcemanager.appservice.fluent.ProvidersClient.ProvidersClient(com.azure.resourcemanager.appservice.WebSiteManagementClient)
+- "com.azure.resourcemanager.appservice.fluent.ProvidersClient.ProvidersClient(com.azure.resourcemanager.appservice.WebSiteManagementClient)"
 methods:
-- com.azure.resourcemanager.appservice.fluent.ProvidersClient.getAvailableStacks()
-- com.azure.resourcemanager.appservice.fluent.ProvidersClient.getAvailableStacks(com.azure.resourcemanager.appservice.models.ProviderOsTypeSelected)
-- com.azure.resourcemanager.appservice.fluent.ProvidersClient.getAvailableStacks(com.azure.resourcemanager.appservice.models.ProviderOsTypeSelected,com.azure.core.util.Context)
-- com.azure.resourcemanager.appservice.fluent.ProvidersClient.getAvailableStacksAsync()
-- com.azure.resourcemanager.appservice.fluent.ProvidersClient.getAvailableStacksAsync(com.azure.resourcemanager.appservice.models.ProviderOsTypeSelected)
-- com.azure.resourcemanager.appservice.fluent.ProvidersClient.getAvailableStacksAsync(com.azure.resourcemanager.appservice.models.ProviderOsTypeSelected,com.azure.core.util.Context)
-- com.azure.resourcemanager.appservice.fluent.ProvidersClient.getAvailableStacksNextSinglePageAsync(java.lang.String)
-- com.azure.resourcemanager.appservice.fluent.ProvidersClient.getAvailableStacksNextSinglePageAsync(java.lang.String,com.azure.core.util.Context)
-- com.azure.resourcemanager.appservice.fluent.ProvidersClient.getAvailableStacksOnPremNextSinglePageAsync(java.lang.String)
-- com.azure.resourcemanager.appservice.fluent.ProvidersClient.getAvailableStacksOnPremNextSinglePageAsync(java.lang.String,com.azure.core.util.Context)
-- com.azure.resourcemanager.appservice.fluent.ProvidersClient.getAvailableStacksSinglePageAsync(com.azure.resourcemanager.appservice.models.ProviderOsTypeSelected)
-- com.azure.resourcemanager.appservice.fluent.ProvidersClient.getAvailableStacksSinglePageAsync(com.azure.resourcemanager.appservice.models.ProviderOsTypeSelected,com.azure.core.util.Context)
-- com.azure.resourcemanager.appservice.fluent.ProvidersClient.list()
-- com.azure.resourcemanager.appservice.fluent.ProvidersClient.list(com.azure.resourcemanager.appservice.models.ProviderOsTypeSelected)
-- com.azure.resourcemanager.appservice.fluent.ProvidersClient.list(com.azure.resourcemanager.appservice.models.ProviderOsTypeSelected,com.azure.core.util.Context)
-- com.azure.resourcemanager.appservice.fluent.ProvidersClient.listAsync()
-- com.azure.resourcemanager.appservice.fluent.ProvidersClient.listAsync(com.azure.resourcemanager.appservice.models.ProviderOsTypeSelected)
-- com.azure.resourcemanager.appservice.fluent.ProvidersClient.listAsync(com.azure.resourcemanager.appservice.models.ProviderOsTypeSelected,com.azure.core.util.Context)
-- com.azure.resourcemanager.appservice.fluent.ProvidersClient.listOperations()
-- com.azure.resourcemanager.appservice.fluent.ProvidersClient.listOperations(com.azure.core.util.Context)
-- com.azure.resourcemanager.appservice.fluent.ProvidersClient.listOperationsAsync()
-- com.azure.resourcemanager.appservice.fluent.ProvidersClient.listOperationsAsync(com.azure.core.util.Context)
-- com.azure.resourcemanager.appservice.fluent.ProvidersClient.listOperationsNextSinglePageAsync(java.lang.String)
-- com.azure.resourcemanager.appservice.fluent.ProvidersClient.listOperationsNextSinglePageAsync(java.lang.String,com.azure.core.util.Context)
-- com.azure.resourcemanager.appservice.fluent.ProvidersClient.listOperationsSinglePageAsync()
-- com.azure.resourcemanager.appservice.fluent.ProvidersClient.listOperationsSinglePageAsync(com.azure.core.util.Context)
-- com.azure.resourcemanager.appservice.fluent.ProvidersClient.listSinglePageAsync(com.azure.resourcemanager.appservice.models.ProviderOsTypeSelected)
-- com.azure.resourcemanager.appservice.fluent.ProvidersClient.listSinglePageAsync(com.azure.resourcemanager.appservice.models.ProviderOsTypeSelected,com.azure.core.util.Context)
-type: class
+- "com.azure.resourcemanager.appservice.fluent.ProvidersClient.getAvailableStacks()"
+- "com.azure.resourcemanager.appservice.fluent.ProvidersClient.getAvailableStacks(com.azure.resourcemanager.appservice.models.ProviderOsTypeSelected)"
+- "com.azure.resourcemanager.appservice.fluent.ProvidersClient.getAvailableStacks(com.azure.resourcemanager.appservice.models.ProviderOsTypeSelected,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.appservice.fluent.ProvidersClient.getAvailableStacksAsync()"
+- "com.azure.resourcemanager.appservice.fluent.ProvidersClient.getAvailableStacksAsync(com.azure.resourcemanager.appservice.models.ProviderOsTypeSelected)"
+- "com.azure.resourcemanager.appservice.fluent.ProvidersClient.getAvailableStacksAsync(com.azure.resourcemanager.appservice.models.ProviderOsTypeSelected,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.appservice.fluent.ProvidersClient.getAvailableStacksNextSinglePageAsync(java.lang.String)"
+- "com.azure.resourcemanager.appservice.fluent.ProvidersClient.getAvailableStacksNextSinglePageAsync(java.lang.String,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.appservice.fluent.ProvidersClient.getAvailableStacksOnPremNextSinglePageAsync(java.lang.String)"
+- "com.azure.resourcemanager.appservice.fluent.ProvidersClient.getAvailableStacksOnPremNextSinglePageAsync(java.lang.String,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.appservice.fluent.ProvidersClient.getAvailableStacksSinglePageAsync(com.azure.resourcemanager.appservice.models.ProviderOsTypeSelected)"
+- "com.azure.resourcemanager.appservice.fluent.ProvidersClient.getAvailableStacksSinglePageAsync(com.azure.resourcemanager.appservice.models.ProviderOsTypeSelected,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.appservice.fluent.ProvidersClient.list()"
+- "com.azure.resourcemanager.appservice.fluent.ProvidersClient.list(com.azure.resourcemanager.appservice.models.ProviderOsTypeSelected)"
+- "com.azure.resourcemanager.appservice.fluent.ProvidersClient.list(com.azure.resourcemanager.appservice.models.ProviderOsTypeSelected,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.appservice.fluent.ProvidersClient.listAsync()"
+- "com.azure.resourcemanager.appservice.fluent.ProvidersClient.listAsync(com.azure.resourcemanager.appservice.models.ProviderOsTypeSelected)"
+- "com.azure.resourcemanager.appservice.fluent.ProvidersClient.listAsync(com.azure.resourcemanager.appservice.models.ProviderOsTypeSelected,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.appservice.fluent.ProvidersClient.listOperations()"
+- "com.azure.resourcemanager.appservice.fluent.ProvidersClient.listOperations(com.azure.core.util.Context)"
+- "com.azure.resourcemanager.appservice.fluent.ProvidersClient.listOperationsAsync()"
+- "com.azure.resourcemanager.appservice.fluent.ProvidersClient.listOperationsAsync(com.azure.core.util.Context)"
+- "com.azure.resourcemanager.appservice.fluent.ProvidersClient.listOperationsNextSinglePageAsync(java.lang.String)"
+- "com.azure.resourcemanager.appservice.fluent.ProvidersClient.listOperationsNextSinglePageAsync(java.lang.String,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.appservice.fluent.ProvidersClient.listOperationsSinglePageAsync()"
+- "com.azure.resourcemanager.appservice.fluent.ProvidersClient.listOperationsSinglePageAsync(com.azure.core.util.Context)"
+- "com.azure.resourcemanager.appservice.fluent.ProvidersClient.listSinglePageAsync(com.azure.resourcemanager.appservice.models.ProviderOsTypeSelected)"
+- "com.azure.resourcemanager.appservice.fluent.ProvidersClient.listSinglePageAsync(com.azure.resourcemanager.appservice.models.ProviderOsTypeSelected,com.azure.core.util.Context)"
+type: "class"
 metadata: {}
-package: com.azure.resourcemanager.appservice.fluent
+package: "com.azure.resourcemanager.appservice.fluent"
 artifact: com.azure.resourcemanager:azure-resourcemanager-appservice:2.0.0-beta.2

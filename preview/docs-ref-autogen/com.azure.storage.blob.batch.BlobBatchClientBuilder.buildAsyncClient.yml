@@ -1,26 +1,19 @@
 ### YamlMime:JavaMember
-uid: com.azure.storage.blob.batch.BlobBatchClientBuilder.buildAsyncClient*
-fullName: com.azure.storage.blob.batch.BlobBatchClientBuilder.buildAsyncClient
-name: buildAsyncClient
-nameWithType: BlobBatchClientBuilder.buildAsyncClient
+uid: "com.azure.storage.blob.batch.BlobBatchClientBuilder.buildAsyncClient*"
+fullName: "com.azure.storage.blob.batch.BlobBatchClientBuilder.buildAsyncClient"
+name: "buildAsyncClient"
+nameWithType: "BlobBatchClientBuilder.buildAsyncClient"
 members:
-- uid: com.azure.storage.blob.batch.BlobBatchClientBuilder.buildAsyncClient()
-  fullName: com.azure.storage.blob.batch.BlobBatchClientBuilder.buildAsyncClient()
-  name: buildAsyncClient()
-  nameWithType: BlobBatchClientBuilder.buildAsyncClient()
-  summary: |-
-    Creates a <xref uid="BlobBatchAsyncClient" data-throw-if-not-resolved="false">BlobBatchAsyncClient</xref> based on options set in the builder.
-
-     <p><strong>Code sample</strong></p>
-
-     <pre>
-     BlobBatchAsyncClient batchClient = new BlobBatchClientBuilder&#40;blobServiceAsyncClient&#41;.buildAsyncClient&#40;&#41;;
-     </pre>
-  syntax: public BlobBatchAsyncClient buildAsyncClient()
+- uid: "com.azure.storage.blob.batch.BlobBatchClientBuilder.buildAsyncClient()"
+  fullName: "com.azure.storage.blob.batch.BlobBatchClientBuilder.buildAsyncClient()"
+  name: "buildAsyncClient()"
+  nameWithType: "BlobBatchClientBuilder.buildAsyncClient()"
+  summary: "Creates a <xref uid=\"BlobBatchAsyncClient\" data-throw-if-not-resolved=\"false\">BlobBatchAsyncClient</xref> based on options set in the builder.\n\n <p><strong>Code sample</strong></p>\n\n <pre>\n BlobBatchAsyncClient batchClient = new BlobBatchClientBuilder&#40;blobServiceAsyncClient&#41;.buildAsyncClient&#40;&#41;;\n </pre>"
+  syntax: "public BlobBatchAsyncClient buildAsyncClient()"
   returns:
-    description: a <xref uid="com.azure.storage.blob.batch.BlobBatchAsyncClient" data-throw-if-not-resolved="false">BlobBatchAsyncClient</xref> created from the configurations in this builder.
-    type: <xref href="com.azure.storage.blob.batch.BlobBatchAsyncClient?alt=com.azure.storage.blob.batch.BlobBatchAsyncClient&text=BlobBatchAsyncClient" data-throw-if-not-resolved="False" />
-type: method
+    description: "a <xref uid=\"com.azure.storage.blob.batch.BlobBatchAsyncClient\" data-throw-if-not-resolved=\"false\">BlobBatchAsyncClient</xref> created from the configurations in this builder."
+    type: "<xref href=\"com.azure.storage.blob.batch.BlobBatchAsyncClient?alt=com.azure.storage.blob.batch.BlobBatchAsyncClient&text=BlobBatchAsyncClient\" data-throw-if-not-resolved=\"False\" />"
+type: "method"
 metadata: {}
-package: com.azure.storage.blob.batch
+package: "com.azure.storage.blob.batch"
 artifact: com.azure:azure-storage-blob-batch:12.6.0-beta.1

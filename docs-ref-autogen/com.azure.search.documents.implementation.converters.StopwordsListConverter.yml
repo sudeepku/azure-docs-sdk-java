@@ -1,30 +1,30 @@
 ### YamlMime:JavaType
-uid: com.azure.search.documents.implementation.converters.StopwordsListConverter
-fullName: com.azure.search.documents.implementation.converters.StopwordsListConverter
-name: StopwordsListConverter
-nameWithType: StopwordsListConverter
-summary: A converter between <xref uid="com.azure.search.documents.indexes.implementation.models.StopwordsList" data-throw-if-not-resolved="false">com.azure.search.documents.indexes.implementation.models.StopwordsList</xref> and <xref uid="com.azure.search.documents.indexes.models.StopwordsList" data-throw-if-not-resolved="false">StopwordsList</xref>.
+uid: "com.azure.search.documents.implementation.converters.StopwordsListConverter"
+fullName: "com.azure.search.documents.implementation.converters.StopwordsListConverter"
+name: "StopwordsListConverter"
+nameWithType: "StopwordsListConverter"
+summary: "A converter between <xref uid=\"com.azure.search.documents.indexes.implementation.models.StopwordsList\" data-throw-if-not-resolved=\"false\">com.azure.search.documents.indexes.implementation.models.StopwordsList</xref> and <xref uid=\"com.azure.search.documents.indexes.models.StopwordsList\" data-throw-if-not-resolved=\"false\">StopwordsList</xref>."
 inheritances:
-- <xref href="java.lang.Object" data-throw-if-not-resolved="False" />
+- "<xref href=\"java.lang.Object\" data-throw-if-not-resolved=\"False\" />"
 inheritedMembers:
-- java.lang.Object.clone()
-- java.lang.Object.equals(java.lang.Object)
-- java.lang.Object.finalize()
-- java.lang.Object.getClass()
-- java.lang.Object.hashCode()
-- java.lang.Object.notify()
-- java.lang.Object.notifyAll()
-- java.lang.Object.toString()
-- java.lang.Object.wait()
-- java.lang.Object.wait(long)
-- java.lang.Object.wait(long,int)
-syntax: public final class StopwordsListConverter
+- "java.lang.Object.clone()"
+- "java.lang.Object.equals(java.lang.Object)"
+- "java.lang.Object.finalize()"
+- "java.lang.Object.getClass()"
+- "java.lang.Object.hashCode()"
+- "java.lang.Object.notify()"
+- "java.lang.Object.notifyAll()"
+- "java.lang.Object.toString()"
+- "java.lang.Object.wait()"
+- "java.lang.Object.wait(long)"
+- "java.lang.Object.wait(long,int)"
+syntax: "public final class StopwordsListConverter"
 constructors:
-- com.azure.search.documents.implementation.converters.StopwordsListConverter.StopwordsListConverter()
+- "com.azure.search.documents.implementation.converters.StopwordsListConverter.StopwordsListConverter()"
 methods:
-- com.azure.search.documents.implementation.converters.StopwordsListConverter.map(com.azure.search.documents.indexes.implementation.models.StopwordsList)
-- com.azure.search.documents.implementation.converters.StopwordsListConverter.map(com.azure.search.documents.indexes.models.StopwordsList)
-type: class
+- "com.azure.search.documents.implementation.converters.StopwordsListConverter.map(com.azure.search.documents.indexes.implementation.models.StopwordsList)"
+- "com.azure.search.documents.implementation.converters.StopwordsListConverter.map(com.azure.search.documents.indexes.models.StopwordsList)"
+type: "class"
 metadata: {}
-package: com.azure.search.documents.implementation.converters
+package: "com.azure.search.documents.implementation.converters"
 artifact: com.azure:azure-search-documents:11.0.0

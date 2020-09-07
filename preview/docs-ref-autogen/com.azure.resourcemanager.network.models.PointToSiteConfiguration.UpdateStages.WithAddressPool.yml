@@ -1,15 +1,15 @@
 ### YamlMime:JavaType
-uid: com.azure.resourcemanager.network.models.PointToSiteConfiguration.UpdateStages.WithAddressPool
-fullName: com.azure.resourcemanager.network.models.PointToSiteConfiguration.UpdateStages.WithAddressPool<ParentT>
-name: PointToSiteConfiguration.UpdateStages.WithAddressPool<ParentT>
-nameWithType: PointToSiteConfiguration.UpdateStages.WithAddressPool<ParentT>
-summary: The stage of the point-to-site configuration definition allowing to specify address pool.
-syntax: public static interface PointToSiteConfiguration.UpdateStages.WithAddressPool<ParentT>
+uid: "com.azure.resourcemanager.network.models.PointToSiteConfiguration.UpdateStages.WithAddressPool"
+fullName: "com.azure.resourcemanager.network.models.PointToSiteConfiguration.UpdateStages.WithAddressPool<ParentT>"
+name: "PointToSiteConfiguration.UpdateStages.WithAddressPool<ParentT>"
+nameWithType: "PointToSiteConfiguration.UpdateStages.WithAddressPool<ParentT>"
+summary: "The stage of the point-to-site configuration definition allowing to specify address pool."
+syntax: "public static interface PointToSiteConfiguration.UpdateStages.WithAddressPool<ParentT>"
 methods:
-- com.azure.resourcemanager.network.models.PointToSiteConfiguration.UpdateStages.WithAddressPool.withAddressPool(java.lang.String)
-type: interface
+- "com.azure.resourcemanager.network.models.PointToSiteConfiguration.UpdateStages.WithAddressPool.withAddressPool(java.lang.String)"
+type: "interface"
 typeParameters:
-- name: ParentT
+- name: "ParentT"
 metadata: {}
-package: com.azure.resourcemanager.network.models
+package: "com.azure.resourcemanager.network.models"
 artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.0.0-beta.2

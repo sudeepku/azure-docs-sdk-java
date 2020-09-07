@@ -1,39 +1,39 @@
 ### YamlMime:JavaType
-uid: com.azure.resourcemanager.keyvault.KeyVaultManagementClient
-fullName: com.azure.resourcemanager.keyvault.KeyVaultManagementClient
-name: KeyVaultManagementClient
-nameWithType: KeyVaultManagementClient
-summary: Initializes a new instance of the KeyVaultManagementClient type.
+uid: "com.azure.resourcemanager.keyvault.KeyVaultManagementClient"
+fullName: "com.azure.resourcemanager.keyvault.KeyVaultManagementClient"
+name: "KeyVaultManagementClient"
+nameWithType: "KeyVaultManagementClient"
+summary: "Initializes a new instance of the KeyVaultManagementClient type."
 inheritances:
-- <xref href="java.lang.Object" data-throw-if-not-resolved="False" />
-- <xref href="com.azure.resourcemanager.AzureServiceClient" data-throw-if-not-resolved="False" />
+- "<xref href=\"java.lang.Object\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.azure.resourcemanager.AzureServiceClient\" data-throw-if-not-resolved=\"False\" />"
 inheritedMembers:
-- com.azure.resourcemanager.AzureServiceClient.<T,U>getLroResultAsync(reactor.core.publisher.Mono<? extends com.azure.core.http.rest.Response<reactor.core.publisher.Flux<java.nio.ByteBuffer>>>,com.azure.core.http.HttpPipeline,java.lang.reflect.Type,java.lang.reflect.Type)
-- com.azure.resourcemanager.AzureServiceClient.getContext()
-- com.azure.resourcemanager.AzureServiceClient.getSerializerAdapter()
-- com.azure.resourcemanager.AzureServiceClient.userAgent()
-- java.lang.Object.clone()
-- java.lang.Object.equals(java.lang.Object)
-- java.lang.Object.finalize()
-- java.lang.Object.getClass()
-- java.lang.Object.hashCode()
-- java.lang.Object.notify()
-- java.lang.Object.notifyAll()
-- java.lang.Object.toString()
-- java.lang.Object.wait()
-- java.lang.Object.wait(long)
-- java.lang.Object.wait(long,int)
-syntax: public final class KeyVaultManagementClient extends AzureServiceClient
+- "com.azure.resourcemanager.AzureServiceClient.<T,U>getLroResultAsync(reactor.core.publisher.Mono<? extends com.azure.core.http.rest.Response<reactor.core.publisher.Flux<java.nio.ByteBuffer>>>,com.azure.core.http.HttpPipeline,java.lang.reflect.Type,java.lang.reflect.Type)"
+- "com.azure.resourcemanager.AzureServiceClient.getContext()"
+- "com.azure.resourcemanager.AzureServiceClient.getSerializerAdapter()"
+- "com.azure.resourcemanager.AzureServiceClient.userAgent()"
+- "java.lang.Object.clone()"
+- "java.lang.Object.equals(java.lang.Object)"
+- "java.lang.Object.finalize()"
+- "java.lang.Object.getClass()"
+- "java.lang.Object.hashCode()"
+- "java.lang.Object.notify()"
+- "java.lang.Object.notifyAll()"
+- "java.lang.Object.toString()"
+- "java.lang.Object.wait()"
+- "java.lang.Object.wait(long)"
+- "java.lang.Object.wait(long,int)"
+syntax: "public final class KeyVaultManagementClient extends AzureServiceClient"
 methods:
-- com.azure.resourcemanager.keyvault.KeyVaultManagementClient.getApiVersion()
-- com.azure.resourcemanager.keyvault.KeyVaultManagementClient.getEndpoint()
-- com.azure.resourcemanager.keyvault.KeyVaultManagementClient.getHttpPipeline()
-- com.azure.resourcemanager.keyvault.KeyVaultManagementClient.getOperations()
-- com.azure.resourcemanager.keyvault.KeyVaultManagementClient.getPrivateEndpointConnections()
-- com.azure.resourcemanager.keyvault.KeyVaultManagementClient.getPrivateLinkResources()
-- com.azure.resourcemanager.keyvault.KeyVaultManagementClient.getSubscriptionId()
-- com.azure.resourcemanager.keyvault.KeyVaultManagementClient.getVaults()
-type: class
+- "com.azure.resourcemanager.keyvault.KeyVaultManagementClient.getApiVersion()"
+- "com.azure.resourcemanager.keyvault.KeyVaultManagementClient.getEndpoint()"
+- "com.azure.resourcemanager.keyvault.KeyVaultManagementClient.getHttpPipeline()"
+- "com.azure.resourcemanager.keyvault.KeyVaultManagementClient.getOperations()"
+- "com.azure.resourcemanager.keyvault.KeyVaultManagementClient.getPrivateEndpointConnections()"
+- "com.azure.resourcemanager.keyvault.KeyVaultManagementClient.getPrivateLinkResources()"
+- "com.azure.resourcemanager.keyvault.KeyVaultManagementClient.getSubscriptionId()"
+- "com.azure.resourcemanager.keyvault.KeyVaultManagementClient.getVaults()"
+type: "class"
 metadata: {}
-package: com.azure.resourcemanager.keyvault
+package: "com.azure.resourcemanager.keyvault"
 artifact: com.azure.resourcemanager:azure-resourcemanager-keyvault:2.0.0-beta.2

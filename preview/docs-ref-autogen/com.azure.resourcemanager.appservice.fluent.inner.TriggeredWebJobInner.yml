@@ -1,57 +1,57 @@
 ### YamlMime:JavaType
-uid: com.azure.resourcemanager.appservice.fluent.inner.TriggeredWebJobInner
-fullName: com.azure.resourcemanager.appservice.fluent.inner.TriggeredWebJobInner
-name: TriggeredWebJobInner
-nameWithType: TriggeredWebJobInner
-summary: The TriggeredWebJob model.
+uid: "com.azure.resourcemanager.appservice.fluent.inner.TriggeredWebJobInner"
+fullName: "com.azure.resourcemanager.appservice.fluent.inner.TriggeredWebJobInner"
+name: "TriggeredWebJobInner"
+nameWithType: "TriggeredWebJobInner"
+summary: "The TriggeredWebJob model."
 inheritances:
-- <xref href="java.lang.Object" data-throw-if-not-resolved="False" />
-- <xref href="com.azure.core.management.ProxyResource" data-throw-if-not-resolved="False" />
-- <xref href="com.azure.resourcemanager.appservice.models.ProxyOnlyResource" data-throw-if-not-resolved="False" />
+- "<xref href=\"java.lang.Object\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.azure.core.management.ProxyResource\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.azure.resourcemanager.appservice.models.ProxyOnlyResource\" data-throw-if-not-resolved=\"False\" />"
 inheritedMembers:
-- com.azure.core.management.ProxyResource.id()
-- com.azure.core.management.ProxyResource.name()
-- com.azure.core.management.ProxyResource.type()
-- com.azure.resourcemanager.appservice.models.ProxyOnlyResource.kind()
-- com.azure.resourcemanager.appservice.models.ProxyOnlyResource.validate()
-- com.azure.resourcemanager.appservice.models.ProxyOnlyResource.withKind(java.lang.String)
-- java.lang.Object.clone()
-- java.lang.Object.equals(java.lang.Object)
-- java.lang.Object.finalize()
-- java.lang.Object.getClass()
-- java.lang.Object.hashCode()
-- java.lang.Object.notify()
-- java.lang.Object.notifyAll()
-- java.lang.Object.toString()
-- java.lang.Object.wait()
-- java.lang.Object.wait(long)
-- java.lang.Object.wait(long,int)
-syntax: public class TriggeredWebJobInner extends ProxyOnlyResource
+- "com.azure.core.management.ProxyResource.id()"
+- "com.azure.core.management.ProxyResource.name()"
+- "com.azure.core.management.ProxyResource.type()"
+- "com.azure.resourcemanager.appservice.models.ProxyOnlyResource.kind()"
+- "com.azure.resourcemanager.appservice.models.ProxyOnlyResource.validate()"
+- "com.azure.resourcemanager.appservice.models.ProxyOnlyResource.withKind(java.lang.String)"
+- "java.lang.Object.clone()"
+- "java.lang.Object.equals(java.lang.Object)"
+- "java.lang.Object.finalize()"
+- "java.lang.Object.getClass()"
+- "java.lang.Object.hashCode()"
+- "java.lang.Object.notify()"
+- "java.lang.Object.notifyAll()"
+- "java.lang.Object.toString()"
+- "java.lang.Object.wait()"
+- "java.lang.Object.wait(long)"
+- "java.lang.Object.wait(long,int)"
+syntax: "public class TriggeredWebJobInner extends ProxyOnlyResource"
 constructors:
-- com.azure.resourcemanager.appservice.fluent.inner.TriggeredWebJobInner.TriggeredWebJobInner()
+- "com.azure.resourcemanager.appservice.fluent.inner.TriggeredWebJobInner.TriggeredWebJobInner()"
 methods:
-- com.azure.resourcemanager.appservice.fluent.inner.TriggeredWebJobInner.error()
-- com.azure.resourcemanager.appservice.fluent.inner.TriggeredWebJobInner.extraInfoUrl()
-- com.azure.resourcemanager.appservice.fluent.inner.TriggeredWebJobInner.historyUrl()
-- com.azure.resourcemanager.appservice.fluent.inner.TriggeredWebJobInner.latestRun()
-- com.azure.resourcemanager.appservice.fluent.inner.TriggeredWebJobInner.runCommand()
-- com.azure.resourcemanager.appservice.fluent.inner.TriggeredWebJobInner.schedulerLogsUrl()
-- com.azure.resourcemanager.appservice.fluent.inner.TriggeredWebJobInner.settings()
-- com.azure.resourcemanager.appservice.fluent.inner.TriggeredWebJobInner.url()
-- com.azure.resourcemanager.appservice.fluent.inner.TriggeredWebJobInner.usingSdk()
-- com.azure.resourcemanager.appservice.fluent.inner.TriggeredWebJobInner.validate()
-- com.azure.resourcemanager.appservice.fluent.inner.TriggeredWebJobInner.webJobType()
-- com.azure.resourcemanager.appservice.fluent.inner.TriggeredWebJobInner.withError(java.lang.String)
-- com.azure.resourcemanager.appservice.fluent.inner.TriggeredWebJobInner.withExtraInfoUrl(java.lang.String)
-- com.azure.resourcemanager.appservice.fluent.inner.TriggeredWebJobInner.withHistoryUrl(java.lang.String)
-- com.azure.resourcemanager.appservice.fluent.inner.TriggeredWebJobInner.withLatestRun(com.azure.resourcemanager.appservice.models.TriggeredJobRun)
-- com.azure.resourcemanager.appservice.fluent.inner.TriggeredWebJobInner.withRunCommand(java.lang.String)
-- com.azure.resourcemanager.appservice.fluent.inner.TriggeredWebJobInner.withSchedulerLogsUrl(java.lang.String)
-- com.azure.resourcemanager.appservice.fluent.inner.TriggeredWebJobInner.withSettings(java.util.Map<java.lang.String,java.lang.Object>)
-- com.azure.resourcemanager.appservice.fluent.inner.TriggeredWebJobInner.withUrl(java.lang.String)
-- com.azure.resourcemanager.appservice.fluent.inner.TriggeredWebJobInner.withUsingSdk(java.lang.Boolean)
-- com.azure.resourcemanager.appservice.fluent.inner.TriggeredWebJobInner.withWebJobType(com.azure.resourcemanager.appservice.models.WebJobType)
-type: class
+- "com.azure.resourcemanager.appservice.fluent.inner.TriggeredWebJobInner.error()"
+- "com.azure.resourcemanager.appservice.fluent.inner.TriggeredWebJobInner.extraInfoUrl()"
+- "com.azure.resourcemanager.appservice.fluent.inner.TriggeredWebJobInner.historyUrl()"
+- "com.azure.resourcemanager.appservice.fluent.inner.TriggeredWebJobInner.latestRun()"
+- "com.azure.resourcemanager.appservice.fluent.inner.TriggeredWebJobInner.runCommand()"
+- "com.azure.resourcemanager.appservice.fluent.inner.TriggeredWebJobInner.schedulerLogsUrl()"
+- "com.azure.resourcemanager.appservice.fluent.inner.TriggeredWebJobInner.settings()"
+- "com.azure.resourcemanager.appservice.fluent.inner.TriggeredWebJobInner.url()"
+- "com.azure.resourcemanager.appservice.fluent.inner.TriggeredWebJobInner.usingSdk()"
+- "com.azure.resourcemanager.appservice.fluent.inner.TriggeredWebJobInner.validate()"
+- "com.azure.resourcemanager.appservice.fluent.inner.TriggeredWebJobInner.webJobType()"
+- "com.azure.resourcemanager.appservice.fluent.inner.TriggeredWebJobInner.withError(java.lang.String)"
+- "com.azure.resourcemanager.appservice.fluent.inner.TriggeredWebJobInner.withExtraInfoUrl(java.lang.String)"
+- "com.azure.resourcemanager.appservice.fluent.inner.TriggeredWebJobInner.withHistoryUrl(java.lang.String)"
+- "com.azure.resourcemanager.appservice.fluent.inner.TriggeredWebJobInner.withLatestRun(com.azure.resourcemanager.appservice.models.TriggeredJobRun)"
+- "com.azure.resourcemanager.appservice.fluent.inner.TriggeredWebJobInner.withRunCommand(java.lang.String)"
+- "com.azure.resourcemanager.appservice.fluent.inner.TriggeredWebJobInner.withSchedulerLogsUrl(java.lang.String)"
+- "com.azure.resourcemanager.appservice.fluent.inner.TriggeredWebJobInner.withSettings(java.util.Map<java.lang.String,java.lang.Object>)"
+- "com.azure.resourcemanager.appservice.fluent.inner.TriggeredWebJobInner.withUrl(java.lang.String)"
+- "com.azure.resourcemanager.appservice.fluent.inner.TriggeredWebJobInner.withUsingSdk(java.lang.Boolean)"
+- "com.azure.resourcemanager.appservice.fluent.inner.TriggeredWebJobInner.withWebJobType(com.azure.resourcemanager.appservice.models.WebJobType)"
+type: "class"
 metadata: {}
-package: com.azure.resourcemanager.appservice.fluent.inner
+package: "com.azure.resourcemanager.appservice.fluent.inner"
 artifact: com.azure.resourcemanager:azure-resourcemanager-appservice:2.0.0-beta.2

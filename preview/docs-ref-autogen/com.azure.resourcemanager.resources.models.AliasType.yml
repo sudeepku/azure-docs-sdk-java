@@ -1,33 +1,33 @@
 ### YamlMime:JavaType
-uid: com.azure.resourcemanager.resources.models.AliasType
-fullName: com.azure.resourcemanager.resources.models.AliasType
-name: AliasType
-nameWithType: AliasType
-summary: The AliasType model.
+uid: "com.azure.resourcemanager.resources.models.AliasType"
+fullName: "com.azure.resourcemanager.resources.models.AliasType"
+name: "AliasType"
+nameWithType: "AliasType"
+summary: "The AliasType model."
 inheritances:
-- <xref href="java.lang.Object" data-throw-if-not-resolved="False" />
+- "<xref href=\"java.lang.Object\" data-throw-if-not-resolved=\"False\" />"
 inheritedMembers:
-- java.lang.Object.clone()
-- java.lang.Object.equals(java.lang.Object)
-- java.lang.Object.finalize()
-- java.lang.Object.getClass()
-- java.lang.Object.hashCode()
-- java.lang.Object.notify()
-- java.lang.Object.notifyAll()
-- java.lang.Object.toString()
-- java.lang.Object.wait()
-- java.lang.Object.wait(long)
-- java.lang.Object.wait(long,int)
-syntax: public final class AliasType
+- "java.lang.Object.clone()"
+- "java.lang.Object.equals(java.lang.Object)"
+- "java.lang.Object.finalize()"
+- "java.lang.Object.getClass()"
+- "java.lang.Object.hashCode()"
+- "java.lang.Object.notify()"
+- "java.lang.Object.notifyAll()"
+- "java.lang.Object.toString()"
+- "java.lang.Object.wait()"
+- "java.lang.Object.wait(long)"
+- "java.lang.Object.wait(long,int)"
+syntax: "public final class AliasType"
 constructors:
-- com.azure.resourcemanager.resources.models.AliasType.AliasType()
+- "com.azure.resourcemanager.resources.models.AliasType.AliasType()"
 methods:
-- com.azure.resourcemanager.resources.models.AliasType.name()
-- com.azure.resourcemanager.resources.models.AliasType.paths()
-- com.azure.resourcemanager.resources.models.AliasType.validate()
-- com.azure.resourcemanager.resources.models.AliasType.withName(java.lang.String)
-- com.azure.resourcemanager.resources.models.AliasType.withPaths(java.util.List<com.azure.resourcemanager.resources.models.AliasPathType>)
-type: class
+- "com.azure.resourcemanager.resources.models.AliasType.name()"
+- "com.azure.resourcemanager.resources.models.AliasType.paths()"
+- "com.azure.resourcemanager.resources.models.AliasType.validate()"
+- "com.azure.resourcemanager.resources.models.AliasType.withName(java.lang.String)"
+- "com.azure.resourcemanager.resources.models.AliasType.withPaths(java.util.List<com.azure.resourcemanager.resources.models.AliasPathType>)"
+type: "class"
 metadata: {}
-package: com.azure.resourcemanager.resources.models
+package: "com.azure.resourcemanager.resources.models"
 artifact: com.azure.resourcemanager:azure-resourcemanager-resources:2.0.0-beta.2

@@ -1,62 +1,62 @@
 ### YamlMime:JavaType
-uid: com.azure.resourcemanager.compute.ComputeManagementClient
-fullName: com.azure.resourcemanager.compute.ComputeManagementClient
-name: ComputeManagementClient
-nameWithType: ComputeManagementClient
-summary: Initializes a new instance of the ComputeManagementClient type.
+uid: "com.azure.resourcemanager.compute.ComputeManagementClient"
+fullName: "com.azure.resourcemanager.compute.ComputeManagementClient"
+name: "ComputeManagementClient"
+nameWithType: "ComputeManagementClient"
+summary: "Initializes a new instance of the ComputeManagementClient type."
 inheritances:
-- <xref href="java.lang.Object" data-throw-if-not-resolved="False" />
-- <xref href="com.azure.resourcemanager.AzureServiceClient" data-throw-if-not-resolved="False" />
+- "<xref href=\"java.lang.Object\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.azure.resourcemanager.AzureServiceClient\" data-throw-if-not-resolved=\"False\" />"
 inheritedMembers:
-- com.azure.resourcemanager.AzureServiceClient.<T,U>getLroResultAsync(reactor.core.publisher.Mono<? extends com.azure.core.http.rest.Response<reactor.core.publisher.Flux<java.nio.ByteBuffer>>>,com.azure.core.http.HttpPipeline,java.lang.reflect.Type,java.lang.reflect.Type)
-- com.azure.resourcemanager.AzureServiceClient.getContext()
-- com.azure.resourcemanager.AzureServiceClient.getSerializerAdapter()
-- com.azure.resourcemanager.AzureServiceClient.userAgent()
-- java.lang.Object.clone()
-- java.lang.Object.equals(java.lang.Object)
-- java.lang.Object.finalize()
-- java.lang.Object.getClass()
-- java.lang.Object.hashCode()
-- java.lang.Object.notify()
-- java.lang.Object.notifyAll()
-- java.lang.Object.toString()
-- java.lang.Object.wait()
-- java.lang.Object.wait(long)
-- java.lang.Object.wait(long,int)
-syntax: public final class ComputeManagementClient extends AzureServiceClient
+- "com.azure.resourcemanager.AzureServiceClient.<T,U>getLroResultAsync(reactor.core.publisher.Mono<? extends com.azure.core.http.rest.Response<reactor.core.publisher.Flux<java.nio.ByteBuffer>>>,com.azure.core.http.HttpPipeline,java.lang.reflect.Type,java.lang.reflect.Type)"
+- "com.azure.resourcemanager.AzureServiceClient.getContext()"
+- "com.azure.resourcemanager.AzureServiceClient.getSerializerAdapter()"
+- "com.azure.resourcemanager.AzureServiceClient.userAgent()"
+- "java.lang.Object.clone()"
+- "java.lang.Object.equals(java.lang.Object)"
+- "java.lang.Object.finalize()"
+- "java.lang.Object.getClass()"
+- "java.lang.Object.hashCode()"
+- "java.lang.Object.notify()"
+- "java.lang.Object.notifyAll()"
+- "java.lang.Object.toString()"
+- "java.lang.Object.wait()"
+- "java.lang.Object.wait(long)"
+- "java.lang.Object.wait(long,int)"
+syntax: "public final class ComputeManagementClient extends AzureServiceClient"
 methods:
-- com.azure.resourcemanager.compute.ComputeManagementClient.getAvailabilitySets()
-- com.azure.resourcemanager.compute.ComputeManagementClient.getContainerServices()
-- com.azure.resourcemanager.compute.ComputeManagementClient.getDedicatedHostGroups()
-- com.azure.resourcemanager.compute.ComputeManagementClient.getDedicatedHosts()
-- com.azure.resourcemanager.compute.ComputeManagementClient.getDiskEncryptionSets()
-- com.azure.resourcemanager.compute.ComputeManagementClient.getDisks()
-- com.azure.resourcemanager.compute.ComputeManagementClient.getEndpoint()
-- com.azure.resourcemanager.compute.ComputeManagementClient.getGalleries()
-- com.azure.resourcemanager.compute.ComputeManagementClient.getGalleryApplicationVersions()
-- com.azure.resourcemanager.compute.ComputeManagementClient.getGalleryApplications()
-- com.azure.resourcemanager.compute.ComputeManagementClient.getGalleryImageVersions()
-- com.azure.resourcemanager.compute.ComputeManagementClient.getGalleryImages()
-- com.azure.resourcemanager.compute.ComputeManagementClient.getHttpPipeline()
-- com.azure.resourcemanager.compute.ComputeManagementClient.getImages()
-- com.azure.resourcemanager.compute.ComputeManagementClient.getLogAnalytics()
-- com.azure.resourcemanager.compute.ComputeManagementClient.getOperations()
-- com.azure.resourcemanager.compute.ComputeManagementClient.getProximityPlacementGroups()
-- com.azure.resourcemanager.compute.ComputeManagementClient.getResourceSkus()
-- com.azure.resourcemanager.compute.ComputeManagementClient.getSnapshots()
-- com.azure.resourcemanager.compute.ComputeManagementClient.getSubscriptionId()
-- com.azure.resourcemanager.compute.ComputeManagementClient.getUsages()
-- com.azure.resourcemanager.compute.ComputeManagementClient.getVirtualMachineExtensionImages()
-- com.azure.resourcemanager.compute.ComputeManagementClient.getVirtualMachineExtensions()
-- com.azure.resourcemanager.compute.ComputeManagementClient.getVirtualMachineImages()
-- com.azure.resourcemanager.compute.ComputeManagementClient.getVirtualMachineRunCommands()
-- com.azure.resourcemanager.compute.ComputeManagementClient.getVirtualMachineScaleSetExtensions()
-- com.azure.resourcemanager.compute.ComputeManagementClient.getVirtualMachineScaleSetRollingUpgrades()
-- com.azure.resourcemanager.compute.ComputeManagementClient.getVirtualMachineScaleSetVMs()
-- com.azure.resourcemanager.compute.ComputeManagementClient.getVirtualMachineScaleSets()
-- com.azure.resourcemanager.compute.ComputeManagementClient.getVirtualMachineSizes()
-- com.azure.resourcemanager.compute.ComputeManagementClient.getVirtualMachines()
-type: class
+- "com.azure.resourcemanager.compute.ComputeManagementClient.getAvailabilitySets()"
+- "com.azure.resourcemanager.compute.ComputeManagementClient.getContainerServices()"
+- "com.azure.resourcemanager.compute.ComputeManagementClient.getDedicatedHostGroups()"
+- "com.azure.resourcemanager.compute.ComputeManagementClient.getDedicatedHosts()"
+- "com.azure.resourcemanager.compute.ComputeManagementClient.getDiskEncryptionSets()"
+- "com.azure.resourcemanager.compute.ComputeManagementClient.getDisks()"
+- "com.azure.resourcemanager.compute.ComputeManagementClient.getEndpoint()"
+- "com.azure.resourcemanager.compute.ComputeManagementClient.getGalleries()"
+- "com.azure.resourcemanager.compute.ComputeManagementClient.getGalleryApplicationVersions()"
+- "com.azure.resourcemanager.compute.ComputeManagementClient.getGalleryApplications()"
+- "com.azure.resourcemanager.compute.ComputeManagementClient.getGalleryImageVersions()"
+- "com.azure.resourcemanager.compute.ComputeManagementClient.getGalleryImages()"
+- "com.azure.resourcemanager.compute.ComputeManagementClient.getHttpPipeline()"
+- "com.azure.resourcemanager.compute.ComputeManagementClient.getImages()"
+- "com.azure.resourcemanager.compute.ComputeManagementClient.getLogAnalytics()"
+- "com.azure.resourcemanager.compute.ComputeManagementClient.getOperations()"
+- "com.azure.resourcemanager.compute.ComputeManagementClient.getProximityPlacementGroups()"
+- "com.azure.resourcemanager.compute.ComputeManagementClient.getResourceSkus()"
+- "com.azure.resourcemanager.compute.ComputeManagementClient.getSnapshots()"
+- "com.azure.resourcemanager.compute.ComputeManagementClient.getSubscriptionId()"
+- "com.azure.resourcemanager.compute.ComputeManagementClient.getUsages()"
+- "com.azure.resourcemanager.compute.ComputeManagementClient.getVirtualMachineExtensionImages()"
+- "com.azure.resourcemanager.compute.ComputeManagementClient.getVirtualMachineExtensions()"
+- "com.azure.resourcemanager.compute.ComputeManagementClient.getVirtualMachineImages()"
+- "com.azure.resourcemanager.compute.ComputeManagementClient.getVirtualMachineRunCommands()"
+- "com.azure.resourcemanager.compute.ComputeManagementClient.getVirtualMachineScaleSetExtensions()"
+- "com.azure.resourcemanager.compute.ComputeManagementClient.getVirtualMachineScaleSetRollingUpgrades()"
+- "com.azure.resourcemanager.compute.ComputeManagementClient.getVirtualMachineScaleSetVMs()"
+- "com.azure.resourcemanager.compute.ComputeManagementClient.getVirtualMachineScaleSets()"
+- "com.azure.resourcemanager.compute.ComputeManagementClient.getVirtualMachineSizes()"
+- "com.azure.resourcemanager.compute.ComputeManagementClient.getVirtualMachines()"
+type: "class"
 metadata: {}
-package: com.azure.resourcemanager.compute
+package: "com.azure.resourcemanager.compute"
 artifact: com.azure.resourcemanager:azure-resourcemanager-compute:2.0.0-beta.2

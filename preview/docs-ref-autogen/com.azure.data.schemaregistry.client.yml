@@ -1,19 +1,15 @@
 ### YamlMime:JavaPackage
-uid: com.azure.data.schemaregistry.client
-fullName: com.azure.data.schemaregistry.client
-name: com.azure.data.schemaregistry.client
-summary: |-
-  Package containing the classes for
-   - SchemaRegistryClient interface
-   - CachedSchemaRegistryClient
-   - AzureSchemaRegistryRestService.
+uid: "com.azure.data.schemaregistry.client"
+fullName: "com.azure.data.schemaregistry.client"
+name: "com.azure.data.schemaregistry.client"
+summary: "Package containing the classes for\n - SchemaRegistryClient interface\n - CachedSchemaRegistryClient\n - AzureSchemaRegistryRestService."
 classes:
-- com.azure.data.schemaregistry.client.CachedSchemaRegistryClient
-- com.azure.data.schemaregistry.client.CachedSchemaRegistryClientBuilder
-- com.azure.data.schemaregistry.client.SchemaRegistryClientException
-- com.azure.data.schemaregistry.client.SchemaRegistryObject
+- "com.azure.data.schemaregistry.client.CachedSchemaRegistryClient"
+- "com.azure.data.schemaregistry.client.CachedSchemaRegistryClientBuilder"
+- "com.azure.data.schemaregistry.client.SchemaRegistryClientException"
+- "com.azure.data.schemaregistry.client.SchemaRegistryObject"
 interfaces:
-- com.azure.data.schemaregistry.client.SchemaRegistryClient
+- "com.azure.data.schemaregistry.client.SchemaRegistryClient"
 metadata: {}
-package: com.azure.data.schemaregistry.client
+package: "com.azure.data.schemaregistry.client"
 artifact: com.azure:azure-data-schemaregistry:1.0.0-beta.1

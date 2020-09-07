@@ -1,41 +1,41 @@
 ### YamlMime:JavaType
-uid: com.azure.resourcemanager.monitor.fluent.inner.VMInsightsOnboardingStatusInner
-fullName: com.azure.resourcemanager.monitor.fluent.inner.VMInsightsOnboardingStatusInner
-name: VMInsightsOnboardingStatusInner
-nameWithType: VMInsightsOnboardingStatusInner
-summary: The VMInsightsOnboardingStatus model.
+uid: "com.azure.resourcemanager.monitor.fluent.inner.VMInsightsOnboardingStatusInner"
+fullName: "com.azure.resourcemanager.monitor.fluent.inner.VMInsightsOnboardingStatusInner"
+name: "VMInsightsOnboardingStatusInner"
+nameWithType: "VMInsightsOnboardingStatusInner"
+summary: "The VMInsightsOnboardingStatus model."
 inheritances:
-- <xref href="java.lang.Object" data-throw-if-not-resolved="False" />
-- <xref href="com.azure.core.management.ProxyResource" data-throw-if-not-resolved="False" />
+- "<xref href=\"java.lang.Object\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.azure.core.management.ProxyResource\" data-throw-if-not-resolved=\"False\" />"
 inheritedMembers:
-- com.azure.core.management.ProxyResource.id()
-- com.azure.core.management.ProxyResource.name()
-- com.azure.core.management.ProxyResource.type()
-- java.lang.Object.clone()
-- java.lang.Object.equals(java.lang.Object)
-- java.lang.Object.finalize()
-- java.lang.Object.getClass()
-- java.lang.Object.hashCode()
-- java.lang.Object.notify()
-- java.lang.Object.notifyAll()
-- java.lang.Object.toString()
-- java.lang.Object.wait()
-- java.lang.Object.wait(long)
-- java.lang.Object.wait(long,int)
-syntax: public class VMInsightsOnboardingStatusInner extends ProxyResource
+- "com.azure.core.management.ProxyResource.id()"
+- "com.azure.core.management.ProxyResource.name()"
+- "com.azure.core.management.ProxyResource.type()"
+- "java.lang.Object.clone()"
+- "java.lang.Object.equals(java.lang.Object)"
+- "java.lang.Object.finalize()"
+- "java.lang.Object.getClass()"
+- "java.lang.Object.hashCode()"
+- "java.lang.Object.notify()"
+- "java.lang.Object.notifyAll()"
+- "java.lang.Object.toString()"
+- "java.lang.Object.wait()"
+- "java.lang.Object.wait(long)"
+- "java.lang.Object.wait(long,int)"
+syntax: "public class VMInsightsOnboardingStatusInner extends ProxyResource"
 constructors:
-- com.azure.resourcemanager.monitor.fluent.inner.VMInsightsOnboardingStatusInner.VMInsightsOnboardingStatusInner()
+- "com.azure.resourcemanager.monitor.fluent.inner.VMInsightsOnboardingStatusInner.VMInsightsOnboardingStatusInner()"
 methods:
-- com.azure.resourcemanager.monitor.fluent.inner.VMInsightsOnboardingStatusInner.data()
-- com.azure.resourcemanager.monitor.fluent.inner.VMInsightsOnboardingStatusInner.dataStatus()
-- com.azure.resourcemanager.monitor.fluent.inner.VMInsightsOnboardingStatusInner.onboardingStatus()
-- com.azure.resourcemanager.monitor.fluent.inner.VMInsightsOnboardingStatusInner.resourceId()
-- com.azure.resourcemanager.monitor.fluent.inner.VMInsightsOnboardingStatusInner.validate()
-- com.azure.resourcemanager.monitor.fluent.inner.VMInsightsOnboardingStatusInner.withData(java.util.List<com.azure.resourcemanager.monitor.models.DataContainer>)
-- com.azure.resourcemanager.monitor.fluent.inner.VMInsightsOnboardingStatusInner.withDataStatus(com.azure.resourcemanager.monitor.models.DataStatus)
-- com.azure.resourcemanager.monitor.fluent.inner.VMInsightsOnboardingStatusInner.withOnboardingStatus(com.azure.resourcemanager.monitor.models.OnboardingStatus)
-- com.azure.resourcemanager.monitor.fluent.inner.VMInsightsOnboardingStatusInner.withResourceId(java.lang.String)
-type: class
+- "com.azure.resourcemanager.monitor.fluent.inner.VMInsightsOnboardingStatusInner.data()"
+- "com.azure.resourcemanager.monitor.fluent.inner.VMInsightsOnboardingStatusInner.dataStatus()"
+- "com.azure.resourcemanager.monitor.fluent.inner.VMInsightsOnboardingStatusInner.onboardingStatus()"
+- "com.azure.resourcemanager.monitor.fluent.inner.VMInsightsOnboardingStatusInner.resourceId()"
+- "com.azure.resourcemanager.monitor.fluent.inner.VMInsightsOnboardingStatusInner.validate()"
+- "com.azure.resourcemanager.monitor.fluent.inner.VMInsightsOnboardingStatusInner.withData(java.util.List<com.azure.resourcemanager.monitor.models.DataContainer>)"
+- "com.azure.resourcemanager.monitor.fluent.inner.VMInsightsOnboardingStatusInner.withDataStatus(com.azure.resourcemanager.monitor.models.DataStatus)"
+- "com.azure.resourcemanager.monitor.fluent.inner.VMInsightsOnboardingStatusInner.withOnboardingStatus(com.azure.resourcemanager.monitor.models.OnboardingStatus)"
+- "com.azure.resourcemanager.monitor.fluent.inner.VMInsightsOnboardingStatusInner.withResourceId(java.lang.String)"
+type: "class"
 metadata: {}
-package: com.azure.resourcemanager.monitor.fluent.inner
+package: "com.azure.resourcemanager.monitor.fluent.inner"
 artifact: com.azure.resourcemanager:azure-resourcemanager-monitor:2.0.0-beta.2

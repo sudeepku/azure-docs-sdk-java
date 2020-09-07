@@ -1,47 +1,47 @@
 ### YamlMime:JavaType
-uid: com.azure.resourcemanager.appservice.fluent.inner.SiteSourceControlInner
-fullName: com.azure.resourcemanager.appservice.fluent.inner.SiteSourceControlInner
-name: SiteSourceControlInner
-nameWithType: SiteSourceControlInner
-summary: The SiteSourceControl model.
+uid: "com.azure.resourcemanager.appservice.fluent.inner.SiteSourceControlInner"
+fullName: "com.azure.resourcemanager.appservice.fluent.inner.SiteSourceControlInner"
+name: "SiteSourceControlInner"
+nameWithType: "SiteSourceControlInner"
+summary: "The SiteSourceControl model."
 inheritances:
-- <xref href="java.lang.Object" data-throw-if-not-resolved="False" />
-- <xref href="com.azure.core.management.ProxyResource" data-throw-if-not-resolved="False" />
-- <xref href="com.azure.resourcemanager.appservice.models.ProxyOnlyResource" data-throw-if-not-resolved="False" />
+- "<xref href=\"java.lang.Object\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.azure.core.management.ProxyResource\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.azure.resourcemanager.appservice.models.ProxyOnlyResource\" data-throw-if-not-resolved=\"False\" />"
 inheritedMembers:
-- com.azure.core.management.ProxyResource.id()
-- com.azure.core.management.ProxyResource.name()
-- com.azure.core.management.ProxyResource.type()
-- com.azure.resourcemanager.appservice.models.ProxyOnlyResource.kind()
-- com.azure.resourcemanager.appservice.models.ProxyOnlyResource.validate()
-- com.azure.resourcemanager.appservice.models.ProxyOnlyResource.withKind(java.lang.String)
-- java.lang.Object.clone()
-- java.lang.Object.equals(java.lang.Object)
-- java.lang.Object.finalize()
-- java.lang.Object.getClass()
-- java.lang.Object.hashCode()
-- java.lang.Object.notify()
-- java.lang.Object.notifyAll()
-- java.lang.Object.toString()
-- java.lang.Object.wait()
-- java.lang.Object.wait(long)
-- java.lang.Object.wait(long,int)
-syntax: public class SiteSourceControlInner extends ProxyOnlyResource
+- "com.azure.core.management.ProxyResource.id()"
+- "com.azure.core.management.ProxyResource.name()"
+- "com.azure.core.management.ProxyResource.type()"
+- "com.azure.resourcemanager.appservice.models.ProxyOnlyResource.kind()"
+- "com.azure.resourcemanager.appservice.models.ProxyOnlyResource.validate()"
+- "com.azure.resourcemanager.appservice.models.ProxyOnlyResource.withKind(java.lang.String)"
+- "java.lang.Object.clone()"
+- "java.lang.Object.equals(java.lang.Object)"
+- "java.lang.Object.finalize()"
+- "java.lang.Object.getClass()"
+- "java.lang.Object.hashCode()"
+- "java.lang.Object.notify()"
+- "java.lang.Object.notifyAll()"
+- "java.lang.Object.toString()"
+- "java.lang.Object.wait()"
+- "java.lang.Object.wait(long)"
+- "java.lang.Object.wait(long,int)"
+syntax: "public class SiteSourceControlInner extends ProxyOnlyResource"
 constructors:
-- com.azure.resourcemanager.appservice.fluent.inner.SiteSourceControlInner.SiteSourceControlInner()
+- "com.azure.resourcemanager.appservice.fluent.inner.SiteSourceControlInner.SiteSourceControlInner()"
 methods:
-- com.azure.resourcemanager.appservice.fluent.inner.SiteSourceControlInner.branch()
-- com.azure.resourcemanager.appservice.fluent.inner.SiteSourceControlInner.deploymentRollbackEnabled()
-- com.azure.resourcemanager.appservice.fluent.inner.SiteSourceControlInner.isManualIntegration()
-- com.azure.resourcemanager.appservice.fluent.inner.SiteSourceControlInner.isMercurial()
-- com.azure.resourcemanager.appservice.fluent.inner.SiteSourceControlInner.repoUrl()
-- com.azure.resourcemanager.appservice.fluent.inner.SiteSourceControlInner.validate()
-- com.azure.resourcemanager.appservice.fluent.inner.SiteSourceControlInner.withBranch(java.lang.String)
-- com.azure.resourcemanager.appservice.fluent.inner.SiteSourceControlInner.withDeploymentRollbackEnabled(java.lang.Boolean)
-- com.azure.resourcemanager.appservice.fluent.inner.SiteSourceControlInner.withIsManualIntegration(java.lang.Boolean)
-- com.azure.resourcemanager.appservice.fluent.inner.SiteSourceControlInner.withIsMercurial(java.lang.Boolean)
-- com.azure.resourcemanager.appservice.fluent.inner.SiteSourceControlInner.withRepoUrl(java.lang.String)
-type: class
+- "com.azure.resourcemanager.appservice.fluent.inner.SiteSourceControlInner.branch()"
+- "com.azure.resourcemanager.appservice.fluent.inner.SiteSourceControlInner.deploymentRollbackEnabled()"
+- "com.azure.resourcemanager.appservice.fluent.inner.SiteSourceControlInner.isManualIntegration()"
+- "com.azure.resourcemanager.appservice.fluent.inner.SiteSourceControlInner.isMercurial()"
+- "com.azure.resourcemanager.appservice.fluent.inner.SiteSourceControlInner.repoUrl()"
+- "com.azure.resourcemanager.appservice.fluent.inner.SiteSourceControlInner.validate()"
+- "com.azure.resourcemanager.appservice.fluent.inner.SiteSourceControlInner.withBranch(java.lang.String)"
+- "com.azure.resourcemanager.appservice.fluent.inner.SiteSourceControlInner.withDeploymentRollbackEnabled(java.lang.Boolean)"
+- "com.azure.resourcemanager.appservice.fluent.inner.SiteSourceControlInner.withIsManualIntegration(java.lang.Boolean)"
+- "com.azure.resourcemanager.appservice.fluent.inner.SiteSourceControlInner.withIsMercurial(java.lang.Boolean)"
+- "com.azure.resourcemanager.appservice.fluent.inner.SiteSourceControlInner.withRepoUrl(java.lang.String)"
+type: "class"
 metadata: {}
-package: com.azure.resourcemanager.appservice.fluent.inner
+package: "com.azure.resourcemanager.appservice.fluent.inner"
 artifact: com.azure.resourcemanager:azure-resourcemanager-appservice:2.0.0-beta.2

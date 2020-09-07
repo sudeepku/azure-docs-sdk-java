@@ -1,34 +1,34 @@
 ### YamlMime:JavaType
-uid: com.azure.search.documents.indexes.implementation.models.StopAnalyzer
-fullName: com.azure.search.documents.indexes.implementation.models.StopAnalyzer
-name: StopAnalyzer
-nameWithType: StopAnalyzer
-summary: The StopAnalyzer model.
+uid: "com.azure.search.documents.indexes.implementation.models.StopAnalyzer"
+fullName: "com.azure.search.documents.indexes.implementation.models.StopAnalyzer"
+name: "StopAnalyzer"
+nameWithType: "StopAnalyzer"
+summary: "The StopAnalyzer model."
 inheritances:
-- <xref href="java.lang.Object" data-throw-if-not-resolved="False" />
-- <xref href="com.azure.search.documents.indexes.implementation.models.LexicalAnalyzer" data-throw-if-not-resolved="False" />
+- "<xref href=\"java.lang.Object\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.azure.search.documents.indexes.implementation.models.LexicalAnalyzer\" data-throw-if-not-resolved=\"False\" />"
 inheritedMembers:
-- com.azure.search.documents.indexes.implementation.models.LexicalAnalyzer.getName()
-- com.azure.search.documents.indexes.implementation.models.LexicalAnalyzer.validate()
-- java.lang.Object.clone()
-- java.lang.Object.equals(java.lang.Object)
-- java.lang.Object.finalize()
-- java.lang.Object.getClass()
-- java.lang.Object.hashCode()
-- java.lang.Object.notify()
-- java.lang.Object.notifyAll()
-- java.lang.Object.toString()
-- java.lang.Object.wait()
-- java.lang.Object.wait(long)
-- java.lang.Object.wait(long,int)
-syntax: public class StopAnalyzer extends LexicalAnalyzer
+- "com.azure.search.documents.indexes.implementation.models.LexicalAnalyzer.getName()"
+- "com.azure.search.documents.indexes.implementation.models.LexicalAnalyzer.validate()"
+- "java.lang.Object.clone()"
+- "java.lang.Object.equals(java.lang.Object)"
+- "java.lang.Object.finalize()"
+- "java.lang.Object.getClass()"
+- "java.lang.Object.hashCode()"
+- "java.lang.Object.notify()"
+- "java.lang.Object.notifyAll()"
+- "java.lang.Object.toString()"
+- "java.lang.Object.wait()"
+- "java.lang.Object.wait(long)"
+- "java.lang.Object.wait(long,int)"
+syntax: "public class StopAnalyzer extends LexicalAnalyzer"
 constructors:
-- com.azure.search.documents.indexes.implementation.models.StopAnalyzer.StopAnalyzer(java.lang.String)
+- "com.azure.search.documents.indexes.implementation.models.StopAnalyzer.StopAnalyzer(java.lang.String)"
 methods:
-- com.azure.search.documents.indexes.implementation.models.StopAnalyzer.getStopwords()
-- com.azure.search.documents.indexes.implementation.models.StopAnalyzer.setStopwords(java.util.List<java.lang.String>)
-- com.azure.search.documents.indexes.implementation.models.StopAnalyzer.validate()
-type: class
+- "com.azure.search.documents.indexes.implementation.models.StopAnalyzer.getStopwords()"
+- "com.azure.search.documents.indexes.implementation.models.StopAnalyzer.setStopwords(java.util.List<java.lang.String>)"
+- "com.azure.search.documents.indexes.implementation.models.StopAnalyzer.validate()"
+type: "class"
 metadata: {}
-package: com.azure.search.documents.indexes.implementation.models
+package: "com.azure.search.documents.indexes.implementation.models"
 artifact: com.azure:azure-search-documents:11.0.0

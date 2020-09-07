@@ -1,15 +1,15 @@
 ### YamlMime:JavaMember
-uid: com.microsoft.azure.sdk.iot.deps.util.ObjectLock.ObjectLock*
-fullName: com.microsoft.azure.sdk.iot.deps.util.ObjectLock.ObjectLock
-name: ObjectLock
-nameWithType: ObjectLock.ObjectLock
+uid: "com.microsoft.azure.sdk.iot.deps.util.ObjectLock.ObjectLock*"
+fullName: "com.microsoft.azure.sdk.iot.deps.util.ObjectLock.ObjectLock"
+name: "ObjectLock"
+nameWithType: "ObjectLock.ObjectLock"
 members:
-- uid: com.microsoft.azure.sdk.iot.deps.util.ObjectLock.ObjectLock()
-  fullName: com.microsoft.azure.sdk.iot.deps.util.ObjectLock.ObjectLock()
-  name: ObjectLock()
-  nameWithType: ObjectLock.ObjectLock()
-  syntax: public ObjectLock()
-type: constructor
+- uid: "com.microsoft.azure.sdk.iot.deps.util.ObjectLock.ObjectLock()"
+  fullName: "com.microsoft.azure.sdk.iot.deps.util.ObjectLock.ObjectLock()"
+  name: "ObjectLock()"
+  nameWithType: "ObjectLock.ObjectLock()"
+  syntax: "public ObjectLock()"
+type: "constructor"
 metadata: {}
-package: com.microsoft.azure.sdk.iot.deps.util
+package: "com.microsoft.azure.sdk.iot.deps.util"
 artifact: com.microsoft.azure.sdk.iot:iot-deps-preview:1.1.0

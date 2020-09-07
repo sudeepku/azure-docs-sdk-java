@@ -1,52 +1,52 @@
 ### YamlMime:JavaType
-uid: com.azure.resourcemanager.storage.fluent.PrivateEndpointConnectionsClient
-fullName: com.azure.resourcemanager.storage.fluent.PrivateEndpointConnectionsClient
-name: PrivateEndpointConnectionsClient
-nameWithType: PrivateEndpointConnectionsClient
-summary: An instance of this class provides access to all the operations defined in PrivateEndpointConnections.
+uid: "com.azure.resourcemanager.storage.fluent.PrivateEndpointConnectionsClient"
+fullName: "com.azure.resourcemanager.storage.fluent.PrivateEndpointConnectionsClient"
+name: "PrivateEndpointConnectionsClient"
+nameWithType: "PrivateEndpointConnectionsClient"
+summary: "An instance of this class provides access to all the operations defined in PrivateEndpointConnections."
 inheritances:
-- <xref href="java.lang.Object" data-throw-if-not-resolved="False" />
+- "<xref href=\"java.lang.Object\" data-throw-if-not-resolved=\"False\" />"
 inheritedMembers:
-- java.lang.Object.clone()
-- java.lang.Object.equals(java.lang.Object)
-- java.lang.Object.finalize()
-- java.lang.Object.getClass()
-- java.lang.Object.hashCode()
-- java.lang.Object.notify()
-- java.lang.Object.notifyAll()
-- java.lang.Object.toString()
-- java.lang.Object.wait()
-- java.lang.Object.wait(long)
-- java.lang.Object.wait(long,int)
-syntax: public final class PrivateEndpointConnectionsClient
+- "java.lang.Object.clone()"
+- "java.lang.Object.equals(java.lang.Object)"
+- "java.lang.Object.finalize()"
+- "java.lang.Object.getClass()"
+- "java.lang.Object.hashCode()"
+- "java.lang.Object.notify()"
+- "java.lang.Object.notifyAll()"
+- "java.lang.Object.toString()"
+- "java.lang.Object.wait()"
+- "java.lang.Object.wait(long)"
+- "java.lang.Object.wait(long,int)"
+syntax: "public final class PrivateEndpointConnectionsClient"
 constructors:
-- com.azure.resourcemanager.storage.fluent.PrivateEndpointConnectionsClient.PrivateEndpointConnectionsClient(com.azure.resourcemanager.storage.StorageManagementClient)
+- "com.azure.resourcemanager.storage.fluent.PrivateEndpointConnectionsClient.PrivateEndpointConnectionsClient(com.azure.resourcemanager.storage.StorageManagementClient)"
 methods:
-- com.azure.resourcemanager.storage.fluent.PrivateEndpointConnectionsClient.delete(java.lang.String,java.lang.String,java.lang.String)
-- com.azure.resourcemanager.storage.fluent.PrivateEndpointConnectionsClient.delete(java.lang.String,java.lang.String,java.lang.String,com.azure.core.util.Context)
-- com.azure.resourcemanager.storage.fluent.PrivateEndpointConnectionsClient.deleteAsync(java.lang.String,java.lang.String,java.lang.String)
-- com.azure.resourcemanager.storage.fluent.PrivateEndpointConnectionsClient.deleteAsync(java.lang.String,java.lang.String,java.lang.String,com.azure.core.util.Context)
-- com.azure.resourcemanager.storage.fluent.PrivateEndpointConnectionsClient.deleteWithResponseAsync(java.lang.String,java.lang.String,java.lang.String)
-- com.azure.resourcemanager.storage.fluent.PrivateEndpointConnectionsClient.deleteWithResponseAsync(java.lang.String,java.lang.String,java.lang.String,com.azure.core.util.Context)
-- com.azure.resourcemanager.storage.fluent.PrivateEndpointConnectionsClient.get(java.lang.String,java.lang.String,java.lang.String)
-- com.azure.resourcemanager.storage.fluent.PrivateEndpointConnectionsClient.get(java.lang.String,java.lang.String,java.lang.String,com.azure.core.util.Context)
-- com.azure.resourcemanager.storage.fluent.PrivateEndpointConnectionsClient.getAsync(java.lang.String,java.lang.String,java.lang.String)
-- com.azure.resourcemanager.storage.fluent.PrivateEndpointConnectionsClient.getAsync(java.lang.String,java.lang.String,java.lang.String,com.azure.core.util.Context)
-- com.azure.resourcemanager.storage.fluent.PrivateEndpointConnectionsClient.getWithResponseAsync(java.lang.String,java.lang.String,java.lang.String)
-- com.azure.resourcemanager.storage.fluent.PrivateEndpointConnectionsClient.getWithResponseAsync(java.lang.String,java.lang.String,java.lang.String,com.azure.core.util.Context)
-- com.azure.resourcemanager.storage.fluent.PrivateEndpointConnectionsClient.list(java.lang.String,java.lang.String)
-- com.azure.resourcemanager.storage.fluent.PrivateEndpointConnectionsClient.list(java.lang.String,java.lang.String,com.azure.core.util.Context)
-- com.azure.resourcemanager.storage.fluent.PrivateEndpointConnectionsClient.listAsync(java.lang.String,java.lang.String)
-- com.azure.resourcemanager.storage.fluent.PrivateEndpointConnectionsClient.listAsync(java.lang.String,java.lang.String,com.azure.core.util.Context)
-- com.azure.resourcemanager.storage.fluent.PrivateEndpointConnectionsClient.listSinglePageAsync(java.lang.String,java.lang.String)
-- com.azure.resourcemanager.storage.fluent.PrivateEndpointConnectionsClient.listSinglePageAsync(java.lang.String,java.lang.String,com.azure.core.util.Context)
-- com.azure.resourcemanager.storage.fluent.PrivateEndpointConnectionsClient.put(java.lang.String,java.lang.String,java.lang.String,com.azure.resourcemanager.storage.models.PrivateEndpoint,com.azure.resourcemanager.storage.models.PrivateLinkServiceConnectionState)
-- com.azure.resourcemanager.storage.fluent.PrivateEndpointConnectionsClient.put(java.lang.String,java.lang.String,java.lang.String,com.azure.resourcemanager.storage.models.PrivateEndpoint,com.azure.resourcemanager.storage.models.PrivateLinkServiceConnectionState,com.azure.core.util.Context)
-- com.azure.resourcemanager.storage.fluent.PrivateEndpointConnectionsClient.putAsync(java.lang.String,java.lang.String,java.lang.String,com.azure.resourcemanager.storage.models.PrivateEndpoint,com.azure.resourcemanager.storage.models.PrivateLinkServiceConnectionState)
-- com.azure.resourcemanager.storage.fluent.PrivateEndpointConnectionsClient.putAsync(java.lang.String,java.lang.String,java.lang.String,com.azure.resourcemanager.storage.models.PrivateEndpoint,com.azure.resourcemanager.storage.models.PrivateLinkServiceConnectionState,com.azure.core.util.Context)
-- com.azure.resourcemanager.storage.fluent.PrivateEndpointConnectionsClient.putWithResponseAsync(java.lang.String,java.lang.String,java.lang.String,com.azure.resourcemanager.storage.models.PrivateEndpoint,com.azure.resourcemanager.storage.models.PrivateLinkServiceConnectionState)
-- com.azure.resourcemanager.storage.fluent.PrivateEndpointConnectionsClient.putWithResponseAsync(java.lang.String,java.lang.String,java.lang.String,com.azure.resourcemanager.storage.models.PrivateEndpoint,com.azure.resourcemanager.storage.models.PrivateLinkServiceConnectionState,com.azure.core.util.Context)
-type: class
+- "com.azure.resourcemanager.storage.fluent.PrivateEndpointConnectionsClient.delete(java.lang.String,java.lang.String,java.lang.String)"
+- "com.azure.resourcemanager.storage.fluent.PrivateEndpointConnectionsClient.delete(java.lang.String,java.lang.String,java.lang.String,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.storage.fluent.PrivateEndpointConnectionsClient.deleteAsync(java.lang.String,java.lang.String,java.lang.String)"
+- "com.azure.resourcemanager.storage.fluent.PrivateEndpointConnectionsClient.deleteAsync(java.lang.String,java.lang.String,java.lang.String,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.storage.fluent.PrivateEndpointConnectionsClient.deleteWithResponseAsync(java.lang.String,java.lang.String,java.lang.String)"
+- "com.azure.resourcemanager.storage.fluent.PrivateEndpointConnectionsClient.deleteWithResponseAsync(java.lang.String,java.lang.String,java.lang.String,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.storage.fluent.PrivateEndpointConnectionsClient.get(java.lang.String,java.lang.String,java.lang.String)"
+- "com.azure.resourcemanager.storage.fluent.PrivateEndpointConnectionsClient.get(java.lang.String,java.lang.String,java.lang.String,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.storage.fluent.PrivateEndpointConnectionsClient.getAsync(java.lang.String,java.lang.String,java.lang.String)"
+- "com.azure.resourcemanager.storage.fluent.PrivateEndpointConnectionsClient.getAsync(java.lang.String,java.lang.String,java.lang.String,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.storage.fluent.PrivateEndpointConnectionsClient.getWithResponseAsync(java.lang.String,java.lang.String,java.lang.String)"
+- "com.azure.resourcemanager.storage.fluent.PrivateEndpointConnectionsClient.getWithResponseAsync(java.lang.String,java.lang.String,java.lang.String,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.storage.fluent.PrivateEndpointConnectionsClient.list(java.lang.String,java.lang.String)"
+- "com.azure.resourcemanager.storage.fluent.PrivateEndpointConnectionsClient.list(java.lang.String,java.lang.String,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.storage.fluent.PrivateEndpointConnectionsClient.listAsync(java.lang.String,java.lang.String)"
+- "com.azure.resourcemanager.storage.fluent.PrivateEndpointConnectionsClient.listAsync(java.lang.String,java.lang.String,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.storage.fluent.PrivateEndpointConnectionsClient.listSinglePageAsync(java.lang.String,java.lang.String)"
+- "com.azure.resourcemanager.storage.fluent.PrivateEndpointConnectionsClient.listSinglePageAsync(java.lang.String,java.lang.String,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.storage.fluent.PrivateEndpointConnectionsClient.put(java.lang.String,java.lang.String,java.lang.String,com.azure.resourcemanager.storage.models.PrivateEndpoint,com.azure.resourcemanager.storage.models.PrivateLinkServiceConnectionState)"
+- "com.azure.resourcemanager.storage.fluent.PrivateEndpointConnectionsClient.put(java.lang.String,java.lang.String,java.lang.String,com.azure.resourcemanager.storage.models.PrivateEndpoint,com.azure.resourcemanager.storage.models.PrivateLinkServiceConnectionState,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.storage.fluent.PrivateEndpointConnectionsClient.putAsync(java.lang.String,java.lang.String,java.lang.String,com.azure.resourcemanager.storage.models.PrivateEndpoint,com.azure.resourcemanager.storage.models.PrivateLinkServiceConnectionState)"
+- "com.azure.resourcemanager.storage.fluent.PrivateEndpointConnectionsClient.putAsync(java.lang.String,java.lang.String,java.lang.String,com.azure.resourcemanager.storage.models.PrivateEndpoint,com.azure.resourcemanager.storage.models.PrivateLinkServiceConnectionState,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.storage.fluent.PrivateEndpointConnectionsClient.putWithResponseAsync(java.lang.String,java.lang.String,java.lang.String,com.azure.resourcemanager.storage.models.PrivateEndpoint,com.azure.resourcemanager.storage.models.PrivateLinkServiceConnectionState)"
+- "com.azure.resourcemanager.storage.fluent.PrivateEndpointConnectionsClient.putWithResponseAsync(java.lang.String,java.lang.String,java.lang.String,com.azure.resourcemanager.storage.models.PrivateEndpoint,com.azure.resourcemanager.storage.models.PrivateLinkServiceConnectionState,com.azure.core.util.Context)"
+type: "class"
 metadata: {}
-package: com.azure.resourcemanager.storage.fluent
+package: "com.azure.resourcemanager.storage.fluent"
 artifact: com.azure.resourcemanager:azure-resourcemanager-storage:2.0.0-beta.2

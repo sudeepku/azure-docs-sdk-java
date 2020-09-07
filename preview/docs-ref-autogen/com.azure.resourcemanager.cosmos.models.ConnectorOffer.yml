@@ -1,75 +1,75 @@
 ### YamlMime:JavaEnum
-uid: com.azure.resourcemanager.cosmos.models.ConnectorOffer
-fullName: com.azure.resourcemanager.cosmos.models.ConnectorOffer
-name: ConnectorOffer
-nameWithType: ConnectorOffer
-summary: Defines values for ConnectorOffer.
+uid: "com.azure.resourcemanager.cosmos.models.ConnectorOffer"
+fullName: "com.azure.resourcemanager.cosmos.models.ConnectorOffer"
+name: "ConnectorOffer"
+nameWithType: "ConnectorOffer"
+summary: "Defines values for ConnectorOffer."
 inheritances:
-- <xref href="java.lang.Object" data-throw-if-not-resolved="False" />
-- <xref href="java.lang.Enum" data-throw-if-not-resolved="False" />
+- "<xref href=\"java.lang.Object\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"java.lang.Enum\" data-throw-if-not-resolved=\"False\" />"
 inheritedMembers:
-- java.lang.Enum.<T>valueOf(java.lang.Class<T>,java.lang.String)
-- java.lang.Enum.clone()
-- java.lang.Enum.compareTo(E)
-- java.lang.Enum.equals(java.lang.Object)
-- java.lang.Enum.finalize()
-- java.lang.Enum.getDeclaringClass()
-- java.lang.Enum.hashCode()
-- java.lang.Enum.name()
-- java.lang.Enum.ordinal()
-- java.lang.Enum.toString()
-- java.lang.Object.getClass()
-- java.lang.Object.notify()
-- java.lang.Object.notifyAll()
-- java.lang.Object.wait()
-- java.lang.Object.wait(long)
-- java.lang.Object.wait(long,int)
-syntax: public enum ConnectorOffer extends Enum<ConnectorOffer>
+- "java.lang.Enum.<T>valueOf(java.lang.Class<T>,java.lang.String)"
+- "java.lang.Enum.clone()"
+- "java.lang.Enum.compareTo(E)"
+- "java.lang.Enum.equals(java.lang.Object)"
+- "java.lang.Enum.finalize()"
+- "java.lang.Enum.getDeclaringClass()"
+- "java.lang.Enum.hashCode()"
+- "java.lang.Enum.name()"
+- "java.lang.Enum.ordinal()"
+- "java.lang.Enum.toString()"
+- "java.lang.Object.getClass()"
+- "java.lang.Object.notify()"
+- "java.lang.Object.notifyAll()"
+- "java.lang.Object.wait()"
+- "java.lang.Object.wait(long)"
+- "java.lang.Object.wait(long,int)"
+syntax: "public enum ConnectorOffer extends Enum<ConnectorOffer>"
 fields:
-- uid: com.azure.resourcemanager.cosmos.models.ConnectorOffer.SMALL
-  fullName: com.azure.resourcemanager.cosmos.models.ConnectorOffer.SMALL
-  name: SMALL
-  nameWithType: ConnectorOffer.SMALL
-  summary: Enum value Small.
+- uid: "com.azure.resourcemanager.cosmos.models.ConnectorOffer.SMALL"
+  fullName: "com.azure.resourcemanager.cosmos.models.ConnectorOffer.SMALL"
+  name: "SMALL"
+  nameWithType: "ConnectorOffer.SMALL"
+  summary: "Enum value Small."
 methods:
-- uid: com.azure.resourcemanager.cosmos.models.ConnectorOffer.fromString(java.lang.String)
-  fullName: com.azure.resourcemanager.cosmos.models.ConnectorOffer.fromString(String value)
-  name: fromString(String value)
-  nameWithType: ConnectorOffer.fromString(String value)
-  summary: Parses a serialized value to a ConnectorOffer instance.
+- uid: "com.azure.resourcemanager.cosmos.models.ConnectorOffer.fromString(java.lang.String)"
+  fullName: "com.azure.resourcemanager.cosmos.models.ConnectorOffer.fromString(String value)"
+  name: "fromString(String value)"
+  nameWithType: "ConnectorOffer.fromString(String value)"
+  summary: "Parses a serialized value to a ConnectorOffer instance."
   parameters:
-  - description: the serialized value to parse.
-    name: value
-    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
-  syntax: public static ConnectorOffer fromString(String value)
+  - description: "the serialized value to parse."
+    name: "value"
+    type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static ConnectorOffer fromString(String value)"
   returns:
-    description: the parsed ConnectorOffer object, or null if unable to parse.
-    type: <xref href="com.azure.resourcemanager.cosmos.models.ConnectorOffer?alt=com.azure.resourcemanager.cosmos.models.ConnectorOffer&text=ConnectorOffer" data-throw-if-not-resolved="False" />
-- uid: com.azure.resourcemanager.cosmos.models.ConnectorOffer.toString()
-  fullName: com.azure.resourcemanager.cosmos.models.ConnectorOffer.toString()
-  name: toString()
-  nameWithType: ConnectorOffer.toString()
-  overridden: java.lang.Enum.toString()
-  syntax: public String toString()
+    description: "the parsed ConnectorOffer object, or null if unable to parse."
+    type: "<xref href=\"com.azure.resourcemanager.cosmos.models.ConnectorOffer?alt=com.azure.resourcemanager.cosmos.models.ConnectorOffer&text=ConnectorOffer\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.cosmos.models.ConnectorOffer.toString()"
+  fullName: "com.azure.resourcemanager.cosmos.models.ConnectorOffer.toString()"
+  name: "toString()"
+  nameWithType: "ConnectorOffer.toString()"
+  overridden: "java.lang.Enum.toString()"
+  syntax: "public String toString()"
   returns:
-    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
-- uid: com.azure.resourcemanager.cosmos.models.ConnectorOffer.valueOf(java.lang.String)
-  fullName: com.azure.resourcemanager.cosmos.models.ConnectorOffer.valueOf(String name)
-  name: valueOf(String name)
-  nameWithType: ConnectorOffer.valueOf(String name)
+    type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.cosmos.models.ConnectorOffer.valueOf(java.lang.String)"
+  fullName: "com.azure.resourcemanager.cosmos.models.ConnectorOffer.valueOf(String name)"
+  name: "valueOf(String name)"
+  nameWithType: "ConnectorOffer.valueOf(String name)"
   parameters:
-  - name: name
-    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
-  syntax: public static ConnectorOffer valueOf(String name)
+  - name: "name"
+    type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static ConnectorOffer valueOf(String name)"
   returns:
-    type: <xref href="com.azure.resourcemanager.cosmos.models.ConnectorOffer?alt=com.azure.resourcemanager.cosmos.models.ConnectorOffer&text=ConnectorOffer" data-throw-if-not-resolved="False" />
-- uid: com.azure.resourcemanager.cosmos.models.ConnectorOffer.values()
-  fullName: com.azure.resourcemanager.cosmos.models.ConnectorOffer.values()
-  name: values()
-  nameWithType: ConnectorOffer.values()
-  syntax: public static ConnectorOffer[] values()
+    type: "<xref href=\"com.azure.resourcemanager.cosmos.models.ConnectorOffer?alt=com.azure.resourcemanager.cosmos.models.ConnectorOffer&text=ConnectorOffer\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.resourcemanager.cosmos.models.ConnectorOffer.values()"
+  fullName: "com.azure.resourcemanager.cosmos.models.ConnectorOffer.values()"
+  name: "values()"
+  nameWithType: "ConnectorOffer.values()"
+  syntax: "public static ConnectorOffer[] values()"
   returns:
-    type: <xref href="com.azure.resourcemanager.cosmos.models.ConnectorOffer?alt=com.azure.resourcemanager.cosmos.models.ConnectorOffer&text=ConnectorOffer" data-throw-if-not-resolved="False" />[]
+    type: "<xref href=\"com.azure.resourcemanager.cosmos.models.ConnectorOffer?alt=com.azure.resourcemanager.cosmos.models.ConnectorOffer&text=ConnectorOffer\" data-throw-if-not-resolved=\"False\" />[]"
 metadata: {}
-package: com.azure.resourcemanager.cosmos.models
+package: "com.azure.resourcemanager.cosmos.models"
 artifact: com.azure.resourcemanager:azure-resourcemanager-cosmos:2.0.0-beta.2

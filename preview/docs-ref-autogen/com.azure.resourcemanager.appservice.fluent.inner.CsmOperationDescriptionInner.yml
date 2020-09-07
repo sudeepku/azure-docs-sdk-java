@@ -1,37 +1,37 @@
 ### YamlMime:JavaType
-uid: com.azure.resourcemanager.appservice.fluent.inner.CsmOperationDescriptionInner
-fullName: com.azure.resourcemanager.appservice.fluent.inner.CsmOperationDescriptionInner
-name: CsmOperationDescriptionInner
-nameWithType: CsmOperationDescriptionInner
-summary: The CsmOperationDescription model.
+uid: "com.azure.resourcemanager.appservice.fluent.inner.CsmOperationDescriptionInner"
+fullName: "com.azure.resourcemanager.appservice.fluent.inner.CsmOperationDescriptionInner"
+name: "CsmOperationDescriptionInner"
+nameWithType: "CsmOperationDescriptionInner"
+summary: "The CsmOperationDescription model."
 inheritances:
-- <xref href="java.lang.Object" data-throw-if-not-resolved="False" />
+- "<xref href=\"java.lang.Object\" data-throw-if-not-resolved=\"False\" />"
 inheritedMembers:
-- java.lang.Object.clone()
-- java.lang.Object.equals(java.lang.Object)
-- java.lang.Object.finalize()
-- java.lang.Object.getClass()
-- java.lang.Object.hashCode()
-- java.lang.Object.notify()
-- java.lang.Object.notifyAll()
-- java.lang.Object.toString()
-- java.lang.Object.wait()
-- java.lang.Object.wait(long)
-- java.lang.Object.wait(long,int)
-syntax: public final class CsmOperationDescriptionInner
+- "java.lang.Object.clone()"
+- "java.lang.Object.equals(java.lang.Object)"
+- "java.lang.Object.finalize()"
+- "java.lang.Object.getClass()"
+- "java.lang.Object.hashCode()"
+- "java.lang.Object.notify()"
+- "java.lang.Object.notifyAll()"
+- "java.lang.Object.toString()"
+- "java.lang.Object.wait()"
+- "java.lang.Object.wait(long)"
+- "java.lang.Object.wait(long,int)"
+syntax: "public final class CsmOperationDescriptionInner"
 constructors:
-- com.azure.resourcemanager.appservice.fluent.inner.CsmOperationDescriptionInner.CsmOperationDescriptionInner()
+- "com.azure.resourcemanager.appservice.fluent.inner.CsmOperationDescriptionInner.CsmOperationDescriptionInner()"
 methods:
-- com.azure.resourcemanager.appservice.fluent.inner.CsmOperationDescriptionInner.display()
-- com.azure.resourcemanager.appservice.fluent.inner.CsmOperationDescriptionInner.name()
-- com.azure.resourcemanager.appservice.fluent.inner.CsmOperationDescriptionInner.origin()
-- com.azure.resourcemanager.appservice.fluent.inner.CsmOperationDescriptionInner.properties()
-- com.azure.resourcemanager.appservice.fluent.inner.CsmOperationDescriptionInner.validate()
-- com.azure.resourcemanager.appservice.fluent.inner.CsmOperationDescriptionInner.withDisplay(com.azure.resourcemanager.appservice.models.CsmOperationDisplay)
-- com.azure.resourcemanager.appservice.fluent.inner.CsmOperationDescriptionInner.withName(java.lang.String)
-- com.azure.resourcemanager.appservice.fluent.inner.CsmOperationDescriptionInner.withOrigin(java.lang.String)
-- com.azure.resourcemanager.appservice.fluent.inner.CsmOperationDescriptionInner.withProperties(com.azure.resourcemanager.appservice.models.CsmOperationDescriptionProperties)
-type: class
+- "com.azure.resourcemanager.appservice.fluent.inner.CsmOperationDescriptionInner.display()"
+- "com.azure.resourcemanager.appservice.fluent.inner.CsmOperationDescriptionInner.name()"
+- "com.azure.resourcemanager.appservice.fluent.inner.CsmOperationDescriptionInner.origin()"
+- "com.azure.resourcemanager.appservice.fluent.inner.CsmOperationDescriptionInner.properties()"
+- "com.azure.resourcemanager.appservice.fluent.inner.CsmOperationDescriptionInner.validate()"
+- "com.azure.resourcemanager.appservice.fluent.inner.CsmOperationDescriptionInner.withDisplay(com.azure.resourcemanager.appservice.models.CsmOperationDisplay)"
+- "com.azure.resourcemanager.appservice.fluent.inner.CsmOperationDescriptionInner.withName(java.lang.String)"
+- "com.azure.resourcemanager.appservice.fluent.inner.CsmOperationDescriptionInner.withOrigin(java.lang.String)"
+- "com.azure.resourcemanager.appservice.fluent.inner.CsmOperationDescriptionInner.withProperties(com.azure.resourcemanager.appservice.models.CsmOperationDescriptionProperties)"
+type: "class"
 metadata: {}
-package: com.azure.resourcemanager.appservice.fluent.inner
+package: "com.azure.resourcemanager.appservice.fluent.inner"
 artifact: com.azure.resourcemanager:azure-resourcemanager-appservice:2.0.0-beta.2

@@ -1,39 +1,39 @@
 ### YamlMime:JavaType
-uid: com.azure.resourcemanager.cosmos.fluent.inner.PartitionMetricInner
-fullName: com.azure.resourcemanager.cosmos.fluent.inner.PartitionMetricInner
-name: PartitionMetricInner
-nameWithType: PartitionMetricInner
-summary: The PartitionMetric model.
+uid: "com.azure.resourcemanager.cosmos.fluent.inner.PartitionMetricInner"
+fullName: "com.azure.resourcemanager.cosmos.fluent.inner.PartitionMetricInner"
+name: "PartitionMetricInner"
+nameWithType: "PartitionMetricInner"
+summary: "The PartitionMetric model."
 inheritances:
-- <xref href="java.lang.Object" data-throw-if-not-resolved="False" />
-- <xref href="com.azure.resourcemanager.cosmos.fluent.inner.MetricInner" data-throw-if-not-resolved="False" />
+- "<xref href=\"java.lang.Object\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.azure.resourcemanager.cosmos.fluent.inner.MetricInner\" data-throw-if-not-resolved=\"False\" />"
 inheritedMembers:
-- com.azure.resourcemanager.cosmos.fluent.inner.MetricInner.endTime()
-- com.azure.resourcemanager.cosmos.fluent.inner.MetricInner.metricValues()
-- com.azure.resourcemanager.cosmos.fluent.inner.MetricInner.name()
-- com.azure.resourcemanager.cosmos.fluent.inner.MetricInner.startTime()
-- com.azure.resourcemanager.cosmos.fluent.inner.MetricInner.timeGrain()
-- com.azure.resourcemanager.cosmos.fluent.inner.MetricInner.unit()
-- com.azure.resourcemanager.cosmos.fluent.inner.MetricInner.validate()
-- java.lang.Object.clone()
-- java.lang.Object.equals(java.lang.Object)
-- java.lang.Object.finalize()
-- java.lang.Object.getClass()
-- java.lang.Object.hashCode()
-- java.lang.Object.notify()
-- java.lang.Object.notifyAll()
-- java.lang.Object.toString()
-- java.lang.Object.wait()
-- java.lang.Object.wait(long)
-- java.lang.Object.wait(long,int)
-syntax: public final class PartitionMetricInner extends MetricInner
+- "com.azure.resourcemanager.cosmos.fluent.inner.MetricInner.endTime()"
+- "com.azure.resourcemanager.cosmos.fluent.inner.MetricInner.metricValues()"
+- "com.azure.resourcemanager.cosmos.fluent.inner.MetricInner.name()"
+- "com.azure.resourcemanager.cosmos.fluent.inner.MetricInner.startTime()"
+- "com.azure.resourcemanager.cosmos.fluent.inner.MetricInner.timeGrain()"
+- "com.azure.resourcemanager.cosmos.fluent.inner.MetricInner.unit()"
+- "com.azure.resourcemanager.cosmos.fluent.inner.MetricInner.validate()"
+- "java.lang.Object.clone()"
+- "java.lang.Object.equals(java.lang.Object)"
+- "java.lang.Object.finalize()"
+- "java.lang.Object.getClass()"
+- "java.lang.Object.hashCode()"
+- "java.lang.Object.notify()"
+- "java.lang.Object.notifyAll()"
+- "java.lang.Object.toString()"
+- "java.lang.Object.wait()"
+- "java.lang.Object.wait(long)"
+- "java.lang.Object.wait(long,int)"
+syntax: "public final class PartitionMetricInner extends MetricInner"
 constructors:
-- com.azure.resourcemanager.cosmos.fluent.inner.PartitionMetricInner.PartitionMetricInner()
+- "com.azure.resourcemanager.cosmos.fluent.inner.PartitionMetricInner.PartitionMetricInner()"
 methods:
-- com.azure.resourcemanager.cosmos.fluent.inner.PartitionMetricInner.partitionId()
-- com.azure.resourcemanager.cosmos.fluent.inner.PartitionMetricInner.partitionKeyRangeId()
-- com.azure.resourcemanager.cosmos.fluent.inner.PartitionMetricInner.validate()
-type: class
+- "com.azure.resourcemanager.cosmos.fluent.inner.PartitionMetricInner.partitionId()"
+- "com.azure.resourcemanager.cosmos.fluent.inner.PartitionMetricInner.partitionKeyRangeId()"
+- "com.azure.resourcemanager.cosmos.fluent.inner.PartitionMetricInner.validate()"
+type: "class"
 metadata: {}
-package: com.azure.resourcemanager.cosmos.fluent.inner
+package: "com.azure.resourcemanager.cosmos.fluent.inner"
 artifact: com.azure.resourcemanager:azure-resourcemanager-cosmos:2.0.0-beta.2

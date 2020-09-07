@@ -1,37 +1,37 @@
 ### YamlMime:JavaType
-uid: com.azure.resourcemanager.appservice.fluent.inner.SiteCloneabilityInner
-fullName: com.azure.resourcemanager.appservice.fluent.inner.SiteCloneabilityInner
-name: SiteCloneabilityInner
-nameWithType: SiteCloneabilityInner
-summary: The SiteCloneability model.
+uid: "com.azure.resourcemanager.appservice.fluent.inner.SiteCloneabilityInner"
+fullName: "com.azure.resourcemanager.appservice.fluent.inner.SiteCloneabilityInner"
+name: "SiteCloneabilityInner"
+nameWithType: "SiteCloneabilityInner"
+summary: "The SiteCloneability model."
 inheritances:
-- <xref href="java.lang.Object" data-throw-if-not-resolved="False" />
+- "<xref href=\"java.lang.Object\" data-throw-if-not-resolved=\"False\" />"
 inheritedMembers:
-- java.lang.Object.clone()
-- java.lang.Object.equals(java.lang.Object)
-- java.lang.Object.finalize()
-- java.lang.Object.getClass()
-- java.lang.Object.hashCode()
-- java.lang.Object.notify()
-- java.lang.Object.notifyAll()
-- java.lang.Object.toString()
-- java.lang.Object.wait()
-- java.lang.Object.wait(long)
-- java.lang.Object.wait(long,int)
-syntax: public final class SiteCloneabilityInner
+- "java.lang.Object.clone()"
+- "java.lang.Object.equals(java.lang.Object)"
+- "java.lang.Object.finalize()"
+- "java.lang.Object.getClass()"
+- "java.lang.Object.hashCode()"
+- "java.lang.Object.notify()"
+- "java.lang.Object.notifyAll()"
+- "java.lang.Object.toString()"
+- "java.lang.Object.wait()"
+- "java.lang.Object.wait(long)"
+- "java.lang.Object.wait(long,int)"
+syntax: "public final class SiteCloneabilityInner"
 constructors:
-- com.azure.resourcemanager.appservice.fluent.inner.SiteCloneabilityInner.SiteCloneabilityInner()
+- "com.azure.resourcemanager.appservice.fluent.inner.SiteCloneabilityInner.SiteCloneabilityInner()"
 methods:
-- com.azure.resourcemanager.appservice.fluent.inner.SiteCloneabilityInner.blockingCharacteristics()
-- com.azure.resourcemanager.appservice.fluent.inner.SiteCloneabilityInner.blockingFeatures()
-- com.azure.resourcemanager.appservice.fluent.inner.SiteCloneabilityInner.result()
-- com.azure.resourcemanager.appservice.fluent.inner.SiteCloneabilityInner.unsupportedFeatures()
-- com.azure.resourcemanager.appservice.fluent.inner.SiteCloneabilityInner.validate()
-- com.azure.resourcemanager.appservice.fluent.inner.SiteCloneabilityInner.withBlockingCharacteristics(java.util.List<com.azure.resourcemanager.appservice.models.SiteCloneabilityCriterion>)
-- com.azure.resourcemanager.appservice.fluent.inner.SiteCloneabilityInner.withBlockingFeatures(java.util.List<com.azure.resourcemanager.appservice.models.SiteCloneabilityCriterion>)
-- com.azure.resourcemanager.appservice.fluent.inner.SiteCloneabilityInner.withResult(com.azure.resourcemanager.appservice.models.CloneAbilityResult)
-- com.azure.resourcemanager.appservice.fluent.inner.SiteCloneabilityInner.withUnsupportedFeatures(java.util.List<com.azure.resourcemanager.appservice.models.SiteCloneabilityCriterion>)
-type: class
+- "com.azure.resourcemanager.appservice.fluent.inner.SiteCloneabilityInner.blockingCharacteristics()"
+- "com.azure.resourcemanager.appservice.fluent.inner.SiteCloneabilityInner.blockingFeatures()"
+- "com.azure.resourcemanager.appservice.fluent.inner.SiteCloneabilityInner.result()"
+- "com.azure.resourcemanager.appservice.fluent.inner.SiteCloneabilityInner.unsupportedFeatures()"
+- "com.azure.resourcemanager.appservice.fluent.inner.SiteCloneabilityInner.validate()"
+- "com.azure.resourcemanager.appservice.fluent.inner.SiteCloneabilityInner.withBlockingCharacteristics(java.util.List<com.azure.resourcemanager.appservice.models.SiteCloneabilityCriterion>)"
+- "com.azure.resourcemanager.appservice.fluent.inner.SiteCloneabilityInner.withBlockingFeatures(java.util.List<com.azure.resourcemanager.appservice.models.SiteCloneabilityCriterion>)"
+- "com.azure.resourcemanager.appservice.fluent.inner.SiteCloneabilityInner.withResult(com.azure.resourcemanager.appservice.models.CloneAbilityResult)"
+- "com.azure.resourcemanager.appservice.fluent.inner.SiteCloneabilityInner.withUnsupportedFeatures(java.util.List<com.azure.resourcemanager.appservice.models.SiteCloneabilityCriterion>)"
+type: "class"
 metadata: {}
-package: com.azure.resourcemanager.appservice.fluent.inner
+package: "com.azure.resourcemanager.appservice.fluent.inner"
 artifact: com.azure.resourcemanager:azure-resourcemanager-appservice:2.0.0-beta.2

@@ -1,77 +1,77 @@
 ### YamlMime:JavaType
-uid: com.azure.resourcemanager.network.fluent.ExpressRouteGatewaysClient
-fullName: com.azure.resourcemanager.network.fluent.ExpressRouteGatewaysClient
-name: ExpressRouteGatewaysClient
-nameWithType: ExpressRouteGatewaysClient
-summary: An instance of this class provides access to all the operations defined in ExpressRouteGateways.
+uid: "com.azure.resourcemanager.network.fluent.ExpressRouteGatewaysClient"
+fullName: "com.azure.resourcemanager.network.fluent.ExpressRouteGatewaysClient"
+name: "ExpressRouteGatewaysClient"
+nameWithType: "ExpressRouteGatewaysClient"
+summary: "An instance of this class provides access to all the operations defined in ExpressRouteGateways."
 inheritances:
-- <xref href="java.lang.Object" data-throw-if-not-resolved="False" />
+- "<xref href=\"java.lang.Object\" data-throw-if-not-resolved=\"False\" />"
 inheritedMembers:
-- java.lang.Object.clone()
-- java.lang.Object.equals(java.lang.Object)
-- java.lang.Object.finalize()
-- java.lang.Object.getClass()
-- java.lang.Object.hashCode()
-- java.lang.Object.notify()
-- java.lang.Object.notifyAll()
-- java.lang.Object.toString()
-- java.lang.Object.wait()
-- java.lang.Object.wait(long)
-- java.lang.Object.wait(long,int)
-syntax: public final class ExpressRouteGatewaysClient implements InnerSupportsGet<ExpressRouteGatewayInner>, InnerSupportsDelete<Void>
+- "java.lang.Object.clone()"
+- "java.lang.Object.equals(java.lang.Object)"
+- "java.lang.Object.finalize()"
+- "java.lang.Object.getClass()"
+- "java.lang.Object.hashCode()"
+- "java.lang.Object.notify()"
+- "java.lang.Object.notifyAll()"
+- "java.lang.Object.toString()"
+- "java.lang.Object.wait()"
+- "java.lang.Object.wait(long)"
+- "java.lang.Object.wait(long,int)"
+syntax: "public final class ExpressRouteGatewaysClient implements InnerSupportsGet<ExpressRouteGatewayInner>, InnerSupportsDelete<Void>"
 constructors:
-- com.azure.resourcemanager.network.fluent.ExpressRouteGatewaysClient.ExpressRouteGatewaysClient(com.azure.resourcemanager.network.NetworkManagementClient)
+- "com.azure.resourcemanager.network.fluent.ExpressRouteGatewaysClient.ExpressRouteGatewaysClient(com.azure.resourcemanager.network.NetworkManagementClient)"
 methods:
-- com.azure.resourcemanager.network.fluent.ExpressRouteGatewaysClient.beginCreateOrUpdate(java.lang.String,java.lang.String,com.azure.resourcemanager.network.fluent.inner.ExpressRouteGatewayInner)
-- com.azure.resourcemanager.network.fluent.ExpressRouteGatewaysClient.beginCreateOrUpdate(java.lang.String,java.lang.String,com.azure.resourcemanager.network.fluent.inner.ExpressRouteGatewayInner,com.azure.core.util.Context)
-- com.azure.resourcemanager.network.fluent.ExpressRouteGatewaysClient.beginCreateOrUpdateWithoutPolling(java.lang.String,java.lang.String,com.azure.resourcemanager.network.fluent.inner.ExpressRouteGatewayInner)
-- com.azure.resourcemanager.network.fluent.ExpressRouteGatewaysClient.beginCreateOrUpdateWithoutPolling(java.lang.String,java.lang.String,com.azure.resourcemanager.network.fluent.inner.ExpressRouteGatewayInner,com.azure.core.util.Context)
-- com.azure.resourcemanager.network.fluent.ExpressRouteGatewaysClient.beginCreateOrUpdateWithoutPollingAsync(java.lang.String,java.lang.String,com.azure.resourcemanager.network.fluent.inner.ExpressRouteGatewayInner)
-- com.azure.resourcemanager.network.fluent.ExpressRouteGatewaysClient.beginCreateOrUpdateWithoutPollingAsync(java.lang.String,java.lang.String,com.azure.resourcemanager.network.fluent.inner.ExpressRouteGatewayInner,com.azure.core.util.Context)
-- com.azure.resourcemanager.network.fluent.ExpressRouteGatewaysClient.beginCreateOrUpdateWithoutPollingWithResponseAsync(java.lang.String,java.lang.String,com.azure.resourcemanager.network.fluent.inner.ExpressRouteGatewayInner)
-- com.azure.resourcemanager.network.fluent.ExpressRouteGatewaysClient.beginCreateOrUpdateWithoutPollingWithResponseAsync(java.lang.String,java.lang.String,com.azure.resourcemanager.network.fluent.inner.ExpressRouteGatewayInner,com.azure.core.util.Context)
-- com.azure.resourcemanager.network.fluent.ExpressRouteGatewaysClient.beginDelete(java.lang.String,java.lang.String)
-- com.azure.resourcemanager.network.fluent.ExpressRouteGatewaysClient.beginDelete(java.lang.String,java.lang.String,com.azure.core.util.Context)
-- com.azure.resourcemanager.network.fluent.ExpressRouteGatewaysClient.beginDeleteWithoutPolling(java.lang.String,java.lang.String)
-- com.azure.resourcemanager.network.fluent.ExpressRouteGatewaysClient.beginDeleteWithoutPolling(java.lang.String,java.lang.String,com.azure.core.util.Context)
-- com.azure.resourcemanager.network.fluent.ExpressRouteGatewaysClient.beginDeleteWithoutPollingAsync(java.lang.String,java.lang.String)
-- com.azure.resourcemanager.network.fluent.ExpressRouteGatewaysClient.beginDeleteWithoutPollingAsync(java.lang.String,java.lang.String,com.azure.core.util.Context)
-- com.azure.resourcemanager.network.fluent.ExpressRouteGatewaysClient.beginDeleteWithoutPollingWithResponseAsync(java.lang.String,java.lang.String)
-- com.azure.resourcemanager.network.fluent.ExpressRouteGatewaysClient.beginDeleteWithoutPollingWithResponseAsync(java.lang.String,java.lang.String,com.azure.core.util.Context)
-- com.azure.resourcemanager.network.fluent.ExpressRouteGatewaysClient.createOrUpdate(java.lang.String,java.lang.String,com.azure.resourcemanager.network.fluent.inner.ExpressRouteGatewayInner)
-- com.azure.resourcemanager.network.fluent.ExpressRouteGatewaysClient.createOrUpdate(java.lang.String,java.lang.String,com.azure.resourcemanager.network.fluent.inner.ExpressRouteGatewayInner,com.azure.core.util.Context)
-- com.azure.resourcemanager.network.fluent.ExpressRouteGatewaysClient.createOrUpdateAsync(java.lang.String,java.lang.String,com.azure.resourcemanager.network.fluent.inner.ExpressRouteGatewayInner)
-- com.azure.resourcemanager.network.fluent.ExpressRouteGatewaysClient.createOrUpdateAsync(java.lang.String,java.lang.String,com.azure.resourcemanager.network.fluent.inner.ExpressRouteGatewayInner,com.azure.core.util.Context)
-- com.azure.resourcemanager.network.fluent.ExpressRouteGatewaysClient.createOrUpdateWithResponseAsync(java.lang.String,java.lang.String,com.azure.resourcemanager.network.fluent.inner.ExpressRouteGatewayInner)
-- com.azure.resourcemanager.network.fluent.ExpressRouteGatewaysClient.createOrUpdateWithResponseAsync(java.lang.String,java.lang.String,com.azure.resourcemanager.network.fluent.inner.ExpressRouteGatewayInner,com.azure.core.util.Context)
-- com.azure.resourcemanager.network.fluent.ExpressRouteGatewaysClient.delete(java.lang.String,java.lang.String)
-- com.azure.resourcemanager.network.fluent.ExpressRouteGatewaysClient.delete(java.lang.String,java.lang.String,com.azure.core.util.Context)
-- com.azure.resourcemanager.network.fluent.ExpressRouteGatewaysClient.deleteAsync(java.lang.String,java.lang.String)
-- com.azure.resourcemanager.network.fluent.ExpressRouteGatewaysClient.deleteAsync(java.lang.String,java.lang.String,com.azure.core.util.Context)
-- com.azure.resourcemanager.network.fluent.ExpressRouteGatewaysClient.deleteWithResponseAsync(java.lang.String,java.lang.String)
-- com.azure.resourcemanager.network.fluent.ExpressRouteGatewaysClient.deleteWithResponseAsync(java.lang.String,java.lang.String,com.azure.core.util.Context)
-- com.azure.resourcemanager.network.fluent.ExpressRouteGatewaysClient.getByResourceGroup(java.lang.String,java.lang.String)
-- com.azure.resourcemanager.network.fluent.ExpressRouteGatewaysClient.getByResourceGroup(java.lang.String,java.lang.String,com.azure.core.util.Context)
-- com.azure.resourcemanager.network.fluent.ExpressRouteGatewaysClient.getByResourceGroupAsync(java.lang.String,java.lang.String)
-- com.azure.resourcemanager.network.fluent.ExpressRouteGatewaysClient.getByResourceGroupAsync(java.lang.String,java.lang.String,com.azure.core.util.Context)
-- com.azure.resourcemanager.network.fluent.ExpressRouteGatewaysClient.getByResourceGroupWithResponseAsync(java.lang.String,java.lang.String)
-- com.azure.resourcemanager.network.fluent.ExpressRouteGatewaysClient.getByResourceGroupWithResponseAsync(java.lang.String,java.lang.String,com.azure.core.util.Context)
-- com.azure.resourcemanager.network.fluent.ExpressRouteGatewaysClient.listByResourceGroup(java.lang.String)
-- com.azure.resourcemanager.network.fluent.ExpressRouteGatewaysClient.listByResourceGroup(java.lang.String,com.azure.core.util.Context)
-- com.azure.resourcemanager.network.fluent.ExpressRouteGatewaysClient.listByResourceGroupAsync(java.lang.String)
-- com.azure.resourcemanager.network.fluent.ExpressRouteGatewaysClient.listByResourceGroupAsync(java.lang.String,com.azure.core.util.Context)
-- com.azure.resourcemanager.network.fluent.ExpressRouteGatewaysClient.listByResourceGroupWithResponseAsync(java.lang.String)
-- com.azure.resourcemanager.network.fluent.ExpressRouteGatewaysClient.listByResourceGroupWithResponseAsync(java.lang.String,com.azure.core.util.Context)
-- com.azure.resourcemanager.network.fluent.ExpressRouteGatewaysClient.listBySubscription()
-- com.azure.resourcemanager.network.fluent.ExpressRouteGatewaysClient.listBySubscription(com.azure.core.util.Context)
-- com.azure.resourcemanager.network.fluent.ExpressRouteGatewaysClient.listBySubscriptionAsync()
-- com.azure.resourcemanager.network.fluent.ExpressRouteGatewaysClient.listBySubscriptionAsync(com.azure.core.util.Context)
-- com.azure.resourcemanager.network.fluent.ExpressRouteGatewaysClient.listBySubscriptionWithResponseAsync()
-- com.azure.resourcemanager.network.fluent.ExpressRouteGatewaysClient.listBySubscriptionWithResponseAsync(com.azure.core.util.Context)
-type: class
+- "com.azure.resourcemanager.network.fluent.ExpressRouteGatewaysClient.beginCreateOrUpdate(java.lang.String,java.lang.String,com.azure.resourcemanager.network.fluent.inner.ExpressRouteGatewayInner)"
+- "com.azure.resourcemanager.network.fluent.ExpressRouteGatewaysClient.beginCreateOrUpdate(java.lang.String,java.lang.String,com.azure.resourcemanager.network.fluent.inner.ExpressRouteGatewayInner,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.network.fluent.ExpressRouteGatewaysClient.beginCreateOrUpdateWithoutPolling(java.lang.String,java.lang.String,com.azure.resourcemanager.network.fluent.inner.ExpressRouteGatewayInner)"
+- "com.azure.resourcemanager.network.fluent.ExpressRouteGatewaysClient.beginCreateOrUpdateWithoutPolling(java.lang.String,java.lang.String,com.azure.resourcemanager.network.fluent.inner.ExpressRouteGatewayInner,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.network.fluent.ExpressRouteGatewaysClient.beginCreateOrUpdateWithoutPollingAsync(java.lang.String,java.lang.String,com.azure.resourcemanager.network.fluent.inner.ExpressRouteGatewayInner)"
+- "com.azure.resourcemanager.network.fluent.ExpressRouteGatewaysClient.beginCreateOrUpdateWithoutPollingAsync(java.lang.String,java.lang.String,com.azure.resourcemanager.network.fluent.inner.ExpressRouteGatewayInner,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.network.fluent.ExpressRouteGatewaysClient.beginCreateOrUpdateWithoutPollingWithResponseAsync(java.lang.String,java.lang.String,com.azure.resourcemanager.network.fluent.inner.ExpressRouteGatewayInner)"
+- "com.azure.resourcemanager.network.fluent.ExpressRouteGatewaysClient.beginCreateOrUpdateWithoutPollingWithResponseAsync(java.lang.String,java.lang.String,com.azure.resourcemanager.network.fluent.inner.ExpressRouteGatewayInner,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.network.fluent.ExpressRouteGatewaysClient.beginDelete(java.lang.String,java.lang.String)"
+- "com.azure.resourcemanager.network.fluent.ExpressRouteGatewaysClient.beginDelete(java.lang.String,java.lang.String,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.network.fluent.ExpressRouteGatewaysClient.beginDeleteWithoutPolling(java.lang.String,java.lang.String)"
+- "com.azure.resourcemanager.network.fluent.ExpressRouteGatewaysClient.beginDeleteWithoutPolling(java.lang.String,java.lang.String,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.network.fluent.ExpressRouteGatewaysClient.beginDeleteWithoutPollingAsync(java.lang.String,java.lang.String)"
+- "com.azure.resourcemanager.network.fluent.ExpressRouteGatewaysClient.beginDeleteWithoutPollingAsync(java.lang.String,java.lang.String,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.network.fluent.ExpressRouteGatewaysClient.beginDeleteWithoutPollingWithResponseAsync(java.lang.String,java.lang.String)"
+- "com.azure.resourcemanager.network.fluent.ExpressRouteGatewaysClient.beginDeleteWithoutPollingWithResponseAsync(java.lang.String,java.lang.String,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.network.fluent.ExpressRouteGatewaysClient.createOrUpdate(java.lang.String,java.lang.String,com.azure.resourcemanager.network.fluent.inner.ExpressRouteGatewayInner)"
+- "com.azure.resourcemanager.network.fluent.ExpressRouteGatewaysClient.createOrUpdate(java.lang.String,java.lang.String,com.azure.resourcemanager.network.fluent.inner.ExpressRouteGatewayInner,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.network.fluent.ExpressRouteGatewaysClient.createOrUpdateAsync(java.lang.String,java.lang.String,com.azure.resourcemanager.network.fluent.inner.ExpressRouteGatewayInner)"
+- "com.azure.resourcemanager.network.fluent.ExpressRouteGatewaysClient.createOrUpdateAsync(java.lang.String,java.lang.String,com.azure.resourcemanager.network.fluent.inner.ExpressRouteGatewayInner,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.network.fluent.ExpressRouteGatewaysClient.createOrUpdateWithResponseAsync(java.lang.String,java.lang.String,com.azure.resourcemanager.network.fluent.inner.ExpressRouteGatewayInner)"
+- "com.azure.resourcemanager.network.fluent.ExpressRouteGatewaysClient.createOrUpdateWithResponseAsync(java.lang.String,java.lang.String,com.azure.resourcemanager.network.fluent.inner.ExpressRouteGatewayInner,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.network.fluent.ExpressRouteGatewaysClient.delete(java.lang.String,java.lang.String)"
+- "com.azure.resourcemanager.network.fluent.ExpressRouteGatewaysClient.delete(java.lang.String,java.lang.String,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.network.fluent.ExpressRouteGatewaysClient.deleteAsync(java.lang.String,java.lang.String)"
+- "com.azure.resourcemanager.network.fluent.ExpressRouteGatewaysClient.deleteAsync(java.lang.String,java.lang.String,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.network.fluent.ExpressRouteGatewaysClient.deleteWithResponseAsync(java.lang.String,java.lang.String)"
+- "com.azure.resourcemanager.network.fluent.ExpressRouteGatewaysClient.deleteWithResponseAsync(java.lang.String,java.lang.String,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.network.fluent.ExpressRouteGatewaysClient.getByResourceGroup(java.lang.String,java.lang.String)"
+- "com.azure.resourcemanager.network.fluent.ExpressRouteGatewaysClient.getByResourceGroup(java.lang.String,java.lang.String,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.network.fluent.ExpressRouteGatewaysClient.getByResourceGroupAsync(java.lang.String,java.lang.String)"
+- "com.azure.resourcemanager.network.fluent.ExpressRouteGatewaysClient.getByResourceGroupAsync(java.lang.String,java.lang.String,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.network.fluent.ExpressRouteGatewaysClient.getByResourceGroupWithResponseAsync(java.lang.String,java.lang.String)"
+- "com.azure.resourcemanager.network.fluent.ExpressRouteGatewaysClient.getByResourceGroupWithResponseAsync(java.lang.String,java.lang.String,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.network.fluent.ExpressRouteGatewaysClient.listByResourceGroup(java.lang.String)"
+- "com.azure.resourcemanager.network.fluent.ExpressRouteGatewaysClient.listByResourceGroup(java.lang.String,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.network.fluent.ExpressRouteGatewaysClient.listByResourceGroupAsync(java.lang.String)"
+- "com.azure.resourcemanager.network.fluent.ExpressRouteGatewaysClient.listByResourceGroupAsync(java.lang.String,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.network.fluent.ExpressRouteGatewaysClient.listByResourceGroupWithResponseAsync(java.lang.String)"
+- "com.azure.resourcemanager.network.fluent.ExpressRouteGatewaysClient.listByResourceGroupWithResponseAsync(java.lang.String,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.network.fluent.ExpressRouteGatewaysClient.listBySubscription()"
+- "com.azure.resourcemanager.network.fluent.ExpressRouteGatewaysClient.listBySubscription(com.azure.core.util.Context)"
+- "com.azure.resourcemanager.network.fluent.ExpressRouteGatewaysClient.listBySubscriptionAsync()"
+- "com.azure.resourcemanager.network.fluent.ExpressRouteGatewaysClient.listBySubscriptionAsync(com.azure.core.util.Context)"
+- "com.azure.resourcemanager.network.fluent.ExpressRouteGatewaysClient.listBySubscriptionWithResponseAsync()"
+- "com.azure.resourcemanager.network.fluent.ExpressRouteGatewaysClient.listBySubscriptionWithResponseAsync(com.azure.core.util.Context)"
+type: "class"
 implements:
-- <xref href="com.azure.resourcemanager.resources.fluentcore.collection.InnerSupportsDelete?alt=com.azure.resourcemanager.resources.fluentcore.collection.InnerSupportsDelete&text=InnerSupportsDelete" data-throw-if-not-resolved="False" />&lt;<xref href="java.lang.Void?alt=java.lang.Void&text=Void" data-throw-if-not-resolved="False" />&gt;
-- <xref href="com.azure.resourcemanager.resources.fluentcore.collection.InnerSupportsGet?alt=com.azure.resourcemanager.resources.fluentcore.collection.InnerSupportsGet&text=InnerSupportsGet" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.resourcemanager.network.fluent.inner.ExpressRouteGatewayInner?alt=com.azure.resourcemanager.network.fluent.inner.ExpressRouteGatewayInner&text=ExpressRouteGatewayInner" data-throw-if-not-resolved="False" />&gt;
+- "<xref href=\"com.azure.resourcemanager.resources.fluentcore.collection.InnerSupportsDelete?alt=com.azure.resourcemanager.resources.fluentcore.collection.InnerSupportsDelete&text=InnerSupportsDelete\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"java.lang.Void?alt=java.lang.Void&text=Void\" data-throw-if-not-resolved=\"False\" />&gt;"
+- "<xref href=\"com.azure.resourcemanager.resources.fluentcore.collection.InnerSupportsGet?alt=com.azure.resourcemanager.resources.fluentcore.collection.InnerSupportsGet&text=InnerSupportsGet\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.network.fluent.inner.ExpressRouteGatewayInner?alt=com.azure.resourcemanager.network.fluent.inner.ExpressRouteGatewayInner&text=ExpressRouteGatewayInner\" data-throw-if-not-resolved=\"False\" />&gt;"
 metadata: {}
-package: com.azure.resourcemanager.network.fluent
+package: "com.azure.resourcemanager.network.fluent"
 artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.0.0-beta.2

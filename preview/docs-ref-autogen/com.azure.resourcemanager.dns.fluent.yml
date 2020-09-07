@@ -1,11 +1,11 @@
 ### YamlMime:JavaPackage
-uid: com.azure.resourcemanager.dns.fluent
-fullName: com.azure.resourcemanager.dns.fluent
-name: com.azure.resourcemanager.dns.fluent
-summary: Package containing the client classes for DnsManagementClient. The DNS Management Client.
+uid: "com.azure.resourcemanager.dns.fluent"
+fullName: "com.azure.resourcemanager.dns.fluent"
+name: "com.azure.resourcemanager.dns.fluent"
+summary: "Package containing the client classes for DnsManagementClient. The DNS Management Client."
 classes:
-- com.azure.resourcemanager.dns.fluent.RecordSetsClient
-- com.azure.resourcemanager.dns.fluent.ZonesClient
+- "com.azure.resourcemanager.dns.fluent.RecordSetsClient"
+- "com.azure.resourcemanager.dns.fluent.ZonesClient"
 metadata: {}
-package: com.azure.resourcemanager.dns.fluent
+package: "com.azure.resourcemanager.dns.fluent"
 artifact: com.azure.resourcemanager:azure-resourcemanager-dns:2.0.0-beta.2

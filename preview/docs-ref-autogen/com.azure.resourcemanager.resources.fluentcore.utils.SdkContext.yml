@@ -1,43 +1,43 @@
 ### YamlMime:JavaType
-uid: com.azure.resourcemanager.resources.fluentcore.utils.SdkContext
-fullName: com.azure.resourcemanager.resources.fluentcore.utils.SdkContext
-name: SdkContext
-nameWithType: SdkContext
-summary: The class to contain the common factory methods required for SDK framework.
+uid: "com.azure.resourcemanager.resources.fluentcore.utils.SdkContext"
+fullName: "com.azure.resourcemanager.resources.fluentcore.utils.SdkContext"
+name: "SdkContext"
+nameWithType: "SdkContext"
+summary: "The class to contain the common factory methods required for SDK framework."
 inheritances:
-- <xref href="java.lang.Object" data-throw-if-not-resolved="False" />
+- "<xref href=\"java.lang.Object\" data-throw-if-not-resolved=\"False\" />"
 inheritedMembers:
-- java.lang.Object.clone()
-- java.lang.Object.equals(java.lang.Object)
-- java.lang.Object.finalize()
-- java.lang.Object.getClass()
-- java.lang.Object.hashCode()
-- java.lang.Object.notify()
-- java.lang.Object.notifyAll()
-- java.lang.Object.toString()
-- java.lang.Object.wait()
-- java.lang.Object.wait(long)
-- java.lang.Object.wait(long,int)
-syntax: public class SdkContext
+- "java.lang.Object.clone()"
+- "java.lang.Object.equals(java.lang.Object)"
+- "java.lang.Object.finalize()"
+- "java.lang.Object.getClass()"
+- "java.lang.Object.hashCode()"
+- "java.lang.Object.notify()"
+- "java.lang.Object.notifyAll()"
+- "java.lang.Object.toString()"
+- "java.lang.Object.wait()"
+- "java.lang.Object.wait(long)"
+- "java.lang.Object.wait(long,int)"
+syntax: "public class SdkContext"
 constructors:
-- com.azure.resourcemanager.resources.fluentcore.utils.SdkContext.SdkContext()
+- "com.azure.resourcemanager.resources.fluentcore.utils.SdkContext.SdkContext()"
 methods:
-- com.azure.resourcemanager.resources.fluentcore.utils.SdkContext.dateTimeNow()
-- com.azure.resourcemanager.resources.fluentcore.utils.SdkContext.getDelayDuration(java.time.Duration)
-- com.azure.resourcemanager.resources.fluentcore.utils.SdkContext.getLroRetryDuration()
-- com.azure.resourcemanager.resources.fluentcore.utils.SdkContext.getReactorScheduler()
-- com.azure.resourcemanager.resources.fluentcore.utils.SdkContext.getResourceNamerFactory()
-- com.azure.resourcemanager.resources.fluentcore.utils.SdkContext.prepareFileLocation(java.io.File...)
-- com.azure.resourcemanager.resources.fluentcore.utils.SdkContext.randomResourceName(java.lang.String,int)
-- com.azure.resourcemanager.resources.fluentcore.utils.SdkContext.randomResourceNames(java.lang.String,int,int)
-- com.azure.resourcemanager.resources.fluentcore.utils.SdkContext.randomUuid()
-- com.azure.resourcemanager.resources.fluentcore.utils.SdkContext.setDelayProvider(com.azure.resourcemanager.resources.fluentcore.utils.DelayProvider)
-- com.azure.resourcemanager.resources.fluentcore.utils.SdkContext.setFileProvider(com.azure.resourcemanager.resources.fluentcore.utils.FileProvider)
-- com.azure.resourcemanager.resources.fluentcore.utils.SdkContext.setLroRetryTimeOut(int)
-- com.azure.resourcemanager.resources.fluentcore.utils.SdkContext.setReactorScheduler(reactor.core.scheduler.Scheduler)
-- com.azure.resourcemanager.resources.fluentcore.utils.SdkContext.setResourceNamerFactory(com.azure.resourcemanager.resources.fluentcore.utils.ResourceNamerFactory)
-- com.azure.resourcemanager.resources.fluentcore.utils.SdkContext.sleep(int)
-type: class
+- "com.azure.resourcemanager.resources.fluentcore.utils.SdkContext.dateTimeNow()"
+- "com.azure.resourcemanager.resources.fluentcore.utils.SdkContext.getDelayDuration(java.time.Duration)"
+- "com.azure.resourcemanager.resources.fluentcore.utils.SdkContext.getLroRetryDuration()"
+- "com.azure.resourcemanager.resources.fluentcore.utils.SdkContext.getReactorScheduler()"
+- "com.azure.resourcemanager.resources.fluentcore.utils.SdkContext.getResourceNamerFactory()"
+- "com.azure.resourcemanager.resources.fluentcore.utils.SdkContext.prepareFileLocation(java.io.File...)"
+- "com.azure.resourcemanager.resources.fluentcore.utils.SdkContext.randomResourceName(java.lang.String,int)"
+- "com.azure.resourcemanager.resources.fluentcore.utils.SdkContext.randomResourceNames(java.lang.String,int,int)"
+- "com.azure.resourcemanager.resources.fluentcore.utils.SdkContext.randomUuid()"
+- "com.azure.resourcemanager.resources.fluentcore.utils.SdkContext.setDelayProvider(com.azure.resourcemanager.resources.fluentcore.utils.DelayProvider)"
+- "com.azure.resourcemanager.resources.fluentcore.utils.SdkContext.setFileProvider(com.azure.resourcemanager.resources.fluentcore.utils.FileProvider)"
+- "com.azure.resourcemanager.resources.fluentcore.utils.SdkContext.setLroRetryTimeOut(int)"
+- "com.azure.resourcemanager.resources.fluentcore.utils.SdkContext.setReactorScheduler(reactor.core.scheduler.Scheduler)"
+- "com.azure.resourcemanager.resources.fluentcore.utils.SdkContext.setResourceNamerFactory(com.azure.resourcemanager.resources.fluentcore.utils.ResourceNamerFactory)"
+- "com.azure.resourcemanager.resources.fluentcore.utils.SdkContext.sleep(int)"
+type: "class"
 metadata: {}
-package: com.azure.resourcemanager.resources.fluentcore.utils
+package: "com.azure.resourcemanager.resources.fluentcore.utils"
 artifact: com.azure.resourcemanager:azure-resourcemanager-resources:2.0.0-beta.2

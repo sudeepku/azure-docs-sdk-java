@@ -1,45 +1,45 @@
 ### YamlMime:JavaType
-uid: com.azure.resourcemanager.appservice.fluent.inner.OperationInner
-fullName: com.azure.resourcemanager.appservice.fluent.inner.OperationInner
-name: OperationInner
-nameWithType: OperationInner
-summary: The Operation model.
+uid: "com.azure.resourcemanager.appservice.fluent.inner.OperationInner"
+fullName: "com.azure.resourcemanager.appservice.fluent.inner.OperationInner"
+name: "OperationInner"
+nameWithType: "OperationInner"
+summary: "The Operation model."
 inheritances:
-- <xref href="java.lang.Object" data-throw-if-not-resolved="False" />
+- "<xref href=\"java.lang.Object\" data-throw-if-not-resolved=\"False\" />"
 inheritedMembers:
-- java.lang.Object.clone()
-- java.lang.Object.equals(java.lang.Object)
-- java.lang.Object.finalize()
-- java.lang.Object.getClass()
-- java.lang.Object.hashCode()
-- java.lang.Object.notify()
-- java.lang.Object.notifyAll()
-- java.lang.Object.toString()
-- java.lang.Object.wait()
-- java.lang.Object.wait(long)
-- java.lang.Object.wait(long,int)
-syntax: public final class OperationInner
+- "java.lang.Object.clone()"
+- "java.lang.Object.equals(java.lang.Object)"
+- "java.lang.Object.finalize()"
+- "java.lang.Object.getClass()"
+- "java.lang.Object.hashCode()"
+- "java.lang.Object.notify()"
+- "java.lang.Object.notifyAll()"
+- "java.lang.Object.toString()"
+- "java.lang.Object.wait()"
+- "java.lang.Object.wait(long)"
+- "java.lang.Object.wait(long,int)"
+syntax: "public final class OperationInner"
 constructors:
-- com.azure.resourcemanager.appservice.fluent.inner.OperationInner.OperationInner()
+- "com.azure.resourcemanager.appservice.fluent.inner.OperationInner.OperationInner()"
 methods:
-- com.azure.resourcemanager.appservice.fluent.inner.OperationInner.createdTime()
-- com.azure.resourcemanager.appservice.fluent.inner.OperationInner.errors()
-- com.azure.resourcemanager.appservice.fluent.inner.OperationInner.expirationTime()
-- com.azure.resourcemanager.appservice.fluent.inner.OperationInner.geoMasterOperationId()
-- com.azure.resourcemanager.appservice.fluent.inner.OperationInner.id()
-- com.azure.resourcemanager.appservice.fluent.inner.OperationInner.modifiedTime()
-- com.azure.resourcemanager.appservice.fluent.inner.OperationInner.name()
-- com.azure.resourcemanager.appservice.fluent.inner.OperationInner.status()
-- com.azure.resourcemanager.appservice.fluent.inner.OperationInner.validate()
-- com.azure.resourcemanager.appservice.fluent.inner.OperationInner.withCreatedTime(java.time.OffsetDateTime)
-- com.azure.resourcemanager.appservice.fluent.inner.OperationInner.withErrors(java.util.List<com.azure.resourcemanager.appservice.models.ErrorEntity>)
-- com.azure.resourcemanager.appservice.fluent.inner.OperationInner.withExpirationTime(java.time.OffsetDateTime)
-- com.azure.resourcemanager.appservice.fluent.inner.OperationInner.withGeoMasterOperationId(java.util.UUID)
-- com.azure.resourcemanager.appservice.fluent.inner.OperationInner.withId(java.lang.String)
-- com.azure.resourcemanager.appservice.fluent.inner.OperationInner.withModifiedTime(java.time.OffsetDateTime)
-- com.azure.resourcemanager.appservice.fluent.inner.OperationInner.withName(java.lang.String)
-- com.azure.resourcemanager.appservice.fluent.inner.OperationInner.withStatus(com.azure.resourcemanager.appservice.models.OperationStatus)
-type: class
+- "com.azure.resourcemanager.appservice.fluent.inner.OperationInner.createdTime()"
+- "com.azure.resourcemanager.appservice.fluent.inner.OperationInner.errors()"
+- "com.azure.resourcemanager.appservice.fluent.inner.OperationInner.expirationTime()"
+- "com.azure.resourcemanager.appservice.fluent.inner.OperationInner.geoMasterOperationId()"
+- "com.azure.resourcemanager.appservice.fluent.inner.OperationInner.id()"
+- "com.azure.resourcemanager.appservice.fluent.inner.OperationInner.modifiedTime()"
+- "com.azure.resourcemanager.appservice.fluent.inner.OperationInner.name()"
+- "com.azure.resourcemanager.appservice.fluent.inner.OperationInner.status()"
+- "com.azure.resourcemanager.appservice.fluent.inner.OperationInner.validate()"
+- "com.azure.resourcemanager.appservice.fluent.inner.OperationInner.withCreatedTime(java.time.OffsetDateTime)"
+- "com.azure.resourcemanager.appservice.fluent.inner.OperationInner.withErrors(java.util.List<com.azure.resourcemanager.appservice.models.ErrorEntity>)"
+- "com.azure.resourcemanager.appservice.fluent.inner.OperationInner.withExpirationTime(java.time.OffsetDateTime)"
+- "com.azure.resourcemanager.appservice.fluent.inner.OperationInner.withGeoMasterOperationId(java.util.UUID)"
+- "com.azure.resourcemanager.appservice.fluent.inner.OperationInner.withId(java.lang.String)"
+- "com.azure.resourcemanager.appservice.fluent.inner.OperationInner.withModifiedTime(java.time.OffsetDateTime)"
+- "com.azure.resourcemanager.appservice.fluent.inner.OperationInner.withName(java.lang.String)"
+- "com.azure.resourcemanager.appservice.fluent.inner.OperationInner.withStatus(com.azure.resourcemanager.appservice.models.OperationStatus)"
+type: "class"
 metadata: {}
-package: com.azure.resourcemanager.appservice.fluent.inner
+package: "com.azure.resourcemanager.appservice.fluent.inner"
 artifact: com.azure.resourcemanager:azure-resourcemanager-appservice:2.0.0-beta.2

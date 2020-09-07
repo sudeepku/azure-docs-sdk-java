@@ -1,15 +1,15 @@
 ### YamlMime:JavaType
-uid: com.azure.resourcemanager.appservice.models.WebApp.DefinitionStages.WithWindowsRuntimeStack
-fullName: com.azure.resourcemanager.appservice.models.WebApp.DefinitionStages.WithWindowsRuntimeStack
-name: WebApp.DefinitionStages.WithWindowsRuntimeStack
-nameWithType: WebApp.DefinitionStages.WithWindowsRuntimeStack
-summary: A web app definition allowing runtime stack on Windows operating system to be specified.
-syntax: public static interface WebApp.DefinitionStages.WithWindowsRuntimeStack extends WebApp.DefinitionStages.WithCreate
+uid: "com.azure.resourcemanager.appservice.models.WebApp.DefinitionStages.WithWindowsRuntimeStack"
+fullName: "com.azure.resourcemanager.appservice.models.WebApp.DefinitionStages.WithWindowsRuntimeStack"
+name: "WebApp.DefinitionStages.WithWindowsRuntimeStack"
+nameWithType: "WebApp.DefinitionStages.WithWindowsRuntimeStack"
+summary: "A web app definition allowing runtime stack on Windows operating system to be specified."
+syntax: "public static interface WebApp.DefinitionStages.WithWindowsRuntimeStack extends WebApp.DefinitionStages.WithCreate"
 methods:
-- com.azure.resourcemanager.appservice.models.WebApp.DefinitionStages.WithWindowsRuntimeStack.withRuntimeStack(com.azure.resourcemanager.appservice.models.WebAppRuntimeStack)
-type: interface
+- "com.azure.resourcemanager.appservice.models.WebApp.DefinitionStages.WithWindowsRuntimeStack.withRuntimeStack(com.azure.resourcemanager.appservice.models.WebAppRuntimeStack)"
+type: "interface"
 implements:
-- <xref href="com.azure.resourcemanager.appservice.models.WebApp.DefinitionStages.WithCreate?alt=com.azure.resourcemanager.appservice.models.WebApp.DefinitionStages.WithCreate&text=WithCreate" data-throw-if-not-resolved="False" />
+- "<xref href=\"com.azure.resourcemanager.appservice.models.WebApp.DefinitionStages.WithCreate?alt=com.azure.resourcemanager.appservice.models.WebApp.DefinitionStages.WithCreate&text=WithCreate\" data-throw-if-not-resolved=\"False\" />"
 metadata: {}
-package: com.azure.resourcemanager.appservice.models
+package: "com.azure.resourcemanager.appservice.models"
 artifact: com.azure.resourcemanager:azure-resourcemanager-appservice:2.0.0-beta.2

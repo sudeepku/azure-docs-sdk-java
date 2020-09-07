@@ -1,40 +1,40 @@
 ### YamlMime:JavaType
-uid: com.azure.resourcemanager.cosmos.CosmosManager
-fullName: com.azure.resourcemanager.cosmos.CosmosManager
-name: CosmosManager
-nameWithType: CosmosManager
-summary: Entry point to Azure compute resource management.
+uid: "com.azure.resourcemanager.cosmos.CosmosManager"
+fullName: "com.azure.resourcemanager.cosmos.CosmosManager"
+name: "CosmosManager"
+nameWithType: "CosmosManager"
+summary: "Entry point to Azure compute resource management."
 inheritances:
-- <xref href="java.lang.Object" data-throw-if-not-resolved="False" />
-- <xref href="com.azure.resourcemanager.resources.fluentcore.arm.implementation.ManagerBase" data-throw-if-not-resolved="False" />
-- <xref href="com.azure.resourcemanager.resources.fluentcore.arm.implementation.Manager" data-throw-if-not-resolved="False" />
+- "<xref href=\"java.lang.Object\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.azure.resourcemanager.resources.fluentcore.arm.implementation.ManagerBase\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.azure.resourcemanager.resources.fluentcore.arm.implementation.Manager\" data-throw-if-not-resolved=\"False\" />"
 inheritedMembers:
-- com.azure.resourcemanager.resources.fluentcore.arm.implementation.Manager.inner()
-- com.azure.resourcemanager.resources.fluentcore.arm.implementation.ManagerBase.environment()
-- com.azure.resourcemanager.resources.fluentcore.arm.implementation.ManagerBase.httpPipeline()
-- com.azure.resourcemanager.resources.fluentcore.arm.implementation.ManagerBase.resourceManager()
-- com.azure.resourcemanager.resources.fluentcore.arm.implementation.ManagerBase.sdkContext()
-- com.azure.resourcemanager.resources.fluentcore.arm.implementation.ManagerBase.subscriptionId()
-- com.azure.resourcemanager.resources.fluentcore.arm.implementation.ManagerBase.withResourceManager(com.azure.resourcemanager.resources.ResourceManager)
-- java.lang.Object.clone()
-- java.lang.Object.equals(java.lang.Object)
-- java.lang.Object.finalize()
-- java.lang.Object.getClass()
-- java.lang.Object.hashCode()
-- java.lang.Object.notify()
-- java.lang.Object.notifyAll()
-- java.lang.Object.toString()
-- java.lang.Object.wait()
-- java.lang.Object.wait(long)
-- java.lang.Object.wait(long,int)
-syntax: public final class CosmosManager extends Manager<CosmosManager,CosmosDBManagementClient>
+- "com.azure.resourcemanager.resources.fluentcore.arm.implementation.Manager.inner()"
+- "com.azure.resourcemanager.resources.fluentcore.arm.implementation.ManagerBase.environment()"
+- "com.azure.resourcemanager.resources.fluentcore.arm.implementation.ManagerBase.httpPipeline()"
+- "com.azure.resourcemanager.resources.fluentcore.arm.implementation.ManagerBase.resourceManager()"
+- "com.azure.resourcemanager.resources.fluentcore.arm.implementation.ManagerBase.sdkContext()"
+- "com.azure.resourcemanager.resources.fluentcore.arm.implementation.ManagerBase.subscriptionId()"
+- "com.azure.resourcemanager.resources.fluentcore.arm.implementation.ManagerBase.withResourceManager(com.azure.resourcemanager.resources.ResourceManager)"
+- "java.lang.Object.clone()"
+- "java.lang.Object.equals(java.lang.Object)"
+- "java.lang.Object.finalize()"
+- "java.lang.Object.getClass()"
+- "java.lang.Object.hashCode()"
+- "java.lang.Object.notify()"
+- "java.lang.Object.notifyAll()"
+- "java.lang.Object.toString()"
+- "java.lang.Object.wait()"
+- "java.lang.Object.wait(long)"
+- "java.lang.Object.wait(long,int)"
+syntax: "public final class CosmosManager extends Manager<CosmosManager,CosmosDBManagementClient>"
 methods:
-- com.azure.resourcemanager.cosmos.CosmosManager.authenticate(com.azure.core.credential.TokenCredential,com.azure.resourcemanager.resources.fluentcore.profile.AzureProfile)
-- com.azure.resourcemanager.cosmos.CosmosManager.authenticate(com.azure.core.http.HttpPipeline,com.azure.resourcemanager.resources.fluentcore.profile.AzureProfile)
-- com.azure.resourcemanager.cosmos.CosmosManager.authenticate(com.azure.core.http.HttpPipeline,com.azure.resourcemanager.resources.fluentcore.profile.AzureProfile,com.azure.resourcemanager.resources.fluentcore.utils.SdkContext)
-- com.azure.resourcemanager.cosmos.CosmosManager.configure()
-- com.azure.resourcemanager.cosmos.CosmosManager.databaseAccounts()
-type: class
+- "com.azure.resourcemanager.cosmos.CosmosManager.authenticate(com.azure.core.credential.TokenCredential,com.azure.resourcemanager.resources.fluentcore.profile.AzureProfile)"
+- "com.azure.resourcemanager.cosmos.CosmosManager.authenticate(com.azure.core.http.HttpPipeline,com.azure.resourcemanager.resources.fluentcore.profile.AzureProfile)"
+- "com.azure.resourcemanager.cosmos.CosmosManager.authenticate(com.azure.core.http.HttpPipeline,com.azure.resourcemanager.resources.fluentcore.profile.AzureProfile,com.azure.resourcemanager.resources.fluentcore.utils.SdkContext)"
+- "com.azure.resourcemanager.cosmos.CosmosManager.configure()"
+- "com.azure.resourcemanager.cosmos.CosmosManager.databaseAccounts()"
+type: "class"
 metadata: {}
-package: com.azure.resourcemanager.cosmos
+package: "com.azure.resourcemanager.cosmos"
 artifact: com.azure.resourcemanager:azure-resourcemanager-cosmos:2.0.0-beta.2

@@ -1,31 +1,20 @@
 ### YamlMime:JavaMember
-uid: com.azure.storage.file.datalake.DataLakeFileClient.read*
-fullName: com.azure.storage.file.datalake.DataLakeFileClient.read
-name: read
-nameWithType: DataLakeFileClient.read
+uid: "com.azure.storage.file.datalake.DataLakeFileClient.read*"
+fullName: "com.azure.storage.file.datalake.DataLakeFileClient.read"
+name: "read"
+nameWithType: "DataLakeFileClient.read"
 members:
-- uid: com.azure.storage.file.datalake.DataLakeFileClient.read(java.io.OutputStream)
-  fullName: com.azure.storage.file.datalake.DataLakeFileClient.read(OutputStream stream)
-  name: read(OutputStream stream)
-  nameWithType: DataLakeFileClient.read(OutputStream stream)
-  summary: |-
-    Reads the entire file into an output stream.
-
-     <p><strong>Code Samples</strong></p>
-
-     <pre>
-     client.read&#40;new ByteArrayOutputStream&#40;&#41;&#41;;
-     System.out.println&#40;&quot;Download completed.&quot;&#41;;
-     </pre>
-
-     <p>For more information, see the
-     <a href="https://docs.microsoft.com/en-us/rest/api/storageservices/get-blob">Azure Docs</a></p>
+- uid: "com.azure.storage.file.datalake.DataLakeFileClient.read(java.io.OutputStream)"
+  fullName: "com.azure.storage.file.datalake.DataLakeFileClient.read(OutputStream stream)"
+  name: "read(OutputStream stream)"
+  nameWithType: "DataLakeFileClient.read(OutputStream stream)"
+  summary: "Reads the entire file into an output stream.\n\n <p><strong>Code Samples</strong></p>\n\n <pre>\n client.read&#40;new ByteArrayOutputStream&#40;&#41;&#41;;\n System.out.println&#40;&quot;Download completed.&quot;&#41;;\n </pre>\n\n <p>For more information, see the\n <a href=\"https://docs.microsoft.com/en-us/rest/api/storageservices/get-blob\">Azure Docs</a></p>"
   parameters:
-  - description: A non-null <xref uid="java.io.OutputStream" data-throw-if-not-resolved="false">OutputStream</xref> instance where the downloaded data will be written.
-    name: stream
-    type: <xref href="java.io.OutputStream?alt=java.io.OutputStream&text=OutputStream" data-throw-if-not-resolved="False" />
-  syntax: public void read(OutputStream stream)
-type: method
+  - description: "A non-null <xref uid=\"java.io.OutputStream\" data-throw-if-not-resolved=\"false\">OutputStream</xref> instance where the downloaded data will be written."
+    name: "stream"
+    type: "<xref href=\"java.io.OutputStream?alt=java.io.OutputStream&text=OutputStream\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public void read(OutputStream stream)"
+type: "method"
 metadata: {}
-package: com.azure.storage.file.datalake
+package: "com.azure.storage.file.datalake"
 artifact: com.azure:azure-storage-file-datalake:12.2.0-beta.1

@@ -1,17 +1,17 @@
 ### YamlMime:JavaPackage
-uid: com.azure.data.schemaregistry
-fullName: com.azure.data.schemaregistry
-name: com.azure.data.schemaregistry
-summary: Package containing core serialization and deserialization implementations for Azure Schema Registry SDK.
+uid: "com.azure.data.schemaregistry"
+fullName: "com.azure.data.schemaregistry"
+name: "com.azure.data.schemaregistry"
+summary: "Package containing core serialization and deserialization implementations for Azure Schema Registry SDK."
 classes:
-- com.azure.data.schemaregistry.AbstractDataDeserializer
-- com.azure.data.schemaregistry.AbstractDataSerDe
-- com.azure.data.schemaregistry.AbstractDataSerializer
-- com.azure.data.schemaregistry.SerializationException
+- "com.azure.data.schemaregistry.AbstractDataDeserializer"
+- "com.azure.data.schemaregistry.AbstractDataSerDe"
+- "com.azure.data.schemaregistry.AbstractDataSerializer"
+- "com.azure.data.schemaregistry.SerializationException"
 interfaces:
-- com.azure.data.schemaregistry.ByteDecoder
-- com.azure.data.schemaregistry.ByteEncoder
-- com.azure.data.schemaregistry.Codec
+- "com.azure.data.schemaregistry.ByteDecoder"
+- "com.azure.data.schemaregistry.ByteEncoder"
+- "com.azure.data.schemaregistry.Codec"
 metadata: {}
-package: com.azure.data.schemaregistry
+package: "com.azure.data.schemaregistry"
 artifact: com.azure:azure-data-schemaregistry:1.0.0-beta.1

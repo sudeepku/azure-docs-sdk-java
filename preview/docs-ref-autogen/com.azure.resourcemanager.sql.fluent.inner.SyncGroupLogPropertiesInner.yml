@@ -1,35 +1,35 @@
 ### YamlMime:JavaType
-uid: com.azure.resourcemanager.sql.fluent.inner.SyncGroupLogPropertiesInner
-fullName: com.azure.resourcemanager.sql.fluent.inner.SyncGroupLogPropertiesInner
-name: SyncGroupLogPropertiesInner
-nameWithType: SyncGroupLogPropertiesInner
-summary: The SyncGroupLogProperties model.
+uid: "com.azure.resourcemanager.sql.fluent.inner.SyncGroupLogPropertiesInner"
+fullName: "com.azure.resourcemanager.sql.fluent.inner.SyncGroupLogPropertiesInner"
+name: "SyncGroupLogPropertiesInner"
+nameWithType: "SyncGroupLogPropertiesInner"
+summary: "The SyncGroupLogProperties model."
 inheritances:
-- <xref href="java.lang.Object" data-throw-if-not-resolved="False" />
+- "<xref href=\"java.lang.Object\" data-throw-if-not-resolved=\"False\" />"
 inheritedMembers:
-- java.lang.Object.clone()
-- java.lang.Object.equals(java.lang.Object)
-- java.lang.Object.finalize()
-- java.lang.Object.getClass()
-- java.lang.Object.hashCode()
-- java.lang.Object.notify()
-- java.lang.Object.notifyAll()
-- java.lang.Object.toString()
-- java.lang.Object.wait()
-- java.lang.Object.wait(long)
-- java.lang.Object.wait(long,int)
-syntax: public final class SyncGroupLogPropertiesInner
+- "java.lang.Object.clone()"
+- "java.lang.Object.equals(java.lang.Object)"
+- "java.lang.Object.finalize()"
+- "java.lang.Object.getClass()"
+- "java.lang.Object.hashCode()"
+- "java.lang.Object.notify()"
+- "java.lang.Object.notifyAll()"
+- "java.lang.Object.toString()"
+- "java.lang.Object.wait()"
+- "java.lang.Object.wait(long)"
+- "java.lang.Object.wait(long,int)"
+syntax: "public final class SyncGroupLogPropertiesInner"
 constructors:
-- com.azure.resourcemanager.sql.fluent.inner.SyncGroupLogPropertiesInner.SyncGroupLogPropertiesInner()
+- "com.azure.resourcemanager.sql.fluent.inner.SyncGroupLogPropertiesInner.SyncGroupLogPropertiesInner()"
 methods:
-- com.azure.resourcemanager.sql.fluent.inner.SyncGroupLogPropertiesInner.details()
-- com.azure.resourcemanager.sql.fluent.inner.SyncGroupLogPropertiesInner.operationStatus()
-- com.azure.resourcemanager.sql.fluent.inner.SyncGroupLogPropertiesInner.source()
-- com.azure.resourcemanager.sql.fluent.inner.SyncGroupLogPropertiesInner.timestamp()
-- com.azure.resourcemanager.sql.fluent.inner.SyncGroupLogPropertiesInner.tracingId()
-- com.azure.resourcemanager.sql.fluent.inner.SyncGroupLogPropertiesInner.type()
-- com.azure.resourcemanager.sql.fluent.inner.SyncGroupLogPropertiesInner.validate()
-type: class
+- "com.azure.resourcemanager.sql.fluent.inner.SyncGroupLogPropertiesInner.details()"
+- "com.azure.resourcemanager.sql.fluent.inner.SyncGroupLogPropertiesInner.operationStatus()"
+- "com.azure.resourcemanager.sql.fluent.inner.SyncGroupLogPropertiesInner.source()"
+- "com.azure.resourcemanager.sql.fluent.inner.SyncGroupLogPropertiesInner.timestamp()"
+- "com.azure.resourcemanager.sql.fluent.inner.SyncGroupLogPropertiesInner.tracingId()"
+- "com.azure.resourcemanager.sql.fluent.inner.SyncGroupLogPropertiesInner.type()"
+- "com.azure.resourcemanager.sql.fluent.inner.SyncGroupLogPropertiesInner.validate()"
+type: "class"
 metadata: {}
-package: com.azure.resourcemanager.sql.fluent.inner
+package: "com.azure.resourcemanager.sql.fluent.inner"
 artifact: com.azure.resourcemanager:azure-resourcemanager-sql:2.0.0-beta.2

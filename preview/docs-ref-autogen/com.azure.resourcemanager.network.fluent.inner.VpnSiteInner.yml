@@ -1,58 +1,58 @@
 ### YamlMime:JavaType
-uid: com.azure.resourcemanager.network.fluent.inner.VpnSiteInner
-fullName: com.azure.resourcemanager.network.fluent.inner.VpnSiteInner
-name: VpnSiteInner
-nameWithType: VpnSiteInner
-summary: The VpnSite model.
+uid: "com.azure.resourcemanager.network.fluent.inner.VpnSiteInner"
+fullName: "com.azure.resourcemanager.network.fluent.inner.VpnSiteInner"
+name: "VpnSiteInner"
+nameWithType: "VpnSiteInner"
+summary: "The VpnSite model."
 inheritances:
-- <xref href="java.lang.Object" data-throw-if-not-resolved="False" />
-- <xref href="com.azure.core.management.ProxyResource" data-throw-if-not-resolved="False" />
-- <xref href="com.azure.core.management.Resource" data-throw-if-not-resolved="False" />
+- "<xref href=\"java.lang.Object\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.azure.core.management.ProxyResource\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.azure.core.management.Resource\" data-throw-if-not-resolved=\"False\" />"
 inheritedMembers:
-- com.azure.core.management.ProxyResource.id()
-- com.azure.core.management.ProxyResource.name()
-- com.azure.core.management.ProxyResource.type()
-- com.azure.core.management.Resource.location()
-- com.azure.core.management.Resource.tags()
-- com.azure.core.management.Resource.withLocation(java.lang.String)
-- com.azure.core.management.Resource.withTags(java.util.Map<java.lang.String,java.lang.String>)
-- java.lang.Object.clone()
-- java.lang.Object.equals(java.lang.Object)
-- java.lang.Object.finalize()
-- java.lang.Object.getClass()
-- java.lang.Object.hashCode()
-- java.lang.Object.notify()
-- java.lang.Object.notifyAll()
-- java.lang.Object.toString()
-- java.lang.Object.wait()
-- java.lang.Object.wait(long)
-- java.lang.Object.wait(long,int)
-syntax: public class VpnSiteInner extends Resource
+- "com.azure.core.management.ProxyResource.id()"
+- "com.azure.core.management.ProxyResource.name()"
+- "com.azure.core.management.ProxyResource.type()"
+- "com.azure.core.management.Resource.location()"
+- "com.azure.core.management.Resource.tags()"
+- "com.azure.core.management.Resource.withLocation(java.lang.String)"
+- "com.azure.core.management.Resource.withTags(java.util.Map<java.lang.String,java.lang.String>)"
+- "java.lang.Object.clone()"
+- "java.lang.Object.equals(java.lang.Object)"
+- "java.lang.Object.finalize()"
+- "java.lang.Object.getClass()"
+- "java.lang.Object.hashCode()"
+- "java.lang.Object.notify()"
+- "java.lang.Object.notifyAll()"
+- "java.lang.Object.toString()"
+- "java.lang.Object.wait()"
+- "java.lang.Object.wait(long)"
+- "java.lang.Object.wait(long,int)"
+syntax: "public class VpnSiteInner extends Resource"
 constructors:
-- com.azure.resourcemanager.network.fluent.inner.VpnSiteInner.VpnSiteInner()
+- "com.azure.resourcemanager.network.fluent.inner.VpnSiteInner.VpnSiteInner()"
 methods:
-- com.azure.resourcemanager.network.fluent.inner.VpnSiteInner.addressSpace()
-- com.azure.resourcemanager.network.fluent.inner.VpnSiteInner.bgpProperties()
-- com.azure.resourcemanager.network.fluent.inner.VpnSiteInner.deviceProperties()
-- com.azure.resourcemanager.network.fluent.inner.VpnSiteInner.etag()
-- com.azure.resourcemanager.network.fluent.inner.VpnSiteInner.id()
-- com.azure.resourcemanager.network.fluent.inner.VpnSiteInner.ipAddress()
-- com.azure.resourcemanager.network.fluent.inner.VpnSiteInner.isSecuritySite()
-- com.azure.resourcemanager.network.fluent.inner.VpnSiteInner.provisioningState()
-- com.azure.resourcemanager.network.fluent.inner.VpnSiteInner.siteKey()
-- com.azure.resourcemanager.network.fluent.inner.VpnSiteInner.validate()
-- com.azure.resourcemanager.network.fluent.inner.VpnSiteInner.virtualWan()
-- com.azure.resourcemanager.network.fluent.inner.VpnSiteInner.vpnSiteLinks()
-- com.azure.resourcemanager.network.fluent.inner.VpnSiteInner.withAddressSpace(com.azure.resourcemanager.network.models.AddressSpace)
-- com.azure.resourcemanager.network.fluent.inner.VpnSiteInner.withBgpProperties(com.azure.resourcemanager.network.models.BgpSettings)
-- com.azure.resourcemanager.network.fluent.inner.VpnSiteInner.withDeviceProperties(com.azure.resourcemanager.network.models.DeviceProperties)
-- com.azure.resourcemanager.network.fluent.inner.VpnSiteInner.withId(java.lang.String)
-- com.azure.resourcemanager.network.fluent.inner.VpnSiteInner.withIpAddress(java.lang.String)
-- com.azure.resourcemanager.network.fluent.inner.VpnSiteInner.withIsSecuritySite(java.lang.Boolean)
-- com.azure.resourcemanager.network.fluent.inner.VpnSiteInner.withSiteKey(java.lang.String)
-- com.azure.resourcemanager.network.fluent.inner.VpnSiteInner.withVirtualWan(com.azure.core.management.SubResource)
-- com.azure.resourcemanager.network.fluent.inner.VpnSiteInner.withVpnSiteLinks(java.util.List<com.azure.resourcemanager.network.fluent.inner.VpnSiteLinkInner>)
-type: class
+- "com.azure.resourcemanager.network.fluent.inner.VpnSiteInner.addressSpace()"
+- "com.azure.resourcemanager.network.fluent.inner.VpnSiteInner.bgpProperties()"
+- "com.azure.resourcemanager.network.fluent.inner.VpnSiteInner.deviceProperties()"
+- "com.azure.resourcemanager.network.fluent.inner.VpnSiteInner.etag()"
+- "com.azure.resourcemanager.network.fluent.inner.VpnSiteInner.id()"
+- "com.azure.resourcemanager.network.fluent.inner.VpnSiteInner.ipAddress()"
+- "com.azure.resourcemanager.network.fluent.inner.VpnSiteInner.isSecuritySite()"
+- "com.azure.resourcemanager.network.fluent.inner.VpnSiteInner.provisioningState()"
+- "com.azure.resourcemanager.network.fluent.inner.VpnSiteInner.siteKey()"
+- "com.azure.resourcemanager.network.fluent.inner.VpnSiteInner.validate()"
+- "com.azure.resourcemanager.network.fluent.inner.VpnSiteInner.virtualWan()"
+- "com.azure.resourcemanager.network.fluent.inner.VpnSiteInner.vpnSiteLinks()"
+- "com.azure.resourcemanager.network.fluent.inner.VpnSiteInner.withAddressSpace(com.azure.resourcemanager.network.models.AddressSpace)"
+- "com.azure.resourcemanager.network.fluent.inner.VpnSiteInner.withBgpProperties(com.azure.resourcemanager.network.models.BgpSettings)"
+- "com.azure.resourcemanager.network.fluent.inner.VpnSiteInner.withDeviceProperties(com.azure.resourcemanager.network.models.DeviceProperties)"
+- "com.azure.resourcemanager.network.fluent.inner.VpnSiteInner.withId(java.lang.String)"
+- "com.azure.resourcemanager.network.fluent.inner.VpnSiteInner.withIpAddress(java.lang.String)"
+- "com.azure.resourcemanager.network.fluent.inner.VpnSiteInner.withIsSecuritySite(java.lang.Boolean)"
+- "com.azure.resourcemanager.network.fluent.inner.VpnSiteInner.withSiteKey(java.lang.String)"
+- "com.azure.resourcemanager.network.fluent.inner.VpnSiteInner.withVirtualWan(com.azure.core.management.SubResource)"
+- "com.azure.resourcemanager.network.fluent.inner.VpnSiteInner.withVpnSiteLinks(java.util.List<com.azure.resourcemanager.network.fluent.inner.VpnSiteLinkInner>)"
+type: "class"
 metadata: {}
-package: com.azure.resourcemanager.network.fluent.inner
+package: "com.azure.resourcemanager.network.fluent.inner"
 artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.0.0-beta.2

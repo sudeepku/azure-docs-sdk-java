@@ -1,54 +1,54 @@
 ### YamlMime:JavaType
-uid: com.azure.resourcemanager.monitor.fluent.DiagnosticSettingsClient
-fullName: com.azure.resourcemanager.monitor.fluent.DiagnosticSettingsClient
-name: DiagnosticSettingsClient
-nameWithType: DiagnosticSettingsClient
-summary: An instance of this class provides access to all the operations defined in DiagnosticSettings.
+uid: "com.azure.resourcemanager.monitor.fluent.DiagnosticSettingsClient"
+fullName: "com.azure.resourcemanager.monitor.fluent.DiagnosticSettingsClient"
+name: "DiagnosticSettingsClient"
+nameWithType: "DiagnosticSettingsClient"
+summary: "An instance of this class provides access to all the operations defined in DiagnosticSettings."
 inheritances:
-- <xref href="java.lang.Object" data-throw-if-not-resolved="False" />
+- "<xref href=\"java.lang.Object\" data-throw-if-not-resolved=\"False\" />"
 inheritedMembers:
-- java.lang.Object.clone()
-- java.lang.Object.equals(java.lang.Object)
-- java.lang.Object.finalize()
-- java.lang.Object.getClass()
-- java.lang.Object.hashCode()
-- java.lang.Object.notify()
-- java.lang.Object.notifyAll()
-- java.lang.Object.toString()
-- java.lang.Object.wait()
-- java.lang.Object.wait(long)
-- java.lang.Object.wait(long,int)
-syntax: public final class DiagnosticSettingsClient implements InnerSupportsDelete<Void>
+- "java.lang.Object.clone()"
+- "java.lang.Object.equals(java.lang.Object)"
+- "java.lang.Object.finalize()"
+- "java.lang.Object.getClass()"
+- "java.lang.Object.hashCode()"
+- "java.lang.Object.notify()"
+- "java.lang.Object.notifyAll()"
+- "java.lang.Object.toString()"
+- "java.lang.Object.wait()"
+- "java.lang.Object.wait(long)"
+- "java.lang.Object.wait(long,int)"
+syntax: "public final class DiagnosticSettingsClient implements InnerSupportsDelete<Void>"
 constructors:
-- com.azure.resourcemanager.monitor.fluent.DiagnosticSettingsClient.DiagnosticSettingsClient(com.azure.resourcemanager.monitor.MonitorClient)
+- "com.azure.resourcemanager.monitor.fluent.DiagnosticSettingsClient.DiagnosticSettingsClient(com.azure.resourcemanager.monitor.MonitorClient)"
 methods:
-- com.azure.resourcemanager.monitor.fluent.DiagnosticSettingsClient.createOrUpdate(java.lang.String,java.lang.String,com.azure.resourcemanager.monitor.fluent.inner.DiagnosticSettingsResourceInner)
-- com.azure.resourcemanager.monitor.fluent.DiagnosticSettingsClient.createOrUpdate(java.lang.String,java.lang.String,com.azure.resourcemanager.monitor.fluent.inner.DiagnosticSettingsResourceInner,com.azure.core.util.Context)
-- com.azure.resourcemanager.monitor.fluent.DiagnosticSettingsClient.createOrUpdateAsync(java.lang.String,java.lang.String,com.azure.resourcemanager.monitor.fluent.inner.DiagnosticSettingsResourceInner)
-- com.azure.resourcemanager.monitor.fluent.DiagnosticSettingsClient.createOrUpdateAsync(java.lang.String,java.lang.String,com.azure.resourcemanager.monitor.fluent.inner.DiagnosticSettingsResourceInner,com.azure.core.util.Context)
-- com.azure.resourcemanager.monitor.fluent.DiagnosticSettingsClient.createOrUpdateWithResponseAsync(java.lang.String,java.lang.String,com.azure.resourcemanager.monitor.fluent.inner.DiagnosticSettingsResourceInner)
-- com.azure.resourcemanager.monitor.fluent.DiagnosticSettingsClient.createOrUpdateWithResponseAsync(java.lang.String,java.lang.String,com.azure.resourcemanager.monitor.fluent.inner.DiagnosticSettingsResourceInner,com.azure.core.util.Context)
-- com.azure.resourcemanager.monitor.fluent.DiagnosticSettingsClient.delete(java.lang.String,java.lang.String)
-- com.azure.resourcemanager.monitor.fluent.DiagnosticSettingsClient.delete(java.lang.String,java.lang.String,com.azure.core.util.Context)
-- com.azure.resourcemanager.monitor.fluent.DiagnosticSettingsClient.deleteAsync(java.lang.String,java.lang.String)
-- com.azure.resourcemanager.monitor.fluent.DiagnosticSettingsClient.deleteAsync(java.lang.String,java.lang.String,com.azure.core.util.Context)
-- com.azure.resourcemanager.monitor.fluent.DiagnosticSettingsClient.deleteWithResponseAsync(java.lang.String,java.lang.String)
-- com.azure.resourcemanager.monitor.fluent.DiagnosticSettingsClient.deleteWithResponseAsync(java.lang.String,java.lang.String,com.azure.core.util.Context)
-- com.azure.resourcemanager.monitor.fluent.DiagnosticSettingsClient.get(java.lang.String,java.lang.String)
-- com.azure.resourcemanager.monitor.fluent.DiagnosticSettingsClient.get(java.lang.String,java.lang.String,com.azure.core.util.Context)
-- com.azure.resourcemanager.monitor.fluent.DiagnosticSettingsClient.getAsync(java.lang.String,java.lang.String)
-- com.azure.resourcemanager.monitor.fluent.DiagnosticSettingsClient.getAsync(java.lang.String,java.lang.String,com.azure.core.util.Context)
-- com.azure.resourcemanager.monitor.fluent.DiagnosticSettingsClient.getWithResponseAsync(java.lang.String,java.lang.String)
-- com.azure.resourcemanager.monitor.fluent.DiagnosticSettingsClient.getWithResponseAsync(java.lang.String,java.lang.String,com.azure.core.util.Context)
-- com.azure.resourcemanager.monitor.fluent.DiagnosticSettingsClient.list(java.lang.String)
-- com.azure.resourcemanager.monitor.fluent.DiagnosticSettingsClient.list(java.lang.String,com.azure.core.util.Context)
-- com.azure.resourcemanager.monitor.fluent.DiagnosticSettingsClient.listAsync(java.lang.String)
-- com.azure.resourcemanager.monitor.fluent.DiagnosticSettingsClient.listAsync(java.lang.String,com.azure.core.util.Context)
-- com.azure.resourcemanager.monitor.fluent.DiagnosticSettingsClient.listWithResponseAsync(java.lang.String)
-- com.azure.resourcemanager.monitor.fluent.DiagnosticSettingsClient.listWithResponseAsync(java.lang.String,com.azure.core.util.Context)
-type: class
+- "com.azure.resourcemanager.monitor.fluent.DiagnosticSettingsClient.createOrUpdate(java.lang.String,java.lang.String,com.azure.resourcemanager.monitor.fluent.inner.DiagnosticSettingsResourceInner)"
+- "com.azure.resourcemanager.monitor.fluent.DiagnosticSettingsClient.createOrUpdate(java.lang.String,java.lang.String,com.azure.resourcemanager.monitor.fluent.inner.DiagnosticSettingsResourceInner,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.monitor.fluent.DiagnosticSettingsClient.createOrUpdateAsync(java.lang.String,java.lang.String,com.azure.resourcemanager.monitor.fluent.inner.DiagnosticSettingsResourceInner)"
+- "com.azure.resourcemanager.monitor.fluent.DiagnosticSettingsClient.createOrUpdateAsync(java.lang.String,java.lang.String,com.azure.resourcemanager.monitor.fluent.inner.DiagnosticSettingsResourceInner,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.monitor.fluent.DiagnosticSettingsClient.createOrUpdateWithResponseAsync(java.lang.String,java.lang.String,com.azure.resourcemanager.monitor.fluent.inner.DiagnosticSettingsResourceInner)"
+- "com.azure.resourcemanager.monitor.fluent.DiagnosticSettingsClient.createOrUpdateWithResponseAsync(java.lang.String,java.lang.String,com.azure.resourcemanager.monitor.fluent.inner.DiagnosticSettingsResourceInner,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.monitor.fluent.DiagnosticSettingsClient.delete(java.lang.String,java.lang.String)"
+- "com.azure.resourcemanager.monitor.fluent.DiagnosticSettingsClient.delete(java.lang.String,java.lang.String,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.monitor.fluent.DiagnosticSettingsClient.deleteAsync(java.lang.String,java.lang.String)"
+- "com.azure.resourcemanager.monitor.fluent.DiagnosticSettingsClient.deleteAsync(java.lang.String,java.lang.String,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.monitor.fluent.DiagnosticSettingsClient.deleteWithResponseAsync(java.lang.String,java.lang.String)"
+- "com.azure.resourcemanager.monitor.fluent.DiagnosticSettingsClient.deleteWithResponseAsync(java.lang.String,java.lang.String,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.monitor.fluent.DiagnosticSettingsClient.get(java.lang.String,java.lang.String)"
+- "com.azure.resourcemanager.monitor.fluent.DiagnosticSettingsClient.get(java.lang.String,java.lang.String,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.monitor.fluent.DiagnosticSettingsClient.getAsync(java.lang.String,java.lang.String)"
+- "com.azure.resourcemanager.monitor.fluent.DiagnosticSettingsClient.getAsync(java.lang.String,java.lang.String,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.monitor.fluent.DiagnosticSettingsClient.getWithResponseAsync(java.lang.String,java.lang.String)"
+- "com.azure.resourcemanager.monitor.fluent.DiagnosticSettingsClient.getWithResponseAsync(java.lang.String,java.lang.String,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.monitor.fluent.DiagnosticSettingsClient.list(java.lang.String)"
+- "com.azure.resourcemanager.monitor.fluent.DiagnosticSettingsClient.list(java.lang.String,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.monitor.fluent.DiagnosticSettingsClient.listAsync(java.lang.String)"
+- "com.azure.resourcemanager.monitor.fluent.DiagnosticSettingsClient.listAsync(java.lang.String,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.monitor.fluent.DiagnosticSettingsClient.listWithResponseAsync(java.lang.String)"
+- "com.azure.resourcemanager.monitor.fluent.DiagnosticSettingsClient.listWithResponseAsync(java.lang.String,com.azure.core.util.Context)"
+type: "class"
 implements:
-- <xref href="com.azure.resourcemanager.resources.fluentcore.collection.InnerSupportsDelete?alt=com.azure.resourcemanager.resources.fluentcore.collection.InnerSupportsDelete&text=InnerSupportsDelete" data-throw-if-not-resolved="False" />&lt;<xref href="java.lang.Void?alt=java.lang.Void&text=Void" data-throw-if-not-resolved="False" />&gt;
+- "<xref href=\"com.azure.resourcemanager.resources.fluentcore.collection.InnerSupportsDelete?alt=com.azure.resourcemanager.resources.fluentcore.collection.InnerSupportsDelete&text=InnerSupportsDelete\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"java.lang.Void?alt=java.lang.Void&text=Void\" data-throw-if-not-resolved=\"False\" />&gt;"
 metadata: {}
-package: com.azure.resourcemanager.monitor.fluent
+package: "com.azure.resourcemanager.monitor.fluent"
 artifact: com.azure.resourcemanager:azure-resourcemanager-monitor:2.0.0-beta.2

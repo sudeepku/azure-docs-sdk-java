@@ -1,28 +1,28 @@
 ### YamlMime:JavaType
-uid: com.azure.search.documents.implementation.converters.ServiceStatisticsConverter
-fullName: com.azure.search.documents.implementation.converters.ServiceStatisticsConverter
-name: ServiceStatisticsConverter
-nameWithType: ServiceStatisticsConverter
-summary: A converter between <xref uid="com.azure.search.documents.indexes.implementation.models.ServiceStatistics" data-throw-if-not-resolved="false">com.azure.search.documents.indexes.implementation.models.ServiceStatistics</xref> and <xref uid="com.azure.search.documents.indexes.models.SearchServiceStatistics" data-throw-if-not-resolved="false">SearchServiceStatistics</xref>.
+uid: "com.azure.search.documents.implementation.converters.ServiceStatisticsConverter"
+fullName: "com.azure.search.documents.implementation.converters.ServiceStatisticsConverter"
+name: "ServiceStatisticsConverter"
+nameWithType: "ServiceStatisticsConverter"
+summary: "A converter between <xref uid=\"com.azure.search.documents.indexes.implementation.models.ServiceStatistics\" data-throw-if-not-resolved=\"false\">com.azure.search.documents.indexes.implementation.models.ServiceStatistics</xref> and <xref uid=\"com.azure.search.documents.indexes.models.SearchServiceStatistics\" data-throw-if-not-resolved=\"false\">SearchServiceStatistics</xref>."
 inheritances:
-- <xref href="java.lang.Object" data-throw-if-not-resolved="False" />
+- "<xref href=\"java.lang.Object\" data-throw-if-not-resolved=\"False\" />"
 inheritedMembers:
-- java.lang.Object.clone()
-- java.lang.Object.equals(java.lang.Object)
-- java.lang.Object.finalize()
-- java.lang.Object.getClass()
-- java.lang.Object.hashCode()
-- java.lang.Object.notify()
-- java.lang.Object.notifyAll()
-- java.lang.Object.toString()
-- java.lang.Object.wait()
-- java.lang.Object.wait(long)
-- java.lang.Object.wait(long,int)
-syntax: public final class ServiceStatisticsConverter
+- "java.lang.Object.clone()"
+- "java.lang.Object.equals(java.lang.Object)"
+- "java.lang.Object.finalize()"
+- "java.lang.Object.getClass()"
+- "java.lang.Object.hashCode()"
+- "java.lang.Object.notify()"
+- "java.lang.Object.notifyAll()"
+- "java.lang.Object.toString()"
+- "java.lang.Object.wait()"
+- "java.lang.Object.wait(long)"
+- "java.lang.Object.wait(long,int)"
+syntax: "public final class ServiceStatisticsConverter"
 methods:
-- com.azure.search.documents.implementation.converters.ServiceStatisticsConverter.map(com.azure.search.documents.indexes.implementation.models.ServiceStatistics)
-- com.azure.search.documents.implementation.converters.ServiceStatisticsConverter.map(com.azure.search.documents.indexes.models.SearchServiceStatistics)
-type: class
+- "com.azure.search.documents.implementation.converters.ServiceStatisticsConverter.map(com.azure.search.documents.indexes.implementation.models.ServiceStatistics)"
+- "com.azure.search.documents.implementation.converters.ServiceStatisticsConverter.map(com.azure.search.documents.indexes.models.SearchServiceStatistics)"
+type: "class"
 metadata: {}
-package: com.azure.search.documents.implementation.converters
+package: "com.azure.search.documents.implementation.converters"
 artifact: com.azure:azure-search-documents:11.0.0

@@ -1,55 +1,55 @@
 ### YamlMime:JavaType
-uid: com.azure.messaging.servicebus.models.CreateSubscriptionOptions
-fullName: com.azure.messaging.servicebus.models.CreateSubscriptionOptions
-name: CreateSubscriptionOptions
-nameWithType: CreateSubscriptionOptions
-summary: Options to set when creating a subscription.
+uid: "com.azure.messaging.servicebus.models.CreateSubscriptionOptions"
+fullName: "com.azure.messaging.servicebus.models.CreateSubscriptionOptions"
+name: "CreateSubscriptionOptions"
+nameWithType: "CreateSubscriptionOptions"
+summary: "Options to set when creating a subscription."
 inheritances:
-- <xref href="java.lang.Object" data-throw-if-not-resolved="False" />
+- "<xref href=\"java.lang.Object\" data-throw-if-not-resolved=\"False\" />"
 inheritedMembers:
-- java.lang.Object.clone()
-- java.lang.Object.equals(java.lang.Object)
-- java.lang.Object.finalize()
-- java.lang.Object.getClass()
-- java.lang.Object.hashCode()
-- java.lang.Object.notify()
-- java.lang.Object.notifyAll()
-- java.lang.Object.toString()
-- java.lang.Object.wait()
-- java.lang.Object.wait(long)
-- java.lang.Object.wait(long,int)
-syntax: public class CreateSubscriptionOptions
+- "java.lang.Object.clone()"
+- "java.lang.Object.equals(java.lang.Object)"
+- "java.lang.Object.finalize()"
+- "java.lang.Object.getClass()"
+- "java.lang.Object.hashCode()"
+- "java.lang.Object.notify()"
+- "java.lang.Object.notifyAll()"
+- "java.lang.Object.toString()"
+- "java.lang.Object.wait()"
+- "java.lang.Object.wait(long)"
+- "java.lang.Object.wait(long,int)"
+syntax: "public class CreateSubscriptionOptions"
 constructors:
-- com.azure.messaging.servicebus.models.CreateSubscriptionOptions.CreateSubscriptionOptions(com.azure.messaging.servicebus.models.SubscriptionProperties)
-- com.azure.messaging.servicebus.models.CreateSubscriptionOptions.CreateSubscriptionOptions(java.lang.String,java.lang.String)
+- "com.azure.messaging.servicebus.models.CreateSubscriptionOptions.CreateSubscriptionOptions(com.azure.messaging.servicebus.models.SubscriptionProperties)"
+- "com.azure.messaging.servicebus.models.CreateSubscriptionOptions.CreateSubscriptionOptions(java.lang.String,java.lang.String)"
 methods:
-- com.azure.messaging.servicebus.models.CreateSubscriptionOptions.deadLetteringOnMessageExpiration()
-- com.azure.messaging.servicebus.models.CreateSubscriptionOptions.enableBatchedOperations()
-- com.azure.messaging.servicebus.models.CreateSubscriptionOptions.enableDeadLetteringOnFilterEvaluationExceptions()
-- com.azure.messaging.servicebus.models.CreateSubscriptionOptions.getAutoDeleteOnIdle()
-- com.azure.messaging.servicebus.models.CreateSubscriptionOptions.getDefaultMessageTimeToLive()
-- com.azure.messaging.servicebus.models.CreateSubscriptionOptions.getForwardDeadLetteredMessagesTo()
-- com.azure.messaging.servicebus.models.CreateSubscriptionOptions.getForwardTo()
-- com.azure.messaging.servicebus.models.CreateSubscriptionOptions.getLockDuration()
-- com.azure.messaging.servicebus.models.CreateSubscriptionOptions.getMaxDeliveryCount()
-- com.azure.messaging.servicebus.models.CreateSubscriptionOptions.getStatus()
-- com.azure.messaging.servicebus.models.CreateSubscriptionOptions.getSubscriptionName()
-- com.azure.messaging.servicebus.models.CreateSubscriptionOptions.getTopicName()
-- com.azure.messaging.servicebus.models.CreateSubscriptionOptions.getUserMetadata()
-- com.azure.messaging.servicebus.models.CreateSubscriptionOptions.requiresSession()
-- com.azure.messaging.servicebus.models.CreateSubscriptionOptions.setAutoDeleteOnIdle(java.time.Duration)
-- com.azure.messaging.servicebus.models.CreateSubscriptionOptions.setDeadLetteringOnMessageExpiration(boolean)
-- com.azure.messaging.servicebus.models.CreateSubscriptionOptions.setDefaultMessageTimeToLive(java.time.Duration)
-- com.azure.messaging.servicebus.models.CreateSubscriptionOptions.setEnableBatchedOperations(boolean)
-- com.azure.messaging.servicebus.models.CreateSubscriptionOptions.setEnableDeadLetteringOnFilterEvaluationExceptions(boolean)
-- com.azure.messaging.servicebus.models.CreateSubscriptionOptions.setForwardDeadLetteredMessagesTo(java.lang.String)
-- com.azure.messaging.servicebus.models.CreateSubscriptionOptions.setForwardTo(java.lang.String)
-- com.azure.messaging.servicebus.models.CreateSubscriptionOptions.setLockDuration(java.time.Duration)
-- com.azure.messaging.servicebus.models.CreateSubscriptionOptions.setMaxDeliveryCount(int)
-- com.azure.messaging.servicebus.models.CreateSubscriptionOptions.setRequiresSession(boolean)
-- com.azure.messaging.servicebus.models.CreateSubscriptionOptions.setStatus(com.azure.messaging.servicebus.models.EntityStatus)
-- com.azure.messaging.servicebus.models.CreateSubscriptionOptions.setUserMetadata(java.lang.String)
-type: class
+- "com.azure.messaging.servicebus.models.CreateSubscriptionOptions.deadLetteringOnMessageExpiration()"
+- "com.azure.messaging.servicebus.models.CreateSubscriptionOptions.enableBatchedOperations()"
+- "com.azure.messaging.servicebus.models.CreateSubscriptionOptions.enableDeadLetteringOnFilterEvaluationExceptions()"
+- "com.azure.messaging.servicebus.models.CreateSubscriptionOptions.getAutoDeleteOnIdle()"
+- "com.azure.messaging.servicebus.models.CreateSubscriptionOptions.getDefaultMessageTimeToLive()"
+- "com.azure.messaging.servicebus.models.CreateSubscriptionOptions.getForwardDeadLetteredMessagesTo()"
+- "com.azure.messaging.servicebus.models.CreateSubscriptionOptions.getForwardTo()"
+- "com.azure.messaging.servicebus.models.CreateSubscriptionOptions.getLockDuration()"
+- "com.azure.messaging.servicebus.models.CreateSubscriptionOptions.getMaxDeliveryCount()"
+- "com.azure.messaging.servicebus.models.CreateSubscriptionOptions.getStatus()"
+- "com.azure.messaging.servicebus.models.CreateSubscriptionOptions.getSubscriptionName()"
+- "com.azure.messaging.servicebus.models.CreateSubscriptionOptions.getTopicName()"
+- "com.azure.messaging.servicebus.models.CreateSubscriptionOptions.getUserMetadata()"
+- "com.azure.messaging.servicebus.models.CreateSubscriptionOptions.requiresSession()"
+- "com.azure.messaging.servicebus.models.CreateSubscriptionOptions.setAutoDeleteOnIdle(java.time.Duration)"
+- "com.azure.messaging.servicebus.models.CreateSubscriptionOptions.setDeadLetteringOnMessageExpiration(boolean)"
+- "com.azure.messaging.servicebus.models.CreateSubscriptionOptions.setDefaultMessageTimeToLive(java.time.Duration)"
+- "com.azure.messaging.servicebus.models.CreateSubscriptionOptions.setEnableBatchedOperations(boolean)"
+- "com.azure.messaging.servicebus.models.CreateSubscriptionOptions.setEnableDeadLetteringOnFilterEvaluationExceptions(boolean)"
+- "com.azure.messaging.servicebus.models.CreateSubscriptionOptions.setForwardDeadLetteredMessagesTo(java.lang.String)"
+- "com.azure.messaging.servicebus.models.CreateSubscriptionOptions.setForwardTo(java.lang.String)"
+- "com.azure.messaging.servicebus.models.CreateSubscriptionOptions.setLockDuration(java.time.Duration)"
+- "com.azure.messaging.servicebus.models.CreateSubscriptionOptions.setMaxDeliveryCount(int)"
+- "com.azure.messaging.servicebus.models.CreateSubscriptionOptions.setRequiresSession(boolean)"
+- "com.azure.messaging.servicebus.models.CreateSubscriptionOptions.setStatus(com.azure.messaging.servicebus.models.EntityStatus)"
+- "com.azure.messaging.servicebus.models.CreateSubscriptionOptions.setUserMetadata(java.lang.String)"
+type: "class"
 metadata: {}
-package: com.azure.messaging.servicebus.models
+package: "com.azure.messaging.servicebus.models"
 artifact: com.azure:azure-messaging-servicebus:7.0.0-beta.5

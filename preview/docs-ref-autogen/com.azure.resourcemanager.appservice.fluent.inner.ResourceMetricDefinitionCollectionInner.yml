@@ -1,32 +1,32 @@
 ### YamlMime:JavaType
-uid: com.azure.resourcemanager.appservice.fluent.inner.ResourceMetricDefinitionCollectionInner
-fullName: com.azure.resourcemanager.appservice.fluent.inner.ResourceMetricDefinitionCollectionInner
-name: ResourceMetricDefinitionCollectionInner
-nameWithType: ResourceMetricDefinitionCollectionInner
-summary: The ResourceMetricDefinitionCollection model.
+uid: "com.azure.resourcemanager.appservice.fluent.inner.ResourceMetricDefinitionCollectionInner"
+fullName: "com.azure.resourcemanager.appservice.fluent.inner.ResourceMetricDefinitionCollectionInner"
+name: "ResourceMetricDefinitionCollectionInner"
+nameWithType: "ResourceMetricDefinitionCollectionInner"
+summary: "The ResourceMetricDefinitionCollection model."
 inheritances:
-- <xref href="java.lang.Object" data-throw-if-not-resolved="False" />
+- "<xref href=\"java.lang.Object\" data-throw-if-not-resolved=\"False\" />"
 inheritedMembers:
-- java.lang.Object.clone()
-- java.lang.Object.equals(java.lang.Object)
-- java.lang.Object.finalize()
-- java.lang.Object.getClass()
-- java.lang.Object.hashCode()
-- java.lang.Object.notify()
-- java.lang.Object.notifyAll()
-- java.lang.Object.toString()
-- java.lang.Object.wait()
-- java.lang.Object.wait(long)
-- java.lang.Object.wait(long,int)
-syntax: public final class ResourceMetricDefinitionCollectionInner
+- "java.lang.Object.clone()"
+- "java.lang.Object.equals(java.lang.Object)"
+- "java.lang.Object.finalize()"
+- "java.lang.Object.getClass()"
+- "java.lang.Object.hashCode()"
+- "java.lang.Object.notify()"
+- "java.lang.Object.notifyAll()"
+- "java.lang.Object.toString()"
+- "java.lang.Object.wait()"
+- "java.lang.Object.wait(long)"
+- "java.lang.Object.wait(long,int)"
+syntax: "public final class ResourceMetricDefinitionCollectionInner"
 constructors:
-- com.azure.resourcemanager.appservice.fluent.inner.ResourceMetricDefinitionCollectionInner.ResourceMetricDefinitionCollectionInner()
+- "com.azure.resourcemanager.appservice.fluent.inner.ResourceMetricDefinitionCollectionInner.ResourceMetricDefinitionCollectionInner()"
 methods:
-- com.azure.resourcemanager.appservice.fluent.inner.ResourceMetricDefinitionCollectionInner.nextLink()
-- com.azure.resourcemanager.appservice.fluent.inner.ResourceMetricDefinitionCollectionInner.validate()
-- com.azure.resourcemanager.appservice.fluent.inner.ResourceMetricDefinitionCollectionInner.value()
-- com.azure.resourcemanager.appservice.fluent.inner.ResourceMetricDefinitionCollectionInner.withValue(java.util.List<com.azure.resourcemanager.appservice.fluent.inner.ResourceMetricDefinitionInner>)
-type: class
+- "com.azure.resourcemanager.appservice.fluent.inner.ResourceMetricDefinitionCollectionInner.nextLink()"
+- "com.azure.resourcemanager.appservice.fluent.inner.ResourceMetricDefinitionCollectionInner.validate()"
+- "com.azure.resourcemanager.appservice.fluent.inner.ResourceMetricDefinitionCollectionInner.value()"
+- "com.azure.resourcemanager.appservice.fluent.inner.ResourceMetricDefinitionCollectionInner.withValue(java.util.List<com.azure.resourcemanager.appservice.fluent.inner.ResourceMetricDefinitionInner>)"
+type: "class"
 metadata: {}
-package: com.azure.resourcemanager.appservice.fluent.inner
+package: "com.azure.resourcemanager.appservice.fluent.inner"
 artifact: com.azure.resourcemanager:azure-resourcemanager-appservice:2.0.0-beta.2

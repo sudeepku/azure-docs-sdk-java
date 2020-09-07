@@ -1,32 +1,32 @@
 ### YamlMime:JavaType
-uid: com.azure.resourcemanager.appservice.fluent.inner.SourceControlCollectionInner
-fullName: com.azure.resourcemanager.appservice.fluent.inner.SourceControlCollectionInner
-name: SourceControlCollectionInner
-nameWithType: SourceControlCollectionInner
-summary: The SourceControlCollection model.
+uid: "com.azure.resourcemanager.appservice.fluent.inner.SourceControlCollectionInner"
+fullName: "com.azure.resourcemanager.appservice.fluent.inner.SourceControlCollectionInner"
+name: "SourceControlCollectionInner"
+nameWithType: "SourceControlCollectionInner"
+summary: "The SourceControlCollection model."
 inheritances:
-- <xref href="java.lang.Object" data-throw-if-not-resolved="False" />
+- "<xref href=\"java.lang.Object\" data-throw-if-not-resolved=\"False\" />"
 inheritedMembers:
-- java.lang.Object.clone()
-- java.lang.Object.equals(java.lang.Object)
-- java.lang.Object.finalize()
-- java.lang.Object.getClass()
-- java.lang.Object.hashCode()
-- java.lang.Object.notify()
-- java.lang.Object.notifyAll()
-- java.lang.Object.toString()
-- java.lang.Object.wait()
-- java.lang.Object.wait(long)
-- java.lang.Object.wait(long,int)
-syntax: public final class SourceControlCollectionInner
+- "java.lang.Object.clone()"
+- "java.lang.Object.equals(java.lang.Object)"
+- "java.lang.Object.finalize()"
+- "java.lang.Object.getClass()"
+- "java.lang.Object.hashCode()"
+- "java.lang.Object.notify()"
+- "java.lang.Object.notifyAll()"
+- "java.lang.Object.toString()"
+- "java.lang.Object.wait()"
+- "java.lang.Object.wait(long)"
+- "java.lang.Object.wait(long,int)"
+syntax: "public final class SourceControlCollectionInner"
 constructors:
-- com.azure.resourcemanager.appservice.fluent.inner.SourceControlCollectionInner.SourceControlCollectionInner()
+- "com.azure.resourcemanager.appservice.fluent.inner.SourceControlCollectionInner.SourceControlCollectionInner()"
 methods:
-- com.azure.resourcemanager.appservice.fluent.inner.SourceControlCollectionInner.nextLink()
-- com.azure.resourcemanager.appservice.fluent.inner.SourceControlCollectionInner.validate()
-- com.azure.resourcemanager.appservice.fluent.inner.SourceControlCollectionInner.value()
-- com.azure.resourcemanager.appservice.fluent.inner.SourceControlCollectionInner.withValue(java.util.List<com.azure.resourcemanager.appservice.fluent.inner.SourceControlInner>)
-type: class
+- "com.azure.resourcemanager.appservice.fluent.inner.SourceControlCollectionInner.nextLink()"
+- "com.azure.resourcemanager.appservice.fluent.inner.SourceControlCollectionInner.validate()"
+- "com.azure.resourcemanager.appservice.fluent.inner.SourceControlCollectionInner.value()"
+- "com.azure.resourcemanager.appservice.fluent.inner.SourceControlCollectionInner.withValue(java.util.List<com.azure.resourcemanager.appservice.fluent.inner.SourceControlInner>)"
+type: "class"
 metadata: {}
-package: com.azure.resourcemanager.appservice.fluent.inner
+package: "com.azure.resourcemanager.appservice.fluent.inner"
 artifact: com.azure.resourcemanager:azure-resourcemanager-appservice:2.0.0-beta.2

@@ -1,20 +1,20 @@
 ### YamlMime:JavaType
-uid: com.azure.data.schemaregistry.client.SchemaRegistryClient
-fullName: com.azure.data.schemaregistry.client.SchemaRegistryClient
-name: SchemaRegistryClient
-nameWithType: SchemaRegistryClient
-summary: Interface that defines operation for registering and fetching schemas and schema information to and from a schema registry store.
-syntax: public interface SchemaRegistryClient
+uid: "com.azure.data.schemaregistry.client.SchemaRegistryClient"
+fullName: "com.azure.data.schemaregistry.client.SchemaRegistryClient"
+name: "SchemaRegistryClient"
+nameWithType: "SchemaRegistryClient"
+summary: "Interface that defines operation for registering and fetching schemas and schema information to and from a schema registry store."
+syntax: "public interface SchemaRegistryClient"
 methods:
-- com.azure.data.schemaregistry.client.SchemaRegistryClient.addSchemaParser(com.azure.data.schemaregistry.Codec)
-- com.azure.data.schemaregistry.client.SchemaRegistryClient.deleteLatestSchemaVersion(java.lang.String,java.lang.String)
-- com.azure.data.schemaregistry.client.SchemaRegistryClient.deleteSchema(java.lang.String,java.lang.String)
-- com.azure.data.schemaregistry.client.SchemaRegistryClient.deleteSchemaVersion(java.lang.String,java.lang.String,int)
-- com.azure.data.schemaregistry.client.SchemaRegistryClient.getEncoding()
-- com.azure.data.schemaregistry.client.SchemaRegistryClient.getSchemaByGuid(java.lang.String)
-- com.azure.data.schemaregistry.client.SchemaRegistryClient.getSchemaId(java.lang.String,java.lang.String,java.lang.String,java.lang.String)
-- com.azure.data.schemaregistry.client.SchemaRegistryClient.register(java.lang.String,java.lang.String,java.lang.String,java.lang.String)
-type: interface
+- "com.azure.data.schemaregistry.client.SchemaRegistryClient.addSchemaParser(com.azure.data.schemaregistry.Codec)"
+- "com.azure.data.schemaregistry.client.SchemaRegistryClient.deleteLatestSchemaVersion(java.lang.String,java.lang.String)"
+- "com.azure.data.schemaregistry.client.SchemaRegistryClient.deleteSchema(java.lang.String,java.lang.String)"
+- "com.azure.data.schemaregistry.client.SchemaRegistryClient.deleteSchemaVersion(java.lang.String,java.lang.String,int)"
+- "com.azure.data.schemaregistry.client.SchemaRegistryClient.getEncoding()"
+- "com.azure.data.schemaregistry.client.SchemaRegistryClient.getSchemaByGuid(java.lang.String)"
+- "com.azure.data.schemaregistry.client.SchemaRegistryClient.getSchemaId(java.lang.String,java.lang.String,java.lang.String,java.lang.String)"
+- "com.azure.data.schemaregistry.client.SchemaRegistryClient.register(java.lang.String,java.lang.String,java.lang.String,java.lang.String)"
+type: "interface"
 metadata: {}
-package: com.azure.data.schemaregistry.client
+package: "com.azure.data.schemaregistry.client"
 artifact: com.azure:azure-data-schemaregistry:1.0.0-beta.1

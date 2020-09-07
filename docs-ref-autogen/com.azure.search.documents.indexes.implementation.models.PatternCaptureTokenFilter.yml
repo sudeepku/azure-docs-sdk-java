@@ -1,35 +1,35 @@
 ### YamlMime:JavaType
-uid: com.azure.search.documents.indexes.implementation.models.PatternCaptureTokenFilter
-fullName: com.azure.search.documents.indexes.implementation.models.PatternCaptureTokenFilter
-name: PatternCaptureTokenFilter
-nameWithType: PatternCaptureTokenFilter
-summary: The PatternCaptureTokenFilter model.
+uid: "com.azure.search.documents.indexes.implementation.models.PatternCaptureTokenFilter"
+fullName: "com.azure.search.documents.indexes.implementation.models.PatternCaptureTokenFilter"
+name: "PatternCaptureTokenFilter"
+nameWithType: "PatternCaptureTokenFilter"
+summary: "The PatternCaptureTokenFilter model."
 inheritances:
-- <xref href="java.lang.Object" data-throw-if-not-resolved="False" />
-- <xref href="com.azure.search.documents.indexes.implementation.models.TokenFilter" data-throw-if-not-resolved="False" />
+- "<xref href=\"java.lang.Object\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.azure.search.documents.indexes.implementation.models.TokenFilter\" data-throw-if-not-resolved=\"False\" />"
 inheritedMembers:
-- com.azure.search.documents.indexes.implementation.models.TokenFilter.getName()
-- com.azure.search.documents.indexes.implementation.models.TokenFilter.validate()
-- java.lang.Object.clone()
-- java.lang.Object.equals(java.lang.Object)
-- java.lang.Object.finalize()
-- java.lang.Object.getClass()
-- java.lang.Object.hashCode()
-- java.lang.Object.notify()
-- java.lang.Object.notifyAll()
-- java.lang.Object.toString()
-- java.lang.Object.wait()
-- java.lang.Object.wait(long)
-- java.lang.Object.wait(long,int)
-syntax: public class PatternCaptureTokenFilter extends TokenFilter
+- "com.azure.search.documents.indexes.implementation.models.TokenFilter.getName()"
+- "com.azure.search.documents.indexes.implementation.models.TokenFilter.validate()"
+- "java.lang.Object.clone()"
+- "java.lang.Object.equals(java.lang.Object)"
+- "java.lang.Object.finalize()"
+- "java.lang.Object.getClass()"
+- "java.lang.Object.hashCode()"
+- "java.lang.Object.notify()"
+- "java.lang.Object.notifyAll()"
+- "java.lang.Object.toString()"
+- "java.lang.Object.wait()"
+- "java.lang.Object.wait(long)"
+- "java.lang.Object.wait(long,int)"
+syntax: "public class PatternCaptureTokenFilter extends TokenFilter"
 constructors:
-- com.azure.search.documents.indexes.implementation.models.PatternCaptureTokenFilter.PatternCaptureTokenFilter(java.lang.String,java.util.List<java.lang.String>)
+- "com.azure.search.documents.indexes.implementation.models.PatternCaptureTokenFilter.PatternCaptureTokenFilter(java.lang.String,java.util.List<java.lang.String>)"
 methods:
-- com.azure.search.documents.indexes.implementation.models.PatternCaptureTokenFilter.getPatterns()
-- com.azure.search.documents.indexes.implementation.models.PatternCaptureTokenFilter.isPreserveOriginal()
-- com.azure.search.documents.indexes.implementation.models.PatternCaptureTokenFilter.setPreserveOriginal(java.lang.Boolean)
-- com.azure.search.documents.indexes.implementation.models.PatternCaptureTokenFilter.validate()
-type: class
+- "com.azure.search.documents.indexes.implementation.models.PatternCaptureTokenFilter.getPatterns()"
+- "com.azure.search.documents.indexes.implementation.models.PatternCaptureTokenFilter.isPreserveOriginal()"
+- "com.azure.search.documents.indexes.implementation.models.PatternCaptureTokenFilter.setPreserveOriginal(java.lang.Boolean)"
+- "com.azure.search.documents.indexes.implementation.models.PatternCaptureTokenFilter.validate()"
+type: "class"
 metadata: {}
-package: com.azure.search.documents.indexes.implementation.models
+package: "com.azure.search.documents.indexes.implementation.models"
 artifact: com.azure:azure-search-documents:11.0.0

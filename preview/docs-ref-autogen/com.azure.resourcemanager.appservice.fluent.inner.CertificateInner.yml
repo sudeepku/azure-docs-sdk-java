@@ -1,67 +1,67 @@
 ### YamlMime:JavaType
-uid: com.azure.resourcemanager.appservice.fluent.inner.CertificateInner
-fullName: com.azure.resourcemanager.appservice.fluent.inner.CertificateInner
-name: CertificateInner
-nameWithType: CertificateInner
-summary: The Certificate model.
+uid: "com.azure.resourcemanager.appservice.fluent.inner.CertificateInner"
+fullName: "com.azure.resourcemanager.appservice.fluent.inner.CertificateInner"
+name: "CertificateInner"
+nameWithType: "CertificateInner"
+summary: "The Certificate model."
 inheritances:
-- <xref href="java.lang.Object" data-throw-if-not-resolved="False" />
-- <xref href="com.azure.core.management.ProxyResource" data-throw-if-not-resolved="False" />
-- <xref href="com.azure.core.management.Resource" data-throw-if-not-resolved="False" />
+- "<xref href=\"java.lang.Object\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.azure.core.management.ProxyResource\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.azure.core.management.Resource\" data-throw-if-not-resolved=\"False\" />"
 inheritedMembers:
-- com.azure.core.management.ProxyResource.id()
-- com.azure.core.management.ProxyResource.name()
-- com.azure.core.management.ProxyResource.type()
-- com.azure.core.management.Resource.location()
-- com.azure.core.management.Resource.tags()
-- com.azure.core.management.Resource.withLocation(java.lang.String)
-- com.azure.core.management.Resource.withTags(java.util.Map<java.lang.String,java.lang.String>)
-- java.lang.Object.clone()
-- java.lang.Object.equals(java.lang.Object)
-- java.lang.Object.finalize()
-- java.lang.Object.getClass()
-- java.lang.Object.hashCode()
-- java.lang.Object.notify()
-- java.lang.Object.notifyAll()
-- java.lang.Object.toString()
-- java.lang.Object.wait()
-- java.lang.Object.wait(long)
-- java.lang.Object.wait(long,int)
-syntax: public class CertificateInner extends Resource
+- "com.azure.core.management.ProxyResource.id()"
+- "com.azure.core.management.ProxyResource.name()"
+- "com.azure.core.management.ProxyResource.type()"
+- "com.azure.core.management.Resource.location()"
+- "com.azure.core.management.Resource.tags()"
+- "com.azure.core.management.Resource.withLocation(java.lang.String)"
+- "com.azure.core.management.Resource.withTags(java.util.Map<java.lang.String,java.lang.String>)"
+- "java.lang.Object.clone()"
+- "java.lang.Object.equals(java.lang.Object)"
+- "java.lang.Object.finalize()"
+- "java.lang.Object.getClass()"
+- "java.lang.Object.hashCode()"
+- "java.lang.Object.notify()"
+- "java.lang.Object.notifyAll()"
+- "java.lang.Object.toString()"
+- "java.lang.Object.wait()"
+- "java.lang.Object.wait(long)"
+- "java.lang.Object.wait(long,int)"
+syntax: "public class CertificateInner extends Resource"
 constructors:
-- com.azure.resourcemanager.appservice.fluent.inner.CertificateInner.CertificateInner()
+- "com.azure.resourcemanager.appservice.fluent.inner.CertificateInner.CertificateInner()"
 methods:
-- com.azure.resourcemanager.appservice.fluent.inner.CertificateInner.canonicalName()
-- com.azure.resourcemanager.appservice.fluent.inner.CertificateInner.cerBlob()
-- com.azure.resourcemanager.appservice.fluent.inner.CertificateInner.expirationDate()
-- com.azure.resourcemanager.appservice.fluent.inner.CertificateInner.friendlyName()
-- com.azure.resourcemanager.appservice.fluent.inner.CertificateInner.hostNames()
-- com.azure.resourcemanager.appservice.fluent.inner.CertificateInner.hostingEnvironmentProfile()
-- com.azure.resourcemanager.appservice.fluent.inner.CertificateInner.issueDate()
-- com.azure.resourcemanager.appservice.fluent.inner.CertificateInner.issuer()
-- com.azure.resourcemanager.appservice.fluent.inner.CertificateInner.keyVaultId()
-- com.azure.resourcemanager.appservice.fluent.inner.CertificateInner.keyVaultSecretName()
-- com.azure.resourcemanager.appservice.fluent.inner.CertificateInner.keyVaultSecretStatus()
-- com.azure.resourcemanager.appservice.fluent.inner.CertificateInner.kind()
-- com.azure.resourcemanager.appservice.fluent.inner.CertificateInner.password()
-- com.azure.resourcemanager.appservice.fluent.inner.CertificateInner.pfxBlob()
-- com.azure.resourcemanager.appservice.fluent.inner.CertificateInner.publicKeyHash()
-- com.azure.resourcemanager.appservice.fluent.inner.CertificateInner.selfLink()
-- com.azure.resourcemanager.appservice.fluent.inner.CertificateInner.serverFarmId()
-- com.azure.resourcemanager.appservice.fluent.inner.CertificateInner.siteName()
-- com.azure.resourcemanager.appservice.fluent.inner.CertificateInner.subjectName()
-- com.azure.resourcemanager.appservice.fluent.inner.CertificateInner.thumbprint()
-- com.azure.resourcemanager.appservice.fluent.inner.CertificateInner.valid()
-- com.azure.resourcemanager.appservice.fluent.inner.CertificateInner.validate()
-- com.azure.resourcemanager.appservice.fluent.inner.CertificateInner.withCanonicalName(java.lang.String)
-- com.azure.resourcemanager.appservice.fluent.inner.CertificateInner.withHostNames(java.util.List<java.lang.String>)
-- com.azure.resourcemanager.appservice.fluent.inner.CertificateInner.withKeyVaultId(java.lang.String)
-- com.azure.resourcemanager.appservice.fluent.inner.CertificateInner.withKeyVaultSecretName(java.lang.String)
-- com.azure.resourcemanager.appservice.fluent.inner.CertificateInner.withKind(java.lang.String)
-- com.azure.resourcemanager.appservice.fluent.inner.CertificateInner.withPassword(java.lang.String)
-- com.azure.resourcemanager.appservice.fluent.inner.CertificateInner.withPfxBlob(byte[])
-- com.azure.resourcemanager.appservice.fluent.inner.CertificateInner.withServerFarmId(java.lang.String)
-type: class
+- "com.azure.resourcemanager.appservice.fluent.inner.CertificateInner.canonicalName()"
+- "com.azure.resourcemanager.appservice.fluent.inner.CertificateInner.cerBlob()"
+- "com.azure.resourcemanager.appservice.fluent.inner.CertificateInner.expirationDate()"
+- "com.azure.resourcemanager.appservice.fluent.inner.CertificateInner.friendlyName()"
+- "com.azure.resourcemanager.appservice.fluent.inner.CertificateInner.hostNames()"
+- "com.azure.resourcemanager.appservice.fluent.inner.CertificateInner.hostingEnvironmentProfile()"
+- "com.azure.resourcemanager.appservice.fluent.inner.CertificateInner.issueDate()"
+- "com.azure.resourcemanager.appservice.fluent.inner.CertificateInner.issuer()"
+- "com.azure.resourcemanager.appservice.fluent.inner.CertificateInner.keyVaultId()"
+- "com.azure.resourcemanager.appservice.fluent.inner.CertificateInner.keyVaultSecretName()"
+- "com.azure.resourcemanager.appservice.fluent.inner.CertificateInner.keyVaultSecretStatus()"
+- "com.azure.resourcemanager.appservice.fluent.inner.CertificateInner.kind()"
+- "com.azure.resourcemanager.appservice.fluent.inner.CertificateInner.password()"
+- "com.azure.resourcemanager.appservice.fluent.inner.CertificateInner.pfxBlob()"
+- "com.azure.resourcemanager.appservice.fluent.inner.CertificateInner.publicKeyHash()"
+- "com.azure.resourcemanager.appservice.fluent.inner.CertificateInner.selfLink()"
+- "com.azure.resourcemanager.appservice.fluent.inner.CertificateInner.serverFarmId()"
+- "com.azure.resourcemanager.appservice.fluent.inner.CertificateInner.siteName()"
+- "com.azure.resourcemanager.appservice.fluent.inner.CertificateInner.subjectName()"
+- "com.azure.resourcemanager.appservice.fluent.inner.CertificateInner.thumbprint()"
+- "com.azure.resourcemanager.appservice.fluent.inner.CertificateInner.valid()"
+- "com.azure.resourcemanager.appservice.fluent.inner.CertificateInner.validate()"
+- "com.azure.resourcemanager.appservice.fluent.inner.CertificateInner.withCanonicalName(java.lang.String)"
+- "com.azure.resourcemanager.appservice.fluent.inner.CertificateInner.withHostNames(java.util.List<java.lang.String>)"
+- "com.azure.resourcemanager.appservice.fluent.inner.CertificateInner.withKeyVaultId(java.lang.String)"
+- "com.azure.resourcemanager.appservice.fluent.inner.CertificateInner.withKeyVaultSecretName(java.lang.String)"
+- "com.azure.resourcemanager.appservice.fluent.inner.CertificateInner.withKind(java.lang.String)"
+- "com.azure.resourcemanager.appservice.fluent.inner.CertificateInner.withPassword(java.lang.String)"
+- "com.azure.resourcemanager.appservice.fluent.inner.CertificateInner.withPfxBlob(byte[])"
+- "com.azure.resourcemanager.appservice.fluent.inner.CertificateInner.withServerFarmId(java.lang.String)"
+type: "class"
 metadata: {}
-package: com.azure.resourcemanager.appservice.fluent.inner
+package: "com.azure.resourcemanager.appservice.fluent.inner"
 artifact: com.azure.resourcemanager:azure-resourcemanager-appservice:2.0.0-beta.2

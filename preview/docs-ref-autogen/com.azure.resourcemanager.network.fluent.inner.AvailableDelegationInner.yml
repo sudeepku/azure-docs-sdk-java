@@ -1,39 +1,39 @@
 ### YamlMime:JavaType
-uid: com.azure.resourcemanager.network.fluent.inner.AvailableDelegationInner
-fullName: com.azure.resourcemanager.network.fluent.inner.AvailableDelegationInner
-name: AvailableDelegationInner
-nameWithType: AvailableDelegationInner
-summary: The AvailableDelegation model.
+uid: "com.azure.resourcemanager.network.fluent.inner.AvailableDelegationInner"
+fullName: "com.azure.resourcemanager.network.fluent.inner.AvailableDelegationInner"
+name: "AvailableDelegationInner"
+nameWithType: "AvailableDelegationInner"
+summary: "The AvailableDelegation model."
 inheritances:
-- <xref href="java.lang.Object" data-throw-if-not-resolved="False" />
+- "<xref href=\"java.lang.Object\" data-throw-if-not-resolved=\"False\" />"
 inheritedMembers:
-- java.lang.Object.clone()
-- java.lang.Object.equals(java.lang.Object)
-- java.lang.Object.finalize()
-- java.lang.Object.getClass()
-- java.lang.Object.hashCode()
-- java.lang.Object.notify()
-- java.lang.Object.notifyAll()
-- java.lang.Object.toString()
-- java.lang.Object.wait()
-- java.lang.Object.wait(long)
-- java.lang.Object.wait(long,int)
-syntax: public final class AvailableDelegationInner
+- "java.lang.Object.clone()"
+- "java.lang.Object.equals(java.lang.Object)"
+- "java.lang.Object.finalize()"
+- "java.lang.Object.getClass()"
+- "java.lang.Object.hashCode()"
+- "java.lang.Object.notify()"
+- "java.lang.Object.notifyAll()"
+- "java.lang.Object.toString()"
+- "java.lang.Object.wait()"
+- "java.lang.Object.wait(long)"
+- "java.lang.Object.wait(long,int)"
+syntax: "public final class AvailableDelegationInner"
 constructors:
-- com.azure.resourcemanager.network.fluent.inner.AvailableDelegationInner.AvailableDelegationInner()
+- "com.azure.resourcemanager.network.fluent.inner.AvailableDelegationInner.AvailableDelegationInner()"
 methods:
-- com.azure.resourcemanager.network.fluent.inner.AvailableDelegationInner.actions()
-- com.azure.resourcemanager.network.fluent.inner.AvailableDelegationInner.id()
-- com.azure.resourcemanager.network.fluent.inner.AvailableDelegationInner.name()
-- com.azure.resourcemanager.network.fluent.inner.AvailableDelegationInner.serviceName()
-- com.azure.resourcemanager.network.fluent.inner.AvailableDelegationInner.type()
-- com.azure.resourcemanager.network.fluent.inner.AvailableDelegationInner.validate()
-- com.azure.resourcemanager.network.fluent.inner.AvailableDelegationInner.withActions(java.util.List<java.lang.String>)
-- com.azure.resourcemanager.network.fluent.inner.AvailableDelegationInner.withId(java.lang.String)
-- com.azure.resourcemanager.network.fluent.inner.AvailableDelegationInner.withName(java.lang.String)
-- com.azure.resourcemanager.network.fluent.inner.AvailableDelegationInner.withServiceName(java.lang.String)
-- com.azure.resourcemanager.network.fluent.inner.AvailableDelegationInner.withType(java.lang.String)
-type: class
+- "com.azure.resourcemanager.network.fluent.inner.AvailableDelegationInner.actions()"
+- "com.azure.resourcemanager.network.fluent.inner.AvailableDelegationInner.id()"
+- "com.azure.resourcemanager.network.fluent.inner.AvailableDelegationInner.name()"
+- "com.azure.resourcemanager.network.fluent.inner.AvailableDelegationInner.serviceName()"
+- "com.azure.resourcemanager.network.fluent.inner.AvailableDelegationInner.type()"
+- "com.azure.resourcemanager.network.fluent.inner.AvailableDelegationInner.validate()"
+- "com.azure.resourcemanager.network.fluent.inner.AvailableDelegationInner.withActions(java.util.List<java.lang.String>)"
+- "com.azure.resourcemanager.network.fluent.inner.AvailableDelegationInner.withId(java.lang.String)"
+- "com.azure.resourcemanager.network.fluent.inner.AvailableDelegationInner.withName(java.lang.String)"
+- "com.azure.resourcemanager.network.fluent.inner.AvailableDelegationInner.withServiceName(java.lang.String)"
+- "com.azure.resourcemanager.network.fluent.inner.AvailableDelegationInner.withType(java.lang.String)"
+type: "class"
 metadata: {}
-package: com.azure.resourcemanager.network.fluent.inner
+package: "com.azure.resourcemanager.network.fluent.inner"
 artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.0.0-beta.2

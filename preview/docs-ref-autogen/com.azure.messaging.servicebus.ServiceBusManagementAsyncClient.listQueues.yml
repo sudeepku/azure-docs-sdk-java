@@ -1,19 +1,19 @@
 ### YamlMime:JavaMember
-uid: com.azure.messaging.servicebus.ServiceBusManagementAsyncClient.listQueues*
-fullName: com.azure.messaging.servicebus.ServiceBusManagementAsyncClient.listQueues
-name: listQueues
-nameWithType: ServiceBusManagementAsyncClient.listQueues
+uid: "com.azure.messaging.servicebus.ServiceBusManagementAsyncClient.listQueues*"
+fullName: "com.azure.messaging.servicebus.ServiceBusManagementAsyncClient.listQueues"
+name: "listQueues"
+nameWithType: "ServiceBusManagementAsyncClient.listQueues"
 members:
-- uid: com.azure.messaging.servicebus.ServiceBusManagementAsyncClient.listQueues()
-  fullName: com.azure.messaging.servicebus.ServiceBusManagementAsyncClient.listQueues()
-  name: listQueues()
-  nameWithType: ServiceBusManagementAsyncClient.listQueues()
-  summary: Fetches all the queues in the Service Bus namespace.
-  syntax: public PagedFlux<QueueProperties> listQueues()
+- uid: "com.azure.messaging.servicebus.ServiceBusManagementAsyncClient.listQueues()"
+  fullName: "com.azure.messaging.servicebus.ServiceBusManagementAsyncClient.listQueues()"
+  name: "listQueues()"
+  nameWithType: "ServiceBusManagementAsyncClient.listQueues()"
+  summary: "Fetches all the queues in the Service Bus namespace."
+  syntax: "public PagedFlux<QueueProperties> listQueues()"
   returns:
-    description: A Flux of <xref uid="com.azure.messaging.servicebus.models.QueueProperties" data-throw-if-not-resolved="false">queues</xref> in the Service Bus namespace.
-    type: <xref href="com.azure.core.http.rest.PagedFlux?alt=com.azure.core.http.rest.PagedFlux&text=PagedFlux" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.messaging.servicebus.models.QueueProperties?alt=com.azure.messaging.servicebus.models.QueueProperties&text=QueueProperties" data-throw-if-not-resolved="False" />&gt;
-type: method
+    description: "A Flux of <xref uid=\"com.azure.messaging.servicebus.models.QueueProperties\" data-throw-if-not-resolved=\"false\">queues</xref> in the Service Bus namespace."
+    type: "<xref href=\"com.azure.core.http.rest.PagedFlux?alt=com.azure.core.http.rest.PagedFlux&text=PagedFlux\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.messaging.servicebus.models.QueueProperties?alt=com.azure.messaging.servicebus.models.QueueProperties&text=QueueProperties\" data-throw-if-not-resolved=\"False\" />&gt;"
+type: "method"
 metadata: {}
-package: com.azure.messaging.servicebus
+package: "com.azure.messaging.servicebus"
 artifact: com.azure:azure-messaging-servicebus:7.0.0-beta.5

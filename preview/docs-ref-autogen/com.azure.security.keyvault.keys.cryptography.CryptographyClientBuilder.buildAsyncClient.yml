@@ -1,25 +1,19 @@
 ### YamlMime:JavaMember
-uid: com.azure.security.keyvault.keys.cryptography.CryptographyClientBuilder.buildAsyncClient*
-fullName: com.azure.security.keyvault.keys.cryptography.CryptographyClientBuilder.buildAsyncClient
-name: buildAsyncClient
-nameWithType: CryptographyClientBuilder.buildAsyncClient
+uid: "com.azure.security.keyvault.keys.cryptography.CryptographyClientBuilder.buildAsyncClient*"
+fullName: "com.azure.security.keyvault.keys.cryptography.CryptographyClientBuilder.buildAsyncClient"
+name: "buildAsyncClient"
+nameWithType: "CryptographyClientBuilder.buildAsyncClient"
 members:
-- uid: com.azure.security.keyvault.keys.cryptography.CryptographyClientBuilder.buildAsyncClient()
-  fullName: com.azure.security.keyvault.keys.cryptography.CryptographyClientBuilder.buildAsyncClient()
-  name: buildAsyncClient()
-  nameWithType: CryptographyClientBuilder.buildAsyncClient()
-  summary: |-
-    Creates a <xref uid="CryptographyAsyncClient" data-throw-if-not-resolved="false">CryptographyAsyncClient</xref> based on options set in the builder. Every time
-     <xref uid="#buildAsyncClient()" data-throw-if-not-resolved="false">#buildAsyncClient()</xref> is called, a new instance of <xref uid="CryptographyAsyncClient" data-throw-if-not-resolved="false">CryptographyAsyncClient</xref> is created.
-
-     <p>If <xref uid="CryptographyClientBuilder#pipeline(HttpPipeline)" data-throw-if-not-resolved="false">pipeline</xref> is set, then the <code>pipeline</code> and
-     (<xref uid="CryptographyClientBuilder#keyIdentifier(String)" data-throw-if-not-resolved="false">jsonWebKey identifier</xref>) are used to create the <xref uid="CryptographyAsyncClient" data-throw-if-not-resolved="false">async client</xref>. All other builder settings are ignored. If <code>pipeline</code> is not set,
-     then (<xref uid="CryptographyClientBuilder#credential(TokenCredential)" data-throw-if-not-resolved="false">jsonWebKey vault credential</xref> and (<xref uid="CryptographyClientBuilder#keyIdentifier(String)" data-throw-if-not-resolved="false">jsonWebKey identifier</xref>  are required to build the <xref uid="CryptographyAsyncClient" data-throw-if-not-resolved="false">async client</xref>.</p>
-  syntax: public CryptographyAsyncClient buildAsyncClient()
+- uid: "com.azure.security.keyvault.keys.cryptography.CryptographyClientBuilder.buildAsyncClient()"
+  fullName: "com.azure.security.keyvault.keys.cryptography.CryptographyClientBuilder.buildAsyncClient()"
+  name: "buildAsyncClient()"
+  nameWithType: "CryptographyClientBuilder.buildAsyncClient()"
+  summary: "Creates a <xref uid=\"CryptographyAsyncClient\" data-throw-if-not-resolved=\"false\">CryptographyAsyncClient</xref> based on options set in the builder. Every time\n <xref uid=\"#buildAsyncClient()\" data-throw-if-not-resolved=\"false\">#buildAsyncClient()</xref> is called, a new instance of <xref uid=\"CryptographyAsyncClient\" data-throw-if-not-resolved=\"false\">CryptographyAsyncClient</xref> is created.\n\n <p>If <xref uid=\"CryptographyClientBuilder#pipeline(HttpPipeline)\" data-throw-if-not-resolved=\"false\">pipeline</xref> is set, then the <code>pipeline</code> and\n (<xref uid=\"CryptographyClientBuilder#keyIdentifier(String)\" data-throw-if-not-resolved=\"false\">jsonWebKey identifier</xref>) are used to create the <xref uid=\"CryptographyAsyncClient\" data-throw-if-not-resolved=\"false\">async client</xref>. All other builder settings are ignored. If <code>pipeline</code> is not set,\n then (<xref uid=\"CryptographyClientBuilder#credential(TokenCredential)\" data-throw-if-not-resolved=\"false\">jsonWebKey vault credential</xref> and (<xref uid=\"CryptographyClientBuilder#keyIdentifier(String)\" data-throw-if-not-resolved=\"false\">jsonWebKey identifier</xref>  are required to build the <xref uid=\"CryptographyAsyncClient\" data-throw-if-not-resolved=\"false\">async client</xref>.</p>"
+  syntax: "public CryptographyAsyncClient buildAsyncClient()"
   returns:
-    description: A <xref uid="com.azure.security.keyvault.keys.cryptography.CryptographyAsyncClient" data-throw-if-not-resolved="false">CryptographyAsyncClient</xref> with the options set from the builder.
-    type: <xref href="com.azure.security.keyvault.keys.cryptography.CryptographyAsyncClient?alt=com.azure.security.keyvault.keys.cryptography.CryptographyAsyncClient&text=CryptographyAsyncClient" data-throw-if-not-resolved="False" />
-type: method
+    description: "A <xref uid=\"com.azure.security.keyvault.keys.cryptography.CryptographyAsyncClient\" data-throw-if-not-resolved=\"false\">CryptographyAsyncClient</xref> with the options set from the builder."
+    type: "<xref href=\"com.azure.security.keyvault.keys.cryptography.CryptographyAsyncClient?alt=com.azure.security.keyvault.keys.cryptography.CryptographyAsyncClient&text=CryptographyAsyncClient\" data-throw-if-not-resolved=\"False\" />"
+type: "method"
 metadata: {}
-package: com.azure.security.keyvault.keys.cryptography
+package: "com.azure.security.keyvault.keys.cryptography"
 artifact: com.azure:azure-security-keyvault-keys:4.2.0-beta.4

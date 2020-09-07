@@ -1,47 +1,39 @@
 ### YamlMime:JavaType
-uid: com.azure.data.schemaregistry.client.CachedSchemaRegistryClient
-fullName: com.azure.data.schemaregistry.client.CachedSchemaRegistryClient
-name: CachedSchemaRegistryClient
-nameWithType: CachedSchemaRegistryClient
-summary: |-
-  HTTP-based client that interacts with Azure Schema Registry service to store and retrieve schemas on demand.
-
-  Utilizes in-memory <xref uid="java.util.Map" data-throw-if-not-resolved="false">Map</xref> caching to minimize network I/O. Max size can be configured when instantiating by using <xref uid="com.azure.data.schemaregistry.client.CachedSchemaRegistryClientBuilder.maxSchemaMapSize*" data-throw-if-not-resolved="false">CachedSchemaRegistryClientBuilder#maxSchemaMapSize</xref>, otherwise `1000` will be used as the default.
-
-  Two maps are maintained.
-
-   *  SchemaRegistryObject cache by GUID - stores GUIDs previously seen in payloads.
-   *  SchemaRegistryObject cache by schema string - minimizes HTTP calls when sending payloads of same schema.
+uid: "com.azure.data.schemaregistry.client.CachedSchemaRegistryClient"
+fullName: "com.azure.data.schemaregistry.client.CachedSchemaRegistryClient"
+name: "CachedSchemaRegistryClient"
+nameWithType: "CachedSchemaRegistryClient"
+summary: "HTTP-based client that interacts with Azure Schema Registry service to store and retrieve schemas on demand.\n\nUtilizes in-memory <xref uid=\"java.util.Map\" data-throw-if-not-resolved=\"false\">Map</xref> caching to minimize network I/O. Max size can be configured when instantiating by using <xref uid=\"com.azure.data.schemaregistry.client.CachedSchemaRegistryClientBuilder.maxSchemaMapSize*\" data-throw-if-not-resolved=\"false\">CachedSchemaRegistryClientBuilder#maxSchemaMapSize</xref>, otherwise `1000` will be used as the default.\n\nTwo maps are maintained.\n\n *  SchemaRegistryObject cache by GUID - stores GUIDs previously seen in payloads.\n *  SchemaRegistryObject cache by schema string - minimizes HTTP calls when sending payloads of same schema."
 inheritances:
-- <xref href="java.lang.Object" data-throw-if-not-resolved="False" />
+- "<xref href=\"java.lang.Object\" data-throw-if-not-resolved=\"False\" />"
 inheritedMembers:
-- java.lang.Object.clone()
-- java.lang.Object.equals(java.lang.Object)
-- java.lang.Object.finalize()
-- java.lang.Object.getClass()
-- java.lang.Object.hashCode()
-- java.lang.Object.notify()
-- java.lang.Object.notifyAll()
-- java.lang.Object.toString()
-- java.lang.Object.wait()
-- java.lang.Object.wait(long)
-- java.lang.Object.wait(long,int)
-syntax: public final class CachedSchemaRegistryClient implements SchemaRegistryClient
+- "java.lang.Object.clone()"
+- "java.lang.Object.equals(java.lang.Object)"
+- "java.lang.Object.finalize()"
+- "java.lang.Object.getClass()"
+- "java.lang.Object.hashCode()"
+- "java.lang.Object.notify()"
+- "java.lang.Object.notifyAll()"
+- "java.lang.Object.toString()"
+- "java.lang.Object.wait()"
+- "java.lang.Object.wait(long)"
+- "java.lang.Object.wait(long,int)"
+syntax: "public final class CachedSchemaRegistryClient implements SchemaRegistryClient"
 fields:
-- com.azure.data.schemaregistry.client.CachedSchemaRegistryClient.SCHEMA_REGISTRY_SERVICE_ENCODING
+- "com.azure.data.schemaregistry.client.CachedSchemaRegistryClient.SCHEMA_REGISTRY_SERVICE_ENCODING"
 methods:
-- com.azure.data.schemaregistry.client.CachedSchemaRegistryClient.addSchemaParser(com.azure.data.schemaregistry.Codec)
-- com.azure.data.schemaregistry.client.CachedSchemaRegistryClient.deleteLatestSchemaVersion(java.lang.String,java.lang.String)
-- com.azure.data.schemaregistry.client.CachedSchemaRegistryClient.deleteSchema(java.lang.String,java.lang.String)
-- com.azure.data.schemaregistry.client.CachedSchemaRegistryClient.deleteSchemaVersion(java.lang.String,java.lang.String,int)
-- com.azure.data.schemaregistry.client.CachedSchemaRegistryClient.getEncoding()
-- com.azure.data.schemaregistry.client.CachedSchemaRegistryClient.getSchemaByGuid(java.lang.String)
-- com.azure.data.schemaregistry.client.CachedSchemaRegistryClient.getSchemaId(java.lang.String,java.lang.String,java.lang.String,java.lang.String)
-- com.azure.data.schemaregistry.client.CachedSchemaRegistryClient.register(java.lang.String,java.lang.String,java.lang.String,java.lang.String)
-- com.azure.data.schemaregistry.client.CachedSchemaRegistryClient.reset()
-type: class
+- "com.azure.data.schemaregistry.client.CachedSchemaRegistryClient.addSchemaParser(com.azure.data.schemaregistry.Codec)"
+- "com.azure.data.schemaregistry.client.CachedSchemaRegistryClient.deleteLatestSchemaVersion(java.lang.String,java.lang.String)"
+- "com.azure.data.schemaregistry.client.CachedSchemaRegistryClient.deleteSchema(java.lang.String,java.lang.String)"
+- "com.azure.data.schemaregistry.client.CachedSchemaRegistryClient.deleteSchemaVersion(java.lang.String,java.lang.String,int)"
+- "com.azure.data.schemaregistry.client.CachedSchemaRegistryClient.getEncoding()"
+- "com.azure.data.schemaregistry.client.CachedSchemaRegistryClient.getSchemaByGuid(java.lang.String)"
+- "com.azure.data.schemaregistry.client.CachedSchemaRegistryClient.getSchemaId(java.lang.String,java.lang.String,java.lang.String,java.lang.String)"
+- "com.azure.data.schemaregistry.client.CachedSchemaRegistryClient.register(java.lang.String,java.lang.String,java.lang.String,java.lang.String)"
+- "com.azure.data.schemaregistry.client.CachedSchemaRegistryClient.reset()"
+type: "class"
 implements:
-- <xref href="com.azure.data.schemaregistry.client.SchemaRegistryClient?alt=com.azure.data.schemaregistry.client.SchemaRegistryClient&text=SchemaRegistryClient" data-throw-if-not-resolved="False" />
+- "<xref href=\"com.azure.data.schemaregistry.client.SchemaRegistryClient?alt=com.azure.data.schemaregistry.client.SchemaRegistryClient&text=SchemaRegistryClient\" data-throw-if-not-resolved=\"False\" />"
 metadata: {}
-package: com.azure.data.schemaregistry.client
+package: "com.azure.data.schemaregistry.client"
 artifact: com.azure:azure-data-schemaregistry:1.0.0-beta.1

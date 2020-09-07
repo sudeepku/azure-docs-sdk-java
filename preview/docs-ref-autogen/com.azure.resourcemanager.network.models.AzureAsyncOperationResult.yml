@@ -1,33 +1,33 @@
 ### YamlMime:JavaType
-uid: com.azure.resourcemanager.network.models.AzureAsyncOperationResult
-fullName: com.azure.resourcemanager.network.models.AzureAsyncOperationResult
-name: AzureAsyncOperationResult
-nameWithType: AzureAsyncOperationResult
-summary: The AzureAsyncOperationResult model.
+uid: "com.azure.resourcemanager.network.models.AzureAsyncOperationResult"
+fullName: "com.azure.resourcemanager.network.models.AzureAsyncOperationResult"
+name: "AzureAsyncOperationResult"
+nameWithType: "AzureAsyncOperationResult"
+summary: "The AzureAsyncOperationResult model."
 inheritances:
-- <xref href="java.lang.Object" data-throw-if-not-resolved="False" />
+- "<xref href=\"java.lang.Object\" data-throw-if-not-resolved=\"False\" />"
 inheritedMembers:
-- java.lang.Object.clone()
-- java.lang.Object.equals(java.lang.Object)
-- java.lang.Object.finalize()
-- java.lang.Object.getClass()
-- java.lang.Object.hashCode()
-- java.lang.Object.notify()
-- java.lang.Object.notifyAll()
-- java.lang.Object.toString()
-- java.lang.Object.wait()
-- java.lang.Object.wait(long)
-- java.lang.Object.wait(long,int)
-syntax: public final class AzureAsyncOperationResult
+- "java.lang.Object.clone()"
+- "java.lang.Object.equals(java.lang.Object)"
+- "java.lang.Object.finalize()"
+- "java.lang.Object.getClass()"
+- "java.lang.Object.hashCode()"
+- "java.lang.Object.notify()"
+- "java.lang.Object.notifyAll()"
+- "java.lang.Object.toString()"
+- "java.lang.Object.wait()"
+- "java.lang.Object.wait(long)"
+- "java.lang.Object.wait(long,int)"
+syntax: "public final class AzureAsyncOperationResult"
 constructors:
-- com.azure.resourcemanager.network.models.AzureAsyncOperationResult.AzureAsyncOperationResult()
+- "com.azure.resourcemanager.network.models.AzureAsyncOperationResult.AzureAsyncOperationResult()"
 methods:
-- com.azure.resourcemanager.network.models.AzureAsyncOperationResult.error()
-- com.azure.resourcemanager.network.models.AzureAsyncOperationResult.status()
-- com.azure.resourcemanager.network.models.AzureAsyncOperationResult.validate()
-- com.azure.resourcemanager.network.models.AzureAsyncOperationResult.withError(com.azure.resourcemanager.network.models.Error)
-- com.azure.resourcemanager.network.models.AzureAsyncOperationResult.withStatus(com.azure.resourcemanager.network.models.NetworkOperationStatus)
-type: class
+- "com.azure.resourcemanager.network.models.AzureAsyncOperationResult.error()"
+- "com.azure.resourcemanager.network.models.AzureAsyncOperationResult.status()"
+- "com.azure.resourcemanager.network.models.AzureAsyncOperationResult.validate()"
+- "com.azure.resourcemanager.network.models.AzureAsyncOperationResult.withError(com.azure.resourcemanager.network.models.Error)"
+- "com.azure.resourcemanager.network.models.AzureAsyncOperationResult.withStatus(com.azure.resourcemanager.network.models.NetworkOperationStatus)"
+type: "class"
 metadata: {}
-package: com.azure.resourcemanager.network.models
+package: "com.azure.resourcemanager.network.models"
 artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.0.0-beta.2

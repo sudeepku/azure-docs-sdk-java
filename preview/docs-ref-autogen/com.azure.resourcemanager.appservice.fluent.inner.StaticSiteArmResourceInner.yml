@@ -1,52 +1,52 @@
 ### YamlMime:JavaType
-uid: com.azure.resourcemanager.appservice.fluent.inner.StaticSiteArmResourceInner
-fullName: com.azure.resourcemanager.appservice.fluent.inner.StaticSiteArmResourceInner
-name: StaticSiteArmResourceInner
-nameWithType: StaticSiteArmResourceInner
-summary: The StaticSiteArmResource model.
+uid: "com.azure.resourcemanager.appservice.fluent.inner.StaticSiteArmResourceInner"
+fullName: "com.azure.resourcemanager.appservice.fluent.inner.StaticSiteArmResourceInner"
+name: "StaticSiteArmResourceInner"
+nameWithType: "StaticSiteArmResourceInner"
+summary: "The StaticSiteArmResource model."
 inheritances:
-- <xref href="java.lang.Object" data-throw-if-not-resolved="False" />
-- <xref href="com.azure.core.management.ProxyResource" data-throw-if-not-resolved="False" />
-- <xref href="com.azure.core.management.Resource" data-throw-if-not-resolved="False" />
+- "<xref href=\"java.lang.Object\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.azure.core.management.ProxyResource\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.azure.core.management.Resource\" data-throw-if-not-resolved=\"False\" />"
 inheritedMembers:
-- com.azure.core.management.ProxyResource.id()
-- com.azure.core.management.ProxyResource.name()
-- com.azure.core.management.ProxyResource.type()
-- com.azure.core.management.Resource.location()
-- com.azure.core.management.Resource.tags()
-- com.azure.core.management.Resource.withLocation(java.lang.String)
-- com.azure.core.management.Resource.withTags(java.util.Map<java.lang.String,java.lang.String>)
-- java.lang.Object.clone()
-- java.lang.Object.equals(java.lang.Object)
-- java.lang.Object.finalize()
-- java.lang.Object.getClass()
-- java.lang.Object.hashCode()
-- java.lang.Object.notify()
-- java.lang.Object.notifyAll()
-- java.lang.Object.toString()
-- java.lang.Object.wait()
-- java.lang.Object.wait(long)
-- java.lang.Object.wait(long,int)
-syntax: public class StaticSiteArmResourceInner extends Resource
+- "com.azure.core.management.ProxyResource.id()"
+- "com.azure.core.management.ProxyResource.name()"
+- "com.azure.core.management.ProxyResource.type()"
+- "com.azure.core.management.Resource.location()"
+- "com.azure.core.management.Resource.tags()"
+- "com.azure.core.management.Resource.withLocation(java.lang.String)"
+- "com.azure.core.management.Resource.withTags(java.util.Map<java.lang.String,java.lang.String>)"
+- "java.lang.Object.clone()"
+- "java.lang.Object.equals(java.lang.Object)"
+- "java.lang.Object.finalize()"
+- "java.lang.Object.getClass()"
+- "java.lang.Object.hashCode()"
+- "java.lang.Object.notify()"
+- "java.lang.Object.notifyAll()"
+- "java.lang.Object.toString()"
+- "java.lang.Object.wait()"
+- "java.lang.Object.wait(long)"
+- "java.lang.Object.wait(long,int)"
+syntax: "public class StaticSiteArmResourceInner extends Resource"
 constructors:
-- com.azure.resourcemanager.appservice.fluent.inner.StaticSiteArmResourceInner.StaticSiteArmResourceInner()
+- "com.azure.resourcemanager.appservice.fluent.inner.StaticSiteArmResourceInner.StaticSiteArmResourceInner()"
 methods:
-- com.azure.resourcemanager.appservice.fluent.inner.StaticSiteArmResourceInner.branch()
-- com.azure.resourcemanager.appservice.fluent.inner.StaticSiteArmResourceInner.buildProperties()
-- com.azure.resourcemanager.appservice.fluent.inner.StaticSiteArmResourceInner.customDomains()
-- com.azure.resourcemanager.appservice.fluent.inner.StaticSiteArmResourceInner.defaultHostname()
-- com.azure.resourcemanager.appservice.fluent.inner.StaticSiteArmResourceInner.kind()
-- com.azure.resourcemanager.appservice.fluent.inner.StaticSiteArmResourceInner.repositoryToken()
-- com.azure.resourcemanager.appservice.fluent.inner.StaticSiteArmResourceInner.repositoryUrl()
-- com.azure.resourcemanager.appservice.fluent.inner.StaticSiteArmResourceInner.sku()
-- com.azure.resourcemanager.appservice.fluent.inner.StaticSiteArmResourceInner.validate()
-- com.azure.resourcemanager.appservice.fluent.inner.StaticSiteArmResourceInner.withBranch(java.lang.String)
-- com.azure.resourcemanager.appservice.fluent.inner.StaticSiteArmResourceInner.withBuildProperties(com.azure.resourcemanager.appservice.models.StaticSiteBuildProperties)
-- com.azure.resourcemanager.appservice.fluent.inner.StaticSiteArmResourceInner.withKind(java.lang.String)
-- com.azure.resourcemanager.appservice.fluent.inner.StaticSiteArmResourceInner.withRepositoryToken(java.lang.String)
-- com.azure.resourcemanager.appservice.fluent.inner.StaticSiteArmResourceInner.withRepositoryUrl(java.lang.String)
-- com.azure.resourcemanager.appservice.fluent.inner.StaticSiteArmResourceInner.withSku(com.azure.resourcemanager.appservice.models.SkuDescription)
-type: class
+- "com.azure.resourcemanager.appservice.fluent.inner.StaticSiteArmResourceInner.branch()"
+- "com.azure.resourcemanager.appservice.fluent.inner.StaticSiteArmResourceInner.buildProperties()"
+- "com.azure.resourcemanager.appservice.fluent.inner.StaticSiteArmResourceInner.customDomains()"
+- "com.azure.resourcemanager.appservice.fluent.inner.StaticSiteArmResourceInner.defaultHostname()"
+- "com.azure.resourcemanager.appservice.fluent.inner.StaticSiteArmResourceInner.kind()"
+- "com.azure.resourcemanager.appservice.fluent.inner.StaticSiteArmResourceInner.repositoryToken()"
+- "com.azure.resourcemanager.appservice.fluent.inner.StaticSiteArmResourceInner.repositoryUrl()"
+- "com.azure.resourcemanager.appservice.fluent.inner.StaticSiteArmResourceInner.sku()"
+- "com.azure.resourcemanager.appservice.fluent.inner.StaticSiteArmResourceInner.validate()"
+- "com.azure.resourcemanager.appservice.fluent.inner.StaticSiteArmResourceInner.withBranch(java.lang.String)"
+- "com.azure.resourcemanager.appservice.fluent.inner.StaticSiteArmResourceInner.withBuildProperties(com.azure.resourcemanager.appservice.models.StaticSiteBuildProperties)"
+- "com.azure.resourcemanager.appservice.fluent.inner.StaticSiteArmResourceInner.withKind(java.lang.String)"
+- "com.azure.resourcemanager.appservice.fluent.inner.StaticSiteArmResourceInner.withRepositoryToken(java.lang.String)"
+- "com.azure.resourcemanager.appservice.fluent.inner.StaticSiteArmResourceInner.withRepositoryUrl(java.lang.String)"
+- "com.azure.resourcemanager.appservice.fluent.inner.StaticSiteArmResourceInner.withSku(com.azure.resourcemanager.appservice.models.SkuDescription)"
+type: "class"
 metadata: {}
-package: com.azure.resourcemanager.appservice.fluent.inner
+package: "com.azure.resourcemanager.appservice.fluent.inner"
 artifact: com.azure.resourcemanager:azure-resourcemanager-appservice:2.0.0-beta.2

@@ -1,77 +1,77 @@
 ### YamlMime:JavaType
-uid: com.azure.resourcemanager.appservice.fluent.inner.SiteExtensionInfoInner
-fullName: com.azure.resourcemanager.appservice.fluent.inner.SiteExtensionInfoInner
-name: SiteExtensionInfoInner
-nameWithType: SiteExtensionInfoInner
-summary: The SiteExtensionInfo model.
+uid: "com.azure.resourcemanager.appservice.fluent.inner.SiteExtensionInfoInner"
+fullName: "com.azure.resourcemanager.appservice.fluent.inner.SiteExtensionInfoInner"
+name: "SiteExtensionInfoInner"
+nameWithType: "SiteExtensionInfoInner"
+summary: "The SiteExtensionInfo model."
 inheritances:
-- <xref href="java.lang.Object" data-throw-if-not-resolved="False" />
-- <xref href="com.azure.core.management.ProxyResource" data-throw-if-not-resolved="False" />
-- <xref href="com.azure.resourcemanager.appservice.models.ProxyOnlyResource" data-throw-if-not-resolved="False" />
+- "<xref href=\"java.lang.Object\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.azure.core.management.ProxyResource\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.azure.resourcemanager.appservice.models.ProxyOnlyResource\" data-throw-if-not-resolved=\"False\" />"
 inheritedMembers:
-- com.azure.core.management.ProxyResource.id()
-- com.azure.core.management.ProxyResource.name()
-- com.azure.core.management.ProxyResource.type()
-- com.azure.resourcemanager.appservice.models.ProxyOnlyResource.kind()
-- com.azure.resourcemanager.appservice.models.ProxyOnlyResource.validate()
-- com.azure.resourcemanager.appservice.models.ProxyOnlyResource.withKind(java.lang.String)
-- java.lang.Object.clone()
-- java.lang.Object.equals(java.lang.Object)
-- java.lang.Object.finalize()
-- java.lang.Object.getClass()
-- java.lang.Object.hashCode()
-- java.lang.Object.notify()
-- java.lang.Object.notifyAll()
-- java.lang.Object.toString()
-- java.lang.Object.wait()
-- java.lang.Object.wait(long)
-- java.lang.Object.wait(long,int)
-syntax: public class SiteExtensionInfoInner extends ProxyOnlyResource
+- "com.azure.core.management.ProxyResource.id()"
+- "com.azure.core.management.ProxyResource.name()"
+- "com.azure.core.management.ProxyResource.type()"
+- "com.azure.resourcemanager.appservice.models.ProxyOnlyResource.kind()"
+- "com.azure.resourcemanager.appservice.models.ProxyOnlyResource.validate()"
+- "com.azure.resourcemanager.appservice.models.ProxyOnlyResource.withKind(java.lang.String)"
+- "java.lang.Object.clone()"
+- "java.lang.Object.equals(java.lang.Object)"
+- "java.lang.Object.finalize()"
+- "java.lang.Object.getClass()"
+- "java.lang.Object.hashCode()"
+- "java.lang.Object.notify()"
+- "java.lang.Object.notifyAll()"
+- "java.lang.Object.toString()"
+- "java.lang.Object.wait()"
+- "java.lang.Object.wait(long)"
+- "java.lang.Object.wait(long,int)"
+syntax: "public class SiteExtensionInfoInner extends ProxyOnlyResource"
 constructors:
-- com.azure.resourcemanager.appservice.fluent.inner.SiteExtensionInfoInner.SiteExtensionInfoInner()
+- "com.azure.resourcemanager.appservice.fluent.inner.SiteExtensionInfoInner.SiteExtensionInfoInner()"
 methods:
-- com.azure.resourcemanager.appservice.fluent.inner.SiteExtensionInfoInner.authors()
-- com.azure.resourcemanager.appservice.fluent.inner.SiteExtensionInfoInner.comment()
-- com.azure.resourcemanager.appservice.fluent.inner.SiteExtensionInfoInner.description()
-- com.azure.resourcemanager.appservice.fluent.inner.SiteExtensionInfoInner.downloadCount()
-- com.azure.resourcemanager.appservice.fluent.inner.SiteExtensionInfoInner.extensionId()
-- com.azure.resourcemanager.appservice.fluent.inner.SiteExtensionInfoInner.extensionType()
-- com.azure.resourcemanager.appservice.fluent.inner.SiteExtensionInfoInner.extensionUrl()
-- com.azure.resourcemanager.appservice.fluent.inner.SiteExtensionInfoInner.feedUrl()
-- com.azure.resourcemanager.appservice.fluent.inner.SiteExtensionInfoInner.iconUrl()
-- com.azure.resourcemanager.appservice.fluent.inner.SiteExtensionInfoInner.installedDateTime()
-- com.azure.resourcemanager.appservice.fluent.inner.SiteExtensionInfoInner.installerCommandLineParams()
-- com.azure.resourcemanager.appservice.fluent.inner.SiteExtensionInfoInner.licenseUrl()
-- com.azure.resourcemanager.appservice.fluent.inner.SiteExtensionInfoInner.localIsLatestVersion()
-- com.azure.resourcemanager.appservice.fluent.inner.SiteExtensionInfoInner.localPath()
-- com.azure.resourcemanager.appservice.fluent.inner.SiteExtensionInfoInner.projectUrl()
-- com.azure.resourcemanager.appservice.fluent.inner.SiteExtensionInfoInner.provisioningState()
-- com.azure.resourcemanager.appservice.fluent.inner.SiteExtensionInfoInner.publishedDateTime()
-- com.azure.resourcemanager.appservice.fluent.inner.SiteExtensionInfoInner.summary()
-- com.azure.resourcemanager.appservice.fluent.inner.SiteExtensionInfoInner.title()
-- com.azure.resourcemanager.appservice.fluent.inner.SiteExtensionInfoInner.validate()
-- com.azure.resourcemanager.appservice.fluent.inner.SiteExtensionInfoInner.version()
-- com.azure.resourcemanager.appservice.fluent.inner.SiteExtensionInfoInner.withAuthors(java.util.List<java.lang.String>)
-- com.azure.resourcemanager.appservice.fluent.inner.SiteExtensionInfoInner.withComment(java.lang.String)
-- com.azure.resourcemanager.appservice.fluent.inner.SiteExtensionInfoInner.withDescription(java.lang.String)
-- com.azure.resourcemanager.appservice.fluent.inner.SiteExtensionInfoInner.withDownloadCount(java.lang.Integer)
-- com.azure.resourcemanager.appservice.fluent.inner.SiteExtensionInfoInner.withExtensionId(java.lang.String)
-- com.azure.resourcemanager.appservice.fluent.inner.SiteExtensionInfoInner.withExtensionType(com.azure.resourcemanager.appservice.models.SiteExtensionType)
-- com.azure.resourcemanager.appservice.fluent.inner.SiteExtensionInfoInner.withExtensionUrl(java.lang.String)
-- com.azure.resourcemanager.appservice.fluent.inner.SiteExtensionInfoInner.withFeedUrl(java.lang.String)
-- com.azure.resourcemanager.appservice.fluent.inner.SiteExtensionInfoInner.withIconUrl(java.lang.String)
-- com.azure.resourcemanager.appservice.fluent.inner.SiteExtensionInfoInner.withInstalledDateTime(java.time.OffsetDateTime)
-- com.azure.resourcemanager.appservice.fluent.inner.SiteExtensionInfoInner.withInstallerCommandLineParams(java.lang.String)
-- com.azure.resourcemanager.appservice.fluent.inner.SiteExtensionInfoInner.withLicenseUrl(java.lang.String)
-- com.azure.resourcemanager.appservice.fluent.inner.SiteExtensionInfoInner.withLocalIsLatestVersion(java.lang.Boolean)
-- com.azure.resourcemanager.appservice.fluent.inner.SiteExtensionInfoInner.withLocalPath(java.lang.String)
-- com.azure.resourcemanager.appservice.fluent.inner.SiteExtensionInfoInner.withProjectUrl(java.lang.String)
-- com.azure.resourcemanager.appservice.fluent.inner.SiteExtensionInfoInner.withProvisioningState(java.lang.String)
-- com.azure.resourcemanager.appservice.fluent.inner.SiteExtensionInfoInner.withPublishedDateTime(java.time.OffsetDateTime)
-- com.azure.resourcemanager.appservice.fluent.inner.SiteExtensionInfoInner.withSummary(java.lang.String)
-- com.azure.resourcemanager.appservice.fluent.inner.SiteExtensionInfoInner.withTitle(java.lang.String)
-- com.azure.resourcemanager.appservice.fluent.inner.SiteExtensionInfoInner.withVersion(java.lang.String)
-type: class
+- "com.azure.resourcemanager.appservice.fluent.inner.SiteExtensionInfoInner.authors()"
+- "com.azure.resourcemanager.appservice.fluent.inner.SiteExtensionInfoInner.comment()"
+- "com.azure.resourcemanager.appservice.fluent.inner.SiteExtensionInfoInner.description()"
+- "com.azure.resourcemanager.appservice.fluent.inner.SiteExtensionInfoInner.downloadCount()"
+- "com.azure.resourcemanager.appservice.fluent.inner.SiteExtensionInfoInner.extensionId()"
+- "com.azure.resourcemanager.appservice.fluent.inner.SiteExtensionInfoInner.extensionType()"
+- "com.azure.resourcemanager.appservice.fluent.inner.SiteExtensionInfoInner.extensionUrl()"
+- "com.azure.resourcemanager.appservice.fluent.inner.SiteExtensionInfoInner.feedUrl()"
+- "com.azure.resourcemanager.appservice.fluent.inner.SiteExtensionInfoInner.iconUrl()"
+- "com.azure.resourcemanager.appservice.fluent.inner.SiteExtensionInfoInner.installedDateTime()"
+- "com.azure.resourcemanager.appservice.fluent.inner.SiteExtensionInfoInner.installerCommandLineParams()"
+- "com.azure.resourcemanager.appservice.fluent.inner.SiteExtensionInfoInner.licenseUrl()"
+- "com.azure.resourcemanager.appservice.fluent.inner.SiteExtensionInfoInner.localIsLatestVersion()"
+- "com.azure.resourcemanager.appservice.fluent.inner.SiteExtensionInfoInner.localPath()"
+- "com.azure.resourcemanager.appservice.fluent.inner.SiteExtensionInfoInner.projectUrl()"
+- "com.azure.resourcemanager.appservice.fluent.inner.SiteExtensionInfoInner.provisioningState()"
+- "com.azure.resourcemanager.appservice.fluent.inner.SiteExtensionInfoInner.publishedDateTime()"
+- "com.azure.resourcemanager.appservice.fluent.inner.SiteExtensionInfoInner.summary()"
+- "com.azure.resourcemanager.appservice.fluent.inner.SiteExtensionInfoInner.title()"
+- "com.azure.resourcemanager.appservice.fluent.inner.SiteExtensionInfoInner.validate()"
+- "com.azure.resourcemanager.appservice.fluent.inner.SiteExtensionInfoInner.version()"
+- "com.azure.resourcemanager.appservice.fluent.inner.SiteExtensionInfoInner.withAuthors(java.util.List<java.lang.String>)"
+- "com.azure.resourcemanager.appservice.fluent.inner.SiteExtensionInfoInner.withComment(java.lang.String)"
+- "com.azure.resourcemanager.appservice.fluent.inner.SiteExtensionInfoInner.withDescription(java.lang.String)"
+- "com.azure.resourcemanager.appservice.fluent.inner.SiteExtensionInfoInner.withDownloadCount(java.lang.Integer)"
+- "com.azure.resourcemanager.appservice.fluent.inner.SiteExtensionInfoInner.withExtensionId(java.lang.String)"
+- "com.azure.resourcemanager.appservice.fluent.inner.SiteExtensionInfoInner.withExtensionType(com.azure.resourcemanager.appservice.models.SiteExtensionType)"
+- "com.azure.resourcemanager.appservice.fluent.inner.SiteExtensionInfoInner.withExtensionUrl(java.lang.String)"
+- "com.azure.resourcemanager.appservice.fluent.inner.SiteExtensionInfoInner.withFeedUrl(java.lang.String)"
+- "com.azure.resourcemanager.appservice.fluent.inner.SiteExtensionInfoInner.withIconUrl(java.lang.String)"
+- "com.azure.resourcemanager.appservice.fluent.inner.SiteExtensionInfoInner.withInstalledDateTime(java.time.OffsetDateTime)"
+- "com.azure.resourcemanager.appservice.fluent.inner.SiteExtensionInfoInner.withInstallerCommandLineParams(java.lang.String)"
+- "com.azure.resourcemanager.appservice.fluent.inner.SiteExtensionInfoInner.withLicenseUrl(java.lang.String)"
+- "com.azure.resourcemanager.appservice.fluent.inner.SiteExtensionInfoInner.withLocalIsLatestVersion(java.lang.Boolean)"
+- "com.azure.resourcemanager.appservice.fluent.inner.SiteExtensionInfoInner.withLocalPath(java.lang.String)"
+- "com.azure.resourcemanager.appservice.fluent.inner.SiteExtensionInfoInner.withProjectUrl(java.lang.String)"
+- "com.azure.resourcemanager.appservice.fluent.inner.SiteExtensionInfoInner.withProvisioningState(java.lang.String)"
+- "com.azure.resourcemanager.appservice.fluent.inner.SiteExtensionInfoInner.withPublishedDateTime(java.time.OffsetDateTime)"
+- "com.azure.resourcemanager.appservice.fluent.inner.SiteExtensionInfoInner.withSummary(java.lang.String)"
+- "com.azure.resourcemanager.appservice.fluent.inner.SiteExtensionInfoInner.withTitle(java.lang.String)"
+- "com.azure.resourcemanager.appservice.fluent.inner.SiteExtensionInfoInner.withVersion(java.lang.String)"
+type: "class"
 metadata: {}
-package: com.azure.resourcemanager.appservice.fluent.inner
+package: "com.azure.resourcemanager.appservice.fluent.inner"
 artifact: com.azure.resourcemanager:azure-resourcemanager-appservice:2.0.0-beta.2

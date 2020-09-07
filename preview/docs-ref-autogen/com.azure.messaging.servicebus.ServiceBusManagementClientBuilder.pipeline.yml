@@ -1,27 +1,23 @@
 ### YamlMime:JavaMember
-uid: com.azure.messaging.servicebus.ServiceBusManagementClientBuilder.pipeline*
-fullName: com.azure.messaging.servicebus.ServiceBusManagementClientBuilder.pipeline
-name: pipeline
-nameWithType: ServiceBusManagementClientBuilder.pipeline
+uid: "com.azure.messaging.servicebus.ServiceBusManagementClientBuilder.pipeline*"
+fullName: "com.azure.messaging.servicebus.ServiceBusManagementClientBuilder.pipeline"
+name: "pipeline"
+nameWithType: "ServiceBusManagementClientBuilder.pipeline"
 members:
-- uid: com.azure.messaging.servicebus.ServiceBusManagementClientBuilder.pipeline(com.azure.core.http.HttpPipeline)
-  fullName: com.azure.messaging.servicebus.ServiceBusManagementClientBuilder.pipeline(HttpPipeline pipeline)
-  name: pipeline(HttpPipeline pipeline)
-  nameWithType: ServiceBusManagementClientBuilder.pipeline(HttpPipeline pipeline)
-  summary: |-
-    Sets the HTTP pipeline to use for the service client.
-
-     If <code>pipeline</code> is set, all other settings are ignored, aside from <xref uid="ServiceBusManagementClientBuilder#endpoint(String)" data-throw-if-not-resolved="false">endpoint</xref> to build <xref uid="ServiceBusManagementClient" data-throw-if-not-resolved="false">ServiceBusManagementClient</xref> or
-     <xref uid="ServiceBusManagementAsyncClient" data-throw-if-not-resolved="false">ServiceBusManagementAsyncClient</xref>.
+- uid: "com.azure.messaging.servicebus.ServiceBusManagementClientBuilder.pipeline(com.azure.core.http.HttpPipeline)"
+  fullName: "com.azure.messaging.servicebus.ServiceBusManagementClientBuilder.pipeline(HttpPipeline pipeline)"
+  name: "pipeline(HttpPipeline pipeline)"
+  nameWithType: "ServiceBusManagementClientBuilder.pipeline(HttpPipeline pipeline)"
+  summary: "Sets the HTTP pipeline to use for the service client.\n\n If <code>pipeline</code> is set, all other settings are ignored, aside from <xref uid=\"ServiceBusManagementClientBuilder#endpoint(String)\" data-throw-if-not-resolved=\"false\">endpoint</xref> to build <xref uid=\"ServiceBusManagementClient\" data-throw-if-not-resolved=\"false\">ServiceBusManagementClient</xref> or\n <xref uid=\"ServiceBusManagementAsyncClient\" data-throw-if-not-resolved=\"false\">ServiceBusManagementAsyncClient</xref>."
   parameters:
-  - description: The HTTP pipeline to use for sending service requests and receiving responses.
-    name: pipeline
-    type: <xref href="com.azure.core.http.HttpPipeline?alt=com.azure.core.http.HttpPipeline&text=HttpPipeline" data-throw-if-not-resolved="False" />
-  syntax: public ServiceBusManagementClientBuilder pipeline(HttpPipeline pipeline)
+  - description: "The HTTP pipeline to use for sending service requests and receiving responses."
+    name: "pipeline"
+    type: "<xref href=\"com.azure.core.http.HttpPipeline?alt=com.azure.core.http.HttpPipeline&text=HttpPipeline\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public ServiceBusManagementClientBuilder pipeline(HttpPipeline pipeline)"
   returns:
-    description: The updated <xref uid="com.azure.messaging.servicebus.ServiceBusManagementClientBuilder" data-throw-if-not-resolved="false">ServiceBusManagementClientBuilder</xref> object.
-    type: <xref href="com.azure.messaging.servicebus.ServiceBusManagementClientBuilder?alt=com.azure.messaging.servicebus.ServiceBusManagementClientBuilder&text=ServiceBusManagementClientBuilder" data-throw-if-not-resolved="False" />
-type: method
+    description: "The updated <xref uid=\"com.azure.messaging.servicebus.ServiceBusManagementClientBuilder\" data-throw-if-not-resolved=\"false\">ServiceBusManagementClientBuilder</xref> object."
+    type: "<xref href=\"com.azure.messaging.servicebus.ServiceBusManagementClientBuilder?alt=com.azure.messaging.servicebus.ServiceBusManagementClientBuilder&text=ServiceBusManagementClientBuilder\" data-throw-if-not-resolved=\"False\" />"
+type: "method"
 metadata: {}
-package: com.azure.messaging.servicebus
+package: "com.azure.messaging.servicebus"
 artifact: com.azure:azure-messaging-servicebus:7.0.0-beta.5

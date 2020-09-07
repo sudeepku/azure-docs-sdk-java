@@ -1,24 +1,24 @@
 ### YamlMime:JavaPackage
-uid: com.azure.resourcemanager.authorization.fluent
-fullName: com.azure.resourcemanager.authorization.fluent
-name: com.azure.resourcemanager.authorization.fluent
-summary: Package containing the client classes for AuthorizationManagementClient.
+uid: "com.azure.resourcemanager.authorization.fluent"
+fullName: "com.azure.resourcemanager.authorization.fluent"
+name: "com.azure.resourcemanager.authorization.fluent"
+summary: "Package containing the client classes for AuthorizationManagementClient."
 classes:
-- com.azure.resourcemanager.authorization.fluent.ApplicationsClient
-- com.azure.resourcemanager.authorization.fluent.ClassicAdministratorsClient
-- com.azure.resourcemanager.authorization.fluent.DeletedApplicationsClient
-- com.azure.resourcemanager.authorization.fluent.DomainsClient
-- com.azure.resourcemanager.authorization.fluent.GlobalAdministratorsClient
-- com.azure.resourcemanager.authorization.fluent.GroupsClient
-- com.azure.resourcemanager.authorization.fluent.OAuth2PermissionGrantsClient
-- com.azure.resourcemanager.authorization.fluent.ObjectsClient
-- com.azure.resourcemanager.authorization.fluent.PermissionsClient
-- com.azure.resourcemanager.authorization.fluent.ProviderOperationsMetadatasClient
-- com.azure.resourcemanager.authorization.fluent.RoleAssignmentsClient
-- com.azure.resourcemanager.authorization.fluent.RoleDefinitionsClient
-- com.azure.resourcemanager.authorization.fluent.ServicePrincipalsClient
-- com.azure.resourcemanager.authorization.fluent.SignedInUsersClient
-- com.azure.resourcemanager.authorization.fluent.UsersClient
+- "com.azure.resourcemanager.authorization.fluent.ApplicationsClient"
+- "com.azure.resourcemanager.authorization.fluent.ClassicAdministratorsClient"
+- "com.azure.resourcemanager.authorization.fluent.DeletedApplicationsClient"
+- "com.azure.resourcemanager.authorization.fluent.DomainsClient"
+- "com.azure.resourcemanager.authorization.fluent.GlobalAdministratorsClient"
+- "com.azure.resourcemanager.authorization.fluent.GroupsClient"
+- "com.azure.resourcemanager.authorization.fluent.OAuth2PermissionGrantsClient"
+- "com.azure.resourcemanager.authorization.fluent.ObjectsClient"
+- "com.azure.resourcemanager.authorization.fluent.PermissionsClient"
+- "com.azure.resourcemanager.authorization.fluent.ProviderOperationsMetadatasClient"
+- "com.azure.resourcemanager.authorization.fluent.RoleAssignmentsClient"
+- "com.azure.resourcemanager.authorization.fluent.RoleDefinitionsClient"
+- "com.azure.resourcemanager.authorization.fluent.ServicePrincipalsClient"
+- "com.azure.resourcemanager.authorization.fluent.SignedInUsersClient"
+- "com.azure.resourcemanager.authorization.fluent.UsersClient"
 metadata: {}
-package: com.azure.resourcemanager.authorization.fluent
+package: "com.azure.resourcemanager.authorization.fluent"
 artifact: com.azure.resourcemanager:azure-resourcemanager-authorization:2.0.0-beta.2

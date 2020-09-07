@@ -1,16 +1,16 @@
 ### YamlMime:JavaMember
-uid: com.microsoft.azure.management.batch.BatchAccount.synchronizeAutoStorageKeys*
-fullName: com.microsoft.azure.management.batch.BatchAccount.synchronizeAutoStorageKeys
-name: synchronizeAutoStorageKeys
-nameWithType: BatchAccount.synchronizeAutoStorageKeys
+uid: "com.microsoft.azure.management.batch.BatchAccount.synchronizeAutoStorageKeys*"
+fullName: "com.microsoft.azure.management.batch.BatchAccount.synchronizeAutoStorageKeys"
+name: "synchronizeAutoStorageKeys"
+nameWithType: "BatchAccount.synchronizeAutoStorageKeys"
 members:
-- uid: com.microsoft.azure.management.batch.BatchAccount.synchronizeAutoStorageKeys()
-  fullName: com.microsoft.azure.management.batch.BatchAccount.synchronizeAutoStorageKeys()
-  name: synchronizeAutoStorageKeys()
-  nameWithType: BatchAccount.synchronizeAutoStorageKeys()
-  summary: Synchronizes the storage account keys for this Batch account.
-  syntax: public abstract void synchronizeAutoStorageKeys()
-type: method
+- uid: "com.microsoft.azure.management.batch.BatchAccount.synchronizeAutoStorageKeys()"
+  fullName: "com.microsoft.azure.management.batch.BatchAccount.synchronizeAutoStorageKeys()"
+  name: "synchronizeAutoStorageKeys()"
+  nameWithType: "BatchAccount.synchronizeAutoStorageKeys()"
+  summary: "Synchronizes the storage account keys for this Batch account."
+  syntax: "public abstract void synchronizeAutoStorageKeys()"
+type: "method"
 metadata: {}
-package: com.microsoft.azure.management.batch
-artifact: com.microsoft.azure:azure-mgmt-batch:1.36.1
+package: "com.microsoft.azure.management.batch"
+artifact: com.microsoft.azure:azure-mgmt-batch:1.36.2

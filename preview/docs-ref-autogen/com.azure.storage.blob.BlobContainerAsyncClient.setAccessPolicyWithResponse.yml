@@ -1,35 +1,29 @@
 ### YamlMime:JavaMember
-uid: com.azure.storage.blob.BlobContainerAsyncClient.setAccessPolicyWithResponse*
-fullName: com.azure.storage.blob.BlobContainerAsyncClient.setAccessPolicyWithResponse
-name: setAccessPolicyWithResponse
-nameWithType: BlobContainerAsyncClient.setAccessPolicyWithResponse
+uid: "com.azure.storage.blob.BlobContainerAsyncClient.setAccessPolicyWithResponse*"
+fullName: "com.azure.storage.blob.BlobContainerAsyncClient.setAccessPolicyWithResponse"
+name: "setAccessPolicyWithResponse"
+nameWithType: "BlobContainerAsyncClient.setAccessPolicyWithResponse"
 members:
-- uid: com.azure.storage.blob.BlobContainerAsyncClient.setAccessPolicyWithResponse(com.azure.storage.blob.models.PublicAccessType,java.util.List<com.azure.storage.blob.models.BlobSignedIdentifier>,com.azure.storage.blob.models.BlobRequestConditions)
-  fullName: com.azure.storage.blob.BlobContainerAsyncClient.setAccessPolicyWithResponse(PublicAccessType accessType, List<BlobSignedIdentifier> identifiers, BlobRequestConditions requestConditions)
-  name: setAccessPolicyWithResponse(PublicAccessType accessType, List<BlobSignedIdentifier> identifiers, BlobRequestConditions requestConditions)
-  nameWithType: BlobContainerAsyncClient.setAccessPolicyWithResponse(PublicAccessType accessType, List<BlobSignedIdentifier> identifiers, BlobRequestConditions requestConditions)
+- uid: "com.azure.storage.blob.BlobContainerAsyncClient.setAccessPolicyWithResponse(com.azure.storage.blob.models.PublicAccessType,java.util.List<com.azure.storage.blob.models.BlobSignedIdentifier>,com.azure.storage.blob.models.BlobRequestConditions)"
+  fullName: "com.azure.storage.blob.BlobContainerAsyncClient.setAccessPolicyWithResponse(PublicAccessType accessType, List<BlobSignedIdentifier> identifiers, BlobRequestConditions requestConditions)"
+  name: "setAccessPolicyWithResponse(PublicAccessType accessType, List<BlobSignedIdentifier> identifiers, BlobRequestConditions requestConditions)"
+  nameWithType: "BlobContainerAsyncClient.setAccessPolicyWithResponse(PublicAccessType accessType, List<BlobSignedIdentifier> identifiers, BlobRequestConditions requestConditions)"
   summary: "Sets the container's permissions. The permissions indicate whether blobs in a container may be accessed publicly.\n Note that, for each signed identifier, we will truncate the start and expiry times to the nearest second to\n ensure the time formatting is compatible with the service. For more information, see the\n <a href=\"https://docs.microsoft.com/rest/api/storageservices/set-container-acl\">Azure Docs</a>.\n\n <p><strong>Code Samples</strong></p>\n\n <pre>\n BlobSignedIdentifier identifier = new BlobSignedIdentifier&#40;&#41;\n     .setId&#40;&quot;name&quot;&#41;\n     .setAccessPolicy&#40;new BlobAccessPolicy&#40;&#41;\n         .setStartsOn&#40;OffsetDateTime.now&#40;&#41;&#41;\n         .setExpiresOn&#40;OffsetDateTime.now&#40;&#41;.plusDays&#40;7&#41;&#41;\n         .setPermissions&#40;&quot;permissionString&quot;&#41;&#41;;\n \n BlobRequestConditions requestConditions = new BlobRequestConditions&#40;&#41;\n     .setLeaseId&#40;leaseId&#41;\n     .setIfUnmodifiedSince&#40;OffsetDateTime.now&#40;&#41;.minusDays&#40;3&#41;&#41;;\n \n client.setAccessPolicyWithResponse&#40;PublicAccessType.CONTAINER, Collections.singletonList&#40;identifier&#41;, requestConditions&#41;\n     .subscribe&#40;response -&gt;\n         System.out.printf&#40;&quot;Set access policy completed with status %d%n&quot;, response.getStatusCode&#40;&#41;&#41;&#41;;\n </pre>"
   parameters:
-  - description: |-
-      Specifies how the data in this container is available to the public. See the
-       x-ms-blob-public-access header in the Azure Docs for more information. Pass null for no public access.
-    name: accessType
-    type: <xref href="com.azure.storage.blob.models.PublicAccessType?alt=com.azure.storage.blob.models.PublicAccessType&text=PublicAccessType" data-throw-if-not-resolved="False" />
-  - description: |-
-      A list of <xref uid="com.azure.storage.blob.models.BlobSignedIdentifier" data-throw-if-not-resolved="false">BlobSignedIdentifier</xref> objects that specify the permissions for the container.
-       Please see
-       <a href="https://docs.microsoft.com/en-us/rest/api/storageservices/establishing-a-stored-access-policy">here</a>
-       for more information. Passing null will clear all access policies.
-    name: identifiers
-    type: <xref href="java.util.List?alt=java.util.List&text=List" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.storage.blob.models.BlobSignedIdentifier?alt=com.azure.storage.blob.models.BlobSignedIdentifier&text=BlobSignedIdentifier" data-throw-if-not-resolved="False" />&gt;
-  - description: <xref uid="com.azure.storage.blob.models.BlobRequestConditions" data-throw-if-not-resolved="false">BlobRequestConditions</xref>
-    name: requestConditions
-    type: <xref href="com.azure.storage.blob.models.BlobRequestConditions?alt=com.azure.storage.blob.models.BlobRequestConditions&text=BlobRequestConditions" data-throw-if-not-resolved="False" />
-  syntax: public Mono<Response<Void>> setAccessPolicyWithResponse(PublicAccessType accessType, List<BlobSignedIdentifier> identifiers, BlobRequestConditions requestConditions)
+  - description: "Specifies how the data in this container is available to the public. See the\n x-ms-blob-public-access header in the Azure Docs for more information. Pass null for no public access."
+    name: "accessType"
+    type: "<xref href=\"com.azure.storage.blob.models.PublicAccessType?alt=com.azure.storage.blob.models.PublicAccessType&text=PublicAccessType\" data-throw-if-not-resolved=\"False\" />"
+  - description: "A list of <xref uid=\"com.azure.storage.blob.models.BlobSignedIdentifier\" data-throw-if-not-resolved=\"false\">BlobSignedIdentifier</xref> objects that specify the permissions for the container.\n Please see\n <a href=\"https://docs.microsoft.com/en-us/rest/api/storageservices/establishing-a-stored-access-policy\">here</a>\n for more information. Passing null will clear all access policies."
+    name: "identifiers"
+    type: "<xref href=\"java.util.List?alt=java.util.List&text=List\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.storage.blob.models.BlobSignedIdentifier?alt=com.azure.storage.blob.models.BlobSignedIdentifier&text=BlobSignedIdentifier\" data-throw-if-not-resolved=\"False\" />&gt;"
+  - description: "<xref uid=\"com.azure.storage.blob.models.BlobRequestConditions\" data-throw-if-not-resolved=\"false\">BlobRequestConditions</xref>"
+    name: "requestConditions"
+    type: "<xref href=\"com.azure.storage.blob.models.BlobRequestConditions?alt=com.azure.storage.blob.models.BlobRequestConditions&text=BlobRequestConditions\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public Mono<Response<Void>> setAccessPolicyWithResponse(PublicAccessType accessType, List<BlobSignedIdentifier> identifiers, BlobRequestConditions requestConditions)"
   returns:
-    description: A reactive response signalling completion.
-    type: <xref href="reactor.core.publisher.Mono?alt=reactor.core.publisher.Mono&text=Mono" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.core.http.rest.Response?alt=com.azure.core.http.rest.Response&text=Response" data-throw-if-not-resolved="False" />&lt;<xref href="java.lang.Void?alt=java.lang.Void&text=Void" data-throw-if-not-resolved="False" />&gt;&gt;
-type: method
+    description: "A reactive response signalling completion."
+    type: "<xref href=\"reactor.core.publisher.Mono?alt=reactor.core.publisher.Mono&text=Mono\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.core.http.rest.Response?alt=com.azure.core.http.rest.Response&text=Response\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"java.lang.Void?alt=java.lang.Void&text=Void\" data-throw-if-not-resolved=\"False\" />&gt;&gt;"
+type: "method"
 metadata: {}
-package: com.azure.storage.blob
+package: "com.azure.storage.blob"
 artifact: com.azure:azure-storage-blob:12.8.0-beta.1

@@ -1,39 +1,39 @@
 ### YamlMime:JavaType
-uid: com.azure.resourcemanager.monitor.fluent.inner.AutoscaleProfileInner
-fullName: com.azure.resourcemanager.monitor.fluent.inner.AutoscaleProfileInner
-name: AutoscaleProfileInner
-nameWithType: AutoscaleProfileInner
-summary: The AutoscaleProfile model.
+uid: "com.azure.resourcemanager.monitor.fluent.inner.AutoscaleProfileInner"
+fullName: "com.azure.resourcemanager.monitor.fluent.inner.AutoscaleProfileInner"
+name: "AutoscaleProfileInner"
+nameWithType: "AutoscaleProfileInner"
+summary: "The AutoscaleProfile model."
 inheritances:
-- <xref href="java.lang.Object" data-throw-if-not-resolved="False" />
+- "<xref href=\"java.lang.Object\" data-throw-if-not-resolved=\"False\" />"
 inheritedMembers:
-- java.lang.Object.clone()
-- java.lang.Object.equals(java.lang.Object)
-- java.lang.Object.finalize()
-- java.lang.Object.getClass()
-- java.lang.Object.hashCode()
-- java.lang.Object.notify()
-- java.lang.Object.notifyAll()
-- java.lang.Object.toString()
-- java.lang.Object.wait()
-- java.lang.Object.wait(long)
-- java.lang.Object.wait(long,int)
-syntax: public final class AutoscaleProfileInner
+- "java.lang.Object.clone()"
+- "java.lang.Object.equals(java.lang.Object)"
+- "java.lang.Object.finalize()"
+- "java.lang.Object.getClass()"
+- "java.lang.Object.hashCode()"
+- "java.lang.Object.notify()"
+- "java.lang.Object.notifyAll()"
+- "java.lang.Object.toString()"
+- "java.lang.Object.wait()"
+- "java.lang.Object.wait(long)"
+- "java.lang.Object.wait(long,int)"
+syntax: "public final class AutoscaleProfileInner"
 constructors:
-- com.azure.resourcemanager.monitor.fluent.inner.AutoscaleProfileInner.AutoscaleProfileInner()
+- "com.azure.resourcemanager.monitor.fluent.inner.AutoscaleProfileInner.AutoscaleProfileInner()"
 methods:
-- com.azure.resourcemanager.monitor.fluent.inner.AutoscaleProfileInner.capacity()
-- com.azure.resourcemanager.monitor.fluent.inner.AutoscaleProfileInner.fixedDate()
-- com.azure.resourcemanager.monitor.fluent.inner.AutoscaleProfileInner.name()
-- com.azure.resourcemanager.monitor.fluent.inner.AutoscaleProfileInner.recurrence()
-- com.azure.resourcemanager.monitor.fluent.inner.AutoscaleProfileInner.rules()
-- com.azure.resourcemanager.monitor.fluent.inner.AutoscaleProfileInner.validate()
-- com.azure.resourcemanager.monitor.fluent.inner.AutoscaleProfileInner.withCapacity(com.azure.resourcemanager.monitor.models.ScaleCapacity)
-- com.azure.resourcemanager.monitor.fluent.inner.AutoscaleProfileInner.withFixedDate(com.azure.resourcemanager.monitor.models.TimeWindow)
-- com.azure.resourcemanager.monitor.fluent.inner.AutoscaleProfileInner.withName(java.lang.String)
-- com.azure.resourcemanager.monitor.fluent.inner.AutoscaleProfileInner.withRecurrence(com.azure.resourcemanager.monitor.models.Recurrence)
-- com.azure.resourcemanager.monitor.fluent.inner.AutoscaleProfileInner.withRules(java.util.List<com.azure.resourcemanager.monitor.fluent.inner.ScaleRuleInner>)
-type: class
+- "com.azure.resourcemanager.monitor.fluent.inner.AutoscaleProfileInner.capacity()"
+- "com.azure.resourcemanager.monitor.fluent.inner.AutoscaleProfileInner.fixedDate()"
+- "com.azure.resourcemanager.monitor.fluent.inner.AutoscaleProfileInner.name()"
+- "com.azure.resourcemanager.monitor.fluent.inner.AutoscaleProfileInner.recurrence()"
+- "com.azure.resourcemanager.monitor.fluent.inner.AutoscaleProfileInner.rules()"
+- "com.azure.resourcemanager.monitor.fluent.inner.AutoscaleProfileInner.validate()"
+- "com.azure.resourcemanager.monitor.fluent.inner.AutoscaleProfileInner.withCapacity(com.azure.resourcemanager.monitor.models.ScaleCapacity)"
+- "com.azure.resourcemanager.monitor.fluent.inner.AutoscaleProfileInner.withFixedDate(com.azure.resourcemanager.monitor.models.TimeWindow)"
+- "com.azure.resourcemanager.monitor.fluent.inner.AutoscaleProfileInner.withName(java.lang.String)"
+- "com.azure.resourcemanager.monitor.fluent.inner.AutoscaleProfileInner.withRecurrence(com.azure.resourcemanager.monitor.models.Recurrence)"
+- "com.azure.resourcemanager.monitor.fluent.inner.AutoscaleProfileInner.withRules(java.util.List<com.azure.resourcemanager.monitor.fluent.inner.ScaleRuleInner>)"
+type: "class"
 metadata: {}
-package: com.azure.resourcemanager.monitor.fluent.inner
+package: "com.azure.resourcemanager.monitor.fluent.inner"
 artifact: com.azure.resourcemanager:azure-resourcemanager-monitor:2.0.0-beta.2

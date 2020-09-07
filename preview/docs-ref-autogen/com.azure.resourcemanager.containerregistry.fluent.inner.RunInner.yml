@@ -1,68 +1,68 @@
 ### YamlMime:JavaType
-uid: com.azure.resourcemanager.containerregistry.fluent.inner.RunInner
-fullName: com.azure.resourcemanager.containerregistry.fluent.inner.RunInner
-name: RunInner
-nameWithType: RunInner
-summary: The Run model.
+uid: "com.azure.resourcemanager.containerregistry.fluent.inner.RunInner"
+fullName: "com.azure.resourcemanager.containerregistry.fluent.inner.RunInner"
+name: "RunInner"
+nameWithType: "RunInner"
+summary: "The Run model."
 inheritances:
-- <xref href="java.lang.Object" data-throw-if-not-resolved="False" />
-- <xref href="com.azure.core.management.ProxyResource" data-throw-if-not-resolved="False" />
+- "<xref href=\"java.lang.Object\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.azure.core.management.ProxyResource\" data-throw-if-not-resolved=\"False\" />"
 inheritedMembers:
-- com.azure.core.management.ProxyResource.id()
-- com.azure.core.management.ProxyResource.name()
-- com.azure.core.management.ProxyResource.type()
-- java.lang.Object.clone()
-- java.lang.Object.equals(java.lang.Object)
-- java.lang.Object.finalize()
-- java.lang.Object.getClass()
-- java.lang.Object.hashCode()
-- java.lang.Object.notify()
-- java.lang.Object.notifyAll()
-- java.lang.Object.toString()
-- java.lang.Object.wait()
-- java.lang.Object.wait(long)
-- java.lang.Object.wait(long,int)
-syntax: public class RunInner extends ProxyResource
+- "com.azure.core.management.ProxyResource.id()"
+- "com.azure.core.management.ProxyResource.name()"
+- "com.azure.core.management.ProxyResource.type()"
+- "java.lang.Object.clone()"
+- "java.lang.Object.equals(java.lang.Object)"
+- "java.lang.Object.finalize()"
+- "java.lang.Object.getClass()"
+- "java.lang.Object.hashCode()"
+- "java.lang.Object.notify()"
+- "java.lang.Object.notifyAll()"
+- "java.lang.Object.toString()"
+- "java.lang.Object.wait()"
+- "java.lang.Object.wait(long)"
+- "java.lang.Object.wait(long,int)"
+syntax: "public class RunInner extends ProxyResource"
 constructors:
-- com.azure.resourcemanager.containerregistry.fluent.inner.RunInner.RunInner()
+- "com.azure.resourcemanager.containerregistry.fluent.inner.RunInner.RunInner()"
 methods:
-- com.azure.resourcemanager.containerregistry.fluent.inner.RunInner.agentConfiguration()
-- com.azure.resourcemanager.containerregistry.fluent.inner.RunInner.createTime()
-- com.azure.resourcemanager.containerregistry.fluent.inner.RunInner.customRegistries()
-- com.azure.resourcemanager.containerregistry.fluent.inner.RunInner.finishTime()
-- com.azure.resourcemanager.containerregistry.fluent.inner.RunInner.imageUpdateTrigger()
-- com.azure.resourcemanager.containerregistry.fluent.inner.RunInner.isArchiveEnabled()
-- com.azure.resourcemanager.containerregistry.fluent.inner.RunInner.lastUpdatedTime()
-- com.azure.resourcemanager.containerregistry.fluent.inner.RunInner.outputImages()
-- com.azure.resourcemanager.containerregistry.fluent.inner.RunInner.platform()
-- com.azure.resourcemanager.containerregistry.fluent.inner.RunInner.provisioningState()
-- com.azure.resourcemanager.containerregistry.fluent.inner.RunInner.runErrorMessage()
-- com.azure.resourcemanager.containerregistry.fluent.inner.RunInner.runId()
-- com.azure.resourcemanager.containerregistry.fluent.inner.RunInner.runType()
-- com.azure.resourcemanager.containerregistry.fluent.inner.RunInner.sourceRegistryAuth()
-- com.azure.resourcemanager.containerregistry.fluent.inner.RunInner.sourceTrigger()
-- com.azure.resourcemanager.containerregistry.fluent.inner.RunInner.startTime()
-- com.azure.resourcemanager.containerregistry.fluent.inner.RunInner.status()
-- com.azure.resourcemanager.containerregistry.fluent.inner.RunInner.task()
-- com.azure.resourcemanager.containerregistry.fluent.inner.RunInner.validate()
-- com.azure.resourcemanager.containerregistry.fluent.inner.RunInner.withAgentConfiguration(com.azure.resourcemanager.containerregistry.models.AgentProperties)
-- com.azure.resourcemanager.containerregistry.fluent.inner.RunInner.withCreateTime(java.time.OffsetDateTime)
-- com.azure.resourcemanager.containerregistry.fluent.inner.RunInner.withCustomRegistries(java.util.List<java.lang.String>)
-- com.azure.resourcemanager.containerregistry.fluent.inner.RunInner.withFinishTime(java.time.OffsetDateTime)
-- com.azure.resourcemanager.containerregistry.fluent.inner.RunInner.withImageUpdateTrigger(com.azure.resourcemanager.containerregistry.models.ImageUpdateTrigger)
-- com.azure.resourcemanager.containerregistry.fluent.inner.RunInner.withIsArchiveEnabled(java.lang.Boolean)
-- com.azure.resourcemanager.containerregistry.fluent.inner.RunInner.withLastUpdatedTime(java.time.OffsetDateTime)
-- com.azure.resourcemanager.containerregistry.fluent.inner.RunInner.withOutputImages(java.util.List<com.azure.resourcemanager.containerregistry.models.ImageDescriptor>)
-- com.azure.resourcemanager.containerregistry.fluent.inner.RunInner.withPlatform(com.azure.resourcemanager.containerregistry.models.PlatformProperties)
-- com.azure.resourcemanager.containerregistry.fluent.inner.RunInner.withProvisioningState(com.azure.resourcemanager.containerregistry.models.ProvisioningState)
-- com.azure.resourcemanager.containerregistry.fluent.inner.RunInner.withRunId(java.lang.String)
-- com.azure.resourcemanager.containerregistry.fluent.inner.RunInner.withRunType(com.azure.resourcemanager.containerregistry.models.RunType)
-- com.azure.resourcemanager.containerregistry.fluent.inner.RunInner.withSourceRegistryAuth(java.lang.String)
-- com.azure.resourcemanager.containerregistry.fluent.inner.RunInner.withSourceTrigger(com.azure.resourcemanager.containerregistry.models.SourceTriggerDescriptor)
-- com.azure.resourcemanager.containerregistry.fluent.inner.RunInner.withStartTime(java.time.OffsetDateTime)
-- com.azure.resourcemanager.containerregistry.fluent.inner.RunInner.withStatus(com.azure.resourcemanager.containerregistry.models.RunStatus)
-- com.azure.resourcemanager.containerregistry.fluent.inner.RunInner.withTask(java.lang.String)
-type: class
+- "com.azure.resourcemanager.containerregistry.fluent.inner.RunInner.agentConfiguration()"
+- "com.azure.resourcemanager.containerregistry.fluent.inner.RunInner.createTime()"
+- "com.azure.resourcemanager.containerregistry.fluent.inner.RunInner.customRegistries()"
+- "com.azure.resourcemanager.containerregistry.fluent.inner.RunInner.finishTime()"
+- "com.azure.resourcemanager.containerregistry.fluent.inner.RunInner.imageUpdateTrigger()"
+- "com.azure.resourcemanager.containerregistry.fluent.inner.RunInner.isArchiveEnabled()"
+- "com.azure.resourcemanager.containerregistry.fluent.inner.RunInner.lastUpdatedTime()"
+- "com.azure.resourcemanager.containerregistry.fluent.inner.RunInner.outputImages()"
+- "com.azure.resourcemanager.containerregistry.fluent.inner.RunInner.platform()"
+- "com.azure.resourcemanager.containerregistry.fluent.inner.RunInner.provisioningState()"
+- "com.azure.resourcemanager.containerregistry.fluent.inner.RunInner.runErrorMessage()"
+- "com.azure.resourcemanager.containerregistry.fluent.inner.RunInner.runId()"
+- "com.azure.resourcemanager.containerregistry.fluent.inner.RunInner.runType()"
+- "com.azure.resourcemanager.containerregistry.fluent.inner.RunInner.sourceRegistryAuth()"
+- "com.azure.resourcemanager.containerregistry.fluent.inner.RunInner.sourceTrigger()"
+- "com.azure.resourcemanager.containerregistry.fluent.inner.RunInner.startTime()"
+- "com.azure.resourcemanager.containerregistry.fluent.inner.RunInner.status()"
+- "com.azure.resourcemanager.containerregistry.fluent.inner.RunInner.task()"
+- "com.azure.resourcemanager.containerregistry.fluent.inner.RunInner.validate()"
+- "com.azure.resourcemanager.containerregistry.fluent.inner.RunInner.withAgentConfiguration(com.azure.resourcemanager.containerregistry.models.AgentProperties)"
+- "com.azure.resourcemanager.containerregistry.fluent.inner.RunInner.withCreateTime(java.time.OffsetDateTime)"
+- "com.azure.resourcemanager.containerregistry.fluent.inner.RunInner.withCustomRegistries(java.util.List<java.lang.String>)"
+- "com.azure.resourcemanager.containerregistry.fluent.inner.RunInner.withFinishTime(java.time.OffsetDateTime)"
+- "com.azure.resourcemanager.containerregistry.fluent.inner.RunInner.withImageUpdateTrigger(com.azure.resourcemanager.containerregistry.models.ImageUpdateTrigger)"
+- "com.azure.resourcemanager.containerregistry.fluent.inner.RunInner.withIsArchiveEnabled(java.lang.Boolean)"
+- "com.azure.resourcemanager.containerregistry.fluent.inner.RunInner.withLastUpdatedTime(java.time.OffsetDateTime)"
+- "com.azure.resourcemanager.containerregistry.fluent.inner.RunInner.withOutputImages(java.util.List<com.azure.resourcemanager.containerregistry.models.ImageDescriptor>)"
+- "com.azure.resourcemanager.containerregistry.fluent.inner.RunInner.withPlatform(com.azure.resourcemanager.containerregistry.models.PlatformProperties)"
+- "com.azure.resourcemanager.containerregistry.fluent.inner.RunInner.withProvisioningState(com.azure.resourcemanager.containerregistry.models.ProvisioningState)"
+- "com.azure.resourcemanager.containerregistry.fluent.inner.RunInner.withRunId(java.lang.String)"
+- "com.azure.resourcemanager.containerregistry.fluent.inner.RunInner.withRunType(com.azure.resourcemanager.containerregistry.models.RunType)"
+- "com.azure.resourcemanager.containerregistry.fluent.inner.RunInner.withSourceRegistryAuth(java.lang.String)"
+- "com.azure.resourcemanager.containerregistry.fluent.inner.RunInner.withSourceTrigger(com.azure.resourcemanager.containerregistry.models.SourceTriggerDescriptor)"
+- "com.azure.resourcemanager.containerregistry.fluent.inner.RunInner.withStartTime(java.time.OffsetDateTime)"
+- "com.azure.resourcemanager.containerregistry.fluent.inner.RunInner.withStatus(com.azure.resourcemanager.containerregistry.models.RunStatus)"
+- "com.azure.resourcemanager.containerregistry.fluent.inner.RunInner.withTask(java.lang.String)"
+type: "class"
 metadata: {}
-package: com.azure.resourcemanager.containerregistry.fluent.inner
+package: "com.azure.resourcemanager.containerregistry.fluent.inner"
 artifact: com.azure.resourcemanager:azure-resourcemanager-containerregistry:2.0.0-beta.2

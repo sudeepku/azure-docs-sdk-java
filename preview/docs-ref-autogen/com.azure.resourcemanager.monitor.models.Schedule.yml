@@ -1,33 +1,33 @@
 ### YamlMime:JavaType
-uid: com.azure.resourcemanager.monitor.models.Schedule
-fullName: com.azure.resourcemanager.monitor.models.Schedule
-name: Schedule
-nameWithType: Schedule
-summary: The Schedule model.
+uid: "com.azure.resourcemanager.monitor.models.Schedule"
+fullName: "com.azure.resourcemanager.monitor.models.Schedule"
+name: "Schedule"
+nameWithType: "Schedule"
+summary: "The Schedule model."
 inheritances:
-- <xref href="java.lang.Object" data-throw-if-not-resolved="False" />
+- "<xref href=\"java.lang.Object\" data-throw-if-not-resolved=\"False\" />"
 inheritedMembers:
-- java.lang.Object.clone()
-- java.lang.Object.equals(java.lang.Object)
-- java.lang.Object.finalize()
-- java.lang.Object.getClass()
-- java.lang.Object.hashCode()
-- java.lang.Object.notify()
-- java.lang.Object.notifyAll()
-- java.lang.Object.toString()
-- java.lang.Object.wait()
-- java.lang.Object.wait(long)
-- java.lang.Object.wait(long,int)
-syntax: public final class Schedule
+- "java.lang.Object.clone()"
+- "java.lang.Object.equals(java.lang.Object)"
+- "java.lang.Object.finalize()"
+- "java.lang.Object.getClass()"
+- "java.lang.Object.hashCode()"
+- "java.lang.Object.notify()"
+- "java.lang.Object.notifyAll()"
+- "java.lang.Object.toString()"
+- "java.lang.Object.wait()"
+- "java.lang.Object.wait(long)"
+- "java.lang.Object.wait(long,int)"
+syntax: "public final class Schedule"
 constructors:
-- com.azure.resourcemanager.monitor.models.Schedule.Schedule()
+- "com.azure.resourcemanager.monitor.models.Schedule.Schedule()"
 methods:
-- com.azure.resourcemanager.monitor.models.Schedule.frequencyInMinutes()
-- com.azure.resourcemanager.monitor.models.Schedule.timeWindowInMinutes()
-- com.azure.resourcemanager.monitor.models.Schedule.validate()
-- com.azure.resourcemanager.monitor.models.Schedule.withFrequencyInMinutes(int)
-- com.azure.resourcemanager.monitor.models.Schedule.withTimeWindowInMinutes(int)
-type: class
+- "com.azure.resourcemanager.monitor.models.Schedule.frequencyInMinutes()"
+- "com.azure.resourcemanager.monitor.models.Schedule.timeWindowInMinutes()"
+- "com.azure.resourcemanager.monitor.models.Schedule.validate()"
+- "com.azure.resourcemanager.monitor.models.Schedule.withFrequencyInMinutes(int)"
+- "com.azure.resourcemanager.monitor.models.Schedule.withTimeWindowInMinutes(int)"
+type: "class"
 metadata: {}
-package: com.azure.resourcemanager.monitor.models
+package: "com.azure.resourcemanager.monitor.models"
 artifact: com.azure.resourcemanager:azure-resourcemanager-monitor:2.0.0-beta.2

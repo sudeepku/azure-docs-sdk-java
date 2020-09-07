@@ -1,51 +1,51 @@
 ### YamlMime:JavaType
-uid: com.azure.resourcemanager.appservice.fluent.inner.RelayServiceConnectionEntityInner
-fullName: com.azure.resourcemanager.appservice.fluent.inner.RelayServiceConnectionEntityInner
-name: RelayServiceConnectionEntityInner
-nameWithType: RelayServiceConnectionEntityInner
-summary: The RelayServiceConnectionEntity model.
+uid: "com.azure.resourcemanager.appservice.fluent.inner.RelayServiceConnectionEntityInner"
+fullName: "com.azure.resourcemanager.appservice.fluent.inner.RelayServiceConnectionEntityInner"
+name: "RelayServiceConnectionEntityInner"
+nameWithType: "RelayServiceConnectionEntityInner"
+summary: "The RelayServiceConnectionEntity model."
 inheritances:
-- <xref href="java.lang.Object" data-throw-if-not-resolved="False" />
-- <xref href="com.azure.core.management.ProxyResource" data-throw-if-not-resolved="False" />
-- <xref href="com.azure.resourcemanager.appservice.models.ProxyOnlyResource" data-throw-if-not-resolved="False" />
+- "<xref href=\"java.lang.Object\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.azure.core.management.ProxyResource\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.azure.resourcemanager.appservice.models.ProxyOnlyResource\" data-throw-if-not-resolved=\"False\" />"
 inheritedMembers:
-- com.azure.core.management.ProxyResource.id()
-- com.azure.core.management.ProxyResource.name()
-- com.azure.core.management.ProxyResource.type()
-- com.azure.resourcemanager.appservice.models.ProxyOnlyResource.kind()
-- com.azure.resourcemanager.appservice.models.ProxyOnlyResource.validate()
-- com.azure.resourcemanager.appservice.models.ProxyOnlyResource.withKind(java.lang.String)
-- java.lang.Object.clone()
-- java.lang.Object.equals(java.lang.Object)
-- java.lang.Object.finalize()
-- java.lang.Object.getClass()
-- java.lang.Object.hashCode()
-- java.lang.Object.notify()
-- java.lang.Object.notifyAll()
-- java.lang.Object.toString()
-- java.lang.Object.wait()
-- java.lang.Object.wait(long)
-- java.lang.Object.wait(long,int)
-syntax: public class RelayServiceConnectionEntityInner extends ProxyOnlyResource
+- "com.azure.core.management.ProxyResource.id()"
+- "com.azure.core.management.ProxyResource.name()"
+- "com.azure.core.management.ProxyResource.type()"
+- "com.azure.resourcemanager.appservice.models.ProxyOnlyResource.kind()"
+- "com.azure.resourcemanager.appservice.models.ProxyOnlyResource.validate()"
+- "com.azure.resourcemanager.appservice.models.ProxyOnlyResource.withKind(java.lang.String)"
+- "java.lang.Object.clone()"
+- "java.lang.Object.equals(java.lang.Object)"
+- "java.lang.Object.finalize()"
+- "java.lang.Object.getClass()"
+- "java.lang.Object.hashCode()"
+- "java.lang.Object.notify()"
+- "java.lang.Object.notifyAll()"
+- "java.lang.Object.toString()"
+- "java.lang.Object.wait()"
+- "java.lang.Object.wait(long)"
+- "java.lang.Object.wait(long,int)"
+syntax: "public class RelayServiceConnectionEntityInner extends ProxyOnlyResource"
 constructors:
-- com.azure.resourcemanager.appservice.fluent.inner.RelayServiceConnectionEntityInner.RelayServiceConnectionEntityInner()
+- "com.azure.resourcemanager.appservice.fluent.inner.RelayServiceConnectionEntityInner.RelayServiceConnectionEntityInner()"
 methods:
-- com.azure.resourcemanager.appservice.fluent.inner.RelayServiceConnectionEntityInner.biztalkUri()
-- com.azure.resourcemanager.appservice.fluent.inner.RelayServiceConnectionEntityInner.entityConnectionString()
-- com.azure.resourcemanager.appservice.fluent.inner.RelayServiceConnectionEntityInner.entityName()
-- com.azure.resourcemanager.appservice.fluent.inner.RelayServiceConnectionEntityInner.hostname()
-- com.azure.resourcemanager.appservice.fluent.inner.RelayServiceConnectionEntityInner.port()
-- com.azure.resourcemanager.appservice.fluent.inner.RelayServiceConnectionEntityInner.resourceConnectionString()
-- com.azure.resourcemanager.appservice.fluent.inner.RelayServiceConnectionEntityInner.resourceType()
-- com.azure.resourcemanager.appservice.fluent.inner.RelayServiceConnectionEntityInner.validate()
-- com.azure.resourcemanager.appservice.fluent.inner.RelayServiceConnectionEntityInner.withBiztalkUri(java.lang.String)
-- com.azure.resourcemanager.appservice.fluent.inner.RelayServiceConnectionEntityInner.withEntityConnectionString(java.lang.String)
-- com.azure.resourcemanager.appservice.fluent.inner.RelayServiceConnectionEntityInner.withEntityName(java.lang.String)
-- com.azure.resourcemanager.appservice.fluent.inner.RelayServiceConnectionEntityInner.withHostname(java.lang.String)
-- com.azure.resourcemanager.appservice.fluent.inner.RelayServiceConnectionEntityInner.withPort(java.lang.Integer)
-- com.azure.resourcemanager.appservice.fluent.inner.RelayServiceConnectionEntityInner.withResourceConnectionString(java.lang.String)
-- com.azure.resourcemanager.appservice.fluent.inner.RelayServiceConnectionEntityInner.withResourceType(java.lang.String)
-type: class
+- "com.azure.resourcemanager.appservice.fluent.inner.RelayServiceConnectionEntityInner.biztalkUri()"
+- "com.azure.resourcemanager.appservice.fluent.inner.RelayServiceConnectionEntityInner.entityConnectionString()"
+- "com.azure.resourcemanager.appservice.fluent.inner.RelayServiceConnectionEntityInner.entityName()"
+- "com.azure.resourcemanager.appservice.fluent.inner.RelayServiceConnectionEntityInner.hostname()"
+- "com.azure.resourcemanager.appservice.fluent.inner.RelayServiceConnectionEntityInner.port()"
+- "com.azure.resourcemanager.appservice.fluent.inner.RelayServiceConnectionEntityInner.resourceConnectionString()"
+- "com.azure.resourcemanager.appservice.fluent.inner.RelayServiceConnectionEntityInner.resourceType()"
+- "com.azure.resourcemanager.appservice.fluent.inner.RelayServiceConnectionEntityInner.validate()"
+- "com.azure.resourcemanager.appservice.fluent.inner.RelayServiceConnectionEntityInner.withBiztalkUri(java.lang.String)"
+- "com.azure.resourcemanager.appservice.fluent.inner.RelayServiceConnectionEntityInner.withEntityConnectionString(java.lang.String)"
+- "com.azure.resourcemanager.appservice.fluent.inner.RelayServiceConnectionEntityInner.withEntityName(java.lang.String)"
+- "com.azure.resourcemanager.appservice.fluent.inner.RelayServiceConnectionEntityInner.withHostname(java.lang.String)"
+- "com.azure.resourcemanager.appservice.fluent.inner.RelayServiceConnectionEntityInner.withPort(java.lang.Integer)"
+- "com.azure.resourcemanager.appservice.fluent.inner.RelayServiceConnectionEntityInner.withResourceConnectionString(java.lang.String)"
+- "com.azure.resourcemanager.appservice.fluent.inner.RelayServiceConnectionEntityInner.withResourceType(java.lang.String)"
+type: "class"
 metadata: {}
-package: com.azure.resourcemanager.appservice.fluent.inner
+package: "com.azure.resourcemanager.appservice.fluent.inner"
 artifact: com.azure.resourcemanager:azure-resourcemanager-appservice:2.0.0-beta.2

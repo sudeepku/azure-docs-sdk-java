@@ -1,51 +1,26 @@
 ### YamlMime:JavaMember
-uid: com.azure.storage.file.share.ShareServiceAsyncClient.undeleteShareWithResponse*
-fullName: com.azure.storage.file.share.ShareServiceAsyncClient.undeleteShareWithResponse
-name: undeleteShareWithResponse
-nameWithType: ShareServiceAsyncClient.undeleteShareWithResponse
+uid: "com.azure.storage.file.share.ShareServiceAsyncClient.undeleteShareWithResponse*"
+fullName: "com.azure.storage.file.share.ShareServiceAsyncClient.undeleteShareWithResponse"
+name: "undeleteShareWithResponse"
+nameWithType: "ShareServiceAsyncClient.undeleteShareWithResponse"
 members:
-- uid: com.azure.storage.file.share.ShareServiceAsyncClient.undeleteShareWithResponse(java.lang.String,java.lang.String)
-  fullName: com.azure.storage.file.share.ShareServiceAsyncClient.undeleteShareWithResponse(String deletedShareName, String deletedShareVersion)
-  name: undeleteShareWithResponse(String deletedShareName, String deletedShareVersion)
-  nameWithType: ShareServiceAsyncClient.undeleteShareWithResponse(String deletedShareName, String deletedShareVersion)
-  summary: |-
-    Restores a previously deleted share.
-     <p>
-     If the share associated with provided <code>deletedShareName</code>
-     already exists, this call will result in a 409 (conflict).
-     </p>
-     <p>
-     This API is only functional if Share Soft Delete is enabled
-     for the storage account associated with the share.
-     For more information, see the
-     <a href="TBD">Azure Docs</a>.
-     </p>
-
-     <p><strong>Code Samples</strong></p>
-
-     <pre>
-     ListSharesOptions listSharesOptions = new ListSharesOptions&#40;&#41;;
-     listSharesOptions.setIncludeDeleted&#40;true&#41;;
-     fileServiceAsyncClient.listShares&#40;listSharesOptions&#41;.flatMap&#40;
-         deletedShare -&gt; &#123;
-             Mono&lt;ShareAsyncClient&gt; shareAsyncClient = fileServiceAsyncClient.undeleteShareWithResponse&#40;
-                 deletedShare.getName&#40;&#41;, deletedShare.getVersion&#40;&#41;&#41;.map&#40;Response::getValue&#41;;
-             return shareAsyncClient;
-         &#125;
-     &#41;.blockFirst&#40;&#41;;
-     </pre>
+- uid: "com.azure.storage.file.share.ShareServiceAsyncClient.undeleteShareWithResponse(java.lang.String,java.lang.String)"
+  fullName: "com.azure.storage.file.share.ShareServiceAsyncClient.undeleteShareWithResponse(String deletedShareName, String deletedShareVersion)"
+  name: "undeleteShareWithResponse(String deletedShareName, String deletedShareVersion)"
+  nameWithType: "ShareServiceAsyncClient.undeleteShareWithResponse(String deletedShareName, String deletedShareVersion)"
+  summary: "Restores a previously deleted share.\n <p>\n If the share associated with provided <code>deletedShareName</code>\n already exists, this call will result in a 409 (conflict).\n </p>\n <p>\n This API is only functional if Share Soft Delete is enabled\n for the storage account associated with the share.\n For more information, see the\n <a href=\"TBD\">Azure Docs</a>.\n </p>\n\n <p><strong>Code Samples</strong></p>\n\n <pre>\n ListSharesOptions listSharesOptions = new ListSharesOptions&#40;&#41;;\n listSharesOptions.setIncludeDeleted&#40;true&#41;;\n fileServiceAsyncClient.listShares&#40;listSharesOptions&#41;.flatMap&#40;\n     deletedShare -&gt; &#123;\n         Mono&lt;ShareAsyncClient&gt; shareAsyncClient = fileServiceAsyncClient.undeleteShareWithResponse&#40;\n             deletedShare.getName&#40;&#41;, deletedShare.getVersion&#40;&#41;&#41;.map&#40;Response::getValue&#41;;\n         return shareAsyncClient;\n     &#125;\n &#41;.blockFirst&#40;&#41;;\n </pre>"
   parameters:
-  - description: The name of the previously deleted share.
-    name: deletedShareName
-    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
-  - description: The version of the previously deleted share.
-    name: deletedShareVersion
-    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
-  syntax: public Mono<Response<ShareAsyncClient>> undeleteShareWithResponse(String deletedShareName, String deletedShareVersion)
+  - description: "The name of the previously deleted share."
+    name: "deletedShareName"
+    type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
+  - description: "The version of the previously deleted share."
+    name: "deletedShareVersion"
+    type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public Mono<Response<ShareAsyncClient>> undeleteShareWithResponse(String deletedShareName, String deletedShareVersion)"
   returns:
-    description: A <xref uid="reactor.core.publisher.Mono" data-throw-if-not-resolved="false">Mono</xref> containing a <xref uid="com.azure.core.http.rest.Response" data-throw-if-not-resolved="false">Response</xref> whose <xref uid="com.azure.core.http.rest.Response.getValue*" data-throw-if-not-resolved="false">value</xref> contains a <xref uid="com.azure.storage.file.share.ShareAsyncClient" data-throw-if-not-resolved="false">ShareAsyncClient</xref> used to interact with the restored share.
-    type: <xref href="reactor.core.publisher.Mono?alt=reactor.core.publisher.Mono&text=Mono" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.core.http.rest.Response?alt=com.azure.core.http.rest.Response&text=Response" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.storage.file.share.ShareAsyncClient?alt=com.azure.storage.file.share.ShareAsyncClient&text=ShareAsyncClient" data-throw-if-not-resolved="False" />&gt;&gt;
-type: method
+    description: "A <xref uid=\"reactor.core.publisher.Mono\" data-throw-if-not-resolved=\"false\">Mono</xref> containing a <xref uid=\"com.azure.core.http.rest.Response\" data-throw-if-not-resolved=\"false\">Response</xref> whose <xref uid=\"com.azure.core.http.rest.Response.getValue*\" data-throw-if-not-resolved=\"false\">value</xref> contains a <xref uid=\"com.azure.storage.file.share.ShareAsyncClient\" data-throw-if-not-resolved=\"false\">ShareAsyncClient</xref> used to interact with the restored share."
+    type: "<xref href=\"reactor.core.publisher.Mono?alt=reactor.core.publisher.Mono&text=Mono\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.core.http.rest.Response?alt=com.azure.core.http.rest.Response&text=Response\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.storage.file.share.ShareAsyncClient?alt=com.azure.storage.file.share.ShareAsyncClient&text=ShareAsyncClient\" data-throw-if-not-resolved=\"False\" />&gt;&gt;"
+type: "method"
 metadata: {}
-package: com.azure.storage.file.share
+package: "com.azure.storage.file.share"
 artifact: com.azure:azure-storage-file-share:12.6.0

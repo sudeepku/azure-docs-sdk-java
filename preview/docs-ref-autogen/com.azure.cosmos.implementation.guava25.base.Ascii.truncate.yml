@@ -1,51 +1,25 @@
 ### YamlMime:JavaMember
-uid: com.azure.cosmos.implementation.guava25.base.Ascii.truncate*
-fullName: com.azure.cosmos.implementation.guava25.base.Ascii.truncate
-name: truncate
-nameWithType: Ascii.truncate
+uid: "com.azure.cosmos.implementation.guava25.base.Ascii.truncate*"
+fullName: "com.azure.cosmos.implementation.guava25.base.Ascii.truncate"
+name: "truncate"
+nameWithType: "Ascii.truncate"
 members:
-- uid: com.azure.cosmos.implementation.guava25.base.Ascii.truncate(java.lang.CharSequence,int,java.lang.String)
-  fullName: com.azure.cosmos.implementation.guava25.base.Ascii.truncate(CharSequence seq, int maxLength, String truncationIndicator)
-  name: truncate(CharSequence seq, int maxLength, String truncationIndicator)
-  nameWithType: Ascii.truncate(CharSequence seq, int maxLength, String truncationIndicator)
-  summary: |-
-    Truncates the given character sequence to the given maximum length. If the length of the
-     sequence is greater than <code>maxLength</code>, the returned string will be exactly <code>
-     maxLength</code> chars in length and will end with the given <code>truncationIndicator</code>. Otherwise,
-     the sequence will be returned as a string with no changes to the content.
-
-     <p>Examples:
-
-     <pre><code>
-     Ascii.truncate("foobar", 7, "..."); // returns "foobar"
-     Ascii.truncate("foobar", 5, "..."); // returns "fo..."
-     </code></pre>
-
-     <p><b>Note:</b> This method <i>may</i> work with certain non-ASCII text but is not safe for use
-     with arbitrary Unicode text. It is mostly intended for use with text that is known to be safe
-     for use with it (such as all-ASCII text) and for simple debugging text. When using this method,
-     consider the following:
-
-     <ul>
-       <li>it may split surrogate pairs
-       <li>it may split characters and combining characters
-       <li>it does not consider word boundaries
-       <li>if truncating for display to users, there are other considerations that must be taken
-           into account
-       <li>the appropriate truncation indicator may be locale-dependent
-       <li>it is safe to use non-ASCII characters in the truncation indicator
-     </ul>
+- uid: "com.azure.cosmos.implementation.guava25.base.Ascii.truncate(java.lang.CharSequence,int,java.lang.String)"
+  fullName: "com.azure.cosmos.implementation.guava25.base.Ascii.truncate(CharSequence seq, int maxLength, String truncationIndicator)"
+  name: "truncate(CharSequence seq, int maxLength, String truncationIndicator)"
+  nameWithType: "Ascii.truncate(CharSequence seq, int maxLength, String truncationIndicator)"
+  summary: "Truncates the given character sequence to the given maximum length. If the length of the\n sequence is greater than <code>maxLength</code>, the returned string will be exactly <code>\n maxLength</code> chars in length and will end with the given <code>truncationIndicator</code>. Otherwise,\n the sequence will be returned as a string with no changes to the content.\n\n <p>Examples:\n\n <pre><code>\n Ascii.truncate(\"foobar\", 7, \"...\"); // returns \"foobar\"\n Ascii.truncate(\"foobar\", 5, \"...\"); // returns \"fo...\"\n </code></pre>\n\n <p><b>Note:</b> This method <i>may</i> work with certain non-ASCII text but is not safe for use\n with arbitrary Unicode text. It is mostly intended for use with text that is known to be safe\n for use with it (such as all-ASCII text) and for simple debugging text. When using this method,\n consider the following:\n\n <ul>\n   <li>it may split surrogate pairs\n   <li>it may split characters and combining characters\n   <li>it does not consider word boundaries\n   <li>if truncating for display to users, there are other considerations that must be taken\n       into account\n   <li>the appropriate truncation indicator may be locale-dependent\n   <li>it is safe to use non-ASCII characters in the truncation indicator\n </ul>"
   parameters:
-  - name: seq
-    type: <xref href="java.lang.CharSequence?alt=java.lang.CharSequence&text=CharSequence" data-throw-if-not-resolved="False" />
-  - name: maxLength
-    type: <xref href="int?alt=int&text=int" data-throw-if-not-resolved="False" />
-  - name: truncationIndicator
-    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
-  syntax: public static String truncate(CharSequence seq, int maxLength, String truncationIndicator)
+  - name: "seq"
+    type: "<xref href=\"java.lang.CharSequence?alt=java.lang.CharSequence&text=CharSequence\" data-throw-if-not-resolved=\"False\" />"
+  - name: "maxLength"
+    type: "<xref href=\"int?alt=int&text=int\" data-throw-if-not-resolved=\"False\" />"
+  - name: "truncationIndicator"
+    type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static String truncate(CharSequence seq, int maxLength, String truncationIndicator)"
   returns:
-    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
-type: method
+    type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
+type: "method"
 metadata: {}
-package: com.azure.cosmos.implementation.guava25.base
+package: "com.azure.cosmos.implementation.guava25.base"
 artifact: com.azure:azure-cosmos:4.3.2-beta.2

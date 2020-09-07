@@ -1,36 +1,36 @@
 ### YamlMime:JavaType
-uid: com.azure.resourcemanager.network.models.FirewallPolicyRuleConditionApplicationProtocolType
-fullName: com.azure.resourcemanager.network.models.FirewallPolicyRuleConditionApplicationProtocolType
-name: FirewallPolicyRuleConditionApplicationProtocolType
-nameWithType: FirewallPolicyRuleConditionApplicationProtocolType
-summary: Defines values for FirewallPolicyRuleConditionApplicationProtocolType.
+uid: "com.azure.resourcemanager.network.models.FirewallPolicyRuleConditionApplicationProtocolType"
+fullName: "com.azure.resourcemanager.network.models.FirewallPolicyRuleConditionApplicationProtocolType"
+name: "FirewallPolicyRuleConditionApplicationProtocolType"
+nameWithType: "FirewallPolicyRuleConditionApplicationProtocolType"
+summary: "Defines values for FirewallPolicyRuleConditionApplicationProtocolType."
 inheritances:
-- <xref href="java.lang.Object" data-throw-if-not-resolved="False" />
-- <xref href="com.azure.core.util.ExpandableStringEnum" data-throw-if-not-resolved="False" />
+- "<xref href=\"java.lang.Object\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.azure.core.util.ExpandableStringEnum\" data-throw-if-not-resolved=\"False\" />"
 inheritedMembers:
-- com.azure.core.util.ExpandableStringEnum.<T>fromString(java.lang.String,java.lang.Class<T>)
-- com.azure.core.util.ExpandableStringEnum.<T>values(java.lang.Class<T>)
-- com.azure.core.util.ExpandableStringEnum.equals(java.lang.Object)
-- com.azure.core.util.ExpandableStringEnum.hashCode()
-- com.azure.core.util.ExpandableStringEnum.toString()
-- java.lang.Object.clone()
-- java.lang.Object.finalize()
-- java.lang.Object.getClass()
-- java.lang.Object.notify()
-- java.lang.Object.notifyAll()
-- java.lang.Object.wait()
-- java.lang.Object.wait(long)
-- java.lang.Object.wait(long,int)
-syntax: public final class FirewallPolicyRuleConditionApplicationProtocolType extends ExpandableStringEnum<FirewallPolicyRuleConditionApplicationProtocolType>
+- "com.azure.core.util.ExpandableStringEnum.<T>fromString(java.lang.String,java.lang.Class<T>)"
+- "com.azure.core.util.ExpandableStringEnum.<T>values(java.lang.Class<T>)"
+- "com.azure.core.util.ExpandableStringEnum.equals(java.lang.Object)"
+- "com.azure.core.util.ExpandableStringEnum.hashCode()"
+- "com.azure.core.util.ExpandableStringEnum.toString()"
+- "java.lang.Object.clone()"
+- "java.lang.Object.finalize()"
+- "java.lang.Object.getClass()"
+- "java.lang.Object.notify()"
+- "java.lang.Object.notifyAll()"
+- "java.lang.Object.wait()"
+- "java.lang.Object.wait(long)"
+- "java.lang.Object.wait(long,int)"
+syntax: "public final class FirewallPolicyRuleConditionApplicationProtocolType extends ExpandableStringEnum<FirewallPolicyRuleConditionApplicationProtocolType>"
 constructors:
-- com.azure.resourcemanager.network.models.FirewallPolicyRuleConditionApplicationProtocolType.FirewallPolicyRuleConditionApplicationProtocolType()
+- "com.azure.resourcemanager.network.models.FirewallPolicyRuleConditionApplicationProtocolType.FirewallPolicyRuleConditionApplicationProtocolType()"
 fields:
-- com.azure.resourcemanager.network.models.FirewallPolicyRuleConditionApplicationProtocolType.HTTP
-- com.azure.resourcemanager.network.models.FirewallPolicyRuleConditionApplicationProtocolType.HTTPS
+- "com.azure.resourcemanager.network.models.FirewallPolicyRuleConditionApplicationProtocolType.HTTP"
+- "com.azure.resourcemanager.network.models.FirewallPolicyRuleConditionApplicationProtocolType.HTTPS"
 methods:
-- com.azure.resourcemanager.network.models.FirewallPolicyRuleConditionApplicationProtocolType.fromString(java.lang.String)
-- com.azure.resourcemanager.network.models.FirewallPolicyRuleConditionApplicationProtocolType.values()
-type: class
+- "com.azure.resourcemanager.network.models.FirewallPolicyRuleConditionApplicationProtocolType.fromString(java.lang.String)"
+- "com.azure.resourcemanager.network.models.FirewallPolicyRuleConditionApplicationProtocolType.values()"
+type: "class"
 metadata: {}
-package: com.azure.resourcemanager.network.models
+package: "com.azure.resourcemanager.network.models"
 artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.0.0-beta.2

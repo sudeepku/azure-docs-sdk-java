@@ -1,33 +1,33 @@
 ### YamlMime:JavaType
-uid: com.azure.resourcemanager.resources.fluentcore.utils.ReactorMapper
-fullName: com.azure.resourcemanager.resources.fluentcore.utils.ReactorMapper<T>
-name: ReactorMapper<T>
-nameWithType: ReactorMapper<T>
-summary: An internal utility class representing an RX function returning the provided type instance from a call with an arbitrary parameter.
+uid: "com.azure.resourcemanager.resources.fluentcore.utils.ReactorMapper"
+fullName: "com.azure.resourcemanager.resources.fluentcore.utils.ReactorMapper<T>"
+name: "ReactorMapper<T>"
+nameWithType: "ReactorMapper<T>"
+summary: "An internal utility class representing an RX function returning the provided type instance from a call with an arbitrary parameter."
 inheritances:
-- <xref href="java.lang.Object" data-throw-if-not-resolved="False" />
+- "<xref href=\"java.lang.Object\" data-throw-if-not-resolved=\"False\" />"
 inheritedMembers:
-- java.lang.Object.clone()
-- java.lang.Object.equals(java.lang.Object)
-- java.lang.Object.finalize()
-- java.lang.Object.getClass()
-- java.lang.Object.hashCode()
-- java.lang.Object.notify()
-- java.lang.Object.notifyAll()
-- java.lang.Object.toString()
-- java.lang.Object.wait()
-- java.lang.Object.wait(long)
-- java.lang.Object.wait(long,int)
-syntax: public final class ReactorMapper<T> implements Function<Object,T>
+- "java.lang.Object.clone()"
+- "java.lang.Object.equals(java.lang.Object)"
+- "java.lang.Object.finalize()"
+- "java.lang.Object.getClass()"
+- "java.lang.Object.hashCode()"
+- "java.lang.Object.notify()"
+- "java.lang.Object.notifyAll()"
+- "java.lang.Object.toString()"
+- "java.lang.Object.wait()"
+- "java.lang.Object.wait(long)"
+- "java.lang.Object.wait(long,int)"
+syntax: "public final class ReactorMapper<T> implements Function<Object,T>"
 methods:
-- com.azure.resourcemanager.resources.fluentcore.utils.ReactorMapper.<T>map(reactor.core.publisher.Mono<?>,T)
-- com.azure.resourcemanager.resources.fluentcore.utils.ReactorMapper.apply(java.lang.Object)
-- com.azure.resourcemanager.resources.fluentcore.utils.ReactorMapper.mapToVoid(reactor.core.publisher.Mono<?>)
-type: class
+- "com.azure.resourcemanager.resources.fluentcore.utils.ReactorMapper.<T>map(reactor.core.publisher.Mono<?>,T)"
+- "com.azure.resourcemanager.resources.fluentcore.utils.ReactorMapper.apply(java.lang.Object)"
+- "com.azure.resourcemanager.resources.fluentcore.utils.ReactorMapper.mapToVoid(reactor.core.publisher.Mono<?>)"
+type: "class"
 typeParameters:
-- name: T
+- name: "T"
 implements:
-- <xref href="java.util.function.Function?alt=java.util.function.Function&text=Function" data-throw-if-not-resolved="False" />&lt;<xref href="java.lang.Object?alt=java.lang.Object&text=Object" data-throw-if-not-resolved="False" />,<xref href="T?alt=T&text=T" data-throw-if-not-resolved="False" />&gt;
+- "<xref href=\"java.util.function.Function?alt=java.util.function.Function&text=Function\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"java.lang.Object?alt=java.lang.Object&text=Object\" data-throw-if-not-resolved=\"False\" />,<xref href=\"T?alt=T&text=T\" data-throw-if-not-resolved=\"False\" />&gt;"
 metadata: {}
-package: com.azure.resourcemanager.resources.fluentcore.utils
+package: "com.azure.resourcemanager.resources.fluentcore.utils"
 artifact: com.azure.resourcemanager:azure-resourcemanager-resources:2.0.0-beta.2

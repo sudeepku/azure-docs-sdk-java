@@ -1,50 +1,50 @@
 ### YamlMime:JavaType
-uid: com.azure.resourcemanager.compute.fluent.inner.VirtualMachineScaleSetVMInstanceViewInner
-fullName: com.azure.resourcemanager.compute.fluent.inner.VirtualMachineScaleSetVMInstanceViewInner
-name: VirtualMachineScaleSetVMInstanceViewInner
-nameWithType: VirtualMachineScaleSetVMInstanceViewInner
-summary: The VirtualMachineScaleSetVMInstanceView model.
+uid: "com.azure.resourcemanager.compute.fluent.inner.VirtualMachineScaleSetVMInstanceViewInner"
+fullName: "com.azure.resourcemanager.compute.fluent.inner.VirtualMachineScaleSetVMInstanceViewInner"
+name: "VirtualMachineScaleSetVMInstanceViewInner"
+nameWithType: "VirtualMachineScaleSetVMInstanceViewInner"
+summary: "The VirtualMachineScaleSetVMInstanceView model."
 inheritances:
-- <xref href="java.lang.Object" data-throw-if-not-resolved="False" />
+- "<xref href=\"java.lang.Object\" data-throw-if-not-resolved=\"False\" />"
 inheritedMembers:
-- java.lang.Object.clone()
-- java.lang.Object.equals(java.lang.Object)
-- java.lang.Object.finalize()
-- java.lang.Object.getClass()
-- java.lang.Object.hashCode()
-- java.lang.Object.notify()
-- java.lang.Object.notifyAll()
-- java.lang.Object.toString()
-- java.lang.Object.wait()
-- java.lang.Object.wait(long)
-- java.lang.Object.wait(long,int)
-syntax: public final class VirtualMachineScaleSetVMInstanceViewInner
+- "java.lang.Object.clone()"
+- "java.lang.Object.equals(java.lang.Object)"
+- "java.lang.Object.finalize()"
+- "java.lang.Object.getClass()"
+- "java.lang.Object.hashCode()"
+- "java.lang.Object.notify()"
+- "java.lang.Object.notifyAll()"
+- "java.lang.Object.toString()"
+- "java.lang.Object.wait()"
+- "java.lang.Object.wait(long)"
+- "java.lang.Object.wait(long,int)"
+syntax: "public final class VirtualMachineScaleSetVMInstanceViewInner"
 constructors:
-- com.azure.resourcemanager.compute.fluent.inner.VirtualMachineScaleSetVMInstanceViewInner.VirtualMachineScaleSetVMInstanceViewInner()
+- "com.azure.resourcemanager.compute.fluent.inner.VirtualMachineScaleSetVMInstanceViewInner.VirtualMachineScaleSetVMInstanceViewInner()"
 methods:
-- com.azure.resourcemanager.compute.fluent.inner.VirtualMachineScaleSetVMInstanceViewInner.bootDiagnostics()
-- com.azure.resourcemanager.compute.fluent.inner.VirtualMachineScaleSetVMInstanceViewInner.disks()
-- com.azure.resourcemanager.compute.fluent.inner.VirtualMachineScaleSetVMInstanceViewInner.extensions()
-- com.azure.resourcemanager.compute.fluent.inner.VirtualMachineScaleSetVMInstanceViewInner.maintenanceRedeployStatus()
-- com.azure.resourcemanager.compute.fluent.inner.VirtualMachineScaleSetVMInstanceViewInner.placementGroupId()
-- com.azure.resourcemanager.compute.fluent.inner.VirtualMachineScaleSetVMInstanceViewInner.platformFaultDomain()
-- com.azure.resourcemanager.compute.fluent.inner.VirtualMachineScaleSetVMInstanceViewInner.platformUpdateDomain()
-- com.azure.resourcemanager.compute.fluent.inner.VirtualMachineScaleSetVMInstanceViewInner.rdpThumbPrint()
-- com.azure.resourcemanager.compute.fluent.inner.VirtualMachineScaleSetVMInstanceViewInner.statuses()
-- com.azure.resourcemanager.compute.fluent.inner.VirtualMachineScaleSetVMInstanceViewInner.validate()
-- com.azure.resourcemanager.compute.fluent.inner.VirtualMachineScaleSetVMInstanceViewInner.vmAgent()
-- com.azure.resourcemanager.compute.fluent.inner.VirtualMachineScaleSetVMInstanceViewInner.vmHealth()
-- com.azure.resourcemanager.compute.fluent.inner.VirtualMachineScaleSetVMInstanceViewInner.withBootDiagnostics(com.azure.resourcemanager.compute.models.BootDiagnosticsInstanceView)
-- com.azure.resourcemanager.compute.fluent.inner.VirtualMachineScaleSetVMInstanceViewInner.withDisks(java.util.List<com.azure.resourcemanager.compute.models.DiskInstanceView>)
-- com.azure.resourcemanager.compute.fluent.inner.VirtualMachineScaleSetVMInstanceViewInner.withExtensions(java.util.List<com.azure.resourcemanager.compute.models.VirtualMachineExtensionInstanceView>)
-- com.azure.resourcemanager.compute.fluent.inner.VirtualMachineScaleSetVMInstanceViewInner.withMaintenanceRedeployStatus(com.azure.resourcemanager.compute.models.MaintenanceRedeployStatus)
-- com.azure.resourcemanager.compute.fluent.inner.VirtualMachineScaleSetVMInstanceViewInner.withPlacementGroupId(java.lang.String)
-- com.azure.resourcemanager.compute.fluent.inner.VirtualMachineScaleSetVMInstanceViewInner.withPlatformFaultDomain(java.lang.Integer)
-- com.azure.resourcemanager.compute.fluent.inner.VirtualMachineScaleSetVMInstanceViewInner.withPlatformUpdateDomain(java.lang.Integer)
-- com.azure.resourcemanager.compute.fluent.inner.VirtualMachineScaleSetVMInstanceViewInner.withRdpThumbPrint(java.lang.String)
-- com.azure.resourcemanager.compute.fluent.inner.VirtualMachineScaleSetVMInstanceViewInner.withStatuses(java.util.List<com.azure.resourcemanager.compute.models.InstanceViewStatus>)
-- com.azure.resourcemanager.compute.fluent.inner.VirtualMachineScaleSetVMInstanceViewInner.withVmAgent(com.azure.resourcemanager.compute.models.VirtualMachineAgentInstanceView)
-type: class
+- "com.azure.resourcemanager.compute.fluent.inner.VirtualMachineScaleSetVMInstanceViewInner.bootDiagnostics()"
+- "com.azure.resourcemanager.compute.fluent.inner.VirtualMachineScaleSetVMInstanceViewInner.disks()"
+- "com.azure.resourcemanager.compute.fluent.inner.VirtualMachineScaleSetVMInstanceViewInner.extensions()"
+- "com.azure.resourcemanager.compute.fluent.inner.VirtualMachineScaleSetVMInstanceViewInner.maintenanceRedeployStatus()"
+- "com.azure.resourcemanager.compute.fluent.inner.VirtualMachineScaleSetVMInstanceViewInner.placementGroupId()"
+- "com.azure.resourcemanager.compute.fluent.inner.VirtualMachineScaleSetVMInstanceViewInner.platformFaultDomain()"
+- "com.azure.resourcemanager.compute.fluent.inner.VirtualMachineScaleSetVMInstanceViewInner.platformUpdateDomain()"
+- "com.azure.resourcemanager.compute.fluent.inner.VirtualMachineScaleSetVMInstanceViewInner.rdpThumbPrint()"
+- "com.azure.resourcemanager.compute.fluent.inner.VirtualMachineScaleSetVMInstanceViewInner.statuses()"
+- "com.azure.resourcemanager.compute.fluent.inner.VirtualMachineScaleSetVMInstanceViewInner.validate()"
+- "com.azure.resourcemanager.compute.fluent.inner.VirtualMachineScaleSetVMInstanceViewInner.vmAgent()"
+- "com.azure.resourcemanager.compute.fluent.inner.VirtualMachineScaleSetVMInstanceViewInner.vmHealth()"
+- "com.azure.resourcemanager.compute.fluent.inner.VirtualMachineScaleSetVMInstanceViewInner.withBootDiagnostics(com.azure.resourcemanager.compute.models.BootDiagnosticsInstanceView)"
+- "com.azure.resourcemanager.compute.fluent.inner.VirtualMachineScaleSetVMInstanceViewInner.withDisks(java.util.List<com.azure.resourcemanager.compute.models.DiskInstanceView>)"
+- "com.azure.resourcemanager.compute.fluent.inner.VirtualMachineScaleSetVMInstanceViewInner.withExtensions(java.util.List<com.azure.resourcemanager.compute.models.VirtualMachineExtensionInstanceView>)"
+- "com.azure.resourcemanager.compute.fluent.inner.VirtualMachineScaleSetVMInstanceViewInner.withMaintenanceRedeployStatus(com.azure.resourcemanager.compute.models.MaintenanceRedeployStatus)"
+- "com.azure.resourcemanager.compute.fluent.inner.VirtualMachineScaleSetVMInstanceViewInner.withPlacementGroupId(java.lang.String)"
+- "com.azure.resourcemanager.compute.fluent.inner.VirtualMachineScaleSetVMInstanceViewInner.withPlatformFaultDomain(java.lang.Integer)"
+- "com.azure.resourcemanager.compute.fluent.inner.VirtualMachineScaleSetVMInstanceViewInner.withPlatformUpdateDomain(java.lang.Integer)"
+- "com.azure.resourcemanager.compute.fluent.inner.VirtualMachineScaleSetVMInstanceViewInner.withRdpThumbPrint(java.lang.String)"
+- "com.azure.resourcemanager.compute.fluent.inner.VirtualMachineScaleSetVMInstanceViewInner.withStatuses(java.util.List<com.azure.resourcemanager.compute.models.InstanceViewStatus>)"
+- "com.azure.resourcemanager.compute.fluent.inner.VirtualMachineScaleSetVMInstanceViewInner.withVmAgent(com.azure.resourcemanager.compute.models.VirtualMachineAgentInstanceView)"
+type: "class"
 metadata: {}
-package: com.azure.resourcemanager.compute.fluent.inner
+package: "com.azure.resourcemanager.compute.fluent.inner"
 artifact: com.azure.resourcemanager:azure-resourcemanager-compute:2.0.0-beta.2

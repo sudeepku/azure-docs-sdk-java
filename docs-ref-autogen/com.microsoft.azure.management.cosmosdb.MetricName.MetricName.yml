@@ -1,15 +1,15 @@
 ### YamlMime:JavaMember
-uid: com.microsoft.azure.management.cosmosdb.MetricName.MetricName*
-fullName: com.microsoft.azure.management.cosmosdb.MetricName.MetricName
-name: MetricName
-nameWithType: MetricName.MetricName
+uid: "com.microsoft.azure.management.cosmosdb.MetricName.MetricName*"
+fullName: "com.microsoft.azure.management.cosmosdb.MetricName.MetricName"
+name: "MetricName"
+nameWithType: "MetricName.MetricName"
 members:
-- uid: com.microsoft.azure.management.cosmosdb.MetricName.MetricName()
-  fullName: com.microsoft.azure.management.cosmosdb.MetricName.MetricName()
-  name: MetricName()
-  nameWithType: MetricName.MetricName()
-  syntax: public MetricName()
-type: constructor
+- uid: "com.microsoft.azure.management.cosmosdb.MetricName.MetricName()"
+  fullName: "com.microsoft.azure.management.cosmosdb.MetricName.MetricName()"
+  name: "MetricName()"
+  nameWithType: "MetricName.MetricName()"
+  syntax: "public MetricName()"
+type: "constructor"
 metadata: {}
-package: com.microsoft.azure.management.cosmosdb
-artifact: com.microsoft.azure:azure-mgmt-cosmosdb:1.36.1
+package: "com.microsoft.azure.management.cosmosdb"
+artifact: com.microsoft.azure:azure-mgmt-cosmosdb:1.36.2

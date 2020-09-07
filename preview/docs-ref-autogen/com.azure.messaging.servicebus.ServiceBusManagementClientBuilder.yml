@@ -1,40 +1,40 @@
 ### YamlMime:JavaType
-uid: com.azure.messaging.servicebus.ServiceBusManagementClientBuilder
-fullName: com.azure.messaging.servicebus.ServiceBusManagementClientBuilder
-name: ServiceBusManagementClientBuilder
-nameWithType: ServiceBusManagementClientBuilder
-summary: This class provides a fluent builder API to help aid the configuration and instantiation of <xref uid="com.azure.messaging.servicebus.ServiceBusManagementClient" data-throw-if-not-resolved="false">ServiceBusManagementClient</xref> and <xref uid="com.azure.messaging.servicebus.ServiceBusManagementAsyncClient" data-throw-if-not-resolved="false">ServiceBusManagementAsyncClient</xref>. Call <xref uid="com.azure.messaging.servicebus.ServiceBusManagementClientBuilder.buildClient()" data-throw-if-not-resolved="false">buildClient</xref> and <xref uid="com.azure.messaging.servicebus.ServiceBusManagementClientBuilder.buildAsyncClient()" data-throw-if-not-resolved="false">buildAsyncClient</xref> respectively to construct an instance of the desired client.
+uid: "com.azure.messaging.servicebus.ServiceBusManagementClientBuilder"
+fullName: "com.azure.messaging.servicebus.ServiceBusManagementClientBuilder"
+name: "ServiceBusManagementClientBuilder"
+nameWithType: "ServiceBusManagementClientBuilder"
+summary: "This class provides a fluent builder API to help aid the configuration and instantiation of <xref uid=\"com.azure.messaging.servicebus.ServiceBusManagementClient\" data-throw-if-not-resolved=\"false\">ServiceBusManagementClient</xref> and <xref uid=\"com.azure.messaging.servicebus.ServiceBusManagementAsyncClient\" data-throw-if-not-resolved=\"false\">ServiceBusManagementAsyncClient</xref>. Call <xref uid=\"com.azure.messaging.servicebus.ServiceBusManagementClientBuilder.buildClient()\" data-throw-if-not-resolved=\"false\">buildClient</xref> and <xref uid=\"com.azure.messaging.servicebus.ServiceBusManagementClientBuilder.buildAsyncClient()\" data-throw-if-not-resolved=\"false\">buildAsyncClient</xref> respectively to construct an instance of the desired client."
 inheritances:
-- <xref href="java.lang.Object" data-throw-if-not-resolved="False" />
+- "<xref href=\"java.lang.Object\" data-throw-if-not-resolved=\"False\" />"
 inheritedMembers:
-- java.lang.Object.clone()
-- java.lang.Object.equals(java.lang.Object)
-- java.lang.Object.finalize()
-- java.lang.Object.getClass()
-- java.lang.Object.hashCode()
-- java.lang.Object.notify()
-- java.lang.Object.notifyAll()
-- java.lang.Object.toString()
-- java.lang.Object.wait()
-- java.lang.Object.wait(long)
-- java.lang.Object.wait(long,int)
-syntax: public class ServiceBusManagementClientBuilder
+- "java.lang.Object.clone()"
+- "java.lang.Object.equals(java.lang.Object)"
+- "java.lang.Object.finalize()"
+- "java.lang.Object.getClass()"
+- "java.lang.Object.hashCode()"
+- "java.lang.Object.notify()"
+- "java.lang.Object.notifyAll()"
+- "java.lang.Object.toString()"
+- "java.lang.Object.wait()"
+- "java.lang.Object.wait(long)"
+- "java.lang.Object.wait(long,int)"
+syntax: "public class ServiceBusManagementClientBuilder"
 constructors:
-- com.azure.messaging.servicebus.ServiceBusManagementClientBuilder.ServiceBusManagementClientBuilder()
+- "com.azure.messaging.servicebus.ServiceBusManagementClientBuilder.ServiceBusManagementClientBuilder()"
 methods:
-- com.azure.messaging.servicebus.ServiceBusManagementClientBuilder.addPolicy(com.azure.core.http.policy.HttpPipelinePolicy)
-- com.azure.messaging.servicebus.ServiceBusManagementClientBuilder.buildAsyncClient()
-- com.azure.messaging.servicebus.ServiceBusManagementClientBuilder.buildClient()
-- com.azure.messaging.servicebus.ServiceBusManagementClientBuilder.configuration(com.azure.core.util.Configuration)
-- com.azure.messaging.servicebus.ServiceBusManagementClientBuilder.connectionString(java.lang.String)
-- com.azure.messaging.servicebus.ServiceBusManagementClientBuilder.credential(java.lang.String,com.azure.core.credential.TokenCredential)
-- com.azure.messaging.servicebus.ServiceBusManagementClientBuilder.endpoint(java.lang.String)
-- com.azure.messaging.servicebus.ServiceBusManagementClientBuilder.httpClient(com.azure.core.http.HttpClient)
-- com.azure.messaging.servicebus.ServiceBusManagementClientBuilder.httpLogOptions(com.azure.core.http.policy.HttpLogOptions)
-- com.azure.messaging.servicebus.ServiceBusManagementClientBuilder.pipeline(com.azure.core.http.HttpPipeline)
-- com.azure.messaging.servicebus.ServiceBusManagementClientBuilder.retryPolicy(com.azure.core.http.policy.HttpPipelinePolicy)
-- com.azure.messaging.servicebus.ServiceBusManagementClientBuilder.serviceVersion(com.azure.messaging.servicebus.ServiceBusServiceVersion)
-type: class
+- "com.azure.messaging.servicebus.ServiceBusManagementClientBuilder.addPolicy(com.azure.core.http.policy.HttpPipelinePolicy)"
+- "com.azure.messaging.servicebus.ServiceBusManagementClientBuilder.buildAsyncClient()"
+- "com.azure.messaging.servicebus.ServiceBusManagementClientBuilder.buildClient()"
+- "com.azure.messaging.servicebus.ServiceBusManagementClientBuilder.configuration(com.azure.core.util.Configuration)"
+- "com.azure.messaging.servicebus.ServiceBusManagementClientBuilder.connectionString(java.lang.String)"
+- "com.azure.messaging.servicebus.ServiceBusManagementClientBuilder.credential(java.lang.String,com.azure.core.credential.TokenCredential)"
+- "com.azure.messaging.servicebus.ServiceBusManagementClientBuilder.endpoint(java.lang.String)"
+- "com.azure.messaging.servicebus.ServiceBusManagementClientBuilder.httpClient(com.azure.core.http.HttpClient)"
+- "com.azure.messaging.servicebus.ServiceBusManagementClientBuilder.httpLogOptions(com.azure.core.http.policy.HttpLogOptions)"
+- "com.azure.messaging.servicebus.ServiceBusManagementClientBuilder.pipeline(com.azure.core.http.HttpPipeline)"
+- "com.azure.messaging.servicebus.ServiceBusManagementClientBuilder.retryPolicy(com.azure.core.http.policy.HttpPipelinePolicy)"
+- "com.azure.messaging.servicebus.ServiceBusManagementClientBuilder.serviceVersion(com.azure.messaging.servicebus.ServiceBusServiceVersion)"
+type: "class"
 metadata: {}
-package: com.azure.messaging.servicebus
+package: "com.azure.messaging.servicebus"
 artifact: com.azure:azure-messaging-servicebus:7.0.0-beta.5

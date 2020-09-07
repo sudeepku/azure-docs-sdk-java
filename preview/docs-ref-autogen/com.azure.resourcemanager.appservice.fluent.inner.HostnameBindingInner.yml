@@ -1,54 +1,54 @@
 ### YamlMime:JavaType
-uid: com.azure.resourcemanager.appservice.fluent.inner.HostnameBindingInner
-fullName: com.azure.resourcemanager.appservice.fluent.inner.HostnameBindingInner
-name: HostnameBindingInner
-nameWithType: HostnameBindingInner
-summary: The HostnameBinding model.
+uid: "com.azure.resourcemanager.appservice.fluent.inner.HostnameBindingInner"
+fullName: "com.azure.resourcemanager.appservice.fluent.inner.HostnameBindingInner"
+name: "HostnameBindingInner"
+nameWithType: "HostnameBindingInner"
+summary: "The HostnameBinding model."
 inheritances:
-- <xref href="java.lang.Object" data-throw-if-not-resolved="False" />
-- <xref href="com.azure.core.management.ProxyResource" data-throw-if-not-resolved="False" />
-- <xref href="com.azure.resourcemanager.appservice.models.ProxyOnlyResource" data-throw-if-not-resolved="False" />
+- "<xref href=\"java.lang.Object\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.azure.core.management.ProxyResource\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.azure.resourcemanager.appservice.models.ProxyOnlyResource\" data-throw-if-not-resolved=\"False\" />"
 inheritedMembers:
-- com.azure.core.management.ProxyResource.id()
-- com.azure.core.management.ProxyResource.name()
-- com.azure.core.management.ProxyResource.type()
-- com.azure.resourcemanager.appservice.models.ProxyOnlyResource.kind()
-- com.azure.resourcemanager.appservice.models.ProxyOnlyResource.validate()
-- com.azure.resourcemanager.appservice.models.ProxyOnlyResource.withKind(java.lang.String)
-- java.lang.Object.clone()
-- java.lang.Object.equals(java.lang.Object)
-- java.lang.Object.finalize()
-- java.lang.Object.getClass()
-- java.lang.Object.hashCode()
-- java.lang.Object.notify()
-- java.lang.Object.notifyAll()
-- java.lang.Object.toString()
-- java.lang.Object.wait()
-- java.lang.Object.wait(long)
-- java.lang.Object.wait(long,int)
-syntax: public class HostnameBindingInner extends ProxyOnlyResource
+- "com.azure.core.management.ProxyResource.id()"
+- "com.azure.core.management.ProxyResource.name()"
+- "com.azure.core.management.ProxyResource.type()"
+- "com.azure.resourcemanager.appservice.models.ProxyOnlyResource.kind()"
+- "com.azure.resourcemanager.appservice.models.ProxyOnlyResource.validate()"
+- "com.azure.resourcemanager.appservice.models.ProxyOnlyResource.withKind(java.lang.String)"
+- "java.lang.Object.clone()"
+- "java.lang.Object.equals(java.lang.Object)"
+- "java.lang.Object.finalize()"
+- "java.lang.Object.getClass()"
+- "java.lang.Object.hashCode()"
+- "java.lang.Object.notify()"
+- "java.lang.Object.notifyAll()"
+- "java.lang.Object.toString()"
+- "java.lang.Object.wait()"
+- "java.lang.Object.wait(long)"
+- "java.lang.Object.wait(long,int)"
+syntax: "public class HostnameBindingInner extends ProxyOnlyResource"
 constructors:
-- com.azure.resourcemanager.appservice.fluent.inner.HostnameBindingInner.HostnameBindingInner()
+- "com.azure.resourcemanager.appservice.fluent.inner.HostnameBindingInner.HostnameBindingInner()"
 methods:
-- com.azure.resourcemanager.appservice.fluent.inner.HostnameBindingInner.azureResourceName()
-- com.azure.resourcemanager.appservice.fluent.inner.HostnameBindingInner.azureResourceType()
-- com.azure.resourcemanager.appservice.fluent.inner.HostnameBindingInner.customHostnameDnsRecordType()
-- com.azure.resourcemanager.appservice.fluent.inner.HostnameBindingInner.domainId()
-- com.azure.resourcemanager.appservice.fluent.inner.HostnameBindingInner.hostnameType()
-- com.azure.resourcemanager.appservice.fluent.inner.HostnameBindingInner.siteName()
-- com.azure.resourcemanager.appservice.fluent.inner.HostnameBindingInner.sslState()
-- com.azure.resourcemanager.appservice.fluent.inner.HostnameBindingInner.thumbprint()
-- com.azure.resourcemanager.appservice.fluent.inner.HostnameBindingInner.validate()
-- com.azure.resourcemanager.appservice.fluent.inner.HostnameBindingInner.virtualIp()
-- com.azure.resourcemanager.appservice.fluent.inner.HostnameBindingInner.withAzureResourceName(java.lang.String)
-- com.azure.resourcemanager.appservice.fluent.inner.HostnameBindingInner.withAzureResourceType(com.azure.resourcemanager.appservice.models.AzureResourceType)
-- com.azure.resourcemanager.appservice.fluent.inner.HostnameBindingInner.withCustomHostnameDnsRecordType(com.azure.resourcemanager.appservice.models.CustomHostnameDnsRecordType)
-- com.azure.resourcemanager.appservice.fluent.inner.HostnameBindingInner.withDomainId(java.lang.String)
-- com.azure.resourcemanager.appservice.fluent.inner.HostnameBindingInner.withHostnameType(com.azure.resourcemanager.appservice.models.HostnameType)
-- com.azure.resourcemanager.appservice.fluent.inner.HostnameBindingInner.withSiteName(java.lang.String)
-- com.azure.resourcemanager.appservice.fluent.inner.HostnameBindingInner.withSslState(com.azure.resourcemanager.appservice.models.SslState)
-- com.azure.resourcemanager.appservice.fluent.inner.HostnameBindingInner.withThumbprint(java.lang.String)
-type: class
+- "com.azure.resourcemanager.appservice.fluent.inner.HostnameBindingInner.azureResourceName()"
+- "com.azure.resourcemanager.appservice.fluent.inner.HostnameBindingInner.azureResourceType()"
+- "com.azure.resourcemanager.appservice.fluent.inner.HostnameBindingInner.customHostnameDnsRecordType()"
+- "com.azure.resourcemanager.appservice.fluent.inner.HostnameBindingInner.domainId()"
+- "com.azure.resourcemanager.appservice.fluent.inner.HostnameBindingInner.hostnameType()"
+- "com.azure.resourcemanager.appservice.fluent.inner.HostnameBindingInner.siteName()"
+- "com.azure.resourcemanager.appservice.fluent.inner.HostnameBindingInner.sslState()"
+- "com.azure.resourcemanager.appservice.fluent.inner.HostnameBindingInner.thumbprint()"
+- "com.azure.resourcemanager.appservice.fluent.inner.HostnameBindingInner.validate()"
+- "com.azure.resourcemanager.appservice.fluent.inner.HostnameBindingInner.virtualIp()"
+- "com.azure.resourcemanager.appservice.fluent.inner.HostnameBindingInner.withAzureResourceName(java.lang.String)"
+- "com.azure.resourcemanager.appservice.fluent.inner.HostnameBindingInner.withAzureResourceType(com.azure.resourcemanager.appservice.models.AzureResourceType)"
+- "com.azure.resourcemanager.appservice.fluent.inner.HostnameBindingInner.withCustomHostnameDnsRecordType(com.azure.resourcemanager.appservice.models.CustomHostnameDnsRecordType)"
+- "com.azure.resourcemanager.appservice.fluent.inner.HostnameBindingInner.withDomainId(java.lang.String)"
+- "com.azure.resourcemanager.appservice.fluent.inner.HostnameBindingInner.withHostnameType(com.azure.resourcemanager.appservice.models.HostnameType)"
+- "com.azure.resourcemanager.appservice.fluent.inner.HostnameBindingInner.withSiteName(java.lang.String)"
+- "com.azure.resourcemanager.appservice.fluent.inner.HostnameBindingInner.withSslState(com.azure.resourcemanager.appservice.models.SslState)"
+- "com.azure.resourcemanager.appservice.fluent.inner.HostnameBindingInner.withThumbprint(java.lang.String)"
+type: "class"
 metadata: {}
-package: com.azure.resourcemanager.appservice.fluent.inner
+package: "com.azure.resourcemanager.appservice.fluent.inner"
 artifact: com.azure.resourcemanager:azure-resourcemanager-appservice:2.0.0-beta.2

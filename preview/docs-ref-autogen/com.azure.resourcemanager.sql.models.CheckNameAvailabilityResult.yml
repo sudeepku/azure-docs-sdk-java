@@ -1,17 +1,17 @@
 ### YamlMime:JavaType
-uid: com.azure.resourcemanager.sql.models.CheckNameAvailabilityResult
-fullName: com.azure.resourcemanager.sql.models.CheckNameAvailabilityResult
-name: CheckNameAvailabilityResult
-nameWithType: CheckNameAvailabilityResult
-summary: The result of checking for the SQL server name availability.
-syntax: public interface CheckNameAvailabilityResult extends HasInner<CheckNameAvailabilityResponseInner>
+uid: "com.azure.resourcemanager.sql.models.CheckNameAvailabilityResult"
+fullName: "com.azure.resourcemanager.sql.models.CheckNameAvailabilityResult"
+name: "CheckNameAvailabilityResult"
+nameWithType: "CheckNameAvailabilityResult"
+summary: "The result of checking for the SQL server name availability."
+syntax: "public interface CheckNameAvailabilityResult extends HasInner<CheckNameAvailabilityResponseInner>"
 methods:
-- com.azure.resourcemanager.sql.models.CheckNameAvailabilityResult.isAvailable()
-- com.azure.resourcemanager.sql.models.CheckNameAvailabilityResult.unavailabilityMessage()
-- com.azure.resourcemanager.sql.models.CheckNameAvailabilityResult.unavailabilityReason()
-type: interface
+- "com.azure.resourcemanager.sql.models.CheckNameAvailabilityResult.isAvailable()"
+- "com.azure.resourcemanager.sql.models.CheckNameAvailabilityResult.unavailabilityMessage()"
+- "com.azure.resourcemanager.sql.models.CheckNameAvailabilityResult.unavailabilityReason()"
+type: "interface"
 implements:
-- <xref href="com.azure.resourcemanager.resources.fluentcore.model.HasInner?alt=com.azure.resourcemanager.resources.fluentcore.model.HasInner&text=HasInner" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.resourcemanager.sql.fluent.inner.CheckNameAvailabilityResponseInner?alt=com.azure.resourcemanager.sql.fluent.inner.CheckNameAvailabilityResponseInner&text=CheckNameAvailabilityResponseInner" data-throw-if-not-resolved="False" />&gt;
+- "<xref href=\"com.azure.resourcemanager.resources.fluentcore.model.HasInner?alt=com.azure.resourcemanager.resources.fluentcore.model.HasInner&text=HasInner\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.sql.fluent.inner.CheckNameAvailabilityResponseInner?alt=com.azure.resourcemanager.sql.fluent.inner.CheckNameAvailabilityResponseInner&text=CheckNameAvailabilityResponseInner\" data-throw-if-not-resolved=\"False\" />&gt;"
 metadata: {}
-package: com.azure.resourcemanager.sql.models
+package: "com.azure.resourcemanager.sql.models"
 artifact: com.azure.resourcemanager:azure-resourcemanager-sql:2.0.0-beta.2

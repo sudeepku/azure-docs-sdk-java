@@ -1,30 +1,30 @@
 ### YamlMime:JavaType
-uid: com.azure.search.documents.indexes.implementation.models.ListIndexersResult
-fullName: com.azure.search.documents.indexes.implementation.models.ListIndexersResult
-name: ListIndexersResult
-nameWithType: ListIndexersResult
-summary: The ListIndexersResult model.
+uid: "com.azure.search.documents.indexes.implementation.models.ListIndexersResult"
+fullName: "com.azure.search.documents.indexes.implementation.models.ListIndexersResult"
+name: "ListIndexersResult"
+nameWithType: "ListIndexersResult"
+summary: "The ListIndexersResult model."
 inheritances:
-- <xref href="java.lang.Object" data-throw-if-not-resolved="False" />
+- "<xref href=\"java.lang.Object\" data-throw-if-not-resolved=\"False\" />"
 inheritedMembers:
-- java.lang.Object.clone()
-- java.lang.Object.equals(java.lang.Object)
-- java.lang.Object.finalize()
-- java.lang.Object.getClass()
-- java.lang.Object.hashCode()
-- java.lang.Object.notify()
-- java.lang.Object.notifyAll()
-- java.lang.Object.toString()
-- java.lang.Object.wait()
-- java.lang.Object.wait(long)
-- java.lang.Object.wait(long,int)
-syntax: public final class ListIndexersResult
+- "java.lang.Object.clone()"
+- "java.lang.Object.equals(java.lang.Object)"
+- "java.lang.Object.finalize()"
+- "java.lang.Object.getClass()"
+- "java.lang.Object.hashCode()"
+- "java.lang.Object.notify()"
+- "java.lang.Object.notifyAll()"
+- "java.lang.Object.toString()"
+- "java.lang.Object.wait()"
+- "java.lang.Object.wait(long)"
+- "java.lang.Object.wait(long,int)"
+syntax: "public final class ListIndexersResult"
 constructors:
-- com.azure.search.documents.indexes.implementation.models.ListIndexersResult.ListIndexersResult(java.util.List<com.azure.search.documents.indexes.implementation.models.SearchIndexer>)
+- "com.azure.search.documents.indexes.implementation.models.ListIndexersResult.ListIndexersResult(java.util.List<com.azure.search.documents.indexes.implementation.models.SearchIndexer>)"
 methods:
-- com.azure.search.documents.indexes.implementation.models.ListIndexersResult.getIndexers()
-- com.azure.search.documents.indexes.implementation.models.ListIndexersResult.validate()
-type: class
+- "com.azure.search.documents.indexes.implementation.models.ListIndexersResult.getIndexers()"
+- "com.azure.search.documents.indexes.implementation.models.ListIndexersResult.validate()"
+type: "class"
 metadata: {}
-package: com.azure.search.documents.indexes.implementation.models
+package: "com.azure.search.documents.indexes.implementation.models"
 artifact: com.azure:azure-search-documents:11.0.0

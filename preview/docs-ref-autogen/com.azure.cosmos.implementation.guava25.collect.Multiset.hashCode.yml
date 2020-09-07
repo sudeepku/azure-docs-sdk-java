@@ -1,27 +1,19 @@
 ### YamlMime:JavaMember
-uid: com.azure.cosmos.implementation.guava25.collect.Multiset.hashCode*
-fullName: com.azure.cosmos.implementation.guava25.collect.Multiset<E>.hashCode
-name: hashCode
-nameWithType: Multiset<E>.hashCode
+uid: "com.azure.cosmos.implementation.guava25.collect.Multiset.hashCode*"
+fullName: "com.azure.cosmos.implementation.guava25.collect.Multiset<E>.hashCode"
+name: "hashCode"
+nameWithType: "Multiset<E>.hashCode"
 members:
-- uid: com.azure.cosmos.implementation.guava25.collect.Multiset.hashCode()
-  fullName: com.azure.cosmos.implementation.guava25.collect.Multiset<E>.hashCode()
-  name: hashCode()
-  nameWithType: Multiset<E>.hashCode()
-  summary: |-
-    Returns the hash code for this multiset. This is defined as the sum of
-
-     <pre><code>
-     ((element == null) ? 0 : element.hashCode()) ^ count(element)
-     </code></pre>
-
-     <p>over all distinct elements in the multiset. It follows that a multiset and its entry set
-     always have the same hash code.
-  overridden: java.lang.Object.hashCode()
-  syntax: public abstract int hashCode()
+- uid: "com.azure.cosmos.implementation.guava25.collect.Multiset.hashCode()"
+  fullName: "com.azure.cosmos.implementation.guava25.collect.Multiset<E>.hashCode()"
+  name: "hashCode()"
+  nameWithType: "Multiset<E>.hashCode()"
+  summary: "Returns the hash code for this multiset. This is defined as the sum of\n\n <pre><code>\n ((element == null) ? 0 : element.hashCode()) ^ count(element)\n </code></pre>\n\n <p>over all distinct elements in the multiset. It follows that a multiset and its entry set\n always have the same hash code."
+  overridden: "java.lang.Object.hashCode()"
+  syntax: "public abstract int hashCode()"
   returns:
-    type: <xref href="int?alt=int&text=int" data-throw-if-not-resolved="False" />
-type: method
+    type: "<xref href=\"int?alt=int&text=int\" data-throw-if-not-resolved=\"False\" />"
+type: "method"
 metadata: {}
-package: com.azure.cosmos.implementation.guava25.collect
+package: "com.azure.cosmos.implementation.guava25.collect"
 artifact: com.azure:azure-cosmos:4.3.2-beta.2

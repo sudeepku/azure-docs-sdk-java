@@ -1,58 +1,58 @@
 ### YamlMime:JavaType
-uid: com.azure.resourcemanager.sql.fluent.inner.DataMaskingRuleInner
-fullName: com.azure.resourcemanager.sql.fluent.inner.DataMaskingRuleInner
-name: DataMaskingRuleInner
-nameWithType: DataMaskingRuleInner
-summary: The DataMaskingRule model.
+uid: "com.azure.resourcemanager.sql.fluent.inner.DataMaskingRuleInner"
+fullName: "com.azure.resourcemanager.sql.fluent.inner.DataMaskingRuleInner"
+name: "DataMaskingRuleInner"
+nameWithType: "DataMaskingRuleInner"
+summary: "The DataMaskingRule model."
 inheritances:
-- <xref href="java.lang.Object" data-throw-if-not-resolved="False" />
-- <xref href="com.azure.core.management.ProxyResource" data-throw-if-not-resolved="False" />
+- "<xref href=\"java.lang.Object\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.azure.core.management.ProxyResource\" data-throw-if-not-resolved=\"False\" />"
 inheritedMembers:
-- com.azure.core.management.ProxyResource.id()
-- com.azure.core.management.ProxyResource.name()
-- com.azure.core.management.ProxyResource.type()
-- java.lang.Object.clone()
-- java.lang.Object.equals(java.lang.Object)
-- java.lang.Object.finalize()
-- java.lang.Object.getClass()
-- java.lang.Object.hashCode()
-- java.lang.Object.notify()
-- java.lang.Object.notifyAll()
-- java.lang.Object.toString()
-- java.lang.Object.wait()
-- java.lang.Object.wait(long)
-- java.lang.Object.wait(long,int)
-syntax: public class DataMaskingRuleInner extends ProxyResource
+- "com.azure.core.management.ProxyResource.id()"
+- "com.azure.core.management.ProxyResource.name()"
+- "com.azure.core.management.ProxyResource.type()"
+- "java.lang.Object.clone()"
+- "java.lang.Object.equals(java.lang.Object)"
+- "java.lang.Object.finalize()"
+- "java.lang.Object.getClass()"
+- "java.lang.Object.hashCode()"
+- "java.lang.Object.notify()"
+- "java.lang.Object.notifyAll()"
+- "java.lang.Object.toString()"
+- "java.lang.Object.wait()"
+- "java.lang.Object.wait(long)"
+- "java.lang.Object.wait(long,int)"
+syntax: "public class DataMaskingRuleInner extends ProxyResource"
 constructors:
-- com.azure.resourcemanager.sql.fluent.inner.DataMaskingRuleInner.DataMaskingRuleInner()
+- "com.azure.resourcemanager.sql.fluent.inner.DataMaskingRuleInner.DataMaskingRuleInner()"
 methods:
-- com.azure.resourcemanager.sql.fluent.inner.DataMaskingRuleInner.aliasName()
-- com.azure.resourcemanager.sql.fluent.inner.DataMaskingRuleInner.columnName()
-- com.azure.resourcemanager.sql.fluent.inner.DataMaskingRuleInner.idPropertiesId()
-- com.azure.resourcemanager.sql.fluent.inner.DataMaskingRuleInner.kind()
-- com.azure.resourcemanager.sql.fluent.inner.DataMaskingRuleInner.location()
-- com.azure.resourcemanager.sql.fluent.inner.DataMaskingRuleInner.maskingFunction()
-- com.azure.resourcemanager.sql.fluent.inner.DataMaskingRuleInner.numberFrom()
-- com.azure.resourcemanager.sql.fluent.inner.DataMaskingRuleInner.numberTo()
-- com.azure.resourcemanager.sql.fluent.inner.DataMaskingRuleInner.prefixSize()
-- com.azure.resourcemanager.sql.fluent.inner.DataMaskingRuleInner.replacementString()
-- com.azure.resourcemanager.sql.fluent.inner.DataMaskingRuleInner.ruleState()
-- com.azure.resourcemanager.sql.fluent.inner.DataMaskingRuleInner.schemaName()
-- com.azure.resourcemanager.sql.fluent.inner.DataMaskingRuleInner.suffixSize()
-- com.azure.resourcemanager.sql.fluent.inner.DataMaskingRuleInner.tableName()
-- com.azure.resourcemanager.sql.fluent.inner.DataMaskingRuleInner.validate()
-- com.azure.resourcemanager.sql.fluent.inner.DataMaskingRuleInner.withAliasName(java.lang.String)
-- com.azure.resourcemanager.sql.fluent.inner.DataMaskingRuleInner.withColumnName(java.lang.String)
-- com.azure.resourcemanager.sql.fluent.inner.DataMaskingRuleInner.withMaskingFunction(com.azure.resourcemanager.sql.models.DataMaskingFunction)
-- com.azure.resourcemanager.sql.fluent.inner.DataMaskingRuleInner.withNumberFrom(java.lang.String)
-- com.azure.resourcemanager.sql.fluent.inner.DataMaskingRuleInner.withNumberTo(java.lang.String)
-- com.azure.resourcemanager.sql.fluent.inner.DataMaskingRuleInner.withPrefixSize(java.lang.String)
-- com.azure.resourcemanager.sql.fluent.inner.DataMaskingRuleInner.withReplacementString(java.lang.String)
-- com.azure.resourcemanager.sql.fluent.inner.DataMaskingRuleInner.withRuleState(com.azure.resourcemanager.sql.models.DataMaskingRuleState)
-- com.azure.resourcemanager.sql.fluent.inner.DataMaskingRuleInner.withSchemaName(java.lang.String)
-- com.azure.resourcemanager.sql.fluent.inner.DataMaskingRuleInner.withSuffixSize(java.lang.String)
-- com.azure.resourcemanager.sql.fluent.inner.DataMaskingRuleInner.withTableName(java.lang.String)
-type: class
+- "com.azure.resourcemanager.sql.fluent.inner.DataMaskingRuleInner.aliasName()"
+- "com.azure.resourcemanager.sql.fluent.inner.DataMaskingRuleInner.columnName()"
+- "com.azure.resourcemanager.sql.fluent.inner.DataMaskingRuleInner.idPropertiesId()"
+- "com.azure.resourcemanager.sql.fluent.inner.DataMaskingRuleInner.kind()"
+- "com.azure.resourcemanager.sql.fluent.inner.DataMaskingRuleInner.location()"
+- "com.azure.resourcemanager.sql.fluent.inner.DataMaskingRuleInner.maskingFunction()"
+- "com.azure.resourcemanager.sql.fluent.inner.DataMaskingRuleInner.numberFrom()"
+- "com.azure.resourcemanager.sql.fluent.inner.DataMaskingRuleInner.numberTo()"
+- "com.azure.resourcemanager.sql.fluent.inner.DataMaskingRuleInner.prefixSize()"
+- "com.azure.resourcemanager.sql.fluent.inner.DataMaskingRuleInner.replacementString()"
+- "com.azure.resourcemanager.sql.fluent.inner.DataMaskingRuleInner.ruleState()"
+- "com.azure.resourcemanager.sql.fluent.inner.DataMaskingRuleInner.schemaName()"
+- "com.azure.resourcemanager.sql.fluent.inner.DataMaskingRuleInner.suffixSize()"
+- "com.azure.resourcemanager.sql.fluent.inner.DataMaskingRuleInner.tableName()"
+- "com.azure.resourcemanager.sql.fluent.inner.DataMaskingRuleInner.validate()"
+- "com.azure.resourcemanager.sql.fluent.inner.DataMaskingRuleInner.withAliasName(java.lang.String)"
+- "com.azure.resourcemanager.sql.fluent.inner.DataMaskingRuleInner.withColumnName(java.lang.String)"
+- "com.azure.resourcemanager.sql.fluent.inner.DataMaskingRuleInner.withMaskingFunction(com.azure.resourcemanager.sql.models.DataMaskingFunction)"
+- "com.azure.resourcemanager.sql.fluent.inner.DataMaskingRuleInner.withNumberFrom(java.lang.String)"
+- "com.azure.resourcemanager.sql.fluent.inner.DataMaskingRuleInner.withNumberTo(java.lang.String)"
+- "com.azure.resourcemanager.sql.fluent.inner.DataMaskingRuleInner.withPrefixSize(java.lang.String)"
+- "com.azure.resourcemanager.sql.fluent.inner.DataMaskingRuleInner.withReplacementString(java.lang.String)"
+- "com.azure.resourcemanager.sql.fluent.inner.DataMaskingRuleInner.withRuleState(com.azure.resourcemanager.sql.models.DataMaskingRuleState)"
+- "com.azure.resourcemanager.sql.fluent.inner.DataMaskingRuleInner.withSchemaName(java.lang.String)"
+- "com.azure.resourcemanager.sql.fluent.inner.DataMaskingRuleInner.withSuffixSize(java.lang.String)"
+- "com.azure.resourcemanager.sql.fluent.inner.DataMaskingRuleInner.withTableName(java.lang.String)"
+type: "class"
 metadata: {}
-package: com.azure.resourcemanager.sql.fluent.inner
+package: "com.azure.resourcemanager.sql.fluent.inner"
 artifact: com.azure.resourcemanager:azure-resourcemanager-sql:2.0.0-beta.2

@@ -1,11 +1,11 @@
 ### YamlMime:JavaPackage
-uid: com.azure.cosmos.implementation.apachecommons.lang.builder
-fullName: com.azure.cosmos.implementation.apachecommons.lang.builder
-name: com.azure.cosmos.implementation.apachecommons.lang.builder
+uid: "com.azure.cosmos.implementation.apachecommons.lang.builder"
+fullName: "com.azure.cosmos.implementation.apachecommons.lang.builder"
+name: "com.azure.cosmos.implementation.apachecommons.lang.builder"
 classes:
-- com.azure.cosmos.implementation.apachecommons.lang.builder.CompareToBuilder
+- "com.azure.cosmos.implementation.apachecommons.lang.builder.CompareToBuilder"
 interfaces:
-- com.azure.cosmos.implementation.apachecommons.lang.builder.Builder
+- "com.azure.cosmos.implementation.apachecommons.lang.builder.Builder"
 metadata: {}
-package: com.azure.cosmos.implementation.apachecommons.lang.builder
+package: "com.azure.cosmos.implementation.apachecommons.lang.builder"
 artifact: com.azure:azure-cosmos:4.3.2-beta.2

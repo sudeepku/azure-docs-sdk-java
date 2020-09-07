@@ -1,66 +1,66 @@
 ### YamlMime:JavaType
-uid: com.azure.resourcemanager.appservice.fluent.inner.AppServiceCertificateOrderInner
-fullName: com.azure.resourcemanager.appservice.fluent.inner.AppServiceCertificateOrderInner
-name: AppServiceCertificateOrderInner
-nameWithType: AppServiceCertificateOrderInner
-summary: The AppServiceCertificateOrder model.
+uid: "com.azure.resourcemanager.appservice.fluent.inner.AppServiceCertificateOrderInner"
+fullName: "com.azure.resourcemanager.appservice.fluent.inner.AppServiceCertificateOrderInner"
+name: "AppServiceCertificateOrderInner"
+nameWithType: "AppServiceCertificateOrderInner"
+summary: "The AppServiceCertificateOrder model."
 inheritances:
-- <xref href="java.lang.Object" data-throw-if-not-resolved="False" />
-- <xref href="com.azure.core.management.ProxyResource" data-throw-if-not-resolved="False" />
-- <xref href="com.azure.core.management.Resource" data-throw-if-not-resolved="False" />
+- "<xref href=\"java.lang.Object\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.azure.core.management.ProxyResource\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.azure.core.management.Resource\" data-throw-if-not-resolved=\"False\" />"
 inheritedMembers:
-- com.azure.core.management.ProxyResource.id()
-- com.azure.core.management.ProxyResource.name()
-- com.azure.core.management.ProxyResource.type()
-- com.azure.core.management.Resource.location()
-- com.azure.core.management.Resource.tags()
-- com.azure.core.management.Resource.withLocation(java.lang.String)
-- com.azure.core.management.Resource.withTags(java.util.Map<java.lang.String,java.lang.String>)
-- java.lang.Object.clone()
-- java.lang.Object.equals(java.lang.Object)
-- java.lang.Object.finalize()
-- java.lang.Object.getClass()
-- java.lang.Object.hashCode()
-- java.lang.Object.notify()
-- java.lang.Object.notifyAll()
-- java.lang.Object.toString()
-- java.lang.Object.wait()
-- java.lang.Object.wait(long)
-- java.lang.Object.wait(long,int)
-syntax: public class AppServiceCertificateOrderInner extends Resource
+- "com.azure.core.management.ProxyResource.id()"
+- "com.azure.core.management.ProxyResource.name()"
+- "com.azure.core.management.ProxyResource.type()"
+- "com.azure.core.management.Resource.location()"
+- "com.azure.core.management.Resource.tags()"
+- "com.azure.core.management.Resource.withLocation(java.lang.String)"
+- "com.azure.core.management.Resource.withTags(java.util.Map<java.lang.String,java.lang.String>)"
+- "java.lang.Object.clone()"
+- "java.lang.Object.equals(java.lang.Object)"
+- "java.lang.Object.finalize()"
+- "java.lang.Object.getClass()"
+- "java.lang.Object.hashCode()"
+- "java.lang.Object.notify()"
+- "java.lang.Object.notifyAll()"
+- "java.lang.Object.toString()"
+- "java.lang.Object.wait()"
+- "java.lang.Object.wait(long)"
+- "java.lang.Object.wait(long,int)"
+syntax: "public class AppServiceCertificateOrderInner extends Resource"
 constructors:
-- com.azure.resourcemanager.appservice.fluent.inner.AppServiceCertificateOrderInner.AppServiceCertificateOrderInner()
+- "com.azure.resourcemanager.appservice.fluent.inner.AppServiceCertificateOrderInner.AppServiceCertificateOrderInner()"
 methods:
-- com.azure.resourcemanager.appservice.fluent.inner.AppServiceCertificateOrderInner.appServiceCertificateNotRenewableReasons()
-- com.azure.resourcemanager.appservice.fluent.inner.AppServiceCertificateOrderInner.autoRenew()
-- com.azure.resourcemanager.appservice.fluent.inner.AppServiceCertificateOrderInner.certificates()
-- com.azure.resourcemanager.appservice.fluent.inner.AppServiceCertificateOrderInner.csr()
-- com.azure.resourcemanager.appservice.fluent.inner.AppServiceCertificateOrderInner.distinguishedName()
-- com.azure.resourcemanager.appservice.fluent.inner.AppServiceCertificateOrderInner.domainVerificationToken()
-- com.azure.resourcemanager.appservice.fluent.inner.AppServiceCertificateOrderInner.expirationTime()
-- com.azure.resourcemanager.appservice.fluent.inner.AppServiceCertificateOrderInner.intermediate()
-- com.azure.resourcemanager.appservice.fluent.inner.AppServiceCertificateOrderInner.isPrivateKeyExternal()
-- com.azure.resourcemanager.appservice.fluent.inner.AppServiceCertificateOrderInner.keySize()
-- com.azure.resourcemanager.appservice.fluent.inner.AppServiceCertificateOrderInner.kind()
-- com.azure.resourcemanager.appservice.fluent.inner.AppServiceCertificateOrderInner.lastCertificateIssuanceTime()
-- com.azure.resourcemanager.appservice.fluent.inner.AppServiceCertificateOrderInner.nextAutoRenewalTimestamp()
-- com.azure.resourcemanager.appservice.fluent.inner.AppServiceCertificateOrderInner.productType()
-- com.azure.resourcemanager.appservice.fluent.inner.AppServiceCertificateOrderInner.provisioningState()
-- com.azure.resourcemanager.appservice.fluent.inner.AppServiceCertificateOrderInner.root()
-- com.azure.resourcemanager.appservice.fluent.inner.AppServiceCertificateOrderInner.serialNumber()
-- com.azure.resourcemanager.appservice.fluent.inner.AppServiceCertificateOrderInner.signedCertificate()
-- com.azure.resourcemanager.appservice.fluent.inner.AppServiceCertificateOrderInner.status()
-- com.azure.resourcemanager.appservice.fluent.inner.AppServiceCertificateOrderInner.validate()
-- com.azure.resourcemanager.appservice.fluent.inner.AppServiceCertificateOrderInner.validityInYears()
-- com.azure.resourcemanager.appservice.fluent.inner.AppServiceCertificateOrderInner.withAutoRenew(java.lang.Boolean)
-- com.azure.resourcemanager.appservice.fluent.inner.AppServiceCertificateOrderInner.withCertificates(java.util.Map<java.lang.String,com.azure.resourcemanager.appservice.fluent.inner.AppServiceCertificateInner>)
-- com.azure.resourcemanager.appservice.fluent.inner.AppServiceCertificateOrderInner.withCsr(java.lang.String)
-- com.azure.resourcemanager.appservice.fluent.inner.AppServiceCertificateOrderInner.withDistinguishedName(java.lang.String)
-- com.azure.resourcemanager.appservice.fluent.inner.AppServiceCertificateOrderInner.withKeySize(java.lang.Integer)
-- com.azure.resourcemanager.appservice.fluent.inner.AppServiceCertificateOrderInner.withKind(java.lang.String)
-- com.azure.resourcemanager.appservice.fluent.inner.AppServiceCertificateOrderInner.withProductType(com.azure.resourcemanager.appservice.models.CertificateProductType)
-- com.azure.resourcemanager.appservice.fluent.inner.AppServiceCertificateOrderInner.withValidityInYears(java.lang.Integer)
-type: class
+- "com.azure.resourcemanager.appservice.fluent.inner.AppServiceCertificateOrderInner.appServiceCertificateNotRenewableReasons()"
+- "com.azure.resourcemanager.appservice.fluent.inner.AppServiceCertificateOrderInner.autoRenew()"
+- "com.azure.resourcemanager.appservice.fluent.inner.AppServiceCertificateOrderInner.certificates()"
+- "com.azure.resourcemanager.appservice.fluent.inner.AppServiceCertificateOrderInner.csr()"
+- "com.azure.resourcemanager.appservice.fluent.inner.AppServiceCertificateOrderInner.distinguishedName()"
+- "com.azure.resourcemanager.appservice.fluent.inner.AppServiceCertificateOrderInner.domainVerificationToken()"
+- "com.azure.resourcemanager.appservice.fluent.inner.AppServiceCertificateOrderInner.expirationTime()"
+- "com.azure.resourcemanager.appservice.fluent.inner.AppServiceCertificateOrderInner.intermediate()"
+- "com.azure.resourcemanager.appservice.fluent.inner.AppServiceCertificateOrderInner.isPrivateKeyExternal()"
+- "com.azure.resourcemanager.appservice.fluent.inner.AppServiceCertificateOrderInner.keySize()"
+- "com.azure.resourcemanager.appservice.fluent.inner.AppServiceCertificateOrderInner.kind()"
+- "com.azure.resourcemanager.appservice.fluent.inner.AppServiceCertificateOrderInner.lastCertificateIssuanceTime()"
+- "com.azure.resourcemanager.appservice.fluent.inner.AppServiceCertificateOrderInner.nextAutoRenewalTimestamp()"
+- "com.azure.resourcemanager.appservice.fluent.inner.AppServiceCertificateOrderInner.productType()"
+- "com.azure.resourcemanager.appservice.fluent.inner.AppServiceCertificateOrderInner.provisioningState()"
+- "com.azure.resourcemanager.appservice.fluent.inner.AppServiceCertificateOrderInner.root()"
+- "com.azure.resourcemanager.appservice.fluent.inner.AppServiceCertificateOrderInner.serialNumber()"
+- "com.azure.resourcemanager.appservice.fluent.inner.AppServiceCertificateOrderInner.signedCertificate()"
+- "com.azure.resourcemanager.appservice.fluent.inner.AppServiceCertificateOrderInner.status()"
+- "com.azure.resourcemanager.appservice.fluent.inner.AppServiceCertificateOrderInner.validate()"
+- "com.azure.resourcemanager.appservice.fluent.inner.AppServiceCertificateOrderInner.validityInYears()"
+- "com.azure.resourcemanager.appservice.fluent.inner.AppServiceCertificateOrderInner.withAutoRenew(java.lang.Boolean)"
+- "com.azure.resourcemanager.appservice.fluent.inner.AppServiceCertificateOrderInner.withCertificates(java.util.Map<java.lang.String,com.azure.resourcemanager.appservice.fluent.inner.AppServiceCertificateInner>)"
+- "com.azure.resourcemanager.appservice.fluent.inner.AppServiceCertificateOrderInner.withCsr(java.lang.String)"
+- "com.azure.resourcemanager.appservice.fluent.inner.AppServiceCertificateOrderInner.withDistinguishedName(java.lang.String)"
+- "com.azure.resourcemanager.appservice.fluent.inner.AppServiceCertificateOrderInner.withKeySize(java.lang.Integer)"
+- "com.azure.resourcemanager.appservice.fluent.inner.AppServiceCertificateOrderInner.withKind(java.lang.String)"
+- "com.azure.resourcemanager.appservice.fluent.inner.AppServiceCertificateOrderInner.withProductType(com.azure.resourcemanager.appservice.models.CertificateProductType)"
+- "com.azure.resourcemanager.appservice.fluent.inner.AppServiceCertificateOrderInner.withValidityInYears(java.lang.Integer)"
+type: "class"
 metadata: {}
-package: com.azure.resourcemanager.appservice.fluent.inner
+package: "com.azure.resourcemanager.appservice.fluent.inner"
 artifact: com.azure.resourcemanager:azure-resourcemanager-appservice:2.0.0-beta.2

@@ -1,34 +1,34 @@
 ### YamlMime:JavaType
-uid: com.azure.resourcemanager.msi.fluent.SystemAssignedIdentitiesClient
-fullName: com.azure.resourcemanager.msi.fluent.SystemAssignedIdentitiesClient
-name: SystemAssignedIdentitiesClient
-nameWithType: SystemAssignedIdentitiesClient
-summary: An instance of this class provides access to all the operations defined in SystemAssignedIdentities.
+uid: "com.azure.resourcemanager.msi.fluent.SystemAssignedIdentitiesClient"
+fullName: "com.azure.resourcemanager.msi.fluent.SystemAssignedIdentitiesClient"
+name: "SystemAssignedIdentitiesClient"
+nameWithType: "SystemAssignedIdentitiesClient"
+summary: "An instance of this class provides access to all the operations defined in SystemAssignedIdentities."
 inheritances:
-- <xref href="java.lang.Object" data-throw-if-not-resolved="False" />
+- "<xref href=\"java.lang.Object\" data-throw-if-not-resolved=\"False\" />"
 inheritedMembers:
-- java.lang.Object.clone()
-- java.lang.Object.equals(java.lang.Object)
-- java.lang.Object.finalize()
-- java.lang.Object.getClass()
-- java.lang.Object.hashCode()
-- java.lang.Object.notify()
-- java.lang.Object.notifyAll()
-- java.lang.Object.toString()
-- java.lang.Object.wait()
-- java.lang.Object.wait(long)
-- java.lang.Object.wait(long,int)
-syntax: public final class SystemAssignedIdentitiesClient
+- "java.lang.Object.clone()"
+- "java.lang.Object.equals(java.lang.Object)"
+- "java.lang.Object.finalize()"
+- "java.lang.Object.getClass()"
+- "java.lang.Object.hashCode()"
+- "java.lang.Object.notify()"
+- "java.lang.Object.notifyAll()"
+- "java.lang.Object.toString()"
+- "java.lang.Object.wait()"
+- "java.lang.Object.wait(long)"
+- "java.lang.Object.wait(long,int)"
+syntax: "public final class SystemAssignedIdentitiesClient"
 constructors:
-- com.azure.resourcemanager.msi.fluent.SystemAssignedIdentitiesClient.SystemAssignedIdentitiesClient(com.azure.resourcemanager.msi.ManagedServiceIdentityClient)
+- "com.azure.resourcemanager.msi.fluent.SystemAssignedIdentitiesClient.SystemAssignedIdentitiesClient(com.azure.resourcemanager.msi.ManagedServiceIdentityClient)"
 methods:
-- com.azure.resourcemanager.msi.fluent.SystemAssignedIdentitiesClient.getByScope(java.lang.String)
-- com.azure.resourcemanager.msi.fluent.SystemAssignedIdentitiesClient.getByScope(java.lang.String,com.azure.core.util.Context)
-- com.azure.resourcemanager.msi.fluent.SystemAssignedIdentitiesClient.getByScopeAsync(java.lang.String)
-- com.azure.resourcemanager.msi.fluent.SystemAssignedIdentitiesClient.getByScopeAsync(java.lang.String,com.azure.core.util.Context)
-- com.azure.resourcemanager.msi.fluent.SystemAssignedIdentitiesClient.getByScopeWithResponseAsync(java.lang.String)
-- com.azure.resourcemanager.msi.fluent.SystemAssignedIdentitiesClient.getByScopeWithResponseAsync(java.lang.String,com.azure.core.util.Context)
-type: class
+- "com.azure.resourcemanager.msi.fluent.SystemAssignedIdentitiesClient.getByScope(java.lang.String)"
+- "com.azure.resourcemanager.msi.fluent.SystemAssignedIdentitiesClient.getByScope(java.lang.String,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.msi.fluent.SystemAssignedIdentitiesClient.getByScopeAsync(java.lang.String)"
+- "com.azure.resourcemanager.msi.fluent.SystemAssignedIdentitiesClient.getByScopeAsync(java.lang.String,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.msi.fluent.SystemAssignedIdentitiesClient.getByScopeWithResponseAsync(java.lang.String)"
+- "com.azure.resourcemanager.msi.fluent.SystemAssignedIdentitiesClient.getByScopeWithResponseAsync(java.lang.String,com.azure.core.util.Context)"
+type: "class"
 metadata: {}
-package: com.azure.resourcemanager.msi.fluent
+package: "com.azure.resourcemanager.msi.fluent"
 artifact: com.azure.resourcemanager:azure-resourcemanager-msi:2.0.0-beta.2

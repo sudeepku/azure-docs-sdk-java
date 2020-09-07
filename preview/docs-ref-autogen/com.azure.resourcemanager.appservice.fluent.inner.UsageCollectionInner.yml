@@ -1,32 +1,32 @@
 ### YamlMime:JavaType
-uid: com.azure.resourcemanager.appservice.fluent.inner.UsageCollectionInner
-fullName: com.azure.resourcemanager.appservice.fluent.inner.UsageCollectionInner
-name: UsageCollectionInner
-nameWithType: UsageCollectionInner
-summary: The UsageCollection model.
+uid: "com.azure.resourcemanager.appservice.fluent.inner.UsageCollectionInner"
+fullName: "com.azure.resourcemanager.appservice.fluent.inner.UsageCollectionInner"
+name: "UsageCollectionInner"
+nameWithType: "UsageCollectionInner"
+summary: "The UsageCollection model."
 inheritances:
-- <xref href="java.lang.Object" data-throw-if-not-resolved="False" />
+- "<xref href=\"java.lang.Object\" data-throw-if-not-resolved=\"False\" />"
 inheritedMembers:
-- java.lang.Object.clone()
-- java.lang.Object.equals(java.lang.Object)
-- java.lang.Object.finalize()
-- java.lang.Object.getClass()
-- java.lang.Object.hashCode()
-- java.lang.Object.notify()
-- java.lang.Object.notifyAll()
-- java.lang.Object.toString()
-- java.lang.Object.wait()
-- java.lang.Object.wait(long)
-- java.lang.Object.wait(long,int)
-syntax: public final class UsageCollectionInner
+- "java.lang.Object.clone()"
+- "java.lang.Object.equals(java.lang.Object)"
+- "java.lang.Object.finalize()"
+- "java.lang.Object.getClass()"
+- "java.lang.Object.hashCode()"
+- "java.lang.Object.notify()"
+- "java.lang.Object.notifyAll()"
+- "java.lang.Object.toString()"
+- "java.lang.Object.wait()"
+- "java.lang.Object.wait(long)"
+- "java.lang.Object.wait(long,int)"
+syntax: "public final class UsageCollectionInner"
 constructors:
-- com.azure.resourcemanager.appservice.fluent.inner.UsageCollectionInner.UsageCollectionInner()
+- "com.azure.resourcemanager.appservice.fluent.inner.UsageCollectionInner.UsageCollectionInner()"
 methods:
-- com.azure.resourcemanager.appservice.fluent.inner.UsageCollectionInner.nextLink()
-- com.azure.resourcemanager.appservice.fluent.inner.UsageCollectionInner.validate()
-- com.azure.resourcemanager.appservice.fluent.inner.UsageCollectionInner.value()
-- com.azure.resourcemanager.appservice.fluent.inner.UsageCollectionInner.withValue(java.util.List<com.azure.resourcemanager.appservice.fluent.inner.UsageInner>)
-type: class
+- "com.azure.resourcemanager.appservice.fluent.inner.UsageCollectionInner.nextLink()"
+- "com.azure.resourcemanager.appservice.fluent.inner.UsageCollectionInner.validate()"
+- "com.azure.resourcemanager.appservice.fluent.inner.UsageCollectionInner.value()"
+- "com.azure.resourcemanager.appservice.fluent.inner.UsageCollectionInner.withValue(java.util.List<com.azure.resourcemanager.appservice.fluent.inner.UsageInner>)"
+type: "class"
 metadata: {}
-package: com.azure.resourcemanager.appservice.fluent.inner
+package: "com.azure.resourcemanager.appservice.fluent.inner"
 artifact: com.azure.resourcemanager:azure-resourcemanager-appservice:2.0.0-beta.2

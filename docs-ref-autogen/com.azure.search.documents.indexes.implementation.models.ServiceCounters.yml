@@ -1,35 +1,35 @@
 ### YamlMime:JavaType
-uid: com.azure.search.documents.indexes.implementation.models.ServiceCounters
-fullName: com.azure.search.documents.indexes.implementation.models.ServiceCounters
-name: ServiceCounters
-nameWithType: ServiceCounters
-summary: The ServiceCounters model.
+uid: "com.azure.search.documents.indexes.implementation.models.ServiceCounters"
+fullName: "com.azure.search.documents.indexes.implementation.models.ServiceCounters"
+name: "ServiceCounters"
+nameWithType: "ServiceCounters"
+summary: "The ServiceCounters model."
 inheritances:
-- <xref href="java.lang.Object" data-throw-if-not-resolved="False" />
+- "<xref href=\"java.lang.Object\" data-throw-if-not-resolved=\"False\" />"
 inheritedMembers:
-- java.lang.Object.clone()
-- java.lang.Object.equals(java.lang.Object)
-- java.lang.Object.finalize()
-- java.lang.Object.getClass()
-- java.lang.Object.hashCode()
-- java.lang.Object.notify()
-- java.lang.Object.notifyAll()
-- java.lang.Object.toString()
-- java.lang.Object.wait()
-- java.lang.Object.wait(long)
-- java.lang.Object.wait(long,int)
-syntax: public final class ServiceCounters
+- "java.lang.Object.clone()"
+- "java.lang.Object.equals(java.lang.Object)"
+- "java.lang.Object.finalize()"
+- "java.lang.Object.getClass()"
+- "java.lang.Object.hashCode()"
+- "java.lang.Object.notify()"
+- "java.lang.Object.notifyAll()"
+- "java.lang.Object.toString()"
+- "java.lang.Object.wait()"
+- "java.lang.Object.wait(long)"
+- "java.lang.Object.wait(long,int)"
+syntax: "public final class ServiceCounters"
 constructors:
-- com.azure.search.documents.indexes.implementation.models.ServiceCounters.ServiceCounters(com.azure.search.documents.indexes.implementation.models.ResourceCounter,com.azure.search.documents.indexes.implementation.models.ResourceCounter,com.azure.search.documents.indexes.implementation.models.ResourceCounter,com.azure.search.documents.indexes.implementation.models.ResourceCounter,com.azure.search.documents.indexes.implementation.models.ResourceCounter,com.azure.search.documents.indexes.implementation.models.ResourceCounter)
+- "com.azure.search.documents.indexes.implementation.models.ServiceCounters.ServiceCounters(com.azure.search.documents.indexes.implementation.models.ResourceCounter,com.azure.search.documents.indexes.implementation.models.ResourceCounter,com.azure.search.documents.indexes.implementation.models.ResourceCounter,com.azure.search.documents.indexes.implementation.models.ResourceCounter,com.azure.search.documents.indexes.implementation.models.ResourceCounter,com.azure.search.documents.indexes.implementation.models.ResourceCounter)"
 methods:
-- com.azure.search.documents.indexes.implementation.models.ServiceCounters.getDataSourceCounter()
-- com.azure.search.documents.indexes.implementation.models.ServiceCounters.getDocumentCounter()
-- com.azure.search.documents.indexes.implementation.models.ServiceCounters.getIndexCounter()
-- com.azure.search.documents.indexes.implementation.models.ServiceCounters.getIndexerCounter()
-- com.azure.search.documents.indexes.implementation.models.ServiceCounters.getStorageSizeCounter()
-- com.azure.search.documents.indexes.implementation.models.ServiceCounters.getSynonymMapCounter()
-- com.azure.search.documents.indexes.implementation.models.ServiceCounters.validate()
-type: class
+- "com.azure.search.documents.indexes.implementation.models.ServiceCounters.getDataSourceCounter()"
+- "com.azure.search.documents.indexes.implementation.models.ServiceCounters.getDocumentCounter()"
+- "com.azure.search.documents.indexes.implementation.models.ServiceCounters.getIndexCounter()"
+- "com.azure.search.documents.indexes.implementation.models.ServiceCounters.getIndexerCounter()"
+- "com.azure.search.documents.indexes.implementation.models.ServiceCounters.getStorageSizeCounter()"
+- "com.azure.search.documents.indexes.implementation.models.ServiceCounters.getSynonymMapCounter()"
+- "com.azure.search.documents.indexes.implementation.models.ServiceCounters.validate()"
+type: "class"
 metadata: {}
-package: com.azure.search.documents.indexes.implementation.models
+package: "com.azure.search.documents.indexes.implementation.models"
 artifact: com.azure:azure-search-documents:11.0.0

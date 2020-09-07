@@ -1,53 +1,53 @@
 ### YamlMime:JavaType
-uid: com.azure.resourcemanager.resources.models.DeploymentPropertiesExtended
-fullName: com.azure.resourcemanager.resources.models.DeploymentPropertiesExtended
-name: DeploymentPropertiesExtended
-nameWithType: DeploymentPropertiesExtended
-summary: The DeploymentPropertiesExtended model.
+uid: "com.azure.resourcemanager.resources.models.DeploymentPropertiesExtended"
+fullName: "com.azure.resourcemanager.resources.models.DeploymentPropertiesExtended"
+name: "DeploymentPropertiesExtended"
+nameWithType: "DeploymentPropertiesExtended"
+summary: "The DeploymentPropertiesExtended model."
 inheritances:
-- <xref href="java.lang.Object" data-throw-if-not-resolved="False" />
+- "<xref href=\"java.lang.Object\" data-throw-if-not-resolved=\"False\" />"
 inheritedMembers:
-- java.lang.Object.clone()
-- java.lang.Object.equals(java.lang.Object)
-- java.lang.Object.finalize()
-- java.lang.Object.getClass()
-- java.lang.Object.hashCode()
-- java.lang.Object.notify()
-- java.lang.Object.notifyAll()
-- java.lang.Object.toString()
-- java.lang.Object.wait()
-- java.lang.Object.wait(long)
-- java.lang.Object.wait(long,int)
-syntax: public final class DeploymentPropertiesExtended
+- "java.lang.Object.clone()"
+- "java.lang.Object.equals(java.lang.Object)"
+- "java.lang.Object.finalize()"
+- "java.lang.Object.getClass()"
+- "java.lang.Object.hashCode()"
+- "java.lang.Object.notify()"
+- "java.lang.Object.notifyAll()"
+- "java.lang.Object.toString()"
+- "java.lang.Object.wait()"
+- "java.lang.Object.wait(long)"
+- "java.lang.Object.wait(long,int)"
+syntax: "public final class DeploymentPropertiesExtended"
 constructors:
-- com.azure.resourcemanager.resources.models.DeploymentPropertiesExtended.DeploymentPropertiesExtended()
+- "com.azure.resourcemanager.resources.models.DeploymentPropertiesExtended.DeploymentPropertiesExtended()"
 methods:
-- com.azure.resourcemanager.resources.models.DeploymentPropertiesExtended.correlationId()
-- com.azure.resourcemanager.resources.models.DeploymentPropertiesExtended.debugSetting()
-- com.azure.resourcemanager.resources.models.DeploymentPropertiesExtended.dependencies()
-- com.azure.resourcemanager.resources.models.DeploymentPropertiesExtended.duration()
-- com.azure.resourcemanager.resources.models.DeploymentPropertiesExtended.mode()
-- com.azure.resourcemanager.resources.models.DeploymentPropertiesExtended.onErrorDeployment()
-- com.azure.resourcemanager.resources.models.DeploymentPropertiesExtended.outputs()
-- com.azure.resourcemanager.resources.models.DeploymentPropertiesExtended.parameters()
-- com.azure.resourcemanager.resources.models.DeploymentPropertiesExtended.parametersLink()
-- com.azure.resourcemanager.resources.models.DeploymentPropertiesExtended.providers()
-- com.azure.resourcemanager.resources.models.DeploymentPropertiesExtended.provisioningState()
-- com.azure.resourcemanager.resources.models.DeploymentPropertiesExtended.template()
-- com.azure.resourcemanager.resources.models.DeploymentPropertiesExtended.templateLink()
-- com.azure.resourcemanager.resources.models.DeploymentPropertiesExtended.timestamp()
-- com.azure.resourcemanager.resources.models.DeploymentPropertiesExtended.validate()
-- com.azure.resourcemanager.resources.models.DeploymentPropertiesExtended.withDebugSetting(com.azure.resourcemanager.resources.models.DebugSetting)
-- com.azure.resourcemanager.resources.models.DeploymentPropertiesExtended.withDependencies(java.util.List<com.azure.resourcemanager.resources.models.Dependency>)
-- com.azure.resourcemanager.resources.models.DeploymentPropertiesExtended.withMode(com.azure.resourcemanager.resources.models.DeploymentMode)
-- com.azure.resourcemanager.resources.models.DeploymentPropertiesExtended.withOnErrorDeployment(com.azure.resourcemanager.resources.models.OnErrorDeploymentExtended)
-- com.azure.resourcemanager.resources.models.DeploymentPropertiesExtended.withOutputs(java.lang.Object)
-- com.azure.resourcemanager.resources.models.DeploymentPropertiesExtended.withParameters(java.lang.Object)
-- com.azure.resourcemanager.resources.models.DeploymentPropertiesExtended.withParametersLink(com.azure.resourcemanager.resources.models.ParametersLink)
-- com.azure.resourcemanager.resources.models.DeploymentPropertiesExtended.withProviders(java.util.List<com.azure.resourcemanager.resources.fluent.inner.ProviderInner>)
-- com.azure.resourcemanager.resources.models.DeploymentPropertiesExtended.withTemplate(java.lang.Object)
-- com.azure.resourcemanager.resources.models.DeploymentPropertiesExtended.withTemplateLink(com.azure.resourcemanager.resources.models.TemplateLink)
-type: class
+- "com.azure.resourcemanager.resources.models.DeploymentPropertiesExtended.correlationId()"
+- "com.azure.resourcemanager.resources.models.DeploymentPropertiesExtended.debugSetting()"
+- "com.azure.resourcemanager.resources.models.DeploymentPropertiesExtended.dependencies()"
+- "com.azure.resourcemanager.resources.models.DeploymentPropertiesExtended.duration()"
+- "com.azure.resourcemanager.resources.models.DeploymentPropertiesExtended.mode()"
+- "com.azure.resourcemanager.resources.models.DeploymentPropertiesExtended.onErrorDeployment()"
+- "com.azure.resourcemanager.resources.models.DeploymentPropertiesExtended.outputs()"
+- "com.azure.resourcemanager.resources.models.DeploymentPropertiesExtended.parameters()"
+- "com.azure.resourcemanager.resources.models.DeploymentPropertiesExtended.parametersLink()"
+- "com.azure.resourcemanager.resources.models.DeploymentPropertiesExtended.providers()"
+- "com.azure.resourcemanager.resources.models.DeploymentPropertiesExtended.provisioningState()"
+- "com.azure.resourcemanager.resources.models.DeploymentPropertiesExtended.template()"
+- "com.azure.resourcemanager.resources.models.DeploymentPropertiesExtended.templateLink()"
+- "com.azure.resourcemanager.resources.models.DeploymentPropertiesExtended.timestamp()"
+- "com.azure.resourcemanager.resources.models.DeploymentPropertiesExtended.validate()"
+- "com.azure.resourcemanager.resources.models.DeploymentPropertiesExtended.withDebugSetting(com.azure.resourcemanager.resources.models.DebugSetting)"
+- "com.azure.resourcemanager.resources.models.DeploymentPropertiesExtended.withDependencies(java.util.List<com.azure.resourcemanager.resources.models.Dependency>)"
+- "com.azure.resourcemanager.resources.models.DeploymentPropertiesExtended.withMode(com.azure.resourcemanager.resources.models.DeploymentMode)"
+- "com.azure.resourcemanager.resources.models.DeploymentPropertiesExtended.withOnErrorDeployment(com.azure.resourcemanager.resources.models.OnErrorDeploymentExtended)"
+- "com.azure.resourcemanager.resources.models.DeploymentPropertiesExtended.withOutputs(java.lang.Object)"
+- "com.azure.resourcemanager.resources.models.DeploymentPropertiesExtended.withParameters(java.lang.Object)"
+- "com.azure.resourcemanager.resources.models.DeploymentPropertiesExtended.withParametersLink(com.azure.resourcemanager.resources.models.ParametersLink)"
+- "com.azure.resourcemanager.resources.models.DeploymentPropertiesExtended.withProviders(java.util.List<com.azure.resourcemanager.resources.fluent.inner.ProviderInner>)"
+- "com.azure.resourcemanager.resources.models.DeploymentPropertiesExtended.withTemplate(java.lang.Object)"
+- "com.azure.resourcemanager.resources.models.DeploymentPropertiesExtended.withTemplateLink(com.azure.resourcemanager.resources.models.TemplateLink)"
+type: "class"
 metadata: {}
-package: com.azure.resourcemanager.resources.models
+package: "com.azure.resourcemanager.resources.models"
 artifact: com.azure.resourcemanager:azure-resourcemanager-resources:2.0.0-beta.2

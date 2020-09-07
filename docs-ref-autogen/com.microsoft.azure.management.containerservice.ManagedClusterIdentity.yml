@@ -1,32 +1,32 @@
 ### YamlMime:JavaType
-uid: com.microsoft.azure.management.containerservice.ManagedClusterIdentity
-fullName: com.microsoft.azure.management.containerservice.ManagedClusterIdentity
-name: ManagedClusterIdentity
-nameWithType: ManagedClusterIdentity
-summary: Identity for the managed cluster.
+uid: "com.microsoft.azure.management.containerservice.ManagedClusterIdentity"
+fullName: "com.microsoft.azure.management.containerservice.ManagedClusterIdentity"
+name: "ManagedClusterIdentity"
+nameWithType: "ManagedClusterIdentity"
+summary: "Identity for the managed cluster."
 inheritances:
-- <xref href="java.lang.Object" data-throw-if-not-resolved="False" />
+- "<xref href=\"java.lang.Object\" data-throw-if-not-resolved=\"False\" />"
 inheritedMembers:
-- java.lang.Object.clone()
-- java.lang.Object.equals(java.lang.Object)
-- java.lang.Object.finalize()
-- java.lang.Object.getClass()
-- java.lang.Object.hashCode()
-- java.lang.Object.notify()
-- java.lang.Object.notifyAll()
-- java.lang.Object.toString()
-- java.lang.Object.wait()
-- java.lang.Object.wait(long)
-- java.lang.Object.wait(long,int)
-syntax: public class ManagedClusterIdentity
+- "java.lang.Object.clone()"
+- "java.lang.Object.equals(java.lang.Object)"
+- "java.lang.Object.finalize()"
+- "java.lang.Object.getClass()"
+- "java.lang.Object.hashCode()"
+- "java.lang.Object.notify()"
+- "java.lang.Object.notifyAll()"
+- "java.lang.Object.toString()"
+- "java.lang.Object.wait()"
+- "java.lang.Object.wait(long)"
+- "java.lang.Object.wait(long,int)"
+syntax: "public class ManagedClusterIdentity"
 constructors:
-- com.microsoft.azure.management.containerservice.ManagedClusterIdentity.ManagedClusterIdentity()
+- "com.microsoft.azure.management.containerservice.ManagedClusterIdentity.ManagedClusterIdentity()"
 methods:
-- com.microsoft.azure.management.containerservice.ManagedClusterIdentity.principalId()
-- com.microsoft.azure.management.containerservice.ManagedClusterIdentity.tenantId()
-- com.microsoft.azure.management.containerservice.ManagedClusterIdentity.type()
-- com.microsoft.azure.management.containerservice.ManagedClusterIdentity.withType(com.microsoft.azure.management.containerservice.ResourceIdentityType)
-type: class
+- "com.microsoft.azure.management.containerservice.ManagedClusterIdentity.principalId()"
+- "com.microsoft.azure.management.containerservice.ManagedClusterIdentity.tenantId()"
+- "com.microsoft.azure.management.containerservice.ManagedClusterIdentity.type()"
+- "com.microsoft.azure.management.containerservice.ManagedClusterIdentity.withType(com.microsoft.azure.management.containerservice.ResourceIdentityType)"
+type: "class"
 metadata: {}
-package: com.microsoft.azure.management.containerservice
-artifact: com.microsoft.azure:azure-mgmt-containerservice:1.36.1
+package: "com.microsoft.azure.management.containerservice"
+artifact: com.microsoft.azure:azure-mgmt-containerservice:1.36.2

@@ -1,49 +1,49 @@
 ### YamlMime:JavaType
-uid: com.azure.resourcemanager.monitor.fluent.inner.AlertRuleResourceInner
-fullName: com.azure.resourcemanager.monitor.fluent.inner.AlertRuleResourceInner
-name: AlertRuleResourceInner
-nameWithType: AlertRuleResourceInner
-summary: The AlertRuleResource model.
+uid: "com.azure.resourcemanager.monitor.fluent.inner.AlertRuleResourceInner"
+fullName: "com.azure.resourcemanager.monitor.fluent.inner.AlertRuleResourceInner"
+name: "AlertRuleResourceInner"
+nameWithType: "AlertRuleResourceInner"
+summary: "The AlertRuleResource model."
 inheritances:
-- <xref href="java.lang.Object" data-throw-if-not-resolved="False" />
-- <xref href="com.azure.core.management.ProxyResource" data-throw-if-not-resolved="False" />
-- <xref href="com.azure.core.management.Resource" data-throw-if-not-resolved="False" />
+- "<xref href=\"java.lang.Object\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.azure.core.management.ProxyResource\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.azure.core.management.Resource\" data-throw-if-not-resolved=\"False\" />"
 inheritedMembers:
-- com.azure.core.management.ProxyResource.id()
-- com.azure.core.management.ProxyResource.name()
-- com.azure.core.management.ProxyResource.type()
-- com.azure.core.management.Resource.location()
-- com.azure.core.management.Resource.tags()
-- com.azure.core.management.Resource.withLocation(java.lang.String)
-- com.azure.core.management.Resource.withTags(java.util.Map<java.lang.String,java.lang.String>)
-- java.lang.Object.clone()
-- java.lang.Object.equals(java.lang.Object)
-- java.lang.Object.finalize()
-- java.lang.Object.getClass()
-- java.lang.Object.hashCode()
-- java.lang.Object.notify()
-- java.lang.Object.notifyAll()
-- java.lang.Object.toString()
-- java.lang.Object.wait()
-- java.lang.Object.wait(long)
-- java.lang.Object.wait(long,int)
-syntax: public class AlertRuleResourceInner extends Resource
+- "com.azure.core.management.ProxyResource.id()"
+- "com.azure.core.management.ProxyResource.name()"
+- "com.azure.core.management.ProxyResource.type()"
+- "com.azure.core.management.Resource.location()"
+- "com.azure.core.management.Resource.tags()"
+- "com.azure.core.management.Resource.withLocation(java.lang.String)"
+- "com.azure.core.management.Resource.withTags(java.util.Map<java.lang.String,java.lang.String>)"
+- "java.lang.Object.clone()"
+- "java.lang.Object.equals(java.lang.Object)"
+- "java.lang.Object.finalize()"
+- "java.lang.Object.getClass()"
+- "java.lang.Object.hashCode()"
+- "java.lang.Object.notify()"
+- "java.lang.Object.notifyAll()"
+- "java.lang.Object.toString()"
+- "java.lang.Object.wait()"
+- "java.lang.Object.wait(long)"
+- "java.lang.Object.wait(long,int)"
+syntax: "public class AlertRuleResourceInner extends Resource"
 constructors:
-- com.azure.resourcemanager.monitor.fluent.inner.AlertRuleResourceInner.AlertRuleResourceInner()
+- "com.azure.resourcemanager.monitor.fluent.inner.AlertRuleResourceInner.AlertRuleResourceInner()"
 methods:
-- com.azure.resourcemanager.monitor.fluent.inner.AlertRuleResourceInner.actions()
-- com.azure.resourcemanager.monitor.fluent.inner.AlertRuleResourceInner.condition()
-- com.azure.resourcemanager.monitor.fluent.inner.AlertRuleResourceInner.description()
-- com.azure.resourcemanager.monitor.fluent.inner.AlertRuleResourceInner.isEnabled()
-- com.azure.resourcemanager.monitor.fluent.inner.AlertRuleResourceInner.lastUpdatedTime()
-- com.azure.resourcemanager.monitor.fluent.inner.AlertRuleResourceInner.namePropertiesName()
-- com.azure.resourcemanager.monitor.fluent.inner.AlertRuleResourceInner.validate()
-- com.azure.resourcemanager.monitor.fluent.inner.AlertRuleResourceInner.withActions(java.util.List<com.azure.resourcemanager.monitor.models.RuleAction>)
-- com.azure.resourcemanager.monitor.fluent.inner.AlertRuleResourceInner.withCondition(com.azure.resourcemanager.monitor.models.RuleCondition)
-- com.azure.resourcemanager.monitor.fluent.inner.AlertRuleResourceInner.withDescription(java.lang.String)
-- com.azure.resourcemanager.monitor.fluent.inner.AlertRuleResourceInner.withIsEnabled(boolean)
-- com.azure.resourcemanager.monitor.fluent.inner.AlertRuleResourceInner.withNamePropertiesName(java.lang.String)
-type: class
+- "com.azure.resourcemanager.monitor.fluent.inner.AlertRuleResourceInner.actions()"
+- "com.azure.resourcemanager.monitor.fluent.inner.AlertRuleResourceInner.condition()"
+- "com.azure.resourcemanager.monitor.fluent.inner.AlertRuleResourceInner.description()"
+- "com.azure.resourcemanager.monitor.fluent.inner.AlertRuleResourceInner.isEnabled()"
+- "com.azure.resourcemanager.monitor.fluent.inner.AlertRuleResourceInner.lastUpdatedTime()"
+- "com.azure.resourcemanager.monitor.fluent.inner.AlertRuleResourceInner.namePropertiesName()"
+- "com.azure.resourcemanager.monitor.fluent.inner.AlertRuleResourceInner.validate()"
+- "com.azure.resourcemanager.monitor.fluent.inner.AlertRuleResourceInner.withActions(java.util.List<com.azure.resourcemanager.monitor.models.RuleAction>)"
+- "com.azure.resourcemanager.monitor.fluent.inner.AlertRuleResourceInner.withCondition(com.azure.resourcemanager.monitor.models.RuleCondition)"
+- "com.azure.resourcemanager.monitor.fluent.inner.AlertRuleResourceInner.withDescription(java.lang.String)"
+- "com.azure.resourcemanager.monitor.fluent.inner.AlertRuleResourceInner.withIsEnabled(boolean)"
+- "com.azure.resourcemanager.monitor.fluent.inner.AlertRuleResourceInner.withNamePropertiesName(java.lang.String)"
+type: "class"
 metadata: {}
-package: com.azure.resourcemanager.monitor.fluent.inner
+package: "com.azure.resourcemanager.monitor.fluent.inner"
 artifact: com.azure.resourcemanager:azure-resourcemanager-monitor:2.0.0-beta.2

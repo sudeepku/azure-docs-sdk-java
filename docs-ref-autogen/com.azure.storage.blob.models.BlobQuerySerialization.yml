@@ -1,11 +1,11 @@
 ### YamlMime:JavaType
-uid: com.azure.storage.blob.models.BlobQuerySerialization
-fullName: com.azure.storage.blob.models.BlobQuerySerialization
-name: BlobQuerySerialization
-nameWithType: BlobQuerySerialization
-summary: Defines the input and output serialization for a blob quick query request. either <xref uid="com.azure.storage.blob.models.BlobQueryJsonSerialization" data-throw-if-not-resolved="false">BlobQueryJsonSerialization</xref> or <xref uid="com.azure.storage.blob.models.BlobQueryDelimitedSerialization" data-throw-if-not-resolved="false">BlobQueryDelimitedSerialization</xref>
-syntax: public interface BlobQuerySerialization
-type: interface
+uid: "com.azure.storage.blob.models.BlobQuerySerialization"
+fullName: "com.azure.storage.blob.models.BlobQuerySerialization"
+name: "BlobQuerySerialization"
+nameWithType: "BlobQuerySerialization"
+summary: "Defines the input and output serialization for a blob quick query request. either <xref uid=\"com.azure.storage.blob.models.BlobQueryJsonSerialization\" data-throw-if-not-resolved=\"false\">BlobQueryJsonSerialization</xref> or <xref uid=\"com.azure.storage.blob.models.BlobQueryDelimitedSerialization\" data-throw-if-not-resolved=\"false\">BlobQueryDelimitedSerialization</xref>"
+syntax: "public interface BlobQuerySerialization"
+type: "interface"
 metadata: {}
-package: com.azure.storage.blob.models
+package: "com.azure.storage.blob.models"
 artifact: com.azure:azure-storage-blob:12.8.0

@@ -1,32 +1,32 @@
 ### YamlMime:JavaType
-uid: com.azure.resourcemanager.appservice.fluent.inner.CsmUsageQuotaCollectionInner
-fullName: com.azure.resourcemanager.appservice.fluent.inner.CsmUsageQuotaCollectionInner
-name: CsmUsageQuotaCollectionInner
-nameWithType: CsmUsageQuotaCollectionInner
-summary: The CsmUsageQuotaCollection model.
+uid: "com.azure.resourcemanager.appservice.fluent.inner.CsmUsageQuotaCollectionInner"
+fullName: "com.azure.resourcemanager.appservice.fluent.inner.CsmUsageQuotaCollectionInner"
+name: "CsmUsageQuotaCollectionInner"
+nameWithType: "CsmUsageQuotaCollectionInner"
+summary: "The CsmUsageQuotaCollection model."
 inheritances:
-- <xref href="java.lang.Object" data-throw-if-not-resolved="False" />
+- "<xref href=\"java.lang.Object\" data-throw-if-not-resolved=\"False\" />"
 inheritedMembers:
-- java.lang.Object.clone()
-- java.lang.Object.equals(java.lang.Object)
-- java.lang.Object.finalize()
-- java.lang.Object.getClass()
-- java.lang.Object.hashCode()
-- java.lang.Object.notify()
-- java.lang.Object.notifyAll()
-- java.lang.Object.toString()
-- java.lang.Object.wait()
-- java.lang.Object.wait(long)
-- java.lang.Object.wait(long,int)
-syntax: public final class CsmUsageQuotaCollectionInner
+- "java.lang.Object.clone()"
+- "java.lang.Object.equals(java.lang.Object)"
+- "java.lang.Object.finalize()"
+- "java.lang.Object.getClass()"
+- "java.lang.Object.hashCode()"
+- "java.lang.Object.notify()"
+- "java.lang.Object.notifyAll()"
+- "java.lang.Object.toString()"
+- "java.lang.Object.wait()"
+- "java.lang.Object.wait(long)"
+- "java.lang.Object.wait(long,int)"
+syntax: "public final class CsmUsageQuotaCollectionInner"
 constructors:
-- com.azure.resourcemanager.appservice.fluent.inner.CsmUsageQuotaCollectionInner.CsmUsageQuotaCollectionInner()
+- "com.azure.resourcemanager.appservice.fluent.inner.CsmUsageQuotaCollectionInner.CsmUsageQuotaCollectionInner()"
 methods:
-- com.azure.resourcemanager.appservice.fluent.inner.CsmUsageQuotaCollectionInner.nextLink()
-- com.azure.resourcemanager.appservice.fluent.inner.CsmUsageQuotaCollectionInner.validate()
-- com.azure.resourcemanager.appservice.fluent.inner.CsmUsageQuotaCollectionInner.value()
-- com.azure.resourcemanager.appservice.fluent.inner.CsmUsageQuotaCollectionInner.withValue(java.util.List<com.azure.resourcemanager.appservice.fluent.inner.CsmUsageQuotaInner>)
-type: class
+- "com.azure.resourcemanager.appservice.fluent.inner.CsmUsageQuotaCollectionInner.nextLink()"
+- "com.azure.resourcemanager.appservice.fluent.inner.CsmUsageQuotaCollectionInner.validate()"
+- "com.azure.resourcemanager.appservice.fluent.inner.CsmUsageQuotaCollectionInner.value()"
+- "com.azure.resourcemanager.appservice.fluent.inner.CsmUsageQuotaCollectionInner.withValue(java.util.List<com.azure.resourcemanager.appservice.fluent.inner.CsmUsageQuotaInner>)"
+type: "class"
 metadata: {}
-package: com.azure.resourcemanager.appservice.fluent.inner
+package: "com.azure.resourcemanager.appservice.fluent.inner"
 artifact: com.azure.resourcemanager:azure-resourcemanager-appservice:2.0.0-beta.2

@@ -1,37 +1,21 @@
 ### YamlMime:JavaMember
-uid: com.azure.cosmos.implementation.guava25.base.CharMatcher.trimFrom*
-fullName: com.azure.cosmos.implementation.guava25.base.CharMatcher.trimFrom
-name: trimFrom
-nameWithType: CharMatcher.trimFrom
+uid: "com.azure.cosmos.implementation.guava25.base.CharMatcher.trimFrom*"
+fullName: "com.azure.cosmos.implementation.guava25.base.CharMatcher.trimFrom"
+name: "trimFrom"
+nameWithType: "CharMatcher.trimFrom"
 members:
-- uid: com.azure.cosmos.implementation.guava25.base.CharMatcher.trimFrom(java.lang.CharSequence)
-  fullName: com.azure.cosmos.implementation.guava25.base.CharMatcher.trimFrom(CharSequence sequence)
-  name: trimFrom(CharSequence sequence)
-  nameWithType: CharMatcher.trimFrom(CharSequence sequence)
-  summary: |-
-    Returns a substring of the input character sequence that omits all matching BMP characters from
-     the beginning and from the end of the string. For example:
-
-     <pre><code>
-     CharMatcher.anyOf("ab").trimFrom("abacatbab")
-     </code></pre>
-
-     ... returns <code>"cat"</code>.
-
-     <p>Note that:
-
-     <pre><code>
-     CharMatcher.inRange('\0', ' ').trimFrom(str)
-     </code></pre>
-
-     ... is equivalent to <xref uid="String#trim()" data-throw-if-not-resolved="false">String#trim()</xref>.
+- uid: "com.azure.cosmos.implementation.guava25.base.CharMatcher.trimFrom(java.lang.CharSequence)"
+  fullName: "com.azure.cosmos.implementation.guava25.base.CharMatcher.trimFrom(CharSequence sequence)"
+  name: "trimFrom(CharSequence sequence)"
+  nameWithType: "CharMatcher.trimFrom(CharSequence sequence)"
+  summary: "Returns a substring of the input character sequence that omits all matching BMP characters from\n the beginning and from the end of the string. For example:\n\n <pre><code>\n CharMatcher.anyOf(\"ab\").trimFrom(\"abacatbab\")\n </code></pre>\n\n ... returns <code>\"cat\"</code>.\n\n <p>Note that:\n\n <pre><code>\n CharMatcher.inRange('\\0', ' ').trimFrom(str)\n </code></pre>\n\n ... is equivalent to <xref uid=\"String#trim()\" data-throw-if-not-resolved=\"false\">String#trim()</xref>."
   parameters:
-  - name: sequence
-    type: <xref href="java.lang.CharSequence?alt=java.lang.CharSequence&text=CharSequence" data-throw-if-not-resolved="False" />
-  syntax: public String trimFrom(CharSequence sequence)
+  - name: "sequence"
+    type: "<xref href=\"java.lang.CharSequence?alt=java.lang.CharSequence&text=CharSequence\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public String trimFrom(CharSequence sequence)"
   returns:
-    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
-type: method
+    type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
+type: "method"
 metadata: {}
-package: com.azure.cosmos.implementation.guava25.base
+package: "com.azure.cosmos.implementation.guava25.base"
 artifact: com.azure:azure-cosmos:4.3.2-beta.2

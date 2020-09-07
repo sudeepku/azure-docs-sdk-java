@@ -1,24 +1,19 @@
 ### YamlMime:JavaMember
-uid: com.azure.data.schemaregistry.client.CachedSchemaRegistryClientBuilder.buildClient*
-fullName: com.azure.data.schemaregistry.client.CachedSchemaRegistryClientBuilder.buildClient
-name: buildClient
-nameWithType: CachedSchemaRegistryClientBuilder.buildClient
+uid: "com.azure.data.schemaregistry.client.CachedSchemaRegistryClientBuilder.buildClient*"
+fullName: "com.azure.data.schemaregistry.client.CachedSchemaRegistryClientBuilder.buildClient"
+name: "buildClient"
+nameWithType: "CachedSchemaRegistryClientBuilder.buildClient"
 members:
-- uid: com.azure.data.schemaregistry.client.CachedSchemaRegistryClientBuilder.buildClient()
-  fullName: com.azure.data.schemaregistry.client.CachedSchemaRegistryClientBuilder.buildClient()
-  name: buildClient()
-  nameWithType: CachedSchemaRegistryClientBuilder.buildClient()
-  summary: |-
-    Creates a <xref uid="CachedSchemaRegistryClient" data-throw-if-not-resolved="false">CachedSchemaRegistryClient</xref> based on options set in the builder.
-     Every time <code>buildClient()</code> is called a new instance of <xref uid="CachedSchemaRegistryClient" data-throw-if-not-resolved="false">CachedSchemaRegistryClient</xref> is created.
-
-     If <xref uid="#pipeline(HttpPipeline)" data-throw-if-not-resolved="false">pipeline</xref> is set, then all HTTP pipeline related settings are ignored
-     endpoint} are when creating the <xref uid="CachedSchemaRegistryClient" data-throw-if-not-resolved="false">client</xref>.
-  syntax: public CachedSchemaRegistryClient buildClient()
+- uid: "com.azure.data.schemaregistry.client.CachedSchemaRegistryClientBuilder.buildClient()"
+  fullName: "com.azure.data.schemaregistry.client.CachedSchemaRegistryClientBuilder.buildClient()"
+  name: "buildClient()"
+  nameWithType: "CachedSchemaRegistryClientBuilder.buildClient()"
+  summary: "Creates a <xref uid=\"CachedSchemaRegistryClient\" data-throw-if-not-resolved=\"false\">CachedSchemaRegistryClient</xref> based on options set in the builder.\n Every time <code>buildClient()</code> is called a new instance of <xref uid=\"CachedSchemaRegistryClient\" data-throw-if-not-resolved=\"false\">CachedSchemaRegistryClient</xref> is created.\n\n If <xref uid=\"#pipeline(HttpPipeline)\" data-throw-if-not-resolved=\"false\">pipeline</xref> is set, then all HTTP pipeline related settings are ignored\n endpoint} are when creating the <xref uid=\"CachedSchemaRegistryClient\" data-throw-if-not-resolved=\"false\">client</xref>."
+  syntax: "public CachedSchemaRegistryClient buildClient()"
   returns:
-    description: A <xref uid="com.azure.data.schemaregistry.client.CachedSchemaRegistryClient" data-throw-if-not-resolved="false">CachedSchemaRegistryClient</xref> with the options set from the builder.
-    type: <xref href="com.azure.data.schemaregistry.client.CachedSchemaRegistryClient?alt=com.azure.data.schemaregistry.client.CachedSchemaRegistryClient&text=CachedSchemaRegistryClient" data-throw-if-not-resolved="False" />
-type: method
+    description: "A <xref uid=\"com.azure.data.schemaregistry.client.CachedSchemaRegistryClient\" data-throw-if-not-resolved=\"false\">CachedSchemaRegistryClient</xref> with the options set from the builder."
+    type: "<xref href=\"com.azure.data.schemaregistry.client.CachedSchemaRegistryClient?alt=com.azure.data.schemaregistry.client.CachedSchemaRegistryClient&text=CachedSchemaRegistryClient\" data-throw-if-not-resolved=\"False\" />"
+type: "method"
 metadata: {}
-package: com.azure.data.schemaregistry.client
+package: "com.azure.data.schemaregistry.client"
 artifact: com.azure:azure-data-schemaregistry:1.0.0-beta.1

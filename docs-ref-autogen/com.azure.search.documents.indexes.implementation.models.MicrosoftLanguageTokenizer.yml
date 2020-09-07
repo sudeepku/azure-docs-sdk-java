@@ -1,38 +1,38 @@
 ### YamlMime:JavaType
-uid: com.azure.search.documents.indexes.implementation.models.MicrosoftLanguageTokenizer
-fullName: com.azure.search.documents.indexes.implementation.models.MicrosoftLanguageTokenizer
-name: MicrosoftLanguageTokenizer
-nameWithType: MicrosoftLanguageTokenizer
-summary: The MicrosoftLanguageTokenizer model.
+uid: "com.azure.search.documents.indexes.implementation.models.MicrosoftLanguageTokenizer"
+fullName: "com.azure.search.documents.indexes.implementation.models.MicrosoftLanguageTokenizer"
+name: "MicrosoftLanguageTokenizer"
+nameWithType: "MicrosoftLanguageTokenizer"
+summary: "The MicrosoftLanguageTokenizer model."
 inheritances:
-- <xref href="java.lang.Object" data-throw-if-not-resolved="False" />
-- <xref href="com.azure.search.documents.indexes.implementation.models.LexicalTokenizer" data-throw-if-not-resolved="False" />
+- "<xref href=\"java.lang.Object\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.azure.search.documents.indexes.implementation.models.LexicalTokenizer\" data-throw-if-not-resolved=\"False\" />"
 inheritedMembers:
-- com.azure.search.documents.indexes.implementation.models.LexicalTokenizer.getName()
-- com.azure.search.documents.indexes.implementation.models.LexicalTokenizer.validate()
-- java.lang.Object.clone()
-- java.lang.Object.equals(java.lang.Object)
-- java.lang.Object.finalize()
-- java.lang.Object.getClass()
-- java.lang.Object.hashCode()
-- java.lang.Object.notify()
-- java.lang.Object.notifyAll()
-- java.lang.Object.toString()
-- java.lang.Object.wait()
-- java.lang.Object.wait(long)
-- java.lang.Object.wait(long,int)
-syntax: public class MicrosoftLanguageTokenizer extends LexicalTokenizer
+- "com.azure.search.documents.indexes.implementation.models.LexicalTokenizer.getName()"
+- "com.azure.search.documents.indexes.implementation.models.LexicalTokenizer.validate()"
+- "java.lang.Object.clone()"
+- "java.lang.Object.equals(java.lang.Object)"
+- "java.lang.Object.finalize()"
+- "java.lang.Object.getClass()"
+- "java.lang.Object.hashCode()"
+- "java.lang.Object.notify()"
+- "java.lang.Object.notifyAll()"
+- "java.lang.Object.toString()"
+- "java.lang.Object.wait()"
+- "java.lang.Object.wait(long)"
+- "java.lang.Object.wait(long,int)"
+syntax: "public class MicrosoftLanguageTokenizer extends LexicalTokenizer"
 constructors:
-- com.azure.search.documents.indexes.implementation.models.MicrosoftLanguageTokenizer.MicrosoftLanguageTokenizer(java.lang.String)
+- "com.azure.search.documents.indexes.implementation.models.MicrosoftLanguageTokenizer.MicrosoftLanguageTokenizer(java.lang.String)"
 methods:
-- com.azure.search.documents.indexes.implementation.models.MicrosoftLanguageTokenizer.getLanguage()
-- com.azure.search.documents.indexes.implementation.models.MicrosoftLanguageTokenizer.getMaxTokenLength()
-- com.azure.search.documents.indexes.implementation.models.MicrosoftLanguageTokenizer.isSearchTokenizer()
-- com.azure.search.documents.indexes.implementation.models.MicrosoftLanguageTokenizer.setIsSearchTokenizer(java.lang.Boolean)
-- com.azure.search.documents.indexes.implementation.models.MicrosoftLanguageTokenizer.setLanguage(com.azure.search.documents.indexes.implementation.models.MicrosoftTokenizerLanguage)
-- com.azure.search.documents.indexes.implementation.models.MicrosoftLanguageTokenizer.setMaxTokenLength(java.lang.Integer)
-- com.azure.search.documents.indexes.implementation.models.MicrosoftLanguageTokenizer.validate()
-type: class
+- "com.azure.search.documents.indexes.implementation.models.MicrosoftLanguageTokenizer.getLanguage()"
+- "com.azure.search.documents.indexes.implementation.models.MicrosoftLanguageTokenizer.getMaxTokenLength()"
+- "com.azure.search.documents.indexes.implementation.models.MicrosoftLanguageTokenizer.isSearchTokenizer()"
+- "com.azure.search.documents.indexes.implementation.models.MicrosoftLanguageTokenizer.setIsSearchTokenizer(java.lang.Boolean)"
+- "com.azure.search.documents.indexes.implementation.models.MicrosoftLanguageTokenizer.setLanguage(com.azure.search.documents.indexes.implementation.models.MicrosoftTokenizerLanguage)"
+- "com.azure.search.documents.indexes.implementation.models.MicrosoftLanguageTokenizer.setMaxTokenLength(java.lang.Integer)"
+- "com.azure.search.documents.indexes.implementation.models.MicrosoftLanguageTokenizer.validate()"
+type: "class"
 metadata: {}
-package: com.azure.search.documents.indexes.implementation.models
+package: "com.azure.search.documents.indexes.implementation.models"
 artifact: com.azure:azure-search-documents:11.0.0

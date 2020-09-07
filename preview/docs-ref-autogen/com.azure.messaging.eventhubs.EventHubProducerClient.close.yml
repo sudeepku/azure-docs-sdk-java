@@ -1,15 +1,15 @@
 ### YamlMime:JavaMember
-uid: com.azure.messaging.eventhubs.EventHubProducerClient.close*
-fullName: com.azure.messaging.eventhubs.EventHubProducerClient.close
-name: close
-nameWithType: EventHubProducerClient.close
+uid: "com.azure.messaging.eventhubs.EventHubProducerClient.close*"
+fullName: "com.azure.messaging.eventhubs.EventHubProducerClient.close"
+name: "close"
+nameWithType: "EventHubProducerClient.close"
 members:
-- uid: com.azure.messaging.eventhubs.EventHubProducerClient.close()
-  fullName: com.azure.messaging.eventhubs.EventHubProducerClient.close()
-  name: close()
-  nameWithType: EventHubProducerClient.close()
-  syntax: public void close()
-type: method
+- uid: "com.azure.messaging.eventhubs.EventHubProducerClient.close()"
+  fullName: "com.azure.messaging.eventhubs.EventHubProducerClient.close()"
+  name: "close()"
+  nameWithType: "EventHubProducerClient.close()"
+  syntax: "public void close()"
+type: "method"
 metadata: {}
-package: com.azure.messaging.eventhubs
+package: "com.azure.messaging.eventhubs"
 artifact: com.azure:azure-messaging-eventhubs:5.2.0-beta.2

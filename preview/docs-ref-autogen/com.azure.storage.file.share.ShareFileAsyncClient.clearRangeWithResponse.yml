@@ -1,88 +1,45 @@
 ### YamlMime:JavaMember
-uid: com.azure.storage.file.share.ShareFileAsyncClient.clearRangeWithResponse*
-fullName: com.azure.storage.file.share.ShareFileAsyncClient.clearRangeWithResponse
-name: clearRangeWithResponse
-nameWithType: ShareFileAsyncClient.clearRangeWithResponse
+uid: "com.azure.storage.file.share.ShareFileAsyncClient.clearRangeWithResponse*"
+fullName: "com.azure.storage.file.share.ShareFileAsyncClient.clearRangeWithResponse"
+name: "clearRangeWithResponse"
+nameWithType: "ShareFileAsyncClient.clearRangeWithResponse"
 members:
-- uid: com.azure.storage.file.share.ShareFileAsyncClient.clearRangeWithResponse(long,long)
-  fullName: com.azure.storage.file.share.ShareFileAsyncClient.clearRangeWithResponse(long length, long offset)
-  name: clearRangeWithResponse(long length, long offset)
-  nameWithType: ShareFileAsyncClient.clearRangeWithResponse(long length, long offset)
-  summary: |-
-    Clear a range of bytes to specific of a file in storage file service. Clear operations performs an in-place write
-     on the specified file.
-
-     <p><strong>Code Samples</strong></p>
-
-     <p>Clear the range starting from 1024 with length of 1024. </p>
-
-     <pre>
-     shareFileAsyncClient.clearRangeWithResponse&#40;1024, 1024&#41;.subscribe&#40;
-         response -&gt; &#123; &#125;,
-         error -&gt; System.err.print&#40;error.toString&#40;&#41;&#41;,
-         &#40;&#41; -&gt; System.out.println&#40;&quot;Complete clearing the range!&quot;&#41;
-     &#41;;
-     </pre>
-
-     <p>For more information, see the
-     <a href="https://docs.microsoft.com/en-us/rest/api/storageservices/put-range">Azure Docs</a>.</p>
+- uid: "com.azure.storage.file.share.ShareFileAsyncClient.clearRangeWithResponse(long,long)"
+  fullName: "com.azure.storage.file.share.ShareFileAsyncClient.clearRangeWithResponse(long length, long offset)"
+  name: "clearRangeWithResponse(long length, long offset)"
+  nameWithType: "ShareFileAsyncClient.clearRangeWithResponse(long length, long offset)"
+  summary: "Clear a range of bytes to specific of a file in storage file service. Clear operations performs an in-place write\n on the specified file.\n\n <p><strong>Code Samples</strong></p>\n\n <p>Clear the range starting from 1024 with length of 1024. </p>\n\n <pre>\n shareFileAsyncClient.clearRangeWithResponse&#40;1024, 1024&#41;.subscribe&#40;\n     response -&gt; &#123; &#125;,\n     error -&gt; System.err.print&#40;error.toString&#40;&#41;&#41;,\n     &#40;&#41; -&gt; System.out.println&#40;&quot;Complete clearing the range!&quot;&#41;\n &#41;;\n </pre>\n\n <p>For more information, see the\n <a href=\"https://docs.microsoft.com/en-us/rest/api/storageservices/put-range\">Azure Docs</a>.</p>"
   parameters:
-  - description: Specifies the number of bytes being cleared in the request body.
-    name: length
-    type: <xref href="long?alt=long&text=long" data-throw-if-not-resolved="False" />
-  - description: |-
-      Optional starting point of the upload range. It will start from the beginning if it is
-       <code>null</code>
-    name: offset
-    type: <xref href="long?alt=long&text=long" data-throw-if-not-resolved="False" />
-  syntax: public Mono<Response<ShareFileUploadInfo>> clearRangeWithResponse(long length, long offset)
+  - description: "Specifies the number of bytes being cleared in the request body."
+    name: "length"
+    type: "<xref href=\"long?alt=long&text=long\" data-throw-if-not-resolved=\"False\" />"
+  - description: "Optional starting point of the upload range. It will start from the beginning if it is\n <code>null</code>"
+    name: "offset"
+    type: "<xref href=\"long?alt=long&text=long\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public Mono<Response<ShareFileUploadInfo>> clearRangeWithResponse(long length, long offset)"
   returns:
-    description: |-
-      A response of <xref uid="com.azure.storage.file.share.models.ShareFileUploadInfo" data-throw-if-not-resolved="false">file upload info</xref> that only contains headers and response
-       status code.
-    type: <xref href="reactor.core.publisher.Mono?alt=reactor.core.publisher.Mono&text=Mono" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.core.http.rest.Response?alt=com.azure.core.http.rest.Response&text=Response" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.storage.file.share.models.ShareFileUploadInfo?alt=com.azure.storage.file.share.models.ShareFileUploadInfo&text=ShareFileUploadInfo" data-throw-if-not-resolved="False" />&gt;&gt;
-- uid: com.azure.storage.file.share.ShareFileAsyncClient.clearRangeWithResponse(long,long,com.azure.storage.file.share.models.ShareRequestConditions)
-  fullName: com.azure.storage.file.share.ShareFileAsyncClient.clearRangeWithResponse(long length, long offset, ShareRequestConditions requestConditions)
-  name: clearRangeWithResponse(long length, long offset, ShareRequestConditions requestConditions)
-  nameWithType: ShareFileAsyncClient.clearRangeWithResponse(long length, long offset, ShareRequestConditions requestConditions)
-  summary: |-
-    Clear a range of bytes to specific of a file in storage file service. Clear operations performs an in-place write
-     on the specified file.
-
-     <p><strong>Code Samples</strong></p>
-
-     <p>Clear the range starting from 1024 with length of 1024. </p>
-
-     <pre>
-     ShareRequestConditions requestConditions = new ShareRequestConditions&#40;&#41;.setLeaseId&#40;leaseId&#41;;
-     shareFileAsyncClient.clearRangeWithResponse&#40;1024, 1024, requestConditions&#41;.subscribe&#40;
-         response -&gt; &#123; &#125;,
-         error -&gt; System.err.print&#40;error.toString&#40;&#41;&#41;,
-         &#40;&#41; -&gt; System.out.println&#40;&quot;Complete clearing the range!&quot;&#41;
-     &#41;;
-     </pre>
-
-     <p>For more information, see the
-     <a href="https://docs.microsoft.com/en-us/rest/api/storageservices/put-range">Azure Docs</a>.</p>
+    description: "A response of <xref uid=\"com.azure.storage.file.share.models.ShareFileUploadInfo\" data-throw-if-not-resolved=\"false\">file upload info</xref> that only contains headers and response\n status code."
+    type: "<xref href=\"reactor.core.publisher.Mono?alt=reactor.core.publisher.Mono&text=Mono\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.core.http.rest.Response?alt=com.azure.core.http.rest.Response&text=Response\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.storage.file.share.models.ShareFileUploadInfo?alt=com.azure.storage.file.share.models.ShareFileUploadInfo&text=ShareFileUploadInfo\" data-throw-if-not-resolved=\"False\" />&gt;&gt;"
+- uid: "com.azure.storage.file.share.ShareFileAsyncClient.clearRangeWithResponse(long,long,com.azure.storage.file.share.models.ShareRequestConditions)"
+  fullName: "com.azure.storage.file.share.ShareFileAsyncClient.clearRangeWithResponse(long length, long offset, ShareRequestConditions requestConditions)"
+  name: "clearRangeWithResponse(long length, long offset, ShareRequestConditions requestConditions)"
+  nameWithType: "ShareFileAsyncClient.clearRangeWithResponse(long length, long offset, ShareRequestConditions requestConditions)"
+  summary: "Clear a range of bytes to specific of a file in storage file service. Clear operations performs an in-place write\n on the specified file.\n\n <p><strong>Code Samples</strong></p>\n\n <p>Clear the range starting from 1024 with length of 1024. </p>\n\n <pre>\n ShareRequestConditions requestConditions = new ShareRequestConditions&#40;&#41;.setLeaseId&#40;leaseId&#41;;\n shareFileAsyncClient.clearRangeWithResponse&#40;1024, 1024, requestConditions&#41;.subscribe&#40;\n     response -&gt; &#123; &#125;,\n     error -&gt; System.err.print&#40;error.toString&#40;&#41;&#41;,\n     &#40;&#41; -&gt; System.out.println&#40;&quot;Complete clearing the range!&quot;&#41;\n &#41;;\n </pre>\n\n <p>For more information, see the\n <a href=\"https://docs.microsoft.com/en-us/rest/api/storageservices/put-range\">Azure Docs</a>.</p>"
   parameters:
-  - description: Specifies the number of bytes being cleared in the request body.
-    name: length
-    type: <xref href="long?alt=long&text=long" data-throw-if-not-resolved="False" />
-  - description: |-
-      Optional starting point of the upload range. It will start from the beginning if it is
-       <code>null</code>
-    name: offset
-    type: <xref href="long?alt=long&text=long" data-throw-if-not-resolved="False" />
-  - description: <xref uid="com.azure.storage.file.share.models.ShareRequestConditions" data-throw-if-not-resolved="false">ShareRequestConditions</xref>
-    name: requestConditions
-    type: <xref href="com.azure.storage.file.share.models.ShareRequestConditions?alt=com.azure.storage.file.share.models.ShareRequestConditions&text=ShareRequestConditions" data-throw-if-not-resolved="False" />
-  syntax: public Mono<Response<ShareFileUploadInfo>> clearRangeWithResponse(long length, long offset, ShareRequestConditions requestConditions)
+  - description: "Specifies the number of bytes being cleared in the request body."
+    name: "length"
+    type: "<xref href=\"long?alt=long&text=long\" data-throw-if-not-resolved=\"False\" />"
+  - description: "Optional starting point of the upload range. It will start from the beginning if it is\n <code>null</code>"
+    name: "offset"
+    type: "<xref href=\"long?alt=long&text=long\" data-throw-if-not-resolved=\"False\" />"
+  - description: "<xref uid=\"com.azure.storage.file.share.models.ShareRequestConditions\" data-throw-if-not-resolved=\"false\">ShareRequestConditions</xref>"
+    name: "requestConditions"
+    type: "<xref href=\"com.azure.storage.file.share.models.ShareRequestConditions?alt=com.azure.storage.file.share.models.ShareRequestConditions&text=ShareRequestConditions\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public Mono<Response<ShareFileUploadInfo>> clearRangeWithResponse(long length, long offset, ShareRequestConditions requestConditions)"
   returns:
-    description: |-
-      A response of <xref uid="com.azure.storage.file.share.models.ShareFileUploadInfo" data-throw-if-not-resolved="false">file upload info</xref> that only contains headers and response
-       status code.
-    type: <xref href="reactor.core.publisher.Mono?alt=reactor.core.publisher.Mono&text=Mono" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.core.http.rest.Response?alt=com.azure.core.http.rest.Response&text=Response" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.storage.file.share.models.ShareFileUploadInfo?alt=com.azure.storage.file.share.models.ShareFileUploadInfo&text=ShareFileUploadInfo" data-throw-if-not-resolved="False" />&gt;&gt;
-type: method
+    description: "A response of <xref uid=\"com.azure.storage.file.share.models.ShareFileUploadInfo\" data-throw-if-not-resolved=\"false\">file upload info</xref> that only contains headers and response\n status code."
+    type: "<xref href=\"reactor.core.publisher.Mono?alt=reactor.core.publisher.Mono&text=Mono\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.core.http.rest.Response?alt=com.azure.core.http.rest.Response&text=Response\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.storage.file.share.models.ShareFileUploadInfo?alt=com.azure.storage.file.share.models.ShareFileUploadInfo&text=ShareFileUploadInfo\" data-throw-if-not-resolved=\"False\" />&gt;&gt;"
+type: "method"
 metadata: {}
-package: com.azure.storage.file.share
+package: "com.azure.storage.file.share"
 artifact: com.azure:azure-storage-file-share:12.6.0-beta.1

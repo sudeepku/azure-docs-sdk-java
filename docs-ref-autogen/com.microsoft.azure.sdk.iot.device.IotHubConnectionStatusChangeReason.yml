@@ -1,76 +1,76 @@
 ### YamlMime:JavaEnum
-uid: com.microsoft.azure.sdk.iot.device.IotHubConnectionStatusChangeReason
-fullName: com.microsoft.azure.sdk.iot.device.IotHubConnectionStatusChangeReason
-name: IotHubConnectionStatusChangeReason
-nameWithType: IotHubConnectionStatusChangeReason
+uid: "com.microsoft.azure.sdk.iot.device.IotHubConnectionStatusChangeReason"
+fullName: "com.microsoft.azure.sdk.iot.device.IotHubConnectionStatusChangeReason"
+name: "IotHubConnectionStatusChangeReason"
+nameWithType: "IotHubConnectionStatusChangeReason"
 inheritances:
-- <xref href="java.lang.Object" data-throw-if-not-resolved="False" />
-- <xref href="java.lang.Enum" data-throw-if-not-resolved="False" />
+- "<xref href=\"java.lang.Object\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"java.lang.Enum\" data-throw-if-not-resolved=\"False\" />"
 inheritedMembers:
-- java.lang.Enum.<T>valueOf(java.lang.Class<T>,java.lang.String)
-- java.lang.Enum.clone()
-- java.lang.Enum.compareTo(E)
-- java.lang.Enum.equals(java.lang.Object)
-- java.lang.Enum.finalize()
-- java.lang.Enum.getDeclaringClass()
-- java.lang.Enum.hashCode()
-- java.lang.Enum.name()
-- java.lang.Enum.ordinal()
-- java.lang.Enum.toString()
-- java.lang.Object.getClass()
-- java.lang.Object.notify()
-- java.lang.Object.notifyAll()
-- java.lang.Object.wait()
-- java.lang.Object.wait(long)
-- java.lang.Object.wait(long,int)
-syntax: public enum IotHubConnectionStatusChangeReason extends Enum<IotHubConnectionStatusChangeReason>
+- "java.lang.Enum.<T>valueOf(java.lang.Class<T>,java.lang.String)"
+- "java.lang.Enum.clone()"
+- "java.lang.Enum.compareTo(E)"
+- "java.lang.Enum.equals(java.lang.Object)"
+- "java.lang.Enum.finalize()"
+- "java.lang.Enum.getDeclaringClass()"
+- "java.lang.Enum.hashCode()"
+- "java.lang.Enum.name()"
+- "java.lang.Enum.ordinal()"
+- "java.lang.Enum.toString()"
+- "java.lang.Object.getClass()"
+- "java.lang.Object.notify()"
+- "java.lang.Object.notifyAll()"
+- "java.lang.Object.wait()"
+- "java.lang.Object.wait(long)"
+- "java.lang.Object.wait(long,int)"
+syntax: "public enum IotHubConnectionStatusChangeReason extends Enum<IotHubConnectionStatusChangeReason>"
 fields:
-- uid: com.microsoft.azure.sdk.iot.device.IotHubConnectionStatusChangeReason.BAD_CREDENTIAL
-  fullName: com.microsoft.azure.sdk.iot.device.IotHubConnectionStatusChangeReason.BAD_CREDENTIAL
-  name: BAD_CREDENTIAL
-  nameWithType: IotHubConnectionStatusChangeReason.BAD_CREDENTIAL
-- uid: com.microsoft.azure.sdk.iot.device.IotHubConnectionStatusChangeReason.CLIENT_CLOSE
-  fullName: com.microsoft.azure.sdk.iot.device.IotHubConnectionStatusChangeReason.CLIENT_CLOSE
-  name: CLIENT_CLOSE
-  nameWithType: IotHubConnectionStatusChangeReason.CLIENT_CLOSE
-- uid: com.microsoft.azure.sdk.iot.device.IotHubConnectionStatusChangeReason.COMMUNICATION_ERROR
-  fullName: com.microsoft.azure.sdk.iot.device.IotHubConnectionStatusChangeReason.COMMUNICATION_ERROR
-  name: COMMUNICATION_ERROR
-  nameWithType: IotHubConnectionStatusChangeReason.COMMUNICATION_ERROR
-- uid: com.microsoft.azure.sdk.iot.device.IotHubConnectionStatusChangeReason.CONNECTION_OK
-  fullName: com.microsoft.azure.sdk.iot.device.IotHubConnectionStatusChangeReason.CONNECTION_OK
-  name: CONNECTION_OK
-  nameWithType: IotHubConnectionStatusChangeReason.CONNECTION_OK
-- uid: com.microsoft.azure.sdk.iot.device.IotHubConnectionStatusChangeReason.EXPIRED_SAS_TOKEN
-  fullName: com.microsoft.azure.sdk.iot.device.IotHubConnectionStatusChangeReason.EXPIRED_SAS_TOKEN
-  name: EXPIRED_SAS_TOKEN
-  nameWithType: IotHubConnectionStatusChangeReason.EXPIRED_SAS_TOKEN
-- uid: com.microsoft.azure.sdk.iot.device.IotHubConnectionStatusChangeReason.NO_NETWORK
-  fullName: com.microsoft.azure.sdk.iot.device.IotHubConnectionStatusChangeReason.NO_NETWORK
-  name: NO_NETWORK
-  nameWithType: IotHubConnectionStatusChangeReason.NO_NETWORK
-- uid: com.microsoft.azure.sdk.iot.device.IotHubConnectionStatusChangeReason.RETRY_EXPIRED
-  fullName: com.microsoft.azure.sdk.iot.device.IotHubConnectionStatusChangeReason.RETRY_EXPIRED
-  name: RETRY_EXPIRED
-  nameWithType: IotHubConnectionStatusChangeReason.RETRY_EXPIRED
+- uid: "com.microsoft.azure.sdk.iot.device.IotHubConnectionStatusChangeReason.BAD_CREDENTIAL"
+  fullName: "com.microsoft.azure.sdk.iot.device.IotHubConnectionStatusChangeReason.BAD_CREDENTIAL"
+  name: "BAD_CREDENTIAL"
+  nameWithType: "IotHubConnectionStatusChangeReason.BAD_CREDENTIAL"
+- uid: "com.microsoft.azure.sdk.iot.device.IotHubConnectionStatusChangeReason.CLIENT_CLOSE"
+  fullName: "com.microsoft.azure.sdk.iot.device.IotHubConnectionStatusChangeReason.CLIENT_CLOSE"
+  name: "CLIENT_CLOSE"
+  nameWithType: "IotHubConnectionStatusChangeReason.CLIENT_CLOSE"
+- uid: "com.microsoft.azure.sdk.iot.device.IotHubConnectionStatusChangeReason.COMMUNICATION_ERROR"
+  fullName: "com.microsoft.azure.sdk.iot.device.IotHubConnectionStatusChangeReason.COMMUNICATION_ERROR"
+  name: "COMMUNICATION_ERROR"
+  nameWithType: "IotHubConnectionStatusChangeReason.COMMUNICATION_ERROR"
+- uid: "com.microsoft.azure.sdk.iot.device.IotHubConnectionStatusChangeReason.CONNECTION_OK"
+  fullName: "com.microsoft.azure.sdk.iot.device.IotHubConnectionStatusChangeReason.CONNECTION_OK"
+  name: "CONNECTION_OK"
+  nameWithType: "IotHubConnectionStatusChangeReason.CONNECTION_OK"
+- uid: "com.microsoft.azure.sdk.iot.device.IotHubConnectionStatusChangeReason.EXPIRED_SAS_TOKEN"
+  fullName: "com.microsoft.azure.sdk.iot.device.IotHubConnectionStatusChangeReason.EXPIRED_SAS_TOKEN"
+  name: "EXPIRED_SAS_TOKEN"
+  nameWithType: "IotHubConnectionStatusChangeReason.EXPIRED_SAS_TOKEN"
+- uid: "com.microsoft.azure.sdk.iot.device.IotHubConnectionStatusChangeReason.NO_NETWORK"
+  fullName: "com.microsoft.azure.sdk.iot.device.IotHubConnectionStatusChangeReason.NO_NETWORK"
+  name: "NO_NETWORK"
+  nameWithType: "IotHubConnectionStatusChangeReason.NO_NETWORK"
+- uid: "com.microsoft.azure.sdk.iot.device.IotHubConnectionStatusChangeReason.RETRY_EXPIRED"
+  fullName: "com.microsoft.azure.sdk.iot.device.IotHubConnectionStatusChangeReason.RETRY_EXPIRED"
+  name: "RETRY_EXPIRED"
+  nameWithType: "IotHubConnectionStatusChangeReason.RETRY_EXPIRED"
 methods:
-- uid: com.microsoft.azure.sdk.iot.device.IotHubConnectionStatusChangeReason.valueOf(java.lang.String)
-  fullName: com.microsoft.azure.sdk.iot.device.IotHubConnectionStatusChangeReason.valueOf(String name)
-  name: valueOf(String name)
-  nameWithType: IotHubConnectionStatusChangeReason.valueOf(String name)
+- uid: "com.microsoft.azure.sdk.iot.device.IotHubConnectionStatusChangeReason.valueOf(java.lang.String)"
+  fullName: "com.microsoft.azure.sdk.iot.device.IotHubConnectionStatusChangeReason.valueOf(String name)"
+  name: "valueOf(String name)"
+  nameWithType: "IotHubConnectionStatusChangeReason.valueOf(String name)"
   parameters:
-  - name: name
-    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
-  syntax: public static IotHubConnectionStatusChangeReason valueOf(String name)
+  - name: "name"
+    type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static IotHubConnectionStatusChangeReason valueOf(String name)"
   returns:
-    type: <xref href="com.microsoft.azure.sdk.iot.device.IotHubConnectionStatusChangeReason?alt=com.microsoft.azure.sdk.iot.device.IotHubConnectionStatusChangeReason&text=IotHubConnectionStatusChangeReason" data-throw-if-not-resolved="False" />
-- uid: com.microsoft.azure.sdk.iot.device.IotHubConnectionStatusChangeReason.values()
-  fullName: com.microsoft.azure.sdk.iot.device.IotHubConnectionStatusChangeReason.values()
-  name: values()
-  nameWithType: IotHubConnectionStatusChangeReason.values()
-  syntax: public static IotHubConnectionStatusChangeReason[] values()
+    type: "<xref href=\"com.microsoft.azure.sdk.iot.device.IotHubConnectionStatusChangeReason?alt=com.microsoft.azure.sdk.iot.device.IotHubConnectionStatusChangeReason&text=IotHubConnectionStatusChangeReason\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.microsoft.azure.sdk.iot.device.IotHubConnectionStatusChangeReason.values()"
+  fullName: "com.microsoft.azure.sdk.iot.device.IotHubConnectionStatusChangeReason.values()"
+  name: "values()"
+  nameWithType: "IotHubConnectionStatusChangeReason.values()"
+  syntax: "public static IotHubConnectionStatusChangeReason[] values()"
   returns:
-    type: <xref href="com.microsoft.azure.sdk.iot.device.IotHubConnectionStatusChangeReason?alt=com.microsoft.azure.sdk.iot.device.IotHubConnectionStatusChangeReason&text=IotHubConnectionStatusChangeReason" data-throw-if-not-resolved="False" />[]
+    type: "<xref href=\"com.microsoft.azure.sdk.iot.device.IotHubConnectionStatusChangeReason?alt=com.microsoft.azure.sdk.iot.device.IotHubConnectionStatusChangeReason&text=IotHubConnectionStatusChangeReason\" data-throw-if-not-resolved=\"False\" />[]"
 metadata: {}
-package: com.microsoft.azure.sdk.iot.device
+package: "com.microsoft.azure.sdk.iot.device"
 artifact: com.microsoft.azure.sdk.iot:iot-device-client:1.24.0

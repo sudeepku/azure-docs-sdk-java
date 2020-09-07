@@ -1,31 +1,29 @@
 ### YamlMime:JavaMember
-uid: com.azure.storage.blob.specialized.PageBlobAsyncClient.updateSequenceNumberWithResponse*
-fullName: com.azure.storage.blob.specialized.PageBlobAsyncClient.updateSequenceNumberWithResponse
-name: updateSequenceNumberWithResponse
-nameWithType: PageBlobAsyncClient.updateSequenceNumberWithResponse
+uid: "com.azure.storage.blob.specialized.PageBlobAsyncClient.updateSequenceNumberWithResponse*"
+fullName: "com.azure.storage.blob.specialized.PageBlobAsyncClient.updateSequenceNumberWithResponse"
+name: "updateSequenceNumberWithResponse"
+nameWithType: "PageBlobAsyncClient.updateSequenceNumberWithResponse"
 members:
-- uid: com.azure.storage.blob.specialized.PageBlobAsyncClient.updateSequenceNumberWithResponse(com.azure.storage.blob.models.SequenceNumberActionType,java.lang.Long,com.azure.storage.blob.models.BlobRequestConditions)
-  fullName: com.azure.storage.blob.specialized.PageBlobAsyncClient.updateSequenceNumberWithResponse(SequenceNumberActionType action, Long sequenceNumber, BlobRequestConditions requestConditions)
-  name: updateSequenceNumberWithResponse(SequenceNumberActionType action, Long sequenceNumber, BlobRequestConditions requestConditions)
-  nameWithType: PageBlobAsyncClient.updateSequenceNumberWithResponse(SequenceNumberActionType action, Long sequenceNumber, BlobRequestConditions requestConditions)
+- uid: "com.azure.storage.blob.specialized.PageBlobAsyncClient.updateSequenceNumberWithResponse(com.azure.storage.blob.models.SequenceNumberActionType,java.lang.Long,com.azure.storage.blob.models.BlobRequestConditions)"
+  fullName: "com.azure.storage.blob.specialized.PageBlobAsyncClient.updateSequenceNumberWithResponse(SequenceNumberActionType action, Long sequenceNumber, BlobRequestConditions requestConditions)"
+  name: "updateSequenceNumberWithResponse(SequenceNumberActionType action, Long sequenceNumber, BlobRequestConditions requestConditions)"
+  nameWithType: "PageBlobAsyncClient.updateSequenceNumberWithResponse(SequenceNumberActionType action, Long sequenceNumber, BlobRequestConditions requestConditions)"
   summary: "Sets the page blob's sequence number. For more information, see the <a href=\"https://docs.microsoft.com/rest/api/storageservices/set-blob-properties\">Azure\n Docs</a>.\n\n <p><strong>Code Samples</strong></p>\n\n <pre>\n BlobRequestConditions blobRequestConditions = new BlobRequestConditions&#40;&#41;.setLeaseId&#40;leaseId&#41;;\n \n client.updateSequenceNumberWithResponse&#40;SequenceNumberActionType.INCREMENT, size, blobRequestConditions&#41;\n     .subscribe&#40;response -&gt; System.out.printf&#40;\n         &quot;Page blob updated to sequence number %s%n&quot;, response.getValue&#40;&#41;.getBlobSequenceNumber&#40;&#41;&#41;&#41;;\n </pre>"
   parameters:
-  - description: Indicates how the service should modify the blob's sequence number.
-    name: action
-    type: <xref href="com.azure.storage.blob.models.SequenceNumberActionType?alt=com.azure.storage.blob.models.SequenceNumberActionType&text=SequenceNumberActionType" data-throw-if-not-resolved="False" />
-  - description: |-
-      The blob's sequence number. The sequence number is a user-controlled property that you can
-       use to track requests and manage concurrency issues.
-    name: sequenceNumber
-    type: <xref href="java.lang.Long?alt=java.lang.Long&text=Long" data-throw-if-not-resolved="False" />
-  - description: <xref uid="com.azure.storage.blob.models.BlobRequestConditions" data-throw-if-not-resolved="false">BlobRequestConditions</xref>
-    name: requestConditions
-    type: <xref href="com.azure.storage.blob.models.BlobRequestConditions?alt=com.azure.storage.blob.models.BlobRequestConditions&text=BlobRequestConditions" data-throw-if-not-resolved="False" />
-  syntax: public Mono<Response<PageBlobItem>> updateSequenceNumberWithResponse(SequenceNumberActionType action, Long sequenceNumber, BlobRequestConditions requestConditions)
+  - description: "Indicates how the service should modify the blob's sequence number."
+    name: "action"
+    type: "<xref href=\"com.azure.storage.blob.models.SequenceNumberActionType?alt=com.azure.storage.blob.models.SequenceNumberActionType&text=SequenceNumberActionType\" data-throw-if-not-resolved=\"False\" />"
+  - description: "The blob's sequence number. The sequence number is a user-controlled property that you can\n use to track requests and manage concurrency issues."
+    name: "sequenceNumber"
+    type: "<xref href=\"java.lang.Long?alt=java.lang.Long&text=Long\" data-throw-if-not-resolved=\"False\" />"
+  - description: "<xref uid=\"com.azure.storage.blob.models.BlobRequestConditions\" data-throw-if-not-resolved=\"false\">BlobRequestConditions</xref>"
+    name: "requestConditions"
+    type: "<xref href=\"com.azure.storage.blob.models.BlobRequestConditions?alt=com.azure.storage.blob.models.BlobRequestConditions&text=BlobRequestConditions\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public Mono<Response<PageBlobItem>> updateSequenceNumberWithResponse(SequenceNumberActionType action, Long sequenceNumber, BlobRequestConditions requestConditions)"
   returns:
-    description: A reactive response emitting the updated page blob.
-    type: <xref href="reactor.core.publisher.Mono?alt=reactor.core.publisher.Mono&text=Mono" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.core.http.rest.Response?alt=com.azure.core.http.rest.Response&text=Response" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.storage.blob.models.PageBlobItem?alt=com.azure.storage.blob.models.PageBlobItem&text=PageBlobItem" data-throw-if-not-resolved="False" />&gt;&gt;
-type: method
+    description: "A reactive response emitting the updated page blob."
+    type: "<xref href=\"reactor.core.publisher.Mono?alt=reactor.core.publisher.Mono&text=Mono\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.core.http.rest.Response?alt=com.azure.core.http.rest.Response&text=Response\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.storage.blob.models.PageBlobItem?alt=com.azure.storage.blob.models.PageBlobItem&text=PageBlobItem\" data-throw-if-not-resolved=\"False\" />&gt;&gt;"
+type: "method"
 metadata: {}
-package: com.azure.storage.blob.specialized
+package: "com.azure.storage.blob.specialized"
 artifact: com.azure:azure-storage-blob:12.8.0

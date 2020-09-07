@@ -1,36 +1,36 @@
 ### YamlMime:JavaType
-uid: com.azure.resourcemanager.resources.fluent.inner.TagDetailsInner
-fullName: com.azure.resourcemanager.resources.fluent.inner.TagDetailsInner
-name: TagDetailsInner
-nameWithType: TagDetailsInner
-summary: The TagDetails model.
+uid: "com.azure.resourcemanager.resources.fluent.inner.TagDetailsInner"
+fullName: "com.azure.resourcemanager.resources.fluent.inner.TagDetailsInner"
+name: "TagDetailsInner"
+nameWithType: "TagDetailsInner"
+summary: "The TagDetails model."
 inheritances:
-- <xref href="java.lang.Object" data-throw-if-not-resolved="False" />
+- "<xref href=\"java.lang.Object\" data-throw-if-not-resolved=\"False\" />"
 inheritedMembers:
-- java.lang.Object.clone()
-- java.lang.Object.equals(java.lang.Object)
-- java.lang.Object.finalize()
-- java.lang.Object.getClass()
-- java.lang.Object.hashCode()
-- java.lang.Object.notify()
-- java.lang.Object.notifyAll()
-- java.lang.Object.toString()
-- java.lang.Object.wait()
-- java.lang.Object.wait(long)
-- java.lang.Object.wait(long,int)
-syntax: public final class TagDetailsInner
+- "java.lang.Object.clone()"
+- "java.lang.Object.equals(java.lang.Object)"
+- "java.lang.Object.finalize()"
+- "java.lang.Object.getClass()"
+- "java.lang.Object.hashCode()"
+- "java.lang.Object.notify()"
+- "java.lang.Object.notifyAll()"
+- "java.lang.Object.toString()"
+- "java.lang.Object.wait()"
+- "java.lang.Object.wait(long)"
+- "java.lang.Object.wait(long,int)"
+syntax: "public final class TagDetailsInner"
 constructors:
-- com.azure.resourcemanager.resources.fluent.inner.TagDetailsInner.TagDetailsInner()
+- "com.azure.resourcemanager.resources.fluent.inner.TagDetailsInner.TagDetailsInner()"
 methods:
-- com.azure.resourcemanager.resources.fluent.inner.TagDetailsInner.count()
-- com.azure.resourcemanager.resources.fluent.inner.TagDetailsInner.id()
-- com.azure.resourcemanager.resources.fluent.inner.TagDetailsInner.tagName()
-- com.azure.resourcemanager.resources.fluent.inner.TagDetailsInner.validate()
-- com.azure.resourcemanager.resources.fluent.inner.TagDetailsInner.values()
-- com.azure.resourcemanager.resources.fluent.inner.TagDetailsInner.withCount(com.azure.resourcemanager.resources.models.TagCount)
-- com.azure.resourcemanager.resources.fluent.inner.TagDetailsInner.withTagName(java.lang.String)
-- com.azure.resourcemanager.resources.fluent.inner.TagDetailsInner.withValues(java.util.List<com.azure.resourcemanager.resources.fluent.inner.TagValueInner>)
-type: class
+- "com.azure.resourcemanager.resources.fluent.inner.TagDetailsInner.count()"
+- "com.azure.resourcemanager.resources.fluent.inner.TagDetailsInner.id()"
+- "com.azure.resourcemanager.resources.fluent.inner.TagDetailsInner.tagName()"
+- "com.azure.resourcemanager.resources.fluent.inner.TagDetailsInner.validate()"
+- "com.azure.resourcemanager.resources.fluent.inner.TagDetailsInner.values()"
+- "com.azure.resourcemanager.resources.fluent.inner.TagDetailsInner.withCount(com.azure.resourcemanager.resources.models.TagCount)"
+- "com.azure.resourcemanager.resources.fluent.inner.TagDetailsInner.withTagName(java.lang.String)"
+- "com.azure.resourcemanager.resources.fluent.inner.TagDetailsInner.withValues(java.util.List<com.azure.resourcemanager.resources.fluent.inner.TagValueInner>)"
+type: "class"
 metadata: {}
-package: com.azure.resourcemanager.resources.fluent.inner
+package: "com.azure.resourcemanager.resources.fluent.inner"
 artifact: com.azure.resourcemanager:azure-resourcemanager-resources:2.0.0-beta.2

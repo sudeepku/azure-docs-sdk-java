@@ -1,69 +1,69 @@
 ### YamlMime:JavaType
-uid: com.azure.resourcemanager.storage.fluent.inner.StorageAccountInner
-fullName: com.azure.resourcemanager.storage.fluent.inner.StorageAccountInner
-name: StorageAccountInner
-nameWithType: StorageAccountInner
-summary: The StorageAccount model.
+uid: "com.azure.resourcemanager.storage.fluent.inner.StorageAccountInner"
+fullName: "com.azure.resourcemanager.storage.fluent.inner.StorageAccountInner"
+name: "StorageAccountInner"
+nameWithType: "StorageAccountInner"
+summary: "The StorageAccount model."
 inheritances:
-- <xref href="java.lang.Object" data-throw-if-not-resolved="False" />
-- <xref href="com.azure.core.management.ProxyResource" data-throw-if-not-resolved="False" />
-- <xref href="com.azure.core.management.Resource" data-throw-if-not-resolved="False" />
+- "<xref href=\"java.lang.Object\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.azure.core.management.ProxyResource\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.azure.core.management.Resource\" data-throw-if-not-resolved=\"False\" />"
 inheritedMembers:
-- com.azure.core.management.ProxyResource.id()
-- com.azure.core.management.ProxyResource.name()
-- com.azure.core.management.ProxyResource.type()
-- com.azure.core.management.Resource.location()
-- com.azure.core.management.Resource.tags()
-- com.azure.core.management.Resource.withLocation(java.lang.String)
-- com.azure.core.management.Resource.withTags(java.util.Map<java.lang.String,java.lang.String>)
-- java.lang.Object.clone()
-- java.lang.Object.equals(java.lang.Object)
-- java.lang.Object.finalize()
-- java.lang.Object.getClass()
-- java.lang.Object.hashCode()
-- java.lang.Object.notify()
-- java.lang.Object.notifyAll()
-- java.lang.Object.toString()
-- java.lang.Object.wait()
-- java.lang.Object.wait(long)
-- java.lang.Object.wait(long,int)
-syntax: public class StorageAccountInner extends Resource
+- "com.azure.core.management.ProxyResource.id()"
+- "com.azure.core.management.ProxyResource.name()"
+- "com.azure.core.management.ProxyResource.type()"
+- "com.azure.core.management.Resource.location()"
+- "com.azure.core.management.Resource.tags()"
+- "com.azure.core.management.Resource.withLocation(java.lang.String)"
+- "com.azure.core.management.Resource.withTags(java.util.Map<java.lang.String,java.lang.String>)"
+- "java.lang.Object.clone()"
+- "java.lang.Object.equals(java.lang.Object)"
+- "java.lang.Object.finalize()"
+- "java.lang.Object.getClass()"
+- "java.lang.Object.hashCode()"
+- "java.lang.Object.notify()"
+- "java.lang.Object.notifyAll()"
+- "java.lang.Object.toString()"
+- "java.lang.Object.wait()"
+- "java.lang.Object.wait(long)"
+- "java.lang.Object.wait(long,int)"
+syntax: "public class StorageAccountInner extends Resource"
 constructors:
-- com.azure.resourcemanager.storage.fluent.inner.StorageAccountInner.StorageAccountInner()
+- "com.azure.resourcemanager.storage.fluent.inner.StorageAccountInner.StorageAccountInner()"
 methods:
-- com.azure.resourcemanager.storage.fluent.inner.StorageAccountInner.accessTier()
-- com.azure.resourcemanager.storage.fluent.inner.StorageAccountInner.azureFilesIdentityBasedAuthentication()
-- com.azure.resourcemanager.storage.fluent.inner.StorageAccountInner.blobRestoreStatus()
-- com.azure.resourcemanager.storage.fluent.inner.StorageAccountInner.creationTime()
-- com.azure.resourcemanager.storage.fluent.inner.StorageAccountInner.customDomain()
-- com.azure.resourcemanager.storage.fluent.inner.StorageAccountInner.enableHttpsTrafficOnly()
-- com.azure.resourcemanager.storage.fluent.inner.StorageAccountInner.encryption()
-- com.azure.resourcemanager.storage.fluent.inner.StorageAccountInner.failoverInProgress()
-- com.azure.resourcemanager.storage.fluent.inner.StorageAccountInner.geoReplicationStats()
-- com.azure.resourcemanager.storage.fluent.inner.StorageAccountInner.identity()
-- com.azure.resourcemanager.storage.fluent.inner.StorageAccountInner.isHnsEnabled()
-- com.azure.resourcemanager.storage.fluent.inner.StorageAccountInner.kind()
-- com.azure.resourcemanager.storage.fluent.inner.StorageAccountInner.largeFileSharesState()
-- com.azure.resourcemanager.storage.fluent.inner.StorageAccountInner.lastGeoFailoverTime()
-- com.azure.resourcemanager.storage.fluent.inner.StorageAccountInner.networkRuleSet()
-- com.azure.resourcemanager.storage.fluent.inner.StorageAccountInner.primaryEndpoints()
-- com.azure.resourcemanager.storage.fluent.inner.StorageAccountInner.primaryLocation()
-- com.azure.resourcemanager.storage.fluent.inner.StorageAccountInner.privateEndpointConnections()
-- com.azure.resourcemanager.storage.fluent.inner.StorageAccountInner.provisioningState()
-- com.azure.resourcemanager.storage.fluent.inner.StorageAccountInner.routingPreference()
-- com.azure.resourcemanager.storage.fluent.inner.StorageAccountInner.secondaryEndpoints()
-- com.azure.resourcemanager.storage.fluent.inner.StorageAccountInner.secondaryLocation()
-- com.azure.resourcemanager.storage.fluent.inner.StorageAccountInner.sku()
-- com.azure.resourcemanager.storage.fluent.inner.StorageAccountInner.statusOfPrimary()
-- com.azure.resourcemanager.storage.fluent.inner.StorageAccountInner.statusOfSecondary()
-- com.azure.resourcemanager.storage.fluent.inner.StorageAccountInner.validate()
-- com.azure.resourcemanager.storage.fluent.inner.StorageAccountInner.withAzureFilesIdentityBasedAuthentication(com.azure.resourcemanager.storage.models.AzureFilesIdentityBasedAuthentication)
-- com.azure.resourcemanager.storage.fluent.inner.StorageAccountInner.withEnableHttpsTrafficOnly(java.lang.Boolean)
-- com.azure.resourcemanager.storage.fluent.inner.StorageAccountInner.withIdentity(com.azure.resourcemanager.storage.models.Identity)
-- com.azure.resourcemanager.storage.fluent.inner.StorageAccountInner.withIsHnsEnabled(java.lang.Boolean)
-- com.azure.resourcemanager.storage.fluent.inner.StorageAccountInner.withLargeFileSharesState(com.azure.resourcemanager.storage.models.LargeFileSharesState)
-- com.azure.resourcemanager.storage.fluent.inner.StorageAccountInner.withRoutingPreference(com.azure.resourcemanager.storage.models.RoutingPreference)
-type: class
+- "com.azure.resourcemanager.storage.fluent.inner.StorageAccountInner.accessTier()"
+- "com.azure.resourcemanager.storage.fluent.inner.StorageAccountInner.azureFilesIdentityBasedAuthentication()"
+- "com.azure.resourcemanager.storage.fluent.inner.StorageAccountInner.blobRestoreStatus()"
+- "com.azure.resourcemanager.storage.fluent.inner.StorageAccountInner.creationTime()"
+- "com.azure.resourcemanager.storage.fluent.inner.StorageAccountInner.customDomain()"
+- "com.azure.resourcemanager.storage.fluent.inner.StorageAccountInner.enableHttpsTrafficOnly()"
+- "com.azure.resourcemanager.storage.fluent.inner.StorageAccountInner.encryption()"
+- "com.azure.resourcemanager.storage.fluent.inner.StorageAccountInner.failoverInProgress()"
+- "com.azure.resourcemanager.storage.fluent.inner.StorageAccountInner.geoReplicationStats()"
+- "com.azure.resourcemanager.storage.fluent.inner.StorageAccountInner.identity()"
+- "com.azure.resourcemanager.storage.fluent.inner.StorageAccountInner.isHnsEnabled()"
+- "com.azure.resourcemanager.storage.fluent.inner.StorageAccountInner.kind()"
+- "com.azure.resourcemanager.storage.fluent.inner.StorageAccountInner.largeFileSharesState()"
+- "com.azure.resourcemanager.storage.fluent.inner.StorageAccountInner.lastGeoFailoverTime()"
+- "com.azure.resourcemanager.storage.fluent.inner.StorageAccountInner.networkRuleSet()"
+- "com.azure.resourcemanager.storage.fluent.inner.StorageAccountInner.primaryEndpoints()"
+- "com.azure.resourcemanager.storage.fluent.inner.StorageAccountInner.primaryLocation()"
+- "com.azure.resourcemanager.storage.fluent.inner.StorageAccountInner.privateEndpointConnections()"
+- "com.azure.resourcemanager.storage.fluent.inner.StorageAccountInner.provisioningState()"
+- "com.azure.resourcemanager.storage.fluent.inner.StorageAccountInner.routingPreference()"
+- "com.azure.resourcemanager.storage.fluent.inner.StorageAccountInner.secondaryEndpoints()"
+- "com.azure.resourcemanager.storage.fluent.inner.StorageAccountInner.secondaryLocation()"
+- "com.azure.resourcemanager.storage.fluent.inner.StorageAccountInner.sku()"
+- "com.azure.resourcemanager.storage.fluent.inner.StorageAccountInner.statusOfPrimary()"
+- "com.azure.resourcemanager.storage.fluent.inner.StorageAccountInner.statusOfSecondary()"
+- "com.azure.resourcemanager.storage.fluent.inner.StorageAccountInner.validate()"
+- "com.azure.resourcemanager.storage.fluent.inner.StorageAccountInner.withAzureFilesIdentityBasedAuthentication(com.azure.resourcemanager.storage.models.AzureFilesIdentityBasedAuthentication)"
+- "com.azure.resourcemanager.storage.fluent.inner.StorageAccountInner.withEnableHttpsTrafficOnly(java.lang.Boolean)"
+- "com.azure.resourcemanager.storage.fluent.inner.StorageAccountInner.withIdentity(com.azure.resourcemanager.storage.models.Identity)"
+- "com.azure.resourcemanager.storage.fluent.inner.StorageAccountInner.withIsHnsEnabled(java.lang.Boolean)"
+- "com.azure.resourcemanager.storage.fluent.inner.StorageAccountInner.withLargeFileSharesState(com.azure.resourcemanager.storage.models.LargeFileSharesState)"
+- "com.azure.resourcemanager.storage.fluent.inner.StorageAccountInner.withRoutingPreference(com.azure.resourcemanager.storage.models.RoutingPreference)"
+type: "class"
 metadata: {}
-package: com.azure.resourcemanager.storage.fluent.inner
+package: "com.azure.resourcemanager.storage.fluent.inner"
 artifact: com.azure.resourcemanager:azure-resourcemanager-storage:2.0.0-beta.2

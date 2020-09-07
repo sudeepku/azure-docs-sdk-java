@@ -1,84 +1,45 @@
 ### YamlMime:JavaMember
-uid: com.azure.core.util.tracing.Tracer.start*
-fullName: com.azure.core.util.tracing.Tracer.start
-name: start
-nameWithType: Tracer.start
+uid: "com.azure.core.util.tracing.Tracer.start*"
+fullName: "com.azure.core.util.tracing.Tracer.start"
+name: "start"
+nameWithType: "Tracer.start"
 members:
-- uid: com.azure.core.util.tracing.Tracer.start(java.lang.String,com.azure.core.util.Context)
-  fullName: com.azure.core.util.tracing.Tracer.start(String methodName, Context context)
-  name: start(String methodName, Context context)
-  nameWithType: Tracer.start(String methodName, Context context)
-  summary: |-
-    Creates a new tracing span.
-     <p>
-     The <code>context</code> will be checked for information about a parent span. If a parent span is found, the new span
-     will be added as a child. Otherwise, the parent span will be created and added to the <code>context</code> and any
-     downstream <code>start()</code> calls will use the created span as the parent.
-
-     <p><strong>Code samples</strong></p>
-
-     <p>Starts a tracing span with provided method name and explicit parent span</p>
-     {@codesnippet com.azure.core.util.tracing.start#string-context}
+- uid: "com.azure.core.util.tracing.Tracer.start(java.lang.String,com.azure.core.util.Context)"
+  fullName: "com.azure.core.util.tracing.Tracer.start(String methodName, Context context)"
+  name: "start(String methodName, Context context)"
+  nameWithType: "Tracer.start(String methodName, Context context)"
+  summary: "Creates a new tracing span.\n <p>\n The <code>context</code> will be checked for information about a parent span. If a parent span is found, the new span\n will be added as a child. Otherwise, the parent span will be created and added to the <code>context</code> and any\n downstream <code>start()</code> calls will use the created span as the parent.\n\n <p><strong>Code samples</strong></p>\n\n <p>Starts a tracing span with provided method name and explicit parent span</p>\n {@codesnippet com.azure.core.util.tracing.start#string-context}"
   parameters:
-  - description: Name of the method triggering the span creation.
-    name: methodName
-    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
-  - description: Additional metadata that is passed through the call stack.
-    name: context
-    type: <xref href="com.azure.core.util.Context?alt=com.azure.core.util.Context&text=Context" data-throw-if-not-resolved="False" />
-  syntax: public abstract Context start(String methodName, Context context)
+  - description: "Name of the method triggering the span creation."
+    name: "methodName"
+    type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
+  - description: "Additional metadata that is passed through the call stack."
+    name: "context"
+    type: "<xref href=\"com.azure.core.util.Context?alt=com.azure.core.util.Context&text=Context\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public abstract Context start(String methodName, Context context)"
   returns:
-    description: The updated <xref uid="com.azure.core.util.Context" data-throw-if-not-resolved="false">Context</xref> object containing the returned span.
-    type: <xref href="com.azure.core.util.Context?alt=com.azure.core.util.Context&text=Context" data-throw-if-not-resolved="False" />
-- uid: com.azure.core.util.tracing.Tracer.start(java.lang.String,com.azure.core.util.Context,com.azure.core.util.tracing.ProcessKind)
-  fullName: com.azure.core.util.tracing.Tracer.start(String methodName, Context context, ProcessKind processKind)
-  name: start(String methodName, Context context, ProcessKind processKind)
-  nameWithType: Tracer.start(String methodName, Context context, ProcessKind processKind)
-  summary: |-
-    Creates a new tracing span for AMQP calls.
-
-     <p>
-     The <code>context</code> will be checked for information about a parent span. If a parent span is found, the new span
-     will be added as a child. Otherwise, the parent span will be created and added to the <code>context</code> and any
-     downstream <code>start()</code> calls will use the created span as the parent.
-
-     <p>
-     Sets additional request attributes on the created span when <code>processKind</code> is
-     <xref uid="ProcessKind#SEND" data-throw-if-not-resolved="false">ProcessKind.SEND</xref>.
-
-     <p>
-     Returns the diagnostic Id and span context of the returned span when <code>processKind</code> is
-     <xref uid="ProcessKind#MESSAGE" data-throw-if-not-resolved="false">ProcessKind.MESSAGE</xref>.
-
-     <p>
-     Creates a new tracing span with remote parent and returns that scope when the given when <code>processKind</code>
-     is <xref uid="ProcessKind#PROCESS" data-throw-if-not-resolved="false">ProcessKind.PROCESS</xref>.
-
-     <p><strong>Code samples</strong></p>
-
-     <p>Starts a tracing span with provided method name and AMQP operation SEND</p>
-     {@codesnippet com.azure.core.util.tracing.start#string-context-processKind-SEND}
-
-     <p>Starts a tracing span with provided method name and AMQP operation MESSAGE</p>
-     {@codesnippet com.azure.core.util.tracing.start#string-context-processKind-MESSAGE}
-
-     <p>Starts a tracing span with provided method name and AMQP operation PROCESS</p>
-     {@codesnippet com.azure.core.util.tracing.start#string-context-processKind-PROCESS}
+    description: "The updated <xref uid=\"com.azure.core.util.Context\" data-throw-if-not-resolved=\"false\">Context</xref> object containing the returned span."
+    type: "<xref href=\"com.azure.core.util.Context?alt=com.azure.core.util.Context&text=Context\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.core.util.tracing.Tracer.start(java.lang.String,com.azure.core.util.Context,com.azure.core.util.tracing.ProcessKind)"
+  fullName: "com.azure.core.util.tracing.Tracer.start(String methodName, Context context, ProcessKind processKind)"
+  name: "start(String methodName, Context context, ProcessKind processKind)"
+  nameWithType: "Tracer.start(String methodName, Context context, ProcessKind processKind)"
+  summary: "Creates a new tracing span for AMQP calls.\n\n <p>\n The <code>context</code> will be checked for information about a parent span. If a parent span is found, the new span\n will be added as a child. Otherwise, the parent span will be created and added to the <code>context</code> and any\n downstream <code>start()</code> calls will use the created span as the parent.\n\n <p>\n Sets additional request attributes on the created span when <code>processKind</code> is\n <xref uid=\"ProcessKind#SEND\" data-throw-if-not-resolved=\"false\">ProcessKind.SEND</xref>.\n\n <p>\n Returns the diagnostic Id and span context of the returned span when <code>processKind</code> is\n <xref uid=\"ProcessKind#MESSAGE\" data-throw-if-not-resolved=\"false\">ProcessKind.MESSAGE</xref>.\n\n <p>\n Creates a new tracing span with remote parent and returns that scope when the given when <code>processKind</code>\n is <xref uid=\"ProcessKind#PROCESS\" data-throw-if-not-resolved=\"false\">ProcessKind.PROCESS</xref>.\n\n <p><strong>Code samples</strong></p>\n\n <p>Starts a tracing span with provided method name and AMQP operation SEND</p>\n {@codesnippet com.azure.core.util.tracing.start#string-context-processKind-SEND}\n\n <p>Starts a tracing span with provided method name and AMQP operation MESSAGE</p>\n {@codesnippet com.azure.core.util.tracing.start#string-context-processKind-MESSAGE}\n\n <p>Starts a tracing span with provided method name and AMQP operation PROCESS</p>\n {@codesnippet com.azure.core.util.tracing.start#string-context-processKind-PROCESS}"
   parameters:
-  - description: Name of the method triggering the span creation.
-    name: methodName
-    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
-  - description: Additional metadata that is passed through the call stack.
-    name: context
-    type: <xref href="com.azure.core.util.Context?alt=com.azure.core.util.Context&text=Context" data-throw-if-not-resolved="False" />
-  - description: AMQP operation kind.
-    name: processKind
-    type: <xref href="com.azure.core.util.tracing.ProcessKind?alt=com.azure.core.util.tracing.ProcessKind&text=ProcessKind" data-throw-if-not-resolved="False" />
-  syntax: public abstract Context start(String methodName, Context context, ProcessKind processKind)
+  - description: "Name of the method triggering the span creation."
+    name: "methodName"
+    type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
+  - description: "Additional metadata that is passed through the call stack."
+    name: "context"
+    type: "<xref href=\"com.azure.core.util.Context?alt=com.azure.core.util.Context&text=Context\" data-throw-if-not-resolved=\"False\" />"
+  - description: "AMQP operation kind."
+    name: "processKind"
+    type: "<xref href=\"com.azure.core.util.tracing.ProcessKind?alt=com.azure.core.util.tracing.ProcessKind&text=ProcessKind\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public abstract Context start(String methodName, Context context, ProcessKind processKind)"
   returns:
-    description: The updated <xref uid="com.azure.core.util.Context" data-throw-if-not-resolved="false">Context</xref> object containing the returned span.
-    type: <xref href="com.azure.core.util.Context?alt=com.azure.core.util.Context&text=Context" data-throw-if-not-resolved="False" />
-type: method
+    description: "The updated <xref uid=\"com.azure.core.util.Context\" data-throw-if-not-resolved=\"false\">Context</xref> object containing the returned span."
+    type: "<xref href=\"com.azure.core.util.Context?alt=com.azure.core.util.Context&text=Context\" data-throw-if-not-resolved=\"False\" />"
+type: "method"
 metadata: {}
-package: com.azure.core.util.tracing
+package: "com.azure.core.util.tracing"
 artifact: com.azure:azure-core:1.3.0-beta.1

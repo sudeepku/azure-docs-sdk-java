@@ -1,23 +1,23 @@
 ### YamlMime:JavaMember
-uid: com.azure.messaging.servicebus.ServiceBusManagementClientBuilder.httpClient*
-fullName: com.azure.messaging.servicebus.ServiceBusManagementClientBuilder.httpClient
-name: httpClient
-nameWithType: ServiceBusManagementClientBuilder.httpClient
+uid: "com.azure.messaging.servicebus.ServiceBusManagementClientBuilder.httpClient*"
+fullName: "com.azure.messaging.servicebus.ServiceBusManagementClientBuilder.httpClient"
+name: "httpClient"
+nameWithType: "ServiceBusManagementClientBuilder.httpClient"
 members:
-- uid: com.azure.messaging.servicebus.ServiceBusManagementClientBuilder.httpClient(com.azure.core.http.HttpClient)
-  fullName: com.azure.messaging.servicebus.ServiceBusManagementClientBuilder.httpClient(HttpClient client)
-  name: httpClient(HttpClient client)
-  nameWithType: ServiceBusManagementClientBuilder.httpClient(HttpClient client)
-  summary: Sets the HTTP client to use for sending and receiving requests to and from the service.
+- uid: "com.azure.messaging.servicebus.ServiceBusManagementClientBuilder.httpClient(com.azure.core.http.HttpClient)"
+  fullName: "com.azure.messaging.servicebus.ServiceBusManagementClientBuilder.httpClient(HttpClient client)"
+  name: "httpClient(HttpClient client)"
+  nameWithType: "ServiceBusManagementClientBuilder.httpClient(HttpClient client)"
+  summary: "Sets the HTTP client to use for sending and receiving requests to and from the service."
   parameters:
-  - description: The HTTP client to use for requests.
-    name: client
-    type: <xref href="com.azure.core.http.HttpClient?alt=com.azure.core.http.HttpClient&text=HttpClient" data-throw-if-not-resolved="False" />
-  syntax: public ServiceBusManagementClientBuilder httpClient(HttpClient client)
+  - description: "The HTTP client to use for requests."
+    name: "client"
+    type: "<xref href=\"com.azure.core.http.HttpClient?alt=com.azure.core.http.HttpClient&text=HttpClient\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public ServiceBusManagementClientBuilder httpClient(HttpClient client)"
   returns:
-    description: The updated <xref uid="com.azure.messaging.servicebus.ServiceBusManagementClientBuilder" data-throw-if-not-resolved="false">ServiceBusManagementClientBuilder</xref> object.
-    type: <xref href="com.azure.messaging.servicebus.ServiceBusManagementClientBuilder?alt=com.azure.messaging.servicebus.ServiceBusManagementClientBuilder&text=ServiceBusManagementClientBuilder" data-throw-if-not-resolved="False" />
-type: method
+    description: "The updated <xref uid=\"com.azure.messaging.servicebus.ServiceBusManagementClientBuilder\" data-throw-if-not-resolved=\"false\">ServiceBusManagementClientBuilder</xref> object."
+    type: "<xref href=\"com.azure.messaging.servicebus.ServiceBusManagementClientBuilder?alt=com.azure.messaging.servicebus.ServiceBusManagementClientBuilder&text=ServiceBusManagementClientBuilder\" data-throw-if-not-resolved=\"False\" />"
+type: "method"
 metadata: {}
-package: com.azure.messaging.servicebus
+package: "com.azure.messaging.servicebus"
 artifact: com.azure:azure-messaging-servicebus:7.0.0-beta.5

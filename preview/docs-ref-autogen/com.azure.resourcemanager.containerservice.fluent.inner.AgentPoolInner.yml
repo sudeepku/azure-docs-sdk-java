@@ -1,67 +1,67 @@
 ### YamlMime:JavaType
-uid: com.azure.resourcemanager.containerservice.fluent.inner.AgentPoolInner
-fullName: com.azure.resourcemanager.containerservice.fluent.inner.AgentPoolInner
-name: AgentPoolInner
-nameWithType: AgentPoolInner
-summary: The AgentPool model.
+uid: "com.azure.resourcemanager.containerservice.fluent.inner.AgentPoolInner"
+fullName: "com.azure.resourcemanager.containerservice.fluent.inner.AgentPoolInner"
+name: "AgentPoolInner"
+nameWithType: "AgentPoolInner"
+summary: "The AgentPool model."
 inheritances:
-- <xref href="java.lang.Object" data-throw-if-not-resolved="False" />
-- <xref href="com.azure.core.management.SubResource" data-throw-if-not-resolved="False" />
+- "<xref href=\"java.lang.Object\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.azure.core.management.SubResource\" data-throw-if-not-resolved=\"False\" />"
 inheritedMembers:
-- com.azure.core.management.SubResource.id()
-- com.azure.core.management.SubResource.withId(java.lang.String)
-- java.lang.Object.clone()
-- java.lang.Object.equals(java.lang.Object)
-- java.lang.Object.finalize()
-- java.lang.Object.getClass()
-- java.lang.Object.hashCode()
-- java.lang.Object.notify()
-- java.lang.Object.notifyAll()
-- java.lang.Object.toString()
-- java.lang.Object.wait()
-- java.lang.Object.wait(long)
-- java.lang.Object.wait(long,int)
-syntax: public class AgentPoolInner extends SubResource
+- "com.azure.core.management.SubResource.id()"
+- "com.azure.core.management.SubResource.withId(java.lang.String)"
+- "java.lang.Object.clone()"
+- "java.lang.Object.equals(java.lang.Object)"
+- "java.lang.Object.finalize()"
+- "java.lang.Object.getClass()"
+- "java.lang.Object.hashCode()"
+- "java.lang.Object.notify()"
+- "java.lang.Object.notifyAll()"
+- "java.lang.Object.toString()"
+- "java.lang.Object.wait()"
+- "java.lang.Object.wait(long)"
+- "java.lang.Object.wait(long,int)"
+syntax: "public class AgentPoolInner extends SubResource"
 constructors:
-- com.azure.resourcemanager.containerservice.fluent.inner.AgentPoolInner.AgentPoolInner()
+- "com.azure.resourcemanager.containerservice.fluent.inner.AgentPoolInner.AgentPoolInner()"
 methods:
-- com.azure.resourcemanager.containerservice.fluent.inner.AgentPoolInner.availabilityZones()
-- com.azure.resourcemanager.containerservice.fluent.inner.AgentPoolInner.count()
-- com.azure.resourcemanager.containerservice.fluent.inner.AgentPoolInner.enableAutoScaling()
-- com.azure.resourcemanager.containerservice.fluent.inner.AgentPoolInner.enableNodePublicIp()
-- com.azure.resourcemanager.containerservice.fluent.inner.AgentPoolInner.maxCount()
-- com.azure.resourcemanager.containerservice.fluent.inner.AgentPoolInner.maxPods()
-- com.azure.resourcemanager.containerservice.fluent.inner.AgentPoolInner.minCount()
-- com.azure.resourcemanager.containerservice.fluent.inner.AgentPoolInner.name()
-- com.azure.resourcemanager.containerservice.fluent.inner.AgentPoolInner.nodeTaints()
-- com.azure.resourcemanager.containerservice.fluent.inner.AgentPoolInner.orchestratorVersion()
-- com.azure.resourcemanager.containerservice.fluent.inner.AgentPoolInner.osDiskSizeGB()
-- com.azure.resourcemanager.containerservice.fluent.inner.AgentPoolInner.osType()
-- com.azure.resourcemanager.containerservice.fluent.inner.AgentPoolInner.provisioningState()
-- com.azure.resourcemanager.containerservice.fluent.inner.AgentPoolInner.scaleSetEvictionPolicy()
-- com.azure.resourcemanager.containerservice.fluent.inner.AgentPoolInner.scaleSetPriority()
-- com.azure.resourcemanager.containerservice.fluent.inner.AgentPoolInner.type()
-- com.azure.resourcemanager.containerservice.fluent.inner.AgentPoolInner.typePropertiesType()
-- com.azure.resourcemanager.containerservice.fluent.inner.AgentPoolInner.validate()
-- com.azure.resourcemanager.containerservice.fluent.inner.AgentPoolInner.vmSize()
-- com.azure.resourcemanager.containerservice.fluent.inner.AgentPoolInner.vnetSubnetId()
-- com.azure.resourcemanager.containerservice.fluent.inner.AgentPoolInner.withAvailabilityZones(java.util.List<java.lang.String>)
-- com.azure.resourcemanager.containerservice.fluent.inner.AgentPoolInner.withCount(java.lang.Integer)
-- com.azure.resourcemanager.containerservice.fluent.inner.AgentPoolInner.withEnableAutoScaling(java.lang.Boolean)
-- com.azure.resourcemanager.containerservice.fluent.inner.AgentPoolInner.withEnableNodePublicIp(java.lang.Boolean)
-- com.azure.resourcemanager.containerservice.fluent.inner.AgentPoolInner.withMaxCount(java.lang.Integer)
-- com.azure.resourcemanager.containerservice.fluent.inner.AgentPoolInner.withMaxPods(java.lang.Integer)
-- com.azure.resourcemanager.containerservice.fluent.inner.AgentPoolInner.withMinCount(java.lang.Integer)
-- com.azure.resourcemanager.containerservice.fluent.inner.AgentPoolInner.withNodeTaints(java.util.List<java.lang.String>)
-- com.azure.resourcemanager.containerservice.fluent.inner.AgentPoolInner.withOrchestratorVersion(java.lang.String)
-- com.azure.resourcemanager.containerservice.fluent.inner.AgentPoolInner.withOsDiskSizeGB(java.lang.Integer)
-- com.azure.resourcemanager.containerservice.fluent.inner.AgentPoolInner.withOsType(com.azure.resourcemanager.containerservice.models.OSType)
-- com.azure.resourcemanager.containerservice.fluent.inner.AgentPoolInner.withScaleSetEvictionPolicy(com.azure.resourcemanager.containerservice.models.ScaleSetEvictionPolicy)
-- com.azure.resourcemanager.containerservice.fluent.inner.AgentPoolInner.withScaleSetPriority(com.azure.resourcemanager.containerservice.models.ScaleSetPriority)
-- com.azure.resourcemanager.containerservice.fluent.inner.AgentPoolInner.withTypePropertiesType(com.azure.resourcemanager.containerservice.models.AgentPoolType)
-- com.azure.resourcemanager.containerservice.fluent.inner.AgentPoolInner.withVmSize(com.azure.resourcemanager.containerservice.models.ContainerServiceVMSizeTypes)
-- com.azure.resourcemanager.containerservice.fluent.inner.AgentPoolInner.withVnetSubnetId(java.lang.String)
-type: class
+- "com.azure.resourcemanager.containerservice.fluent.inner.AgentPoolInner.availabilityZones()"
+- "com.azure.resourcemanager.containerservice.fluent.inner.AgentPoolInner.count()"
+- "com.azure.resourcemanager.containerservice.fluent.inner.AgentPoolInner.enableAutoScaling()"
+- "com.azure.resourcemanager.containerservice.fluent.inner.AgentPoolInner.enableNodePublicIp()"
+- "com.azure.resourcemanager.containerservice.fluent.inner.AgentPoolInner.maxCount()"
+- "com.azure.resourcemanager.containerservice.fluent.inner.AgentPoolInner.maxPods()"
+- "com.azure.resourcemanager.containerservice.fluent.inner.AgentPoolInner.minCount()"
+- "com.azure.resourcemanager.containerservice.fluent.inner.AgentPoolInner.name()"
+- "com.azure.resourcemanager.containerservice.fluent.inner.AgentPoolInner.nodeTaints()"
+- "com.azure.resourcemanager.containerservice.fluent.inner.AgentPoolInner.orchestratorVersion()"
+- "com.azure.resourcemanager.containerservice.fluent.inner.AgentPoolInner.osDiskSizeGB()"
+- "com.azure.resourcemanager.containerservice.fluent.inner.AgentPoolInner.osType()"
+- "com.azure.resourcemanager.containerservice.fluent.inner.AgentPoolInner.provisioningState()"
+- "com.azure.resourcemanager.containerservice.fluent.inner.AgentPoolInner.scaleSetEvictionPolicy()"
+- "com.azure.resourcemanager.containerservice.fluent.inner.AgentPoolInner.scaleSetPriority()"
+- "com.azure.resourcemanager.containerservice.fluent.inner.AgentPoolInner.type()"
+- "com.azure.resourcemanager.containerservice.fluent.inner.AgentPoolInner.typePropertiesType()"
+- "com.azure.resourcemanager.containerservice.fluent.inner.AgentPoolInner.validate()"
+- "com.azure.resourcemanager.containerservice.fluent.inner.AgentPoolInner.vmSize()"
+- "com.azure.resourcemanager.containerservice.fluent.inner.AgentPoolInner.vnetSubnetId()"
+- "com.azure.resourcemanager.containerservice.fluent.inner.AgentPoolInner.withAvailabilityZones(java.util.List<java.lang.String>)"
+- "com.azure.resourcemanager.containerservice.fluent.inner.AgentPoolInner.withCount(java.lang.Integer)"
+- "com.azure.resourcemanager.containerservice.fluent.inner.AgentPoolInner.withEnableAutoScaling(java.lang.Boolean)"
+- "com.azure.resourcemanager.containerservice.fluent.inner.AgentPoolInner.withEnableNodePublicIp(java.lang.Boolean)"
+- "com.azure.resourcemanager.containerservice.fluent.inner.AgentPoolInner.withMaxCount(java.lang.Integer)"
+- "com.azure.resourcemanager.containerservice.fluent.inner.AgentPoolInner.withMaxPods(java.lang.Integer)"
+- "com.azure.resourcemanager.containerservice.fluent.inner.AgentPoolInner.withMinCount(java.lang.Integer)"
+- "com.azure.resourcemanager.containerservice.fluent.inner.AgentPoolInner.withNodeTaints(java.util.List<java.lang.String>)"
+- "com.azure.resourcemanager.containerservice.fluent.inner.AgentPoolInner.withOrchestratorVersion(java.lang.String)"
+- "com.azure.resourcemanager.containerservice.fluent.inner.AgentPoolInner.withOsDiskSizeGB(java.lang.Integer)"
+- "com.azure.resourcemanager.containerservice.fluent.inner.AgentPoolInner.withOsType(com.azure.resourcemanager.containerservice.models.OSType)"
+- "com.azure.resourcemanager.containerservice.fluent.inner.AgentPoolInner.withScaleSetEvictionPolicy(com.azure.resourcemanager.containerservice.models.ScaleSetEvictionPolicy)"
+- "com.azure.resourcemanager.containerservice.fluent.inner.AgentPoolInner.withScaleSetPriority(com.azure.resourcemanager.containerservice.models.ScaleSetPriority)"
+- "com.azure.resourcemanager.containerservice.fluent.inner.AgentPoolInner.withTypePropertiesType(com.azure.resourcemanager.containerservice.models.AgentPoolType)"
+- "com.azure.resourcemanager.containerservice.fluent.inner.AgentPoolInner.withVmSize(com.azure.resourcemanager.containerservice.models.ContainerServiceVMSizeTypes)"
+- "com.azure.resourcemanager.containerservice.fluent.inner.AgentPoolInner.withVnetSubnetId(java.lang.String)"
+type: "class"
 metadata: {}
-package: com.azure.resourcemanager.containerservice.fluent.inner
+package: "com.azure.resourcemanager.containerservice.fluent.inner"
 artifact: com.azure.resourcemanager:azure-resourcemanager-containerservice:2.0.0-beta.2

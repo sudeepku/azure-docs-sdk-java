@@ -1,53 +1,53 @@
 ### YamlMime:JavaType
-uid: com.azure.resourcemanager.monitor.fluent.inner.EventDataInner
-fullName: com.azure.resourcemanager.monitor.fluent.inner.EventDataInner
-name: EventDataInner
-nameWithType: EventDataInner
-summary: The EventData model.
+uid: "com.azure.resourcemanager.monitor.fluent.inner.EventDataInner"
+fullName: "com.azure.resourcemanager.monitor.fluent.inner.EventDataInner"
+name: "EventDataInner"
+nameWithType: "EventDataInner"
+summary: "The EventData model."
 inheritances:
-- <xref href="java.lang.Object" data-throw-if-not-resolved="False" />
+- "<xref href=\"java.lang.Object\" data-throw-if-not-resolved=\"False\" />"
 inheritedMembers:
-- java.lang.Object.clone()
-- java.lang.Object.equals(java.lang.Object)
-- java.lang.Object.finalize()
-- java.lang.Object.getClass()
-- java.lang.Object.hashCode()
-- java.lang.Object.notify()
-- java.lang.Object.notifyAll()
-- java.lang.Object.toString()
-- java.lang.Object.wait()
-- java.lang.Object.wait(long)
-- java.lang.Object.wait(long,int)
-syntax: public final class EventDataInner
+- "java.lang.Object.clone()"
+- "java.lang.Object.equals(java.lang.Object)"
+- "java.lang.Object.finalize()"
+- "java.lang.Object.getClass()"
+- "java.lang.Object.hashCode()"
+- "java.lang.Object.notify()"
+- "java.lang.Object.notifyAll()"
+- "java.lang.Object.toString()"
+- "java.lang.Object.wait()"
+- "java.lang.Object.wait(long)"
+- "java.lang.Object.wait(long,int)"
+syntax: "public final class EventDataInner"
 constructors:
-- com.azure.resourcemanager.monitor.fluent.inner.EventDataInner.EventDataInner()
+- "com.azure.resourcemanager.monitor.fluent.inner.EventDataInner.EventDataInner()"
 methods:
-- com.azure.resourcemanager.monitor.fluent.inner.EventDataInner.authorization()
-- com.azure.resourcemanager.monitor.fluent.inner.EventDataInner.caller()
-- com.azure.resourcemanager.monitor.fluent.inner.EventDataInner.category()
-- com.azure.resourcemanager.monitor.fluent.inner.EventDataInner.claims()
-- com.azure.resourcemanager.monitor.fluent.inner.EventDataInner.correlationId()
-- com.azure.resourcemanager.monitor.fluent.inner.EventDataInner.description()
-- com.azure.resourcemanager.monitor.fluent.inner.EventDataInner.eventDataId()
-- com.azure.resourcemanager.monitor.fluent.inner.EventDataInner.eventName()
-- com.azure.resourcemanager.monitor.fluent.inner.EventDataInner.eventTimestamp()
-- com.azure.resourcemanager.monitor.fluent.inner.EventDataInner.httpRequest()
-- com.azure.resourcemanager.monitor.fluent.inner.EventDataInner.id()
-- com.azure.resourcemanager.monitor.fluent.inner.EventDataInner.level()
-- com.azure.resourcemanager.monitor.fluent.inner.EventDataInner.operationId()
-- com.azure.resourcemanager.monitor.fluent.inner.EventDataInner.operationName()
-- com.azure.resourcemanager.monitor.fluent.inner.EventDataInner.properties()
-- com.azure.resourcemanager.monitor.fluent.inner.EventDataInner.resourceGroupName()
-- com.azure.resourcemanager.monitor.fluent.inner.EventDataInner.resourceId()
-- com.azure.resourcemanager.monitor.fluent.inner.EventDataInner.resourceProviderName()
-- com.azure.resourcemanager.monitor.fluent.inner.EventDataInner.resourceType()
-- com.azure.resourcemanager.monitor.fluent.inner.EventDataInner.status()
-- com.azure.resourcemanager.monitor.fluent.inner.EventDataInner.subStatus()
-- com.azure.resourcemanager.monitor.fluent.inner.EventDataInner.submissionTimestamp()
-- com.azure.resourcemanager.monitor.fluent.inner.EventDataInner.subscriptionId()
-- com.azure.resourcemanager.monitor.fluent.inner.EventDataInner.tenantId()
-- com.azure.resourcemanager.monitor.fluent.inner.EventDataInner.validate()
-type: class
+- "com.azure.resourcemanager.monitor.fluent.inner.EventDataInner.authorization()"
+- "com.azure.resourcemanager.monitor.fluent.inner.EventDataInner.caller()"
+- "com.azure.resourcemanager.monitor.fluent.inner.EventDataInner.category()"
+- "com.azure.resourcemanager.monitor.fluent.inner.EventDataInner.claims()"
+- "com.azure.resourcemanager.monitor.fluent.inner.EventDataInner.correlationId()"
+- "com.azure.resourcemanager.monitor.fluent.inner.EventDataInner.description()"
+- "com.azure.resourcemanager.monitor.fluent.inner.EventDataInner.eventDataId()"
+- "com.azure.resourcemanager.monitor.fluent.inner.EventDataInner.eventName()"
+- "com.azure.resourcemanager.monitor.fluent.inner.EventDataInner.eventTimestamp()"
+- "com.azure.resourcemanager.monitor.fluent.inner.EventDataInner.httpRequest()"
+- "com.azure.resourcemanager.monitor.fluent.inner.EventDataInner.id()"
+- "com.azure.resourcemanager.monitor.fluent.inner.EventDataInner.level()"
+- "com.azure.resourcemanager.monitor.fluent.inner.EventDataInner.operationId()"
+- "com.azure.resourcemanager.monitor.fluent.inner.EventDataInner.operationName()"
+- "com.azure.resourcemanager.monitor.fluent.inner.EventDataInner.properties()"
+- "com.azure.resourcemanager.monitor.fluent.inner.EventDataInner.resourceGroupName()"
+- "com.azure.resourcemanager.monitor.fluent.inner.EventDataInner.resourceId()"
+- "com.azure.resourcemanager.monitor.fluent.inner.EventDataInner.resourceProviderName()"
+- "com.azure.resourcemanager.monitor.fluent.inner.EventDataInner.resourceType()"
+- "com.azure.resourcemanager.monitor.fluent.inner.EventDataInner.status()"
+- "com.azure.resourcemanager.monitor.fluent.inner.EventDataInner.subStatus()"
+- "com.azure.resourcemanager.monitor.fluent.inner.EventDataInner.submissionTimestamp()"
+- "com.azure.resourcemanager.monitor.fluent.inner.EventDataInner.subscriptionId()"
+- "com.azure.resourcemanager.monitor.fluent.inner.EventDataInner.tenantId()"
+- "com.azure.resourcemanager.monitor.fluent.inner.EventDataInner.validate()"
+type: "class"
 metadata: {}
-package: com.azure.resourcemanager.monitor.fluent.inner
+package: "com.azure.resourcemanager.monitor.fluent.inner"
 artifact: com.azure.resourcemanager:azure-resourcemanager-monitor:2.0.0-beta.2

@@ -1,50 +1,50 @@
 ### YamlMime:JavaType
-uid: com.azure.resourcemanager.compute.fluent.inner.GalleryApplicationInner
-fullName: com.azure.resourcemanager.compute.fluent.inner.GalleryApplicationInner
-name: GalleryApplicationInner
-nameWithType: GalleryApplicationInner
-summary: The GalleryApplication model.
+uid: "com.azure.resourcemanager.compute.fluent.inner.GalleryApplicationInner"
+fullName: "com.azure.resourcemanager.compute.fluent.inner.GalleryApplicationInner"
+name: "GalleryApplicationInner"
+nameWithType: "GalleryApplicationInner"
+summary: "The GalleryApplication model."
 inheritances:
-- <xref href="java.lang.Object" data-throw-if-not-resolved="False" />
-- <xref href="com.azure.core.management.ProxyResource" data-throw-if-not-resolved="False" />
-- <xref href="com.azure.core.management.Resource" data-throw-if-not-resolved="False" />
+- "<xref href=\"java.lang.Object\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.azure.core.management.ProxyResource\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.azure.core.management.Resource\" data-throw-if-not-resolved=\"False\" />"
 inheritedMembers:
-- com.azure.core.management.ProxyResource.id()
-- com.azure.core.management.ProxyResource.name()
-- com.azure.core.management.ProxyResource.type()
-- com.azure.core.management.Resource.location()
-- com.azure.core.management.Resource.tags()
-- com.azure.core.management.Resource.withLocation(java.lang.String)
-- com.azure.core.management.Resource.withTags(java.util.Map<java.lang.String,java.lang.String>)
-- java.lang.Object.clone()
-- java.lang.Object.equals(java.lang.Object)
-- java.lang.Object.finalize()
-- java.lang.Object.getClass()
-- java.lang.Object.hashCode()
-- java.lang.Object.notify()
-- java.lang.Object.notifyAll()
-- java.lang.Object.toString()
-- java.lang.Object.wait()
-- java.lang.Object.wait(long)
-- java.lang.Object.wait(long,int)
-syntax: public class GalleryApplicationInner extends Resource
+- "com.azure.core.management.ProxyResource.id()"
+- "com.azure.core.management.ProxyResource.name()"
+- "com.azure.core.management.ProxyResource.type()"
+- "com.azure.core.management.Resource.location()"
+- "com.azure.core.management.Resource.tags()"
+- "com.azure.core.management.Resource.withLocation(java.lang.String)"
+- "com.azure.core.management.Resource.withTags(java.util.Map<java.lang.String,java.lang.String>)"
+- "java.lang.Object.clone()"
+- "java.lang.Object.equals(java.lang.Object)"
+- "java.lang.Object.finalize()"
+- "java.lang.Object.getClass()"
+- "java.lang.Object.hashCode()"
+- "java.lang.Object.notify()"
+- "java.lang.Object.notifyAll()"
+- "java.lang.Object.toString()"
+- "java.lang.Object.wait()"
+- "java.lang.Object.wait(long)"
+- "java.lang.Object.wait(long,int)"
+syntax: "public class GalleryApplicationInner extends Resource"
 constructors:
-- com.azure.resourcemanager.compute.fluent.inner.GalleryApplicationInner.GalleryApplicationInner()
+- "com.azure.resourcemanager.compute.fluent.inner.GalleryApplicationInner.GalleryApplicationInner()"
 methods:
-- com.azure.resourcemanager.compute.fluent.inner.GalleryApplicationInner.description()
-- com.azure.resourcemanager.compute.fluent.inner.GalleryApplicationInner.endOfLifeDate()
-- com.azure.resourcemanager.compute.fluent.inner.GalleryApplicationInner.eula()
-- com.azure.resourcemanager.compute.fluent.inner.GalleryApplicationInner.privacyStatementUri()
-- com.azure.resourcemanager.compute.fluent.inner.GalleryApplicationInner.releaseNoteUri()
-- com.azure.resourcemanager.compute.fluent.inner.GalleryApplicationInner.supportedOSType()
-- com.azure.resourcemanager.compute.fluent.inner.GalleryApplicationInner.validate()
-- com.azure.resourcemanager.compute.fluent.inner.GalleryApplicationInner.withDescription(java.lang.String)
-- com.azure.resourcemanager.compute.fluent.inner.GalleryApplicationInner.withEndOfLifeDate(java.time.OffsetDateTime)
-- com.azure.resourcemanager.compute.fluent.inner.GalleryApplicationInner.withEula(java.lang.String)
-- com.azure.resourcemanager.compute.fluent.inner.GalleryApplicationInner.withPrivacyStatementUri(java.lang.String)
-- com.azure.resourcemanager.compute.fluent.inner.GalleryApplicationInner.withReleaseNoteUri(java.lang.String)
-- com.azure.resourcemanager.compute.fluent.inner.GalleryApplicationInner.withSupportedOSType(com.azure.resourcemanager.compute.models.OperatingSystemTypes)
-type: class
+- "com.azure.resourcemanager.compute.fluent.inner.GalleryApplicationInner.description()"
+- "com.azure.resourcemanager.compute.fluent.inner.GalleryApplicationInner.endOfLifeDate()"
+- "com.azure.resourcemanager.compute.fluent.inner.GalleryApplicationInner.eula()"
+- "com.azure.resourcemanager.compute.fluent.inner.GalleryApplicationInner.privacyStatementUri()"
+- "com.azure.resourcemanager.compute.fluent.inner.GalleryApplicationInner.releaseNoteUri()"
+- "com.azure.resourcemanager.compute.fluent.inner.GalleryApplicationInner.supportedOSType()"
+- "com.azure.resourcemanager.compute.fluent.inner.GalleryApplicationInner.validate()"
+- "com.azure.resourcemanager.compute.fluent.inner.GalleryApplicationInner.withDescription(java.lang.String)"
+- "com.azure.resourcemanager.compute.fluent.inner.GalleryApplicationInner.withEndOfLifeDate(java.time.OffsetDateTime)"
+- "com.azure.resourcemanager.compute.fluent.inner.GalleryApplicationInner.withEula(java.lang.String)"
+- "com.azure.resourcemanager.compute.fluent.inner.GalleryApplicationInner.withPrivacyStatementUri(java.lang.String)"
+- "com.azure.resourcemanager.compute.fluent.inner.GalleryApplicationInner.withReleaseNoteUri(java.lang.String)"
+- "com.azure.resourcemanager.compute.fluent.inner.GalleryApplicationInner.withSupportedOSType(com.azure.resourcemanager.compute.models.OperatingSystemTypes)"
+type: "class"
 metadata: {}
-package: com.azure.resourcemanager.compute.fluent.inner
+package: "com.azure.resourcemanager.compute.fluent.inner"
 artifact: com.azure.resourcemanager:azure-resourcemanager-compute:2.0.0-beta.2

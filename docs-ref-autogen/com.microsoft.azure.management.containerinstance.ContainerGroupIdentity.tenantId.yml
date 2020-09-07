@@ -1,19 +1,19 @@
 ### YamlMime:JavaMember
-uid: com.microsoft.azure.management.containerinstance.ContainerGroupIdentity.tenantId*
-fullName: com.microsoft.azure.management.containerinstance.ContainerGroupIdentity.tenantId
-name: tenantId
-nameWithType: ContainerGroupIdentity.tenantId
+uid: "com.microsoft.azure.management.containerinstance.ContainerGroupIdentity.tenantId*"
+fullName: "com.microsoft.azure.management.containerinstance.ContainerGroupIdentity.tenantId"
+name: "tenantId"
+nameWithType: "ContainerGroupIdentity.tenantId"
 members:
-- uid: com.microsoft.azure.management.containerinstance.ContainerGroupIdentity.tenantId()
-  fullName: com.microsoft.azure.management.containerinstance.ContainerGroupIdentity.tenantId()
-  name: tenantId()
-  nameWithType: ContainerGroupIdentity.tenantId()
-  summary: Get the tenant id associated with the container group. This property will only be provided for a system assigned identity.
-  syntax: public String tenantId()
+- uid: "com.microsoft.azure.management.containerinstance.ContainerGroupIdentity.tenantId()"
+  fullName: "com.microsoft.azure.management.containerinstance.ContainerGroupIdentity.tenantId()"
+  name: "tenantId()"
+  nameWithType: "ContainerGroupIdentity.tenantId()"
+  summary: "Get the tenant id associated with the container group. This property will only be provided for a system assigned identity."
+  syntax: "public String tenantId()"
   returns:
-    description: the tenantId value
-    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
-type: method
+    description: "the tenantId value"
+    type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
+type: "method"
 metadata: {}
-package: com.microsoft.azure.management.containerinstance
-artifact: com.microsoft.azure:azure-mgmt-containerinstance:1.36.1
+package: "com.microsoft.azure.management.containerinstance"
+artifact: com.microsoft.azure:azure-mgmt-containerinstance:1.36.2

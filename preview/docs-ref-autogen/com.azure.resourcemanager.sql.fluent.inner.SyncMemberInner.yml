@@ -1,54 +1,54 @@
 ### YamlMime:JavaType
-uid: com.azure.resourcemanager.sql.fluent.inner.SyncMemberInner
-fullName: com.azure.resourcemanager.sql.fluent.inner.SyncMemberInner
-name: SyncMemberInner
-nameWithType: SyncMemberInner
-summary: The SyncMember model.
+uid: "com.azure.resourcemanager.sql.fluent.inner.SyncMemberInner"
+fullName: "com.azure.resourcemanager.sql.fluent.inner.SyncMemberInner"
+name: "SyncMemberInner"
+nameWithType: "SyncMemberInner"
+summary: "The SyncMember model."
 inheritances:
-- <xref href="java.lang.Object" data-throw-if-not-resolved="False" />
-- <xref href="com.azure.core.management.ProxyResource" data-throw-if-not-resolved="False" />
+- "<xref href=\"java.lang.Object\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.azure.core.management.ProxyResource\" data-throw-if-not-resolved=\"False\" />"
 inheritedMembers:
-- com.azure.core.management.ProxyResource.id()
-- com.azure.core.management.ProxyResource.name()
-- com.azure.core.management.ProxyResource.type()
-- java.lang.Object.clone()
-- java.lang.Object.equals(java.lang.Object)
-- java.lang.Object.finalize()
-- java.lang.Object.getClass()
-- java.lang.Object.hashCode()
-- java.lang.Object.notify()
-- java.lang.Object.notifyAll()
-- java.lang.Object.toString()
-- java.lang.Object.wait()
-- java.lang.Object.wait(long)
-- java.lang.Object.wait(long,int)
-syntax: public class SyncMemberInner extends ProxyResource
+- "com.azure.core.management.ProxyResource.id()"
+- "com.azure.core.management.ProxyResource.name()"
+- "com.azure.core.management.ProxyResource.type()"
+- "java.lang.Object.clone()"
+- "java.lang.Object.equals(java.lang.Object)"
+- "java.lang.Object.finalize()"
+- "java.lang.Object.getClass()"
+- "java.lang.Object.hashCode()"
+- "java.lang.Object.notify()"
+- "java.lang.Object.notifyAll()"
+- "java.lang.Object.toString()"
+- "java.lang.Object.wait()"
+- "java.lang.Object.wait(long)"
+- "java.lang.Object.wait(long,int)"
+syntax: "public class SyncMemberInner extends ProxyResource"
 constructors:
-- com.azure.resourcemanager.sql.fluent.inner.SyncMemberInner.SyncMemberInner()
+- "com.azure.resourcemanager.sql.fluent.inner.SyncMemberInner.SyncMemberInner()"
 methods:
-- com.azure.resourcemanager.sql.fluent.inner.SyncMemberInner.databaseName()
-- com.azure.resourcemanager.sql.fluent.inner.SyncMemberInner.databaseType()
-- com.azure.resourcemanager.sql.fluent.inner.SyncMemberInner.password()
-- com.azure.resourcemanager.sql.fluent.inner.SyncMemberInner.serverName()
-- com.azure.resourcemanager.sql.fluent.inner.SyncMemberInner.sqlServerDatabaseId()
-- com.azure.resourcemanager.sql.fluent.inner.SyncMemberInner.syncAgentId()
-- com.azure.resourcemanager.sql.fluent.inner.SyncMemberInner.syncDirection()
-- com.azure.resourcemanager.sql.fluent.inner.SyncMemberInner.syncMemberAzureDatabaseResourceId()
-- com.azure.resourcemanager.sql.fluent.inner.SyncMemberInner.syncState()
-- com.azure.resourcemanager.sql.fluent.inner.SyncMemberInner.usePrivateLinkConnection()
-- com.azure.resourcemanager.sql.fluent.inner.SyncMemberInner.username()
-- com.azure.resourcemanager.sql.fluent.inner.SyncMemberInner.validate()
-- com.azure.resourcemanager.sql.fluent.inner.SyncMemberInner.withDatabaseName(java.lang.String)
-- com.azure.resourcemanager.sql.fluent.inner.SyncMemberInner.withDatabaseType(com.azure.resourcemanager.sql.models.SyncMemberDbType)
-- com.azure.resourcemanager.sql.fluent.inner.SyncMemberInner.withPassword(java.lang.String)
-- com.azure.resourcemanager.sql.fluent.inner.SyncMemberInner.withServerName(java.lang.String)
-- com.azure.resourcemanager.sql.fluent.inner.SyncMemberInner.withSqlServerDatabaseId(java.util.UUID)
-- com.azure.resourcemanager.sql.fluent.inner.SyncMemberInner.withSyncAgentId(java.lang.String)
-- com.azure.resourcemanager.sql.fluent.inner.SyncMemberInner.withSyncDirection(com.azure.resourcemanager.sql.models.SyncDirection)
-- com.azure.resourcemanager.sql.fluent.inner.SyncMemberInner.withSyncMemberAzureDatabaseResourceId(java.lang.String)
-- com.azure.resourcemanager.sql.fluent.inner.SyncMemberInner.withUsePrivateLinkConnection(java.lang.Boolean)
-- com.azure.resourcemanager.sql.fluent.inner.SyncMemberInner.withUsername(java.lang.String)
-type: class
+- "com.azure.resourcemanager.sql.fluent.inner.SyncMemberInner.databaseName()"
+- "com.azure.resourcemanager.sql.fluent.inner.SyncMemberInner.databaseType()"
+- "com.azure.resourcemanager.sql.fluent.inner.SyncMemberInner.password()"
+- "com.azure.resourcemanager.sql.fluent.inner.SyncMemberInner.serverName()"
+- "com.azure.resourcemanager.sql.fluent.inner.SyncMemberInner.sqlServerDatabaseId()"
+- "com.azure.resourcemanager.sql.fluent.inner.SyncMemberInner.syncAgentId()"
+- "com.azure.resourcemanager.sql.fluent.inner.SyncMemberInner.syncDirection()"
+- "com.azure.resourcemanager.sql.fluent.inner.SyncMemberInner.syncMemberAzureDatabaseResourceId()"
+- "com.azure.resourcemanager.sql.fluent.inner.SyncMemberInner.syncState()"
+- "com.azure.resourcemanager.sql.fluent.inner.SyncMemberInner.usePrivateLinkConnection()"
+- "com.azure.resourcemanager.sql.fluent.inner.SyncMemberInner.username()"
+- "com.azure.resourcemanager.sql.fluent.inner.SyncMemberInner.validate()"
+- "com.azure.resourcemanager.sql.fluent.inner.SyncMemberInner.withDatabaseName(java.lang.String)"
+- "com.azure.resourcemanager.sql.fluent.inner.SyncMemberInner.withDatabaseType(com.azure.resourcemanager.sql.models.SyncMemberDbType)"
+- "com.azure.resourcemanager.sql.fluent.inner.SyncMemberInner.withPassword(java.lang.String)"
+- "com.azure.resourcemanager.sql.fluent.inner.SyncMemberInner.withServerName(java.lang.String)"
+- "com.azure.resourcemanager.sql.fluent.inner.SyncMemberInner.withSqlServerDatabaseId(java.util.UUID)"
+- "com.azure.resourcemanager.sql.fluent.inner.SyncMemberInner.withSyncAgentId(java.lang.String)"
+- "com.azure.resourcemanager.sql.fluent.inner.SyncMemberInner.withSyncDirection(com.azure.resourcemanager.sql.models.SyncDirection)"
+- "com.azure.resourcemanager.sql.fluent.inner.SyncMemberInner.withSyncMemberAzureDatabaseResourceId(java.lang.String)"
+- "com.azure.resourcemanager.sql.fluent.inner.SyncMemberInner.withUsePrivateLinkConnection(java.lang.Boolean)"
+- "com.azure.resourcemanager.sql.fluent.inner.SyncMemberInner.withUsername(java.lang.String)"
+type: "class"
 metadata: {}
-package: com.azure.resourcemanager.sql.fluent.inner
+package: "com.azure.resourcemanager.sql.fluent.inner"
 artifact: com.azure.resourcemanager:azure-resourcemanager-sql:2.0.0-beta.2

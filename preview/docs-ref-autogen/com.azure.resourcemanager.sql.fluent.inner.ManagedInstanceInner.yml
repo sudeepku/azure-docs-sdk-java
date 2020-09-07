@@ -1,79 +1,79 @@
 ### YamlMime:JavaType
-uid: com.azure.resourcemanager.sql.fluent.inner.ManagedInstanceInner
-fullName: com.azure.resourcemanager.sql.fluent.inner.ManagedInstanceInner
-name: ManagedInstanceInner
-nameWithType: ManagedInstanceInner
-summary: The ManagedInstance model.
+uid: "com.azure.resourcemanager.sql.fluent.inner.ManagedInstanceInner"
+fullName: "com.azure.resourcemanager.sql.fluent.inner.ManagedInstanceInner"
+name: "ManagedInstanceInner"
+nameWithType: "ManagedInstanceInner"
+summary: "The ManagedInstance model."
 inheritances:
-- <xref href="java.lang.Object" data-throw-if-not-resolved="False" />
-- <xref href="com.azure.core.management.ProxyResource" data-throw-if-not-resolved="False" />
-- <xref href="com.azure.core.management.Resource" data-throw-if-not-resolved="False" />
+- "<xref href=\"java.lang.Object\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.azure.core.management.ProxyResource\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.azure.core.management.Resource\" data-throw-if-not-resolved=\"False\" />"
 inheritedMembers:
-- com.azure.core.management.ProxyResource.id()
-- com.azure.core.management.ProxyResource.name()
-- com.azure.core.management.ProxyResource.type()
-- com.azure.core.management.Resource.location()
-- com.azure.core.management.Resource.tags()
-- com.azure.core.management.Resource.withLocation(java.lang.String)
-- com.azure.core.management.Resource.withTags(java.util.Map<java.lang.String,java.lang.String>)
-- java.lang.Object.clone()
-- java.lang.Object.equals(java.lang.Object)
-- java.lang.Object.finalize()
-- java.lang.Object.getClass()
-- java.lang.Object.hashCode()
-- java.lang.Object.notify()
-- java.lang.Object.notifyAll()
-- java.lang.Object.toString()
-- java.lang.Object.wait()
-- java.lang.Object.wait(long)
-- java.lang.Object.wait(long,int)
-syntax: public class ManagedInstanceInner extends Resource
+- "com.azure.core.management.ProxyResource.id()"
+- "com.azure.core.management.ProxyResource.name()"
+- "com.azure.core.management.ProxyResource.type()"
+- "com.azure.core.management.Resource.location()"
+- "com.azure.core.management.Resource.tags()"
+- "com.azure.core.management.Resource.withLocation(java.lang.String)"
+- "com.azure.core.management.Resource.withTags(java.util.Map<java.lang.String,java.lang.String>)"
+- "java.lang.Object.clone()"
+- "java.lang.Object.equals(java.lang.Object)"
+- "java.lang.Object.finalize()"
+- "java.lang.Object.getClass()"
+- "java.lang.Object.hashCode()"
+- "java.lang.Object.notify()"
+- "java.lang.Object.notifyAll()"
+- "java.lang.Object.toString()"
+- "java.lang.Object.wait()"
+- "java.lang.Object.wait(long)"
+- "java.lang.Object.wait(long,int)"
+syntax: "public class ManagedInstanceInner extends Resource"
 constructors:
-- com.azure.resourcemanager.sql.fluent.inner.ManagedInstanceInner.ManagedInstanceInner()
+- "com.azure.resourcemanager.sql.fluent.inner.ManagedInstanceInner.ManagedInstanceInner()"
 methods:
-- com.azure.resourcemanager.sql.fluent.inner.ManagedInstanceInner.administratorLogin()
-- com.azure.resourcemanager.sql.fluent.inner.ManagedInstanceInner.administratorLoginPassword()
-- com.azure.resourcemanager.sql.fluent.inner.ManagedInstanceInner.collation()
-- com.azure.resourcemanager.sql.fluent.inner.ManagedInstanceInner.dnsZone()
-- com.azure.resourcemanager.sql.fluent.inner.ManagedInstanceInner.dnsZonePartner()
-- com.azure.resourcemanager.sql.fluent.inner.ManagedInstanceInner.fullyQualifiedDomainName()
-- com.azure.resourcemanager.sql.fluent.inner.ManagedInstanceInner.identity()
-- com.azure.resourcemanager.sql.fluent.inner.ManagedInstanceInner.instancePoolId()
-- com.azure.resourcemanager.sql.fluent.inner.ManagedInstanceInner.licenseType()
-- com.azure.resourcemanager.sql.fluent.inner.ManagedInstanceInner.maintenanceConfigurationId()
-- com.azure.resourcemanager.sql.fluent.inner.ManagedInstanceInner.managedInstanceCreateMode()
-- com.azure.resourcemanager.sql.fluent.inner.ManagedInstanceInner.minimalTlsVersion()
-- com.azure.resourcemanager.sql.fluent.inner.ManagedInstanceInner.proxyOverride()
-- com.azure.resourcemanager.sql.fluent.inner.ManagedInstanceInner.publicDataEndpointEnabled()
-- com.azure.resourcemanager.sql.fluent.inner.ManagedInstanceInner.restorePointInTime()
-- com.azure.resourcemanager.sql.fluent.inner.ManagedInstanceInner.sku()
-- com.azure.resourcemanager.sql.fluent.inner.ManagedInstanceInner.sourceManagedInstanceId()
-- com.azure.resourcemanager.sql.fluent.inner.ManagedInstanceInner.state()
-- com.azure.resourcemanager.sql.fluent.inner.ManagedInstanceInner.storageSizeInGB()
-- com.azure.resourcemanager.sql.fluent.inner.ManagedInstanceInner.subnetId()
-- com.azure.resourcemanager.sql.fluent.inner.ManagedInstanceInner.timezoneId()
-- com.azure.resourcemanager.sql.fluent.inner.ManagedInstanceInner.vCores()
-- com.azure.resourcemanager.sql.fluent.inner.ManagedInstanceInner.validate()
-- com.azure.resourcemanager.sql.fluent.inner.ManagedInstanceInner.withAdministratorLogin(java.lang.String)
-- com.azure.resourcemanager.sql.fluent.inner.ManagedInstanceInner.withAdministratorLoginPassword(java.lang.String)
-- com.azure.resourcemanager.sql.fluent.inner.ManagedInstanceInner.withCollation(java.lang.String)
-- com.azure.resourcemanager.sql.fluent.inner.ManagedInstanceInner.withDnsZonePartner(java.lang.String)
-- com.azure.resourcemanager.sql.fluent.inner.ManagedInstanceInner.withIdentity(com.azure.resourcemanager.sql.models.ResourceIdentity)
-- com.azure.resourcemanager.sql.fluent.inner.ManagedInstanceInner.withInstancePoolId(java.lang.String)
-- com.azure.resourcemanager.sql.fluent.inner.ManagedInstanceInner.withLicenseType(com.azure.resourcemanager.sql.models.ManagedInstanceLicenseType)
-- com.azure.resourcemanager.sql.fluent.inner.ManagedInstanceInner.withMaintenanceConfigurationId(java.lang.String)
-- com.azure.resourcemanager.sql.fluent.inner.ManagedInstanceInner.withManagedInstanceCreateMode(com.azure.resourcemanager.sql.models.ManagedServerCreateMode)
-- com.azure.resourcemanager.sql.fluent.inner.ManagedInstanceInner.withMinimalTlsVersion(java.lang.String)
-- com.azure.resourcemanager.sql.fluent.inner.ManagedInstanceInner.withProxyOverride(com.azure.resourcemanager.sql.models.ManagedInstanceProxyOverride)
-- com.azure.resourcemanager.sql.fluent.inner.ManagedInstanceInner.withPublicDataEndpointEnabled(java.lang.Boolean)
-- com.azure.resourcemanager.sql.fluent.inner.ManagedInstanceInner.withRestorePointInTime(java.time.OffsetDateTime)
-- com.azure.resourcemanager.sql.fluent.inner.ManagedInstanceInner.withSku(com.azure.resourcemanager.sql.models.Sku)
-- com.azure.resourcemanager.sql.fluent.inner.ManagedInstanceInner.withSourceManagedInstanceId(java.lang.String)
-- com.azure.resourcemanager.sql.fluent.inner.ManagedInstanceInner.withStorageSizeInGB(java.lang.Integer)
-- com.azure.resourcemanager.sql.fluent.inner.ManagedInstanceInner.withSubnetId(java.lang.String)
-- com.azure.resourcemanager.sql.fluent.inner.ManagedInstanceInner.withTimezoneId(java.lang.String)
-- com.azure.resourcemanager.sql.fluent.inner.ManagedInstanceInner.withVCores(java.lang.Integer)
-type: class
+- "com.azure.resourcemanager.sql.fluent.inner.ManagedInstanceInner.administratorLogin()"
+- "com.azure.resourcemanager.sql.fluent.inner.ManagedInstanceInner.administratorLoginPassword()"
+- "com.azure.resourcemanager.sql.fluent.inner.ManagedInstanceInner.collation()"
+- "com.azure.resourcemanager.sql.fluent.inner.ManagedInstanceInner.dnsZone()"
+- "com.azure.resourcemanager.sql.fluent.inner.ManagedInstanceInner.dnsZonePartner()"
+- "com.azure.resourcemanager.sql.fluent.inner.ManagedInstanceInner.fullyQualifiedDomainName()"
+- "com.azure.resourcemanager.sql.fluent.inner.ManagedInstanceInner.identity()"
+- "com.azure.resourcemanager.sql.fluent.inner.ManagedInstanceInner.instancePoolId()"
+- "com.azure.resourcemanager.sql.fluent.inner.ManagedInstanceInner.licenseType()"
+- "com.azure.resourcemanager.sql.fluent.inner.ManagedInstanceInner.maintenanceConfigurationId()"
+- "com.azure.resourcemanager.sql.fluent.inner.ManagedInstanceInner.managedInstanceCreateMode()"
+- "com.azure.resourcemanager.sql.fluent.inner.ManagedInstanceInner.minimalTlsVersion()"
+- "com.azure.resourcemanager.sql.fluent.inner.ManagedInstanceInner.proxyOverride()"
+- "com.azure.resourcemanager.sql.fluent.inner.ManagedInstanceInner.publicDataEndpointEnabled()"
+- "com.azure.resourcemanager.sql.fluent.inner.ManagedInstanceInner.restorePointInTime()"
+- "com.azure.resourcemanager.sql.fluent.inner.ManagedInstanceInner.sku()"
+- "com.azure.resourcemanager.sql.fluent.inner.ManagedInstanceInner.sourceManagedInstanceId()"
+- "com.azure.resourcemanager.sql.fluent.inner.ManagedInstanceInner.state()"
+- "com.azure.resourcemanager.sql.fluent.inner.ManagedInstanceInner.storageSizeInGB()"
+- "com.azure.resourcemanager.sql.fluent.inner.ManagedInstanceInner.subnetId()"
+- "com.azure.resourcemanager.sql.fluent.inner.ManagedInstanceInner.timezoneId()"
+- "com.azure.resourcemanager.sql.fluent.inner.ManagedInstanceInner.vCores()"
+- "com.azure.resourcemanager.sql.fluent.inner.ManagedInstanceInner.validate()"
+- "com.azure.resourcemanager.sql.fluent.inner.ManagedInstanceInner.withAdministratorLogin(java.lang.String)"
+- "com.azure.resourcemanager.sql.fluent.inner.ManagedInstanceInner.withAdministratorLoginPassword(java.lang.String)"
+- "com.azure.resourcemanager.sql.fluent.inner.ManagedInstanceInner.withCollation(java.lang.String)"
+- "com.azure.resourcemanager.sql.fluent.inner.ManagedInstanceInner.withDnsZonePartner(java.lang.String)"
+- "com.azure.resourcemanager.sql.fluent.inner.ManagedInstanceInner.withIdentity(com.azure.resourcemanager.sql.models.ResourceIdentity)"
+- "com.azure.resourcemanager.sql.fluent.inner.ManagedInstanceInner.withInstancePoolId(java.lang.String)"
+- "com.azure.resourcemanager.sql.fluent.inner.ManagedInstanceInner.withLicenseType(com.azure.resourcemanager.sql.models.ManagedInstanceLicenseType)"
+- "com.azure.resourcemanager.sql.fluent.inner.ManagedInstanceInner.withMaintenanceConfigurationId(java.lang.String)"
+- "com.azure.resourcemanager.sql.fluent.inner.ManagedInstanceInner.withManagedInstanceCreateMode(com.azure.resourcemanager.sql.models.ManagedServerCreateMode)"
+- "com.azure.resourcemanager.sql.fluent.inner.ManagedInstanceInner.withMinimalTlsVersion(java.lang.String)"
+- "com.azure.resourcemanager.sql.fluent.inner.ManagedInstanceInner.withProxyOverride(com.azure.resourcemanager.sql.models.ManagedInstanceProxyOverride)"
+- "com.azure.resourcemanager.sql.fluent.inner.ManagedInstanceInner.withPublicDataEndpointEnabled(java.lang.Boolean)"
+- "com.azure.resourcemanager.sql.fluent.inner.ManagedInstanceInner.withRestorePointInTime(java.time.OffsetDateTime)"
+- "com.azure.resourcemanager.sql.fluent.inner.ManagedInstanceInner.withSku(com.azure.resourcemanager.sql.models.Sku)"
+- "com.azure.resourcemanager.sql.fluent.inner.ManagedInstanceInner.withSourceManagedInstanceId(java.lang.String)"
+- "com.azure.resourcemanager.sql.fluent.inner.ManagedInstanceInner.withStorageSizeInGB(java.lang.Integer)"
+- "com.azure.resourcemanager.sql.fluent.inner.ManagedInstanceInner.withSubnetId(java.lang.String)"
+- "com.azure.resourcemanager.sql.fluent.inner.ManagedInstanceInner.withTimezoneId(java.lang.String)"
+- "com.azure.resourcemanager.sql.fluent.inner.ManagedInstanceInner.withVCores(java.lang.Integer)"
+type: "class"
 metadata: {}
-package: com.azure.resourcemanager.sql.fluent.inner
+package: "com.azure.resourcemanager.sql.fluent.inner"
 artifact: com.azure.resourcemanager:azure-resourcemanager-sql:2.0.0-beta.2

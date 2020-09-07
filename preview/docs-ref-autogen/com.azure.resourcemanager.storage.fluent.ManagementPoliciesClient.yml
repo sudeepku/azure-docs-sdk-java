@@ -1,48 +1,48 @@
 ### YamlMime:JavaType
-uid: com.azure.resourcemanager.storage.fluent.ManagementPoliciesClient
-fullName: com.azure.resourcemanager.storage.fluent.ManagementPoliciesClient
-name: ManagementPoliciesClient
-nameWithType: ManagementPoliciesClient
-summary: An instance of this class provides access to all the operations defined in ManagementPolicies.
+uid: "com.azure.resourcemanager.storage.fluent.ManagementPoliciesClient"
+fullName: "com.azure.resourcemanager.storage.fluent.ManagementPoliciesClient"
+name: "ManagementPoliciesClient"
+nameWithType: "ManagementPoliciesClient"
+summary: "An instance of this class provides access to all the operations defined in ManagementPolicies."
 inheritances:
-- <xref href="java.lang.Object" data-throw-if-not-resolved="False" />
+- "<xref href=\"java.lang.Object\" data-throw-if-not-resolved=\"False\" />"
 inheritedMembers:
-- java.lang.Object.clone()
-- java.lang.Object.equals(java.lang.Object)
-- java.lang.Object.finalize()
-- java.lang.Object.getClass()
-- java.lang.Object.hashCode()
-- java.lang.Object.notify()
-- java.lang.Object.notifyAll()
-- java.lang.Object.toString()
-- java.lang.Object.wait()
-- java.lang.Object.wait(long)
-- java.lang.Object.wait(long,int)
-syntax: public final class ManagementPoliciesClient implements InnerSupportsDelete<Void>
+- "java.lang.Object.clone()"
+- "java.lang.Object.equals(java.lang.Object)"
+- "java.lang.Object.finalize()"
+- "java.lang.Object.getClass()"
+- "java.lang.Object.hashCode()"
+- "java.lang.Object.notify()"
+- "java.lang.Object.notifyAll()"
+- "java.lang.Object.toString()"
+- "java.lang.Object.wait()"
+- "java.lang.Object.wait(long)"
+- "java.lang.Object.wait(long,int)"
+syntax: "public final class ManagementPoliciesClient implements InnerSupportsDelete<Void>"
 constructors:
-- com.azure.resourcemanager.storage.fluent.ManagementPoliciesClient.ManagementPoliciesClient(com.azure.resourcemanager.storage.StorageManagementClient)
+- "com.azure.resourcemanager.storage.fluent.ManagementPoliciesClient.ManagementPoliciesClient(com.azure.resourcemanager.storage.StorageManagementClient)"
 methods:
-- com.azure.resourcemanager.storage.fluent.ManagementPoliciesClient.createOrUpdate(java.lang.String,java.lang.String,com.azure.resourcemanager.storage.models.ManagementPolicySchema)
-- com.azure.resourcemanager.storage.fluent.ManagementPoliciesClient.createOrUpdate(java.lang.String,java.lang.String,com.azure.resourcemanager.storage.models.ManagementPolicySchema,com.azure.core.util.Context)
-- com.azure.resourcemanager.storage.fluent.ManagementPoliciesClient.createOrUpdateAsync(java.lang.String,java.lang.String,com.azure.resourcemanager.storage.models.ManagementPolicySchema)
-- com.azure.resourcemanager.storage.fluent.ManagementPoliciesClient.createOrUpdateAsync(java.lang.String,java.lang.String,com.azure.resourcemanager.storage.models.ManagementPolicySchema,com.azure.core.util.Context)
-- com.azure.resourcemanager.storage.fluent.ManagementPoliciesClient.createOrUpdateWithResponseAsync(java.lang.String,java.lang.String,com.azure.resourcemanager.storage.models.ManagementPolicySchema)
-- com.azure.resourcemanager.storage.fluent.ManagementPoliciesClient.createOrUpdateWithResponseAsync(java.lang.String,java.lang.String,com.azure.resourcemanager.storage.models.ManagementPolicySchema,com.azure.core.util.Context)
-- com.azure.resourcemanager.storage.fluent.ManagementPoliciesClient.delete(java.lang.String,java.lang.String)
-- com.azure.resourcemanager.storage.fluent.ManagementPoliciesClient.delete(java.lang.String,java.lang.String,com.azure.core.util.Context)
-- com.azure.resourcemanager.storage.fluent.ManagementPoliciesClient.deleteAsync(java.lang.String,java.lang.String)
-- com.azure.resourcemanager.storage.fluent.ManagementPoliciesClient.deleteAsync(java.lang.String,java.lang.String,com.azure.core.util.Context)
-- com.azure.resourcemanager.storage.fluent.ManagementPoliciesClient.deleteWithResponseAsync(java.lang.String,java.lang.String)
-- com.azure.resourcemanager.storage.fluent.ManagementPoliciesClient.deleteWithResponseAsync(java.lang.String,java.lang.String,com.azure.core.util.Context)
-- com.azure.resourcemanager.storage.fluent.ManagementPoliciesClient.get(java.lang.String,java.lang.String)
-- com.azure.resourcemanager.storage.fluent.ManagementPoliciesClient.get(java.lang.String,java.lang.String,com.azure.core.util.Context)
-- com.azure.resourcemanager.storage.fluent.ManagementPoliciesClient.getAsync(java.lang.String,java.lang.String)
-- com.azure.resourcemanager.storage.fluent.ManagementPoliciesClient.getAsync(java.lang.String,java.lang.String,com.azure.core.util.Context)
-- com.azure.resourcemanager.storage.fluent.ManagementPoliciesClient.getWithResponseAsync(java.lang.String,java.lang.String)
-- com.azure.resourcemanager.storage.fluent.ManagementPoliciesClient.getWithResponseAsync(java.lang.String,java.lang.String,com.azure.core.util.Context)
-type: class
+- "com.azure.resourcemanager.storage.fluent.ManagementPoliciesClient.createOrUpdate(java.lang.String,java.lang.String,com.azure.resourcemanager.storage.models.ManagementPolicySchema)"
+- "com.azure.resourcemanager.storage.fluent.ManagementPoliciesClient.createOrUpdate(java.lang.String,java.lang.String,com.azure.resourcemanager.storage.models.ManagementPolicySchema,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.storage.fluent.ManagementPoliciesClient.createOrUpdateAsync(java.lang.String,java.lang.String,com.azure.resourcemanager.storage.models.ManagementPolicySchema)"
+- "com.azure.resourcemanager.storage.fluent.ManagementPoliciesClient.createOrUpdateAsync(java.lang.String,java.lang.String,com.azure.resourcemanager.storage.models.ManagementPolicySchema,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.storage.fluent.ManagementPoliciesClient.createOrUpdateWithResponseAsync(java.lang.String,java.lang.String,com.azure.resourcemanager.storage.models.ManagementPolicySchema)"
+- "com.azure.resourcemanager.storage.fluent.ManagementPoliciesClient.createOrUpdateWithResponseAsync(java.lang.String,java.lang.String,com.azure.resourcemanager.storage.models.ManagementPolicySchema,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.storage.fluent.ManagementPoliciesClient.delete(java.lang.String,java.lang.String)"
+- "com.azure.resourcemanager.storage.fluent.ManagementPoliciesClient.delete(java.lang.String,java.lang.String,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.storage.fluent.ManagementPoliciesClient.deleteAsync(java.lang.String,java.lang.String)"
+- "com.azure.resourcemanager.storage.fluent.ManagementPoliciesClient.deleteAsync(java.lang.String,java.lang.String,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.storage.fluent.ManagementPoliciesClient.deleteWithResponseAsync(java.lang.String,java.lang.String)"
+- "com.azure.resourcemanager.storage.fluent.ManagementPoliciesClient.deleteWithResponseAsync(java.lang.String,java.lang.String,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.storage.fluent.ManagementPoliciesClient.get(java.lang.String,java.lang.String)"
+- "com.azure.resourcemanager.storage.fluent.ManagementPoliciesClient.get(java.lang.String,java.lang.String,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.storage.fluent.ManagementPoliciesClient.getAsync(java.lang.String,java.lang.String)"
+- "com.azure.resourcemanager.storage.fluent.ManagementPoliciesClient.getAsync(java.lang.String,java.lang.String,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.storage.fluent.ManagementPoliciesClient.getWithResponseAsync(java.lang.String,java.lang.String)"
+- "com.azure.resourcemanager.storage.fluent.ManagementPoliciesClient.getWithResponseAsync(java.lang.String,java.lang.String,com.azure.core.util.Context)"
+type: "class"
 implements:
-- <xref href="com.azure.resourcemanager.resources.fluentcore.collection.InnerSupportsDelete?alt=com.azure.resourcemanager.resources.fluentcore.collection.InnerSupportsDelete&text=InnerSupportsDelete" data-throw-if-not-resolved="False" />&lt;<xref href="java.lang.Void?alt=java.lang.Void&text=Void" data-throw-if-not-resolved="False" />&gt;
+- "<xref href=\"com.azure.resourcemanager.resources.fluentcore.collection.InnerSupportsDelete?alt=com.azure.resourcemanager.resources.fluentcore.collection.InnerSupportsDelete&text=InnerSupportsDelete\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"java.lang.Void?alt=java.lang.Void&text=Void\" data-throw-if-not-resolved=\"False\" />&gt;"
 metadata: {}
-package: com.azure.resourcemanager.storage.fluent
+package: "com.azure.resourcemanager.storage.fluent"
 artifact: com.azure.resourcemanager:azure-resourcemanager-storage:2.0.0-beta.2

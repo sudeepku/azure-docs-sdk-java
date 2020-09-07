@@ -1,15 +1,15 @@
 ### YamlMime:JavaMember
-uid: com.azure.resourcemanager.appservice.fluent.inner.CsmCopySlotEntityInner.CsmCopySlotEntityInner*
-fullName: com.azure.resourcemanager.appservice.fluent.inner.CsmCopySlotEntityInner.CsmCopySlotEntityInner
-name: CsmCopySlotEntityInner
-nameWithType: CsmCopySlotEntityInner.CsmCopySlotEntityInner
+uid: "com.azure.resourcemanager.appservice.fluent.inner.CsmCopySlotEntityInner.CsmCopySlotEntityInner*"
+fullName: "com.azure.resourcemanager.appservice.fluent.inner.CsmCopySlotEntityInner.CsmCopySlotEntityInner"
+name: "CsmCopySlotEntityInner"
+nameWithType: "CsmCopySlotEntityInner.CsmCopySlotEntityInner"
 members:
-- uid: com.azure.resourcemanager.appservice.fluent.inner.CsmCopySlotEntityInner.CsmCopySlotEntityInner()
-  fullName: com.azure.resourcemanager.appservice.fluent.inner.CsmCopySlotEntityInner.CsmCopySlotEntityInner()
-  name: CsmCopySlotEntityInner()
-  nameWithType: CsmCopySlotEntityInner.CsmCopySlotEntityInner()
-  syntax: public CsmCopySlotEntityInner()
-type: constructor
+- uid: "com.azure.resourcemanager.appservice.fluent.inner.CsmCopySlotEntityInner.CsmCopySlotEntityInner()"
+  fullName: "com.azure.resourcemanager.appservice.fluent.inner.CsmCopySlotEntityInner.CsmCopySlotEntityInner()"
+  name: "CsmCopySlotEntityInner()"
+  nameWithType: "CsmCopySlotEntityInner.CsmCopySlotEntityInner()"
+  syntax: "public CsmCopySlotEntityInner()"
+type: "constructor"
 metadata: {}
-package: com.azure.resourcemanager.appservice.fluent.inner
+package: "com.azure.resourcemanager.appservice.fluent.inner"
 artifact: com.azure.resourcemanager:azure-resourcemanager-appservice:2.0.0-beta.2

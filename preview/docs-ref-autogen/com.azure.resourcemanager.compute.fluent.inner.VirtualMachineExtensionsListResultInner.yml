@@ -1,31 +1,31 @@
 ### YamlMime:JavaType
-uid: com.azure.resourcemanager.compute.fluent.inner.VirtualMachineExtensionsListResultInner
-fullName: com.azure.resourcemanager.compute.fluent.inner.VirtualMachineExtensionsListResultInner
-name: VirtualMachineExtensionsListResultInner
-nameWithType: VirtualMachineExtensionsListResultInner
-summary: The VirtualMachineExtensionsListResult model.
+uid: "com.azure.resourcemanager.compute.fluent.inner.VirtualMachineExtensionsListResultInner"
+fullName: "com.azure.resourcemanager.compute.fluent.inner.VirtualMachineExtensionsListResultInner"
+name: "VirtualMachineExtensionsListResultInner"
+nameWithType: "VirtualMachineExtensionsListResultInner"
+summary: "The VirtualMachineExtensionsListResult model."
 inheritances:
-- <xref href="java.lang.Object" data-throw-if-not-resolved="False" />
+- "<xref href=\"java.lang.Object\" data-throw-if-not-resolved=\"False\" />"
 inheritedMembers:
-- java.lang.Object.clone()
-- java.lang.Object.equals(java.lang.Object)
-- java.lang.Object.finalize()
-- java.lang.Object.getClass()
-- java.lang.Object.hashCode()
-- java.lang.Object.notify()
-- java.lang.Object.notifyAll()
-- java.lang.Object.toString()
-- java.lang.Object.wait()
-- java.lang.Object.wait(long)
-- java.lang.Object.wait(long,int)
-syntax: public final class VirtualMachineExtensionsListResultInner
+- "java.lang.Object.clone()"
+- "java.lang.Object.equals(java.lang.Object)"
+- "java.lang.Object.finalize()"
+- "java.lang.Object.getClass()"
+- "java.lang.Object.hashCode()"
+- "java.lang.Object.notify()"
+- "java.lang.Object.notifyAll()"
+- "java.lang.Object.toString()"
+- "java.lang.Object.wait()"
+- "java.lang.Object.wait(long)"
+- "java.lang.Object.wait(long,int)"
+syntax: "public final class VirtualMachineExtensionsListResultInner"
 constructors:
-- com.azure.resourcemanager.compute.fluent.inner.VirtualMachineExtensionsListResultInner.VirtualMachineExtensionsListResultInner()
+- "com.azure.resourcemanager.compute.fluent.inner.VirtualMachineExtensionsListResultInner.VirtualMachineExtensionsListResultInner()"
 methods:
-- com.azure.resourcemanager.compute.fluent.inner.VirtualMachineExtensionsListResultInner.validate()
-- com.azure.resourcemanager.compute.fluent.inner.VirtualMachineExtensionsListResultInner.value()
-- com.azure.resourcemanager.compute.fluent.inner.VirtualMachineExtensionsListResultInner.withValue(java.util.List<com.azure.resourcemanager.compute.fluent.inner.VirtualMachineExtensionInner>)
-type: class
+- "com.azure.resourcemanager.compute.fluent.inner.VirtualMachineExtensionsListResultInner.validate()"
+- "com.azure.resourcemanager.compute.fluent.inner.VirtualMachineExtensionsListResultInner.value()"
+- "com.azure.resourcemanager.compute.fluent.inner.VirtualMachineExtensionsListResultInner.withValue(java.util.List<com.azure.resourcemanager.compute.fluent.inner.VirtualMachineExtensionInner>)"
+type: "class"
 metadata: {}
-package: com.azure.resourcemanager.compute.fluent.inner
+package: "com.azure.resourcemanager.compute.fluent.inner"
 artifact: com.azure.resourcemanager:azure-resourcemanager-compute:2.0.0-beta.2

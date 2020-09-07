@@ -1,40 +1,40 @@
 ### YamlMime:JavaType
-uid: com.azure.resourcemanager.authorization.fluent.inner.RoleAssignmentInner
-fullName: com.azure.resourcemanager.authorization.fluent.inner.RoleAssignmentInner
-name: RoleAssignmentInner
-nameWithType: RoleAssignmentInner
-summary: The RoleAssignment model.
+uid: "com.azure.resourcemanager.authorization.fluent.inner.RoleAssignmentInner"
+fullName: "com.azure.resourcemanager.authorization.fluent.inner.RoleAssignmentInner"
+name: "RoleAssignmentInner"
+nameWithType: "RoleAssignmentInner"
+summary: "The RoleAssignment model."
 inheritances:
-- <xref href="java.lang.Object" data-throw-if-not-resolved="False" />
+- "<xref href=\"java.lang.Object\" data-throw-if-not-resolved=\"False\" />"
 inheritedMembers:
-- java.lang.Object.clone()
-- java.lang.Object.equals(java.lang.Object)
-- java.lang.Object.finalize()
-- java.lang.Object.getClass()
-- java.lang.Object.hashCode()
-- java.lang.Object.notify()
-- java.lang.Object.notifyAll()
-- java.lang.Object.toString()
-- java.lang.Object.wait()
-- java.lang.Object.wait(long)
-- java.lang.Object.wait(long,int)
-syntax: public class RoleAssignmentInner
+- "java.lang.Object.clone()"
+- "java.lang.Object.equals(java.lang.Object)"
+- "java.lang.Object.finalize()"
+- "java.lang.Object.getClass()"
+- "java.lang.Object.hashCode()"
+- "java.lang.Object.notify()"
+- "java.lang.Object.notifyAll()"
+- "java.lang.Object.toString()"
+- "java.lang.Object.wait()"
+- "java.lang.Object.wait(long)"
+- "java.lang.Object.wait(long,int)"
+syntax: "public class RoleAssignmentInner"
 constructors:
-- com.azure.resourcemanager.authorization.fluent.inner.RoleAssignmentInner.RoleAssignmentInner()
+- "com.azure.resourcemanager.authorization.fluent.inner.RoleAssignmentInner.RoleAssignmentInner()"
 methods:
-- com.azure.resourcemanager.authorization.fluent.inner.RoleAssignmentInner.canDelegate()
-- com.azure.resourcemanager.authorization.fluent.inner.RoleAssignmentInner.id()
-- com.azure.resourcemanager.authorization.fluent.inner.RoleAssignmentInner.name()
-- com.azure.resourcemanager.authorization.fluent.inner.RoleAssignmentInner.principalId()
-- com.azure.resourcemanager.authorization.fluent.inner.RoleAssignmentInner.roleDefinitionId()
-- com.azure.resourcemanager.authorization.fluent.inner.RoleAssignmentInner.scope()
-- com.azure.resourcemanager.authorization.fluent.inner.RoleAssignmentInner.type()
-- com.azure.resourcemanager.authorization.fluent.inner.RoleAssignmentInner.validate()
-- com.azure.resourcemanager.authorization.fluent.inner.RoleAssignmentInner.withCanDelegate(java.lang.Boolean)
-- com.azure.resourcemanager.authorization.fluent.inner.RoleAssignmentInner.withPrincipalId(java.lang.String)
-- com.azure.resourcemanager.authorization.fluent.inner.RoleAssignmentInner.withRoleDefinitionId(java.lang.String)
-- com.azure.resourcemanager.authorization.fluent.inner.RoleAssignmentInner.withScope(java.lang.String)
-type: class
+- "com.azure.resourcemanager.authorization.fluent.inner.RoleAssignmentInner.canDelegate()"
+- "com.azure.resourcemanager.authorization.fluent.inner.RoleAssignmentInner.id()"
+- "com.azure.resourcemanager.authorization.fluent.inner.RoleAssignmentInner.name()"
+- "com.azure.resourcemanager.authorization.fluent.inner.RoleAssignmentInner.principalId()"
+- "com.azure.resourcemanager.authorization.fluent.inner.RoleAssignmentInner.roleDefinitionId()"
+- "com.azure.resourcemanager.authorization.fluent.inner.RoleAssignmentInner.scope()"
+- "com.azure.resourcemanager.authorization.fluent.inner.RoleAssignmentInner.type()"
+- "com.azure.resourcemanager.authorization.fluent.inner.RoleAssignmentInner.validate()"
+- "com.azure.resourcemanager.authorization.fluent.inner.RoleAssignmentInner.withCanDelegate(java.lang.Boolean)"
+- "com.azure.resourcemanager.authorization.fluent.inner.RoleAssignmentInner.withPrincipalId(java.lang.String)"
+- "com.azure.resourcemanager.authorization.fluent.inner.RoleAssignmentInner.withRoleDefinitionId(java.lang.String)"
+- "com.azure.resourcemanager.authorization.fluent.inner.RoleAssignmentInner.withScope(java.lang.String)"
+type: "class"
 metadata: {}
-package: com.azure.resourcemanager.authorization.fluent.inner
+package: "com.azure.resourcemanager.authorization.fluent.inner"
 artifact: com.azure.resourcemanager:azure-resourcemanager-authorization:2.0.0-beta.2

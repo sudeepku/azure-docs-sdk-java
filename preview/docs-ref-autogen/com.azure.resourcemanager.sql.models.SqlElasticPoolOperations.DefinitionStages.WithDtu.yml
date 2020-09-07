@@ -1,13 +1,13 @@
 ### YamlMime:JavaType
-uid: com.azure.resourcemanager.sql.models.SqlElasticPoolOperations.DefinitionStages.WithDtu
-fullName: com.azure.resourcemanager.sql.models.SqlElasticPoolOperations.DefinitionStages.WithDtu
-name: SqlElasticPoolOperations.DefinitionStages.WithDtu
-nameWithType: SqlElasticPoolOperations.DefinitionStages.WithDtu
-summary: The SQL Elastic Pool definition to set the number of shared DTU for elastic pool.
-syntax: public static interface SqlElasticPoolOperations.DefinitionStages.WithDtu
+uid: "com.azure.resourcemanager.sql.models.SqlElasticPoolOperations.DefinitionStages.WithDtu"
+fullName: "com.azure.resourcemanager.sql.models.SqlElasticPoolOperations.DefinitionStages.WithDtu"
+name: "SqlElasticPoolOperations.DefinitionStages.WithDtu"
+nameWithType: "SqlElasticPoolOperations.DefinitionStages.WithDtu"
+summary: "The SQL Elastic Pool definition to set the number of shared DTU for elastic pool."
+syntax: "public static interface SqlElasticPoolOperations.DefinitionStages.WithDtu"
 methods:
-- com.azure.resourcemanager.sql.models.SqlElasticPoolOperations.DefinitionStages.WithDtu.withDtu(int)
-type: interface
+- "com.azure.resourcemanager.sql.models.SqlElasticPoolOperations.DefinitionStages.WithDtu.withDtu(int)"
+type: "interface"
 metadata: {}
-package: com.azure.resourcemanager.sql.models
+package: "com.azure.resourcemanager.sql.models"
 artifact: com.azure.resourcemanager:azure-resourcemanager-sql:2.0.0-beta.2

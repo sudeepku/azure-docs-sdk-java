@@ -1,40 +1,40 @@
 ### YamlMime:JavaType
-uid: com.azure.resourcemanager.monitor.fluent.DiagnosticSettingsCategorysClient
-fullName: com.azure.resourcemanager.monitor.fluent.DiagnosticSettingsCategorysClient
-name: DiagnosticSettingsCategorysClient
-nameWithType: DiagnosticSettingsCategorysClient
-summary: An instance of this class provides access to all the operations defined in DiagnosticSettingsCategorys.
+uid: "com.azure.resourcemanager.monitor.fluent.DiagnosticSettingsCategorysClient"
+fullName: "com.azure.resourcemanager.monitor.fluent.DiagnosticSettingsCategorysClient"
+name: "DiagnosticSettingsCategorysClient"
+nameWithType: "DiagnosticSettingsCategorysClient"
+summary: "An instance of this class provides access to all the operations defined in DiagnosticSettingsCategorys."
 inheritances:
-- <xref href="java.lang.Object" data-throw-if-not-resolved="False" />
+- "<xref href=\"java.lang.Object\" data-throw-if-not-resolved=\"False\" />"
 inheritedMembers:
-- java.lang.Object.clone()
-- java.lang.Object.equals(java.lang.Object)
-- java.lang.Object.finalize()
-- java.lang.Object.getClass()
-- java.lang.Object.hashCode()
-- java.lang.Object.notify()
-- java.lang.Object.notifyAll()
-- java.lang.Object.toString()
-- java.lang.Object.wait()
-- java.lang.Object.wait(long)
-- java.lang.Object.wait(long,int)
-syntax: public final class DiagnosticSettingsCategorysClient
+- "java.lang.Object.clone()"
+- "java.lang.Object.equals(java.lang.Object)"
+- "java.lang.Object.finalize()"
+- "java.lang.Object.getClass()"
+- "java.lang.Object.hashCode()"
+- "java.lang.Object.notify()"
+- "java.lang.Object.notifyAll()"
+- "java.lang.Object.toString()"
+- "java.lang.Object.wait()"
+- "java.lang.Object.wait(long)"
+- "java.lang.Object.wait(long,int)"
+syntax: "public final class DiagnosticSettingsCategorysClient"
 constructors:
-- com.azure.resourcemanager.monitor.fluent.DiagnosticSettingsCategorysClient.DiagnosticSettingsCategorysClient(com.azure.resourcemanager.monitor.MonitorClient)
+- "com.azure.resourcemanager.monitor.fluent.DiagnosticSettingsCategorysClient.DiagnosticSettingsCategorysClient(com.azure.resourcemanager.monitor.MonitorClient)"
 methods:
-- com.azure.resourcemanager.monitor.fluent.DiagnosticSettingsCategorysClient.get(java.lang.String,java.lang.String)
-- com.azure.resourcemanager.monitor.fluent.DiagnosticSettingsCategorysClient.get(java.lang.String,java.lang.String,com.azure.core.util.Context)
-- com.azure.resourcemanager.monitor.fluent.DiagnosticSettingsCategorysClient.getAsync(java.lang.String,java.lang.String)
-- com.azure.resourcemanager.monitor.fluent.DiagnosticSettingsCategorysClient.getAsync(java.lang.String,java.lang.String,com.azure.core.util.Context)
-- com.azure.resourcemanager.monitor.fluent.DiagnosticSettingsCategorysClient.getWithResponseAsync(java.lang.String,java.lang.String)
-- com.azure.resourcemanager.monitor.fluent.DiagnosticSettingsCategorysClient.getWithResponseAsync(java.lang.String,java.lang.String,com.azure.core.util.Context)
-- com.azure.resourcemanager.monitor.fluent.DiagnosticSettingsCategorysClient.list(java.lang.String)
-- com.azure.resourcemanager.monitor.fluent.DiagnosticSettingsCategorysClient.list(java.lang.String,com.azure.core.util.Context)
-- com.azure.resourcemanager.monitor.fluent.DiagnosticSettingsCategorysClient.listAsync(java.lang.String)
-- com.azure.resourcemanager.monitor.fluent.DiagnosticSettingsCategorysClient.listAsync(java.lang.String,com.azure.core.util.Context)
-- com.azure.resourcemanager.monitor.fluent.DiagnosticSettingsCategorysClient.listWithResponseAsync(java.lang.String)
-- com.azure.resourcemanager.monitor.fluent.DiagnosticSettingsCategorysClient.listWithResponseAsync(java.lang.String,com.azure.core.util.Context)
-type: class
+- "com.azure.resourcemanager.monitor.fluent.DiagnosticSettingsCategorysClient.get(java.lang.String,java.lang.String)"
+- "com.azure.resourcemanager.monitor.fluent.DiagnosticSettingsCategorysClient.get(java.lang.String,java.lang.String,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.monitor.fluent.DiagnosticSettingsCategorysClient.getAsync(java.lang.String,java.lang.String)"
+- "com.azure.resourcemanager.monitor.fluent.DiagnosticSettingsCategorysClient.getAsync(java.lang.String,java.lang.String,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.monitor.fluent.DiagnosticSettingsCategorysClient.getWithResponseAsync(java.lang.String,java.lang.String)"
+- "com.azure.resourcemanager.monitor.fluent.DiagnosticSettingsCategorysClient.getWithResponseAsync(java.lang.String,java.lang.String,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.monitor.fluent.DiagnosticSettingsCategorysClient.list(java.lang.String)"
+- "com.azure.resourcemanager.monitor.fluent.DiagnosticSettingsCategorysClient.list(java.lang.String,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.monitor.fluent.DiagnosticSettingsCategorysClient.listAsync(java.lang.String)"
+- "com.azure.resourcemanager.monitor.fluent.DiagnosticSettingsCategorysClient.listAsync(java.lang.String,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.monitor.fluent.DiagnosticSettingsCategorysClient.listWithResponseAsync(java.lang.String)"
+- "com.azure.resourcemanager.monitor.fluent.DiagnosticSettingsCategorysClient.listWithResponseAsync(java.lang.String,com.azure.core.util.Context)"
+type: "class"
 metadata: {}
-package: com.azure.resourcemanager.monitor.fluent
+package: "com.azure.resourcemanager.monitor.fluent"
 artifact: com.azure.resourcemanager:azure-resourcemanager-monitor:2.0.0-beta.2

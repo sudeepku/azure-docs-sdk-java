@@ -1,56 +1,56 @@
 ### YamlMime:JavaType
-uid: com.azure.messaging.servicebus.models.CreateTopicOptions
-fullName: com.azure.messaging.servicebus.models.CreateTopicOptions
-name: CreateTopicOptions
-nameWithType: CreateTopicOptions
-summary: Represents the set of options that can be specified for the creation of a queue.
+uid: "com.azure.messaging.servicebus.models.CreateTopicOptions"
+fullName: "com.azure.messaging.servicebus.models.CreateTopicOptions"
+name: "CreateTopicOptions"
+nameWithType: "CreateTopicOptions"
+summary: "Represents the set of options that can be specified for the creation of a queue."
 inheritances:
-- <xref href="java.lang.Object" data-throw-if-not-resolved="False" />
+- "<xref href=\"java.lang.Object\" data-throw-if-not-resolved=\"False\" />"
 inheritedMembers:
-- java.lang.Object.clone()
-- java.lang.Object.equals(java.lang.Object)
-- java.lang.Object.finalize()
-- java.lang.Object.getClass()
-- java.lang.Object.hashCode()
-- java.lang.Object.notify()
-- java.lang.Object.notifyAll()
-- java.lang.Object.toString()
-- java.lang.Object.wait()
-- java.lang.Object.wait(long)
-- java.lang.Object.wait(long,int)
-syntax: public class CreateTopicOptions
+- "java.lang.Object.clone()"
+- "java.lang.Object.equals(java.lang.Object)"
+- "java.lang.Object.finalize()"
+- "java.lang.Object.getClass()"
+- "java.lang.Object.hashCode()"
+- "java.lang.Object.notify()"
+- "java.lang.Object.notifyAll()"
+- "java.lang.Object.toString()"
+- "java.lang.Object.wait()"
+- "java.lang.Object.wait(long)"
+- "java.lang.Object.wait(long,int)"
+syntax: "public class CreateTopicOptions"
 constructors:
-- com.azure.messaging.servicebus.models.CreateTopicOptions.CreateTopicOptions(com.azure.messaging.servicebus.models.TopicProperties)
-- com.azure.messaging.servicebus.models.CreateTopicOptions.CreateTopicOptions(java.lang.String)
+- "com.azure.messaging.servicebus.models.CreateTopicOptions.CreateTopicOptions(com.azure.messaging.servicebus.models.TopicProperties)"
+- "com.azure.messaging.servicebus.models.CreateTopicOptions.CreateTopicOptions(java.lang.String)"
 methods:
-- com.azure.messaging.servicebus.models.CreateTopicOptions.enableBatchedOperations()
-- com.azure.messaging.servicebus.models.CreateTopicOptions.enablePartitioning()
-- com.azure.messaging.servicebus.models.CreateTopicOptions.getAutoDeleteOnIdle()
-- com.azure.messaging.servicebus.models.CreateTopicOptions.getDefaultMessageTimeToLive()
-- com.azure.messaging.servicebus.models.CreateTopicOptions.getDuplicateDetectionHistoryTimeWindow()
-- com.azure.messaging.servicebus.models.CreateTopicOptions.getLockDuration()
-- com.azure.messaging.servicebus.models.CreateTopicOptions.getMaxDeliveryCount()
-- com.azure.messaging.servicebus.models.CreateTopicOptions.getMaxSizeInMegabytes()
-- com.azure.messaging.servicebus.models.CreateTopicOptions.getName()
-- com.azure.messaging.servicebus.models.CreateTopicOptions.getStatus()
-- com.azure.messaging.servicebus.models.CreateTopicOptions.getUserMetadata()
-- com.azure.messaging.servicebus.models.CreateTopicOptions.isSupportOrdering()
-- com.azure.messaging.servicebus.models.CreateTopicOptions.requiresDuplicateDetection()
-- com.azure.messaging.servicebus.models.CreateTopicOptions.requiresSession()
-- com.azure.messaging.servicebus.models.CreateTopicOptions.setAutoDeleteOnIdle(java.time.Duration)
-- com.azure.messaging.servicebus.models.CreateTopicOptions.setDefaultMessageTimeToLive(java.time.Duration)
-- com.azure.messaging.servicebus.models.CreateTopicOptions.setDuplicateDetectionHistoryTimeWindow(java.time.Duration)
-- com.azure.messaging.servicebus.models.CreateTopicOptions.setEnableBatchedOperations(boolean)
-- com.azure.messaging.servicebus.models.CreateTopicOptions.setEnablePartitioning(boolean)
-- com.azure.messaging.servicebus.models.CreateTopicOptions.setLockDuration(java.time.Duration)
-- com.azure.messaging.servicebus.models.CreateTopicOptions.setMaxDeliveryCount(int)
-- com.azure.messaging.servicebus.models.CreateTopicOptions.setMaxSizeInMegabytes(long)
-- com.azure.messaging.servicebus.models.CreateTopicOptions.setRequiresDuplicateDetection(boolean)
-- com.azure.messaging.servicebus.models.CreateTopicOptions.setRequiresSession(boolean)
-- com.azure.messaging.servicebus.models.CreateTopicOptions.setStatus(com.azure.messaging.servicebus.models.EntityStatus)
-- com.azure.messaging.servicebus.models.CreateTopicOptions.setSupportOrdering(boolean)
-- com.azure.messaging.servicebus.models.CreateTopicOptions.setUserMetadata(java.lang.String)
-type: class
+- "com.azure.messaging.servicebus.models.CreateTopicOptions.enableBatchedOperations()"
+- "com.azure.messaging.servicebus.models.CreateTopicOptions.enablePartitioning()"
+- "com.azure.messaging.servicebus.models.CreateTopicOptions.getAutoDeleteOnIdle()"
+- "com.azure.messaging.servicebus.models.CreateTopicOptions.getDefaultMessageTimeToLive()"
+- "com.azure.messaging.servicebus.models.CreateTopicOptions.getDuplicateDetectionHistoryTimeWindow()"
+- "com.azure.messaging.servicebus.models.CreateTopicOptions.getLockDuration()"
+- "com.azure.messaging.servicebus.models.CreateTopicOptions.getMaxDeliveryCount()"
+- "com.azure.messaging.servicebus.models.CreateTopicOptions.getMaxSizeInMegabytes()"
+- "com.azure.messaging.servicebus.models.CreateTopicOptions.getName()"
+- "com.azure.messaging.servicebus.models.CreateTopicOptions.getStatus()"
+- "com.azure.messaging.servicebus.models.CreateTopicOptions.getUserMetadata()"
+- "com.azure.messaging.servicebus.models.CreateTopicOptions.isSupportOrdering()"
+- "com.azure.messaging.servicebus.models.CreateTopicOptions.requiresDuplicateDetection()"
+- "com.azure.messaging.servicebus.models.CreateTopicOptions.requiresSession()"
+- "com.azure.messaging.servicebus.models.CreateTopicOptions.setAutoDeleteOnIdle(java.time.Duration)"
+- "com.azure.messaging.servicebus.models.CreateTopicOptions.setDefaultMessageTimeToLive(java.time.Duration)"
+- "com.azure.messaging.servicebus.models.CreateTopicOptions.setDuplicateDetectionHistoryTimeWindow(java.time.Duration)"
+- "com.azure.messaging.servicebus.models.CreateTopicOptions.setEnableBatchedOperations(boolean)"
+- "com.azure.messaging.servicebus.models.CreateTopicOptions.setEnablePartitioning(boolean)"
+- "com.azure.messaging.servicebus.models.CreateTopicOptions.setLockDuration(java.time.Duration)"
+- "com.azure.messaging.servicebus.models.CreateTopicOptions.setMaxDeliveryCount(int)"
+- "com.azure.messaging.servicebus.models.CreateTopicOptions.setMaxSizeInMegabytes(long)"
+- "com.azure.messaging.servicebus.models.CreateTopicOptions.setRequiresDuplicateDetection(boolean)"
+- "com.azure.messaging.servicebus.models.CreateTopicOptions.setRequiresSession(boolean)"
+- "com.azure.messaging.servicebus.models.CreateTopicOptions.setStatus(com.azure.messaging.servicebus.models.EntityStatus)"
+- "com.azure.messaging.servicebus.models.CreateTopicOptions.setSupportOrdering(boolean)"
+- "com.azure.messaging.servicebus.models.CreateTopicOptions.setUserMetadata(java.lang.String)"
+type: "class"
 metadata: {}
-package: com.azure.messaging.servicebus.models
+package: "com.azure.messaging.servicebus.models"
 artifact: com.azure:azure-messaging-servicebus:7.0.0-beta.5

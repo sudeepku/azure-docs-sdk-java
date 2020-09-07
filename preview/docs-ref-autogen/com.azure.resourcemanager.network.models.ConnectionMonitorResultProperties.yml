@@ -1,44 +1,44 @@
 ### YamlMime:JavaType
-uid: com.azure.resourcemanager.network.models.ConnectionMonitorResultProperties
-fullName: com.azure.resourcemanager.network.models.ConnectionMonitorResultProperties
-name: ConnectionMonitorResultProperties
-nameWithType: ConnectionMonitorResultProperties
-summary: The ConnectionMonitorResultProperties model.
+uid: "com.azure.resourcemanager.network.models.ConnectionMonitorResultProperties"
+fullName: "com.azure.resourcemanager.network.models.ConnectionMonitorResultProperties"
+name: "ConnectionMonitorResultProperties"
+nameWithType: "ConnectionMonitorResultProperties"
+summary: "The ConnectionMonitorResultProperties model."
 inheritances:
-- <xref href="java.lang.Object" data-throw-if-not-resolved="False" />
-- <xref href="com.azure.resourcemanager.network.models.ConnectionMonitorParameters" data-throw-if-not-resolved="False" />
+- "<xref href=\"java.lang.Object\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.azure.resourcemanager.network.models.ConnectionMonitorParameters\" data-throw-if-not-resolved=\"False\" />"
 inheritedMembers:
-- com.azure.resourcemanager.network.models.ConnectionMonitorParameters.autoStart()
-- com.azure.resourcemanager.network.models.ConnectionMonitorParameters.destination()
-- com.azure.resourcemanager.network.models.ConnectionMonitorParameters.monitoringIntervalInSeconds()
-- com.azure.resourcemanager.network.models.ConnectionMonitorParameters.source()
-- com.azure.resourcemanager.network.models.ConnectionMonitorParameters.validate()
-- com.azure.resourcemanager.network.models.ConnectionMonitorParameters.withAutoStart(java.lang.Boolean)
-- com.azure.resourcemanager.network.models.ConnectionMonitorParameters.withDestination(com.azure.resourcemanager.network.models.ConnectionMonitorDestination)
-- com.azure.resourcemanager.network.models.ConnectionMonitorParameters.withMonitoringIntervalInSeconds(java.lang.Integer)
-- com.azure.resourcemanager.network.models.ConnectionMonitorParameters.withSource(com.azure.resourcemanager.network.models.ConnectionMonitorSource)
-- java.lang.Object.clone()
-- java.lang.Object.equals(java.lang.Object)
-- java.lang.Object.finalize()
-- java.lang.Object.getClass()
-- java.lang.Object.hashCode()
-- java.lang.Object.notify()
-- java.lang.Object.notifyAll()
-- java.lang.Object.toString()
-- java.lang.Object.wait()
-- java.lang.Object.wait(long)
-- java.lang.Object.wait(long,int)
-syntax: public final class ConnectionMonitorResultProperties extends ConnectionMonitorParameters
+- "com.azure.resourcemanager.network.models.ConnectionMonitorParameters.autoStart()"
+- "com.azure.resourcemanager.network.models.ConnectionMonitorParameters.destination()"
+- "com.azure.resourcemanager.network.models.ConnectionMonitorParameters.monitoringIntervalInSeconds()"
+- "com.azure.resourcemanager.network.models.ConnectionMonitorParameters.source()"
+- "com.azure.resourcemanager.network.models.ConnectionMonitorParameters.validate()"
+- "com.azure.resourcemanager.network.models.ConnectionMonitorParameters.withAutoStart(java.lang.Boolean)"
+- "com.azure.resourcemanager.network.models.ConnectionMonitorParameters.withDestination(com.azure.resourcemanager.network.models.ConnectionMonitorDestination)"
+- "com.azure.resourcemanager.network.models.ConnectionMonitorParameters.withMonitoringIntervalInSeconds(java.lang.Integer)"
+- "com.azure.resourcemanager.network.models.ConnectionMonitorParameters.withSource(com.azure.resourcemanager.network.models.ConnectionMonitorSource)"
+- "java.lang.Object.clone()"
+- "java.lang.Object.equals(java.lang.Object)"
+- "java.lang.Object.finalize()"
+- "java.lang.Object.getClass()"
+- "java.lang.Object.hashCode()"
+- "java.lang.Object.notify()"
+- "java.lang.Object.notifyAll()"
+- "java.lang.Object.toString()"
+- "java.lang.Object.wait()"
+- "java.lang.Object.wait(long)"
+- "java.lang.Object.wait(long,int)"
+syntax: "public final class ConnectionMonitorResultProperties extends ConnectionMonitorParameters"
 constructors:
-- com.azure.resourcemanager.network.models.ConnectionMonitorResultProperties.ConnectionMonitorResultProperties()
+- "com.azure.resourcemanager.network.models.ConnectionMonitorResultProperties.ConnectionMonitorResultProperties()"
 methods:
-- com.azure.resourcemanager.network.models.ConnectionMonitorResultProperties.monitoringStatus()
-- com.azure.resourcemanager.network.models.ConnectionMonitorResultProperties.provisioningState()
-- com.azure.resourcemanager.network.models.ConnectionMonitorResultProperties.startTime()
-- com.azure.resourcemanager.network.models.ConnectionMonitorResultProperties.validate()
-- com.azure.resourcemanager.network.models.ConnectionMonitorResultProperties.withMonitoringStatus(java.lang.String)
-- com.azure.resourcemanager.network.models.ConnectionMonitorResultProperties.withStartTime(java.time.OffsetDateTime)
-type: class
+- "com.azure.resourcemanager.network.models.ConnectionMonitorResultProperties.monitoringStatus()"
+- "com.azure.resourcemanager.network.models.ConnectionMonitorResultProperties.provisioningState()"
+- "com.azure.resourcemanager.network.models.ConnectionMonitorResultProperties.startTime()"
+- "com.azure.resourcemanager.network.models.ConnectionMonitorResultProperties.validate()"
+- "com.azure.resourcemanager.network.models.ConnectionMonitorResultProperties.withMonitoringStatus(java.lang.String)"
+- "com.azure.resourcemanager.network.models.ConnectionMonitorResultProperties.withStartTime(java.time.OffsetDateTime)"
+type: "class"
 metadata: {}
-package: com.azure.resourcemanager.network.models
+package: "com.azure.resourcemanager.network.models"
 artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.0.0-beta.2

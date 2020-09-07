@@ -1,70 +1,70 @@
 ### YamlMime:JavaType
-uid: com.azure.resourcemanager.compute.fluent.inner.VirtualMachineScaleSetInner
-fullName: com.azure.resourcemanager.compute.fluent.inner.VirtualMachineScaleSetInner
-name: VirtualMachineScaleSetInner
-nameWithType: VirtualMachineScaleSetInner
-summary: The VirtualMachineScaleSet model.
+uid: "com.azure.resourcemanager.compute.fluent.inner.VirtualMachineScaleSetInner"
+fullName: "com.azure.resourcemanager.compute.fluent.inner.VirtualMachineScaleSetInner"
+name: "VirtualMachineScaleSetInner"
+nameWithType: "VirtualMachineScaleSetInner"
+summary: "The VirtualMachineScaleSet model."
 inheritances:
-- <xref href="java.lang.Object" data-throw-if-not-resolved="False" />
-- <xref href="com.azure.core.management.ProxyResource" data-throw-if-not-resolved="False" />
-- <xref href="com.azure.core.management.Resource" data-throw-if-not-resolved="False" />
+- "<xref href=\"java.lang.Object\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.azure.core.management.ProxyResource\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.azure.core.management.Resource\" data-throw-if-not-resolved=\"False\" />"
 inheritedMembers:
-- com.azure.core.management.ProxyResource.id()
-- com.azure.core.management.ProxyResource.name()
-- com.azure.core.management.ProxyResource.type()
-- com.azure.core.management.Resource.location()
-- com.azure.core.management.Resource.tags()
-- com.azure.core.management.Resource.withLocation(java.lang.String)
-- com.azure.core.management.Resource.withTags(java.util.Map<java.lang.String,java.lang.String>)
-- java.lang.Object.clone()
-- java.lang.Object.equals(java.lang.Object)
-- java.lang.Object.finalize()
-- java.lang.Object.getClass()
-- java.lang.Object.hashCode()
-- java.lang.Object.notify()
-- java.lang.Object.notifyAll()
-- java.lang.Object.toString()
-- java.lang.Object.wait()
-- java.lang.Object.wait(long)
-- java.lang.Object.wait(long,int)
-syntax: public class VirtualMachineScaleSetInner extends Resource
+- "com.azure.core.management.ProxyResource.id()"
+- "com.azure.core.management.ProxyResource.name()"
+- "com.azure.core.management.ProxyResource.type()"
+- "com.azure.core.management.Resource.location()"
+- "com.azure.core.management.Resource.tags()"
+- "com.azure.core.management.Resource.withLocation(java.lang.String)"
+- "com.azure.core.management.Resource.withTags(java.util.Map<java.lang.String,java.lang.String>)"
+- "java.lang.Object.clone()"
+- "java.lang.Object.equals(java.lang.Object)"
+- "java.lang.Object.finalize()"
+- "java.lang.Object.getClass()"
+- "java.lang.Object.hashCode()"
+- "java.lang.Object.notify()"
+- "java.lang.Object.notifyAll()"
+- "java.lang.Object.toString()"
+- "java.lang.Object.wait()"
+- "java.lang.Object.wait(long)"
+- "java.lang.Object.wait(long,int)"
+syntax: "public class VirtualMachineScaleSetInner extends Resource"
 constructors:
-- com.azure.resourcemanager.compute.fluent.inner.VirtualMachineScaleSetInner.VirtualMachineScaleSetInner()
+- "com.azure.resourcemanager.compute.fluent.inner.VirtualMachineScaleSetInner.VirtualMachineScaleSetInner()"
 methods:
-- com.azure.resourcemanager.compute.fluent.inner.VirtualMachineScaleSetInner.additionalCapabilities()
-- com.azure.resourcemanager.compute.fluent.inner.VirtualMachineScaleSetInner.automaticRepairsPolicy()
-- com.azure.resourcemanager.compute.fluent.inner.VirtualMachineScaleSetInner.doNotRunExtensionsOnOverprovisionedVMs()
-- com.azure.resourcemanager.compute.fluent.inner.VirtualMachineScaleSetInner.identity()
-- com.azure.resourcemanager.compute.fluent.inner.VirtualMachineScaleSetInner.overprovision()
-- com.azure.resourcemanager.compute.fluent.inner.VirtualMachineScaleSetInner.plan()
-- com.azure.resourcemanager.compute.fluent.inner.VirtualMachineScaleSetInner.platformFaultDomainCount()
-- com.azure.resourcemanager.compute.fluent.inner.VirtualMachineScaleSetInner.provisioningState()
-- com.azure.resourcemanager.compute.fluent.inner.VirtualMachineScaleSetInner.proximityPlacementGroup()
-- com.azure.resourcemanager.compute.fluent.inner.VirtualMachineScaleSetInner.scaleInPolicy()
-- com.azure.resourcemanager.compute.fluent.inner.VirtualMachineScaleSetInner.singlePlacementGroup()
-- com.azure.resourcemanager.compute.fluent.inner.VirtualMachineScaleSetInner.sku()
-- com.azure.resourcemanager.compute.fluent.inner.VirtualMachineScaleSetInner.uniqueId()
-- com.azure.resourcemanager.compute.fluent.inner.VirtualMachineScaleSetInner.upgradePolicy()
-- com.azure.resourcemanager.compute.fluent.inner.VirtualMachineScaleSetInner.validate()
-- com.azure.resourcemanager.compute.fluent.inner.VirtualMachineScaleSetInner.virtualMachineProfile()
-- com.azure.resourcemanager.compute.fluent.inner.VirtualMachineScaleSetInner.withAdditionalCapabilities(com.azure.resourcemanager.compute.models.AdditionalCapabilities)
-- com.azure.resourcemanager.compute.fluent.inner.VirtualMachineScaleSetInner.withAutomaticRepairsPolicy(com.azure.resourcemanager.compute.models.AutomaticRepairsPolicy)
-- com.azure.resourcemanager.compute.fluent.inner.VirtualMachineScaleSetInner.withDoNotRunExtensionsOnOverprovisionedVMs(java.lang.Boolean)
-- com.azure.resourcemanager.compute.fluent.inner.VirtualMachineScaleSetInner.withIdentity(com.azure.resourcemanager.compute.models.VirtualMachineScaleSetIdentity)
-- com.azure.resourcemanager.compute.fluent.inner.VirtualMachineScaleSetInner.withOverprovision(java.lang.Boolean)
-- com.azure.resourcemanager.compute.fluent.inner.VirtualMachineScaleSetInner.withPlan(com.azure.resourcemanager.compute.models.Plan)
-- com.azure.resourcemanager.compute.fluent.inner.VirtualMachineScaleSetInner.withPlatformFaultDomainCount(java.lang.Integer)
-- com.azure.resourcemanager.compute.fluent.inner.VirtualMachineScaleSetInner.withProximityPlacementGroup(com.azure.core.management.SubResource)
-- com.azure.resourcemanager.compute.fluent.inner.VirtualMachineScaleSetInner.withScaleInPolicy(com.azure.resourcemanager.compute.models.ScaleInPolicy)
-- com.azure.resourcemanager.compute.fluent.inner.VirtualMachineScaleSetInner.withSinglePlacementGroup(java.lang.Boolean)
-- com.azure.resourcemanager.compute.fluent.inner.VirtualMachineScaleSetInner.withSku(com.azure.resourcemanager.compute.models.Sku)
-- com.azure.resourcemanager.compute.fluent.inner.VirtualMachineScaleSetInner.withUpgradePolicy(com.azure.resourcemanager.compute.models.UpgradePolicy)
-- com.azure.resourcemanager.compute.fluent.inner.VirtualMachineScaleSetInner.withVirtualMachineProfile(com.azure.resourcemanager.compute.models.VirtualMachineScaleSetVMProfile)
-- com.azure.resourcemanager.compute.fluent.inner.VirtualMachineScaleSetInner.withZoneBalance(java.lang.Boolean)
-- com.azure.resourcemanager.compute.fluent.inner.VirtualMachineScaleSetInner.withZones(java.util.List<java.lang.String>)
-- com.azure.resourcemanager.compute.fluent.inner.VirtualMachineScaleSetInner.zoneBalance()
-- com.azure.resourcemanager.compute.fluent.inner.VirtualMachineScaleSetInner.zones()
-type: class
+- "com.azure.resourcemanager.compute.fluent.inner.VirtualMachineScaleSetInner.additionalCapabilities()"
+- "com.azure.resourcemanager.compute.fluent.inner.VirtualMachineScaleSetInner.automaticRepairsPolicy()"
+- "com.azure.resourcemanager.compute.fluent.inner.VirtualMachineScaleSetInner.doNotRunExtensionsOnOverprovisionedVMs()"
+- "com.azure.resourcemanager.compute.fluent.inner.VirtualMachineScaleSetInner.identity()"
+- "com.azure.resourcemanager.compute.fluent.inner.VirtualMachineScaleSetInner.overprovision()"
+- "com.azure.resourcemanager.compute.fluent.inner.VirtualMachineScaleSetInner.plan()"
+- "com.azure.resourcemanager.compute.fluent.inner.VirtualMachineScaleSetInner.platformFaultDomainCount()"
+- "com.azure.resourcemanager.compute.fluent.inner.VirtualMachineScaleSetInner.provisioningState()"
+- "com.azure.resourcemanager.compute.fluent.inner.VirtualMachineScaleSetInner.proximityPlacementGroup()"
+- "com.azure.resourcemanager.compute.fluent.inner.VirtualMachineScaleSetInner.scaleInPolicy()"
+- "com.azure.resourcemanager.compute.fluent.inner.VirtualMachineScaleSetInner.singlePlacementGroup()"
+- "com.azure.resourcemanager.compute.fluent.inner.VirtualMachineScaleSetInner.sku()"
+- "com.azure.resourcemanager.compute.fluent.inner.VirtualMachineScaleSetInner.uniqueId()"
+- "com.azure.resourcemanager.compute.fluent.inner.VirtualMachineScaleSetInner.upgradePolicy()"
+- "com.azure.resourcemanager.compute.fluent.inner.VirtualMachineScaleSetInner.validate()"
+- "com.azure.resourcemanager.compute.fluent.inner.VirtualMachineScaleSetInner.virtualMachineProfile()"
+- "com.azure.resourcemanager.compute.fluent.inner.VirtualMachineScaleSetInner.withAdditionalCapabilities(com.azure.resourcemanager.compute.models.AdditionalCapabilities)"
+- "com.azure.resourcemanager.compute.fluent.inner.VirtualMachineScaleSetInner.withAutomaticRepairsPolicy(com.azure.resourcemanager.compute.models.AutomaticRepairsPolicy)"
+- "com.azure.resourcemanager.compute.fluent.inner.VirtualMachineScaleSetInner.withDoNotRunExtensionsOnOverprovisionedVMs(java.lang.Boolean)"
+- "com.azure.resourcemanager.compute.fluent.inner.VirtualMachineScaleSetInner.withIdentity(com.azure.resourcemanager.compute.models.VirtualMachineScaleSetIdentity)"
+- "com.azure.resourcemanager.compute.fluent.inner.VirtualMachineScaleSetInner.withOverprovision(java.lang.Boolean)"
+- "com.azure.resourcemanager.compute.fluent.inner.VirtualMachineScaleSetInner.withPlan(com.azure.resourcemanager.compute.models.Plan)"
+- "com.azure.resourcemanager.compute.fluent.inner.VirtualMachineScaleSetInner.withPlatformFaultDomainCount(java.lang.Integer)"
+- "com.azure.resourcemanager.compute.fluent.inner.VirtualMachineScaleSetInner.withProximityPlacementGroup(com.azure.core.management.SubResource)"
+- "com.azure.resourcemanager.compute.fluent.inner.VirtualMachineScaleSetInner.withScaleInPolicy(com.azure.resourcemanager.compute.models.ScaleInPolicy)"
+- "com.azure.resourcemanager.compute.fluent.inner.VirtualMachineScaleSetInner.withSinglePlacementGroup(java.lang.Boolean)"
+- "com.azure.resourcemanager.compute.fluent.inner.VirtualMachineScaleSetInner.withSku(com.azure.resourcemanager.compute.models.Sku)"
+- "com.azure.resourcemanager.compute.fluent.inner.VirtualMachineScaleSetInner.withUpgradePolicy(com.azure.resourcemanager.compute.models.UpgradePolicy)"
+- "com.azure.resourcemanager.compute.fluent.inner.VirtualMachineScaleSetInner.withVirtualMachineProfile(com.azure.resourcemanager.compute.models.VirtualMachineScaleSetVMProfile)"
+- "com.azure.resourcemanager.compute.fluent.inner.VirtualMachineScaleSetInner.withZoneBalance(java.lang.Boolean)"
+- "com.azure.resourcemanager.compute.fluent.inner.VirtualMachineScaleSetInner.withZones(java.util.List<java.lang.String>)"
+- "com.azure.resourcemanager.compute.fluent.inner.VirtualMachineScaleSetInner.zoneBalance()"
+- "com.azure.resourcemanager.compute.fluent.inner.VirtualMachineScaleSetInner.zones()"
+type: "class"
 metadata: {}
-package: com.azure.resourcemanager.compute.fluent.inner
+package: "com.azure.resourcemanager.compute.fluent.inner"
 artifact: com.azure.resourcemanager:azure-resourcemanager-compute:2.0.0-beta.2

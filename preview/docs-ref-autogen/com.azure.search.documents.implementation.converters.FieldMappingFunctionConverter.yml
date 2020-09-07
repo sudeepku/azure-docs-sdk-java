@@ -1,28 +1,28 @@
 ### YamlMime:JavaType
-uid: com.azure.search.documents.implementation.converters.FieldMappingFunctionConverter
-fullName: com.azure.search.documents.implementation.converters.FieldMappingFunctionConverter
-name: FieldMappingFunctionConverter
-nameWithType: FieldMappingFunctionConverter
-summary: A converter between <xref uid="com.azure.search.documents.indexes.implementation.models.FieldMappingFunction" data-throw-if-not-resolved="false">com.azure.search.documents.indexes.implementation.models.FieldMappingFunction</xref> and <xref uid="com.azure.search.documents.indexes.models.FieldMappingFunction" data-throw-if-not-resolved="false">FieldMappingFunction</xref>.
+uid: "com.azure.search.documents.implementation.converters.FieldMappingFunctionConverter"
+fullName: "com.azure.search.documents.implementation.converters.FieldMappingFunctionConverter"
+name: "FieldMappingFunctionConverter"
+nameWithType: "FieldMappingFunctionConverter"
+summary: "A converter between <xref uid=\"com.azure.search.documents.indexes.implementation.models.FieldMappingFunction\" data-throw-if-not-resolved=\"false\">com.azure.search.documents.indexes.implementation.models.FieldMappingFunction</xref> and <xref uid=\"com.azure.search.documents.indexes.models.FieldMappingFunction\" data-throw-if-not-resolved=\"false\">FieldMappingFunction</xref>."
 inheritances:
-- <xref href="java.lang.Object" data-throw-if-not-resolved="False" />
+- "<xref href=\"java.lang.Object\" data-throw-if-not-resolved=\"False\" />"
 inheritedMembers:
-- java.lang.Object.clone()
-- java.lang.Object.equals(java.lang.Object)
-- java.lang.Object.finalize()
-- java.lang.Object.getClass()
-- java.lang.Object.hashCode()
-- java.lang.Object.notify()
-- java.lang.Object.notifyAll()
-- java.lang.Object.toString()
-- java.lang.Object.wait()
-- java.lang.Object.wait(long)
-- java.lang.Object.wait(long,int)
-syntax: public final class FieldMappingFunctionConverter
+- "java.lang.Object.clone()"
+- "java.lang.Object.equals(java.lang.Object)"
+- "java.lang.Object.finalize()"
+- "java.lang.Object.getClass()"
+- "java.lang.Object.hashCode()"
+- "java.lang.Object.notify()"
+- "java.lang.Object.notifyAll()"
+- "java.lang.Object.toString()"
+- "java.lang.Object.wait()"
+- "java.lang.Object.wait(long)"
+- "java.lang.Object.wait(long,int)"
+syntax: "public final class FieldMappingFunctionConverter"
 methods:
-- com.azure.search.documents.implementation.converters.FieldMappingFunctionConverter.map(com.azure.search.documents.indexes.implementation.models.FieldMappingFunction)
-- com.azure.search.documents.implementation.converters.FieldMappingFunctionConverter.map(com.azure.search.documents.indexes.models.FieldMappingFunction)
-type: class
+- "com.azure.search.documents.implementation.converters.FieldMappingFunctionConverter.map(com.azure.search.documents.indexes.implementation.models.FieldMappingFunction)"
+- "com.azure.search.documents.implementation.converters.FieldMappingFunctionConverter.map(com.azure.search.documents.indexes.models.FieldMappingFunction)"
+type: "class"
 metadata: {}
-package: com.azure.search.documents.implementation.converters
+package: "com.azure.search.documents.implementation.converters"
 artifact: com.azure:azure-search-documents:11.1.0-beta.1

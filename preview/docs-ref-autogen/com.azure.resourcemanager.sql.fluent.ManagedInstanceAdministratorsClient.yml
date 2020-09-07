@@ -1,72 +1,72 @@
 ### YamlMime:JavaType
-uid: com.azure.resourcemanager.sql.fluent.ManagedInstanceAdministratorsClient
-fullName: com.azure.resourcemanager.sql.fluent.ManagedInstanceAdministratorsClient
-name: ManagedInstanceAdministratorsClient
-nameWithType: ManagedInstanceAdministratorsClient
-summary: An instance of this class provides access to all the operations defined in ManagedInstanceAdministrators.
+uid: "com.azure.resourcemanager.sql.fluent.ManagedInstanceAdministratorsClient"
+fullName: "com.azure.resourcemanager.sql.fluent.ManagedInstanceAdministratorsClient"
+name: "ManagedInstanceAdministratorsClient"
+nameWithType: "ManagedInstanceAdministratorsClient"
+summary: "An instance of this class provides access to all the operations defined in ManagedInstanceAdministrators."
 inheritances:
-- <xref href="java.lang.Object" data-throw-if-not-resolved="False" />
+- "<xref href=\"java.lang.Object\" data-throw-if-not-resolved=\"False\" />"
 inheritedMembers:
-- java.lang.Object.clone()
-- java.lang.Object.equals(java.lang.Object)
-- java.lang.Object.finalize()
-- java.lang.Object.getClass()
-- java.lang.Object.hashCode()
-- java.lang.Object.notify()
-- java.lang.Object.notifyAll()
-- java.lang.Object.toString()
-- java.lang.Object.wait()
-- java.lang.Object.wait(long)
-- java.lang.Object.wait(long,int)
-syntax: public final class ManagedInstanceAdministratorsClient implements InnerSupportsDelete<Void>
+- "java.lang.Object.clone()"
+- "java.lang.Object.equals(java.lang.Object)"
+- "java.lang.Object.finalize()"
+- "java.lang.Object.getClass()"
+- "java.lang.Object.hashCode()"
+- "java.lang.Object.notify()"
+- "java.lang.Object.notifyAll()"
+- "java.lang.Object.toString()"
+- "java.lang.Object.wait()"
+- "java.lang.Object.wait(long)"
+- "java.lang.Object.wait(long,int)"
+syntax: "public final class ManagedInstanceAdministratorsClient implements InnerSupportsDelete<Void>"
 constructors:
-- com.azure.resourcemanager.sql.fluent.ManagedInstanceAdministratorsClient.ManagedInstanceAdministratorsClient(com.azure.resourcemanager.sql.SqlManagementClient)
+- "com.azure.resourcemanager.sql.fluent.ManagedInstanceAdministratorsClient.ManagedInstanceAdministratorsClient(com.azure.resourcemanager.sql.SqlManagementClient)"
 methods:
-- com.azure.resourcemanager.sql.fluent.ManagedInstanceAdministratorsClient.beginCreateOrUpdate(java.lang.String,java.lang.String,com.azure.resourcemanager.sql.fluent.inner.ManagedInstanceAdministratorInner)
-- com.azure.resourcemanager.sql.fluent.ManagedInstanceAdministratorsClient.beginCreateOrUpdate(java.lang.String,java.lang.String,com.azure.resourcemanager.sql.fluent.inner.ManagedInstanceAdministratorInner,com.azure.core.util.Context)
-- com.azure.resourcemanager.sql.fluent.ManagedInstanceAdministratorsClient.beginCreateOrUpdateWithoutPolling(java.lang.String,java.lang.String,com.azure.resourcemanager.sql.fluent.inner.ManagedInstanceAdministratorInner)
-- com.azure.resourcemanager.sql.fluent.ManagedInstanceAdministratorsClient.beginCreateOrUpdateWithoutPolling(java.lang.String,java.lang.String,com.azure.resourcemanager.sql.fluent.inner.ManagedInstanceAdministratorInner,com.azure.core.util.Context)
-- com.azure.resourcemanager.sql.fluent.ManagedInstanceAdministratorsClient.beginCreateOrUpdateWithoutPollingAsync(java.lang.String,java.lang.String,com.azure.resourcemanager.sql.fluent.inner.ManagedInstanceAdministratorInner)
-- com.azure.resourcemanager.sql.fluent.ManagedInstanceAdministratorsClient.beginCreateOrUpdateWithoutPollingAsync(java.lang.String,java.lang.String,com.azure.resourcemanager.sql.fluent.inner.ManagedInstanceAdministratorInner,com.azure.core.util.Context)
-- com.azure.resourcemanager.sql.fluent.ManagedInstanceAdministratorsClient.beginCreateOrUpdateWithoutPollingWithResponseAsync(java.lang.String,java.lang.String,com.azure.resourcemanager.sql.fluent.inner.ManagedInstanceAdministratorInner)
-- com.azure.resourcemanager.sql.fluent.ManagedInstanceAdministratorsClient.beginCreateOrUpdateWithoutPollingWithResponseAsync(java.lang.String,java.lang.String,com.azure.resourcemanager.sql.fluent.inner.ManagedInstanceAdministratorInner,com.azure.core.util.Context)
-- com.azure.resourcemanager.sql.fluent.ManagedInstanceAdministratorsClient.beginDelete(java.lang.String,java.lang.String)
-- com.azure.resourcemanager.sql.fluent.ManagedInstanceAdministratorsClient.beginDelete(java.lang.String,java.lang.String,com.azure.core.util.Context)
-- com.azure.resourcemanager.sql.fluent.ManagedInstanceAdministratorsClient.beginDeleteWithoutPolling(java.lang.String,java.lang.String)
-- com.azure.resourcemanager.sql.fluent.ManagedInstanceAdministratorsClient.beginDeleteWithoutPolling(java.lang.String,java.lang.String,com.azure.core.util.Context)
-- com.azure.resourcemanager.sql.fluent.ManagedInstanceAdministratorsClient.beginDeleteWithoutPollingAsync(java.lang.String,java.lang.String)
-- com.azure.resourcemanager.sql.fluent.ManagedInstanceAdministratorsClient.beginDeleteWithoutPollingAsync(java.lang.String,java.lang.String,com.azure.core.util.Context)
-- com.azure.resourcemanager.sql.fluent.ManagedInstanceAdministratorsClient.beginDeleteWithoutPollingWithResponseAsync(java.lang.String,java.lang.String)
-- com.azure.resourcemanager.sql.fluent.ManagedInstanceAdministratorsClient.beginDeleteWithoutPollingWithResponseAsync(java.lang.String,java.lang.String,com.azure.core.util.Context)
-- com.azure.resourcemanager.sql.fluent.ManagedInstanceAdministratorsClient.createOrUpdate(java.lang.String,java.lang.String,com.azure.resourcemanager.sql.fluent.inner.ManagedInstanceAdministratorInner)
-- com.azure.resourcemanager.sql.fluent.ManagedInstanceAdministratorsClient.createOrUpdate(java.lang.String,java.lang.String,com.azure.resourcemanager.sql.fluent.inner.ManagedInstanceAdministratorInner,com.azure.core.util.Context)
-- com.azure.resourcemanager.sql.fluent.ManagedInstanceAdministratorsClient.createOrUpdateAsync(java.lang.String,java.lang.String,com.azure.resourcemanager.sql.fluent.inner.ManagedInstanceAdministratorInner)
-- com.azure.resourcemanager.sql.fluent.ManagedInstanceAdministratorsClient.createOrUpdateAsync(java.lang.String,java.lang.String,com.azure.resourcemanager.sql.fluent.inner.ManagedInstanceAdministratorInner,com.azure.core.util.Context)
-- com.azure.resourcemanager.sql.fluent.ManagedInstanceAdministratorsClient.createOrUpdateWithResponseAsync(java.lang.String,java.lang.String,com.azure.resourcemanager.sql.fluent.inner.ManagedInstanceAdministratorInner)
-- com.azure.resourcemanager.sql.fluent.ManagedInstanceAdministratorsClient.createOrUpdateWithResponseAsync(java.lang.String,java.lang.String,com.azure.resourcemanager.sql.fluent.inner.ManagedInstanceAdministratorInner,com.azure.core.util.Context)
-- com.azure.resourcemanager.sql.fluent.ManagedInstanceAdministratorsClient.delete(java.lang.String,java.lang.String)
-- com.azure.resourcemanager.sql.fluent.ManagedInstanceAdministratorsClient.delete(java.lang.String,java.lang.String,com.azure.core.util.Context)
-- com.azure.resourcemanager.sql.fluent.ManagedInstanceAdministratorsClient.deleteAsync(java.lang.String,java.lang.String)
-- com.azure.resourcemanager.sql.fluent.ManagedInstanceAdministratorsClient.deleteAsync(java.lang.String,java.lang.String,com.azure.core.util.Context)
-- com.azure.resourcemanager.sql.fluent.ManagedInstanceAdministratorsClient.deleteWithResponseAsync(java.lang.String,java.lang.String)
-- com.azure.resourcemanager.sql.fluent.ManagedInstanceAdministratorsClient.deleteWithResponseAsync(java.lang.String,java.lang.String,com.azure.core.util.Context)
-- com.azure.resourcemanager.sql.fluent.ManagedInstanceAdministratorsClient.get(java.lang.String,java.lang.String)
-- com.azure.resourcemanager.sql.fluent.ManagedInstanceAdministratorsClient.get(java.lang.String,java.lang.String,com.azure.core.util.Context)
-- com.azure.resourcemanager.sql.fluent.ManagedInstanceAdministratorsClient.getAsync(java.lang.String,java.lang.String)
-- com.azure.resourcemanager.sql.fluent.ManagedInstanceAdministratorsClient.getAsync(java.lang.String,java.lang.String,com.azure.core.util.Context)
-- com.azure.resourcemanager.sql.fluent.ManagedInstanceAdministratorsClient.getWithResponseAsync(java.lang.String,java.lang.String)
-- com.azure.resourcemanager.sql.fluent.ManagedInstanceAdministratorsClient.getWithResponseAsync(java.lang.String,java.lang.String,com.azure.core.util.Context)
-- com.azure.resourcemanager.sql.fluent.ManagedInstanceAdministratorsClient.listByInstance(java.lang.String,java.lang.String)
-- com.azure.resourcemanager.sql.fluent.ManagedInstanceAdministratorsClient.listByInstance(java.lang.String,java.lang.String,com.azure.core.util.Context)
-- com.azure.resourcemanager.sql.fluent.ManagedInstanceAdministratorsClient.listByInstanceAsync(java.lang.String,java.lang.String)
-- com.azure.resourcemanager.sql.fluent.ManagedInstanceAdministratorsClient.listByInstanceAsync(java.lang.String,java.lang.String,com.azure.core.util.Context)
-- com.azure.resourcemanager.sql.fluent.ManagedInstanceAdministratorsClient.listByInstanceNextSinglePageAsync(java.lang.String)
-- com.azure.resourcemanager.sql.fluent.ManagedInstanceAdministratorsClient.listByInstanceNextSinglePageAsync(java.lang.String,com.azure.core.util.Context)
-- com.azure.resourcemanager.sql.fluent.ManagedInstanceAdministratorsClient.listByInstanceSinglePageAsync(java.lang.String,java.lang.String)
-- com.azure.resourcemanager.sql.fluent.ManagedInstanceAdministratorsClient.listByInstanceSinglePageAsync(java.lang.String,java.lang.String,com.azure.core.util.Context)
-type: class
+- "com.azure.resourcemanager.sql.fluent.ManagedInstanceAdministratorsClient.beginCreateOrUpdate(java.lang.String,java.lang.String,com.azure.resourcemanager.sql.fluent.inner.ManagedInstanceAdministratorInner)"
+- "com.azure.resourcemanager.sql.fluent.ManagedInstanceAdministratorsClient.beginCreateOrUpdate(java.lang.String,java.lang.String,com.azure.resourcemanager.sql.fluent.inner.ManagedInstanceAdministratorInner,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.sql.fluent.ManagedInstanceAdministratorsClient.beginCreateOrUpdateWithoutPolling(java.lang.String,java.lang.String,com.azure.resourcemanager.sql.fluent.inner.ManagedInstanceAdministratorInner)"
+- "com.azure.resourcemanager.sql.fluent.ManagedInstanceAdministratorsClient.beginCreateOrUpdateWithoutPolling(java.lang.String,java.lang.String,com.azure.resourcemanager.sql.fluent.inner.ManagedInstanceAdministratorInner,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.sql.fluent.ManagedInstanceAdministratorsClient.beginCreateOrUpdateWithoutPollingAsync(java.lang.String,java.lang.String,com.azure.resourcemanager.sql.fluent.inner.ManagedInstanceAdministratorInner)"
+- "com.azure.resourcemanager.sql.fluent.ManagedInstanceAdministratorsClient.beginCreateOrUpdateWithoutPollingAsync(java.lang.String,java.lang.String,com.azure.resourcemanager.sql.fluent.inner.ManagedInstanceAdministratorInner,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.sql.fluent.ManagedInstanceAdministratorsClient.beginCreateOrUpdateWithoutPollingWithResponseAsync(java.lang.String,java.lang.String,com.azure.resourcemanager.sql.fluent.inner.ManagedInstanceAdministratorInner)"
+- "com.azure.resourcemanager.sql.fluent.ManagedInstanceAdministratorsClient.beginCreateOrUpdateWithoutPollingWithResponseAsync(java.lang.String,java.lang.String,com.azure.resourcemanager.sql.fluent.inner.ManagedInstanceAdministratorInner,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.sql.fluent.ManagedInstanceAdministratorsClient.beginDelete(java.lang.String,java.lang.String)"
+- "com.azure.resourcemanager.sql.fluent.ManagedInstanceAdministratorsClient.beginDelete(java.lang.String,java.lang.String,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.sql.fluent.ManagedInstanceAdministratorsClient.beginDeleteWithoutPolling(java.lang.String,java.lang.String)"
+- "com.azure.resourcemanager.sql.fluent.ManagedInstanceAdministratorsClient.beginDeleteWithoutPolling(java.lang.String,java.lang.String,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.sql.fluent.ManagedInstanceAdministratorsClient.beginDeleteWithoutPollingAsync(java.lang.String,java.lang.String)"
+- "com.azure.resourcemanager.sql.fluent.ManagedInstanceAdministratorsClient.beginDeleteWithoutPollingAsync(java.lang.String,java.lang.String,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.sql.fluent.ManagedInstanceAdministratorsClient.beginDeleteWithoutPollingWithResponseAsync(java.lang.String,java.lang.String)"
+- "com.azure.resourcemanager.sql.fluent.ManagedInstanceAdministratorsClient.beginDeleteWithoutPollingWithResponseAsync(java.lang.String,java.lang.String,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.sql.fluent.ManagedInstanceAdministratorsClient.createOrUpdate(java.lang.String,java.lang.String,com.azure.resourcemanager.sql.fluent.inner.ManagedInstanceAdministratorInner)"
+- "com.azure.resourcemanager.sql.fluent.ManagedInstanceAdministratorsClient.createOrUpdate(java.lang.String,java.lang.String,com.azure.resourcemanager.sql.fluent.inner.ManagedInstanceAdministratorInner,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.sql.fluent.ManagedInstanceAdministratorsClient.createOrUpdateAsync(java.lang.String,java.lang.String,com.azure.resourcemanager.sql.fluent.inner.ManagedInstanceAdministratorInner)"
+- "com.azure.resourcemanager.sql.fluent.ManagedInstanceAdministratorsClient.createOrUpdateAsync(java.lang.String,java.lang.String,com.azure.resourcemanager.sql.fluent.inner.ManagedInstanceAdministratorInner,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.sql.fluent.ManagedInstanceAdministratorsClient.createOrUpdateWithResponseAsync(java.lang.String,java.lang.String,com.azure.resourcemanager.sql.fluent.inner.ManagedInstanceAdministratorInner)"
+- "com.azure.resourcemanager.sql.fluent.ManagedInstanceAdministratorsClient.createOrUpdateWithResponseAsync(java.lang.String,java.lang.String,com.azure.resourcemanager.sql.fluent.inner.ManagedInstanceAdministratorInner,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.sql.fluent.ManagedInstanceAdministratorsClient.delete(java.lang.String,java.lang.String)"
+- "com.azure.resourcemanager.sql.fluent.ManagedInstanceAdministratorsClient.delete(java.lang.String,java.lang.String,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.sql.fluent.ManagedInstanceAdministratorsClient.deleteAsync(java.lang.String,java.lang.String)"
+- "com.azure.resourcemanager.sql.fluent.ManagedInstanceAdministratorsClient.deleteAsync(java.lang.String,java.lang.String,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.sql.fluent.ManagedInstanceAdministratorsClient.deleteWithResponseAsync(java.lang.String,java.lang.String)"
+- "com.azure.resourcemanager.sql.fluent.ManagedInstanceAdministratorsClient.deleteWithResponseAsync(java.lang.String,java.lang.String,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.sql.fluent.ManagedInstanceAdministratorsClient.get(java.lang.String,java.lang.String)"
+- "com.azure.resourcemanager.sql.fluent.ManagedInstanceAdministratorsClient.get(java.lang.String,java.lang.String,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.sql.fluent.ManagedInstanceAdministratorsClient.getAsync(java.lang.String,java.lang.String)"
+- "com.azure.resourcemanager.sql.fluent.ManagedInstanceAdministratorsClient.getAsync(java.lang.String,java.lang.String,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.sql.fluent.ManagedInstanceAdministratorsClient.getWithResponseAsync(java.lang.String,java.lang.String)"
+- "com.azure.resourcemanager.sql.fluent.ManagedInstanceAdministratorsClient.getWithResponseAsync(java.lang.String,java.lang.String,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.sql.fluent.ManagedInstanceAdministratorsClient.listByInstance(java.lang.String,java.lang.String)"
+- "com.azure.resourcemanager.sql.fluent.ManagedInstanceAdministratorsClient.listByInstance(java.lang.String,java.lang.String,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.sql.fluent.ManagedInstanceAdministratorsClient.listByInstanceAsync(java.lang.String,java.lang.String)"
+- "com.azure.resourcemanager.sql.fluent.ManagedInstanceAdministratorsClient.listByInstanceAsync(java.lang.String,java.lang.String,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.sql.fluent.ManagedInstanceAdministratorsClient.listByInstanceNextSinglePageAsync(java.lang.String)"
+- "com.azure.resourcemanager.sql.fluent.ManagedInstanceAdministratorsClient.listByInstanceNextSinglePageAsync(java.lang.String,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.sql.fluent.ManagedInstanceAdministratorsClient.listByInstanceSinglePageAsync(java.lang.String,java.lang.String)"
+- "com.azure.resourcemanager.sql.fluent.ManagedInstanceAdministratorsClient.listByInstanceSinglePageAsync(java.lang.String,java.lang.String,com.azure.core.util.Context)"
+type: "class"
 implements:
-- <xref href="com.azure.resourcemanager.resources.fluentcore.collection.InnerSupportsDelete?alt=com.azure.resourcemanager.resources.fluentcore.collection.InnerSupportsDelete&text=InnerSupportsDelete" data-throw-if-not-resolved="False" />&lt;<xref href="java.lang.Void?alt=java.lang.Void&text=Void" data-throw-if-not-resolved="False" />&gt;
+- "<xref href=\"com.azure.resourcemanager.resources.fluentcore.collection.InnerSupportsDelete?alt=com.azure.resourcemanager.resources.fluentcore.collection.InnerSupportsDelete&text=InnerSupportsDelete\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"java.lang.Void?alt=java.lang.Void&text=Void\" data-throw-if-not-resolved=\"False\" />&gt;"
 metadata: {}
-package: com.azure.resourcemanager.sql.fluent
+package: "com.azure.resourcemanager.sql.fluent"
 artifact: com.azure.resourcemanager:azure-resourcemanager-sql:2.0.0-beta.2

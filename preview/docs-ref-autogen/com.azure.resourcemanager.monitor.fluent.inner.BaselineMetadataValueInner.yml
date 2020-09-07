@@ -1,33 +1,33 @@
 ### YamlMime:JavaType
-uid: com.azure.resourcemanager.monitor.fluent.inner.BaselineMetadataValueInner
-fullName: com.azure.resourcemanager.monitor.fluent.inner.BaselineMetadataValueInner
-name: BaselineMetadataValueInner
-nameWithType: BaselineMetadataValueInner
-summary: The BaselineMetadataValue model.
+uid: "com.azure.resourcemanager.monitor.fluent.inner.BaselineMetadataValueInner"
+fullName: "com.azure.resourcemanager.monitor.fluent.inner.BaselineMetadataValueInner"
+name: "BaselineMetadataValueInner"
+nameWithType: "BaselineMetadataValueInner"
+summary: "The BaselineMetadataValue model."
 inheritances:
-- <xref href="java.lang.Object" data-throw-if-not-resolved="False" />
+- "<xref href=\"java.lang.Object\" data-throw-if-not-resolved=\"False\" />"
 inheritedMembers:
-- java.lang.Object.clone()
-- java.lang.Object.equals(java.lang.Object)
-- java.lang.Object.finalize()
-- java.lang.Object.getClass()
-- java.lang.Object.hashCode()
-- java.lang.Object.notify()
-- java.lang.Object.notifyAll()
-- java.lang.Object.toString()
-- java.lang.Object.wait()
-- java.lang.Object.wait(long)
-- java.lang.Object.wait(long,int)
-syntax: public final class BaselineMetadataValueInner
+- "java.lang.Object.clone()"
+- "java.lang.Object.equals(java.lang.Object)"
+- "java.lang.Object.finalize()"
+- "java.lang.Object.getClass()"
+- "java.lang.Object.hashCode()"
+- "java.lang.Object.notify()"
+- "java.lang.Object.notifyAll()"
+- "java.lang.Object.toString()"
+- "java.lang.Object.wait()"
+- "java.lang.Object.wait(long)"
+- "java.lang.Object.wait(long,int)"
+syntax: "public final class BaselineMetadataValueInner"
 constructors:
-- com.azure.resourcemanager.monitor.fluent.inner.BaselineMetadataValueInner.BaselineMetadataValueInner()
+- "com.azure.resourcemanager.monitor.fluent.inner.BaselineMetadataValueInner.BaselineMetadataValueInner()"
 methods:
-- com.azure.resourcemanager.monitor.fluent.inner.BaselineMetadataValueInner.name()
-- com.azure.resourcemanager.monitor.fluent.inner.BaselineMetadataValueInner.validate()
-- com.azure.resourcemanager.monitor.fluent.inner.BaselineMetadataValueInner.value()
-- com.azure.resourcemanager.monitor.fluent.inner.BaselineMetadataValueInner.withName(com.azure.resourcemanager.monitor.fluent.inner.LocalizableStringInner)
-- com.azure.resourcemanager.monitor.fluent.inner.BaselineMetadataValueInner.withValue(java.lang.String)
-type: class
+- "com.azure.resourcemanager.monitor.fluent.inner.BaselineMetadataValueInner.name()"
+- "com.azure.resourcemanager.monitor.fluent.inner.BaselineMetadataValueInner.validate()"
+- "com.azure.resourcemanager.monitor.fluent.inner.BaselineMetadataValueInner.value()"
+- "com.azure.resourcemanager.monitor.fluent.inner.BaselineMetadataValueInner.withName(com.azure.resourcemanager.monitor.fluent.inner.LocalizableStringInner)"
+- "com.azure.resourcemanager.monitor.fluent.inner.BaselineMetadataValueInner.withValue(java.lang.String)"
+type: "class"
 metadata: {}
-package: com.azure.resourcemanager.monitor.fluent.inner
+package: "com.azure.resourcemanager.monitor.fluent.inner"
 artifact: com.azure.resourcemanager:azure-resourcemanager-monitor:2.0.0-beta.2

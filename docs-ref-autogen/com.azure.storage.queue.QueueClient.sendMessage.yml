@@ -1,39 +1,23 @@
 ### YamlMime:JavaMember
-uid: com.azure.storage.queue.QueueClient.sendMessage*
-fullName: com.azure.storage.queue.QueueClient.sendMessage
-name: sendMessage
-nameWithType: QueueClient.sendMessage
+uid: "com.azure.storage.queue.QueueClient.sendMessage*"
+fullName: "com.azure.storage.queue.QueueClient.sendMessage"
+name: "sendMessage"
+nameWithType: "QueueClient.sendMessage"
 members:
-- uid: com.azure.storage.queue.QueueClient.sendMessage(java.lang.String)
-  fullName: com.azure.storage.queue.QueueClient.sendMessage(String messageText)
-  name: sendMessage(String messageText)
-  nameWithType: QueueClient.sendMessage(String messageText)
-  summary: |-
-    Sends a message that has a time-to-live of 7 days and is instantly visible.
-
-     <p><strong>Code Samples</strong></p>
-
-     <p>Sends a message of "Hello, Azure"</p>
-
-     <pre>
-     SendMessageResult response = client.sendMessage&#40;&quot;hello msg&quot;&#41;;
-     System.out.println&#40;&quot;Complete enqueuing the message with message Id&quot; + response.getMessageId&#40;&#41;&#41;;
-     </pre>
-
-     <p>For more information, see the
-     <a href="https://docs.microsoft.com/en-us/rest/api/storageservices/put-message">Azure Docs</a>.</p>
+- uid: "com.azure.storage.queue.QueueClient.sendMessage(java.lang.String)"
+  fullName: "com.azure.storage.queue.QueueClient.sendMessage(String messageText)"
+  name: "sendMessage(String messageText)"
+  nameWithType: "QueueClient.sendMessage(String messageText)"
+  summary: "Sends a message that has a time-to-live of 7 days and is instantly visible.\n\n <p><strong>Code Samples</strong></p>\n\n <p>Sends a message of \"Hello, Azure\"</p>\n\n <pre>\n SendMessageResult response = client.sendMessage&#40;&quot;hello msg&quot;&#41;;\n System.out.println&#40;&quot;Complete enqueuing the message with message Id&quot; + response.getMessageId&#40;&#41;&#41;;\n </pre>\n\n <p>For more information, see the\n <a href=\"https://docs.microsoft.com/en-us/rest/api/storageservices/put-message\">Azure Docs</a>.</p>"
   parameters:
-  - description: Message text
-    name: messageText
-    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
-  syntax: public SendMessageResult sendMessage(String messageText)
+  - description: "Message text"
+    name: "messageText"
+    type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public SendMessageResult sendMessage(String messageText)"
   returns:
-    description: |-
-      A <xref uid="com.azure.storage.queue.models.SendMessageResult" data-throw-if-not-resolved="false">SendMessageResult</xref> value that contains the <xref uid="com.azure.storage.queue.models.SendMessageResult.getMessageId()" data-throw-if-not-resolved="false">messageId</xref>
-       and <xref uid="com.azure.storage.queue.models.SendMessageResult.getPopReceipt()" data-throw-if-not-resolved="false">popReceipt</xref> that are used to interact with the message
-       and other metadata about the enqueued message.
-    type: <xref href="com.azure.storage.queue.models.SendMessageResult?alt=com.azure.storage.queue.models.SendMessageResult&text=SendMessageResult" data-throw-if-not-resolved="False" />
-type: method
+    description: "A <xref uid=\"com.azure.storage.queue.models.SendMessageResult\" data-throw-if-not-resolved=\"false\">SendMessageResult</xref> value that contains the <xref uid=\"com.azure.storage.queue.models.SendMessageResult.getMessageId()\" data-throw-if-not-resolved=\"false\">messageId</xref>\n and <xref uid=\"com.azure.storage.queue.models.SendMessageResult.getPopReceipt()\" data-throw-if-not-resolved=\"false\">popReceipt</xref> that are used to interact with the message\n and other metadata about the enqueued message."
+    type: "<xref href=\"com.azure.storage.queue.models.SendMessageResult?alt=com.azure.storage.queue.models.SendMessageResult&text=SendMessageResult\" data-throw-if-not-resolved=\"False\" />"
+type: "method"
 metadata: {}
-package: com.azure.storage.queue
+package: "com.azure.storage.queue"
 artifact: com.azure:azure-storage-queue:12.6.0

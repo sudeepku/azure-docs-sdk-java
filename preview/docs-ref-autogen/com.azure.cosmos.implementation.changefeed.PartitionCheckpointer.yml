@@ -1,13 +1,13 @@
 ### YamlMime:JavaType
-uid: com.azure.cosmos.implementation.changefeed.PartitionCheckpointer
-fullName: com.azure.cosmos.implementation.changefeed.PartitionCheckpointer
-name: PartitionCheckpointer
-nameWithType: PartitionCheckpointer
-summary: Checkpoint the given partition up to the given continuation token.
-syntax: public interface PartitionCheckpointer
+uid: "com.azure.cosmos.implementation.changefeed.PartitionCheckpointer"
+fullName: "com.azure.cosmos.implementation.changefeed.PartitionCheckpointer"
+name: "PartitionCheckpointer"
+nameWithType: "PartitionCheckpointer"
+summary: "Checkpoint the given partition up to the given continuation token."
+syntax: "public interface PartitionCheckpointer"
 methods:
-- com.azure.cosmos.implementation.changefeed.PartitionCheckpointer.checkpointPartition(java.lang.String)
-type: interface
+- "com.azure.cosmos.implementation.changefeed.PartitionCheckpointer.checkpointPartition(java.lang.String)"
+type: "interface"
 metadata: {}
-package: com.azure.cosmos.implementation.changefeed
+package: "com.azure.cosmos.implementation.changefeed"
 artifact: com.azure:azure-cosmos:4.3.2-beta.2

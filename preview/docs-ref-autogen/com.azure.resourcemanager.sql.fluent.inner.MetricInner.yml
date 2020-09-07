@@ -1,35 +1,35 @@
 ### YamlMime:JavaType
-uid: com.azure.resourcemanager.sql.fluent.inner.MetricInner
-fullName: com.azure.resourcemanager.sql.fluent.inner.MetricInner
-name: MetricInner
-nameWithType: MetricInner
-summary: The Metric model.
+uid: "com.azure.resourcemanager.sql.fluent.inner.MetricInner"
+fullName: "com.azure.resourcemanager.sql.fluent.inner.MetricInner"
+name: "MetricInner"
+nameWithType: "MetricInner"
+summary: "The Metric model."
 inheritances:
-- <xref href="java.lang.Object" data-throw-if-not-resolved="False" />
+- "<xref href=\"java.lang.Object\" data-throw-if-not-resolved=\"False\" />"
 inheritedMembers:
-- java.lang.Object.clone()
-- java.lang.Object.equals(java.lang.Object)
-- java.lang.Object.finalize()
-- java.lang.Object.getClass()
-- java.lang.Object.hashCode()
-- java.lang.Object.notify()
-- java.lang.Object.notifyAll()
-- java.lang.Object.toString()
-- java.lang.Object.wait()
-- java.lang.Object.wait(long)
-- java.lang.Object.wait(long,int)
-syntax: public final class MetricInner
+- "java.lang.Object.clone()"
+- "java.lang.Object.equals(java.lang.Object)"
+- "java.lang.Object.finalize()"
+- "java.lang.Object.getClass()"
+- "java.lang.Object.hashCode()"
+- "java.lang.Object.notify()"
+- "java.lang.Object.notifyAll()"
+- "java.lang.Object.toString()"
+- "java.lang.Object.wait()"
+- "java.lang.Object.wait(long)"
+- "java.lang.Object.wait(long,int)"
+syntax: "public final class MetricInner"
 constructors:
-- com.azure.resourcemanager.sql.fluent.inner.MetricInner.MetricInner()
+- "com.azure.resourcemanager.sql.fluent.inner.MetricInner.MetricInner()"
 methods:
-- com.azure.resourcemanager.sql.fluent.inner.MetricInner.endTime()
-- com.azure.resourcemanager.sql.fluent.inner.MetricInner.metricValues()
-- com.azure.resourcemanager.sql.fluent.inner.MetricInner.name()
-- com.azure.resourcemanager.sql.fluent.inner.MetricInner.startTime()
-- com.azure.resourcemanager.sql.fluent.inner.MetricInner.timeGrain()
-- com.azure.resourcemanager.sql.fluent.inner.MetricInner.unit()
-- com.azure.resourcemanager.sql.fluent.inner.MetricInner.validate()
-type: class
+- "com.azure.resourcemanager.sql.fluent.inner.MetricInner.endTime()"
+- "com.azure.resourcemanager.sql.fluent.inner.MetricInner.metricValues()"
+- "com.azure.resourcemanager.sql.fluent.inner.MetricInner.name()"
+- "com.azure.resourcemanager.sql.fluent.inner.MetricInner.startTime()"
+- "com.azure.resourcemanager.sql.fluent.inner.MetricInner.timeGrain()"
+- "com.azure.resourcemanager.sql.fluent.inner.MetricInner.unit()"
+- "com.azure.resourcemanager.sql.fluent.inner.MetricInner.validate()"
+type: "class"
 metadata: {}
-package: com.azure.resourcemanager.sql.fluent.inner
+package: "com.azure.resourcemanager.sql.fluent.inner"
 artifact: com.azure.resourcemanager:azure-resourcemanager-sql:2.0.0-beta.2

@@ -1,69 +1,69 @@
 ### YamlMime:JavaType
-uid: com.azure.resourcemanager.containerservice.fluent.inner.ManagedClusterInner
-fullName: com.azure.resourcemanager.containerservice.fluent.inner.ManagedClusterInner
-name: ManagedClusterInner
-nameWithType: ManagedClusterInner
-summary: The ManagedCluster model.
+uid: "com.azure.resourcemanager.containerservice.fluent.inner.ManagedClusterInner"
+fullName: "com.azure.resourcemanager.containerservice.fluent.inner.ManagedClusterInner"
+name: "ManagedClusterInner"
+nameWithType: "ManagedClusterInner"
+summary: "The ManagedCluster model."
 inheritances:
-- <xref href="java.lang.Object" data-throw-if-not-resolved="False" />
-- <xref href="com.azure.core.management.ProxyResource" data-throw-if-not-resolved="False" />
-- <xref href="com.azure.core.management.Resource" data-throw-if-not-resolved="False" />
+- "<xref href=\"java.lang.Object\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.azure.core.management.ProxyResource\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.azure.core.management.Resource\" data-throw-if-not-resolved=\"False\" />"
 inheritedMembers:
-- com.azure.core.management.ProxyResource.id()
-- com.azure.core.management.ProxyResource.name()
-- com.azure.core.management.ProxyResource.type()
-- com.azure.core.management.Resource.location()
-- com.azure.core.management.Resource.tags()
-- com.azure.core.management.Resource.withLocation(java.lang.String)
-- com.azure.core.management.Resource.withTags(java.util.Map<java.lang.String,java.lang.String>)
-- java.lang.Object.clone()
-- java.lang.Object.equals(java.lang.Object)
-- java.lang.Object.finalize()
-- java.lang.Object.getClass()
-- java.lang.Object.hashCode()
-- java.lang.Object.notify()
-- java.lang.Object.notifyAll()
-- java.lang.Object.toString()
-- java.lang.Object.wait()
-- java.lang.Object.wait(long)
-- java.lang.Object.wait(long,int)
-syntax: public class ManagedClusterInner extends Resource
+- "com.azure.core.management.ProxyResource.id()"
+- "com.azure.core.management.ProxyResource.name()"
+- "com.azure.core.management.ProxyResource.type()"
+- "com.azure.core.management.Resource.location()"
+- "com.azure.core.management.Resource.tags()"
+- "com.azure.core.management.Resource.withLocation(java.lang.String)"
+- "com.azure.core.management.Resource.withTags(java.util.Map<java.lang.String,java.lang.String>)"
+- "java.lang.Object.clone()"
+- "java.lang.Object.equals(java.lang.Object)"
+- "java.lang.Object.finalize()"
+- "java.lang.Object.getClass()"
+- "java.lang.Object.hashCode()"
+- "java.lang.Object.notify()"
+- "java.lang.Object.notifyAll()"
+- "java.lang.Object.toString()"
+- "java.lang.Object.wait()"
+- "java.lang.Object.wait(long)"
+- "java.lang.Object.wait(long,int)"
+syntax: "public class ManagedClusterInner extends Resource"
 constructors:
-- com.azure.resourcemanager.containerservice.fluent.inner.ManagedClusterInner.ManagedClusterInner()
+- "com.azure.resourcemanager.containerservice.fluent.inner.ManagedClusterInner.ManagedClusterInner()"
 methods:
-- com.azure.resourcemanager.containerservice.fluent.inner.ManagedClusterInner.aadProfile()
-- com.azure.resourcemanager.containerservice.fluent.inner.ManagedClusterInner.addonProfiles()
-- com.azure.resourcemanager.containerservice.fluent.inner.ManagedClusterInner.agentPoolProfiles()
-- com.azure.resourcemanager.containerservice.fluent.inner.ManagedClusterInner.apiServerAccessProfile()
-- com.azure.resourcemanager.containerservice.fluent.inner.ManagedClusterInner.dnsPrefix()
-- com.azure.resourcemanager.containerservice.fluent.inner.ManagedClusterInner.enablePodSecurityPolicy()
-- com.azure.resourcemanager.containerservice.fluent.inner.ManagedClusterInner.enableRbac()
-- com.azure.resourcemanager.containerservice.fluent.inner.ManagedClusterInner.fqdn()
-- com.azure.resourcemanager.containerservice.fluent.inner.ManagedClusterInner.identity()
-- com.azure.resourcemanager.containerservice.fluent.inner.ManagedClusterInner.kubernetesVersion()
-- com.azure.resourcemanager.containerservice.fluent.inner.ManagedClusterInner.linuxProfile()
-- com.azure.resourcemanager.containerservice.fluent.inner.ManagedClusterInner.maxAgentPools()
-- com.azure.resourcemanager.containerservice.fluent.inner.ManagedClusterInner.networkProfile()
-- com.azure.resourcemanager.containerservice.fluent.inner.ManagedClusterInner.nodeResourceGroup()
-- com.azure.resourcemanager.containerservice.fluent.inner.ManagedClusterInner.provisioningState()
-- com.azure.resourcemanager.containerservice.fluent.inner.ManagedClusterInner.servicePrincipalProfile()
-- com.azure.resourcemanager.containerservice.fluent.inner.ManagedClusterInner.validate()
-- com.azure.resourcemanager.containerservice.fluent.inner.ManagedClusterInner.windowsProfile()
-- com.azure.resourcemanager.containerservice.fluent.inner.ManagedClusterInner.withAadProfile(com.azure.resourcemanager.containerservice.models.ManagedClusterAadProfile)
-- com.azure.resourcemanager.containerservice.fluent.inner.ManagedClusterInner.withAddonProfiles(java.util.Map<java.lang.String,com.azure.resourcemanager.containerservice.models.ManagedClusterAddonProfile>)
-- com.azure.resourcemanager.containerservice.fluent.inner.ManagedClusterInner.withAgentPoolProfiles(java.util.List<com.azure.resourcemanager.containerservice.models.ManagedClusterAgentPoolProfile>)
-- com.azure.resourcemanager.containerservice.fluent.inner.ManagedClusterInner.withApiServerAccessProfile(com.azure.resourcemanager.containerservice.models.ManagedClusterApiServerAccessProfile)
-- com.azure.resourcemanager.containerservice.fluent.inner.ManagedClusterInner.withDnsPrefix(java.lang.String)
-- com.azure.resourcemanager.containerservice.fluent.inner.ManagedClusterInner.withEnablePodSecurityPolicy(java.lang.Boolean)
-- com.azure.resourcemanager.containerservice.fluent.inner.ManagedClusterInner.withEnableRbac(java.lang.Boolean)
-- com.azure.resourcemanager.containerservice.fluent.inner.ManagedClusterInner.withIdentity(com.azure.resourcemanager.containerservice.models.ManagedClusterIdentity)
-- com.azure.resourcemanager.containerservice.fluent.inner.ManagedClusterInner.withKubernetesVersion(java.lang.String)
-- com.azure.resourcemanager.containerservice.fluent.inner.ManagedClusterInner.withLinuxProfile(com.azure.resourcemanager.containerservice.models.ContainerServiceLinuxProfile)
-- com.azure.resourcemanager.containerservice.fluent.inner.ManagedClusterInner.withNetworkProfile(com.azure.resourcemanager.containerservice.models.ContainerServiceNetworkProfile)
-- com.azure.resourcemanager.containerservice.fluent.inner.ManagedClusterInner.withNodeResourceGroup(java.lang.String)
-- com.azure.resourcemanager.containerservice.fluent.inner.ManagedClusterInner.withServicePrincipalProfile(com.azure.resourcemanager.containerservice.models.ManagedClusterServicePrincipalProfile)
-- com.azure.resourcemanager.containerservice.fluent.inner.ManagedClusterInner.withWindowsProfile(com.azure.resourcemanager.containerservice.models.ManagedClusterWindowsProfile)
-type: class
+- "com.azure.resourcemanager.containerservice.fluent.inner.ManagedClusterInner.aadProfile()"
+- "com.azure.resourcemanager.containerservice.fluent.inner.ManagedClusterInner.addonProfiles()"
+- "com.azure.resourcemanager.containerservice.fluent.inner.ManagedClusterInner.agentPoolProfiles()"
+- "com.azure.resourcemanager.containerservice.fluent.inner.ManagedClusterInner.apiServerAccessProfile()"
+- "com.azure.resourcemanager.containerservice.fluent.inner.ManagedClusterInner.dnsPrefix()"
+- "com.azure.resourcemanager.containerservice.fluent.inner.ManagedClusterInner.enablePodSecurityPolicy()"
+- "com.azure.resourcemanager.containerservice.fluent.inner.ManagedClusterInner.enableRbac()"
+- "com.azure.resourcemanager.containerservice.fluent.inner.ManagedClusterInner.fqdn()"
+- "com.azure.resourcemanager.containerservice.fluent.inner.ManagedClusterInner.identity()"
+- "com.azure.resourcemanager.containerservice.fluent.inner.ManagedClusterInner.kubernetesVersion()"
+- "com.azure.resourcemanager.containerservice.fluent.inner.ManagedClusterInner.linuxProfile()"
+- "com.azure.resourcemanager.containerservice.fluent.inner.ManagedClusterInner.maxAgentPools()"
+- "com.azure.resourcemanager.containerservice.fluent.inner.ManagedClusterInner.networkProfile()"
+- "com.azure.resourcemanager.containerservice.fluent.inner.ManagedClusterInner.nodeResourceGroup()"
+- "com.azure.resourcemanager.containerservice.fluent.inner.ManagedClusterInner.provisioningState()"
+- "com.azure.resourcemanager.containerservice.fluent.inner.ManagedClusterInner.servicePrincipalProfile()"
+- "com.azure.resourcemanager.containerservice.fluent.inner.ManagedClusterInner.validate()"
+- "com.azure.resourcemanager.containerservice.fluent.inner.ManagedClusterInner.windowsProfile()"
+- "com.azure.resourcemanager.containerservice.fluent.inner.ManagedClusterInner.withAadProfile(com.azure.resourcemanager.containerservice.models.ManagedClusterAadProfile)"
+- "com.azure.resourcemanager.containerservice.fluent.inner.ManagedClusterInner.withAddonProfiles(java.util.Map<java.lang.String,com.azure.resourcemanager.containerservice.models.ManagedClusterAddonProfile>)"
+- "com.azure.resourcemanager.containerservice.fluent.inner.ManagedClusterInner.withAgentPoolProfiles(java.util.List<com.azure.resourcemanager.containerservice.models.ManagedClusterAgentPoolProfile>)"
+- "com.azure.resourcemanager.containerservice.fluent.inner.ManagedClusterInner.withApiServerAccessProfile(com.azure.resourcemanager.containerservice.models.ManagedClusterApiServerAccessProfile)"
+- "com.azure.resourcemanager.containerservice.fluent.inner.ManagedClusterInner.withDnsPrefix(java.lang.String)"
+- "com.azure.resourcemanager.containerservice.fluent.inner.ManagedClusterInner.withEnablePodSecurityPolicy(java.lang.Boolean)"
+- "com.azure.resourcemanager.containerservice.fluent.inner.ManagedClusterInner.withEnableRbac(java.lang.Boolean)"
+- "com.azure.resourcemanager.containerservice.fluent.inner.ManagedClusterInner.withIdentity(com.azure.resourcemanager.containerservice.models.ManagedClusterIdentity)"
+- "com.azure.resourcemanager.containerservice.fluent.inner.ManagedClusterInner.withKubernetesVersion(java.lang.String)"
+- "com.azure.resourcemanager.containerservice.fluent.inner.ManagedClusterInner.withLinuxProfile(com.azure.resourcemanager.containerservice.models.ContainerServiceLinuxProfile)"
+- "com.azure.resourcemanager.containerservice.fluent.inner.ManagedClusterInner.withNetworkProfile(com.azure.resourcemanager.containerservice.models.ContainerServiceNetworkProfile)"
+- "com.azure.resourcemanager.containerservice.fluent.inner.ManagedClusterInner.withNodeResourceGroup(java.lang.String)"
+- "com.azure.resourcemanager.containerservice.fluent.inner.ManagedClusterInner.withServicePrincipalProfile(com.azure.resourcemanager.containerservice.models.ManagedClusterServicePrincipalProfile)"
+- "com.azure.resourcemanager.containerservice.fluent.inner.ManagedClusterInner.withWindowsProfile(com.azure.resourcemanager.containerservice.models.ManagedClusterWindowsProfile)"
+type: "class"
 metadata: {}
-package: com.azure.resourcemanager.containerservice.fluent.inner
+package: "com.azure.resourcemanager.containerservice.fluent.inner"
 artifact: com.azure.resourcemanager:azure-resourcemanager-containerservice:2.0.0-beta.2

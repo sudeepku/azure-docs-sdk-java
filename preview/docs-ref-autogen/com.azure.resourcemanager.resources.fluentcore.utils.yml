@@ -1,20 +1,20 @@
 ### YamlMime:JavaPackage
-uid: com.azure.resourcemanager.resources.fluentcore.utils
-fullName: com.azure.resourcemanager.resources.fluentcore.utils
-name: com.azure.resourcemanager.resources.fluentcore.utils
-summary: This package contains a few utility classes for working with Azure resources.
+uid: "com.azure.resourcemanager.resources.fluentcore.utils"
+fullName: "com.azure.resourcemanager.resources.fluentcore.utils"
+name: "com.azure.resourcemanager.resources.fluentcore.utils"
+summary: "This package contains a few utility classes for working with Azure resources."
 classes:
-- com.azure.resourcemanager.resources.fluentcore.utils.DelayProvider
-- com.azure.resourcemanager.resources.fluentcore.utils.ETagState
-- com.azure.resourcemanager.resources.fluentcore.utils.FileProvider
-- com.azure.resourcemanager.resources.fluentcore.utils.HttpPipelineProvider
-- com.azure.resourcemanager.resources.fluentcore.utils.PagedConverter
-- com.azure.resourcemanager.resources.fluentcore.utils.PagedList
-- com.azure.resourcemanager.resources.fluentcore.utils.ReactorMapper
-- com.azure.resourcemanager.resources.fluentcore.utils.ResourceNamer
-- com.azure.resourcemanager.resources.fluentcore.utils.ResourceNamerFactory
-- com.azure.resourcemanager.resources.fluentcore.utils.SdkContext
-- com.azure.resourcemanager.resources.fluentcore.utils.Utils
+- "com.azure.resourcemanager.resources.fluentcore.utils.DelayProvider"
+- "com.azure.resourcemanager.resources.fluentcore.utils.ETagState"
+- "com.azure.resourcemanager.resources.fluentcore.utils.FileProvider"
+- "com.azure.resourcemanager.resources.fluentcore.utils.HttpPipelineProvider"
+- "com.azure.resourcemanager.resources.fluentcore.utils.PagedConverter"
+- "com.azure.resourcemanager.resources.fluentcore.utils.PagedList"
+- "com.azure.resourcemanager.resources.fluentcore.utils.ReactorMapper"
+- "com.azure.resourcemanager.resources.fluentcore.utils.ResourceNamer"
+- "com.azure.resourcemanager.resources.fluentcore.utils.ResourceNamerFactory"
+- "com.azure.resourcemanager.resources.fluentcore.utils.SdkContext"
+- "com.azure.resourcemanager.resources.fluentcore.utils.Utils"
 metadata: {}
-package: com.azure.resourcemanager.resources.fluentcore.utils
+package: "com.azure.resourcemanager.resources.fluentcore.utils"
 artifact: com.azure.resourcemanager:azure-resourcemanager-resources:2.0.0-beta.2

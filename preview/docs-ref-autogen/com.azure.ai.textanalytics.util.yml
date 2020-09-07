@@ -1,15 +1,12 @@
 ### YamlMime:JavaPackage
-uid: com.azure.ai.textanalytics.util
-fullName: com.azure.ai.textanalytics.util
-name: com.azure.ai.textanalytics.util
-summary: |-
-  Package containing classes for creating a <xref uid="com.azure.ai.textanalytics.util.TextAnalyticsPagedFlux" data-throw-if-not-resolved="false">com.azure.ai.textanalytics.util.TextAnalyticsPagedFlux</xref>
-   and <xref uid="com.azure.ai.textanalytics.util.TextAnalyticsPagedIterable" data-throw-if-not-resolved="false">com.azure.ai.textanalytics.util.TextAnalyticsPagedIterable</xref> to use them to perform operations on
-   Azure Text Analytics.
+uid: "com.azure.ai.textanalytics.util"
+fullName: "com.azure.ai.textanalytics.util"
+name: "com.azure.ai.textanalytics.util"
+summary: "Package containing classes for creating a <xref uid=\"com.azure.ai.textanalytics.util.TextAnalyticsPagedFlux\" data-throw-if-not-resolved=\"false\">com.azure.ai.textanalytics.util.TextAnalyticsPagedFlux</xref>\n and <xref uid=\"com.azure.ai.textanalytics.util.TextAnalyticsPagedIterable\" data-throw-if-not-resolved=\"false\">com.azure.ai.textanalytics.util.TextAnalyticsPagedIterable</xref> to use them to perform operations on\n Azure Text Analytics."
 classes:
-- com.azure.ai.textanalytics.util.TextAnalyticsPagedFlux
-- com.azure.ai.textanalytics.util.TextAnalyticsPagedIterable
-- com.azure.ai.textanalytics.util.TextAnalyticsPagedResponse
+- "com.azure.ai.textanalytics.util.TextAnalyticsPagedFlux"
+- "com.azure.ai.textanalytics.util.TextAnalyticsPagedIterable"
+- "com.azure.ai.textanalytics.util.TextAnalyticsPagedResponse"
 metadata: {}
-package: com.azure.ai.textanalytics.util
+package: "com.azure.ai.textanalytics.util"
 artifact: com.azure:azure-ai-textanalytics:1.0.0-beta.4

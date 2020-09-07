@@ -1,32 +1,32 @@
 ### YamlMime:JavaMember
-uid: com.azure.storage.blob.specialized.BlobAsyncClientBase.downloadWithResponse*
-fullName: com.azure.storage.blob.specialized.BlobAsyncClientBase.downloadWithResponse
-name: downloadWithResponse
-nameWithType: BlobAsyncClientBase.downloadWithResponse
+uid: "com.azure.storage.blob.specialized.BlobAsyncClientBase.downloadWithResponse*"
+fullName: "com.azure.storage.blob.specialized.BlobAsyncClientBase.downloadWithResponse"
+name: "downloadWithResponse"
+nameWithType: "BlobAsyncClientBase.downloadWithResponse"
 members:
-- uid: com.azure.storage.blob.specialized.BlobAsyncClientBase.downloadWithResponse(com.azure.storage.blob.models.BlobRange,com.azure.storage.blob.models.DownloadRetryOptions,com.azure.storage.blob.models.BlobRequestConditions,boolean)
-  fullName: com.azure.storage.blob.specialized.BlobAsyncClientBase.downloadWithResponse(BlobRange range, DownloadRetryOptions options, BlobRequestConditions requestConditions, boolean getRangeContentMd5)
-  name: downloadWithResponse(BlobRange range, DownloadRetryOptions options, BlobRequestConditions requestConditions, boolean getRangeContentMd5)
-  nameWithType: BlobAsyncClientBase.downloadWithResponse(BlobRange range, DownloadRetryOptions options, BlobRequestConditions requestConditions, boolean getRangeContentMd5)
+- uid: "com.azure.storage.blob.specialized.BlobAsyncClientBase.downloadWithResponse(com.azure.storage.blob.models.BlobRange,com.azure.storage.blob.models.DownloadRetryOptions,com.azure.storage.blob.models.BlobRequestConditions,boolean)"
+  fullName: "com.azure.storage.blob.specialized.BlobAsyncClientBase.downloadWithResponse(BlobRange range, DownloadRetryOptions options, BlobRequestConditions requestConditions, boolean getRangeContentMd5)"
+  name: "downloadWithResponse(BlobRange range, DownloadRetryOptions options, BlobRequestConditions requestConditions, boolean getRangeContentMd5)"
+  nameWithType: "BlobAsyncClientBase.downloadWithResponse(BlobRange range, DownloadRetryOptions options, BlobRequestConditions requestConditions, boolean getRangeContentMd5)"
   summary: "Reads a range of bytes from a blob. Uploading data must be done from the <xref uid=\"BlockBlobClient\" data-throw-if-not-resolved=\"false\">BlockBlobClient</xref>, <xref uid=\"PageBlobClient\" data-throw-if-not-resolved=\"false\">PageBlobClient</xref>, or <xref uid=\"AppendBlobClient\" data-throw-if-not-resolved=\"false\">AppendBlobClient</xref>.\n\n <p><strong>Code Samples</strong></p>\n\n <pre>\n BlobRange range = new BlobRange&#40;1024, &#40;long&#41; 2048&#41;;\n DownloadRetryOptions options = new DownloadRetryOptions&#40;&#41;.setMaxRetryRequests&#40;5&#41;;\n \n client.downloadWithResponse&#40;range, options, null, false&#41;.subscribe&#40;response -&gt; &#123;\n     ByteArrayOutputStream downloadData = new ByteArrayOutputStream&#40;&#41;;\n     response.getValue&#40;&#41;.subscribe&#40;piece -&gt; &#123;\n         try &#123;\n             downloadData.write&#40;piece.array&#40;&#41;&#41;;\n         &#125; catch &#40;IOException ex&#41; &#123;\n             throw new UncheckedIOException&#40;ex&#41;;\n         &#125;\n     &#125;&#41;;\n &#125;&#41;;\n </pre>\n\n <p>For more information, see the\n <a href=\"https://docs.microsoft.com/en-us/rest/api/storageservices/get-blob\">Azure Docs</a></p>"
   parameters:
-  - description: <xref uid="com.azure.storage.blob.models.BlobRange" data-throw-if-not-resolved="false">BlobRange</xref>
-    name: range
-    type: <xref href="com.azure.storage.blob.models.BlobRange?alt=com.azure.storage.blob.models.BlobRange&text=BlobRange" data-throw-if-not-resolved="False" />
-  - description: <xref uid="com.azure.storage.blob.models.DownloadRetryOptions" data-throw-if-not-resolved="false">DownloadRetryOptions</xref>
-    name: options
-    type: <xref href="com.azure.storage.blob.models.DownloadRetryOptions?alt=com.azure.storage.blob.models.DownloadRetryOptions&text=DownloadRetryOptions" data-throw-if-not-resolved="False" />
-  - description: <xref uid="com.azure.storage.blob.models.BlobRequestConditions" data-throw-if-not-resolved="false">BlobRequestConditions</xref>
-    name: requestConditions
-    type: <xref href="com.azure.storage.blob.models.BlobRequestConditions?alt=com.azure.storage.blob.models.BlobRequestConditions&text=BlobRequestConditions" data-throw-if-not-resolved="False" />
-  - description: Whether the contentMD5 for the specified blob range should be returned.
-    name: getRangeContentMd5
-    type: <xref href="boolean?alt=boolean&text=boolean" data-throw-if-not-resolved="False" />
-  syntax: public Mono<BlobDownloadAsyncResponse> downloadWithResponse(BlobRange range, DownloadRetryOptions options, BlobRequestConditions requestConditions, boolean getRangeContentMd5)
+  - description: "<xref uid=\"com.azure.storage.blob.models.BlobRange\" data-throw-if-not-resolved=\"false\">BlobRange</xref>"
+    name: "range"
+    type: "<xref href=\"com.azure.storage.blob.models.BlobRange?alt=com.azure.storage.blob.models.BlobRange&text=BlobRange\" data-throw-if-not-resolved=\"False\" />"
+  - description: "<xref uid=\"com.azure.storage.blob.models.DownloadRetryOptions\" data-throw-if-not-resolved=\"false\">DownloadRetryOptions</xref>"
+    name: "options"
+    type: "<xref href=\"com.azure.storage.blob.models.DownloadRetryOptions?alt=com.azure.storage.blob.models.DownloadRetryOptions&text=DownloadRetryOptions\" data-throw-if-not-resolved=\"False\" />"
+  - description: "<xref uid=\"com.azure.storage.blob.models.BlobRequestConditions\" data-throw-if-not-resolved=\"false\">BlobRequestConditions</xref>"
+    name: "requestConditions"
+    type: "<xref href=\"com.azure.storage.blob.models.BlobRequestConditions?alt=com.azure.storage.blob.models.BlobRequestConditions&text=BlobRequestConditions\" data-throw-if-not-resolved=\"False\" />"
+  - description: "Whether the contentMD5 for the specified blob range should be returned."
+    name: "getRangeContentMd5"
+    type: "<xref href=\"boolean?alt=boolean&text=boolean\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public Mono<BlobDownloadAsyncResponse> downloadWithResponse(BlobRange range, DownloadRetryOptions options, BlobRequestConditions requestConditions, boolean getRangeContentMd5)"
   returns:
-    description: A reactive response containing the blob data.
-    type: <xref href="reactor.core.publisher.Mono?alt=reactor.core.publisher.Mono&text=Mono" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.storage.blob.models.BlobDownloadAsyncResponse?alt=com.azure.storage.blob.models.BlobDownloadAsyncResponse&text=BlobDownloadAsyncResponse" data-throw-if-not-resolved="False" />&gt;
-type: method
+    description: "A reactive response containing the blob data."
+    type: "<xref href=\"reactor.core.publisher.Mono?alt=reactor.core.publisher.Mono&text=Mono\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.storage.blob.models.BlobDownloadAsyncResponse?alt=com.azure.storage.blob.models.BlobDownloadAsyncResponse&text=BlobDownloadAsyncResponse\" data-throw-if-not-resolved=\"False\" />&gt;"
+type: "method"
 metadata: {}
-package: com.azure.storage.blob.specialized
+package: "com.azure.storage.blob.specialized"
 artifact: com.azure:azure-storage-blob:12.8.0-beta.1

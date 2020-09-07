@@ -1,31 +1,31 @@
 ### YamlMime:JavaType
-uid: com.azure.resourcemanager.sql.fluent.inner.ManagedInstanceOperationListResultInner
-fullName: com.azure.resourcemanager.sql.fluent.inner.ManagedInstanceOperationListResultInner
-name: ManagedInstanceOperationListResultInner
-nameWithType: ManagedInstanceOperationListResultInner
-summary: The ManagedInstanceOperationListResult model.
+uid: "com.azure.resourcemanager.sql.fluent.inner.ManagedInstanceOperationListResultInner"
+fullName: "com.azure.resourcemanager.sql.fluent.inner.ManagedInstanceOperationListResultInner"
+name: "ManagedInstanceOperationListResultInner"
+nameWithType: "ManagedInstanceOperationListResultInner"
+summary: "The ManagedInstanceOperationListResult model."
 inheritances:
-- <xref href="java.lang.Object" data-throw-if-not-resolved="False" />
+- "<xref href=\"java.lang.Object\" data-throw-if-not-resolved=\"False\" />"
 inheritedMembers:
-- java.lang.Object.clone()
-- java.lang.Object.equals(java.lang.Object)
-- java.lang.Object.finalize()
-- java.lang.Object.getClass()
-- java.lang.Object.hashCode()
-- java.lang.Object.notify()
-- java.lang.Object.notifyAll()
-- java.lang.Object.toString()
-- java.lang.Object.wait()
-- java.lang.Object.wait(long)
-- java.lang.Object.wait(long,int)
-syntax: public final class ManagedInstanceOperationListResultInner
+- "java.lang.Object.clone()"
+- "java.lang.Object.equals(java.lang.Object)"
+- "java.lang.Object.finalize()"
+- "java.lang.Object.getClass()"
+- "java.lang.Object.hashCode()"
+- "java.lang.Object.notify()"
+- "java.lang.Object.notifyAll()"
+- "java.lang.Object.toString()"
+- "java.lang.Object.wait()"
+- "java.lang.Object.wait(long)"
+- "java.lang.Object.wait(long,int)"
+syntax: "public final class ManagedInstanceOperationListResultInner"
 constructors:
-- com.azure.resourcemanager.sql.fluent.inner.ManagedInstanceOperationListResultInner.ManagedInstanceOperationListResultInner()
+- "com.azure.resourcemanager.sql.fluent.inner.ManagedInstanceOperationListResultInner.ManagedInstanceOperationListResultInner()"
 methods:
-- com.azure.resourcemanager.sql.fluent.inner.ManagedInstanceOperationListResultInner.nextLink()
-- com.azure.resourcemanager.sql.fluent.inner.ManagedInstanceOperationListResultInner.validate()
-- com.azure.resourcemanager.sql.fluent.inner.ManagedInstanceOperationListResultInner.value()
-type: class
+- "com.azure.resourcemanager.sql.fluent.inner.ManagedInstanceOperationListResultInner.nextLink()"
+- "com.azure.resourcemanager.sql.fluent.inner.ManagedInstanceOperationListResultInner.validate()"
+- "com.azure.resourcemanager.sql.fluent.inner.ManagedInstanceOperationListResultInner.value()"
+type: "class"
 metadata: {}
-package: com.azure.resourcemanager.sql.fluent.inner
+package: "com.azure.resourcemanager.sql.fluent.inner"
 artifact: com.azure.resourcemanager:azure-resourcemanager-sql:2.0.0-beta.2

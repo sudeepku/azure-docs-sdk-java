@@ -1,38 +1,38 @@
 ### YamlMime:JavaType
-uid: com.azure.resourcemanager.network.models.FirewallPolicyRuleConditionNetworkProtocol
-fullName: com.azure.resourcemanager.network.models.FirewallPolicyRuleConditionNetworkProtocol
-name: FirewallPolicyRuleConditionNetworkProtocol
-nameWithType: FirewallPolicyRuleConditionNetworkProtocol
-summary: Defines values for FirewallPolicyRuleConditionNetworkProtocol.
+uid: "com.azure.resourcemanager.network.models.FirewallPolicyRuleConditionNetworkProtocol"
+fullName: "com.azure.resourcemanager.network.models.FirewallPolicyRuleConditionNetworkProtocol"
+name: "FirewallPolicyRuleConditionNetworkProtocol"
+nameWithType: "FirewallPolicyRuleConditionNetworkProtocol"
+summary: "Defines values for FirewallPolicyRuleConditionNetworkProtocol."
 inheritances:
-- <xref href="java.lang.Object" data-throw-if-not-resolved="False" />
-- <xref href="com.azure.core.util.ExpandableStringEnum" data-throw-if-not-resolved="False" />
+- "<xref href=\"java.lang.Object\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.azure.core.util.ExpandableStringEnum\" data-throw-if-not-resolved=\"False\" />"
 inheritedMembers:
-- com.azure.core.util.ExpandableStringEnum.<T>fromString(java.lang.String,java.lang.Class<T>)
-- com.azure.core.util.ExpandableStringEnum.<T>values(java.lang.Class<T>)
-- com.azure.core.util.ExpandableStringEnum.equals(java.lang.Object)
-- com.azure.core.util.ExpandableStringEnum.hashCode()
-- com.azure.core.util.ExpandableStringEnum.toString()
-- java.lang.Object.clone()
-- java.lang.Object.finalize()
-- java.lang.Object.getClass()
-- java.lang.Object.notify()
-- java.lang.Object.notifyAll()
-- java.lang.Object.wait()
-- java.lang.Object.wait(long)
-- java.lang.Object.wait(long,int)
-syntax: public final class FirewallPolicyRuleConditionNetworkProtocol extends ExpandableStringEnum<FirewallPolicyRuleConditionNetworkProtocol>
+- "com.azure.core.util.ExpandableStringEnum.<T>fromString(java.lang.String,java.lang.Class<T>)"
+- "com.azure.core.util.ExpandableStringEnum.<T>values(java.lang.Class<T>)"
+- "com.azure.core.util.ExpandableStringEnum.equals(java.lang.Object)"
+- "com.azure.core.util.ExpandableStringEnum.hashCode()"
+- "com.azure.core.util.ExpandableStringEnum.toString()"
+- "java.lang.Object.clone()"
+- "java.lang.Object.finalize()"
+- "java.lang.Object.getClass()"
+- "java.lang.Object.notify()"
+- "java.lang.Object.notifyAll()"
+- "java.lang.Object.wait()"
+- "java.lang.Object.wait(long)"
+- "java.lang.Object.wait(long,int)"
+syntax: "public final class FirewallPolicyRuleConditionNetworkProtocol extends ExpandableStringEnum<FirewallPolicyRuleConditionNetworkProtocol>"
 constructors:
-- com.azure.resourcemanager.network.models.FirewallPolicyRuleConditionNetworkProtocol.FirewallPolicyRuleConditionNetworkProtocol()
+- "com.azure.resourcemanager.network.models.FirewallPolicyRuleConditionNetworkProtocol.FirewallPolicyRuleConditionNetworkProtocol()"
 fields:
-- com.azure.resourcemanager.network.models.FirewallPolicyRuleConditionNetworkProtocol.ANY
-- com.azure.resourcemanager.network.models.FirewallPolicyRuleConditionNetworkProtocol.ICMP
-- com.azure.resourcemanager.network.models.FirewallPolicyRuleConditionNetworkProtocol.TCP
-- com.azure.resourcemanager.network.models.FirewallPolicyRuleConditionNetworkProtocol.UDP
+- "com.azure.resourcemanager.network.models.FirewallPolicyRuleConditionNetworkProtocol.ANY"
+- "com.azure.resourcemanager.network.models.FirewallPolicyRuleConditionNetworkProtocol.ICMP"
+- "com.azure.resourcemanager.network.models.FirewallPolicyRuleConditionNetworkProtocol.TCP"
+- "com.azure.resourcemanager.network.models.FirewallPolicyRuleConditionNetworkProtocol.UDP"
 methods:
-- com.azure.resourcemanager.network.models.FirewallPolicyRuleConditionNetworkProtocol.fromString(java.lang.String)
-- com.azure.resourcemanager.network.models.FirewallPolicyRuleConditionNetworkProtocol.values()
-type: class
+- "com.azure.resourcemanager.network.models.FirewallPolicyRuleConditionNetworkProtocol.fromString(java.lang.String)"
+- "com.azure.resourcemanager.network.models.FirewallPolicyRuleConditionNetworkProtocol.values()"
+type: "class"
 metadata: {}
-package: com.azure.resourcemanager.network.models
+package: "com.azure.resourcemanager.network.models"
 artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.0.0-beta.2

@@ -1,18 +1,18 @@
 ### YamlMime:JavaMember
-uid: com.microsoft.azure.management.batchai.BatchAIFileServer.provisioningState*
-fullName: com.microsoft.azure.management.batchai.BatchAIFileServer.provisioningState
-name: provisioningState
-nameWithType: BatchAIFileServer.provisioningState
+uid: "com.microsoft.azure.management.batchai.BatchAIFileServer.provisioningState*"
+fullName: "com.microsoft.azure.management.batchai.BatchAIFileServer.provisioningState"
+name: "provisioningState"
+nameWithType: "BatchAIFileServer.provisioningState"
 members:
-- uid: com.microsoft.azure.management.batchai.BatchAIFileServer.provisioningState()
-  fullName: com.microsoft.azure.management.batchai.BatchAIFileServer.provisioningState()
-  name: provisioningState()
-  nameWithType: BatchAIFileServer.provisioningState()
-  syntax: public abstract FileServerProvisioningState provisioningState()
+- uid: "com.microsoft.azure.management.batchai.BatchAIFileServer.provisioningState()"
+  fullName: "com.microsoft.azure.management.batchai.BatchAIFileServer.provisioningState()"
+  name: "provisioningState()"
+  nameWithType: "BatchAIFileServer.provisioningState()"
+  syntax: "public abstract FileServerProvisioningState provisioningState()"
   returns:
-    description: the provisioning state of the File Server
-    type: <xref href="com.microsoft.azure.management.batchai.FileServerProvisioningState?alt=com.microsoft.azure.management.batchai.FileServerProvisioningState&text=FileServerProvisioningState" data-throw-if-not-resolved="False" />
-type: method
+    description: "the provisioning state of the File Server"
+    type: "<xref href=\"com.microsoft.azure.management.batchai.FileServerProvisioningState?alt=com.microsoft.azure.management.batchai.FileServerProvisioningState&text=FileServerProvisioningState\" data-throw-if-not-resolved=\"False\" />"
+type: "method"
 metadata: {}
-package: com.microsoft.azure.management.batchai
-artifact: com.microsoft.azure:azure-mgmt-batchai:1.36.1
+package: "com.microsoft.azure.management.batchai"
+artifact: com.microsoft.azure:azure-mgmt-batchai:1.36.2

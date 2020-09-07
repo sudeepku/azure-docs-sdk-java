@@ -1,32 +1,32 @@
 ### YamlMime:JavaType
-uid: com.azure.resourcemanager.appservice.fluent.inner.DiagnosticCategoryCollectionInner
-fullName: com.azure.resourcemanager.appservice.fluent.inner.DiagnosticCategoryCollectionInner
-name: DiagnosticCategoryCollectionInner
-nameWithType: DiagnosticCategoryCollectionInner
-summary: The DiagnosticCategoryCollection model.
+uid: "com.azure.resourcemanager.appservice.fluent.inner.DiagnosticCategoryCollectionInner"
+fullName: "com.azure.resourcemanager.appservice.fluent.inner.DiagnosticCategoryCollectionInner"
+name: "DiagnosticCategoryCollectionInner"
+nameWithType: "DiagnosticCategoryCollectionInner"
+summary: "The DiagnosticCategoryCollection model."
 inheritances:
-- <xref href="java.lang.Object" data-throw-if-not-resolved="False" />
+- "<xref href=\"java.lang.Object\" data-throw-if-not-resolved=\"False\" />"
 inheritedMembers:
-- java.lang.Object.clone()
-- java.lang.Object.equals(java.lang.Object)
-- java.lang.Object.finalize()
-- java.lang.Object.getClass()
-- java.lang.Object.hashCode()
-- java.lang.Object.notify()
-- java.lang.Object.notifyAll()
-- java.lang.Object.toString()
-- java.lang.Object.wait()
-- java.lang.Object.wait(long)
-- java.lang.Object.wait(long,int)
-syntax: public final class DiagnosticCategoryCollectionInner
+- "java.lang.Object.clone()"
+- "java.lang.Object.equals(java.lang.Object)"
+- "java.lang.Object.finalize()"
+- "java.lang.Object.getClass()"
+- "java.lang.Object.hashCode()"
+- "java.lang.Object.notify()"
+- "java.lang.Object.notifyAll()"
+- "java.lang.Object.toString()"
+- "java.lang.Object.wait()"
+- "java.lang.Object.wait(long)"
+- "java.lang.Object.wait(long,int)"
+syntax: "public final class DiagnosticCategoryCollectionInner"
 constructors:
-- com.azure.resourcemanager.appservice.fluent.inner.DiagnosticCategoryCollectionInner.DiagnosticCategoryCollectionInner()
+- "com.azure.resourcemanager.appservice.fluent.inner.DiagnosticCategoryCollectionInner.DiagnosticCategoryCollectionInner()"
 methods:
-- com.azure.resourcemanager.appservice.fluent.inner.DiagnosticCategoryCollectionInner.nextLink()
-- com.azure.resourcemanager.appservice.fluent.inner.DiagnosticCategoryCollectionInner.validate()
-- com.azure.resourcemanager.appservice.fluent.inner.DiagnosticCategoryCollectionInner.value()
-- com.azure.resourcemanager.appservice.fluent.inner.DiagnosticCategoryCollectionInner.withValue(java.util.List<com.azure.resourcemanager.appservice.fluent.inner.DiagnosticCategoryInner>)
-type: class
+- "com.azure.resourcemanager.appservice.fluent.inner.DiagnosticCategoryCollectionInner.nextLink()"
+- "com.azure.resourcemanager.appservice.fluent.inner.DiagnosticCategoryCollectionInner.validate()"
+- "com.azure.resourcemanager.appservice.fluent.inner.DiagnosticCategoryCollectionInner.value()"
+- "com.azure.resourcemanager.appservice.fluent.inner.DiagnosticCategoryCollectionInner.withValue(java.util.List<com.azure.resourcemanager.appservice.fluent.inner.DiagnosticCategoryInner>)"
+type: "class"
 metadata: {}
-package: com.azure.resourcemanager.appservice.fluent.inner
+package: "com.azure.resourcemanager.appservice.fluent.inner"
 artifact: com.azure.resourcemanager:azure-resourcemanager-appservice:2.0.0-beta.2

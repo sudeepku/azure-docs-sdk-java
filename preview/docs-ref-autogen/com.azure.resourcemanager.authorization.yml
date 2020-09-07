@@ -1,20 +1,16 @@
 ### YamlMime:JavaPackage
-uid: com.azure.resourcemanager.authorization
-fullName: com.azure.resourcemanager.authorization
-name: com.azure.resourcemanager.authorization
-summary: |-
-  Package containing the classes for AuthorizationManagementClient. Role based access control provides you a way to
-   apply granular level policy administration down to individual resources or resource groups. These operations enable
-   you to manage role definitions and role assignments. A role definition describes the set of actions that can be
-   performed on resources. A role assignment grants access to Azure Active Directory users.
+uid: "com.azure.resourcemanager.authorization"
+fullName: "com.azure.resourcemanager.authorization"
+name: "com.azure.resourcemanager.authorization"
+summary: "Package containing the classes for AuthorizationManagementClient. Role based access control provides you a way to\n apply granular level policy administration down to individual resources or resource groups. These operations enable\n you to manage role definitions and role assignments. A role definition describes the set of actions that can be\n performed on resources. A role assignment grants access to Azure Active Directory users."
 classes:
-- com.azure.resourcemanager.authorization.AuthorizationManagementClient
-- com.azure.resourcemanager.authorization.AuthorizationManagementClientBuilder
-- com.azure.resourcemanager.authorization.AuthorizationManager
-- com.azure.resourcemanager.authorization.GraphRbacManagementClient
-- com.azure.resourcemanager.authorization.GraphRbacManagementClientBuilder
+- "com.azure.resourcemanager.authorization.AuthorizationManagementClient"
+- "com.azure.resourcemanager.authorization.AuthorizationManagementClientBuilder"
+- "com.azure.resourcemanager.authorization.AuthorizationManager"
+- "com.azure.resourcemanager.authorization.GraphRbacManagementClient"
+- "com.azure.resourcemanager.authorization.GraphRbacManagementClientBuilder"
 interfaces:
-- com.azure.resourcemanager.authorization.AuthorizationManager.Configurable
+- "com.azure.resourcemanager.authorization.AuthorizationManager.Configurable"
 metadata: {}
-package: com.azure.resourcemanager.authorization
+package: "com.azure.resourcemanager.authorization"
 artifact: com.azure.resourcemanager:azure-resourcemanager-authorization:2.0.0-beta.2

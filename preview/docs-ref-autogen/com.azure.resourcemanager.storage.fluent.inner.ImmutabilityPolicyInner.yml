@@ -1,41 +1,41 @@
 ### YamlMime:JavaType
-uid: com.azure.resourcemanager.storage.fluent.inner.ImmutabilityPolicyInner
-fullName: com.azure.resourcemanager.storage.fluent.inner.ImmutabilityPolicyInner
-name: ImmutabilityPolicyInner
-nameWithType: ImmutabilityPolicyInner
-summary: The ImmutabilityPolicy model.
+uid: "com.azure.resourcemanager.storage.fluent.inner.ImmutabilityPolicyInner"
+fullName: "com.azure.resourcemanager.storage.fluent.inner.ImmutabilityPolicyInner"
+name: "ImmutabilityPolicyInner"
+nameWithType: "ImmutabilityPolicyInner"
+summary: "The ImmutabilityPolicy model."
 inheritances:
-- <xref href="java.lang.Object" data-throw-if-not-resolved="False" />
-- <xref href="com.azure.core.management.ProxyResource" data-throw-if-not-resolved="False" />
-- <xref href="com.azure.resourcemanager.storage.models.AzureEntityResource" data-throw-if-not-resolved="False" />
+- "<xref href=\"java.lang.Object\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.azure.core.management.ProxyResource\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.azure.resourcemanager.storage.models.AzureEntityResource\" data-throw-if-not-resolved=\"False\" />"
 inheritedMembers:
-- com.azure.core.management.ProxyResource.id()
-- com.azure.core.management.ProxyResource.name()
-- com.azure.core.management.ProxyResource.type()
-- com.azure.resourcemanager.storage.models.AzureEntityResource.etag()
-- com.azure.resourcemanager.storage.models.AzureEntityResource.validate()
-- java.lang.Object.clone()
-- java.lang.Object.equals(java.lang.Object)
-- java.lang.Object.finalize()
-- java.lang.Object.getClass()
-- java.lang.Object.hashCode()
-- java.lang.Object.notify()
-- java.lang.Object.notifyAll()
-- java.lang.Object.toString()
-- java.lang.Object.wait()
-- java.lang.Object.wait(long)
-- java.lang.Object.wait(long,int)
-syntax: public class ImmutabilityPolicyInner extends AzureEntityResource
+- "com.azure.core.management.ProxyResource.id()"
+- "com.azure.core.management.ProxyResource.name()"
+- "com.azure.core.management.ProxyResource.type()"
+- "com.azure.resourcemanager.storage.models.AzureEntityResource.etag()"
+- "com.azure.resourcemanager.storage.models.AzureEntityResource.validate()"
+- "java.lang.Object.clone()"
+- "java.lang.Object.equals(java.lang.Object)"
+- "java.lang.Object.finalize()"
+- "java.lang.Object.getClass()"
+- "java.lang.Object.hashCode()"
+- "java.lang.Object.notify()"
+- "java.lang.Object.notifyAll()"
+- "java.lang.Object.toString()"
+- "java.lang.Object.wait()"
+- "java.lang.Object.wait(long)"
+- "java.lang.Object.wait(long,int)"
+syntax: "public class ImmutabilityPolicyInner extends AzureEntityResource"
 constructors:
-- com.azure.resourcemanager.storage.fluent.inner.ImmutabilityPolicyInner.ImmutabilityPolicyInner()
+- "com.azure.resourcemanager.storage.fluent.inner.ImmutabilityPolicyInner.ImmutabilityPolicyInner()"
 methods:
-- com.azure.resourcemanager.storage.fluent.inner.ImmutabilityPolicyInner.allowProtectedAppendWrites()
-- com.azure.resourcemanager.storage.fluent.inner.ImmutabilityPolicyInner.immutabilityPeriodSinceCreationInDays()
-- com.azure.resourcemanager.storage.fluent.inner.ImmutabilityPolicyInner.state()
-- com.azure.resourcemanager.storage.fluent.inner.ImmutabilityPolicyInner.validate()
-- com.azure.resourcemanager.storage.fluent.inner.ImmutabilityPolicyInner.withAllowProtectedAppendWrites(java.lang.Boolean)
-- com.azure.resourcemanager.storage.fluent.inner.ImmutabilityPolicyInner.withImmutabilityPeriodSinceCreationInDays(java.lang.Integer)
-type: class
+- "com.azure.resourcemanager.storage.fluent.inner.ImmutabilityPolicyInner.allowProtectedAppendWrites()"
+- "com.azure.resourcemanager.storage.fluent.inner.ImmutabilityPolicyInner.immutabilityPeriodSinceCreationInDays()"
+- "com.azure.resourcemanager.storage.fluent.inner.ImmutabilityPolicyInner.state()"
+- "com.azure.resourcemanager.storage.fluent.inner.ImmutabilityPolicyInner.validate()"
+- "com.azure.resourcemanager.storage.fluent.inner.ImmutabilityPolicyInner.withAllowProtectedAppendWrites(java.lang.Boolean)"
+- "com.azure.resourcemanager.storage.fluent.inner.ImmutabilityPolicyInner.withImmutabilityPeriodSinceCreationInDays(java.lang.Integer)"
+type: "class"
 metadata: {}
-package: com.azure.resourcemanager.storage.fluent.inner
+package: "com.azure.resourcemanager.storage.fluent.inner"
 artifact: com.azure.resourcemanager:azure-resourcemanager-storage:2.0.0-beta.2

@@ -1,41 +1,26 @@
 ### YamlMime:JavaMember
-uid: com.azure.search.documents.indexes.SearchIndexerAsyncClient.deleteSkillsetWithResponse*
-fullName: com.azure.search.documents.indexes.SearchIndexerAsyncClient.deleteSkillsetWithResponse
-name: deleteSkillsetWithResponse
-nameWithType: SearchIndexerAsyncClient.deleteSkillsetWithResponse
+uid: "com.azure.search.documents.indexes.SearchIndexerAsyncClient.deleteSkillsetWithResponse*"
+fullName: "com.azure.search.documents.indexes.SearchIndexerAsyncClient.deleteSkillsetWithResponse"
+name: "deleteSkillsetWithResponse"
+nameWithType: "SearchIndexerAsyncClient.deleteSkillsetWithResponse"
 members:
-- uid: com.azure.search.documents.indexes.SearchIndexerAsyncClient.deleteSkillsetWithResponse(com.azure.search.documents.indexes.models.SearchIndexerSkillset,boolean)
-  fullName: com.azure.search.documents.indexes.SearchIndexerAsyncClient.deleteSkillsetWithResponse(SearchIndexerSkillset skillset, boolean onlyIfUnchanged)
-  name: deleteSkillsetWithResponse(SearchIndexerSkillset skillset, boolean onlyIfUnchanged)
-  nameWithType: SearchIndexerAsyncClient.deleteSkillsetWithResponse(SearchIndexerSkillset skillset, boolean onlyIfUnchanged)
-  summary: |-
-    Deletes a cognitive skillset in an Azure Cognitive Search service.
-
-     <p><strong>Code Sample</strong></p>
-
-     <p> Delete search indexer skillset "searchIndexerSkillset". </p>
-
-     <pre>
-     searchIndexerAsyncClient.getSkillset&#40;&quot;searchIndexerSkilset&quot;&#41;
-         .flatMap&#40;searchIndexerSkilset -&gt;
-             searchIndexerAsyncClient.deleteSkillsetWithResponse&#40;searchIndexerSkilset, true&#41;&#41;
-         .subscribe&#40;deleteResponse -&gt;
-             System.out.printf&#40;&quot;The status code of the response is %d.%n&quot;, deleteResponse.getStatusCode&#40;&#41;&#41;&#41;;
-     </pre>
+- uid: "com.azure.search.documents.indexes.SearchIndexerAsyncClient.deleteSkillsetWithResponse(com.azure.search.documents.indexes.models.SearchIndexerSkillset,boolean)"
+  fullName: "com.azure.search.documents.indexes.SearchIndexerAsyncClient.deleteSkillsetWithResponse(SearchIndexerSkillset skillset, boolean onlyIfUnchanged)"
+  name: "deleteSkillsetWithResponse(SearchIndexerSkillset skillset, boolean onlyIfUnchanged)"
+  nameWithType: "SearchIndexerAsyncClient.deleteSkillsetWithResponse(SearchIndexerSkillset skillset, boolean onlyIfUnchanged)"
+  summary: "Deletes a cognitive skillset in an Azure Cognitive Search service.\n\n <p><strong>Code Sample</strong></p>\n\n <p> Delete search indexer skillset \"searchIndexerSkillset\". </p>\n\n <pre>\n searchIndexerAsyncClient.getSkillset&#40;&quot;searchIndexerSkilset&quot;&#41;\n     .flatMap&#40;searchIndexerSkilset -&gt;\n         searchIndexerAsyncClient.deleteSkillsetWithResponse&#40;searchIndexerSkilset, true&#41;&#41;\n     .subscribe&#40;deleteResponse -&gt;\n         System.out.printf&#40;&quot;The status code of the response is %d.%n&quot;, deleteResponse.getStatusCode&#40;&#41;&#41;&#41;;\n </pre>"
   parameters:
-  - description: the <xref uid="com.azure.search.documents.indexes.models.SearchIndexerSkillset" data-throw-if-not-resolved="false">SearchIndexerSkillset</xref> to delete.
-    name: skillset
-    type: <xref href="com.azure.search.documents.indexes.models.SearchIndexerSkillset?alt=com.azure.search.documents.indexes.models.SearchIndexerSkillset&text=SearchIndexerSkillset" data-throw-if-not-resolved="False" />
-  - description: |-
-      <code>true</code> to delete if the <code>skillset</code> is the same as the current service value.
-       <code>false</code> to always delete existing value.
-    name: onlyIfUnchanged
-    type: <xref href="boolean?alt=boolean&text=boolean" data-throw-if-not-resolved="False" />
-  syntax: public Mono<Response<Void>> deleteSkillsetWithResponse(SearchIndexerSkillset skillset, boolean onlyIfUnchanged)
+  - description: "the <xref uid=\"com.azure.search.documents.indexes.models.SearchIndexerSkillset\" data-throw-if-not-resolved=\"false\">SearchIndexerSkillset</xref> to delete."
+    name: "skillset"
+    type: "<xref href=\"com.azure.search.documents.indexes.models.SearchIndexerSkillset?alt=com.azure.search.documents.indexes.models.SearchIndexerSkillset&text=SearchIndexerSkillset\" data-throw-if-not-resolved=\"False\" />"
+  - description: "<code>true</code> to delete if the <code>skillset</code> is the same as the current service value.\n <code>false</code> to always delete existing value."
+    name: "onlyIfUnchanged"
+    type: "<xref href=\"boolean?alt=boolean&text=boolean\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public Mono<Response<Void>> deleteSkillsetWithResponse(SearchIndexerSkillset skillset, boolean onlyIfUnchanged)"
   returns:
-    description: a response signalling completion.
-    type: <xref href="reactor.core.publisher.Mono?alt=reactor.core.publisher.Mono&text=Mono" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.core.http.rest.Response?alt=com.azure.core.http.rest.Response&text=Response" data-throw-if-not-resolved="False" />&lt;<xref href="java.lang.Void?alt=java.lang.Void&text=Void" data-throw-if-not-resolved="False" />&gt;&gt;
-type: method
+    description: "a response signalling completion."
+    type: "<xref href=\"reactor.core.publisher.Mono?alt=reactor.core.publisher.Mono&text=Mono\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.core.http.rest.Response?alt=com.azure.core.http.rest.Response&text=Response\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"java.lang.Void?alt=java.lang.Void&text=Void\" data-throw-if-not-resolved=\"False\" />&gt;&gt;"
+type: "method"
 metadata: {}
-package: com.azure.search.documents.indexes
+package: "com.azure.search.documents.indexes"
 artifact: com.azure:azure-search-documents:11.0.0

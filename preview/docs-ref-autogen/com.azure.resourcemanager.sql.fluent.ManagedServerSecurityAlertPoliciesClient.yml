@@ -1,56 +1,56 @@
 ### YamlMime:JavaType
-uid: com.azure.resourcemanager.sql.fluent.ManagedServerSecurityAlertPoliciesClient
-fullName: com.azure.resourcemanager.sql.fluent.ManagedServerSecurityAlertPoliciesClient
-name: ManagedServerSecurityAlertPoliciesClient
-nameWithType: ManagedServerSecurityAlertPoliciesClient
-summary: An instance of this class provides access to all the operations defined in ManagedServerSecurityAlertPolicies.
+uid: "com.azure.resourcemanager.sql.fluent.ManagedServerSecurityAlertPoliciesClient"
+fullName: "com.azure.resourcemanager.sql.fluent.ManagedServerSecurityAlertPoliciesClient"
+name: "ManagedServerSecurityAlertPoliciesClient"
+nameWithType: "ManagedServerSecurityAlertPoliciesClient"
+summary: "An instance of this class provides access to all the operations defined in ManagedServerSecurityAlertPolicies."
 inheritances:
-- <xref href="java.lang.Object" data-throw-if-not-resolved="False" />
+- "<xref href=\"java.lang.Object\" data-throw-if-not-resolved=\"False\" />"
 inheritedMembers:
-- java.lang.Object.clone()
-- java.lang.Object.equals(java.lang.Object)
-- java.lang.Object.finalize()
-- java.lang.Object.getClass()
-- java.lang.Object.hashCode()
-- java.lang.Object.notify()
-- java.lang.Object.notifyAll()
-- java.lang.Object.toString()
-- java.lang.Object.wait()
-- java.lang.Object.wait(long)
-- java.lang.Object.wait(long,int)
-syntax: public final class ManagedServerSecurityAlertPoliciesClient
+- "java.lang.Object.clone()"
+- "java.lang.Object.equals(java.lang.Object)"
+- "java.lang.Object.finalize()"
+- "java.lang.Object.getClass()"
+- "java.lang.Object.hashCode()"
+- "java.lang.Object.notify()"
+- "java.lang.Object.notifyAll()"
+- "java.lang.Object.toString()"
+- "java.lang.Object.wait()"
+- "java.lang.Object.wait(long)"
+- "java.lang.Object.wait(long,int)"
+syntax: "public final class ManagedServerSecurityAlertPoliciesClient"
 constructors:
-- com.azure.resourcemanager.sql.fluent.ManagedServerSecurityAlertPoliciesClient.ManagedServerSecurityAlertPoliciesClient(com.azure.resourcemanager.sql.SqlManagementClient)
+- "com.azure.resourcemanager.sql.fluent.ManagedServerSecurityAlertPoliciesClient.ManagedServerSecurityAlertPoliciesClient(com.azure.resourcemanager.sql.SqlManagementClient)"
 methods:
-- com.azure.resourcemanager.sql.fluent.ManagedServerSecurityAlertPoliciesClient.beginCreateOrUpdate(java.lang.String,java.lang.String,com.azure.resourcemanager.sql.fluent.inner.ManagedServerSecurityAlertPolicyInner)
-- com.azure.resourcemanager.sql.fluent.ManagedServerSecurityAlertPoliciesClient.beginCreateOrUpdate(java.lang.String,java.lang.String,com.azure.resourcemanager.sql.fluent.inner.ManagedServerSecurityAlertPolicyInner,com.azure.core.util.Context)
-- com.azure.resourcemanager.sql.fluent.ManagedServerSecurityAlertPoliciesClient.beginCreateOrUpdateWithoutPolling(java.lang.String,java.lang.String,com.azure.resourcemanager.sql.fluent.inner.ManagedServerSecurityAlertPolicyInner)
-- com.azure.resourcemanager.sql.fluent.ManagedServerSecurityAlertPoliciesClient.beginCreateOrUpdateWithoutPolling(java.lang.String,java.lang.String,com.azure.resourcemanager.sql.fluent.inner.ManagedServerSecurityAlertPolicyInner,com.azure.core.util.Context)
-- com.azure.resourcemanager.sql.fluent.ManagedServerSecurityAlertPoliciesClient.beginCreateOrUpdateWithoutPollingAsync(java.lang.String,java.lang.String,com.azure.resourcemanager.sql.fluent.inner.ManagedServerSecurityAlertPolicyInner)
-- com.azure.resourcemanager.sql.fluent.ManagedServerSecurityAlertPoliciesClient.beginCreateOrUpdateWithoutPollingAsync(java.lang.String,java.lang.String,com.azure.resourcemanager.sql.fluent.inner.ManagedServerSecurityAlertPolicyInner,com.azure.core.util.Context)
-- com.azure.resourcemanager.sql.fluent.ManagedServerSecurityAlertPoliciesClient.beginCreateOrUpdateWithoutPollingWithResponseAsync(java.lang.String,java.lang.String,com.azure.resourcemanager.sql.fluent.inner.ManagedServerSecurityAlertPolicyInner)
-- com.azure.resourcemanager.sql.fluent.ManagedServerSecurityAlertPoliciesClient.beginCreateOrUpdateWithoutPollingWithResponseAsync(java.lang.String,java.lang.String,com.azure.resourcemanager.sql.fluent.inner.ManagedServerSecurityAlertPolicyInner,com.azure.core.util.Context)
-- com.azure.resourcemanager.sql.fluent.ManagedServerSecurityAlertPoliciesClient.createOrUpdate(java.lang.String,java.lang.String,com.azure.resourcemanager.sql.fluent.inner.ManagedServerSecurityAlertPolicyInner)
-- com.azure.resourcemanager.sql.fluent.ManagedServerSecurityAlertPoliciesClient.createOrUpdate(java.lang.String,java.lang.String,com.azure.resourcemanager.sql.fluent.inner.ManagedServerSecurityAlertPolicyInner,com.azure.core.util.Context)
-- com.azure.resourcemanager.sql.fluent.ManagedServerSecurityAlertPoliciesClient.createOrUpdateAsync(java.lang.String,java.lang.String,com.azure.resourcemanager.sql.fluent.inner.ManagedServerSecurityAlertPolicyInner)
-- com.azure.resourcemanager.sql.fluent.ManagedServerSecurityAlertPoliciesClient.createOrUpdateAsync(java.lang.String,java.lang.String,com.azure.resourcemanager.sql.fluent.inner.ManagedServerSecurityAlertPolicyInner,com.azure.core.util.Context)
-- com.azure.resourcemanager.sql.fluent.ManagedServerSecurityAlertPoliciesClient.createOrUpdateWithResponseAsync(java.lang.String,java.lang.String,com.azure.resourcemanager.sql.fluent.inner.ManagedServerSecurityAlertPolicyInner)
-- com.azure.resourcemanager.sql.fluent.ManagedServerSecurityAlertPoliciesClient.createOrUpdateWithResponseAsync(java.lang.String,java.lang.String,com.azure.resourcemanager.sql.fluent.inner.ManagedServerSecurityAlertPolicyInner,com.azure.core.util.Context)
-- com.azure.resourcemanager.sql.fluent.ManagedServerSecurityAlertPoliciesClient.get(java.lang.String,java.lang.String)
-- com.azure.resourcemanager.sql.fluent.ManagedServerSecurityAlertPoliciesClient.get(java.lang.String,java.lang.String,com.azure.core.util.Context)
-- com.azure.resourcemanager.sql.fluent.ManagedServerSecurityAlertPoliciesClient.getAsync(java.lang.String,java.lang.String)
-- com.azure.resourcemanager.sql.fluent.ManagedServerSecurityAlertPoliciesClient.getAsync(java.lang.String,java.lang.String,com.azure.core.util.Context)
-- com.azure.resourcemanager.sql.fluent.ManagedServerSecurityAlertPoliciesClient.getWithResponseAsync(java.lang.String,java.lang.String)
-- com.azure.resourcemanager.sql.fluent.ManagedServerSecurityAlertPoliciesClient.getWithResponseAsync(java.lang.String,java.lang.String,com.azure.core.util.Context)
-- com.azure.resourcemanager.sql.fluent.ManagedServerSecurityAlertPoliciesClient.listByInstance(java.lang.String,java.lang.String)
-- com.azure.resourcemanager.sql.fluent.ManagedServerSecurityAlertPoliciesClient.listByInstance(java.lang.String,java.lang.String,com.azure.core.util.Context)
-- com.azure.resourcemanager.sql.fluent.ManagedServerSecurityAlertPoliciesClient.listByInstanceAsync(java.lang.String,java.lang.String)
-- com.azure.resourcemanager.sql.fluent.ManagedServerSecurityAlertPoliciesClient.listByInstanceAsync(java.lang.String,java.lang.String,com.azure.core.util.Context)
-- com.azure.resourcemanager.sql.fluent.ManagedServerSecurityAlertPoliciesClient.listByInstanceNextSinglePageAsync(java.lang.String)
-- com.azure.resourcemanager.sql.fluent.ManagedServerSecurityAlertPoliciesClient.listByInstanceNextSinglePageAsync(java.lang.String,com.azure.core.util.Context)
-- com.azure.resourcemanager.sql.fluent.ManagedServerSecurityAlertPoliciesClient.listByInstanceSinglePageAsync(java.lang.String,java.lang.String)
-- com.azure.resourcemanager.sql.fluent.ManagedServerSecurityAlertPoliciesClient.listByInstanceSinglePageAsync(java.lang.String,java.lang.String,com.azure.core.util.Context)
-type: class
+- "com.azure.resourcemanager.sql.fluent.ManagedServerSecurityAlertPoliciesClient.beginCreateOrUpdate(java.lang.String,java.lang.String,com.azure.resourcemanager.sql.fluent.inner.ManagedServerSecurityAlertPolicyInner)"
+- "com.azure.resourcemanager.sql.fluent.ManagedServerSecurityAlertPoliciesClient.beginCreateOrUpdate(java.lang.String,java.lang.String,com.azure.resourcemanager.sql.fluent.inner.ManagedServerSecurityAlertPolicyInner,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.sql.fluent.ManagedServerSecurityAlertPoliciesClient.beginCreateOrUpdateWithoutPolling(java.lang.String,java.lang.String,com.azure.resourcemanager.sql.fluent.inner.ManagedServerSecurityAlertPolicyInner)"
+- "com.azure.resourcemanager.sql.fluent.ManagedServerSecurityAlertPoliciesClient.beginCreateOrUpdateWithoutPolling(java.lang.String,java.lang.String,com.azure.resourcemanager.sql.fluent.inner.ManagedServerSecurityAlertPolicyInner,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.sql.fluent.ManagedServerSecurityAlertPoliciesClient.beginCreateOrUpdateWithoutPollingAsync(java.lang.String,java.lang.String,com.azure.resourcemanager.sql.fluent.inner.ManagedServerSecurityAlertPolicyInner)"
+- "com.azure.resourcemanager.sql.fluent.ManagedServerSecurityAlertPoliciesClient.beginCreateOrUpdateWithoutPollingAsync(java.lang.String,java.lang.String,com.azure.resourcemanager.sql.fluent.inner.ManagedServerSecurityAlertPolicyInner,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.sql.fluent.ManagedServerSecurityAlertPoliciesClient.beginCreateOrUpdateWithoutPollingWithResponseAsync(java.lang.String,java.lang.String,com.azure.resourcemanager.sql.fluent.inner.ManagedServerSecurityAlertPolicyInner)"
+- "com.azure.resourcemanager.sql.fluent.ManagedServerSecurityAlertPoliciesClient.beginCreateOrUpdateWithoutPollingWithResponseAsync(java.lang.String,java.lang.String,com.azure.resourcemanager.sql.fluent.inner.ManagedServerSecurityAlertPolicyInner,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.sql.fluent.ManagedServerSecurityAlertPoliciesClient.createOrUpdate(java.lang.String,java.lang.String,com.azure.resourcemanager.sql.fluent.inner.ManagedServerSecurityAlertPolicyInner)"
+- "com.azure.resourcemanager.sql.fluent.ManagedServerSecurityAlertPoliciesClient.createOrUpdate(java.lang.String,java.lang.String,com.azure.resourcemanager.sql.fluent.inner.ManagedServerSecurityAlertPolicyInner,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.sql.fluent.ManagedServerSecurityAlertPoliciesClient.createOrUpdateAsync(java.lang.String,java.lang.String,com.azure.resourcemanager.sql.fluent.inner.ManagedServerSecurityAlertPolicyInner)"
+- "com.azure.resourcemanager.sql.fluent.ManagedServerSecurityAlertPoliciesClient.createOrUpdateAsync(java.lang.String,java.lang.String,com.azure.resourcemanager.sql.fluent.inner.ManagedServerSecurityAlertPolicyInner,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.sql.fluent.ManagedServerSecurityAlertPoliciesClient.createOrUpdateWithResponseAsync(java.lang.String,java.lang.String,com.azure.resourcemanager.sql.fluent.inner.ManagedServerSecurityAlertPolicyInner)"
+- "com.azure.resourcemanager.sql.fluent.ManagedServerSecurityAlertPoliciesClient.createOrUpdateWithResponseAsync(java.lang.String,java.lang.String,com.azure.resourcemanager.sql.fluent.inner.ManagedServerSecurityAlertPolicyInner,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.sql.fluent.ManagedServerSecurityAlertPoliciesClient.get(java.lang.String,java.lang.String)"
+- "com.azure.resourcemanager.sql.fluent.ManagedServerSecurityAlertPoliciesClient.get(java.lang.String,java.lang.String,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.sql.fluent.ManagedServerSecurityAlertPoliciesClient.getAsync(java.lang.String,java.lang.String)"
+- "com.azure.resourcemanager.sql.fluent.ManagedServerSecurityAlertPoliciesClient.getAsync(java.lang.String,java.lang.String,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.sql.fluent.ManagedServerSecurityAlertPoliciesClient.getWithResponseAsync(java.lang.String,java.lang.String)"
+- "com.azure.resourcemanager.sql.fluent.ManagedServerSecurityAlertPoliciesClient.getWithResponseAsync(java.lang.String,java.lang.String,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.sql.fluent.ManagedServerSecurityAlertPoliciesClient.listByInstance(java.lang.String,java.lang.String)"
+- "com.azure.resourcemanager.sql.fluent.ManagedServerSecurityAlertPoliciesClient.listByInstance(java.lang.String,java.lang.String,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.sql.fluent.ManagedServerSecurityAlertPoliciesClient.listByInstanceAsync(java.lang.String,java.lang.String)"
+- "com.azure.resourcemanager.sql.fluent.ManagedServerSecurityAlertPoliciesClient.listByInstanceAsync(java.lang.String,java.lang.String,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.sql.fluent.ManagedServerSecurityAlertPoliciesClient.listByInstanceNextSinglePageAsync(java.lang.String)"
+- "com.azure.resourcemanager.sql.fluent.ManagedServerSecurityAlertPoliciesClient.listByInstanceNextSinglePageAsync(java.lang.String,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.sql.fluent.ManagedServerSecurityAlertPoliciesClient.listByInstanceSinglePageAsync(java.lang.String,java.lang.String)"
+- "com.azure.resourcemanager.sql.fluent.ManagedServerSecurityAlertPoliciesClient.listByInstanceSinglePageAsync(java.lang.String,java.lang.String,com.azure.core.util.Context)"
+type: "class"
 metadata: {}
-package: com.azure.resourcemanager.sql.fluent
+package: "com.azure.resourcemanager.sql.fluent"
 artifact: com.azure.resourcemanager:azure-resourcemanager-sql:2.0.0-beta.2

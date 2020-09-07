@@ -1,67 +1,29 @@
 ### YamlMime:JavaMember
-uid: com.azure.storage.queue.QueueAsyncClient.sendMessageWithResponse*
-fullName: com.azure.storage.queue.QueueAsyncClient.sendMessageWithResponse
-name: sendMessageWithResponse
-nameWithType: QueueAsyncClient.sendMessageWithResponse
+uid: "com.azure.storage.queue.QueueAsyncClient.sendMessageWithResponse*"
+fullName: "com.azure.storage.queue.QueueAsyncClient.sendMessageWithResponse"
+name: "sendMessageWithResponse"
+nameWithType: "QueueAsyncClient.sendMessageWithResponse"
 members:
-- uid: com.azure.storage.queue.QueueAsyncClient.sendMessageWithResponse(java.lang.String,java.time.Duration,java.time.Duration)
-  fullName: com.azure.storage.queue.QueueAsyncClient.sendMessageWithResponse(String messageText, Duration visibilityTimeout, Duration timeToLive)
-  name: sendMessageWithResponse(String messageText, Duration visibilityTimeout, Duration timeToLive)
-  nameWithType: QueueAsyncClient.sendMessageWithResponse(String messageText, Duration visibilityTimeout, Duration timeToLive)
-  summary: |-
-    Enqueues a message with a given time-to-live and a timeout period where the message is invisible in the queue.
-
-     <p><strong>Code Samples</strong></p>
-
-     <p>Add a message of "Hello, Azure" that has a timeout of 5 seconds</p>
-
-     <pre>
-     client.sendMessageWithResponse&#40;&quot;Hello, Azure&quot;,
-         Duration.ofSeconds&#40;5&#41;, null&#41;.subscribe&#40;
-             response -&gt; System.out.printf&#40;&quot;Message %s expires at %s&quot;, response.getValue&#40;&#41;.getMessageId&#40;&#41;,
-                 response.getValue&#40;&#41;.getExpirationTime&#40;&#41;&#41;,
-             error -&gt; System.err.print&#40;error.toString&#40;&#41;&#41;,
-             &#40;&#41; -&gt; System.out.println&#40;&quot;Complete enqueuing the message!&quot;&#41;
-     &#41;;
-     </pre>
-
-     <p>Add a message of "Goodbye, Azure" that has a time to live of 5 seconds</p>
-
-     <pre>
-     client.sendMessageWithResponse&#40;&quot;Goodbye, Azure&quot;,
-         null, Duration.ofSeconds&#40;5&#41;&#41;.subscribe&#40;
-             response -&gt; System.out.printf&#40;&quot;Message %s expires at %s&quot;, response.getValue&#40;&#41;.getMessageId&#40;&#41;,
-                 response.getValue&#40;&#41;.getExpirationTime&#40;&#41;&#41;,
-             error -&gt; System.err.print&#40;error.toString&#40;&#41;&#41;,
-             &#40;&#41; -&gt; System.out.println&#40;&quot;Complete enqueuing the message!&quot;&#41;
-     &#41;;
-     </pre>
-
-     <p>For more information, see the
-     <a href="https://docs.microsoft.com/en-us/rest/api/storageservices/put-message">Azure Docs</a>.</p>
+- uid: "com.azure.storage.queue.QueueAsyncClient.sendMessageWithResponse(java.lang.String,java.time.Duration,java.time.Duration)"
+  fullName: "com.azure.storage.queue.QueueAsyncClient.sendMessageWithResponse(String messageText, Duration visibilityTimeout, Duration timeToLive)"
+  name: "sendMessageWithResponse(String messageText, Duration visibilityTimeout, Duration timeToLive)"
+  nameWithType: "QueueAsyncClient.sendMessageWithResponse(String messageText, Duration visibilityTimeout, Duration timeToLive)"
+  summary: "Enqueues a message with a given time-to-live and a timeout period where the message is invisible in the queue.\n\n <p><strong>Code Samples</strong></p>\n\n <p>Add a message of \"Hello, Azure\" that has a timeout of 5 seconds</p>\n\n <pre>\n client.sendMessageWithResponse&#40;&quot;Hello, Azure&quot;,\n     Duration.ofSeconds&#40;5&#41;, null&#41;.subscribe&#40;\n         response -&gt; System.out.printf&#40;&quot;Message %s expires at %s&quot;, response.getValue&#40;&#41;.getMessageId&#40;&#41;,\n             response.getValue&#40;&#41;.getExpirationTime&#40;&#41;&#41;,\n         error -&gt; System.err.print&#40;error.toString&#40;&#41;&#41;,\n         &#40;&#41; -&gt; System.out.println&#40;&quot;Complete enqueuing the message!&quot;&#41;\n &#41;;\n </pre>\n\n <p>Add a message of \"Goodbye, Azure\" that has a time to live of 5 seconds</p>\n\n <pre>\n client.sendMessageWithResponse&#40;&quot;Goodbye, Azure&quot;,\n     null, Duration.ofSeconds&#40;5&#41;&#41;.subscribe&#40;\n         response -&gt; System.out.printf&#40;&quot;Message %s expires at %s&quot;, response.getValue&#40;&#41;.getMessageId&#40;&#41;,\n             response.getValue&#40;&#41;.getExpirationTime&#40;&#41;&#41;,\n         error -&gt; System.err.print&#40;error.toString&#40;&#41;&#41;,\n         &#40;&#41; -&gt; System.out.println&#40;&quot;Complete enqueuing the message!&quot;&#41;\n &#41;;\n </pre>\n\n <p>For more information, see the\n <a href=\"https://docs.microsoft.com/en-us/rest/api/storageservices/put-message\">Azure Docs</a>.</p>"
   parameters:
-  - description: Message text
-    name: messageText
-    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
-  - description: |-
-      Optional. The timeout period for how long the message is invisible in the queue. If
-       unset the value will default to 0 and the message will be instantly visible. The timeout must be between 0
-       seconds and 7 days.
-    name: visibilityTimeout
-    type: <xref href="java.time.Duration?alt=java.time.Duration&text=Duration" data-throw-if-not-resolved="False" />
-  - description: |-
-      Optional. How long the message will stay alive in the queue. If unset the value will default to
-       7 days, if -1 is passed the message will not expire. The time to live must be -1 or any positive number.
-    name: timeToLive
-    type: <xref href="java.time.Duration?alt=java.time.Duration&text=Duration" data-throw-if-not-resolved="False" />
-  syntax: public Mono<Response<SendMessageResult>> sendMessageWithResponse(String messageText, Duration visibilityTimeout, Duration timeToLive)
+  - description: "Message text"
+    name: "messageText"
+    type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
+  - description: "Optional. The timeout period for how long the message is invisible in the queue. If\n unset the value will default to 0 and the message will be instantly visible. The timeout must be between 0\n seconds and 7 days."
+    name: "visibilityTimeout"
+    type: "<xref href=\"java.time.Duration?alt=java.time.Duration&text=Duration\" data-throw-if-not-resolved=\"False\" />"
+  - description: "Optional. How long the message will stay alive in the queue. If unset the value will default to\n 7 days, if -1 is passed the message will not expire. The time to live must be -1 or any positive number."
+    name: "timeToLive"
+    type: "<xref href=\"java.time.Duration?alt=java.time.Duration&text=Duration\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public Mono<Response<SendMessageResult>> sendMessageWithResponse(String messageText, Duration visibilityTimeout, Duration timeToLive)"
   returns:
-    description: |-
-      A <xref uid="com.azure.storage.queue.models.SendMessageResult" data-throw-if-not-resolved="false">SendMessageResult</xref> value that contains the <xref uid="com.azure.storage.queue.models.SendMessageResult.getMessageId()" data-throw-if-not-resolved="false">messageId</xref>
-       and <xref uid="com.azure.storage.queue.models.SendMessageResult.getPopReceipt()" data-throw-if-not-resolved="false">popReceipt</xref> that are used to interact with the message
-       and other metadata about the enqueued message.
-    type: <xref href="reactor.core.publisher.Mono?alt=reactor.core.publisher.Mono&text=Mono" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.core.http.rest.Response?alt=com.azure.core.http.rest.Response&text=Response" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.storage.queue.models.SendMessageResult?alt=com.azure.storage.queue.models.SendMessageResult&text=SendMessageResult" data-throw-if-not-resolved="False" />&gt;&gt;
-type: method
+    description: "A <xref uid=\"com.azure.storage.queue.models.SendMessageResult\" data-throw-if-not-resolved=\"false\">SendMessageResult</xref> value that contains the <xref uid=\"com.azure.storage.queue.models.SendMessageResult.getMessageId()\" data-throw-if-not-resolved=\"false\">messageId</xref>\n and <xref uid=\"com.azure.storage.queue.models.SendMessageResult.getPopReceipt()\" data-throw-if-not-resolved=\"false\">popReceipt</xref> that are used to interact with the message\n and other metadata about the enqueued message."
+    type: "<xref href=\"reactor.core.publisher.Mono?alt=reactor.core.publisher.Mono&text=Mono\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.core.http.rest.Response?alt=com.azure.core.http.rest.Response&text=Response\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.storage.queue.models.SendMessageResult?alt=com.azure.storage.queue.models.SendMessageResult&text=SendMessageResult\" data-throw-if-not-resolved=\"False\" />&gt;&gt;"
+type: "method"
 metadata: {}
-package: com.azure.storage.queue
+package: "com.azure.storage.queue"
 artifact: com.azure:azure-storage-queue:12.6.0-beta.1

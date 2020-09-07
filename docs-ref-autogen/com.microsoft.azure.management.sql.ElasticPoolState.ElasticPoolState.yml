@@ -1,15 +1,15 @@
 ### YamlMime:JavaMember
-uid: com.microsoft.azure.management.sql.ElasticPoolState.ElasticPoolState*
-fullName: com.microsoft.azure.management.sql.ElasticPoolState.ElasticPoolState
-name: ElasticPoolState
-nameWithType: ElasticPoolState.ElasticPoolState
+uid: "com.microsoft.azure.management.sql.ElasticPoolState.ElasticPoolState*"
+fullName: "com.microsoft.azure.management.sql.ElasticPoolState.ElasticPoolState"
+name: "ElasticPoolState"
+nameWithType: "ElasticPoolState.ElasticPoolState"
 members:
-- uid: com.microsoft.azure.management.sql.ElasticPoolState.ElasticPoolState()
-  fullName: com.microsoft.azure.management.sql.ElasticPoolState.ElasticPoolState()
-  name: ElasticPoolState()
-  nameWithType: ElasticPoolState.ElasticPoolState()
-  syntax: public ElasticPoolState()
-type: constructor
+- uid: "com.microsoft.azure.management.sql.ElasticPoolState.ElasticPoolState()"
+  fullName: "com.microsoft.azure.management.sql.ElasticPoolState.ElasticPoolState()"
+  name: "ElasticPoolState()"
+  nameWithType: "ElasticPoolState.ElasticPoolState()"
+  syntax: "public ElasticPoolState()"
+type: "constructor"
 metadata: {}
-package: com.microsoft.azure.management.sql
-artifact: com.microsoft.azure:azure-mgmt-sql:1.36.1
+package: "com.microsoft.azure.management.sql"
+artifact: com.microsoft.azure:azure-mgmt-sql:1.36.2

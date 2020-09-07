@@ -1,34 +1,23 @@
 ### YamlMime:JavaMember
-uid: com.azure.storage.file.datalake.DataLakeDirectoryAsyncClient.getSubdirectoryAsyncClient*
-fullName: com.azure.storage.file.datalake.DataLakeDirectoryAsyncClient.getSubdirectoryAsyncClient
-name: getSubdirectoryAsyncClient
-nameWithType: DataLakeDirectoryAsyncClient.getSubdirectoryAsyncClient
+uid: "com.azure.storage.file.datalake.DataLakeDirectoryAsyncClient.getSubdirectoryAsyncClient*"
+fullName: "com.azure.storage.file.datalake.DataLakeDirectoryAsyncClient.getSubdirectoryAsyncClient"
+name: "getSubdirectoryAsyncClient"
+nameWithType: "DataLakeDirectoryAsyncClient.getSubdirectoryAsyncClient"
 members:
-- uid: com.azure.storage.file.datalake.DataLakeDirectoryAsyncClient.getSubdirectoryAsyncClient(java.lang.String)
-  fullName: com.azure.storage.file.datalake.DataLakeDirectoryAsyncClient.getSubdirectoryAsyncClient(String subdirectoryName)
-  name: getSubdirectoryAsyncClient(String subdirectoryName)
-  nameWithType: DataLakeDirectoryAsyncClient.getSubdirectoryAsyncClient(String subdirectoryName)
-  summary: |-
-    Creates a new DataLakeDirectoryAsyncClient object by concatenating subdirectoryName to the end of
-     DataLakeDirectoryAsyncClient's URL. The new DataLakeDirectoryAsyncClient uses the same request policy pipeline
-     as the DataLakeDirectoryAsyncClient.
-
-     <p><strong>Code Samples</strong></p>
-
-     <pre>
-     DataLakeDirectoryAsyncClient dataLakeDirectoryClient = client.getSubdirectoryAsyncClient&#40;directoryName&#41;;
-     </pre>
+- uid: "com.azure.storage.file.datalake.DataLakeDirectoryAsyncClient.getSubdirectoryAsyncClient(java.lang.String)"
+  fullName: "com.azure.storage.file.datalake.DataLakeDirectoryAsyncClient.getSubdirectoryAsyncClient(String subdirectoryName)"
+  name: "getSubdirectoryAsyncClient(String subdirectoryName)"
+  nameWithType: "DataLakeDirectoryAsyncClient.getSubdirectoryAsyncClient(String subdirectoryName)"
+  summary: "Creates a new DataLakeDirectoryAsyncClient object by concatenating subdirectoryName to the end of\n DataLakeDirectoryAsyncClient's URL. The new DataLakeDirectoryAsyncClient uses the same request policy pipeline\n as the DataLakeDirectoryAsyncClient.\n\n <p><strong>Code Samples</strong></p>\n\n <pre>\n DataLakeDirectoryAsyncClient dataLakeDirectoryClient = client.getSubdirectoryAsyncClient&#40;directoryName&#41;;\n </pre>"
   parameters:
-  - description: A <code>String</code> representing the name of the sub-directory.
-    name: subdirectoryName
-    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
-  syntax: public DataLakeDirectoryAsyncClient getSubdirectoryAsyncClient(String subdirectoryName)
+  - description: "A <code>String</code> representing the name of the sub-directory."
+    name: "subdirectoryName"
+    type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public DataLakeDirectoryAsyncClient getSubdirectoryAsyncClient(String subdirectoryName)"
   returns:
-    description: |-
-      A new <xref uid="com.azure.storage.file.datalake.DataLakeDirectoryAsyncClient" data-throw-if-not-resolved="false">DataLakeDirectoryAsyncClient</xref> object which references the directory with the specified name
-       in this file system.
-    type: <xref href="com.azure.storage.file.datalake.DataLakeDirectoryAsyncClient?alt=com.azure.storage.file.datalake.DataLakeDirectoryAsyncClient&text=DataLakeDirectoryAsyncClient" data-throw-if-not-resolved="False" />
-type: method
+    description: "A new <xref uid=\"com.azure.storage.file.datalake.DataLakeDirectoryAsyncClient\" data-throw-if-not-resolved=\"false\">DataLakeDirectoryAsyncClient</xref> object which references the directory with the specified name\n in this file system."
+    type: "<xref href=\"com.azure.storage.file.datalake.DataLakeDirectoryAsyncClient?alt=com.azure.storage.file.datalake.DataLakeDirectoryAsyncClient&text=DataLakeDirectoryAsyncClient\" data-throw-if-not-resolved=\"False\" />"
+type: "method"
 metadata: {}
-package: com.azure.storage.file.datalake
+package: "com.azure.storage.file.datalake"
 artifact: com.azure:azure-storage-file-datalake:12.2.0-beta.1

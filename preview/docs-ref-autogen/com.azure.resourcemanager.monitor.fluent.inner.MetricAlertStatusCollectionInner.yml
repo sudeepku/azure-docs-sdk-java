@@ -1,31 +1,31 @@
 ### YamlMime:JavaType
-uid: com.azure.resourcemanager.monitor.fluent.inner.MetricAlertStatusCollectionInner
-fullName: com.azure.resourcemanager.monitor.fluent.inner.MetricAlertStatusCollectionInner
-name: MetricAlertStatusCollectionInner
-nameWithType: MetricAlertStatusCollectionInner
-summary: The MetricAlertStatusCollection model.
+uid: "com.azure.resourcemanager.monitor.fluent.inner.MetricAlertStatusCollectionInner"
+fullName: "com.azure.resourcemanager.monitor.fluent.inner.MetricAlertStatusCollectionInner"
+name: "MetricAlertStatusCollectionInner"
+nameWithType: "MetricAlertStatusCollectionInner"
+summary: "The MetricAlertStatusCollection model."
 inheritances:
-- <xref href="java.lang.Object" data-throw-if-not-resolved="False" />
+- "<xref href=\"java.lang.Object\" data-throw-if-not-resolved=\"False\" />"
 inheritedMembers:
-- java.lang.Object.clone()
-- java.lang.Object.equals(java.lang.Object)
-- java.lang.Object.finalize()
-- java.lang.Object.getClass()
-- java.lang.Object.hashCode()
-- java.lang.Object.notify()
-- java.lang.Object.notifyAll()
-- java.lang.Object.toString()
-- java.lang.Object.wait()
-- java.lang.Object.wait(long)
-- java.lang.Object.wait(long,int)
-syntax: public final class MetricAlertStatusCollectionInner
+- "java.lang.Object.clone()"
+- "java.lang.Object.equals(java.lang.Object)"
+- "java.lang.Object.finalize()"
+- "java.lang.Object.getClass()"
+- "java.lang.Object.hashCode()"
+- "java.lang.Object.notify()"
+- "java.lang.Object.notifyAll()"
+- "java.lang.Object.toString()"
+- "java.lang.Object.wait()"
+- "java.lang.Object.wait(long)"
+- "java.lang.Object.wait(long,int)"
+syntax: "public final class MetricAlertStatusCollectionInner"
 constructors:
-- com.azure.resourcemanager.monitor.fluent.inner.MetricAlertStatusCollectionInner.MetricAlertStatusCollectionInner()
+- "com.azure.resourcemanager.monitor.fluent.inner.MetricAlertStatusCollectionInner.MetricAlertStatusCollectionInner()"
 methods:
-- com.azure.resourcemanager.monitor.fluent.inner.MetricAlertStatusCollectionInner.validate()
-- com.azure.resourcemanager.monitor.fluent.inner.MetricAlertStatusCollectionInner.value()
-- com.azure.resourcemanager.monitor.fluent.inner.MetricAlertStatusCollectionInner.withValue(java.util.List<com.azure.resourcemanager.monitor.models.MetricAlertStatus>)
-type: class
+- "com.azure.resourcemanager.monitor.fluent.inner.MetricAlertStatusCollectionInner.validate()"
+- "com.azure.resourcemanager.monitor.fluent.inner.MetricAlertStatusCollectionInner.value()"
+- "com.azure.resourcemanager.monitor.fluent.inner.MetricAlertStatusCollectionInner.withValue(java.util.List<com.azure.resourcemanager.monitor.models.MetricAlertStatus>)"
+type: "class"
 metadata: {}
-package: com.azure.resourcemanager.monitor.fluent.inner
+package: "com.azure.resourcemanager.monitor.fluent.inner"
 artifact: com.azure.resourcemanager:azure-resourcemanager-monitor:2.0.0-beta.2

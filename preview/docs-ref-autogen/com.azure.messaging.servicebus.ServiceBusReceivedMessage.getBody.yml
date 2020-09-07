@@ -1,26 +1,19 @@
 ### YamlMime:JavaMember
-uid: com.azure.messaging.servicebus.ServiceBusReceivedMessage.getBody*
-fullName: com.azure.messaging.servicebus.ServiceBusReceivedMessage.getBody
-name: getBody
-nameWithType: ServiceBusReceivedMessage.getBody
+uid: "com.azure.messaging.servicebus.ServiceBusReceivedMessage.getBody*"
+fullName: "com.azure.messaging.servicebus.ServiceBusReceivedMessage.getBody"
+name: "getBody"
+nameWithType: "ServiceBusReceivedMessage.getBody"
 members:
-- uid: com.azure.messaging.servicebus.ServiceBusReceivedMessage.getBody()
-  fullName: com.azure.messaging.servicebus.ServiceBusReceivedMessage.getBody()
-  name: getBody()
-  nameWithType: ServiceBusReceivedMessage.getBody()
-  summary: |-
-    Gets the actual payload/data wrapped by the <xref uid="ServiceBusReceivedMessage" data-throw-if-not-resolved="false">ServiceBusReceivedMessage</xref>.
-
-     <p>
-     If the means for deserializing the raw data is not apparent to consumers, a common technique is to make use of
-     <xref uid="#getProperties()" data-throw-if-not-resolved="false">#getProperties()</xref> when creating the event, to associate serialization hints as an aid to consumers who
-     wish to deserialize the binary data.
-     </p>
-  syntax: public byte[] getBody()
+- uid: "com.azure.messaging.servicebus.ServiceBusReceivedMessage.getBody()"
+  fullName: "com.azure.messaging.servicebus.ServiceBusReceivedMessage.getBody()"
+  name: "getBody()"
+  nameWithType: "ServiceBusReceivedMessage.getBody()"
+  summary: "Gets the actual payload/data wrapped by the <xref uid=\"ServiceBusReceivedMessage\" data-throw-if-not-resolved=\"false\">ServiceBusReceivedMessage</xref>.\n\n <p>\n If the means for deserializing the raw data is not apparent to consumers, a common technique is to make use of\n <xref uid=\"#getProperties()\" data-throw-if-not-resolved=\"false\">#getProperties()</xref> when creating the event, to associate serialization hints as an aid to consumers who\n wish to deserialize the binary data.\n </p>"
+  syntax: "public byte[] getBody()"
   returns:
-    description: A byte array representing the data.
-    type: <xref href="byte?alt=byte&text=byte" data-throw-if-not-resolved="False" />[]
-type: method
+    description: "A byte array representing the data."
+    type: "<xref href=\"byte?alt=byte&text=byte\" data-throw-if-not-resolved=\"False\" />[]"
+type: "method"
 metadata: {}
-package: com.azure.messaging.servicebus
+package: "com.azure.messaging.servicebus"
 artifact: com.azure:azure-messaging-servicebus:7.0.0-beta.5

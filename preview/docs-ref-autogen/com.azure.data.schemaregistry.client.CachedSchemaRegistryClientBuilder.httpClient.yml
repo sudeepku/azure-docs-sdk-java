@@ -1,23 +1,23 @@
 ### YamlMime:JavaMember
-uid: com.azure.data.schemaregistry.client.CachedSchemaRegistryClientBuilder.httpClient*
-fullName: com.azure.data.schemaregistry.client.CachedSchemaRegistryClientBuilder.httpClient
-name: httpClient
-nameWithType: CachedSchemaRegistryClientBuilder.httpClient
+uid: "com.azure.data.schemaregistry.client.CachedSchemaRegistryClientBuilder.httpClient*"
+fullName: "com.azure.data.schemaregistry.client.CachedSchemaRegistryClientBuilder.httpClient"
+name: "httpClient"
+nameWithType: "CachedSchemaRegistryClientBuilder.httpClient"
 members:
-- uid: com.azure.data.schemaregistry.client.CachedSchemaRegistryClientBuilder.httpClient(com.azure.core.http.HttpClient)
-  fullName: com.azure.data.schemaregistry.client.CachedSchemaRegistryClientBuilder.httpClient(HttpClient httpClient)
-  name: httpClient(HttpClient httpClient)
-  nameWithType: CachedSchemaRegistryClientBuilder.httpClient(HttpClient httpClient)
-  summary: Sets the HTTP client to use for sending and receiving requests to and from the service.
+- uid: "com.azure.data.schemaregistry.client.CachedSchemaRegistryClientBuilder.httpClient(com.azure.core.http.HttpClient)"
+  fullName: "com.azure.data.schemaregistry.client.CachedSchemaRegistryClientBuilder.httpClient(HttpClient httpClient)"
+  name: "httpClient(HttpClient httpClient)"
+  nameWithType: "CachedSchemaRegistryClientBuilder.httpClient(HttpClient httpClient)"
+  summary: "Sets the HTTP client to use for sending and receiving requests to and from the service."
   parameters:
-  - description: The HTTP client to use for requests.
-    name: httpClient
-    type: <xref href="com.azure.core.http.HttpClient?alt=com.azure.core.http.HttpClient&text=HttpClient" data-throw-if-not-resolved="False" />
-  syntax: public CachedSchemaRegistryClientBuilder httpClient(HttpClient httpClient)
+  - description: "The HTTP client to use for requests."
+    name: "httpClient"
+    type: "<xref href=\"com.azure.core.http.HttpClient?alt=com.azure.core.http.HttpClient&text=HttpClient\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public CachedSchemaRegistryClientBuilder httpClient(HttpClient httpClient)"
   returns:
-    description: The updated <xref uid="com.azure.data.schemaregistry.client.CachedSchemaRegistryClientBuilder" data-throw-if-not-resolved="false">CachedSchemaRegistryClientBuilder</xref> object.
-    type: <xref href="com.azure.data.schemaregistry.client.CachedSchemaRegistryClientBuilder?alt=com.azure.data.schemaregistry.client.CachedSchemaRegistryClientBuilder&text=CachedSchemaRegistryClientBuilder" data-throw-if-not-resolved="False" />
-type: method
+    description: "The updated <xref uid=\"com.azure.data.schemaregistry.client.CachedSchemaRegistryClientBuilder\" data-throw-if-not-resolved=\"false\">CachedSchemaRegistryClientBuilder</xref> object."
+    type: "<xref href=\"com.azure.data.schemaregistry.client.CachedSchemaRegistryClientBuilder?alt=com.azure.data.schemaregistry.client.CachedSchemaRegistryClientBuilder&text=CachedSchemaRegistryClientBuilder\" data-throw-if-not-resolved=\"False\" />"
+type: "method"
 metadata: {}
-package: com.azure.data.schemaregistry.client
+package: "com.azure.data.schemaregistry.client"
 artifact: com.azure:azure-data-schemaregistry:1.0.0-beta.1

@@ -1,38 +1,38 @@
 ### YamlMime:JavaType
-uid: com.azure.search.documents.indexes.implementation.models.AnalyzeRequest
-fullName: com.azure.search.documents.indexes.implementation.models.AnalyzeRequest
-name: AnalyzeRequest
-nameWithType: AnalyzeRequest
-summary: The AnalyzeRequest model.
+uid: "com.azure.search.documents.indexes.implementation.models.AnalyzeRequest"
+fullName: "com.azure.search.documents.indexes.implementation.models.AnalyzeRequest"
+name: "AnalyzeRequest"
+nameWithType: "AnalyzeRequest"
+summary: "The AnalyzeRequest model."
 inheritances:
-- <xref href="java.lang.Object" data-throw-if-not-resolved="False" />
+- "<xref href=\"java.lang.Object\" data-throw-if-not-resolved=\"False\" />"
 inheritedMembers:
-- java.lang.Object.clone()
-- java.lang.Object.equals(java.lang.Object)
-- java.lang.Object.finalize()
-- java.lang.Object.getClass()
-- java.lang.Object.hashCode()
-- java.lang.Object.notify()
-- java.lang.Object.notifyAll()
-- java.lang.Object.toString()
-- java.lang.Object.wait()
-- java.lang.Object.wait(long)
-- java.lang.Object.wait(long,int)
-syntax: public final class AnalyzeRequest
+- "java.lang.Object.clone()"
+- "java.lang.Object.equals(java.lang.Object)"
+- "java.lang.Object.finalize()"
+- "java.lang.Object.getClass()"
+- "java.lang.Object.hashCode()"
+- "java.lang.Object.notify()"
+- "java.lang.Object.notifyAll()"
+- "java.lang.Object.toString()"
+- "java.lang.Object.wait()"
+- "java.lang.Object.wait(long)"
+- "java.lang.Object.wait(long,int)"
+syntax: "public final class AnalyzeRequest"
 constructors:
-- com.azure.search.documents.indexes.implementation.models.AnalyzeRequest.AnalyzeRequest(java.lang.String)
+- "com.azure.search.documents.indexes.implementation.models.AnalyzeRequest.AnalyzeRequest(java.lang.String)"
 methods:
-- com.azure.search.documents.indexes.implementation.models.AnalyzeRequest.getAnalyzer()
-- com.azure.search.documents.indexes.implementation.models.AnalyzeRequest.getCharFilters()
-- com.azure.search.documents.indexes.implementation.models.AnalyzeRequest.getText()
-- com.azure.search.documents.indexes.implementation.models.AnalyzeRequest.getTokenFilters()
-- com.azure.search.documents.indexes.implementation.models.AnalyzeRequest.getTokenizer()
-- com.azure.search.documents.indexes.implementation.models.AnalyzeRequest.setAnalyzer(com.azure.search.documents.indexes.implementation.models.LexicalAnalyzerName)
-- com.azure.search.documents.indexes.implementation.models.AnalyzeRequest.setCharFilters(java.util.List<com.azure.search.documents.indexes.implementation.models.CharFilterName>)
-- com.azure.search.documents.indexes.implementation.models.AnalyzeRequest.setTokenFilters(java.util.List<com.azure.search.documents.indexes.implementation.models.TokenFilterName>)
-- com.azure.search.documents.indexes.implementation.models.AnalyzeRequest.setTokenizer(com.azure.search.documents.indexes.implementation.models.LexicalTokenizerName)
-- com.azure.search.documents.indexes.implementation.models.AnalyzeRequest.validate()
-type: class
+- "com.azure.search.documents.indexes.implementation.models.AnalyzeRequest.getAnalyzer()"
+- "com.azure.search.documents.indexes.implementation.models.AnalyzeRequest.getCharFilters()"
+- "com.azure.search.documents.indexes.implementation.models.AnalyzeRequest.getText()"
+- "com.azure.search.documents.indexes.implementation.models.AnalyzeRequest.getTokenFilters()"
+- "com.azure.search.documents.indexes.implementation.models.AnalyzeRequest.getTokenizer()"
+- "com.azure.search.documents.indexes.implementation.models.AnalyzeRequest.setAnalyzer(com.azure.search.documents.indexes.implementation.models.LexicalAnalyzerName)"
+- "com.azure.search.documents.indexes.implementation.models.AnalyzeRequest.setCharFilters(java.util.List<com.azure.search.documents.indexes.implementation.models.CharFilterName>)"
+- "com.azure.search.documents.indexes.implementation.models.AnalyzeRequest.setTokenFilters(java.util.List<com.azure.search.documents.indexes.implementation.models.TokenFilterName>)"
+- "com.azure.search.documents.indexes.implementation.models.AnalyzeRequest.setTokenizer(com.azure.search.documents.indexes.implementation.models.LexicalTokenizerName)"
+- "com.azure.search.documents.indexes.implementation.models.AnalyzeRequest.validate()"
+type: "class"
 metadata: {}
-package: com.azure.search.documents.indexes.implementation.models
+package: "com.azure.search.documents.indexes.implementation.models"
 artifact: com.azure:azure-search-documents:11.1.0-beta.1

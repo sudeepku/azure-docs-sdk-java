@@ -1,34 +1,34 @@
 ### YamlMime:JavaType
-uid: com.azure.resourcemanager.cosmos.fluent.CollectionPartitionRegionsClient
-fullName: com.azure.resourcemanager.cosmos.fluent.CollectionPartitionRegionsClient
-name: CollectionPartitionRegionsClient
-nameWithType: CollectionPartitionRegionsClient
-summary: An instance of this class provides access to all the operations defined in CollectionPartitionRegions.
+uid: "com.azure.resourcemanager.cosmos.fluent.CollectionPartitionRegionsClient"
+fullName: "com.azure.resourcemanager.cosmos.fluent.CollectionPartitionRegionsClient"
+name: "CollectionPartitionRegionsClient"
+nameWithType: "CollectionPartitionRegionsClient"
+summary: "An instance of this class provides access to all the operations defined in CollectionPartitionRegions."
 inheritances:
-- <xref href="java.lang.Object" data-throw-if-not-resolved="False" />
+- "<xref href=\"java.lang.Object\" data-throw-if-not-resolved=\"False\" />"
 inheritedMembers:
-- java.lang.Object.clone()
-- java.lang.Object.equals(java.lang.Object)
-- java.lang.Object.finalize()
-- java.lang.Object.getClass()
-- java.lang.Object.hashCode()
-- java.lang.Object.notify()
-- java.lang.Object.notifyAll()
-- java.lang.Object.toString()
-- java.lang.Object.wait()
-- java.lang.Object.wait(long)
-- java.lang.Object.wait(long,int)
-syntax: public final class CollectionPartitionRegionsClient
+- "java.lang.Object.clone()"
+- "java.lang.Object.equals(java.lang.Object)"
+- "java.lang.Object.finalize()"
+- "java.lang.Object.getClass()"
+- "java.lang.Object.hashCode()"
+- "java.lang.Object.notify()"
+- "java.lang.Object.notifyAll()"
+- "java.lang.Object.toString()"
+- "java.lang.Object.wait()"
+- "java.lang.Object.wait(long)"
+- "java.lang.Object.wait(long,int)"
+syntax: "public final class CollectionPartitionRegionsClient"
 constructors:
-- com.azure.resourcemanager.cosmos.fluent.CollectionPartitionRegionsClient.CollectionPartitionRegionsClient(com.azure.resourcemanager.cosmos.CosmosDBManagementClient)
+- "com.azure.resourcemanager.cosmos.fluent.CollectionPartitionRegionsClient.CollectionPartitionRegionsClient(com.azure.resourcemanager.cosmos.CosmosDBManagementClient)"
 methods:
-- com.azure.resourcemanager.cosmos.fluent.CollectionPartitionRegionsClient.listMetrics(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)
-- com.azure.resourcemanager.cosmos.fluent.CollectionPartitionRegionsClient.listMetrics(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,com.azure.core.util.Context)
-- com.azure.resourcemanager.cosmos.fluent.CollectionPartitionRegionsClient.listMetricsAsync(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)
-- com.azure.resourcemanager.cosmos.fluent.CollectionPartitionRegionsClient.listMetricsAsync(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,com.azure.core.util.Context)
-- com.azure.resourcemanager.cosmos.fluent.CollectionPartitionRegionsClient.listMetricsSinglePageAsync(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)
-- com.azure.resourcemanager.cosmos.fluent.CollectionPartitionRegionsClient.listMetricsSinglePageAsync(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,com.azure.core.util.Context)
-type: class
+- "com.azure.resourcemanager.cosmos.fluent.CollectionPartitionRegionsClient.listMetrics(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)"
+- "com.azure.resourcemanager.cosmos.fluent.CollectionPartitionRegionsClient.listMetrics(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.cosmos.fluent.CollectionPartitionRegionsClient.listMetricsAsync(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)"
+- "com.azure.resourcemanager.cosmos.fluent.CollectionPartitionRegionsClient.listMetricsAsync(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.cosmos.fluent.CollectionPartitionRegionsClient.listMetricsSinglePageAsync(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)"
+- "com.azure.resourcemanager.cosmos.fluent.CollectionPartitionRegionsClient.listMetricsSinglePageAsync(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,com.azure.core.util.Context)"
+type: "class"
 metadata: {}
-package: com.azure.resourcemanager.cosmos.fluent
+package: "com.azure.resourcemanager.cosmos.fluent"
 artifact: com.azure.resourcemanager:azure-resourcemanager-cosmos:2.0.0-beta.2

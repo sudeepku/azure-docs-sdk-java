@@ -1,38 +1,38 @@
 ### YamlMime:JavaType
-uid: com.azure.resourcemanager.compute.fluent.ResourceSkusClient
-fullName: com.azure.resourcemanager.compute.fluent.ResourceSkusClient
-name: ResourceSkusClient
-nameWithType: ResourceSkusClient
-summary: An instance of this class provides access to all the operations defined in ResourceSkus.
+uid: "com.azure.resourcemanager.compute.fluent.ResourceSkusClient"
+fullName: "com.azure.resourcemanager.compute.fluent.ResourceSkusClient"
+name: "ResourceSkusClient"
+nameWithType: "ResourceSkusClient"
+summary: "An instance of this class provides access to all the operations defined in ResourceSkus."
 inheritances:
-- <xref href="java.lang.Object" data-throw-if-not-resolved="False" />
+- "<xref href=\"java.lang.Object\" data-throw-if-not-resolved=\"False\" />"
 inheritedMembers:
-- java.lang.Object.clone()
-- java.lang.Object.equals(java.lang.Object)
-- java.lang.Object.finalize()
-- java.lang.Object.getClass()
-- java.lang.Object.hashCode()
-- java.lang.Object.notify()
-- java.lang.Object.notifyAll()
-- java.lang.Object.toString()
-- java.lang.Object.wait()
-- java.lang.Object.wait(long)
-- java.lang.Object.wait(long,int)
-syntax: public final class ResourceSkusClient
+- "java.lang.Object.clone()"
+- "java.lang.Object.equals(java.lang.Object)"
+- "java.lang.Object.finalize()"
+- "java.lang.Object.getClass()"
+- "java.lang.Object.hashCode()"
+- "java.lang.Object.notify()"
+- "java.lang.Object.notifyAll()"
+- "java.lang.Object.toString()"
+- "java.lang.Object.wait()"
+- "java.lang.Object.wait(long)"
+- "java.lang.Object.wait(long,int)"
+syntax: "public final class ResourceSkusClient"
 constructors:
-- com.azure.resourcemanager.compute.fluent.ResourceSkusClient.ResourceSkusClient(com.azure.resourcemanager.compute.ComputeManagementClient)
+- "com.azure.resourcemanager.compute.fluent.ResourceSkusClient.ResourceSkusClient(com.azure.resourcemanager.compute.ComputeManagementClient)"
 methods:
-- com.azure.resourcemanager.compute.fluent.ResourceSkusClient.list()
-- com.azure.resourcemanager.compute.fluent.ResourceSkusClient.list(java.lang.String)
-- com.azure.resourcemanager.compute.fluent.ResourceSkusClient.list(java.lang.String,com.azure.core.util.Context)
-- com.azure.resourcemanager.compute.fluent.ResourceSkusClient.listAsync()
-- com.azure.resourcemanager.compute.fluent.ResourceSkusClient.listAsync(java.lang.String)
-- com.azure.resourcemanager.compute.fluent.ResourceSkusClient.listAsync(java.lang.String,com.azure.core.util.Context)
-- com.azure.resourcemanager.compute.fluent.ResourceSkusClient.listNextSinglePageAsync(java.lang.String)
-- com.azure.resourcemanager.compute.fluent.ResourceSkusClient.listNextSinglePageAsync(java.lang.String,com.azure.core.util.Context)
-- com.azure.resourcemanager.compute.fluent.ResourceSkusClient.listSinglePageAsync(java.lang.String)
-- com.azure.resourcemanager.compute.fluent.ResourceSkusClient.listSinglePageAsync(java.lang.String,com.azure.core.util.Context)
-type: class
+- "com.azure.resourcemanager.compute.fluent.ResourceSkusClient.list()"
+- "com.azure.resourcemanager.compute.fluent.ResourceSkusClient.list(java.lang.String)"
+- "com.azure.resourcemanager.compute.fluent.ResourceSkusClient.list(java.lang.String,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.compute.fluent.ResourceSkusClient.listAsync()"
+- "com.azure.resourcemanager.compute.fluent.ResourceSkusClient.listAsync(java.lang.String)"
+- "com.azure.resourcemanager.compute.fluent.ResourceSkusClient.listAsync(java.lang.String,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.compute.fluent.ResourceSkusClient.listNextSinglePageAsync(java.lang.String)"
+- "com.azure.resourcemanager.compute.fluent.ResourceSkusClient.listNextSinglePageAsync(java.lang.String,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.compute.fluent.ResourceSkusClient.listSinglePageAsync(java.lang.String)"
+- "com.azure.resourcemanager.compute.fluent.ResourceSkusClient.listSinglePageAsync(java.lang.String,com.azure.core.util.Context)"
+type: "class"
 metadata: {}
-package: com.azure.resourcemanager.compute.fluent
+package: "com.azure.resourcemanager.compute.fluent"
 artifact: com.azure.resourcemanager:azure-resourcemanager-compute:2.0.0-beta.2

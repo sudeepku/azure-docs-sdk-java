@@ -1,33 +1,33 @@
 ### YamlMime:JavaType
-uid: com.azure.resourcemanager.appservice.fluent.inner.SkuInfosInner
-fullName: com.azure.resourcemanager.appservice.fluent.inner.SkuInfosInner
-name: SkuInfosInner
-nameWithType: SkuInfosInner
-summary: The SkuInfos model.
+uid: "com.azure.resourcemanager.appservice.fluent.inner.SkuInfosInner"
+fullName: "com.azure.resourcemanager.appservice.fluent.inner.SkuInfosInner"
+name: "SkuInfosInner"
+nameWithType: "SkuInfosInner"
+summary: "The SkuInfos model."
 inheritances:
-- <xref href="java.lang.Object" data-throw-if-not-resolved="False" />
+- "<xref href=\"java.lang.Object\" data-throw-if-not-resolved=\"False\" />"
 inheritedMembers:
-- java.lang.Object.clone()
-- java.lang.Object.equals(java.lang.Object)
-- java.lang.Object.finalize()
-- java.lang.Object.getClass()
-- java.lang.Object.hashCode()
-- java.lang.Object.notify()
-- java.lang.Object.notifyAll()
-- java.lang.Object.toString()
-- java.lang.Object.wait()
-- java.lang.Object.wait(long)
-- java.lang.Object.wait(long,int)
-syntax: public final class SkuInfosInner
+- "java.lang.Object.clone()"
+- "java.lang.Object.equals(java.lang.Object)"
+- "java.lang.Object.finalize()"
+- "java.lang.Object.getClass()"
+- "java.lang.Object.hashCode()"
+- "java.lang.Object.notify()"
+- "java.lang.Object.notifyAll()"
+- "java.lang.Object.toString()"
+- "java.lang.Object.wait()"
+- "java.lang.Object.wait(long)"
+- "java.lang.Object.wait(long,int)"
+syntax: "public final class SkuInfosInner"
 constructors:
-- com.azure.resourcemanager.appservice.fluent.inner.SkuInfosInner.SkuInfosInner()
+- "com.azure.resourcemanager.appservice.fluent.inner.SkuInfosInner.SkuInfosInner()"
 methods:
-- com.azure.resourcemanager.appservice.fluent.inner.SkuInfosInner.resourceType()
-- com.azure.resourcemanager.appservice.fluent.inner.SkuInfosInner.skus()
-- com.azure.resourcemanager.appservice.fluent.inner.SkuInfosInner.validate()
-- com.azure.resourcemanager.appservice.fluent.inner.SkuInfosInner.withResourceType(java.lang.String)
-- com.azure.resourcemanager.appservice.fluent.inner.SkuInfosInner.withSkus(java.util.List<com.azure.resourcemanager.appservice.models.GlobalCsmSkuDescription>)
-type: class
+- "com.azure.resourcemanager.appservice.fluent.inner.SkuInfosInner.resourceType()"
+- "com.azure.resourcemanager.appservice.fluent.inner.SkuInfosInner.skus()"
+- "com.azure.resourcemanager.appservice.fluent.inner.SkuInfosInner.validate()"
+- "com.azure.resourcemanager.appservice.fluent.inner.SkuInfosInner.withResourceType(java.lang.String)"
+- "com.azure.resourcemanager.appservice.fluent.inner.SkuInfosInner.withSkus(java.util.List<com.azure.resourcemanager.appservice.models.GlobalCsmSkuDescription>)"
+type: "class"
 metadata: {}
-package: com.azure.resourcemanager.appservice.fluent.inner
+package: "com.azure.resourcemanager.appservice.fluent.inner"
 artifact: com.azure.resourcemanager:azure-resourcemanager-appservice:2.0.0-beta.2

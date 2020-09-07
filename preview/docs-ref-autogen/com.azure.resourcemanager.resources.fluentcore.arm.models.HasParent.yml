@@ -1,15 +1,15 @@
 ### YamlMime:JavaType
-uid: com.azure.resourcemanager.resources.fluentcore.arm.models.HasParent
-fullName: com.azure.resourcemanager.resources.fluentcore.arm.models.HasParent<ParentT>
-name: HasParent<ParentT>
-nameWithType: HasParent<ParentT>
-summary: An interface representing a child that has an immediately available parent.
-syntax: public interface HasParent<ParentT>
+uid: "com.azure.resourcemanager.resources.fluentcore.arm.models.HasParent"
+fullName: "com.azure.resourcemanager.resources.fluentcore.arm.models.HasParent<ParentT>"
+name: "HasParent<ParentT>"
+nameWithType: "HasParent<ParentT>"
+summary: "An interface representing a child that has an immediately available parent."
+syntax: "public interface HasParent<ParentT>"
 methods:
-- com.azure.resourcemanager.resources.fluentcore.arm.models.HasParent.parent()
-type: interface
+- "com.azure.resourcemanager.resources.fluentcore.arm.models.HasParent.parent()"
+type: "interface"
 typeParameters:
-- name: ParentT
+- name: "ParentT"
 metadata: {}
-package: com.azure.resourcemanager.resources.fluentcore.arm.models
+package: "com.azure.resourcemanager.resources.fluentcore.arm.models"
 artifact: com.azure.resourcemanager:azure-resourcemanager-resources:2.0.0-beta.2

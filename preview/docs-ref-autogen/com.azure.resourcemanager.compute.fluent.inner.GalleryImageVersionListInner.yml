@@ -1,33 +1,33 @@
 ### YamlMime:JavaType
-uid: com.azure.resourcemanager.compute.fluent.inner.GalleryImageVersionListInner
-fullName: com.azure.resourcemanager.compute.fluent.inner.GalleryImageVersionListInner
-name: GalleryImageVersionListInner
-nameWithType: GalleryImageVersionListInner
-summary: The GalleryImageVersionList model.
+uid: "com.azure.resourcemanager.compute.fluent.inner.GalleryImageVersionListInner"
+fullName: "com.azure.resourcemanager.compute.fluent.inner.GalleryImageVersionListInner"
+name: "GalleryImageVersionListInner"
+nameWithType: "GalleryImageVersionListInner"
+summary: "The GalleryImageVersionList model."
 inheritances:
-- <xref href="java.lang.Object" data-throw-if-not-resolved="False" />
+- "<xref href=\"java.lang.Object\" data-throw-if-not-resolved=\"False\" />"
 inheritedMembers:
-- java.lang.Object.clone()
-- java.lang.Object.equals(java.lang.Object)
-- java.lang.Object.finalize()
-- java.lang.Object.getClass()
-- java.lang.Object.hashCode()
-- java.lang.Object.notify()
-- java.lang.Object.notifyAll()
-- java.lang.Object.toString()
-- java.lang.Object.wait()
-- java.lang.Object.wait(long)
-- java.lang.Object.wait(long,int)
-syntax: public final class GalleryImageVersionListInner
+- "java.lang.Object.clone()"
+- "java.lang.Object.equals(java.lang.Object)"
+- "java.lang.Object.finalize()"
+- "java.lang.Object.getClass()"
+- "java.lang.Object.hashCode()"
+- "java.lang.Object.notify()"
+- "java.lang.Object.notifyAll()"
+- "java.lang.Object.toString()"
+- "java.lang.Object.wait()"
+- "java.lang.Object.wait(long)"
+- "java.lang.Object.wait(long,int)"
+syntax: "public final class GalleryImageVersionListInner"
 constructors:
-- com.azure.resourcemanager.compute.fluent.inner.GalleryImageVersionListInner.GalleryImageVersionListInner()
+- "com.azure.resourcemanager.compute.fluent.inner.GalleryImageVersionListInner.GalleryImageVersionListInner()"
 methods:
-- com.azure.resourcemanager.compute.fluent.inner.GalleryImageVersionListInner.nextLink()
-- com.azure.resourcemanager.compute.fluent.inner.GalleryImageVersionListInner.validate()
-- com.azure.resourcemanager.compute.fluent.inner.GalleryImageVersionListInner.value()
-- com.azure.resourcemanager.compute.fluent.inner.GalleryImageVersionListInner.withNextLink(java.lang.String)
-- com.azure.resourcemanager.compute.fluent.inner.GalleryImageVersionListInner.withValue(java.util.List<com.azure.resourcemanager.compute.fluent.inner.GalleryImageVersionInner>)
-type: class
+- "com.azure.resourcemanager.compute.fluent.inner.GalleryImageVersionListInner.nextLink()"
+- "com.azure.resourcemanager.compute.fluent.inner.GalleryImageVersionListInner.validate()"
+- "com.azure.resourcemanager.compute.fluent.inner.GalleryImageVersionListInner.value()"
+- "com.azure.resourcemanager.compute.fluent.inner.GalleryImageVersionListInner.withNextLink(java.lang.String)"
+- "com.azure.resourcemanager.compute.fluent.inner.GalleryImageVersionListInner.withValue(java.util.List<com.azure.resourcemanager.compute.fluent.inner.GalleryImageVersionInner>)"
+type: "class"
 metadata: {}
-package: com.azure.resourcemanager.compute.fluent.inner
+package: "com.azure.resourcemanager.compute.fluent.inner"
 artifact: com.azure.resourcemanager:azure-resourcemanager-compute:2.0.0-beta.2

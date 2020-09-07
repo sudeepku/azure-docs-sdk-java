@@ -1,88 +1,88 @@
 ### YamlMime:JavaType
-uid: com.azure.resourcemanager.network.fluent.AzureFirewallsClient
-fullName: com.azure.resourcemanager.network.fluent.AzureFirewallsClient
-name: AzureFirewallsClient
-nameWithType: AzureFirewallsClient
-summary: An instance of this class provides access to all the operations defined in AzureFirewalls.
+uid: "com.azure.resourcemanager.network.fluent.AzureFirewallsClient"
+fullName: "com.azure.resourcemanager.network.fluent.AzureFirewallsClient"
+name: "AzureFirewallsClient"
+nameWithType: "AzureFirewallsClient"
+summary: "An instance of this class provides access to all the operations defined in AzureFirewalls."
 inheritances:
-- <xref href="java.lang.Object" data-throw-if-not-resolved="False" />
+- "<xref href=\"java.lang.Object\" data-throw-if-not-resolved=\"False\" />"
 inheritedMembers:
-- java.lang.Object.clone()
-- java.lang.Object.equals(java.lang.Object)
-- java.lang.Object.finalize()
-- java.lang.Object.getClass()
-- java.lang.Object.hashCode()
-- java.lang.Object.notify()
-- java.lang.Object.notifyAll()
-- java.lang.Object.toString()
-- java.lang.Object.wait()
-- java.lang.Object.wait(long)
-- java.lang.Object.wait(long,int)
-syntax: public final class AzureFirewallsClient implements InnerSupportsGet<AzureFirewallInner>, InnerSupportsListing<AzureFirewallInner>, InnerSupportsDelete<Void>
+- "java.lang.Object.clone()"
+- "java.lang.Object.equals(java.lang.Object)"
+- "java.lang.Object.finalize()"
+- "java.lang.Object.getClass()"
+- "java.lang.Object.hashCode()"
+- "java.lang.Object.notify()"
+- "java.lang.Object.notifyAll()"
+- "java.lang.Object.toString()"
+- "java.lang.Object.wait()"
+- "java.lang.Object.wait(long)"
+- "java.lang.Object.wait(long,int)"
+syntax: "public final class AzureFirewallsClient implements InnerSupportsGet<AzureFirewallInner>, InnerSupportsListing<AzureFirewallInner>, InnerSupportsDelete<Void>"
 constructors:
-- com.azure.resourcemanager.network.fluent.AzureFirewallsClient.AzureFirewallsClient(com.azure.resourcemanager.network.NetworkManagementClient)
+- "com.azure.resourcemanager.network.fluent.AzureFirewallsClient.AzureFirewallsClient(com.azure.resourcemanager.network.NetworkManagementClient)"
 methods:
-- com.azure.resourcemanager.network.fluent.AzureFirewallsClient.beginCreateOrUpdate(java.lang.String,java.lang.String,com.azure.resourcemanager.network.fluent.inner.AzureFirewallInner)
-- com.azure.resourcemanager.network.fluent.AzureFirewallsClient.beginCreateOrUpdate(java.lang.String,java.lang.String,com.azure.resourcemanager.network.fluent.inner.AzureFirewallInner,com.azure.core.util.Context)
-- com.azure.resourcemanager.network.fluent.AzureFirewallsClient.beginCreateOrUpdateWithoutPolling(java.lang.String,java.lang.String,com.azure.resourcemanager.network.fluent.inner.AzureFirewallInner)
-- com.azure.resourcemanager.network.fluent.AzureFirewallsClient.beginCreateOrUpdateWithoutPolling(java.lang.String,java.lang.String,com.azure.resourcemanager.network.fluent.inner.AzureFirewallInner,com.azure.core.util.Context)
-- com.azure.resourcemanager.network.fluent.AzureFirewallsClient.beginCreateOrUpdateWithoutPollingAsync(java.lang.String,java.lang.String,com.azure.resourcemanager.network.fluent.inner.AzureFirewallInner)
-- com.azure.resourcemanager.network.fluent.AzureFirewallsClient.beginCreateOrUpdateWithoutPollingAsync(java.lang.String,java.lang.String,com.azure.resourcemanager.network.fluent.inner.AzureFirewallInner,com.azure.core.util.Context)
-- com.azure.resourcemanager.network.fluent.AzureFirewallsClient.beginCreateOrUpdateWithoutPollingWithResponseAsync(java.lang.String,java.lang.String,com.azure.resourcemanager.network.fluent.inner.AzureFirewallInner)
-- com.azure.resourcemanager.network.fluent.AzureFirewallsClient.beginCreateOrUpdateWithoutPollingWithResponseAsync(java.lang.String,java.lang.String,com.azure.resourcemanager.network.fluent.inner.AzureFirewallInner,com.azure.core.util.Context)
-- com.azure.resourcemanager.network.fluent.AzureFirewallsClient.beginDelete(java.lang.String,java.lang.String)
-- com.azure.resourcemanager.network.fluent.AzureFirewallsClient.beginDelete(java.lang.String,java.lang.String,com.azure.core.util.Context)
-- com.azure.resourcemanager.network.fluent.AzureFirewallsClient.beginDeleteWithoutPolling(java.lang.String,java.lang.String)
-- com.azure.resourcemanager.network.fluent.AzureFirewallsClient.beginDeleteWithoutPolling(java.lang.String,java.lang.String,com.azure.core.util.Context)
-- com.azure.resourcemanager.network.fluent.AzureFirewallsClient.beginDeleteWithoutPollingAsync(java.lang.String,java.lang.String)
-- com.azure.resourcemanager.network.fluent.AzureFirewallsClient.beginDeleteWithoutPollingAsync(java.lang.String,java.lang.String,com.azure.core.util.Context)
-- com.azure.resourcemanager.network.fluent.AzureFirewallsClient.beginDeleteWithoutPollingWithResponseAsync(java.lang.String,java.lang.String)
-- com.azure.resourcemanager.network.fluent.AzureFirewallsClient.beginDeleteWithoutPollingWithResponseAsync(java.lang.String,java.lang.String,com.azure.core.util.Context)
-- com.azure.resourcemanager.network.fluent.AzureFirewallsClient.createOrUpdate(java.lang.String,java.lang.String,com.azure.resourcemanager.network.fluent.inner.AzureFirewallInner)
-- com.azure.resourcemanager.network.fluent.AzureFirewallsClient.createOrUpdate(java.lang.String,java.lang.String,com.azure.resourcemanager.network.fluent.inner.AzureFirewallInner,com.azure.core.util.Context)
-- com.azure.resourcemanager.network.fluent.AzureFirewallsClient.createOrUpdateAsync(java.lang.String,java.lang.String,com.azure.resourcemanager.network.fluent.inner.AzureFirewallInner)
-- com.azure.resourcemanager.network.fluent.AzureFirewallsClient.createOrUpdateAsync(java.lang.String,java.lang.String,com.azure.resourcemanager.network.fluent.inner.AzureFirewallInner,com.azure.core.util.Context)
-- com.azure.resourcemanager.network.fluent.AzureFirewallsClient.createOrUpdateWithResponseAsync(java.lang.String,java.lang.String,com.azure.resourcemanager.network.fluent.inner.AzureFirewallInner)
-- com.azure.resourcemanager.network.fluent.AzureFirewallsClient.createOrUpdateWithResponseAsync(java.lang.String,java.lang.String,com.azure.resourcemanager.network.fluent.inner.AzureFirewallInner,com.azure.core.util.Context)
-- com.azure.resourcemanager.network.fluent.AzureFirewallsClient.delete(java.lang.String,java.lang.String)
-- com.azure.resourcemanager.network.fluent.AzureFirewallsClient.delete(java.lang.String,java.lang.String,com.azure.core.util.Context)
-- com.azure.resourcemanager.network.fluent.AzureFirewallsClient.deleteAsync(java.lang.String,java.lang.String)
-- com.azure.resourcemanager.network.fluent.AzureFirewallsClient.deleteAsync(java.lang.String,java.lang.String,com.azure.core.util.Context)
-- com.azure.resourcemanager.network.fluent.AzureFirewallsClient.deleteWithResponseAsync(java.lang.String,java.lang.String)
-- com.azure.resourcemanager.network.fluent.AzureFirewallsClient.deleteWithResponseAsync(java.lang.String,java.lang.String,com.azure.core.util.Context)
-- com.azure.resourcemanager.network.fluent.AzureFirewallsClient.getByResourceGroup(java.lang.String,java.lang.String)
-- com.azure.resourcemanager.network.fluent.AzureFirewallsClient.getByResourceGroup(java.lang.String,java.lang.String,com.azure.core.util.Context)
-- com.azure.resourcemanager.network.fluent.AzureFirewallsClient.getByResourceGroupAsync(java.lang.String,java.lang.String)
-- com.azure.resourcemanager.network.fluent.AzureFirewallsClient.getByResourceGroupAsync(java.lang.String,java.lang.String,com.azure.core.util.Context)
-- com.azure.resourcemanager.network.fluent.AzureFirewallsClient.getByResourceGroupWithResponseAsync(java.lang.String,java.lang.String)
-- com.azure.resourcemanager.network.fluent.AzureFirewallsClient.getByResourceGroupWithResponseAsync(java.lang.String,java.lang.String,com.azure.core.util.Context)
-- com.azure.resourcemanager.network.fluent.AzureFirewallsClient.list()
-- com.azure.resourcemanager.network.fluent.AzureFirewallsClient.list(com.azure.core.util.Context)
-- com.azure.resourcemanager.network.fluent.AzureFirewallsClient.listAllNextSinglePageAsync(java.lang.String)
-- com.azure.resourcemanager.network.fluent.AzureFirewallsClient.listAllNextSinglePageAsync(java.lang.String,com.azure.core.util.Context)
-- com.azure.resourcemanager.network.fluent.AzureFirewallsClient.listAsync()
-- com.azure.resourcemanager.network.fluent.AzureFirewallsClient.listAsync(com.azure.core.util.Context)
-- com.azure.resourcemanager.network.fluent.AzureFirewallsClient.listByResourceGroup(java.lang.String)
-- com.azure.resourcemanager.network.fluent.AzureFirewallsClient.listByResourceGroup(java.lang.String,com.azure.core.util.Context)
-- com.azure.resourcemanager.network.fluent.AzureFirewallsClient.listByResourceGroupAsync(java.lang.String)
-- com.azure.resourcemanager.network.fluent.AzureFirewallsClient.listByResourceGroupAsync(java.lang.String,com.azure.core.util.Context)
-- com.azure.resourcemanager.network.fluent.AzureFirewallsClient.listByResourceGroupSinglePageAsync(java.lang.String)
-- com.azure.resourcemanager.network.fluent.AzureFirewallsClient.listByResourceGroupSinglePageAsync(java.lang.String,com.azure.core.util.Context)
-- com.azure.resourcemanager.network.fluent.AzureFirewallsClient.listNextSinglePageAsync(java.lang.String)
-- com.azure.resourcemanager.network.fluent.AzureFirewallsClient.listNextSinglePageAsync(java.lang.String,com.azure.core.util.Context)
-- com.azure.resourcemanager.network.fluent.AzureFirewallsClient.listSinglePageAsync()
-- com.azure.resourcemanager.network.fluent.AzureFirewallsClient.listSinglePageAsync(com.azure.core.util.Context)
-- com.azure.resourcemanager.network.fluent.AzureFirewallsClient.updateTags(java.lang.String,java.lang.String,com.azure.resourcemanager.network.fluent.inner.AzureFirewallInner)
-- com.azure.resourcemanager.network.fluent.AzureFirewallsClient.updateTags(java.lang.String,java.lang.String,com.azure.resourcemanager.network.fluent.inner.AzureFirewallInner,com.azure.core.util.Context)
-- com.azure.resourcemanager.network.fluent.AzureFirewallsClient.updateTagsAsync(java.lang.String,java.lang.String,com.azure.resourcemanager.network.fluent.inner.AzureFirewallInner)
-- com.azure.resourcemanager.network.fluent.AzureFirewallsClient.updateTagsAsync(java.lang.String,java.lang.String,com.azure.resourcemanager.network.fluent.inner.AzureFirewallInner,com.azure.core.util.Context)
-- com.azure.resourcemanager.network.fluent.AzureFirewallsClient.updateTagsWithResponseAsync(java.lang.String,java.lang.String,com.azure.resourcemanager.network.fluent.inner.AzureFirewallInner)
-- com.azure.resourcemanager.network.fluent.AzureFirewallsClient.updateTagsWithResponseAsync(java.lang.String,java.lang.String,com.azure.resourcemanager.network.fluent.inner.AzureFirewallInner,com.azure.core.util.Context)
-type: class
+- "com.azure.resourcemanager.network.fluent.AzureFirewallsClient.beginCreateOrUpdate(java.lang.String,java.lang.String,com.azure.resourcemanager.network.fluent.inner.AzureFirewallInner)"
+- "com.azure.resourcemanager.network.fluent.AzureFirewallsClient.beginCreateOrUpdate(java.lang.String,java.lang.String,com.azure.resourcemanager.network.fluent.inner.AzureFirewallInner,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.network.fluent.AzureFirewallsClient.beginCreateOrUpdateWithoutPolling(java.lang.String,java.lang.String,com.azure.resourcemanager.network.fluent.inner.AzureFirewallInner)"
+- "com.azure.resourcemanager.network.fluent.AzureFirewallsClient.beginCreateOrUpdateWithoutPolling(java.lang.String,java.lang.String,com.azure.resourcemanager.network.fluent.inner.AzureFirewallInner,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.network.fluent.AzureFirewallsClient.beginCreateOrUpdateWithoutPollingAsync(java.lang.String,java.lang.String,com.azure.resourcemanager.network.fluent.inner.AzureFirewallInner)"
+- "com.azure.resourcemanager.network.fluent.AzureFirewallsClient.beginCreateOrUpdateWithoutPollingAsync(java.lang.String,java.lang.String,com.azure.resourcemanager.network.fluent.inner.AzureFirewallInner,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.network.fluent.AzureFirewallsClient.beginCreateOrUpdateWithoutPollingWithResponseAsync(java.lang.String,java.lang.String,com.azure.resourcemanager.network.fluent.inner.AzureFirewallInner)"
+- "com.azure.resourcemanager.network.fluent.AzureFirewallsClient.beginCreateOrUpdateWithoutPollingWithResponseAsync(java.lang.String,java.lang.String,com.azure.resourcemanager.network.fluent.inner.AzureFirewallInner,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.network.fluent.AzureFirewallsClient.beginDelete(java.lang.String,java.lang.String)"
+- "com.azure.resourcemanager.network.fluent.AzureFirewallsClient.beginDelete(java.lang.String,java.lang.String,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.network.fluent.AzureFirewallsClient.beginDeleteWithoutPolling(java.lang.String,java.lang.String)"
+- "com.azure.resourcemanager.network.fluent.AzureFirewallsClient.beginDeleteWithoutPolling(java.lang.String,java.lang.String,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.network.fluent.AzureFirewallsClient.beginDeleteWithoutPollingAsync(java.lang.String,java.lang.String)"
+- "com.azure.resourcemanager.network.fluent.AzureFirewallsClient.beginDeleteWithoutPollingAsync(java.lang.String,java.lang.String,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.network.fluent.AzureFirewallsClient.beginDeleteWithoutPollingWithResponseAsync(java.lang.String,java.lang.String)"
+- "com.azure.resourcemanager.network.fluent.AzureFirewallsClient.beginDeleteWithoutPollingWithResponseAsync(java.lang.String,java.lang.String,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.network.fluent.AzureFirewallsClient.createOrUpdate(java.lang.String,java.lang.String,com.azure.resourcemanager.network.fluent.inner.AzureFirewallInner)"
+- "com.azure.resourcemanager.network.fluent.AzureFirewallsClient.createOrUpdate(java.lang.String,java.lang.String,com.azure.resourcemanager.network.fluent.inner.AzureFirewallInner,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.network.fluent.AzureFirewallsClient.createOrUpdateAsync(java.lang.String,java.lang.String,com.azure.resourcemanager.network.fluent.inner.AzureFirewallInner)"
+- "com.azure.resourcemanager.network.fluent.AzureFirewallsClient.createOrUpdateAsync(java.lang.String,java.lang.String,com.azure.resourcemanager.network.fluent.inner.AzureFirewallInner,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.network.fluent.AzureFirewallsClient.createOrUpdateWithResponseAsync(java.lang.String,java.lang.String,com.azure.resourcemanager.network.fluent.inner.AzureFirewallInner)"
+- "com.azure.resourcemanager.network.fluent.AzureFirewallsClient.createOrUpdateWithResponseAsync(java.lang.String,java.lang.String,com.azure.resourcemanager.network.fluent.inner.AzureFirewallInner,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.network.fluent.AzureFirewallsClient.delete(java.lang.String,java.lang.String)"
+- "com.azure.resourcemanager.network.fluent.AzureFirewallsClient.delete(java.lang.String,java.lang.String,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.network.fluent.AzureFirewallsClient.deleteAsync(java.lang.String,java.lang.String)"
+- "com.azure.resourcemanager.network.fluent.AzureFirewallsClient.deleteAsync(java.lang.String,java.lang.String,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.network.fluent.AzureFirewallsClient.deleteWithResponseAsync(java.lang.String,java.lang.String)"
+- "com.azure.resourcemanager.network.fluent.AzureFirewallsClient.deleteWithResponseAsync(java.lang.String,java.lang.String,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.network.fluent.AzureFirewallsClient.getByResourceGroup(java.lang.String,java.lang.String)"
+- "com.azure.resourcemanager.network.fluent.AzureFirewallsClient.getByResourceGroup(java.lang.String,java.lang.String,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.network.fluent.AzureFirewallsClient.getByResourceGroupAsync(java.lang.String,java.lang.String)"
+- "com.azure.resourcemanager.network.fluent.AzureFirewallsClient.getByResourceGroupAsync(java.lang.String,java.lang.String,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.network.fluent.AzureFirewallsClient.getByResourceGroupWithResponseAsync(java.lang.String,java.lang.String)"
+- "com.azure.resourcemanager.network.fluent.AzureFirewallsClient.getByResourceGroupWithResponseAsync(java.lang.String,java.lang.String,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.network.fluent.AzureFirewallsClient.list()"
+- "com.azure.resourcemanager.network.fluent.AzureFirewallsClient.list(com.azure.core.util.Context)"
+- "com.azure.resourcemanager.network.fluent.AzureFirewallsClient.listAllNextSinglePageAsync(java.lang.String)"
+- "com.azure.resourcemanager.network.fluent.AzureFirewallsClient.listAllNextSinglePageAsync(java.lang.String,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.network.fluent.AzureFirewallsClient.listAsync()"
+- "com.azure.resourcemanager.network.fluent.AzureFirewallsClient.listAsync(com.azure.core.util.Context)"
+- "com.azure.resourcemanager.network.fluent.AzureFirewallsClient.listByResourceGroup(java.lang.String)"
+- "com.azure.resourcemanager.network.fluent.AzureFirewallsClient.listByResourceGroup(java.lang.String,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.network.fluent.AzureFirewallsClient.listByResourceGroupAsync(java.lang.String)"
+- "com.azure.resourcemanager.network.fluent.AzureFirewallsClient.listByResourceGroupAsync(java.lang.String,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.network.fluent.AzureFirewallsClient.listByResourceGroupSinglePageAsync(java.lang.String)"
+- "com.azure.resourcemanager.network.fluent.AzureFirewallsClient.listByResourceGroupSinglePageAsync(java.lang.String,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.network.fluent.AzureFirewallsClient.listNextSinglePageAsync(java.lang.String)"
+- "com.azure.resourcemanager.network.fluent.AzureFirewallsClient.listNextSinglePageAsync(java.lang.String,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.network.fluent.AzureFirewallsClient.listSinglePageAsync()"
+- "com.azure.resourcemanager.network.fluent.AzureFirewallsClient.listSinglePageAsync(com.azure.core.util.Context)"
+- "com.azure.resourcemanager.network.fluent.AzureFirewallsClient.updateTags(java.lang.String,java.lang.String,com.azure.resourcemanager.network.fluent.inner.AzureFirewallInner)"
+- "com.azure.resourcemanager.network.fluent.AzureFirewallsClient.updateTags(java.lang.String,java.lang.String,com.azure.resourcemanager.network.fluent.inner.AzureFirewallInner,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.network.fluent.AzureFirewallsClient.updateTagsAsync(java.lang.String,java.lang.String,com.azure.resourcemanager.network.fluent.inner.AzureFirewallInner)"
+- "com.azure.resourcemanager.network.fluent.AzureFirewallsClient.updateTagsAsync(java.lang.String,java.lang.String,com.azure.resourcemanager.network.fluent.inner.AzureFirewallInner,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.network.fluent.AzureFirewallsClient.updateTagsWithResponseAsync(java.lang.String,java.lang.String,com.azure.resourcemanager.network.fluent.inner.AzureFirewallInner)"
+- "com.azure.resourcemanager.network.fluent.AzureFirewallsClient.updateTagsWithResponseAsync(java.lang.String,java.lang.String,com.azure.resourcemanager.network.fluent.inner.AzureFirewallInner,com.azure.core.util.Context)"
+type: "class"
 implements:
-- <xref href="com.azure.resourcemanager.resources.fluentcore.collection.InnerSupportsDelete?alt=com.azure.resourcemanager.resources.fluentcore.collection.InnerSupportsDelete&text=InnerSupportsDelete" data-throw-if-not-resolved="False" />&lt;<xref href="java.lang.Void?alt=java.lang.Void&text=Void" data-throw-if-not-resolved="False" />&gt;
-- <xref href="com.azure.resourcemanager.resources.fluentcore.collection.InnerSupportsGet?alt=com.azure.resourcemanager.resources.fluentcore.collection.InnerSupportsGet&text=InnerSupportsGet" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.resourcemanager.network.fluent.inner.AzureFirewallInner?alt=com.azure.resourcemanager.network.fluent.inner.AzureFirewallInner&text=AzureFirewallInner" data-throw-if-not-resolved="False" />&gt;
-- <xref href="com.azure.resourcemanager.resources.fluentcore.collection.InnerSupportsListing?alt=com.azure.resourcemanager.resources.fluentcore.collection.InnerSupportsListing&text=InnerSupportsListing" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.resourcemanager.network.fluent.inner.AzureFirewallInner?alt=com.azure.resourcemanager.network.fluent.inner.AzureFirewallInner&text=AzureFirewallInner" data-throw-if-not-resolved="False" />&gt;
+- "<xref href=\"com.azure.resourcemanager.resources.fluentcore.collection.InnerSupportsDelete?alt=com.azure.resourcemanager.resources.fluentcore.collection.InnerSupportsDelete&text=InnerSupportsDelete\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"java.lang.Void?alt=java.lang.Void&text=Void\" data-throw-if-not-resolved=\"False\" />&gt;"
+- "<xref href=\"com.azure.resourcemanager.resources.fluentcore.collection.InnerSupportsGet?alt=com.azure.resourcemanager.resources.fluentcore.collection.InnerSupportsGet&text=InnerSupportsGet\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.network.fluent.inner.AzureFirewallInner?alt=com.azure.resourcemanager.network.fluent.inner.AzureFirewallInner&text=AzureFirewallInner\" data-throw-if-not-resolved=\"False\" />&gt;"
+- "<xref href=\"com.azure.resourcemanager.resources.fluentcore.collection.InnerSupportsListing?alt=com.azure.resourcemanager.resources.fluentcore.collection.InnerSupportsListing&text=InnerSupportsListing\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.resourcemanager.network.fluent.inner.AzureFirewallInner?alt=com.azure.resourcemanager.network.fluent.inner.AzureFirewallInner&text=AzureFirewallInner\" data-throw-if-not-resolved=\"False\" />&gt;"
 metadata: {}
-package: com.azure.resourcemanager.network.fluent
+package: "com.azure.resourcemanager.network.fluent"
 artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.0.0-beta.2

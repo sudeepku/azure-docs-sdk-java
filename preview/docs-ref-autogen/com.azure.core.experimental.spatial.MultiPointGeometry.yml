@@ -1,35 +1,35 @@
 ### YamlMime:JavaType
-uid: com.azure.core.experimental.spatial.MultiPointGeometry
-fullName: com.azure.core.experimental.spatial.MultiPointGeometry
-name: MultiPointGeometry
-nameWithType: MultiPointGeometry
-summary: Represents a multi-point geometry.
+uid: "com.azure.core.experimental.spatial.MultiPointGeometry"
+fullName: "com.azure.core.experimental.spatial.MultiPointGeometry"
+name: "MultiPointGeometry"
+nameWithType: "MultiPointGeometry"
+summary: "Represents a multi-point geometry."
 inheritances:
-- <xref href="java.lang.Object" data-throw-if-not-resolved="False" />
-- <xref href="com.azure.core.experimental.spatial.Geometry" data-throw-if-not-resolved="False" />
+- "<xref href=\"java.lang.Object\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.azure.core.experimental.spatial.Geometry\" data-throw-if-not-resolved=\"False\" />"
 inheritedMembers:
-- com.azure.core.experimental.spatial.Geometry.equals(java.lang.Object)
-- com.azure.core.experimental.spatial.Geometry.getBoundingBox()
-- com.azure.core.experimental.spatial.Geometry.getProperties()
-- com.azure.core.experimental.spatial.Geometry.hashCode()
-- java.lang.Object.clone()
-- java.lang.Object.finalize()
-- java.lang.Object.getClass()
-- java.lang.Object.notify()
-- java.lang.Object.notifyAll()
-- java.lang.Object.toString()
-- java.lang.Object.wait()
-- java.lang.Object.wait(long)
-- java.lang.Object.wait(long,int)
-syntax: public final class MultiPointGeometry extends Geometry
+- "com.azure.core.experimental.spatial.Geometry.equals(java.lang.Object)"
+- "com.azure.core.experimental.spatial.Geometry.getBoundingBox()"
+- "com.azure.core.experimental.spatial.Geometry.getProperties()"
+- "com.azure.core.experimental.spatial.Geometry.hashCode()"
+- "java.lang.Object.clone()"
+- "java.lang.Object.finalize()"
+- "java.lang.Object.getClass()"
+- "java.lang.Object.notify()"
+- "java.lang.Object.notifyAll()"
+- "java.lang.Object.toString()"
+- "java.lang.Object.wait()"
+- "java.lang.Object.wait(long)"
+- "java.lang.Object.wait(long,int)"
+syntax: "public final class MultiPointGeometry extends Geometry"
 constructors:
-- com.azure.core.experimental.spatial.MultiPointGeometry.MultiPointGeometry(java.util.List<com.azure.core.experimental.spatial.PointGeometry>)
-- com.azure.core.experimental.spatial.MultiPointGeometry.MultiPointGeometry(java.util.List<com.azure.core.experimental.spatial.PointGeometry>,com.azure.core.experimental.spatial.GeometryBoundingBox,java.util.Map<java.lang.String,java.lang.Object>)
+- "com.azure.core.experimental.spatial.MultiPointGeometry.MultiPointGeometry(java.util.List<com.azure.core.experimental.spatial.PointGeometry>)"
+- "com.azure.core.experimental.spatial.MultiPointGeometry.MultiPointGeometry(java.util.List<com.azure.core.experimental.spatial.PointGeometry>,com.azure.core.experimental.spatial.GeometryBoundingBox,java.util.Map<java.lang.String,java.lang.Object>)"
 methods:
-- com.azure.core.experimental.spatial.MultiPointGeometry.equals(java.lang.Object)
-- com.azure.core.experimental.spatial.MultiPointGeometry.getPoints()
-- com.azure.core.experimental.spatial.MultiPointGeometry.hashCode()
-type: class
+- "com.azure.core.experimental.spatial.MultiPointGeometry.equals(java.lang.Object)"
+- "com.azure.core.experimental.spatial.MultiPointGeometry.getPoints()"
+- "com.azure.core.experimental.spatial.MultiPointGeometry.hashCode()"
+type: "class"
 metadata: {}
-package: com.azure.core.experimental.spatial
+package: "com.azure.core.experimental.spatial"
 artifact: com.azure:azure-core-experimental:1.0.0-beta.2

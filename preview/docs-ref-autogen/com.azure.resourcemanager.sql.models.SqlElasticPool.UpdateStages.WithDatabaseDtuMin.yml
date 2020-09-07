@@ -1,13 +1,13 @@
 ### YamlMime:JavaType
-uid: com.azure.resourcemanager.sql.models.SqlElasticPool.UpdateStages.WithDatabaseDtuMin
-fullName: com.azure.resourcemanager.sql.models.SqlElasticPool.UpdateStages.WithDatabaseDtuMin
-name: SqlElasticPool.UpdateStages.WithDatabaseDtuMin
-nameWithType: SqlElasticPool.UpdateStages.WithDatabaseDtuMin
-summary: The SQL Elastic Pool definition to set the minimum DTU for database.
-syntax: public static interface SqlElasticPool.UpdateStages.WithDatabaseDtuMin
+uid: "com.azure.resourcemanager.sql.models.SqlElasticPool.UpdateStages.WithDatabaseDtuMin"
+fullName: "com.azure.resourcemanager.sql.models.SqlElasticPool.UpdateStages.WithDatabaseDtuMin"
+name: "SqlElasticPool.UpdateStages.WithDatabaseDtuMin"
+nameWithType: "SqlElasticPool.UpdateStages.WithDatabaseDtuMin"
+summary: "The SQL Elastic Pool definition to set the minimum DTU for database."
+syntax: "public static interface SqlElasticPool.UpdateStages.WithDatabaseDtuMin"
 methods:
-- com.azure.resourcemanager.sql.models.SqlElasticPool.UpdateStages.WithDatabaseDtuMin.withDatabaseDtuMin(double)
-type: interface
+- "com.azure.resourcemanager.sql.models.SqlElasticPool.UpdateStages.WithDatabaseDtuMin.withDatabaseDtuMin(double)"
+type: "interface"
 metadata: {}
-package: com.azure.resourcemanager.sql.models
+package: "com.azure.resourcemanager.sql.models"
 artifact: com.azure.resourcemanager:azure-resourcemanager-sql:2.0.0-beta.2

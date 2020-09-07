@@ -1,44 +1,44 @@
 ### YamlMime:JavaType
-uid: com.azure.resourcemanager.sql.fluent.inner.ReplicationLinkInner
-fullName: com.azure.resourcemanager.sql.fluent.inner.ReplicationLinkInner
-name: ReplicationLinkInner
-nameWithType: ReplicationLinkInner
-summary: The ReplicationLink model.
+uid: "com.azure.resourcemanager.sql.fluent.inner.ReplicationLinkInner"
+fullName: "com.azure.resourcemanager.sql.fluent.inner.ReplicationLinkInner"
+name: "ReplicationLinkInner"
+nameWithType: "ReplicationLinkInner"
+summary: "The ReplicationLink model."
 inheritances:
-- <xref href="java.lang.Object" data-throw-if-not-resolved="False" />
-- <xref href="com.azure.core.management.ProxyResource" data-throw-if-not-resolved="False" />
+- "<xref href=\"java.lang.Object\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.azure.core.management.ProxyResource\" data-throw-if-not-resolved=\"False\" />"
 inheritedMembers:
-- com.azure.core.management.ProxyResource.id()
-- com.azure.core.management.ProxyResource.name()
-- com.azure.core.management.ProxyResource.type()
-- java.lang.Object.clone()
-- java.lang.Object.equals(java.lang.Object)
-- java.lang.Object.finalize()
-- java.lang.Object.getClass()
-- java.lang.Object.hashCode()
-- java.lang.Object.notify()
-- java.lang.Object.notifyAll()
-- java.lang.Object.toString()
-- java.lang.Object.wait()
-- java.lang.Object.wait(long)
-- java.lang.Object.wait(long,int)
-syntax: public class ReplicationLinkInner extends ProxyResource
+- "com.azure.core.management.ProxyResource.id()"
+- "com.azure.core.management.ProxyResource.name()"
+- "com.azure.core.management.ProxyResource.type()"
+- "java.lang.Object.clone()"
+- "java.lang.Object.equals(java.lang.Object)"
+- "java.lang.Object.finalize()"
+- "java.lang.Object.getClass()"
+- "java.lang.Object.hashCode()"
+- "java.lang.Object.notify()"
+- "java.lang.Object.notifyAll()"
+- "java.lang.Object.toString()"
+- "java.lang.Object.wait()"
+- "java.lang.Object.wait(long)"
+- "java.lang.Object.wait(long,int)"
+syntax: "public class ReplicationLinkInner extends ProxyResource"
 constructors:
-- com.azure.resourcemanager.sql.fluent.inner.ReplicationLinkInner.ReplicationLinkInner()
+- "com.azure.resourcemanager.sql.fluent.inner.ReplicationLinkInner.ReplicationLinkInner()"
 methods:
-- com.azure.resourcemanager.sql.fluent.inner.ReplicationLinkInner.isTerminationAllowed()
-- com.azure.resourcemanager.sql.fluent.inner.ReplicationLinkInner.location()
-- com.azure.resourcemanager.sql.fluent.inner.ReplicationLinkInner.partnerDatabase()
-- com.azure.resourcemanager.sql.fluent.inner.ReplicationLinkInner.partnerLocation()
-- com.azure.resourcemanager.sql.fluent.inner.ReplicationLinkInner.partnerRole()
-- com.azure.resourcemanager.sql.fluent.inner.ReplicationLinkInner.partnerServer()
-- com.azure.resourcemanager.sql.fluent.inner.ReplicationLinkInner.percentComplete()
-- com.azure.resourcemanager.sql.fluent.inner.ReplicationLinkInner.replicationMode()
-- com.azure.resourcemanager.sql.fluent.inner.ReplicationLinkInner.replicationState()
-- com.azure.resourcemanager.sql.fluent.inner.ReplicationLinkInner.role()
-- com.azure.resourcemanager.sql.fluent.inner.ReplicationLinkInner.startTime()
-- com.azure.resourcemanager.sql.fluent.inner.ReplicationLinkInner.validate()
-type: class
+- "com.azure.resourcemanager.sql.fluent.inner.ReplicationLinkInner.isTerminationAllowed()"
+- "com.azure.resourcemanager.sql.fluent.inner.ReplicationLinkInner.location()"
+- "com.azure.resourcemanager.sql.fluent.inner.ReplicationLinkInner.partnerDatabase()"
+- "com.azure.resourcemanager.sql.fluent.inner.ReplicationLinkInner.partnerLocation()"
+- "com.azure.resourcemanager.sql.fluent.inner.ReplicationLinkInner.partnerRole()"
+- "com.azure.resourcemanager.sql.fluent.inner.ReplicationLinkInner.partnerServer()"
+- "com.azure.resourcemanager.sql.fluent.inner.ReplicationLinkInner.percentComplete()"
+- "com.azure.resourcemanager.sql.fluent.inner.ReplicationLinkInner.replicationMode()"
+- "com.azure.resourcemanager.sql.fluent.inner.ReplicationLinkInner.replicationState()"
+- "com.azure.resourcemanager.sql.fluent.inner.ReplicationLinkInner.role()"
+- "com.azure.resourcemanager.sql.fluent.inner.ReplicationLinkInner.startTime()"
+- "com.azure.resourcemanager.sql.fluent.inner.ReplicationLinkInner.validate()"
+type: "class"
 metadata: {}
-package: com.azure.resourcemanager.sql.fluent.inner
+package: "com.azure.resourcemanager.sql.fluent.inner"
 artifact: com.azure.resourcemanager:azure-resourcemanager-sql:2.0.0-beta.2

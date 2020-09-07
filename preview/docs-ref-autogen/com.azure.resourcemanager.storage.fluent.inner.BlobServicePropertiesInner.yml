@@ -1,50 +1,50 @@
 ### YamlMime:JavaType
-uid: com.azure.resourcemanager.storage.fluent.inner.BlobServicePropertiesInner
-fullName: com.azure.resourcemanager.storage.fluent.inner.BlobServicePropertiesInner
-name: BlobServicePropertiesInner
-nameWithType: BlobServicePropertiesInner
-summary: The BlobServiceProperties model.
+uid: "com.azure.resourcemanager.storage.fluent.inner.BlobServicePropertiesInner"
+fullName: "com.azure.resourcemanager.storage.fluent.inner.BlobServicePropertiesInner"
+name: "BlobServicePropertiesInner"
+nameWithType: "BlobServicePropertiesInner"
+summary: "The BlobServiceProperties model."
 inheritances:
-- <xref href="java.lang.Object" data-throw-if-not-resolved="False" />
-- <xref href="com.azure.core.management.ProxyResource" data-throw-if-not-resolved="False" />
+- "<xref href=\"java.lang.Object\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.azure.core.management.ProxyResource\" data-throw-if-not-resolved=\"False\" />"
 inheritedMembers:
-- com.azure.core.management.ProxyResource.id()
-- com.azure.core.management.ProxyResource.name()
-- com.azure.core.management.ProxyResource.type()
-- java.lang.Object.clone()
-- java.lang.Object.equals(java.lang.Object)
-- java.lang.Object.finalize()
-- java.lang.Object.getClass()
-- java.lang.Object.hashCode()
-- java.lang.Object.notify()
-- java.lang.Object.notifyAll()
-- java.lang.Object.toString()
-- java.lang.Object.wait()
-- java.lang.Object.wait(long)
-- java.lang.Object.wait(long,int)
-syntax: public class BlobServicePropertiesInner extends ProxyResource
+- "com.azure.core.management.ProxyResource.id()"
+- "com.azure.core.management.ProxyResource.name()"
+- "com.azure.core.management.ProxyResource.type()"
+- "java.lang.Object.clone()"
+- "java.lang.Object.equals(java.lang.Object)"
+- "java.lang.Object.finalize()"
+- "java.lang.Object.getClass()"
+- "java.lang.Object.hashCode()"
+- "java.lang.Object.notify()"
+- "java.lang.Object.notifyAll()"
+- "java.lang.Object.toString()"
+- "java.lang.Object.wait()"
+- "java.lang.Object.wait(long)"
+- "java.lang.Object.wait(long,int)"
+syntax: "public class BlobServicePropertiesInner extends ProxyResource"
 constructors:
-- com.azure.resourcemanager.storage.fluent.inner.BlobServicePropertiesInner.BlobServicePropertiesInner()
+- "com.azure.resourcemanager.storage.fluent.inner.BlobServicePropertiesInner.BlobServicePropertiesInner()"
 methods:
-- com.azure.resourcemanager.storage.fluent.inner.BlobServicePropertiesInner.automaticSnapshotPolicyEnabled()
-- com.azure.resourcemanager.storage.fluent.inner.BlobServicePropertiesInner.changeFeed()
-- com.azure.resourcemanager.storage.fluent.inner.BlobServicePropertiesInner.containerDeleteRetentionPolicy()
-- com.azure.resourcemanager.storage.fluent.inner.BlobServicePropertiesInner.cors()
-- com.azure.resourcemanager.storage.fluent.inner.BlobServicePropertiesInner.defaultServiceVersion()
-- com.azure.resourcemanager.storage.fluent.inner.BlobServicePropertiesInner.deleteRetentionPolicy()
-- com.azure.resourcemanager.storage.fluent.inner.BlobServicePropertiesInner.isVersioningEnabled()
-- com.azure.resourcemanager.storage.fluent.inner.BlobServicePropertiesInner.restorePolicy()
-- com.azure.resourcemanager.storage.fluent.inner.BlobServicePropertiesInner.sku()
-- com.azure.resourcemanager.storage.fluent.inner.BlobServicePropertiesInner.validate()
-- com.azure.resourcemanager.storage.fluent.inner.BlobServicePropertiesInner.withAutomaticSnapshotPolicyEnabled(java.lang.Boolean)
-- com.azure.resourcemanager.storage.fluent.inner.BlobServicePropertiesInner.withChangeFeed(com.azure.resourcemanager.storage.models.ChangeFeed)
-- com.azure.resourcemanager.storage.fluent.inner.BlobServicePropertiesInner.withContainerDeleteRetentionPolicy(com.azure.resourcemanager.storage.models.DeleteRetentionPolicy)
-- com.azure.resourcemanager.storage.fluent.inner.BlobServicePropertiesInner.withCors(com.azure.resourcemanager.storage.models.CorsRules)
-- com.azure.resourcemanager.storage.fluent.inner.BlobServicePropertiesInner.withDefaultServiceVersion(java.lang.String)
-- com.azure.resourcemanager.storage.fluent.inner.BlobServicePropertiesInner.withDeleteRetentionPolicy(com.azure.resourcemanager.storage.models.DeleteRetentionPolicy)
-- com.azure.resourcemanager.storage.fluent.inner.BlobServicePropertiesInner.withIsVersioningEnabled(java.lang.Boolean)
-- com.azure.resourcemanager.storage.fluent.inner.BlobServicePropertiesInner.withRestorePolicy(com.azure.resourcemanager.storage.models.RestorePolicyProperties)
-type: class
+- "com.azure.resourcemanager.storage.fluent.inner.BlobServicePropertiesInner.automaticSnapshotPolicyEnabled()"
+- "com.azure.resourcemanager.storage.fluent.inner.BlobServicePropertiesInner.changeFeed()"
+- "com.azure.resourcemanager.storage.fluent.inner.BlobServicePropertiesInner.containerDeleteRetentionPolicy()"
+- "com.azure.resourcemanager.storage.fluent.inner.BlobServicePropertiesInner.cors()"
+- "com.azure.resourcemanager.storage.fluent.inner.BlobServicePropertiesInner.defaultServiceVersion()"
+- "com.azure.resourcemanager.storage.fluent.inner.BlobServicePropertiesInner.deleteRetentionPolicy()"
+- "com.azure.resourcemanager.storage.fluent.inner.BlobServicePropertiesInner.isVersioningEnabled()"
+- "com.azure.resourcemanager.storage.fluent.inner.BlobServicePropertiesInner.restorePolicy()"
+- "com.azure.resourcemanager.storage.fluent.inner.BlobServicePropertiesInner.sku()"
+- "com.azure.resourcemanager.storage.fluent.inner.BlobServicePropertiesInner.validate()"
+- "com.azure.resourcemanager.storage.fluent.inner.BlobServicePropertiesInner.withAutomaticSnapshotPolicyEnabled(java.lang.Boolean)"
+- "com.azure.resourcemanager.storage.fluent.inner.BlobServicePropertiesInner.withChangeFeed(com.azure.resourcemanager.storage.models.ChangeFeed)"
+- "com.azure.resourcemanager.storage.fluent.inner.BlobServicePropertiesInner.withContainerDeleteRetentionPolicy(com.azure.resourcemanager.storage.models.DeleteRetentionPolicy)"
+- "com.azure.resourcemanager.storage.fluent.inner.BlobServicePropertiesInner.withCors(com.azure.resourcemanager.storage.models.CorsRules)"
+- "com.azure.resourcemanager.storage.fluent.inner.BlobServicePropertiesInner.withDefaultServiceVersion(java.lang.String)"
+- "com.azure.resourcemanager.storage.fluent.inner.BlobServicePropertiesInner.withDeleteRetentionPolicy(com.azure.resourcemanager.storage.models.DeleteRetentionPolicy)"
+- "com.azure.resourcemanager.storage.fluent.inner.BlobServicePropertiesInner.withIsVersioningEnabled(java.lang.Boolean)"
+- "com.azure.resourcemanager.storage.fluent.inner.BlobServicePropertiesInner.withRestorePolicy(com.azure.resourcemanager.storage.models.RestorePolicyProperties)"
+type: "class"
 metadata: {}
-package: com.azure.resourcemanager.storage.fluent.inner
+package: "com.azure.resourcemanager.storage.fluent.inner"
 artifact: com.azure.resourcemanager:azure-resourcemanager-storage:2.0.0-beta.2

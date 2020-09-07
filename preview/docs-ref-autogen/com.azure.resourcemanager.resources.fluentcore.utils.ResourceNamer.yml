@@ -1,31 +1,31 @@
 ### YamlMime:JavaType
-uid: com.azure.resourcemanager.resources.fluentcore.utils.ResourceNamer
-fullName: com.azure.resourcemanager.resources.fluentcore.utils.ResourceNamer
-name: ResourceNamer
-nameWithType: ResourceNamer
-summary: The ResourceNamer to generate random name.
+uid: "com.azure.resourcemanager.resources.fluentcore.utils.ResourceNamer"
+fullName: "com.azure.resourcemanager.resources.fluentcore.utils.ResourceNamer"
+name: "ResourceNamer"
+nameWithType: "ResourceNamer"
+summary: "The ResourceNamer to generate random name."
 inheritances:
-- <xref href="java.lang.Object" data-throw-if-not-resolved="False" />
+- "<xref href=\"java.lang.Object\" data-throw-if-not-resolved=\"False\" />"
 inheritedMembers:
-- java.lang.Object.clone()
-- java.lang.Object.equals(java.lang.Object)
-- java.lang.Object.finalize()
-- java.lang.Object.getClass()
-- java.lang.Object.hashCode()
-- java.lang.Object.notify()
-- java.lang.Object.notifyAll()
-- java.lang.Object.toString()
-- java.lang.Object.wait()
-- java.lang.Object.wait(long)
-- java.lang.Object.wait(long,int)
-syntax: public class ResourceNamer
+- "java.lang.Object.clone()"
+- "java.lang.Object.equals(java.lang.Object)"
+- "java.lang.Object.finalize()"
+- "java.lang.Object.getClass()"
+- "java.lang.Object.hashCode()"
+- "java.lang.Object.notify()"
+- "java.lang.Object.notifyAll()"
+- "java.lang.Object.toString()"
+- "java.lang.Object.wait()"
+- "java.lang.Object.wait(long)"
+- "java.lang.Object.wait(long,int)"
+syntax: "public class ResourceNamer"
 constructors:
-- com.azure.resourcemanager.resources.fluentcore.utils.ResourceNamer.ResourceNamer(java.lang.String)
+- "com.azure.resourcemanager.resources.fluentcore.utils.ResourceNamer.ResourceNamer(java.lang.String)"
 methods:
-- com.azure.resourcemanager.resources.fluentcore.utils.ResourceNamer.dateTimeNow()
-- com.azure.resourcemanager.resources.fluentcore.utils.ResourceNamer.randomName(java.lang.String,int)
-- com.azure.resourcemanager.resources.fluentcore.utils.ResourceNamer.randomUuid()
-type: class
+- "com.azure.resourcemanager.resources.fluentcore.utils.ResourceNamer.dateTimeNow()"
+- "com.azure.resourcemanager.resources.fluentcore.utils.ResourceNamer.randomName(java.lang.String,int)"
+- "com.azure.resourcemanager.resources.fluentcore.utils.ResourceNamer.randomUuid()"
+type: "class"
 metadata: {}
-package: com.azure.resourcemanager.resources.fluentcore.utils
+package: "com.azure.resourcemanager.resources.fluentcore.utils"
 artifact: com.azure.resourcemanager:azure-resourcemanager-resources:2.0.0-beta.2

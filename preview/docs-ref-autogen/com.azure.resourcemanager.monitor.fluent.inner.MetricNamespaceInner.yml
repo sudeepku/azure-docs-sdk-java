@@ -1,37 +1,37 @@
 ### YamlMime:JavaType
-uid: com.azure.resourcemanager.monitor.fluent.inner.MetricNamespaceInner
-fullName: com.azure.resourcemanager.monitor.fluent.inner.MetricNamespaceInner
-name: MetricNamespaceInner
-nameWithType: MetricNamespaceInner
-summary: The MetricNamespace model.
+uid: "com.azure.resourcemanager.monitor.fluent.inner.MetricNamespaceInner"
+fullName: "com.azure.resourcemanager.monitor.fluent.inner.MetricNamespaceInner"
+name: "MetricNamespaceInner"
+nameWithType: "MetricNamespaceInner"
+summary: "The MetricNamespace model."
 inheritances:
-- <xref href="java.lang.Object" data-throw-if-not-resolved="False" />
+- "<xref href=\"java.lang.Object\" data-throw-if-not-resolved=\"False\" />"
 inheritedMembers:
-- java.lang.Object.clone()
-- java.lang.Object.equals(java.lang.Object)
-- java.lang.Object.finalize()
-- java.lang.Object.getClass()
-- java.lang.Object.hashCode()
-- java.lang.Object.notify()
-- java.lang.Object.notifyAll()
-- java.lang.Object.toString()
-- java.lang.Object.wait()
-- java.lang.Object.wait(long)
-- java.lang.Object.wait(long,int)
-syntax: public final class MetricNamespaceInner
+- "java.lang.Object.clone()"
+- "java.lang.Object.equals(java.lang.Object)"
+- "java.lang.Object.finalize()"
+- "java.lang.Object.getClass()"
+- "java.lang.Object.hashCode()"
+- "java.lang.Object.notify()"
+- "java.lang.Object.notifyAll()"
+- "java.lang.Object.toString()"
+- "java.lang.Object.wait()"
+- "java.lang.Object.wait(long)"
+- "java.lang.Object.wait(long,int)"
+syntax: "public final class MetricNamespaceInner"
 constructors:
-- com.azure.resourcemanager.monitor.fluent.inner.MetricNamespaceInner.MetricNamespaceInner()
+- "com.azure.resourcemanager.monitor.fluent.inner.MetricNamespaceInner.MetricNamespaceInner()"
 methods:
-- com.azure.resourcemanager.monitor.fluent.inner.MetricNamespaceInner.id()
-- com.azure.resourcemanager.monitor.fluent.inner.MetricNamespaceInner.name()
-- com.azure.resourcemanager.monitor.fluent.inner.MetricNamespaceInner.properties()
-- com.azure.resourcemanager.monitor.fluent.inner.MetricNamespaceInner.type()
-- com.azure.resourcemanager.monitor.fluent.inner.MetricNamespaceInner.validate()
-- com.azure.resourcemanager.monitor.fluent.inner.MetricNamespaceInner.withId(java.lang.String)
-- com.azure.resourcemanager.monitor.fluent.inner.MetricNamespaceInner.withName(java.lang.String)
-- com.azure.resourcemanager.monitor.fluent.inner.MetricNamespaceInner.withProperties(com.azure.resourcemanager.monitor.models.MetricNamespaceName)
-- com.azure.resourcemanager.monitor.fluent.inner.MetricNamespaceInner.withType(java.lang.String)
-type: class
+- "com.azure.resourcemanager.monitor.fluent.inner.MetricNamespaceInner.id()"
+- "com.azure.resourcemanager.monitor.fluent.inner.MetricNamespaceInner.name()"
+- "com.azure.resourcemanager.monitor.fluent.inner.MetricNamespaceInner.properties()"
+- "com.azure.resourcemanager.monitor.fluent.inner.MetricNamespaceInner.type()"
+- "com.azure.resourcemanager.monitor.fluent.inner.MetricNamespaceInner.validate()"
+- "com.azure.resourcemanager.monitor.fluent.inner.MetricNamespaceInner.withId(java.lang.String)"
+- "com.azure.resourcemanager.monitor.fluent.inner.MetricNamespaceInner.withName(java.lang.String)"
+- "com.azure.resourcemanager.monitor.fluent.inner.MetricNamespaceInner.withProperties(com.azure.resourcemanager.monitor.models.MetricNamespaceName)"
+- "com.azure.resourcemanager.monitor.fluent.inner.MetricNamespaceInner.withType(java.lang.String)"
+type: "class"
 metadata: {}
-package: com.azure.resourcemanager.monitor.fluent.inner
+package: "com.azure.resourcemanager.monitor.fluent.inner"
 artifact: com.azure.resourcemanager:azure-resourcemanager-monitor:2.0.0-beta.2

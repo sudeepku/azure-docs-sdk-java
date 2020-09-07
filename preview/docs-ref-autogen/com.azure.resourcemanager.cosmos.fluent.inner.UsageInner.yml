@@ -1,34 +1,34 @@
 ### YamlMime:JavaType
-uid: com.azure.resourcemanager.cosmos.fluent.inner.UsageInner
-fullName: com.azure.resourcemanager.cosmos.fluent.inner.UsageInner
-name: UsageInner
-nameWithType: UsageInner
-summary: The Usage model.
+uid: "com.azure.resourcemanager.cosmos.fluent.inner.UsageInner"
+fullName: "com.azure.resourcemanager.cosmos.fluent.inner.UsageInner"
+name: "UsageInner"
+nameWithType: "UsageInner"
+summary: "The Usage model."
 inheritances:
-- <xref href="java.lang.Object" data-throw-if-not-resolved="False" />
+- "<xref href=\"java.lang.Object\" data-throw-if-not-resolved=\"False\" />"
 inheritedMembers:
-- java.lang.Object.clone()
-- java.lang.Object.equals(java.lang.Object)
-- java.lang.Object.finalize()
-- java.lang.Object.getClass()
-- java.lang.Object.hashCode()
-- java.lang.Object.notify()
-- java.lang.Object.notifyAll()
-- java.lang.Object.toString()
-- java.lang.Object.wait()
-- java.lang.Object.wait(long)
-- java.lang.Object.wait(long,int)
-syntax: public class UsageInner
+- "java.lang.Object.clone()"
+- "java.lang.Object.equals(java.lang.Object)"
+- "java.lang.Object.finalize()"
+- "java.lang.Object.getClass()"
+- "java.lang.Object.hashCode()"
+- "java.lang.Object.notify()"
+- "java.lang.Object.notifyAll()"
+- "java.lang.Object.toString()"
+- "java.lang.Object.wait()"
+- "java.lang.Object.wait(long)"
+- "java.lang.Object.wait(long,int)"
+syntax: "public class UsageInner"
 constructors:
-- com.azure.resourcemanager.cosmos.fluent.inner.UsageInner.UsageInner()
+- "com.azure.resourcemanager.cosmos.fluent.inner.UsageInner.UsageInner()"
 methods:
-- com.azure.resourcemanager.cosmos.fluent.inner.UsageInner.currentValue()
-- com.azure.resourcemanager.cosmos.fluent.inner.UsageInner.limit()
-- com.azure.resourcemanager.cosmos.fluent.inner.UsageInner.name()
-- com.azure.resourcemanager.cosmos.fluent.inner.UsageInner.quotaPeriod()
-- com.azure.resourcemanager.cosmos.fluent.inner.UsageInner.unit()
-- com.azure.resourcemanager.cosmos.fluent.inner.UsageInner.validate()
-type: class
+- "com.azure.resourcemanager.cosmos.fluent.inner.UsageInner.currentValue()"
+- "com.azure.resourcemanager.cosmos.fluent.inner.UsageInner.limit()"
+- "com.azure.resourcemanager.cosmos.fluent.inner.UsageInner.name()"
+- "com.azure.resourcemanager.cosmos.fluent.inner.UsageInner.quotaPeriod()"
+- "com.azure.resourcemanager.cosmos.fluent.inner.UsageInner.unit()"
+- "com.azure.resourcemanager.cosmos.fluent.inner.UsageInner.validate()"
+type: "class"
 metadata: {}
-package: com.azure.resourcemanager.cosmos.fluent.inner
+package: "com.azure.resourcemanager.cosmos.fluent.inner"
 artifact: com.azure.resourcemanager:azure-resourcemanager-cosmos:2.0.0-beta.2

@@ -1,15 +1,15 @@
 ### YamlMime:JavaType
-uid: com.azure.resourcemanager.dns.models.DnsZone.DefinitionStages.WithZoneType
-fullName: com.azure.resourcemanager.dns.models.DnsZone.DefinitionStages.WithZoneType
-name: DnsZone.DefinitionStages.WithZoneType
-nameWithType: DnsZone.DefinitionStages.WithZoneType
-summary: The stage of the DNS zone definition allowing to specify Zone access type.
-syntax: public static interface DnsZone.DefinitionStages.WithZoneType
+uid: "com.azure.resourcemanager.dns.models.DnsZone.DefinitionStages.WithZoneType"
+fullName: "com.azure.resourcemanager.dns.models.DnsZone.DefinitionStages.WithZoneType"
+name: "DnsZone.DefinitionStages.WithZoneType"
+nameWithType: "DnsZone.DefinitionStages.WithZoneType"
+summary: "The stage of the DNS zone definition allowing to specify Zone access type."
+syntax: "public static interface DnsZone.DefinitionStages.WithZoneType"
 methods:
-- com.azure.resourcemanager.dns.models.DnsZone.DefinitionStages.WithZoneType.withPrivateAccess()
-- com.azure.resourcemanager.dns.models.DnsZone.DefinitionStages.WithZoneType.withPrivateAccess(java.util.List<java.lang.String>,java.util.List<java.lang.String>)
-- com.azure.resourcemanager.dns.models.DnsZone.DefinitionStages.WithZoneType.withPublicAccess()
-type: interface
+- "com.azure.resourcemanager.dns.models.DnsZone.DefinitionStages.WithZoneType.withPrivateAccess()"
+- "com.azure.resourcemanager.dns.models.DnsZone.DefinitionStages.WithZoneType.withPrivateAccess(java.util.List<java.lang.String>,java.util.List<java.lang.String>)"
+- "com.azure.resourcemanager.dns.models.DnsZone.DefinitionStages.WithZoneType.withPublicAccess()"
+type: "interface"
 metadata: {}
-package: com.azure.resourcemanager.dns.models
+package: "com.azure.resourcemanager.dns.models"
 artifact: com.azure.resourcemanager:azure-resourcemanager-dns:2.0.0-beta.2

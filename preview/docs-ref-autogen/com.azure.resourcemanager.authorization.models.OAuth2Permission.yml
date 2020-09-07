@@ -1,45 +1,45 @@
 ### YamlMime:JavaType
-uid: com.azure.resourcemanager.authorization.models.OAuth2Permission
-fullName: com.azure.resourcemanager.authorization.models.OAuth2Permission
-name: OAuth2Permission
-nameWithType: OAuth2Permission
-summary: The OAuth2Permission model.
+uid: "com.azure.resourcemanager.authorization.models.OAuth2Permission"
+fullName: "com.azure.resourcemanager.authorization.models.OAuth2Permission"
+name: "OAuth2Permission"
+nameWithType: "OAuth2Permission"
+summary: "The OAuth2Permission model."
 inheritances:
-- <xref href="java.lang.Object" data-throw-if-not-resolved="False" />
+- "<xref href=\"java.lang.Object\" data-throw-if-not-resolved=\"False\" />"
 inheritedMembers:
-- java.lang.Object.clone()
-- java.lang.Object.equals(java.lang.Object)
-- java.lang.Object.finalize()
-- java.lang.Object.getClass()
-- java.lang.Object.hashCode()
-- java.lang.Object.notify()
-- java.lang.Object.notifyAll()
-- java.lang.Object.toString()
-- java.lang.Object.wait()
-- java.lang.Object.wait(long)
-- java.lang.Object.wait(long,int)
-syntax: public final class OAuth2Permission
+- "java.lang.Object.clone()"
+- "java.lang.Object.equals(java.lang.Object)"
+- "java.lang.Object.finalize()"
+- "java.lang.Object.getClass()"
+- "java.lang.Object.hashCode()"
+- "java.lang.Object.notify()"
+- "java.lang.Object.notifyAll()"
+- "java.lang.Object.toString()"
+- "java.lang.Object.wait()"
+- "java.lang.Object.wait(long)"
+- "java.lang.Object.wait(long,int)"
+syntax: "public final class OAuth2Permission"
 constructors:
-- com.azure.resourcemanager.authorization.models.OAuth2Permission.OAuth2Permission()
+- "com.azure.resourcemanager.authorization.models.OAuth2Permission.OAuth2Permission()"
 methods:
-- com.azure.resourcemanager.authorization.models.OAuth2Permission.adminConsentDescription()
-- com.azure.resourcemanager.authorization.models.OAuth2Permission.adminConsentDisplayName()
-- com.azure.resourcemanager.authorization.models.OAuth2Permission.id()
-- com.azure.resourcemanager.authorization.models.OAuth2Permission.isEnabled()
-- com.azure.resourcemanager.authorization.models.OAuth2Permission.type()
-- com.azure.resourcemanager.authorization.models.OAuth2Permission.userConsentDescription()
-- com.azure.resourcemanager.authorization.models.OAuth2Permission.userConsentDisplayName()
-- com.azure.resourcemanager.authorization.models.OAuth2Permission.validate()
-- com.azure.resourcemanager.authorization.models.OAuth2Permission.value()
-- com.azure.resourcemanager.authorization.models.OAuth2Permission.withAdminConsentDescription(java.lang.String)
-- com.azure.resourcemanager.authorization.models.OAuth2Permission.withAdminConsentDisplayName(java.lang.String)
-- com.azure.resourcemanager.authorization.models.OAuth2Permission.withId(java.lang.String)
-- com.azure.resourcemanager.authorization.models.OAuth2Permission.withIsEnabled(java.lang.Boolean)
-- com.azure.resourcemanager.authorization.models.OAuth2Permission.withType(java.lang.String)
-- com.azure.resourcemanager.authorization.models.OAuth2Permission.withUserConsentDescription(java.lang.String)
-- com.azure.resourcemanager.authorization.models.OAuth2Permission.withUserConsentDisplayName(java.lang.String)
-- com.azure.resourcemanager.authorization.models.OAuth2Permission.withValue(java.lang.String)
-type: class
+- "com.azure.resourcemanager.authorization.models.OAuth2Permission.adminConsentDescription()"
+- "com.azure.resourcemanager.authorization.models.OAuth2Permission.adminConsentDisplayName()"
+- "com.azure.resourcemanager.authorization.models.OAuth2Permission.id()"
+- "com.azure.resourcemanager.authorization.models.OAuth2Permission.isEnabled()"
+- "com.azure.resourcemanager.authorization.models.OAuth2Permission.type()"
+- "com.azure.resourcemanager.authorization.models.OAuth2Permission.userConsentDescription()"
+- "com.azure.resourcemanager.authorization.models.OAuth2Permission.userConsentDisplayName()"
+- "com.azure.resourcemanager.authorization.models.OAuth2Permission.validate()"
+- "com.azure.resourcemanager.authorization.models.OAuth2Permission.value()"
+- "com.azure.resourcemanager.authorization.models.OAuth2Permission.withAdminConsentDescription(java.lang.String)"
+- "com.azure.resourcemanager.authorization.models.OAuth2Permission.withAdminConsentDisplayName(java.lang.String)"
+- "com.azure.resourcemanager.authorization.models.OAuth2Permission.withId(java.lang.String)"
+- "com.azure.resourcemanager.authorization.models.OAuth2Permission.withIsEnabled(java.lang.Boolean)"
+- "com.azure.resourcemanager.authorization.models.OAuth2Permission.withType(java.lang.String)"
+- "com.azure.resourcemanager.authorization.models.OAuth2Permission.withUserConsentDescription(java.lang.String)"
+- "com.azure.resourcemanager.authorization.models.OAuth2Permission.withUserConsentDisplayName(java.lang.String)"
+- "com.azure.resourcemanager.authorization.models.OAuth2Permission.withValue(java.lang.String)"
+type: "class"
 metadata: {}
-package: com.azure.resourcemanager.authorization.models
+package: "com.azure.resourcemanager.authorization.models"
 artifact: com.azure.resourcemanager:azure-resourcemanager-authorization:2.0.0-beta.2

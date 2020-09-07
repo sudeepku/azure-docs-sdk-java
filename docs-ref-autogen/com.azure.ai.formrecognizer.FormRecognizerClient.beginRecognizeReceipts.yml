@@ -1,119 +1,48 @@
 ### YamlMime:JavaMember
-uid: com.azure.ai.formrecognizer.FormRecognizerClient.beginRecognizeReceipts*
-fullName: com.azure.ai.formrecognizer.FormRecognizerClient.beginRecognizeReceipts
-name: beginRecognizeReceipts
-nameWithType: FormRecognizerClient.beginRecognizeReceipts
+uid: "com.azure.ai.formrecognizer.FormRecognizerClient.beginRecognizeReceipts*"
+fullName: "com.azure.ai.formrecognizer.FormRecognizerClient.beginRecognizeReceipts"
+name: "beginRecognizeReceipts"
+nameWithType: "FormRecognizerClient.beginRecognizeReceipts"
 members:
-- uid: com.azure.ai.formrecognizer.FormRecognizerClient.beginRecognizeReceipts(java.io.InputStream,long)
-  fullName: com.azure.ai.formrecognizer.FormRecognizerClient.beginRecognizeReceipts(InputStream receipt, long length)
-  name: beginRecognizeReceipts(InputStream receipt, long length)
-  nameWithType: FormRecognizerClient.beginRecognizeReceipts(InputStream receipt, long length)
+- uid: "com.azure.ai.formrecognizer.FormRecognizerClient.beginRecognizeReceipts(java.io.InputStream,long)"
+  fullName: "com.azure.ai.formrecognizer.FormRecognizerClient.beginRecognizeReceipts(InputStream receipt, long length)"
+  name: "beginRecognizeReceipts(InputStream receipt, long length)"
+  nameWithType: "FormRecognizerClient.beginRecognizeReceipts(InputStream receipt, long length)"
   summary: "Recognizes data from the provided document data using optical character recognition (OCR)\n and a prebuilt trained receipt model.\n <p>The service does not support cancellation of the long running operation and returns with an\n error message indicating absence of cancellation support</p>\n See <a href=\"https://aka.ms/formrecognizer/receiptfields\">here</a> for fields found on a receipt.\n\n <p><strong>Code sample</strong></p>\n <pre>\n File receipt = new File&#40;&quot;&#123;receipt_url&#125;&quot;&#41;;\n byte[] fileContent = Files.readAllBytes&#40;receipt.toPath&#40;&#41;&#41;;\n try &#40;InputStream targetStream = new ByteArrayInputStream&#40;fileContent&#41;&#41; &#123;\n \n     formRecognizerClient.beginRecognizeReceipts&#40;targetStream, receipt.length&#40;&#41;&#41;.getFinalResult&#40;&#41;\n         .forEach&#40;recognizedReceipt -&gt; &#123;\n             Map&lt;String, FormField&gt; recognizedFields = recognizedReceipt.getFields&#40;&#41;;\n             FormField merchantNameField = recognizedFields.get&#40;&quot;MerchantName&quot;&#41;;\n             if &#40;merchantNameField != null&#41; &#123;\n                 if &#40;FieldValueType.STRING == merchantNameField.getValue&#40;&#41;.getValueType&#40;&#41;&#41; &#123;\n                     String merchantName = merchantNameField.getValue&#40;&#41;.asString&#40;&#41;;\n                     System.out.printf&#40;&quot;Merchant Name: %s, confidence: %.2f%n&quot;,\n                         merchantName, merchantNameField.getConfidence&#40;&#41;&#41;;\n                 &#125;\n             &#125;\n \n             FormField merchantPhoneNumberField = recognizedFields.get&#40;&quot;MerchantPhoneNumber&quot;&#41;;\n             if &#40;merchantPhoneNumberField != null&#41; &#123;\n                 if &#40;FieldValueType.PHONE_NUMBER == merchantPhoneNumberField.getValue&#40;&#41;.getValueType&#40;&#41;&#41; &#123;\n                     String merchantAddress = merchantPhoneNumberField.getValue&#40;&#41;.asPhoneNumber&#40;&#41;;\n                     System.out.printf&#40;&quot;Merchant Phone number: %s, confidence: %.2f%n&quot;,\n                         merchantAddress, merchantPhoneNumberField.getConfidence&#40;&#41;&#41;;\n                 &#125;\n             &#125;\n \n             FormField transactionDateField = recognizedFields.get&#40;&quot;TransactionDate&quot;&#41;;\n             if &#40;transactionDateField != null&#41; &#123;\n                 if &#40;FieldValueType.DATE == transactionDateField.getValue&#40;&#41;.getValueType&#40;&#41;&#41; &#123;\n                     LocalDate transactionDate = transactionDateField.getValue&#40;&#41;.asDate&#40;&#41;;\n                     System.out.printf&#40;&quot;Transaction Date: %s, confidence: %.2f%n&quot;,\n                         transactionDate, transactionDateField.getConfidence&#40;&#41;&#41;;\n                 &#125;\n             &#125;\n \n             FormField receiptItemsField = recognizedFields.get&#40;&quot;Items&quot;&#41;;\n             if &#40;receiptItemsField != null&#41; &#123;\n                 System.out.printf&#40;&quot;Receipt Items: %n&quot;&#41;;\n                 if &#40;FieldValueType.LIST == receiptItemsField.getValue&#40;&#41;.getValueType&#40;&#41;&#41; &#123;\n                     List&lt;FormField&gt; receiptItems = receiptItemsField.getValue&#40;&#41;.asList&#40;&#41;;\n                     receiptItems.stream&#40;&#41;\n                         .filter&#40;receiptItem -&gt; FieldValueType.MAP == receiptItem.getValue&#40;&#41;.getValueType&#40;&#41;&#41;\n                         .map&#40;formField -&gt; formField.getValue&#40;&#41;.asMap&#40;&#41;&#41;\n                         .forEach&#40;formFieldMap -&gt; formFieldMap.forEach&#40;&#40;key, formField&#41; -&gt; &#123;\n                             if &#40;&quot;Quantity&quot;.equals&#40;key&#41;&#41; &#123;\n                                 if &#40;FieldValueType.FLOAT == formField.getValue&#40;&#41;.getValueType&#40;&#41;&#41; &#123;\n                                     Float quantity = formField.getValue&#40;&#41;.asFloat&#40;&#41;;\n                                     System.out.printf&#40;&quot;Quantity: %f, confidence: %.2f%n&quot;,\n                                         quantity, formField.getConfidence&#40;&#41;&#41;;\n                                 &#125;\n                             &#125;\n                         &#125;&#41;&#41;;\n                 &#125;\n             &#125;\n         &#125;&#41;;\n &#125;\n </pre>"
   parameters:
-  - description: The data of the receipt to recognize receipt information from.
-    name: receipt
-    type: <xref href="java.io.InputStream?alt=java.io.InputStream&text=InputStream" data-throw-if-not-resolved="False" />
-  - description: The exact length of the data.
-    name: length
-    type: <xref href="long?alt=long&text=long" data-throw-if-not-resolved="False" />
-  syntax: public SyncPoller<FormRecognizerOperationResult,List<RecognizedForm>> beginRecognizeReceipts(InputStream receipt, long length)
+  - description: "The data of the receipt to recognize receipt information from."
+    name: "receipt"
+    type: "<xref href=\"java.io.InputStream?alt=java.io.InputStream&text=InputStream\" data-throw-if-not-resolved=\"False\" />"
+  - description: "The exact length of the data."
+    name: "length"
+    type: "<xref href=\"long?alt=long&text=long\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public SyncPoller<FormRecognizerOperationResult,List<RecognizedForm>> beginRecognizeReceipts(InputStream receipt, long length)"
   returns:
-    description: |-
-      A <xref uid="com.azure.core.util.polling.SyncPoller" data-throw-if-not-resolved="false">SyncPoller</xref> that polls the recognize receipt operation until it has completed,
-       has failed, or has been cancelled. The completed operation returns a List of <xref uid="com.azure.ai.formrecognizer.models.RecognizedForm" data-throw-if-not-resolved="false">RecognizedForm</xref>.
-    type: <xref href="com.azure.core.util.polling.SyncPoller?alt=com.azure.core.util.polling.SyncPoller&text=SyncPoller" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.ai.formrecognizer.models.FormRecognizerOperationResult?alt=com.azure.ai.formrecognizer.models.FormRecognizerOperationResult&text=FormRecognizerOperationResult" data-throw-if-not-resolved="False" />,<xref href="java.util.List?alt=java.util.List&text=List" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.ai.formrecognizer.models.RecognizedForm?alt=com.azure.ai.formrecognizer.models.RecognizedForm&text=RecognizedForm" data-throw-if-not-resolved="False" />&gt;&gt;
-- uid: com.azure.ai.formrecognizer.FormRecognizerClient.beginRecognizeReceipts(java.io.InputStream,long,com.azure.ai.formrecognizer.models.RecognizeReceiptsOptions,com.azure.core.util.Context)
-  fullName: com.azure.ai.formrecognizer.FormRecognizerClient.beginRecognizeReceipts(InputStream receipt, long length, RecognizeReceiptsOptions recognizeReceiptsOptions, Context context)
-  name: beginRecognizeReceipts(InputStream receipt, long length, RecognizeReceiptsOptions recognizeReceiptsOptions, Context context)
-  nameWithType: FormRecognizerClient.beginRecognizeReceipts(InputStream receipt, long length, RecognizeReceiptsOptions recognizeReceiptsOptions, Context context)
-  summary: |-
-    Recognizes data from the provided document data using optical character recognition (OCR) and a prebuilt
-     trained receipt model.
-     <p>The service does not support cancellation of the long running operation and returns with an
-     error message indicating absence of cancellation support</p>
-     See <a href="https://aka.ms/formrecognizer/receiptfields">here</a> for fields found on a receipt.
-
-     <p><strong>Code sample</strong></p>
-     <pre>
-     File receipt = new File&#40;&quot;&#123;local&#47;file_path&#47;fileName.jpg&#125;&quot;&#41;;
-     boolean includeFieldElements = true;
-     byte[] fileContent = Files.readAllBytes&#40;receipt.toPath&#40;&#41;&#41;;
-     try &#40;InputStream targetStream = new ByteArrayInputStream&#40;fileContent&#41;&#41; &#123;
-         for &#40;RecognizedForm recognizedForm : formRecognizerClient.beginRecognizeReceipts&#40;targetStream, receipt.length&#40;&#41;,
-             new RecognizeReceiptsOptions&#40;&#41;
-                 .setContentType&#40;FormContentType.IMAGE_JPEG&#41;
-                 .setFieldElementsIncluded&#40;includeFieldElements&#41;
-                 .setPollInterval&#40;Duration.ofSeconds&#40;5&#41;&#41;, Context.NONE&#41;
-             .getFinalResult&#40;&#41;&#41; &#123;
-             Map&lt;String, FormField&gt; recognizedFields = recognizedForm.getFields&#40;&#41;;
-             FormField merchantNameField = recognizedFields.get&#40;&quot;MerchantName&quot;&#41;;
-             if &#40;merchantNameField != null&#41; &#123;
-                 if &#40;FieldValueType.STRING == merchantNameField.getValue&#40;&#41;.getValueType&#40;&#41;&#41; &#123;
-                     String merchantName = merchantNameField.getValue&#40;&#41;.asString&#40;&#41;;
-                     System.out.printf&#40;&quot;Merchant Name: %s, confidence: %.2f%n&quot;,
-                         merchantName, merchantNameField.getConfidence&#40;&#41;&#41;;
-                 &#125;
-             &#125;
-             FormField merchantPhoneNumberField = recognizedFields.get&#40;&quot;MerchantPhoneNumber&quot;&#41;;
-             if &#40;merchantPhoneNumberField != null&#41; &#123;
-                 if &#40;FieldValueType.PHONE_NUMBER == merchantPhoneNumberField.getValue&#40;&#41;.getValueType&#40;&#41;&#41; &#123;
-                     String merchantAddress = merchantPhoneNumberField.getValue&#40;&#41;.asPhoneNumber&#40;&#41;;
-                     System.out.printf&#40;&quot;Merchant Phone number: %s, confidence: %.2f%n&quot;,
-                         merchantAddress, merchantPhoneNumberField.getConfidence&#40;&#41;&#41;;
-                 &#125;
-             &#125;
-             FormField transactionDateField = recognizedFields.get&#40;&quot;TransactionDate&quot;&#41;;
-             if &#40;transactionDateField != null&#41; &#123;
-                 if &#40;FieldValueType.DATE == transactionDateField.getValue&#40;&#41;.getValueType&#40;&#41;&#41; &#123;
-                     LocalDate transactionDate = transactionDateField.getValue&#40;&#41;.asDate&#40;&#41;;
-                     System.out.printf&#40;&quot;Transaction Date: %s, confidence: %.2f%n&quot;,
-                         transactionDate, transactionDateField.getConfidence&#40;&#41;&#41;;
-                 &#125;
-             &#125;
-             FormField receiptItemsField = recognizedFields.get&#40;&quot;Items&quot;&#41;;
-             if &#40;receiptItemsField != null&#41; &#123;
-                 System.out.printf&#40;&quot;Receipt Items: %n&quot;&#41;;
-                 if &#40;FieldValueType.LIST == receiptItemsField.getValue&#40;&#41;.getValueType&#40;&#41;&#41; &#123;
-                     List&lt;FormField&gt; receiptItems = receiptItemsField.getValue&#40;&#41;.asList&#40;&#41;;
-                     receiptItems.stream&#40;&#41;
-                         .filter&#40;receiptItem -&gt; FieldValueType.MAP == receiptItem.getValue&#40;&#41;.getValueType&#40;&#41;&#41;
-                         .map&#40;formField -&gt; formField.getValue&#40;&#41;.asMap&#40;&#41;&#41;
-                         .forEach&#40;formFieldMap -&gt; formFieldMap.forEach&#40;&#40;key, formField&#41; -&gt; &#123;
-                             if &#40;&quot;Quantity&quot;.equals&#40;key&#41;&#41; &#123;
-                                 if &#40;FieldValueType.FLOAT == formField.getValue&#40;&#41;.getValueType&#40;&#41;&#41; &#123;
-                                     Float quantity = formField.getValue&#40;&#41;.asFloat&#40;&#41;;
-                                     System.out.printf&#40;&quot;Quantity: %f, confidence: %.2f%n&quot;,
-                                         quantity, formField.getConfidence&#40;&#41;&#41;;
-                                 &#125;
-                             &#125;
-                         &#125;&#41;&#41;;
-                 &#125;
-             &#125;
-         &#125;
-     &#125;
-     </pre>
+    description: "A <xref uid=\"com.azure.core.util.polling.SyncPoller\" data-throw-if-not-resolved=\"false\">SyncPoller</xref> that polls the recognize receipt operation until it has completed,\n has failed, or has been cancelled. The completed operation returns a List of <xref uid=\"com.azure.ai.formrecognizer.models.RecognizedForm\" data-throw-if-not-resolved=\"false\">RecognizedForm</xref>."
+    type: "<xref href=\"com.azure.core.util.polling.SyncPoller?alt=com.azure.core.util.polling.SyncPoller&text=SyncPoller\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.ai.formrecognizer.models.FormRecognizerOperationResult?alt=com.azure.ai.formrecognizer.models.FormRecognizerOperationResult&text=FormRecognizerOperationResult\" data-throw-if-not-resolved=\"False\" />,<xref href=\"java.util.List?alt=java.util.List&text=List\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.ai.formrecognizer.models.RecognizedForm?alt=com.azure.ai.formrecognizer.models.RecognizedForm&text=RecognizedForm\" data-throw-if-not-resolved=\"False\" />&gt;&gt;"
+- uid: "com.azure.ai.formrecognizer.FormRecognizerClient.beginRecognizeReceipts(java.io.InputStream,long,com.azure.ai.formrecognizer.models.RecognizeReceiptsOptions,com.azure.core.util.Context)"
+  fullName: "com.azure.ai.formrecognizer.FormRecognizerClient.beginRecognizeReceipts(InputStream receipt, long length, RecognizeReceiptsOptions recognizeReceiptsOptions, Context context)"
+  name: "beginRecognizeReceipts(InputStream receipt, long length, RecognizeReceiptsOptions recognizeReceiptsOptions, Context context)"
+  nameWithType: "FormRecognizerClient.beginRecognizeReceipts(InputStream receipt, long length, RecognizeReceiptsOptions recognizeReceiptsOptions, Context context)"
+  summary: "Recognizes data from the provided document data using optical character recognition (OCR) and a prebuilt\n trained receipt model.\n <p>The service does not support cancellation of the long running operation and returns with an\n error message indicating absence of cancellation support</p>\n See <a href=\"https://aka.ms/formrecognizer/receiptfields\">here</a> for fields found on a receipt.\n\n <p><strong>Code sample</strong></p>\n <pre>\n File receipt = new File&#40;&quot;&#123;local&#47;file_path&#47;fileName.jpg&#125;&quot;&#41;;\n boolean includeFieldElements = true;\n byte[] fileContent = Files.readAllBytes&#40;receipt.toPath&#40;&#41;&#41;;\n try &#40;InputStream targetStream = new ByteArrayInputStream&#40;fileContent&#41;&#41; &#123;\n     for &#40;RecognizedForm recognizedForm : formRecognizerClient.beginRecognizeReceipts&#40;targetStream, receipt.length&#40;&#41;,\n         new RecognizeReceiptsOptions&#40;&#41;\n             .setContentType&#40;FormContentType.IMAGE_JPEG&#41;\n             .setFieldElementsIncluded&#40;includeFieldElements&#41;\n             .setPollInterval&#40;Duration.ofSeconds&#40;5&#41;&#41;, Context.NONE&#41;\n         .getFinalResult&#40;&#41;&#41; &#123;\n         Map&lt;String, FormField&gt; recognizedFields = recognizedForm.getFields&#40;&#41;;\n         FormField merchantNameField = recognizedFields.get&#40;&quot;MerchantName&quot;&#41;;\n         if &#40;merchantNameField != null&#41; &#123;\n             if &#40;FieldValueType.STRING == merchantNameField.getValue&#40;&#41;.getValueType&#40;&#41;&#41; &#123;\n                 String merchantName = merchantNameField.getValue&#40;&#41;.asString&#40;&#41;;\n                 System.out.printf&#40;&quot;Merchant Name: %s, confidence: %.2f%n&quot;,\n                     merchantName, merchantNameField.getConfidence&#40;&#41;&#41;;\n             &#125;\n         &#125;\n         FormField merchantPhoneNumberField = recognizedFields.get&#40;&quot;MerchantPhoneNumber&quot;&#41;;\n         if &#40;merchantPhoneNumberField != null&#41; &#123;\n             if &#40;FieldValueType.PHONE_NUMBER == merchantPhoneNumberField.getValue&#40;&#41;.getValueType&#40;&#41;&#41; &#123;\n                 String merchantAddress = merchantPhoneNumberField.getValue&#40;&#41;.asPhoneNumber&#40;&#41;;\n                 System.out.printf&#40;&quot;Merchant Phone number: %s, confidence: %.2f%n&quot;,\n                     merchantAddress, merchantPhoneNumberField.getConfidence&#40;&#41;&#41;;\n             &#125;\n         &#125;\n         FormField transactionDateField = recognizedFields.get&#40;&quot;TransactionDate&quot;&#41;;\n         if &#40;transactionDateField != null&#41; &#123;\n             if &#40;FieldValueType.DATE == transactionDateField.getValue&#40;&#41;.getValueType&#40;&#41;&#41; &#123;\n                 LocalDate transactionDate = transactionDateField.getValue&#40;&#41;.asDate&#40;&#41;;\n                 System.out.printf&#40;&quot;Transaction Date: %s, confidence: %.2f%n&quot;,\n                     transactionDate, transactionDateField.getConfidence&#40;&#41;&#41;;\n             &#125;\n         &#125;\n         FormField receiptItemsField = recognizedFields.get&#40;&quot;Items&quot;&#41;;\n         if &#40;receiptItemsField != null&#41; &#123;\n             System.out.printf&#40;&quot;Receipt Items: %n&quot;&#41;;\n             if &#40;FieldValueType.LIST == receiptItemsField.getValue&#40;&#41;.getValueType&#40;&#41;&#41; &#123;\n                 List&lt;FormField&gt; receiptItems = receiptItemsField.getValue&#40;&#41;.asList&#40;&#41;;\n                 receiptItems.stream&#40;&#41;\n                     .filter&#40;receiptItem -&gt; FieldValueType.MAP == receiptItem.getValue&#40;&#41;.getValueType&#40;&#41;&#41;\n                     .map&#40;formField -&gt; formField.getValue&#40;&#41;.asMap&#40;&#41;&#41;\n                     .forEach&#40;formFieldMap -&gt; formFieldMap.forEach&#40;&#40;key, formField&#41; -&gt; &#123;\n                         if &#40;&quot;Quantity&quot;.equals&#40;key&#41;&#41; &#123;\n                             if &#40;FieldValueType.FLOAT == formField.getValue&#40;&#41;.getValueType&#40;&#41;&#41; &#123;\n                                 Float quantity = formField.getValue&#40;&#41;.asFloat&#40;&#41;;\n                                 System.out.printf&#40;&quot;Quantity: %f, confidence: %.2f%n&quot;,\n                                     quantity, formField.getConfidence&#40;&#41;&#41;;\n                             &#125;\n                         &#125;\n                     &#125;&#41;&#41;;\n             &#125;\n         &#125;\n     &#125;\n &#125;\n </pre>"
   parameters:
-  - description: The data of the receipt to recognize receipt information from.
-    name: receipt
-    type: <xref href="java.io.InputStream?alt=java.io.InputStream&text=InputStream" data-throw-if-not-resolved="False" />
-  - description: The exact length of the data.
-    name: length
-    type: <xref href="long?alt=long&text=long" data-throw-if-not-resolved="False" />
-  - description: |-
-      The additional configurable <xref uid="com.azure.ai.formrecognizer.models.RecognizeReceiptsOptions" data-throw-if-not-resolved="false">options</xref>
-       that may be passed when analyzing a receipt.
-    name: recognizeReceiptsOptions
-    type: <xref href="com.azure.ai.formrecognizer.models.RecognizeReceiptsOptions?alt=com.azure.ai.formrecognizer.models.RecognizeReceiptsOptions&text=RecognizeReceiptsOptions" data-throw-if-not-resolved="False" />
-  - description: Additional context that is passed through the HTTP pipeline during the service call.
-    name: context
-    type: <xref href="com.azure.core.util.Context?alt=com.azure.core.util.Context&text=Context" data-throw-if-not-resolved="False" />
-  syntax: public SyncPoller<FormRecognizerOperationResult,List<RecognizedForm>> beginRecognizeReceipts(InputStream receipt, long length, RecognizeReceiptsOptions recognizeReceiptsOptions, Context context)
+  - description: "The data of the receipt to recognize receipt information from."
+    name: "receipt"
+    type: "<xref href=\"java.io.InputStream?alt=java.io.InputStream&text=InputStream\" data-throw-if-not-resolved=\"False\" />"
+  - description: "The exact length of the data."
+    name: "length"
+    type: "<xref href=\"long?alt=long&text=long\" data-throw-if-not-resolved=\"False\" />"
+  - description: "The additional configurable <xref uid=\"com.azure.ai.formrecognizer.models.RecognizeReceiptsOptions\" data-throw-if-not-resolved=\"false\">options</xref>\n that may be passed when analyzing a receipt."
+    name: "recognizeReceiptsOptions"
+    type: "<xref href=\"com.azure.ai.formrecognizer.models.RecognizeReceiptsOptions?alt=com.azure.ai.formrecognizer.models.RecognizeReceiptsOptions&text=RecognizeReceiptsOptions\" data-throw-if-not-resolved=\"False\" />"
+  - description: "Additional context that is passed through the HTTP pipeline during the service call."
+    name: "context"
+    type: "<xref href=\"com.azure.core.util.Context?alt=com.azure.core.util.Context&text=Context\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public SyncPoller<FormRecognizerOperationResult,List<RecognizedForm>> beginRecognizeReceipts(InputStream receipt, long length, RecognizeReceiptsOptions recognizeReceiptsOptions, Context context)"
   returns:
-    description: |-
-      A <xref uid="com.azure.core.util.polling.SyncPoller" data-throw-if-not-resolved="false">SyncPoller</xref> that polls the recognize receipt operation until it has completed, has failed,
-       or has been cancelled. The completed operation returns a List of <xref uid="com.azure.ai.formrecognizer.models.RecognizedForm" data-throw-if-not-resolved="false">RecognizedForm</xref>.
-    type: <xref href="com.azure.core.util.polling.SyncPoller?alt=com.azure.core.util.polling.SyncPoller&text=SyncPoller" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.ai.formrecognizer.models.FormRecognizerOperationResult?alt=com.azure.ai.formrecognizer.models.FormRecognizerOperationResult&text=FormRecognizerOperationResult" data-throw-if-not-resolved="False" />,<xref href="java.util.List?alt=java.util.List&text=List" data-throw-if-not-resolved="False" />&lt;<xref href="com.azure.ai.formrecognizer.models.RecognizedForm?alt=com.azure.ai.formrecognizer.models.RecognizedForm&text=RecognizedForm" data-throw-if-not-resolved="False" />&gt;&gt;
-type: method
+    description: "A <xref uid=\"com.azure.core.util.polling.SyncPoller\" data-throw-if-not-resolved=\"false\">SyncPoller</xref> that polls the recognize receipt operation until it has completed, has failed,\n or has been cancelled. The completed operation returns a List of <xref uid=\"com.azure.ai.formrecognizer.models.RecognizedForm\" data-throw-if-not-resolved=\"false\">RecognizedForm</xref>."
+    type: "<xref href=\"com.azure.core.util.polling.SyncPoller?alt=com.azure.core.util.polling.SyncPoller&text=SyncPoller\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.ai.formrecognizer.models.FormRecognizerOperationResult?alt=com.azure.ai.formrecognizer.models.FormRecognizerOperationResult&text=FormRecognizerOperationResult\" data-throw-if-not-resolved=\"False\" />,<xref href=\"java.util.List?alt=java.util.List&text=List\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.azure.ai.formrecognizer.models.RecognizedForm?alt=com.azure.ai.formrecognizer.models.RecognizedForm&text=RecognizedForm\" data-throw-if-not-resolved=\"False\" />&gt;&gt;"
+type: "method"
 metadata: {}
-package: com.azure.ai.formrecognizer
+package: "com.azure.ai.formrecognizer"
 artifact: com.azure:azure-ai-formrecognizer:3.0.0

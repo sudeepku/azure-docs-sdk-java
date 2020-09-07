@@ -1,15 +1,15 @@
 ### YamlMime:JavaMember
-uid: com.microsoft.azure.management.cosmosdb.CassandraTableResource.CassandraTableResource*
-fullName: com.microsoft.azure.management.cosmosdb.CassandraTableResource.CassandraTableResource
-name: CassandraTableResource
-nameWithType: CassandraTableResource.CassandraTableResource
+uid: "com.microsoft.azure.management.cosmosdb.CassandraTableResource.CassandraTableResource*"
+fullName: "com.microsoft.azure.management.cosmosdb.CassandraTableResource.CassandraTableResource"
+name: "CassandraTableResource"
+nameWithType: "CassandraTableResource.CassandraTableResource"
 members:
-- uid: com.microsoft.azure.management.cosmosdb.CassandraTableResource.CassandraTableResource()
-  fullName: com.microsoft.azure.management.cosmosdb.CassandraTableResource.CassandraTableResource()
-  name: CassandraTableResource()
-  nameWithType: CassandraTableResource.CassandraTableResource()
-  syntax: public CassandraTableResource()
-type: constructor
+- uid: "com.microsoft.azure.management.cosmosdb.CassandraTableResource.CassandraTableResource()"
+  fullName: "com.microsoft.azure.management.cosmosdb.CassandraTableResource.CassandraTableResource()"
+  name: "CassandraTableResource()"
+  nameWithType: "CassandraTableResource.CassandraTableResource()"
+  syntax: "public CassandraTableResource()"
+type: "constructor"
 metadata: {}
-package: com.microsoft.azure.management.cosmosdb
-artifact: com.microsoft.azure:azure-mgmt-cosmosdb:1.36.1
+package: "com.microsoft.azure.management.cosmosdb"
+artifact: com.microsoft.azure:azure-mgmt-cosmosdb:1.36.2

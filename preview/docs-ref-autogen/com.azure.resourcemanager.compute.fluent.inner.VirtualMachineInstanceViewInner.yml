@@ -1,55 +1,55 @@
 ### YamlMime:JavaType
-uid: com.azure.resourcemanager.compute.fluent.inner.VirtualMachineInstanceViewInner
-fullName: com.azure.resourcemanager.compute.fluent.inner.VirtualMachineInstanceViewInner
-name: VirtualMachineInstanceViewInner
-nameWithType: VirtualMachineInstanceViewInner
-summary: The VirtualMachineInstanceView model.
+uid: "com.azure.resourcemanager.compute.fluent.inner.VirtualMachineInstanceViewInner"
+fullName: "com.azure.resourcemanager.compute.fluent.inner.VirtualMachineInstanceViewInner"
+name: "VirtualMachineInstanceViewInner"
+nameWithType: "VirtualMachineInstanceViewInner"
+summary: "The VirtualMachineInstanceView model."
 inheritances:
-- <xref href="java.lang.Object" data-throw-if-not-resolved="False" />
+- "<xref href=\"java.lang.Object\" data-throw-if-not-resolved=\"False\" />"
 inheritedMembers:
-- java.lang.Object.clone()
-- java.lang.Object.equals(java.lang.Object)
-- java.lang.Object.finalize()
-- java.lang.Object.getClass()
-- java.lang.Object.hashCode()
-- java.lang.Object.notify()
-- java.lang.Object.notifyAll()
-- java.lang.Object.toString()
-- java.lang.Object.wait()
-- java.lang.Object.wait(long)
-- java.lang.Object.wait(long,int)
-syntax: public final class VirtualMachineInstanceViewInner
+- "java.lang.Object.clone()"
+- "java.lang.Object.equals(java.lang.Object)"
+- "java.lang.Object.finalize()"
+- "java.lang.Object.getClass()"
+- "java.lang.Object.hashCode()"
+- "java.lang.Object.notify()"
+- "java.lang.Object.notifyAll()"
+- "java.lang.Object.toString()"
+- "java.lang.Object.wait()"
+- "java.lang.Object.wait(long)"
+- "java.lang.Object.wait(long,int)"
+syntax: "public final class VirtualMachineInstanceViewInner"
 constructors:
-- com.azure.resourcemanager.compute.fluent.inner.VirtualMachineInstanceViewInner.VirtualMachineInstanceViewInner()
+- "com.azure.resourcemanager.compute.fluent.inner.VirtualMachineInstanceViewInner.VirtualMachineInstanceViewInner()"
 methods:
-- com.azure.resourcemanager.compute.fluent.inner.VirtualMachineInstanceViewInner.bootDiagnostics()
-- com.azure.resourcemanager.compute.fluent.inner.VirtualMachineInstanceViewInner.computerName()
-- com.azure.resourcemanager.compute.fluent.inner.VirtualMachineInstanceViewInner.disks()
-- com.azure.resourcemanager.compute.fluent.inner.VirtualMachineInstanceViewInner.extensions()
-- com.azure.resourcemanager.compute.fluent.inner.VirtualMachineInstanceViewInner.hyperVGeneration()
-- com.azure.resourcemanager.compute.fluent.inner.VirtualMachineInstanceViewInner.maintenanceRedeployStatus()
-- com.azure.resourcemanager.compute.fluent.inner.VirtualMachineInstanceViewInner.osName()
-- com.azure.resourcemanager.compute.fluent.inner.VirtualMachineInstanceViewInner.osVersion()
-- com.azure.resourcemanager.compute.fluent.inner.VirtualMachineInstanceViewInner.platformFaultDomain()
-- com.azure.resourcemanager.compute.fluent.inner.VirtualMachineInstanceViewInner.platformUpdateDomain()
-- com.azure.resourcemanager.compute.fluent.inner.VirtualMachineInstanceViewInner.rdpThumbPrint()
-- com.azure.resourcemanager.compute.fluent.inner.VirtualMachineInstanceViewInner.statuses()
-- com.azure.resourcemanager.compute.fluent.inner.VirtualMachineInstanceViewInner.validate()
-- com.azure.resourcemanager.compute.fluent.inner.VirtualMachineInstanceViewInner.vmAgent()
-- com.azure.resourcemanager.compute.fluent.inner.VirtualMachineInstanceViewInner.withBootDiagnostics(com.azure.resourcemanager.compute.models.BootDiagnosticsInstanceView)
-- com.azure.resourcemanager.compute.fluent.inner.VirtualMachineInstanceViewInner.withComputerName(java.lang.String)
-- com.azure.resourcemanager.compute.fluent.inner.VirtualMachineInstanceViewInner.withDisks(java.util.List<com.azure.resourcemanager.compute.models.DiskInstanceView>)
-- com.azure.resourcemanager.compute.fluent.inner.VirtualMachineInstanceViewInner.withExtensions(java.util.List<com.azure.resourcemanager.compute.models.VirtualMachineExtensionInstanceView>)
-- com.azure.resourcemanager.compute.fluent.inner.VirtualMachineInstanceViewInner.withHyperVGeneration(com.azure.resourcemanager.compute.models.HyperVGenerationType)
-- com.azure.resourcemanager.compute.fluent.inner.VirtualMachineInstanceViewInner.withMaintenanceRedeployStatus(com.azure.resourcemanager.compute.models.MaintenanceRedeployStatus)
-- com.azure.resourcemanager.compute.fluent.inner.VirtualMachineInstanceViewInner.withOsName(java.lang.String)
-- com.azure.resourcemanager.compute.fluent.inner.VirtualMachineInstanceViewInner.withOsVersion(java.lang.String)
-- com.azure.resourcemanager.compute.fluent.inner.VirtualMachineInstanceViewInner.withPlatformFaultDomain(java.lang.Integer)
-- com.azure.resourcemanager.compute.fluent.inner.VirtualMachineInstanceViewInner.withPlatformUpdateDomain(java.lang.Integer)
-- com.azure.resourcemanager.compute.fluent.inner.VirtualMachineInstanceViewInner.withRdpThumbPrint(java.lang.String)
-- com.azure.resourcemanager.compute.fluent.inner.VirtualMachineInstanceViewInner.withStatuses(java.util.List<com.azure.resourcemanager.compute.models.InstanceViewStatus>)
-- com.azure.resourcemanager.compute.fluent.inner.VirtualMachineInstanceViewInner.withVmAgent(com.azure.resourcemanager.compute.models.VirtualMachineAgentInstanceView)
-type: class
+- "com.azure.resourcemanager.compute.fluent.inner.VirtualMachineInstanceViewInner.bootDiagnostics()"
+- "com.azure.resourcemanager.compute.fluent.inner.VirtualMachineInstanceViewInner.computerName()"
+- "com.azure.resourcemanager.compute.fluent.inner.VirtualMachineInstanceViewInner.disks()"
+- "com.azure.resourcemanager.compute.fluent.inner.VirtualMachineInstanceViewInner.extensions()"
+- "com.azure.resourcemanager.compute.fluent.inner.VirtualMachineInstanceViewInner.hyperVGeneration()"
+- "com.azure.resourcemanager.compute.fluent.inner.VirtualMachineInstanceViewInner.maintenanceRedeployStatus()"
+- "com.azure.resourcemanager.compute.fluent.inner.VirtualMachineInstanceViewInner.osName()"
+- "com.azure.resourcemanager.compute.fluent.inner.VirtualMachineInstanceViewInner.osVersion()"
+- "com.azure.resourcemanager.compute.fluent.inner.VirtualMachineInstanceViewInner.platformFaultDomain()"
+- "com.azure.resourcemanager.compute.fluent.inner.VirtualMachineInstanceViewInner.platformUpdateDomain()"
+- "com.azure.resourcemanager.compute.fluent.inner.VirtualMachineInstanceViewInner.rdpThumbPrint()"
+- "com.azure.resourcemanager.compute.fluent.inner.VirtualMachineInstanceViewInner.statuses()"
+- "com.azure.resourcemanager.compute.fluent.inner.VirtualMachineInstanceViewInner.validate()"
+- "com.azure.resourcemanager.compute.fluent.inner.VirtualMachineInstanceViewInner.vmAgent()"
+- "com.azure.resourcemanager.compute.fluent.inner.VirtualMachineInstanceViewInner.withBootDiagnostics(com.azure.resourcemanager.compute.models.BootDiagnosticsInstanceView)"
+- "com.azure.resourcemanager.compute.fluent.inner.VirtualMachineInstanceViewInner.withComputerName(java.lang.String)"
+- "com.azure.resourcemanager.compute.fluent.inner.VirtualMachineInstanceViewInner.withDisks(java.util.List<com.azure.resourcemanager.compute.models.DiskInstanceView>)"
+- "com.azure.resourcemanager.compute.fluent.inner.VirtualMachineInstanceViewInner.withExtensions(java.util.List<com.azure.resourcemanager.compute.models.VirtualMachineExtensionInstanceView>)"
+- "com.azure.resourcemanager.compute.fluent.inner.VirtualMachineInstanceViewInner.withHyperVGeneration(com.azure.resourcemanager.compute.models.HyperVGenerationType)"
+- "com.azure.resourcemanager.compute.fluent.inner.VirtualMachineInstanceViewInner.withMaintenanceRedeployStatus(com.azure.resourcemanager.compute.models.MaintenanceRedeployStatus)"
+- "com.azure.resourcemanager.compute.fluent.inner.VirtualMachineInstanceViewInner.withOsName(java.lang.String)"
+- "com.azure.resourcemanager.compute.fluent.inner.VirtualMachineInstanceViewInner.withOsVersion(java.lang.String)"
+- "com.azure.resourcemanager.compute.fluent.inner.VirtualMachineInstanceViewInner.withPlatformFaultDomain(java.lang.Integer)"
+- "com.azure.resourcemanager.compute.fluent.inner.VirtualMachineInstanceViewInner.withPlatformUpdateDomain(java.lang.Integer)"
+- "com.azure.resourcemanager.compute.fluent.inner.VirtualMachineInstanceViewInner.withRdpThumbPrint(java.lang.String)"
+- "com.azure.resourcemanager.compute.fluent.inner.VirtualMachineInstanceViewInner.withStatuses(java.util.List<com.azure.resourcemanager.compute.models.InstanceViewStatus>)"
+- "com.azure.resourcemanager.compute.fluent.inner.VirtualMachineInstanceViewInner.withVmAgent(com.azure.resourcemanager.compute.models.VirtualMachineAgentInstanceView)"
+type: "class"
 metadata: {}
-package: com.azure.resourcemanager.compute.fluent.inner
+package: "com.azure.resourcemanager.compute.fluent.inner"
 artifact: com.azure.resourcemanager:azure-resourcemanager-compute:2.0.0-beta.2

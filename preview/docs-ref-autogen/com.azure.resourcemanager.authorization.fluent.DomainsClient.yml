@@ -1,42 +1,42 @@
 ### YamlMime:JavaType
-uid: com.azure.resourcemanager.authorization.fluent.DomainsClient
-fullName: com.azure.resourcemanager.authorization.fluent.DomainsClient
-name: DomainsClient
-nameWithType: DomainsClient
-summary: An instance of this class provides access to all the operations defined in Domains.
+uid: "com.azure.resourcemanager.authorization.fluent.DomainsClient"
+fullName: "com.azure.resourcemanager.authorization.fluent.DomainsClient"
+name: "DomainsClient"
+nameWithType: "DomainsClient"
+summary: "An instance of this class provides access to all the operations defined in Domains."
 inheritances:
-- <xref href="java.lang.Object" data-throw-if-not-resolved="False" />
+- "<xref href=\"java.lang.Object\" data-throw-if-not-resolved=\"False\" />"
 inheritedMembers:
-- java.lang.Object.clone()
-- java.lang.Object.equals(java.lang.Object)
-- java.lang.Object.finalize()
-- java.lang.Object.getClass()
-- java.lang.Object.hashCode()
-- java.lang.Object.notify()
-- java.lang.Object.notifyAll()
-- java.lang.Object.toString()
-- java.lang.Object.wait()
-- java.lang.Object.wait(long)
-- java.lang.Object.wait(long,int)
-syntax: public final class DomainsClient
+- "java.lang.Object.clone()"
+- "java.lang.Object.equals(java.lang.Object)"
+- "java.lang.Object.finalize()"
+- "java.lang.Object.getClass()"
+- "java.lang.Object.hashCode()"
+- "java.lang.Object.notify()"
+- "java.lang.Object.notifyAll()"
+- "java.lang.Object.toString()"
+- "java.lang.Object.wait()"
+- "java.lang.Object.wait(long)"
+- "java.lang.Object.wait(long,int)"
+syntax: "public final class DomainsClient"
 constructors:
-- com.azure.resourcemanager.authorization.fluent.DomainsClient.DomainsClient(com.azure.resourcemanager.authorization.GraphRbacManagementClient)
+- "com.azure.resourcemanager.authorization.fluent.DomainsClient.DomainsClient(com.azure.resourcemanager.authorization.GraphRbacManagementClient)"
 methods:
-- com.azure.resourcemanager.authorization.fluent.DomainsClient.get(java.lang.String)
-- com.azure.resourcemanager.authorization.fluent.DomainsClient.get(java.lang.String,com.azure.core.util.Context)
-- com.azure.resourcemanager.authorization.fluent.DomainsClient.getAsync(java.lang.String)
-- com.azure.resourcemanager.authorization.fluent.DomainsClient.getAsync(java.lang.String,com.azure.core.util.Context)
-- com.azure.resourcemanager.authorization.fluent.DomainsClient.getWithResponseAsync(java.lang.String)
-- com.azure.resourcemanager.authorization.fluent.DomainsClient.getWithResponseAsync(java.lang.String,com.azure.core.util.Context)
-- com.azure.resourcemanager.authorization.fluent.DomainsClient.list()
-- com.azure.resourcemanager.authorization.fluent.DomainsClient.list(java.lang.String)
-- com.azure.resourcemanager.authorization.fluent.DomainsClient.list(java.lang.String,com.azure.core.util.Context)
-- com.azure.resourcemanager.authorization.fluent.DomainsClient.listAsync()
-- com.azure.resourcemanager.authorization.fluent.DomainsClient.listAsync(java.lang.String)
-- com.azure.resourcemanager.authorization.fluent.DomainsClient.listAsync(java.lang.String,com.azure.core.util.Context)
-- com.azure.resourcemanager.authorization.fluent.DomainsClient.listSinglePageAsync(java.lang.String)
-- com.azure.resourcemanager.authorization.fluent.DomainsClient.listSinglePageAsync(java.lang.String,com.azure.core.util.Context)
-type: class
+- "com.azure.resourcemanager.authorization.fluent.DomainsClient.get(java.lang.String)"
+- "com.azure.resourcemanager.authorization.fluent.DomainsClient.get(java.lang.String,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.authorization.fluent.DomainsClient.getAsync(java.lang.String)"
+- "com.azure.resourcemanager.authorization.fluent.DomainsClient.getAsync(java.lang.String,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.authorization.fluent.DomainsClient.getWithResponseAsync(java.lang.String)"
+- "com.azure.resourcemanager.authorization.fluent.DomainsClient.getWithResponseAsync(java.lang.String,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.authorization.fluent.DomainsClient.list()"
+- "com.azure.resourcemanager.authorization.fluent.DomainsClient.list(java.lang.String)"
+- "com.azure.resourcemanager.authorization.fluent.DomainsClient.list(java.lang.String,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.authorization.fluent.DomainsClient.listAsync()"
+- "com.azure.resourcemanager.authorization.fluent.DomainsClient.listAsync(java.lang.String)"
+- "com.azure.resourcemanager.authorization.fluent.DomainsClient.listAsync(java.lang.String,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.authorization.fluent.DomainsClient.listSinglePageAsync(java.lang.String)"
+- "com.azure.resourcemanager.authorization.fluent.DomainsClient.listSinglePageAsync(java.lang.String,com.azure.core.util.Context)"
+type: "class"
 metadata: {}
-package: com.azure.resourcemanager.authorization.fluent
+package: "com.azure.resourcemanager.authorization.fluent"
 artifact: com.azure.resourcemanager:azure-resourcemanager-authorization:2.0.0-beta.2

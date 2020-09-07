@@ -1,50 +1,50 @@
 ### YamlMime:JavaType
-uid: com.azure.resourcemanager.compute.fluent.inner.VirtualMachineImageInner
-fullName: com.azure.resourcemanager.compute.fluent.inner.VirtualMachineImageInner
-name: VirtualMachineImageInner
-nameWithType: VirtualMachineImageInner
-summary: The VirtualMachineImage model.
+uid: "com.azure.resourcemanager.compute.fluent.inner.VirtualMachineImageInner"
+fullName: "com.azure.resourcemanager.compute.fluent.inner.VirtualMachineImageInner"
+name: "VirtualMachineImageInner"
+nameWithType: "VirtualMachineImageInner"
+summary: "The VirtualMachineImage model."
 inheritances:
-- <xref href="java.lang.Object" data-throw-if-not-resolved="False" />
-- <xref href="com.azure.core.management.SubResource" data-throw-if-not-resolved="False" />
-- <xref href="com.azure.resourcemanager.compute.fluent.inner.VirtualMachineImageResourceInner" data-throw-if-not-resolved="False" />
+- "<xref href=\"java.lang.Object\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.azure.core.management.SubResource\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.azure.resourcemanager.compute.fluent.inner.VirtualMachineImageResourceInner\" data-throw-if-not-resolved=\"False\" />"
 inheritedMembers:
-- com.azure.core.management.SubResource.id()
-- com.azure.core.management.SubResource.withId(java.lang.String)
-- com.azure.resourcemanager.compute.fluent.inner.VirtualMachineImageResourceInner.location()
-- com.azure.resourcemanager.compute.fluent.inner.VirtualMachineImageResourceInner.name()
-- com.azure.resourcemanager.compute.fluent.inner.VirtualMachineImageResourceInner.tags()
-- com.azure.resourcemanager.compute.fluent.inner.VirtualMachineImageResourceInner.validate()
-- com.azure.resourcemanager.compute.fluent.inner.VirtualMachineImageResourceInner.withLocation(java.lang.String)
-- com.azure.resourcemanager.compute.fluent.inner.VirtualMachineImageResourceInner.withName(java.lang.String)
-- com.azure.resourcemanager.compute.fluent.inner.VirtualMachineImageResourceInner.withTags(java.util.Map<java.lang.String,java.lang.String>)
-- java.lang.Object.clone()
-- java.lang.Object.equals(java.lang.Object)
-- java.lang.Object.finalize()
-- java.lang.Object.getClass()
-- java.lang.Object.hashCode()
-- java.lang.Object.notify()
-- java.lang.Object.notifyAll()
-- java.lang.Object.toString()
-- java.lang.Object.wait()
-- java.lang.Object.wait(long)
-- java.lang.Object.wait(long,int)
-syntax: public class VirtualMachineImageInner extends VirtualMachineImageResourceInner
+- "com.azure.core.management.SubResource.id()"
+- "com.azure.core.management.SubResource.withId(java.lang.String)"
+- "com.azure.resourcemanager.compute.fluent.inner.VirtualMachineImageResourceInner.location()"
+- "com.azure.resourcemanager.compute.fluent.inner.VirtualMachineImageResourceInner.name()"
+- "com.azure.resourcemanager.compute.fluent.inner.VirtualMachineImageResourceInner.tags()"
+- "com.azure.resourcemanager.compute.fluent.inner.VirtualMachineImageResourceInner.validate()"
+- "com.azure.resourcemanager.compute.fluent.inner.VirtualMachineImageResourceInner.withLocation(java.lang.String)"
+- "com.azure.resourcemanager.compute.fluent.inner.VirtualMachineImageResourceInner.withName(java.lang.String)"
+- "com.azure.resourcemanager.compute.fluent.inner.VirtualMachineImageResourceInner.withTags(java.util.Map<java.lang.String,java.lang.String>)"
+- "java.lang.Object.clone()"
+- "java.lang.Object.equals(java.lang.Object)"
+- "java.lang.Object.finalize()"
+- "java.lang.Object.getClass()"
+- "java.lang.Object.hashCode()"
+- "java.lang.Object.notify()"
+- "java.lang.Object.notifyAll()"
+- "java.lang.Object.toString()"
+- "java.lang.Object.wait()"
+- "java.lang.Object.wait(long)"
+- "java.lang.Object.wait(long,int)"
+syntax: "public class VirtualMachineImageInner extends VirtualMachineImageResourceInner"
 constructors:
-- com.azure.resourcemanager.compute.fluent.inner.VirtualMachineImageInner.VirtualMachineImageInner()
+- "com.azure.resourcemanager.compute.fluent.inner.VirtualMachineImageInner.VirtualMachineImageInner()"
 methods:
-- com.azure.resourcemanager.compute.fluent.inner.VirtualMachineImageInner.automaticOSUpgradeProperties()
-- com.azure.resourcemanager.compute.fluent.inner.VirtualMachineImageInner.dataDiskImages()
-- com.azure.resourcemanager.compute.fluent.inner.VirtualMachineImageInner.hyperVGeneration()
-- com.azure.resourcemanager.compute.fluent.inner.VirtualMachineImageInner.osDiskImage()
-- com.azure.resourcemanager.compute.fluent.inner.VirtualMachineImageInner.plan()
-- com.azure.resourcemanager.compute.fluent.inner.VirtualMachineImageInner.validate()
-- com.azure.resourcemanager.compute.fluent.inner.VirtualMachineImageInner.withAutomaticOSUpgradeProperties(com.azure.resourcemanager.compute.models.AutomaticOSUpgradeProperties)
-- com.azure.resourcemanager.compute.fluent.inner.VirtualMachineImageInner.withDataDiskImages(java.util.List<com.azure.resourcemanager.compute.models.DataDiskImage>)
-- com.azure.resourcemanager.compute.fluent.inner.VirtualMachineImageInner.withHyperVGeneration(com.azure.resourcemanager.compute.models.HyperVGenerationTypes)
-- com.azure.resourcemanager.compute.fluent.inner.VirtualMachineImageInner.withOsDiskImage(com.azure.resourcemanager.compute.models.OSDiskImage)
-- com.azure.resourcemanager.compute.fluent.inner.VirtualMachineImageInner.withPlan(com.azure.resourcemanager.compute.models.PurchasePlan)
-type: class
+- "com.azure.resourcemanager.compute.fluent.inner.VirtualMachineImageInner.automaticOSUpgradeProperties()"
+- "com.azure.resourcemanager.compute.fluent.inner.VirtualMachineImageInner.dataDiskImages()"
+- "com.azure.resourcemanager.compute.fluent.inner.VirtualMachineImageInner.hyperVGeneration()"
+- "com.azure.resourcemanager.compute.fluent.inner.VirtualMachineImageInner.osDiskImage()"
+- "com.azure.resourcemanager.compute.fluent.inner.VirtualMachineImageInner.plan()"
+- "com.azure.resourcemanager.compute.fluent.inner.VirtualMachineImageInner.validate()"
+- "com.azure.resourcemanager.compute.fluent.inner.VirtualMachineImageInner.withAutomaticOSUpgradeProperties(com.azure.resourcemanager.compute.models.AutomaticOSUpgradeProperties)"
+- "com.azure.resourcemanager.compute.fluent.inner.VirtualMachineImageInner.withDataDiskImages(java.util.List<com.azure.resourcemanager.compute.models.DataDiskImage>)"
+- "com.azure.resourcemanager.compute.fluent.inner.VirtualMachineImageInner.withHyperVGeneration(com.azure.resourcemanager.compute.models.HyperVGenerationTypes)"
+- "com.azure.resourcemanager.compute.fluent.inner.VirtualMachineImageInner.withOsDiskImage(com.azure.resourcemanager.compute.models.OSDiskImage)"
+- "com.azure.resourcemanager.compute.fluent.inner.VirtualMachineImageInner.withPlan(com.azure.resourcemanager.compute.models.PurchasePlan)"
+type: "class"
 metadata: {}
-package: com.azure.resourcemanager.compute.fluent.inner
+package: "com.azure.resourcemanager.compute.fluent.inner"
 artifact: com.azure.resourcemanager:azure-resourcemanager-compute:2.0.0-beta.2

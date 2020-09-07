@@ -1,47 +1,47 @@
 ### YamlMime:JavaType
-uid: com.azure.resourcemanager.resources.fluent.inner.PolicyDefinitionInner
-fullName: com.azure.resourcemanager.resources.fluent.inner.PolicyDefinitionInner
-name: PolicyDefinitionInner
-nameWithType: PolicyDefinitionInner
-summary: The PolicyDefinition model.
+uid: "com.azure.resourcemanager.resources.fluent.inner.PolicyDefinitionInner"
+fullName: "com.azure.resourcemanager.resources.fluent.inner.PolicyDefinitionInner"
+name: "PolicyDefinitionInner"
+nameWithType: "PolicyDefinitionInner"
+summary: "The PolicyDefinition model."
 inheritances:
-- <xref href="java.lang.Object" data-throw-if-not-resolved="False" />
-- <xref href="com.azure.core.management.ProxyResource" data-throw-if-not-resolved="False" />
+- "<xref href=\"java.lang.Object\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.azure.core.management.ProxyResource\" data-throw-if-not-resolved=\"False\" />"
 inheritedMembers:
-- com.azure.core.management.ProxyResource.id()
-- com.azure.core.management.ProxyResource.name()
-- com.azure.core.management.ProxyResource.type()
-- java.lang.Object.clone()
-- java.lang.Object.equals(java.lang.Object)
-- java.lang.Object.finalize()
-- java.lang.Object.getClass()
-- java.lang.Object.hashCode()
-- java.lang.Object.notify()
-- java.lang.Object.notifyAll()
-- java.lang.Object.toString()
-- java.lang.Object.wait()
-- java.lang.Object.wait(long)
-- java.lang.Object.wait(long,int)
-syntax: public class PolicyDefinitionInner extends ProxyResource
+- "com.azure.core.management.ProxyResource.id()"
+- "com.azure.core.management.ProxyResource.name()"
+- "com.azure.core.management.ProxyResource.type()"
+- "java.lang.Object.clone()"
+- "java.lang.Object.equals(java.lang.Object)"
+- "java.lang.Object.finalize()"
+- "java.lang.Object.getClass()"
+- "java.lang.Object.hashCode()"
+- "java.lang.Object.notify()"
+- "java.lang.Object.notifyAll()"
+- "java.lang.Object.toString()"
+- "java.lang.Object.wait()"
+- "java.lang.Object.wait(long)"
+- "java.lang.Object.wait(long,int)"
+syntax: "public class PolicyDefinitionInner extends ProxyResource"
 constructors:
-- com.azure.resourcemanager.resources.fluent.inner.PolicyDefinitionInner.PolicyDefinitionInner()
+- "com.azure.resourcemanager.resources.fluent.inner.PolicyDefinitionInner.PolicyDefinitionInner()"
 methods:
-- com.azure.resourcemanager.resources.fluent.inner.PolicyDefinitionInner.description()
-- com.azure.resourcemanager.resources.fluent.inner.PolicyDefinitionInner.displayName()
-- com.azure.resourcemanager.resources.fluent.inner.PolicyDefinitionInner.metadata()
-- com.azure.resourcemanager.resources.fluent.inner.PolicyDefinitionInner.mode()
-- com.azure.resourcemanager.resources.fluent.inner.PolicyDefinitionInner.parameters()
-- com.azure.resourcemanager.resources.fluent.inner.PolicyDefinitionInner.policyRule()
-- com.azure.resourcemanager.resources.fluent.inner.PolicyDefinitionInner.policyType()
-- com.azure.resourcemanager.resources.fluent.inner.PolicyDefinitionInner.validate()
-- com.azure.resourcemanager.resources.fluent.inner.PolicyDefinitionInner.withDescription(java.lang.String)
-- com.azure.resourcemanager.resources.fluent.inner.PolicyDefinitionInner.withDisplayName(java.lang.String)
-- com.azure.resourcemanager.resources.fluent.inner.PolicyDefinitionInner.withMetadata(java.lang.Object)
-- com.azure.resourcemanager.resources.fluent.inner.PolicyDefinitionInner.withMode(java.lang.String)
-- com.azure.resourcemanager.resources.fluent.inner.PolicyDefinitionInner.withParameters(java.util.Map<java.lang.String,com.azure.resourcemanager.resources.models.ParameterDefinitionsValue>)
-- com.azure.resourcemanager.resources.fluent.inner.PolicyDefinitionInner.withPolicyRule(java.lang.Object)
-- com.azure.resourcemanager.resources.fluent.inner.PolicyDefinitionInner.withPolicyType(com.azure.resourcemanager.resources.models.PolicyType)
-type: class
+- "com.azure.resourcemanager.resources.fluent.inner.PolicyDefinitionInner.description()"
+- "com.azure.resourcemanager.resources.fluent.inner.PolicyDefinitionInner.displayName()"
+- "com.azure.resourcemanager.resources.fluent.inner.PolicyDefinitionInner.metadata()"
+- "com.azure.resourcemanager.resources.fluent.inner.PolicyDefinitionInner.mode()"
+- "com.azure.resourcemanager.resources.fluent.inner.PolicyDefinitionInner.parameters()"
+- "com.azure.resourcemanager.resources.fluent.inner.PolicyDefinitionInner.policyRule()"
+- "com.azure.resourcemanager.resources.fluent.inner.PolicyDefinitionInner.policyType()"
+- "com.azure.resourcemanager.resources.fluent.inner.PolicyDefinitionInner.validate()"
+- "com.azure.resourcemanager.resources.fluent.inner.PolicyDefinitionInner.withDescription(java.lang.String)"
+- "com.azure.resourcemanager.resources.fluent.inner.PolicyDefinitionInner.withDisplayName(java.lang.String)"
+- "com.azure.resourcemanager.resources.fluent.inner.PolicyDefinitionInner.withMetadata(java.lang.Object)"
+- "com.azure.resourcemanager.resources.fluent.inner.PolicyDefinitionInner.withMode(java.lang.String)"
+- "com.azure.resourcemanager.resources.fluent.inner.PolicyDefinitionInner.withParameters(java.util.Map<java.lang.String,com.azure.resourcemanager.resources.models.ParameterDefinitionsValue>)"
+- "com.azure.resourcemanager.resources.fluent.inner.PolicyDefinitionInner.withPolicyRule(java.lang.Object)"
+- "com.azure.resourcemanager.resources.fluent.inner.PolicyDefinitionInner.withPolicyType(com.azure.resourcemanager.resources.models.PolicyType)"
+type: "class"
 metadata: {}
-package: com.azure.resourcemanager.resources.fluent.inner
+package: "com.azure.resourcemanager.resources.fluent.inner"
 artifact: com.azure.resourcemanager:azure-resourcemanager-resources:2.0.0-beta.2

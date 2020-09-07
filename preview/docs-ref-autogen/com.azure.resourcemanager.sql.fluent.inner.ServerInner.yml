@@ -1,54 +1,54 @@
 ### YamlMime:JavaType
-uid: com.azure.resourcemanager.sql.fluent.inner.ServerInner
-fullName: com.azure.resourcemanager.sql.fluent.inner.ServerInner
-name: ServerInner
-nameWithType: ServerInner
-summary: The Server model.
+uid: "com.azure.resourcemanager.sql.fluent.inner.ServerInner"
+fullName: "com.azure.resourcemanager.sql.fluent.inner.ServerInner"
+name: "ServerInner"
+nameWithType: "ServerInner"
+summary: "The Server model."
 inheritances:
-- <xref href="java.lang.Object" data-throw-if-not-resolved="False" />
-- <xref href="com.azure.core.management.ProxyResource" data-throw-if-not-resolved="False" />
-- <xref href="com.azure.core.management.Resource" data-throw-if-not-resolved="False" />
+- "<xref href=\"java.lang.Object\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.azure.core.management.ProxyResource\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.azure.core.management.Resource\" data-throw-if-not-resolved=\"False\" />"
 inheritedMembers:
-- com.azure.core.management.ProxyResource.id()
-- com.azure.core.management.ProxyResource.name()
-- com.azure.core.management.ProxyResource.type()
-- com.azure.core.management.Resource.location()
-- com.azure.core.management.Resource.tags()
-- com.azure.core.management.Resource.withLocation(java.lang.String)
-- com.azure.core.management.Resource.withTags(java.util.Map<java.lang.String,java.lang.String>)
-- java.lang.Object.clone()
-- java.lang.Object.equals(java.lang.Object)
-- java.lang.Object.finalize()
-- java.lang.Object.getClass()
-- java.lang.Object.hashCode()
-- java.lang.Object.notify()
-- java.lang.Object.notifyAll()
-- java.lang.Object.toString()
-- java.lang.Object.wait()
-- java.lang.Object.wait(long)
-- java.lang.Object.wait(long,int)
-syntax: public class ServerInner extends Resource
+- "com.azure.core.management.ProxyResource.id()"
+- "com.azure.core.management.ProxyResource.name()"
+- "com.azure.core.management.ProxyResource.type()"
+- "com.azure.core.management.Resource.location()"
+- "com.azure.core.management.Resource.tags()"
+- "com.azure.core.management.Resource.withLocation(java.lang.String)"
+- "com.azure.core.management.Resource.withTags(java.util.Map<java.lang.String,java.lang.String>)"
+- "java.lang.Object.clone()"
+- "java.lang.Object.equals(java.lang.Object)"
+- "java.lang.Object.finalize()"
+- "java.lang.Object.getClass()"
+- "java.lang.Object.hashCode()"
+- "java.lang.Object.notify()"
+- "java.lang.Object.notifyAll()"
+- "java.lang.Object.toString()"
+- "java.lang.Object.wait()"
+- "java.lang.Object.wait(long)"
+- "java.lang.Object.wait(long,int)"
+syntax: "public class ServerInner extends Resource"
 constructors:
-- com.azure.resourcemanager.sql.fluent.inner.ServerInner.ServerInner()
+- "com.azure.resourcemanager.sql.fluent.inner.ServerInner.ServerInner()"
 methods:
-- com.azure.resourcemanager.sql.fluent.inner.ServerInner.administratorLogin()
-- com.azure.resourcemanager.sql.fluent.inner.ServerInner.administratorLoginPassword()
-- com.azure.resourcemanager.sql.fluent.inner.ServerInner.fullyQualifiedDomainName()
-- com.azure.resourcemanager.sql.fluent.inner.ServerInner.identity()
-- com.azure.resourcemanager.sql.fluent.inner.ServerInner.kind()
-- com.azure.resourcemanager.sql.fluent.inner.ServerInner.minimalTlsVersion()
-- com.azure.resourcemanager.sql.fluent.inner.ServerInner.privateEndpointConnections()
-- com.azure.resourcemanager.sql.fluent.inner.ServerInner.publicNetworkAccess()
-- com.azure.resourcemanager.sql.fluent.inner.ServerInner.state()
-- com.azure.resourcemanager.sql.fluent.inner.ServerInner.validate()
-- com.azure.resourcemanager.sql.fluent.inner.ServerInner.version()
-- com.azure.resourcemanager.sql.fluent.inner.ServerInner.withAdministratorLogin(java.lang.String)
-- com.azure.resourcemanager.sql.fluent.inner.ServerInner.withAdministratorLoginPassword(java.lang.String)
-- com.azure.resourcemanager.sql.fluent.inner.ServerInner.withIdentity(com.azure.resourcemanager.sql.models.ResourceIdentity)
-- com.azure.resourcemanager.sql.fluent.inner.ServerInner.withMinimalTlsVersion(java.lang.String)
-- com.azure.resourcemanager.sql.fluent.inner.ServerInner.withPublicNetworkAccess(com.azure.resourcemanager.sql.models.ServerPublicNetworkAccess)
-- com.azure.resourcemanager.sql.fluent.inner.ServerInner.withVersion(java.lang.String)
-type: class
+- "com.azure.resourcemanager.sql.fluent.inner.ServerInner.administratorLogin()"
+- "com.azure.resourcemanager.sql.fluent.inner.ServerInner.administratorLoginPassword()"
+- "com.azure.resourcemanager.sql.fluent.inner.ServerInner.fullyQualifiedDomainName()"
+- "com.azure.resourcemanager.sql.fluent.inner.ServerInner.identity()"
+- "com.azure.resourcemanager.sql.fluent.inner.ServerInner.kind()"
+- "com.azure.resourcemanager.sql.fluent.inner.ServerInner.minimalTlsVersion()"
+- "com.azure.resourcemanager.sql.fluent.inner.ServerInner.privateEndpointConnections()"
+- "com.azure.resourcemanager.sql.fluent.inner.ServerInner.publicNetworkAccess()"
+- "com.azure.resourcemanager.sql.fluent.inner.ServerInner.state()"
+- "com.azure.resourcemanager.sql.fluent.inner.ServerInner.validate()"
+- "com.azure.resourcemanager.sql.fluent.inner.ServerInner.version()"
+- "com.azure.resourcemanager.sql.fluent.inner.ServerInner.withAdministratorLogin(java.lang.String)"
+- "com.azure.resourcemanager.sql.fluent.inner.ServerInner.withAdministratorLoginPassword(java.lang.String)"
+- "com.azure.resourcemanager.sql.fluent.inner.ServerInner.withIdentity(com.azure.resourcemanager.sql.models.ResourceIdentity)"
+- "com.azure.resourcemanager.sql.fluent.inner.ServerInner.withMinimalTlsVersion(java.lang.String)"
+- "com.azure.resourcemanager.sql.fluent.inner.ServerInner.withPublicNetworkAccess(com.azure.resourcemanager.sql.models.ServerPublicNetworkAccess)"
+- "com.azure.resourcemanager.sql.fluent.inner.ServerInner.withVersion(java.lang.String)"
+type: "class"
 metadata: {}
-package: com.azure.resourcemanager.sql.fluent.inner
+package: "com.azure.resourcemanager.sql.fluent.inner"
 artifact: com.azure.resourcemanager:azure-resourcemanager-sql:2.0.0-beta.2

@@ -1,34 +1,34 @@
 ### YamlMime:JavaType
-uid: com.azure.messaging.servicebus.LockRenewalOperation
-fullName: com.azure.messaging.servicebus.LockRenewalOperation
-name: LockRenewalOperation
-nameWithType: LockRenewalOperation
-summary: Represents a renewal session or message lock renewal operation that.
+uid: "com.azure.messaging.servicebus.LockRenewalOperation"
+fullName: "com.azure.messaging.servicebus.LockRenewalOperation"
+name: "LockRenewalOperation"
+nameWithType: "LockRenewalOperation"
+summary: "Represents a renewal session or message lock renewal operation that."
 inheritances:
-- <xref href="java.lang.Object" data-throw-if-not-resolved="False" />
+- "<xref href=\"java.lang.Object\" data-throw-if-not-resolved=\"False\" />"
 inheritedMembers:
-- java.lang.Object.clone()
-- java.lang.Object.equals(java.lang.Object)
-- java.lang.Object.finalize()
-- java.lang.Object.getClass()
-- java.lang.Object.hashCode()
-- java.lang.Object.notify()
-- java.lang.Object.notifyAll()
-- java.lang.Object.toString()
-- java.lang.Object.wait()
-- java.lang.Object.wait(long)
-- java.lang.Object.wait(long,int)
-syntax: public class LockRenewalOperation implements AutoCloseable
+- "java.lang.Object.clone()"
+- "java.lang.Object.equals(java.lang.Object)"
+- "java.lang.Object.finalize()"
+- "java.lang.Object.getClass()"
+- "java.lang.Object.hashCode()"
+- "java.lang.Object.notify()"
+- "java.lang.Object.notifyAll()"
+- "java.lang.Object.toString()"
+- "java.lang.Object.wait()"
+- "java.lang.Object.wait(long)"
+- "java.lang.Object.wait(long,int)"
+syntax: "public class LockRenewalOperation implements AutoCloseable"
 methods:
-- com.azure.messaging.servicebus.LockRenewalOperation.close()
-- com.azure.messaging.servicebus.LockRenewalOperation.getLockToken()
-- com.azure.messaging.servicebus.LockRenewalOperation.getLockedUntil()
-- com.azure.messaging.servicebus.LockRenewalOperation.getSessionId()
-- com.azure.messaging.servicebus.LockRenewalOperation.getStatus()
-- com.azure.messaging.servicebus.LockRenewalOperation.getThrowable()
-type: class
+- "com.azure.messaging.servicebus.LockRenewalOperation.close()"
+- "com.azure.messaging.servicebus.LockRenewalOperation.getLockToken()"
+- "com.azure.messaging.servicebus.LockRenewalOperation.getLockedUntil()"
+- "com.azure.messaging.servicebus.LockRenewalOperation.getSessionId()"
+- "com.azure.messaging.servicebus.LockRenewalOperation.getStatus()"
+- "com.azure.messaging.servicebus.LockRenewalOperation.getThrowable()"
+type: "class"
 implements:
-- <xref href="java.lang.AutoCloseable?alt=java.lang.AutoCloseable&text=AutoCloseable" data-throw-if-not-resolved="False" />
+- "<xref href=\"java.lang.AutoCloseable?alt=java.lang.AutoCloseable&text=AutoCloseable\" data-throw-if-not-resolved=\"False\" />"
 metadata: {}
-package: com.azure.messaging.servicebus
+package: "com.azure.messaging.servicebus"
 artifact: com.azure:azure-messaging-servicebus:7.0.0-beta.5

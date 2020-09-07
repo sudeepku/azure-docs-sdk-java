@@ -1,12 +1,12 @@
 ### YamlMime:JavaPackage
-uid: com.azure.cosmos.implementation.changefeed.implementation
-fullName: com.azure.cosmos.implementation.changefeed.implementation
-name: com.azure.cosmos.implementation.changefeed.implementation
+uid: "com.azure.cosmos.implementation.changefeed.implementation"
+fullName: "com.azure.cosmos.implementation.changefeed.implementation"
+name: "com.azure.cosmos.implementation.changefeed.implementation"
 classes:
-- com.azure.cosmos.implementation.changefeed.implementation.ChangeFeedContextClientImpl
-- com.azure.cosmos.implementation.changefeed.implementation.ChangeFeedObserverFactoryImpl
-- com.azure.cosmos.implementation.changefeed.implementation.ChangeFeedProcessorBuilderImpl
-- com.azure.cosmos.implementation.changefeed.implementation.LeaseStoreManagerImpl
+- "com.azure.cosmos.implementation.changefeed.implementation.ChangeFeedContextClientImpl"
+- "com.azure.cosmos.implementation.changefeed.implementation.ChangeFeedObserverFactoryImpl"
+- "com.azure.cosmos.implementation.changefeed.implementation.ChangeFeedProcessorBuilderImpl"
+- "com.azure.cosmos.implementation.changefeed.implementation.LeaseStoreManagerImpl"
 metadata: {}
-package: com.azure.cosmos.implementation.changefeed.implementation
+package: "com.azure.cosmos.implementation.changefeed.implementation"
 artifact: com.azure:azure-cosmos:4.3.2-beta.2

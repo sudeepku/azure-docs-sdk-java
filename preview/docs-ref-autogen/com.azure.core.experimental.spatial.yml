@@ -1,19 +1,19 @@
 ### YamlMime:JavaPackage
-uid: com.azure.core.experimental.spatial
-fullName: com.azure.core.experimental.spatial
-name: com.azure.core.experimental.spatial
-summary: Package containing GeoJSON classes.
+uid: "com.azure.core.experimental.spatial"
+fullName: "com.azure.core.experimental.spatial"
+name: "com.azure.core.experimental.spatial"
+summary: "Package containing GeoJSON classes."
 classes:
-- com.azure.core.experimental.spatial.CollectionGeometry
-- com.azure.core.experimental.spatial.Geometry
-- com.azure.core.experimental.spatial.GeometryBoundingBox
-- com.azure.core.experimental.spatial.GeometryPosition
-- com.azure.core.experimental.spatial.LineGeometry
-- com.azure.core.experimental.spatial.MultiLineGeometry
-- com.azure.core.experimental.spatial.MultiPointGeometry
-- com.azure.core.experimental.spatial.MultiPolygonGeometry
-- com.azure.core.experimental.spatial.PointGeometry
-- com.azure.core.experimental.spatial.PolygonGeometry
+- "com.azure.core.experimental.spatial.CollectionGeometry"
+- "com.azure.core.experimental.spatial.Geometry"
+- "com.azure.core.experimental.spatial.GeometryBoundingBox"
+- "com.azure.core.experimental.spatial.GeometryPosition"
+- "com.azure.core.experimental.spatial.LineGeometry"
+- "com.azure.core.experimental.spatial.MultiLineGeometry"
+- "com.azure.core.experimental.spatial.MultiPointGeometry"
+- "com.azure.core.experimental.spatial.MultiPolygonGeometry"
+- "com.azure.core.experimental.spatial.PointGeometry"
+- "com.azure.core.experimental.spatial.PolygonGeometry"
 metadata: {}
-package: com.azure.core.experimental.spatial
+package: "com.azure.core.experimental.spatial"
 artifact: com.azure:azure-core-experimental:1.0.0-beta.2

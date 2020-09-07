@@ -1,60 +1,60 @@
 ### YamlMime:JavaEnum
-uid: com.microsoft.azure.sdk.iot.device.transport.IotHubConnectionStatus
-fullName: com.microsoft.azure.sdk.iot.device.transport.IotHubConnectionStatus
-name: IotHubConnectionStatus
-nameWithType: IotHubConnectionStatus
+uid: "com.microsoft.azure.sdk.iot.device.transport.IotHubConnectionStatus"
+fullName: "com.microsoft.azure.sdk.iot.device.transport.IotHubConnectionStatus"
+name: "IotHubConnectionStatus"
+nameWithType: "IotHubConnectionStatus"
 inheritances:
-- <xref href="java.lang.Object" data-throw-if-not-resolved="False" />
-- <xref href="java.lang.Enum" data-throw-if-not-resolved="False" />
+- "<xref href=\"java.lang.Object\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"java.lang.Enum\" data-throw-if-not-resolved=\"False\" />"
 inheritedMembers:
-- java.lang.Enum.<T>valueOf(java.lang.Class<T>,java.lang.String)
-- java.lang.Enum.clone()
-- java.lang.Enum.compareTo(E)
-- java.lang.Enum.equals(java.lang.Object)
-- java.lang.Enum.finalize()
-- java.lang.Enum.getDeclaringClass()
-- java.lang.Enum.hashCode()
-- java.lang.Enum.name()
-- java.lang.Enum.ordinal()
-- java.lang.Enum.toString()
-- java.lang.Object.getClass()
-- java.lang.Object.notify()
-- java.lang.Object.notifyAll()
-- java.lang.Object.wait()
-- java.lang.Object.wait(long)
-- java.lang.Object.wait(long,int)
-syntax: public enum IotHubConnectionStatus extends Enum<IotHubConnectionStatus>
+- "java.lang.Enum.<T>valueOf(java.lang.Class<T>,java.lang.String)"
+- "java.lang.Enum.clone()"
+- "java.lang.Enum.compareTo(E)"
+- "java.lang.Enum.equals(java.lang.Object)"
+- "java.lang.Enum.finalize()"
+- "java.lang.Enum.getDeclaringClass()"
+- "java.lang.Enum.hashCode()"
+- "java.lang.Enum.name()"
+- "java.lang.Enum.ordinal()"
+- "java.lang.Enum.toString()"
+- "java.lang.Object.getClass()"
+- "java.lang.Object.notify()"
+- "java.lang.Object.notifyAll()"
+- "java.lang.Object.wait()"
+- "java.lang.Object.wait(long)"
+- "java.lang.Object.wait(long,int)"
+syntax: "public enum IotHubConnectionStatus extends Enum<IotHubConnectionStatus>"
 fields:
-- uid: com.microsoft.azure.sdk.iot.device.transport.IotHubConnectionStatus.CONNECTED
-  fullName: com.microsoft.azure.sdk.iot.device.transport.IotHubConnectionStatus.CONNECTED
-  name: CONNECTED
-  nameWithType: IotHubConnectionStatus.CONNECTED
-- uid: com.microsoft.azure.sdk.iot.device.transport.IotHubConnectionStatus.DISCONNECTED
-  fullName: com.microsoft.azure.sdk.iot.device.transport.IotHubConnectionStatus.DISCONNECTED
-  name: DISCONNECTED
-  nameWithType: IotHubConnectionStatus.DISCONNECTED
-- uid: com.microsoft.azure.sdk.iot.device.transport.IotHubConnectionStatus.DISCONNECTED_RETRYING
-  fullName: com.microsoft.azure.sdk.iot.device.transport.IotHubConnectionStatus.DISCONNECTED_RETRYING
-  name: DISCONNECTED_RETRYING
-  nameWithType: IotHubConnectionStatus.DISCONNECTED_RETRYING
+- uid: "com.microsoft.azure.sdk.iot.device.transport.IotHubConnectionStatus.CONNECTED"
+  fullName: "com.microsoft.azure.sdk.iot.device.transport.IotHubConnectionStatus.CONNECTED"
+  name: "CONNECTED"
+  nameWithType: "IotHubConnectionStatus.CONNECTED"
+- uid: "com.microsoft.azure.sdk.iot.device.transport.IotHubConnectionStatus.DISCONNECTED"
+  fullName: "com.microsoft.azure.sdk.iot.device.transport.IotHubConnectionStatus.DISCONNECTED"
+  name: "DISCONNECTED"
+  nameWithType: "IotHubConnectionStatus.DISCONNECTED"
+- uid: "com.microsoft.azure.sdk.iot.device.transport.IotHubConnectionStatus.DISCONNECTED_RETRYING"
+  fullName: "com.microsoft.azure.sdk.iot.device.transport.IotHubConnectionStatus.DISCONNECTED_RETRYING"
+  name: "DISCONNECTED_RETRYING"
+  nameWithType: "IotHubConnectionStatus.DISCONNECTED_RETRYING"
 methods:
-- uid: com.microsoft.azure.sdk.iot.device.transport.IotHubConnectionStatus.valueOf(java.lang.String)
-  fullName: com.microsoft.azure.sdk.iot.device.transport.IotHubConnectionStatus.valueOf(String name)
-  name: valueOf(String name)
-  nameWithType: IotHubConnectionStatus.valueOf(String name)
+- uid: "com.microsoft.azure.sdk.iot.device.transport.IotHubConnectionStatus.valueOf(java.lang.String)"
+  fullName: "com.microsoft.azure.sdk.iot.device.transport.IotHubConnectionStatus.valueOf(String name)"
+  name: "valueOf(String name)"
+  nameWithType: "IotHubConnectionStatus.valueOf(String name)"
   parameters:
-  - name: name
-    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
-  syntax: public static IotHubConnectionStatus valueOf(String name)
+  - name: "name"
+    type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public static IotHubConnectionStatus valueOf(String name)"
   returns:
-    type: <xref href="com.microsoft.azure.sdk.iot.device.transport.IotHubConnectionStatus?alt=com.microsoft.azure.sdk.iot.device.transport.IotHubConnectionStatus&text=IotHubConnectionStatus" data-throw-if-not-resolved="False" />
-- uid: com.microsoft.azure.sdk.iot.device.transport.IotHubConnectionStatus.values()
-  fullName: com.microsoft.azure.sdk.iot.device.transport.IotHubConnectionStatus.values()
-  name: values()
-  nameWithType: IotHubConnectionStatus.values()
-  syntax: public static IotHubConnectionStatus[] values()
+    type: "<xref href=\"com.microsoft.azure.sdk.iot.device.transport.IotHubConnectionStatus?alt=com.microsoft.azure.sdk.iot.device.transport.IotHubConnectionStatus&text=IotHubConnectionStatus\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.microsoft.azure.sdk.iot.device.transport.IotHubConnectionStatus.values()"
+  fullName: "com.microsoft.azure.sdk.iot.device.transport.IotHubConnectionStatus.values()"
+  name: "values()"
+  nameWithType: "IotHubConnectionStatus.values()"
+  syntax: "public static IotHubConnectionStatus[] values()"
   returns:
-    type: <xref href="com.microsoft.azure.sdk.iot.device.transport.IotHubConnectionStatus?alt=com.microsoft.azure.sdk.iot.device.transport.IotHubConnectionStatus&text=IotHubConnectionStatus" data-throw-if-not-resolved="False" />[]
+    type: "<xref href=\"com.microsoft.azure.sdk.iot.device.transport.IotHubConnectionStatus?alt=com.microsoft.azure.sdk.iot.device.transport.IotHubConnectionStatus&text=IotHubConnectionStatus\" data-throw-if-not-resolved=\"False\" />[]"
 metadata: {}
-package: com.microsoft.azure.sdk.iot.device.transport
+package: "com.microsoft.azure.sdk.iot.device.transport"
 artifact: com.microsoft.azure.sdk.iot:iot-device-client:1.24.0

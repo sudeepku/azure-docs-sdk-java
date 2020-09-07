@@ -1,26 +1,26 @@
 ### YamlMime:JavaMember
-uid: com.azure.core.util.Context.addData*
-fullName: com.azure.core.util.Context.addData
-name: addData
-nameWithType: Context.addData
+uid: "com.azure.core.util.Context.addData*"
+fullName: "com.azure.core.util.Context.addData"
+name: "addData"
+nameWithType: "Context.addData"
 members:
-- uid: com.azure.core.util.Context.addData(java.lang.Object,java.lang.Object)
-  fullName: com.azure.core.util.Context.addData(Object key, Object value)
-  name: addData(Object key, Object value)
-  nameWithType: Context.addData(Object key, Object value)
+- uid: "com.azure.core.util.Context.addData(java.lang.Object,java.lang.Object)"
+  fullName: "com.azure.core.util.Context.addData(Object key, Object value)"
+  name: "addData(Object key, Object value)"
+  nameWithType: "Context.addData(Object key, Object value)"
   summary: "Adds a new immutable <xref uid=\"Context\" data-throw-if-not-resolved=\"false\">Context</xref> object with the specified key-value pair to\n the existing <xref uid=\"Context\" data-throw-if-not-resolved=\"false\">Context</xref> chain.\n\n <p><strong>Code samples</strong></p>\n\n <pre>\n &#47;&#47; Users can send parent span information and pass additional metadata to attach to spans of the calling methods\n &#47;&#47; using the Context object\n final String hostNameValue = &quot;host-name-value&quot;;\n final String entityPathValue = &quot;entity-path-value&quot;;\n final String userParentSpan = &quot;user-parent-span&quot;;\n Context parentSpanContext = new Context&#40;PARENT_SPAN_KEY, userParentSpan&#41;;\n \n &#47;&#47; Add a new key value pair to the existing context object.\n Context updatedContext = parentSpanContext.addData&#40;HOST_NAME_KEY, hostNameValue&#41;\n     .addData&#40;ENTITY_PATH_KEY, entityPathValue&#41;;\n \n &#47;&#47; Both key values found on the same updated context object\n System.out.printf&#40;&quot;Hostname value: %s%n&quot;, updatedContext.getData&#40;HOST_NAME_KEY&#41;.get&#40;&#41;&#41;;\n System.out.printf&#40;&quot;Entity Path value: %s%n&quot;, updatedContext.getData&#40;ENTITY_PATH_KEY&#41;.get&#40;&#41;&#41;;\n </pre>"
   parameters:
-  - description: The key with which the specified value should be associated.
-    name: key
-    type: <xref href="java.lang.Object?alt=java.lang.Object&text=Object" data-throw-if-not-resolved="False" />
-  - description: The value to be associated with the specified key.
-    name: value
-    type: <xref href="java.lang.Object?alt=java.lang.Object&text=Object" data-throw-if-not-resolved="False" />
-  syntax: public Context addData(Object key, Object value)
+  - description: "The key with which the specified value should be associated."
+    name: "key"
+    type: "<xref href=\"java.lang.Object?alt=java.lang.Object&text=Object\" data-throw-if-not-resolved=\"False\" />"
+  - description: "The value to be associated with the specified key."
+    name: "value"
+    type: "<xref href=\"java.lang.Object?alt=java.lang.Object&text=Object\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public Context addData(Object key, Object value)"
   returns:
-    description: the new <xref uid="com.azure.core.util.Context" data-throw-if-not-resolved="false">Context</xref> object containing the specified pair added to the set of pairs.
-    type: <xref href="com.azure.core.util.Context?alt=com.azure.core.util.Context&text=Context" data-throw-if-not-resolved="False" />
-type: method
+    description: "the new <xref uid=\"com.azure.core.util.Context\" data-throw-if-not-resolved=\"false\">Context</xref> object containing the specified pair added to the set of pairs."
+    type: "<xref href=\"com.azure.core.util.Context?alt=com.azure.core.util.Context&text=Context\" data-throw-if-not-resolved=\"False\" />"
+type: "method"
 metadata: {}
-package: com.azure.core.util
+package: "com.azure.core.util"
 artifact: com.azure:azure-core:1.7.0

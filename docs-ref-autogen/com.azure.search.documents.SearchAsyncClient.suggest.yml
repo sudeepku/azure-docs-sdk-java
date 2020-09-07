@@ -1,84 +1,45 @@
 ### YamlMime:JavaMember
-uid: com.azure.search.documents.SearchAsyncClient.suggest*
-fullName: com.azure.search.documents.SearchAsyncClient.suggest
-name: suggest
-nameWithType: SearchAsyncClient.suggest
+uid: "com.azure.search.documents.SearchAsyncClient.suggest*"
+fullName: "com.azure.search.documents.SearchAsyncClient.suggest"
+name: "suggest"
+nameWithType: "SearchAsyncClient.suggest"
 members:
-- uid: com.azure.search.documents.SearchAsyncClient.suggest(java.lang.String,java.lang.String)
-  fullName: com.azure.search.documents.SearchAsyncClient.suggest(String searchText, String suggesterName)
-  name: suggest(String searchText, String suggesterName)
-  nameWithType: SearchAsyncClient.suggest(String searchText, String suggesterName)
-  summary: |-
-    Suggests documents in the index that match the given partial query.
-
-     <p><strong>Code Sample</strong></p>
-
-     <p> Suggest text from documents in service. </p>
-
-     <pre>
-     searchAsyncClient.suggest&#40;&quot;searchText&quot;, &quot;sg&quot;&#41;
-         .subscribe&#40;results -&gt; &#123;
-             for &#40;Map.Entry&lt;String, Object&gt; keyValuePair: results.getDocument&#40;SearchDocument.class&#41;.entrySet&#40;&#41;&#41; &#123;
-                 System.out.printf&#40;&quot;Document key %s, document value %s&quot;, keyValuePair.getKey&#40;&#41;,
-                     keyValuePair.getValue&#40;&#41;&#41;;
-             &#125;
-         &#125;&#41;;
-     </pre>
+- uid: "com.azure.search.documents.SearchAsyncClient.suggest(java.lang.String,java.lang.String)"
+  fullName: "com.azure.search.documents.SearchAsyncClient.suggest(String searchText, String suggesterName)"
+  name: "suggest(String searchText, String suggesterName)"
+  nameWithType: "SearchAsyncClient.suggest(String searchText, String suggesterName)"
+  summary: "Suggests documents in the index that match the given partial query.\n\n <p><strong>Code Sample</strong></p>\n\n <p> Suggest text from documents in service. </p>\n\n <pre>\n searchAsyncClient.suggest&#40;&quot;searchText&quot;, &quot;sg&quot;&#41;\n     .subscribe&#40;results -&gt; &#123;\n         for &#40;Map.Entry&lt;String, Object&gt; keyValuePair: results.getDocument&#40;SearchDocument.class&#41;.entrySet&#40;&#41;&#41; &#123;\n             System.out.printf&#40;&quot;Document key %s, document value %s&quot;, keyValuePair.getKey&#40;&#41;,\n                 keyValuePair.getValue&#40;&#41;&#41;;\n         &#125;\n     &#125;&#41;;\n </pre>"
   parameters:
-  - description: The search text on which to base suggestions
-    name: searchText
-    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
-  - description: |-
-      The name of the suggester as specified in the suggesters collection that's part of the index
-       definition
-    name: suggesterName
-    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
-  syntax: public SuggestPagedFlux suggest(String searchText, String suggesterName)
+  - description: "The search text on which to base suggestions"
+    name: "searchText"
+    type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
+  - description: "The name of the suggester as specified in the suggesters collection that's part of the index\n definition"
+    name: "suggesterName"
+    type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public SuggestPagedFlux suggest(String searchText, String suggesterName)"
   returns:
-    description: |-
-      A <xref uid="com.azure.search.documents.util.SuggestPagedFlux" data-throw-if-not-resolved="false">SuggestPagedFlux</xref> that iterates over <xref uid="com.azure.search.documents.models.SuggestResult" data-throw-if-not-resolved="false">SuggestResult</xref> objects and provides access to the
-       <xref uid="com.azure.search.documents.util.SuggestPagedResponse" data-throw-if-not-resolved="false">SuggestPagedResponse</xref> object for each page containing HTTP response and coverage information.
-    type: <xref href="com.azure.search.documents.util.SuggestPagedFlux?alt=com.azure.search.documents.util.SuggestPagedFlux&text=SuggestPagedFlux" data-throw-if-not-resolved="False" />
-- uid: com.azure.search.documents.SearchAsyncClient.suggest(java.lang.String,java.lang.String,com.azure.search.documents.models.SuggestOptions)
-  fullName: com.azure.search.documents.SearchAsyncClient.suggest(String searchText, String suggesterName, SuggestOptions suggestOptions)
-  name: suggest(String searchText, String suggesterName, SuggestOptions suggestOptions)
-  nameWithType: SearchAsyncClient.suggest(String searchText, String suggesterName, SuggestOptions suggestOptions)
-  summary: |-
-    Suggests documents in the index that match the given partial query.
-
-     <p><strong>Code Sample</strong></p>
-
-     <p> Suggest text from documents in service with option. </p>
-
-     <pre>
-     searchAsyncClient.suggest&#40;&quot;searchText&quot;, &quot;sg&quot;,
-         new SuggestOptions&#40;&#41;.setOrderBy&#40;&quot;hotelId desc&quot;&#41;&#41;
-         .subscribe&#40;results -&gt; &#123;
-             for &#40;Map.Entry&lt;String, Object&gt; keyValuePair: results.getDocument&#40;SearchDocument.class&#41;.entrySet&#40;&#41;&#41; &#123;
-                 System.out.printf&#40;&quot;Document key %s, document value %s&quot;, keyValuePair.getKey&#40;&#41;,
-                     keyValuePair.getValue&#40;&#41;&#41;;
-             &#125;
-         &#125;&#41;;
-     </pre>
+    description: "A <xref uid=\"com.azure.search.documents.util.SuggestPagedFlux\" data-throw-if-not-resolved=\"false\">SuggestPagedFlux</xref> that iterates over <xref uid=\"com.azure.search.documents.models.SuggestResult\" data-throw-if-not-resolved=\"false\">SuggestResult</xref> objects and provides access to the\n <xref uid=\"com.azure.search.documents.util.SuggestPagedResponse\" data-throw-if-not-resolved=\"false\">SuggestPagedResponse</xref> object for each page containing HTTP response and coverage information."
+    type: "<xref href=\"com.azure.search.documents.util.SuggestPagedFlux?alt=com.azure.search.documents.util.SuggestPagedFlux&text=SuggestPagedFlux\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.azure.search.documents.SearchAsyncClient.suggest(java.lang.String,java.lang.String,com.azure.search.documents.models.SuggestOptions)"
+  fullName: "com.azure.search.documents.SearchAsyncClient.suggest(String searchText, String suggesterName, SuggestOptions suggestOptions)"
+  name: "suggest(String searchText, String suggesterName, SuggestOptions suggestOptions)"
+  nameWithType: "SearchAsyncClient.suggest(String searchText, String suggesterName, SuggestOptions suggestOptions)"
+  summary: "Suggests documents in the index that match the given partial query.\n\n <p><strong>Code Sample</strong></p>\n\n <p> Suggest text from documents in service with option. </p>\n\n <pre>\n searchAsyncClient.suggest&#40;&quot;searchText&quot;, &quot;sg&quot;,\n     new SuggestOptions&#40;&#41;.setOrderBy&#40;&quot;hotelId desc&quot;&#41;&#41;\n     .subscribe&#40;results -&gt; &#123;\n         for &#40;Map.Entry&lt;String, Object&gt; keyValuePair: results.getDocument&#40;SearchDocument.class&#41;.entrySet&#40;&#41;&#41; &#123;\n             System.out.printf&#40;&quot;Document key %s, document value %s&quot;, keyValuePair.getKey&#40;&#41;,\n                 keyValuePair.getValue&#40;&#41;&#41;;\n         &#125;\n     &#125;&#41;;\n </pre>"
   parameters:
-  - description: The search text on which to base suggestions
-    name: searchText
-    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
-  - description: |-
-      The name of the suggester as specified in the suggesters collection that's part of the index
-       definition
-    name: suggesterName
-    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
-  - description: Parameters to further refine the suggestion query.
-    name: suggestOptions
-    type: <xref href="com.azure.search.documents.models.SuggestOptions?alt=com.azure.search.documents.models.SuggestOptions&text=SuggestOptions" data-throw-if-not-resolved="False" />
-  syntax: public SuggestPagedFlux suggest(String searchText, String suggesterName, SuggestOptions suggestOptions)
+  - description: "The search text on which to base suggestions"
+    name: "searchText"
+    type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
+  - description: "The name of the suggester as specified in the suggesters collection that's part of the index\n definition"
+    name: "suggesterName"
+    type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
+  - description: "Parameters to further refine the suggestion query."
+    name: "suggestOptions"
+    type: "<xref href=\"com.azure.search.documents.models.SuggestOptions?alt=com.azure.search.documents.models.SuggestOptions&text=SuggestOptions\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public SuggestPagedFlux suggest(String searchText, String suggesterName, SuggestOptions suggestOptions)"
   returns:
-    description: |-
-      A <xref uid="com.azure.search.documents.util.SuggestPagedFlux" data-throw-if-not-resolved="false">SuggestPagedFlux</xref> that iterates over <xref uid="com.azure.search.documents.models.SuggestResult" data-throw-if-not-resolved="false">SuggestResult</xref> objects and provides access to the
-       <xref uid="com.azure.search.documents.util.SuggestPagedResponse" data-throw-if-not-resolved="false">SuggestPagedResponse</xref> object for each page containing HTTP response and coverage information.
-    type: <xref href="com.azure.search.documents.util.SuggestPagedFlux?alt=com.azure.search.documents.util.SuggestPagedFlux&text=SuggestPagedFlux" data-throw-if-not-resolved="False" />
-type: method
+    description: "A <xref uid=\"com.azure.search.documents.util.SuggestPagedFlux\" data-throw-if-not-resolved=\"false\">SuggestPagedFlux</xref> that iterates over <xref uid=\"com.azure.search.documents.models.SuggestResult\" data-throw-if-not-resolved=\"false\">SuggestResult</xref> objects and provides access to the\n <xref uid=\"com.azure.search.documents.util.SuggestPagedResponse\" data-throw-if-not-resolved=\"false\">SuggestPagedResponse</xref> object for each page containing HTTP response and coverage information."
+    type: "<xref href=\"com.azure.search.documents.util.SuggestPagedFlux?alt=com.azure.search.documents.util.SuggestPagedFlux&text=SuggestPagedFlux\" data-throw-if-not-resolved=\"False\" />"
+type: "method"
 metadata: {}
-package: com.azure.search.documents
+package: "com.azure.search.documents"
 artifact: com.azure:azure-search-documents:11.0.0

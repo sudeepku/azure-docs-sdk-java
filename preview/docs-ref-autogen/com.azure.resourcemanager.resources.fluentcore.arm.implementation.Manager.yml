@@ -1,43 +1,43 @@
 ### YamlMime:JavaType
-uid: com.azure.resourcemanager.resources.fluentcore.arm.implementation.Manager
-fullName: com.azure.resourcemanager.resources.fluentcore.arm.implementation.Manager<T,InnerT>
-name: Manager<T,InnerT>
-nameWithType: Manager<T,InnerT>
-summary: Generic base class for Azure resource managers.
+uid: "com.azure.resourcemanager.resources.fluentcore.arm.implementation.Manager"
+fullName: "com.azure.resourcemanager.resources.fluentcore.arm.implementation.Manager<T,InnerT>"
+name: "Manager<T,InnerT>"
+nameWithType: "Manager<T,InnerT>"
+summary: "Generic base class for Azure resource managers."
 inheritances:
-- <xref href="java.lang.Object" data-throw-if-not-resolved="False" />
-- <xref href="com.azure.resourcemanager.resources.fluentcore.arm.implementation.ManagerBase" data-throw-if-not-resolved="False" />
+- "<xref href=\"java.lang.Object\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.azure.resourcemanager.resources.fluentcore.arm.implementation.ManagerBase\" data-throw-if-not-resolved=\"False\" />"
 inheritedMembers:
-- com.azure.resourcemanager.resources.fluentcore.arm.implementation.ManagerBase.environment()
-- com.azure.resourcemanager.resources.fluentcore.arm.implementation.ManagerBase.httpPipeline()
-- com.azure.resourcemanager.resources.fluentcore.arm.implementation.ManagerBase.resourceManager()
-- com.azure.resourcemanager.resources.fluentcore.arm.implementation.ManagerBase.sdkContext()
-- com.azure.resourcemanager.resources.fluentcore.arm.implementation.ManagerBase.subscriptionId()
-- com.azure.resourcemanager.resources.fluentcore.arm.implementation.ManagerBase.withResourceManager(com.azure.resourcemanager.resources.ResourceManager)
-- java.lang.Object.clone()
-- java.lang.Object.equals(java.lang.Object)
-- java.lang.Object.finalize()
-- java.lang.Object.getClass()
-- java.lang.Object.hashCode()
-- java.lang.Object.notify()
-- java.lang.Object.notifyAll()
-- java.lang.Object.toString()
-- java.lang.Object.wait()
-- java.lang.Object.wait(long)
-- java.lang.Object.wait(long,int)
-syntax: public abstract class Manager<T,InnerT> extends ManagerBase implements HasInner<InnerT>
+- "com.azure.resourcemanager.resources.fluentcore.arm.implementation.ManagerBase.environment()"
+- "com.azure.resourcemanager.resources.fluentcore.arm.implementation.ManagerBase.httpPipeline()"
+- "com.azure.resourcemanager.resources.fluentcore.arm.implementation.ManagerBase.resourceManager()"
+- "com.azure.resourcemanager.resources.fluentcore.arm.implementation.ManagerBase.sdkContext()"
+- "com.azure.resourcemanager.resources.fluentcore.arm.implementation.ManagerBase.subscriptionId()"
+- "com.azure.resourcemanager.resources.fluentcore.arm.implementation.ManagerBase.withResourceManager(com.azure.resourcemanager.resources.ResourceManager)"
+- "java.lang.Object.clone()"
+- "java.lang.Object.equals(java.lang.Object)"
+- "java.lang.Object.finalize()"
+- "java.lang.Object.getClass()"
+- "java.lang.Object.hashCode()"
+- "java.lang.Object.notify()"
+- "java.lang.Object.notifyAll()"
+- "java.lang.Object.toString()"
+- "java.lang.Object.wait()"
+- "java.lang.Object.wait(long)"
+- "java.lang.Object.wait(long,int)"
+syntax: "public abstract class Manager<T,InnerT> extends ManagerBase implements HasInner<InnerT>"
 constructors:
-- com.azure.resourcemanager.resources.fluentcore.arm.implementation.Manager.Manager(com.azure.core.http.HttpPipeline,com.azure.resourcemanager.resources.fluentcore.profile.AzureProfile,InnerT,com.azure.resourcemanager.resources.fluentcore.utils.SdkContext)
+- "com.azure.resourcemanager.resources.fluentcore.arm.implementation.Manager.Manager(com.azure.core.http.HttpPipeline,com.azure.resourcemanager.resources.fluentcore.profile.AzureProfile,InnerT,com.azure.resourcemanager.resources.fluentcore.utils.SdkContext)"
 fields:
-- com.azure.resourcemanager.resources.fluentcore.arm.implementation.Manager.innerManagementClient
+- "com.azure.resourcemanager.resources.fluentcore.arm.implementation.Manager.innerManagementClient"
 methods:
-- com.azure.resourcemanager.resources.fluentcore.arm.implementation.Manager.inner()
-type: class
+- "com.azure.resourcemanager.resources.fluentcore.arm.implementation.Manager.inner()"
+type: "class"
 typeParameters:
-- name: T
-- name: InnerT
+- name: "T"
+- name: "InnerT"
 implements:
-- <xref href="com.azure.resourcemanager.resources.fluentcore.model.HasInner?alt=com.azure.resourcemanager.resources.fluentcore.model.HasInner&text=HasInner" data-throw-if-not-resolved="False" />&lt;<xref href="InnerT?alt=InnerT&text=InnerT" data-throw-if-not-resolved="False" />&gt;
+- "<xref href=\"com.azure.resourcemanager.resources.fluentcore.model.HasInner?alt=com.azure.resourcemanager.resources.fluentcore.model.HasInner&text=HasInner\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"InnerT?alt=InnerT&text=InnerT\" data-throw-if-not-resolved=\"False\" />&gt;"
 metadata: {}
-package: com.azure.resourcemanager.resources.fluentcore.arm.implementation
+package: "com.azure.resourcemanager.resources.fluentcore.arm.implementation"
 artifact: com.azure.resourcemanager:azure-resourcemanager-resources:2.0.0-beta.2

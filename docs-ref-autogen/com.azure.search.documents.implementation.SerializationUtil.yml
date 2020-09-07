@@ -1,29 +1,29 @@
 ### YamlMime:JavaType
-uid: com.azure.search.documents.implementation.SerializationUtil
-fullName: com.azure.search.documents.implementation.SerializationUtil
-name: SerializationUtil
-nameWithType: SerializationUtil
-summary: Utility type to configure JSON serialization behavior.
+uid: "com.azure.search.documents.implementation.SerializationUtil"
+fullName: "com.azure.search.documents.implementation.SerializationUtil"
+name: "SerializationUtil"
+nameWithType: "SerializationUtil"
+summary: "Utility type to configure JSON serialization behavior."
 inheritances:
-- <xref href="java.lang.Object" data-throw-if-not-resolved="False" />
+- "<xref href=\"java.lang.Object\" data-throw-if-not-resolved=\"False\" />"
 inheritedMembers:
-- java.lang.Object.clone()
-- java.lang.Object.equals(java.lang.Object)
-- java.lang.Object.finalize()
-- java.lang.Object.getClass()
-- java.lang.Object.hashCode()
-- java.lang.Object.notify()
-- java.lang.Object.notifyAll()
-- java.lang.Object.toString()
-- java.lang.Object.wait()
-- java.lang.Object.wait(long)
-- java.lang.Object.wait(long,int)
-syntax: public class SerializationUtil
+- "java.lang.Object.clone()"
+- "java.lang.Object.equals(java.lang.Object)"
+- "java.lang.Object.finalize()"
+- "java.lang.Object.getClass()"
+- "java.lang.Object.hashCode()"
+- "java.lang.Object.notify()"
+- "java.lang.Object.notifyAll()"
+- "java.lang.Object.toString()"
+- "java.lang.Object.wait()"
+- "java.lang.Object.wait(long)"
+- "java.lang.Object.wait(long,int)"
+syntax: "public class SerializationUtil"
 constructors:
-- com.azure.search.documents.implementation.SerializationUtil.SerializationUtil()
+- "com.azure.search.documents.implementation.SerializationUtil.SerializationUtil()"
 methods:
-- com.azure.search.documents.implementation.SerializationUtil.configureMapper(com.fasterxml.jackson.databind.ObjectMapper)
-type: class
+- "com.azure.search.documents.implementation.SerializationUtil.configureMapper(com.fasterxml.jackson.databind.ObjectMapper)"
+type: "class"
 metadata: {}
-package: com.azure.search.documents.implementation
+package: "com.azure.search.documents.implementation"
 artifact: com.azure:azure-search-documents:11.0.0

@@ -1,37 +1,23 @@
 ### YamlMime:JavaMember
-uid: com.azure.security.keyvault.certificates.CertificateClient.importCertificate*
-fullName: com.azure.security.keyvault.certificates.CertificateClient.importCertificate
-name: importCertificate
-nameWithType: CertificateClient.importCertificate
+uid: "com.azure.security.keyvault.certificates.CertificateClient.importCertificate*"
+fullName: "com.azure.security.keyvault.certificates.CertificateClient.importCertificate"
+name: "importCertificate"
+nameWithType: "CertificateClient.importCertificate"
 members:
-- uid: com.azure.security.keyvault.certificates.CertificateClient.importCertificate(com.azure.security.keyvault.certificates.models.ImportCertificateOptions)
-  fullName: com.azure.security.keyvault.certificates.CertificateClient.importCertificate(ImportCertificateOptions importCertificateOptions)
-  name: importCertificate(ImportCertificateOptions importCertificateOptions)
-  nameWithType: CertificateClient.importCertificate(ImportCertificateOptions importCertificateOptions)
-  summary: |-
-    Imports a pre-existing certificate to the key vault. The specified certificate must be in PFX or PEM format,
-     and must contain the private key as well as the x509 certificates. This operation requires the <code>certificates/import</code> permission.
-
-     <p><strong>Code Samples</strong></p>
-     <p> Imports a certificate into the key vault.</p>
-
-     <pre>
-     byte[] certificateToImport = new byte[100];
-     ImportCertificateOptions config =
-         new ImportCertificateOptions&#40;&quot;certificateName&quot;, certificateToImport&#41;.setEnabled&#40;false&#41;;
-     KeyVaultCertificate importedCertificate = certificateClient.importCertificate&#40;config&#41;;
-     System.out.printf&#40;&quot;Received Certificate with name %s and key id %s&quot;,
-         importedCertificate.getProperties&#40;&#41;.getName&#40;&#41;, importedCertificate.getKeyId&#40;&#41;&#41;;
-     </pre>
+- uid: "com.azure.security.keyvault.certificates.CertificateClient.importCertificate(com.azure.security.keyvault.certificates.models.ImportCertificateOptions)"
+  fullName: "com.azure.security.keyvault.certificates.CertificateClient.importCertificate(ImportCertificateOptions importCertificateOptions)"
+  name: "importCertificate(ImportCertificateOptions importCertificateOptions)"
+  nameWithType: "CertificateClient.importCertificate(ImportCertificateOptions importCertificateOptions)"
+  summary: "Imports a pre-existing certificate to the key vault. The specified certificate must be in PFX or PEM format,\n and must contain the private key as well as the x509 certificates. This operation requires the <code>certificates/import</code> permission.\n\n <p><strong>Code Samples</strong></p>\n <p> Imports a certificate into the key vault.</p>\n\n <pre>\n byte[] certificateToImport = new byte[100];\n ImportCertificateOptions config =\n     new ImportCertificateOptions&#40;&quot;certificateName&quot;, certificateToImport&#41;.setEnabled&#40;false&#41;;\n KeyVaultCertificate importedCertificate = certificateClient.importCertificate&#40;config&#41;;\n System.out.printf&#40;&quot;Received Certificate with name %s and key id %s&quot;,\n     importedCertificate.getProperties&#40;&#41;.getName&#40;&#41;, importedCertificate.getKeyId&#40;&#41;&#41;;\n </pre>"
   parameters:
-  - description: The details of the certificate to import to the key vault
-    name: importCertificateOptions
-    type: <xref href="com.azure.security.keyvault.certificates.models.ImportCertificateOptions?alt=com.azure.security.keyvault.certificates.models.ImportCertificateOptions&text=ImportCertificateOptions" data-throw-if-not-resolved="False" />
-  syntax: public KeyVaultCertificateWithPolicy importCertificate(ImportCertificateOptions importCertificateOptions)
+  - description: "The details of the certificate to import to the key vault"
+    name: "importCertificateOptions"
+    type: "<xref href=\"com.azure.security.keyvault.certificates.models.ImportCertificateOptions?alt=com.azure.security.keyvault.certificates.models.ImportCertificateOptions&text=ImportCertificateOptions\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public KeyVaultCertificateWithPolicy importCertificate(ImportCertificateOptions importCertificateOptions)"
   returns:
-    description: the <xref uid="com.azure.security.keyvault.certificates.models.KeyVaultCertificateWithPolicy" data-throw-if-not-resolved="false">imported certificate</xref>.
-    type: <xref href="com.azure.security.keyvault.certificates.models.KeyVaultCertificateWithPolicy?alt=com.azure.security.keyvault.certificates.models.KeyVaultCertificateWithPolicy&text=KeyVaultCertificateWithPolicy" data-throw-if-not-resolved="False" />
-type: method
+    description: "the <xref uid=\"com.azure.security.keyvault.certificates.models.KeyVaultCertificateWithPolicy\" data-throw-if-not-resolved=\"false\">imported certificate</xref>."
+    type: "<xref href=\"com.azure.security.keyvault.certificates.models.KeyVaultCertificateWithPolicy?alt=com.azure.security.keyvault.certificates.models.KeyVaultCertificateWithPolicy&text=KeyVaultCertificateWithPolicy\" data-throw-if-not-resolved=\"False\" />"
+type: "method"
 metadata: {}
-package: com.azure.security.keyvault.certificates
+package: "com.azure.security.keyvault.certificates"
 artifact: com.azure:azure-security-keyvault-certificates:4.1.0-beta.3

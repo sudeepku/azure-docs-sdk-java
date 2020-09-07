@@ -1,41 +1,41 @@
 ### YamlMime:JavaType
-uid: com.azure.search.documents.indexes.implementation.models.EntityCategory
-fullName: com.azure.search.documents.indexes.implementation.models.EntityCategory
-name: EntityCategory
-nameWithType: EntityCategory
-summary: Defines values for EntityCategory.
+uid: "com.azure.search.documents.indexes.implementation.models.EntityCategory"
+fullName: "com.azure.search.documents.indexes.implementation.models.EntityCategory"
+name: "EntityCategory"
+nameWithType: "EntityCategory"
+summary: "Defines values for EntityCategory."
 inheritances:
-- <xref href="java.lang.Object" data-throw-if-not-resolved="False" />
-- <xref href="com.azure.core.util.ExpandableStringEnum" data-throw-if-not-resolved="False" />
+- "<xref href=\"java.lang.Object\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.azure.core.util.ExpandableStringEnum\" data-throw-if-not-resolved=\"False\" />"
 inheritedMembers:
-- com.azure.core.util.ExpandableStringEnum.<T>fromString(java.lang.String,java.lang.Class<T>)
-- com.azure.core.util.ExpandableStringEnum.<T>values(java.lang.Class<T>)
-- com.azure.core.util.ExpandableStringEnum.equals(java.lang.Object)
-- com.azure.core.util.ExpandableStringEnum.hashCode()
-- com.azure.core.util.ExpandableStringEnum.toString()
-- java.lang.Object.clone()
-- java.lang.Object.finalize()
-- java.lang.Object.getClass()
-- java.lang.Object.notify()
-- java.lang.Object.notifyAll()
-- java.lang.Object.wait()
-- java.lang.Object.wait(long)
-- java.lang.Object.wait(long,int)
-syntax: public final class EntityCategory extends ExpandableStringEnum<EntityCategory>
+- "com.azure.core.util.ExpandableStringEnum.<T>fromString(java.lang.String,java.lang.Class<T>)"
+- "com.azure.core.util.ExpandableStringEnum.<T>values(java.lang.Class<T>)"
+- "com.azure.core.util.ExpandableStringEnum.equals(java.lang.Object)"
+- "com.azure.core.util.ExpandableStringEnum.hashCode()"
+- "com.azure.core.util.ExpandableStringEnum.toString()"
+- "java.lang.Object.clone()"
+- "java.lang.Object.finalize()"
+- "java.lang.Object.getClass()"
+- "java.lang.Object.notify()"
+- "java.lang.Object.notifyAll()"
+- "java.lang.Object.wait()"
+- "java.lang.Object.wait(long)"
+- "java.lang.Object.wait(long,int)"
+syntax: "public final class EntityCategory extends ExpandableStringEnum<EntityCategory>"
 constructors:
-- com.azure.search.documents.indexes.implementation.models.EntityCategory.EntityCategory()
+- "com.azure.search.documents.indexes.implementation.models.EntityCategory.EntityCategory()"
 fields:
-- com.azure.search.documents.indexes.implementation.models.EntityCategory.DATETIME
-- com.azure.search.documents.indexes.implementation.models.EntityCategory.EMAIL
-- com.azure.search.documents.indexes.implementation.models.EntityCategory.LOCATION
-- com.azure.search.documents.indexes.implementation.models.EntityCategory.ORGANIZATION
-- com.azure.search.documents.indexes.implementation.models.EntityCategory.PERSON
-- com.azure.search.documents.indexes.implementation.models.EntityCategory.QUANTITY
-- com.azure.search.documents.indexes.implementation.models.EntityCategory.URL
+- "com.azure.search.documents.indexes.implementation.models.EntityCategory.DATETIME"
+- "com.azure.search.documents.indexes.implementation.models.EntityCategory.EMAIL"
+- "com.azure.search.documents.indexes.implementation.models.EntityCategory.LOCATION"
+- "com.azure.search.documents.indexes.implementation.models.EntityCategory.ORGANIZATION"
+- "com.azure.search.documents.indexes.implementation.models.EntityCategory.PERSON"
+- "com.azure.search.documents.indexes.implementation.models.EntityCategory.QUANTITY"
+- "com.azure.search.documents.indexes.implementation.models.EntityCategory.URL"
 methods:
-- com.azure.search.documents.indexes.implementation.models.EntityCategory.fromString(java.lang.String)
-- com.azure.search.documents.indexes.implementation.models.EntityCategory.values()
-type: class
+- "com.azure.search.documents.indexes.implementation.models.EntityCategory.fromString(java.lang.String)"
+- "com.azure.search.documents.indexes.implementation.models.EntityCategory.values()"
+type: "class"
 metadata: {}
-package: com.azure.search.documents.indexes.implementation.models
+package: "com.azure.search.documents.indexes.implementation.models"
 artifact: com.azure:azure-search-documents:11.1.0-beta.1

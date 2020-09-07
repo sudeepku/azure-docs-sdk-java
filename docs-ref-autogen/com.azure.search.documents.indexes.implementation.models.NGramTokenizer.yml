@@ -1,38 +1,38 @@
 ### YamlMime:JavaType
-uid: com.azure.search.documents.indexes.implementation.models.NGramTokenizer
-fullName: com.azure.search.documents.indexes.implementation.models.NGramTokenizer
-name: NGramTokenizer
-nameWithType: NGramTokenizer
-summary: The NGramTokenizer model.
+uid: "com.azure.search.documents.indexes.implementation.models.NGramTokenizer"
+fullName: "com.azure.search.documents.indexes.implementation.models.NGramTokenizer"
+name: "NGramTokenizer"
+nameWithType: "NGramTokenizer"
+summary: "The NGramTokenizer model."
 inheritances:
-- <xref href="java.lang.Object" data-throw-if-not-resolved="False" />
-- <xref href="com.azure.search.documents.indexes.implementation.models.LexicalTokenizer" data-throw-if-not-resolved="False" />
+- "<xref href=\"java.lang.Object\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.azure.search.documents.indexes.implementation.models.LexicalTokenizer\" data-throw-if-not-resolved=\"False\" />"
 inheritedMembers:
-- com.azure.search.documents.indexes.implementation.models.LexicalTokenizer.getName()
-- com.azure.search.documents.indexes.implementation.models.LexicalTokenizer.validate()
-- java.lang.Object.clone()
-- java.lang.Object.equals(java.lang.Object)
-- java.lang.Object.finalize()
-- java.lang.Object.getClass()
-- java.lang.Object.hashCode()
-- java.lang.Object.notify()
-- java.lang.Object.notifyAll()
-- java.lang.Object.toString()
-- java.lang.Object.wait()
-- java.lang.Object.wait(long)
-- java.lang.Object.wait(long,int)
-syntax: public class NGramTokenizer extends LexicalTokenizer
+- "com.azure.search.documents.indexes.implementation.models.LexicalTokenizer.getName()"
+- "com.azure.search.documents.indexes.implementation.models.LexicalTokenizer.validate()"
+- "java.lang.Object.clone()"
+- "java.lang.Object.equals(java.lang.Object)"
+- "java.lang.Object.finalize()"
+- "java.lang.Object.getClass()"
+- "java.lang.Object.hashCode()"
+- "java.lang.Object.notify()"
+- "java.lang.Object.notifyAll()"
+- "java.lang.Object.toString()"
+- "java.lang.Object.wait()"
+- "java.lang.Object.wait(long)"
+- "java.lang.Object.wait(long,int)"
+syntax: "public class NGramTokenizer extends LexicalTokenizer"
 constructors:
-- com.azure.search.documents.indexes.implementation.models.NGramTokenizer.NGramTokenizer(java.lang.String)
+- "com.azure.search.documents.indexes.implementation.models.NGramTokenizer.NGramTokenizer(java.lang.String)"
 methods:
-- com.azure.search.documents.indexes.implementation.models.NGramTokenizer.getMaxGram()
-- com.azure.search.documents.indexes.implementation.models.NGramTokenizer.getMinGram()
-- com.azure.search.documents.indexes.implementation.models.NGramTokenizer.getTokenChars()
-- com.azure.search.documents.indexes.implementation.models.NGramTokenizer.setMaxGram(java.lang.Integer)
-- com.azure.search.documents.indexes.implementation.models.NGramTokenizer.setMinGram(java.lang.Integer)
-- com.azure.search.documents.indexes.implementation.models.NGramTokenizer.setTokenChars(java.util.List<com.azure.search.documents.indexes.implementation.models.TokenCharacterKind>)
-- com.azure.search.documents.indexes.implementation.models.NGramTokenizer.validate()
-type: class
+- "com.azure.search.documents.indexes.implementation.models.NGramTokenizer.getMaxGram()"
+- "com.azure.search.documents.indexes.implementation.models.NGramTokenizer.getMinGram()"
+- "com.azure.search.documents.indexes.implementation.models.NGramTokenizer.getTokenChars()"
+- "com.azure.search.documents.indexes.implementation.models.NGramTokenizer.setMaxGram(java.lang.Integer)"
+- "com.azure.search.documents.indexes.implementation.models.NGramTokenizer.setMinGram(java.lang.Integer)"
+- "com.azure.search.documents.indexes.implementation.models.NGramTokenizer.setTokenChars(java.util.List<com.azure.search.documents.indexes.implementation.models.TokenCharacterKind>)"
+- "com.azure.search.documents.indexes.implementation.models.NGramTokenizer.validate()"
+type: "class"
 metadata: {}
-package: com.azure.search.documents.indexes.implementation.models
+package: "com.azure.search.documents.indexes.implementation.models"
 artifact: com.azure:azure-search-documents:11.0.0

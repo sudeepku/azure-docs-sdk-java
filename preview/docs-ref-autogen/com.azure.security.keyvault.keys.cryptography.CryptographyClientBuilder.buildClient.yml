@@ -1,29 +1,19 @@
 ### YamlMime:JavaMember
-uid: com.azure.security.keyvault.keys.cryptography.CryptographyClientBuilder.buildClient*
-fullName: com.azure.security.keyvault.keys.cryptography.CryptographyClientBuilder.buildClient
-name: buildClient
-nameWithType: CryptographyClientBuilder.buildClient
+uid: "com.azure.security.keyvault.keys.cryptography.CryptographyClientBuilder.buildClient*"
+fullName: "com.azure.security.keyvault.keys.cryptography.CryptographyClientBuilder.buildClient"
+name: "buildClient"
+nameWithType: "CryptographyClientBuilder.buildClient"
 members:
-- uid: com.azure.security.keyvault.keys.cryptography.CryptographyClientBuilder.buildClient()
-  fullName: com.azure.security.keyvault.keys.cryptography.CryptographyClientBuilder.buildClient()
-  name: buildClient()
-  nameWithType: CryptographyClientBuilder.buildClient()
-  summary: |-
-    Creates a <xref uid="CryptographyClient" data-throw-if-not-resolved="false">CryptographyClient</xref> based on options set in the builder.
-     Every time <code>buildClient()</code> is called, a new instance of <xref uid="CryptographyClient" data-throw-if-not-resolved="false">CryptographyClient</xref> is created.
-
-     <p>If <xref uid="CryptographyClientBuilder#pipeline(HttpPipeline)" data-throw-if-not-resolved="false">pipeline</xref> is set, then the <code>pipeline</code> and
-     (<xref uid="CryptographyClientBuilder#keyIdentifier(String)" data-throw-if-not-resolved="false">jsonWebKey identifier</xref>
-      are used to create the <xref uid="CryptographyClient" data-throw-if-not-resolved="false">client</xref>. All other builder settings are ignored. If
-     <code>pipeline</code> is not set, then
-     (<xref uid="CryptographyClientBuilder#credential(TokenCredential)" data-throw-if-not-resolved="false">jsonWebKey vault credential</xref> and
-     (<xref uid="CryptographyClientBuilder#keyIdentifier(String)" data-throw-if-not-resolved="false">jsonWebKey identifier</xref> are required to build the
-     <xref uid="CryptographyClient" data-throw-if-not-resolved="false">client</xref>.</p>
-  syntax: public CryptographyClient buildClient()
+- uid: "com.azure.security.keyvault.keys.cryptography.CryptographyClientBuilder.buildClient()"
+  fullName: "com.azure.security.keyvault.keys.cryptography.CryptographyClientBuilder.buildClient()"
+  name: "buildClient()"
+  nameWithType: "CryptographyClientBuilder.buildClient()"
+  summary: "Creates a <xref uid=\"CryptographyClient\" data-throw-if-not-resolved=\"false\">CryptographyClient</xref> based on options set in the builder.\n Every time <code>buildClient()</code> is called, a new instance of <xref uid=\"CryptographyClient\" data-throw-if-not-resolved=\"false\">CryptographyClient</xref> is created.\n\n <p>If <xref uid=\"CryptographyClientBuilder#pipeline(HttpPipeline)\" data-throw-if-not-resolved=\"false\">pipeline</xref> is set, then the <code>pipeline</code> and\n (<xref uid=\"CryptographyClientBuilder#keyIdentifier(String)\" data-throw-if-not-resolved=\"false\">jsonWebKey identifier</xref>\n  are used to create the <xref uid=\"CryptographyClient\" data-throw-if-not-resolved=\"false\">client</xref>. All other builder settings are ignored. If\n <code>pipeline</code> is not set, then\n (<xref uid=\"CryptographyClientBuilder#credential(TokenCredential)\" data-throw-if-not-resolved=\"false\">jsonWebKey vault credential</xref> and\n (<xref uid=\"CryptographyClientBuilder#keyIdentifier(String)\" data-throw-if-not-resolved=\"false\">jsonWebKey identifier</xref> are required to build the\n <xref uid=\"CryptographyClient\" data-throw-if-not-resolved=\"false\">client</xref>.</p>"
+  syntax: "public CryptographyClient buildClient()"
   returns:
-    description: A <xref uid="com.azure.security.keyvault.keys.cryptography.CryptographyClient" data-throw-if-not-resolved="false">CryptographyClient</xref> with the options set from the builder.
-    type: <xref href="com.azure.security.keyvault.keys.cryptography.CryptographyClient?alt=com.azure.security.keyvault.keys.cryptography.CryptographyClient&text=CryptographyClient" data-throw-if-not-resolved="False" />
-type: method
+    description: "A <xref uid=\"com.azure.security.keyvault.keys.cryptography.CryptographyClient\" data-throw-if-not-resolved=\"false\">CryptographyClient</xref> with the options set from the builder."
+    type: "<xref href=\"com.azure.security.keyvault.keys.cryptography.CryptographyClient?alt=com.azure.security.keyvault.keys.cryptography.CryptographyClient&text=CryptographyClient\" data-throw-if-not-resolved=\"False\" />"
+type: "method"
 metadata: {}
-package: com.azure.security.keyvault.keys.cryptography
+package: "com.azure.security.keyvault.keys.cryptography"
 artifact: com.azure:azure-security-keyvault-keys:4.2.0-beta.4

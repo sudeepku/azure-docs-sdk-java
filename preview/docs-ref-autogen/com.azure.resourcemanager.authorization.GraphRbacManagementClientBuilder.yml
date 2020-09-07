@@ -1,33 +1,33 @@
 ### YamlMime:JavaType
-uid: com.azure.resourcemanager.authorization.GraphRbacManagementClientBuilder
-fullName: com.azure.resourcemanager.authorization.GraphRbacManagementClientBuilder
-name: GraphRbacManagementClientBuilder
-nameWithType: GraphRbacManagementClientBuilder
-summary: A builder for creating a new instance of the GraphRbacManagementClient type.
+uid: "com.azure.resourcemanager.authorization.GraphRbacManagementClientBuilder"
+fullName: "com.azure.resourcemanager.authorization.GraphRbacManagementClientBuilder"
+name: "GraphRbacManagementClientBuilder"
+nameWithType: "GraphRbacManagementClientBuilder"
+summary: "A builder for creating a new instance of the GraphRbacManagementClient type."
 inheritances:
-- <xref href="java.lang.Object" data-throw-if-not-resolved="False" />
+- "<xref href=\"java.lang.Object\" data-throw-if-not-resolved=\"False\" />"
 inheritedMembers:
-- java.lang.Object.clone()
-- java.lang.Object.equals(java.lang.Object)
-- java.lang.Object.finalize()
-- java.lang.Object.getClass()
-- java.lang.Object.hashCode()
-- java.lang.Object.notify()
-- java.lang.Object.notifyAll()
-- java.lang.Object.toString()
-- java.lang.Object.wait()
-- java.lang.Object.wait(long)
-- java.lang.Object.wait(long,int)
-syntax: public final class GraphRbacManagementClientBuilder
+- "java.lang.Object.clone()"
+- "java.lang.Object.equals(java.lang.Object)"
+- "java.lang.Object.finalize()"
+- "java.lang.Object.getClass()"
+- "java.lang.Object.hashCode()"
+- "java.lang.Object.notify()"
+- "java.lang.Object.notifyAll()"
+- "java.lang.Object.toString()"
+- "java.lang.Object.wait()"
+- "java.lang.Object.wait(long)"
+- "java.lang.Object.wait(long,int)"
+syntax: "public final class GraphRbacManagementClientBuilder"
 constructors:
-- com.azure.resourcemanager.authorization.GraphRbacManagementClientBuilder.GraphRbacManagementClientBuilder()
+- "com.azure.resourcemanager.authorization.GraphRbacManagementClientBuilder.GraphRbacManagementClientBuilder()"
 methods:
-- com.azure.resourcemanager.authorization.GraphRbacManagementClientBuilder.buildClient()
-- com.azure.resourcemanager.authorization.GraphRbacManagementClientBuilder.endpoint(java.lang.String)
-- com.azure.resourcemanager.authorization.GraphRbacManagementClientBuilder.environment(com.azure.core.management.AzureEnvironment)
-- com.azure.resourcemanager.authorization.GraphRbacManagementClientBuilder.pipeline(com.azure.core.http.HttpPipeline)
-- com.azure.resourcemanager.authorization.GraphRbacManagementClientBuilder.tenantId(java.lang.String)
-type: class
+- "com.azure.resourcemanager.authorization.GraphRbacManagementClientBuilder.buildClient()"
+- "com.azure.resourcemanager.authorization.GraphRbacManagementClientBuilder.endpoint(java.lang.String)"
+- "com.azure.resourcemanager.authorization.GraphRbacManagementClientBuilder.environment(com.azure.core.management.AzureEnvironment)"
+- "com.azure.resourcemanager.authorization.GraphRbacManagementClientBuilder.pipeline(com.azure.core.http.HttpPipeline)"
+- "com.azure.resourcemanager.authorization.GraphRbacManagementClientBuilder.tenantId(java.lang.String)"
+type: "class"
 metadata: {}
-package: com.azure.resourcemanager.authorization
+package: "com.azure.resourcemanager.authorization"
 artifact: com.azure.resourcemanager:azure-resourcemanager-authorization:2.0.0-beta.2

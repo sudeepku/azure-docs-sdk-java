@@ -1,31 +1,31 @@
 ### YamlMime:JavaType
-uid: com.azure.resourcemanager.network.fluent.inner.NetworkWatcherListResultInner
-fullName: com.azure.resourcemanager.network.fluent.inner.NetworkWatcherListResultInner
-name: NetworkWatcherListResultInner
-nameWithType: NetworkWatcherListResultInner
-summary: The NetworkWatcherListResult model.
+uid: "com.azure.resourcemanager.network.fluent.inner.NetworkWatcherListResultInner"
+fullName: "com.azure.resourcemanager.network.fluent.inner.NetworkWatcherListResultInner"
+name: "NetworkWatcherListResultInner"
+nameWithType: "NetworkWatcherListResultInner"
+summary: "The NetworkWatcherListResult model."
 inheritances:
-- <xref href="java.lang.Object" data-throw-if-not-resolved="False" />
+- "<xref href=\"java.lang.Object\" data-throw-if-not-resolved=\"False\" />"
 inheritedMembers:
-- java.lang.Object.clone()
-- java.lang.Object.equals(java.lang.Object)
-- java.lang.Object.finalize()
-- java.lang.Object.getClass()
-- java.lang.Object.hashCode()
-- java.lang.Object.notify()
-- java.lang.Object.notifyAll()
-- java.lang.Object.toString()
-- java.lang.Object.wait()
-- java.lang.Object.wait(long)
-- java.lang.Object.wait(long,int)
-syntax: public final class NetworkWatcherListResultInner
+- "java.lang.Object.clone()"
+- "java.lang.Object.equals(java.lang.Object)"
+- "java.lang.Object.finalize()"
+- "java.lang.Object.getClass()"
+- "java.lang.Object.hashCode()"
+- "java.lang.Object.notify()"
+- "java.lang.Object.notifyAll()"
+- "java.lang.Object.toString()"
+- "java.lang.Object.wait()"
+- "java.lang.Object.wait(long)"
+- "java.lang.Object.wait(long,int)"
+syntax: "public final class NetworkWatcherListResultInner"
 constructors:
-- com.azure.resourcemanager.network.fluent.inner.NetworkWatcherListResultInner.NetworkWatcherListResultInner()
+- "com.azure.resourcemanager.network.fluent.inner.NetworkWatcherListResultInner.NetworkWatcherListResultInner()"
 methods:
-- com.azure.resourcemanager.network.fluent.inner.NetworkWatcherListResultInner.validate()
-- com.azure.resourcemanager.network.fluent.inner.NetworkWatcherListResultInner.value()
-- com.azure.resourcemanager.network.fluent.inner.NetworkWatcherListResultInner.withValue(java.util.List<com.azure.resourcemanager.network.fluent.inner.NetworkWatcherInner>)
-type: class
+- "com.azure.resourcemanager.network.fluent.inner.NetworkWatcherListResultInner.validate()"
+- "com.azure.resourcemanager.network.fluent.inner.NetworkWatcherListResultInner.value()"
+- "com.azure.resourcemanager.network.fluent.inner.NetworkWatcherListResultInner.withValue(java.util.List<com.azure.resourcemanager.network.fluent.inner.NetworkWatcherInner>)"
+type: "class"
 metadata: {}
-package: com.azure.resourcemanager.network.fluent.inner
+package: "com.azure.resourcemanager.network.fluent.inner"
 artifact: com.azure.resourcemanager:azure-resourcemanager-network:2.0.0-beta.2

@@ -1,28 +1,28 @@
 ### YamlMime:JavaType
-uid: com.azure.search.documents.implementation.converters.AutocompleteResultConverter
-fullName: com.azure.search.documents.implementation.converters.AutocompleteResultConverter
-name: AutocompleteResultConverter
-nameWithType: AutocompleteResultConverter
-summary: A converter between <xref uid="com.azure.search.documents.implementation.models.AutocompleteResult" data-throw-if-not-resolved="false">com.azure.search.documents.implementation.models.AutocompleteResult</xref> and <xref uid="com.azure.search.documents.models.AutocompleteResult" data-throw-if-not-resolved="false">AutocompleteResult</xref>.
+uid: "com.azure.search.documents.implementation.converters.AutocompleteResultConverter"
+fullName: "com.azure.search.documents.implementation.converters.AutocompleteResultConverter"
+name: "AutocompleteResultConverter"
+nameWithType: "AutocompleteResultConverter"
+summary: "A converter between <xref uid=\"com.azure.search.documents.implementation.models.AutocompleteResult\" data-throw-if-not-resolved=\"false\">com.azure.search.documents.implementation.models.AutocompleteResult</xref> and <xref uid=\"com.azure.search.documents.models.AutocompleteResult\" data-throw-if-not-resolved=\"false\">AutocompleteResult</xref>."
 inheritances:
-- <xref href="java.lang.Object" data-throw-if-not-resolved="False" />
+- "<xref href=\"java.lang.Object\" data-throw-if-not-resolved=\"False\" />"
 inheritedMembers:
-- java.lang.Object.clone()
-- java.lang.Object.equals(java.lang.Object)
-- java.lang.Object.finalize()
-- java.lang.Object.getClass()
-- java.lang.Object.hashCode()
-- java.lang.Object.notify()
-- java.lang.Object.notifyAll()
-- java.lang.Object.toString()
-- java.lang.Object.wait()
-- java.lang.Object.wait(long)
-- java.lang.Object.wait(long,int)
-syntax: public final class AutocompleteResultConverter
+- "java.lang.Object.clone()"
+- "java.lang.Object.equals(java.lang.Object)"
+- "java.lang.Object.finalize()"
+- "java.lang.Object.getClass()"
+- "java.lang.Object.hashCode()"
+- "java.lang.Object.notify()"
+- "java.lang.Object.notifyAll()"
+- "java.lang.Object.toString()"
+- "java.lang.Object.wait()"
+- "java.lang.Object.wait(long)"
+- "java.lang.Object.wait(long,int)"
+syntax: "public final class AutocompleteResultConverter"
 methods:
-- com.azure.search.documents.implementation.converters.AutocompleteResultConverter.map(com.azure.search.documents.implementation.models.AutocompleteResult)
-- com.azure.search.documents.implementation.converters.AutocompleteResultConverter.map(com.azure.search.documents.models.AutocompleteResult)
-type: class
+- "com.azure.search.documents.implementation.converters.AutocompleteResultConverter.map(com.azure.search.documents.implementation.models.AutocompleteResult)"
+- "com.azure.search.documents.implementation.converters.AutocompleteResultConverter.map(com.azure.search.documents.models.AutocompleteResult)"
+type: "class"
 metadata: {}
-package: com.azure.search.documents.implementation.converters
+package: "com.azure.search.documents.implementation.converters"
 artifact: com.azure:azure-search-documents:11.0.0

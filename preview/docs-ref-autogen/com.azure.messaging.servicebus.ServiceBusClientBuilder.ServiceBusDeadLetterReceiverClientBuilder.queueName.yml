@@ -1,23 +1,23 @@
 ### YamlMime:JavaMember
-uid: com.azure.messaging.servicebus.ServiceBusClientBuilder.ServiceBusDeadLetterReceiverClientBuilder.queueName*
-fullName: com.azure.messaging.servicebus.ServiceBusClientBuilder.ServiceBusDeadLetterReceiverClientBuilder.queueName
-name: queueName
-nameWithType: ServiceBusClientBuilder.ServiceBusDeadLetterReceiverClientBuilder.queueName
+uid: "com.azure.messaging.servicebus.ServiceBusClientBuilder.ServiceBusDeadLetterReceiverClientBuilder.queueName*"
+fullName: "com.azure.messaging.servicebus.ServiceBusClientBuilder.ServiceBusDeadLetterReceiverClientBuilder.queueName"
+name: "queueName"
+nameWithType: "ServiceBusClientBuilder.ServiceBusDeadLetterReceiverClientBuilder.queueName"
 members:
-- uid: com.azure.messaging.servicebus.ServiceBusClientBuilder.ServiceBusDeadLetterReceiverClientBuilder.queueName(java.lang.String)
-  fullName: com.azure.messaging.servicebus.ServiceBusClientBuilder.ServiceBusDeadLetterReceiverClientBuilder.queueName(String queueName)
-  name: queueName(String queueName)
-  nameWithType: ServiceBusClientBuilder.ServiceBusDeadLetterReceiverClientBuilder.queueName(String queueName)
-  summary: Sets the name of the queue to create a receiver for.
+- uid: "com.azure.messaging.servicebus.ServiceBusClientBuilder.ServiceBusDeadLetterReceiverClientBuilder.queueName(java.lang.String)"
+  fullName: "com.azure.messaging.servicebus.ServiceBusClientBuilder.ServiceBusDeadLetterReceiverClientBuilder.queueName(String queueName)"
+  name: "queueName(String queueName)"
+  nameWithType: "ServiceBusClientBuilder.ServiceBusDeadLetterReceiverClientBuilder.queueName(String queueName)"
+  summary: "Sets the name of the queue to create a receiver for."
   parameters:
-  - description: Name of the queue.
-    name: queueName
-    type: <xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False" />
-  syntax: public ServiceBusClientBuilder.ServiceBusDeadLetterReceiverClientBuilder queueName(String queueName)
+  - description: "Name of the queue."
+    name: "queueName"
+    type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public ServiceBusClientBuilder.ServiceBusDeadLetterReceiverClientBuilder queueName(String queueName)"
   returns:
-    description: The modified <xref uid="" data-throw-if-not-resolved="false">ServiceBusDeadLetterReceiverClientBuilder</xref> object.
-    type: <xref href="com.azure.messaging.servicebus.ServiceBusClientBuilder.ServiceBusDeadLetterReceiverClientBuilder?alt=com.azure.messaging.servicebus.ServiceBusClientBuilder.ServiceBusDeadLetterReceiverClientBuilder&text=ServiceBusDeadLetterReceiverClientBuilder" data-throw-if-not-resolved="False" />
-type: method
+    description: "The modified <xref uid=\"\" data-throw-if-not-resolved=\"false\">ServiceBusDeadLetterReceiverClientBuilder</xref> object."
+    type: "<xref href=\"com.azure.messaging.servicebus.ServiceBusClientBuilder.ServiceBusDeadLetterReceiverClientBuilder?alt=com.azure.messaging.servicebus.ServiceBusClientBuilder.ServiceBusDeadLetterReceiverClientBuilder&text=ServiceBusDeadLetterReceiverClientBuilder\" data-throw-if-not-resolved=\"False\" />"
+type: "method"
 metadata: {}
-package: com.azure.messaging.servicebus
+package: "com.azure.messaging.servicebus"
 artifact: com.azure:azure-messaging-servicebus:7.0.0-beta.5

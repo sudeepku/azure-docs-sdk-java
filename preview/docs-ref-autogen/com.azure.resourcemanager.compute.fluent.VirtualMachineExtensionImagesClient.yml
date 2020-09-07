@@ -1,48 +1,48 @@
 ### YamlMime:JavaType
-uid: com.azure.resourcemanager.compute.fluent.VirtualMachineExtensionImagesClient
-fullName: com.azure.resourcemanager.compute.fluent.VirtualMachineExtensionImagesClient
-name: VirtualMachineExtensionImagesClient
-nameWithType: VirtualMachineExtensionImagesClient
-summary: An instance of this class provides access to all the operations defined in VirtualMachineExtensionImages.
+uid: "com.azure.resourcemanager.compute.fluent.VirtualMachineExtensionImagesClient"
+fullName: "com.azure.resourcemanager.compute.fluent.VirtualMachineExtensionImagesClient"
+name: "VirtualMachineExtensionImagesClient"
+nameWithType: "VirtualMachineExtensionImagesClient"
+summary: "An instance of this class provides access to all the operations defined in VirtualMachineExtensionImages."
 inheritances:
-- <xref href="java.lang.Object" data-throw-if-not-resolved="False" />
+- "<xref href=\"java.lang.Object\" data-throw-if-not-resolved=\"False\" />"
 inheritedMembers:
-- java.lang.Object.clone()
-- java.lang.Object.equals(java.lang.Object)
-- java.lang.Object.finalize()
-- java.lang.Object.getClass()
-- java.lang.Object.hashCode()
-- java.lang.Object.notify()
-- java.lang.Object.notifyAll()
-- java.lang.Object.toString()
-- java.lang.Object.wait()
-- java.lang.Object.wait(long)
-- java.lang.Object.wait(long,int)
-syntax: public final class VirtualMachineExtensionImagesClient
+- "java.lang.Object.clone()"
+- "java.lang.Object.equals(java.lang.Object)"
+- "java.lang.Object.finalize()"
+- "java.lang.Object.getClass()"
+- "java.lang.Object.hashCode()"
+- "java.lang.Object.notify()"
+- "java.lang.Object.notifyAll()"
+- "java.lang.Object.toString()"
+- "java.lang.Object.wait()"
+- "java.lang.Object.wait(long)"
+- "java.lang.Object.wait(long,int)"
+syntax: "public final class VirtualMachineExtensionImagesClient"
 constructors:
-- com.azure.resourcemanager.compute.fluent.VirtualMachineExtensionImagesClient.VirtualMachineExtensionImagesClient(com.azure.resourcemanager.compute.ComputeManagementClient)
+- "com.azure.resourcemanager.compute.fluent.VirtualMachineExtensionImagesClient.VirtualMachineExtensionImagesClient(com.azure.resourcemanager.compute.ComputeManagementClient)"
 methods:
-- com.azure.resourcemanager.compute.fluent.VirtualMachineExtensionImagesClient.get(java.lang.String,java.lang.String,java.lang.String,java.lang.String)
-- com.azure.resourcemanager.compute.fluent.VirtualMachineExtensionImagesClient.get(java.lang.String,java.lang.String,java.lang.String,java.lang.String,com.azure.core.util.Context)
-- com.azure.resourcemanager.compute.fluent.VirtualMachineExtensionImagesClient.getAsync(java.lang.String,java.lang.String,java.lang.String,java.lang.String)
-- com.azure.resourcemanager.compute.fluent.VirtualMachineExtensionImagesClient.getAsync(java.lang.String,java.lang.String,java.lang.String,java.lang.String,com.azure.core.util.Context)
-- com.azure.resourcemanager.compute.fluent.VirtualMachineExtensionImagesClient.getWithResponseAsync(java.lang.String,java.lang.String,java.lang.String,java.lang.String)
-- com.azure.resourcemanager.compute.fluent.VirtualMachineExtensionImagesClient.getWithResponseAsync(java.lang.String,java.lang.String,java.lang.String,java.lang.String,com.azure.core.util.Context)
-- com.azure.resourcemanager.compute.fluent.VirtualMachineExtensionImagesClient.listTypes(java.lang.String,java.lang.String)
-- com.azure.resourcemanager.compute.fluent.VirtualMachineExtensionImagesClient.listTypes(java.lang.String,java.lang.String,com.azure.core.util.Context)
-- com.azure.resourcemanager.compute.fluent.VirtualMachineExtensionImagesClient.listTypesAsync(java.lang.String,java.lang.String)
-- com.azure.resourcemanager.compute.fluent.VirtualMachineExtensionImagesClient.listTypesAsync(java.lang.String,java.lang.String,com.azure.core.util.Context)
-- com.azure.resourcemanager.compute.fluent.VirtualMachineExtensionImagesClient.listTypesWithResponseAsync(java.lang.String,java.lang.String)
-- com.azure.resourcemanager.compute.fluent.VirtualMachineExtensionImagesClient.listTypesWithResponseAsync(java.lang.String,java.lang.String,com.azure.core.util.Context)
-- com.azure.resourcemanager.compute.fluent.VirtualMachineExtensionImagesClient.listVersions(java.lang.String,java.lang.String,java.lang.String)
-- com.azure.resourcemanager.compute.fluent.VirtualMachineExtensionImagesClient.listVersions(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.Integer,java.lang.String)
-- com.azure.resourcemanager.compute.fluent.VirtualMachineExtensionImagesClient.listVersions(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.Integer,java.lang.String,com.azure.core.util.Context)
-- com.azure.resourcemanager.compute.fluent.VirtualMachineExtensionImagesClient.listVersionsAsync(java.lang.String,java.lang.String,java.lang.String)
-- com.azure.resourcemanager.compute.fluent.VirtualMachineExtensionImagesClient.listVersionsAsync(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.Integer,java.lang.String)
-- com.azure.resourcemanager.compute.fluent.VirtualMachineExtensionImagesClient.listVersionsAsync(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.Integer,java.lang.String,com.azure.core.util.Context)
-- com.azure.resourcemanager.compute.fluent.VirtualMachineExtensionImagesClient.listVersionsWithResponseAsync(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.Integer,java.lang.String)
-- com.azure.resourcemanager.compute.fluent.VirtualMachineExtensionImagesClient.listVersionsWithResponseAsync(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.Integer,java.lang.String,com.azure.core.util.Context)
-type: class
+- "com.azure.resourcemanager.compute.fluent.VirtualMachineExtensionImagesClient.get(java.lang.String,java.lang.String,java.lang.String,java.lang.String)"
+- "com.azure.resourcemanager.compute.fluent.VirtualMachineExtensionImagesClient.get(java.lang.String,java.lang.String,java.lang.String,java.lang.String,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.compute.fluent.VirtualMachineExtensionImagesClient.getAsync(java.lang.String,java.lang.String,java.lang.String,java.lang.String)"
+- "com.azure.resourcemanager.compute.fluent.VirtualMachineExtensionImagesClient.getAsync(java.lang.String,java.lang.String,java.lang.String,java.lang.String,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.compute.fluent.VirtualMachineExtensionImagesClient.getWithResponseAsync(java.lang.String,java.lang.String,java.lang.String,java.lang.String)"
+- "com.azure.resourcemanager.compute.fluent.VirtualMachineExtensionImagesClient.getWithResponseAsync(java.lang.String,java.lang.String,java.lang.String,java.lang.String,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.compute.fluent.VirtualMachineExtensionImagesClient.listTypes(java.lang.String,java.lang.String)"
+- "com.azure.resourcemanager.compute.fluent.VirtualMachineExtensionImagesClient.listTypes(java.lang.String,java.lang.String,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.compute.fluent.VirtualMachineExtensionImagesClient.listTypesAsync(java.lang.String,java.lang.String)"
+- "com.azure.resourcemanager.compute.fluent.VirtualMachineExtensionImagesClient.listTypesAsync(java.lang.String,java.lang.String,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.compute.fluent.VirtualMachineExtensionImagesClient.listTypesWithResponseAsync(java.lang.String,java.lang.String)"
+- "com.azure.resourcemanager.compute.fluent.VirtualMachineExtensionImagesClient.listTypesWithResponseAsync(java.lang.String,java.lang.String,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.compute.fluent.VirtualMachineExtensionImagesClient.listVersions(java.lang.String,java.lang.String,java.lang.String)"
+- "com.azure.resourcemanager.compute.fluent.VirtualMachineExtensionImagesClient.listVersions(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.Integer,java.lang.String)"
+- "com.azure.resourcemanager.compute.fluent.VirtualMachineExtensionImagesClient.listVersions(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.Integer,java.lang.String,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.compute.fluent.VirtualMachineExtensionImagesClient.listVersionsAsync(java.lang.String,java.lang.String,java.lang.String)"
+- "com.azure.resourcemanager.compute.fluent.VirtualMachineExtensionImagesClient.listVersionsAsync(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.Integer,java.lang.String)"
+- "com.azure.resourcemanager.compute.fluent.VirtualMachineExtensionImagesClient.listVersionsAsync(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.Integer,java.lang.String,com.azure.core.util.Context)"
+- "com.azure.resourcemanager.compute.fluent.VirtualMachineExtensionImagesClient.listVersionsWithResponseAsync(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.Integer,java.lang.String)"
+- "com.azure.resourcemanager.compute.fluent.VirtualMachineExtensionImagesClient.listVersionsWithResponseAsync(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.Integer,java.lang.String,com.azure.core.util.Context)"
+type: "class"
 metadata: {}
-package: com.azure.resourcemanager.compute.fluent
+package: "com.azure.resourcemanager.compute.fluent"
 artifact: com.azure.resourcemanager:azure-resourcemanager-compute:2.0.0-beta.2
