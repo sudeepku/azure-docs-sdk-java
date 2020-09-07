@@ -10,7 +10,8 @@ members:
     name: val
     type: <xref href="Object?alt=Object&text=Object" data-throw-if-not-resolved="False"/>
   exceptions:
-  - name: 3c87bd19
+  - type: <xref href="IllegalArgumentException?alt=IllegalArgumentException&text=IllegalArgumentException" data-throw-if-not-resolved="False"/>
+    description: <p>if the object do not fit the criteria. </p>
   summary: >-
     <p>Helper to validate if the provided object is not null.</p>
 

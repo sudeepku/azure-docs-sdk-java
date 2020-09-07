@@ -25,8 +25,15 @@ members:
     name: callbackContext
     type: <xref href="Object?alt=Object&text=Object" data-throw-if-not-resolved="False"/>
   exceptions:
-  - name: 3c87bd19
-  - name: cbf33bbe
+  - type: <xref href="IllegalArgumentException?alt=IllegalArgumentException&text=IllegalArgumentException" data-throw-if-not-resolved="False"/>
+    description: >-
+      <p>if the provided blob name, or the file path is<code>null 
+
+          </code> , empty or not valid, or if the callback is<code>null 
+
+          </code> . </p>
+  - type: <xref href="IOException?alt=IOException&text=IOException" data-throw-if-not-resolved="False"/>
+    description: <p>if the client cannot create a instance of the FileUpload or the transport. </p>
   summary: >-
     <p>Asynchronously upload a stream to the IoT Hub.</p>
 

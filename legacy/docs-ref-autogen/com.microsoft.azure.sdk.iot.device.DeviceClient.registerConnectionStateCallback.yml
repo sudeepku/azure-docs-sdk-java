@@ -16,7 +16,8 @@ members:
     name: callbackContext
     type: <xref href="Object?alt=Object&text=Object" data-throw-if-not-resolved="False"/>
   exceptions:
-  - name: 3c87bd19
+  - type: <xref href="IllegalArgumentException?alt=IllegalArgumentException&text=IllegalArgumentException" data-throw-if-not-resolved="False"/>
+    description: <p>if the provided callback is null </p>
   summary: <p>Registers a callback to be executed whenever the connection to the device is lost or established. <xrefsect id="deprecated_1_deprecated000061"><xreftitle>Deprecated</xreftitle><xrefdescription><p>as of release 1.10.0 by <xref uid="com.microsoft.azure.sdk.iot.device.InternalClient.registerConnectionStatusChangeCallback(IotHubConnectionStatusChangeCallback,Object)" data-throw-if-not-resolved="false">registerConnectionStatusChangeCallback(IotHubConnectionStatusChangeCallback callback, Object callbackContext)</xref></p></xrefdescription></xrefsect></p>
   syntax: public void registerConnectionStateCallback(IotHubConnectionStateCallback callback, Object callbackContext)
   uid: com.microsoft.azure.sdk.iot.device.DeviceClient.registerConnectionStateCallback(IotHubConnectionStateCallback,Object)

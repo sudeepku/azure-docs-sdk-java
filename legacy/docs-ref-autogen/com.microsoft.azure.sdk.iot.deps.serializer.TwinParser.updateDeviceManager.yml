@@ -16,7 +16,8 @@ members:
     name: statusReason
     type: <xref href="String?alt=String&text=String" data-throw-if-not-resolved="False"/>
   exceptions:
-  - name: 3c87bd19
+  - type: <xref href="IllegalArgumentException?alt=IllegalArgumentException&text=IllegalArgumentException" data-throw-if-not-resolved="False"/>
+    description: <p>This exception is thrown if there are any inconsistent in the provided description. </p>
   returns:
     description: <p>Json with the manager description. Null if nothing change. </p>
     type: <xref href="String?alt=String&text=String" data-throw-if-not-resolved="False"/>

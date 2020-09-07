@@ -31,8 +31,10 @@ members:
     name: deviceMethodStatusCallbackContext
     type: <xref href="Object?alt=Object&text=Object" data-throw-if-not-resolved="False"/>
   exceptions:
-  - name: cbf33bbe
-  - name: 3c87bd19
+  - type: <xref href="IOException?alt=IOException&text=IOException" data-throw-if-not-resolved="False"/>
+    description: <p>if called when client is not opened. </p>
+  - type: <xref href="IllegalArgumentException?alt=IllegalArgumentException&text=IllegalArgumentException" data-throw-if-not-resolved="False"/>
+    description: <p>if either callback are null. </p>
   summary: >-
     <p>Subscribes to device methods</p>
 

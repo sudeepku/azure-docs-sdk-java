@@ -28,12 +28,15 @@ members:
     name: addCustomPrebuiltDomainOptionalParameter
     type: <xref href="com.microsoft.azure.cognitiveservices.language.luis.authoring.models.AddCustomPrebuiltDomainModelsOptionalParameter?alt=com.microsoft.azure.cognitiveservices.language.luis.authoring.models.AddCustomPrebuiltDomainModelsOptionalParameter&text=AddCustomPrebuiltDomainModelsOptionalParameter" data-throw-if-not-resolved="False"/>
   exceptions:
-  - name: 3c87bd19
-  - name: 00ad4777
-  - name: 9b2a4515
+  - type: <xref href="IllegalArgumentException?alt=IllegalArgumentException&text=IllegalArgumentException" data-throw-if-not-resolved="False"/>
+    description: <p>thrown if parameters fail the validation </p>
+  - type: <xref href="ErrorResponseException?alt=ErrorResponseException&text=ErrorResponseException" data-throw-if-not-resolved="False"/>
+    description: <p>thrown if the request is rejected by server </p>
+  - type: <xref href="RuntimeException?alt=RuntimeException&text=RuntimeException" data-throw-if-not-resolved="False"/>
+    description: <p>all other wrapped checked exceptions if the request fails to be sent </p>
   returns:
     description: <p>the List&lt;UUID&gt; object if successful. </p>
-    type: <xref href="List%3CUUID%3E?alt=List<UUID>&text=List%3CUUID%3E" data-throw-if-not-resolved="False"/>
+    type: <xref href="List<UUID>?alt=List<UUID>&text=List%3CUUID%3E" data-throw-if-not-resolved="False"/>
   summary: >-
     <p>Adds a customizable prebuilt domain along with all of its models to this application.</p>
 

@@ -10,7 +10,8 @@ members:
     name: context
     type: <xref href="com.microsoft.azure.eventprocessorhost.PartitionContext?alt=com.microsoft.azure.eventprocessorhost.PartitionContext&text=PartitionContext" data-throw-if-not-resolved="False"/>
   exceptions:
-  - name: 8a99d4b0
+  - type: <xref href="Exception?alt=Exception&text=Exception" data-throw-if-not-resolved="False"/>
+    description: <p>to indicate failure. </p>
   returns:
     description: <p>The event processor object. </p>
     type: <xref href="T?alt=T&text=T" data-throw-if-not-resolved="False"/>

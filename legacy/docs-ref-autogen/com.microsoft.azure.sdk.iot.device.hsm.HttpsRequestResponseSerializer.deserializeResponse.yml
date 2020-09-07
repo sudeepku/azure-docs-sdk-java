@@ -10,7 +10,8 @@ members:
     name: bufferedReader
     type: <xref href="BufferedReader?alt=BufferedReader&text=BufferedReader" data-throw-if-not-resolved="False"/>
   exceptions:
-  - name: cbf33bbe
+  - type: <xref href="IOException?alt=IOException&text=IOException" data-throw-if-not-resolved="False"/>
+    description: <p>if the stream cannot be read from </p>
   returns:
     description: <p>the deserialized response </p>
     type: <xref href="com.microsoft.azure.sdk.iot.device.transport.https.HttpsResponse?alt=com.microsoft.azure.sdk.iot.device.transport.https.HttpsResponse&text=HttpsResponse" data-throw-if-not-resolved="False"/>

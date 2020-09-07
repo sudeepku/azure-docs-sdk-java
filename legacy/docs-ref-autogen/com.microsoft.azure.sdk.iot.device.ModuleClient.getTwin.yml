@@ -6,7 +6,8 @@ members:
   name: getTwin()
   nameWithType: ModuleClient.getTwin()
   exceptions:
-  - name: cbf33bbe
+  - type: <xref href="IOException?alt=IOException&text=IOException" data-throw-if-not-resolved="False"/>
+    description: <p>if the iothub cannot be reached </p>
   summary: <p>Retrieves the twin's latest desired properties </p>
   syntax: public void getTwin()
   uid: com.microsoft.azure.sdk.iot.device.ModuleClient.getTwin()

@@ -6,10 +6,11 @@ members:
   name: readError()
   nameWithType: HttpConnection.readError()
   exceptions:
-  - name: cbf33bbe
+  - type: <xref href="IOException?alt=IOException&text=IOException" data-throw-if-not-resolved="False"/>
+    description: <p>This exception thrown if the input stream could not be accessed, for example if the server could not be reached. </p>
   returns:
     description: <p>The error reason.</p>
-    type: <xref href="byte+%5B%5D?alt=byte []&text=byte+%5B%5D" data-throw-if-not-resolved="False"/>
+    type: <xref href="byte []?alt=byte []&text=byte+%5B%5D" data-throw-if-not-resolved="False"/>
   summary: >-
     <p>Reads from the error stream and returns the error reason.</p>
 

@@ -47,7 +47,8 @@ members:
     name: isPrivateKeyPath
     type: <xref href="boolean?alt=boolean&text=boolean" data-throw-if-not-resolved="False"/>
   exceptions:
-  - name: 3c87bd19
+  - type: <xref href="IllegalArgumentException?alt=IllegalArgumentException&text=IllegalArgumentException" data-throw-if-not-resolved="False"/>
+    description: <p>if the public key certificate or private key is null or empty </p>
   summary: <p>Constructor that takes in a connection string and certificate/private key pair needed to use x509 authentication </p>
   syntax: public IotHubX509SoftwareAuthenticationProvider(String hostname, String gatewayHostname, String deviceId, String moduleId, String publicKeyCertificate, boolean isCertificatePath, String privateKey, boolean isPrivateKeyPath)
   uid: com.microsoft.azure.sdk.iot.device.auth.IotHubX509SoftwareAuthenticationProvider.IotHubX509SoftwareAuthenticationProvider(String,String,String,String,String,boolean,String,boolean)

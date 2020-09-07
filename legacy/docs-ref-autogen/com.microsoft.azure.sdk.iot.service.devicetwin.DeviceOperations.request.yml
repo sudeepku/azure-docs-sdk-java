@@ -17,7 +17,7 @@ members:
     type: <xref href="com.microsoft.azure.sdk.iot.service.transport.http.HttpMethod?alt=com.microsoft.azure.sdk.iot.service.transport.http.HttpMethod&text=HttpMethod" data-throw-if-not-resolved="False"/>
   - description: <p>is the array of bytes that contains the payload. </p>
     name: payload
-    type: <xref href="byte+%5B%5D?alt=byte []&text=byte+%5B%5D" data-throw-if-not-resolved="False"/>
+    type: <xref href="byte []?alt=byte []&text=byte+%5B%5D" data-throw-if-not-resolved="False"/>
   - description: <p>is an unique number that identify the request. </p>
     name: requestId
     type: <xref href="String?alt=String&text=String" data-throw-if-not-resolved="False"/>
@@ -25,8 +25,10 @@ members:
     name: timeoutInMs
     type: <xref href="long?alt=long&text=long" data-throw-if-not-resolved="False"/>
   exceptions:
-  - name: 0d494ee6
-  - name: cbf33bbe
+  - type: <xref href="IotHubException?alt=IotHubException&text=IotHubException" data-throw-if-not-resolved="False"/>
+    description: <p>This exception is thrown if the response verification failed </p>
+  - type: <xref href="IOException?alt=IOException&text=IOException" data-throw-if-not-resolved="False"/>
+    description: <p>This exception is thrown if the IO operation failed </p>
   returns:
     description: <p>the result of the request. </p>
     type: <xref href="com.microsoft.azure.sdk.iot.service.transport.http.HttpResponse?alt=com.microsoft.azure.sdk.iot.service.transport.http.HttpResponse&text=HttpResponse" data-throw-if-not-resolved="False"/>

@@ -6,7 +6,8 @@ members:
   name: downloadBlockList()
   nameWithType: CloudBlockBlob.downloadBlockList()
   exceptions:
-  - name: ca4f407a
+  - type: <xref href="StorageException?alt=StorageException&text=StorageException" data-throw-if-not-resolved="False"/>
+    description: <p>If a storage service error occurred. </p>
   returns:
     description: <p>An <code>ArrayList</code> object of <xref uid="com.microsoft.azure.storage.blob.BlockEntry" data-throw-if-not-resolved="false">BlockEntry</xref> objects that represent the committed list block items downloaded from the block blob.</p>
     type: ArrayList&lt;<xref href="com.microsoft.azure.storage.blob.BlockEntry?alt=com.microsoft.azure.storage.blob.BlockEntry&text=BlockEntry" data-throw-if-not-resolved="False"/>&gt;
@@ -35,7 +36,8 @@ members:
     name: opContext
     type: <xref href="com.microsoft.azure.storage.OperationContext?alt=com.microsoft.azure.storage.OperationContext&text=OperationContext" data-throw-if-not-resolved="False"/>
   exceptions:
-  - name: ca4f407a
+  - type: <xref href="StorageException?alt=StorageException&text=StorageException" data-throw-if-not-resolved="False"/>
+    description: <p>If a storage service error occurred. </p>
   returns:
     description: <p>An <code>ArrayList</code> object of <xref uid="com.microsoft.azure.storage.blob.BlockEntry" data-throw-if-not-resolved="false">BlockEntry</xref> objects that represent the list block items downloaded from the block blob.</p>
     type: ArrayList&lt;<xref href="com.microsoft.azure.storage.blob.BlockEntry?alt=com.microsoft.azure.storage.blob.BlockEntry&text=BlockEntry" data-throw-if-not-resolved="False"/>&gt;

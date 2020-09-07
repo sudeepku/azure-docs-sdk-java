@@ -13,7 +13,8 @@ members:
     name: requestQueryType
     type: <xref href="com.microsoft.azure.sdk.iot.service.devicetwin.QueryType?alt=com.microsoft.azure.sdk.iot.service.devicetwin.QueryType&text=QueryType" data-throw-if-not-resolved="False"/>
   exceptions:
-  - name: 3c87bd19
+  - type: <xref href="IllegalArgumentException?alt=IllegalArgumentException&text=IllegalArgumentException" data-throw-if-not-resolved="False"/>
+    description: <p>if the input parameters are invalid </p>
   summary: <p>Constructor for Query </p>
   syntax: public Query(int pageSize, QueryType requestQueryType)
   uid: com.microsoft.azure.sdk.iot.service.devicetwin.Query.Query(int,QueryType)
@@ -31,7 +32,8 @@ members:
     name: requestQueryType
     type: <xref href="com.microsoft.azure.sdk.iot.service.devicetwin.QueryType?alt=com.microsoft.azure.sdk.iot.service.devicetwin.QueryType&text=QueryType" data-throw-if-not-resolved="False"/>
   exceptions:
-  - name: 3c87bd19
+  - type: <xref href="IllegalArgumentException?alt=IllegalArgumentException&text=IllegalArgumentException" data-throw-if-not-resolved="False"/>
+    description: <p>if the input parameters are invalid </p>
   summary: <p>Constructor for Query </p>
   syntax: public Query(String query, int pageSize, QueryType requestQueryType)
   uid: com.microsoft.azure.sdk.iot.service.devicetwin.Query.Query(String,int,QueryType)

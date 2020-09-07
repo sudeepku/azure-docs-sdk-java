@@ -6,7 +6,8 @@ members:
   name: disconnect()
   nameWithType: Mqtt.disconnect()
   exceptions:
-  - name: 848a9648
+  - type: <xref href="TransportException?alt=TransportException&text=TransportException" data-throw-if-not-resolved="False"/>
+    description: <p>if failed to ends the mqtt connection. </p>
   summary: >-
     <p>Method to disconnect to mqtt broker connection.</p>
 

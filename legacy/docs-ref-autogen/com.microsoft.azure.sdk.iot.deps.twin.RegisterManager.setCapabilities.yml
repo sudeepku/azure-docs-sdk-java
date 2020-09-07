@@ -10,7 +10,8 @@ members:
     name: capabilities
     type: <xref href="com.microsoft.azure.sdk.iot.deps.twin.DeviceCapabilities?alt=com.microsoft.azure.sdk.iot.deps.twin.DeviceCapabilities&text=DeviceCapabilities" data-throw-if-not-resolved="False"/>
   exceptions:
-  - name: 3c87bd19
+  - type: <xref href="IllegalArgumentException?alt=IllegalArgumentException&text=IllegalArgumentException" data-throw-if-not-resolved="False"/>
+    description: <p>If the new capabilities do not fits the ID criteria. </p>
   summary: >-
     <p>Setter for the Capabilities</p>
 

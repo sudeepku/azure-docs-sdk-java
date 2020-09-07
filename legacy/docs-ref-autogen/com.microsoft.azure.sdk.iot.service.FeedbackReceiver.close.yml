@@ -6,7 +6,8 @@ members:
   name: close()
   nameWithType: FeedbackReceiver.close()
   exceptions:
-  - name: cbf33bbe
+  - type: <xref href="IOException?alt=IOException&text=IOException" data-throw-if-not-resolved="False"/>
+    description: <p>This exception is thrown if the input AmqpReceive object is null </p>
   summary: >-
     <p>Close AmqpReceive object</p>
 

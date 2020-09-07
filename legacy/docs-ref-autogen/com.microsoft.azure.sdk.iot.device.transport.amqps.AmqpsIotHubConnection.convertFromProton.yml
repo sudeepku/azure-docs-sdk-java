@@ -13,7 +13,8 @@ members:
     name: deviceClientConfig
     type: <xref href="com.microsoft.azure.sdk.iot.device.DeviceClientConfig?alt=com.microsoft.azure.sdk.iot.device.DeviceClientConfig&text=DeviceClientConfig" data-throw-if-not-resolved="False"/>
   exceptions:
-  - name: 848a9648
+  - type: <xref href="TransportException?alt=TransportException&text=TransportException" data-throw-if-not-resolved="False"/>
+    description: <p>if conversion fails. </p>
   returns:
     description: <p>AmqpsConvertFromProtonReturnValue containing the status and converted message. </p>
     type: <xref href="com.microsoft.azure.sdk.iot.device.transport.amqps.AmqpsConvertFromProtonReturnValue?alt=com.microsoft.azure.sdk.iot.device.transport.amqps.AmqpsConvertFromProtonReturnValue&text=AmqpsConvertFromProtonReturnValue" data-throw-if-not-resolved="False"/>

@@ -6,7 +6,8 @@ members:
   name: run()
   nameWithType: AmqpReactor.run()
   exceptions:
-  - name: a6bbaa8e
+  - type: <xref href="HandlerException?alt=HandlerException&text=HandlerException" data-throw-if-not-resolved="False"/>
+    description: <p>If Protonj failed. </p>
   summary: <p>Main run function to pump Proton messages </p>
   syntax: public void run()
   uid: com.microsoft.azure.sdk.iot.deps.transport.amqp.AmqpReactor.run()

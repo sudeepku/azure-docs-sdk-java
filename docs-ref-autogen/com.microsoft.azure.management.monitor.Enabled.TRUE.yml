@@ -1,12 +1,12 @@
 ### YamlMime:JavaMember
 uid: com.microsoft.azure.management.monitor.Enabled.TRUE
 fullName: com.microsoft.azure.management.monitor.Enabled.TRUE
-name: TRUE
+name: "TRUE"
 nameWithType: Enabled.TRUE
 members:
 - uid: com.microsoft.azure.management.monitor.Enabled.TRUE
   fullName: com.microsoft.azure.management.monitor.Enabled.TRUE
-  name: TRUE
+  name: "TRUE"
   nameWithType: Enabled.TRUE
   summary: Static value true for Enabled.
   syntax: public static final Enabled TRUE

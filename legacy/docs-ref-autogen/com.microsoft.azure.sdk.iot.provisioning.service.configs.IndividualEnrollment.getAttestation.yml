@@ -6,7 +6,8 @@ members:
   name: getAttestation()
   nameWithType: IndividualEnrollment.getAttestation()
   exceptions:
-  - name: 407b0ee3
+  - type: <xref href="ProvisioningServiceClientException?alt=ProvisioningServiceClientException&text=ProvisioningServiceClientException" data-throw-if-not-resolved="False"/>
+    description: <p>If the type of the attestation mechanism is unknown. </p>
   returns:
     description: >-
       <p>The<code>Attestation 

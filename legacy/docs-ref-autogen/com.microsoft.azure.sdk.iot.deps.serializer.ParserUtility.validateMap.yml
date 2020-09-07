@@ -13,9 +13,10 @@ members:
 
           </code> , and it will succeed in this case. </p>
     name: map
-    type: <xref href="Map%3CString%2C+Object%3E?alt=Map<String, Object>&text=Map%3CString%2C+Object%3E" data-throw-if-not-resolved="False"/>
+    type: <xref href="Map<String, Object>?alt=Map<String, Object>&text=Map%3CString%2C+Object%3E" data-throw-if-not-resolved="False"/>
   exceptions:
-  - name: 3c87bd19
+  - type: <xref href="IllegalArgumentException?alt=IllegalArgumentException&text=IllegalArgumentException" data-throw-if-not-resolved="False"/>
+    description: <p>If the Map contains more than maxLevel levels or do not allow metadata but contains metadata key. </p>
   summary: >-
     <p>Helper to validate if the provided map in terms of maximum levels and optionally if the keys ar not metadata.</p>
 

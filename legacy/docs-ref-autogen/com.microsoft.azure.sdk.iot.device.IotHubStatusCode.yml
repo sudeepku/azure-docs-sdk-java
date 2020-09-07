@@ -78,7 +78,8 @@ methods:
     name: httpsStatus
     type: <xref href="int?alt=int&text=int" data-throw-if-not-resolved="False"/>
   exceptions:
-  - name: 3c87bd19
+  - type: 3c87bd19
+    description: <p>if the HTTPS status code does not map to an IoT Hub status code. </p>
   returns:
     description: <p>the corresponding IoT Hub status code.</p>
     type: <xref href="com.microsoft.azure.sdk.iot.device.IotHubStatusCode?alt=com.microsoft.azure.sdk.iot.device.IotHubStatusCode&text=IotHubStatusCode" data-throw-if-not-resolved="False"/>

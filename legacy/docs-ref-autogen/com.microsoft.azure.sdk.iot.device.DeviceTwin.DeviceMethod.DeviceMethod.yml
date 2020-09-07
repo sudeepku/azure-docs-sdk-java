@@ -31,7 +31,8 @@ members:
     name: deviceMethodStatusCallbackContext
     type: <xref href="Object?alt=Object&text=Object" data-throw-if-not-resolved="False"/>
   exceptions:
-  - name: 3c87bd19
+  - type: <xref href="IllegalArgumentException?alt=IllegalArgumentException&text=IllegalArgumentException" data-throw-if-not-resolved="False"/>
+    description: <p>This exception is thrown if either deviceIO or config or deviceMethodStatusCallback are null </p>
   summary: <p>This constructor creates an instance of device method class which helps facilitate the interation for device methods between the user and IotHub. </p>
   syntax: public DeviceMethod(DeviceIO deviceIO, DeviceClientConfig config, IotHubEventCallback deviceMethodStatusCallback, Object deviceMethodStatusCallbackContext)
   uid: com.microsoft.azure.sdk.iot.device.DeviceTwin.DeviceMethod.DeviceMethod(DeviceIO,DeviceClientConfig,IotHubEventCallback,Object)

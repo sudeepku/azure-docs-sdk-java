@@ -10,7 +10,7 @@ members:
     name: outStream
     type: <xref href="OutputStream?alt=OutputStream&text=OutputStream" data-throw-if-not-resolved="False"/>
   exceptions:
-  - name: cbf33bbe
+  - type: <xref href="IOException?alt=IOException&text=IOException" data-throw-if-not-resolved="False"/>
   returns:
     description: <p>A <code>JsonGenerator</code> instance</p>
     type: <xref href="JsonGenerator?alt=JsonGenerator&text=JsonGenerator" data-throw-if-not-resolved="False"/>
@@ -28,7 +28,7 @@ members:
     name: strWriter
     type: <xref href="StringWriter?alt=StringWriter&text=StringWriter" data-throw-if-not-resolved="False"/>
   exceptions:
-  - name: cbf33bbe
+  - type: <xref href="IOException?alt=IOException&text=IOException" data-throw-if-not-resolved="False"/>
   returns:
     description: <p>A <code>JsonGenerator</code> instance</p>
     type: <xref href="JsonGenerator?alt=JsonGenerator&text=JsonGenerator" data-throw-if-not-resolved="False"/>

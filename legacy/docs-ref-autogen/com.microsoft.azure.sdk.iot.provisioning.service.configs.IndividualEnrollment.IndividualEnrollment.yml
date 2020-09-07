@@ -13,7 +13,8 @@ members:
     name: json
     type: <xref href="String?alt=String&text=String" data-throw-if-not-resolved="False"/>
   exceptions:
-  - name: 3c87bd19
+  - type: <xref href="IllegalArgumentException?alt=IllegalArgumentException&text=IllegalArgumentException" data-throw-if-not-resolved="False"/>
+    description: <p>If the provided JSON is null, empty, or invalid. </p>
   summary: >-
     <p>CONSTRUCTOR</p>
 
@@ -78,7 +79,8 @@ members:
     name: attestation
     type: <xref href="com.microsoft.azure.sdk.iot.provisioning.service.configs.Attestation?alt=com.microsoft.azure.sdk.iot.provisioning.service.configs.Attestation&text=Attestation" data-throw-if-not-resolved="False"/>
   exceptions:
-  - name: 3c87bd19
+  - type: <xref href="IllegalArgumentException?alt=IllegalArgumentException&text=IllegalArgumentException" data-throw-if-not-resolved="False"/>
+    description: <p>If one of the provided parameters is not correct. </p>
   summary: >-
     <p>CONSTRUCTOR</p>
 

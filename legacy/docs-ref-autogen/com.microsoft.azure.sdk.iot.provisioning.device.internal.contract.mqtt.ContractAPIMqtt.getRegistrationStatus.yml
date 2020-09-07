@@ -25,11 +25,17 @@ members:
     name: callbackContext
     type: <xref href="Object?alt=Object&text=Object" data-throw-if-not-resolved="False"/>
   exceptions:
-  - name: 352f005b
-  - name: c577ab43
-  - name: dcc21490
+  - type: <xref href="ProvisioningDeviceClientException?alt=ProvisioningDeviceClientException&text=ProvisioningDeviceClientException" data-throw-if-not-resolved="False"/>
+    description: >-
+      <p>If any of the parameters are invalid (<code>null 
+
+          </code> or empty) </p>
+  - type: <xref href="ProvisioningDeviceTransportException?alt=ProvisioningDeviceTransportException&text=ProvisioningDeviceTransportException" data-throw-if-not-resolved="False"/>
+    description: <p>If any of the API calls to transport fail </p>
+  - type: <xref href="ProvisioningDeviceHubException?alt=ProvisioningDeviceHubException&text=ProvisioningDeviceHubException" data-throw-if-not-resolved="False"/>
+    description: <p>If hub responds back with an invalid status </p>
   returns:
-    type: <xref href="synchronized+void?alt=synchronized void&text=synchronized+void" data-throw-if-not-resolved="False"/>
+    type: <xref href="synchronized void?alt=synchronized void&text=synchronized+void" data-throw-if-not-resolved="False"/>
   summary: <p>Gets the registration status over MQTT </p>
   syntax: public synchronized void getRegistrationStatus(RequestData requestData, ResponseCallback responseCallback, Object callbackContext)
   uid: com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.mqtt.ContractAPIMqtt.getRegistrationStatus(RequestData,ResponseCallback,Object)

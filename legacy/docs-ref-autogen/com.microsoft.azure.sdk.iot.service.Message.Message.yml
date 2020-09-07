@@ -14,7 +14,7 @@ members:
   parameters:
   - description: <p>The byte array containing the message body </p>
     name: byteArray
-    type: <xref href="byte+%5B%5D?alt=byte []&text=byte+%5B%5D" data-throw-if-not-resolved="False"/>
+    type: <xref href="byte []?alt=byte []&text=byte+%5B%5D" data-throw-if-not-resolved="False"/>
   summary: '<p>byteArray: a byte array containing the body of the message </p>'
   syntax: public Message(byte[] byteArray)
   uid: com.microsoft.azure.sdk.iot.service.Message.Message(byte [])
@@ -36,7 +36,8 @@ members:
     name: string
     type: <xref href="String?alt=String&text=String" data-throw-if-not-resolved="False"/>
   exceptions:
-  - name: d5427e37
+  - type: <xref href="UnsupportedEncodingException?alt=UnsupportedEncodingException&text=UnsupportedEncodingException" data-throw-if-not-resolved="False"/>
+    description: <p>This exception is thrown if unsupported encoding used </p>
   syntax: public Message(String string)
   uid: com.microsoft.azure.sdk.iot.service.Message.Message(String)
 uid: com.microsoft.azure.sdk.iot.service.Message.Message*

@@ -6,7 +6,8 @@ members:
   name: connect()
   nameWithType: HttpsConnection.connect()
   exceptions:
-  - name: 848a9648
+  - type: <xref href="TransportException?alt=TransportException&text=TransportException" data-throw-if-not-resolved="False"/>
+    description: <p>if the connection could not be established, or the server responded with a bad status code. </p>
   summary: >-
     <p>Sends the request to the URL given in the constructor.</p>
 

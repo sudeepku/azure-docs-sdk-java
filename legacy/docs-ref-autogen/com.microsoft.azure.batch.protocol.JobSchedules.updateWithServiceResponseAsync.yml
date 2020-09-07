@@ -13,7 +13,8 @@ members:
     name: jobScheduleUpdateParameter
     type: <xref href="com.microsoft.azure.batch.protocol.models.JobScheduleUpdateParameter?alt=com.microsoft.azure.batch.protocol.models.JobScheduleUpdateParameter&text=JobScheduleUpdateParameter" data-throw-if-not-resolved="False"/>
   exceptions:
-  - name: 3c87bd19
+  - type: <xref href="IllegalArgumentException?alt=IllegalArgumentException&text=IllegalArgumentException" data-throw-if-not-resolved="False"/>
+    description: <p>thrown if parameters fail the validation </p>
   returns:
     description: <p>the <xref uid="" data-throw-if-not-resolved="false">ServiceResponseWithHeaders</xref> object if successful. </p>
     type: Observable&lt;ServiceResponseWithHeaders&lt;Void, <xref href="com.microsoft.azure.batch.protocol.models.JobScheduleUpdateHeaders?alt=com.microsoft.azure.batch.protocol.models.JobScheduleUpdateHeaders&text=JobScheduleUpdateHeaders" data-throw-if-not-resolved="False"/>&gt;&gt;
@@ -37,7 +38,8 @@ members:
     name: jobScheduleUpdateOptions
     type: <xref href="com.microsoft.azure.batch.protocol.models.JobScheduleUpdateOptions?alt=com.microsoft.azure.batch.protocol.models.JobScheduleUpdateOptions&text=JobScheduleUpdateOptions" data-throw-if-not-resolved="False"/>
   exceptions:
-  - name: 3c87bd19
+  - type: <xref href="IllegalArgumentException?alt=IllegalArgumentException&text=IllegalArgumentException" data-throw-if-not-resolved="False"/>
+    description: <p>thrown if parameters fail the validation </p>
   returns:
     description: <p>the <xref uid="" data-throw-if-not-resolved="false">ServiceResponseWithHeaders</xref> object if successful. </p>
     type: Observable&lt;ServiceResponseWithHeaders&lt;Void, <xref href="com.microsoft.azure.batch.protocol.models.JobScheduleUpdateHeaders?alt=com.microsoft.azure.batch.protocol.models.JobScheduleUpdateHeaders&text=JobScheduleUpdateHeaders" data-throw-if-not-resolved="False"/>&gt;&gt;

@@ -6,7 +6,8 @@ members:
   name: open()
   nameWithType: AmqpsConnection.open()
   exceptions:
-  - name: cbf33bbe
+  - type: <xref href="IOException?alt=IOException&text=IOException" data-throw-if-not-resolved="False"/>
+    description: <p>If connection could not be opened. </p>
   summary: <p>Opens the connection. </p>
   syntax: public void open()
   uid: com.microsoft.azure.sdk.iot.deps.transport.amqp.AmqpsConnection.open()

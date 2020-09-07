@@ -6,7 +6,8 @@ members:
   name: receive()
   nameWithType: Mqtt.receive()
   exceptions:
-  - name: 848a9648
+  - type: <xref href="TransportException?alt=TransportException&text=TransportException" data-throw-if-not-resolved="False"/>
+    description: <p>if failed to receive mqtt message. </p>
   returns:
     description: >-
       <p>a received message. It can be<code>null 

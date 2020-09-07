@@ -13,7 +13,8 @@ members:
     name: provisioningDeviceClientContract
     type: <xref href="com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.ProvisioningDeviceClientContract?alt=com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.ProvisioningDeviceClientContract&text=ProvisioningDeviceClientContract" data-throw-if-not-resolved="False"/>
   exceptions:
-  - name: 352f005b
+  - type: <xref href="ProvisioningDeviceClientException?alt=ProvisioningDeviceClientException&text=ProvisioningDeviceClientException" data-throw-if-not-resolved="False"/>
+    description: <p>If any of the input parameters are invalid then this exception is thrown </p>
   summary: <p>Constructor for creating a provisioning task </p>
   syntax: public ProvisioningTask(ProvisioningDeviceClientConfig provisioningDeviceClientConfig, ProvisioningDeviceClientContract provisioningDeviceClientContract)
   uid: com.microsoft.azure.sdk.iot.provisioning.device.internal.task.ProvisioningTask.ProvisioningTask(ProvisioningDeviceClientConfig,ProvisioningDeviceClientContract)

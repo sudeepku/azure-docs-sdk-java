@@ -6,8 +6,10 @@ members:
   name: startTransaction()
   nameWithType: MessagingFactory.startTransaction()
   exceptions:
-  - name: 73fec9fb
-  - name: 8256ba40
+  - type: <xref href="ServiceBusException?alt=ServiceBusException&text=ServiceBusException" data-throw-if-not-resolved="False"/>
+    description: <p>if transaction fails to start </p>
+  - type: <xref href="InterruptedException?alt=InterruptedException&text=InterruptedException" data-throw-if-not-resolved="False"/>
+    description: <p>if the current thread was interrupted while waiting </p>
   returns:
     description: <p>a new transaction </p>
     type: <xref href="com.microsoft.azure.servicebus.TransactionContext?alt=com.microsoft.azure.servicebus.TransactionContext&text=TransactionContext" data-throw-if-not-resolved="False"/>

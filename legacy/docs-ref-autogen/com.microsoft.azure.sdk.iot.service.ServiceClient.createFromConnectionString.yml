@@ -13,7 +13,8 @@ members:
     name: iotHubServiceClientProtocol
     type: <xref href="com.microsoft.azure.sdk.iot.service.IotHubServiceClientProtocol?alt=com.microsoft.azure.sdk.iot.service.IotHubServiceClientProtocol&text=IotHubServiceClientProtocol" data-throw-if-not-resolved="False"/>
   exceptions:
-  - name: cbf33bbe
+  - type: <xref href="IOException?alt=IOException&text=IOException" data-throw-if-not-resolved="False"/>
+    description: <p>This exception is thrown if the object creation failed </p>
   returns:
     description: <p>The created ServiceClient object </p>
     type: <xref href="com.microsoft.azure.sdk.iot.service.ServiceClient?alt=com.microsoft.azure.sdk.iot.service.ServiceClient&text=ServiceClient" data-throw-if-not-resolved="False"/>

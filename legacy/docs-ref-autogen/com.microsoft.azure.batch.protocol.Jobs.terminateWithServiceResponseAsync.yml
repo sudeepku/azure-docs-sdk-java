@@ -10,7 +10,8 @@ members:
     name: jobId
     type: <xref href="String?alt=String&text=String" data-throw-if-not-resolved="False"/>
   exceptions:
-  - name: 3c87bd19
+  - type: <xref href="IllegalArgumentException?alt=IllegalArgumentException&text=IllegalArgumentException" data-throw-if-not-resolved="False"/>
+    description: <p>thrown if parameters fail the validation </p>
   returns:
     description: <p>the <xref uid="" data-throw-if-not-resolved="false">ServiceResponseWithHeaders</xref> object if successful. </p>
     type: Observable&lt;ServiceResponseWithHeaders&lt;Void, <xref href="com.microsoft.azure.batch.protocol.models.JobTerminateHeaders?alt=com.microsoft.azure.batch.protocol.models.JobTerminateHeaders&text=JobTerminateHeaders" data-throw-if-not-resolved="False"/>&gt;&gt;
@@ -34,7 +35,8 @@ members:
     name: jobTerminateOptions
     type: <xref href="com.microsoft.azure.batch.protocol.models.JobTerminateOptions?alt=com.microsoft.azure.batch.protocol.models.JobTerminateOptions&text=JobTerminateOptions" data-throw-if-not-resolved="False"/>
   exceptions:
-  - name: 3c87bd19
+  - type: <xref href="IllegalArgumentException?alt=IllegalArgumentException&text=IllegalArgumentException" data-throw-if-not-resolved="False"/>
+    description: <p>thrown if parameters fail the validation </p>
   returns:
     description: <p>the <xref uid="" data-throw-if-not-resolved="false">ServiceResponseWithHeaders</xref> object if successful. </p>
     type: Observable&lt;ServiceResponseWithHeaders&lt;Void, <xref href="com.microsoft.azure.batch.protocol.models.JobTerminateHeaders?alt=com.microsoft.azure.batch.protocol.models.JobTerminateHeaders&text=JobTerminateHeaders" data-throw-if-not-resolved="False"/>&gt;&gt;

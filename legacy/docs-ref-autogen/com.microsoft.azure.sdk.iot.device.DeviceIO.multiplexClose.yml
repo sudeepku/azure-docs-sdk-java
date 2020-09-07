@@ -6,7 +6,8 @@ members:
   name: multiplexClose()
   nameWithType: DeviceIO.multiplexClose()
   exceptions:
-  - name: cbf33bbe
+  - type: <xref href="IOException?alt=IOException&text=IOException" data-throw-if-not-resolved="False"/>
+    description: <p>if the connection to an IoT Hub cannot be closed. </p>
   summary: >-
     <p>Completes all current outstanding requests and closes the IoT Hub client. Must be called to terminate the background thread that is sending data to IoT Hub. After<code>close() 
 

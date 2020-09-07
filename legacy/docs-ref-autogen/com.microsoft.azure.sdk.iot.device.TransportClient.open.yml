@@ -6,8 +6,10 @@ members:
   name: open()
   nameWithType: TransportClient.open()
   exceptions:
-  - name: 12fe80de
-  - name: cbf33bbe
+  - type: <xref href="IllegalStateException?alt=IllegalStateException&text=IllegalStateException" data-throw-if-not-resolved="False"/>
+    description: <p>if the connection is already open. </p>
+  - type: <xref href="IOException?alt=IOException&text=IOException" data-throw-if-not-resolved="False"/>
+    description: <p>if the connection to an IoT Hub cannot be opened. </p>
   summary: >-
     <p>Creates a deviceIO and sets it to all the device client. Verifies all device client's SAS tokens and renew them if it is necessary. Opens the transport client connection.</p>
 

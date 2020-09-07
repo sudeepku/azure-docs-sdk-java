@@ -12,7 +12,8 @@ members:
   - name: correlationId
     type: <xref href="UUID?alt=UUID&text=UUID" data-throw-if-not-resolved="False"/>
   exceptions:
-  - name: 848a9648
+  - type: <xref href="TransportException?alt=TransportException&text=TransportException" data-throw-if-not-resolved="False"/>
+    description: <p>when CBS Authentication Message failed to be created </p>
   summary: >-
     <p>Start CBS authentication process by creating an adding authentication message to the send queue</p>
 

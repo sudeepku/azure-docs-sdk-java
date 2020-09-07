@@ -13,7 +13,8 @@ members:
     name: result
     type: <xref href="com.microsoft.azure.sdk.iot.device.IotHubMessageResult?alt=com.microsoft.azure.sdk.iot.device.IotHubMessageResult&text=IotHubMessageResult" data-throw-if-not-resolved="False"/>
   exceptions:
-  - name: 848a9648
+  - type: <xref href="TransportException?alt=TransportException&text=TransportException" data-throw-if-not-resolved="False"/>
+    description: <p>if an exception occurred while sending the acknowledgement </p>
   returns:
     description: <p>true if the acknowledgement was sent successfully, and false otherwise </p>
     type: <xref href="boolean?alt=boolean&text=boolean" data-throw-if-not-resolved="False"/>

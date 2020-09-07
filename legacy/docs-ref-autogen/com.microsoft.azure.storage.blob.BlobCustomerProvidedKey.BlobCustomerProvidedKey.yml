@@ -8,9 +8,10 @@ members:
   parameters:
   - description: <p>The encryption key bytes.</p>
     name: key
-    type: <xref href="byte+%5B%5D?alt=byte []&text=byte+%5B%5D" data-throw-if-not-resolved="False"/>
+    type: <xref href="byte []?alt=byte []&text=byte+%5B%5D" data-throw-if-not-resolved="False"/>
   exceptions:
-  - name: 456eb9d1
+  - type: <xref href="NoSuchAlgorithmException?alt=NoSuchAlgorithmException&text=NoSuchAlgorithmException" data-throw-if-not-resolved="False"/>
+    description: <p>Throws if MessageDigest "SHA-256" cannot be found. </p>
   summary: >-
     <p>Creates a new wrapper for a client provided key.</p>
 
@@ -25,7 +26,8 @@ members:
     name: key
     type: <xref href="String?alt=String&text=String" data-throw-if-not-resolved="False"/>
   exceptions:
-  - name: 456eb9d1
+  - type: <xref href="NoSuchAlgorithmException?alt=NoSuchAlgorithmException&text=NoSuchAlgorithmException" data-throw-if-not-resolved="False"/>
+    description: <p>Throws if MessageDigest "SHA-256" cannot be found. </p>
   summary: >-
     <p>Creates a new wrapper for a client provided key.</p>
 

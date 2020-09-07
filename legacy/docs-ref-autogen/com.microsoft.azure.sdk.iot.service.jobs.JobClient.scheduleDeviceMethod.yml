@@ -43,9 +43,12 @@ members:
     name: maxExecutionTimeInSeconds
     type: <xref href="long?alt=long&text=long" data-throw-if-not-resolved="False"/>
   exceptions:
-  - name: 3c87bd19
-  - name: cbf33bbe
-  - name: 0d494ee6
+  - type: <xref href="IllegalArgumentException?alt=IllegalArgumentException&text=IllegalArgumentException" data-throw-if-not-resolved="False"/>
+    description: <p>if one of the provided parameters is invalid </p>
+  - type: <xref href="IOException?alt=IOException&text=IOException" data-throw-if-not-resolved="False"/>
+    description: <p>if the function cannot create a URL for the job, or the IO failed on request </p>
+  - type: <xref href="IotHubException?alt=IotHubException&text=IotHubException" data-throw-if-not-resolved="False"/>
+    description: <p>if the http request failed </p>
   returns:
     description: <p>a jobResult object </p>
     type: synchronized <xref href="com.microsoft.azure.sdk.iot.service.jobs.JobResult?alt=com.microsoft.azure.sdk.iot.service.jobs.JobResult&text=JobResult" data-throw-if-not-resolved="False"/>

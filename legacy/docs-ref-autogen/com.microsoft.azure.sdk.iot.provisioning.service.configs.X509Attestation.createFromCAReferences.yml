@@ -15,7 +15,8 @@ members:
     name: primary
     type: <xref href="String?alt=String&text=String" data-throw-if-not-resolved="False"/>
   exceptions:
-  - name: 3c87bd19
+  - type: <xref href="IllegalArgumentException?alt=IllegalArgumentException&text=IllegalArgumentException" data-throw-if-not-resolved="False"/>
+    description: <p>if the provide CA reference is invalid. </p>
   returns:
     description: <p>the new instance of the X509Attestation. </p>
     type: <xref href="com.microsoft.azure.sdk.iot.provisioning.service.configs.X509Attestation?alt=com.microsoft.azure.sdk.iot.provisioning.service.configs.X509Attestation&text=X509Attestation" data-throw-if-not-resolved="False"/>
@@ -48,7 +49,8 @@ members:
     name: secondary
     type: <xref href="String?alt=String&text=String" data-throw-if-not-resolved="False"/>
   exceptions:
-  - name: 3c87bd19
+  - type: <xref href="IllegalArgumentException?alt=IllegalArgumentException&text=IllegalArgumentException" data-throw-if-not-resolved="False"/>
+    description: <p>if the provide primary CA reference is invalid. </p>
   returns:
     description: <p>the new instance of the X509Attestation. </p>
     type: <xref href="com.microsoft.azure.sdk.iot.provisioning.service.configs.X509Attestation?alt=com.microsoft.azure.sdk.iot.provisioning.service.configs.X509Attestation&text=X509Attestation" data-throw-if-not-resolved="False"/>

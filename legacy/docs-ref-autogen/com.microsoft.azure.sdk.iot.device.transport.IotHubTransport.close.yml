@@ -13,7 +13,8 @@ members:
     name: cause
     type: <xref href="Throwable?alt=Throwable&text=Throwable" data-throw-if-not-resolved="False"/>
   exceptions:
-  - name: 884c4cdf
+  - type: <xref href="DeviceClientException?alt=DeviceClientException&text=DeviceClientException" data-throw-if-not-resolved="False"/>
+    description: <p>if an error occurs in closing the transport. </p>
   summary: >-
     <p>Closes all resources used to communicate with an IoT Hub. Once<code>close() 
 

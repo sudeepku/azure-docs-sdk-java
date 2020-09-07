@@ -7,7 +7,7 @@ members:
   nameWithType: ContextTagKeys.getDeviceRoleName()
   returns:
     description: <p>current value of DeviceRoleName property </p>
-    type: <xref href="final+String?alt=final String&text=final+String" data-throw-if-not-resolved="False"/>
+    type: <xref href="final String?alt=final String&text=final+String" data-throw-if-not-resolved="False"/>
   summary: >-
     <p>
 

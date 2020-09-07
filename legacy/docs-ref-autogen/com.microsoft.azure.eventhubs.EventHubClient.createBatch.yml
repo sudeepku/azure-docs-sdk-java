@@ -6,7 +6,8 @@ members:
   name: createBatch()
   nameWithType: EventHubClient.createBatch()
   exceptions:
-  - name: ca207911
+  - type: <xref href="EventHubException?alt=EventHubException&text=EventHubException" data-throw-if-not-resolved="False"/>
+    description: <p>if the Microsoft Azure Event Hubs service encountered problems during the operation. </p>
   returns:
     description: <p>the empty <xref uid="com.microsoft.azure.eventhubs.EventDataBatch" data-throw-if-not-resolved="false">EventDataBatch</xref>, after negotiating maximum message size with EventHubs service </p>
     type: default <xref href="com.microsoft.azure.eventhubs.EventDataBatch?alt=com.microsoft.azure.eventhubs.EventDataBatch&text=EventDataBatch" data-throw-if-not-resolved="False"/>
@@ -24,7 +25,8 @@ members:
     name: options
     type: <xref href="com.microsoft.azure.eventhubs.BatchOptions?alt=com.microsoft.azure.eventhubs.BatchOptions&text=BatchOptions" data-throw-if-not-resolved="False"/>
   exceptions:
-  - name: ca207911
+  - type: <xref href="EventHubException?alt=EventHubException&text=EventHubException" data-throw-if-not-resolved="False"/>
+    description: <p>if the Microsoft Azure Event Hubs service encountered problems during the operation. </p>
   returns:
     description: <p>the empty <xref uid="com.microsoft.azure.eventhubs.EventDataBatch" data-throw-if-not-resolved="false">EventDataBatch</xref>, after negotiating maximum message size with EventHubs service </p>
     type: <xref href="com.microsoft.azure.eventhubs.EventDataBatch?alt=com.microsoft.azure.eventhubs.EventDataBatch&text=EventDataBatch" data-throw-if-not-resolved="False"/>

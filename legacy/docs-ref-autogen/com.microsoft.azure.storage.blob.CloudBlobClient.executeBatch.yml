@@ -10,11 +10,13 @@ members:
     name: batch
     type: <xref href="com.microsoft.azure.storage.blob.BlobBatchOperation?alt=com.microsoft.azure.storage.blob.BlobBatchOperation&text=BlobBatchOperation" data-throw-if-not-resolved="False"/>&lt;P, T&gt;
   exceptions:
-  - name: 8d2b7034
-  - name: ca4f407a
+  - type: <xref href="BatchException?alt=BatchException&text=BatchException" data-throw-if-not-resolved="False"/>
+    description: <p>Throws this subset of storage exception if one or more individual requests on the batch fail. </p>
+  - type: <xref href="StorageException?alt=StorageException&text=StorageException" data-throw-if-not-resolved="False"/>
+    description: <p>Throws if an error with the service occurs. </p>
   returns:
     description: <p>A mapping from parent object in the batch to the response for that parent.</p>
-    type: <xref href="%3CP%2C+T%3E+Map%3CP%2C+T%3E?alt=<P, T> Map<P, T>&text=%3CP%2C+T%3E+Map%3CP%2C+T%3E" data-throw-if-not-resolved="False"/>
+    type: <xref href="<P, T> Map<P, T>?alt=<P, T> Map<P, T>&text=%3CP%2C+T%3E+Map%3CP%2C+T%3E" data-throw-if-not-resolved="False"/>
   summary: >-
     <p>Executes a pre-constructed batch operation on the blob service. For more information on constructing blob batch requests, see <xref uid="com.microsoft.azure.storage.blob.BlobBatchOperation" data-throw-if-not-resolved="false">BlobBatchOperation</xref>.</p>
 
@@ -35,11 +37,13 @@ members:
     name: operationContext
     type: <xref href="com.microsoft.azure.storage.OperationContext?alt=com.microsoft.azure.storage.OperationContext&text=OperationContext" data-throw-if-not-resolved="False"/>
   exceptions:
-  - name: 8d2b7034
-  - name: ca4f407a
+  - type: <xref href="BatchException?alt=BatchException&text=BatchException" data-throw-if-not-resolved="False"/>
+    description: <p>Throws this subset of storage exception if one or more individual requests on the batch fail. </p>
+  - type: <xref href="StorageException?alt=StorageException&text=StorageException" data-throw-if-not-resolved="False"/>
+    description: <p>Throws if an error with the service occurs. </p>
   returns:
     description: <p>A mapping from parent object in the batch to the response for that parent.</p>
-    type: <xref href="%3CP%2C+T%3E+Map%3CP%2C+T%3E?alt=<P, T> Map<P, T>&text=%3CP%2C+T%3E+Map%3CP%2C+T%3E" data-throw-if-not-resolved="False"/>
+    type: <xref href="<P, T> Map<P, T>?alt=<P, T> Map<P, T>&text=%3CP%2C+T%3E+Map%3CP%2C+T%3E" data-throw-if-not-resolved="False"/>
   summary: >-
     <p>Executes a pre-constructed batch operation on the blob service. For more information on constructing blob batch requests, see <xref uid="com.microsoft.azure.storage.blob.BlobBatchOperation" data-throw-if-not-resolved="false">BlobBatchOperation</xref>.</p>
 

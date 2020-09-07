@@ -6,7 +6,8 @@ members:
   name: connect()
   nameWithType: Mqtt.connect()
   exceptions:
-  - name: 848a9648
+  - type: <xref href="TransportException?alt=TransportException&text=TransportException" data-throw-if-not-resolved="False"/>
+    description: <p>if failed to establish the mqtt connection. </p>
   summary: >-
     <p>Method to connect to mqtt broker connection.</p>
 

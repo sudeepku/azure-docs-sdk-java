@@ -6,7 +6,8 @@ members:
   name: shutDown()
   nameWithType: SecurityProviderTPMEmulator.shutDown()
   exceptions:
-  - name: f44c259f
+  - type: <xref href="SecurityProviderException?alt=SecurityProviderException&text=SecurityProviderException" data-throw-if-not-resolved="False"/>
+    description: <p>if simulator could not be closed for any reason. </p>
   summary: <p>Closes the simulator if it were running already </p>
   syntax: public void shutDown()
   uid: com.microsoft.azure.sdk.iot.provisioning.security.hsm.SecurityProviderTPMEmulator.shutDown()

@@ -8,13 +8,15 @@ members:
   parameters:
   - description: <p>An <xref uid="" data-throw-if-not-resolved="false">InputStream</xref> object that represents the input stream to write to the block blob. </p>
     name: sourceStream
-    type: <xref href="final+InputStream?alt=final InputStream&text=final+InputStream" data-throw-if-not-resolved="False"/>
+    type: <xref href="final InputStream?alt=final InputStream&text=final+InputStream" data-throw-if-not-resolved="False"/>
   - description: <p>A <code>long</code> which represents the length, in bytes, of the stream data, or -1 if unknown.</p>
     name: length
-    type: <xref href="final+long?alt=final long&text=final+long" data-throw-if-not-resolved="False"/>
+    type: <xref href="final long?alt=final long&text=final+long" data-throw-if-not-resolved="False"/>
   exceptions:
-  - name: cbf33bbe
-  - name: ca4f407a
+  - type: <xref href="IOException?alt=IOException&text=IOException" data-throw-if-not-resolved="False"/>
+    description: <p>If an I/O error occurred. </p>
+  - type: <xref href="StorageException?alt=StorageException&text=StorageException" data-throw-if-not-resolved="False"/>
+    description: <p>If a storage service error occurred. </p>
   summary: >-
     <p>Uploads the source stream data to the block blob. If the blob already exists on the service, it will be overwritten.</p>
 
@@ -27,10 +29,10 @@ members:
   parameters:
   - description: <p>An <xref uid="" data-throw-if-not-resolved="false">InputStream</xref> object that represents the input stream to write to the block blob. </p>
     name: sourceStream
-    type: <xref href="final+InputStream?alt=final InputStream&text=final+InputStream" data-throw-if-not-resolved="False"/>
+    type: <xref href="final InputStream?alt=final InputStream&text=final+InputStream" data-throw-if-not-resolved="False"/>
   - description: <p>A <code>long</code> which represents the length, in bytes, of the stream data, or -1 if unknown. </p>
     name: length
-    type: <xref href="final+long?alt=final long&text=final+long" data-throw-if-not-resolved="False"/>
+    type: <xref href="final long?alt=final long&text=final+long" data-throw-if-not-resolved="False"/>
   - description: <p>An <xref uid="com.microsoft.azure.storage.AccessCondition" data-throw-if-not-resolved="false">AccessCondition</xref> object that represents the access conditions for the blob. </p>
     name: accessCondition
     type: final <xref href="com.microsoft.azure.storage.AccessCondition?alt=com.microsoft.azure.storage.AccessCondition&text=AccessCondition" data-throw-if-not-resolved="False"/>
@@ -41,8 +43,10 @@ members:
     name: opContext
     type: <xref href="com.microsoft.azure.storage.OperationContext?alt=com.microsoft.azure.storage.OperationContext&text=OperationContext" data-throw-if-not-resolved="False"/>
   exceptions:
-  - name: cbf33bbe
-  - name: ca4f407a
+  - type: <xref href="IOException?alt=IOException&text=IOException" data-throw-if-not-resolved="False"/>
+    description: <p>If an I/O error occurred. </p>
+  - type: <xref href="StorageException?alt=StorageException&text=StorageException" data-throw-if-not-resolved="False"/>
+    description: <p>If a storage service error occurred. </p>
   summary: >-
     <p>Uploads the source stream data to the blob, using the specified lease ID, request options, and operation context. If the blob already exists on the service, it will be overwritten.</p>
 
@@ -55,10 +59,10 @@ members:
   parameters:
   - description: <p>An <xref uid="" data-throw-if-not-resolved="false">InputStream</xref> object that represents the input stream to write to the block blob. </p>
     name: sourceStream
-    type: <xref href="final+InputStream?alt=final InputStream&text=final+InputStream" data-throw-if-not-resolved="False"/>
+    type: <xref href="final InputStream?alt=final InputStream&text=final+InputStream" data-throw-if-not-resolved="False"/>
   - description: <p>A <code>long</code> which represents the length, in bytes, of the stream data, or -1 if unknown. </p>
     name: length
-    type: <xref href="final+long?alt=final long&text=final+long" data-throw-if-not-resolved="False"/>
+    type: <xref href="final long?alt=final long&text=final+long" data-throw-if-not-resolved="False"/>
   - description: <p>An String that represents the tier of the blob. </p>
     name: standardBlobTier
     type: final <xref href="com.microsoft.azure.storage.blob.StandardBlobTier?alt=com.microsoft.azure.storage.blob.StandardBlobTier&text=StandardBlobTier" data-throw-if-not-resolved="False"/>
@@ -72,8 +76,10 @@ members:
     name: opContext
     type: <xref href="com.microsoft.azure.storage.OperationContext?alt=com.microsoft.azure.storage.OperationContext&text=OperationContext" data-throw-if-not-resolved="False"/>
   exceptions:
-  - name: cbf33bbe
-  - name: ca4f407a
+  - type: <xref href="IOException?alt=IOException&text=IOException" data-throw-if-not-resolved="False"/>
+    description: <p>If an I/O error occurred. </p>
+  - type: <xref href="StorageException?alt=StorageException&text=StorageException" data-throw-if-not-resolved="False"/>
+    description: <p>If a storage service error occurred. </p>
   summary: >-
     <p>Uploads the source stream data to the blob, using the specified lease ID, request options, and operation context. If the blob already exists on the service, it will be overwritten.</p>
 

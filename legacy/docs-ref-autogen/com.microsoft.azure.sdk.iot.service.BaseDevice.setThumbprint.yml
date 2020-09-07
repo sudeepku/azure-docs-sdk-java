@@ -13,7 +13,8 @@ members:
     name: secondaryThumbprint
     type: <xref href="String?alt=String&text=String" data-throw-if-not-resolved="False"/>
   exceptions:
-  - name: 3c87bd19
+  - type: <xref href="IllegalArgumentException?alt=IllegalArgumentException&text=IllegalArgumentException" data-throw-if-not-resolved="False"/>
+    description: <p>if primaryThumbprint or secondaryThumbprint is null or empty </p>
   summary: >-
     <p>Setter for X509 thumbprint <xrefsect id="deprecated_1_deprecated000086"><xreftitle>Deprecated</xreftitle><xrefdescription><p>as of service-client version 1.15.1, please use <xref uid="com.microsoft.azure.sdk.iot.service.BaseDevice.setThumbprintFinal(String,String)" data-throw-if-not-resolved="false">setThumbprintFinal(String, String)</xref></p></xrefdescription></xrefsect></p>
 

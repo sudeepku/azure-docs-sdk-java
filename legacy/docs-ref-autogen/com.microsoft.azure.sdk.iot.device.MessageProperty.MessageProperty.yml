@@ -18,7 +18,8 @@ members:
     name: value
     type: <xref href="String?alt=String&text=String" data-throw-if-not-resolved="False"/>
   exceptions:
-  - name: 3c87bd19
+  - type: <xref href="IllegalArgumentException?alt=IllegalArgumentException&text=IllegalArgumentException" data-throw-if-not-resolved="False"/>
+    description: <p>if the name and value constitute an invalid IoT Hub message property. A message property can only contain US-ASCII. A message property name cannot be one of the reserved property names. </p>
   summary: >-
     <p>Constructor.</p>
 

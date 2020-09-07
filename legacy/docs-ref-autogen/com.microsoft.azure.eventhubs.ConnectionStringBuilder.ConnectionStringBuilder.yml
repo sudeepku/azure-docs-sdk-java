@@ -19,7 +19,8 @@ members:
     name: connectionString
     type: <xref href="String?alt=String&text=String" data-throw-if-not-resolved="False"/>
   exceptions:
-  - name: 6aada8cf
+  - type: <xref href="IllegalConnectionStringFormatException?alt=IllegalConnectionStringFormatException&text=IllegalConnectionStringFormatException" data-throw-if-not-resolved="False"/>
+    description: <p>when the format of the ConnectionString is not valid </p>
   summary: >-
     <p>ConnectionString format: Endpoint=sb://namespace_DNS_Name;EntityPath=EVENT_HUB_NAME;SharedAccessKeyName=SHARED_ACCESS_KEY_NAME;SharedAccessKey=SHARED_ACCESS_KEY</p>
 

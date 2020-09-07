@@ -10,7 +10,8 @@ members:
     name: directoryName
     type: <xref href="String?alt=String&text=String" data-throw-if-not-resolved="False"/>
   exceptions:
-  - name: "44102508"
+  - type: <xref href="URISyntaxException?alt=URISyntaxException&text=URISyntaxException" data-throw-if-not-resolved="False"/>
+    description: <p>If the resource URI is invalid. </p>
   returns:
     description: <p>A <code>CloudBlobDirectory</code> object that represents a virtual blob directory beneath this directory.</p>
     type: <xref href="com.microsoft.azure.storage.blob.CloudBlobDirectory?alt=com.microsoft.azure.storage.blob.CloudBlobDirectory&text=CloudBlobDirectory" data-throw-if-not-resolved="False"/>

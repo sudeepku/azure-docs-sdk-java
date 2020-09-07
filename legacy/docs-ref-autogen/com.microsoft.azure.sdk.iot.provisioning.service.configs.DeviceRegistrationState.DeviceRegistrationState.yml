@@ -13,7 +13,8 @@ members:
     name: json
     type: <xref href="String?alt=String&text=String" data-throw-if-not-resolved="False"/>
   exceptions:
-  - name: 3c87bd19
+  - type: <xref href="IllegalArgumentException?alt=IllegalArgumentException&text=IllegalArgumentException" data-throw-if-not-resolved="False"/>
+    description: <p>If the provided JSON is null, empty, or invalid. </p>
   summary: >-
     <p>CONSTRUCTOR</p>
 

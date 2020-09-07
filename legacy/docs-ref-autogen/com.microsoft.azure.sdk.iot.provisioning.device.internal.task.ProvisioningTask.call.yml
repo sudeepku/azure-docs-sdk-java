@@ -6,7 +6,8 @@ members:
   name: call()
   nameWithType: ProvisioningTask.call()
   exceptions:
-  - name: 8a99d4b0
+  - type: <xref href="Exception?alt=Exception&text=Exception" data-throw-if-not-resolved="False"/>
+    description: <p>This exception is thrown if any of the exception during execution is not handled. </p>
   returns:
     description: >-
       <p>Returns<code>null 

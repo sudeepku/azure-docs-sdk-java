@@ -6,7 +6,8 @@ members:
   name: getRowCount()
   nameWithType: MultiShardResultSet.getRowCount()
   exceptions:
-  - name: 059e24ad
+  - type: <xref href="SQLException?alt=SQLException&text=SQLException" data-throw-if-not-resolved="False"/>
+    description: <p>Exception thrown by any corrupted result set </p>
   returns:
     description: <p>Total Number of Rows </p>
     type: <xref href="int?alt=int&text=int" data-throw-if-not-resolved="False"/>

@@ -16,8 +16,10 @@ members:
     name: fileName
     type: <xref href="String?alt=String&text=String" data-throw-if-not-resolved="False"/>
   exceptions:
-  - name: c8683d81
-  - name: cbf33bbe
+  - type: <xref href="BatchErrorException?alt=BatchErrorException&text=BatchErrorException" data-throw-if-not-resolved="False"/>
+    description: <p>Exception thrown when an error response is received from the Batch service. </p>
+  - type: <xref href="IOException?alt=IOException&text=IOException" data-throw-if-not-resolved="False"/>
+    description: <p>Exception thrown when there is an error in serialization/deserialization of data sent to/received from the Batch service. </p>
   summary: >-
     <p>Deletes the specified file from the specified task's directory on its compute node.</p>
 
@@ -41,8 +43,10 @@ members:
     name: recursive
     type: <xref href="Boolean?alt=Boolean&text=Boolean" data-throw-if-not-resolved="False"/>
   exceptions:
-  - name: c8683d81
-  - name: cbf33bbe
+  - type: <xref href="BatchErrorException?alt=BatchErrorException&text=BatchErrorException" data-throw-if-not-resolved="False"/>
+    description: <p>Exception thrown when an error response is received from the Batch service. </p>
+  - type: <xref href="IOException?alt=IOException&text=IOException" data-throw-if-not-resolved="False"/>
+    description: <p>Exception thrown when there is an error in serialization/deserialization of data sent to/received from the Batch service. </p>
   summary: >-
     <p>Deletes the specified file from the specified task's directory on its compute node.</p>
 
@@ -69,8 +73,10 @@ members:
     name: additionalBehaviors
     type: Iterable&lt;<xref href="com.microsoft.azure.batch.BatchClientBehavior?alt=com.microsoft.azure.batch.BatchClientBehavior&text=BatchClientBehavior" data-throw-if-not-resolved="False"/>&gt;
   exceptions:
-  - name: c8683d81
-  - name: cbf33bbe
+  - type: <xref href="BatchErrorException?alt=BatchErrorException&text=BatchErrorException" data-throw-if-not-resolved="False"/>
+    description: <p>Exception thrown when an error response is received from the Batch service. </p>
+  - type: <xref href="IOException?alt=IOException&text=IOException" data-throw-if-not-resolved="False"/>
+    description: <p>Exception thrown when there is an error in serialization/deserialization of data sent to/received from the Batch service. </p>
   summary: >-
     <p>Deletes the specified file from the specified task's directory on its compute node.</p>
 

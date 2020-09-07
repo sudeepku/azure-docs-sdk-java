@@ -11,7 +11,7 @@ members:
     type: <xref href="com.microsoft.azure.servicebus.rules.RuleDescription?alt=com.microsoft.azure.servicebus.rules.RuleDescription&text=RuleDescription" data-throw-if-not-resolved="False"/>
   returns:
     description: <p>a CompletableFuture representing the pending rule add operation. </p>
-    type: <xref href="CompletableFuture%3CVoid%3E?alt=CompletableFuture<Void>&text=CompletableFuture%3CVoid%3E" data-throw-if-not-resolved="False"/>
+    type: <xref href="CompletableFuture<Void>?alt=CompletableFuture<Void>&text=CompletableFuture%3CVoid%3E" data-throw-if-not-resolved="False"/>
   summary: >-
     <p>Asynchronously adds a rule to the current subscription to filter the messages reaching from topic to the subscription.</p>
 
@@ -30,7 +30,7 @@ members:
     type: <xref href="com.microsoft.azure.servicebus.rules.Filter?alt=com.microsoft.azure.servicebus.rules.Filter&text=Filter" data-throw-if-not-resolved="False"/>
   returns:
     description: <p>a CompletableFuture representing the pending rule add operation. </p>
-    type: <xref href="CompletableFuture%3CVoid%3E?alt=CompletableFuture<Void>&text=CompletableFuture%3CVoid%3E" data-throw-if-not-resolved="False"/>
+    type: <xref href="CompletableFuture<Void>?alt=CompletableFuture<Void>&text=CompletableFuture%3CVoid%3E" data-throw-if-not-resolved="False"/>
   summary: >-
     <p>Asynchronously adds a rule with specified name and <xref uid="" data-throw-if-not-resolved="false">Filter</xref> to the current subscription to filter the messages reaching from topic to the subscription.</p>
 

@@ -6,7 +6,8 @@ members:
   name: getRegistrationId()
   nameWithType: SecurityProviderTPMEmulator.getRegistrationId()
   exceptions:
-  - name: f44c259f
+  - type: <xref href="SecurityProviderException?alt=SecurityProviderException&text=SecurityProviderException" data-throw-if-not-resolved="False"/>
+    description: <p>If registration ID could not be extracted </p>
   returns:
     description: <p>The registration ID tied to this registration instance </p>
     type: <xref href="String?alt=String&text=String" data-throw-if-not-resolved="False"/>

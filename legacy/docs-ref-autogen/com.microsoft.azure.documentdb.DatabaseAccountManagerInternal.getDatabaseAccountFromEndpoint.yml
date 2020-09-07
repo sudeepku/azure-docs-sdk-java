@@ -10,7 +10,8 @@ members:
     name: endpoint
     type: <xref href="URI?alt=URI&text=URI" data-throw-if-not-resolved="False"/>
   exceptions:
-  - name: deb9d423
+  - type: <xref href="DocumentClientException?alt=DocumentClientException&text=DocumentClientException" data-throw-if-not-resolved="False"/>
+    description: <p>the document client exception. </p>
   returns:
     description: <p>the database account. </p>
     type: <xref href="com.microsoft.azure.documentdb.DatabaseAccount?alt=com.microsoft.azure.documentdb.DatabaseAccount&text=DatabaseAccount" data-throw-if-not-resolved="False"/>

@@ -16,8 +16,10 @@ members:
     name: userId
     type: <xref href="String?alt=String&text=String" data-throw-if-not-resolved="False"/>
   exceptions:
-  - name: 405643ff
-  - name: 8256ba40
+  - type: <xref href="AuthenticationException?alt=AuthenticationException&text=AuthenticationException" data-throw-if-not-resolved="False"/>
+    description: <p>If silent request fails to get the token back. </p>
+  - type: <xref href="InterruptedException?alt=InterruptedException&text=InterruptedException" data-throw-if-not-resolved="False"/>
+    description: <p>If the main thread is interrupted before or during the activity. </p>
   returns:
     description: <p>A <xref uid="" data-throw-if-not-resolved="false">Future</xref> object representing the <xref uid="com.microsoft.aad.adal.AuthenticationResult" data-throw-if-not-resolved="false">AuthenticationResult</xref> of the call. It contains Access Token,the Access Token's expiration time, Refresh token, and <xref uid="com.microsoft.aad.adal.UserInfo" data-throw-if-not-resolved="false">UserInfo</xref>. </p>
     type: <xref href="com.microsoft.aad.adal.AuthenticationResult?alt=com.microsoft.aad.adal.AuthenticationResult&text=AuthenticationResult" data-throw-if-not-resolved="False"/>
@@ -42,10 +44,12 @@ members:
     type: <xref href="String?alt=String&text=String" data-throw-if-not-resolved="False"/>
   - description: <p>Optional. The claims challenge returned from middle tier service, will be added as query string to authorize endpoint. </p>
     name: claims
-    type: <xref href="%40Nullable+String?alt=@Nullable String&text=%40Nullable+String" data-throw-if-not-resolved="False"/>
+    type: <xref href="@Nullable String?alt=@Nullable String&text=%40Nullable+String" data-throw-if-not-resolved="False"/>
   exceptions:
-  - name: 405643ff
-  - name: 8256ba40
+  - type: <xref href="AuthenticationException?alt=AuthenticationException&text=AuthenticationException" data-throw-if-not-resolved="False"/>
+    description: <p>If silent request fails to get the token back. </p>
+  - type: <xref href="InterruptedException?alt=InterruptedException&text=InterruptedException" data-throw-if-not-resolved="False"/>
+    description: <p>If the main thread is interrupted before or during the activity. </p>
   returns:
     description: <p>A <xref uid="" data-throw-if-not-resolved="false">Future</xref> object representing the <xref uid="com.microsoft.aad.adal.AuthenticationResult" data-throw-if-not-resolved="false">AuthenticationResult</xref> of the call. It contains Access Token,the Access Token's expiration time, Refresh token, and <xref uid="com.microsoft.aad.adal.UserInfo" data-throw-if-not-resolved="false">UserInfo</xref>. </p>
     type: <xref href="com.microsoft.aad.adal.AuthenticationResult?alt=com.microsoft.aad.adal.AuthenticationResult&text=AuthenticationResult" data-throw-if-not-resolved="False"/>
@@ -72,8 +76,10 @@ members:
     name: forceRefresh
     type: <xref href="boolean?alt=boolean&text=boolean" data-throw-if-not-resolved="False"/>
   exceptions:
-  - name: 405643ff
-  - name: 8256ba40
+  - type: <xref href="AuthenticationException?alt=AuthenticationException&text=AuthenticationException" data-throw-if-not-resolved="False"/>
+    description: <p>If silent request fails to get the token back. </p>
+  - type: <xref href="InterruptedException?alt=InterruptedException&text=InterruptedException" data-throw-if-not-resolved="False"/>
+    description: <p>If the main thread is interrupted before or during the activity. </p>
   returns:
     description: <p>A <xref uid="" data-throw-if-not-resolved="false">Future</xref> object representing the <xref uid="com.microsoft.aad.adal.AuthenticationResult" data-throw-if-not-resolved="false">AuthenticationResult</xref> of the call. It contains Access Token,the Access Token's expiration time, Refresh token, and <xref uid="com.microsoft.aad.adal.UserInfo" data-throw-if-not-resolved="false">UserInfo</xref>. </p>
     type: <xref href="com.microsoft.aad.adal.AuthenticationResult?alt=com.microsoft.aad.adal.AuthenticationResult&text=AuthenticationResult" data-throw-if-not-resolved="False"/>

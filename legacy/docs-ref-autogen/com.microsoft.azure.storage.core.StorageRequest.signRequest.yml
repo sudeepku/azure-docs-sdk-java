@@ -16,9 +16,9 @@ members:
     name: context
     type: <xref href="com.microsoft.azure.storage.OperationContext?alt=com.microsoft.azure.storage.OperationContext&text=OperationContext" data-throw-if-not-resolved="False"/>
   exceptions:
-  - name: 8a99d4b0
+  - type: <xref href="Exception?alt=Exception&text=Exception" data-throw-if-not-resolved="False"/>
   returns:
-    type: <xref href="abstract+void?alt=abstract void&text=abstract+void" data-throw-if-not-resolved="False"/>
+    type: <xref href="abstract void?alt=abstract void&text=abstract+void" data-throw-if-not-resolved="False"/>
   summary: >-
     <p>Function to Sign headers.</p>
 

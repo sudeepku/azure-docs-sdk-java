@@ -26,7 +26,8 @@ members:
     name: templateJson
     type: <xref href="String?alt=String&text=String" data-throw-if-not-resolved="False"/>
   exceptions:
-  - name: cbf33bbe
+  - type: <xref href="IOException?alt=IOException&text=IOException" data-throw-if-not-resolved="False"/>
+    description: <p>exception thrown from serialization/deserialization </p>
   returns:
     description: <p>the next stage of the deployment update </p>
     type: <xref href="com.microsoft.azure.management.resources.Deployment.Update?alt=com.microsoft.azure.management.resources.Deployment.Update&text=Deployment.Update" data-throw-if-not-resolved="False"/>

@@ -6,7 +6,8 @@ members:
   name: open()
   nameWithType: ServiceClient.open()
   exceptions:
-  - name: cbf33bbe
+  - type: <xref href="IOException?alt=IOException&text=IOException" data-throw-if-not-resolved="False"/>
+    description: <p>This exception is thrown if the AmqpSender object is not initialized </p>
   summary: <p>Open AMQP sender </p>
   syntax: public void open()
   uid: com.microsoft.azure.sdk.iot.service.ServiceClient.open()

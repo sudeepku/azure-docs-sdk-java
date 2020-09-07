@@ -6,8 +6,10 @@ members:
   name: getContainer()
   nameWithType: ListBlobItem.getContainer()
   exceptions:
-  - name: ca4f407a
-  - name: "44102508"
+  - type: <xref href="StorageException?alt=StorageException&text=StorageException" data-throw-if-not-resolved="False"/>
+    description: <p>If a storage service error occurred. </p>
+  - type: <xref href="URISyntaxException?alt=URISyntaxException&text=URISyntaxException" data-throw-if-not-resolved="False"/>
+    description: <p>If the resource URI is invalid. </p>
   returns:
     description: <p>A <xref uid="com.microsoft.azure.storage.blob.CloudBlobContainer" data-throw-if-not-resolved="false">CloudBlobContainer</xref> object which represents the blob item's container.</p>
     type: <xref href="com.microsoft.azure.storage.blob.CloudBlobContainer?alt=com.microsoft.azure.storage.blob.CloudBlobContainer&text=CloudBlobContainer" data-throw-if-not-resolved="False"/>

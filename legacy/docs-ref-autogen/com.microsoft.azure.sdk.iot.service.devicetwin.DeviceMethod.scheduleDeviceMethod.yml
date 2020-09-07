@@ -40,8 +40,10 @@ members:
     name: maxExecutionTimeInSeconds
     type: <xref href="long?alt=long&text=long" data-throw-if-not-resolved="False"/>
   exceptions:
-  - name: cbf33bbe
-  - name: 0d494ee6
+  - type: <xref href="IOException?alt=IOException&text=IOException" data-throw-if-not-resolved="False"/>
+    description: <p>if the function contains invalid parameters </p>
+  - type: <xref href="IotHubException?alt=IotHubException&text=IotHubException" data-throw-if-not-resolved="False"/>
+    description: <p>if the http request failed </p>
   returns:
     description: <p>a Job class that represent this job on IotHub </p>
     type: <xref href="com.microsoft.azure.sdk.iot.service.devicetwin.Job?alt=com.microsoft.azure.sdk.iot.service.devicetwin.Job&text=Job" data-throw-if-not-resolved="False"/>

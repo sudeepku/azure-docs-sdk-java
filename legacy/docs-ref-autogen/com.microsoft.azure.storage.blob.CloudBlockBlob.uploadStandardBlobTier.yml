@@ -10,7 +10,8 @@ members:
     name: standardBlobTier
     type: final <xref href="com.microsoft.azure.storage.blob.StandardBlobTier?alt=com.microsoft.azure.storage.blob.StandardBlobTier&text=StandardBlobTier" data-throw-if-not-resolved="False"/>
   exceptions:
-  - name: ca4f407a
+  - type: <xref href="StorageException?alt=StorageException&text=StorageException" data-throw-if-not-resolved="False"/>
+    description: <p>If a storage service error occurred. </p>
   summary: <p>Sets the blob tier on a block blob on a standard storage account. </p>
   syntax: public void uploadStandardBlobTier(final StandardBlobTier standardBlobTier)
   uid: com.microsoft.azure.storage.blob.CloudBlockBlob.uploadStandardBlobTier(final StandardBlobTier)
@@ -28,7 +29,8 @@ members:
     name: opContext
     type: <xref href="com.microsoft.azure.storage.OperationContext?alt=com.microsoft.azure.storage.OperationContext&text=OperationContext" data-throw-if-not-resolved="False"/>
   exceptions:
-  - name: ca4f407a
+  - type: <xref href="StorageException?alt=StorageException&text=StorageException" data-throw-if-not-resolved="False"/>
+    description: <p>If a storage service error occurred. </p>
   summary: <p>Sets the tier on a block blob on a standard storage account. </p>
   syntax: public void uploadStandardBlobTier(final StandardBlobTier standardBlobTier, BlobRequestOptions options, OperationContext opContext)
   uid: com.microsoft.azure.storage.blob.CloudBlockBlob.uploadStandardBlobTier(final StandardBlobTier,BlobRequestOptions,OperationContext)
@@ -49,7 +51,8 @@ members:
     name: opContext
     type: <xref href="com.microsoft.azure.storage.OperationContext?alt=com.microsoft.azure.storage.OperationContext&text=OperationContext" data-throw-if-not-resolved="False"/>
   exceptions:
-  - name: ca4f407a
+  - type: <xref href="StorageException?alt=StorageException&text=StorageException" data-throw-if-not-resolved="False"/>
+    description: <p>If a storage service error occurred. </p>
   summary: <p>Sets the tier on a block blob on a standard storage account. </p>
   syntax: public void uploadStandardBlobTier(final StandardBlobTier standardBlobTier, RehydratePriority rehydratePriority, BlobRequestOptions options, OperationContext opContext)
   uid: com.microsoft.azure.storage.blob.CloudBlockBlob.uploadStandardBlobTier(final StandardBlobTier,RehydratePriority,BlobRequestOptions,OperationContext)

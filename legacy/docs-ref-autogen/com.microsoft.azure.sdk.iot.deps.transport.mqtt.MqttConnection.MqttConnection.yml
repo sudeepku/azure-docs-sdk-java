@@ -28,7 +28,8 @@ members:
     name: useWebSockets
     type: <xref href="boolean?alt=boolean&text=boolean" data-throw-if-not-resolved="False"/>
   exceptions:
-  - name: cbf33bbe
+  - type: <xref href="IOException?alt=IOException&text=IOException" data-throw-if-not-resolved="False"/>
+    description: <p>is thrown if any of the parameters are null or empty or client cannot be instantiated </p>
   summary: <p>Constructor to create MqttAsync Client with Paho </p>
   syntax: public MqttConnection(String hostname, String clientId, String userName, String password, SSLContext sslContext, MqttListener listener, boolean useWebSockets)
   uid: com.microsoft.azure.sdk.iot.deps.transport.mqtt.MqttConnection.MqttConnection(String,String,String,String,SSLContext,MqttListener,boolean)

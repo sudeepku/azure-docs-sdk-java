@@ -25,8 +25,27 @@ members:
     name: protocol
     type: <xref href="com.microsoft.azure.sdk.iot.device.IotHubClientProtocol?alt=com.microsoft.azure.sdk.iot.device.IotHubClientProtocol&text=IotHubClientProtocol" data-throw-if-not-resolved="False"/>
   exceptions:
-  - name: 3c87bd19
-  - name: "44102508"
+  - type: <xref href="IllegalArgumentException?alt=IllegalArgumentException&text=IllegalArgumentException" data-throw-if-not-resolved="False"/>
+    description: >-
+      <p>if any of<code>connString 
+
+          </code> or <code>protocol 
+
+          </code> are<code>null 
+
+          </code> ; or if<code>connString 
+
+          </code> is missing one of the following attributes:<code>HostName 
+
+          </code> ,<code>DeviceId 
+
+          </code> , or <code>SharedAccessKey 
+
+          </code> or if the IoT hub hostname does not conform to RFC 3986 or if the provided<code>connString 
+
+          </code> is for an x509 authenticated device </p>
+  - type: <xref href="URISyntaxException?alt=URISyntaxException&text=URISyntaxException" data-throw-if-not-resolved="False"/>
+    description: <p>if the hostname in the connection string is not a valid URI </p>
   summary: >-
     <p>Constructor that takes a connection string as an argument.</p>
 
@@ -47,7 +66,8 @@ members:
     name: sslContext
     type: <xref href="SSLContext?alt=SSLContext&text=SSLContext" data-throw-if-not-resolved="False"/>
   exceptions:
-  - name: "44102508"
+  - type: <xref href="URISyntaxException?alt=URISyntaxException&text=URISyntaxException" data-throw-if-not-resolved="False"/>
+    description: <p>if the hostname in the connection string is not a valid URI </p>
   summary: <p>Creates a device client that uses the provided SSLContext for SSL negotiation </p>
   syntax: public DeviceClient(String connString, IotHubClientProtocol protocol, SSLContext sslContext)
   uid: com.microsoft.azure.sdk.iot.device.DeviceClient.DeviceClient(String,IotHubClientProtocol,SSLContext)
@@ -74,7 +94,8 @@ members:
     name: isPrivateKeyPath
     type: <xref href="boolean?alt=boolean&text=boolean" data-throw-if-not-resolved="False"/>
   exceptions:
-  - name: "44102508"
+  - type: <xref href="URISyntaxException?alt=URISyntaxException&text=URISyntaxException" data-throw-if-not-resolved="False"/>
+    description: <p>if the hostname in the connection string is not a valid URI </p>
   summary: >-
     <p>Constructor that uses x509 authentication for communicating with IotHub</p>
 
@@ -99,9 +120,25 @@ members:
     name: transportClient
     type: <xref href="com.microsoft.azure.sdk.iot.device.TransportClient?alt=com.microsoft.azure.sdk.iot.device.TransportClient&text=TransportClient" data-throw-if-not-resolved="False"/>
   exceptions:
-  - name: 3c87bd19
-  - name: "44102508"
-  - name: b1c38b44
+  - type: <xref href="IllegalArgumentException?alt=IllegalArgumentException&text=IllegalArgumentException" data-throw-if-not-resolved="False"/>
+    description: >-
+      <p>if<code>connString 
+
+          </code> or if<code>connString 
+
+          </code> is missing one of the following attributes:<code>HostName 
+
+          </code> ,<code>DeviceId 
+
+          </code> , or <code>SharedAccessKey 
+
+          </code> or if the IoT hub hostname does not conform to RFC 3986 or if the provided<code>connString 
+
+          </code> is for an x509 authenticated device </p>
+  - type: <xref href="URISyntaxException?alt=URISyntaxException&text=URISyntaxException" data-throw-if-not-resolved="False"/>
+    description: <p>if the hostname in the connection string is not a valid URI </p>
+  - type: <xref href="UnsupportedOperationException?alt=UnsupportedOperationException&text=UnsupportedOperationException" data-throw-if-not-resolved="False"/>
+    description: <p>if the connection string belongs to a module rather than a device </p>
   summary: >-
     <p>Constructor that takes a connection string and a transport client as an argument.</p>
 

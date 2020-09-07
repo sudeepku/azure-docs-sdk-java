@@ -10,7 +10,7 @@ members:
     name: handleID
     type: <xref href="String?alt=String&text=String" data-throw-if-not-resolved="False"/>
   exceptions:
-  - name: ca4f407a
+  - type: <xref href="StorageException?alt=StorageException&text=StorageException" data-throw-if-not-resolved="False"/>
   returns:
     description: <p>A <xref uid="com.microsoft.azure.storage.ResultSegment" data-throw-if-not-resolved="false">ResultSegment</xref> which has one element which is the number of handles closed and a continuation to follow in case the operation took too long to be completed atomically. </p>
     type: <xref href="com.microsoft.azure.storage.ResultSegment?alt=com.microsoft.azure.storage.ResultSegment&text=ResultSegment" data-throw-if-not-resolved="False"/>&lt;Integer&gt;
@@ -37,7 +37,7 @@ members:
     name: opContext
     type: <xref href="com.microsoft.azure.storage.OperationContext?alt=com.microsoft.azure.storage.OperationContext&text=OperationContext" data-throw-if-not-resolved="False"/>
   exceptions:
-  - name: ca4f407a
+  - type: <xref href="StorageException?alt=StorageException&text=StorageException" data-throw-if-not-resolved="False"/>
   returns:
     description: <p>A <xref uid="com.microsoft.azure.storage.ResultSegment" data-throw-if-not-resolved="false">ResultSegment</xref> which has one element which is the number of handles closed and a continuation to follow in case the operation took too long to be completed atomically. </p>
     type: <xref href="com.microsoft.azure.storage.ResultSegment?alt=com.microsoft.azure.storage.ResultSegment&text=ResultSegment" data-throw-if-not-resolved="False"/>&lt;Integer&gt;

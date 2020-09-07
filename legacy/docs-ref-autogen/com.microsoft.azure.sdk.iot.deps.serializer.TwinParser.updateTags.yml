@@ -8,10 +8,12 @@ members:
   parameters:
   - description: <p>- Map of `tags` to change the collection. </p>
     name: tagsMap
-    type: <xref href="Map%3CString%2C+Object%3E?alt=Map<String, Object>&text=Map%3CString%2C+Object%3E" data-throw-if-not-resolved="False"/>
+    type: <xref href="Map<String, Object>?alt=Map<String, Object>&text=Map%3CString%2C+Object%3E" data-throw-if-not-resolved="False"/>
   exceptions:
-  - name: 3c87bd19
-  - name: cbf33bbe
+  - type: <xref href="IllegalArgumentException?alt=IllegalArgumentException&text=IllegalArgumentException" data-throw-if-not-resolved="False"/>
+    description: <p>This exception is thrown if the tags in the map do not fits the requirements. </p>
+  - type: <xref href="IOException?alt=IOException&text=IOException" data-throw-if-not-resolved="False"/>
+    description: <p>This exception is thrown if tags the is not enabled. </p>
   returns:
     description: <p>Json with added or changed tags </p>
     type: <xref href="String?alt=String&text=String" data-throw-if-not-resolved="False"/>

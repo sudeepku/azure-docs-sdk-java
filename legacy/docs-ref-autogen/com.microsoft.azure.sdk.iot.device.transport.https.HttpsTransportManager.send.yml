@@ -11,10 +11,12 @@ members:
     name: message
     type: <xref href="com.microsoft.azure.sdk.iot.device.transport.IotHubTransportMessage?alt=com.microsoft.azure.sdk.iot.device.transport.IotHubTransportMessage&text=IotHubTransportMessage" data-throw-if-not-resolved="False"/>
   - name: additionalHeaders
-    type: <xref href="Map%3CString%2C+String%3E?alt=Map<String, String>&text=Map%3CString%2C+String%3E" data-throw-if-not-resolved="False"/>
+    type: <xref href="Map<String, String>?alt=Map<String, String>&text=Map%3CString%2C+String%3E" data-throw-if-not-resolved="False"/>
   exceptions:
-  - name: cbf33bbe
-  - name: 3c87bd19
+  - type: <xref href="IOException?alt=IOException&text=IOException" data-throw-if-not-resolved="False"/>
+    description: <p>if the IotHub communication failed. </p>
+  - type: <xref href="IllegalArgumentException?alt=IllegalArgumentException&text=IllegalArgumentException" data-throw-if-not-resolved="False"/>
+    description: <p>if the provided message is null, or invalid. </p>
   returns:
     description: <p>the IotHub response with the status and payload. </p>
     type: <xref href="com.microsoft.azure.sdk.iot.device.ResponseMessage?alt=com.microsoft.azure.sdk.iot.device.ResponseMessage&text=ResponseMessage" data-throw-if-not-resolved="False"/>

@@ -33,7 +33,8 @@ members:
     name: pageSize
     type: <xref href="int?alt=int&text=int" data-throw-if-not-resolved="False"/>
   exceptions:
-  - name: 3c87bd19
+  - type: <xref href="IllegalArgumentException?alt=IllegalArgumentException&text=IllegalArgumentException" data-throw-if-not-resolved="False"/>
+    description: <p>if one of the parameters is invalid. </p>
   summary: >-
     <p>INTERNAL CONSTRUCTOR</p>
 

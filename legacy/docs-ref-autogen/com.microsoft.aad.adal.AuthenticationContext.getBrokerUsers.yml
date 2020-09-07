@@ -6,9 +6,12 @@ members:
   name: getBrokerUsers()
   nameWithType: AuthenticationContext.getBrokerUsers()
   exceptions:
-  - name: cbf33bbe
-  - name: 8524c09c
-  - name: 74a92782
+  - type: <xref href="IOException?alt=IOException&text=IOException" data-throw-if-not-resolved="False"/>
+    description: <p>if the broker returned an error response that indicates that it encountered an IOException while communicating with the authentication server. </p>
+  - type: <xref href="AuthenticatorException?alt=AuthenticatorException&text=AuthenticatorException" data-throw-if-not-resolved="False"/>
+    description: <p>if there was an error communicating with the authenticator or if the authenticator returned an invalid response. </p>
+  - type: <xref href="OperationCanceledException?alt=OperationCanceledException&text=OperationCanceledException" data-throw-if-not-resolved="False"/>
+    description: <p>if the request was canceled for any reason. </p>
   returns:
     description: <p>An array of <xref uid="com.microsoft.aad.adal.UserInfo" data-throw-if-not-resolved="false">UserInfo</xref> that haven been authenticated via broker(can be null). </p>
     type: <xref href="com.microsoft.aad.adal.UserInfo?alt=com.microsoft.aad.adal.UserInfo&text=UserInfo" data-throw-if-not-resolved="False"/> []

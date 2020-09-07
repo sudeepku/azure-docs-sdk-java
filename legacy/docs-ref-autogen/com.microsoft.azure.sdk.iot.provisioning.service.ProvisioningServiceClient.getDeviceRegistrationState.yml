@@ -15,7 +15,8 @@ members:
     name: id
     type: <xref href="String?alt=String&text=String" data-throw-if-not-resolved="False"/>
   exceptions:
-  - name: 407b0ee3
+  - type: <xref href="ProvisioningServiceClientException?alt=ProvisioningServiceClientException&text=ProvisioningServiceClientException" data-throw-if-not-resolved="False"/>
+    description: <p>if the Provisioning Device Service was not able to retrieve the deviceRegistrationState information for the provided registrationId. </p>
   returns:
     description: <p>The <xref uid="" data-throw-if-not-resolved="false">DeviceRegistrationState</xref> with the content of the deviceRegistrationState in the Provisioning Device Service. </p>
     type: <xref href="com.microsoft.azure.sdk.iot.provisioning.service.configs.DeviceRegistrationState?alt=com.microsoft.azure.sdk.iot.provisioning.service.configs.DeviceRegistrationState&text=DeviceRegistrationState" data-throw-if-not-resolved="False"/>

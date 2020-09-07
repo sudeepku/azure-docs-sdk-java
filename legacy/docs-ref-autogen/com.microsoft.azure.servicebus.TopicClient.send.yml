@@ -11,8 +11,10 @@ members:
     name: message
     type: <xref href="com.microsoft.azure.servicebus.IMessage?alt=com.microsoft.azure.servicebus.IMessage&text=IMessage" data-throw-if-not-resolved="False"/>
   exceptions:
-  - name: 8256ba40
-  - name: 73fec9fb
+  - type: <xref href="InterruptedException?alt=InterruptedException&text=InterruptedException" data-throw-if-not-resolved="False"/>
+    description: <p>if the current thread was interrupted while waiting </p>
+  - type: <xref href="ServiceBusException?alt=ServiceBusException&text=ServiceBusException" data-throw-if-not-resolved="False"/>
+    description: <p>if message couldn't be sent to the entity </p>
   summary: >-
     <p>Sends a message to the Azure Service Bus entity this sender is connected to. This method blocks until the message is sent to the entity. Calling this method is equivalent to calling <code>sendAsync(message).get()</code>. For better performance, use async methods.</p>
 
@@ -34,8 +36,10 @@ members:
     name: transaction
     type: <xref href="com.microsoft.azure.servicebus.TransactionContext?alt=com.microsoft.azure.servicebus.TransactionContext&text=TransactionContext" data-throw-if-not-resolved="False"/>
   exceptions:
-  - name: 8256ba40
-  - name: 73fec9fb
+  - type: <xref href="InterruptedException?alt=InterruptedException&text=InterruptedException" data-throw-if-not-resolved="False"/>
+    description: <p>if the current thread was interrupted while waiting </p>
+  - type: <xref href="ServiceBusException?alt=ServiceBusException&text=ServiceBusException" data-throw-if-not-resolved="False"/>
+    description: <p>if message couldn't be sent to the entity </p>
   summary: >-
     <p>Sends a message to the Azure Service Bus entity this sender is connected to. This method blocks until the message is sent to the entity. Calling this method is equivalent to calling <code>sendBatchAsync(messages).get()</code>. For better performance, use async methods.</p>
 

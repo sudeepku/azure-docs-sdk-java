@@ -16,7 +16,8 @@ members:
     name: callbackContext
     type: <xref href="Object?alt=Object&text=Object" data-throw-if-not-resolved="False"/>
   exceptions:
-  - name: 352f005b
+  - type: <xref href="ProvisioningDeviceClientException?alt=ProvisioningDeviceClientException&text=ProvisioningDeviceClientException" data-throw-if-not-resolved="False"/>
+    description: <p>If sending status is unsuccessful for any reason. </p>
   summary: <p>Sends the Status message to the Amqp Endpoint </p>
   syntax: public void sendStatusMessage(String operationId, ResponseCallback responseCallback, Object callbackContext)
   uid: com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.amqp.ProvisioningAmqpOperations.sendStatusMessage(String,ResponseCallback,Object)

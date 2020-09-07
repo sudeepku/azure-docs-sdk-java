@@ -19,7 +19,8 @@ members:
     name: operationsId
     type: <xref href="String?alt=String&text=String" data-throw-if-not-resolved="False"/>
   exceptions:
-  - name: cbf33bbe
+  - type: <xref href="IOException?alt=IOException&text=IOException" data-throw-if-not-resolved="False"/>
+    description: <p>If string could not be generated </p>
   returns:
     description: <p>A string of format for the specified protocol </p>
     type: <xref href="String?alt=String&text=String" data-throw-if-not-resolved="False"/>

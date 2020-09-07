@@ -8,10 +8,11 @@ members:
   parameters:
   - description: <p>A <code>long</code> which represents the size, in bytes, of the file.</p>
     name: size
-    type: <xref href="final+long?alt=final long&text=final+long" data-throw-if-not-resolved="False"/>
+    type: <xref href="final long?alt=final long&text=final+long" data-throw-if-not-resolved="False"/>
   exceptions:
-  - name: ca4f407a
-  - name: "44102508"
+  - type: <xref href="StorageException?alt=StorageException&text=StorageException" data-throw-if-not-resolved="False"/>
+    description: <p>If a storage service error occurred. </p>
+  - type: <xref href="URISyntaxException?alt=URISyntaxException&text=URISyntaxException" data-throw-if-not-resolved="False"/>
   summary: >-
     <p>Creates a file. If the file already exists, this will replace it.</p>
 
@@ -24,7 +25,7 @@ members:
   parameters:
   - description: <p>A <code>long</code> which represents the size, in bytes, of the file. </p>
     name: size
-    type: <xref href="final+long?alt=final long&text=final+long" data-throw-if-not-resolved="False"/>
+    type: <xref href="final long?alt=final long&text=final+long" data-throw-if-not-resolved="False"/>
   - description: <p>An <xref uid="com.microsoft.azure.storage.AccessCondition" data-throw-if-not-resolved="false">AccessCondition</xref> object which represents the access conditions for the file. </p>
     name: accessCondition
     type: final <xref href="com.microsoft.azure.storage.AccessCondition?alt=com.microsoft.azure.storage.AccessCondition&text=AccessCondition" data-throw-if-not-resolved="False"/>
@@ -35,8 +36,9 @@ members:
     name: opContext
     type: <xref href="com.microsoft.azure.storage.OperationContext?alt=com.microsoft.azure.storage.OperationContext&text=OperationContext" data-throw-if-not-resolved="False"/>
   exceptions:
-  - name: ca4f407a
-  - name: "44102508"
+  - type: <xref href="StorageException?alt=StorageException&text=StorageException" data-throw-if-not-resolved="False"/>
+    description: <p>If a storage service error occurred. </p>
+  - type: <xref href="URISyntaxException?alt=URISyntaxException&text=URISyntaxException" data-throw-if-not-resolved="False"/>
   summary: >-
     <p>Creates a file using the specified access condition, request options and operation context. If the file already exists, this will replace it.</p>
 

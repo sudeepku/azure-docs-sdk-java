@@ -6,8 +6,8 @@ members:
   name: getSAXParser()
   nameWithType: Utility.getSAXParser()
   exceptions:
-  - name: 3d34ae3a
-  - name: 38ec2a1f
+  - type: <xref href="ParserConfigurationException?alt=ParserConfigurationException&text=ParserConfigurationException" data-throw-if-not-resolved="False"/>
+  - type: <xref href="SAXException?alt=SAXException&text=SAXException" data-throw-if-not-resolved="False"/>
   returns:
     description: <p>A <code>SAXParser</code> instance which is namespace aware</p>
     type: <xref href="SAXParser?alt=SAXParser&text=SAXParser" data-throw-if-not-resolved="False"/>

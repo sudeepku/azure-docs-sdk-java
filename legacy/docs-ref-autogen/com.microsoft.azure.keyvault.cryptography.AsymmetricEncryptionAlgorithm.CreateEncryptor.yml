@@ -10,9 +10,9 @@ members:
     name: keyPair
     type: <xref href="KeyPair?alt=KeyPair&text=KeyPair" data-throw-if-not-resolved="False"/>
   exceptions:
-  - name: e333ca4f
-  - name: 456eb9d1
-  - name: 5ef34f89
+  - type: <xref href="InvalidKeyException?alt=InvalidKeyException&text=InvalidKeyException" data-throw-if-not-resolved="False"/>
+  - type: <xref href="NoSuchAlgorithmException?alt=NoSuchAlgorithmException&text=NoSuchAlgorithmException" data-throw-if-not-resolved="False"/>
+  - type: <xref href="NoSuchPaddingException?alt=NoSuchPaddingException&text=NoSuchPaddingException" data-throw-if-not-resolved="False"/>
   returns:
     type: abstract <xref href="com.microsoft.azure.keyvault.cryptography.ICryptoTransform?alt=com.microsoft.azure.keyvault.cryptography.ICryptoTransform&text=ICryptoTransform" data-throw-if-not-resolved="False"/>
   summary: >-
@@ -32,9 +32,9 @@ members:
     name: provider
     type: <xref href="Provider?alt=Provider&text=Provider" data-throw-if-not-resolved="False"/>
   exceptions:
-  - name: e333ca4f
-  - name: 456eb9d1
-  - name: 5ef34f89
+  - type: <xref href="InvalidKeyException?alt=InvalidKeyException&text=InvalidKeyException" data-throw-if-not-resolved="False"/>
+  - type: <xref href="NoSuchAlgorithmException?alt=NoSuchAlgorithmException&text=NoSuchAlgorithmException" data-throw-if-not-resolved="False"/>
+  - type: <xref href="NoSuchPaddingException?alt=NoSuchPaddingException&text=NoSuchPaddingException" data-throw-if-not-resolved="False"/>
   returns:
     type: abstract <xref href="com.microsoft.azure.keyvault.cryptography.ICryptoTransform?alt=com.microsoft.azure.keyvault.cryptography.ICryptoTransform&text=ICryptoTransform" data-throw-if-not-resolved="False"/>
   summary: >-

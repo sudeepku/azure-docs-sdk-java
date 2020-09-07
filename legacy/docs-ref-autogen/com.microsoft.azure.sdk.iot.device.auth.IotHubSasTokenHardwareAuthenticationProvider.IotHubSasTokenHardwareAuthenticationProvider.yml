@@ -22,7 +22,8 @@ members:
     name: securityProvider
     type: <xref href="com.microsoft.azure.sdk.iot.provisioning.security.SecurityProvider?alt=com.microsoft.azure.sdk.iot.provisioning.security.SecurityProvider&text=SecurityProvider" data-throw-if-not-resolved="False"/>
   exceptions:
-  - name: cbf33bbe
+  - type: <xref href="IOException?alt=IOException&text=IOException" data-throw-if-not-resolved="False"/>
+    description: <p>if the provided securityProvider throws while retrieving a sas token or ssl context instance </p>
   summary: >-
     <p>Creates a Sas Token based authentication object that uses the provided security provider to produce sas tokens.</p>
 

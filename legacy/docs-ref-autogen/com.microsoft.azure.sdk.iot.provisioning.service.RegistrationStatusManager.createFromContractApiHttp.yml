@@ -10,7 +10,11 @@ members:
     name: contractApiHttp
     type: <xref href="com.microsoft.azure.sdk.iot.provisioning.service.contract.ContractApiHttp?alt=com.microsoft.azure.sdk.iot.provisioning.service.contract.ContractApiHttp&text=ContractApiHttp" data-throw-if-not-resolved="False"/>
   exceptions:
-  - name: 3c87bd19
+  - type: <xref href="IllegalArgumentException?alt=IllegalArgumentException&text=IllegalArgumentException" data-throw-if-not-resolved="False"/>
+    description: >-
+      <p>if the <xref uid="" data-throw-if-not-resolved="false">ContractApiHttp</xref> is<code>null 
+
+          </code> . </p>
   returns:
     description: >-
       <p>The<code>RegistrationStatusManager 

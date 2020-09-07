@@ -6,9 +6,12 @@ members:
   name: next()
   nameWithType: Query.next()
   exceptions:
-  - name: cbf33bbe
-  - name: 0d494ee6
-  - name: 05807805
+  - type: <xref href="IOException?alt=IOException&text=IOException" data-throw-if-not-resolved="False"/>
+    description: <p>if sending the request is unsuccessful because of input parameters </p>
+  - type: <xref href="IotHubException?alt=IotHubException&text=IotHubException" data-throw-if-not-resolved="False"/>
+    description: <p>if sending the request is unsuccessful at the Hub </p>
+  - type: <xref href="NoSuchElementException?alt=NoSuchElementException&text=NoSuchElementException" data-throw-if-not-resolved="False"/>
+    description: <p>if no further elements are available </p>
   returns:
     description: <p>the next element in query response </p>
     type: <xref href="Object?alt=Object&text=Object" data-throw-if-not-resolved="False"/>

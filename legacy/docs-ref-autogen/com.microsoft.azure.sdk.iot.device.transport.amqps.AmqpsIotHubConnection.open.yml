@@ -12,7 +12,8 @@ members:
   - name: scheduledExecutorService
     type: <xref href="ScheduledExecutorService?alt=ScheduledExecutorService&text=ScheduledExecutorService" data-throw-if-not-resolved="False"/>
   exceptions:
-  - name: 848a9648
+  - type: <xref href="TransportException?alt=TransportException&text=TransportException" data-throw-if-not-resolved="False"/>
+    description: <p>If the reactor could not be initialized. </p>
   summary: >-
     <p>Opens the <xref uid="com.microsoft.azure.sdk.iot.device.transport.amqps.AmqpsIotHubConnection" data-throw-if-not-resolved="false">AmqpsIotHubConnection</xref>. </p>
 

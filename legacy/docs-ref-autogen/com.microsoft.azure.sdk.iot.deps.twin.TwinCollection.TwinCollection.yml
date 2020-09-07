@@ -22,7 +22,7 @@ members:
 
           </code> with the Twin collection </p>
     name: map
-    type: <xref href="Map%3C%3F+extends+String%2C+Object%3E?alt=Map<? extends String, Object>&text=Map%3C%3F+extends+String%2C+Object%3E" data-throw-if-not-resolved="False"/>
+    type: <xref href="Map<? extends String, Object>?alt=Map<? extends String, Object>&text=Map%3C%3F+extends+String%2C+Object%3E" data-throw-if-not-resolved="False"/>
   summary: >-
     <p>Constructor</p>
 

@@ -16,7 +16,8 @@ members:
     name: deviceId
     type: <xref href="String?alt=String&text=String" data-throw-if-not-resolved="False"/>
   exceptions:
-  - name: 3c87bd19
+  - type: <xref href="IllegalArgumentException?alt=IllegalArgumentException&text=IllegalArgumentException" data-throw-if-not-resolved="False"/>
+    description: <p>This exception is thrown if the device id is null or empty </p>
   summary: >-
     <p>Constructor to create instance for a device.</p>
 
@@ -34,7 +35,8 @@ members:
     name: moduleId
     type: <xref href="String?alt=String&text=String" data-throw-if-not-resolved="False"/>
   exceptions:
-  - name: 3c87bd19
+  - type: <xref href="IllegalArgumentException?alt=IllegalArgumentException&text=IllegalArgumentException" data-throw-if-not-resolved="False"/>
+    description: <p>This exception is thrown if the device id is null or empty </p>
   summary: >-
     <p>Constructor to create instance for a module.</p>
 

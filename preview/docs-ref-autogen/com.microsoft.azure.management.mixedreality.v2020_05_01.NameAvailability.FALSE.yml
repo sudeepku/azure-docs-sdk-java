@@ -1,12 +1,12 @@
 ### YamlMime:JavaMember
 uid: com.microsoft.azure.management.mixedreality.v2020_05_01.NameAvailability.FALSE
 fullName: com.microsoft.azure.management.mixedreality.v2020_05_01.NameAvailability.FALSE
-name: FALSE
+name: "FALSE"
 nameWithType: NameAvailability.FALSE
 members:
 - uid: com.microsoft.azure.management.mixedreality.v2020_05_01.NameAvailability.FALSE
   fullName: com.microsoft.azure.management.mixedreality.v2020_05_01.NameAvailability.FALSE
-  name: FALSE
+  name: "FALSE"
   nameWithType: NameAvailability.FALSE
   summary: Static value false for NameAvailability.
   syntax: public static final NameAvailability FALSE

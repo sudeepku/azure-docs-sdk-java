@@ -10,7 +10,8 @@ members:
     name: enrollmentGroup
     type: <xref href="com.microsoft.azure.sdk.iot.provisioning.service.configs.EnrollmentGroup?alt=com.microsoft.azure.sdk.iot.provisioning.service.configs.EnrollmentGroup&text=EnrollmentGroup" data-throw-if-not-resolved="False"/>
   exceptions:
-  - name: 407b0ee3
+  - type: <xref href="ProvisioningServiceClientException?alt=ProvisioningServiceClientException&text=ProvisioningServiceClientException" data-throw-if-not-resolved="False"/>
+    description: <p>if the Provisioning was not able to create or update the enrollment </p>
   returns:
     description: <p>An <xref uid="" data-throw-if-not-resolved="false">EnrollmentGroup</xref> object with the result of the create or update requested. </p>
     type: <xref href="com.microsoft.azure.sdk.iot.provisioning.service.configs.EnrollmentGroup?alt=com.microsoft.azure.sdk.iot.provisioning.service.configs.EnrollmentGroup&text=EnrollmentGroup" data-throw-if-not-resolved="False"/>

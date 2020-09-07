@@ -8,7 +8,7 @@ members:
   parameters:
   - description: <p>An <code>Object</code> reference to an instance of a class implementing <xref uid="com.microsoft.azure.storage.table.TableEntity" data-throw-if-not-resolved="false">TableEntity</xref> to deserialize the table entity data into. </p>
     name: instance
-    type: <xref href="final+Object?alt=final Object&text=final+Object" data-throw-if-not-resolved="False"/>
+    type: <xref href="final Object?alt=final Object&text=final+Object" data-throw-if-not-resolved="False"/>
   - description: <p>A <code>java.util.HashMap</code> object which maps <code>String</code> property names to <xref uid="com.microsoft.azure.storage.table.EntityProperty" data-throw-if-not-resolved="false">EntityProperty</xref> objects containing typed data values to deserialize into the instance parameter object. </p>
     name: properties
     type: final HashMap&lt;String, <xref href="com.microsoft.azure.storage.table.EntityProperty?alt=com.microsoft.azure.storage.table.EntityProperty&text=EntityProperty" data-throw-if-not-resolved="False"/>&gt;
@@ -16,9 +16,12 @@ members:
     name: opContext
     type: final <xref href="com.microsoft.azure.storage.OperationContext?alt=com.microsoft.azure.storage.OperationContext&text=OperationContext" data-throw-if-not-resolved="False"/>
   exceptions:
-  - name: 3c87bd19
-  - name: "81e09942"
-  - name: d601ab1e
+  - type: <xref href="IllegalArgumentException?alt=IllegalArgumentException&text=IllegalArgumentException" data-throw-if-not-resolved="False"/>
+    description: <p>if the table entity response received is invalid or improperly formatted. </p>
+  - type: <xref href="IllegalAccessException?alt=IllegalAccessException&text=IllegalAccessException" data-throw-if-not-resolved="False"/>
+    description: <p>if the table entity threw an exception during deserialization. </p>
+  - type: <xref href="InvocationTargetException?alt=InvocationTargetException&text=InvocationTargetException" data-throw-if-not-resolved="False"/>
+    description: <p>if a method invoked on the instance parameter threw an exception during deserialization. </p>
   summary: >-
     <p>Deserializes the table entity property map into the specified object instance using reflection. </p>
 

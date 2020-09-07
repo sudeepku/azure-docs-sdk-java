@@ -6,7 +6,8 @@ members:
   name: receiveMessage()
   nameWithType: HttpsIotHubConnection.receiveMessage()
   exceptions:
-  - name: 848a9648
+  - type: <xref href="TransportException?alt=TransportException&text=TransportException" data-throw-if-not-resolved="False"/>
+    description: <p>if the IoT Hub could not be reached. </p>
   returns:
     description: <p>an IotHubTransportMessage, or null if none exists.</p>
     type: <xref href="com.microsoft.azure.sdk.iot.device.transport.IotHubTransportMessage?alt=com.microsoft.azure.sdk.iot.device.transport.IotHubTransportMessage&text=IotHubTransportMessage" data-throw-if-not-resolved="False"/>

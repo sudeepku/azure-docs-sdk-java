@@ -16,7 +16,8 @@ members:
     name: continuationToken
     type: final <xref href="com.microsoft.azure.storage.ResultContinuation?alt=com.microsoft.azure.storage.ResultContinuation&text=ResultContinuation" data-throw-if-not-resolved="False"/>
   exceptions:
-  - name: ca4f407a
+  - type: <xref href="StorageException?alt=StorageException&text=StorageException" data-throw-if-not-resolved="False"/>
+    description: <p>if a storage service error occurred during the operation. </p>
   returns:
     description: <p>A <xref uid="com.microsoft.azure.storage.ResultSegment" data-throw-if-not-resolved="false">ResultSegment</xref> containing the projection into type <code>R</code> of the results of executing the query.</p>
     type: '&lt;R&gt; <xref href="com.microsoft.azure.storage.ResultSegment?alt=com.microsoft.azure.storage.ResultSegment&text=ResultSegment" data-throw-if-not-resolved="False"/>&lt;R&gt;'
@@ -48,7 +49,8 @@ members:
     name: opContext
     type: final <xref href="com.microsoft.azure.storage.OperationContext?alt=com.microsoft.azure.storage.OperationContext&text=OperationContext" data-throw-if-not-resolved="False"/>
   exceptions:
-  - name: ca4f407a
+  - type: <xref href="StorageException?alt=StorageException&text=StorageException" data-throw-if-not-resolved="False"/>
+    description: <p>if a storage service error occurred during the operation. </p>
   returns:
     description: <p>A <xref uid="com.microsoft.azure.storage.ResultSegment" data-throw-if-not-resolved="false">ResultSegment</xref> containing the projection into type <code>R</code> of the results of executing the query.</p>
     type: '&lt;R&gt; <xref href="com.microsoft.azure.storage.ResultSegment?alt=com.microsoft.azure.storage.ResultSegment&text=ResultSegment" data-throw-if-not-resolved="False"/>&lt;R&gt;'
@@ -73,7 +75,8 @@ members:
     name: continuationToken
     type: final <xref href="com.microsoft.azure.storage.ResultContinuation?alt=com.microsoft.azure.storage.ResultContinuation&text=ResultContinuation" data-throw-if-not-resolved="False"/>
   exceptions:
-  - name: ca4f407a
+  - type: <xref href="StorageException?alt=StorageException&text=StorageException" data-throw-if-not-resolved="False"/>
+    description: <p>if a storage service error occurred during the operation. </p>
   returns:
     description: <p>A <xref uid="com.microsoft.azure.storage.ResultSegment" data-throw-if-not-resolved="false">ResultSegment</xref> specialized for type T of the results of executing the query.</p>
     type: '&lt;T extends <xref href="com.microsoft.azure.storage.table.TableEntity?alt=com.microsoft.azure.storage.table.TableEntity&text=TableEntity" data-throw-if-not-resolved="False"/>&gt; <xref href="com.microsoft.azure.storage.ResultSegment?alt=com.microsoft.azure.storage.ResultSegment&text=ResultSegment" data-throw-if-not-resolved="False"/>&lt;T&gt;'
@@ -102,7 +105,8 @@ members:
     name: opContext
     type: final <xref href="com.microsoft.azure.storage.OperationContext?alt=com.microsoft.azure.storage.OperationContext&text=OperationContext" data-throw-if-not-resolved="False"/>
   exceptions:
-  - name: ca4f407a
+  - type: <xref href="StorageException?alt=StorageException&text=StorageException" data-throw-if-not-resolved="False"/>
+    description: <p>if a storage service error occurred during the operation. </p>
   returns:
     description: <p>A <xref uid="com.microsoft.azure.storage.ResultSegment" data-throw-if-not-resolved="false">ResultSegment</xref> specialized for type T of the results of executing the query.</p>
     type: '&lt;T extends <xref href="com.microsoft.azure.storage.table.TableEntity?alt=com.microsoft.azure.storage.table.TableEntity&text=TableEntity" data-throw-if-not-resolved="False"/>&gt; <xref href="com.microsoft.azure.storage.ResultSegment?alt=com.microsoft.azure.storage.ResultSegment&text=ResultSegment" data-throw-if-not-resolved="False"/>&lt;T&gt;'

@@ -31,9 +31,15 @@ members:
     name: genericPropertyCallBackContext
     type: <xref href="Object?alt=Object&text=Object" data-throw-if-not-resolved="False"/>
   exceptions:
-  - name: 3c87bd19
-  - name: b1c38b44
-  - name: cbf33bbe
+  - type: <xref href="IllegalArgumentException?alt=IllegalArgumentException&text=IllegalArgumentException" data-throw-if-not-resolved="False"/>
+    description: >-
+      <p>if the callback is<code>null 
+
+          </code></p>
+  - type: <xref href="UnsupportedOperationException?alt=UnsupportedOperationException&text=UnsupportedOperationException" data-throw-if-not-resolved="False"/>
+    description: <p>if called more than once on the same device </p>
+  - type: <xref href="IOException?alt=IOException&text=IOException" data-throw-if-not-resolved="False"/>
+    description: <p>if called when client is not opened </p>
   summary: >-
     <p>Starts the device twin.</p>
 
@@ -69,9 +75,15 @@ members:
     name: genericPropertyCallBackContext
     type: <xref href="Object?alt=Object&text=Object" data-throw-if-not-resolved="False"/>
   exceptions:
-  - name: 3c87bd19
-  - name: b1c38b44
-  - name: cbf33bbe
+  - type: <xref href="IllegalArgumentException?alt=IllegalArgumentException&text=IllegalArgumentException" data-throw-if-not-resolved="False"/>
+    description: >-
+      <p>if the callback is<code>null 
+
+          </code></p>
+  - type: <xref href="UnsupportedOperationException?alt=UnsupportedOperationException&text=UnsupportedOperationException" data-throw-if-not-resolved="False"/>
+    description: <p>if called more than once on the same device </p>
+  - type: <xref href="IOException?alt=IOException&text=IOException" data-throw-if-not-resolved="False"/>
+    description: <p>if called when client is not opened </p>
   summary: >-
     <p>Starts the device twin.</p>
 

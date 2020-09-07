@@ -10,7 +10,8 @@ members:
     name: deviceId
     type: <xref href="String?alt=String&text=String" data-throw-if-not-resolved="False"/>
   exceptions:
-  - name: 3c87bd19
+  - type: <xref href="IllegalArgumentException?alt=IllegalArgumentException&text=IllegalArgumentException" data-throw-if-not-resolved="False"/>
+    description: <p>if the provided device Id is not valid. </p>
   summary: >-
     <p>Setter for device name</p>
 

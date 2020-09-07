@@ -10,8 +10,13 @@ members:
     name: session
     type: <xref href="Session?alt=Session&text=Session" data-throw-if-not-resolved="False"/>
   exceptions:
-  - name: cbf33bbe
-  - name: 3c87bd19
+  - type: <xref href="IOException?alt=IOException&text=IOException" data-throw-if-not-resolved="False"/>
+    description: <p>if the function failed to open the links for the provided session. </p>
+  - type: <xref href="IllegalArgumentException?alt=IllegalArgumentException&text=IllegalArgumentException" data-throw-if-not-resolved="False"/>
+    description: >-
+      <p>if the session is<code>null 
+
+          </code> . </p>
   summary: <p>Open the Session links for session </p>
   syntax: public void openLinks(Session session)
   uid: com.microsoft.azure.sdk.iot.deps.transport.amqp.AmqpDeviceOperations.openLinks(Session)

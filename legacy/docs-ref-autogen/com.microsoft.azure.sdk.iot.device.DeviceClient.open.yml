@@ -6,7 +6,8 @@ members:
   name: open()
   nameWithType: DeviceClient.open()
   exceptions:
-  - name: cbf33bbe
+  - type: <xref href="IOException?alt=IOException&text=IOException" data-throw-if-not-resolved="False"/>
+    description: <p>if a connection to an IoT Hub cannot be established. </p>
   summary: >-
     <p>Starts asynchronously sending and receiving messages from an IoT Hub. If the client is already open, the function shall do nothing.</p>
 

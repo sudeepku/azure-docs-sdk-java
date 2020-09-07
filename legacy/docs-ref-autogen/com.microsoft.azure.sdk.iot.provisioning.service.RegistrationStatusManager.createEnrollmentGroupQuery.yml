@@ -29,7 +29,8 @@ members:
     name: pageSize
     type: <xref href="int?alt=int&text=int" data-throw-if-not-resolved="False"/>
   exceptions:
-  - name: 3c87bd19
+  - type: <xref href="IllegalArgumentException?alt=IllegalArgumentException&text=IllegalArgumentException" data-throw-if-not-resolved="False"/>
+    description: <p>if the provided parameter is not correct. </p>
   returns:
     description: <p>A <xref uid="com.microsoft.azure.sdk.iot.provisioning.service.Query" data-throw-if-not-resolved="false">Query</xref> iterator. </p>
     type: <xref href="com.microsoft.azure.sdk.iot.provisioning.service.Query?alt=com.microsoft.azure.sdk.iot.provisioning.service.Query&text=Query" data-throw-if-not-resolved="False"/>

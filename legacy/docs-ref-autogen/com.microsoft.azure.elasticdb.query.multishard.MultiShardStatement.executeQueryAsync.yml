@@ -6,8 +6,10 @@ members:
   name: executeQueryAsync()
   nameWithType: MultiShardStatement.executeQueryAsync()
   exceptions:
-  - name: 12fe80de
-  - name: a19dd706
+  - type: <xref href="IllegalStateException?alt=IllegalStateException&text=IllegalStateException" data-throw-if-not-resolved="False"/>
+    description: <p>thrown if the commandText is null or empty, or if the specified command behavior is not supported such as CloseConnection or SingleRow. </p>
+  - type: <xref href="TimeoutException?alt=TimeoutException&text=TimeoutException" data-throw-if-not-resolved="False"/>
+    description: <p>thrown if the commandTimeout elapsed prior to completion. </p>
   returns:
     description: <p>a task wrapping the <xref uid="com.microsoft.azure.elasticdb.query.multishard.MultiShardResultSet" data-throw-if-not-resolved="false">MultiShardResultSet</xref> instance with the overall concatenated result set. </p>
     type: Callable&lt;<xref href="com.microsoft.azure.elasticdb.query.multishard.MultiShardResultSet?alt=com.microsoft.azure.elasticdb.query.multishard.MultiShardResultSet&text=MultiShardResultSet" data-throw-if-not-resolved="False"/>&gt;
@@ -25,8 +27,10 @@ members:
     name: behavior
     type: <xref href="com.microsoft.azure.elasticdb.query.logging.CommandBehavior?alt=com.microsoft.azure.elasticdb.query.logging.CommandBehavior&text=CommandBehavior" data-throw-if-not-resolved="False"/>
   exceptions:
-  - name: 12fe80de
-  - name: a19dd706
+  - type: <xref href="IllegalStateException?alt=IllegalStateException&text=IllegalStateException" data-throw-if-not-resolved="False"/>
+    description: <p>thrown if the commandText is null or empty, or if the specified command behavior is not supported such as CloseConnection or SingleRow. </p>
+  - type: <xref href="TimeoutException?alt=TimeoutException&text=TimeoutException" data-throw-if-not-resolved="False"/>
+    description: <p>thrown if the commandTimeout elapsed prior to completion. </p>
   returns:
     description: <p>a task wrapping the <xref uid="com.microsoft.azure.elasticdb.query.multishard.MultiShardResultSet" data-throw-if-not-resolved="false">MultiShardResultSet</xref> instance with the overall concatenated result set. </p>
     type: Callable&lt;<xref href="com.microsoft.azure.elasticdb.query.multishard.MultiShardResultSet?alt=com.microsoft.azure.elasticdb.query.multishard.MultiShardResultSet&text=MultiShardResultSet" data-throw-if-not-resolved="False"/>&gt;
@@ -50,7 +54,8 @@ members:
     name: executionPolicy
     type: <xref href="com.microsoft.azure.elasticdb.query.logging.MultiShardExecutionPolicy?alt=com.microsoft.azure.elasticdb.query.logging.MultiShardExecutionPolicy&text=MultiShardExecutionPolicy" data-throw-if-not-resolved="False"/>
   exceptions:
-  - name: 12fe80de
+  - type: <xref href="IllegalStateException?alt=IllegalStateException&text=IllegalStateException" data-throw-if-not-resolved="False"/>
+    description: <p>If the commandText is null or empty </p>
   returns:
     description: <p>A task with a ResultT that encompasses results from all shards Any exceptions during command execution are conveyed via the returned Task </p>
     type: Callable&lt;<xref href="com.microsoft.azure.elasticdb.query.multishard.MultiShardResultSet?alt=com.microsoft.azure.elasticdb.query.multishard.MultiShardResultSet&text=MultiShardResultSet" data-throw-if-not-resolved="False"/>&gt;

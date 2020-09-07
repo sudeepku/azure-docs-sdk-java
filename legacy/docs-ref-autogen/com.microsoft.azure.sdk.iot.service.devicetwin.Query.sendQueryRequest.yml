@@ -19,8 +19,10 @@ members:
     name: timeoutInMs
     type: <xref href="Long?alt=Long&text=Long" data-throw-if-not-resolved="False"/>
   exceptions:
-  - name: cbf33bbe
-  - name: 0d494ee6
+  - type: <xref href="IOException?alt=IOException&text=IOException" data-throw-if-not-resolved="False"/>
+    description: <p>If any of the input parameters are not valid </p>
+  - type: <xref href="IotHubException?alt=IotHubException&text=IotHubException" data-throw-if-not-resolved="False"/>
+    description: <p>If HTTP response other then status ok is received </p>
   returns:
     description: <p>QueryResponse object which holds the response Iterator </p>
     type: <xref href="com.microsoft.azure.sdk.iot.service.devicetwin.QueryResponse?alt=com.microsoft.azure.sdk.iot.service.devicetwin.QueryResponse&text=QueryResponse" data-throw-if-not-resolved="False"/>

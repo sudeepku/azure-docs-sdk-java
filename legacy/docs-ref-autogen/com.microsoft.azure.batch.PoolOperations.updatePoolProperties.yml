@@ -22,8 +22,10 @@ members:
     name: metadata
     type: Collection&lt;<xref href="com.microsoft.azure.batch.protocol.models.MetadataItem?alt=com.microsoft.azure.batch.protocol.models.MetadataItem&text=MetadataItem" data-throw-if-not-resolved="False"/>&gt;
   exceptions:
-  - name: c8683d81
-  - name: cbf33bbe
+  - type: <xref href="BatchErrorException?alt=BatchErrorException&text=BatchErrorException" data-throw-if-not-resolved="False"/>
+    description: <p>Exception thrown when an error response is received from the Batch service. </p>
+  - type: <xref href="IOException?alt=IOException&text=IOException" data-throw-if-not-resolved="False"/>
+    description: <p>Exception thrown when there is an error in serialization/deserialization of data sent to/received from the Batch service. </p>
   summary: >-
     <p>Updates the specified pool. This method fully replaces all the updatable properties of the pool. For example, if the startTask parameter is null and the pool has a start task associated with it, then the Batch service will remove the existing start task.</p>
 
@@ -53,8 +55,10 @@ members:
     name: additionalBehaviors
     type: Iterable&lt;<xref href="com.microsoft.azure.batch.BatchClientBehavior?alt=com.microsoft.azure.batch.BatchClientBehavior&text=BatchClientBehavior" data-throw-if-not-resolved="False"/>&gt;
   exceptions:
-  - name: c8683d81
-  - name: cbf33bbe
+  - type: <xref href="BatchErrorException?alt=BatchErrorException&text=BatchErrorException" data-throw-if-not-resolved="False"/>
+    description: <p>Exception thrown when an error response is received from the Batch service. </p>
+  - type: <xref href="IOException?alt=IOException&text=IOException" data-throw-if-not-resolved="False"/>
+    description: <p>Exception thrown when there is an error in serialization/deserialization of data sent to/received from the Batch service. </p>
   summary: >-
     <p>Updates the specified pool. This method fully replaces all the updatable properties of the pool. For example, if the startTask parameter is null and the pool has a start task associated with it, then the Batch service will remove the existing start task.</p>
 

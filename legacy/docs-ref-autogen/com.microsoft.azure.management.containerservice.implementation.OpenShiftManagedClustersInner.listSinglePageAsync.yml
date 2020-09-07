@@ -6,7 +6,8 @@ members:
   name: listSinglePageAsync()
   nameWithType: OpenShiftManagedClustersInner.listSinglePageAsync()
   exceptions:
-  - name: 3c87bd19
+  - type: <xref href="IllegalArgumentException?alt=IllegalArgumentException&text=IllegalArgumentException" data-throw-if-not-resolved="False"/>
+    description: <p>thrown if parameters fail the validation </p>
   returns:
     description: <p>the PagedList&lt;OpenShiftManagedClusterInner&gt; object wrapped in <xref uid="" data-throw-if-not-resolved="false">ServiceResponse</xref> if successful. </p>
     type: Observable&lt;ServiceResponse&lt;Page&lt;<xref href="com.microsoft.azure.management.containerservice.implementation.OpenShiftManagedClusterInner?alt=com.microsoft.azure.management.containerservice.implementation.OpenShiftManagedClusterInner&text=OpenShiftManagedClusterInner" data-throw-if-not-resolved="False"/>&gt;&gt;&gt;

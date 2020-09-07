@@ -22,7 +22,8 @@ members:
     name: startTimeMillis
     type: <xref href="long?alt=long&text=long" data-throw-if-not-resolved="False"/>
   exceptions:
-  - name: 3c87bd19
+  - type: <xref href="IllegalArgumentException?alt=IllegalArgumentException&text=IllegalArgumentException" data-throw-if-not-resolved="False"/>
+    description: <p>if startTimeMillis is 0 or negative </p>
   summary: >-
     <p>Constructor.</p>
 

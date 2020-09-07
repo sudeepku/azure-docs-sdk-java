@@ -6,11 +6,16 @@ members:
   name: IotHubSSLContext()
   nameWithType: IotHubSSLContext.IotHubSSLContext()
   exceptions:
-  - name: 5f3a346c
-  - name: 20753d0b
-  - name: cbf33bbe
-  - name: "20029899"
-  - name: 456eb9d1
+  - type: <xref href="KeyStoreException?alt=KeyStoreException&text=KeyStoreException" data-throw-if-not-resolved="False"/>
+    description: <p>if no Provider supports a KeyStoreSpi implementation for the specified type or if the keystore has not been initialized, or the given alias already exists and does not identify an entry containing a trusted certificate, or this operation fails for some other reason. </p>
+  - type: <xref href="KeyManagementException?alt=KeyManagementException&text=KeyManagementException" data-throw-if-not-resolved="False"/>
+    description: <p>As per <a href="https://docs.oracle.com/javase/7/docs/api/java/security/KeyManagementException.html">https://docs.oracle.com/javase/7/docs/api/java/security/KeyManagementException.html</a></p>
+  - type: <xref href="IOException?alt=IOException&text=IOException" data-throw-if-not-resolved="False"/>
+    description: <p>If the certificate provided was null or invalid </p>
+  - type: <xref href="CertificateException?alt=CertificateException&text=CertificateException" data-throw-if-not-resolved="False"/>
+    description: <p>As per <a href="https://docs.oracle.com/javase/7/docs/api/java/security/cert/CertificateException.html">https://docs.oracle.com/javase/7/docs/api/java/security/cert/CertificateException.html</a></p>
+  - type: <xref href="NoSuchAlgorithmException?alt=NoSuchAlgorithmException&text=NoSuchAlgorithmException" data-throw-if-not-resolved="False"/>
+    description: <p>if the default SSL Context cannot be created </p>
   summary: >-
     <p>Creates a SSLContext for the IotHub.</p>
 
@@ -38,12 +43,18 @@ members:
     name: privateKeyString
     type: <xref href="String?alt=String&text=String" data-throw-if-not-resolved="False"/>
   exceptions:
-  - name: 20753d0b
-  - name: cbf33bbe
-  - name: "20029899"
-  - name: 5f3a346c
-  - name: 1fdbaa59
-  - name: 456eb9d1
+  - type: <xref href="KeyManagementException?alt=KeyManagementException&text=KeyManagementException" data-throw-if-not-resolved="False"/>
+    description: <p>If the SSLContext could not be initialized </p>
+  - type: <xref href="IOException?alt=IOException&text=IOException" data-throw-if-not-resolved="False"/>
+    description: <p>If an IO exception occurs </p>
+  - type: <xref href="CertificateException?alt=CertificateException&text=CertificateException" data-throw-if-not-resolved="False"/>
+    description: <p>If a certificate cannot be loaded </p>
+  - type: <xref href="KeyStoreException?alt=KeyStoreException&text=KeyStoreException" data-throw-if-not-resolved="False"/>
+    description: <p>If the provided certificates cannot be loaded into the JVM keystore </p>
+  - type: <xref href="UnrecoverableKeyException?alt=UnrecoverableKeyException&text=UnrecoverableKeyException" data-throw-if-not-resolved="False"/>
+    description: <p>if accessing the passphrase protected keystore fails due to the key </p>
+  - type: <xref href="NoSuchAlgorithmException?alt=NoSuchAlgorithmException&text=NoSuchAlgorithmException" data-throw-if-not-resolved="False"/>
+    description: <p>if the default SSLContext cannot be generated </p>
   summary: >-
     <p>Constructor that takes a public key certificate and private key pair.</p>
 
@@ -67,11 +78,16 @@ members:
     name: isPath
     type: <xref href="boolean?alt=boolean&text=boolean" data-throw-if-not-resolved="False"/>
   exceptions:
-  - name: 5f3a346c
-  - name: 20753d0b
-  - name: cbf33bbe
-  - name: "20029899"
-  - name: 456eb9d1
+  - type: <xref href="KeyStoreException?alt=KeyStoreException&text=KeyStoreException" data-throw-if-not-resolved="False"/>
+    description: <p>if no Provider supports a KeyStoreSpi implementation for the specified type or if the keystore has not been initialized, or the given alias already exists and does not identify an entry containing a trusted certificate, or this operation fails for some other reason. </p>
+  - type: <xref href="KeyManagementException?alt=KeyManagementException&text=KeyManagementException" data-throw-if-not-resolved="False"/>
+    description: <p>As per <a href="https://docs.oracle.com/javase/7/docs/api/java/security/KeyManagementException.html">https://docs.oracle.com/javase/7/docs/api/java/security/KeyManagementException.html</a></p>
+  - type: <xref href="IOException?alt=IOException&text=IOException" data-throw-if-not-resolved="False"/>
+    description: <p>If the certificate provided was null or invalid </p>
+  - type: <xref href="CertificateException?alt=CertificateException&text=CertificateException" data-throw-if-not-resolved="False"/>
+    description: <p>As per <a href="https://docs.oracle.com/javase/7/docs/api/java/security/cert/CertificateException.html">https://docs.oracle.com/javase/7/docs/api/java/security/cert/CertificateException.html</a></p>
+  - type: <xref href="NoSuchAlgorithmException?alt=NoSuchAlgorithmException&text=NoSuchAlgorithmException" data-throw-if-not-resolved="False"/>
+    description: <p>if the default SSL Context cannot be created </p>
   summary: <p>Creates a default SSLContext for the IotHub with the specified certificate. </p>
   syntax: public IotHubSSLContext(String publicKeyCertificateString, String privateKeyString, String cert, boolean isPath)
   uid: com.microsoft.azure.sdk.iot.deps.auth.IotHubSSLContext.IotHubSSLContext(String,String,String,boolean)
@@ -86,11 +102,16 @@ members:
     name: isPath
     type: <xref href="boolean?alt=boolean&text=boolean" data-throw-if-not-resolved="False"/>
   exceptions:
-  - name: 5f3a346c
-  - name: 20753d0b
-  - name: cbf33bbe
-  - name: "20029899"
-  - name: 456eb9d1
+  - type: <xref href="KeyStoreException?alt=KeyStoreException&text=KeyStoreException" data-throw-if-not-resolved="False"/>
+    description: <p>if no Provider supports a KeyStoreSpi implementation for the specified type or if the keystore has not been initialized, or the given alias already exists and does not identify an entry containing a trusted certificate, or this operation fails for some other reason. </p>
+  - type: <xref href="KeyManagementException?alt=KeyManagementException&text=KeyManagementException" data-throw-if-not-resolved="False"/>
+    description: <p>As per <a href="https://docs.oracle.com/javase/7/docs/api/java/security/KeyManagementException.html">https://docs.oracle.com/javase/7/docs/api/java/security/KeyManagementException.html</a></p>
+  - type: <xref href="IOException?alt=IOException&text=IOException" data-throw-if-not-resolved="False"/>
+    description: <p>If the certificate provided was null or invalid </p>
+  - type: <xref href="CertificateException?alt=CertificateException&text=CertificateException" data-throw-if-not-resolved="False"/>
+    description: <p>As per <a href="https://docs.oracle.com/javase/7/docs/api/java/security/cert/CertificateException.html">https://docs.oracle.com/javase/7/docs/api/java/security/cert/CertificateException.html</a></p>
+  - type: <xref href="NoSuchAlgorithmException?alt=NoSuchAlgorithmException&text=NoSuchAlgorithmException" data-throw-if-not-resolved="False"/>
+    description: <p>if the default SSL Context cannot be created </p>
   summary: >-
     <p>Creates a default SSLContext for the IotHub with the specified certificate.</p>
 

@@ -7,7 +7,7 @@ members:
   nameWithType: MsalUtils.isEmpty(final String message)
   parameters:
   - name: message
-    type: <xref href="final+String?alt=final String&text=final+String" data-throw-if-not-resolved="False"/>
+    type: <xref href="final String?alt=final String&text=final+String" data-throw-if-not-resolved="False"/>
   returns:
     type: <xref href="boolean?alt=boolean&text=boolean" data-throw-if-not-resolved="False"/>
   summary: <p>To improve test-ability with local Junit. Android.jar used for local Junit doesn't have a default implementation for <xref uid="" data-throw-if-not-resolved="false">android.text.TextUtils</xref>. </p>

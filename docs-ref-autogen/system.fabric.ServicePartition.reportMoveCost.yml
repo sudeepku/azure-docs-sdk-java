@@ -10,7 +10,8 @@ members:
     name: moveCost
     type: <xref href="system.fabric.MoveCost?alt=system.fabric.MoveCost&text=MoveCost" data-throw-if-not-resolved="False"/>
   exceptions:
-  - name: 4db6be3e
+  - type: <xref href="FabricObjectClosedException?alt=FabricObjectClosedException&text=FabricObjectClosedException" data-throw-if-not-resolved="False"/>
+    description: <p>This indicates that the partition object is closed. The replica/replicator/instance has either been closed or is about to be closed. </p>
   summary: >-
     <p>Reports the move cost for a replica.</p>
 

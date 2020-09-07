@@ -8,7 +8,7 @@ members:
   parameters:
   - description: <p>Interface type of actor. </p>
     name: actorInterfaceType
-    type: <xref href="Class%3C%3F%3E?alt=Class<?>&text=Class%3C%3F%3E" data-throw-if-not-resolved="False"/>
+    type: <xref href="Class<?>?alt=Class<?>&text=Class%3C%3F%3E" data-throw-if-not-resolved="False"/>
   returns:
     description: <p>Object representing <xref uid="" data-throw-if-not-resolved="false">ActorProxy</xref> for the actor. </p>
     type: <xref href="Object?alt=Object&text=Object" data-throw-if-not-resolved="False"/>

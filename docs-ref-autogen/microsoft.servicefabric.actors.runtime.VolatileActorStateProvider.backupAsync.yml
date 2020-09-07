@@ -26,10 +26,10 @@ members:
     name: backupCallback
     type: BiFunction&lt;<xref href="microsoft.servicefabric.data.BackupInfo?alt=microsoft.servicefabric.data.BackupInfo&text=BackupInfo" data-throw-if-not-resolved="False"/>, <xref href="system.fabric.CancellationToken?alt=system.fabric.CancellationToken&text=CancellationToken" data-throw-if-not-resolved="False"/>, CompletableFuture&lt;Boolean&gt;&gt;
   exceptions:
-  - name: b1c38b44
+  - type: <xref href="UnsupportedOperationException?alt=UnsupportedOperationException&text=UnsupportedOperationException" data-throw-if-not-resolved="False"/>
   returns:
     description: <p>Task that represents the asynchronous backup operation. </p>
-    type: <xref href="CompletableFuture%3C%3F%3E?alt=CompletableFuture<?>&text=CompletableFuture%3C%3F%3E" data-throw-if-not-resolved="False"/>
+    type: <xref href="CompletableFuture<?>?alt=CompletableFuture<?>&text=CompletableFuture%3C%3F%3E" data-throw-if-not-resolved="False"/>
   summary: >-
     <p>Performs a full backup of state managed by this actor state provider</p>
 
@@ -47,10 +47,10 @@ members:
     name: backupCallback
     type: BiFunction&lt;<xref href="microsoft.servicefabric.data.BackupInfo?alt=microsoft.servicefabric.data.BackupInfo&text=BackupInfo" data-throw-if-not-resolved="False"/>, <xref href="system.fabric.CancellationToken?alt=system.fabric.CancellationToken&text=CancellationToken" data-throw-if-not-resolved="False"/>, CompletableFuture&lt;Boolean&gt;&gt;
   exceptions:
-  - name: b1c38b44
+  - type: <xref href="UnsupportedOperationException?alt=UnsupportedOperationException&text=UnsupportedOperationException" data-throw-if-not-resolved="False"/>
   returns:
     description: <p>Task that represents the asynchronous backup operation. </p>
-    type: <xref href="CompletableFuture%3C%3F%3E?alt=CompletableFuture<?>&text=CompletableFuture%3C%3F%3E" data-throw-if-not-resolved="False"/>
+    type: <xref href="CompletableFuture<?>?alt=CompletableFuture<?>&text=CompletableFuture%3C%3F%3E" data-throw-if-not-resolved="False"/>
   summary: >-
     <p>Performs a full backup of state managed by this actor state provider</p>
 

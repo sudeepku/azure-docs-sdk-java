@@ -6,7 +6,8 @@ members:
   name: listPrimaryInternalLoadBalancerInboundNatPools()
   nameWithType: VirtualMachineScaleSet.listPrimaryInternalLoadBalancerInboundNatPools()
   exceptions:
-  - name: cbf33bbe
+  - type: <xref href="IOException?alt=IOException&text=IOException" data-throw-if-not-resolved="False"/>
+    description: <p>the IO exception </p>
   returns:
     description: <p>the inbound NAT pools of the internal load balancer associated with the primary network interface of the virtual machines in the scale set, if any.</p>
     type: Map&lt;String, <xref href="com.microsoft.azure.management.network.LoadBalancerInboundNatPool?alt=com.microsoft.azure.management.network.LoadBalancerInboundNatPool&text=LoadBalancerInboundNatPool" data-throw-if-not-resolved="False"/>&gt;

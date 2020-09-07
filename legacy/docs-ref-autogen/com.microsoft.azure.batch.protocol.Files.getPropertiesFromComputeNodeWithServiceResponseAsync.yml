@@ -16,7 +16,8 @@ members:
     name: filePath
     type: <xref href="String?alt=String&text=String" data-throw-if-not-resolved="False"/>
   exceptions:
-  - name: 3c87bd19
+  - type: <xref href="IllegalArgumentException?alt=IllegalArgumentException&text=IllegalArgumentException" data-throw-if-not-resolved="False"/>
+    description: <p>thrown if parameters fail the validation </p>
   returns:
     description: <p>the <xref uid="" data-throw-if-not-resolved="false">ServiceResponseWithHeaders</xref> object if successful. </p>
     type: Observable&lt;ServiceResponseWithHeaders&lt;Void, <xref href="com.microsoft.azure.batch.protocol.models.FileGetPropertiesFromComputeNodeHeaders?alt=com.microsoft.azure.batch.protocol.models.FileGetPropertiesFromComputeNodeHeaders&text=FileGetPropertiesFromComputeNodeHeaders" data-throw-if-not-resolved="False"/>&gt;&gt;
@@ -43,7 +44,8 @@ members:
     name: fileGetPropertiesFromComputeNodeOptions
     type: <xref href="com.microsoft.azure.batch.protocol.models.FileGetPropertiesFromComputeNodeOptions?alt=com.microsoft.azure.batch.protocol.models.FileGetPropertiesFromComputeNodeOptions&text=FileGetPropertiesFromComputeNodeOptions" data-throw-if-not-resolved="False"/>
   exceptions:
-  - name: 3c87bd19
+  - type: <xref href="IllegalArgumentException?alt=IllegalArgumentException&text=IllegalArgumentException" data-throw-if-not-resolved="False"/>
+    description: <p>thrown if parameters fail the validation </p>
   returns:
     description: <p>the <xref uid="" data-throw-if-not-resolved="false">ServiceResponseWithHeaders</xref> object if successful. </p>
     type: Observable&lt;ServiceResponseWithHeaders&lt;Void, <xref href="com.microsoft.azure.batch.protocol.models.FileGetPropertiesFromComputeNodeHeaders?alt=com.microsoft.azure.batch.protocol.models.FileGetPropertiesFromComputeNodeHeaders&text=FileGetPropertiesFromComputeNodeHeaders" data-throw-if-not-resolved="False"/>&gt;&gt;

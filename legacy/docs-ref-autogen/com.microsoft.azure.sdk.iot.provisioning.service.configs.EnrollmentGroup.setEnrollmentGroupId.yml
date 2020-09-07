@@ -15,9 +15,13 @@ members:
     name: enrollmentGroupId
     type: <xref href="String?alt=String&text=String" data-throw-if-not-resolved="False"/>
   exceptions:
-  - name: 3c87bd19
+  - type: <xref href="IllegalArgumentException?alt=IllegalArgumentException&text=IllegalArgumentException" data-throw-if-not-resolved="False"/>
+    description: >-
+      <p>If the provided enrollmentGroupId is<code>null 
+
+          </code> , empty, or invalid. </p>
   returns:
-    type: <xref href="final+void?alt=final void&text=final+void" data-throw-if-not-resolved="False"/>
+    type: <xref href="final void?alt=final void&text=final+void" data-throw-if-not-resolved="False"/>
   summary: >-
     <p>Setter for the enrollmentGroupId.</p>
 

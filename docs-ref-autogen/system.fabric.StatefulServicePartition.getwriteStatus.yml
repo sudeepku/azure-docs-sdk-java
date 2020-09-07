@@ -6,7 +6,8 @@ members:
   name: getwriteStatus()
   nameWithType: StatefulServicePartition.getwriteStatus()
   exceptions:
-  - name: 4b752876
+  - type: <xref href="system.fabric.exception.FabricObjectClosedException?alt=system.fabric.exception.FabricObjectClosedException&text=system.fabric.exception.FabricObjectClosedException" data-throw-if-not-resolved="False"/>
+    description: <p>This indicates that the partition object is closed. The replica/replicator/instance has either been closed or is about to be closed. </p>
   returns:
     description: >-
       <p>

@@ -15,7 +15,11 @@ members:
     name: initialTwin
     type: <xref href="com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinState?alt=com.microsoft.azure.sdk.iot.provisioning.service.configs.TwinState&text=TwinState" data-throw-if-not-resolved="False"/>
   exceptions:
-  - name: 3c87bd19
+  - type: <xref href="IllegalArgumentException?alt=IllegalArgumentException&text=IllegalArgumentException" data-throw-if-not-resolved="False"/>
+    description: >-
+      <p>If the provided initialTwin is<code>null 
+
+          </code> . </p>
   summary: >-
     <p>Setter for the initialTwin.</p>
 

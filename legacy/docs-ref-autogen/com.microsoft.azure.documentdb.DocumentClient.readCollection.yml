@@ -13,7 +13,8 @@ members:
     name: options
     type: <xref href="com.microsoft.azure.documentdb.RequestOptions?alt=com.microsoft.azure.documentdb.RequestOptions&text=RequestOptions" data-throw-if-not-resolved="False"/>
   exceptions:
-  - name: deb9d423
+  - type: <xref href="DocumentClientException?alt=DocumentClientException&text=DocumentClientException" data-throw-if-not-resolved="False"/>
+    description: <p>the document client exception. </p>
   returns:
     description: <p>the resource response with the read collection. </p>
     type: <xref href="com.microsoft.azure.documentdb.ResourceResponse?alt=com.microsoft.azure.documentdb.ResourceResponse&text=ResourceResponse" data-throw-if-not-resolved="False"/>&lt;<xref href="com.microsoft.azure.documentdb.DocumentCollection?alt=com.microsoft.azure.documentdb.DocumentCollection&text=DocumentCollection" data-throw-if-not-resolved="False"/>&gt;

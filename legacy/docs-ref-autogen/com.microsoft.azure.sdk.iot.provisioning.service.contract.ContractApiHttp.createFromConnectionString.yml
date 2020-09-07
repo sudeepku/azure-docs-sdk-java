@@ -10,7 +10,8 @@ members:
     name: provisioningConnectionString
     type: <xref href="com.microsoft.azure.sdk.iot.provisioning.service.auth.ProvisioningConnectionString?alt=com.microsoft.azure.sdk.iot.provisioning.service.auth.ProvisioningConnectionString&text=ProvisioningConnectionString" data-throw-if-not-resolved="False"/>
   exceptions:
-  - name: 3c87bd19
+  - type: <xref href="IllegalArgumentException?alt=IllegalArgumentException&text=IllegalArgumentException" data-throw-if-not-resolved="False"/>
+    description: <p>if there is a problem with the provided connection string. </p>
   returns:
     description: >-
       <p>an instance of<code>ContractApiHttp 

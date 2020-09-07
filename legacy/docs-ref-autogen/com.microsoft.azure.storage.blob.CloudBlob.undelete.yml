@@ -6,9 +6,10 @@ members:
   name: undelete()
   nameWithType: CloudBlob.undelete()
   exceptions:
-  - name: ca4f407a
+  - type: <xref href="StorageException?alt=StorageException&text=StorageException" data-throw-if-not-resolved="False"/>
+    description: <p>If a storage service error occurred. </p>
   returns:
-    type: <xref href="final+void?alt=final void&text=final+void" data-throw-if-not-resolved="False"/>
+    type: <xref href="final void?alt=final void&text=final+void" data-throw-if-not-resolved="False"/>
   summary: >-
     <p>Un-deletes a blob and all its snapshots that have been soft-deleted.</p>
 
@@ -26,9 +27,10 @@ members:
     name: opContext
     type: <xref href="com.microsoft.azure.storage.OperationContext?alt=com.microsoft.azure.storage.OperationContext&text=OperationContext" data-throw-if-not-resolved="False"/>
   exceptions:
-  - name: ca4f407a
+  - type: <xref href="StorageException?alt=StorageException&text=StorageException" data-throw-if-not-resolved="False"/>
+    description: <p>If a storage service error occurred. </p>
   returns:
-    type: <xref href="final+void?alt=final void&text=final+void" data-throw-if-not-resolved="False"/>
+    type: <xref href="final void?alt=final void&text=final+void" data-throw-if-not-resolved="False"/>
   summary: >-
     <p>Un-deletes a blob that has been soft-deleted, using the specified request options, and operation context. </p>
 

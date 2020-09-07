@@ -10,7 +10,8 @@ members:
     name: connectionString
     type: <xref href="String?alt=String&text=String" data-throw-if-not-resolved="False"/>
   exceptions:
-  - name: 3c87bd19
+  - type: <xref href="IllegalArgumentException?alt=IllegalArgumentException&text=IllegalArgumentException" data-throw-if-not-resolved="False"/>
+    description: <p>This exception is thrown if the object creation failed </p>
   returns:
     description: <p>The ProvisioningConnectionString object </p>
     type: <xref href="com.microsoft.azure.sdk.iot.provisioning.service.auth.ProvisioningConnectionString?alt=com.microsoft.azure.sdk.iot.provisioning.service.auth.ProvisioningConnectionString&text=ProvisioningConnectionString" data-throw-if-not-resolved="False"/>
@@ -31,7 +32,8 @@ members:
     name: authenticationMethod
     type: <xref href="com.microsoft.azure.sdk.iot.provisioning.service.auth.AuthenticationMethod?alt=com.microsoft.azure.sdk.iot.provisioning.service.auth.AuthenticationMethod&text=AuthenticationMethod" data-throw-if-not-resolved="False"/>
   exceptions:
-  - name: 3c87bd19
+  - type: <xref href="IllegalArgumentException?alt=IllegalArgumentException&text=IllegalArgumentException" data-throw-if-not-resolved="False"/>
+    description: <p>This exception is thrown if the object creation failed </p>
   returns:
     description: <p>The ProvisioningConnectionString object </p>
     type: <xref href="com.microsoft.azure.sdk.iot.provisioning.service.auth.ProvisioningConnectionString?alt=com.microsoft.azure.sdk.iot.provisioning.service.auth.ProvisioningConnectionString&text=ProvisioningConnectionString" data-throw-if-not-resolved="False"/>

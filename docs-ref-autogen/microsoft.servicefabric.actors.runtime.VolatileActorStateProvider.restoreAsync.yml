@@ -11,10 +11,10 @@ members:
     name: backupFolderPath
     type: <xref href="String?alt=String&text=String" data-throw-if-not-resolved="False"/>
   exceptions:
-  - name: b1c38b44
+  - type: <xref href="UnsupportedOperationException?alt=UnsupportedOperationException&text=UnsupportedOperationException" data-throw-if-not-resolved="False"/>
   returns:
     description: <p>Task that represents the asynchronous restore operation. </p>
-    type: <xref href="CompletableFuture%3C%3F%3E?alt=CompletableFuture<?>&text=CompletableFuture%3C%3F%3E" data-throw-if-not-resolved="False"/>
+    type: <xref href="CompletableFuture<?>?alt=CompletableFuture<?>&text=CompletableFuture%3C%3F%3E" data-throw-if-not-resolved="False"/>
   summary: <p>Restore a backup taken by <xref uid="" data-throw-if-not-resolved="false">microsoft.servicefabric.data.StateProviderReplica#backupAsync(BiFunction)</xref> or <xref uid="" data-throw-if-not-resolved="false">microsoft.servicefabric.data.StateProviderReplica#backupAsync(BackupOption, Duration, CancellationToken, BiFunction)</xref><b>Remarks:</b>Backup/restore is not supported by <xref uid="microsoft.servicefabric.actors.runtime.VolatileActorStateProvider" data-throw-if-not-resolved="false">VolatileActorStateProvider</xref>. </p>
   syntax: public CompletableFuture<?> restoreAsync(String backupFolderPath)
   uid: microsoft.servicefabric.actors.runtime.VolatileActorStateProvider.restoreAsync(String)
@@ -36,10 +36,10 @@ members:
     name: cancellationToken
     type: <xref href="system.fabric.CancellationToken?alt=system.fabric.CancellationToken&text=CancellationToken" data-throw-if-not-resolved="False"/>
   exceptions:
-  - name: b1c38b44
+  - type: <xref href="UnsupportedOperationException?alt=UnsupportedOperationException&text=UnsupportedOperationException" data-throw-if-not-resolved="False"/>
   returns:
     description: <p>Task that represents the asynchronous restore operation. </p>
-    type: <xref href="CompletableFuture%3C%3F%3E?alt=CompletableFuture<?>&text=CompletableFuture%3C%3F%3E" data-throw-if-not-resolved="False"/>
+    type: <xref href="CompletableFuture<?>?alt=CompletableFuture<?>&text=CompletableFuture%3C%3F%3E" data-throw-if-not-resolved="False"/>
   summary: <p>Restore a backup taken by <xref uid="" data-throw-if-not-resolved="false">microsoft.servicefabric.data.StateProviderReplica#backupAsync(BiFunction)</xref> or <xref uid="" data-throw-if-not-resolved="false">microsoft.servicefabric.data.StateProviderReplica#backupAsync(BackupOption, Duration, CancellationToken, BiFunction)</xref><b>Remarks:</b>Backup/restore is not supported by <xref uid="microsoft.servicefabric.actors.runtime.VolatileActorStateProvider" data-throw-if-not-resolved="false">VolatileActorStateProvider</xref>. </p>
   syntax: public CompletableFuture<?> restoreAsync(String backupFolderPath, RestorePolicy restorePolicy, Duration timeout, CancellationToken cancellationToken)
   uid: microsoft.servicefabric.actors.runtime.VolatileActorStateProvider.restoreAsync(String,RestorePolicy,Duration,CancellationToken)

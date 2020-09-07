@@ -10,7 +10,8 @@ members:
     name: properties
     type: final <xref href="com.microsoft.azure.storage.file.FileServiceProperties?alt=com.microsoft.azure.storage.file.FileServiceProperties&text=FileServiceProperties" data-throw-if-not-resolved="False"/>
   exceptions:
-  - name: ca4f407a
+  - type: <xref href="StorageException?alt=StorageException&text=StorageException" data-throw-if-not-resolved="False"/>
+    description: <p>If a storage service error occurred. </p>
   summary: >-
     <p>Uploads a new <xref uid="com.microsoft.azure.storage.file.FileServiceProperties" data-throw-if-not-resolved="false">FileServiceProperties</xref> configuration to the given storage service. This encapsulates the CORS configurations.</p>
 
@@ -31,7 +32,8 @@ members:
     name: opContext
     type: <xref href="com.microsoft.azure.storage.OperationContext?alt=com.microsoft.azure.storage.OperationContext&text=OperationContext" data-throw-if-not-resolved="False"/>
   exceptions:
-  - name: ca4f407a
+  - type: <xref href="StorageException?alt=StorageException&text=StorageException" data-throw-if-not-resolved="False"/>
+    description: <p>If a storage service error occurred. </p>
   summary: >-
     <p>Uploads a new <xref uid="com.microsoft.azure.storage.file.FileServiceProperties" data-throw-if-not-resolved="false">FileServiceProperties</xref> configuration to the given storage service. This encapsulates the CORS configurations.</p>
 

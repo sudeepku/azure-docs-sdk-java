@@ -21,7 +21,8 @@ members:
     name: fromType
     type: <xref href="com.microsoft.azure.sdk.iot.provisioning.service.configs.QuerySpecificationBuilder.FromType?alt=com.microsoft.azure.sdk.iot.provisioning.service.configs.QuerySpecificationBuilder.FromType&text=QuerySpecificationBuilder.FromType" data-throw-if-not-resolved="False"/>
   exceptions:
-  - name: 3c87bd19
+  - type: <xref href="IllegalArgumentException?alt=IllegalArgumentException&text=IllegalArgumentException" data-throw-if-not-resolved="False"/>
+    description: <p>if one of the provided clauses is invalid. </p>
   summary: >-
     <p>CONSTRUCTOR</p>
 

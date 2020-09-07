@@ -16,7 +16,7 @@ members:
     type: <xref href="Context?alt=Context&text=Context" data-throw-if-not-resolved="False"/>
   - description: <p>Url for resource to query for 401 response. </p>
     name: resourceUrl
-    type: <xref href="final+URL?alt=final URL&text=final+URL" data-throw-if-not-resolved="False"/>
+    type: <xref href="final URL?alt=final URL&text=final+URL" data-throw-if-not-resolved="False"/>
   - description: >-
       <p>
 

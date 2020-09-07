@@ -13,8 +13,10 @@ members:
     name: reportedProperties
     type: Set&lt;<xref href="com.microsoft.azure.sdk.iot.device.DeviceTwin.Property?alt=com.microsoft.azure.sdk.iot.device.DeviceTwin.Property&text=Property" data-throw-if-not-resolved="False"/>&gt;
   exceptions:
-  - name: cbf33bbe
-  - name: 3c87bd19
+  - type: <xref href="IOException?alt=IOException&text=IOException" data-throw-if-not-resolved="False"/>
+    description: <p>if called when client is not opened or called before starting twin. </p>
+  - type: <xref href="IllegalArgumentException?alt=IllegalArgumentException&text=IllegalArgumentException" data-throw-if-not-resolved="False"/>
+    description: <p>if reportedProperties is null or empty. </p>
   summary: >-
     <p>Sends reported properties</p>
 
@@ -35,8 +37,10 @@ members:
     name: version
     type: <xref href="int?alt=int&text=int" data-throw-if-not-resolved="False"/>
   exceptions:
-  - name: cbf33bbe
-  - name: 3c87bd19
+  - type: <xref href="IOException?alt=IOException&text=IOException" data-throw-if-not-resolved="False"/>
+    description: <p>if called when client is not opened or called before starting twin. </p>
+  - type: <xref href="IllegalArgumentException?alt=IllegalArgumentException&text=IllegalArgumentException" data-throw-if-not-resolved="False"/>
+    description: <p>if reportedProperties is null or empty. </p>
   summary: >-
     <p>Sends reported properties</p>
 

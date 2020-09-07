@@ -31,8 +31,10 @@ members:
     name: timeBufferPercentage
     type: <xref href="int?alt=int&text=int" data-throw-if-not-resolved="False"/>
   exceptions:
-  - name: cbf33bbe
-  - name: 848a9648
+  - type: <xref href="IOException?alt=IOException&text=IOException" data-throw-if-not-resolved="False"/>
+    description: <p>If the Hsm unit cannot be reached </p>
+  - type: <xref href="TransportException?alt=TransportException&text=TransportException" data-throw-if-not-resolved="False"/>
+    description: <p>If the Hsm unit cannot be reached </p>
   returns:
     description: <p>the created IotHubSasTokenHsmAuthenticationProvider instance </p>
     type: <xref href="com.microsoft.azure.sdk.iot.device.hsm.IotHubSasTokenHsmAuthenticationProvider?alt=com.microsoft.azure.sdk.iot.device.hsm.IotHubSasTokenHsmAuthenticationProvider&text=IotHubSasTokenHsmAuthenticationProvider" data-throw-if-not-resolved="False"/>

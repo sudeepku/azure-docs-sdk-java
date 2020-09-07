@@ -16,7 +16,8 @@ members:
     name: symmetricKey
     type: <xref href="com.microsoft.azure.sdk.iot.service.auth.SymmetricKey?alt=com.microsoft.azure.sdk.iot.service.auth.SymmetricKey&text=SymmetricKey" data-throw-if-not-resolved="False"/>
   exceptions:
-  - name: 3c87bd19
+  - type: <xref href="IllegalArgumentException?alt=IllegalArgumentException&text=IllegalArgumentException" data-throw-if-not-resolved="False"/>
+    description: <p>This exception is thrown if the encryption method is not supported by the keyGenerator </p>
   summary: >-
     <p>Create an Device instance using the given device name</p>
 

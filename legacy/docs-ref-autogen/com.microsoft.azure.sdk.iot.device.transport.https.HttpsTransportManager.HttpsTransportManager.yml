@@ -10,7 +10,8 @@ members:
     name: config
     type: <xref href="com.microsoft.azure.sdk.iot.device.DeviceClientConfig?alt=com.microsoft.azure.sdk.iot.device.DeviceClientConfig&text=DeviceClientConfig" data-throw-if-not-resolved="False"/>
   exceptions:
-  - name: 3c87bd19
+  - type: <xref href="IllegalArgumentException?alt=IllegalArgumentException&text=IllegalArgumentException" data-throw-if-not-resolved="False"/>
+    description: <p>is the config is null. </p>
   summary: >-
     <p>Constructor</p>
 

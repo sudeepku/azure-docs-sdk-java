@@ -7,8 +7,10 @@ members:
   nameWithType: CloudBlob.getParent()
   overridden: com.microsoft.azure.storage.blob.ListBlobItem.getParent()
   exceptions:
-  - name: ca4f407a
-  - name: "44102508"
+  - type: <xref href="StorageException?alt=StorageException&text=StorageException" data-throw-if-not-resolved="False"/>
+    description: <p>If a storage service error occurred. </p>
+  - type: <xref href="URISyntaxException?alt=URISyntaxException&text=URISyntaxException" data-throw-if-not-resolved="False"/>
+    description: <p>If the resource URI is invalid. </p>
   returns:
     description: <p>A <xref uid="com.microsoft.azure.storage.blob.CloudBlobDirectory" data-throw-if-not-resolved="false">CloudBlobDirectory</xref> object that represents the parent directory for the blob.</p>
     type: final <xref href="com.microsoft.azure.storage.blob.CloudBlobDirectory?alt=com.microsoft.azure.storage.blob.CloudBlobDirectory&text=CloudBlobDirectory" data-throw-if-not-resolved="False"/>

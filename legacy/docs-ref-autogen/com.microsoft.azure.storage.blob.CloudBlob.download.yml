@@ -8,11 +8,12 @@ members:
   parameters:
   - description: <p>An <code><xref uid="" data-throw-if-not-resolved="false">OutputStream</xref></code> object that represents the target stream. </p>
     name: outStream
-    type: <xref href="final+OutputStream?alt=final OutputStream&text=final+OutputStream" data-throw-if-not-resolved="False"/>
+    type: <xref href="final OutputStream?alt=final OutputStream&text=final+OutputStream" data-throw-if-not-resolved="False"/>
   exceptions:
-  - name: ca4f407a
+  - type: <xref href="StorageException?alt=StorageException&text=StorageException" data-throw-if-not-resolved="False"/>
+    description: <p>If a storage service error occurred. </p>
   returns:
-    type: <xref href="final+void?alt=final void&text=final+void" data-throw-if-not-resolved="False"/>
+    type: <xref href="final void?alt=final void&text=final+void" data-throw-if-not-resolved="False"/>
   summary: >-
     <p>Downloads the contents of a blob to a stream.</p>
 
@@ -25,7 +26,7 @@ members:
   parameters:
   - description: <p>An <code>OutputStream</code> object that represents the target stream. </p>
     name: outStream
-    type: <xref href="final+OutputStream?alt=final OutputStream&text=final+OutputStream" data-throw-if-not-resolved="False"/>
+    type: <xref href="final OutputStream?alt=final OutputStream&text=final+OutputStream" data-throw-if-not-resolved="False"/>
   - description: <p>An <xref uid="com.microsoft.azure.storage.AccessCondition" data-throw-if-not-resolved="false">AccessCondition</xref> object that represents the access conditions for the blob. </p>
     name: accessCondition
     type: final <xref href="com.microsoft.azure.storage.AccessCondition?alt=com.microsoft.azure.storage.AccessCondition&text=AccessCondition" data-throw-if-not-resolved="False"/>
@@ -36,9 +37,10 @@ members:
     name: opContext
     type: <xref href="com.microsoft.azure.storage.OperationContext?alt=com.microsoft.azure.storage.OperationContext&text=OperationContext" data-throw-if-not-resolved="False"/>
   exceptions:
-  - name: ca4f407a
+  - type: <xref href="StorageException?alt=StorageException&text=StorageException" data-throw-if-not-resolved="False"/>
+    description: <p>If a storage service error occurred. </p>
   returns:
-    type: <xref href="final+void?alt=final void&text=final+void" data-throw-if-not-resolved="False"/>
+    type: <xref href="final void?alt=final void&text=final+void" data-throw-if-not-resolved="False"/>
   summary: >-
     <p>Downloads the contents of a blob to a stream using the specified request options and operation context.</p>
 

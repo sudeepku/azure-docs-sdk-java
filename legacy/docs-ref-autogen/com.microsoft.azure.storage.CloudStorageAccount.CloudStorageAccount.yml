@@ -10,7 +10,8 @@ members:
     name: storageCredentials
     type: final <xref href="com.microsoft.azure.storage.StorageCredentials?alt=com.microsoft.azure.storage.StorageCredentials&text=StorageCredentials" data-throw-if-not-resolved="False"/>
   exceptions:
-  - name: "44102508"
+  - type: <xref href="URISyntaxException?alt=URISyntaxException&text=URISyntaxException" data-throw-if-not-resolved="False"/>
+    description: <p>If <code>storageCredentials</code> specify an invalid account name. </p>
   summary: >-
     <p>Creates an instance of the  class using the specified account credentials. </p>
 
@@ -33,9 +34,10 @@ members:
 
         <code>true</code> to use HTTPS to connect to the storage service endpoints; otherwise, <code>false</code>.</p>
     name: useHttps
-    type: <xref href="final+boolean?alt=final boolean&text=final+boolean" data-throw-if-not-resolved="False"/>
+    type: <xref href="final boolean?alt=final boolean&text=final+boolean" data-throw-if-not-resolved="False"/>
   exceptions:
-  - name: "44102508"
+  - type: <xref href="URISyntaxException?alt=URISyntaxException&text=URISyntaxException" data-throw-if-not-resolved="False"/>
+    description: <p>If <code>storageCredentials</code> specify an invalid account name. </p>
   summary: >-
     <p>Creates an instance of the  class using the specified account credentials and the default service endpoints, using HTTP or HTTPS as specified. </p>
 
@@ -58,12 +60,13 @@ members:
 
         <code>true</code> to use HTTPS to connect to the storage service endpoints; otherwise, <code>false</code>. </p>
     name: useHttps
-    type: <xref href="final+boolean?alt=final boolean&text=final+boolean" data-throw-if-not-resolved="False"/>
+    type: <xref href="final boolean?alt=final boolean&text=final+boolean" data-throw-if-not-resolved="False"/>
   - description: <p>A String that represents the endpointSuffix to use, if any.</p>
     name: endpointSuffix
-    type: <xref href="final+String?alt=final String&text=final+String" data-throw-if-not-resolved="False"/>
+    type: <xref href="final String?alt=final String&text=final+String" data-throw-if-not-resolved="False"/>
   exceptions:
-  - name: "44102508"
+  - type: <xref href="URISyntaxException?alt=URISyntaxException&text=URISyntaxException" data-throw-if-not-resolved="False"/>
+    description: <p>If <code>storageCredentials</code> specify an invalid account name. </p>
   summary: >-
     <p>Creates an instance of the  class using the specified account credentials. </p>
 
@@ -86,15 +89,16 @@ members:
 
         <code>true</code> to use HTTPS to connect to the storage service endpoints; otherwise, <code>false</code>. </p>
     name: useHttps
-    type: <xref href="final+boolean?alt=final boolean&text=final+boolean" data-throw-if-not-resolved="False"/>
+    type: <xref href="final boolean?alt=final boolean&text=final+boolean" data-throw-if-not-resolved="False"/>
   - description: <p>A String that represents the endpointSuffix to use, if any. </p>
     name: endpointSuffix
-    type: <xref href="final+String?alt=final String&text=final+String" data-throw-if-not-resolved="False"/>
+    type: <xref href="final String?alt=final String&text=final+String" data-throw-if-not-resolved="False"/>
   - description: <p>A <code>String</code> that contains the account name. This will be used in place of a <code>null</code><xref uid="com.microsoft.azure.storage.StorageCredentials.getAccountName()" data-throw-if-not-resolved="false">StorageCredentials#getAccountName()</xref>, but the two must match if both are not <code>null</code>.</p>
     name: accountName
     type: <xref href="String?alt=String&text=String" data-throw-if-not-resolved="False"/>
   exceptions:
-  - name: "44102508"
+  - type: <xref href="URISyntaxException?alt=URISyntaxException&text=URISyntaxException" data-throw-if-not-resolved="False"/>
+    description: <p>If <code>storageCredentials</code> specify an invalid account name. </p>
   summary: >-
     <p>Creates an instance of the  class using the specified account credentials. </p>
 
@@ -169,13 +173,13 @@ members:
     type: final <xref href="com.microsoft.azure.storage.StorageCredentials?alt=com.microsoft.azure.storage.StorageCredentials&text=StorageCredentials" data-throw-if-not-resolved="False"/>
   - description: <p>A <code>java.net.URI</code> object that represents the Blob service endpoint. </p>
     name: blobEndpoint
-    type: <xref href="final+URI?alt=final URI&text=final+URI" data-throw-if-not-resolved="False"/>
+    type: <xref href="final URI?alt=final URI&text=final+URI" data-throw-if-not-resolved="False"/>
   - description: <p>A <code>java.net.URI</code> object that represents the Queue service endpoint. </p>
     name: queueEndpoint
-    type: <xref href="final+URI?alt=final URI&text=final+URI" data-throw-if-not-resolved="False"/>
+    type: <xref href="final URI?alt=final URI&text=final+URI" data-throw-if-not-resolved="False"/>
   - description: <p>A <code>java.net.URI</code> object that represents the Table service endpoint. </p>
     name: tableEndpoint
-    type: <xref href="final+URI?alt=final URI&text=final+URI" data-throw-if-not-resolved="False"/>
+    type: <xref href="final URI?alt=final URI&text=final+URI" data-throw-if-not-resolved="False"/>
   summary: >-
     <p>Creates an instance of the  class using the specified account credentials and service endpoints. </p>
 
@@ -195,16 +199,16 @@ members:
     type: final <xref href="com.microsoft.azure.storage.StorageCredentials?alt=com.microsoft.azure.storage.StorageCredentials&text=StorageCredentials" data-throw-if-not-resolved="False"/>
   - description: <p>A <code>java.net.URI</code> object that represents the Blob service endpoint. </p>
     name: blobEndpoint
-    type: <xref href="final+URI?alt=final URI&text=final+URI" data-throw-if-not-resolved="False"/>
+    type: <xref href="final URI?alt=final URI&text=final+URI" data-throw-if-not-resolved="False"/>
   - description: <p>A <code>java.net.URI</code> object that represents the Queue service endpoint. </p>
     name: queueEndpoint
-    type: <xref href="final+URI?alt=final URI&text=final+URI" data-throw-if-not-resolved="False"/>
+    type: <xref href="final URI?alt=final URI&text=final+URI" data-throw-if-not-resolved="False"/>
   - description: <p>A <code>java.net.URI</code> object that represents the Table service endpoint. </p>
     name: tableEndpoint
-    type: <xref href="final+URI?alt=final URI&text=final+URI" data-throw-if-not-resolved="False"/>
+    type: <xref href="final URI?alt=final URI&text=final+URI" data-throw-if-not-resolved="False"/>
   - description: <p>A <code>java.net.URI</code> object that represents the File service endpoint. </p>
     name: fileEndpoint
-    type: <xref href="final+URI?alt=final URI&text=final+URI" data-throw-if-not-resolved="False"/>
+    type: <xref href="final URI?alt=final URI&text=final+URI" data-throw-if-not-resolved="False"/>
   summary: >-
     <p>Creates an instance of the  class using the specified account credentials and service endpoints. </p>
 

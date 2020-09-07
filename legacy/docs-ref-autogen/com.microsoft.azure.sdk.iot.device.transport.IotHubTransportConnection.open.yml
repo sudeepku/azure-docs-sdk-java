@@ -13,7 +13,8 @@ members:
     name: scheduledExecutorService
     type: <xref href="ScheduledExecutorService?alt=ScheduledExecutorService&text=ScheduledExecutorService" data-throw-if-not-resolved="False"/>
   exceptions:
-  - name: 848a9648
+  - type: <xref href="TransportException?alt=TransportException&text=TransportException" data-throw-if-not-resolved="False"/>
+    description: <p>If any exceptions are encountered while opening the connection </p>
   summary: <p>Opens the transport connection object </p>
   syntax: public void open(Queue<DeviceClientConfig> deviceClientConfigs, ScheduledExecutorService scheduledExecutorService)
   uid: com.microsoft.azure.sdk.iot.device.transport.IotHubTransportConnection.open(Queue<DeviceClientConfig>,ScheduledExecutorService)

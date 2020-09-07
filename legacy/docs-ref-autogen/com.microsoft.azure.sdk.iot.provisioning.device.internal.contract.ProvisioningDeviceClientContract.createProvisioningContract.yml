@@ -10,7 +10,8 @@ members:
     name: provisioningDeviceClientConfig
     type: <xref href="com.microsoft.azure.sdk.iot.provisioning.device.internal.ProvisioningDeviceClientConfig?alt=com.microsoft.azure.sdk.iot.provisioning.device.internal.ProvisioningDeviceClientConfig&text=ProvisioningDeviceClientConfig" data-throw-if-not-resolved="False"/>
   exceptions:
-  - name: 352f005b
+  - type: <xref href="ProvisioningDeviceClientException?alt=ProvisioningDeviceClientException&text=ProvisioningDeviceClientException" data-throw-if-not-resolved="False"/>
+    description: <p>This exception is thrown if the contract implementation could not be instantiated. </p>
   returns:
     description: <p>Implementation of the relevant contract for the requested protocol </p>
     type: <xref href="com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.ProvisioningDeviceClientContract?alt=com.microsoft.azure.sdk.iot.provisioning.device.internal.contract.ProvisioningDeviceClientContract&text=ProvisioningDeviceClientContract" data-throw-if-not-resolved="False"/>

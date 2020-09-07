@@ -13,8 +13,10 @@ members:
     name: thumbprint
     type: <xref href="String?alt=String&text=String" data-throw-if-not-resolved="False"/>
   exceptions:
-  - name: c8683d81
-  - name: cbf33bbe
+  - type: <xref href="BatchErrorException?alt=BatchErrorException&text=BatchErrorException" data-throw-if-not-resolved="False"/>
+    description: <p>Exception thrown when an error response is received from the Batch service. </p>
+  - type: <xref href="IOException?alt=IOException&text=IOException" data-throw-if-not-resolved="False"/>
+    description: <p>Exception thrown when there is an error in serialization/deserialization of data sent to/received from the Batch service. </p>
   summary: >-
     <p>Cancels a failed deletion of the specified certificate. This operation can be performed only when the certificate is in the <xref uid="com.microsoft.azure.batch.protocol.models.CertificateState.DELETE_FAILED" data-throw-if-not-resolved="false">Delete Failed</xref> state, and restores the certificate to the <xref uid="com.microsoft.azure.batch.protocol.models.CertificateState.ACTIVE" data-throw-if-not-resolved="false">Active</xref> state.</p>
 
@@ -35,8 +37,10 @@ members:
     name: additionalBehaviors
     type: Iterable&lt;<xref href="com.microsoft.azure.batch.BatchClientBehavior?alt=com.microsoft.azure.batch.BatchClientBehavior&text=BatchClientBehavior" data-throw-if-not-resolved="False"/>&gt;
   exceptions:
-  - name: c8683d81
-  - name: cbf33bbe
+  - type: <xref href="BatchErrorException?alt=BatchErrorException&text=BatchErrorException" data-throw-if-not-resolved="False"/>
+    description: <p>Exception thrown when an error response is received from the Batch service. </p>
+  - type: <xref href="IOException?alt=IOException&text=IOException" data-throw-if-not-resolved="False"/>
+    description: <p>Exception thrown when there is an error in serialization/deserialization of data sent to/received from the Batch service. </p>
   summary: >-
     <p>Cancels a failed deletion of the specified certificate. This operation can be performed only when the certificate is in the <xref uid="com.microsoft.azure.batch.protocol.models.CertificateState.DELETE_FAILED" data-throw-if-not-resolved="false">Delete Failed</xref> state, and restores the certificate to the <xref uid="com.microsoft.azure.batch.protocol.models.CertificateState.ACTIVE" data-throw-if-not-resolved="false">Active</xref> state.</p>
 

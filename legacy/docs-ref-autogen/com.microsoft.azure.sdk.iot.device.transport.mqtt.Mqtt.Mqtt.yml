@@ -21,7 +21,8 @@ members:
   - name: unacknowledgedSentMessages
     type: Map&lt;Integer, <xref href="com.microsoft.azure.sdk.iot.device.Message?alt=com.microsoft.azure.sdk.iot.device.Message&text=Message" data-throw-if-not-resolved="False"/>&gt;
   exceptions:
-  - name: 3c87bd19
+  - type: <xref href="IllegalArgumentException?alt=IllegalArgumentException&text=IllegalArgumentException" data-throw-if-not-resolved="False"/>
+    description: <p>if the provided mqttConnection is null </p>
   summary: <p>Constructor to instantiate mqtt broker connection. </p>
   syntax: public Mqtt(MqttConnection mqttConnection, IotHubListener listener, MqttMessageListener messageListener, String connectionId, Map<Integer, Message> unacknowledgedSentMessages)
   uid: com.microsoft.azure.sdk.iot.device.transport.mqtt.Mqtt.Mqtt(MqttConnection,IotHubListener,MqttMessageListener,String,Map<Integer, Message>)

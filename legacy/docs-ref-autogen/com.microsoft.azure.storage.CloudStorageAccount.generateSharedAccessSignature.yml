@@ -10,8 +10,10 @@ members:
     name: policy
     type: <xref href="com.microsoft.azure.storage.SharedAccessAccountPolicy?alt=com.microsoft.azure.storage.SharedAccessAccountPolicy&text=SharedAccessAccountPolicy" data-throw-if-not-resolved="False"/>
   exceptions:
-  - name: ca4f407a
-  - name: e333ca4f
+  - type: <xref href="StorageException?alt=StorageException&text=StorageException" data-throw-if-not-resolved="False"/>
+    description: <p>If a storage service error occurred. </p>
+  - type: <xref href="InvalidKeyException?alt=InvalidKeyException&text=InvalidKeyException" data-throw-if-not-resolved="False"/>
+    description: <p>If the key is invalid. </p>
   returns:
     description: <p>The query string returned includes the leading question mark. </p>
     type: <xref href="String?alt=String&text=String" data-throw-if-not-resolved="False"/>

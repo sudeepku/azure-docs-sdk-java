@@ -10,7 +10,8 @@ members:
     name: listingContext
     type: final <xref href="com.microsoft.azure.storage.core.ListingContext?alt=com.microsoft.azure.storage.core.ListingContext&text=ListingContext" data-throw-if-not-resolved="False"/>
   exceptions:
-  - name: ca4f407a
+  - type: <xref href="StorageException?alt=StorageException&text=StorageException" data-throw-if-not-resolved="False"/>
+    description: <p>If a storage service error occurred during the operation. </p>
   returns:
     type: <xref href="com.microsoft.azure.storage.core.UriQueryBuilder?alt=com.microsoft.azure.storage.core.UriQueryBuilder&text=UriQueryBuilder" data-throw-if-not-resolved="False"/>
   summary: >-

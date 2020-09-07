@@ -15,9 +15,12 @@ members:
     name: id
     type: <xref href="String?alt=String&text=String" data-throw-if-not-resolved="False"/>
   exceptions:
-  - name: 3c87bd19
-  - name: 637b6540
-  - name: 407b0ee3
+  - type: <xref href="IllegalArgumentException?alt=IllegalArgumentException&text=IllegalArgumentException" data-throw-if-not-resolved="False"/>
+    description: <p>if the provided parameter is not correct. </p>
+  - type: <xref href="ProvisioningServiceClientTransportException?alt=ProvisioningServiceClientTransportException&text=ProvisioningServiceClientTransportException" data-throw-if-not-resolved="False"/>
+    description: <p>if the SDK failed to send the request to the Device Provisioning Service. </p>
+  - type: <xref href="ProvisioningServiceClientException?alt=ProvisioningServiceClientException&text=ProvisioningServiceClientException" data-throw-if-not-resolved="False"/>
+    description: <p>if the Device Provisioning Service was not able to execute the bulk operation. </p>
   returns:
     description: <p>An <xref uid="" data-throw-if-not-resolved="false">DeviceRegistrationState</xref> with the registration status information. </p>
     type: <xref href="com.microsoft.azure.sdk.iot.provisioning.service.configs.DeviceRegistrationState?alt=com.microsoft.azure.sdk.iot.provisioning.service.configs.DeviceRegistrationState&text=DeviceRegistrationState" data-throw-if-not-resolved="False"/>

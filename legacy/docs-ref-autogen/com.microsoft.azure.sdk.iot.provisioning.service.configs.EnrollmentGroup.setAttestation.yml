@@ -10,7 +10,11 @@ members:
     name: attestation
     type: <xref href="com.microsoft.azure.sdk.iot.provisioning.service.configs.Attestation?alt=com.microsoft.azure.sdk.iot.provisioning.service.configs.Attestation&text=Attestation" data-throw-if-not-resolved="False"/>
   exceptions:
-  - name: 3c87bd19
+  - type: <xref href="IllegalArgumentException?alt=IllegalArgumentException&text=IllegalArgumentException" data-throw-if-not-resolved="False"/>
+    description: >-
+      <p>If the provided attestation mechanism is<code>null 
+
+          </code> or invalid. </p>
   summary: >-
     <p>Setter for the attestation.</p>
 
@@ -32,9 +36,13 @@ members:
     name: attestationMechanism
     type: <xref href="com.microsoft.azure.sdk.iot.provisioning.service.configs.AttestationMechanism?alt=com.microsoft.azure.sdk.iot.provisioning.service.configs.AttestationMechanism&text=AttestationMechanism" data-throw-if-not-resolved="False"/>
   exceptions:
-  - name: 3c87bd19
+  - type: <xref href="IllegalArgumentException?alt=IllegalArgumentException&text=IllegalArgumentException" data-throw-if-not-resolved="False"/>
+    description: >-
+      <p>If the provided attestation mechanism is<code>null 
+
+          </code> . </p>
   returns:
-    type: <xref href="final+void?alt=final void&text=final+void" data-throw-if-not-resolved="False"/>
+    type: <xref href="final void?alt=final void&text=final+void" data-throw-if-not-resolved="False"/>
   summary: >-
     <p>Setter for the attestation.</p>
 

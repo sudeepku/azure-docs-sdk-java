@@ -39,11 +39,12 @@ fields:
   nameWithType: ItemType.NoValue
 - uid: com.azure.cosmos.implementation.query.ItemType.Null
   fullName: com.azure.cosmos.implementation.query.ItemType.Null
-  name: Null
+  name: "Null"
   nameWithType: ItemType.Null
 - uid: com.azure.cosmos.implementation.query.ItemType.Number
   fullName: com.azure.cosmos.implementation.query.ItemType.Number
   name: Number
+  nameWithType: ItemType.Number
   nameWithType: ItemType.Number
 - uid: com.azure.cosmos.implementation.query.ItemType.ObjectNode
   fullName: com.azure.cosmos.implementation.query.ItemType.ObjectNode
