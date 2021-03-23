@@ -7,7 +7,7 @@
                 "packageDownloadUrl": "https://repo1.maven.org/maven2",
                 "packageGroupId": "com.azure",
                 "packageArtifactId": "azure-search-documents",
-                "packageVersion": "11.2.0",
+                "packageVersion": "11.3.0",
                 "inputPath": [],
                 "excludePath": [],
                 "excludepackages": "com.azure.search.implementation:com.azure.search.documents.implementation.converters:com.azure.search.documents.implementation:com.azure.search.documents.implementation.models:com.azure.search.documents.indexes.implementation.models:com.azure.search.documents.implementation.serializer:com.azure.search.documents.implementation.util"
@@ -16,7 +16,7 @@
                 "packageDownloadUrl": "https://repo1.maven.org/maven2",
                 "packageGroupId": "com.azure",
                 "packageArtifactId": "azure-security-keyvault-secrets",
-                "packageVersion": "4.2.5",
+                "packageVersion": "4.2.6",
                 "inputPath": [],
                 "excludePath": [],
                 "excludepackages": "com.azure.security.keyvault.secrets.implementation"
@@ -25,7 +25,7 @@
                 "packageDownloadUrl": "https://repo1.maven.org/maven2",
                 "packageGroupId": "com.azure",
                 "packageArtifactId": "azure-security-keyvault-keys",
-                "packageVersion": "4.2.5",
+                "packageVersion": "4.2.6",
                 "inputPath": [],
                 "excludePath": [],
                 "excludepackages": "com.azure.security.keyvault.keys.implementation"
@@ -34,7 +34,7 @@
                 "packageDownloadUrl": "https://repo1.maven.org/maven2",
                 "packageGroupId": "com.azure",
                 "packageArtifactId": "azure-security-keyvault-certificates",
-                "packageVersion": "4.1.5",
+                "packageVersion": "4.1.6",
                 "inputPath": [],
                 "excludePath": [],
                 "excludepackages": "com.azure.security.keyvault.certificates.implementation"
@@ -43,7 +43,7 @@
                 "packageDownloadUrl": "https://repo1.maven.org/maven2",
                 "packageGroupId": "com.azure",
                 "packageArtifactId": "azure-storage-blob",
-                "packageVersion": "12.10.0",
+                "packageVersion": "12.10.1",
                 "inputPath": [],
                 "excludePath": [],
                 "excludepackages": "com.azure.storage.blob.implementation:com.azure.storage.blob.implementation.models:com.azure.storage.blob.implementation.util"
@@ -78,7 +78,7 @@
                 "packageDownloadUrl": "https://repo1.maven.org/maven2",
                 "packageGroupId": "com.azure",
                 "packageArtifactId": "azure-storage-file-datalake",
-                "packageVersion": "12.4.0",
+                "packageVersion": "12.4.1",
                 "inputPath": [],
                 "excludePath": [],
                 "excludepackages": "com.azure.storage.file.datalake.implementation:com.azure.storage.file.datalake.implementation.util:com.azure.storage.file.datalake.implementation.models"
@@ -95,7 +95,7 @@
                 "packageDownloadUrl": "https://repo1.maven.org/maven2",
                 "packageGroupId": "com.azure",
                 "packageArtifactId": "azure-storage-common",
-                "packageVersion": "12.10.0",
+                "packageVersion": "12.10.1",
                 "inputPath": [],
                 "excludePath": [],
                 "excludepackages": "com.azure.storage.common.implementation:com.azure.storage.common.implementation.connectionstring:com.azure.storage.common.implementation.credentials:com.azure.storage.common.implementation.policy"
@@ -104,7 +104,7 @@
                 "packageDownloadUrl": "https://repo1.maven.org/maven2",
                 "packageGroupId": "com.azure",
                 "packageArtifactId": "azure-core",
-                "packageVersion": "1.14.0",
+                "packageVersion": "1.14.1",
                 "inputPath": [],
                 "excludePath": [],
                 "excludepackages": "com.azure.core.implementation:com.azure.core.util.polling.implementation:com.azure.core.implementation.annotation:com.azure.core.implementation.serializer.jsonwrapper.api:com.azure.core.implementation.exception:com.azure.core.implementation.http:com.azure.core.implementation.serializer.jsonwrapper.jacksonwrapper:com.azure.core.implementation.serializer.jsonwrapper:com.azure.core.implementation.logging:com.azure.core.implementation.serializer:com.azure.core.implementation.serializer.jsonwrapper.spi"
@@ -131,7 +131,7 @@
                 "packageDownloadUrl": "https://repo1.maven.org/maven2",
                 "packageGroupId": "com.azure",
                 "packageArtifactId": "azure-messaging-eventhubs",
-                "packageVersion": "5.5.0",
+                "packageVersion": "5.6.0",
                 "inputPath": [],
                 "excludePath": [],
                 "excludepackages": "com.azure.messaging.eventhubs.implementation"
@@ -140,7 +140,7 @@
                 "packageDownloadUrl": "https://repo1.maven.org/maven2",
                 "packageGroupId": "com.azure",
                 "packageArtifactId": "azure-messaging-eventhubs-checkpointstore-blob",
-                "packageVersion": "1.5.0",
+                "packageVersion": "1.5.1",
                 "inputPath": [],
                 "excludePath": []
             },
@@ -157,7 +157,7 @@
                 "packageDownloadUrl": "https://repo1.maven.org/maven2",
                 "packageGroupId": "com.azure",
                 "packageArtifactId": "azure-cosmos",
-                "packageVersion": "4.12.0",
+                "packageVersion": "4.13.1",
                 "inputPath": [],
                 "excludePath": [],
                 "excludepackages": "com.azure.cosmos.implementation:com.azure.cosmos.implementation.changefeed.implementation:com.azure.cosmos.implementation.query.aggregation:com.azure.cosmos.implementation.guava25.base:com.azure.cosmos.implementation.apachecommons.lang.builder:com.azure.cosmos.implementation.caches:com.azure.cosmos.implementation.changefeed:com.azure.cosmos.implementation.guava25.collect:com.azure.cosmos.implementation.apachecommons.collections:com.azure.cosmos.implementation.apachecommons.collections.comparators:com.azure.cosmos.implementation.directconnectivity:com.azure.cosmos.implementation.guava25.escape:com.azure.cosmos.implementation.apachecommons.lang.exception:com.azure.cosmos.implementation.changefeed.exceptions:com.azure.cosmos.implementation.uuid.ext:com.azure.cosmos.implementation.guava27:com.azure.cosmos.implementation.http:com.azure.cosmos.implementation.uuid.impl:com.azure.cosmos.implementation.guava25.base.internal:com.azure.cosmos.implementation.apachecommons.collections.iterators:com.azure.cosmos.implementation.apachecommons.collections.list.iterators:com.azure.cosmos.implementation.apachecommons.collections.keyvalue:com.azure.cosmos.implementation.apachecommons.lang:com.azure.cosmos.implementation.apachecommons.collections.list:com.azure.cosmos.implementation.apachecommons.collections.map:com.azure.cosmos.implementation.apachecommons.lang.math:com.azure.cosmos.implementation.guava25.math:com.azure.cosmos.implementation.query.metrics:com.azure.cosmos.implementation.guava25.net:com.azure.cosmos.implementation.query.orderbyquery:com.azure.cosmos.implementation.guava25.primitives:com.azure.cosmos.implementation.query:com.azure.cosmos.implementation.directconnectivity.rntbd:com.azure.cosmos.implementation.routing:com.azure.cosmos.implementation.apachecommons.collections.set:com.azure.cosmos.implementation.apachecommons.text:com.azure.cosmos.implementation.apachecommons.lang.time:com.azure.cosmos.implementation.apachecommons.text.translate:com.azure.cosmos.implementation.apachecommons.lang.tuple:com.azure.cosmos.implementation.uuid"
@@ -722,7 +722,7 @@
             },
             {
                 "packageArtifactId": "azure-spring-data-cosmos",
-                "packageVersion": "3.4.0",
+                "packageVersion": "3.5.0",
                 "packageGroupId": "com.azure",
                 "inputPath": [],
                 "excludePath": [],
@@ -961,7 +961,7 @@
                 "excludepackages": "com.azure.messaging.servicebus.implementation:com.azure.messaging.servicebus.implementation.models"
             },
             {
-                "packageVersion": "3.2.0",
+                "packageVersion": "3.3.0",
                 "excludePath": [],
                 "packageGroupId": "com.azure.spring",
                 "packageArtifactId": "azure-spring-boot",
@@ -985,7 +985,7 @@
                 "packageArtifactId": "azure-spring-cloud-stream-binder-eventhubs"
             },
             {
-                "packageVersion": "2.2.0",
+                "packageVersion": "2.3.0",
                 "packageArtifactId": "azure-spring-integration-servicebus",
                 "packageDownloadUrl": "https://repo1.maven.org/maven2",
                 "inputPath": [],
@@ -1005,14 +1005,14 @@
                 "packageArtifactId": "azure-spring-cloud-telemetry",
                 "packageGroupId": "com.azure.spring",
                 "packageDownloadUrl": "https://repo1.maven.org/maven2",
-                "packageVersion": "2.2.0",
+                "packageVersion": "2.3.0",
                 "inputPath": []
             },
             {
                 "packageArtifactId": "azure-spring-integration-core",
                 "packageGroupId": "com.azure.spring",
                 "inputPath": [],
-                "packageVersion": "2.2.0",
+                "packageVersion": "2.3.0",
                 "packageDownloadUrl": "https://repo1.maven.org/maven2",
                 "excludePath": []
             },
@@ -1030,13 +1030,13 @@
                 "inputPath": [],
                 "packageDownloadUrl": "https://repo1.maven.org/maven2",
                 "packageGroupId": "com.azure.spring",
-                "packageVersion": "2.2.0"
+                "packageVersion": "2.3.0"
             },
             {
                 "packageDownloadUrl": "https://repo1.maven.org/maven2",
                 "excludePath": [],
                 "packageGroupId": "com.azure.spring",
-                "packageVersion": "2.2.0",
+                "packageVersion": "2.3.0",
                 "packageArtifactId": "azure-spring-integration-eventhubs",
                 "inputPath": []
             },
@@ -1044,7 +1044,7 @@
                 "packageGroupId": "com.azure.spring",
                 "inputPath": [],
                 "packageArtifactId": "azure-spring-cloud-stream-binder-servicebus-core",
-                "packageVersion": "2.2.0",
+                "packageVersion": "2.3.0",
                 "packageDownloadUrl": "https://repo1.maven.org/maven2",
                 "excludePath": []
             },
@@ -1069,7 +1069,7 @@
                 "inputPath": [],
                 "packageArtifactId": "azure-spring-integration-storage-queue",
                 "excludePath": [],
-                "packageVersion": "2.2.0",
+                "packageVersion": "2.3.0",
                 "packageGroupId": "com.azure.spring"
             },
             {
@@ -1092,7 +1092,7 @@
                 "packageDownloadUrl": "https://repo1.maven.org/maven2",
                 "packageGroupId": "com.azure.spring",
                 "packageArtifactId": "azure-spring-cloud-stream-binder-test",
-                "packageVersion": "2.2.0",
+                "packageVersion": "2.3.0",
                 "excludePath": [],
                 "inputPath": []
             },
@@ -1108,7 +1108,7 @@
                 "packageDownloadUrl": "https://repo1.maven.org/maven2",
                 "packageGroupId": "com.azure.spring",
                 "packageArtifactId": "azure-identity-spring",
-                "packageVersion": "1.2.0",
+                "packageVersion": "1.3.0",
                 "inputPath": [],
                 "excludePath": []
             },
@@ -1146,6 +1146,38 @@
                 "inputPath": [],
                 "packageArtifactId": "azure-mixedreality-authentication",
                 "excludePath": []
+            },
+            {
+                "packageArtifactId": "azure-mixedreality-remoterendering",
+                "excludePath": [],
+                "packageGroupId": "com.azure",
+                "packageDownloadUrl": "https://repo1.maven.org/maven2",
+                "inputPath": [],
+                "packageVersion": "1.0.0"
+            },
+            {
+                "packageGroupId": "com.azure",
+                "excludePath": [],
+                "inputPath": [],
+                "packageVersion": "4.0.0",
+                "packageArtifactId": "azure-messaging-eventgrid",
+                "packageDownloadUrl": "https://repo1.maven.org/maven2"
+            },
+            {
+                "packageArtifactId": "spring-cloud-azure-appconfiguration-config",
+                "excludePath": [],
+                "inputPath": [],
+                "packageGroupId": "com.microsoft.azure",
+                "packageDownloadUrl": "https://repo1.maven.org/maven2",
+                "packageVersion": "1.2.9"
+            },
+            {
+                "packageVersion": "1.2.9",
+                "packageArtifactId": "spring-cloud-starter-azure-appconfiguration-config",
+                "excludePath": [],
+                "inputPath": [],
+                "packageDownloadUrl": "https://repo1.maven.org/maven2",
+                "packageGroupId": "com.microsoft.azure"
             }
         ]
     },
@@ -1192,7 +1224,7 @@
                 "packageDownloadUrl": "https://repo1.maven.org/maven2",
                 "packageGroupId": "com.azure",
                 "packageArtifactId": "azure-identity",
-                "packageVersion": "1.3.0-beta.1",
+                "packageVersion": "1.3.0-beta.2",
                 "inputPath": [],
                 "excludePath": [],
                 "excludepackages": "com.azure.identity.implementation:com.azure.identity.implementation.msalextensions.cachepersister:com.azure.identity.implementation.msalextensions:com.azure.identity.implementation.util:com.azure.identity.implementation.msalextensions.cachepersister.windows"
@@ -1246,7 +1278,7 @@
                 "packageDownloadUrl": "https://repo1.maven.org/maven2",
                 "packageGroupId": "com.azure",
                 "packageArtifactId": "azure-security-keyvault-keys",
-                "packageVersion": "4.3.0-beta.4",
+                "packageVersion": "4.3.0-beta.5",
                 "inputPath": [],
                 "excludePath": [],
                 "excludepackages": "com.azure.security.keyvault.keys.implementation"
@@ -1255,7 +1287,7 @@
                 "packageDownloadUrl": "https://repo1.maven.org/maven2",
                 "packageGroupId": "com.azure",
                 "packageArtifactId": "azure-security-keyvault-certificates",
-                "packageVersion": "4.2.0-beta.3",
+                "packageVersion": "4.2.0-beta.4",
                 "inputPath": [],
                 "excludePath": [],
                 "excludepackages": "com.azure.security.keyvault.certificates.implementation"
@@ -1264,7 +1296,7 @@
                 "packageDownloadUrl": "https://repo1.maven.org/maven2",
                 "packageGroupId": "com.azure",
                 "packageArtifactId": "azure-security-keyvault-secrets",
-                "packageVersion": "4.3.0-beta.3",
+                "packageVersion": "4.3.0-beta.4",
                 "inputPath": [],
                 "excludePath": [],
                 "excludepackages": "com.azure.security.keyvault.secrets.implementation"
@@ -1522,7 +1554,7 @@
                 "packageDownloadUrl": "https://repo1.maven.org/maven2",
                 "packageGroupId": "com.azure",
                 "packageArtifactId": "azure-security-keyvault-administration",
-                "packageVersion": "4.0.0-beta.4",
+                "packageVersion": "4.0.0-beta.5",
                 "inputPath": [],
                 "excludePath": [],
                 "excludepackages": "com.azure.security.keyvault.administration.implementation.models"
@@ -1531,7 +1563,7 @@
                 "packageGroupId": "com.azure",
                 "packageDownloadUrl": "https://repo1.maven.org/maven2",
                 "packageArtifactId": "azure-data-tables",
-                "packageVersion": "12.0.0-beta.4",
+                "packageVersion": "12.0.0-beta.5",
                 "inputPath": [],
                 "excludePath": [],
                 "excludepackages": "com.azure.data.tables.implementation:com.azure.data.tables.implementation.models"
@@ -1556,7 +1588,7 @@
             {
                 "excludePath": [],
                 "packageDownloadUrl": "https://repo1.maven.org/maven2",
-                "packageVersion": "1.0.0-beta.3",
+                "packageVersion": "1.0.0-beta.4",
                 "packageArtifactId": "azure-communication-sms",
                 "packageGroupId": "com.azure",
                 "excludepackages": "com.azure.communication.sms.implementation"
@@ -1574,7 +1606,7 @@
                 "packageDownloadUrl": "https://repo1.maven.org/maven2",
                 "packageArtifactId": "azure-communication-common",
                 "excludePath": [],
-                "packageVersion": "1.0.0-beta.5",
+                "packageVersion": "1.0.0-beta.6",
                 "inputPath": []
             },
             {
@@ -1926,7 +1958,7 @@
             {
                 "packageArtifactId": "azure-analytics-synapse-artifacts",
                 "packageGroupId": "com.azure",
-                "packageVersion": "1.0.0-beta.2",
+                "packageVersion": "1.0.0-beta.3",
                 "inputPath": [],
                 "packageDownloadUrl": "https://repo1.maven.org/maven2",
                 "excludePath": []
@@ -1952,13 +1984,13 @@
                 "inputPath": [],
                 "excludePath": [],
                 "packageDownloadUrl": "https://repo1.maven.org/maven2",
-                "packageVersion": "1.0.0-beta.3",
+                "packageVersion": "1.0.0-beta.4",
                 "packageArtifactId": "azure-monitor-opentelemetry-exporter"
             },
             {
                 "packageDownloadUrl": "https://repo1.maven.org/maven2",
                 "packageArtifactId": "azure-resourcemanager-netapp",
-                "packageVersion": "1.0.0-beta.1",
+                "packageVersion": "1.0.0-beta.2",
                 "excludePath": [],
                 "packageGroupId": "com.azure.resourcemanager",
                 "inputPath": [],
@@ -2028,7 +2060,7 @@
             {
                 "excludePath": [],
                 "inputPath": [],
-                "packageVersion": "1.0.0-beta.5",
+                "packageVersion": "1.0.0-beta.6",
                 "packageGroupId": "com.azure",
                 "packageDownloadUrl": "https://repo1.maven.org/maven2",
                 "packageArtifactId": "azure-communication-chat"
@@ -2040,6 +2072,57 @@
                 "packageArtifactId": "azure-iot-deviceupdate",
                 "packageVersion": "1.0.0-beta.1",
                 "packageDownloadUrl": "https://repo1.maven.org/maven2"
+            },
+            {
+                "inputPath": [],
+                "packageGroupId": "com.azure.resourcemanager",
+                "packageArtifactId": "azure-resourcemanager-datadog",
+                "packageDownloadUrl": "https://repo1.maven.org/maven2",
+                "excludePath": [],
+                "packageVersion": "1.0.0-beta.1",
+                "excludepackages": "com.azure.resourcemanager.datadog.implementation"
+            },
+            {
+                "packageVersion": "1.0.0-beta.6",
+                "packageArtifactId": "azure-communication-phonenumbers",
+                "packageGroupId": "com.azure",
+                "packageDownloadUrl": "https://repo1.maven.org/maven2",
+                "excludePath": [],
+                "inputPath": []
+            },
+            {
+                "excludePath": [],
+                "packageGroupId": "com.azure",
+                "packageArtifactId": "azure-communication-identity",
+                "inputPath": [],
+                "packageDownloadUrl": "https://repo1.maven.org/maven2",
+                "packageVersion": "1.0.0-beta.6"
+            },
+            {
+                "inputPath": [],
+                "packageDownloadUrl": "https://repo1.maven.org/maven2",
+                "excludePath": [],
+                "packageArtifactId": "azure-security-keyvault-jca",
+                "packageGroupId": "com.azure",
+                "packageVersion": "1.0.0-beta.5"
+            },
+            {
+                "packageDownloadUrl": "https://repo1.maven.org/maven2",
+                "packageArtifactId": "azure-resourcemanager-communication",
+                "packageGroupId": "com.azure.resourcemanager",
+                "inputPath": [],
+                "packageVersion": "1.0.0-beta.1",
+                "excludePath": [],
+                "excludepackages": "com.azure.resourcemanager.communication.implementation"
+            },
+            {
+                "packageArtifactId": "azure-resourcemanager-apimanagement",
+                "packageVersion": "1.0.0-beta.1",
+                "inputPath": [],
+                "excludePath": [],
+                "packageDownloadUrl": "https://repo1.maven.org/maven2",
+                "packageGroupId": "com.azure.resourcemanager",
+                "excludepackages": "com.azure.resourcemanager.apimanagement.implementation"
             }
         ]
     }
